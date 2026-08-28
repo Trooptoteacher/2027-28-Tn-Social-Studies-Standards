@@ -1,0 +1,423 @@
+{
+  "standardsYear": "2027-28",
+  "document": "Tennessee Social Studies Standards",
+  "sourceFile": "source/TN-Social-Studies-Standards-2027-28.pdf",
+  "courseCount": 20,
+  "standardCount": 1012,
+  "courses": [
+    {
+      "course": "grade-01",
+      "title": "First Grade Social Studies",
+      "level": "Elementary",
+      "standardsPrefix": "1",
+      "file": "standards/grade-01.json",
+      "standardCount": 24,
+      "geoCount": 0,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": false,
+      "codeRange": [
+        "1.01",
+        "1.24"
+      ],
+      "sourcePages": [
+        27,
+        34
+      ]
+    },
+    {
+      "course": "grade-02",
+      "title": "Second Grade Social Studies",
+      "level": "Elementary",
+      "standardsPrefix": "2",
+      "file": "standards/grade-02.json",
+      "standardCount": 28,
+      "geoCount": 0,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": false,
+      "codeRange": [
+        "2.01",
+        "2.28"
+      ],
+      "sourcePages": [
+        35,
+        43
+      ]
+    },
+    {
+      "course": "grade-03",
+      "title": "Third Grade Social Studies",
+      "level": "Elementary",
+      "standardsPrefix": "3",
+      "file": "standards/grade-03.json",
+      "standardCount": 33,
+      "geoCount": 23,
+      "tcaCount": 5,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "3.01",
+        "3.33"
+      ],
+      "sourcePages": [
+        44,
+        53
+      ]
+    },
+    {
+      "course": "grade-04",
+      "title": "Fourth Grade Social Studies",
+      "level": "Elementary",
+      "standardsPrefix": "4",
+      "file": "standards/grade-04.json",
+      "standardCount": 43,
+      "geoCount": 27,
+      "tcaCount": 5,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "4.01",
+        "4.43"
+      ],
+      "sourcePages": [
+        54,
+        66
+      ]
+    },
+    {
+      "course": "grade-05",
+      "title": "Fifth Grade Social Studies",
+      "level": "Elementary",
+      "standardsPrefix": "5",
+      "file": "standards/grade-05.json",
+      "standardCount": 46,
+      "geoCount": 33,
+      "tcaCount": 8,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "5.01",
+        "5.46"
+      ],
+      "sourcePages": [
+        67,
+        79
+      ]
+    },
+    {
+      "course": "kindergarten",
+      "title": "Kindergarten Social Studies",
+      "level": "Elementary",
+      "standardsPrefix": "K",
+      "file": "standards/kindergarten.json",
+      "standardCount": 18,
+      "geoCount": 0,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": false,
+      "codeRange": [
+        "K.01",
+        "K.18"
+      ],
+      "sourcePages": [
+        20,
+        26
+      ]
+    },
+    {
+      "course": "grade-06",
+      "title": "Sixth Grade Social Studies",
+      "level": "Middle",
+      "standardsPrefix": "6",
+      "file": "standards/grade-06.json",
+      "standardCount": 62,
+      "geoCount": 45,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "6.01",
+        "6.62"
+      ],
+      "sourcePages": [
+        80,
+        98
+      ]
+    },
+    {
+      "course": "grade-07",
+      "title": "Seventh Grade Social Studies",
+      "level": "Middle",
+      "standardsPrefix": "7",
+      "file": "standards/grade-07.json",
+      "standardCount": 65,
+      "geoCount": 58,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "7.01",
+        "7.65"
+      ],
+      "sourcePages": [
+        99,
+        115
+      ]
+    },
+    {
+      "course": "grade-08",
+      "title": "Eighth Grade Social Studies",
+      "level": "Middle",
+      "standardsPrefix": "8",
+      "file": "standards/grade-08.json",
+      "standardCount": 74,
+      "geoCount": 39,
+      "tcaCount": 10,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "8.01",
+        "8.74"
+      ],
+      "sourcePages": [
+        116,
+        133
+      ]
+    },
+    {
+      "course": "african-american-history",
+      "title": "African American History",
+      "level": "High School",
+      "standardsPrefix": "AAH",
+      "file": "standards/african-american-history.json",
+      "standardCount": 56,
+      "geoCount": 25,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "AAH.01",
+        "AAH.56"
+      ],
+      "sourcePages": [
+        134,
+        146
+      ]
+    },
+    {
+      "course": "ancient-history",
+      "title": "Ancient History",
+      "level": "High School",
+      "standardsPrefix": "AH",
+      "file": "standards/ancient-history.json",
+      "standardCount": 60,
+      "geoCount": 45,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "AH.01",
+        "AH.60"
+      ],
+      "sourcePages": [
+        147,
+        158
+      ]
+    },
+    {
+      "course": "contemporary-issues",
+      "title": "Contemporary Issues",
+      "level": "High School",
+      "standardsPrefix": "CI",
+      "file": "standards/contemporary-issues.json",
+      "standardCount": 22,
+      "geoCount": 15,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "CI.01",
+        "CI.22"
+      ],
+      "sourcePages": [
+        159,
+        166
+      ]
+    },
+    {
+      "course": "economics",
+      "title": "Economics",
+      "level": "High School",
+      "standardsPrefix": "E",
+      "file": "standards/economics.json",
+      "standardCount": 47,
+      "geoCount": 9,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "E.01",
+        "E.47"
+      ],
+      "sourcePages": [
+        167,
+        175
+      ]
+    },
+    {
+      "course": "psychology",
+      "title": "Psychology",
+      "level": "High School",
+      "standardsPrefix": "P",
+      "file": "standards/psychology.json",
+      "standardCount": 61,
+      "geoCount": 0,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": false,
+      "codeRange": [
+        "P.01",
+        "P.61"
+      ],
+      "sourcePages": [
+        176,
+        187
+      ]
+    },
+    {
+      "course": "sociology",
+      "title": "Sociology",
+      "level": "High School",
+      "standardsPrefix": "S",
+      "file": "standards/sociology.json",
+      "standardCount": 43,
+      "geoCount": 13,
+      "tcaCount": 1,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "S.01",
+        "S.43"
+      ],
+      "sourcePages": [
+        188,
+        196
+      ]
+    },
+    {
+      "course": "tennessee-history",
+      "title": "Tennessee History",
+      "level": "High School",
+      "standardsPrefix": "TN",
+      "file": "standards/tennessee-history.json",
+      "standardCount": 67,
+      "geoCount": 35,
+      "tcaCount": 6,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "TN.01",
+        "TN.67"
+      ],
+      "sourcePages": [
+        197,
+        210
+      ]
+    },
+    {
+      "course": "us-government-civics",
+      "title": "United States Government and Civics",
+      "level": "High School",
+      "standardsPrefix": "GC",
+      "file": "standards/us-government-civics.json",
+      "standardCount": 47,
+      "geoCount": 4,
+      "tcaCount": 1,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "GC.01",
+        "GC.47"
+      ],
+      "sourcePages": [
+        211,
+        221
+      ]
+    },
+    {
+      "course": "us-history-geography",
+      "title": "United States History and Geography",
+      "level": "High School",
+      "standardsPrefix": "US",
+      "file": "standards/us-history-geography.json",
+      "standardCount": 94,
+      "geoCount": 50,
+      "tcaCount": 18,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "US.01",
+        "US.94"
+      ],
+      "sourcePages": [
+        222,
+        242
+      ]
+    },
+    {
+      "course": "world-geography",
+      "title": "World Geography",
+      "level": "High School",
+      "standardsPrefix": "WG",
+      "file": "standards/world-geography.json",
+      "standardCount": 46,
+      "geoCount": 46,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "WG.01",
+        "WG.46"
+      ],
+      "sourcePages": [
+        243,
+        253
+      ]
+    },
+    {
+      "course": "world-history-geography",
+      "title": "World History and Geography",
+      "level": "High School",
+      "standardsPrefix": "W",
+      "file": "standards/world-history-geography.json",
+      "standardCount": 76,
+      "geoCount": 72,
+      "tcaCount": 0,
+      "practiceCount": 6,
+      "hasContentStrand": true,
+      "codeRange": [
+        "W.01",
+        "W.76"
+      ],
+      "sourcePages": [
+        254,
+        269
+      ]
+    }
+  ],
+  "documentAnomalies": [
+    {
+      "course": "grade-05",
+      "code": "5.18",
+      "page": 72,
+      "issue": "Content Strand punctuation typo in the source PDF: 'C. H.P, T'"
+    },
+    {
+      "course": "tennessee-history",
+      "code": "TN.03",
+      "page": 200,
+      "issue": "Content Strand punctuation typo in the source PDF: 'C. E, G, H, P, T'"
+    }
+  ]
+}

@@ -1,0 +1,1692 @@
+{
+  "course": "us-history-geography",
+  "title": "United States History and Geography",
+  "printedTitle": "UNITED STATES HISTORY AND GEOGRAPHY",
+  "level": "High School",
+  "standardsPrefix": "US",
+  "standardsYear": "2027-28",
+  "description": "Students will examine the causes and consequences of the Industrial Revolution and the United States’ growing role in world diplomatic relations, including the Spanish-American War and World War I. Students will study the goals and accomplishments of the Progressive movement and the New Deal. Students will also learn about the various factors that led to our nation’s entry into World War II, as well as the consequences for American life. Students will explore the causes and course of the Cold War. Students will study the important social, cultural, economic, and political changes that have shaped the modern-day United States resulting from the Civil Rights Movement, Cold War, and recent events and trends. Additionally, students will learn about the causes and consequences of contemporary issues impacting the world today. Students will continue to use skills for historical and geographical analysis as they examine U.S. history after Reconstruction, with special attention to Tennessee connections in history, geography, politics, and people. Students will continue to learn fundamental concepts in civics, economics, and geography within the context of U.S. history. The reading of primary source documents is a key feature of the U.S. history course. Specific primary sources have been embedded within the standards for depth and clarity. Finally, students will focus on current human and physical geographic issues important in the contemporary U.S. and global society. This course will place Tennessee history, government, and geography in context with U.S. history in order to illustrate the role our state has played in our nation’s history. This course is the second of a two-year survey of U.S. history and geography, continuing from 8th grade’s study of U.S. history and geography. This course can be used for compliance with T.C.A. § 49-6-1028, in which all districts must ensure that a project-based civics assessment is given at least once in grades 4–8 and once in grades 9–12.",
+  "source": {
+    "document": "Tennessee Social Studies Standards",
+    "file": "TN-Social-Studies-Standards-2027-28.pdf",
+    "pages": [
+      222,
+      242
+    ]
+  },
+  "provenance": "Official TDOE PDF — verbatim",
+  "practices": [
+    {
+      "code": "SSP.01",
+      "text": "Collect data and information from a variety of primary and secondary sources, including: • Printed materials • Graphic representations • Field observations/Landscape analysis • Artifacts • Media and technology sources • Oral History"
+    },
+    {
+      "code": "SSP.02",
+      "text": "Critically examine a primary or secondary source in order to: • Extract, summarize, and paraphrase significant ideas and relevant information • Discern differences between evidence and assertion • Recognize the significance of author’s purpose, point of view, and bias • Draw logical inferences and conclusions • Assess the strengths and limitations of arguments"
+    },
+    {
+      "code": "SSP.03",
+      "text": "Synthesize data from a variety of sources in order to: • Establish accuracy and validity by comparing sources to each other • Recognize disparities among multiple accounts • Frame appropriate questions for further investigation"
+    },
+    {
+      "code": "SSP.04",
+      "text": "Construct and communicate arguments by citing supporting evidence to: • Demonstrate and defend an understanding of ideas • Compare and contrast viewpoints • Illustrate cause and effect • Predict likely outcomes • Devise new outcomes or solutions • Engage in appropriate civic discourse"
+    },
+    {
+      "code": "SSP.05",
+      "text": "Develop historical awareness by: • Recognizing how and why historical accounts change over time • Perceiving and presenting past events and issues as they might have been experienced by the people of the time, with historical empathy vs. present- mindedness • Evaluating how unique circumstances of time and place create context and contribute to action and reaction • Identifying patterns of continuity and change over time, making connections to the present"
+    },
+    {
+      "code": "SSP.06",
+      "text": "Develop geographic awareness by: • Analyzing and determining the use of diverse types of maps based on the origin, authority, structure, context, and validity • Using the geographic perspective to analyze relationships, patterns, and diffusion across space at multiple scales • Analyzing locations, conditions, and connections of places and using maps to investigate spatial associations among phenomena • Examining how geographers use regions and how perceptions of regions are fluid across time and space • Analyzing interaction between humans and the physical environment"
+    }
+  ],
+  "standardCount": 94,
+  "geoCount": 50,
+  "tcaCount": 18,
+  "hasContentStrand": true,
+  "standards": [
+    {
+      "code": "US.01",
+      "text": "Summarize the major events of Reconstruction, and explain the impact of the Compromise of 1877, including the founding of the Ku Klux Klan and lynching.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "T",
+        "TCA"
+      ],
+      "strandRaw": "C, G, H, P, T, TCA",
+      "geo": true,
+      "tca": true,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Reconstruction",
+      "sourcePage": 225
+    },
+    {
+      "code": "US.02",
+      "text": "Identify the rights provided by the 14th and 15th amendments, and analyze the efforts to resist them, including Jim Crow laws, disenfranchisement methods, and the Plessy v. Ferguson decision. (T.C.A. § 49 -6-1006)",
+      "strand": [
+        "H",
+        "P",
+        "TCA"
+      ],
+      "strandRaw": "H, P, TCA",
+      "geo": false,
+      "tca": true,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Reconstruction",
+      "sourcePage": 225
+    },
+    {
+      "code": "US.03",
+      "text": "Summarize the efforts of Benjamin \"Pap\" Singleton and the Exodusters.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "T",
+        "TCA"
+      ],
+      "strandRaw": "C, G, H, P, T, TCA",
+      "geo": true,
+      "tca": true,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Reconstruction",
+      "sourcePage": 225
+    },
+    {
+      "code": "US.04",
+      "text": "Explain how the Homestead Act and the Transcontinental Railroad impacted the settlement and physical landscape of the West.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Westward Expansion",
+      "sourcePage": 225
+    },
+    {
+      "code": "US.05",
+      "text": "Examine federal policies toward American Indians, including the movement to reservations, assimilation, boarding schools, and the Dawes Act.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, G, H, P, T",
+      "geo": true,
+      "tca": false,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Westward Expansion",
+      "sourcePage": 225
+    },
+    {
+      "code": "US.06",
+      "text": "Explain the characteristics and impact of the Granger movement and populism, emphasizing the conflicts between farmers and the railroads (i.e., credit mobilier and Interstate Commerce Act).",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Westward Expansion",
+      "sourcePage": 225
+    },
+    {
+      "code": "US.07",
+      "text": "Describe the differences between “old” and “new” immigrants, including: • Urbanization • Angel Island • Ellis Island • Push-pull factors • Ethnic clusters",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Gilded Age",
+      "sourcePage": 226
+    },
+    {
+      "code": "US.08",
+      "text": "Analyze the causes and consequences of Gilded Age politics and economics as well as the significance of the rise of political machines, major scandals, civil service reform, and the economic difference between wage earners and industrial capitalists, including the following: • Spoils System • Boss Tweed • President Garfield’s Assassination • Thomas Nast • Pendleton Act",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Gilded Age",
+      "sourcePage": 226
+    },
+    {
+      "code": "US.09",
+      "text": "Describe the changes in American life that resulted from the inventions and innovations of business leaders and entrepreneurs of the period, and evaluate the business practices of: • Alexander Graham Bell • Henry Bessemer • Andrew Carnegie • Thomas Edison • Lewis Latimer • J.P. Morgan • John D. Rockefeller • Nikola Tesla • Cornelius Vanderbilt • Madam C.J. Walker",
+      "strand": [
+        "C",
+        "E",
+        "H"
+      ],
+      "strandRaw": "C, E, H",
+      "geo": false,
+      "tca": false,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Gilded Age",
+      "sourcePage": 226
+    },
+    {
+      "code": "US.10",
+      "text": "Determine the impacts of increased immigration on American society, including: • Competition for jobs • Rise of Nativism • Chinese Exclusion Act and Gentleman’s Agreement",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Rise of Industrialization (1877-1900)",
+      "eraOverview": "",
+      "cluster": "Gilded Age",
+      "sourcePage": 226
+    },
+    {
+      "code": "US.11",
+      "text": "Compare and contrast the concepts of social Darwinism and the Social Gospel.",
+      "strand": [
+        "C",
+        "E",
+        "H"
+      ],
+      "strandRaw": "C, E, H",
+      "geo": false,
+      "tca": false,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 227
+    },
+    {
+      "code": "US.12",
+      "text": "Describe the rise of trusts and monopolies, their impact on consumers and workers, and the government’s response, including the Sherman Antitrust Act of 1890.",
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 227
+    },
+    {
+      "code": "US.13",
+      "text": "Describe working conditions in industries during this era, including the use of women and children as a labor source.",
+      "strand": [
+        "C",
+        "E",
+        "H"
+      ],
+      "strandRaw": "C, E, H",
+      "geo": false,
+      "tca": false,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 227
+    },
+    {
+      "code": "US.14",
+      "text": "Explain the rise of the labor movement, union tactics (e.g., strikes), the role of leaders (e.g., Eugene Debs and Samuel Gompers), and the responses of management and government.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 227
+    },
+    {
+      "code": "US.15",
+      "text": "Compare and contrast the ideas and philosophies of Booker T. Washington and W.E.B. Du Bois. (T.C.A. § 49-6-1006)",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P",
+        "TCA"
+      ],
+      "strandRaw": "C, E, H, P, TCA",
+      "geo": false,
+      "tca": true,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 227
+    },
+    {
+      "code": "US.16",
+      "text": "Explain the roles played by muckrakers and progressive idealists, including: • Jane Addams • Jacob Riis • Upton Sinclair • Lincoln Steffens • Ida Tarbell • Ida B. Wells-Barnett",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, E, H, P, T",
+      "geo": false,
+      "tca": false,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 227
+    },
+    {
+      "code": "US.17",
+      "text": "Analyze the significant progressive achievements during Theodore Roosevelt’s administration, including: • Square Deal • Meat Inspection Act • “Trust-busting” • Support for conservation • Pure Food and Drug Act",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 227
+    },
+    {
+      "code": "US.18",
+      "text": "Analyze the goals and achievements of the Progressive movement, including: • Adoption of the initiative, referendum, and recall • Adoption of the primary system • 16th Amendment • 17th Amendment",
+      "strand": [
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 228
+    },
+    {
+      "code": "US.19",
+      "text": "Analyze the significant progressive achievements during President Woodrow Wilson’s administration, including: • New Freedom • Federal Reserve Act • Creation of the National Park Service • Clayton Antitrust Act of 1914",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, E, H, P, T",
+      "geo": false,
+      "tca": false,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 228
+    },
+    {
+      "code": "US.20",
+      "text": "Describe the movement to achieve suffrage for women, including the significance of: • Leaders such as Carrie Chapman Catt, Anne Dallas Dudley, and Alice Paul • Activities of suffragists • Passage of the 19th Amendment, including the role of Tennessee • Legacy of Susan B. Anthony",
+      "strand": [
+        "C",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, H, P, T",
+      "geo": false,
+      "tca": false,
+      "era": "The Progressive Era (1890-1920)",
+      "eraOverview": "",
+      "cluster": "The Progressive Era (1890-1920)",
+      "sourcePage": 228
+    },
+    {
+      "code": "US.21",
+      "text": "Assess the causes of American imperialism in the late 19th and early 20th centuries, including the desire for raw materials and new markets, American nationalism, and yellow journalism.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "Imperialism and World War I (1890-1920)",
+      "eraOverview": "",
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "sourcePage": 229
+    },
+    {
+      "code": "US.22",
+      "text": "Compare and contrast the arguments of imperialists and non-imperialists of the period.",
+      "strand": [
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "Imperialism and World War I (1890-1920)",
+      "eraOverview": "",
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "sourcePage": 229
+    },
+    {
+      "code": "US.23",
+      "text": "Describe the effects of American imperialism, including: • Spanish-American War • Annexation of Hawaii • Panama Canal • Philippine Insurrection • Access to Cuba • Roosevelt Corollary",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Imperialism and World War I (1890-1920)",
+      "eraOverview": "",
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "sourcePage": 229
+    },
+    {
+      "code": "US.24",
+      "text": "Compare and contrast the motivations behind President Theodore Roosevelt’s Big Stick diplomacy (i.e., militarism/expansionism), President William Howard Taft’s Dollar Diplomacy (i.e., economics), and President Woodrow Wilson’s Moral Diplomacy (i.e., nationalism).",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Imperialism and World War I (1890-1920)",
+      "eraOverview": "",
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "sourcePage": 229
+    },
+    {
+      "code": "US.25",
+      "text": "Explain the causes of World War I, including militarism, alliances, nationalism, imperialism, assassination, and the reasons for the initial declaration of U.S. neutrality.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Imperialism and World War I (1890-1920)",
+      "eraOverview": "",
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "sourcePage": 229
+    },
+    {
+      "code": "US.26",
+      "text": "Explain the reasons for U.S. entry into World War I, including the use of unrestricted submarine warfare, the Zimmerman Telegram, the defense of democracy, and economic motivations.",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Imperialism and World War I (1890-1920)",
+      "eraOverview": "",
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "sourcePage": 229
+    },
+    {
+      "code": "US.27",
+      "text": "Identify and explain the impact of the following on World War I (T.C.A. § 49-6-1006): • Trench warfare • Use of new weapons and technology • John J. Pershing • Harlem Hell Fighters • Alvin C. York",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "T",
+        "TCA"
+      ],
+      "strandRaw": "C, E, G, H, T, TCA",
+      "geo": true,
+      "tca": true,
+      "era": "Imperialism and World War I (1890-1920)",
+      "eraOverview": "",
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "sourcePage": 229
+    },
+    {
+      "code": "US.28",
+      "text": "Analyze the political, economic, and social ramifications of World War I on the home front, including: • Role played by women and minorities • Voluntary rationing • Committee on Public Information (i.e., Creel Committee) • Opposition by conscientious objectors • Schenck v. United States decision",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "Imperialism and World War I (1890-1920)",
+      "eraOverview": "",
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "sourcePage": 230
+    },
+    {
+      "code": "US.29",
+      "text": "Analyze the significance of President Woodrow Wilson’s contributions to the Treaty of Versailles, including the Fourteen Points, the causes and effects of the U.S. rejection of the League of Nations, and the subsequent impact on world politics.",
+      "strand": [
+        "H",
+        "P"
+      ],
+      "strandRaw": "H, P",
+      "geo": false,
+      "tca": false,
+      "era": "Imperialism and World War I (1890-1920)",
+      "eraOverview": "",
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "sourcePage": 230
+    },
+    {
+      "code": "US.30",
+      "text": "Analyze the impact of the Great Migration of African Americans that began in the post-World War I era from the rural South to the industrial regions of the Northeast and Midwest. (T.C.A. § 49-6-1006)",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "T",
+        "TCA"
+      ],
+      "strandRaw": "C, E, G, H, T, TCA",
+      "geo": true,
+      "tca": true,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 231
+    },
+    {
+      "code": "US.31",
+      "text": "Describe the growth and effects that radio and movies played in the emergence of popular culture, such as advertising, celebrities, news, and entertainment.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 231
+    },
+    {
+      "code": "US.32",
+      "text": "Examine how the use of the radio helped grow the popularity of country and blues music, including the rise of the Grand Ole Opry, W.C. Handy, and Bessie Smith. (T.C.A. § 49 -6-1006)",
+      "strand": [
+        "C",
+        "H",
+        "T",
+        "TCA"
+      ],
+      "strandRaw": "C, H, T, TCA",
+      "geo": false,
+      "tca": true,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 231
+    },
+    {
+      "code": "US.33",
+      "text": "Describe the impact of new technologies of the era, including the advent of air travel and spread of electricity.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H"
+      ],
+      "strandRaw": "C, E, G, H",
+      "geo": true,
+      "tca": false,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 231
+    },
+    {
+      "code": "US.34",
+      "text": "Describe the impact of Henry T. Ford, the automobile, and the mass production of automobiles on the American economy and society.",
+      "strand": [
+        "C",
+        "E",
+        "H"
+      ],
+      "strandRaw": "C, E, H",
+      "geo": false,
+      "tca": false,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 231
+    },
+    {
+      "code": "US.35",
+      "text": "Analyze the impact of the Harlem Renaissance and its important figures on American culture, including (T.C.A. § 49- 6-1006): • Louis Armstrong • Duke Ellington • Langston Hughes • Zora Neale Hurston • James Weldon Johnson",
+      "strand": [
+        "C",
+        "H",
+        "TCA"
+      ],
+      "strandRaw": "C, H, TCA",
+      "geo": false,
+      "tca": true,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 231
+    },
+    {
+      "code": "US.36",
+      "text": "Describe changes and limitations in the social and economic status of women during this era, including flappers, birth control, clerical and office jobs, and the rise of women’s colleges.",
+      "strand": [
+        "C",
+        "E",
+        "H"
+      ],
+      "strandRaw": "C, E, H",
+      "geo": false,
+      "tca": false,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 231
+    },
+    {
+      "code": "US.37",
+      "text": "Examine challenges and advancements related to the push for civil liberties, including (T.C.A. § 49-6- 1006): • First Red Scare • Immigration Quota Acts of the 1920s • Resurgence of the Ku Klux Klan • Black Wallstreet and Tulsa Massacre • Rise of the NAACP • Efforts of Ida B. Wells-Barnett • Emergence of Garveyism",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T",
+        "TCA"
+      ],
+      "strandRaw": "C, E, G, H, P, T, TCA",
+      "geo": true,
+      "tca": true,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 232
+    },
+    {
+      "code": "US.38",
+      "text": "Describe the Scopes Trial of 1925, including the major figures (i.e., John Scopes, William Jennings Bryan, and Clarence Darrow), two sides of the controversy (i.e., fundamentalism and modernism), the outcome, and the legacy.",
+      "strand": [
+        "C",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, H, P, T",
+      "geo": false,
+      "tca": false,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 232
+    },
+    {
+      "code": "US.39",
+      "text": "Describe the impacts of the 18th Amendment and Prohibition on American society, including the rise of organized crime, bootlegging, speakeasies, and the eventual repeal with the 21st Amendment.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 232
+    },
+    {
+      "code": "US.40",
+      "text": "Analyze the advantages and disadvantages of President Warren G. Harding's and President Calvin Coolidge's economic policies and their impact on culture of the United States as a result of credit expansion, consumerism, and financial speculation.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The 1920s (1920-1929)",
+      "eraOverview": "",
+      "cluster": "The 1920s (1920-1929)",
+      "sourcePage": 232
+    },
+    {
+      "code": "US.41",
+      "text": "Analyze the causes of the Great Depression, including: • Bank failures • Laissez-faire politics • Buying on margin • Overextension of credit • Crash of the stock market • Overproduction in agriculture • Excess consumerism in manufacturing • High tariffs • Rising unemployment",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Great Depression and New Deal (1929-1941)",
+      "eraOverview": "",
+      "cluster": "The Great Depression and New Deal (1929-1941)",
+      "sourcePage": 233
+    },
+    {
+      "code": "US.42",
+      "text": "Explain the causes of the Dust Bowl, and its social, geographic, and economic impacts.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H"
+      ],
+      "strandRaw": "C, E, G, H",
+      "geo": true,
+      "tca": false,
+      "era": "The Great Depression and New Deal (1929-1941)",
+      "eraOverview": "",
+      "cluster": "The Great Depression and New Deal (1929-1941)",
+      "sourcePage": 233
+    },
+    {
+      "code": "US.43",
+      "text": "Describe the impact of the Great Depression on the American people, including mass unemployment, migration, and Hoovervilles.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H"
+      ],
+      "strandRaw": "C, E, G, H",
+      "geo": true,
+      "tca": false,
+      "era": "The Great Depression and New Deal (1929-1941)",
+      "eraOverview": "",
+      "cluster": "The Great Depression and New Deal (1929-1941)",
+      "sourcePage": 233
+    },
+    {
+      "code": "US.44",
+      "text": "Describe the steps taken by President Herbert Hoover to address the depression, including his philosophy of “Rugged Individualism,” public works projects, the Reconstruction Finance Corporation, and response to the “Bonus Army.”",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Great Depression and New Deal (1929-1941)",
+      "eraOverview": "",
+      "cluster": "The Great Depression and New Deal (1929-1941)",
+      "sourcePage": 233
+    },
+    {
+      "code": "US.45",
+      "text": "Analyze the impact of the relief, recovery, and reform efforts of President Franklin D. Roosevelt’s New Deal programs, including: • Agricultural Adjustment Act • Civilian Conservation Corps • Securities and Exchange Commission • Fair Labor Standards Act • Social Security • Federal Deposit Insurance • Tennessee Valley Authority • Works Progress Administration • National Recovery Administration",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, E, G, H, P, T",
+      "geo": true,
+      "tca": false,
+      "era": "The Great Depression and New Deal (1929-1941)",
+      "eraOverview": "",
+      "cluster": "The Great Depression and New Deal (1929-1941)",
+      "sourcePage": 233
+    },
+    {
+      "code": "US.46",
+      "text": "Analyze the effects of and the controversies arising from New Deal economic policies, including charges of socialism and President Franklin D. Roosevelt’s “court packing” attempt.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Great Depression and New Deal (1929-1941)",
+      "eraOverview": "",
+      "cluster": "The Great Depression and New Deal (1929-1941)",
+      "sourcePage": 233
+    },
+    {
+      "code": "US.47",
+      "text": "Explain the rise and spread of fascism, communism, and totalitarianism internationally, including the following leaders: • Adolf Hitler • Benito Mussolini • Joseph Stalin • Hideki Tojo",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "TCA"
+      ],
+      "strandRaw": "C, E, G, H, P, TCA",
+      "geo": true,
+      "tca": true,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 234
+    },
+    {
+      "code": "US.48",
+      "text": "Explain the progression of key events and President Franklin D. Roosevelt’s response to world crises that lead to U.S. entry into World War II, including the Quarantine Speech, the Four Freedoms Speech, the Atlantic Charter, the Lend-Lease Act, and Pearl Harbor.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 234
+    },
+    {
+      "code": "US.49",
+      "text": "Analyze the response of the United States to the plight of European Jews before the start of the war, the U.S. liberation of concentration camps during the war, and the immigration of Holocaust survivors after the war.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, G, H, P, T",
+      "geo": true,
+      "tca": false,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 234
+    },
+    {
+      "code": "US.50",
+      "text": "Explain the role of key figures, geography and military factors on the outcomes of battles in the Pacific, European, and North African theaters of war, including: • Winston Churchill • Dwight D. Eisenhower • Douglas MacArthur • George Patton • President Harry S. Truman • Battles of Midway, Iwo Jima, and Okinawa • Normandy • Battle of the Bulge • Invasion of Sicily • Actions of the 101st Airborne",
+      "strand": [
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "G, H, P, T",
+      "geo": true,
+      "tca": false,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 234
+    },
+    {
+      "code": "US.51",
+      "text": "Identify the roles and sacrifices of individual American soldiers, as well as the unique contributions of special fighting forces such as the Tuskegee Airmen, the 442nd Regimental Combat team, and the Navajo Code Talkers.",
+      "strand": [
+        "C",
+        "H",
+        "T"
+      ],
+      "strandRaw": "C, H, T",
+      "geo": false,
+      "tca": false,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 234
+    },
+    {
+      "code": "US.52",
+      "text": "Examine the impact of World War II on economic and social conditions for African Americans, including the Fair Employment Practices Committee and the eventual integration of the armed forces by President Harry S. Truman. (T.C.A. § 49-6-1006)",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P",
+        "TCA"
+      ],
+      "strandRaw": "C, E, H, P, TCA",
+      "geo": false,
+      "tca": true,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 235
+    },
+    {
+      "code": "US.53",
+      "text": "Explore the effects of the large-scale growth of women entering the work force and military during World War II and the subsequent impact on American society, including Rosie the Riveter, Cornelia Fort, and the Women's Army Corp.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "T"
+      ],
+      "strandRaw": "C, E, H, T",
+      "geo": false,
+      "tca": false,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 235
+    },
+    {
+      "code": "US.54",
+      "text": "Describe the constitutional issues, conditions, and impact of the internment of Japanese Americans on the United States, including the Fred Korematsu v. United States of America decision.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 235
+    },
+    {
+      "code": "US.55",
+      "text": "Describe the war’s impact on the home front, including: • Rationing • Bracero program • Zoot Suit Riots • Bond drives • Conversion of factories for wartime • Propaganda production • Movement to cities and industrial areas",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 235
+    },
+    {
+      "code": "US.56",
+      "text": "Describe the Manhattan Project, including Oak Ridge, Los Alamos, and Hanford, and explain President Truman's rationale for using the atomic bomb to end the war.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, E, G, H, P, T",
+      "geo": true,
+      "tca": false,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 235
+    },
+    {
+      "code": "US.57",
+      "text": "Explain the major outcomes of the Yalta and Potsdam Conferences (e.g., the separation of Germany, emergence of the threat of the atomic bomb, dispersal of Eastern European nations, and rising tensions between the United States and Soviet Union).",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "World War II (1936-1945)",
+      "eraOverview": "",
+      "cluster": "World War II (1936-1945)",
+      "sourcePage": 235
+    },
+    {
+      "code": "US.58",
+      "text": "Identify and explain the reasons for the founding of the United Nations, including the role of Cordell Hull.",
+      "strand": [
+        "C",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, H, P, T",
+      "geo": false,
+      "tca": false,
+      "era": "Cold War (1947-1991)",
+      "eraOverview": "",
+      "cluster": "Cold War (1947-1991)",
+      "sourcePage": 236
+    },
+    {
+      "code": "US.59",
+      "text": "Describe the competition between the United States and the Soviet Union in arms development, economic dominance, and ideology, including the roles of the United Nations, NATO, and the Warsaw Pact.",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Cold War (1947-1991)",
+      "eraOverview": "",
+      "cluster": "Cold War (1947-1991)",
+      "sourcePage": 236
+    },
+    {
+      "code": "US.60",
+      "text": "Analyze the Cold War policies of containment and the Truman Doctrine, Marshall Plan, and Berlin Airlift.",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Cold War (1947-1991)",
+      "eraOverview": "",
+      "cluster": "Cold War (1947-1991)",
+      "sourcePage": 236
+    },
+    {
+      "code": "US.61",
+      "text": "Describe the causes, course, and consequences of the Korean War, including: • Domino theory • Entry of communist China • 38th parallel • Final division of the Korean Peninsula",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Cold War (1947-1991)",
+      "eraOverview": "",
+      "cluster": "Cold War (1947-1991)",
+      "sourcePage": 236
+    },
+    {
+      "code": "US.62",
+      "text": "Explain how containment influenced Cold War policies during Dwight D. Eisenhower’s administration, including brinksmanship, “peaceful coexistence,” and the issue of the military-industrial complex.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "Cold War (1947-1991)",
+      "eraOverview": "",
+      "cluster": "Cold War (1947-1991)",
+      "sourcePage": 236
+    },
+    {
+      "code": "US.63",
+      "text": "Analyze the causes and effects of the Second Red Scare, including Americans' attitudes toward McCarthyism, blacklisting, House Un-American Activities Committee (i.e., HUAC), and Julius and Ethel Rosenberg.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "1950s at Home (1950s-1963)",
+      "eraOverview": "",
+      "cluster": "1950s at Home (1950s-1963)",
+      "sourcePage": 237
+    },
+    {
+      "code": "US.64",
+      "text": "Analyze the impact of prosperity and consumerism in the 1950s, including the growth of white-collar jobs, the “suburban ideal,” the impacts of and disproportionate access to the G.I. Bill, and the increased reliance on foreign oil.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "1950s at Home (1950s-1963)",
+      "eraOverview": "",
+      "cluster": "1950s at Home (1950s-1963)",
+      "sourcePage": 237
+    },
+    {
+      "code": "US.65",
+      "text": "Explain the impact of the baby boomer generation on the U.S. economy and culture.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T"
+      ],
+      "strandRaw": "C, E, G, H, P, T",
+      "geo": true,
+      "tca": false,
+      "era": "1950s at Home (1950s-1963)",
+      "eraOverview": "",
+      "cluster": "1950s at Home (1950s-1963)",
+      "sourcePage": 237
+    },
+    {
+      "code": "US.66",
+      "text": "Describe domestic developments during Dwight D. Eisenhower's administration, including: • Polio vaccine • Interstate Highway System • Growth of suburbia • Hotel chains • Fast food chains",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "1950s at Home (1950s-1963)",
+      "eraOverview": "",
+      "cluster": "1950s at Home (1950s-1963)",
+      "sourcePage": 237
+    },
+    {
+      "code": "US.67",
+      "text": "Analyze the increasing impact of television and mass media on American homes, politics, and the economy.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "1950s at Home (1950s-1963)",
+      "eraOverview": "",
+      "cluster": "1950s at Home (1950s-1963)",
+      "sourcePage": 237
+    },
+    {
+      "code": "US.68",
+      "text": "Describe the emergence of a youth culture, including beatniks and the progression of popular music (from swing to rhythm and blues to rock ‘n’ roll), and the impact of Tennessee on the music industry, including the influence of B.B. King, Elvis Presley, Stax Records, and Sun Studio. (T.C.A. § 49-6-1006)",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "T",
+        "TCA"
+      ],
+      "strandRaw": "C, E, H, T, TCA",
+      "geo": false,
+      "tca": true,
+      "era": "1950s at Home (1950s-1963)",
+      "eraOverview": "",
+      "cluster": "1950s at Home (1950s-1963)",
+      "sourcePage": 237
+    },
+    {
+      "code": "US.69",
+      "text": "Explain the fears of Americans surrounding nuclear holocaust, debates over stockpiling, and the use of nuclear weapons, including: • Atomic testing • Civil defense • Mutual assured destruction • Fallout shelters",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "1950s at Home (1950s-1963)",
+      "eraOverview": "",
+      "cluster": "1950s at Home (1950s-1963)",
+      "sourcePage": 237
+    },
+    {
+      "code": "US.70",
+      "text": "Describe the relationship between Cuba and the United States, including the Bay of Pigs Invasion and Cuban Missile Crisis.",
+      "strand": [
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Kennedy and Johnson Years (1961-1969)",
+      "eraOverview": "",
+      "cluster": "Kennedy and Johnson Years (1961-1969)",
+      "sourcePage": 238
+    },
+    {
+      "code": "US.71",
+      "text": "Describe the competition between the United States and Soviet Union for superiority in space (i.e., Sputnik and the development of NASA, Operation Paperclip), including its effects on the American education system and industry.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Kennedy and Johnson Years (1961-1969)",
+      "eraOverview": "",
+      "cluster": "Kennedy and Johnson Years (1961-1969)",
+      "sourcePage": 238
+    },
+    {
+      "code": "US.72",
+      "text": "Describe the goals of President John F. Kennedy’s New Frontier programs to improve education, end racial discrimination, create the Peace Corps, and put a man on the moon.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Kennedy and Johnson Years (1961-1969)",
+      "eraOverview": "",
+      "cluster": "Kennedy and Johnson Years (1961-1969)",
+      "sourcePage": 238
+    },
+    {
+      "code": "US.73",
+      "text": "Describe the goals of President Lyndon Johnson’s Great Society programs, including Medicare, urban renewal, and the War on Poverty.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "Kennedy and Johnson Years (1961-1969)",
+      "eraOverview": "",
+      "cluster": "Kennedy and Johnson Years (1961-1969)",
+      "sourcePage": 238
+    },
+    {
+      "code": "US.74",
+      "text": "Examine the decision and impacts of Brown v. Board of Education on the desegregation of schools, such as Scarboro 85, Clinton 12 and Little Rock 9. (T.C.A. § 49-6-1006)",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T",
+        "TCA"
+      ],
+      "strandRaw": "C, E, G, H, P, T, TCA",
+      "geo": true,
+      "tca": true,
+      "era": "Civil Rights Movement (1950s-1960s)",
+      "eraOverview": "",
+      "cluster": "Civil Rights Movement (1950s-1960s)",
+      "sourcePage": 239
+    },
+    {
+      "code": "US.75",
+      "text": "Analyze the impact of Emmitt Till's murder and the use of mass media on the trajectory of the Civil Rights Movement.",
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "Civil Rights Movement (1950s-1960s)",
+      "eraOverview": "",
+      "cluster": "Civil Rights Movement (1950s-1960s)",
+      "sourcePage": 239
+    },
+    {
+      "code": "US.76",
+      "text": "Examine the roles and actions of civil rights advocates (e.g., Dr. Martin Luther King, Jr., Malcolm X, John Lewis, Diane Nash, Thurgood Marshall, Rosa Parks) and opponents (e.g., Bull Connor, Orval Faubus, George Wallace, Strom Thurmond). (T.C.A. § 49-6-1006)",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P",
+        "T",
+        "TCA"
+      ],
+      "strandRaw": "C, E, G, H, P, T, TCA",
+      "geo": true,
+      "tca": true,
+      "era": "Civil Rights Movement (1950s-1960s)",
+      "eraOverview": "",
+      "cluster": "Civil Rights Movement (1950s-1960s)",
+      "sourcePage": 239
+    },
+    {
+      "code": "US.77",
+      "text": "Describe the significant events in the struggle to secure civil rights for African Americans, including: (T.C.A. § 49-6-1006) • Highlander Folk School • Montgomery Bus Boycott • Tent City in Fayette County, TN • Nashville sit-ins • Freedom Riders • Birmingham bombings of 1963 • Freedom Summer • March on Washington, D.C. • March on Selma • Memphis sanitation strike and assassination of Dr. Martin Luther King, Jr.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P",
+        "TCA"
+      ],
+      "strandRaw": "C, E, H, P, TCA",
+      "geo": false,
+      "tca": true,
+      "era": "Civil Rights Movement (1950s-1960s)",
+      "eraOverview": "",
+      "cluster": "Civil Rights Movement (1950s-1960s)",
+      "sourcePage": 239
+    },
+    {
+      "code": "US.78",
+      "text": "Analyze civil and voting rights legislation, including the Civil Rights Act of 1964, the Voting Rights Act of 1965, the Civil Rights Act of 1968 (i.e., Fair Housing Act), and the 24th Amendment. (T.C.A. § 49-6-1006)",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P",
+        "TCA"
+      ],
+      "strandRaw": "C, E, H, P, TCA",
+      "geo": false,
+      "tca": true,
+      "era": "Civil Rights Movement (1950s-1960s)",
+      "eraOverview": "",
+      "cluster": "Civil Rights Movement (1950s-1960s)",
+      "sourcePage": 239
+    },
+    {
+      "code": "US.79",
+      "text": "Analyze how the American Indian Movement, Chicano Movement, and Feminist Movement are related to the Civil Rights Movement in advancing equality across the broader spectrum of American society during this time period.",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "Civil Rights Movement (1950s-1960s)",
+      "eraOverview": "",
+      "cluster": "Civil Rights Movement (1950s-1960s)",
+      "sourcePage": 239
+    },
+    {
+      "code": "US.80",
+      "text": "Describe the policies of Presidents' Kennedy, Johnson, and Nixon, and the causes, consequences, and progression of the Vietnam War, including: • Escalation • Geneva Accords • Gulf of Tonkin Resolution • Ho Chi Minh • Napalm and Agent Orange • Tet Offensive • Vietnamization",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Vietnam War (1950s-1970s)",
+      "eraOverview": "",
+      "cluster": "The Vietnam War (1950s-1970s)",
+      "sourcePage": 240
+    },
+    {
+      "code": "US.81",
+      "text": "Describe the impact of the Vietnam War on the home front, including: • Anti-war movement • Draft by lottery • Effects of Agent Orange • Post-Traumatic Stress Disorder • Role of television and the media",
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Vietnam War (1950s-1970s)",
+      "eraOverview": "",
+      "cluster": "The Vietnam War (1950s-1970s)",
+      "sourcePage": 240
+    },
+    {
+      "code": "US.82",
+      "text": "Analyze different points of view that reflect the rise of social activism and the growth counterculture, including generation gap, hippies, and Woodstock.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Vietnam War (1950s-1970s)",
+      "eraOverview": "",
+      "cluster": "The Vietnam War (1950s-1970s)",
+      "sourcePage": 240
+    },
+    {
+      "code": "US.83",
+      "text": "Explain the events of President Richard Nixon’s administration, including his appeal to the “silent majority,\" detente, SALT, and open relationship with China.",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 241
+    },
+    {
+      "code": "US.84",
+      "text": "Examine the Watergate scandal, including: • Background of the break-in • Changing role of media and journalism • Legacy of distrust (e.g., government) • United States vs. Nixon • Controversy surrounding President Gerald Ford’s pardon",
+      "strand": [
+        "C",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 241
+    },
+    {
+      "code": "US.85",
+      "text": "Explain the emergence of environmentalism, including the creation of the Environmental Protection Agency and disasters such as Love Canal and Three Mile Island.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 241
+    },
+    {
+      "code": "US.86",
+      "text": "Identify and explain the events of Jimmy Carter’s administration, including: • Crisis of Confidence speech • Poor economy • Energy crisis • Panama Canal Treaty • Iran Hostage Crisis • Camp David Accords",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 241
+    },
+    {
+      "code": "US.87",
+      "text": "Identify and explain the events of President Ronald Reagan’s administration, including: • Resurgence of nationalism • “War on Drugs” • Reaganomics • Strategic Defense Initiative • Iran-Contra affair • AIDS epidemic • Challenger disaster • Appointment of Sandra Day O’Connor",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 241
+    },
+    {
+      "code": "US.88",
+      "text": "Identify and explain the events of President George H. W. Bush’s administration, including: • The invasion of Panama • The Gulf War • Debates over the increasing budget and taxation",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 241
+    },
+    {
+      "code": "US.89",
+      "text": "Identify and explain the events of President Bill Clinton’s administration, including: • NAFTA • Welfare-to-work • Scandals and subsequent impeachment • Balanced budget hearings • Family Medical Leave Act • Humanitarian efforts in Bosnia- Herzegovina • The widespread use of the internet",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 242
+    },
+    {
+      "code": "US.90",
+      "text": "Describe the impact of the September 11, 2001 terrorist attacks on the World Trade Center and the Pentagon, including the response of President George W. Bush and the USA PATRIOT Act.",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 242
+    },
+    {
+      "code": "US.91",
+      "text": "Identify and explain the events of President George W. Bush’s administration, including: • No Child Left Behind • Wars in Afghanistan and Iraq • Economic recession (i.e., housing market crisis)",
+      "strand": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, G, H, P",
+      "geo": true,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 242
+    },
+    {
+      "code": "US.92",
+      "text": "Describe the increasing role of women and minorities in American military, politics, and economy, including (T.C.A. § 49-6-1006): • Hillary Clinton • Colin Powell • Condoleezza Rice • Nancy Pelosi • Sonia Sotomayor",
+      "strand": [
+        "C",
+        "G",
+        "H",
+        "P",
+        "TCA"
+      ],
+      "strandRaw": "C, G, H, P, TCA",
+      "geo": true,
+      "tca": true,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 242
+    },
+    {
+      "code": "US.93",
+      "text": "Explain how the legislative and judicial branches expanded the scope of the 14th amendment including: • Individuals with Disabilities Education Act • Americans with Disabilities Act • Obergefell vs. Hodges",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P",
+        "TCA"
+      ],
+      "strandRaw": "C, E, H, P, TCA",
+      "geo": false,
+      "tca": true,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 242
+    },
+    {
+      "code": "US.94",
+      "text": "Identify and explain the events of Barack Obama’s administration including: • The Affordable Care Act • Every Student Succeeds Act • American presense in the Middle East",
+      "strand": [
+        "C",
+        "E",
+        "H",
+        "P"
+      ],
+      "strandRaw": "C, E, H, P",
+      "geo": false,
+      "tca": false,
+      "era": "The Modern United States (1970s-present)",
+      "eraOverview": "",
+      "cluster": "The Modern United States (1970s-present)",
+      "sourcePage": 242
+    }
+  ]
+}
