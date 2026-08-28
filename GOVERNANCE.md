@@ -46,29 +46,52 @@ Consequences, all mandatory:
 - **Never write a gate, script, or query that joins the two years on `code`.** It will match, it will
   look right, and it will be wrong 416 times.
 
-## 3. Reuse goes through the crosswalk, by content
+## 3. Reuse goes through the crosswalk, by content — and the code is stripped
 
 Sean's requirement is that we reuse what is relevant from the existing library rather than rebuild
-it. That reuse is legitimate — it just has to be re-pointed rather than assumed.
+it. That reuse is legitimate. It just has to be re-pointed rather than assumed, and **the old code
+never comes with it.**
+
+> **Sean, 2026-08-28: anything pulled over from the 2026-27 library is stripped of the standard code
+> and added to the current standard of the new approved 2027-28 standards. Carried over by content
+> category, never by code.**
+
+A 2026-27 code riding along on a carried asset is a live landmine: it matches, it renders, and it
+mislabels. So it does not travel with the asset at all. It is recorded **once**, in a migration
+ledger that lives outside the content tree, and nowhere else.
 
 To reuse an existing asset for a 2027-28 standard:
 
-1. Look up the 2027-28 code in `crosswalk/<course>.csv`.
-2. Read the row's `disposition`:
-   - **`unchanged`** — the same standard, possibly re-coded. The asset carries forward. Re-point it to
-     the new code and re-verify the citation still fits.
-   - **`revised`** — recognisably the same standard, reworded. Read both texts before reusing. The
-     words after "including" in the state's sentence are a content checklist; if the revision added
-     a named person, event or act, the asset does not yet cover the standard.
-   - **`new`** — no 2026-27 origin. Build it. There is nothing to carry forward, and reaching for the
+1. Look up the **2026-27** code in `crosswalk/<course>.csv` and read its `disposition`:
+   - **`unchanged`** — the same standard, possibly re-coded. The content carries forward.
+   - **`revised`** — recognisably the same standard, reworded. Read BOTH sentences. The words after
+     "including" in the state's sentence are a content checklist; if the revision added a named
+     person, event or act, the asset does not yet cover the standard.
+   - **`retired`** — no successor. Nothing carries. Its assets stay where they are, serving 2026-27.
+   - **`new`** — no origin. Build it. There is nothing to carry forward, and reaching for the
      nearest-looking old asset is how the wrong lesson ships.
-   - **`retired`** — the 2026-27 standard has no successor. Its assets stay where they are, serving
-     2026-27. They do not move into the 2027-28 tree.
-3. Record the reuse with **both** codes and the disposition, so the decision is auditable later.
+2. **Strip the old code from the asset** — out of every field, out of the filename, and out of the
+   prose. Standard codes turn up inside student-facing sentences ("TN U.S. History standard US.04
+   asks students to…"), where no field-level strip will find them.
+3. **Re-attach it to a 2027-28 standard chosen on content**, and stamp it `standardsYear: "2027-28"`.
+   The right home is often **not** the crosswalk's successor: the crosswalk maps *standards*, and
+   this is an *asset*. A Carnegie portrait hanging on 2026-27 `US.04` belongs on 2027-28 `US.09`,
+   which names Carnegie — not on `US.08`, which is `US.04`'s standard-level successor, and certainly
+   not on `US.04`, which is now the Homestead Act.
+4. **Categorise it** with an era or cluster heading from that course's own 2027-28 standards. Those
+   headings are the state document's, not ours, and they are the category the carry-forward is made
+   on.
+5. **Record it once** in the migration ledger, outside the content tree: asset id, old code, new
+   codes, content category, disposition, and who reviewed it.
 
 **13 of the 20 courses have no 2026-27 counterpart at all** — K–5, African American History, Ancient
 History, Contemporary Issues, Economics, Psychology, Sociology, World Geography. For those, step 1
 has no row and the answer is always "build it".
+
+In `history-hack-web-app` this is mechanised and enforced: `scripts/carry-forward.mjs` does the
+stripping and refuses when a code is embedded in prose, and `npm run check:carry-forward` fails a
+stray old code in a file or filename, a match made by code, a missing or unknown content category,
+an unrecorded carry, and a `retired`/`new` disposition.
 
 ## 4. Namespace isolation in the web app
 
