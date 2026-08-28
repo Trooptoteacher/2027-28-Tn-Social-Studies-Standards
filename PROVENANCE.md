@@ -56,7 +56,7 @@ python3 tools/build_crosswalk.py ../2026-27-Tn.-Social-Studies-Standards
 git diff --stat standards/ crosswalk/
 ```
 
-The parse is deterministic and idempotent, so `git diff` is the difference between the editions —
+The parse is deterministic and idempotent, so `git diff` is the difference between the two documents —
 exact, per standard, with nothing missed. Anything the diff touches must then be re-checked
 downstream through the crosswalk, because a re-coded standard invalidates every asset pointing at
 the old code. `2026-27-Tn.-Social-Studies-Standards` is untouched by any of this.
