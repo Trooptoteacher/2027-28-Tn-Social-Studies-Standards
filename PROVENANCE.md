@@ -10,6 +10,14 @@
 | **Supplied by** | Sean Reynolds, 2026-08-28, as *"2027-28 NEW Adoption TN Academic Social Studies Standards.pdf"* |
 | **Scope** | K–12, 20 courses, 1,012 standards, SSP.01–SSP.06 per course |
 | **Status** | **Source of truth for all 2027-28 building** (Sean, 2026-08-28) |
+| **Bytes** | 1,888,686 |
+| **SHA-256** | `f62fd21f6a1854e48d9dc3b07c90b4607a95a23efeaa7edfb53595c19e297100` |
+
+The SHA-256 above is the fingerprint of the exact file Sean supplied. Everything in this repository
+is derived from it, so the chain is only checkable if the document itself can be identified — and
+until 2026-08-30 nothing recorded it. `tools/check_provenance.py` recomputes the hash and fails if
+the PDF in `source/` is not byte-for-byte that file, which is what makes every claim below testable
+rather than asserted.
 
 Every standard in `standards/` is parsed verbatim from this file. Nothing is summarised, reworded,
 reordered, or invented. `tools/validate_standards.py --verbatim` re-opens the PDF and requires every
