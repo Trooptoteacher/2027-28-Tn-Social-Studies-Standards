@@ -69,12 +69,15 @@ def cost(items, want=None):
     return c
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--top", type=int, default=15)
-    ap.add_argument("--csv")
-    a = ap.parse_args()
-    b = binding_mod.load(); print(b.declaration())
+def rows(b):
+    """One row per standard — THE readiness computation.
+
+    Extracted because the handoff-number check re-derived it and got a
+    different total (1,763 against the tool's 1,867): the copy pooled items by
+    standardCodes alone, skipping the per-standard relevance rule below. Two
+    implementations of one number is L22, and here the copy was the checker
+    that was supposed to be catching drift.
+    """
     with open(b.blueprint_file, encoding="utf-8") as fh:
         form = json.load(fh)["form"]
 
@@ -93,13 +96,13 @@ def main():
             if t and alignment.relevant_to(hay, t):
                 by_std[c].append(it)
 
-    rows = []
+    out = []
     for code in sorted(b.valid_codes()):
         pool = sorted(by_std.get(code, []), key=lambda i: i["id"])
         tier, got = reachable_tier(pool, form)
         buildable = tier is not None
         c = cost(got) if buildable else collections.Counter()
-        rows.append({"standard": code, "aligned": len(pool), "buildable": buildable,
+        out.append({"standard": code, "aligned": len(pool), "buildable": buildable,
                      "tier": tier["id"] if tier else "none",
                      "identifyingSignals": alignment.identifiability(stds[code]["text"]),
                      "weaklyIdentifiable": alignment.identifiability(stds[code]["text"]) < 2,
@@ -109,9 +112,19 @@ def main():
                      "explanationRewrite": c["explanationRewrite"],
                      "choiceRebalance": c["choiceRebalance"],
                      "totalAuthoringUnits": sum(c.values())})
+    return out
 
-    ok = [r for r in rows if r["buildable"]]
-    print(f"\n{len(ok)}/{len(rows)} standards can fill a form from aligned items.\n")
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--top", type=int, default=15)
+    ap.add_argument("--csv")
+    a = ap.parse_args()
+    b = binding_mod.load(); print(b.declaration())
+    rws = rows(b)
+
+    ok = [r for r in rws if r["buildable"]]
+    print(f"\n{len(ok)}/{len(rws)} standards can fill a form from aligned items.\n")
     ok.sort(key=lambda r: r["totalAuthoringUnits"])
     print(f"{'standard':<9}{'tier':<18}{'aligned':>8}{'distract':>9}{'dok':>5}"
           f"{'transl':>8}{'rebal':>7}{'TOTAL':>7}")
@@ -119,20 +132,20 @@ def main():
         print(f"{r['standard']:<9}{r['tier']:<18}{r['aligned']:>8}"
               f"{r['distractorRationale']:>9}{r['dokRationale']:>5}{r['translation']:>8}"
               f"{r['choiceRebalance']:>7}{r['totalAuthoringUnits']:>7}")
-    tiers = collections.Counter(r["tier"] for r in rows)
+    tiers = collections.Counter(r["tier"] for r in rws)
     print("\ntier reached: " + ", ".join(f"{k}={v}" for k, v in tiers.most_common()))
     tot = sum(r["totalAuthoringUnits"] for r in ok)
     print(f"\nauthoring units to green ONE form for each of the {len(ok)} buildable "
           f"standards: {tot:,}")
-    notb = [r for r in rows if not r["buildable"]]
+    notb = [r for r in rws if not r["buildable"]]
     print(f"{len(notb)} standard(s) cannot fill a form yet: "
           + ", ".join(f"{r['standard']}({r['aligned']})" for r in notb[:12])
           + (" …" if len(notb) > 12 else ""))
 
     if a.csv:
         with open(a.csv, "w", newline="", encoding="utf-8") as fh:
-            w = csv.DictWriter(fh, fieldnames=list(rows[0].keys())); w.writeheader()
-            w.writerows(rows)
+            w = csv.DictWriter(fh, fieldnames=list(rws[0].keys())); w.writeheader()
+            w.writerows(rws)
         print(f"\nwrote {a.csv}")
     return 0
 

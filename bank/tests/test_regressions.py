@@ -8,6 +8,7 @@ as "you reintroduced X", not "assertion false".
 """
 from __future__ import annotations
 
+import inspect
 import os
 import sys
 
@@ -392,6 +393,38 @@ check("it refuses an empty draft",
       open(os.path.join(BANK, "tools", "submit_items.py"), encoding="utf-8").read())
 check("it checks a draft stem against the whole bank for duplicates",
       hasattr(_si, "dedupe_against_bank"))
+
+# ── the handoff's numbers are measured, not remembered ─────────────────
+print("\n  check-handoff-numbers — a number in prose is a claim that rots")
+import re as _re, subprocess as _sp
+import check_handoff_numbers as _chn
+
+_live = _chn.live()
+check("it derives at least the headline figures", len(_live) >= 10, f"got {len(_live)}")
+_txt = open(_chn.HANDOFF, encoding="utf-8").read()
+check("every derived figure is actually found in HANDOFF.md",
+      all(_re.search(p_, _txt) for _, p_ in _live.values()),
+      f"missing: {[k for k, (_, p_) in _live.items() if not _re.search(p_, _txt)]}")
+check("and every one of them still matches the artifact",
+      all(_re.search(p_, _txt).group(1) == v for v, p_ in _live.values()),
+      f"stale: {[k for k, (v, p_) in _live.items() if _re.search(p_, _txt).group(1) != v]}")
+
+# Defect / clean / missing — the check must go red on a stale number and on a
+# reworded line, or it is decoration.
+_stale = _txt.replace(f"| aligned (counts toward coverage) | {_live['aligned'][0]} |",
+                      "| aligned (counts toward coverage) | 1 |")
+check("a STALE figure is detected",
+      _re.search(_live["aligned"][1], _stale).group(1) != _live["aligned"][0])
+check("a figure whose LINE was reworded away is detected as missing, not passed",
+      not _re.search(_live["aligned"][1],
+                     _txt.replace("| aligned (counts toward coverage) |", "| aligned |")))
+
+check("the readiness total comes from the TOOL, not a copy of its rule",
+      "fr.rows(b)" in inspect.getsource(_chn.live),
+      "the copy pooled by standardCodes and reported 1,763 against the tool's 1,867")
+_ra = open(os.path.join(BANK, "tools", "run_all.sh"), encoding="utf-8").read()
+check("it runs in the pipeline", "check_handoff_numbers.py" in _ra)
+
 
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")

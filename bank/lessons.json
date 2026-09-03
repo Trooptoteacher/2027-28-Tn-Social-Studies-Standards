@@ -880,6 +880,37 @@
           "contains": "backfill judges on the SAME signals"
         }
       ]
+    },
+    {
+      "id": "L54",
+      "mistake": "HANDOFF.md opens by saying its numbers were MEASURED, and nothing re-measured them. One change moved aligned items 1,890->2,006, buildable standards 55->66 and the ledger 50/109->53/125, and every one of those figures sat in the handoff still reading as a current fact. Same defect as a reference build named in prose and never re-measured: a number in prose is a CLAIM, and an unmeasured claim rots silently while continuing to look authoritative. Worse, the FIRST version of the check re-derived the readiness total instead of calling the tool, and got 1,763 against the tool's 1,867 — it pooled items by standardCodes and skipped the per-standard relevance rule. A checker written to catch drift, drifting: L22 for the seventh time. form_readiness.rows() is now the one implementation and the checker calls it.",
+      "caughtBy": "noticing that the handoff's own numbers were stale in the same commit that changed them",
+      "guards": [
+        {
+          "file": "tools/check_handoff_numbers.py",
+          "contains": "def live"
+        },
+        {
+          "file": "tools/check_handoff_numbers.py",
+          "contains": "fr.rows(b)"
+        },
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "def rows(b)"
+        },
+        {
+          "file": "tools/run_all.sh",
+          "contains": "check_handoff_numbers.py"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "a STALE figure is detected"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "the readiness total comes from the TOOL"
+        }
+      ]
     }
   ]
 }

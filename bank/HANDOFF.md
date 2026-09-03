@@ -29,14 +29,15 @@ deleted; `quarantine/` is retention, not a bin.
 
 | | |
 |---|---|
-| servable | 3,956 |
-| aligned (counts toward coverage) | 1,890 |
+| servable | 3,958 |
+| aligned (counts toward coverage) | 2,006 |
 | quarantined, with stated reasons | 1,059 |
 | authored by Claude | 24 |
 | reviewed and approved by you | 19 |
 | **awaiting your review** | **5** |
 
-Alignment: 1,548 `evidenced` · 342 `rehomed` · 1,931 `unverified` · 135 `not-applicable`.
+Alignment: 1,693 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
+empty: every standard is judgeable — see §11.)
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
 from standards coverage and from standards-aligned forms, nothing more.
 
@@ -53,7 +54,7 @@ python3 tools/run_gates.py --form FORM-A    # one form, scoped
 python3 tools/form_readiness.py --csv reports/form-readiness.csv
 ```
 
-Eleven stages. The ledger runs **first**: if a guard has gone missing, nothing below it
+Twelve stages. The ledger runs **first**: if a guard has gone missing, nothing below it
 can be trusted.
 
 ## 4. The rules that matter
@@ -68,7 +69,7 @@ can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **50 lessons, 109 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **54 lessons, 131 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -146,7 +147,7 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**55 of 94 standards can build a form. 1,539 authoring units to green them all.**
+**66 of 94 standards can build a form. 1,867 authoring units to green them all.**
 Cheapest next: US.25 (23) · US.26 (24) · US.27 (24) · US.38 (24) · US.61 (24).
 
 Per form, the recipe that produced both green ones:

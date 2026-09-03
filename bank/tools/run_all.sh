@@ -13,6 +13,7 @@ stage() {
 stage "lessons ledger"        python3 tools/check_lessons.py
 stage "gate wiring"           python3 tools/check_gates_wired.py
 stage "report freshness"      python3 tools/check_reports_fresh.py
+stage "handoff numbers"       python3 tools/check_handoff_numbers.py
 stage "gate proofs"           python3 tests/test_gates.py
 stage "gate mutation check"   python3 tests/test_mutation.py
 stage "alignment routing"     python3 tests/test_alignment.py
