@@ -53,7 +53,20 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": null,
+        "criteria": [],
+        "status": "not-written"
+      }
     },
     {
       "id": "q-us56-dok4-dbq-8",
@@ -103,7 +116,20 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": null,
+        "criteria": [],
+        "status": "not-written"
+      }
     },
     {
       "id": "q-us48-dok4-er-2",
@@ -153,7 +179,15 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      }
     },
     {
       "id": "q-us56-dok4-er-6",
@@ -203,7 +237,15 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      }
     }
   ]
 }

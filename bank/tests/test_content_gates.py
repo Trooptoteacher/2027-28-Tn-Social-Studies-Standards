@@ -423,6 +423,92 @@ check("backfill judges on the SAME signals relevance_scan judges on",
       "a third definition of 'judged' marks items the scan then skips")
 
 
+# ── what a form claims to be, and what scores an extended response ─────
+print("\n  tcap-format / rubric / bias-review / key-contradiction")
+CLEAN = A(on_std(ON, id="F-1"), "evidenced")
+
+it = dict(CLEAN, tcapFormat=False, tcapFormatReason="not affirmed")
+check("a declared classroom-formative item PASSES",
+      content.gate_tcap_format([it], REAL_B).passed)
+check("an item with NO tcapFormat FAILS — the form cannot say what it is",
+      not content.gate_tcap_format([dict(CLEAN)], REAL_B).passed)
+check("false with no reason FAILS — 'no' without a reason is 'nobody looked'",
+      not content.gate_tcap_format([dict(CLEAN, tcapFormat=False)], REAL_B).passed)
+r = content.gate_tcap_format([dict(CLEAN, tcapFormat=True)], REAL_B)
+check("claiming field-testability with no human affirmation FAILS", not r.passed)
+check("the finding names the missing affirmation",
+      any("tcapFormatAffirmedBy" in str(f) for f in r.findings))
+r = content.gate_tcap_format(
+    [dict(CLEAN, tcapFormat=True, itemType="document-based",
+          tcapFormatAffirmedBy="Sean Reynolds")], REAL_B)
+check("a DBQ claiming tcapFormat true FAILS — never TCAP-format under policy",
+      not r.passed)
+check("EMPTY scan FAILS", not content.gate_tcap_format([], REAL_B).passed)
+
+cr = dict(CLEAN, id="R-1", itemType="constructed-response")
+check("an extended response with NO rubric FAILS",
+      not content.gate_rubric([cr], REAL_B).passed)
+carrier = dict(cr, rubric={"scorePoints": None, "criteria": [], "status": "not-written"})
+r = content.gate_rubric([carrier], REAL_B)
+check("a CARRIER does not count as a rubric", not r.passed)
+check("the finding says so in those words",
+      any("CARRIER, not a rubric" in str(f) for f in r.findings))
+bands = [{"points": n, "descriptor": "d" * 50} for n in range(5)]
+check("a 4-point rubric with FIVE bands (0-4) PASSES — the scale, not the top score",
+      content.gate_rubric([dict(cr, rubric={"scorePoints": 4, "criteria": bands})],
+                          REAL_B).passed)
+check("four bands for a 4-point scale FAILS",
+      not content.gate_rubric([dict(cr, rubric={"scorePoints": 4, "criteria": bands[:4]})],
+                              REAL_B).passed)
+gap = [{"points": n, "descriptor": "d" * 50} for n in (0, 1, 2, 4, 4)]
+check("a scale with a gap or duplicate FAILS",
+      not content.gate_rubric([dict(cr, rubric={"scorePoints": 4, "criteria": gap})],
+                              REAL_B).passed)
+blank = [{"points": n, "descriptor": ""} for n in range(5)]
+check("bands with no descriptor FAIL — an unlabelled band is scored by feel",
+      not content.gate_rubric([dict(cr, rubric={"scorePoints": 4, "criteria": blank})],
+                              REAL_B).passed)
+r = content.gate_rubric([CLEAN], REAL_B)
+check("an mcq-only set is N/A with a stated reason, not a pass over nothing",
+      r.inapplicable and r.judged == 0, f"{r.status!r}")
+
+check("not-started bias review PASSES — honest, and not a judgement of content",
+      content.gate_bias_review([dict(CLEAN, biasReview={"status": "not-started"})],
+                               REAL_B).passed)
+check("NO biasReview FAILS — silence reads as reviewed",
+      not content.gate_bias_review([dict(CLEAN)], REAL_B).passed)
+check("approved with no reviewer FAILS — an approval nobody signed",
+      not content.gate_bias_review([dict(CLEAN, biasReview={"status": "approved"})],
+                                   REAL_B).passed)
+check("EMPTY scan FAILS", not content.gate_bias_review([], REAL_B).passed)
+
+kc = dict(CLEAN, correctAnswer="B",
+          explanation="The Dawes Act divided reservation land. B is incorrect because it "
+                      "describes a different policy.")
+r = content.gate_key_contradiction([kc], REAL_B)
+check("an explanation that calls the KEY wrong FAILS", not r.passed)
+check("the finding quotes the sentence",
+      any("B is incorrect" in str(f) for f in r.findings))
+check("the same wording about a DISTRACTOR passes",
+      content.gate_key_contradiction(
+          [dict(kc, correctAnswer="A")], REAL_B).passed)
+check("EMPTY scan FAILS", not content.gate_key_contradiction([], REAL_B).passed)
+
+print("\n  a rubric's zero band is legitimately short")
+import apply_rubrics as _ar
+_ok = {"X": {"scorePoints": 2, "criteria": [
+    {"points": 0, "descriptor": "No response."},
+    {"points": 1, "descriptor": "d" * 60}, {"points": 2, "descriptor": "d" * 60}]}}
+check("validate accepts a short ZERO band",
+      not _ar.validate(_ok, {"X": {"itemType": "constructed-response"}}),
+      "it refused four correctly-written rubrics on 'No response, or off-topic.'")
+_bad = {"X": {"scorePoints": 2, "criteria": [
+    {"points": 0, "descriptor": "No response."},
+    {"points": 1, "descriptor": "short"}, {"points": 2, "descriptor": "d" * 60}]}}
+check("and still refuses a short SCORING band",
+      _ar.validate(_bad, {"X": {"itemType": "constructed-response"}}))
+
+
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
 for f in FAILED:

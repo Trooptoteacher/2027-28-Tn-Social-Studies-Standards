@@ -29,15 +29,16 @@ deleted; `quarantine/` is retention, not a bin.
 
 | | |
 |---|---|
-| servable | 3,958 |
-| aligned (counts toward coverage) | 2,006 |
+| servable | 3,928 |
+| aligned (counts toward coverage) | 1,989 |
 | quarantined, with stated reasons | 1,059 |
 | authored by Claude | 24 |
 | reviewed and approved by you | 19 |
 | **awaiting your review** | **5** |
 
 Alignment: 1,693 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
-empty: every standard is judgeable — see §11.)
+empty: every standard is judgeable — see §11.) **30 items are `held`** because their key
+explanation calls the key wrong — see §12.
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
 from standards coverage and from standards-aligned forms, nothing more.
 
@@ -69,7 +70,7 @@ can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **54 lessons, 131 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **59 lessons, 150 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -147,7 +148,7 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**66 of 94 standards can build a form. 1,867 authoring units to green them all.**
+**66 of 94 standards can build a form. 1,866 authoring units to green them all.**
 Cheapest next: US.25 (23) · US.26 (24) · US.27 (24) · US.38 (24) · US.61 (24).
 
 Per form, the recipe that produced both green ones:

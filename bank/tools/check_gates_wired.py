@@ -34,6 +34,8 @@ UNWIRED = {
     "gate_form_type_size": "print gate, called on rendered PDFs",
     "gate_form_key_leakage": "print gate, called on rendered PDFs",
     "gate_form_disclosure": "print gate, called on rendered PDFs",
+    "gate_form_key_contradiction": "print gate, called on rendered PDFs",
+    "gate_form_teacher_metadata": "print gate, called on rendered PDFs",
     "gate_teacher_side_isolation": "form scope only — items at rest carry no surface",
 }
 

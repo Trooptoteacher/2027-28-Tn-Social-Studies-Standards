@@ -21,6 +21,7 @@ import hashlib
 import json
 import os
 import random
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -183,6 +184,140 @@ def select(items, standards, blueprint):
     return picked, short, tiers
 
 
+
+def esc(v):
+    """Escape a metadata value for the key page.
+
+    The analysis block prints RECORD text — citations, rationales, reviewer
+    names — that no author wrote as HTML. An unescaped ampersand or angle
+    bracket in a citation silently swallows the rest of the line, and the
+    reader sees a short field rather than a broken one.
+    """
+    if v is None:
+        return ""
+    return (str(v).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
+_LETTER_REF = re.compile(
+    r"\b(Choice|Option|Answer)\s+([A-H])\b|\b([A-H])(?=\s+(?:is|was)\s+"
+    r"(?:correct|incorrect|wrong|right|the|a\b))")
+
+
+def remap_letters(text, item, ordered):
+    """Rewrite hard-coded choice letters to the letters THIS FORM prints.
+
+    The builder re-letters choices to de-bias key position — that is the whole
+    point of key_targets(). But 2,440 of 3,928 servable items name a letter
+    inside their explanation, and the moment a choice moves, the sentence
+    points at the wrong option. FORM-A item 1 keys C in the bank, rendered as
+    KEY: B, and printed "B is incorrect because it describes a different
+    program" directly beneath it. The form was GREEN.
+
+    The mapping is the builder's own permutation, so this is a remap and not
+    authoring: source letter -> the letter that choice now carries. Nothing in
+    the record changes; the record keeps its own letters and the RENDER speaks
+    the form's.
+
+    Found by Sean reading the rendered key. Every gate had measured the record,
+    where the letters were self-consistent. Measure the artifact.
+
+    NOT IDEMPOTENT, deliberately: applying it twice maps B->D->A. render()
+    calls it exactly once per field, and gate_form_key_contradiction measures
+    the rendered PDF rather than trusting that.
+    """
+    if not text:
+        return text
+    src = [c for c in itemio.choices(item) if isinstance(c, dict)]
+    letters = "ABCDEFGH"
+    # The record's own positional letter for each choice id, and where it went.
+    from_id = {c.get("id"): letters[i] for i, c in enumerate(src) if i < len(letters)}
+    to_id = {c.get("id"): c["_letter"] for c in ordered}
+    mapping = {}
+    for cid, old in from_id.items():
+        # An item whose choice ids ARE letters ("A".."D") names them directly.
+        for key in {old, cid}:
+            if isinstance(key, str) and len(key) == 1 and key.upper() in letters:
+                mapping[key.upper()] = to_id.get(cid, old)
+
+    def sub(m):
+        word, lettered, bare = m.group(1), m.group(2), m.group(3)
+        old = (lettered or bare or "").upper()
+        new = mapping.get(old, old)
+        return f"{word} {new}" if word else new
+
+    return _LETTER_REF.sub(sub, text)
+
+
+def analysis_block(it, key_letter, ordered, b):
+    """The per-item metadata a teacher key must carry.
+
+    Sean, first read: the selected-response items "lack the required standards,
+    DOK/Hess, distractor, bias, citation, and IRT metadata in the supplied
+    form." Every one of those was in the RECORD and none of it reached the
+    PAGE — the key printed "KEY: B · DOK 1 · US.46" and stopped. A teacher
+    cannot judge an item's rigour, fairness or fit from three tokens, and
+    neither can an adoption reviewer.
+    """
+    stds = b.standards()
+    rows = []
+    for code in it.get("standardCodes") or []:
+        text = (stds.get(code) or {}).get("text")
+        rows.append((code, esc(text) if text else
+                     "<i>not in the declared standards file</i>"))
+    out = ['<div class="analysis"><p class="ahead">Item analysis</p><dl>']
+    for code, text in rows:
+        out.append(f"<dt>Standard</dt><dd><b>{esc(code)}</b> — {text}</dd>")
+    dok = it.get("dokLevel")
+    rat = esc(it.get("dokRationale") or "") or \
+        '<i>no DOK rationale — the level is a number nobody justified</i>'
+    out.append(f"<dt>DOK / Hess</dt><dd>Level {dok} — {rat}</dd>")
+    rc, rcs = it.get("reportingCategory"), it.get("reportingCategorySource")
+    out.append(f"<dt>Reporting category</dt><dd>{esc(rc or '—')} "
+               f"<span class='prov'>(source of record: {esc(rcs or 'UNMAPPED')})</span></dd>")
+    irt = it.get("irtParameters") or {}
+    out.append("<dt>IRT</dt><dd>" + (
+        " · ".join(f"{k} {v}" for k, v in irt.items()) if irt else "—")
+        + f" <span class='prov'>({esc(it.get('calibrationStatus') or 'unknown')} — "
+          f"estimates, not calibrated against student responses)</span></dd>")
+    fmt = it.get("tcapFormat")
+    out.append(f"<dt>Format</dt><dd>{'field-testable' if fmt else 'classroom-formative'} "
+               f"<span class='prov'>(tcapFormat: {str(bool(fmt)).lower()}"
+               + (f" — {esc(it.get('tcapFormatReason'))}" if not fmt and
+                  it.get("tcapFormatReason") else "") + ")</span></dd>")
+    br = it.get("biasReview") or {}
+    out.append(f"<dt>Bias / sensitivity</dt><dd>{esc(br.get('status') or 'not stated')}"
+               + (f" — {esc(br.get('reviewer'))}" if br.get("reviewer") else "") + "</dd>")
+    cite = it.get("citation") or (it.get("source") or {}).get("citation") \
+        if isinstance(it.get("source"), dict) else it.get("citation")
+    out.append(f"<dt>Citation</dt><dd>{esc(cite) if cite else '—'}</dd>")
+    hr = it.get("historianReview") or {}
+    out.append("<dt>Historian review</dt><dd>"
+               + (f"{esc(hr.get('reviewer'))}, {esc(hr.get('reviewedAt'))}"
+                  if hr.get("reviewer") else
+                  ("<b>required, not yet done</b>" if it.get("requiresHistorianReview")
+                   else "not required")) + "</dd>")
+    misc = [f"<b>{c['_letter']}</b> — {esc(c.get('misconception'))}"
+            for c in ordered
+            if c.get("_letter") != key_letter and (c.get("misconception") or "").strip()]
+    out.append("<dt>Distractor diagnosis</dt><dd>"
+               + ("; ".join(misc) if misc else
+                  "<i>no misconception named — a distractor written to be merely wrong is "
+                  "noise, not diagnosis</i>") + "</dd>")
+    rub = it.get("rubric") or {}
+    if it.get("itemType") in ("constructed-response", "document-based"):
+        if rub.get("scorePoints") and rub.get("criteria"):
+            band = "".join(
+                f"<li><b>{esc(str(c.get('points')))}</b> — {esc(c.get('descriptor'))}</li>"
+                for c in rub["criteria"])
+            out.append(f"<dt>Rubric</dt><dd>{rub['scorePoints']}-point"
+                       f"<ol class='rubric'>{band}</ol></dd>")
+        else:
+            out.append("<dt>Rubric</dt><dd><b>NOT WRITTEN</b> — this item cannot be scored "
+                       "consistently by two teachers</dd>")
+    out.append("</dl></div>")
+    return "".join(out)
+
+
 def render(items, form_id, b, teacher: bool, targets=None, tier_note=""):
     targets = targets if targets is not None else key_targets(items, form_id)
     blocks = []
@@ -200,10 +335,13 @@ def render(items, form_id, b, teacher: bool, targets=None, tier_note=""):
                          f'&middot; DOK {it.get("dokLevel")} &middot; '
                          f'{", ".join(it.get("standardCodes") or [])}</p>')
             if it.get("explanation"):
-                parts.append(f'<p class="rat"><b>Why the key is right:</b> {it["explanation"]}</p>')
+                parts.append('<p class="rat"><b>Why the key is right:</b> '
+                             + remap_letters(it["explanation"], it, ch) + '</p>')
             for c in ch:
                 if c.get("_letter") != key_letter and (c.get("explanation") or "").strip():
-                    parts.append(f'<p class="rat"><b>{c["_letter"]} —</b> {c["explanation"]}</p>')
+                    parts.append(f'<p class="rat"><b>{c["_letter"]} —</b> '
+                                 + remap_letters(c["explanation"], it, ch) + '</p>')
+            parts.append(analysis_block(it, key_letter, ch, b))
         parts.append("</div>")
         blocks.append("".join(parts))
 

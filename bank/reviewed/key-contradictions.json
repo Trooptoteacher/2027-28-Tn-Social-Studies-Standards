@@ -1,0 +1,455 @@
+{
+  "$comment": "Items held because the key's own explanation declares the key incorrect. Found by reading a rendered teacher key, not by a gate — the gate exists now (key-contradiction) and this is its backlog. Rewrite the one sentence, set resolution and reviewer, then run tools/hold_key_contradictions.py --apply again to re-measure.",
+  "items": [
+    {
+      "id": "US.01-X020",
+      "file": "items/us-history-geography/US.04/migrated.json",
+      "key": "D",
+      "standardCodes": [
+        "US.04"
+      ],
+      "stem": "How did the ideology of Manifest Destiny shape U.S. policy toward American Indian peoples in the late 19th century?",
+      "keyText": "It provided ideological justification for westward territorial expansion and the displacement of American Indian peoples from their lands",
+      "offendingSentence": "Option D is incorrect because this ideology directly shaped federal land and military policy throughout the 19th century.",
+      "defect": "the explanation for key D declares D incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "US.01-X021",
+      "file": "items/us-history-geography/US.04/migrated.json",
+      "key": "A",
+      "standardCodes": [
+        "US.04"
+      ],
+      "stem": "Which of the following best explains why farming on the Great Plains was especially difficult for homesteaders in the late 19th century?",
+      "keyText": "Insufficient timber for construction, scarce water, periodic droughts, and hard prairie sod made traditional Eastern farming methods inadequate",
+      "offendingSentence": "Option A is incorrect because the Great Plains suffer from insufficient rainfall and drought, not flooding.",
+      "defect": "the explanation for key A declares A incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-tcap-us09-urbanization-1",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "key": "D",
+      "standardCodes": [
+        "US.15"
+      ],
+      "stem": "Which city became a major center for steel production due to its location near coal and iron ore deposits?",
+      "keyText": "Pittsburgh",
+      "offendingSentence": "Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.",
+      "defect": "the explanation for key D declares D incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-new-us09-dok1-carnegie",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "key": "D",
+      "standardCodes": [
+        "US.09"
+      ],
+      "stem": "Andrew Carnegie built his industrial fortune primarily in which industry?",
+      "keyText": "Steel production and manufacturing for construction purposes",
+      "offendingSentence": "Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.",
+      "defect": "the explanation for key D declares D incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-09-x012",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.16"
+      ],
+      "stem": "Ida Tarbell's investigation of Standard Oil (1904) was significant because it —",
+      "keyText": "Documented through meticulous research how Rockefeller had used secret railroad rebates and ruthless tactics to eliminate competitors",
+      "offendingSentence": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-09-x025",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.16"
+      ],
+      "stem": "Ida Tarbell's investigation of Standard Oil relied primarily on —",
+      "keyText": "Public records, court documents, and interviews that Standard Oil believed were harmless",
+      "offendingSentence": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us09-dok2-6",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.09"
+      ],
+      "stem": "What business practice did John D. Rockefeller primarily use to build Standard Oil?",
+      "keyText": "Horizontal integration - buying out competing oil refineries",
+      "offendingSentence": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-new-us09-dok2-rockefeller",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.09"
+      ],
+      "stem": "John D. Rockefeller's Standard Oil Company was an example of —",
+      "keyText": "A monopoly that controlled oil refining and distribution",
+      "offendingSentence": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us14-dok1-tarbell",
+      "file": "items/us-history-geography/US.16/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.16"
+      ],
+      "stem": "What company did Ida Tarbell expose in her investigative journalism?",
+      "keyText": "Standard Oil",
+      "offendingSentence": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us14-dok1-2-u2",
+      "file": "items/us-history-geography/US.16/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.16"
+      ],
+      "stem": "What did Ida Tarbell's investigative reporting expose?",
+      "keyText": "The monopolistic practices of Standard Oil Company",
+      "offendingSentence": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-46-x027",
+      "file": "items/us-history-geography/US.48/migrated.json",
+      "key": "A",
+      "standardCodes": [
+        "US.48"
+      ],
+      "stem": "MacArthur's dismissal by Truman in April 1951 was significant constitutionally because it affirmed —",
+      "keyText": "The principle that generals could not advocate for different policies publicly without presidential approval",
+      "offendingSentence": "A is incorrect because it describes a different program, event, or idea than the topic in the question.",
+      "defect": "the explanation for key A declares A incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-54-x026",
+      "file": "items/us-history-geography/US.54/migrated.json",
+      "key": "C",
+      "standardCodes": [
+        "US.54"
+      ],
+      "stem": "The Albany Movement (1961-62) was considered a tactical failure for the Civil Rights Movement because —",
+      "keyText": "The Kennedy administration refused to intervene, leaving protesters without federal support",
+      "offendingSentence": "C is incorrect because it describes a different program, event, or idea than this civil rights development.",
+      "defect": "the explanation for key C declares C incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-58-x025",
+      "file": "items/us-history-geography/US.58/migrated.json",
+      "key": "A",
+      "standardCodes": [
+        "US.58"
+      ],
+      "stem": "The social movements of the late 1960s collectively challenged American society by —",
+      "keyText": "Demonstrating that the promise of American democracy had not been extended equally to all citizens",
+      "offendingSentence": "A is incorrect because it describes a different program, event, or idea than the topic in the question.",
+      "defect": "the explanation for key A declares A incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-46-x022",
+      "file": "items/us-history-geography/US.59/migrated.json",
+      "key": "C",
+      "standardCodes": [
+        "US.59"
+      ],
+      "stem": "NATO (1949) was significant because it was —",
+      "keyText": "The first peacetime military alliance in American history, entangling the U.S. in European security",
+      "offendingSentence": "C is incorrect because it describes a different program, event, or idea than this Cold War development.",
+      "defect": "the explanation for key C declares C incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-71-x025",
+      "file": "items/us-history-geography/US.64/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.64"
+      ],
+      "stem": "The NSA's PRISM surveillance program, revealed by Snowden, collected data primarily from —",
+      "keyText": "Major internet and technology companies — including Google, Facebook, and Apple — without individual warrants",
+      "offendingSentence": "B is wrong because the program was broader than targeted individual warrants.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us73-add-2",
+      "file": "items/us-history-geography/US.66/migrated.json",
+      "key": "D",
+      "standardCodes": [
+        "US.66"
+      ],
+      "stem": "What medical advance during the 1950s dramatically improved public health?",
+      "keyText": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease",
+      "offendingSentence": "B is wrong because highways were a transportation change, not a medical advance, and D is wrong because it describes a broad result rather than the specific breakthrough.",
+      "defect": "the explanation for key D declares D incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us73-add-3",
+      "file": "items/us-history-geography/US.66/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.66"
+      ],
+      "stem": "Which domestic objective helped Eisenhower justify the Interstate Highway System?",
+      "keyText": "Improving civilian transportation while supporting national defense logistics",
+      "offendingSentence": "B is wrong because the polio vaccine had nothing to do with highway policy.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-73-x023",
+      "file": "items/us-history-geography/US.66/migrated.json",
+      "key": "A",
+      "standardCodes": [
+        "US.66"
+      ],
+      "stem": "The Stafford Act governs FEMA's authority to respond to disasters. Katrina revealed its limitations because —",
+      "keyText": "The Act required a congressional vote before FEMA could deploy resources exceeding $100 million",
+      "offendingSentence": "A is wrong because Congress did not need to vote before FEMA could spend major disaster funds.",
+      "defect": "the explanation for key A declares A incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us75-add-3",
+      "file": "items/us-history-geography/US.67/migrated.json",
+      "key": "D",
+      "standardCodes": [
+        "US.67"
+      ],
+      "stem": "How did television contribute to a more national popular culture in the 1950s?",
+      "keyText": "Families across regions watched the same news, sports, and entertainment programs",
+      "offendingSentence": "D is wrong because advertising shaped buying habits more than shared culture, and C is wrong because it focuses on campaigns.",
+      "defect": "the explanation for key D declares D incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us76-add-5",
+      "file": "items/us-history-geography/US.68/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.68"
+      ],
+      "stem": "How did Tennessee recording centers help shape youth culture in the 1950s?",
+      "keyText": "Studios in Memphis and Nashville popularized crossover sounds that reached national teen audiences",
+      "offendingSentence": "B is wrong because B.B.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us77-add-2",
+      "file": "items/us-history-geography/US.72/migrated.json",
+      "key": "D",
+      "standardCodes": [
+        "US.72"
+      ],
+      "stem": "How did Kennedy's assassination in 1963 affect American society?",
+      "keyText": "It traumatized the nation and created sympathy that helped pass his legislative agenda",
+      "offendingSentence": "D is wrong because it describes the New Frontier itself, not the effect of Kennedy's death.",
+      "defect": "the explanation for key D declares D incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us77-add-5",
+      "file": "items/us-history-geography/US.72/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.72"
+      ],
+      "stem": "How did New Frontier proposals influence later domestic policy even when not fully enacted under Kennedy?",
+      "keyText": "They provided legislative foundations that Johnson advanced through Great Society programs",
+      "offendingSentence": "B is wrong because the Peace Corps was only one program, not the broader legacy.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-56-x024",
+      "file": "items/us-history-geography/US.76/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.76"
+      ],
+      "stem": "The assassination of Martin Luther King Jr. (April 4, 1968) triggered —",
+      "keyText": "Congressional passage of the Civil Rights Act of 1968 (Fair Housing Act) within days",
+      "offendingSentence": "B is incorrect because it describes a different program, event, or idea than this civil rights development.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us86-add-1",
+      "file": "items/us-history-geography/US.84/migrated.json",
+      "key": "A",
+      "standardCodes": [
+        "US.84"
+      ],
+      "stem": "What was the Watergate scandal?",
+      "keyText": "A break-in at Democratic headquarters and Nixon's cover-up that led to his resignation",
+      "offendingSentence": "A is incorrect because that refers to Watergate rather than the concept asked about here; D is incorrect because it names a different institution or power than the one the item asks about.",
+      "defect": "the explanation for key A declares A incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-91-x028",
+      "file": "items/us-history-geography/US.90/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.90"
+      ],
+      "stem": "China's admission to the World Trade Organization (2001) had long-term consequences including:",
+      "keyText": "A massive transfer of American technology to China that accelerated its military modernization",
+      "offendingSentence": "B is incorrect because it points to a different Cold War policy or country; D is incorrect because it points to a different Cold War policy or country.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us93-3",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "key": "C",
+      "standardCodes": [
+        "US.92"
+      ],
+      "stem": "What barrier did Nancy Pelosi break in American political history in 2007?",
+      "keyText": "She became the first woman to serve as Speaker of the House",
+      "offendingSentence": "B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.",
+      "defect": "the explanation for key C declares C incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "q-us93-add-3",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "key": "C",
+      "standardCodes": [
+        "US.92"
+      ],
+      "stem": "Who was Nancy Pelosi and what was historic about her role?",
+      "keyText": "She became the first woman to serve as Speaker of the House in 2007",
+      "offendingSentence": "B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.",
+      "defect": "the explanation for key C declares C incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-93-x015",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "key": "D",
+      "standardCodes": [
+        "US.92"
+      ],
+      "stem": "The increasing diversity of the Supreme Court over the past 50 years reflects:",
+      "keyText": "Changing political priorities of presidents who recognized the symbolic and practical importance of diversifying the judiciary",
+      "offendingSentence": "B is incorrect because it names a different institution or power than the one the item asks about; D is incorrect because it names a different institution or power than the one the item asks about.",
+      "defect": "the explanation for key D declares D incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-74-q02",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "key": "B",
+      "standardCodes": [
+        "US.92"
+      ],
+      "stem": "The 2008 financial crisis was rooted in a housing bubble inflated by risky mortgage lending. 'Subprime' mortgages were bundled into complex financial instruments (mortgage-backed securities) and sold ",
+      "keyText": "Deregulation of the financial industry in the 1990s and 2000s had removed safeguards that might have prevented the crisis",
+      "offendingSentence": "B is wrong because banks still had legal disclosure obligations, and C is wrong because the lesson was not that all financial innovation is inherently bad.",
+      "defect": "the explanation for key B declares B incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    },
+    {
+      "id": "us-72-x015",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "key": "D",
+      "standardCodes": [
+        "US.92"
+      ],
+      "stem": "Secretary of State Colin Powell's February 2003 presentation to the UN Security Council on Iraqi WMDs is historically significant because —",
+      "keyText": "Powell later called it a 'blot' on his record after the WMD claims proved false",
+      "offendingSentence": "D is wrong because the speech did not persuade France and Russia to support the invasion.",
+      "defect": "the explanation for key D declares D incorrect",
+      "whatToDo": "Confirm the key is right, then rewrite ONLY this sentence so it says why the key is right. Do not delete the sentence — a rationale that stops mid-argument is the next defect.",
+      "resolution": null,
+      "reviewer": null
+    }
+  ]
+}

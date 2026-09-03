@@ -15,41 +15,49 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `key-integrity` | **PASS** | 3988 | — | 0 |
 | `distractor-coverage` | **FAIL** | 3988 | 3846 | 22944 |
 | `truncation` | **FAIL** | 3988 | — | 91 |
-| `blueprint-conformance` | **FAIL** | 2006 | — | 24 |
-| `blueprint-achievability` | **FAIL** | 2006 | 94 | 28 |
-| `key-position-debias` | **PASS** | 3823 | — | 0 |
-| `serveability` | **FAIL** | 3958 | — | 998 |
+| `blueprint-conformance` | **FAIL** | 1989 | — | 24 |
+| `blueprint-achievability` | **FAIL** | 1989 | 94 | 28 |
+| `key-position-debias` | **PASS** | 3793 | — | 0 |
+| `serveability` | **FAIL** | 3928 | — | 994 |
 | `reporting-category-provenance` | **PASS** | 3988 | — | 0 |
 | `signal-coverage` | **PASS** | 94 | 94 | 0 |
-| `alignment-claim` | **PASS** | 3988 | 3958 | 0 |
-| `choice-length-cue` | **FAIL** | 3988 | 3823 | 1 |
-| `duplicate-stems` | **PASS** | 3988 | 3958 | 0 |
+| `alignment-claim` | **PASS** | 3988 | 3928 | 0 |
+| `choice-length-cue` | **FAIL** | 3988 | 3793 | 1 |
+| `duplicate-stems` | **PASS** | 3988 | 3928 | 0 |
 | `citation-integrity` | **PASS** | 3988 | 35 | 0 |
-| `translation-claim` | **PASS** | 3988 | 3473 | 0 |
-| `explanation-quality` | **FAIL** | 3988 | 3958 | 918 |
-| `embedded-answer-key` | **PASS** | 3988 | 3958 | 0 |
-| `review-provenance` | **PASS** | 3988 | 24 | 0 |
-| `release-readiness` | **FAIL** | 3958 | — | 6 |
-| `FORM-A/form-pagination` | **PASS** | 2 | 17 | 0 |
-| `FORM-A/form-type-size` | **PASS** | 2 | 49816 | 0 |
+| `translation-claim` | **PASS** | 3988 | 3445 | 0 |
+| `explanation-quality` | **FAIL** | 3988 | 3928 | 918 |
+| `embedded-answer-key` | **PASS** | 3988 | 3928 | 0 |
+| `review-provenance` | **FAIL** | 3988 | 24 | 3 |
+| `tcap-format` | **PASS** | 3988 | 3928 | 0 |
+| `rubric` | **FAIL** | 3988 | 100 | 17 |
+| `bias-review` | **PASS** | 3988 | 3928 | 0 |
+| `key-contradiction` | **PASS** | 3988 | 3928 | 0 |
+| `release-readiness` | **FAIL** | 3928 | — | 6 |
+| `FORM-A/form-pagination` | **PASS** | 2 | 36 | 0 |
+| `FORM-A/form-type-size` | **PASS** | 2 | 73410 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 6 | 0 |
 | `FORM-A/form-disclosure` | **PASS** | 2 | 2 | 0 |
+| `FORM-A/form-key-contradiction` | **PASS** | 1 | 12 | 0 |
+| `FORM-A/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
 | `FORM-A/teacher-side-isolation` | **PASS** | 18 | 18 | 0 |
 | `FORM-A/form-blueprint` | **FAIL** | 18 | 3 | 3 |
-| `FORM-B/form-pagination` | **PASS** | 2 | 6 | 0 |
-| `FORM-B/form-type-size` | **PASS** | 2 | 15653 | 0 |
+| `FORM-B/form-pagination` | **PASS** | 2 | 13 | 0 |
+| `FORM-B/form-type-size` | **PASS** | 2 | 23454 | 0 |
 | `FORM-B/form-key-leakage` | **PASS** | 1 | 2 | 0 |
 | `FORM-B/form-disclosure` | **PASS** | 2 | 2 | 0 |
+| `FORM-B/form-key-contradiction` | **PASS** | 1 | 4 | 0 |
+| `FORM-B/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
 | `FORM-B/teacher-side-isolation` | **PASS** | 6 | 6 | 0 |
 | `FORM-B/form-blueprint` | **FAIL** | 6 | 1 | 1 |
-| `all-gates-measured` | **PASS** | 32 | — | 0 |
+| `all-gates-measured` | **PASS** | 40 | — | 0 |
 
-**22/33 pass.** Grade A requires all of them. "Close" is not "A."
+**28/41 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
 - Source: **5,045** items from the 2026-27 `history-hack-web-app` bank
-- Servable: **3958** (3416 migrated, 516 provisional)
+- Servable: **3928** (3391 migrated, 511 provisional)
 - Quarantined (not servable, not coverage): **1059**
   - 929 — standard retired / no 2027-28 home
   - 130 — tests an element the 2027-28 standard dropped
@@ -65,10 +73,10 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 | Gap | Count |
 |---|---|
-| distractor rationales absent | 11403 |
-| items with no dokRationale | 3682 |
-| items with no stemEs | 513 |
-| items with no explanationEs | 485 |
+| distractor rationales absent | 11313 |
+| items with no dokRationale | 3654 |
+| items with no stemEs | 511 |
+| items with no explanationEs | 483 |
 | standards with no reporting-category source | 94 |
 
 ## Decisions taken

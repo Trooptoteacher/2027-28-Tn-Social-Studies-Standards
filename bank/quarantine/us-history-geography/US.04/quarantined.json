@@ -56,7 +56,20 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": null,
+        "criteria": [],
+        "status": "not-written"
+      }
     },
     {
       "id": "q-us07-dok4-dbq-5",
@@ -107,7 +120,20 @@
           "verbChange": "describe -> determine"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": null,
+        "criteria": [],
+        "status": "not-written"
+      }
     },
     {
       "id": "q-us01-dok4-er-1",
@@ -168,7 +194,15 @@
           "verbChange": "describe -> determine"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      }
     },
     {
       "id": "q-us03-dok4-er-3",
@@ -221,7 +255,15 @@
           "verbChange": "describe -> determine"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      }
     },
     {
       "id": "q-us71-dok4-er-1",
@@ -289,7 +331,15 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      }
     }
   ]
 }

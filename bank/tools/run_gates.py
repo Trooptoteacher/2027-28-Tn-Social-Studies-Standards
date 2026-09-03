@@ -41,6 +41,10 @@ GATES = [
     content.gate_explanation_quality,
     content.gate_embedded_key,
     content.gate_review_provenance,
+    content.gate_tcap_format,
+    content.gate_rubric,
+    content.gate_bias_review,
+    content.gate_key_contradiction,
     # teacher-side-isolation is a FORM gate, not a bank gate: items at rest
     # carry no surface, so running it here could only ever be vacuous. It runs
     # once per rendered form, below.
@@ -69,7 +73,9 @@ def collect(b, target=None):
         fid = os.path.basename(fd)
         pdfs = sorted(glob.glob(os.path.join(fd, "*.pdf")))
         for g in (formgates.gate_form_pagination, formgates.gate_form_type_size,
-                  formgates.gate_form_key_leakage, formgates.gate_form_disclosure):
+                  formgates.gate_form_key_leakage, formgates.gate_form_disclosure,
+                  formgates.gate_form_key_contradiction,
+                  formgates.gate_form_teacher_metadata):
             r = g(pdfs, b); r.gate = f"{fid}/{r.gate}"; results.append(r)
         if os.path.exists(os.path.join(fd, "student-surface.json")):
             surface = itemio.load_dir(fd)
@@ -112,7 +118,9 @@ def collect_form(b, form_id):
     results = [g(sel, b) for g in ITEM_GATES]
     pdfs = sorted(glob.glob(os.path.join(fd, "*.pdf")))
     for g in (formgates.gate_form_pagination, formgates.gate_form_type_size,
-              formgates.gate_form_key_leakage, formgates.gate_form_disclosure):
+              formgates.gate_form_key_leakage, formgates.gate_form_disclosure,
+              formgates.gate_form_key_contradiction,
+              formgates.gate_form_teacher_metadata):
         results.append(g(pdfs, b))
     rendered = itemio.load_dir(fd)
     results.append(coverage.gate_teacher_side_isolation(rendered, b))

@@ -49,7 +49,20 @@
         ],
         "alignmentReview": null
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": null,
+        "criteria": [],
+        "status": "not-written"
+      }
     },
     {
       "id": "q-us52-dok4-cr-8",
@@ -92,7 +105,20 @@
         ],
         "alignmentReview": null
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": null,
+        "criteria": [],
+        "status": "not-written"
+      }
     },
     {
       "id": "q-us51-dok4-dbq-4",
@@ -135,7 +161,20 @@
         ],
         "alignmentReview": null
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": null,
+        "criteria": [],
+        "status": "not-written"
+      }
     },
     {
       "id": "q-us51-dok4-er-4",
@@ -181,7 +220,15 @@
         ],
         "alignmentReview": null
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      }
     }
   ]
 }

@@ -75,6 +75,14 @@
       },
       "alignmentStatus": "evidenced",
       "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -156,6 +164,14 @@
       },
       "alignmentStatus": "evidenced",
       "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -237,6 +253,14 @@
       },
       "alignmentStatus": "evidenced",
       "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -318,6 +342,14 @@
       },
       "alignmentStatus": "evidenced",
       "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -370,6 +402,46 @@
       },
       "alignmentStatus": "evidenced",
       "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": 4,
+        "criteria": [
+          {
+            "points": 4,
+            "label": "Exemplary",
+            "descriptor": "Analyses THREE distinct factors that kept the superpowers from direct conflict — nuclear deterrence and the logic of mutual assured destruction, the alliance and bloc structure that made escalation collective, and the diplomatic channels and norms that developed for managing crises — and explains the MECHANISM of each, not just its name. The evaluation confronts the real difficulty: the \"cold\" form avoided a great-power war while producing enormous casualties in Korea, Vietnam and elsewhere, so \"less dangerous\" and \"more dangerous\" depend on who is counted. A position is taken and defended."
+          },
+          {
+            "points": 3,
+            "label": "Proficient",
+            "descriptor": "Three factors, accurately identified, with at least two explained mechanically. The evaluation takes a position and offers support, but treats the proxy-war cost briefly."
+          },
+          {
+            "points": 2,
+            "label": "Developing",
+            "descriptor": "Two or three factors named but explained as labels. The evaluation restates that the Cold War was dangerous without weighing the comparison."
+          },
+          {
+            "points": 1,
+            "label": "Beginning",
+            "descriptor": "Fewer than two usable factors, or factors that are consequences rather than causes. No evaluation."
+          },
+          {
+            "points": 0,
+            "label": "No response",
+            "descriptor": "No response, or off-topic."
+          }
+        ],
+        "status": "authored",
+        "reviewStatus": "needs-review"
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -421,6 +493,58 @@
         }
       },
       "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": 6,
+        "criteria": [
+          {
+            "points": 6,
+            "label": "Exemplary",
+            "descriptor": "Precise, arguable thesis on the humanitarian/strategic duality. Full SOAPS analysis of both documents, identifying all five elements for each with historical accuracy. Outside evidence (minimum 3 specific facts). Addresses all three prompt components. Synthesizes the documents' dialogue to reveal structural Cold War incompatibility."
+          },
+          {
+            "points": 5,
+            "label": "Advanced",
+            "descriptor": "Clear thesis. Full SOAPS on both documents (may miss one element). Two pieces of outside evidence. Addresses two of three prompt components clearly."
+          },
+          {
+            "points": 4,
+            "label": "Proficient",
+            "descriptor": "Arguable thesis. SOAPS partially applied to both documents (3–4 elements per document). One specific outside evidence fact. Addresses two prompt components."
+          },
+          {
+            "points": 3,
+            "label": "Adequate",
+            "descriptor": "General thesis. Analyzes both documents but without systematic SOAPS. Some outside knowledge evident."
+          },
+          {
+            "points": 2,
+            "label": "Developing",
+            "descriptor": "Basic claim. References at least one document, mostly summary. Minimal outside evidence."
+          },
+          {
+            "points": 1,
+            "label": "Beginning",
+            "descriptor": "Attempts a response. May reference documents without analysis."
+          },
+          {
+            "points": 0,
+            "label": null,
+            "descriptor": "No response or off-topic."
+          }
+        ],
+        "status": "extracted",
+        "extractedFrom": "explanation",
+        "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Document A SOAPS — the universalist framing as strategic choice; the commencement setting as public communication platform; the invitation to all nations as a calculated gamble. Document B SOAPS — Molotov's 'sovereignty' argument as proxy for Soviet hegemony concerns; the Paris conference as the turning point that crystallized European division; the accusation of U.S. interference as revealing of Soviet satellite-state model. KEY EVIDENCE EXPECTED: $13.3 billion in aid; Western European GDP recovery (1948–1952); OEEC creation; Molotov Plan and COMECON; Czech coup (February 1948) occurring simultaneously; Berlin Blockade (June 1948) as Soviet counter-pressure.",
+        "reviewStatus": "needs-review"
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",

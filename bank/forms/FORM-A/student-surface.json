@@ -92,6 +92,14 @@
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
       },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -190,6 +198,14 @@
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
       },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -285,6 +301,14 @@
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
       },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -368,6 +392,14 @@
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
       },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -435,12 +467,52 @@
         }
       },
       "alignmentStatus": "rehomed",
-      "requiresHistorianReview": false,
+      "requiresHistorianReview": true,
       "historianReview": {
         "status": "approved",
         "record": "form-a-authoring-2026-09-03",
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": 4,
+        "criteria": [
+          {
+            "points": 4,
+            "label": "Exemplary",
+            "descriptor": "Grades THREE named New Deal programs on BOTH criteria separately, and the two grades come apart for at least one program — the response shows it understands that immediate relief and long-term structural change are different achievements (the CCC put men to work quickly and left little institutional legacy; Social Security did comparatively little in 1935 and reshaped the federal government permanently). Every grade is justified with specific evidence: enrollment or spending figures, dates, what the programme actually did, what a court or Congress did to it."
+          },
+          {
+            "points": 3,
+            "label": "Proficient",
+            "descriptor": "Three named programs graded on both criteria with accurate supporting evidence. Grades are defended. The short-term/long-term distinction is present but the two grades largely track each other."
+          },
+          {
+            "points": 2,
+            "label": "Developing",
+            "descriptor": "Three programs named but one is described inaccurately, or only two are graded on both criteria. Justification leans on general characterisation (\"it helped people\") rather than specific evidence."
+          },
+          {
+            "points": 1,
+            "label": "Beginning",
+            "descriptor": "Fewer than three programs, or programs misidentified as New Deal. Grades assigned with no historical justification."
+          },
+          {
+            "points": 0,
+            "label": "No response",
+            "descriptor": "No response, or off-topic."
+          }
+        ],
+        "status": "authored",
+        "reviewStatus": "needs-review"
       },
       "correctAnswer": null,
       "explanation": "",
@@ -491,6 +563,58 @@
         "alignmentReview": null
       },
       "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": 6,
+        "criteria": [
+          {
+            "points": 6,
+            "label": "Exemplary",
+            "descriptor": "All three documents analyzed with accurate HIPP. Correctly places NIRA in First New Deal and Wagner Act/Tax Message in Second New Deal. Argues the evolution with evidence from all three documents plus two outside facts. Evaluation of genuine vs. strategic shift is nuanced and evidence-based. Historical writing is rigorous."
+          },
+          {
+            "points": 5,
+            "label": "Advanced",
+            "descriptor": "Three documents with HIPP (one may be less precise). Argument traces evolution with all three documents and at least one outside fact. Evaluation present with some nuance."
+          },
+          {
+            "points": 4,
+            "label": "Proficient",
+            "descriptor": "Two or three documents with some HIPP. Argument traces First to Second New Deal with evidence from at least two documents and one outside fact. Evaluation present."
+          },
+          {
+            "points": 3,
+            "label": "Adequate",
+            "descriptor": "Two documents referenced. Argument identifies evolution in general terms. Some HIPP. Limited outside knowledge."
+          },
+          {
+            "points": 2,
+            "label": "Developing",
+            "descriptor": "Minimal document analysis. Argument vague about evolution. Little outside knowledge."
+          },
+          {
+            "points": 1,
+            "label": "Beginning",
+            "descriptor": "One document summarized. No argument. No HIPP."
+          },
+          {
+            "points": 0,
+            "label": null,
+            "descriptor": "No response or completely off-topic."
+          }
+        ],
+        "status": "extracted",
+        "extractedFrom": "explanation",
+        "notes": "DOCUMENT ANALYSIS EXPECTATIONS: - Doc A (NIRA): First New Deal; cooperative capitalism; Context = Hundred Days emergency legislation - Doc B (Wagner Act): Second New Deal; labor rights shift; Context = post-Schechter, Long threat - Doc C (FDR Tax): Second New Deal; redistributive rhetoric; Context = Share Our Wealth pressure KEY EVIDENCE EXPECTED: NIRA (1933) and Schechter Poultry v. United States (1935); Huey Long / Share Our Wealth (4.5 million members); Wagner Act (1935) and NLRB; Social Security Act (1935); Works Progress Administration (1935); Revenue Act of 1935 ('Soak the Rich'); CIO formation (1935); GM sit-down strike (1936–1937).",
+        "reviewStatus": "needs-review"
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -576,6 +700,14 @@
         "record": "form-a-authoring-2026-09-03",
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
       },
       "correctAnswer": null,
       "explanation": "",
@@ -663,6 +795,14 @@
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
       },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -748,6 +888,14 @@
         "record": "form-a-authoring-2026-09-03",
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
       },
       "correctAnswer": null,
       "explanation": "",
@@ -835,6 +983,14 @@
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
       },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -885,12 +1041,52 @@
         }
       },
       "alignmentStatus": "evidenced",
-      "requiresHistorianReview": false,
+      "requiresHistorianReview": true,
       "historianReview": {
         "status": "approved",
         "record": "form-a-authoring-2026-09-03",
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": 4,
+        "criteria": [
+          {
+            "points": 4,
+            "label": "Exemplary",
+            "descriptor": "Identifies specific principles behind the Marshall Plan's success — its scale, its requirement that recipients cooperate and plan jointly, and the alignment of American economic self-interest with European recovery — and applies them to a NAMED contemporary aid context rather than to foreign aid in general. The limitations are historically grounded: post-war Europe had industrial capacity and institutions to rebuild, the aid ran through a bipartisan Cold War consensus, and the recipients were states that wanted it. Comparison runs in both directions; it does not simply recommend repeating the Plan."
+          },
+          {
+            "points": 3,
+            "label": "Proficient",
+            "descriptor": "Names at least two real principles and applies them to a contemporary context with reasonable specificity. Limitations are identified and plausible, if not fully developed."
+          },
+          {
+            "points": 2,
+            "label": "Developing",
+            "descriptor": "Describes the Marshall Plan accurately but the modern comparison stays generic (\"we should help other countries more\"). Limitations are asserted rather than explained."
+          },
+          {
+            "points": 1,
+            "label": "Beginning",
+            "descriptor": "Marshall Plan described inaccurately or only by name. No usable comparison or limitation."
+          },
+          {
+            "points": 0,
+            "label": "No response",
+            "descriptor": "No response, or off-topic."
+          }
+        ],
+        "status": "authored",
+        "reviewStatus": "needs-review"
       },
       "correctAnswer": null,
       "explanation": "",
@@ -938,6 +1134,58 @@
         }
       },
       "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": 6,
+        "criteria": [
+          {
+            "points": 6,
+            "label": "Exemplary",
+            "descriptor": "Presents a precise, historically arguable thesis on the ideology/geopolitics question. Applies full HIPP analysis to at least two documents, identifying historical context, audience, purpose, AND point of view for each. Uses outside historical evidence (minimum 3 specific facts) not from the documents. Addresses all three prompt components: perceptions, causation debate, and alternative outcomes. Demonstrates sophisticated understanding of historiographical debate."
+          },
+          {
+            "points": 5,
+            "label": "Advanced",
+            "descriptor": "Clear thesis. Full HIPP applied to two documents (may be incomplete on one element for one document). Two pieces of outside evidence. Addresses two of three prompt components thoroughly."
+          },
+          {
+            "points": 4,
+            "label": "Proficient",
+            "descriptor": "Arguable thesis. HIPP partially applied to two documents (addresses 2–3 elements per document). One piece of outside evidence. Addresses at least two prompt components."
+          },
+          {
+            "points": 3,
+            "label": "Adequate",
+            "descriptor": "General thesis. Analyzes at least two documents but without systematic HIPP. Uses document evidence but limited outside knowledge. Addresses one prompt component clearly."
+          },
+          {
+            "points": 2,
+            "label": "Developing",
+            "descriptor": "Basic claim. References at least one document but analysis is mostly summary. Minimal outside evidence. Prompt components addressed superficially."
+          },
+          {
+            "points": 1,
+            "label": "Beginning",
+            "descriptor": "Attempts a response. May reference documents but without analysis. Little to no outside evidence. Does not address prompt components."
+          },
+          {
+            "points": 0,
+            "label": null,
+            "descriptor": "No response or off-topic."
+          }
+        ],
+        "status": "extracted",
+        "extractedFrom": "explanation",
+        "notes": "DOCUMENT ANALYSIS EXPECTATIONS: For Document A — HIPP should identify Kennan's diplomatic vantage point, State Dept. audience, warning purpose, and his trained diplomat's point of view that shaped his perception. For Document B — HIPP should note Churchill's political status, the American audience (Truman present), the galvanizing purpose, and Churchill's imperial Great Power point of view. For Document C — HIPP should identify the immediate Greece/Turkey crisis, the congressional audience, the funding request purpose, and Truman's Manichean framing as a political strategy. KEY EVIDENCE EXPECTED: Yalta and Potsdam tensions; Soviet satellite states (1945–1948); Soviet rejection of Marshall Plan; Berlin Blockade (1948–1949); Soviet atomic test (1949); Chinese Communist victory (1949); NSC-68 (1950) as ideological escalation.",
+        "reviewStatus": "needs-review"
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -1038,6 +1286,14 @@
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
       },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -1134,6 +1390,14 @@
         "record": "form-a-authoring-2026-09-03",
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
       },
       "correctAnswer": null,
       "explanation": "",
@@ -1233,6 +1497,14 @@
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
       },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -1331,6 +1603,14 @@
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
       },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -1400,12 +1680,52 @@
         }
       },
       "alignmentStatus": "rehomed",
-      "requiresHistorianReview": false,
+      "requiresHistorianReview": true,
       "historianReview": {
         "status": "approved",
         "record": "form-a-authoring-2026-09-03",
         "reviewer": "Sean Reynolds",
         "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": 4,
+        "criteria": [
+          {
+            "points": 4,
+            "label": "Exemplary",
+            "descriptor": "Names THREE specific events or policies (e.g. the Spanish-American War, the annexation of Hawaii, the Open Door Policy, the Panama Canal, the Philippine-American War) and shows each carrying BOTH an idealistic justification and a self-interested motive — not three examples of one and none of the other. Quotes or closely paraphrases the era's own language (\"civilization\", \"duty\", \"markets\", \"coaling stations\") rather than asserting motive. The evaluation takes a clear position on whether imperialism strengthened or weakened American democratic ideals and defends it against the strongest objection to it, most often the Philippines."
+          },
+          {
+            "points": 3,
+            "label": "Proficient",
+            "descriptor": "Three specific examples, accurate, with both motive types present across the response even if one example carries only one. Evidence is concrete. The evaluation states a position and supports it, but does not engage a counterargument."
+          },
+          {
+            "points": 2,
+            "label": "Developing",
+            "descriptor": "Two or three examples, at least one imprecise or misdated. Idealism and self-interest are both named but treated as labels rather than shown in the evidence. The evaluation is asserted without support."
+          },
+          {
+            "points": 1,
+            "label": "Beginning",
+            "descriptor": "Fewer than two usable examples, or examples outside the period. Motives are described generally (\"America wanted power\") with no specific policy attached. No evaluation, or an evaluation that restates the prompt."
+          },
+          {
+            "points": 0,
+            "label": "No response",
+            "descriptor": "No response, or off-topic."
+          }
+        ],
+        "status": "authored",
+        "reviewStatus": "needs-review"
       },
       "correctAnswer": null,
       "explanation": "",
@@ -1457,6 +1777,58 @@
         }
       },
       "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": 6,
+        "criteria": [
+          {
+            "points": 6,
+            "label": "Exemplary",
+            "descriptor": "Complex thesis addressing both 'turning point' and 'inevitable product' dimensions. SOAPS analysis of at least two documents accurately and specifically. Cross-document synthesis (Teller → Platt contradiction). Extensive outside knowledge. Well-organized argumentative essay."
+          },
+          {
+            "points": 5,
+            "label": "Advanced",
+            "descriptor": "Clear thesis. SOAPS applied to at least two documents accurately. Good outside knowledge. Addresses the Teller/Platt contradiction but may not fully develop the 'turning point vs. inevitable' framework."
+          },
+          {
+            "points": 4,
+            "label": "Proficient",
+            "descriptor": "Clear thesis. Uses all three documents as evidence. SOAPS applied to at least two documents with reasonable accuracy. Some outside knowledge. Coherent argument."
+          },
+          {
+            "points": 3,
+            "label": "Adequate",
+            "descriptor": "Thesis present but simple. Uses two or more documents. Some SOAPS elements. Limited outside knowledge. Some organizational issues."
+          },
+          {
+            "points": 2,
+            "label": "Developing",
+            "descriptor": "Weak or no thesis. Uses one or two documents without SOAPS. Little outside knowledge. Descriptive rather than argumentative."
+          },
+          {
+            "points": 1,
+            "label": "Beginning",
+            "descriptor": "No thesis. Minimal document use. No SOAPS. No outside knowledge."
+          },
+          {
+            "points": 0,
+            "label": null,
+            "descriptor": "No response or completely off-topic."
+          }
+        ],
+        "status": "extracted",
+        "extractedFrom": "explanation",
+        "notes": "DOCUMENT ANALYSIS EXPECTATIONS: — Doc 1: McKinley's economic/commercial framing; distinguish from humanitarian yellow-press justification; note 'enforcing American interests' as the operative phrase. — Doc 2: Teller's explicit anti-annexation intent; note its unanimous passage alongside the war authorization; significance = set up later contradiction with Platt. — Doc 3: Platt's intervention rights and naval basing provisions; note this was imposed as a condition of U.S. military withdrawal; Cuba had no real choice; significance = established protectorate in all but name. KEY EVIDENCE EXPECTED: Mahan's influence; De Lôme Letter; USS Maine (Feb. 15, 1898); Commodore Dewey Manila Bay (May 1, 1898); Battle of San Juan Hill; Treaty of Paris (1898); Philippine acquisition; Teller-to-Platt contradiction; Guantanamo Bay lease (still in force); Cuba as protectorate 1901–1934.",
+        "reviewStatus": "needs-review"
+      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",

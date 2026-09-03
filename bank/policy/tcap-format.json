@@ -1,0 +1,20 @@
+{
+  "$comment": "What may claim to be a TCAP-FIELD-TESTABLE item, and on whose authority. Sean Reynolds, first pass over FORM-A, 2026-09-03: 'this is a mixed classroom assessment, not a TCAP-field-testable form.' A form that mixes twelve selected-response items with six extended responses reads as a test form and is not one. The distinction now travels WITH the item.",
+  "policyVersion": 1,
+  "sourceOfRecord": "Sean Reynolds (TN Level 5 U.S. History teacher), 2026-09-03",
+  "notTdoe": "This is NOT a TDOE publication. TDOE has issued no 2027-28 item specification, so nothing here may be described as a state requirement. When a state spec is published, replace this file and re-measure every item against it — do not amend it in place.",
+  "default": false,
+  "defaultRationale": "tcapFormat is FALSE until something affirms it. An unaffirmed claim of field-testability is exactly the kind of compliance claim that must never be made by default, and a boolean that defaults to true is a claim nobody made.",
+  "neverTcapFormat": {
+    "itemTypes": ["constructed-response", "document-based"],
+    "why": "An extended response and a document-based question are instructionally valuable and are not selected-response items. Sean: they 'must be tagged tcap_format: false and supported by rubrics.'"
+  },
+  "requiredBeforeTrue": {
+    "fields": ["standardCodes", "dokLevel", "dokRationale", "reportingCategory",
+               "irtParameters", "biasReview", "citation"],
+    "perDistractor": ["explanation", "misconception"],
+    "humanAffirmation": "tcapFormatAffirmedBy",
+    "why": "Sean, same pass: the selected-response items 'lack the required standards, DOK/Hess, distractor, bias, citation, and IRT metadata.' An item missing any of these cannot be judged field-testable, so it cannot claim to be."
+  },
+  "fieldNameNote": "Sean wrote tcap_format. The record is camelCase throughout (dokLevel, standardCodes, irtParameters), so the field is tcapFormat. Say the word if you want the snake_case spelling instead — it is one rename plus a gate string."
+}

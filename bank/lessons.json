@@ -911,6 +911,117 @@
           "contains": "the readiness total comes from the TOOL"
         }
       ]
+    },
+    {
+      "id": "L55",
+      "mistake": "A form that mixed 12 selected-response items with 6 extended responses/DBQs shipped GREEN on 23 gates and READ as a test form. Sean, on his first teacher pass: 'this is a mixed classroom assessment, not a TCAP-field-testable form.' Nothing in the artifact said which it was, because nothing in the artifact COULD: tcapFormat existed on 0 of 3,958 servable items, a rubric on 0 of 100 constructed-response and document-based items, and a bias/sensitivity review on none at all. Not thin — ABSENT, everywhere, while every structural gate read green. tcapFormat now defaults to false with a stated reason and has NO automatic path to true: a machine affirming its own field-testability is exactly the unverified compliance claim this repo refuses to make.",
+      "caughtBy": "Sean reading the rendered form as a teacher, which is the one measurement no gate performs",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_tcap_format"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_rubric"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_bias_review"
+        },
+        {
+          "file": "policy/tcap-format.json",
+          "contains": "defaultRationale"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "claiming field-testability with no human affirmation FAILS"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a CARRIER does not count as a rubric"
+        }
+      ]
+    },
+    {
+      "id": "L56",
+      "mistake": "The teacher key printed 'KEY: B · DOK 1 · US.46' and stopped. Sean: the selected-response items 'lack the required standards, DOK/Hess, distractor, bias, citation, and IRT metadata in the supplied form.' Every one of those fields was IN THE RECORD and none of it reached the PAGE — and a field present in a record and absent from the page is, to the person holding the page, not present. The gates measured the student surface for leakage and never asked whether the teacher surface carried what a teacher needs to judge an item's rigour, fairness or fit. gate_form_teacher_metadata now reads the rendered teacher PDF and counts each required row against the number of keyed items, so an analysis block that renders once and silently stops fails rather than passing on one sighting.",
+      "caughtBy": "Sean naming the six missing metadata families after reading the printed key",
+      "guards": [
+        {
+          "file": "tools/forms.py",
+          "contains": "def analysis_block"
+        },
+        {
+          "file": "tools/gates/forms.py",
+          "contains": "def gate_form_teacher_metadata"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "gate_form_teacher_metadata"
+        }
+      ]
+    },
+    {
+      "id": "L57",
+      "mistake": "THE WORST ONE IN THIS PASS. The form builder re-letters choices to de-bias key position — that is what key_targets() is for — and 2,440 of 3,928 servable items hard-code a choice letter inside their explanation. So FORM-A item 1 keyed C in the bank, rendered as 'KEY: B', and printed 'B is incorrect because it describes a different program' directly underneath. Five items on FORM-A and one on FORM-B did this, on a form both this system and its twenty-two gates called GREEN. Every gate that could have caught it was measuring the RECORD, where the letters were perfectly self-consistent; the contradiction only exists on the rendered page. remap_letters() rewrites letter references through the builder's own permutation (a remap, not authoring, and deliberately NOT idempotent), and gate_form_key_contradiction reads the rendered teacher PDF rather than trusting that the remap was written correctly. Proved by disabling the remap and watching the gate go red on all five.",
+      "caughtBy": "reading one rendered teacher key line by line after Sean's note, instead of reading the records",
+      "guards": [
+        {
+          "file": "tools/forms.py",
+          "contains": "def remap_letters"
+        },
+        {
+          "file": "tools/gates/forms.py",
+          "contains": "def gate_form_key_contradiction"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_key_contradiction"
+        },
+        {
+          "file": "tools/hold_key_contradictions.py",
+          "contains": "def offending_sentence"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "an explanation that calls the KEY wrong FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L58",
+      "mistake": "79 of the bank's 100 extended-response items ALREADY had a complete scoring guide — band by band, 0 through 6 — sitting inside the `explanation` field, which the teacher key prints under the heading 'Why the key is right'. A six-band rubric rendered as the answer rationale for a document-based question is not something a teacher can score from, and no gate could see it because `explanation` was populated and every check on it was a presence check. L50's shape exactly: satisfied in form, not in substance. extract_rubrics.py moves them into a structured field verbatim and REPORTS the ones that do not parse rather than guessing — a rubric invented to fill a field is the carrier defect wearing a better disguise.",
+      "caughtBy": "reading the four constructed responses the rubric gate failed, and finding three of the DBQs already carried what it was asking for",
+      "guards": [
+        {
+          "file": "tools/extract_rubrics.py",
+          "contains": "EXTRACTION, not authoring"
+        },
+        {
+          "file": "tools/extract_rubrics.py",
+          "contains": "guide names"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a 4-point rubric with FIVE bands"
+        }
+      ]
+    },
+    {
+      "id": "L59",
+      "mistake": "apply_rubrics.py refused all four correctly-written rubrics because it required every band descriptor to be 40+ characters, and the ZERO band's descriptor is legitimately 'No response, or off-topic.' An alarm that fires on the harmless is how someone learns to pass --force, and this repo has now made that mistake twice (L49: the choice-length gate was unsatisfiable below four items). A validation floor must be checked against a CORRECT input before it is trusted, not only against a defective one.",
+      "caughtBy": "the tool refusing my own drafts",
+      "guards": [
+        {
+          "file": "tools/apply_rubrics.py",
+          "contains": "The ZERO band is legitimately short"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "validate accepts a short ZERO band"
+        }
+      ]
     }
   ]
 }

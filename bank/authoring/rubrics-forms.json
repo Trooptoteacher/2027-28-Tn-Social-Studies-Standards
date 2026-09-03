@@ -1,0 +1,139 @@
+{
+  "$comment": "Rubrics AUTHORED for the four constructed-response items on FORM-A and FORM-B. Sean's first read: extended responses 'must be tagged tcap_format: false and supported by rubrics.' 79 of the bank's 100 extended-response items already carried a scoring guide buried in their explanation field and were extracted structurally; these four had none and are WRITTEN. Every band is item-specific — a generic band is a carrier that reads as a rubric, which is the defect the rubric gate exists to catch. Each one is a pedagogical claim about what a good answer looks like and needs your read before it scores a student.",
+  "author": "Claude (drafted for review)",
+  "reviewStatus": "needs-review",
+  "rubrics": {
+    "q-us2-dok4-cr2": {
+      "scorePoints": 4,
+      "criteria": [
+        {
+          "points": 4,
+          "label": "Exemplary",
+          "descriptor": "Names THREE specific events or policies (e.g. the Spanish-American War, the annexation of Hawaii, the Open Door Policy, the Panama Canal, the Philippine-American War) and shows each carrying BOTH an idealistic justification and a self-interested motive — not three examples of one and none of the other. Quotes or closely paraphrases the era's own language (\"civilization\", \"duty\", \"markets\", \"coaling stations\") rather than asserting motive. The evaluation takes a clear position on whether imperialism strengthened or weakened American democratic ideals and defends it against the strongest objection to it, most often the Philippines."
+        },
+        {
+          "points": 3,
+          "label": "Proficient",
+          "descriptor": "Three specific examples, accurate, with both motive types present across the response even if one example carries only one. Evidence is concrete. The evaluation states a position and supports it, but does not engage a counterargument."
+        },
+        {
+          "points": 2,
+          "label": "Developing",
+          "descriptor": "Two or three examples, at least one imprecise or misdated. Idealism and self-interest are both named but treated as labels rather than shown in the evidence. The evaluation is asserted without support."
+        },
+        {
+          "points": 1,
+          "label": "Beginning",
+          "descriptor": "Fewer than two usable examples, or examples outside the period. Motives are described generally (\"America wanted power\") with no specific policy attached. No evaluation, or an evaluation that restates the prompt."
+        },
+        {
+          "points": 0,
+          "label": "No response",
+          "descriptor": "No response, or off-topic."
+        }
+      ],
+      "status": "authored",
+      "reviewStatus": "needs-review",
+      "stem": "Analyze how American imperialism in the late 1800s reflected BOTH idealistic and self-interested motivations. Use evidence from at least THREE specific events or policies (e.g., Spanish-American War, annexation of Hawaii"
+    },
+    "q-us3-dok4-cr3": {
+      "scorePoints": 4,
+      "criteria": [
+        {
+          "points": 4,
+          "label": "Exemplary",
+          "descriptor": "Grades THREE named New Deal programs on BOTH criteria separately, and the two grades come apart for at least one program — the response shows it understands that immediate relief and long-term structural change are different achievements (the CCC put men to work quickly and left little institutional legacy; Social Security did comparatively little in 1935 and reshaped the federal government permanently). Every grade is justified with specific evidence: enrollment or spending figures, dates, what the programme actually did, what a court or Congress did to it."
+        },
+        {
+          "points": 3,
+          "label": "Proficient",
+          "descriptor": "Three named programs graded on both criteria with accurate supporting evidence. Grades are defended. The short-term/long-term distinction is present but the two grades largely track each other."
+        },
+        {
+          "points": 2,
+          "label": "Developing",
+          "descriptor": "Three programs named but one is described inaccurately, or only two are graded on both criteria. Justification leans on general characterisation (\"it helped people\") rather than specific evidence."
+        },
+        {
+          "points": 1,
+          "label": "Beginning",
+          "descriptor": "Fewer than three programs, or programs misidentified as New Deal. Grades assigned with no historical justification."
+        },
+        {
+          "points": 0,
+          "label": "No response",
+          "descriptor": "No response, or off-topic."
+        }
+      ],
+      "status": "authored",
+      "reviewStatus": "needs-review",
+      "stem": "Design a \"New Deal Report Card\" that grades THREE specific programs on two criteria: (1) effectiveness in addressing the immediate crisis, and (2) long-term impact on American government and society. For each program, as"
+    },
+    "q-us6-dok4-cr3": {
+      "scorePoints": 4,
+      "criteria": [
+        {
+          "points": 4,
+          "label": "Exemplary",
+          "descriptor": "Identifies specific principles behind the Marshall Plan's success — its scale, its requirement that recipients cooperate and plan jointly, and the alignment of American economic self-interest with European recovery — and applies them to a NAMED contemporary aid context rather than to foreign aid in general. The limitations are historically grounded: post-war Europe had industrial capacity and institutions to rebuild, the aid ran through a bipartisan Cold War consensus, and the recipients were states that wanted it. Comparison runs in both directions; it does not simply recommend repeating the Plan."
+        },
+        {
+          "points": 3,
+          "label": "Proficient",
+          "descriptor": "Names at least two real principles and applies them to a contemporary context with reasonable specificity. Limitations are identified and plausible, if not fully developed."
+        },
+        {
+          "points": 2,
+          "label": "Developing",
+          "descriptor": "Describes the Marshall Plan accurately but the modern comparison stays generic (\"we should help other countries more\"). Limitations are asserted rather than explained."
+        },
+        {
+          "points": 1,
+          "label": "Beginning",
+          "descriptor": "Marshall Plan described inaccurately or only by name. No usable comparison or limitation."
+        },
+        {
+          "points": 0,
+          "label": "No response",
+          "descriptor": "No response, or off-topic."
+        }
+      ],
+      "status": "authored",
+      "reviewStatus": "needs-review",
+      "stem": "Compare the Marshall Plan (1948) with modern American foreign aid programs. What principles from the Marshall Plan's success could be applied to current challenges? What limitations would such an approach face today?"
+    },
+    "q-us6-dok4-cr1": {
+      "scorePoints": 4,
+      "criteria": [
+        {
+          "points": 4,
+          "label": "Exemplary",
+          "descriptor": "Analyses THREE distinct factors that kept the superpowers from direct conflict — nuclear deterrence and the logic of mutual assured destruction, the alliance and bloc structure that made escalation collective, and the diplomatic channels and norms that developed for managing crises — and explains the MECHANISM of each, not just its name. The evaluation confronts the real difficulty: the \"cold\" form avoided a great-power war while producing enormous casualties in Korea, Vietnam and elsewhere, so \"less dangerous\" and \"more dangerous\" depend on who is counted. A position is taken and defended."
+        },
+        {
+          "points": 3,
+          "label": "Proficient",
+          "descriptor": "Three factors, accurately identified, with at least two explained mechanically. The evaluation takes a position and offers support, but treats the proxy-war cost briefly."
+        },
+        {
+          "points": 2,
+          "label": "Developing",
+          "descriptor": "Two or three factors named but explained as labels. The evaluation restates that the Cold War was dangerous without weighing the comparison."
+        },
+        {
+          "points": 1,
+          "label": "Beginning",
+          "descriptor": "Fewer than two usable factors, or factors that are consequences rather than causes. No evaluation."
+        },
+        {
+          "points": 0,
+          "label": "No response",
+          "descriptor": "No response, or off-topic."
+        }
+      ],
+      "status": "authored",
+      "reviewStatus": "needs-review",
+      "stem": "The Cold War was fought through proxies, propaganda, espionage, and economic competition rather than direct military conflict between the U.S. and Soviet Union. Analyze WHY the Cold War took this form by examining at lea"
+    }
+  }
+}

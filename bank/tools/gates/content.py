@@ -551,3 +551,222 @@ def gate_review_provenance(items, binding=None) -> Result:
             pending += 1
     return Result(name, not findings, len(items), findings, judged=judged,
                   note=f"{judged - pending} approved, {pending} awaiting review")
+
+
+# ---------------------------------------------------------------------------
+# What a form CLAIMS TO BE, and what an extended response needs to be scored.
+#
+# Sean Reynolds, first teacher read of FORM-A: "this is a mixed classroom
+# assessment, not a TCAP-field-testable form. Six extended responses/DBQs can
+# be valuable instructionally, but they must be tagged tcap_format: false and
+# supported by rubrics; the 12 MC items also lack the required standards,
+# DOK/Hess, distractor, bias, citation, and IRT metadata in the supplied form."
+#
+# He was right about every part of it, and the measurement was worse than
+# "thin": tcapFormat existed on 0 of 3,958 servable items, a rubric on 0 of 100
+# constructed-response and document-based items, a bias review on none at all —
+# while twenty-two gates read green. A form that mixes twelve selected-response
+# items with six extended responses READS as a test form, and nothing in the
+# artifact said otherwise.
+# ---------------------------------------------------------------------------
+
+TCAP_POLICY = os.path.join(itemio.BANK_ROOT, "policy", "tcap-format.json")
+
+
+def _tcap_policy():
+    with open(TCAP_POLICY, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def gate_tcap_format(items, binding=None) -> Result:
+    """Every item declares whether it is field-testable, and cannot claim it lightly.
+
+    The default is FALSE and there is no automatic path to True: a machine
+    affirming its own field-testability is precisely the unverified compliance
+    claim this repo refuses to make. True requires a named human AND every
+    field the policy lists, because an item missing its DOK rationale, its
+    distractor analysis, its bias review or its IRT block cannot be judged
+    field-testable by anybody.
+    """
+    name = "tcap-format"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    pol = _tcap_policy()
+    never = set(pol["neverTcapFormat"]["itemTypes"])
+    req = pol["requiredBeforeTrue"]
+    findings, judged, claimed = [], 0, 0
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        judged += 1
+        if "tcapFormat" not in it:
+            findings.append(Finding(it.get("id", "?"),
+                "no tcapFormat — the item does not say whether it is field-testable, so a "
+                "form built from it cannot say what it is", it.get("_file", "")))
+            continue
+        if it["tcapFormat"] is not True:
+            if not (it.get("tcapFormatReason") or "").strip():
+                findings.append(Finding(it.get("id", "?"),
+                    "tcapFormat is false with no stated reason — 'no' without a reason is "
+                    "indistinguishable from 'nobody looked'", it.get("_file", "")))
+            continue
+        claimed += 1
+        if it.get("itemType") in never:
+            findings.append(Finding(it.get("id", "?"),
+                f"claims tcapFormat true, but item type {it.get('itemType')!r} is never "
+                f"TCAP-format under policy v{pol['policyVersion']}", it.get("_file", "")))
+        missing = [f for f in req["fields"] if not it.get(f)]
+        if missing:
+            findings.append(Finding(it.get("id", "?"),
+                f"claims tcapFormat true but carries no {', '.join(missing)} — the policy "
+                f"requires every one of these before the claim can be made",
+                it.get("_file", "")))
+        if not (it.get(req["humanAffirmation"]) or "").strip():
+            findings.append(Finding(it.get("id", "?"),
+                f"claims tcapFormat true with no {req['humanAffirmation']} — no person is "
+                f"named as having judged it field-testable", it.get("_file", "")))
+        for ch in itemio.choices(it):
+            if isinstance(ch, dict) and ch.get("id") != it.get("correctAnswer"):
+                gap = [f for f in req["perDistractor"] if not (ch.get(f) or "").strip()]
+                if gap:
+                    findings.append(Finding(it.get("id", "?"),
+                        f"claims tcapFormat true but distractor {ch.get('id')} has no "
+                        f"{', '.join(gap)}", it.get("_file", "")))
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note=(f"{claimed} item(s) claim field-testability; {judged - claimed} are "
+                        f"declared classroom-formative. Policy source of record: "
+                        f"{pol['sourceOfRecord']} — NOT a TDOE publication."))
+
+
+def gate_rubric(items, binding=None) -> Result:
+    """An extended response with no rubric is not scoreable.
+
+    100 of 100 constructed-response and document-based items had no rubric, and
+    `record-complete` never asked — it was written around the four-option
+    record shape, so the fields an extended response needs were not in its
+    list. A gate that checks the wrong shape passes the wrong thing.
+
+    A carrier written by the backfill (`status: not-written`) must NOT read as
+    a rubric: an empty scaffold that satisfies a presence check is the same
+    defect as an IRT parameter present in a field and meaning nothing (L50).
+    """
+    name = "rubric"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    pol = _tcap_policy()
+    needs = set(pol["neverTcapFormat"]["itemTypes"])
+    pool = [i for i in items if itemio.servable(i) and i.get("itemType") in needs]
+    if not pool:
+        return Result(name, True, len(items), [], judged=0,
+                      inapplicable="no constructed-response or document-based item in this "
+                                   "set, so there is no rubric to check")
+    findings, written = [], 0
+    for it in pool:
+        rub = it.get("rubric")
+        if not isinstance(rub, dict):
+            findings.append(Finding(it.get("id", "?"),
+                f"{it.get('itemType')} with no rubric — a teacher cannot score it and two "
+                f"teachers cannot agree on it", it.get("_file", "")))
+            continue
+        pts, crit = rub.get("scorePoints"), rub.get("criteria") or []
+        if not pts or not crit:
+            findings.append(Finding(it.get("id", "?"),
+                f"rubric is a CARRIER, not a rubric (scorePoints={pts!r}, {len(crit)} "
+                f"criteria) — it must not count as one", it.get("_file", "")))
+            continue
+        # A 4-point rubric has FIVE bands: 0 through 4. Requiring one band per
+        # point failed every correctly-extracted rubric in the bank — the gate
+        # was counting the top score instead of the scale.
+        if len(crit) != pts + 1:
+            findings.append(Finding(it.get("id", "?"),
+                f"rubric tops out at {pts} point(s) but describes {len(crit)} band(s), not "
+                f"{pts + 1} (0 through {pts}) — a student cannot be told what earns the "
+                f"missing one", it.get("_file", "")))
+            continue
+        if {c.get("points") for c in crit} != set(range(pts + 1)):
+            findings.append(Finding(it.get("id", "?"),
+                f"rubric bands are {sorted(c.get('points') for c in crit)}, not "
+                f"0-{pts} — a scale with a gap or a duplicate is not scoreable",
+                it.get("_file", "")))
+            continue
+        blank = [c for c in crit if not (c.get("descriptor") or "").strip()]
+        if blank:
+            findings.append(Finding(it.get("id", "?"),
+                f"{len(blank)} score point(s) have no descriptor — an unlabelled band is "
+                f"scored by feel", it.get("_file", "")))
+            continue
+        written += 1
+    return Result(name, not findings, len(items), findings, judged=len(pool),
+                  note=f"{written}/{len(pool)} extended-response item(s) carry a real rubric")
+
+
+def gate_bias_review(items, binding=None) -> Result:
+    """Every item states where its bias and sensitivity review stands.
+
+    Not a judgement of the content — this system cannot make one. It is the
+    same discipline as historian review: `not-started` is honest and passes at
+    bank level; what fails is an item that says NOTHING, because silence reads
+    as "reviewed" to anyone skimming.
+    """
+    name = "bias-review"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    ok = {"not-started", "needs-review", "approved", "revised"}
+    findings, tally = [], collections.Counter()
+    judged = 0
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        judged += 1
+        br = it.get("biasReview")
+        if not isinstance(br, dict) or not br.get("status"):
+            findings.append(Finding(it.get("id", "?"),
+                "no biasReview status — an item that says nothing about bias review reads as "
+                "reviewed", it.get("_file", "")))
+            continue
+        st = br["status"]
+        tally[st] += 1
+        if st not in ok:
+            findings.append(Finding(it.get("id", "?"),
+                f"biasReview status {st!r} is not one of {sorted(ok)}", it.get("_file", "")))
+        elif st == "approved" and not (br.get("reviewer") or "").strip():
+            findings.append(Finding(it.get("id", "?"),
+                "biasReview approved with no reviewer named — an approval nobody signed",
+                it.get("_file", "")))
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note="; ".join(f"{v} {k}" for k, v in tally.most_common()))
+
+
+def gate_key_contradiction(items, binding=None) -> Result:
+    """The key's own explanation must not call the key wrong.
+
+    Found by reading one rendered teacher key: item 1 of FORM-A keys B and its
+    rationale says "B is incorrect because it describes a different program".
+    30 servable items do this — a migrated distractor explanation welded into
+    the key rationale, pointing at whatever letter the key used to be.
+
+    `explanation-quality` could not see it: that gate asks whether the
+    explanation merely restates the DOK rationale, which is a question about
+    FORM. This is a question about whether the sentence agrees with the record
+    it is attached to, and it is the teacher who gets handed the contradiction.
+    """
+    name = "key-contradiction"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    rx = re.compile(r"\b([A-Z])\b\s+(?:is|was)\s+(?:incorrect|wrong|not correct|not right)", re.I)
+    findings, judged = [], 0
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        key = (it.get("correctAnswer") or "").strip()
+        exp = it.get("explanation") or ""
+        if not key or not exp:
+            continue
+        judged += 1
+        for m in rx.finditer(exp):
+            if m.group(1).upper() == key.upper():
+                findings.append(Finding(it.get("id", "?"),
+                    f"the key is {key} and its own explanation says {m.group(0)!r} — the "
+                    f"teacher key contradicts the answer key", it.get("_file", "")))
+                break
+    return Result(name, not findings, len(items), findings, judged=judged)

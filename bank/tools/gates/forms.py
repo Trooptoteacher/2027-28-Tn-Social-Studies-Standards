@@ -155,3 +155,92 @@ def gate_form_disclosure(pdfs, binding=None) -> Result:
                 f"first page does not carry the disclosure {binding.disclosure_line!r} — "
                 f"parameters that have never met a student are estimates"))
     return Result(name, not findings, len(pdfs), findings, judged=judged)
+
+
+_KEY_LINE = re.compile(r"KEY:\s*([A-H])")
+_CALLS_WRONG = re.compile(
+    r"\b(?:Choice|Option|Answer)\s+([A-H])\b\s*(?:is|was)?\s*"
+    r"(?:incorrect|wrong|not correct)|"
+    r"\b([A-H])\s+(?:is|was)\s+(?:incorrect|wrong|not correct)", re.I)
+
+
+def gate_form_key_contradiction(pdfs, binding=None) -> Result:
+    """On the printed key, the letter named as the key is never called wrong.
+
+    This is the defect Sean found by reading FORM-A. Item 1 printed
+    "KEY: B" and, two lines down, "B is incorrect because it describes a
+    different program". The bank record keyed C and was perfectly
+    self-consistent: the FORM re-letters choices to de-bias key position, and
+    2,440 of 3,928 servable items hard-code a choice letter inside their
+    explanation, so the sentence pointed at whatever the letter used to mean.
+
+    Every gate that could have caught it was measuring the RECORD. This one
+    reads the rendered teacher PDF, per item block, which is the surface the
+    teacher is actually holding — and it is why the remap in forms.py is not
+    trusted to be correct just because it was written.
+    """
+    name = "form-key-contradiction"
+    teacher = [p for p in pdfs if "teacher" in os.path.basename(p)]
+    if (r := empty_scan_guard(name, teacher)):
+        return r
+    findings, judged = [], 0
+    for path in teacher:
+        text = "\n".join(pg["text"] for pg in _pages(path))
+        # Split on the KEY line so each block carries exactly one key.
+        parts = _KEY_LINE.split(text)
+        # parts = [before, letter, block, letter, block, ...]
+        for i in range(1, len(parts) - 1, 2):
+            key, block = parts[i].upper(), parts[i + 1]
+            judged += 1
+            for m in _CALLS_WRONG.finditer(block):
+                named = (m.group(1) or m.group(2) or "").upper()
+                if named == key:
+                    findings.append(Finding(
+                        f"{os.path.basename(path)} KEY:{key}",
+                        f"the printed key is {key} and the same item's rationale says "
+                        f"{m.group(0).strip()!r} — the teacher key contradicts the answer key"))
+                    break
+    return Result(name, not findings, len(teacher), findings, judged=judged,
+                  note=f"{judged} keyed item block(s) read on the rendered teacher PDF")
+
+
+_ANALYSIS_ROWS = ("Item analysis", "DOK / Hess", "Reporting category", "IRT",
+                  "Bias / sensitivity", "Citation", "Distractor diagnosis",
+                  "Historian review", "Format")
+
+
+def gate_form_teacher_metadata(pdfs, binding=None) -> Result:
+    """The teacher key carries the metadata a teacher needs to judge the item.
+
+    Sean, first read of FORM-A: the selected-response items "lack the required
+    standards, DOK/Hess, distractor, bias, citation, and IRT metadata in the
+    supplied form." All of it existed in the records; the printed key showed
+    "KEY: B · DOK 1 · US.46" and nothing else. A field present in a record and
+    absent from the page is, to the person holding the page, not present.
+
+    Measured on the rendered PDF and per keyed item, so an analysis block that
+    renders for the first item and silently stops — the exact way a template
+    bug hides — fails rather than passing on one sighting.
+    """
+    name = "form-teacher-metadata"
+    teacher = [p for p in pdfs if "teacher" in os.path.basename(p)]
+    if (r := empty_scan_guard(name, teacher)):
+        return r
+    findings, judged = [], 0
+    for path in teacher:
+        text = "\n".join(pg["text"] for pg in _pages(path))
+        blocks = _KEY_LINE.split(text)
+        n_keys = (len(blocks) - 1) // 2
+        if not n_keys:
+            findings.append(Finding(os.path.basename(path),
+                "no keyed item block found on the teacher PDF — nothing was measured"))
+            continue
+        for row in _ANALYSIS_ROWS:
+            seen = text.count(row)
+            judged += 1
+            if seen < n_keys:
+                findings.append(Finding(os.path.basename(path),
+                    f"'{row}' appears on {seen} of {n_keys} keyed item(s) — the analysis "
+                    f"block is missing from {n_keys - seen} of them"))
+    return Result(name, not findings, len(teacher), findings, judged=judged,
+                  note=f"{len(_ANALYSIS_ROWS)} required row(s) checked per teacher PDF")

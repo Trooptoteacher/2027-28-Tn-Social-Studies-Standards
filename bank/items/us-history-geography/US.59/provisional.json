@@ -53,7 +53,49 @@
           "dokReviewRequired": true
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "rubric": {
+        "scorePoints": 4,
+        "criteria": [
+          {
+            "points": 4,
+            "label": "Exemplary",
+            "descriptor": "Presents a precise, arguable claim directly responsive to the prompt. Cites at least three specific pieces of historical evidence (e.g., Kennan's X Article logic, Truman Doctrine, Iron Curtain, Yalta breakdown). Reasoning explicitly connects ideological incompatibility to the choice of containment over rollback or isolationism. Accurately uses the CER framework with all three components clearly differentiated. Demonstrates understanding of the long-term, patient nature of containment as distinct from military aggression."
+          },
+          {
+            "points": 3,
+            "label": "Proficient",
+            "descriptor": "Presents a clear claim. Provides two pieces of specific evidence. Reasoning connects ideology to containment but may not fully explain why alternatives were rejected. CER structure is present but one component may be underdeveloped."
+          },
+          {
+            "points": 2,
+            "label": "Developing",
+            "descriptor": "Makes a general claim about containment. Provides one piece of specific evidence. Reasoning is present but superficial (e.g., 'the U.S. wanted to stop communism'). May conflate containment with other policies."
+          },
+          {
+            "points": 1,
+            "label": "Beginning",
+            "descriptor": "Attempts a claim but it is vague or inaccurate. Evidence is absent or purely descriptive without connection to the prompt. Little to no reasoning demonstrated."
+          },
+          {
+            "points": 0,
+            "label": null,
+            "descriptor": "No response or completely off-topic."
+          }
+        ],
+        "status": "extracted",
+        "extractedFrom": "explanation",
+        "notes": "KEY EVIDENCE EXPECTED: Kennan's 'X Article' (1947); Truman Doctrine speech (March 1947); Churchill's 'Iron Curtain' speech (Fulton, MO, March 1946); Soviet satellite governments in Eastern Europe (1945–1948); Yalta Conference tensions (1945); NSC-68 (1950) as escalation of containment; distinction between Kennan's political containment and later militarized containment.",
+        "reviewStatus": "needs-review"
+      }
     }
   ]
 }
