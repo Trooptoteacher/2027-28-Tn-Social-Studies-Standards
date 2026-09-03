@@ -1,5 +1,7 @@
 # TN Social Studies — Assessment Item Bank & Test Forms
 
+> **New here, or picking this up after a break? Read [`HANDOFF.md`](HANDOFF.md).**
+
 Builds assessment item banks and test forms against the **2027-28 Tennessee Academic
 Standards for Social Studies**. Nothing else ships from here.
 
