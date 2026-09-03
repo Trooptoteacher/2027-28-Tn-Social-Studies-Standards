@@ -101,26 +101,51 @@ def ordered_choices(item, form_id):
 
 
 def select(items, standards, blueprint):
-    """Servable items for the named standards, per the blueprint's counts.
+    """Servable, ALIGNED items filling the blueprint's DOK x itemType slots.
+
+    The first version took the first N items per standard by id and never
+    looked at the mix, so a form built from a deep standard came out six
+    multiple-choice items at the wrong DOK levels while form-blueprint failed.
+    A form blueprint is a set of SLOTS, and selection has to fill them.
 
     Never a wildcard: the caller names the standards actually authored.
     """
+    want = blueprint.get("form") or blueprint["defaults"]
+    # One slot per (itemType, dokLevel), pairing the rarer types with the
+    # higher DOK levels they naturally carry.
+    slots = []
+    dok_pool = []
+    for lvl, n in sorted(want["dok"].items()):
+        dok_pool += [int(lvl)] * n
+    dok_pool.sort()
+    for typ, n in sorted(want["itemType"].items(), key=lambda kv: -kv[1]):
+        for _ in range(n):
+            slots.append([typ, None])
+    for slot, lvl in zip(slots, dok_pool):
+        slot[1] = lvl
+
     by_std = collections.defaultdict(list)
     for it in items:
-        # A standards-aligned form draws only from items whose alignment is
-        # established. Unverified items stay in the bank and stay usable; they
-        # just do not go on a form that claims to test a named standard.
         if not itemio.aligned(it):
             continue
         for c in (it.get("standardCodes") or []):
             by_std[c].append(it)
+
     picked, short = [], {}
     for code in standards:
-        want = blueprint["perStandard"].get(code, blueprint["defaults"])["itemCount"]
-        have = sorted(by_std.get(code, []), key=lambda i: i["id"])
-        picked += have[:want]
-        if len(have) < want:
-            short[code] = (len(have), want)
+        pool = sorted(by_std.get(code, []), key=lambda i: i["id"])
+        used, got = set(), []
+        for typ, lvl in slots:
+            cand = [i for i in pool if i["id"] not in used
+                    and i.get("itemType") == typ and i.get("dokLevel") == lvl]
+            if not cand:                       # relax DOK before relaxing type
+                cand = [i for i in pool if i["id"] not in used and i.get("itemType") == typ]
+            if not cand:
+                continue
+            used.add(cand[0]["id"]); got.append(cand[0])
+        picked += got
+        if len(got) < want["itemCount"]:
+            short[code] = (len(got), want["itemCount"])
     return picked, short
 
 

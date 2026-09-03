@@ -27,7 +27,7 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-X012 [items/us-history-geography/US.04/migrated.json]: distractor 'A' names no misconception
           … and 23056 more
 [FAIL] truncation — scanned 3986
-        100 finding(s):
+        91 finding(s):
           - q-us10-dok1-1-u2-b [items/us-history-geography/US.06/migrated.json]: stem ends on dangling 'with': …'he Granger movement primarily concerned with?'
           - US.04-F101 [items/us-history-geography/US.08/migrated.json]: explanation no terminal punctuation: …'DOK 1: identify core dynamic of sharecropping'
           - US.04-F101 [items/us-history-geography/US.08/migrated.json]: dokRationale no terminal punctuation: …'DOK 1: identify core dynamic of sharecropping'
@@ -36,18 +36,18 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.04-F102 [items/us-history-geography/US.08/migrated.json]: explanation no terminal punctuation: …'DOK 2: explain mechanism of exploitation'
           - US.04-F102 [items/us-history-geography/US.08/migrated.json]: dokRationale no terminal punctuation: …'DOK 2: explain mechanism of exploitation'
           - US.04-F103 [items/us-history-geography/US.08/migrated.json]: explanation no terminal punctuation: …'ze historical significance of convict leasing'
-          … and 92 more
-[FAIL] blueprint-conformance — scanned 2512 — 83/94 standards have >=1 aligned item (1444 servable items kept but not counted)
-        657 finding(s):
-          - US.01: item count 0 != blueprint 6
-          - US.01: DOK-1 count 0 != blueprint 2
-          - US.01: DOK-2 count 0 != blueprint 2
-          - US.01: DOK-3 count 0 != blueprint 1
-          - US.01: DOK-4 count 0 != blueprint 1
-          - US.01: itemType 'constructed-response' count 0 != blueprint 1
-          - US.01: itemType 'document-based' count 0 != blueprint 1
-          - US.01: itemType 'mcq' count 0 != blueprint 4
-          … and 649 more
+          … and 83 more
+[FAIL] blueprint-conformance — scanned 2512 — 83/94 standards have >=1 aligned item; 20 below minimum depth; 1444 servable items kept but not counted
+        22 finding(s):
+          - US.01: 0 aligned item(s), below the bank minimum of 6
+          - US.02: 4 aligned item(s), below the bank minimum of 6
+          - US.03: 0 aligned item(s), below the bank minimum of 6
+          - US.07: 4 aligned item(s), below the bank minimum of 6
+          - US.15: 3 aligned item(s), below the bank minimum of 6
+          - US.34: 0 aligned item(s), below the bank minimum of 6
+          - US.40: 0 aligned item(s), below the bank minimum of 6
+          - US.53: 2 aligned item(s), below the bank minimum of 6
+          … and 14 more
 [PASS] key-position-debias — scanned 3821 — 4-choice n=3821 worst=A@27% max-dev=2.2% chi2=14.5>11.345 (advisory)
 [FAIL] serveability — scanned 3956
         1008 finding(s):
@@ -67,6 +67,19 @@ Scanning items/us-history-geography — 3986 item(s)
           - 4-choice cohort: the key is the longest option in 2039/3821 items (53.4%) against 25% by chance — a student can beat this bank without reading the stems
 [PASS] duplicate-stems — scanned 3986, judged 3956
 [PASS] citation-integrity — scanned 3986, judged 35 — 35 servable item(s) carry a citation; 7 held out of service awaiting source verification
+[PASS] translation-claim — scanned 3986, judged 3466 — 1144 untranslated copy, 408 pseudo-translation, 1914 genuine — all honestly labelled except the findings
+[FAIL] explanation-quality — scanned 3986, judged 3956
+        920 finding(s):
+          - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
+          - US.01-X012 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
+          - US.01-X013 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
+          - US.01-X015 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
+          - US.01-X019 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
+          - US.01-X028 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
+          - US.01-X033 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
+          - US.01-X036 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
+          … and 912 more
+[PASS] embedded-answer-key — scanned 3986, judged 3956
 [FAIL] release-readiness — scanned 3956 — Grade A requires zero findings here. "Close" is not "A."
         7 finding(s):
           - reportingCategory: 86 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
@@ -76,13 +89,14 @@ Scanning items/us-history-geography — 3986 item(s)
           - authoring-debt: 11463 distractors with no rationale
           - authoring-debt: 3706 items with no dokRationale
           - authoring-debt: 518 items missing a bilingual field
-[PASS] FORM-A/form-pagination — scanned 2, judged 14 — 14 rendered page(s) checked
-[PASS] FORM-A/form-type-size — scanned 2, judged 32983 — 32983 glyph(s) measured
+[PASS] FORM-A/form-pagination — scanned 2, judged 16 — 16 rendered page(s) checked
+[PASS] FORM-A/form-type-size — scanned 2, judged 47627 — 47627 glyph(s) measured
 [PASS] FORM-A/form-key-leakage — scanned 1, judged 6 — 6 student page(s) checked
 [PASS] FORM-A/form-disclosure — scanned 2
 [PASS] FORM-A/teacher-side-isolation — scanned 18 — measures rendered student surfaces; items at rest are teacher-side by default
-[PASS] all-gates-measured — scanned 19 — 19/19 gates actually measured something
+[PASS] FORM-A/form-blueprint — scanned 18, judged 3 — 3 standard(s) on this form
+[PASS] all-gates-measured — scanned 23 — 23/23 gates actually measured something
 
-13/20 gates pass (0 not measured).
-HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, serveability, choice-length-cue, release-readiness
+16/24 gates pass (0 not measured).
+HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, serveability, choice-length-cue, explanation-quality, release-readiness
 Grade A requires ALL gates pass. "Close" is not "A."

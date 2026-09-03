@@ -261,7 +261,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "250,000 participants — one of the largest political demonstrations in American history and the site of 'I Have a Dream'. The 1963 march connected civil rights demands to jobs, voting rights, and the promise of American democracy. A is incorrect because it describes a different program, event, or idea than the topic in the question. It helped push the United States toward a broader definition of citizenship and equal rights.",
       "explanationEs": "250,000 participants — one of the largest political demonstrations in American history and the site of 'I Have a Dream'. The 1963 march connected derechos civiles demands to jobs, derechos de voto, and the promise of American democracia. A is incorrect because it describes a different program, event, or idea than the topic in the question. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.84,
         "b": -1.1,
@@ -281,7 +281,12 @@
         "crosswalkReasons": [
           "US.53->US.52: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -331,7 +336,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "The \"Double Shift\" many women faced during WWII consisted of Working full-time in factories while still managing household and childcare responsibilities. B is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
       "explanationEs": "Muchas mujeres enfrentaron \"doble turno\" - trabajando largas horas en industrias de guerra luego regresando a casa para deberes domésticos tradicionales como cocinar, limpiar y cuidado infantil. A pesar de esta carga, demostraron que mujeres podían manejar trabajo industrial exigente.",
-      "translationStatus": "complete",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.02,
         "b": 0.12,
@@ -351,7 +356,12 @@
         "crosswalkReasons": [
           "US.53->US.52: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "complete",
+          "now": "needs-review",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -611,7 +621,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Many were pressured to leave jobs for returning servicemen, facing social pressure to return home. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
       "explanationEs": "Después de Segunda Guerra Mundial, muchas mujeres fueron despedidas o presionadas a dejar empleos para dar lugar a militares que regresaban. Sociedad esperaba que reanudaran roles domésticos tradicionales. Sin embargo, muchas mujeres continuaron trabajando y su experiencia de tiempo de guerra sembró semillas para movimiento de mujeres de 1960s.",
-      "translationStatus": "complete",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.44,
         "b": 0.12,
@@ -631,7 +641,12 @@
         "crosswalkReasons": [
           "US.53->US.52: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "complete",
+          "now": "needs-review",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -751,7 +766,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "It made visible the murderous extremism of white supremacist opposition. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
       "explanationEs": "It made visible the murderous extremism of white supremacist opposition. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for derechos civiles and equal treatment.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.41,
         "b": 0.5,
@@ -771,7 +786,12 @@
         "crosswalkReasons": [
           "US.53->US.52: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -1403,7 +1423,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Both A and B represent the crisis's historical significance. B is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
       "explanationEs": "Both A and B represent the crisis's historical significance. B is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for derechos civiles and equal treatment.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.88,
         "b": 1.74,
@@ -1434,6 +1454,11 @@
             "Little Rock"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
         }
       },
       "alignmentStatus": "rehomed"

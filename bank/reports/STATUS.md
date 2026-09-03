@@ -14,8 +14,8 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `binding` | **PASS** | 3986 | — | 0 |
 | `key-integrity` | **PASS** | 3986 | — | 0 |
 | `distractor-coverage` | **FAIL** | 3986 | 3844 | 23064 |
-| `truncation` | **FAIL** | 3986 | — | 100 |
-| `blueprint-conformance` | **FAIL** | 2512 | — | 657 |
+| `truncation` | **FAIL** | 3986 | — | 91 |
+| `blueprint-conformance` | **FAIL** | 2512 | — | 22 |
 | `key-position-debias` | **PASS** | 3821 | — | 0 |
 | `serveability` | **FAIL** | 3956 | — | 1008 |
 | `reporting-category-provenance` | **PASS** | 3986 | — | 0 |
@@ -23,15 +23,19 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `choice-length-cue` | **FAIL** | 3986 | 3821 | 1 |
 | `duplicate-stems` | **PASS** | 3986 | 3956 | 0 |
 | `citation-integrity` | **PASS** | 3986 | 35 | 0 |
+| `translation-claim` | **PASS** | 3986 | 3466 | 0 |
+| `explanation-quality` | **FAIL** | 3986 | 3956 | 920 |
+| `embedded-answer-key` | **PASS** | 3986 | 3956 | 0 |
 | `release-readiness` | **FAIL** | 3956 | — | 7 |
-| `FORM-A/form-pagination` | **PASS** | 2 | 14 | 0 |
-| `FORM-A/form-type-size` | **PASS** | 2 | 32983 | 0 |
+| `FORM-A/form-pagination` | **PASS** | 2 | 16 | 0 |
+| `FORM-A/form-type-size` | **PASS** | 2 | 47627 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 6 | 0 |
 | `FORM-A/form-disclosure` | **PASS** | 2 | 2 | 0 |
 | `FORM-A/teacher-side-isolation` | **PASS** | 18 | 18 | 0 |
-| `all-gates-measured` | **PASS** | 19 | — | 0 |
+| `FORM-A/form-blueprint` | **PASS** | 18 | 3 | 0 |
+| `all-gates-measured` | **PASS** | 23 | — | 0 |
 
-**13/20 pass.** Grade A requires all of them. "Close" is not "A."
+**16/24 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
@@ -45,7 +49,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 ## Forms
 
-- **FORM-A** — 18 items across 3 standard(s): US.05, US.15, US.26
+- **FORM-A** — 18 items across 3 standard(s): US.46, US.60, US.23
 
 ## Authoring debt
 

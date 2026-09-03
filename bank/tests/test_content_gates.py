@@ -200,6 +200,99 @@ r = content.gate_citation_integrity(heldset, B)
 check("a HELD item does not fail the gate (it cannot reach a reader)", r.passed)
 check("but the held count is reported, not hidden", "held out of service" in r.note, r.note)
 
+# ── translation claim ────────────────────────────────────────────────────
+print("\n  translation-claim — a bilingual claim is an accessibility claim")
+def es(it, stemEs=None, choiceEs=None, status="complete"):
+    it["stemEs"] = stemEs if stemEs is not None else it["stemEs"]
+    if choiceEs is not None:
+        for c in it["choices"]:
+            c["textEs"] = choiceEs(c)
+    it["translationStatus"] = status
+    return it
+
+real = [A(on_std(ON, id=f"TR-{n}"), "evidenced") for n in range(3)]
+check("genuine Spanish claiming 'complete' PASSES",
+      content.gate_translation_claim(real, B).passed,
+      "; ".join(str(f) for f in content.gate_translation_claim(real, B).findings[:2]))
+
+copied = copy.deepcopy(real)
+es(copied[1], choiceEs=lambda c: c["text"])
+r = content.gate_translation_claim(copied, B)
+check("Spanish that is a verbatim copy of English, claiming 'complete', FAILS", not r.passed)
+check("the finding names it an accessibility claim",
+      any("accessibility claim" in str(f) for f in r.findings))
+
+pseudo = copy.deepcopy(real)
+es(pseudo[0], choiceEs=lambda c: c["text"].replace("Amendment", "enmienda")
+   .replace("federal", "federal") if len(c["text"]) > 25 else c["text"])
+pseudo[0]["choices"][0]["textEs"] = ("The programs violated the 5th enmienda's protection "
+                                     "against government taking of property")
+check("word-substitution pseudo-translation claiming 'complete' FAILS",
+      not content.gate_translation_claim(pseudo, B).passed)
+
+honest = copy.deepcopy(copied)
+honest[1]["translationStatus"] = "not-started"
+check("the SAME item labelled 'not-started' PASSES — honest, not fixed",
+      content.gate_translation_claim(honest, B).passed)
+
+check("an acronym identical in both languages is not a defect",
+      content.translation_defect("SNCC", "SNCC") is None)
+check("a long identical string IS untranslated",
+      content.translation_defect("Defense production for WWII and consumer goods for the home",
+                                 "Defense production for WWII and consumer goods for the home")
+      == "untranslated-copy")
+check("EMPTY scan FAILS", not content.gate_translation_claim([], B).passed)
+check("an item with no Spanish at all is not judged",
+      content.gate_translation_claim(
+          [dict(A(on_std(ON, id="NOES"), "evidenced"), stemEs="", explanationEs="",
+                choices=[dict(c, textEs="") for c in real[0]["choices"]])], B).judged == 0)
+
+# ── explanation quality ──────────────────────────────────────────────────
+print("\n  explanation-quality — the key's explanation says WHY, not WHAT")
+good = [A(on_std(ON, id=f"EX-{n}"), "evidenced") for n in range(3)]
+check("a real explanation PASSES", content.gate_explanation_quality(good, B).passed,
+      "; ".join(str(f) for f in content.gate_explanation_quality(good, B).findings[:2]))
+
+dup = copy.deepcopy(good)
+dup[1]["explanation"] = dup[1]["dokRationale"]
+r = content.gate_explanation_quality(dup, B)
+check("an explanation identical to the dokRationale FAILS", not r.passed)
+check("the finding says one note is doing two jobs",
+      any("two different jobs" in str(f) for f in r.findings))
+
+restate = copy.deepcopy(good)
+keytext = next(c["text"] for c in restate[0]["choices"]
+               if c["id"] == restate[0]["correctAnswer"])
+restate[0]["explanation"] = keytext + " and this was very significant for the period."
+check("an explanation that opens by restating the key FAILS",
+      not content.gate_explanation_quality(restate, B).passed)
+check("EMPTY scan FAILS", not content.gate_explanation_quality([], B).passed)
+
+# ── embedded answer key ──────────────────────────────────────────────────
+print("\n  embedded-answer-key — student-visible text must not carry the key")
+base = [A(on_std(ON, id=f"EK-{n}"), "evidenced") for n in range(3)]
+check("a normal item PASSES", content.gate_embedded_key(base, B).passed,
+      "; ".join(str(f) for f in content.gate_embedded_key(base, B).findings[:2]))
+
+mark = copy.deepcopy(base)
+mark[1]["stem"] = "Why did the Dawes Act divide land? CORRECT ANSWER A. To force allotment."
+check("an answer-key marker in the stem FAILS",
+      not content.gate_embedded_key(mark, B).passed)
+
+inchoice = copy.deepcopy(base)
+inchoice[0]["choices"][0]["text"] = "(correct) It divided reservation land into allotments."
+check("an answer-key marker in a choice FAILS",
+      not content.gate_embedded_key(inchoice, B).passed)
+
+swallowed = copy.deepcopy(base)
+ch = swallowed[2]["choices"]
+swallowed[2]["stem"] = (swallowed[2]["stem"] + " " + ch[0]["text"] + " B. " + ch[1]["text"])
+r = content.gate_embedded_key(swallowed, B)
+check("a stem containing its own choice list FAILS", not r.passed)
+check("the finding says the student reads every option twice",
+      any("twice" in str(f) for f in r.findings))
+check("EMPTY scan FAILS", not content.gate_embedded_key([], B).passed)
+
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
 for f in FAILED:

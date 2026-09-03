@@ -119,23 +119,41 @@ r = record.gate_truncation(bank4, B)
 check("truncation: em-dash completion stem is NOT flagged", r.passed,
       "; ".join(str(f) for f in r.findings[:2]))
 
-# 6 ── blueprint conformance: drift in both directions
-bank = fixtures.clean_bank(CODES)[:-1]                      # one short
+# 6 ── blueprint: the BANK is measured on depth + proportion, the FORM exactly
+bank = fixtures.clean_bank(CODES)[:-1]                      # one standard short of minimum
 r = coverage.gate_blueprint(bank, B)
-check("blueprint: UNDER count FAILS", not r.passed)
-bank = fixtures.clean_bank(CODES) + [fixtures.item(id="EXTRA", standardCodes=["US.04"])]
-prove(coverage.gate_blueprint, bank, "US.04")
-#      right count, wrong DOK spread
-bank5 = fixtures.clean_bank(CODES)
-for it in bank5:
-    it["dokLevel"] = 1
-r = coverage.gate_blueprint(bank5, B)
-check("blueprint: right count / wrong DOK spread FAILS", not r.passed)
+check("bank: a standard BELOW minimum depth FAILS", not r.passed)
+
+deep = fixtures.clean_bank(CODES) + fixtures.clean_bank(CODES)   # twice the depth
+r = coverage.gate_blueprint(deep, B)
+check("bank: EXTRA depth is not drift — it PASSES", r.passed,
+      "; ".join(str(f) for f in r.findings[:2]))
+
+skew = fixtures.clean_bank(CODES * 3)
+for it in skew:
+    it["dokLevel"] = 1                                       # a bank drifted to recall
+r = coverage.gate_blueprint(skew, B)
+check("bank: a bank drifted to all-recall FAILS on DOK proportion", not r.passed)
+check("the finding quotes the share and the target",
+      any("target" in str(f) for f in r.findings), f"got {[str(f)[:80] for f in r.findings[:2]]}")
+
+prove(coverage.gate_blueprint, fixtures.clean_bank(CODES)[:-1], "US.05")
+
+#      the FORM must match exactly, failing in either direction
+form = fixtures.clean_bank(["US.04"])
+check("form: an exact form PASSES", coverage.gate_form_blueprint(form, B).passed,
+      "; ".join(str(f) for f in coverage.gate_form_blueprint(form, B).findings[:2]))
+over = form + [fixtures.item(id="EXTRA", standardCodes=["US.04"])]
+check("form: one item OVER the blueprint FAILS", not coverage.gate_form_blueprint(over, B).passed)
+check("form: one item UNDER the blueprint FAILS",
+      not coverage.gate_form_blueprint(form[:-1], B).passed)
+check("form: EMPTY scan FAILS", not coverage.gate_form_blueprint([], B).passed)
+
 #      quarantined items do not count as coverage
 bank6 = fixtures.clean_bank(CODES)
 bank6[0]["status"] = "quarantined"
-r = coverage.gate_blueprint(bank6, B)
-check("blueprint: quarantined item is NOT counted as coverage", not r.passed)
+check("bank: a quarantined item is NOT counted as coverage",
+      not coverage.gate_blueprint(bank6, B).passed)
 
 # 7 ── answer-position de-bias: a bank a student can beat without reading
 bank = fixtures.clean_bank(CODES * 6)

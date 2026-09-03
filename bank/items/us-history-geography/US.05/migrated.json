@@ -671,7 +671,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "The Dawes Act (1887) was designed to force Native Americans to assimilate into white American culture by breaking up tribal land and assigning individual plots. Focus: the GOAL of assimilation.",
       "explanationEs": "La Ley Dawes (1887) fue diseñada para forzar a los nativos americanos a asimilarse a la cultura estadounidense blanca al dividir las tierras tribales y asignar parcelas individuales. Enfoque: la META de la asimilación.",
-      "translationStatus": "complete",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1,
         "b": -1.5,
@@ -691,7 +691,12 @@
         "crosswalkReasons": [
           "US.02->US.05: checklist intact (4 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "complete",
+          "now": "needs-review",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },

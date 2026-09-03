@@ -391,6 +391,85 @@
           "contains": "def citation_line"
         }
       ]
+    },
+    {
+      "id": "L27",
+      "mistake": "No gate looked at whether the SPANISH was Spanish. 1,144 items carry a textEs that is a verbatim copy of the English, and 408 carry a word-substitution pseudo-translation — 'The programs violated the 5th enmienda's protection against government taking of property', 'Congreso had rarely had the authority to levy taxes'. The second is worse than nothing because it LOOKS translated. 93 of them claimed translationStatus 'complete', which is a false accessibility claim on a district-facing product.",
+      "caughtBy": "reading a truncation finding and noticing the Spanish choice set differed from the English",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_translation_claim"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a bilingual claim is an accessibility claim"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "an acronym identical in both languages is not a defect"
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "mistake": "The item spec says the key's explanation is 'why it is right, not a restatement of it', and nothing measured that. 920 items either open by repeating the key verbatim or carry an explanation IDENTICAL to their own dokRationale — one terse editorial note ('DOK 1: identify core dynamic of sharecropping') standing in for two different jobs.",
+      "caughtBy": "reading six real items before authoring them",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_explanation_quality"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "an explanation identical to the dokRationale FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "mistake": "blueprint-conformance measured a 3,986-item BANK against a 564-item target and reported 681 findings, none of them actionable. Exact-count conformance failing in either direction is right for a FORM — 7 items where the blueprint says 6 is a defective form — but for a bank 'too many items' is depth, not drift. The gate was reporting a units error as a defect.",
+      "caughtBy": "asking what a failing gate was actually asking anyone to DO",
+      "guards": [
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "def gate_form_blueprint"
+        },
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "is depth, and depth is what lets forms"
+        }
+      ]
+    },
+    {
+      "id": "L30",
+      "mistake": "Nine items carried their ENTIRE body inside the stem — question, then all four options inline, with an answer-key marker surviving the paste ('…? H It committed the United States to supporting free peoples… B. It authorized…'). Rendered on a form the student reads every option twice and sees the marker. Found only because a form gate fired on a rendered PDF; no bank gate looked at student-visible text for key material.",
+      "caughtBy": "form-key-leakage firing on page 4 of a rendered student PDF",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_embedded_key"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a stem containing its own choice list FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L31",
+      "mistake": "The form builder never built to the blueprint. select() took the first N items per standard by id and never looked at DOK or item type, so a form drawn from a deep standard came out six multiple-choice items at the wrong levels. A form blueprint is a set of SLOTS and selection has to fill them — the gate existed before the builder could satisfy it.",
+      "caughtBy": "wiring form-blueprint into the runner and watching it fail on a form I had built",
+      "guards": [
+        {
+          "file": "tools/forms.py",
+          "contains": "A form blueprint is a set of SLOTS"
+        },
+        {
+          "file": "tests/test_gates.py",
+          "contains": "form: one item OVER the blueprint FAILS"
+        }
+      ]
     }
   ]
 }

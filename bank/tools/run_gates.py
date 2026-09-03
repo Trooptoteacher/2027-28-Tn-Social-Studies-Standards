@@ -9,6 +9,7 @@ read, and the output directory.
 """
 from __future__ import annotations
 
+import json
 import os
 import sys
 
@@ -34,6 +35,9 @@ GATES = [
     content.gate_choice_length_cue,
     content.gate_duplicate_stems,
     content.gate_citation_integrity,
+    content.gate_translation_claim,
+    content.gate_explanation_quality,
+    content.gate_embedded_key,
     # teacher-side-isolation is a FORM gate, not a bank gate: items at rest
     # carry no surface, so running it here could only ever be vacuous. It runs
     # once per rendered form, below.
@@ -65,8 +69,15 @@ def collect(b, target=None):
                   formgates.gate_form_key_leakage, formgates.gate_form_disclosure):
             r = g(pdfs, b); r.gate = f"{fid}/{r.gate}"; results.append(r)
         if os.path.exists(os.path.join(fd, "student-surface.json")):
-            r = coverage.gate_teacher_side_isolation(itemio.load_dir(fd), b)
+            surface = itemio.load_dir(fd)
+            r = coverage.gate_teacher_side_isolation(surface, b)
             r.gate = f"{fid}/teacher-side-isolation"
+            results.append(r)
+            man = os.path.join(fd, "manifest.json")
+            decl = (json.load(open(man, encoding="utf-8")).get("standards")
+                    if os.path.exists(man) else None)
+            r = coverage.gate_form_blueprint(surface, b, standards=decl)
+            r.gate = f"{fid}/form-blueprint"
             results.append(r)
 
     results.append(coverage.unmeasured_gates(results))

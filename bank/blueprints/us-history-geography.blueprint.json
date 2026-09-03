@@ -1,5 +1,5 @@
 {
-  "$comment": "Backward design. Nothing gets written until this exists. The bank is MEASURED against this file per standard, per DOK, per item type, and drift fails in EITHER direction. Writing items first and describing the coverage afterward produces a bank that is 70% DOK-1 recall and reads as complete.",
+  "$comment": "Backward design. Nothing gets written until this exists. The bank is MEASURED against this file per standard, per DOK, per item type, and drift fails in EITHER direction. Writing items first and describing the coverage afterward produces a bank that is 70% DOK-1 recall and reads as complete. TWO LEVELS, because exact-match means different things for a form and for a bank. A FORM must match exactly and fails in either direction — 7 items where the blueprint says 6 is a defective form. A BANK of 3,986 items measured against a 564-item target can only ever fail, and 'too many items' is not a defect: it is depth. So the bank is measured against a MINIMUM per standard plus the DOK PROPORTION, and the form against the exact counts.",
   "blueprintVersion": 1,
   "course": "us-history-geography",
   "standardsPrefix": "US",
@@ -1345,5 +1345,31 @@
   "totals": {
     "standards": 94,
     "items": 564
+  },
+  "form": {
+    "$comment": "Exact. A rendered form must match this, failing in either direction.",
+    "itemCount": 6,
+    "dok": {
+      "1": 2,
+      "2": 2,
+      "3": 1,
+      "4": 1
+    },
+    "itemType": {
+      "mcq": 4,
+      "constructed-response": 1,
+      "document-based": 1
+    }
+  },
+  "bank": {
+    "$comment": "Minimum depth so forms can be built without reusing items, plus the DOK mix the bank should hold. The proportion resists the real failure — a bank that drifts to recall — without treating depth as drift.",
+    "minPerStandard": 6,
+    "dokProportion": {
+      "1": 0.33,
+      "2": 0.33,
+      "3": 0.17,
+      "4": 0.17
+    },
+    "proportionTolerance": 0.12
   }
 }

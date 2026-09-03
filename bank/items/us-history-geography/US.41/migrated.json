@@ -121,7 +121,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "More than 9,000 banks failed between 1930 and 1933, wiping out many families' savings. Choice A refers to stock speculation, which does not fit this question, and choice B refers to a different statistic or date, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected.",
       "explanationEs": "Más de 9,000 bancos quebraron entre 1930-1933. Sin seguro de depósitos (FDIC no existía todavía), la gente perdió sus ahorros de vida cuando los bancos colapsaron.",
-      "translationStatus": "complete",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 0.45,
         "b": -0.77,
@@ -141,7 +141,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "complete",
+          "now": "needs-review",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -261,7 +266,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Buying on margin meant purchasing stocks with borrowed money, so losses grew even faster when prices fell. Choice B is wrong because margin involved borrowing for stocks, not ordinary consumer spending, and choice A is wrong because margin involved borrowing for stocks, not ordinary consumer spending. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
       "explanationEs": "Buying on margin meant purchasing stocks with borrowed money, so losses grew even faster when prices fell. Choice B is wrong because margin involved borrowing for stocks, not ordinary consumer spending, and choice A is wrong because margin involved borrowing for stocks, not ordinary consumer spending. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.85,
         "b": -0.85,
@@ -281,7 +286,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -331,7 +341,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "WWI veterans demanding early payment of promised service bonuses, which made Hoover seem harsh toward struggling veterans. Choice A is wrong because it does not describe the veterans' demand for early bonus payments, and choice B is wrong because it does not describe the veterans' demand for early bonus payments. This issue became part of the larger argument over how much the federal government should do in an economic crisis.",
       "explanationEs": "WWI veterans demanding early payment of promised service bonuses, which made Hoover seem harsh toward struggling veterans. Choice A is wrong because it does not describe the veterans' demand for early bonus payments, and choice B is wrong because it does not describe the veterans' demand for early bonus payments. This issue became part of the larger argument over how much the gobierno federal should do in an economic crisis.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.54,
         "b": -0.99,
@@ -361,6 +371,11 @@
             "Bonus Army"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
         }
       },
       "alignmentStatus": "rehomed"
@@ -411,7 +426,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "The Social Security Act belongs outside Roosevelt's First Hundred Days because Congress passed it in 1935, not in the burst of laws from spring 1933. Choice C refers to farm losses, which does not fit this question, and choice D refers to bank failures, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
       "explanationEs": "The Social Security Act belongs outside Roosevelt's First Hundred Days because Congreso passed it in 1935, not in the burst of laws from spring 1933. Choice C refers to farm losses, which does not fit this question, and choice D refers to bank failures, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.61,
         "b": -0.78,
@@ -431,7 +446,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -481,7 +501,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "John Maynard Keynes — who argued deficit spending could stimulate demand during recessions, who argued that deficit spending could boost demand during a recession. Choice C refers to a public works project, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
       "explanationEs": "John Maynard Keynes — who argued deficit spending could stimulate demand during recesións, who argued that deficit spending could boost demand during a recesión. Choice C refers to a public works project, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.44,
         "b": -1.31,
@@ -501,7 +521,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -551,7 +576,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "The Nye Committee's findings suggesting arms merchants had drawn the U.S. into WWI. Choice C refers to a World War II event, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
       "explanationEs": "The Nye Committee's findings suggesting arms merchants had drawn the U.S. into WWI. Choice C refers to a Segunda Guerra Mundial event, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.06,
         "b": -0.61,
@@ -571,7 +596,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -621,7 +651,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "The profits of munitions makers and bankers who had loaned money to the Allies. Choice A refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected.",
       "explanationEs": "The profits of munitions makers and bankers who had loaned money to the Allies. Choice A refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. The depresión revealed how closely jobs, banks, farms, and consumer spending were connected.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.9,
         "b": -0.68,
@@ -641,7 +671,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -691,7 +726,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Self-determination, freedom of the seas, and collective security. Choice D refers to a World War II event, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. World War II policies like this reshaped American power, industry, and daily life.",
       "explanationEs": "Self-determination, freedom of the seas, and collective security. Choice D refers to a Segunda Guerra Mundial event, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. Segunda Guerra Mundial policies like this reshaped American power, industry, and daily life.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.94,
         "b": -1.5,
@@ -723,6 +758,11 @@
             "Atlantic Charter"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
         }
       },
       "alignmentStatus": "rehomed"
@@ -913,7 +953,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Approximately one in four American workers was unemployed. Choice A refers to stock speculation, which does not fit this question, and choice C refers to farm losses, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
       "explanationEs": "Approximately one in four American workers was unemployed. Choice A refers to stock speculation, which does not fit this question, and choice C refers to farm losses, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.74,
         "b": 0.22,
@@ -933,7 +973,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -983,7 +1028,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Government employment and public sector work. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
       "explanationEs": "Government employment and public sector work. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1,
         "b": -0.11,
@@ -1003,7 +1048,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -1123,7 +1173,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Black Tuesday was the most dramatic day of the 1929 stock market crash, when panic selling wiped out huge amounts of paper wealth. Choice A refers to the Great Depression or New Deal, not the historical point being tested; choice B refers to the Great Depression or New Deal, not the historical point being tested. The crash shattered confidence and accelerated the nation's slide into Depression.",
       "explanationEs": "Black Tuesday was the most dramatic day of the 1929 mercado de valores crash, when panic selling wiped out huge amounts of paper wealth. Choice A refers to the Gran Depresión or New Deal, not the historical point being tested; choice B refers to the Gran Depresión or New Deal, not the historical point being tested. The crash shattered confidence and accelerated the nation's slide into depresión.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.66,
         "b": -0.99,
@@ -1143,7 +1193,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -1193,7 +1248,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Mass production, national advertising, and easy credit encouraged Americans in the 1920s to buy more goods and tie personal identity to consumption. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. That culture of spending powered the boom, but it also deepened the crash when confidence collapsed.",
       "explanationEs": "Mass production, national advertising, and easy credit encouraged Americans in the 1920s to buy more goods and tie personal identity to consumption. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. That culture of spending powered the boom, but it also deepened the crash when confidence collapsed.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.5,
         "b": -1.05,
@@ -1213,7 +1268,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -1613,7 +1673,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "The Smoot-Hawley Tariff Act raised U.S. tariffs to record levels in 1930 and helped worsen the global Depression. Choice A refers to a public works project, which does not fit this question, and choice C refers to farm losses, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
       "explanationEs": "The Smoot-Hawley arancel Act raised U.S. arancels to record levels in 1930 and helped worsen the global depresión. Choice A refers to a public works project, which does not fit this question, and choice C refers to farm losses, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.85,
         "b": 0.48,
@@ -1633,7 +1693,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -1753,7 +1818,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Lending money to banks, railroads, and businesses on the theory that economic recovery would 'trickle down' to workers — criticized as 'aid to big business' while workers starved, as Hoover tried to stabilize major institutions rather than give direct aid to individuals. Choice C refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
       "explanationEs": "Lending money to banks, railroads, and businesses on the theory that economic recovery would 'trickle down' to workers — criticized as 'aid to big business' while workers starved, as Hoover tried to stabilize major institutions rather than give direct aid to individuals. Choice C refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.35,
         "b": 0.43,
@@ -1773,7 +1838,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -1823,7 +1893,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Relief, Recovery, and Reform — immediate assistance, economic stimulation, and structural change. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to unemployment, which does not fit this question. Programs like this changed what many Americans expected from the federal government in a national emergency.",
       "explanationEs": "Relief, Recovery, and Reform — immediate assistance, economic stimulation, and structural change. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to desempleo, which does not fit this question. Programs like this changed what many Americans expected from the gobierno federal in a national emergency.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.96,
         "b": -0.38,
@@ -1853,6 +1923,11 @@
             "New Deal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
         }
       },
       "alignmentStatus": "rehomed"
@@ -1903,7 +1978,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Social insurance, labor rights, and higher taxes on the wealthy. Choice C refers to a World War II event, which does not fit this question, and choice A refers to a New Deal program, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
       "explanationEs": "Social insurance, labor rights, and higher taxes on the wealthy. Choice C refers to a Segunda Guerra Mundial event, which does not fit this question, and choice A refers to a New Deal program, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.81,
         "b": -0.08,
@@ -1933,6 +2008,11 @@
             "New Deal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
         }
       },
       "alignmentStatus": "rehomed"
@@ -1983,7 +2063,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Lending weapons and supplies without requiring immediate payment, allowing Britain and later the Soviet Union to keep fighting without immediate payment. Choice A refers to a World War II event, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. Decisions like this helped define the United States as a global power after 1945.",
       "explanationEs": "Lending weapons and supplies without requiring immediate payment, allowing Britain and later the Soviet Union to keep fighting without immediate payment. Choice A refers to a Segunda Guerra Mundial event, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. Decisions like this helped define the United States as a global power after 1945.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.22,
         "b": -0.15,
@@ -2015,6 +2095,11 @@
             "Lend-Lease Act"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
         }
       },
       "alignmentStatus": "rehomed"
@@ -2065,7 +2150,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Any nation to purchase U.S. arms for cash and transport on their own ships. Choice A refers to a World War II event, which does not fit this question, and choice D refers to a World War II event, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Great Depression.",
       "explanationEs": "Any nation to purchase U.S. arms for cash and transport on their own ships. Choice A refers to a Segunda Guerra Mundial event, which does not fit this question, and choice D refers to a Segunda Guerra Mundial event, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Gran Depresión.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.49,
         "b": 0.55,
@@ -2085,7 +2170,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -2345,7 +2435,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Contracted the money supply and deepened the downturn instead of stimulating recovery. Choice A refers to another event or policy from the era, which does not fit this question, and choice C refers to bank failures, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Great Depression.",
       "explanationEs": "Contracted the money supply and deepened the downturn instead of stimulating recovery. Choice A refers to another event or policy from the era, which does not fit this question, and choice C refers to bank failures, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Gran Depresión.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 0.89,
         "b": -0.02,
@@ -2365,7 +2455,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -2415,7 +2510,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Fearful depositors withdrew savings simultaneously, forcing banks to call in loans and causing more business failures. Choice C refers to bank failures, which does not fit this question, and choice A refers to bank deposits, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Great Depression.",
       "explanationEs": "Fearful depositors withdrew savings simultaneously, forcing banks to call in loans and causing more business failures. Choice C refers to bank failures, which does not fit this question, and choice A refers to bank deposits, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Gran Depresión.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.66,
         "b": -0.14,
@@ -2435,7 +2530,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -2845,7 +2945,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Smoot-Hawley raised U.S. tariffs to very high levels, and other countries retaliated, shrinking world trade and making the Depression worse. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. The law became a classic warning about protectionism during a global downturn.",
       "explanationEs": "Smoot-Hawley raised U.S. arancels to very high levels, and other countries retaliated, shrinking world comercio and making the depresión worse. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. The law became a classic warning about protectionism during a global downturn.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.36,
         "b": -0.42,
@@ -2865,7 +2965,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -3055,7 +3160,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "The absence of federal deposit insurance meant that when banks. Choice C refers to bank failures, which does not fit this question, and choice B refers to bank failures, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected.",
       "explanationEs": "The absence of federal deposit insurance meant that when banks. Choice C refers to bank failures, which does not fit this question, and choice B refers to bank failures, which does not fit this question. The depresión revealed how closely jobs, banks, farms, and consumer spending were connected.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.34,
         "b": 0.78,
@@ -3075,7 +3180,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -3195,7 +3305,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Federal Reserve raised interest rates aggressively + widespread bank. Choice C refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
       "explanationEs": "Federal Reserve raised interest rates aggressively + widespread bank. Choice C refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 2.15,
         "b": 0.64,
@@ -3215,7 +3325,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -3265,7 +3380,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Federal direct relief would destroy individual initiative and create permanent dependency. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. Hoover-era debates like this set the stage for Roosevelt to expand the federal role after 1933.",
       "explanationEs": "Federal direct relief would destroy individual initiative and create permanent dependency. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. Hoover-era debates like this set the stage for Roosevelt to expand the federal role after 1933.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.34,
         "b": 1.1,
@@ -3285,7 +3400,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -3335,7 +3455,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Becoming the world's leading weapons producer rather than fighting directly. Choice D refers to a World War II event, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
       "explanationEs": "Becoming the world's leading weapons producer rather than fighting directly. Choice D refers to a Segunda Guerra Mundial event, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.42,
         "b": 1.11,
@@ -3355,7 +3475,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -3405,7 +3530,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Fear of communist infiltration was not a main cause of 1930s isolationism; most isolationists focused on disillusionment with World War I and avoiding another European war. Choice B refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
       "explanationEs": "Fear of communist infiltration was not a main cause of 1930s aislacionismo; most isolationists focused on disillusionment with Primera Guerra Mundial and avoiding another European war. Choice B refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.34,
         "b": 0.91,
@@ -3425,7 +3550,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -3475,7 +3605,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Both B and C describe its significance. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected.",
       "explanationEs": "Both B and C describe its significance. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. The depresión revealed how closely jobs, banks, farms, and consumer spending were connected.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 2.16,
         "b": 0.99,
@@ -3495,7 +3625,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -3545,7 +3680,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Overproduction, weak banking regulations, excessive speculation, and the collapse of the money supply, because many buyers cared more about quick profits than real company value. Choice A refers to another event or policy from the era, which does not fit this question, and choice B refers to bank failures, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected.",
       "explanationEs": "Overproduction, weak banking regulations, excessive speculation, and the collapse of the money supply, because many buyers cared more about quick profits than real company value. Choice A refers to another event or policy from the era, which does not fit this question, and choice B refers to bank failures, which does not fit this question. The depresión revealed how closely jobs, banks, farms, and consumer spending were connected.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.84,
         "b": 0.74,
@@ -3565,7 +3700,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -4092,7 +4232,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Speculation in the 1920s encouraged people to buy stocks mainly because they expected prices to keep rising, not because businesses were necessarily earning more. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. This speculative mindset made the economy far more fragile by 1929.",
       "explanationEs": "Speculation in the 1920s encouraged people to buy stocks mainly because they expected prices to keep rising, not because businesses were necessarily earning more. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. This speculative mindset made the economy far more fragile by 1929.",
-      "translationStatus": "needs-review",
+      "translationStatus": "not-started",
       "irtParameters": {
         "a": 1.1,
         "b": 1.33,
@@ -4112,7 +4252,12 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "translationClaimCorrected": {
+          "was": "needs-review",
+          "now": "not-started",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
       },
       "alignmentStatus": "evidenced"
     },

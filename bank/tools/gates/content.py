@@ -240,3 +240,155 @@ def gate_citation_integrity(items, binding=None) -> Result:
     return Result(name, not findings, len(items), findings, judged=judged,
                   note=f"{judged} servable item(s) carry a citation" +
                        (f"; {held} held out of service awaiting source verification" if held else ""))
+
+
+# ------------------------------------------------------- translation claim
+# A bilingual claim is an accessibility claim. Measured on the migrated bank:
+# 1,132 items carry a `textEs` that is a verbatim copy of the English, and 469
+# carry a word-substitution pseudo-translation — "The programs violated the 5th
+# enmienda's protection against government taking of property". The second is
+# worse than nothing because it LOOKS translated. Most were honestly marked
+# needs-review; 93 claimed `complete`.
+_ES_MARK = re.compile(r"[áéíóúñü¿¡]", re.I)
+_ES_FUNC = re.compile(r"\b(los|las|del|que|para|por|una|con|el|la|de|en|un)\b", re.I)
+
+
+def _spanishy(t):
+    t = t or ""
+    return bool(_ES_MARK.search(t)) or bool(_ES_FUNC.search(t))
+
+
+def translation_defect(en, es):
+    """None, 'untranslated-copy' or 'pseudo-translation'.
+
+    An identical short string is fine — an acronym (SNCC) or a proper noun does
+    not change between languages.
+    """
+    en, es = (en or "").strip(), (es or "").strip()
+    if not es:
+        return None
+    if es == en:
+        return None if (len(en) < 25 or en.isupper()) else "untranslated-copy"
+    if len(es) > 25 and not _spanishy(es):
+        return "pseudo-translation"
+    return None
+
+
+def worst_translation_defect(item):
+    for c in itemio.choices(item):
+        if isinstance(c, dict):
+            d = translation_defect(c.get("text"), c.get("textEs"))
+            if d:
+                return d
+    return (translation_defect(item.get("stem"), item.get("stemEs"))
+            or translation_defect(item.get("explanation"), item.get("explanationEs")))
+
+
+def gate_translation_claim(items, binding=None) -> Result:
+    """translationStatus must match what the Spanish fields actually contain.
+
+    Same shape as alignment-claim: an item may honestly say its translation is
+    unfinished. It may not claim `complete` while its Spanish is English.
+    """
+    name = "translation-claim"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    findings, judged = [], 0
+    counts = collections.Counter()
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        if not any((it.get(f) or "").strip() for f in ("stemEs", "explanationEs")) and \
+           not any((c.get("textEs") or "").strip() for c in itemio.choices(it) if isinstance(c, dict)):
+            continue
+        judged += 1
+        d = worst_translation_defect(it)
+        counts[d or "ok"] += 1
+        if d and it.get("translationStatus") == "complete":
+            findings.append(Finding(it.get("id", "?"),
+                f"claims translationStatus 'complete' but its Spanish is a {d} — a bilingual "
+                f"claim is an accessibility claim", it.get("_file", "")))
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note=f"{counts.get('untranslated-copy', 0)} untranslated copy, "
+                       f"{counts.get('pseudo-translation', 0)} pseudo-translation, "
+                       f"{counts.get('ok', 0)} genuine — all honestly labelled except the findings")
+
+
+# ------------------------------------------------------ explanation quality
+def gate_explanation_quality(items, binding=None) -> Result:
+    """The key's explanation says WHY it is right — not a restatement of it.
+
+    Two defects measured on the bank: an explanation identical to the item's own
+    dokRationale (a terse editorial note standing in for both), and an
+    explanation that opens by repeating the key choice verbatim.
+    """
+    name = "explanation-quality"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    findings, judged = [], 0
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        exp = (it.get("explanation") or "").strip()
+        if not exp:
+            continue
+        judged += 1
+        if exp == (it.get("dokRationale") or "").strip():
+            findings.append(Finding(it.get("id", "?"),
+                "explanation is identical to dokRationale — one editorial note standing in "
+                "for two different jobs", it.get("_file", "")))
+            continue
+        key = next((c for c in itemio.choices(it)
+                    if isinstance(c, dict) and c.get("id") == it.get("correctAnswer")), None)
+        if key and (key.get("text") or "").strip():
+            kt = key["text"].strip().rstrip(".")
+            if len(kt) > 30 and exp.lower().startswith(kt.lower()[:min(len(kt), 60)]):
+                findings.append(Finding(it.get("id", "?"),
+                    "explanation opens by restating the key verbatim rather than saying why "
+                    "it is right", it.get("_file", "")))
+    return Result(name, not findings, len(items), findings, judged=judged)
+
+
+# ---------------------------------------------------- embedded answer key
+# Nine items carry their ENTIRE body inside the stem — question, then all four
+# options inline, with an answer-key marker surviving the paste:
+#   "Which best explains why the Truman Doctrine…? H It committed the United
+#    States to supporting free peoples… B. It authorized… C. It replaced…"
+# Rendered on a form the student reads every option twice and sees the marker.
+# Each alternative carries its own boundary. A single leading \b applied to the
+# whole group could never match "(correct)", because there is no word boundary
+# between a space and a parenthesis — the marker was undetectable and the test
+# is what said so.
+_KEY_MARKER = re.compile(r"(?:\bCORRECT ANSWER\b|\bANSWER KEY\b|\(correct\)|\bANS:)", re.I)
+
+
+def gate_embedded_key(items, binding=None) -> Result:
+    """No answer-key marker, and no choice text, inside student-visible fields."""
+    name = "embedded-answer-key"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    findings, judged = [], 0
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        judged += 1
+        stem = it.get("stem") or ""
+        if _KEY_MARKER.search(stem):
+            findings.append(Finding(it.get("id", "?"),
+                "stem contains an answer-key marker", it.get("_file", "")))
+            continue
+        leaked = [c.get("id") for c in itemio.choices(it)
+                  if isinstance(c, dict) and (c.get("text") or "").strip()
+                  and len(c["text"].strip()) > 25 and c["text"].strip()[:40] in stem]
+        if len(leaked) >= 2:
+            findings.append(Finding(it.get("id", "?"),
+                f"stem contains the text of its own choices {leaked} — the student reads "
+                f"every option twice", it.get("_file", "")))
+            continue
+        for c in itemio.choices(it):
+            if isinstance(c, dict) and _KEY_MARKER.search((c.get("text") or "") +
+                                                          (c.get("textEs") or "")):
+                findings.append(Finding(it.get("id", "?"),
+                    f"choice {c.get('id')} carries an answer-key marker", it.get("_file", "")))
+                break
+    return Result(name, not findings, len(items), findings, judged=judged)

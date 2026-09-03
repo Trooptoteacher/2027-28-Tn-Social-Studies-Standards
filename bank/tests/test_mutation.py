@@ -46,7 +46,10 @@ def defect_for(gate_name):
     elif gate_name == "truncation":
         b[0]["stem"] = "How did the Homestead Act change settlement patterns in the"
     elif gate_name == "blueprint":
-        b.append(fixtures.item(id="EXTRA", standardCodes=["US.04"]))
+        b = b[:-1]                       # a standard below minimum depth
+    elif gate_name == "form_blueprint":
+        b = fixtures.clean_bank(["US.04"]) + [fixtures.item(id="EXTRA",
+                                                            standardCodes=["US.04"])]
     elif gate_name == "key_position":
         b = fixtures.clean_bank(CODES * 6)
         for it in b:
@@ -88,6 +91,7 @@ GATES = {
     "distractor_coverage": record.gate_distractor_coverage,
     "truncation": record.gate_truncation,
     "blueprint": coverage.gate_blueprint,
+    "form_blueprint": coverage.gate_form_blueprint,
     "key_position": coverage.gate_key_position,
     "serveability": coverage.gate_serveability,
     "reporting_category": coverage.gate_reporting_category,

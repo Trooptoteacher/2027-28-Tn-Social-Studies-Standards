@@ -15,19 +15,24 @@ from gates import Finding, Result, empty_scan_guard
 
 # --------------------------------------------------- blueprint conformance
 def gate_blueprint(items, binding=None) -> Result:
-    """The bank matches the committed blueprint per standard, per DOK, per item
-    type. Fails on drift in EITHER direction.
+    """The BANK holds enough depth per standard, in roughly the right DOK mix.
 
-    Only servable items count. A quarantined item is not coverage.
+    Exact-count conformance is a FORM property — see gate_form_blueprint, which
+    fails in either direction as specified. Measuring a 3,986-item bank against
+    a 564-item target can only ever fail, and "too many items" is not drift; it
+    is depth, and depth is what lets forms be built without reusing an item.
+
+    What the bank must not do is drift to recall. That is measured as a
+    proportion, so it holds at any size.
     """
     name = "blueprint-conformance"
     if (r := empty_scan_guard(name, items)):
         return r
     with open(binding.blueprint_file, encoding="utf-8") as fh:
         bp = json.load(fh)
-    per = bp["perStandard"]
-    # Coverage counts only items whose alignment is established. An `unverified`
-    # item is kept and usable; it is not evidence that a standard is covered.
+    bank = bp.get("bank") or {"minPerStandard": bp["defaults"]["itemCount"],
+                              "dokProportion": {"1": .33, "2": .33, "3": .17, "4": .17},
+                              "proportionTolerance": .12}
     live = [i for i in items if itemio.aligned(i)]
     if not live:
         return Result(name, False, len(items),
@@ -41,23 +46,70 @@ def gate_blueprint(items, binding=None) -> Result:
             by_std[c].append(it)
 
     findings = []
+    per = bp["perStandard"]
+    thin = 0
     for code in sorted(per):
-        want = per[code]
-        got = by_std.get(code, [])
+        n = len(by_std.get(code, []))
+        if n < bank["minPerStandard"]:
+            thin += 1
+            findings.append(Finding(code,
+                f"{n} aligned item(s), below the bank minimum of {bank['minPerStandard']}"))
+
+    total = len(live)
+    got = collections.Counter(str(i.get("dokLevel")) for i in live)
+    tol = bank["proportionTolerance"]
+    for lvl, want in sorted(bank["dokProportion"].items()):
+        share = got.get(lvl, 0) / total
+        if abs(share - want) > tol:
+            findings.append(Finding(f"DOK-{lvl}",
+                f"{share:.0%} of the bank, target {want:.0%} (±{tol:.0%}) — "
+                f"{'over' if share > want else 'under'}weighted"))
+
+    return Result(name, not findings, len(live), findings,
+                  note=f"{len(by_std)}/{len(per)} standards have >=1 aligned item; "
+                       f"{thin} below minimum depth; "
+                       f"{sum(1 for i in items if itemio.servable(i) and not itemio.aligned(i))} "
+                       f"servable items kept but not counted")
+
+
+def gate_form_blueprint(form_items, binding=None, standards=None) -> Result:
+    """A rendered FORM matches the blueprint exactly, failing in either direction.
+
+    Measured against the form's DECLARED standards. Counting every code any item
+    carries invented three extra standards on a three-standard form, because a
+    single item may be tagged to several.
+    """
+    name = "form-blueprint"
+    if (r := empty_scan_guard(name, form_items)):
+        return r
+    with open(binding.blueprint_file, encoding="utf-8") as fh:
+        bp = json.load(fh)
+    want = bp.get("form") or bp["defaults"]
+    declared = set(standards) if standards else None
+    by_std = collections.defaultdict(list)
+    for it in form_items:
+        for c in (it.get("standardCodes") or []):
+            if declared is None or c in declared:
+                by_std[c].append(it)
+    for c in (declared or set()):
+        by_std.setdefault(c, [])
+    findings = []
+    for code, got in sorted(by_std.items()):
         if len(got) != want["itemCount"]:
-            findings.append(Finding(code, f"item count {len(got)} != blueprint {want['itemCount']}"))
+            findings.append(Finding(code, f"{len(got)} items on the form, blueprint says "
+                                          f"{want['itemCount']}"))
         gd = collections.Counter(str(i.get("dokLevel")) for i in got)
         for lvl, n in sorted(want["dok"].items()):
             if gd.get(lvl, 0) != n:
-                findings.append(Finding(code, f"DOK-{lvl} count {gd.get(lvl, 0)} != blueprint {n}"))
+                findings.append(Finding(code, f"DOK-{lvl}: {gd.get(lvl, 0)} on the form, "
+                                              f"blueprint says {n}"))
         gt = collections.Counter(i.get("itemType") for i in got)
         for typ, n in sorted(want["itemType"].items()):
             if gt.get(typ, 0) != n:
-                findings.append(Finding(code, f"itemType {typ!r} count {gt.get(typ, 0)} != blueprint {n}"))
-    return Result(name, not findings, len(live), findings,
-                  note=f"{len(by_std)}/{len(per)} standards have >=1 aligned item "
-                       f"({sum(1 for i in items if itemio.servable(i) and not itemio.aligned(i))} "
-                       f"servable items kept but not counted)")
+                findings.append(Finding(code, f"{typ}: {gt.get(typ, 0)} on the form, "
+                                              f"blueprint says {n}"))
+    return Result(name, not findings, len(form_items), findings, judged=len(by_std),
+                  note=f"{len(by_std)} standard(s) on this form")
 
 
 # ------------------------------------------------------ answer-position bias
