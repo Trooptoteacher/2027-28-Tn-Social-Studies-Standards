@@ -106,10 +106,11 @@ def gate_distractor_coverage(items, binding=None) -> Result:
     name = "distractor-coverage"
     if (r := empty_scan_guard(name, items)):
         return r
-    findings = []
+    findings, judged = [], 0
     for it in items:
         if not itemio.is_single_select(it):
             continue
+        judged += 1
         key = it.get("correctAnswer")
         seen = {}
         for c in itemio.choices(it):
@@ -129,7 +130,7 @@ def gate_distractor_coverage(items, binding=None) -> Result:
                     f"({mis!r}) — one of them diagnoses nothing", it.get("_file", "")))
             else:
                 seen[mis] = cid
-    return Result(name, not findings, len(items), findings)
+    return Result(name, not findings, len(items), findings, judged=judged)
 
 
 # ------------------------------------------------------------ truncation

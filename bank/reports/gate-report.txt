@@ -15,7 +15,7 @@ Scanning items/us-history-geography — 3986 item(s)
           … and 3860 more
 [PASS] binding — scanned 3986
 [PASS] key-integrity — scanned 3986
-[FAIL] distractor-coverage — scanned 3986
+[FAIL] distractor-coverage — scanned 3986, judged 3844
         23064 finding(s):
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: distractor 'B' has no explanation
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: distractor 'B' names no misconception
@@ -61,7 +61,6 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-X015 [items/us-history-geography/US.04/migrated.json]: bilingual field explanationEs absent — item cannot be served in Spanish
           … and 1006 more
 [PASS] reporting-category-provenance — scanned 3986 — 4131 item/standard pair(s) awaiting a category source (mapping sourceOfRecord='UNMAPPED')
-[PASS] teacher-side-isolation — scanned 3986 — measures rendered student surfaces; items at rest are teacher-side by default
 [FAIL] release-readiness — scanned 3986 — Grade A requires zero findings here. "Close" is not "A."
         6 finding(s):
           - reportingCategory: 76 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
@@ -70,7 +69,13 @@ Scanning items/us-history-geography — 3986 item(s)
           - authoring-debt: 11532 distractors with no rationale
           - authoring-debt: 3728 items with no dokRationale
           - authoring-debt: 522 items missing a bilingual field
+[PASS] FORM-A/form-pagination — scanned 2, judged 14 — 14 rendered page(s) checked
+[PASS] FORM-A/form-type-size — scanned 2, judged 32983 — 32983 glyph(s) measured
+[PASS] FORM-A/form-key-leakage — scanned 1, judged 6 — 6 student page(s) checked
+[PASS] FORM-A/form-disclosure — scanned 2
+[PASS] FORM-A/teacher-side-isolation — scanned 18 — measures rendered student surfaces; items at rest are teacher-side by default
+[PASS] all-gates-measured — scanned 15 — 15/15 gates actually measured something
 
-5/11 gates pass.
+10/16 gates pass (0 not measured).
 HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, serveability, release-readiness
 Grade A requires ALL gates pass. "Close" is not "A."

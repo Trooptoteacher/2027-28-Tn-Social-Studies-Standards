@@ -231,12 +231,13 @@ def gate_teacher_side_isolation(items, binding=None) -> Result:
     name = "teacher-side-isolation"
     if (r := empty_scan_guard(name, items)):
         return r
-    findings = []
+    findings, judged = [], 0
     for it in items:
         if it.get("bankTier") != "student":
             continue
         if it.get("_surface") != "student-form":
             continue
+        judged += 1
         leaked = [f for f in _TEACHER_ONLY if it.get(f) not in (None, "")]
         leaked += [f"choice.{c.get('id')}.explanation" for c in itemio.choices(it)
                    if isinstance(c, dict) and (c.get("explanation") or "").strip()]
@@ -244,7 +245,7 @@ def gate_teacher_side_isolation(items, binding=None) -> Result:
             findings.append(Finding(it.get("id", "?"),
                 f"student-facing surface carries teacher-only field(s) {leaked}",
                 it.get("_file", "")))
-    return Result(name, not findings, len(items), findings,
+    return Result(name, not findings, len(items), findings, judged=judged,
                   note="measures rendered student surfaces; items at rest are teacher-side by default")
 
 
@@ -278,6 +279,7 @@ def gate_release_readiness(items, binding=None) -> Result:
             f"blueprint for {binding.standards_year}; until it does, this field cannot claim "
             f"to be the state's own category."))
 
+    unmeasured = []
     if str(bp.get("status", "")).lower().startswith(("draft", "operating")):
         findings.append(Finding("blueprint",
             f"blueprint status is {bp.get('status')!r} — not signed off by the course owner"))
@@ -303,3 +305,13 @@ def gate_release_readiness(items, binding=None) -> Result:
 
     return Result(name, not findings, len(live), findings,
                   note='Grade A requires zero findings here. "Close" is not "A."')
+
+
+def unmeasured_gates(results) -> Result:
+    """Grade A cannot be claimed while any gate formed no opinion."""
+    name = "all-gates-measured"
+    un = [r.gate for r in results if not r.measured]
+    findings = [Finding(g, "gate judged 0 records — its PASS would have been vacuous")
+                for g in un]
+    return Result(name, not findings, len(results), findings,
+                  note=f"{len(results) - len(un)}/{len(results)} gates actually measured something")

@@ -29,15 +29,35 @@ class Result:
     scanned: int = 0
     findings: list = field(default_factory=list)
     note: str = ""
+    judged: int = None
+    """How many records the gate actually JUDGED, after its own filtering.
+
+    `scanned` is the outer population; `judged` is the sub-population the gate
+    forms an opinion about. They differ, and the difference is dangerous:
+    teacher-side-isolation reported PASS over 3,986 scanned while judging ZERO
+    records, because no artifact yet carried the surface tag it filters on. The
+    empty-scan guard did its job on the outer scan and the gate was still
+    meaningless. A gate that judged nothing is NOT a pass.
+    """
+
+    @property
+    def measured(self) -> bool:
+        return self.judged is None or self.judged > 0
 
     @property
     def status(self) -> str:
+        if not self.measured:
+            return "NOT MEASURED"
         return "PASS" if self.passed else "FAIL"
 
     def report(self, limit=8) -> str:
         head = f"[{self.status}] {self.gate} — scanned {self.scanned}"
+        if self.judged is not None and self.judged != self.scanned:
+            head += f", judged {self.judged}"
         if self.note:
             head += f" — {self.note}"
+        if not self.measured:
+            return head + "\n        judged 0 records — a gate that formed no opinion is not a pass"
         if self.passed:
             return head
         lines = [head, f"        {len(self.findings)} finding(s):"]

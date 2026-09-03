@@ -63,8 +63,28 @@ clean pass.
 | `reporting-category-provenance` | a category with no declared source, or disagreeing with the mapping |
 | `teacher-side-isolation` | key material on a student-facing surface |
 | `release-readiness` | the Grade A decision — unsourced categories, unsigned blueprint, unreviewed provisional items, authoring debt |
+| `all-gates-measured` | any gate that formed no opinion (see below) |
 
-Run: `python3 tools/run_gates.py`
+Print gates, run per rendered form, reading the **PDF**:
+
+| Gate | Catches |
+|---|---|
+| `form-pagination` | `Page N of M` missing, frozen, or disagreeing with the real page count |
+| `form-type-size` | any glyph below the 9 pt print floor |
+| `form-key-leakage` | key material on a student PDF |
+| `form-disclosure` | a surface showing items without the calibration disclosure |
+| `teacher-side-isolation` | teacher-only fields on a rendered student surface |
+
+Run: `python3 tools/run_gates.py` · regenerate the status file with
+`python3 tools/status_report.py` (it is a measurement, never hand-edited).
+
+### A gate that judged nothing is not a pass
+
+`teacher-side-isolation` once reported **PASS over 3,986 items while judging
+zero** — its inner filter removed every record, and the empty-scan guard only
+watched the outer scan. Results now carry a `judged` count and report
+`NOT MEASURED`, which the runner does not count as a pass, and
+`all-gates-measured` holds the release while any gate formed no opinion.
 
 ### Every gate is proven
 
@@ -143,6 +163,24 @@ Amendment quarantining a 17th Amendment item; `United States v. Nixon` vs
 Quarantine is the point. An item whose standard moved out from under it is not a
 coverage number, and calling it one is how a bank ends up testing the wrong standards
 while every structural gate passes.
+
+## Forms
+
+`python3 tools/forms.py <form-id> --standards US.05 US.15 …`
+
+**Never a wildcard** — name the standards actually authored.
+
+The student form and the teacher key render from **one assembly with one
+deterministic choice ordering**, seeded from the item id and form id. A key
+letter therefore cannot drift between the two surfaces. The student surface is
+built by **omission at assembly time**, not by hiding anything at render time.
+
+Page numbering lives in the `@page` margin box. Rendering the same content with
+a fixed footer div was measured, and it freezes at **"Page 1 of 5" on every
+page** — the total is right and the counter is stuck. That is why
+`form-pagination` reads the rendered PDF rather than the template.
+
+Rendered with WeasyPrint; measured with pdfminer, glyph by glyph.
 
 ## Release gate — Grade A only
 
