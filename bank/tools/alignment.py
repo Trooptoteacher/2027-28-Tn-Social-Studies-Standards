@@ -286,3 +286,35 @@ def relevant_to(haystack: str, standard_text: str) -> list:
     hay = normalize_ordinals(haystack or "").lower()
     return [s for s in identifying_signals(standard_text)
             if normalize_ordinals(s).lower() in hay]
+
+
+def subject_text(item) -> str:
+    """THE text that says what an item is about. One definition, used everywhere.
+
+    Stem plus the KEY. Not the distractors: they are deliberately wrong content,
+    and a wrong choice mentioning "the Soviet Union" filed a Carter-era Panama
+    Canal Treaties item under Cold War superpower competition. 141 items were
+    relevant to a standard only through a distractor. This is L07 — the same
+    rule the re-home matcher already used — arriving at the relevance layer.
+
+    Not the key EXPLANATION either: that is authored, including by this system,
+    and content written to explain an item must never prove where it belongs
+    (L38).
+    """
+    parts = [item.get("stem") or ""]
+    key = item.get("correctAnswer")
+    for c in (item.get("choices") or []):
+        if isinstance(c, dict) and c.get("id") == key:
+            parts.append(c.get("text") or "")
+    return " ".join(parts)
+
+
+def identifiability(standard_text: str) -> int:
+    """How many DISTINCT signals identify this standard.
+
+    A standard identifiable by one coarse signal makes every relevance verdict
+    on it soft: US.25's only signal is "World War I", so an essay on American
+    imperialism 1890-1914 matched it. 19 of 94 standards sit below two signals,
+    and that is a stated limitation rather than something to paper over.
+    """
+    return len(set(identifying_signals(standard_text)))

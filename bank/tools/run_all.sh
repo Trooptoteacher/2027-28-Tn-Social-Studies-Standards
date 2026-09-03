@@ -30,6 +30,7 @@ stage "gates vs artifact"     python3 tools/run_gates.py
 # The pilot form is GREEN. Enforce it: a regression here means something that
 # was proven achievable stopped being achievable.
 stage "FORM-A (proven green)"  python3 tools/run_gates.py --form FORM-A
+stage "FORM-B (proven green)"  python3 tools/run_gates.py --form FORM-B
 
 printf '\n'
 if [ "$FAIL" -eq 0 ]; then

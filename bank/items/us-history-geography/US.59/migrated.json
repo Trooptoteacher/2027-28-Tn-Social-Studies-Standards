@@ -90,22 +90,22 @@
           "id": "A",
           "text": "Asian countries that cooperated on space technology with the Soviet program",
           "textEs": "Países asiáticos que cooperaron en tecnología espacial con el programa soviético",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The word 'satellite' here is political, not orbital — it describes a state held in another's orbit of control, and predates the space programme.",
+          "misconception": "reads 'satellite state' as a reference to spaceflight"
         },
         {
           "id": "B",
           "text": "Independent nations that voluntarily formed economic partnerships with the USSR",
           "textEs": "Naciones independientes que voluntariamente formaron asociaciones económicas con la URSS",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Participation was not voluntary. Soviet troops remained after 1945 and coalition governments were replaced by communist ones, as in Czechoslovakia in 1948.",
+          "misconception": "mistakes imposed control for voluntary partnership"
         },
         {
           "id": "C",
           "text": "Western European nations that received economic aid from the United States",
           "textEs": "Naciones de Europa Occidental que recibieron ayuda económica de Estados Unidos",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Nations receiving American aid were the Marshall Plan recipients in Western Europe — the opposite bloc.",
+          "misconception": "reverses which bloc the satellite states belonged to"
         },
         {
           "id": "D",
@@ -116,7 +116,7 @@
         }
       ],
       "dokLevel": 1,
-      "dokRationale": null,
+      "dokRationale": "The student recalls what a named term denoted. A single retrieved definition, which is DOK-1.",
       "standardCodes": [
         "US.59"
       ],
@@ -133,7 +133,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
@@ -149,9 +149,14 @@
           "elementsAddedToStandard": [
             "roles of the United Nations"
           ]
+        },
+        "authoring": {
+          "record": "form-b.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us59-add-1",
@@ -225,7 +230,7 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "q-us70-dok1-4",
@@ -447,7 +452,7 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "us-70-x020",
@@ -1039,7 +1044,7 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "us-62-f105",
@@ -1434,26 +1439,26 @@
           "id": "B",
           "text": "To establish free trade among Western nations",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "Free trade among Western nations came through separate economic instruments — the Marshall Plan and later the OEEC. NATO's founding treaty is a mutual-defence pact.",
+          "misconception": "confuses NATO's military purpose with postwar economic cooperation"
         },
         {
           "id": "C",
           "text": "To create a unified European government",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "No political union was created. Each member kept full sovereignty; NATO commits members to respond to an attack, not to govern jointly.",
+          "misconception": "reads a defensive alliance as a step toward European political union"
         },
         {
           "id": "D",
           "text": "To dismantle colonial empires in Asia and Africa",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "Several founding members were themselves colonial powers in 1949. Decolonisation was not a NATO aim and in places ran against member interests.",
+          "misconception": "attributes decolonisation aims to an alliance of colonial powers"
         }
       ],
       "dokLevel": 1,
-      "dokRationale": null,
+      "dokRationale": "The student recalls the stated purpose of a named treaty organisation. One retrieved fact, which is DOK-1; explaining why a peacetime alliance broke with American tradition would be DOK-2.",
       "standardCodes": [
         "US.59"
       ],
@@ -1470,7 +1475,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
@@ -1486,9 +1491,14 @@
           "elementsAddedToStandard": [
             "roles of the United Nations"
           ]
+        },
+        "authoring": {
+          "record": "form-b.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "us-48-x012",
@@ -1715,7 +1725,7 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "q-us62-dok2-4",
@@ -1863,7 +1873,7 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "us-59-q07",
@@ -2011,7 +2021,7 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "us-70-q05",
@@ -2381,7 +2391,7 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "us-65-q05",
@@ -2466,35 +2476,36 @@
       "choices": [
         {
           "id": "A",
-          "text": "They divided Europe into opposing military blocs aligned with either American capitalism or Soviet communism",
+          "text": "They split Europe into rival military blocs, one capitalist and one communist",
           "textEs": "Dividieron Europa en bloques militares opuestos alineados con el capitalismo estadounidense o el comunismo soviético",
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "They divided Europe into opposing military blocs aligned with either American capitalism or Soviet communism"
         },
         {
           "id": "B",
           "text": "Both alliances were formed primarily for economic cooperation rather than military defense",
           "textEs": "Ambas alianzas se formaron principalmente para la cooperación económica y no para la defensa militar",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Both were defence pacts. The economic instruments of the period were separate: the Marshall Plan on one side, COMECON on the other.",
+          "misconception": "confuses the military alliances with the parallel economic blocs"
         },
         {
           "id": "C",
           "text": "NATO and the Warsaw Pact were created jointly to prevent a third world war between smaller nations",
           "textEs": "La OTAN y el Pacto de Varsovia fueron creados conjuntamente para evitar una tercera guerra mundial entre naciones más pequeñas",
-          "explanation": null,
-          "misconception": null
+          "explanation": "They were not created jointly and not at the same time. NATO came in 1949 and the Warsaw Pact in 1955, formed in response to it.",
+          "misconception": "treats two opposing alliances as a cooperative project"
         },
         {
           "id": "D",
           "text": "The alliances reflected agreement between superpowers on the need for collective disarmament",
           "textEs": "Las alianzas reflejaron el acuerdo entre las superpotencias sobre la necesidad del desarme colectivo",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Disarmament is the reverse of what followed. Both blocs expanded conventional and nuclear forces through the 1950s and 1960s.",
+          "misconception": "reads an arms build-up as an agreement to disarm"
         }
       ],
       "dokLevel": 2,
-      "dokRationale": null,
+      "dokRationale": "The student must read two alliance systems as expressions of an ideological contest — inferring a pattern from paired events, which is DOK-2.",
       "standardCodes": [
         "US.59"
       ],
@@ -2511,7 +2522,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
@@ -2527,9 +2538,14 @@
           "elementsAddedToStandard": [
             "roles of the United Nations"
           ]
+        },
+        "authoring": {
+          "record": "form-b-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "U10-DOK2-0026",
@@ -2603,7 +2619,7 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "us-49-q03",
@@ -2688,35 +2704,37 @@
       "choices": [
         {
           "id": "A",
-          "text": "The United States had always maintained military alliances with European nations",
+          "text": "The United States had long maintained peacetime military alliances in Europe",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "The opposite: Washington's Farewell Address warned against permanent alliances, and the United States had avoided them in peacetime for over 150 years.",
+          "misconception": "reverses the American tradition NATO broke with",
+          "_wasText": "The United States had always maintained military alliances with European nations"
         },
         {
           "id": "B",
           "text": "NATO was a temporary agreement that expired after five years",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "The treaty carried no expiry. It has been in continuous force since 1949 and has expanded well beyond its original members.",
+          "misconception": "invents a time limit the treaty does not contain"
         },
         {
           "id": "C",
           "text": "The alliance required no military commitment from the United States",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "Article 5 is precisely a military commitment: an attack on one is treated as an attack on all. That obligation is what made the treaty historically significant.",
+          "misconception": "empties the alliance of the mutual-defence obligation that defines it"
         },
         {
           "id": "D",
-          "text": "It was the first peacetime military alliance in American history, abandoning the tradition of avoiding entangling alliances established by George Washington",
+          "text": "It was the first peacetime military alliance in American history",
           "textEs": null,
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "It was the first peacetime military alliance in American history, abandoning the tradition of avoiding entangling alliances established by George Washington"
         }
       ],
       "dokLevel": 2,
-      "dokRationale": null,
+      "dokRationale": "The student must connect the fact of the treaty to what it broke with in American practice — a relationship between an event and a tradition, which is DOK-2. Naming the year or the members would be DOK-1.",
       "standardCodes": [
         "US.59"
       ],
@@ -2733,7 +2751,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
@@ -2749,9 +2767,14 @@
           "elementsAddedToStandard": [
             "roles of the United Nations"
           ]
+        },
+        "authoring": {
+          "record": "form-b-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us59-interpretation-1",
@@ -3343,7 +3366,7 @@
           ]
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "U7-DOK3-0002",
@@ -3654,7 +3677,7 @@
       "correctAnswer": "Strong responses should identify: (1) Nuclear weapons made direct conflict potentially civilization-ending (MAD), (2) Both sides had alliance systems that would trigger world war, (3) The UN provided diplomatic channels, (4) Economic interdependence created costs for direct conflict. The evaluation should note that while \"cold\" warfare avoided nuclear holocaust, it produced enormous suffering through proxy wars (Korea: 2.5M dead; Vietnam: 3M dead), coups, and arms races.",
       "choices": [],
       "dokLevel": 3,
-      "dokRationale": null,
+      "dokRationale": "The student must construct and defend an evaluation of why a conflict stayed 'cold', weighing several causes against evidence. Building and defending an argument is DOK-3.",
       "standardCodes": [
         "US.59"
       ],
@@ -3671,7 +3694,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
@@ -3687,9 +3710,14 @@
           "elementsAddedToStandard": [
             "roles of the United Nations"
           ]
+        },
+        "authoring": {
+          "record": "form-b.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us61-dok4-dbq-2",

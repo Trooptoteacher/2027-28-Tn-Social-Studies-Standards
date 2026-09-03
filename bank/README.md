@@ -251,7 +251,7 @@ It has already earned its place: it caught a refactor that silently deleted an
 invariant comment `run_gates.py` was cited for, and three ledger entries pointing at
 strings that did not exist.
 
-**43 lessons, 91 guards** — among them:
+**48 lessons, 104 guards** — among them:
 
 | | |
 |---|---|
@@ -269,6 +269,9 @@ strings that did not exist.
 | `L34` | a bank gate run over a form measured a distribution **no student ever sees** |
 | `L37` | an item aligned to *one* of its codes was printed under **another** of them |
 | `L38` | a rationale **this system authored** became the evidence an item was aligned |
+| `L45` | a **distractor** saying "the Soviet Union" filed a Carter-era item under the Cold War |
+| `L46` | the relevance gate re-implemented its matcher and the copy forgot to lowercase |
+| `L48` | 19 standards are identifiable by fewer than two signals — disclosed, not hidden |
 
 A lesson written down but not enforced is a promise. A lesson with a guard is a fact
 about the code.
@@ -277,7 +280,8 @@ about the code.
 
 `python3 tools/run_gates.py --form FORM-A`
 
-**FORM-A (US.46 · US.60 · US.23) passes every gate that applies to it** — 21 of 21
+**Two forms pass every gate that applies to them.** FORM-A (US.46 · US.60 · US.23) and
+FORM-B (US.59) — 21 of 21
 applicable, 1 N/A. It is the existence proof that Grade A is reachable, and the cost of
 getting there for one form of 18 items was:
 

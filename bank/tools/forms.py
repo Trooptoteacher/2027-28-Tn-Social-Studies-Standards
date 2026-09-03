@@ -163,8 +163,7 @@ def select(items, standards, blueprint):
     for it in items:
         if not itemio.aligned(it):
             continue
-        hay = " ".join([it.get("stem") or ""]
-                       + [c.get("text") or "" for c in itemio.choices(it)])
+        hay = alignment.subject_text(it)
         for c in (it.get("standardCodes") or []):
             t = stds.get(c, {}).get("text")
             if t and alignment.relevant_to(hay, t):

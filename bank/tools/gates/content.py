@@ -42,16 +42,9 @@ def _allowed():
 
 
 def _haystack(item):
-    """STUDENT-VISIBLE text only: the stem and the choices.
-
-    The key explanation is teacher-side and is AUTHORED — including by this
-    system. A rationale written for a Hoover-era RFC item mentioned "the New
-    Deal's direct relief" in passing, and that alone made the item look aligned
-    to the New Deal standard it was mis-filed under. Content written to explain
-    an item must never be what proves the item belongs somewhere.
-    """
-    return " ".join([item.get("stem") or ""]
-                    + [c.get("text") or "" for c in itemio.choices(item)]).lower()
+    """Delegates to alignment.subject_text — one definition of what an item is
+    about, shared by the gate, the form builder and the readiness report."""
+    return alignment.subject_text(item)
 
 
 def relevance_scan(items, binding):
@@ -76,9 +69,11 @@ def relevance_scan(items, binding):
         judged += 1
         if it.get("id") in allow:
             continue
-        hay = alignment.normalize_ordinals(_haystack(it))
-        if not any(alignment.normalize_ordinals(sig).lower() in hay
-                   for sigs in sigsets.values() for sig in sigs):
+        # Call the ONE matcher. This re-implemented it and its copy forgot to
+        # lowercase the haystack, so a proper-noun signal could never match —
+        # L22 a fourth time. A rule with two implementations has two behaviours.
+        hay = alignment.subject_text(it)
+        if not any(alignment.relevant_to(hay, stds[c]["text"]) for c in codes):
             flagged.append((it, codes, sigsets))
     return judged, flagged
 

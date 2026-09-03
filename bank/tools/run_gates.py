@@ -122,7 +122,12 @@ def collect_form(b, form_id):
              if os.path.exists(man) else None)
     results.append(coverage.gate_form_blueprint(rendered, b, standards=decl, tiers=tiers))
     results.append(coverage.gate_form_key_position(rendered, b))
-    results.append(coverage.gate_form_standard_relevance(rendered, b, standards=decl))
+    # Measured on the SOURCE items, not the rendered student surface. That
+    # surface strips the key by design, and an item whose identifying signal
+    # lives in its correct answer then reads as naming nothing — the Marshall
+    # Plan item asks about "Marshall's speech" and names the Plan only in its
+    # key. Relevance is a property of the ITEM, not of the printed page.
+    results.append(coverage.gate_form_standard_relevance(sel, b, standards=decl))
     results.append(coverage.unmeasured_gates(results))
     return sel, results
 

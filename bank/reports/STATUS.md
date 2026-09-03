@@ -10,13 +10,13 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 | Gate | Result | Scanned | Judged | Findings |
 |---|---|---|---|---|
-| `record-complete` | **FAIL** | 3986 | — | 3849 |
+| `record-complete` | **FAIL** | 3986 | — | 3844 |
 | `binding` | **PASS** | 3986 | — | 0 |
 | `key-integrity` | **PASS** | 3986 | — | 0 |
-| `distractor-coverage` | **FAIL** | 3986 | 3844 | 22968 |
+| `distractor-coverage` | **FAIL** | 3986 | 3844 | 22944 |
 | `truncation` | **FAIL** | 3986 | — | 91 |
-| `blueprint-conformance` | **FAIL** | 2029 | — | 25 |
-| `blueprint-achievability` | **FAIL** | 2029 | 94 | 37 |
+| `blueprint-conformance` | **FAIL** | 1890 | — | 25 |
+| `blueprint-achievability` | **FAIL** | 1890 | 94 | 39 |
 | `key-position-debias` | **PASS** | 3821 | — | 0 |
 | `serveability` | **FAIL** | 3956 | — | 998 |
 | `reporting-category-provenance` | **PASS** | 3986 | — | 0 |
@@ -27,7 +27,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `translation-claim` | **PASS** | 3986 | 3471 | 0 |
 | `explanation-quality` | **FAIL** | 3986 | 3956 | 918 |
 | `embedded-answer-key` | **PASS** | 3986 | 3956 | 0 |
-| `review-provenance` | **PASS** | 3986 | 19 | 0 |
+| `review-provenance` | **PASS** | 3986 | 24 | 0 |
 | `release-readiness` | **FAIL** | 3956 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 17 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 49816 | 0 |
@@ -35,14 +35,20 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `FORM-A/form-disclosure` | **PASS** | 2 | 2 | 0 |
 | `FORM-A/teacher-side-isolation` | **PASS** | 18 | 18 | 0 |
 | `FORM-A/form-blueprint` | **FAIL** | 18 | 3 | 3 |
-| `all-gates-measured` | **PASS** | 25 | — | 0 |
+| `FORM-B/form-pagination` | **PASS** | 2 | 6 | 0 |
+| `FORM-B/form-type-size` | **PASS** | 2 | 15653 | 0 |
+| `FORM-B/form-key-leakage` | **PASS** | 1 | 2 | 0 |
+| `FORM-B/form-disclosure` | **PASS** | 2 | 2 | 0 |
+| `FORM-B/teacher-side-isolation` | **PASS** | 6 | 6 | 0 |
+| `FORM-B/form-blueprint` | **FAIL** | 6 | 1 | 1 |
+| `all-gates-measured` | **PASS** | 31 | — | 0 |
 
-**16/26 pass.** Grade A requires all of them. "Close" is not "A."
+**21/32 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
 - Source: **5,045** items from the 2026-27 `history-hack-web-app` bank
-- Servable: **3956** (3421 migrated, 516 provisional)
+- Servable: **3956** (3416 migrated, 516 provisional)
 - Quarantined (not servable, not coverage): **1059**
   - 929 — standard retired / no 2027-28 home
   - 130 — tests an element the 2027-28 standard dropped
@@ -52,13 +58,14 @@ BINDING — course: United States History and Geography (us-history-geography) �
 ## Forms
 
 - **FORM-A** — 18 items across 3 standard(s): US.46, US.60, US.23
+- **FORM-B** — 6 items across 1 standard(s): US.59
 
 ## Authoring debt
 
 | Gap | Count |
 |---|---|
-| distractor rationales absent | 11415 |
-| items with no dokRationale | 3687 |
+| distractor rationales absent | 11403 |
+| items with no dokRationale | 3682 |
 | items with no stemEs | 513 |
 | items with no explanationEs | 485 |
 | standards with no reporting-category source | 94 |

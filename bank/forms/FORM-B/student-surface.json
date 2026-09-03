@@ -1,0 +1,432 @@
+{
+  "formId": "FORM-B",
+  "items": [
+    {
+      "id": "PSTIM-0166",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the signing ceremony for the North Atlantic Treaty on April 4, 1949. The treaty created the North Atlantic Treaty Organization (NATO), a mutual defense alliance between the United States, Canada, and ten Western European nations.\n\n(Photograph, April 4, 1949. Public Domain.)\n\nWhat was the PRIMARY purpose of the alliance created by the treaty shown being signed in this photograph?",
+      "stemEs": "¿Cuál era el propósito PRINCIPAL de la alianza creada por el tratado mostrado?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To establish free trade among Western nations",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To create a unified European government",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To dismantle colonial empires in Asia and Africa",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To provide collective defense against Soviet aggression in Europe",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.59"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -1.2,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.59"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.59->US.59: standard ADDED ['roles of the United Nations'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "roles of the United Nations"
+          ]
+        },
+        "authoring": {
+          "record": "form-b.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "q-us59-dok1-4",
+      "stem": "What was the satellite state system in Eastern Europe?",
+      "stemEs": "¿Qué fue el sistema de estados satélites en Europa Oriental?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eastern European countries controlled by the Soviet Union after World War II",
+          "textEs": "Países de Europa Oriental controlados por la Unión Soviética después de la Segunda Guerra Mundial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Independent nations that voluntarily formed economic partnerships with the USSR",
+          "textEs": "Naciones independientes que voluntariamente formaron asociaciones económicas con la URSS",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Asian countries that cooperated on space technology with the Soviet program",
+          "textEs": "Países asiáticos que cooperaron en tecnología espacial con el programa soviético",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Western European nations that received economic aid from the United States",
+          "textEs": "Naciones de Europa Occidental que recibieron ayuda económica de Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.59"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.48,
+        "b": -1.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.59"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.59->US.59: standard ADDED ['roles of the United Nations'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "roles of the United Nations"
+          ]
+        },
+        "authoring": {
+          "record": "form-b.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "PSTIM-0167",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the NATO treaty signing, April 4, 1949.\n\n(Photograph, 1949. Public Domain.)\n\nHow did the creation of NATO, shown in this photograph, represent a departure from traditional American foreign policy?",
+      "stemEs": "¿Cómo representó la creación de la OTAN una ruptura con la política exterior tradicional estadounidense?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NATO was a temporary agreement that expired after five years",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was the first peacetime military alliance in American history",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The alliance required no military commitment from the United States",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The United States had long maintained peacetime military alliances in Europe",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.59"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.59"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.59->US.59: standard ADDED ['roles of the United Nations'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "roles of the United Nations"
+          ]
+        },
+        "authoring": {
+          "record": "form-b-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "U7-DOK2-0005",
+      "stem": "How did the formation of NATO and the Warsaw Pact reflect the ideological competition between the United States and the Soviet Union during the Cold War?",
+      "stemEs": "¿Cómo reflejó la formación de la OTAN y el Pacto de Varsovia la competencia ideológica entre Estados Unidos y la Unión Soviética durante la Guerra Fría?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The alliances reflected agreement between superpowers on the need for collective disarmament",
+          "textEs": "Las alianzas reflejaron el acuerdo entre las superpotencias sobre la necesidad del desarme colectivo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both alliances were formed primarily for economic cooperation rather than military defense",
+          "textEs": "Ambas alianzas se formaron principalmente para la cooperación económica y no para la defensa militar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They split Europe into rival military blocs, one capitalist and one communist",
+          "textEs": "Dividieron Europa en bloques militares opuestos alineados con el capitalismo estadounidense o el comunismo soviético",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "NATO and the Warsaw Pact were created jointly to prevent a third world war between smaller nations",
+          "textEs": "La OTAN y el Pacto de Varsovia fueron creados conjuntamente para evitar una tercera guerra mundial entre naciones más pequeñas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.59"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.59"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.59->US.59: standard ADDED ['roles of the United Nations'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "roles of the United Nations"
+          ]
+        },
+        "authoring": {
+          "record": "form-b-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "q-us6-dok4-cr1",
+      "stem": "The Cold War was fought through proxies, propaganda, espionage, and economic competition rather than direct military conflict between the U.S. and Soviet Union. Analyze WHY the Cold War took this form by examining at least THREE factors that prevented direct conflict. Then evaluate whether this \"cold\" form of warfare was more or less dangerous than traditional warfare.",
+      "stemEs": "La Guerra Fría se libró a través de intermediarios, propaganda, espionaje y competencia económica. Analice POR QUÉ la Guerra Fría tomó esta forma.",
+      "itemType": "constructed-response",
+      "choices": [],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.59"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.82,
+        "b": 0.63,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.59"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.59->US.59: standard ADDED ['roles of the United Nations'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "roles of the United Nations"
+          ]
+        },
+        "authoring": {
+          "record": "form-b.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": null
+    },
+    {
+      "id": "q-us61-dok4-dbq-2",
+      "stem": "DOCUMENT-BASED QUESTION: The Marshall Plan — Economic Aid as Cold War Strategy\n\nDirections: Read the following two primary source excerpts and then respond to the prompt below. Analyze both documents using the SOAPS framework (Speaker, Occasion, Audience, Purpose, Significance) and construct an evidence-based argument.\n\n---\nDOCUMENT A: Secretary of State George C. Marshall, Commencement Address at Harvard University, June 5, 1947 — U.S. government document, available through the Avalon Project, Yale Law School:\n\"It is logical that the United States should do whatever it is able to do to assist in the return of normal economic health in the world, without which there can be no political stability and no assured peace. Our policy is directed not against any country or doctrine but against hunger, poverty, desperation, and chaos. Any government that is willing to assist in the task of recovery will find full co-operation... on the part of the United States Government. Any government which maneuvers to block the recovery of other countries cannot expect help from us.\"\n\nDOCUMENT B: Soviet Foreign Minister Vyacheslav Molotov, Statement rejecting the Marshall Plan, Paris Conference, July 2, 1947 — diplomatic record, available through the Avalon Project, Yale Law School:\n\"The American plan splits Europe into two groups of states and creates new difficulties in the relations between them... The Marshall plan, which envisages for American credits various conditions infringing on the sovereignty of European countries and interfering in their home affairs... will lead to nothing but a further aggravation of relations between countries.\"\n\n---\nUsing both documents and your knowledge of Cold War economic competition (US.61, US.59), construct an argument that evaluates the Marshall Plan as a Cold War strategic instrument. Apply SOAPS analysis to both documents and address: (1) whether Marshall's stated humanitarian purpose was consistent with the Plan's actual geopolitical effects; (2) why the Soviet Union rejected the Plan and whether that rejection was strategically rational; and (3) what the exchange between these two documents reveals about the fundamental incompatibility that defined the early Cold War.",
+      "stemEs": "PREGUNTA BASADA EN DOCUMENTOS: El Plan Marshall — Ayuda Económica como Estrategia de la Guerra Fría\n\nInstrucciones: Lee los siguientes dos fragmentos de fuentes primarias y responde al indicador a continuación. Analiza ambos documentos usando el marco SOAPS (Orador, Ocasión, Audiencia, Propósito, Significado).\n\nDOCUMENTO A: Secretario de Estado George C. Marshall, Discurso de Graduación en la Universidad de Harvard, 5 de junio de 1947.\n\"Es lógico que los Estados Unidos hagan todo lo que puedan para ayudar al retorno de la salud económica normal en el mundo, sin la cual no puede haber estabilidad política ni paz asegurada...\"\n\nDOCUMENTO B: Ministro de Relaciones Exteriores Soviético Vyacheslav Molotov, Declaración rechazando el Plan Marshall, Conferencia de París, 2 de julio de 1947.\n\"El plan americano divide a Europa en dos grupos de estados y crea nuevas dificultades en las relaciones entre ellos...\"\n\nUsando ambos documentos y tu conocimiento de la competencia económica de la Guerra Fría (US.61, US.59), construye un argumento que evalúe el Plan Marshall como instrumento estratégico de la Guerra Fría.",
+      "itemType": "document-based",
+      "choices": [],
+      "dokLevel": 4,
+      "standardCodes": [
+        "US.59",
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.44,
+        "b": 0.69,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.59",
+          "US.61"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.59->US.59: standard ADDED ['roles of the United Nations'] — coverage gap at the standard, not a defect in this item",
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "roles of the United Nations",
+            "House Un-American Activities Committee"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": null
+    }
+  ]
+}

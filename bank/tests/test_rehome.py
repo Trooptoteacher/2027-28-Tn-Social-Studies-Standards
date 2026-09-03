@@ -16,6 +16,8 @@ BANK = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(BANK, "tools"))
 sys.path.insert(0, HERE)
 
+import inspect
+
 import alignment
 import binding as binding_mod
 import fixtures
@@ -185,6 +187,56 @@ for mod in (form_readiness, fb):
           "alignment.relevant_to" in src)
     check(f"{mod.__name__} excludes the explanation from its haystack",
           'it.get("explanation")' not in src.split("relevant_to")[0][-400:])
+
+# ── one definition of what an item is ABOUT ─────────────────────────────
+print("\n  subject_text — stem plus the KEY, never the distractors")
+it = fixtures.item(id="SJ-1", stem="What did the Truman Doctrine commit the United States to?")
+it["choices"] = [
+    {"id": "A", "text": "Supporting free peoples resisting subjugation", "textEs": None,
+     "explanation": None, "misconception": None},
+    {"id": "B", "text": "An alliance with the Soviet Union", "textEs": None,
+     "explanation": "wrong", "misconception": "x"}]
+it["correctAnswer"] = "A"
+it["explanation"] = "This is the Marshall Plan's political companion."
+txt = alignment.subject_text(it)
+check("the stem is included", "Truman Doctrine" in txt)
+check("the KEY is included", "free peoples" in txt)
+check("a DISTRACTOR is excluded — it filed a Carter item under the Cold War",
+      "Soviet Union" not in txt, f"got {txt!r}")
+check("the authored explanation is excluded (L38)", "Marshall Plan" not in txt)
+
+check("the relevance gate uses the ONE matcher, not a copy",
+      "alignment.relevant_to" in inspect.getsource(content.relevance_scan),
+      "relevance_scan re-implemented the match and its copy forgot to lowercase")
+
+items_all = itemio.load_dir(REAL.output_dir)
+judged, flagged = content.relevance_scan(items_all, REAL)
+manual = sum(1 for i in items_all if itemio.servable(i)
+             and any(alignment.standard_signals(STDS[c]["text"]) for c in i["standardCodes"]
+                     if c in STDS)
+             and any(alignment.relevant_to(alignment.subject_text(i), STDS[c]["text"])
+                     for c in i["standardCodes"] if c in STDS))
+check("the gate agrees with a manual computation of the same rule",
+      judged - len(flagged) == manual, f"gate={judged-len(flagged)} manual={manual}")
+
+# ── relevance is a property of the ITEM, not the printed page ───────────
+print("\n  form relevance measures SOURCE items, not the stripped student surface")
+src = inspect.getsource(__import__("run_gates"))
+check("the form runner passes source items to form-standard-relevance",
+      "gate_form_standard_relevance(sel" in src,
+      "the student surface strips the key, so an item naming its standard only in "
+      "the key reads as naming nothing")
+
+# ── weakly identifiable standards are disclosed ────────────────────────
+print("\n  identifiability — a standard identifiable by one coarse signal")
+check("US.25 is weakly identifiable (its only signal is 'World War I')",
+      alignment.identifiability(STDS["US.25"]["text"]) < 2,
+      f"got {alignment.identifying_signals(STDS['US.25']['text'])}")
+check("a richly named standard is not",
+      alignment.identifiability(STDS["US.60"]["text"]) >= 2)
+import form_readiness as _fr2
+check("readiness reports identifiability per standard",
+      "weaklyIdentifiable" in inspect.getsource(_fr2))
 
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")

@@ -463,8 +463,7 @@ def gate_blueprint_achievability(items, binding=None) -> Result:
                       note="EMPTY SCAN after alignment filter")
     by_std = collections.defaultdict(list)
     for it in live:
-        hay = " ".join([it.get("stem") or ""]
-                       + [c.get("text") or "" for c in itemio.choices(it)])
+        hay = alignment.subject_text(it)
         for c in (it.get("standardCodes") or []):
             t = stds.get(c, {}).get("text")
             if t and alignment.relevant_to(hay, t):
@@ -512,8 +511,7 @@ def gate_form_standard_relevance(rendered_items, binding=None, standards=None) -
                  if c in stds and (declared is None or c in declared)]
         if not codes:
             continue
-        hay = " ".join([it.get("stem") or ""]
-                       + [c.get("text") or "" for c in itemio.choices(it)])
+        hay = alignment.subject_text(it)
         for c in codes:
             judged += 1
             if not alignment.relevant_to(hay, stds[c]["text"]):

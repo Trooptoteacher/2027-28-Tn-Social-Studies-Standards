@@ -87,8 +87,7 @@ def main():
     for it in items:
         if not itemio.aligned(it):
             continue
-        hay = " ".join([it.get("stem") or ""]
-                       + [c.get("text") or "" for c in itemio.choices(it)])
+        hay = alignment.subject_text(it)
         for c in (it.get("standardCodes") or []):
             t = stds.get(c, {}).get("text")
             if t and alignment.relevant_to(hay, t):
@@ -102,6 +101,8 @@ def main():
         c = cost(got) if buildable else collections.Counter()
         rows.append({"standard": code, "aligned": len(pool), "buildable": buildable,
                      "tier": tier["id"] if tier else "none",
+                     "identifyingSignals": alignment.identifiability(stds[code]["text"]),
+                     "weaklyIdentifiable": alignment.identifiability(stds[code]["text"]) < 2,
                      "dokCeiling": tier["dokCeiling"] if tier else None,
                      "distractorRationale": c["distractorRationale"],
                      "dokRationale": c["dokRationale"], "translation": c["translation"],

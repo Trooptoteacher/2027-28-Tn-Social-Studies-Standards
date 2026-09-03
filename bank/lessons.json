@@ -575,8 +575,8 @@
       "caughtBy": "the new form-standard-relevance gate failing a form already declared green",
       "guards": [
         {
-          "file": "tools/gates/content.py",
-          "contains": "STUDENT-VISIBLE text only"
+          "file": "tools/alignment.py",
+          "contains": "must never prove where it belongs"
         },
         {
           "file": "tests/test_rehome.py",
@@ -695,6 +695,70 @@
         {
           "file": "tests/test_regressions.py",
           "contains": "readiness reports the tier a pool can actually reach"
+        }
+      ]
+    },
+    {
+      "id": "L45",
+      "mistake": "Relevance evidence included the DISTRACTORS. A Carter-era Panama Canal Treaties item was filed under Cold War superpower competition because a WRONG choice mentioned 'the Soviet Union'. 141 items were relevant to a standard only through a distractor. This is L07 — the rule the re-home matcher had used since the beginning — finally arriving at the relevance layer. There is now ONE definition of what an item is about, alignment.subject_text: stem plus the key, never the distractors and never the authored explanation.",
+      "caughtBy": "reading the items a second form had selected, before authoring them",
+      "guards": [
+        {
+          "file": "tools/alignment.py",
+          "contains": "def subject_text"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "a DISTRACTOR is excluded"
+        }
+      ]
+    },
+    {
+      "id": "L46",
+      "mistake": "relevance_scan RE-IMPLEMENTED the matcher instead of calling alignment.relevant_to, and its copy forgot to lowercase the haystack — so a proper-noun signal could never match. L22 for the fourth time. Two implementations of one rule always end up with two behaviours; the divergence showed as 280 evidenced items against 1,692 by manual computation.",
+      "caughtBy": "a backfill number that was far too large a drop to be explained by the change made",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "Call the ONE matcher"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "the gate agrees with a manual computation"
+        }
+      ]
+    },
+    {
+      "id": "L47",
+      "mistake": "form-standard-relevance was measured on the RENDERED student surface, which strips the key by design. An item asking about 'Marshall's speech' names the Marshall Plan only in its correct answer, so it read as naming nothing and a green form went red for a reason that was an artefact of the measurement. Relevance is a property of the ITEM, not of the printed page — the inverse of L34, where a bank gate was wrongly run over a rendered form.",
+      "caughtBy": "a regression on a form that had been green through three previous tightenings",
+      "guards": [
+        {
+          "file": "tools/run_gates.py",
+          "contains": "Relevance is a property of the ITEM"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "the form runner passes source items"
+        }
+      ]
+    },
+    {
+      "id": "L48",
+      "mistake": "19 of 94 standards are identifiable by fewer than two signals, and 9 by none. US.25's only signal is 'World War I', so an extended-response essay on American imperialism 1890-1914 matched it and would have printed under 'causes of World War I'. A relevance verdict on such a standard is soft, and that is a disclosed limitation rather than something to hide behind a green gate — the readiness report now carries identifyingSignals and weaklyIdentifiable per standard.",
+      "caughtBy": "reading a selected item and disagreeing with the match that admitted it",
+      "guards": [
+        {
+          "file": "tools/alignment.py",
+          "contains": "def identifiability"
+        },
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "weaklyIdentifiable"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "US.25 is weakly identifiable"
         }
       ]
     }
