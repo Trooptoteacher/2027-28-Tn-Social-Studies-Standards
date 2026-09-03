@@ -27,14 +27,18 @@ def main():
         items = itemio.load_dir(root)
         if not items:
             print(f"EMPTY SCAN — nothing under {root}"); continue
-        judged, flagged = content.relevance_scan(items, b)
+        judged, flagged, _ = content.relevance_scan(items, b)
         flagged_ids = {i["id"] for i, _, _ in flagged}
         judged_ids = set()
         stds = b.standards()
         import alignment as al
         for it in items:
             codes = [c for c in (it.get("standardCodes") or []) if c in stds]
-            if any(al.standard_signals(stds[c]["text"]) for c in codes):
+            # judgeable_signals is what relevance_scan actually judges on. This
+            # asked standard_signals — a THIRD definition, looser than both — so
+            # an item could be marked judged here and skipped there. One rule,
+            # one implementation (L22).
+            if any(al.judgeable_signals(stds[c]["text"]) for c in codes):
                 judged_ids.add(it["id"])
 
         counts = collections.Counter()
@@ -44,6 +48,13 @@ def main():
                 doc = json.load(fh)
             for rec in doc.get("items", []):
                 rid = rec.get("id")
+                # A human verification is a RECORDED FACT about work someone
+                # did. A recompute must never erase it — this loop wrote every
+                # status unconditionally, so the next backfill after a review
+                # pass would have silently thrown that review away (L53).
+                if rec.get("alignmentStatus") == "human-verified":
+                    counts["human-verified"] += 1
+                    continue
                 if (rec.get("provenance") or {}).get("rehomed"):
                     st = "rehomed"
                 elif rid not in judged_ids:

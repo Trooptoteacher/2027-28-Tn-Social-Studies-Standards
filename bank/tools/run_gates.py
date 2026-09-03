@@ -32,6 +32,7 @@ GATES = [
     coverage.gate_serveability,
     coverage.gate_reporting_category,
     # Content gates: what the bank is ABOUT, not how it was made.
+    content.gate_signal_coverage,
     content.gate_standard_relevance,
     content.gate_choice_length_cue,
     content.gate_duplicate_stems,

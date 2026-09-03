@@ -54,7 +54,7 @@ def relevance_scan(items, binding):
     own gate results."""
     stds = binding.standards()
     allow = _allowed()
-    judged, flagged = 0, []
+    judged, flagged, unjudgeable = 0, [], []
     for it in items:
         if not itemio.servable(it):
             continue
@@ -63,8 +63,16 @@ def relevance_scan(items, binding):
         # words, and "Support for conservation" yielded "Support" — enough for a
         # constructed response on the 19th Amendment to claim Theodore
         # Roosevelt's standard. L10, reappearing in a second matcher.
-        sigsets = {c: alignment.identifying_signals(stds[c]["text"]) for c in codes}
-        if not any(sigsets.values()):
+        #
+        # judgeable_signals() adds TOPIC signals, because nine standards carry no
+        # proper noun at all and this loop used to `continue` past every item
+        # claiming one — 331 servable items judged by nobody, counted by nothing,
+        # and reported as "0 aligned" rather than "cannot be judged" (L51). They
+        # are counted now, and unjudgeable ones are RETURNED so the gate can fail
+        # on them instead of skipping them.
+        sigsets = {c: alignment.judgeable_signals(stds[c]["text"]) for c in codes}
+        if codes and not any(sigsets.values()):
+            unjudgeable.append(it)
             continue
         judged += 1
         if it.get("id") in allow:
@@ -75,7 +83,7 @@ def relevance_scan(items, binding):
         hay = alignment.subject_text(it)
         if not any(alignment.relevant_to(hay, stds[c]["text"]) for c in codes):
             flagged.append((it, codes, sigsets))
-    return judged, flagged
+    return judged, flagged, unjudgeable
 
 
 def gate_standard_relevance(items, binding=None) -> Result:
@@ -94,7 +102,7 @@ def gate_standard_relevance(items, binding=None) -> Result:
     name = "alignment-claim"
     if (r := empty_scan_guard(name, items)):
         return r
-    judged, flagged = relevance_scan(items, binding)
+    judged, flagged, unjudgeable = relevance_scan(items, binding)
     flagged_ids = {it["id"] for it, _, _ in flagged}
     allow = _allowed()
     findings, unverified = [], 0
@@ -120,9 +128,64 @@ def gate_standard_relevance(items, binding=None) -> Result:
                 findings.append(Finding(it.get("id", "?"),
                     "marked rehomed but carries no move evidence in provenance",
                     it.get("_file", "")))
+    # An item this system CANNOT judge must not vanish from the count. Skipping
+    # it read as a clean pass over a population nobody looked at (L51).
+    if unjudgeable:
+        codes = sorted({c for it in unjudgeable for c in (it.get("standardCodes") or [])})
+        findings.append(Finding("(unjudgeable)",
+            f"{len(unjudgeable)} servable item(s) claim standard(s) this system has no "
+            f"signal for, so their alignment cannot be judged either way: "
+            f"{', '.join(codes)} — see the signal-coverage gate", ""))
     return Result(name, not findings, len(items), findings, judged=judged,
                   note=(f"{unverified} item(s) honestly marked unverified — kept and usable, "
-                        f"not counted as coverage; {len(allow)} allowlisted"))
+                        f"not counted as coverage; {len(allow)} allowlisted; "
+                        f"{len(unjudgeable)} unjudgeable"))
+
+
+def gate_signal_coverage(items, binding=None) -> Result:
+    """Every standard must be JUDGEABLE — the matcher must have something to
+    match on.
+
+    This gate measures the standards file, not the items, because the defect it
+    catches exists before a single item is written: a standard whose sentence
+    carries no proper noun ("Describe working conditions in industries...",
+    "Analyze the increasing impact of television and mass media...") gave the
+    relevance matcher an EMPTY signal set. relevance_scan then skipped every
+    item claiming it — 331 servable items across 9 standards — without counting
+    them as judged or flagging anything. The readiness report showed those
+    standards at "0 aligned", which reads as "no items exist" and is a
+    different, much less alarming statement than "no item here can ever be
+    checked".
+
+    A gate green against nothing, per standard. It is the whole-gate defect of
+    L11/L15 one level down, and the `judged` counter could not see it because
+    the gate as a whole was judging 3,600 other items.
+    """
+    name = "signal-coverage"
+    stds = binding.standards() if binding else {}
+    if not stds:
+        return Result(name, False, 0, [Finding("(empty)",
+            "no standards to measure — a signal-coverage gate that scans zero "
+            "standards proves nothing", "")], judged=0)
+    claims = collections.Counter()
+    for it in items or []:
+        if itemio.servable(it):
+            for c in (it.get("standardCodes") or []):
+                claims[c] += 1
+    findings, weak = [], []
+    for code in sorted(stds):
+        sigs = set(alignment.judgeable_signals(stds[code]["text"]))
+        if not sigs:
+            findings.append(Finding(code,
+                f"no judgeable signal — nothing in this standard's sentence can identify "
+                f"an item as testing it, so every relevance verdict on it is vacuous "
+                f"({claims.get(code, 0)} servable item(s) claim it)", binding.standards_file))
+        elif len(sigs) == 1:
+            weak.append(code)
+    return Result(name, not findings, len(stds), findings, judged=len(stds),
+                  note=(f"{len(weak)} standard(s) identifiable by a single signal — every "
+                        f"verdict on them is soft, human judgement recommended: "
+                        f"{', '.join(weak)}" if weak else "every standard carries 2+ signals"))
 
 
 def gate_choice_length_cue(items, binding=None) -> Result:

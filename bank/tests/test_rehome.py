@@ -91,7 +91,7 @@ check("bullets do not merge into a phantom entity",
       f"got {alignment.named_entities(STDS['US.84']['text'])}")
 brown = fixtures.item(id="B-1", standardCodes=["US.74"],
                       stem="What was the long-term significance of Brown v. Board of Education?")
-_, flagged = content.relevance_scan([brown], REAL)
+_, flagged, _ = content.relevance_scan([brown], REAL)
 check("a correctly-filed Brown v. Board item is NOT flagged", not flagged,
       f"flagged {[f[0]['id'] for f in flagged]}")
 
@@ -99,7 +99,7 @@ check("a correctly-filed Brown v. Board item is NOT flagged", not flagged,
 print("\n  the gate and the triage tool share one definition")
 import itemio
 items = itemio.load_dir(REAL.output_dir)
-judged, flagged = content.relevance_scan(items, REAL)
+judged, flagged, _ = content.relevance_scan(items, REAL)
 r = content.gate_standard_relevance(items, REAL)
 flagged_ids = {i["id"] for i, _, _ in flagged}
 # The gate no longer fails on every flagged item — an item honestly marked
@@ -117,7 +117,7 @@ check("the same item marked unverified produces none — kept, not a defect",
           [dict(next(i for i, _, _ in flagged), alignmentStatus="unverified")],
           REAL).findings)
 check("relevance_scan on an empty bank flags nothing and judges nothing",
-      content.relevance_scan([], REAL) == (0, []))
+      content.relevance_scan([], REAL) == (0, [], []))
 
 # ── identifying signals: strong enough to say what an item is ABOUT ─────
 print("\n  identifying_signals — the relevance gate needs the same strictness as re-home")
@@ -210,9 +210,9 @@ check("the relevance gate uses the ONE matcher, not a copy",
       "relevance_scan re-implemented the match and its copy forgot to lowercase")
 
 items_all = itemio.load_dir(REAL.output_dir)
-judged, flagged = content.relevance_scan(items_all, REAL)
+judged, flagged, _ = content.relevance_scan(items_all, REAL)
 manual = sum(1 for i in items_all if itemio.servable(i)
-             and any(alignment.standard_signals(STDS[c]["text"]) for c in i["standardCodes"]
+             and any(alignment.judgeable_signals(STDS[c]["text"]) for c in i["standardCodes"]
                      if c in STDS)
              and any(alignment.relevant_to(alignment.subject_text(i), STDS[c]["text"])
                      for c in i["standardCodes"] if c in STDS))
@@ -229,9 +229,19 @@ check("the form runner passes source items to form-standard-relevance",
 
 # ── weakly identifiable standards are disclosed ────────────────────────
 print("\n  identifiability — a standard identifiable by one coarse signal")
-check("US.25 is weakly identifiable (its only signal is 'World War I')",
-      alignment.identifiability(STDS["US.25"]["text"]) < 2,
-      f"got {alignment.identifying_signals(STDS['US.25']['text'])}")
+# US.25 used to be the example here: its ONLY proper-noun signal is "World War
+# I", so an essay on 1890-1914 imperialism matched it. Topic signals gave it
+# real content terms, which is the improvement working — so the example moved
+# to a standard that is STILL weak. The principle under test is unchanged:
+# identifiability counts what the matcher can actually use, and a standard
+# below two signals is disclosed rather than papered over.
+check("US.65 is weakly identifiable (one signal: 'baby boomer generation')",
+      alignment.identifiability(STDS["US.65"]["text"]) < 2,
+      f"got {alignment.judgeable_signals(STDS['US.65']['text'])}")
+check("identifiability counts TOPIC signals too — it measured only proper nouns, "
+      "so nine standards scored zero and nothing said so",
+      alignment.identifiability(STDS["US.13"]["text"]) > 0,
+      f"got {alignment.judgeable_signals(STDS['US.13']['text'])}")
 check("a richly named standard is not",
       alignment.identifiability(STDS["US.60"]["text"]) >= 2)
 import form_readiness as _fr2

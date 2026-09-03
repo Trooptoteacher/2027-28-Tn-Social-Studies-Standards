@@ -745,7 +745,7 @@
     },
     {
       "id": "L48",
-      "mistake": "19 of 94 standards are identifiable by fewer than two signals, and 9 by none. US.25's only signal is 'World War I', so an extended-response essay on American imperialism 1890-1914 matched it and would have printed under 'causes of World War I'. A relevance verdict on such a standard is soft, and that is a disclosed limitation rather than something to hide behind a green gate — the readiness report now carries identifyingSignals and weaklyIdentifiable per standard.",
+      "mistake": "19 of 94 standards are identifiable by fewer than two signals, and 9 by none. US.25's only signal is 'World War I', so an extended-response essay on American imperialism 1890-1914 matched it and would have printed under 'causes of World War I'. A relevance verdict on such a standard is soft, and that is a disclosed limitation rather than something to hide behind a green gate — the readiness report now carries identifyingSignals and weaklyIdentifiable per standard. [2026-09-03: the '9 identifiable by none' half of this became L51/L52 — the count was recorded here and never acted on, and a limitation nothing enforces is a note, not a guard. US.25 itself is no longer weak; the proof moved to US.65, which still is.]",
       "caughtBy": "reading a selected item and disagreeing with the match that admitted it",
       "guards": [
         {
@@ -758,7 +758,7 @@
         },
         {
           "file": "tests/test_rehome.py",
-          "contains": "US.25 is weakly identifiable"
+          "contains": "is weakly identifiable"
         }
       ]
     },
@@ -793,6 +793,91 @@
         {
           "file": "tests/test_regressions.py",
           "contains": "generation is gated BEFORE admission"
+        }
+      ]
+    },
+    {
+      "id": "L51",
+      "mistake": "relevance_scan SKIPPED, silently and without counting, every item whose standard carried no identifying signal. Nine of the 94 standards have no proper noun in their sentence — US.13 'working conditions ... women and children as a labor source', US.69 'atomic testing / civil defense / mutual assured destruction', US.67 'television and mass media' — so 331 servable items claiming them were judged by nobody. The relevance gate read PASS over a population it never looked at, and the readiness report printed those standards at '0 aligned', which reads as 'no items exist' rather than 'no item here can ever be checked'. This is the whole-gate vacuous-pass defect of L11/L15 one level down, per standard, where the `judged` counter cannot see it because the gate is busy judging 3,600 other items. A gate green against nothing is the most dangerous result there is, and it reads exactly like a clean pass.",
+      "caughtBy": "asking why 19 standards showed zero aligned items, and finding that 9 of them had items — just no way to judge them",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_signal_coverage"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "unjudgeable.append(it)"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "cannot be judged either way"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "content.gate_signal_coverage"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a standard with NO judgeable signal FAILS the gate"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "is RETURNED as unjudgeable rather than dropped"
+        }
+      ]
+    },
+    {
+      "id": "L52",
+      "mistake": "The relevance matcher required a CAPITALISED NAME. That is right for 'Sherman Antitrust Act' and structurally blind to a third of the state's sentences, which are about common-noun content: working conditions, imperialists and non-imperialists, radio and movies, flappers and birth control, the baby boomer generation, mutual assured destruction. Those standards were not hard to match — they were impossible to match, and nothing in the system said so. topic_signals() reads the whole sentence (not just the 'including' checklist, which three of them do not have) and holds a higher sufficiency bar because a common noun is looser than a name: one multi-word phrase, or two distinct single words. Measured against 400 sampled items it claims FEWER standards per item than the proper-noun matcher already accepted (0.77 vs 1.22), so it is not a loosening — and every stoplist word in it was curated from measurement, not intuition ('civil' alone matched civil war, civil rights and civil defense indiscriminately).",
+      "caughtBy": "measuring identifying_signals() across all 94 standards instead of trusting it",
+      "guards": [
+        {
+          "file": "tools/alignment.py",
+          "contains": "def topic_signals"
+        },
+        {
+          "file": "tools/alignment.py",
+          "contains": "def topic_evidence"
+        },
+        {
+          "file": "tools/alignment.py",
+          "contains": "def judgeable_signals"
+        },
+        {
+          "file": "tools/alignment.py",
+          "contains": "hits or topic_evidence"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "ONE single word is NOT evidence"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a bare abstraction is never a topic signal"
+        }
+      ]
+    },
+    {
+      "id": "L53",
+      "mistake": "backfill_alignment.py wrote alignmentStatus UNCONDITIONALLY on every record, so the next run after a human review pass would have erased every 'human-verified' stamp — a recorded fact about work a person actually did, silently replaced by a recomputation. No item carried that status yet, which is the only reason it had not happened. The same tool also decided which items were 'judged' using standard_signals() — a THIRD definition, looser than the one relevance_scan judges on — so an item could be marked judged here and skipped there. L22's shape again: a rule with two implementations has two behaviours.",
+      "caughtBy": "reading backfill_alignment.py while changing what 'judgeable' means",
+      "guards": [
+        {
+          "file": "tools/backfill_alignment.py",
+          "contains": "== \"human-verified\""
+        },
+        {
+          "file": "tools/backfill_alignment.py",
+          "contains": "al.judgeable_signals"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "backfill preserves human-verified"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "backfill judges on the SAME signals"
         }
       ]
     }

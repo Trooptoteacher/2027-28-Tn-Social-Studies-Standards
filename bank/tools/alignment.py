@@ -281,11 +281,178 @@ def normalize_ordinals(text: str) -> str:
     return _ORDINAL_RX.sub(lambda m: _ORDINAL_WORDS[m.group(1).lower()], text or "")
 
 
-def relevant_to(haystack: str, standard_text: str) -> list:
-    """Which identifying signals of ONE standard this text carries."""
+
+
+# ---------------------------------------------------------------------------
+# TOPIC SIGNALS — the standards a proper noun cannot describe.
+#
+# identifying_signals() requires a capitalised name. Nine of the 94 standards
+# have none: US.13 is "working conditions ... women and children as a labor
+# source", US.69 is "atomic testing / civil defense / mutual assured
+# destruction / fallout shelters", US.67 is "television and mass media". For
+# those standards the matcher returned an EMPTY signal set, relevance_scan
+# skipped every item claiming them without counting it, and the readiness
+# report showed 0 aligned items where 351 items in fact claimed the standard.
+# Nothing anywhere said the standard was unjudgeable. That is a gate green
+# against nothing, in its per-standard shape (L51).
+#
+# A common noun is looser than a name, so the SUFFICIENCY BAR is higher: a
+# multi-word topic phrase matched verbatim is evidence on its own; a single
+# word is evidence only alongside a second one. Measured against 400 sampled
+# items, topic signals claim FEWER standards per item than the proper-noun
+# matcher already accepted (mean 0.77 vs 1.22), so this is not a loosening.
+# ---------------------------------------------------------------------------
+
+_TOPIC_STOP = {
+    "the", "a", "an", "and", "or", "of", "in", "on", "to", "for", "with", "its",
+    "their", "his", "her", "such", "as", "including", "by", "from", "that",
+    "which", "during", "at", "between", "among", "this", "these", "those",
+    "other", "more", "most", "new", "was", "were", "is", "are", "be", "been",
+    "who", "whose", "what", "how", "why", "surrounding", "regarding",
+    "concerning", "over", "about", "toward", "towards", "into", "through",
+    "against", "after", "before", "under", "within",
+    # VERBS BREAK A RUN — they are never part of a topic term. Held as merely
+    # "generic" they stayed INSIDE the run, so "movies played" became a
+    # two-word phrase no item would ever contain and "movies" was unreachable.
+    "describe", "explain", "analyze", "analyse", "compare", "contrast", "assess",
+    "examine", "summarize", "evaluate", "identify", "determine", "cite", "argue",
+    "justify", "synthesize", "trace", "discuss", "interpret", "integrate", "draw",
+    "use", "uses", "used", "using", "understand", "support", "include", "included",
+    "played", "made", "make", "given",
+}
+
+# Words that never say what a standard is ABOUT. Three families: the Bloom
+# verbs and analytic scaffolding a standard opens with; the contentless
+# abstractions every standard shares ("impact", "causes", "significance"); and
+# the bare category nouns _GENERIC already names ("amendment", "act", "war").
+# The last group is curated from MEASUREMENT, not intuition — each word here
+# was observed claiming items across unrelated standards. "civil" was the
+# worst: on its own it matched civil war, civil rights and civil defense items
+# indiscriminately, while "civil defense" and "civil rights act" are precise.
+_TOPIC_GENERIC = {
+    "impact", "impacts", "effect", "effects", "cause", "causes", "role", "roles",
+    "importance", "significance", "development", "developments", "growth",
+    "change", "changes", "result", "results", "response", "responses",
+    "influence", "contribution", "contributions", "reason", "reasons", "factor",
+    "factors", "event", "events", "period", "periods", "era", "eras", "time",
+    "times", "century", "centuries", "decade", "decades", "way", "ways", "point",
+    "points", "view", "views", "argument", "arguments", "idea", "ideas",
+    "philosophy", "philosophies", "advantage", "advantages", "disadvantage",
+    "disadvantages", "limitation", "limitations", "challenge", "challenges",
+    "advancement", "advancements", "emergence", "rise", "spread", "increase",
+    "increasing", "decline", "major", "various", "different", "desire", "advent",
+    "debate", "debates", "fear", "fears", "status", "conditions", "condition",
+    "group", "groups", "issue", "issues",
+    "american", "americans", "america", "united", "states", "nation", "nations",
+    "national", "country", "us", "government", "governments", "federal", "state",
+    "president", "presidents", "congress", "people", "society", "social",
+    "economy", "economic", "culture", "cultural", "political", "politics",
+    "home", "homes", "life", "lives", "world", "history", "late", "early",
+    "upon", "also",
+    "crisis", "program", "programs", "legislation", "reform", "reforms",
+    "system", "systems", "order", "orders", "policy", "policies", "movement",
+    "movements", "amendment", "amendments", "act", "acts", "treaty", "war",
+    "wars", "plan", "plans", "doctrine", "court", "courts", "case", "cases",
+    "decision", "decisions", "law", "laws", "bill", "bills", "agency", "agencies",
+    "civil", "action", "actions", "activity", "activities", "leader", "leaders",
+    "figure", "figures", "outcome", "outcomes", "struggle", "trajectory",
+    "geography", "geographic", "related", "spectrum", "broader", "significant",
+    "key", "access", "effort", "efforts", "eventual", "aspect", "aspects",
+    "feature", "features", "element", "elements", "example", "examples", "trend",
+    "trends", "pattern", "patterns", "form", "forms", "type", "types", "kind",
+    "kinds", "means", "method", "methods", "practice", "practices",
+}
+
+# Phrases that pass the word test and still identify nothing in a US History
+# bank, because every unit's items say them.
+_TOPIC_PHRASE_GENERIC = {
+    "american economy", "american society", "american home", "american homes",
+    "american people", "american culture", "american life", "world war",
+}
+
+_TOPIC_MIN_SINGLE = 5      # a whole run that is one word
+_TOPIC_MIN_CORE = 8        # a single word left after trimming leading generics
+
+
+def _topic_phrases(text: str) -> list:
+    """The standard cut into phrases. Unlike elements(), this reads the WHOLE
+    sentence — a standard with no "including" clause (US.22, US.65, US.67) has
+    no elements at all, and its topic lives in the main clause."""
+    t = _TCA.sub("", text or "")
+    t = re.sub(r"[•\n]", " ; ", t)
+    t = re.sub(r"\((?:e\.g\.|i\.e\.)[,:]?\s*", " ; ", t, flags=re.I).replace(")", " ; ")
+    first = re.match(r"\s*([A-Za-z]+)", t)
+    if first and first.group(1).lower() in VERB_TIER:
+        t = t[first.end(1):]
+    t = re.sub(r"\b(including|such as)\b:?", " ; ", t, flags=re.I)
+    return [p for p in re.split(r"[;,:]|\band\b|\bor\b", t) if p.strip()]
+
+
+def topic_signals(text: str) -> list:
+    """Common-noun phrases that say what a standard is about.
+
+    A run is a stretch of adjacent non-stopword words. Generic words stay
+    INSIDE a run — "popular culture" and "working conditions" are real terms
+    whose head noun is generic — but a run made only of generic words is
+    dropped. Leading generics are also offered trimmed, so "american
+    imperialism" additionally yields "imperialism".
+    """
+    out, seen = [], set()
+    for p in _topic_phrases(text):
+        words = re.findall(r"[A-Za-z'\u2019-]+", p.lower())
+        run = []
+        for w in words + [None]:
+            if w is not None and w not in _TOPIC_STOP and len(w) > 2:
+                run.append(w)
+                continue
+            if run and any(x not in _TOPIC_GENERIC for x in run):
+                core = list(run)
+                while core and core[0] in _TOPIC_GENERIC:
+                    core.pop(0)
+                for cand in ([run, core] if core != run else [run]):
+                    floor = _TOPIC_MIN_SINGLE if cand is run else _TOPIC_MIN_CORE
+                    if len(cand) >= 2 or (cand and len(cand[0]) >= floor):
+                        term = " ".join(cand)
+                        if term not in seen and term not in _TOPIC_PHRASE_GENERIC:
+                            seen.add(term)
+                            out.append(term)
+            run = []
+    return out
+
+
+def topic_evidence(haystack: str, standard_text: str) -> list:
+    """Topic terms of ONE standard this text carries, IF they meet the bar.
+
+    The bar is what keeps a common noun honest: one multi-word phrase, or two
+    distinct single words. One single word alone is not evidence — "radio" in
+    a Fireside Chats item must not claim the standard on popular culture.
+    """
     hay = normalize_ordinals(haystack or "").lower()
-    return [s for s in identifying_signals(standard_text)
+    hit = [t for t in topic_signals(standard_text) if t in hay]
+    return hit if (any(" " in t for t in hit) or len(hit) >= 2) else []
+
+
+def judgeable_signals(standard_text: str) -> list:
+    """Everything this system can use to decide relevance for a standard.
+
+    A standard with an EMPTY result cannot be judged at all, and that must be
+    reported rather than skipped (gate_signal_coverage).
+    """
+    return identifying_signals(standard_text) + topic_signals(standard_text)
+
+
+def relevant_to(haystack: str, standard_text: str) -> list:
+    """Which signals of ONE standard this text carries — the ONE matcher.
+
+    Proper-noun signals first; topic signals when the standard offers no name,
+    or the item uses the plain words rather than the formal one. Every caller
+    goes through here: re-deriving this rule is L22/L40/L46, and its copies
+    have disagreed with the original four separate times.
+    """
+    hay = normalize_ordinals(haystack or "").lower()
+    hits = [s for s in identifying_signals(standard_text)
             if normalize_ordinals(s).lower() in hay]
+    return hits or topic_evidence(haystack, standard_text)
 
 
 def subject_text(item) -> str:
@@ -317,4 +484,4 @@ def identifiability(standard_text: str) -> int:
     imperialism 1890-1914 matched it. 19 of 94 standards sit below two signals,
     and that is a stated limitation rather than something to paper over.
     """
-    return len(set(identifying_signals(standard_text)))
+    return len(set(judgeable_signals(standard_text)))

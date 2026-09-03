@@ -15,12 +15,13 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `key-integrity` | **PASS** | 3988 | — | 0 |
 | `distractor-coverage` | **FAIL** | 3988 | 3846 | 22944 |
 | `truncation` | **FAIL** | 3988 | — | 91 |
-| `blueprint-conformance` | **FAIL** | 1892 | — | 25 |
-| `blueprint-achievability` | **FAIL** | 1892 | 94 | 39 |
+| `blueprint-conformance` | **FAIL** | 2006 | — | 24 |
+| `blueprint-achievability` | **FAIL** | 2006 | 94 | 28 |
 | `key-position-debias` | **PASS** | 3823 | — | 0 |
 | `serveability` | **FAIL** | 3958 | — | 998 |
 | `reporting-category-provenance` | **PASS** | 3988 | — | 0 |
-| `alignment-claim` | **PASS** | 3988 | 3627 | 0 |
+| `signal-coverage` | **PASS** | 94 | 94 | 0 |
+| `alignment-claim` | **PASS** | 3988 | 3958 | 0 |
 | `choice-length-cue` | **FAIL** | 3988 | 3823 | 1 |
 | `duplicate-stems` | **PASS** | 3988 | 3958 | 0 |
 | `citation-integrity` | **PASS** | 3988 | 35 | 0 |
@@ -41,9 +42,9 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `FORM-B/form-disclosure` | **PASS** | 2 | 2 | 0 |
 | `FORM-B/teacher-side-isolation` | **PASS** | 6 | 6 | 0 |
 | `FORM-B/form-blueprint` | **FAIL** | 6 | 1 | 1 |
-| `all-gates-measured` | **PASS** | 31 | — | 0 |
+| `all-gates-measured` | **PASS** | 32 | — | 0 |
 
-**21/32 pass.** Grade A requires all of them. "Close" is not "A."
+**22/33 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 

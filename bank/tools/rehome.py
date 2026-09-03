@@ -146,7 +146,7 @@ def main():
         print("EMPTY SCAN — nothing to triage."); return 1
 
     from gates import content
-    _, flagged_rows = content.relevance_scan(items, b)
+    _, flagged_rows, _ = content.relevance_scan(items, b)
     flagged = [row[0] for row in flagged_rows]
     saved, stuck = [], []
     for it, codes, _ in flagged_rows:

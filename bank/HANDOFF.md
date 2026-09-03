@@ -109,11 +109,12 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
 
 ## 7. Known limits — not bugs
 
-- **19 standards are identifiable by fewer than two signals; 9 by none.** US.25's only
-  signal is "World War I", so an essay on American imperialism matched it. For these,
-  "is this item about this standard?" needs a teacher, not a matcher. Flagged in
-  `reports/form-readiness.csv` as `weaklyIdentifiable`.
-- **39 standards can fill no tier.** They need new items authored, not repairs.
+- **1 standard is identifiable by a single signal (US.65, "baby boomer generation").**
+  For it, "is this item about this standard?" needs a teacher, not a matcher. The
+  `signal-coverage` gate discloses it on every run; `reports/form-readiness.csv` carries
+  `identifyingSignals` and `weaklyIdentifiable` per standard.
+  *This line used to read "19 standards below two signals; 9 by none" — see §11.*
+- **28 standards can fill no tier.** They need new items authored, not repairs.
 - **No gate can check historical accuracy.** Every authored rationale is a claim. That is
   what `requiresHistorianReview` is for.
 
@@ -171,3 +172,61 @@ narrowed — from *the system measures the wrong thing* to *which text counts as
 but they did not stop. **Expect the next round to find something too.** That is the
 process working; it is also why forms are authored one at a time and reviewed as they go,
 rather than in a batch that would outrun your ability to check it.
+
+## 11. The nine standards nothing could judge (2026-09-03)
+
+The relevance matcher required a **capitalised name**. Nine of the 94 standards do not
+contain one — they are about common-noun content:
+
+> US.13 *working conditions ... women and children as a labor source* · US.21 *imperialism,
+> raw materials, yellow journalism* · US.22 *imperialists and non-imperialists* ·
+> US.31 *radio and movies ... popular culture* · US.33 *air travel, electricity* ·
+> US.36 *flappers, birth control, office jobs* · US.65 *the baby boomer generation* ·
+> US.67 *television and mass media* · US.69 *atomic testing, civil defense, mutual assured
+> destruction, fallout shelters*
+
+For those, `identifying_signals()` returned an **empty set**, and `relevance_scan` did the
+worst possible thing with it: `continue`. **331 servable items were skipped — not judged,
+not flagged, not counted.** The relevance gate reported PASS across 3,600 other items while
+never looking at these, and `form-readiness.csv` printed those standards at **0 aligned**,
+which reads as *"no items exist"* rather than *"no item here can ever be checked."* Two very
+different statements, and only one of them is true.
+
+This is the vacuous-pass defect (L11/L15) **one level down** — per standard, where the
+`judged` counter cannot see it. It is exactly what you named at the outset: *a gate green
+against nothing is the most dangerous result there is, and it reads exactly like a clean
+pass.*
+
+**What changed**
+
+1. **`signal-coverage`** — a new gate that measures the *standards file*, not the items, and
+   **fails** if any standard has nothing the matcher can match on. It discloses
+   single-signal standards in its note.
+2. **`relevance_scan` returns what it cannot judge** instead of dropping it, and the
+   relevance gate fails on those items rather than passing over them.
+3. **Topic signals** (`alignment.topic_signals`) — common-noun phrases read from the
+   *whole* sentence, because three of those standards have no "including" clause at all and
+   therefore no elements. A common noun is looser than a name, so the bar is higher: **one
+   multi-word phrase, or two distinct single words.** One word alone is never evidence —
+   "radio" in a Fireside Chats item must not claim the popular-culture standard.
+4. **`backfill_alignment` no longer overwrites `human-verified`.** It rewrote every status
+   unconditionally, so the first backfill after your review pass would have erased it. No
+   item carries that status yet, which is the only reason it had not already happened.
+
+**Measured, not asserted.** Topic signals claim **fewer** standards per item than the
+proper-noun matcher already accepted — 0.77 vs 1.22 across 400 sampled items — so this is
+not a loosening of the alignment bar. Every stoplist word in it was curated from what was
+observed leaking, not from intuition: `civil` alone matched civil war, civil rights and
+civil defense indiscriminately, while `civil defense` and `civil rights act` are precise.
+
+**Result, with nothing new authored:**
+
+| | before | after |
+|---|---|---|
+| standards the matcher can judge | 85 / 94 | **94 / 94** |
+| items silently skipped | 331 | **0** |
+| aligned items | 1,890 | **2,036** |
+| standards that can fill a form tier | 55 | **66** |
+| bank gates passing | 21 / 32 | **22 / 33** |
+
+Recorded as **L51, L52, L53** with 14 guards. Both forms remain green (24/24).

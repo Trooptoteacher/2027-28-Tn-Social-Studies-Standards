@@ -9,6 +9,7 @@ proofs assert that exemption is reported rather than silently passed.
 from __future__ import annotations
 
 import copy
+import inspect
 import json
 import os
 import sys
@@ -99,11 +100,16 @@ r = content.gate_standard_relevance(
 check("a standard naming its subject in the STEM is judged, and a matching item passes",
       r.passed and r.judged == 1, f"status={r.status!r} judged={r.judged}")
 
-# A standard that names nothing cannot be judged at all.
-no_sig = [A(on_std("Anything at all.", code="US.22", id=f"N-{n}"), "not-applicable")
+# US.22 — "Compare and contrast the arguments of imperialists and
+# non-imperialists" — was the example of a standard that could not be judged at
+# all, because it carries no proper noun. That exemption was the defect (L51):
+# the gate skipped every item claiming it, silently. It is judgeable now, and
+# an unjudgeable standard FAILS rather than being quietly exempted (proved
+# against a fixture binding further down).
+no_sig = [A(on_std("Anything at all.", code="US.22", id=f"N-{n}"), "unverified")
           for n in range(4)]
 r = content.gate_standard_relevance(no_sig, REAL_B)
-check("a standard that names NOTHING is NOT MEASURED, not passed", not r.measured,
+check("a standard with no proper noun is JUDGED, not exempted", r.measured and r.judged == 4,
       f"status={r.status!r} judged={r.judged}")
 
 # Coverage must not count what alignment has not established.
@@ -339,6 +345,83 @@ check("the finding says authored claims are never silently settled",
 check("an unauthored item is not judged",
       content.gate_review_provenance([A(on_std(ON, id="U-1"), "evidenced")], REAL_B).judged == 0)
 check("EMPTY scan FAILS", not content.gate_review_provenance([], REAL_B).passed)
+
+# ── signal coverage: a standard the matcher cannot judge at all ─────────
+print("\n  signal-coverage — a gate green against nothing, one level down")
+import alignment as _al
+
+NO_NOUN = "Describe working conditions in industries during this era, including the use of women and children as a labor source."
+check("a standard with no proper noun yields NO identifying signal",
+      not _al.identifying_signals(NO_NOUN))
+check("...but DOES yield topic signals, so it is judgeable",
+      "working conditions" in _al.topic_signals(NO_NOUN),
+      f"got {_al.topic_signals(NO_NOUN)}")
+check("a multi-word topic phrase is evidence on its own",
+      _al.topic_evidence("Why were working conditions in 1890s factories so dangerous?", NO_NOUN))
+check("ONE single word is NOT evidence — 'radio' in a Fireside Chats item must "
+      "not claim the standard on popular culture",
+      not _al.topic_evidence("President Roosevelt used the radio to reassure depositors.",
+                             "Describe the growth and effects that radio and movies played in "
+                             "the emergence of popular culture, such as advertising, "
+                             "celebrities, news, and entertainment."))
+check("TWO single words are",
+      _al.topic_evidence("How did radio and movies reach a national audience in the 1920s?",
+                         "Describe the growth and effects that radio and movies played in "
+                         "the emergence of popular culture, such as advertising, "
+                         "celebrities, news, and entertainment."))
+check("a bare abstraction is never a topic signal ('civil' matched civil war, "
+      "civil rights and civil defense alike)",
+      "civil" not in _al.topic_signals(
+          "Analyze the civil rights movement and the Civil Rights Act of 1964."),
+      f"got {_al.topic_signals('Analyze the civil rights movement and the Civil Rights Act of 1964.')}")
+
+check("every standard in the real file is judgeable",
+      content.gate_signal_coverage(
+          [A(on_std(ON, id="S-1"), "evidenced")], REAL_B).passed)
+check("the gate DISCLOSES standards identifiable by a single signal",
+      "single signal" in content.gate_signal_coverage(
+          [A(on_std(ON, id="S-1"), "evidenced")], REAL_B).note)
+
+
+class _Unjudgeable:
+    """A binding whose standards file carries a sentence nothing can match."""
+    standards_file = "(fixture)"
+
+    def standards(self):
+        return {"US.99": {"code": "US.99", "text": "Explain the impact of the era."}}
+
+
+UB = _Unjudgeable()
+r = content.gate_signal_coverage([A(on_std(ON, id="S-2", code="US.99"), "evidenced")], UB)
+check("a standard with NO judgeable signal FAILS the gate", not r.passed)
+check("the finding names the standard and how many items claim it",
+      any("US.99" in str(f) and "1 servable item" in str(f) for f in r.findings),
+      f"got {[str(f) for f in r.findings]}")
+check("EMPTY standards scan FAILS — a signal-coverage gate over zero standards "
+      "proves nothing", not content.gate_signal_coverage([], None).passed)
+
+print("\n  relevance_scan reports what it cannot judge instead of skipping it")
+judged, flagged, unj = content.relevance_scan(
+    [A(on_std(ON, id="S-3", code="US.99"), "evidenced")], UB)
+check("an item on an unjudgeable standard is NOT counted as judged", judged == 0)
+check("...and is RETURNED as unjudgeable rather than dropped", len(unj) == 1)
+r = content.gate_standard_relevance([A(on_std(ON, id="S-4", code="US.99"), "evidenced")], UB)
+check("the relevance gate FAILS rather than passing over items nobody judged",
+      not r.passed)
+check("the finding says the alignment cannot be judged either way",
+      any("cannot be judged either way" in str(f) for f in r.findings))
+check("the note states the unjudgeable count", "unjudgeable" in r.note)
+
+print("\n  a recorded human verification survives a recompute")
+import backfill_alignment as _bf
+check("backfill preserves human-verified instead of recomputing over it",
+      'alignmentStatus") == "human-verified"' in inspect.getsource(_bf),
+      "a review pass would be erased by the next backfill")
+_bfsrc = inspect.getsource(_bf)
+check("backfill judges on the SAME signals relevance_scan judges on",
+      "al.judgeable_signals(" in _bfsrc and "al.standard_signals(" not in _bfsrc,
+      "a third definition of 'judged' marks items the scan then skips")
+
 
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
