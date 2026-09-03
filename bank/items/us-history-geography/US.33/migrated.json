@@ -389,7 +389,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.33"
+        "US.38"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -404,7 +404,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
@@ -416,7 +416,17 @@
         "crosswalkReasons": [
           "US.31->US.33: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.33"
+          ],
+          "to": "US.38",
+          "matchedElements": [
+            "Scopes Trial"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -527,7 +537,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.33"
+        "US.38"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -542,7 +552,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
@@ -554,7 +564,19 @@
         "crosswalkReasons": [
           "US.31->US.33: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.33"
+          ],
+          "to": "US.38",
+          "matchedElements": [
+            "John Scopes",
+            "Scopes Trial",
+            "John Scopes"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

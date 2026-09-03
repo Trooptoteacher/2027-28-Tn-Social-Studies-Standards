@@ -1424,7 +1424,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.32"
+        "US.28"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1439,7 +1439,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
@@ -1451,7 +1451,19 @@
         "crosswalkReasons": [
           "US.30->US.32: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.32"
+          ],
+          "to": "US.28",
+          "matchedElements": [
+            "Committee on Public Information",
+            "World War I",
+            "Public Information"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

@@ -3023,7 +3023,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.63"
+        "US.78"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3038,7 +3038,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
@@ -3054,6 +3054,18 @@
           "elementsAddedToStandard": [
             "House Un-American Activities Committee"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.63"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Civil Rights Act of 1964",
+            "Civil Rights Act of 1968",
+            "Civil Rights Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     }

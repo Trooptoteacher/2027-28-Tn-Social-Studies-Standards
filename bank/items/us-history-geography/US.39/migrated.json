@@ -3402,7 +3402,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.39"
+        "US.56"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3417,7 +3417,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
@@ -3433,6 +3433,17 @@
           "elementsAddedToStandard": [
             "eventual repeal with the 21st Amendment"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.39"
+          ],
+          "to": "US.56",
+          "matchedElements": [
+            "explain President Truman's rationale for using the atomic bomb to end the war",
+            "President Truman's"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -4176,7 +4187,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.39"
+        "US.56"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -4191,7 +4202,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
@@ -4207,6 +4218,17 @@
           "elementsAddedToStandard": [
             "eventual repeal with the 21st Amendment"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.39"
+          ],
+          "to": "US.56",
+          "matchedElements": [
+            "explain President Truman's rationale for using the atomic bomb to end the war",
+            "President Truman's"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -4395,7 +4417,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.39"
+        "US.38"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -4410,7 +4432,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
@@ -4426,6 +4448,16 @@
           "elementsAddedToStandard": [
             "eventual repeal with the 21st Amendment"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.39"
+          ],
+          "to": "US.38",
+          "matchedElements": [
+            "Scopes Trial"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },

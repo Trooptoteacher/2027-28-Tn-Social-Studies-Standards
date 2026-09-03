@@ -2321,7 +2321,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.79"
+        "US.78"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2336,7 +2336,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
@@ -2348,7 +2348,18 @@
         "crosswalkReasons": [
           "US.82->US.79: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.79"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Fair Housing Act",
+            "Fair Housing Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3287,7 +3298,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.79"
+        "US.76"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3302,7 +3313,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
@@ -3314,7 +3325,18 @@
         "crosswalkReasons": [
           "US.82->US.79: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.79"
+          ],
+          "to": "US.76",
+          "matchedElements": [
+            "Malcolm X",
+            "Malcolm X"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3632,7 +3654,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.79"
+        "US.78"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3647,7 +3669,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
@@ -3659,7 +3681,18 @@
         "crosswalkReasons": [
           "US.82->US.79: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.79"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Fair Housing Act",
+            "Fair Housing Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -5288,7 +5321,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.79"
+        "US.76"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -5303,7 +5336,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
@@ -5315,7 +5348,18 @@
         "crosswalkReasons": [
           "US.82->US.79: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.79"
+          ],
+          "to": "US.76",
+          "matchedElements": [
+            "Malcolm X",
+            "Malcolm X"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

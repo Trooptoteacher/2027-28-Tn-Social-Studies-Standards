@@ -182,7 +182,7 @@
       "dokLevel": 1,
       "dokRationale": "Requires recall of a specific fact — no analysis needed.",
       "standardCodes": [
-        "US.04"
+        "US.05"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -197,7 +197,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
@@ -209,7 +209,18 @@
         "crosswalkReasons": [
           "US.01->US.04: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.04"
+          ],
+          "to": "US.05",
+          "matchedElements": [
+            "Dawes Act",
+            "Dawes Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -458,7 +469,7 @@
       "dokLevel": 1,
       "dokRationale": "Requires recall of a specific fact — no analysis needed.",
       "standardCodes": [
-        "US.04"
+        "US.09"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -473,7 +484,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
@@ -485,7 +496,17 @@
         "crosswalkReasons": [
           "US.01->US.04: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.04"
+          ],
+          "to": "US.09",
+          "matchedElements": [
+            "Andrew Carnegie"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1910,7 +1931,7 @@
       "dokLevel": 2,
       "dokRationale": "Requires understanding of cause, effect, or concept.",
       "standardCodes": [
-        "US.04"
+        "US.08"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1925,7 +1946,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
@@ -1937,7 +1958,17 @@
         "crosswalkReasons": [
           "US.01->US.04: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.04"
+          ],
+          "to": "US.08",
+          "matchedElements": [
+            "Gilded Age"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2741,7 +2772,7 @@
       "dokLevel": 3,
       "dokRationale": "Requires argument construction or evaluation.",
       "standardCodes": [
-        "US.04"
+        "US.05"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2756,7 +2787,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
@@ -2768,7 +2799,18 @@
         "crosswalkReasons": [
           "US.01->US.04: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.04"
+          ],
+          "to": "US.05",
+          "matchedElements": [
+            "Dawes Act",
+            "Dawes Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3017,7 +3059,7 @@
       "dokLevel": 3,
       "dokRationale": "Requires strategic thinking — evaluating arguments or evidence.",
       "standardCodes": [
-        "US.04"
+        "US.08"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3032,7 +3074,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
@@ -3044,7 +3086,17 @@
         "crosswalkReasons": [
           "US.01->US.04: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.04"
+          ],
+          "to": "US.08",
+          "matchedElements": [
+            "Gilded Age"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3086,7 +3138,7 @@
       "dokLevel": 3,
       "dokRationale": "Requires multi-part synthesis and evaluation.",
       "standardCodes": [
-        "US.04"
+        "US.08"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3101,7 +3153,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
@@ -3113,7 +3165,17 @@
         "crosswalkReasons": [
           "US.01->US.04: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.04"
+          ],
+          "to": "US.08",
+          "matchedElements": [
+            "Gilded Age"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

@@ -1869,7 +1869,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.86"
+        "US.23"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1884,7 +1884,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
@@ -1900,6 +1900,17 @@
           "elementsAddedToStandard": [
             "Crisis of Confidence speech"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.86"
+          ],
+          "to": "US.23",
+          "matchedElements": [
+            "Panama Canal",
+            "Panama Canal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2599,7 +2610,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.86"
+        "US.23"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2614,7 +2625,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
@@ -2630,6 +2641,17 @@
           "elementsAddedToStandard": [
             "Crisis of Confidence speech"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.86"
+          ],
+          "to": "US.23",
+          "matchedElements": [
+            "Panama Canal",
+            "Panama Canal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },

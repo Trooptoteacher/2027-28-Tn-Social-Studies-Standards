@@ -46,6 +46,30 @@ def _haystack(item):
                     + [c.get("text") or "" for c in itemio.choices(item)]).lower()
 
 
+def relevance_scan(items, binding):
+    """(judged, flagged) — THE definition of on-standard, shared by the gate and
+    tools/rehome.py. Re-deriving it in the triage tool made the two disagree by
+    437 items, which is the same defect as a status report that recomputes its
+    own gate results."""
+    stds = binding.standards()
+    allow = _allowed()
+    judged, flagged = 0, []
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        codes = [c for c in (it.get("standardCodes") or []) if c in stds]
+        sigsets = {c: alignment.standard_signals(stds[c]["text"]) for c in codes}
+        if not any(sigsets.values()):
+            continue
+        judged += 1
+        if it.get("id") in allow:
+            continue
+        hay = _haystack(it)
+        if not any(sig.lower() in hay for sigs in sigsets.values() for sig in sigs):
+            flagged.append((it, codes, sigsets))
+    return judged, flagged
+
+
 def gate_standard_relevance(items, binding=None) -> Result:
     """Every item names at least one element of the standard it is filed under.
 
@@ -58,28 +82,14 @@ def gate_standard_relevance(items, binding=None) -> Result:
     if (r := empty_scan_guard(name, items)):
         return r
     stds = binding.standards()
+    judged, flagged = relevance_scan(items, binding)
+    findings = []
+    for it, codes, _ in flagged:
+        els = sorted({e for c in codes for e in alignment.elements(stds[c]["text"])})[:4]
+        findings.append(Finding(it.get("id", "?"),
+            f"names no element of {', '.join(codes)} — that standard asks about "
+            f"{els}; review whether the item is filed correctly", it.get("_file", "")))
     allow = _allowed()
-    findings, judged = [], 0
-    for it in items:
-        if not itemio.servable(it):
-            continue
-        codes = [c for c in (it.get("standardCodes") or []) if c in stds]
-        checklists = {c: alignment.elements(stds[c]["text"]) for c in codes}
-        if not any(checklists.values()):
-            continue                      # standard names no elements to match
-        judged += 1
-        if it.get("id") in allow:
-            continue
-        hay = _haystack(it)
-        hit = any(sig.lower() in hay
-                  for els in checklists.values() for el in els
-                  for sig in alignment.signals(el))
-        if not hit:
-            els = sorted({e for v in checklists.values() for e in v})[:4]
-            findings.append(Finding(it.get("id", "?"),
-                f"names no element of {', '.join(codes)} — that standard asks about "
-                f"{els}; review whether the item is filed correctly",
-                it.get("_file", "")))
     return Result(name, not findings, len(items), findings, judged=judged,
                   note=f"{len(allow)} item(s) allowlisted by review")
 

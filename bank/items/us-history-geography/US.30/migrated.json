@@ -3218,7 +3218,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.30"
+        "US.35"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3233,7 +3233,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
@@ -3245,7 +3245,18 @@
         "crosswalkReasons": [
           "US.28->US.30: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.30"
+          ],
+          "to": "US.35",
+          "matchedElements": [
+            "Duke Ellington",
+            "Duke Ellington"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

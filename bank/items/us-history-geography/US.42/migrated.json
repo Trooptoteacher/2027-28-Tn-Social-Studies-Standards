@@ -257,7 +257,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.45"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -272,7 +272,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -286,6 +286,17 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.45",
+          "matchedElements": [
+            "Civilian Conservation Corps",
+            "Civilian Conservation Corps"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -328,7 +339,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -343,7 +354,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -357,6 +368,18 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "World War II",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -399,7 +422,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.51"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -414,7 +437,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -428,6 +451,17 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.51",
+          "matchedElements": [
+            "Tuskegee Airmen",
+            "Tuskegee Airmen"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -470,7 +504,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -485,7 +519,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -499,6 +533,18 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "World War II",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -754,7 +800,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.45"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -769,7 +815,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -783,6 +829,17 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.45",
+          "matchedElements": [
+            "Tennessee Valley Authority",
+            "Tennessee Valley Authority"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1890,7 +1947,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.45"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1905,7 +1962,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -1919,6 +1976,17 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.45",
+          "matchedElements": [
+            "Works Progress Administration",
+            "Works Progress Administration"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1961,7 +2029,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.46"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1976,7 +2044,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -1990,6 +2058,16 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2032,7 +2110,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.46"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2047,7 +2125,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2061,6 +2139,16 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2245,7 +2333,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.55"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2260,7 +2348,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2274,6 +2362,17 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.55",
+          "matchedElements": [
+            "Zoot Suit Riots",
+            "Zoot Suit Riots"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2387,7 +2486,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.44"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2402,7 +2501,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2416,6 +2515,17 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.44",
+          "matchedElements": [
+            "Reconstruction Finance Corporation",
+            "Reconstruction Finance Corporation"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2458,7 +2568,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.44"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2473,7 +2583,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2487,6 +2597,16 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.44",
+          "matchedElements": [
+            "Bonus Army"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2742,7 +2862,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.44"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2757,7 +2877,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2771,6 +2891,16 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.44",
+          "matchedElements": [
+            "Bonus Army"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -3168,7 +3298,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.46"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3183,7 +3313,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -3197,6 +3327,16 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -3878,7 +4018,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.51"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3893,7 +4033,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
@@ -3907,6 +4047,17 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.51",
+          "matchedElements": [
+            "Navajo Code Talkers",
+            "Navajo Code Talkers"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -4446,7 +4597,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.60"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -4461,7 +4612,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
@@ -4475,6 +4626,16 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.60",
+          "matchedElements": [
+            "Marshall Plan"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -4517,7 +4678,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.42"
+        "US.46"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -4532,7 +4693,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
@@ -4546,6 +4707,16 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -4630,9 +4801,7 @@
       "dokLevel": 4,
       "dokRationale": "Student must synthesize the TVA's design (US.42), the broader New Deal philosophy (US.41), and the regional development context of the Depression (US.40) without source scaffolding, connecting the TVA to a broader U.S. history pattern of federal regional development — requiring the highest level of independent cross-era historical reasoning with Tennessee specificity.",
       "standardCodes": [
-        "US.42",
-        "US.43",
-        "US.44"
+        "US.45"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -4647,7 +4816,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-4.json",
@@ -4665,6 +4834,19 @@
         ],
         "alignmentReview": {
           "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42",
+            "US.43",
+            "US.44"
+          ],
+          "to": "US.45",
+          "matchedElements": [
+            "Tennessee Valley Authority",
+            "Tennessee Valley Authority"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     }

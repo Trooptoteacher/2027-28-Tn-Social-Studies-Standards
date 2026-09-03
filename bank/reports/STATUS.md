@@ -15,11 +15,11 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `key-integrity` | **PASS** | 3986 | — | 0 |
 | `distractor-coverage` | **FAIL** | 3986 | 3844 | 23064 |
 | `truncation` | **FAIL** | 3986 | — | 100 |
-| `blueprint-conformance` | **FAIL** | 3986 | — | 681 |
+| `blueprint-conformance` | **FAIL** | 3986 | — | 671 |
 | `key-position-debias` | **PASS** | 3844 | — | 0 |
 | `serveability` | **FAIL** | 3986 | — | 1014 |
 | `reporting-category-provenance` | **PASS** | 3986 | — | 0 |
-| `standard-relevance` | **FAIL** | 3986 | 3231 | 1703 |
+| `standard-relevance` | **FAIL** | 3986 | 3849 | 1320 |
 | `choice-length-cue` | **FAIL** | 3986 | 3844 | 1 |
 | `duplicate-stems` | **FAIL** | 3986 | 3986 | 21 |
 | `release-readiness` | **FAIL** | 3986 | — | 6 |
@@ -35,12 +35,12 @@ BINDING — course: United States History and Geography (us-history-geography) �
 ## Bank
 
 - Source: **5,045** items from the 2026-27 `history-hack-web-app` bank
-- Servable: **3986** (3779 migrated, 207 provisional)
+- Servable: **3986** (3447 migrated, 539 provisional)
 - Quarantined (not servable, not coverage): **1059**
   - 929 — standard retired / no 2027-28 home
   - 130 — tests an element the 2027-28 standard dropped
-- Standards with a servable item: **76/94**
-- Standards receiving nothing: **18** — US.01, US.02, US.03, US.07, US.09, US.40, US.50, US.53, US.55, US.57, US.71, US.75, US.77, US.87, US.89, US.91, US.93, US.94
+- Standards with a servable item: **86/94**
+- Standards receiving nothing: **8** — US.01, US.03, US.40, US.57, US.71, US.75, US.89, US.93
 
 ## Forms
 

@@ -710,7 +710,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.18"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -725,7 +725,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -742,6 +742,17 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.18",
+          "matchedElements": [
+            "17th Amendment",
+            "17th Amendment"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -858,7 +869,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.10"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -873,7 +884,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -890,6 +901,16 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.10",
+          "matchedElements": [
+            "Chinese Exclusion Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -932,7 +953,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.07"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -947,7 +968,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -964,6 +985,19 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.07",
+          "matchedElements": [
+            "Angel Island",
+            "Ellis Island",
+            "Angel Island",
+            "Ellis Island"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1302,7 +1336,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.18"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1317,7 +1351,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -1334,6 +1368,19 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.18",
+          "matchedElements": [
+            "16th Amendment",
+            "17th Amendment",
+            "16th Amendment",
+            "17th Amendment"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1675,7 +1722,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.07"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1690,7 +1737,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -1707,6 +1754,17 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.07",
+          "matchedElements": [
+            "Ellis Island",
+            "Ellis Island"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1749,7 +1807,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.08"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1764,7 +1822,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -1781,6 +1839,16 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.08",
+          "matchedElements": [
+            "Gilded Age"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1823,7 +1891,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.10"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1838,7 +1906,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -1855,6 +1923,16 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.10",
+          "matchedElements": [
+            "Chinese Exclusion Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2563,7 +2641,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.18"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2578,7 +2656,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -2595,6 +2673,17 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.18",
+          "matchedElements": [
+            "17th Amendment",
+            "17th Amendment"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2637,7 +2726,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.20"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2652,7 +2741,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -2669,6 +2758,17 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.20",
+          "matchedElements": [
+            "Passage of the 19th Amendment",
+            "19th Amendment"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2862,7 +2962,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.07"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2877,7 +2977,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -2894,6 +2994,17 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.07",
+          "matchedElements": [
+            "Ellis Island",
+            "Ellis Island"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2907,7 +3018,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.10"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2922,7 +3033,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -2939,6 +3050,16 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.10",
+          "matchedElements": [
+            "Chinese Exclusion Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2981,7 +3102,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.38"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2996,7 +3117,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -3013,6 +3134,17 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.38",
+          "matchedElements": [
+            "William Jennings Bryan",
+            "William Jennings Bryan"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -4091,7 +4223,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.23"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -4106,7 +4238,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -4123,6 +4255,17 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.23",
+          "matchedElements": [
+            "Spanish-American War",
+            "Spanish-American War"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -4242,7 +4385,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.06"
+        "US.07"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -4257,7 +4400,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -4274,6 +4417,17 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06"
+          ],
+          "to": "US.07",
+          "matchedElements": [
+            "Ellis Island",
+            "Ellis Island"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -4287,8 +4441,7 @@
       "dokLevel": 4,
       "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.09, US.10 through evidence-based reasoning requiring sustained analytical writing.",
       "standardCodes": [
-        "US.06",
-        "US.15"
+        "US.16"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -4303,7 +4456,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-4.json",
@@ -4322,6 +4475,20 @@
             "credit mobilier",
             "Interstate Commerce Act"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.06",
+            "US.15"
+          ],
+          "to": "US.16",
+          "matchedElements": [
+            "Jane Addams",
+            "Jacob Riis",
+            "Jane Addams",
+            "Jacob Riis"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },

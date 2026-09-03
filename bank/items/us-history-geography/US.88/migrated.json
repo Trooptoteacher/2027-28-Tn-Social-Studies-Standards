@@ -424,7 +424,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.88"
+        "US.59"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -439,7 +439,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
@@ -458,6 +458,18 @@
             "Debates over the increasing budget",
             "taxation"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.88"
+          ],
+          "to": "US.59",
+          "matchedElements": [
+            "Warsaw Pact",
+            "Soviet Union",
+            "Warsaw Pact"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1412,7 +1424,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.88"
+        "US.46"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1427,7 +1439,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
@@ -1446,6 +1458,16 @@
             "Debates over the increasing budget",
             "taxation"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.88"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1564,7 +1586,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.88"
+        "US.46"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1579,7 +1601,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
@@ -1598,6 +1620,16 @@
             "Debates over the increasing budget",
             "taxation"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.88"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1640,7 +1672,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.88"
+        "US.08"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1655,7 +1687,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
@@ -1674,6 +1706,16 @@
             "Debates over the increasing budget",
             "taxation"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.88"
+          ],
+          "to": "US.08",
+          "matchedElements": [
+            "Gilded Age"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },

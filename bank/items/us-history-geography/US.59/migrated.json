@@ -3713,7 +3713,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.59"
+        "US.74"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3728,7 +3728,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
@@ -3744,6 +3744,16 @@
           "elementsAddedToStandard": [
             "roles of the United Nations"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.59"
+          ],
+          "to": "US.74",
+          "matchedElements": [
+            "Brown v. Board of Education"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -3786,7 +3796,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.59"
+        "US.74"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3801,7 +3811,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
@@ -3817,6 +3827,16 @@
           "elementsAddedToStandard": [
             "roles of the United Nations"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.59"
+          ],
+          "to": "US.74",
+          "matchedElements": [
+            "Brown v. Board of Education"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     }

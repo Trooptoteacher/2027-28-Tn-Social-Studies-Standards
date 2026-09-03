@@ -2154,7 +2154,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.18"
+        "US.20"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2169,7 +2169,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -2181,7 +2181,20 @@
         "crosswalkReasons": [
           "US.15->US.18: checklist intact (6 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.18"
+          ],
+          "to": "US.20",
+          "matchedElements": [
+            "Alice Paul",
+            "Passage of the 19th Amendment",
+            "Alice Paul",
+            "19th Amendment"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

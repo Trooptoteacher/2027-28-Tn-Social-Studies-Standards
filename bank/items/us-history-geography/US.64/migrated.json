@@ -1010,7 +1010,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.64"
+        "US.56"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1025,7 +1025,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
@@ -1037,7 +1037,18 @@
         "crosswalkReasons": [
           "US.71->US.64: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.64"
+          ],
+          "to": "US.56",
+          "matchedElements": [
+            "explain President Truman's rationale for using the atomic bomb to end the war",
+            "President Truman's"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

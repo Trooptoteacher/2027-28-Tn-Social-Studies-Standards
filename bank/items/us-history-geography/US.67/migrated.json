@@ -3258,8 +3258,7 @@
       "dokLevel": 4,
       "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.75, US.77 through evidence-based reasoning requiring sustained analytical writing.",
       "standardCodes": [
-        "US.67",
-        "US.72"
+        "US.76"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3274,7 +3273,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-4.json",
@@ -3288,7 +3287,19 @@
           "US.75->US.67: checklist intact (0 element(s))",
           "US.77->US.72: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.67",
+            "US.72"
+          ],
+          "to": "US.76",
+          "matchedElements": [
+            "John Lewis",
+            "John Lewis"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     }
   ]

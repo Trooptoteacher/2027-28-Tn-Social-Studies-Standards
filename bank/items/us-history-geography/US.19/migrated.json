@@ -263,7 +263,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.19"
+        "US.17"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -278,7 +278,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -294,6 +294,18 @@
           "elementsAddedToStandard": [
             "Clayton Antitrust Act of 1914"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.19"
+          ],
+          "to": "US.17",
+          "matchedElements": [
+            "Pure Food",
+            "Drug Act",
+            "Pure Food and Drug Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -847,7 +859,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.19"
+        "US.17"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -862,7 +874,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -878,6 +890,17 @@
           "elementsAddedToStandard": [
             "Clayton Antitrust Act of 1914"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.19"
+          ],
+          "to": "US.17",
+          "matchedElements": [
+            "Square Deal",
+            "Square Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -1796,7 +1819,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.19"
+        "US.02"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1811,7 +1834,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -1827,6 +1850,17 @@
           "elementsAddedToStandard": [
             "Clayton Antitrust Act of 1914"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.19"
+          ],
+          "to": "US.02",
+          "matchedElements": [
+            "Jim Crow laws",
+            "Jim Crow"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2088,7 +2122,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.19"
+        "US.29"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2103,7 +2137,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -2119,6 +2153,18 @@
           "elementsAddedToStandard": [
             "Clayton Antitrust Act of 1914"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.19"
+          ],
+          "to": "US.29",
+          "matchedElements": [
+            "effects of the U.S. rejection of the League of Nations",
+            "Treaty of Versailles",
+            "League of Nations"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2234,7 +2280,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.19"
+        "US.94"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2249,7 +2295,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -2265,6 +2311,17 @@
           "elementsAddedToStandard": [
             "Clayton Antitrust Act of 1914"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.19"
+          ],
+          "to": "US.94",
+          "matchedElements": [
+            "American presense in the Middle East",
+            "Middle East"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2380,7 +2437,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.19"
+        "US.02"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2395,7 +2452,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -2411,6 +2468,17 @@
           "elementsAddedToStandard": [
             "Clayton Antitrust Act of 1914"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.19"
+          ],
+          "to": "US.02",
+          "matchedElements": [
+            "Jim Crow laws",
+            "Jim Crow"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },

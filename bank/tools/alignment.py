@@ -188,3 +188,49 @@ def tests_dropped_element(item_text: str, dropped: list) -> list:
             if sum(1 for s in sig if s in hay) >= 2:
                 hit.append(el)
     return hit
+
+
+def named_entities(text: str) -> list:
+    """Every named entity in a standard's WHOLE sentence, not just its checklist.
+
+    The checklist — the words after "including" — is what a REVISION changes, so
+    delta() reads only that. But what a standard is ABOUT is often named in its
+    stem: US.74 is "Examine the decision and impacts of Brown v. Board of
+    Education...", and "Brown v. Board of Education" never appears after an
+    "including". Matching items against the checklist alone flagged correctly
+    filed Brown questions as off-standard, and then proposed moving them.
+
+    Same rules as signals(): multi-word names, or a single capitalised word that
+    does not merely open its phrase.
+    """
+    t = _TCA.sub("", text or "")
+    # A bullet is a hard boundary: without one, "United States vs. Nixon" and the
+    # next bullet's "Controversy" merge into a single phantom entity.
+    t = re.sub(r"[•\n]", " ; ", t)
+    # The standard opens with its verb ("Examine the Watergate scandal"), whose
+    # capital is grammar, not a name.
+    first = re.match(r"\s*([A-Za-z]+)", t)
+    if first and first.group(1).lower() in VERB_TIER:
+        t = t[first.end(1):]
+    props = re.findall(
+        r"\b(?:\d+(?:st|nd|rd|th)\s+)?(?:[A-Z][\w'’.-]*)(?:\s+(?:of|the|and|de|v\.|vs\.)?\s*[A-Z][\w'’.-]*)*",
+        t)
+    out, seen = [], set()
+    for p in props:
+        p = p.strip(" .,;:")
+        if len(p) < 4 or _key(p) in _GENERIC:
+            continue
+        # Drop a single word that merely opens the sentence or a bullet.
+        if len(p.split()) < 2 and re.search(r"(?:^|[•:;.]\s*)" + re.escape(p), t):
+            continue
+        if _key(p) in seen:
+            continue
+        seen.add(_key(p))
+        out.append(p)
+    return out
+
+
+def standard_signals(text: str) -> list:
+    """Everything that identifies a standard: checklist elements + named entities."""
+    sigs = [s for el in elements(text) for s in signals(el)]
+    return sigs + named_entities(text)

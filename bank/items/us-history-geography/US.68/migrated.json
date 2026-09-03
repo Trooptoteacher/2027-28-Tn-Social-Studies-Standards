@@ -734,7 +734,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.68"
+        "US.78"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -749,7 +749,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
@@ -761,7 +761,19 @@
         "crosswalkReasons": [
           "US.76->US.68: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.68"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Civil Rights Act of 1964",
+            "Civil Rights Act of 1968",
+            "Civil Rights Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1631,7 +1643,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.68"
+        "US.77"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1646,7 +1658,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
@@ -1658,7 +1670,18 @@
         "crosswalkReasons": [
           "US.76->US.68: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.68"
+          ],
+          "to": "US.77",
+          "matchedElements": [
+            "Freedom Riders",
+            "Freedom Riders"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3327,8 +3350,7 @@
       "dokLevel": 4,
       "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.77, US.76 through evidence-based reasoning requiring sustained analytical writing.",
       "standardCodes": [
-        "US.68",
-        "US.72"
+        "US.78"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3343,7 +3365,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-4.json",
@@ -3357,7 +3379,22 @@
           "US.76->US.68: checklist intact (8 element(s))",
           "US.77->US.72: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.68",
+            "US.72"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Civil Rights Act of 1964",
+            "Voting Rights Act of 1965",
+            "Civil Rights Act of 1968",
+            "Civil Rights Act",
+            "Voting Rights Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     }
   ]

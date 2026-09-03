@@ -37,8 +37,8 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.04-F102 [items/us-history-geography/US.08/migrated.json]: dokRationale no terminal punctuation: …'DOK 2: explain mechanism of exploitation'
           - US.04-F103 [items/us-history-geography/US.08/migrated.json]: explanation no terminal punctuation: …'ze historical significance of convict leasing'
           … and 92 more
-[FAIL] blueprint-conformance — scanned 3986 — 76/94 standards have >=1 servable item
-        681 finding(s):
+[FAIL] blueprint-conformance — scanned 3986 — 86/94 standards have >=1 servable item
+        671 finding(s):
           - US.01: item count 0 != blueprint 6
           - US.01: DOK-1 count 0 != blueprint 2
           - US.01: DOK-2 count 0 != blueprint 2
@@ -47,7 +47,7 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01: itemType 'constructed-response' count 0 != blueprint 1
           - US.01: itemType 'document-based' count 0 != blueprint 1
           - US.01: itemType 'mcq' count 0 != blueprint 4
-          … and 673 more
+          … and 663 more
 [PASS] key-position-debias — scanned 3844 — 4-choice n=3844 worst=A@27% max-dev=2.2% chi2=15.0>11.345 (advisory)
 [FAIL] serveability — scanned 3986
         1014 finding(s):
@@ -60,25 +60,25 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-X015 [items/us-history-geography/US.04/migrated.json]: bilingual field stemEs absent — item cannot be served in Spanish
           - US.01-X015 [items/us-history-geography/US.04/migrated.json]: bilingual field explanationEs absent — item cannot be served in Spanish
           … and 1006 more
-[PASS] reporting-category-provenance — scanned 3986 — 4131 item/standard pair(s) awaiting a category source (mapping sourceOfRecord='UNMAPPED')
-[FAIL] standard-relevance — scanned 3986, judged 3231 — 0 item(s) allowlisted by review
-        1703 finding(s):
+[PASS] reporting-category-provenance — scanned 3986 — 4118 item/standard pair(s) awaiting a category source (mapping sourceOfRecord='UNMAPPED')
+[FAIL] standard-relevance — scanned 3986, judged 3849 — 0 item(s) allowlisted by review
+        1320 finding(s):
+          - US.01-X015 [items/us-history-geography/US.04/migrated.json]: names no element of US.04 — that standard asks about []; review whether the item is filed correctly
+          - US.01-X019 [items/us-history-geography/US.04/migrated.json]: names no element of US.04 — that standard asks about []; review whether the item is filed correctly
+          - US.01-X040 [items/us-history-geography/US.04/migrated.json]: names no element of US.04 — that standard asks about []; review whether the item is filed correctly
           - STIM-0001 [items/us-history-geography/US.04/migrated.json]: names no element of US.04, US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
-          - STIM-0003 [items/us-history-geography/US.04/migrated.json]: names no element of US.04, US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
-          - US.02-X011 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
-          - US.02-X012 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
-          - US.02-X015 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
-          - US.02-X019 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
-          - US.02-X028 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
-          - US.02-X032 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
-          … and 1695 more
+          - US.01-X014 [items/us-history-geography/US.04/migrated.json]: names no element of US.04 — that standard asks about []; review whether the item is filed correctly
+          - US.01-X016 [items/us-history-geography/US.04/migrated.json]: names no element of US.04 — that standard asks about []; review whether the item is filed correctly
+          - US.01-X021 [items/us-history-geography/US.04/migrated.json]: names no element of US.04 — that standard asks about []; review whether the item is filed correctly
+          - US.01-X024 [items/us-history-geography/US.04/migrated.json]: names no element of US.04 — that standard asks about []; review whether the item is filed correctly
+          … and 1312 more
 [FAIL] choice-length-cue — scanned 3986, judged 3844 — 4-choice n=3844 key-is-longest 53.3% (chance 25%)
         1 finding(s):
           - 4-choice cohort: the key is the longest option in 2048/3844 items (53.3%) against 25% by chance — a student can beat this bank without reading the stems
 [FAIL] duplicate-stems — scanned 3986
         21 finding(s):
           - us-19-x020, us-20-x022: 2 items share one stem, filed under ['US.21', 'US.22']: "Alfred Thayer Mahan's The Influence of Sea Power upon History (1890) a…"
-          - q-tcap-us08-1, q-tcap-us08-boss-tweed-2: 2 items share one stem, filed under ['US.11']: "Boss Tweed and Tammany Hall are examples of —…"
+          - q-tcap-us08-1, q-tcap-us08-boss-tweed-2: 2 items share one stem, filed under ['US.08']: "Boss Tweed and Tammany Hall are examples of —…"
           - q-tcap-us09-carver-1, q-new-us09-dok2-carver: 2 items share one stem, filed under ['US.15']: "George Washington Carver contributed to American agriculture by —…"
           - US.07-X014, us-14-q01: 2 items share one stem, filed under ['US.10', 'US.16']: "Muckrakers were journalists and writers who:…"
           - us-83-q04, us-58-x022: 2 items share one stem, filed under ['US.79']: "The American Indian Movement (AIM), founded in 1968, focused primarily…"
@@ -88,9 +88,9 @@ Scanning items/us-history-geography — 3986 item(s)
           … and 13 more
 [FAIL] release-readiness — scanned 3986 — Grade A requires zero findings here. "Close" is not "A."
         6 finding(s):
-          - reportingCategory: 76 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
+          - reportingCategory: 86 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
           - blueprint: blueprint status is "OPERATING TARGET — adopted by the build so authoring can proceed; not signed off by the course owner. release-readiness HOLDS while this reads 'operating' or 'draft'. Raise or lower it freely: the bank is measured against this file, and blueprint-conformance fails in BOTH directions, so a target set too high never goes green." — not signed off by the course owner
-          - alignment: 207 item(s) are provisional: the standard's verb rose or elements were added. Each needs a human alignment decision before it is Grade A.
+          - alignment: 539 item(s) are provisional: the standard's verb rose or elements were added. Each needs a human alignment decision before it is Grade A.
           - authoring-debt: 11532 distractors with no rationale
           - authoring-debt: 3728 items with no dokRationale
           - authoring-debt: 522 items missing a bilingual field

@@ -527,7 +527,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.82"
+        "US.86"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -542,7 +542,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
@@ -554,7 +554,20 @@
         "crosswalkReasons": [
           "US.84->US.82: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.82"
+          ],
+          "to": "US.86",
+          "matchedElements": [
+            "Iran Hostage Crisis",
+            "Camp David Accords",
+            "Iran Hostage Crisis",
+            "Camp David Accords"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -596,7 +609,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.82"
+        "US.86"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -611,7 +624,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
@@ -623,7 +636,18 @@
         "crosswalkReasons": [
           "US.84->US.82: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.82"
+          ],
+          "to": "US.86",
+          "matchedElements": [
+            "Iran Hostage Crisis",
+            "Iran Hostage Crisis"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1700,7 +1724,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.82"
+        "US.86"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1715,7 +1739,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
@@ -1727,7 +1751,18 @@
         "crosswalkReasons": [
           "US.84->US.82: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.82"
+          ],
+          "to": "US.86",
+          "matchedElements": [
+            "Iran Hostage Crisis",
+            "Iran Hostage Crisis"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2568,7 +2603,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.82"
+        "US.86"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2583,7 +2618,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
@@ -2595,7 +2630,18 @@
         "crosswalkReasons": [
           "US.84->US.82: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.82"
+          ],
+          "to": "US.86",
+          "matchedElements": [
+            "Iran Hostage Crisis",
+            "Iran Hostage Crisis"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2608,7 +2654,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.82"
+        "US.86"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2623,7 +2669,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
@@ -2635,7 +2681,20 @@
         "crosswalkReasons": [
           "US.84->US.82: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.82"
+          ],
+          "to": "US.86",
+          "matchedElements": [
+            "Crisis of Confidence speech",
+            "Iran Hostage Crisis",
+            "Crisis of Confidence",
+            "Iran Hostage Crisis"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     }
   ]

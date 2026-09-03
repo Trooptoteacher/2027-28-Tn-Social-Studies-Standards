@@ -1217,7 +1217,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.27"
+        "US.20"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1232,7 +1232,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-1.json",
@@ -1244,7 +1244,18 @@
         "crosswalkReasons": [
           "US.25->US.27: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.27"
+          ],
+          "to": "US.20",
+          "matchedElements": [
+            "Passage of the 19th Amendment",
+            "19th Amendment"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1976,7 +1987,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.27"
+        "US.35"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1991,7 +2002,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-2.json",
@@ -2003,7 +2014,19 @@
         "crosswalkReasons": [
           "US.25->US.27: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.27"
+          ],
+          "to": "US.35",
+          "matchedElements": [
+            "Zora Neale Hurston",
+            "Harlem Renaissance",
+            "Zora Neale Hurston"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

@@ -44,7 +44,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.44"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -59,7 +59,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -71,7 +71,19 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.44",
+          "matchedElements": [
+            "his philosophy of “Rugged Individualism",
+            "Rugged Individualism",
+            "Bonus Army"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -389,7 +401,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -404,7 +416,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -416,7 +428,19 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "World War II",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -527,7 +551,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -542,7 +566,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -554,7 +578,19 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "World War II",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -596,7 +632,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -611,7 +647,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -623,7 +659,19 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Lend-Lease Act",
+            "World War II",
+            "Lend-Lease Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -872,7 +920,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.42"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -887,7 +935,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -899,7 +947,17 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.42",
+          "matchedElements": [
+            "Dust Bowl"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1700,7 +1758,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1715,7 +1773,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -1727,7 +1785,19 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "World War II",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1769,7 +1839,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1784,7 +1854,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -1796,7 +1866,19 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "World War II",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2114,7 +2196,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.50"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2129,7 +2211,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2141,7 +2223,18 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.50",
+          "matchedElements": [
+            "Winston Churchill",
+            "Winston Churchill"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2183,7 +2276,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.59"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2198,7 +2291,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2210,7 +2303,18 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.59",
+          "matchedElements": [
+            "roles of the United Nations",
+            "United Nations"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2252,7 +2356,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.42"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2267,7 +2371,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2279,7 +2383,17 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.42",
+          "matchedElements": [
+            "Dust Bowl"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2459,7 +2573,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.42"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2474,7 +2588,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2486,7 +2600,17 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.42",
+          "matchedElements": [
+            "Dust Bowl"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3643,7 +3767,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3658,7 +3782,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
@@ -3670,7 +3794,20 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Lend-Lease Act",
+            "Pearl Harbor",
+            "Lend-Lease Act",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3919,7 +4056,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3934,7 +4071,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
@@ -3946,7 +4083,19 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "World War II",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3988,7 +4137,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.52"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -4003,7 +4152,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
@@ -4015,7 +4164,18 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.52",
+          "matchedElements": [
+            "World War II",
+            "African Americans"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -5092,7 +5252,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.46"
+        "US.45"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -5107,7 +5267,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
@@ -5119,7 +5279,18 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.46"
+          ],
+          "to": "US.45",
+          "matchedElements": [
+            "National Recovery Administration",
+            "National Recovery Administration"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

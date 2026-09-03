@@ -527,7 +527,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.17"
+        "US.18"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -542,7 +542,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -554,7 +554,18 @@
         "crosswalkReasons": [
           "US.16->US.17: checklist intact (6 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.17"
+          ],
+          "to": "US.18",
+          "matchedElements": [
+            "17th Amendment",
+            "17th Amendment"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -596,7 +607,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.17"
+        "US.20"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -611,7 +622,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -623,7 +634,18 @@
         "crosswalkReasons": [
           "US.16->US.17: checklist intact (6 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.17"
+          ],
+          "to": "US.20",
+          "matchedElements": [
+            "Passage of the 19th Amendment",
+            "19th Amendment"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1148,7 +1170,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.17"
+        "US.19"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1163,7 +1185,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -1175,7 +1197,18 @@
         "crosswalkReasons": [
           "US.16->US.17: checklist intact (6 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.17"
+          ],
+          "to": "US.19",
+          "matchedElements": [
+            "Federal Reserve Act",
+            "Federal Reserve Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1217,8 +1250,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.17",
-        "US.18"
+        "US.23"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1233,7 +1265,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -1247,7 +1279,19 @@
           "US.15->US.18: checklist intact (6 element(s))",
           "US.16->US.17: checklist intact (6 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.17",
+            "US.18"
+          ],
+          "to": "US.23",
+          "matchedElements": [
+            "Spanish-American War",
+            "Spanish-American War"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2436,8 +2480,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.17",
-        "US.19"
+        "US.23"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2452,7 +2495,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -2470,6 +2513,22 @@
           "elementsAddedToStandard": [
             "Clayton Antitrust Act of 1914"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.17",
+            "US.19"
+          ],
+          "to": "US.23",
+          "matchedElements": [
+            "Spanish-American War",
+            "Annexation of Hawaii",
+            "Panama Canal",
+            "Spanish-American War",
+            "Annexation of Hawaii",
+            "Panama Canal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -3202,7 +3261,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.17"
+        "US.16"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3217,7 +3276,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -3229,7 +3288,18 @@
         "crosswalkReasons": [
           "US.16->US.17: checklist intact (6 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.17"
+          ],
+          "to": "US.16",
+          "matchedElements": [
+            "Jane Addams",
+            "Jane Addams"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3271,8 +3341,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.17",
-        "US.18"
+        "US.23"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3287,7 +3356,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -3301,7 +3370,19 @@
           "US.15->US.18: checklist intact (6 element(s))",
           "US.16->US.17: checklist intact (6 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.17",
+            "US.18"
+          ],
+          "to": "US.23",
+          "matchedElements": [
+            "Spanish-American War",
+            "Spanish-American War"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

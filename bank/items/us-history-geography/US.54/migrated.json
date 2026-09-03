@@ -1148,7 +1148,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.54"
+        "US.50"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1163,7 +1163,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
@@ -1175,7 +1175,18 @@
         "crosswalkReasons": [
           "US.54->US.54: checklist intact (1 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.54"
+          ],
+          "to": "US.50",
+          "matchedElements": [
+            "Winston Churchill",
+            "Winston Churchill"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

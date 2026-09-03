@@ -1336,7 +1336,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.56"
+        "US.64"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1351,7 +1351,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
@@ -1370,6 +1370,17 @@
             "Hanford",
             "explain President Truman's rationale for using the atomic bomb to end the war"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.56"
+          ],
+          "to": "US.64",
+          "matchedElements": [
+            "disproportionate access to the G.I. Bill",
+            "G.I. Bill"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -2628,7 +2639,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.56"
+        "US.49"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2643,7 +2654,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
@@ -2662,6 +2673,16 @@
             "Hanford",
             "explain President Truman's rationale for using the atomic bomb to end the war"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.56"
+          ],
+          "to": "US.49",
+          "matchedElements": [
+            "European Jews"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     }

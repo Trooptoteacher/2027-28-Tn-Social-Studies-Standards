@@ -1220,8 +1220,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.14",
-        "US.15"
+        "US.12"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1236,7 +1235,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -1250,7 +1249,19 @@
           "US.09->US.15: checklist intact (0 element(s))",
           "US.11->US.14: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.14",
+            "US.15"
+          ],
+          "to": "US.12",
+          "matchedElements": [
+            "Sherman Antitrust Act of 1890",
+            "Sherman Antitrust Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1361,7 +1372,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.14"
+        "US.08"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1376,7 +1387,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -1388,7 +1399,17 @@
         "crosswalkReasons": [
           "US.11->US.14: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.14"
+          ],
+          "to": "US.08",
+          "matchedElements": [
+            "Gilded Age"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -3129,8 +3150,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.14",
-        "US.15"
+        "US.08"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3145,7 +3165,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -3159,7 +3179,18 @@
           "US.09->US.15: checklist intact (0 element(s))",
           "US.11->US.14: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.14",
+            "US.15"
+          ],
+          "to": "US.08",
+          "matchedElements": [
+            "Gilded Age"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

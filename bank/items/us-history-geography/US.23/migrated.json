@@ -3446,7 +3446,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.23"
+        "US.42"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3461,7 +3461,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-3.json",
@@ -3477,6 +3477,16 @@
           "elementsAddedToStandard": [
             "Spanish-American War"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.23"
+          ],
+          "to": "US.42",
+          "matchedElements": [
+            "Dust Bowl"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
@@ -3709,8 +3719,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.23",
-        "US.24"
+        "US.46"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3725,7 +3734,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-3.json",
@@ -3746,6 +3755,17 @@
             "economics",
             "nationalism"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.23",
+            "US.24"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },

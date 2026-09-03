@@ -182,7 +182,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.55"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -197,7 +197,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
@@ -209,7 +209,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.55",
+          "matchedElements": [
+            "Zoot Suit Riots",
+            "Zoot Suit Riots"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -458,7 +469,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.56"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -473,7 +484,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
@@ -485,7 +496,19 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.56",
+          "matchedElements": [
+            "Oak Ridge",
+            "Manhattan Project",
+            "Oak Ridge"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -941,7 +964,7 @@
       "dokLevel": 1,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.50"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -956,7 +979,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
@@ -968,7 +991,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.50",
+          "matchedElements": [
+            "Iwo Jima",
+            "Iwo Jima"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1355,7 +1389,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.54"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1370,7 +1404,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
@@ -1382,7 +1416,17 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.54",
+          "matchedElements": [
+            "Fred Korematsu v. United States of America decision"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1424,7 +1468,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1439,7 +1483,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
@@ -1451,7 +1495,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1493,7 +1548,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1508,7 +1563,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
@@ -1520,7 +1575,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1631,7 +1697,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1646,7 +1712,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
@@ -1658,7 +1724,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -1700,7 +1777,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.50"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -1715,7 +1792,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
@@ -1727,7 +1804,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.50",
+          "matchedElements": [
+            "Iwo Jima",
+            "Iwo Jima"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2114,7 +2202,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.52"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2129,7 +2217,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
@@ -2141,7 +2229,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.52",
+          "matchedElements": [
+            "World War II",
+            "African Americans"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2252,7 +2351,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.50"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2267,7 +2366,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
@@ -2279,7 +2378,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.50",
+          "matchedElements": [
+            "Iwo Jima",
+            "Iwo Jima"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2459,7 +2569,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.48"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2474,7 +2584,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
@@ -2486,7 +2596,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.48",
+          "matchedElements": [
+            "Pearl Harbor",
+            "Pearl Harbor"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {
@@ -2528,7 +2649,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.51"
+        "US.50"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2543,7 +2664,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
@@ -2555,7 +2676,18 @@
         "crosswalkReasons": [
           "US.51->US.51: checklist intact (3 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.51"
+          ],
+          "to": "US.50",
+          "matchedElements": [
+            "Iwo Jima",
+            "Iwo Jima"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

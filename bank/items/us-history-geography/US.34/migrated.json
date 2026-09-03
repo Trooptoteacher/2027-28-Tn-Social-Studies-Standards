@@ -2312,7 +2312,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.34"
+        "US.47"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2327,7 +2327,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
@@ -2339,7 +2339,18 @@
         "crosswalkReasons": [
           "US.32->US.34: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.34"
+          ],
+          "to": "US.47",
+          "matchedElements": [
+            "Adolf Hitler",
+            "Adolf Hitler"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       }
     },
     {

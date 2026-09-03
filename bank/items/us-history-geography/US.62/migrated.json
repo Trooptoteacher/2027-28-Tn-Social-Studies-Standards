@@ -2763,7 +2763,7 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.62"
+        "US.78"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -2778,7 +2778,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
@@ -2794,6 +2794,17 @@
           "elementsAddedToStandard": [
             "issue of the military-industrial complex"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.62"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Voting Rights Act of 1965",
+            "Voting Rights Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     }

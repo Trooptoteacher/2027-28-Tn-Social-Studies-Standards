@@ -22,6 +22,7 @@ import fixtures
 from gates import content
 
 B = binding_mod.load(os.path.join(HERE, "fixtures", "testbinding", "binding.json"))
+REAL_B = binding_mod.load()          # US.22/65/67 exist only in the full standards file
 FAILED = []
 
 
@@ -61,12 +62,20 @@ check("the finding names the item and what the standard asks about",
       any("T-2" in str(f) and "Dawes Act" in str(f) for f in r.findings),
       f"got {[str(f)[:100] for f in r.findings[:2]]}")
 
-# US.04 has no "including" checklist, so it cannot be judged — and that must
-# be reported, not silently passed.
-no_list = [on_std("Anything at all about nothing in particular.", code="US.04", id=f"N-{n}")
-           for n in range(4)]
-r = content.gate_standard_relevance(no_list, B)
-check("a standard with NO checklist is NOT MEASURED, not passed",
+# US.04 carries NO "including" checklist, but it names the Homestead Act in its
+# stem — so it IS judgeable. Matching the checklist alone was L21: it flagged
+# correctly-filed items whose standard names its subject before the "including".
+r = content.gate_standard_relevance(
+    [on_std("How did the Homestead Act change western settlement?", code="US.04", id="H-1")], B)
+check("a standard naming its subject in the STEM is judged, and a matching item passes",
+      r.passed and r.judged == 1, f"status={r.status!r} judged={r.judged}")
+
+# A standard that names nothing at all genuinely cannot be judged, and that must
+# be reported rather than silently passed. US.22, US.65 and US.67 are the three.
+no_sig = [on_std("Anything at all about nothing in particular.", code="US.22", id=f"N-{n}")
+          for n in range(4)]
+r = content.gate_standard_relevance(no_sig, REAL_B)
+check("a standard that names NOTHING is NOT MEASURED, not passed",
       not r.measured, f"status={r.status!r} judged={r.judged}")
 check("EMPTY scan FAILS", not content.gate_standard_relevance([], B).passed)
 

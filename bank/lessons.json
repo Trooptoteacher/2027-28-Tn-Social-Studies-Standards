@@ -6,7 +6,8 @@
     "tests/test_alignment.py",
     "tests/test_form_gates.py",
     "tests/test_regressions.py",
-    "tests/test_content_gates.py"
+    "tests/test_content_gates.py",
+    "tests/test_rehome.py"
   ],
   "lessons": [
     {
@@ -275,6 +276,66 @@
         {
           "file": "tests/test_content_gates.py",
           "contains": "two ids sharing one stem FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "mistake": "A matcher tuned for DETECTION was reused for ASSIGNMENT. The relevance gate may be loose — a loose gate simply flags fewer items, which is conservative. The re-home scorer inherited that looseness and accepted any single generic word, proposing to move a Gilded Age Carnegie item to a standard about the space race because both contain 'industry', and a 'Gilded Age' item to another because it contains 'recall'. A wrong move creates a confident mislabel, which is worse than the flag it replaces.",
+      "caughtBy": "sampling eight proposals before applying any of them",
+      "guards": [
+        {
+          "file": "tools/rehome.py",
+          "contains": "def strong_signals"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "a bare generic word is never evidence"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "mistake": "The standard-relevance gate matched only the CHECKLIST — the words after 'including' — so items correctly filed under US.74 were flagged as off-standard because 'Brown v. Board of Education' appears in that standard's stem, not after an 'including'. The gate over-flagged and the triage tool then proposed moving correctly-filed items.",
+      "caughtBy": "three of eight sampled proposals being Brown v. Board items",
+      "guards": [
+        {
+          "file": "tools/alignment.py",
+          "contains": "def named_entities"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "a correctly-filed Brown v. Board item is NOT flagged"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "mistake": "tools/rehome.py re-implemented the relevance test instead of asking the gate, and the two disagreed by 437 items — the same defect as a status report that recomputes its own gate results.",
+      "caughtBy": "the triage tool reporting 2,100 flagged while the gate reported 1,663",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def relevance_scan"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "gate findings == relevance_scan flags"
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "mistake": "Re-home evidence was taken from the key explanation as well as the stem, so a passing mention decided a move: an Eisenhower 'Modern Republicanism' item went to the New Deal and a United Nations item to Pearl Harbor. The stem is what an item ASKS; the explanation may corroborate but must not decide.",
+      "caughtBy": "sampling ten proposals and finding four wrong for the same reason",
+      "guards": [
+        {
+          "file": "tools/rehome.py",
+          "contains": "The deciding evidence must be in the STEM"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "a name appearing only in the EXPLANATION cannot move an item"
         }
       ]
     }

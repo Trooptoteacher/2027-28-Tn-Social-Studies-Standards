@@ -3256,7 +3256,7 @@
       "dokLevel": 2,
       "dokRationale": null,
       "standardCodes": [
-        "US.84"
+        "US.87"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -3271,7 +3271,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
@@ -3287,6 +3287,17 @@
           "elementsAddedToStandard": [
             "government"
           ]
+        },
+        "rehomed": {
+          "from": [
+            "US.84"
+          ],
+          "to": "US.87",
+          "matchedElements": [
+            "Strategic Defense Initiative",
+            "Strategic Defense Initiative"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       }
     },
