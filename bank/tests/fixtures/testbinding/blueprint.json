@@ -51,5 +51,204 @@
   "totals": {
     "standards": 2,
     "items": 12
+  },
+  "form": {
+    "$comment": "A form is built at the HIGHEST TIER its standard can fill, and it DECLARES which. Tiers exist because DOK-4 is structurally impossible in a four-option selected-response item — the bank holds 610/702/627 mcq at DOK 1/2/3 and ZERO at DOK-4, correctly. A form with no extended item therefore cannot assess DOK-4, and the honest response is to say so on the page rather than to require a document-based item that does not exist for 71 of 94 standards. Within a tier conformance is EXACT and fails in either direction.",
+    "itemCount": 6,
+    "tiers": [
+      {
+        "id": "full",
+        "label": "Full form — selected response, constructed response and DBQ",
+        "dokCeiling": 4,
+        "slots": [
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 1
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 1
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "constructed-response"
+            ],
+            "dok": 3
+          },
+          {
+            "types": [
+              "document-based"
+            ],
+            "dok": 4
+          }
+        ]
+      },
+      {
+        "id": "extended",
+        "label": "Extended form — selected response plus one extended-response item",
+        "dokCeiling": 4,
+        "slots": [
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 1
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 1
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 3
+          },
+          {
+            "types": [
+              "document-based",
+              "constructed-response",
+              "extended-response",
+              "short-answer"
+            ],
+            "dok": 4
+          }
+        ]
+      },
+      {
+        "id": "extended-dok3",
+        "label": "Extended form — one extended-response item at DOK-3",
+        "dokCeiling": 3,
+        "slots": [
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 1
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 1
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 3
+          },
+          {
+            "types": [
+              "document-based",
+              "constructed-response",
+              "extended-response",
+              "short-answer"
+            ],
+            "dok": 3
+          }
+        ]
+      },
+      {
+        "id": "selected-response",
+        "label": "Selected-response form",
+        "dokCeiling": 3,
+        "slots": [
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 1
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 1
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 3
+          },
+          {
+            "types": [
+              "mcq"
+            ],
+            "dok": 3
+          }
+        ]
+      }
+    ],
+    "disclosureByCeiling": {
+      "4": "This form assesses Depth of Knowledge levels 1 through 4.",
+      "3": "This form assesses Depth of Knowledge levels 1 through 3. It carries no extended-response item, so it does not assess DOK-4 — a four-option question cannot ask a student to construct and defend an argument."
+    }
+  },
+  "bank": {
+    "$comment": "Minimum depth so forms can be built without reusing items, plus the DOK mix the bank should hold. The proportion resists the real failure — a bank that drifts to recall — without treating depth as drift.",
+    "minPerStandard": 6,
+    "dokProportion": {
+      "1": 0.33,
+      "2": 0.33,
+      "3": 0.17,
+      "4": 0.17
+    },
+    "proportionTolerance": 0.12
   }
 }

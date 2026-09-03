@@ -251,7 +251,7 @@ It has already earned its place: it caught a refactor that silently deleted an
 invariant comment `run_gates.py` was cited for, and three ledger entries pointing at
 strings that did not exist.
 
-**41 lessons, 85 guards** — among them:
+**43 lessons, 91 guards** — among them:
 
 | | |
 |---|---|
@@ -318,15 +318,33 @@ For every standard: whether it can fill a form at all, and exactly how many dist
 rationales, DOK notes, translations and rebalances greening it would cost. The pilot
 discovered its cost item by item; this measures it in advance.
 
-**17 of 94 standards can currently fill a form**, at **350 authoring units** total. The
-other 77 are short — and `blueprint-achievability` says why in one line rather than
-leaving it to be discovered one form at a time:
+### Tiers, because DOK-4 cannot live in a multiple-choice item
 
-> the blueprint requires 1 document-based per standard = 94; the aligned bank holds **30**.
-> Short by 64 — either commission them or change the blueprint.
+The flat blueprint required a document-based item for every standard — 94 against 30 in
+the bank — and blocked 71 standards behind a shortage no authoring could fix. The reason
+it could never be met is structural: **DOK-4 is impossible in a four-option question.**
+The bank holds 610 / 702 / 627 multiple-choice items at DOK 1 / 2 / 3 and **zero** at
+DOK-4, correctly. A DOK-4 slot *is* a requirement for an extended-response item.
 
-The bank is 2,401 multiple-choice against 52 constructed-response and 30 document-based.
-That is a decision, not a backlog.
+So a form is now built at the highest tier its standard can fill, and **says which on the
+page**:
+
+| tier | shape | DOK ceiling | standards |
+|---|---|---|---|
+| `full` | 4 mcq + CR + DBQ | 4 | 9 |
+| `extended` | 5 mcq + 1 extended @ DOK-4 | 4 | 29 |
+| `extended-dok3` | 5 mcq + 1 extended @ DOK-3 | 3 | 16 |
+| `selected-response` | 6 mcq | **3** | 56 |
+
+A `selected-response` form prints its own limit: *"It carries no extended-response item,
+so it does not assess DOK-4 — a four-option question cannot ask a student to construct
+and defend an argument."*
+
+**Tiering is not a loosening.** Within its declared tier a form must match slot for slot,
+failing in either direction; a form declaring no tier fails, and a form claiming a tier it
+does not fill fails. What tiering removes is the pretence.
+
+Buildable standards: **17 → 57**.
 
 ## Run everything
 

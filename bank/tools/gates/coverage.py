@@ -72,19 +72,21 @@ def gate_blueprint(items, binding=None) -> Result:
                        f"servable items kept but not counted")
 
 
-def gate_form_blueprint(form_items, binding=None, standards=None) -> Result:
-    """A rendered FORM matches the blueprint exactly, failing in either direction.
+def gate_form_blueprint(form_items, binding=None, standards=None, tiers=None) -> Result:
+    """A rendered FORM matches the tier it DECLARES, exactly, in either direction.
 
-    Measured against the form's DECLARED standards. Counting every code any item
-    carries invented three extra standards on a three-standard form, because a
-    single item may be tagged to several.
+    Tiering is not a loosening. Within its declared tier a form must match slot
+    for slot: 7 items where the tier says 6, or a DOK-2 where the tier says
+    DOK-3, is still a defective form. What tiering removes is the requirement
+    that a standard produce a document-based item that does not exist — and the
+    form says on its face which tier it was built at and what DOK it reaches.
     """
     name = "form-blueprint"
     if (r := empty_scan_guard(name, form_items)):
         return r
     with open(binding.blueprint_file, encoding="utf-8") as fh:
-        bp = json.load(fh)
-    want = bp.get("form") or bp["defaults"]
+        form = json.load(fh)["form"]
+    by_tier = {t["id"]: t for t in form["tiers"]}
     declared = set(standards) if standards else None
     by_std = collections.defaultdict(list)
     for it in form_items:
@@ -93,23 +95,40 @@ def gate_form_blueprint(form_items, binding=None, standards=None) -> Result:
                 by_std[c].append(it)
     for c in (declared or set()):
         by_std.setdefault(c, [])
+
     findings = []
     for code, got in sorted(by_std.items()):
-        if len(got) != want["itemCount"]:
-            findings.append(Finding(code, f"{len(got)} items on the form, blueprint says "
-                                          f"{want['itemCount']}"))
-        gd = collections.Counter(str(i.get("dokLevel")) for i in got)
-        for lvl, n in sorted(want["dok"].items()):
-            if gd.get(lvl, 0) != n:
-                findings.append(Finding(code, f"DOK-{lvl}: {gd.get(lvl, 0)} on the form, "
-                                              f"blueprint says {n}"))
-        gt = collections.Counter(i.get("itemType") for i in got)
-        for typ, n in sorted(want["itemType"].items()):
-            if gt.get(typ, 0) != n:
-                findings.append(Finding(code, f"{typ}: {gt.get(typ, 0)} on the form, "
-                                              f"blueprint says {n}"))
-    return Result(name, not findings, len(form_items), findings, judged=len(by_std),
-                  note=f"{len(by_std)} standard(s) on this form")
+        tid = (tiers or {}).get(code)
+        if not tid:
+            findings.append(Finding(code, "the form declares no tier for this standard — a "
+                                          "form that does not say what it is cannot be checked"))
+            continue
+        tier = by_tier.get(tid)
+        if not tier:
+            findings.append(Finding(code, f"declares unknown tier {tid!r}")); continue
+        if len(got) != len(tier["slots"]):
+            findings.append(Finding(code, f"{len(got)} items on the form, tier {tid!r} "
+                                          f"specifies {len(tier['slots'])}"))
+        want = collections.Counter((tuple(sorted(s["types"])), s["dok"]) for s in tier["slots"])
+        have = collections.Counter()
+        for i in got:
+            slot = next((s for s in tier["slots"]
+                         if i.get("itemType") in s["types"] and i.get("dokLevel") == s["dok"]
+                         and have[(tuple(sorted(s["types"])), s["dok"])]
+                             < want[(tuple(sorted(s["types"])), s["dok"])]), None)
+            if slot is None:
+                findings.append(Finding(code,
+                    f"item {i.get('id')} ({i.get('itemType')} DOK{i.get('dokLevel')}) fills no "
+                    f"remaining slot in tier {tid!r}"))
+            else:
+                have[(tuple(sorted(slot["types"])), slot["dok"])] += 1
+        for k, n in want.items():
+            if have[k] != n:
+                findings.append(Finding(code, f"tier {tid!r} slot {k[0]}@DOK{k[1]}: "
+                                              f"{have[k]} filled, {n} required"))
+    note = f"{len(by_std)} standard(s); tiers " + ", ".join(
+        f"{c}={(tiers or {}).get(c, '?')}" for c in sorted(by_std))
+    return Result(name, not findings, len(form_items), findings, judged=len(by_std), note=note)
 
 
 # ------------------------------------------------------ answer-position bias
@@ -422,42 +441,56 @@ def gate_form_key_position(rendered_items, binding=None) -> Result:
 
 
 def gate_blueprint_achievability(items, binding=None) -> Result:
-    """Can the committed blueprint be met by the bank that exists?
+    """Can every standard reach at least the LOWEST tier the blueprint offers?
 
-    59 of 94 standards could not fill a form, and the readiness report showed
-    why only when someone ran it: the blueprint asks every standard for one
-    document-based and one constructed-response item, so 94 of each, while the
-    aligned bank holds 30 and 52 against 2,401 multiple-choice.
-
-    A blueprint that two-thirds of standards structurally cannot meet is a
-    permanent red light, not a target. It is either an authoring commission
-    (write the missing items) or a blueprint decision (stop requiring them per
-    standard), and both are the owner's call — but it must be a decision, not a
-    silent backlog discovered one form at a time.
+    Before tiering this failed on a flat requirement of one document-based item
+    per standard — 94 needed against 30 in the bank — which blocked 71 standards
+    with a shortage no amount of authoring on existing items could fix. Tiering
+    made that a stated ceiling instead of a wall, so what remains worth failing
+    on is a standard that cannot fill even the simplest form.
     """
+    import alignment
     name = "blueprint-achievability"
     if (r := empty_scan_guard(name, items)):
         return r
     with open(binding.blueprint_file, encoding="utf-8") as fh:
-        bp = json.load(fh)
-    want = bp.get("form") or bp["defaults"]
-    n_std = len(bp["perStandard"])
+        form = json.load(fh)["form"]
+    stds = binding.standards()
     live = [i for i in items if itemio.aligned(i)]
     if not live:
         return Result(name, False, len(items),
                       [Finding("(none)", "no aligned items to measure against")],
                       note="EMPTY SCAN after alignment filter")
-    have = collections.Counter(i.get("itemType") for i in live)
-    findings = []
-    for typ, per in sorted(want["itemType"].items()):
-        need = per * n_std
-        if have.get(typ, 0) < need:
-            findings.append(Finding(typ,
-                f"the blueprint requires {per} per standard = {need} across {n_std} standards; "
-                f"the aligned bank holds {have.get(typ, 0)}. Short by "
-                f"{need - have.get(typ, 0)} — either commission them or change the blueprint"))
-    return Result(name, not findings, len(live), findings, judged=len(live),
-                  note="; ".join(f"{t}={have.get(t, 0)}" for t in sorted(want["itemType"])))
+    by_std = collections.defaultdict(list)
+    for it in live:
+        hay = " ".join([it.get("stem") or ""]
+                       + [c.get("text") or "" for c in itemio.choices(it)])
+        for c in (it.get("standardCodes") or []):
+            t = stds.get(c, {}).get("text")
+            if t and alignment.relevant_to(hay, t):
+                by_std[c].append(it)
+
+    def fills(pool, tier):
+        used = set()
+        for slot in tier["slots"]:
+            cand = [i for i in pool if i["id"] not in used
+                    and i.get("itemType") in slot["types"] and i.get("dokLevel") == slot["dok"]]
+            if not cand:
+                return False
+            used.add(cand[0]["id"])
+        return True
+
+    reached, findings = collections.Counter(), []
+    for code in sorted(stds):
+        pool = sorted(by_std.get(code, []), key=lambda i: i["id"])
+        tid = next((t["id"] for t in form["tiers"] if fills(pool, t)), None)
+        reached[tid or "none"] += 1
+        if tid is None:
+            findings.append(Finding(code,
+                f"cannot fill even the lowest tier {form['tiers'][-1]['id']!r} "
+                f"({len(pool)} relevant aligned item(s))"))
+    return Result(name, not findings, len(live), findings, judged=len(stds),
+                  note="; ".join(f"{k}={v}" for k, v in reached.most_common()))
 
 
 def gate_form_standard_relevance(rendered_items, binding=None, standards=None) -> Result:

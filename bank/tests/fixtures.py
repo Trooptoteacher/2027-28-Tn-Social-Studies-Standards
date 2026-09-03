@@ -104,6 +104,15 @@ def item(**over):
     return it
 
 
+# A fixture item must be ABOUT the standard it is tagged to, or the relevance
+# and achievability gates correctly refuse it. Each test code gets a stem that
+# names something from its own standard.
+STEM_BY_CODE = {
+    "US.04": "How did the Homestead Act change settlement patterns in the West?",
+    "US.05": "Why did the Dawes Act divide reservation land into individual allotments?",
+}
+
+
 def clean_bank(codes, per_standard=6):
     """A blueprint-conformant bank: 6 items per standard, DOK 2/2/1/1,
     4 mcq + 1 constructed-response + 1 document-based, keys spread evenly."""
@@ -114,6 +123,8 @@ def clean_bank(codes, per_standard=6):
         for n, (dok, typ, key) in enumerate(plan, 1):
             it = item(id=f"{code.replace('.', '')}-{typ[:3].upper()}{n}",
                       standardCodes=[code], dokLevel=dok, itemType=typ)
+            if code in STEM_BY_CODE:
+                it["stem"] = STEM_BY_CODE[code]
             if typ == "mcq":
                 _sync_key(it, key)
             else:

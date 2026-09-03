@@ -139,14 +139,26 @@ check("the finding quotes the share and the target",
 
 prove(coverage.gate_blueprint, fixtures.clean_bank(CODES)[:-1], "US.05")
 
-#      the FORM must match exactly, failing in either direction
-form = fixtures.clean_bank(["US.04"])
-check("form: an exact form PASSES", coverage.gate_form_blueprint(form, B).passed,
-      "; ".join(str(f) for f in coverage.gate_form_blueprint(form, B).findings[:2]))
+#      the FORM must match its DECLARED tier exactly, in either direction.
+#      Tier-shape proofs live in tests/test_regressions.py; this pins that the
+#      bank-level suite still exercises the form gate's contract.
+import json as _json
+_tier = next(t for t in _json.load(open(B.blueprint_file))["form"]["tiers"]
+             if t["id"] == "selected-response")
+form = [fixtures.item(id=f"F-{n}", standardCodes=["US.04"],
+                      itemType=sl["types"][0], dokLevel=sl["dok"])
+        for n, sl in enumerate(_tier["slots"])]
+TIERS = {"US.04": "selected-response"}
+check("form: a form matching its declared tier PASSES",
+      coverage.gate_form_blueprint(form, B, standards=["US.04"], tiers=TIERS).passed,
+      "; ".join(str(f) for f in
+                coverage.gate_form_blueprint(form, B, standards=["US.04"],
+                                             tiers=TIERS).findings[:2]))
 over = form + [fixtures.item(id="EXTRA", standardCodes=["US.04"])]
-check("form: one item OVER the blueprint FAILS", not coverage.gate_form_blueprint(over, B).passed)
-check("form: one item UNDER the blueprint FAILS",
-      not coverage.gate_form_blueprint(form[:-1], B).passed)
+check("form: one item OVER the tier FAILS",
+      not coverage.gate_form_blueprint(over, B, standards=["US.04"], tiers=TIERS).passed)
+check("form: one item UNDER the tier FAILS",
+      not coverage.gate_form_blueprint(form[:-1], B, standards=["US.04"], tiers=TIERS).passed)
 check("form: EMPTY scan FAILS", not coverage.gate_form_blueprint([], B).passed)
 
 #      quarantined items do not count as coverage
@@ -155,21 +167,33 @@ bank6[0]["status"] = "quarantined"
 check("bank: a quarantined item is NOT counted as coverage",
       not coverage.gate_blueprint(bank6, B).passed)
 
-#      the blueprint must be ACHIEVABLE by the bank that exists
-reach = fixtures.clean_bank(CODES)
-r = coverage.gate_blueprint_achievability(reach, B)
-check("achievability: a bank holding the required mix PASSES", r.passed,
+#      the blueprint must be ACHIEVABLE — every standard reaches SOME tier.
+#      The gate iterates the whole standards file, so the proof narrows the
+#      binding's standards to the two the fixture bank covers.
+class _Narrow:
+    def __init__(self, b, codes):
+        self._b, self._codes = b, set(codes)
+    def __getattr__(self, k):
+        return getattr(self._b, k)
+    def standards(self):
+        return {k: v for k, v in self._b.standards().items() if k in self._codes}
+
+NB = _Narrow(B, CODES)
+mixed = fixtures.clean_bank(CODES)
+r = coverage.gate_blueprint_achievability(mixed, NB)
+check("achievability: a bank where every standard reaches a tier PASSES", r.passed,
       "; ".join(str(f) for f in r.findings[:2]))
-mcq_only = [dict(i, itemType="mcq", choices=i["choices"] or fixtures.BASE["choices"],
-                 correctAnswer=i["correctAnswer"] or "B")
-            for i in fixtures.clean_bank(CODES)]
-r = coverage.gate_blueprint_achievability(mcq_only, B)
-check("achievability: an all-multiple-choice bank FAILS", not r.passed)
-check("the finding names the shortfall and both remedies",
-      any("Short by" in str(f) and "change the blueprint" in str(f) for f in r.findings),
-      f"got {[str(f)[:110] for f in r.findings[:1]]}")
+check("the note reports which tier each standard reached",
+      any(t in r.note for t in ("full", "extended", "selected-response")), r.note)
+
+thin = fixtures.clean_bank(CODES)[:3]      # US.04 can no longer fill any tier
+r = coverage.gate_blueprint_achievability(thin, NB)
+check("achievability: a standard that fills NO tier FAILS", not r.passed)
+check("the finding names the lowest tier it could not reach",
+      any("lowest tier" in str(f) for f in r.findings),
+      f"got {[str(f)[:100] for f in r.findings[:1]]}")
 check("achievability: EMPTY scan FAILS",
-      not coverage.gate_blueprint_achievability([], B).passed)
+      not coverage.gate_blueprint_achievability([], NB).passed)
 
 # 7 ── answer-position de-bias: a bank a student can beat without reading
 bank = fixtures.clean_bank(CODES * 6)

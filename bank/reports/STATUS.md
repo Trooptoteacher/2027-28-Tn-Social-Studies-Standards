@@ -16,7 +16,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `distractor-coverage` | **FAIL** | 3986 | 3844 | 22968 |
 | `truncation` | **FAIL** | 3986 | — | 91 |
 | `blueprint-conformance` | **FAIL** | 2029 | — | 25 |
-| `blueprint-achievability` | **FAIL** | 2029 | 2029 | 2 |
+| `blueprint-achievability` | **FAIL** | 2029 | 94 | 37 |
 | `key-position-debias` | **PASS** | 3821 | — | 0 |
 | `serveability` | **FAIL** | 3956 | — | 998 |
 | `reporting-category-provenance` | **PASS** | 3986 | — | 0 |
@@ -28,16 +28,16 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `explanation-quality` | **FAIL** | 3986 | 3956 | 918 |
 | `embedded-answer-key` | **PASS** | 3986 | 3956 | 0 |
 | `review-provenance` | **PASS** | 3986 | 19 | 0 |
-| `release-readiness` | **FAIL** | 3956 | — | 7 |
+| `release-readiness` | **FAIL** | 3956 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 17 | 0 |
-| `FORM-A/form-type-size` | **PASS** | 2 | 49700 | 0 |
+| `FORM-A/form-type-size` | **PASS** | 2 | 49816 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 6 | 0 |
 | `FORM-A/form-disclosure` | **PASS** | 2 | 2 | 0 |
 | `FORM-A/teacher-side-isolation` | **PASS** | 18 | 18 | 0 |
-| `FORM-A/form-blueprint` | **PASS** | 18 | 3 | 0 |
+| `FORM-A/form-blueprint` | **FAIL** | 18 | 3 | 3 |
 | `all-gates-measured` | **PASS** | 25 | — | 0 |
 
-**17/26 pass.** Grade A requires all of them. "Close" is not "A."
+**16/26 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 

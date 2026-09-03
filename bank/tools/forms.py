@@ -130,34 +130,34 @@ def key_targets(items, form_id):
     return out
 
 
-def select(items, standards, blueprint):
-    """Servable, ALIGNED items filling the blueprint's DOK x itemType slots.
+def fill_tier(pool, tier):
+    """Fill a tier's slots from a pool, or return None if any slot is empty.
 
-    The first version took the first N items per standard by id and never
-    looked at the mix, so a form built from a deep standard came out six
-    multiple-choice items at the wrong DOK levels while form-blueprint failed.
-    A form blueprint is a set of SLOTS, and selection has to fill them.
+    A form blueprint is a set of SLOTS and selection has to fill them. The first
+    builder took the first N items per standard by id and never looked at DOK or
+    item type, so the form gate existed before the builder could satisfy it.
+    """
+    used, got = set(), []
+    for slot in tier["slots"]:
+        cand = [i for i in pool if i["id"] not in used
+                and i.get("itemType") in slot["types"] and i.get("dokLevel") == slot["dok"]]
+        if not cand:
+            return None
+        used.add(cand[0]["id"]); got.append(cand[0])
+    return got
+
+
+def select(items, standards, blueprint):
+    """Servable, ALIGNED, per-standard-RELEVANT items filling the best tier available.
+
+    A standard is built at the highest tier it can fill and the form DECLARES
+    which. Requiring a document-based item everywhere blocked 71 of 94
+    standards, and a four-option question cannot assess DOK-4 anyway — so the
+    lower tiers are honest instruments with a stated ceiling, not diluted ones.
 
     Never a wildcard: the caller names the standards actually authored.
     """
-    want = blueprint.get("form") or blueprint["defaults"]
-    # One slot per (itemType, dokLevel), pairing the rarer types with the
-    # higher DOK levels they naturally carry.
-    slots = []
-    dok_pool = []
-    for lvl, n in sorted(want["dok"].items()):
-        dok_pool += [int(lvl)] * n
-    dok_pool.sort()
-    for typ, n in sorted(want["itemType"].items(), key=lambda kv: -kv[1]):
-        for _ in range(n):
-            slots.append([typ, None])
-    for slot, lvl in zip(slots, dok_pool):
-        slot[1] = lvl
-
-    # An item is "aligned" if it matches ANY of its codes, but a form files it
-    # under ONE. A constructed response on the 19th Amendment carried US.17,
-    # US.18 and US.19 and would have printed under a Theodore Roosevelt heading.
-    # Placement requires relevance to the standard whose slot it fills.
+    form = blueprint["form"]
     stds = binding_mod.load().standards()
     by_std = collections.defaultdict(list)
     for it in items:
@@ -166,29 +166,25 @@ def select(items, standards, blueprint):
         hay = " ".join([it.get("stem") or ""]
                        + [c.get("text") or "" for c in itemio.choices(it)])
         for c in (it.get("standardCodes") or []):
-            s_txt = stds.get(c, {}).get("text")
-            if s_txt and alignment.relevant_to(hay, s_txt):
+            t = stds.get(c, {}).get("text")
+            if t and alignment.relevant_to(hay, t):
                 by_std[c].append(it)
 
-    picked, short = [], {}
+    picked, short, tiers = [], {}, {}
     for code in standards:
         pool = sorted(by_std.get(code, []), key=lambda i: i["id"])
-        used, got = set(), []
-        for typ, lvl in slots:
-            cand = [i for i in pool if i["id"] not in used
-                    and i.get("itemType") == typ and i.get("dokLevel") == lvl]
-            if not cand:                       # relax DOK before relaxing type
-                cand = [i for i in pool if i["id"] not in used and i.get("itemType") == typ]
-            if not cand:
-                continue
-            used.add(cand[0]["id"]); got.append(cand[0])
-        picked += got
-        if len(got) < want["itemCount"]:
-            short[code] = (len(got), want["itemCount"])
-    return picked, short
+        for tier in form["tiers"]:
+            got = fill_tier(pool, tier)
+            if got:
+                picked += got
+                tiers[code] = tier["id"]
+                break
+        else:
+            short[code] = (len(pool), form["itemCount"])
+    return picked, short, tiers
 
 
-def render(items, form_id, b, teacher: bool, targets=None):
+def render(items, form_id, b, teacher: bool, targets=None, tier_note=""):
     targets = targets if targets is not None else key_targets(items, form_id)
     blocks = []
     for n, it in enumerate(items, 1):
@@ -221,7 +217,8 @@ def render(items, form_id, b, teacher: bool, targets=None):
         "course": b.course_title, "year": b.standards_year, "formid": form_id,
         "band": band,
         "disclosure": (f"{b.disclosure_line}. Item parameters are estimates and have "
-                       f"not met a student; this form is not a calibrated instrument."),
+                       f"not met a student; this form is not a calibrated instrument."
+                       + (f" {tier_note}" if tier_note else "")),
         "items": "\n".join(blocks),
     }
 
@@ -232,7 +229,7 @@ def build(form_id, standards, b=None):
     with open(b.blueprint_file, encoding="utf-8") as fh:
         blueprint = json.load(fh)
     items = itemio.load_dir(b.output_dir)
-    picked, short = select(items, standards, blueprint)
+    picked, short, tiers = select(items, standards, blueprint)
     if not picked:
         raise SystemExit(f"EMPTY SELECTION — no servable items for {standards}. "
                          f"Refusing to render an empty form.")
@@ -242,13 +239,19 @@ def build(form_id, standards, b=None):
     out = os.path.join(FORMS_DIR, form_id)
     os.makedirs(out, exist_ok=True)
     from weasyprint import HTML as WHTML
+    form = blueprint["form"]
+    by_id = {t["id"]: t for t in form["tiers"]}
+    ceilings = {by_id[t]["dokCeiling"] for t in tiers.values()} or {3}
+    tier_note = form["disclosureByCeiling"][str(min(ceilings))]
     manifest = {"formId": form_id, "course": b.course, "standardsYear": b.standards_year,
                 "standards": standards, "itemCount": len(picked),
+                "tierByStandard": tiers, "dokCeiling": min(ceilings),
+                "tierDisclosure": tier_note,
                 "shortOfBlueprint": short, "surfaces": {}}
     targets = key_targets(picked, form_id)
     for teacher in (False, True):
         name = "teacher-key" if teacher else "student"
-        html = render(picked, form_id, b, teacher, targets)
+        html = render(picked, form_id, b, teacher, targets, tier_note)
         hp = os.path.join(out, f"{name}.html")
         with open(hp, "w", encoding="utf-8") as fh:
             fh.write(html)

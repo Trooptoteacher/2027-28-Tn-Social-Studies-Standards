@@ -48,10 +48,17 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.24: 2 aligned item(s), below the bank minimum of 6
           - US.34: 0 aligned item(s), below the bank minimum of 6
           … and 17 more
-[FAIL] blueprint-achievability — scanned 2029 — constructed-response=41; document-based=27; mcq=1939
-        2 finding(s):
-          - constructed-response: the blueprint requires 1 per standard = 94 across 94 standards; the aligned bank holds 41. Short by 53 — either commission them or change the blueprint
-          - document-based: the blueprint requires 1 per standard = 94 across 94 standards; the aligned bank holds 27. Short by 67 — either commission them or change the blueprint
+[FAIL] blueprint-achievability — scanned 2029, judged 94 — none=37; selected-response=22; extended=20; full=9; extended-dok3=6
+        37 finding(s):
+          - US.01: cannot fill even the lowest tier 'selected-response' (0 relevant aligned item(s))
+          - US.02: cannot fill even the lowest tier 'selected-response' (4 relevant aligned item(s))
+          - US.03: cannot fill even the lowest tier 'selected-response' (0 relevant aligned item(s))
+          - US.07: cannot fill even the lowest tier 'selected-response' (4 relevant aligned item(s))
+          - US.10: cannot fill even the lowest tier 'selected-response' (3 relevant aligned item(s))
+          - US.13: cannot fill even the lowest tier 'selected-response' (0 relevant aligned item(s))
+          - US.15: cannot fill even the lowest tier 'selected-response' (1 relevant aligned item(s))
+          - US.21: cannot fill even the lowest tier 'selected-response' (0 relevant aligned item(s))
+          … and 29 more
 [PASS] key-position-debias — scanned 3821 — 4-choice n=3821 worst=A@27% max-dev=2.2% chi2=14.5>11.345 (advisory)
 [FAIL] serveability — scanned 3956
         998 finding(s):
@@ -86,22 +93,25 @@ Scanning items/us-history-geography — 3986 item(s)
 [PASS] embedded-answer-key — scanned 3986, judged 3956
 [PASS] review-provenance — scanned 3986, judged 19 — 19 approved, 0 awaiting review
 [FAIL] release-readiness — scanned 3956 — Grade A requires zero findings here. "Close" is not "A."
-        7 finding(s):
+        6 finding(s):
           - reportingCategory: 86 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
-          - blueprint: blueprint status is "OPERATING TARGET — adopted by the build so authoring can proceed; not signed off by the course owner. release-readiness HOLDS while this reads 'operating' or 'draft'. Raise or lower it freely: the bank is measured against this file, and blueprint-conformance fails in BOTH directions, so a target set too high never goes green." — not signed off by the course owner
           - alignment: 1792 item(s) are kept and usable but their alignment is unverified, so they are excluded from standards coverage. Not a defect in the items — a gap in what can be claimed about coverage.
           - alignment: 516 item(s) are provisional: the standard's verb rose or elements were added. Each needs a human alignment decision before it is Grade A.
           - authoring-debt: 11415 distractors with no rationale
           - authoring-debt: 3687 items with no dokRationale
           - authoring-debt: 513 items missing a bilingual field
 [PASS] FORM-A/form-pagination — scanned 2, judged 17 — 17 rendered page(s) checked
-[PASS] FORM-A/form-type-size — scanned 2, judged 49700 — 49700 glyph(s) measured
+[PASS] FORM-A/form-type-size — scanned 2, judged 49816 — 49816 glyph(s) measured
 [PASS] FORM-A/form-key-leakage — scanned 1, judged 6 — 6 student page(s) checked
 [PASS] FORM-A/form-disclosure — scanned 2
 [PASS] FORM-A/teacher-side-isolation — scanned 18 — measures rendered student surfaces; items at rest are teacher-side by default
-[PASS] FORM-A/form-blueprint — scanned 18, judged 3 — 3 standard(s) on this form
+[FAIL] FORM-A/form-blueprint — scanned 18, judged 3 — 3 standard(s); tiers US.23=?, US.46=?, US.60=?
+        3 finding(s):
+          - US.23: the form declares no tier for this standard — a form that does not say what it is cannot be checked
+          - US.46: the form declares no tier for this standard — a form that does not say what it is cannot be checked
+          - US.60: the form declares no tier for this standard — a form that does not say what it is cannot be checked
 [PASS] all-gates-measured — scanned 25 — 25/25 gates actually measured something
 
-17/26 applicable gates pass (0 not measured).
-HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, blueprint-achievability, serveability, choice-length-cue, explanation-quality, release-readiness
+16/26 applicable gates pass (0 not measured).
+HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, blueprint-achievability, serveability, choice-length-cue, explanation-quality, release-readiness, FORM-A/form-blueprint
 Grade A requires ALL gates pass. "Close" is not "A."

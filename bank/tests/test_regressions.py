@@ -262,6 +262,62 @@ check("it DOES claim N/A when no item carries a citation",
           [fixtures.item(id="N-1", explanation="Because the Act transferred land cheaply.")],
           B).inapplicable))
 
+# ── every gate that exists is running ───────────────────────────────────
+print("\n  check-gates-wired — a rewrite deleted two gates and only luck surfaced it")
+import subprocess as _sp
+r = _sp.run([sys.executable, os.path.join(BANK, "tools", "check_gates_wired.py")],
+            capture_output=True, text=True)
+check("the real gate wiring PASSES", r.returncode == 0, r.stdout[-300:])
+check("it counts every gate in the package",
+      "gates defined: " in r.stdout and "in a runner list" in r.stdout)
+
+import importlib, run_gates as _rg
+_orig = list(_rg.GATES)
+try:
+    _rg.GATES = [g for g in _orig if g.__name__ != "gate_truncation"]
+    import inspect as _i
+    # A gate dropped from the list is caught as "wired nowhere".
+    from gates import record as _rec
+    defined = {n for n, f in vars(_rec).items() if n.startswith("gate_") and _i.isfunction(f)}
+    check("dropping a gate from the runner list leaves it undeclared and unwired",
+          "gate_truncation" in defined
+          and "gate_truncation" not in {g.__name__ for g in _rg.GATES})
+finally:
+    _rg.GATES = _orig
+
+# The tiered blueprint must stay EXACT within its tier.
+print("\n  form-blueprint tiers — tiering is not a loosening")
+from gates import coverage as cov3
+import json as _json
+_bp = _json.load(open(os.path.join(BANK, "blueprints",
+                                   "us-history-geography.blueprint.json")))["form"]
+sel_tier = next(t for t in _bp["tiers"] if t["id"] == "selected-response")
+good = []
+for n, slot in enumerate(sel_tier["slots"]):
+    it = fixtures.item(id=f"T-{n}", standardCodes=["US.05"],
+                       itemType=slot["types"][0], dokLevel=slot["dok"])
+    good.append(it)
+r = cov3.gate_form_blueprint(good, B, standards=["US.05"],
+                             tiers={"US.05": "selected-response"})
+check("a form matching its declared tier PASSES", r.passed,
+      "; ".join(str(f) for f in r.findings[:2]))
+check("one item OVER the tier FAILS",
+      not cov3.gate_form_blueprint(good + [fixtures.item(id="X", standardCodes=["US.05"])],
+                                   B, standards=["US.05"],
+                                   tiers={"US.05": "selected-response"}).passed)
+check("one item UNDER the tier FAILS",
+      not cov3.gate_form_blueprint(good[:-1], B, standards=["US.05"],
+                                   tiers={"US.05": "selected-response"}).passed)
+wrong = [dict(i) for i in good]; wrong[0]["dokLevel"] = 3
+check("right count but a wrong DOK FAILS",
+      not cov3.gate_form_blueprint(wrong, B, standards=["US.05"],
+                                   tiers={"US.05": "selected-response"}).passed)
+check("a form declaring NO tier FAILS — it cannot be checked",
+      not cov3.gate_form_blueprint(good, B, standards=["US.05"], tiers={}).passed)
+check("a form claiming a tier it does not fill FAILS",
+      not cov3.gate_form_blueprint(good, B, standards=["US.05"],
+                                   tiers={"US.05": "full"}).passed)
+
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
 for f in FAILED:

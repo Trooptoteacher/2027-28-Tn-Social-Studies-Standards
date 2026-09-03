@@ -11,6 +11,7 @@ stage() {
 
 # The ledger first: if a guard has gone missing, nothing below can be trusted.
 stage "lessons ledger"        python3 tools/check_lessons.py
+stage "gate wiring"           python3 tools/check_gates_wired.py
 stage "gate proofs"           python3 tests/test_gates.py
 stage "gate mutation check"   python3 tests/test_mutation.py
 stage "alignment routing"     python3 tests/test_alignment.py

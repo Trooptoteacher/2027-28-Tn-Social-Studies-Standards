@@ -1,12 +1,12 @@
 {
   "$comment": "The ledger. Every mistake made or found in this build names a GUARD that prevents its return, and tools/check_lessons.py fails the build if a lesson has no guard, if a named guard does not exist, or if a test suite is not registered to run. A lesson written down but not enforced is a promise; a lesson with a guard is a fact about the code.",
   "registeredSuites": [
+    "tests/test_alignment.py",
+    "tests/test_content_gates.py",
+    "tests/test_form_gates.py",
     "tests/test_gates.py",
     "tests/test_mutation.py",
-    "tests/test_alignment.py",
-    "tests/test_form_gates.py",
     "tests/test_regressions.py",
-    "tests/test_content_gates.py",
     "tests/test_rehome.py"
   ],
   "lessons": [
@@ -467,7 +467,7 @@
         },
         {
           "file": "tests/test_gates.py",
-          "contains": "form: one item OVER the blueprint FAILS"
+          "contains": "form: one item OVER the tier FAILS"
         }
       ]
     },
@@ -634,6 +634,44 @@
         {
           "file": "tests/test_content_gates.py",
           "contains": "authored content that is silently settled FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L42",
+      "mistake": "Rewriting tools/gates/coverage.py by slicing from one function to the END of the file silently deleted two gates defined after it. The runner crashed on an AttributeError, which was LUCK — had those gates been referenced only in a branch that did not run, the deletion would have been invisible and the artifact would simply have stopped being checked for those defects.",
+      "caughtBy": "a crash that could easily not have happened",
+      "guards": [
+        {
+          "file": "tools/check_gates_wired.py",
+          "contains": "def main"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "the real gate wiring PASSES"
+        }
+      ]
+    },
+    {
+      "id": "L43",
+      "mistake": "The flat form blueprint required a document-based item for every standard — 94 against 30 in the bank — blocking 71 standards behind a shortage no authoring on existing items could fix. The deeper reason it could never be met: DOK-4 is structurally impossible in a four-option selected-response item (the bank holds 610/702/627 mcq at DOK 1/2/3 and ZERO at DOK-4, correctly), so a DOK-4 slot IS a requirement for an extended item. Tiering states that ceiling on the form instead of pretending; buildable standards went 17 -> 57. Tiering is not a loosening: within its declared tier a form must still match slot for slot.",
+      "caughtBy": "measuring DOK availability by item type before choosing a new blueprint shape",
+      "guards": [
+        {
+          "file": "blueprints/us-history-geography.blueprint.json",
+          "contains": "dokCeiling"
+        },
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "Tiering is not a loosening"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "a form claiming a tier it does not fill FAILS"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "a form declaring NO tier FAILS"
         }
       ]
     }
