@@ -2773,7 +2773,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -2785,7 +2785,17 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "duplicate": {
+          "duplicateOf": "us-31-x025",
+          "survivorStandards": [
+            "US.41"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.41"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
+        }
       },
       "alignmentStatus": "evidenced"
     },
@@ -4010,7 +4020,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
@@ -4022,7 +4032,17 @@
         "crosswalkReasons": [
           "US.39->US.41: checklist intact (8 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "duplicate": {
+          "duplicateOf": "U7-DOK2-0004",
+          "survivorStandards": [
+            "US.80"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.41"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
+        }
       },
       "alignmentStatus": "unverified"
     },

@@ -234,6 +234,14 @@
         "not-applicable"
       ],
       "$comment": "Confidence in the item's STANDARD ALIGNMENT — deliberately separate from `status`, which is about the item itself. An item can be perfectly good content whose alignment nobody has verified; collapsing the two axes let an unverified label read as a verdict on the question. evidenced = the item names something that identifies its standard. rehomed = moved on stem evidence, awaiting sign-off. human-verified = a person confirmed it. unverified = KEPT AND USABLE, alignment not established — excluded from standards coverage and from standards-aligned forms, nothing more. not-applicable = the standard names nothing that can be matched."
+    },
+    "citationStatus": {
+      "enum": [
+        "verified",
+        "corrupted-held",
+        "not-applicable"
+      ],
+      "$comment": "Set only where an item carries a source citation. corrupted-held means the attribution names a REPOSITORY where a PUBLICATION belongs and the item is held out of service until a person confirms the real publication. An unsourced item is worse than a missing one."
     }
   }
 }

@@ -15,27 +15,28 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `key-integrity` | **PASS** | 3986 | — | 0 |
 | `distractor-coverage` | **FAIL** | 3986 | 3844 | 23064 |
 | `truncation` | **FAIL** | 3986 | — | 100 |
-| `blueprint-conformance` | **FAIL** | 2529 | — | 656 |
-| `key-position-debias` | **PASS** | 3844 | — | 0 |
-| `serveability` | **FAIL** | 3986 | — | 1014 |
+| `blueprint-conformance` | **FAIL** | 2512 | — | 657 |
+| `key-position-debias` | **PASS** | 3821 | — | 0 |
+| `serveability` | **FAIL** | 3956 | — | 1008 |
 | `reporting-category-provenance` | **PASS** | 3986 | — | 0 |
-| `alignment-claim` | **PASS** | 3986 | 3849 | 0 |
-| `choice-length-cue` | **FAIL** | 3986 | 3844 | 1 |
-| `duplicate-stems` | **FAIL** | 3986 | 3986 | 21 |
-| `release-readiness` | **FAIL** | 3986 | — | 7 |
+| `alignment-claim` | **PASS** | 3986 | 3821 | 0 |
+| `choice-length-cue` | **FAIL** | 3986 | 3821 | 1 |
+| `duplicate-stems` | **PASS** | 3986 | 3956 | 0 |
+| `citation-integrity` | **PASS** | 3986 | 35 | 0 |
+| `release-readiness` | **FAIL** | 3956 | — | 7 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 14 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 32983 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 6 | 0 |
 | `FORM-A/form-disclosure` | **PASS** | 2 | 2 | 0 |
 | `FORM-A/teacher-side-isolation` | **PASS** | 18 | 18 | 0 |
-| `all-gates-measured` | **PASS** | 18 | — | 0 |
+| `all-gates-measured` | **PASS** | 19 | — | 0 |
 
-**11/19 pass.** Grade A requires all of them. "Close" is not "A."
+**13/20 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
 - Source: **5,045** items from the 2026-27 `history-hack-web-app` bank
-- Servable: **3986** (3447 migrated, 539 provisional)
+- Servable: **3956** (3424 migrated, 532 provisional)
 - Quarantined (not servable, not coverage): **1059**
   - 929 — standard retired / no 2027-28 home
   - 130 — tests an element the 2027-28 standard dropped
@@ -50,10 +51,10 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 | Gap | Count |
 |---|---|
-| distractor rationales absent | 11532 |
-| items with no dokRationale | 3728 |
-| items with no stemEs | 522 |
-| items with no explanationEs | 492 |
+| distractor rationales absent | 11463 |
+| items with no dokRationale | 3706 |
+| items with no stemEs | 518 |
+| items with no explanationEs | 490 |
 | standards with no reporting-category source | 94 |
 
 ## Decisions taken

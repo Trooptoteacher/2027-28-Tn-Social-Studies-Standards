@@ -503,7 +503,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "retired",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
@@ -519,6 +519,16 @@
           "elementsAddedToStandard": [
             "Final division of the Korean Peninsula"
           ]
+        },
+        "duplicate": {
+          "duplicateOf": "q-us61-dok1-2",
+          "survivorStandards": [
+            "US.61"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.61"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
         }
       },
       "alignmentStatus": "evidenced"
@@ -873,7 +883,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "retired",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
@@ -889,6 +899,16 @@
           "elementsAddedToStandard": [
             "Final division of the Korean Peninsula"
           ]
+        },
+        "duplicate": {
+          "duplicateOf": "us-49-q04",
+          "survivorStandards": [
+            "US.61"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.61"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
         }
       },
       "alignmentStatus": "evidenced"

@@ -59,7 +59,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
@@ -71,7 +71,17 @@
         "crosswalkReasons": [
           "US.72->US.65: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "duplicate": {
+          "duplicateOf": "q-us65-dok1-1",
+          "survivorStandards": [
+            "US.65"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.65"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
+        }
       },
       "alignmentStatus": "not-applicable"
     },

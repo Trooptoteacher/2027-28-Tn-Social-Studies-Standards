@@ -215,7 +215,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -242,6 +242,16 @@
             "Boss Tweed"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "duplicate": {
+          "duplicateOf": "q-tcap-us08-boss-tweed-2",
+          "survivorStandards": [
+            "US.08"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.08"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
         }
       },
       "alignmentStatus": "rehomed"

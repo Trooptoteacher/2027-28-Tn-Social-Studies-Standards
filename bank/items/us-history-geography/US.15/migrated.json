@@ -2776,7 +2776,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -2788,7 +2788,17 @@
         "crosswalkReasons": [
           "US.09->US.15: checklist intact (0 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "duplicate": {
+          "duplicateOf": "q-tcap-us09-carver-1",
+          "survivorStandards": [
+            "US.15"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.15"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
+        }
       },
       "alignmentStatus": "unverified"
     },
@@ -4683,7 +4693,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "quarantined",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-4.json",
@@ -4701,9 +4711,15 @@
           "elementsAddedToStandard": [
             "Clayton Antitrust Act of 1914"
           ]
+        },
+        "citationHold": {
+          "reason": "citation names a repository where a publication belongs",
+          "proposedPublication": null,
+          "note": "content retained; not servable until a person verifies the source"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "citationStatus": "corrupted-held"
     },
     {
       "id": "q-us17-dok4-dbq-7",
@@ -4732,7 +4748,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "migrated",
+      "status": "quarantined",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-4.json",
@@ -4755,9 +4771,15 @@
             "Ida B. Wells-Barnett",
             "Clayton Antitrust Act of 1914"
           ]
+        },
+        "citationHold": {
+          "reason": "citation names a repository where a publication belongs",
+          "proposedPublication": null,
+          "note": "content retained; not servable until a person verifies the source"
         }
       },
-      "alignmentStatus": "unverified"
+      "alignmentStatus": "unverified",
+      "citationStatus": "corrupted-held"
     }
   ]
 }

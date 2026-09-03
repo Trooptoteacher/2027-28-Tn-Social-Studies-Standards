@@ -2122,7 +2122,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
@@ -2140,6 +2140,16 @@
             "Tulsa Massacre",
             "Efforts of Ida B. Wells-Barnett"
           ]
+        },
+        "duplicate": {
+          "duplicateOf": "us-31-x021",
+          "survivorStandards": [
+            "US.33"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.37"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
         }
       },
       "alignmentStatus": "unverified"

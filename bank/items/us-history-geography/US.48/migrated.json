@@ -133,7 +133,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
@@ -149,6 +149,16 @@
           "elementsAddedToStandard": [
             "Pearl Harbor"
           ]
+        },
+        "duplicate": {
+          "duplicateOf": "q-us48-dok2-1",
+          "survivorStandards": [
+            "US.48"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.48"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
         }
       },
       "alignmentStatus": "evidenced"
@@ -1465,7 +1475,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "retired",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
@@ -1481,6 +1491,16 @@
           "elementsAddedToStandard": [
             "Pearl Harbor"
           ]
+        },
+        "duplicate": {
+          "duplicateOf": "us-46-q07",
+          "survivorStandards": [
+            "US.48"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.48"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
         }
       },
       "alignmentStatus": "evidenced"

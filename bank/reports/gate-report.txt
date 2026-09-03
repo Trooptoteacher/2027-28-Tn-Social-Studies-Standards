@@ -37,8 +37,8 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.04-F102 [items/us-history-geography/US.08/migrated.json]: dokRationale no terminal punctuation: …'DOK 2: explain mechanism of exploitation'
           - US.04-F103 [items/us-history-geography/US.08/migrated.json]: explanation no terminal punctuation: …'ze historical significance of convict leasing'
           … and 92 more
-[FAIL] blueprint-conformance — scanned 2529 — 83/94 standards have >=1 aligned item (1457 servable items kept but not counted)
-        656 finding(s):
+[FAIL] blueprint-conformance — scanned 2512 — 83/94 standards have >=1 aligned item (1444 servable items kept but not counted)
+        657 finding(s):
           - US.01: item count 0 != blueprint 6
           - US.01: DOK-1 count 0 != blueprint 2
           - US.01: DOK-2 count 0 != blueprint 2
@@ -47,10 +47,10 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01: itemType 'constructed-response' count 0 != blueprint 1
           - US.01: itemType 'document-based' count 0 != blueprint 1
           - US.01: itemType 'mcq' count 0 != blueprint 4
-          … and 648 more
-[PASS] key-position-debias — scanned 3844 — 4-choice n=3844 worst=A@27% max-dev=2.2% chi2=15.0>11.345 (advisory)
-[FAIL] serveability — scanned 3986
-        1014 finding(s):
+          … and 649 more
+[PASS] key-position-debias — scanned 3821 — 4-choice n=3821 worst=A@27% max-dev=2.2% chi2=14.5>11.345 (advisory)
+[FAIL] serveability — scanned 3956
+        1008 finding(s):
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: bilingual field stemEs absent — item cannot be served in Spanish
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: bilingual field explanationEs absent — item cannot be served in Spanish
           - US.01-X012 [items/us-history-geography/US.04/migrated.json]: bilingual field stemEs absent — item cannot be served in Spanish
@@ -59,39 +59,30 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-X013 [items/us-history-geography/US.04/migrated.json]: bilingual field explanationEs absent — item cannot be served in Spanish
           - US.01-X015 [items/us-history-geography/US.04/migrated.json]: bilingual field stemEs absent — item cannot be served in Spanish
           - US.01-X015 [items/us-history-geography/US.04/migrated.json]: bilingual field explanationEs absent — item cannot be served in Spanish
-          … and 1006 more
+          … and 1000 more
 [PASS] reporting-category-provenance — scanned 3986 — 4118 item/standard pair(s) awaiting a category source (mapping sourceOfRecord='UNMAPPED')
-[PASS] alignment-claim — scanned 3986, judged 3849 — 1320 item(s) honestly marked unverified — kept and usable, not counted as coverage; 0 allowlisted
-[FAIL] choice-length-cue — scanned 3986, judged 3844 — 4-choice n=3844 key-is-longest 53.3% (chance 25%)
+[PASS] alignment-claim — scanned 3986, judged 3821 — 1309 item(s) honestly marked unverified — kept and usable, not counted as coverage; 0 allowlisted
+[FAIL] choice-length-cue — scanned 3986, judged 3821 — 4-choice n=3821 key-is-longest 53.4% (chance 25%)
         1 finding(s):
-          - 4-choice cohort: the key is the longest option in 2048/3844 items (53.3%) against 25% by chance — a student can beat this bank without reading the stems
-[FAIL] duplicate-stems — scanned 3986
-        21 finding(s):
-          - us-19-x020, us-20-x022: 2 items share one stem, filed under ['US.21', 'US.22']: "Alfred Thayer Mahan's The Influence of Sea Power upon History (1890) a…"
-          - q-tcap-us08-1, q-tcap-us08-boss-tweed-2: 2 items share one stem, filed under ['US.08']: "Boss Tweed and Tammany Hall are examples of —…"
-          - q-tcap-us09-carver-1, q-new-us09-dok2-carver: 2 items share one stem, filed under ['US.15']: "George Washington Carver contributed to American agriculture by —…"
-          - US.07-X014, us-14-q01: 2 items share one stem, filed under ['US.10', 'US.16']: "Muckrakers were journalists and writers who:…"
-          - us-83-q04, us-58-x022: 2 items share one stem, filed under ['US.79']: "The American Indian Movement (AIM), founded in 1968, focused primarily…"
-          - us-46-q07, us-46-x013: 2 items share one stem, filed under ['US.48']: "The Battle of Midway (June 1942) was a turning point in the Pacific Wa…"
-          - us-53-x014, us-54-x021: 2 items share one stem, filed under ['US.78']: "The Civil Rights Act of 1964 prohibited discrimination based on —…"
-          - us-49-q04, us-49-x011: 2 items share one stem, filed under ['US.61']: "The Korean War began in June 1950 when —…"
-          … and 13 more
-[FAIL] release-readiness — scanned 3986 — Grade A requires zero findings here. "Close" is not "A."
+          - 4-choice cohort: the key is the longest option in 2039/3821 items (53.4%) against 25% by chance — a student can beat this bank without reading the stems
+[PASS] duplicate-stems — scanned 3986, judged 3956
+[PASS] citation-integrity — scanned 3986, judged 35 — 35 servable item(s) carry a citation; 7 held out of service awaiting source verification
+[FAIL] release-readiness — scanned 3956 — Grade A requires zero findings here. "Close" is not "A."
         7 finding(s):
           - reportingCategory: 86 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
           - blueprint: blueprint status is "OPERATING TARGET — adopted by the build so authoring can proceed; not signed off by the course owner. release-readiness HOLDS while this reads 'operating' or 'draft'. Raise or lower it freely: the bank is measured against this file, and blueprint-conformance fails in BOTH directions, so a target set too high never goes green." — not signed off by the course owner
-          - alignment: 1320 item(s) are kept and usable but their alignment is unverified, so they are excluded from standards coverage. Not a defect in the items — a gap in what can be claimed about coverage.
-          - alignment: 539 item(s) are provisional: the standard's verb rose or elements were added. Each needs a human alignment decision before it is Grade A.
-          - authoring-debt: 11532 distractors with no rationale
-          - authoring-debt: 3728 items with no dokRationale
-          - authoring-debt: 522 items missing a bilingual field
+          - alignment: 1309 item(s) are kept and usable but their alignment is unverified, so they are excluded from standards coverage. Not a defect in the items — a gap in what can be claimed about coverage.
+          - alignment: 532 item(s) are provisional: the standard's verb rose or elements were added. Each needs a human alignment decision before it is Grade A.
+          - authoring-debt: 11463 distractors with no rationale
+          - authoring-debt: 3706 items with no dokRationale
+          - authoring-debt: 518 items missing a bilingual field
 [PASS] FORM-A/form-pagination — scanned 2, judged 14 — 14 rendered page(s) checked
 [PASS] FORM-A/form-type-size — scanned 2, judged 32983 — 32983 glyph(s) measured
 [PASS] FORM-A/form-key-leakage — scanned 1, judged 6 — 6 student page(s) checked
 [PASS] FORM-A/form-disclosure — scanned 2
 [PASS] FORM-A/teacher-side-isolation — scanned 18 — measures rendered student surfaces; items at rest are teacher-side by default
-[PASS] all-gates-measured — scanned 18 — 18/18 gates actually measured something
+[PASS] all-gates-measured — scanned 19 — 19/19 gates actually measured something
 
-11/19 gates pass (0 not measured).
-HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, serveability, choice-length-cue, duplicate-stems, release-readiness
+13/20 gates pass (0 not measured).
+HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, serveability, choice-length-cue, release-readiness
 Grade A requires ALL gates pass. "Close" is not "A."

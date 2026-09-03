@@ -131,7 +131,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
@@ -145,6 +145,16 @@
         ],
         "alignmentReview": {
           "verbChange": "describe -> determine"
+        },
+        "duplicate": {
+          "duplicateOf": "us-14-q01",
+          "survivorStandards": [
+            "US.16"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.10"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
         }
       },
       "alignmentStatus": "unverified"

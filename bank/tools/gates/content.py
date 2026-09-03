@@ -185,3 +185,58 @@ def gate_duplicate_stems(items, binding=None) -> Result:
                 f"{len(group)} items share one stem, filed under {codes}: "
                 f"\"{group[0]['stem'][:70]}…\""))
     return Result(name, not findings, len(items), findings, judged=judged)
+
+
+# ------------------------------------------------------- citation integrity
+# A bulk edit replaced PUBLICATION TITLES with REPOSITORY names across the
+# primary-source items, leaving the date intact and a dangling noun behind:
+#   'first published in Library of Congress, NAACP Records (loc.gov), June 1921'
+# where the source is Langston Hughes in The Crisis, June 1921. The repository
+# is where a scan lives; it is not where the work was published. These are the
+# DBQ and constructed-response items — the ones an adoption reviewer reads
+# first — so a wrong attribution here is a compliance problem, not a typo.
+_REPOSITORIES = r"(?:Library of Congress|National Archives|loc\.gov|archives\.gov|Project Gutenberg)"
+_CITATION_DEFECTS = [
+    (re.compile(r"\((?:loc|archives)\.gov\)\s+(magazine|newspaper|journal)", re.I),
+     "a repository is glued to '{0}' where the publication title was replaced"),
+    (re.compile(r"(?:first\s+)?published in\s+" + _REPOSITORIES, re.I),
+     "'published in' names a REPOSITORY, not a publication"),
+    (re.compile(r"reported in\s+[^,]{0,40},\s*" + _REPOSITORIES + r"[^)]*\)\s+(newspaper|magazine)", re.I),
+     "'reported in' names a repository followed by a dangling '{0}'"),
+]
+
+
+def gate_citation_integrity(items, binding=None) -> Result:
+    """A citation must name where a work was PUBLISHED, not where a scan lives.
+
+    Source of truth only: an item whose attribution is wrong does not ship, and
+    an unsourced item is worse than a missing one.
+    """
+    name = "citation-integrity"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    findings, judged, held = [], 0, 0
+    for it in items:
+        blob = " ".join([it.get("stem") or "", it.get("explanation") or "",
+                         str(it.get("correctAnswer") or "")])
+        if not re.search(r"published|reported in|loc\.gov|archives\.gov", blob, re.I):
+            continue
+        if not itemio.servable(it):
+            # Held out of service. The defect is real and still tracked in
+            # reviewed/citation-corrections.json; it just cannot reach a reader.
+            if it.get("citationStatus") == "corrupted-held":
+                held += 1
+            continue
+        judged += 1
+        if it.get("citationStatus") == "verified":
+            continue
+        for rx, msg in _CITATION_DEFECTS:
+            m = rx.search(blob)
+            if m:
+                detail = msg.format(*(m.groups() or ("",)))
+                findings.append(Finding(it.get("id", "?"),
+                    f"{detail}: …{m.group(0)[:80]}…", it.get("_file", "")))
+                break
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note=f"{judged} servable item(s) carry a citation" +
+                       (f"; {held} held out of service awaiting source verification" if held else ""))

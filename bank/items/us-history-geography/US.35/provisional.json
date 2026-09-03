@@ -4573,7 +4573,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "quarantined",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
@@ -4592,9 +4592,15 @@
           "elementsAddedToStandard": [
             "James Weldon Johnson"
           ]
+        },
+        "citationHold": {
+          "reason": "citation names a repository where a publication belongs",
+          "proposedPublication": "Survey Graphic, March 1925 (the 'Harlem: Mecca of the New Negro' number)",
+          "note": "content retained; not servable until a person verifies the source"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "citationStatus": "corrupted-held"
     },
     {
       "id": "q-us33-dok4-cr-5",
@@ -4669,7 +4675,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "quarantined",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
@@ -4688,9 +4694,15 @@
           "elementsAddedToStandard": [
             "James Weldon Johnson"
           ]
+        },
+        "citationHold": {
+          "reason": "citation names a repository where a publication belongs",
+          "proposedPublication": "Negro World (UNIA newspaper)",
+          "note": "content retained; not servable until a person verifies the source"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "citationStatus": "corrupted-held"
     },
     {
       "id": "q-us32-dok4-dbq-4",
@@ -4717,7 +4729,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "quarantined",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
@@ -4736,9 +4748,15 @@
           "elementsAddedToStandard": [
             "James Weldon Johnson"
           ]
+        },
+        "citationHold": {
+          "reason": "citation names a repository where a publication belongs",
+          "proposedPublication": "The Crisis (NAACP), June 1921",
+          "note": "content retained; not servable until a person verifies the source"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "citationStatus": "corrupted-held"
     },
     {
       "id": "q-us30-dok4-dbq-5",
@@ -4765,7 +4783,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "quarantined",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
@@ -4784,9 +4802,15 @@
           "elementsAddedToStandard": [
             "James Weldon Johnson"
           ]
+        },
+        "citationHold": {
+          "reason": "citation names a repository where a publication belongs",
+          "proposedPublication": "The Crisis (NAACP), August 1923",
+          "note": "content retained; not servable until a person verifies the source"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "citationStatus": "corrupted-held"
     },
     {
       "id": "U4-DOK3-0009",
@@ -5044,7 +5068,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "quarantined",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-4.json",
@@ -5063,9 +5087,15 @@
           "elementsAddedToStandard": [
             "James Weldon Johnson"
           ]
+        },
+        "citationHold": {
+          "reason": "citation names a repository where a publication belongs",
+          "proposedPublication": null,
+          "note": "content retained; not servable until a person verifies the source"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "citationStatus": "corrupted-held"
     },
     {
       "id": "q-us32-dok4-er-5",

@@ -3992,7 +3992,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "retired",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-3.json",
@@ -4008,6 +4008,16 @@
           "elementsAddedToStandard": [
             "Creel Committee"
           ]
+        },
+        "duplicate": {
+          "duplicateOf": "U7-DOK2-0004",
+          "survivorStandards": [
+            "US.80"
+          ],
+          "thisCopyWasFiledUnder": [
+            "US.28"
+          ],
+          "note": "retired as a duplicate stem; content retained, not servable"
         }
       },
       "alignmentStatus": "unverified"

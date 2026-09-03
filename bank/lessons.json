@@ -361,6 +361,36 @@
           "contains": "its CONTENT is untouched by the label"
         }
       ]
+    },
+    {
+      "id": "L25",
+      "mistake": "A bulk edit had replaced PUBLICATION TITLES with REPOSITORY names across the primary-source items, leaving the date intact and a dangling noun behind: Langston Hughes's 'The Negro Speaks of Rivers' read 'first published in Library of Congress, NAACP Records (loc.gov), June 1921' when it was published in The Crisis. A repository is where a scan lives, not where a work was published. No gate looked at citations at all, and these are the DBQ and constructed-response items an adoption reviewer reads first.",
+      "caughtBy": "reading six real items before authoring, rather than starting to write",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_citation_integrity"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "'published in <repository>' FAILS"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "naming a repository as where a scan is AVAILABLE is not a defect"
+        }
+      ]
+    },
+    {
+      "id": "L26",
+      "mistake": "The citation CORRECTION SHEET matched its proposals against the whole item, so a Marcus Garvey speech was proposed the publication of a Langston Hughes poem — the Garvey excerpt contains the words 'I, too' in its prose. A tool built to fix wrong attributions produced a wrong attribution, which is the L20 lesson again: an ASSIGNMENT must match on the narrowest evidence, here the citation line alone.",
+      "caughtBy": "reading the generated correction sheet instead of trusting it",
+      "guards": [
+        {
+          "file": "tools/hold_citations.py",
+          "contains": "def citation_line"
+        }
+      ]
     }
   ]
 }

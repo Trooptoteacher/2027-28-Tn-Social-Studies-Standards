@@ -152,6 +152,54 @@ check("punctuation/case differences still count as duplicates",
           [on_std(ON, id="X1"), on_std(ON.upper().replace("?", " ?"), id="X2")], B).passed)
 check("EMPTY scan FAILS", not content.gate_duplicate_stems([], B).passed)
 
+# ── citation integrity ───────────────────────────────────────────────────
+print("\n  citation-integrity — a citation names where a work was PUBLISHED")
+GOOD = ('Langston Hughes, "The Negro Speaks of Rivers," first published in The Crisis, '
+        'June 1921 (public domain).')
+BAD1 = ('Langston Hughes, "The Negro Speaks of Rivers," first published in Library of '
+        'Congress, NAACP Records (loc.gov), June 1921 (public domain).')
+BAD2 = ('Marcus Garvey, "Africa for the Africans," 1921, reported in Marcus Garvey Papers, '
+        'National Archives (archives.gov) newspaper (public domain).')
+
+ok = [A(on_std(ON, id=f"C-{n}", explanation=GOOD), "evidenced") for n in range(3)]
+r = content.gate_citation_integrity(ok, B)
+check("a citation naming the real publication PASSES", r.passed,
+      "; ".join(str(f) for f in r.findings[:2]))
+check("it judged the items carrying citations", r.judged == 3, f"judged={r.judged}")
+
+bad = copy.deepcopy(ok); bad[1]["explanation"] = BAD1
+r = content.gate_citation_integrity(bad, B)
+check("'published in <repository>' FAILS", not r.passed)
+check("the finding says a repository stands where a publication belongs",
+      any("REPOSITORY" in str(f) or "publication title was replaced" in str(f)
+          for f in r.findings), f"got {[str(f)[:100] for f in r.findings[:1]]}")
+
+bad2 = copy.deepcopy(ok); bad2[0]["explanation"] = BAD2
+check("a repository glued to a dangling 'newspaper' FAILS",
+      not content.gate_citation_integrity(bad2, B).passed)
+
+# A repository named as WHERE A SCAN LIVES is legitimate and must not be flagged.
+fine = copy.deepcopy(ok)
+fine[2]["explanation"] = ("W.E.B. Du Bois, The Souls of Black Folk (1903), available in the "
+                          "public domain through the Library of Congress and Project Gutenberg.")
+check("naming a repository as where a scan is AVAILABLE is not a defect",
+      content.gate_citation_integrity(fine, B).passed,
+      "; ".join(str(f) for f in content.gate_citation_integrity(fine, B).findings[:1]))
+
+check("an item with no citation at all is not judged",
+      content.gate_citation_integrity(
+          [A(on_std(ON, id="NC-1"), "evidenced")], B).judged == 0)
+check("EMPTY scan FAILS", not content.gate_citation_integrity([], B).passed)
+check("a human 'verified' citation is exempt",
+      content.gate_citation_integrity(
+          [dict(bad[1], citationStatus="verified")], B).passed)
+# Holding is a real remediation: a held item cannot reach a reader, so it does
+# not fail the gate — but it is counted in the note, never silently dropped.
+heldset = [dict(bad[1], status="quarantined", citationStatus="corrupted-held")] + ok[:2]
+r = content.gate_citation_integrity(heldset, B)
+check("a HELD item does not fail the gate (it cannot reach a reader)", r.passed)
+check("but the held count is reported, not hidden", "held out of service" in r.note, r.note)
+
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
 for f in FAILED:

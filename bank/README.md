@@ -76,7 +76,8 @@ carried the code faithfully. Structure gates are constitutionally unable to see 
 |---|---|---|
 | `alignment-claim` | an item CLAIMING an alignment nothing backs | **0** — all honestly labelled |
 | `choice-length-cue` | the key is the longest choice far above chance | **53.3%** vs 25% |
-| `duplicate-stems` | one question filed twice under two ids | **21 groups** |
+| `duplicate-stems` | one question filed twice under two ids | **21 groups → fixed** |
+| `citation-integrity` | a citation naming a REPOSITORY where a PUBLICATION belongs | **7 held** |
 
 ### Content quality and alignment confidence are separate axes
 
@@ -99,6 +100,18 @@ The gate fails a **dishonest claim**, never the existence of an unverified item.
 item may say "I don't know what standard this tests"; it may not say "I test US.05"
 when nothing supports that. `reviewed/relevance-allowlist.json` records human
 verification, one committed decision per item.
+
+**Citations.** A bulk edit had replaced publication titles with repository names across
+the primary-source items — Langston Hughes's "The Negro Speaks of Rivers" read *"first
+published in Library of Congress, NAACP Records (loc.gov), June 1921"* when it was
+published in ***The Crisis***. The date survived; the publication did not. A repository
+is where a scan lives, not where a work was published, and these are the DBQ items an
+adoption reviewer reads first.
+
+Those 7 items are **held** — content retained, not servable — and
+`reviewed/citation-corrections.json` proposes the real publication for each as a claim
+**a person must confirm**. Nothing was silently rewritten: this session cannot reach
+loc.gov, and a confidently wrong citation is the defect being fixed.
 
 **What these do NOT do:** they cannot tell you whether a stem's history is right. A
 wrong date, a key that is defensible but not best, a distractor that is accidentally
