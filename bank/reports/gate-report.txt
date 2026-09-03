@@ -84,6 +84,7 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-X036 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
           … and 910 more
 [PASS] embedded-answer-key — scanned 3986, judged 3956
+[PASS] review-provenance — scanned 3986, judged 19 — 19 approved, 0 awaiting review
 [FAIL] release-readiness — scanned 3956 — Grade A requires zero findings here. "Close" is not "A."
         7 finding(s):
           - reportingCategory: 86 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
@@ -99,8 +100,8 @@ Scanning items/us-history-geography — 3986 item(s)
 [PASS] FORM-A/form-disclosure — scanned 2
 [PASS] FORM-A/teacher-side-isolation — scanned 18 — measures rendered student surfaces; items at rest are teacher-side by default
 [PASS] FORM-A/form-blueprint — scanned 18, judged 3 — 3 standard(s) on this form
-[PASS] all-gates-measured — scanned 24 — 24/24 gates actually measured something
+[PASS] all-gates-measured — scanned 25 — 25/25 gates actually measured something
 
-16/25 applicable gates pass (0 not measured).
+17/26 applicable gates pass (0 not measured).
 HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, blueprint-achievability, serveability, choice-length-cue, explanation-quality, release-readiness
 Grade A requires ALL gates pass. "Close" is not "A."

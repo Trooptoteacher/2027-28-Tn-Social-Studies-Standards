@@ -613,6 +613,29 @@
           "contains": "share one placement rule"
         }
       ]
+    },
+    {
+      "id": "L41",
+      "mistake": "Human approval of authored content arrived as a sentence in conversation. Left there it is something the build 'knows' — which is how an unreviewed item ends up looking reviewed, and how an approval's SCOPE quietly widens. The authored rationales carry historical claims no gate can check ('Spain had lost its mainland American colonies eighty years earlier'), so the review CLAIM is the thing to gate, exactly as with alignment and translation.",
+      "caughtBy": "recording an approval and asking what would stop the next item from claiming it",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_review_provenance"
+        },
+        {
+          "file": "reviewed/historian-approvals.json",
+          "contains": "doesNotCover"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "an item CLAIMING review that no record names FAILS"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "authored content that is silently settled FAILS"
+        }
+      ]
     }
   ]
 }

@@ -420,3 +420,57 @@ def gate_embedded_key(items, binding=None) -> Result:
                     f"choice {c.get('id')} carries an answer-key marker", it.get("_file", "")))
                 break
     return Result(name, not findings, len(items), findings, judged=judged)
+
+
+# ------------------------------------------------------- review provenance
+def gate_review_provenance(items, binding=None) -> Result:
+    """An item may not claim human review without a record that names it.
+
+    Authored content carries historical claims no gate can check — "Spain had
+    lost its mainland American colonies eighty years earlier" is either right or
+    it is not, and only a person can say. That makes the review CLAIM the thing
+    worth gating, exactly as with alignment and translation: an item may say it
+    is awaiting review, and it may say a named person approved it on a named
+    date, but it may not say the second without the record.
+    """
+    name = "review-provenance"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    path = os.path.join(itemio.BANK_ROOT, "reviewed", "historian-approvals.json")
+    approved = {}
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as fh:
+            for rec in json.load(fh).get("approvals", []):
+                for iid in rec.get("items", []):
+                    approved[iid] = rec
+    findings, judged, pending = [], 0, 0
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        authored = (it.get("provenance") or {}).get("authoring")
+        review = it.get("historianReview")
+        if not authored and not review:
+            continue
+        judged += 1
+        if review:
+            rec = approved.get(it.get("id"))
+            if not rec:
+                findings.append(Finding(it.get("id", "?"),
+                    "claims historian review but no approval record names this item",
+                    it.get("_file", "")))
+            elif review.get("record") != rec["record"] or review.get("reviewer") != rec["reviewer"]:
+                findings.append(Finding(it.get("id", "?"),
+                    f"review stamp disagrees with the record ({review.get('reviewer')!r} vs "
+                    f"{rec['reviewer']!r})", it.get("_file", "")))
+            elif it.get("requiresHistorianReview"):
+                findings.append(Finding(it.get("id", "?"),
+                    "both approved and still flagged as requiring review", it.get("_file", "")))
+        elif authored and not it.get("requiresHistorianReview"):
+            findings.append(Finding(it.get("id", "?"),
+                "carries authored content but neither claims review nor flags that it needs "
+                "one — authored historical claims are never silently settled",
+                it.get("_file", "")))
+        elif authored:
+            pending += 1
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note=f"{judged - pending} approved, {pending} awaiting review")

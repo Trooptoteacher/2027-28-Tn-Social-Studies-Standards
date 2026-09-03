@@ -9,6 +9,7 @@ proofs assert that exemption is reported rather than silently passed.
 from __future__ import annotations
 
 import copy
+import json
 import os
 import sys
 
@@ -292,6 +293,52 @@ check("a stem containing its own choice list FAILS", not r.passed)
 check("the finding says the student reads every option twice",
       any("twice" in str(f) for f in r.findings))
 check("EMPTY scan FAILS", not content.gate_embedded_key([], B).passed)
+
+# ── review provenance ────────────────────────────────────────────────────
+print("\n  review-provenance — an approval is a fact about named items, not a mood")
+import os as _os
+REAL_REC = _os.path.join(_os.path.dirname(HERE), "reviewed", "historian-approvals.json")
+real = json.load(open(REAL_REC, encoding="utf-8"))["approvals"][0]
+known = real["items"][0]
+stamp = {"status": "approved", "record": real["record"],
+         "reviewer": real["reviewer"], "date": real["date"]}
+
+def authored(iid, **over):
+    it = A(on_std(ON, id=iid), "evidenced")
+    it["provenance"] = {"authoring": {"record": "form-a.json"}}
+    it["requiresHistorianReview"] = True
+    it.update(over)
+    return it
+
+check("an authored item awaiting review PASSES",
+      content.gate_review_provenance([authored("P-1")], REAL_B).passed)
+check("an authored item approved by a REAL record PASSES",
+      content.gate_review_provenance(
+          [authored(known, historianReview=stamp, requiresHistorianReview=False)],
+          REAL_B).passed)
+
+r = content.gate_review_provenance(
+    [authored("FAKE-1", historianReview=stamp, requiresHistorianReview=False)], REAL_B)
+check("an item CLAIMING review that no record names FAILS", not r.passed)
+check("the finding says no record names it",
+      any("no approval record names this item" in str(f) for f in r.findings))
+
+r = content.gate_review_provenance(
+    [authored(known, historianReview={**stamp, "reviewer": "Someone Else"},
+              requiresHistorianReview=False)], REAL_B)
+check("a stamp naming a different reviewer than the record FAILS", not r.passed)
+
+r = content.gate_review_provenance(
+    [authored(known, historianReview=stamp, requiresHistorianReview=True)], REAL_B)
+check("approved AND still flagged as needing review FAILS", not r.passed)
+
+r = content.gate_review_provenance([authored("S-1", requiresHistorianReview=False)], REAL_B)
+check("authored content that is silently settled FAILS", not r.passed)
+check("the finding says authored claims are never silently settled",
+      any("never silently settled" in str(f) for f in r.findings))
+check("an unauthored item is not judged",
+      content.gate_review_provenance([A(on_std(ON, id="U-1"), "evidenced")], REAL_B).judged == 0)
+check("EMPTY scan FAILS", not content.gate_review_provenance([], REAL_B).passed)
 
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")

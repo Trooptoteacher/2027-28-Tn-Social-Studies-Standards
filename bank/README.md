@@ -251,7 +251,7 @@ It has already earned its place: it caught a refactor that silently deleted an
 invariant comment `run_gates.py` was cited for, and three ledger entries pointing at
 strings that did not exist.
 
-**40 lessons, 81 guards** — among them:
+**41 lessons, 85 guards** — among them:
 
 | | |
 |---|---|
@@ -295,8 +295,20 @@ write a distractor rationale onto the key, to name a choice the item does not ha
 let two distractors on one item claim the same misconception — it validates the whole
 record before writing anything, because a partial content write is worse than none.
 
-Every authored item carries `requiresHistorianReview: true`. A rationale explaining a
+Every authored item starts at `requiresHistorianReview: true`. A rationale explaining a
 misconception is still a historical claim.
+
+**Review is a record, not a memory.** `reviewed/historian-approvals.json` names the
+reviewer, the date, the items and — importantly — what the approval does **not** cover.
+`review-provenance` fails any item claiming review that no record names, any stamp
+disagreeing with its record, and any authored item that is silently settled with neither
+an approval nor a pending flag.
+
+FORM-A's 19 authored items were reviewed and approved by Sean Reynolds on 2026-09-03.
+That approval covers the historical and instructional content; it explicitly does **not**
+cover the Spanish translations (a separate competency — `translationStatus` stays
+`needs-review`) or the 7 held citations (which need source verification, not content
+review).
 
 ## Scoping the work before doing it
 

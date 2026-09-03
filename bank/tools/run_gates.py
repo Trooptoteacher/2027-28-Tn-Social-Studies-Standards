@@ -39,6 +39,7 @@ GATES = [
     content.gate_translation_claim,
     content.gate_explanation_quality,
     content.gate_embedded_key,
+    content.gate_review_provenance,
     # teacher-side-isolation is a FORM gate, not a bank gate: items at rest
     # carry no surface, so running it here could only ever be vacuous. It runs
     # once per rendered form, below.

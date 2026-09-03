@@ -1,0 +1,52 @@
+{
+  "$comment": "Human review of authored content. An item may not claim it has cleared historian review without an entry here naming the reviewer, the date and the scope. gate_review_provenance fails any item that claims otherwise.",
+  "approvals": [
+    {
+      "record": "form-a-authoring-2026-09-03",
+      "reviewer": "Sean Reynolds",
+      "role": "M.Ed., Tennessee Level 5 U.S. History teacher; course owner",
+      "date": "2026-09-03",
+      "statement": "Reviewed and approved",
+      "scope": {
+        "covers": [
+          "distractor explanations and misconception labels",
+          "DOK rationales",
+          "key explanations rewritten",
+          "choice text rewritten for the length-cue balance"
+        ],
+        "doesNotCover": [
+          "Spanish translations — the reviewer approved the historical and instructional content; translation review is a separate competency and translationStatus stays needs-review until a Spanish reader signs off",
+          "the 7 held primary-source citations — those need verification against the source, not content review"
+        ]
+      },
+      "authoringRecords": [
+        "form-a-balance.json",
+        "form-a-rebalance.json",
+        "form-a-v2.json",
+        "form-a-v3.json",
+        "form-a.json"
+      ],
+      "items": [
+        "PS-0065",
+        "PS-0067",
+        "PS-0090",
+        "PSTIM-0041",
+        "PSTIM-0124",
+        "PSTIM-0130",
+        "PSTIM-0149",
+        "STIM-0019",
+        "U5-DOK2-0027",
+        "U7-DOK1-0002",
+        "U7-DOK2-0001",
+        "q-us2-dok4-cr2",
+        "q-us3-dok4-cr3",
+        "q-us44-dok1-2",
+        "q-us44-dok2-1",
+        "q-us45-dok1-1",
+        "q-us45-dok2-8",
+        "q-us57-dok1-3",
+        "q-us6-dok4-cr3"
+      ]
+    }
+  ]
+}
