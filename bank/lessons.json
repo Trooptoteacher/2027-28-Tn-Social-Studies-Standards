@@ -1130,6 +1130,56 @@
           "contains": "is N/A with a reason, not NOT MEASURED"
         }
       ]
+    },
+    {
+      "id": "L64",
+      "mistake": "I created 79 items of review debt out of nothing. Extracting the scoring guides out of the `explanation` field and into a structured `rubric` field stamped every one `needs-review` — but none of that content was new. All 79 were migrated or provisional bank text moving fields UNCHANGED, zero carried authored provenance, and the extraction gate already proved the move was faithful. They were never Sean's to review, and they inflated his queue from 40 to 119. Review debt is the scarcest resource in this project: he is the only reviewer it has, so a queue padded with work nobody needed to do is not a neutral error — it buries the ten rows that genuinely need a person and it teaches whoever is reading to skim. A structural relocation does not create a review obligation; relocated content inherits the item's status and says so. `needs-review` on a component is now a claim that something was AUTHORED, and gate_review_debt fails anything else. Related: asking a reviewer to compose 30 replacement sentences when 28 of them only need one sentence deleted is the same waste in a different shape — the pass now checks whether a finished argument survives the deletion and drafts the before/after.",
+      "caughtBy": "Sean asking a question that made me re-examine what was actually on his desk",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_review_debt"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "a relocation is not authoring"
+        },
+        {
+          "file": "tools/extract_rubrics.py",
+          "contains": "A structural relocation does not create a review"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "gate_review_debt"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a RELOCATED rubric may not be flagged needs-review"
+        }
+      ]
+    },
+    {
+      "id": "L65",
+      "mistake": "EVERY new gate I add reports NOT MEASURED the first time it is scoped to a form, and NOT MEASURED fails all-gates-measured. It has now happened five times — the choice-length cue below four items (L49), the rubric-descriptor floor on a correct zero band (L59), two matchers on the DBQ activities (L62), ai-review-boundary on a form nobody had AI-reviewed, and review-debt on a selected-response form that carries no rubrics. The vacuous-pass discipline is right and is not what is failing: 'nothing here has a rubric' and 'this was not measured' are different statements, and only the first is true. A gate whose population can legitimately be empty in a narrower scope needs an N/A path WITH A STATED REASON, written at the same time as the gate — not after the pipeline fails. The tell is the same every time: I write the gate against the bank, where its population is never empty, and never run it against a form before wiring it.",
+      "caughtBy": "the pipeline, five times, which is four times more than it should have taken",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "there is no relocation to check"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "there is no review boundary to cross here"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "is N/A with a reason, not NOT MEASURED"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a set with NO rubric is N/A with a reason"
+        }
+      ]
     }
   ]
 }

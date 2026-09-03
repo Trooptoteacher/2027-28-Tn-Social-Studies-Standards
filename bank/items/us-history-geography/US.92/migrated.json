@@ -186,19 +186,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is C. Its explanation says: \"B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is C. Delete this intruding sentence? Read the AFTER text — if it still says why C is right, this is a yes.",
             "evidence": [
               "key is 'C'; key text is 'She became the first woman to serve as Speaker of the House'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.",
+              "before": "Nancy Pelosi made history in 2007 by becoming the first woman to serve as Speaker of the House. B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement. It also helps explain how symbolic breakthroughs can change who Americans imagine in positions of power.",
+              "after": "Nancy Pelosi made history in 2007 by becoming the first woman to serve as Speaker of the House. It also helps explain how symbolic breakthroughs can change who Americans imagine in positions of power."
             }
           }
         ],
@@ -468,19 +472,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is C. Its explanation says: \"B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is C. Delete this intruding sentence? Read the AFTER text — if it still says why C is right, this is a yes.",
             "evidence": [
               "key is 'C'; key text is 'She became the first woman to serve as Speaker of the House in 2007'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.",
+              "before": "Nancy Pelosi made history in 2007 by becoming the first woman to serve as Speaker of the House. B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement. The topic reflects a broader expansion of representation in American public life, even as barriers did not disappear overnight.",
+              "after": "Nancy Pelosi made history in 2007 by becoming the first woman to serve as Speaker of the House. The topic reflects a broader expansion of representation in American public life, even as barriers did not disappear overnight."
             }
           }
         ],
@@ -2465,19 +2473,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is D. Its explanation says: \"B is incorrect because it names a different institution or power than the one the item asks about; D is incorrect because it names a different institution or power than the one the item asks about.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is D. Delete this intruding sentence? Read the AFTER text — if it still says why D is right, this is a yes.",
             "evidence": [
               "key is 'D'; key text is 'Changing political priorities of presidents who recognized the symbolic and prac'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is incorrect because it names a different institution or power than the one the item asks about; D is incorrect because it names a different institution or power than the one the item asks about.",
+              "before": "A more diverse Supreme Court reflects changing priorities in presidential appointments and the belief that the judiciary should not be limited to one social group. B is incorrect because it names a different institution or power than the one the item asks about; D is incorrect because it names a different institution or power than the one the item asks about. It also helps explain how symbolic breakthroughs can change who Americans imagine in positions of power.",
+              "after": "A more diverse Supreme Court reflects changing priorities in presidential appointments and the belief that the judiciary should not be limited to one social group. It also helps explain how symbolic breakthroughs can change who Americans imagine in positions of power."
             }
           }
         ],
@@ -3095,19 +3107,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"B is wrong because banks still had legal disclosure obligations, and C is wrong because the lesson was not that all financial innovation is inherently bad.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'Deregulation of the financial industry in the 1990s and 2000s had removed safegu'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is wrong because banks still had legal disclosure obligations, and C is wrong because the lesson was not that all financial innovation is inherently bad.",
+              "before": "The crisis suggested that decades of financial deregulation had removed safeguards and encouraged reckless risk-taking in housing and banking. B is wrong because banks still had legal disclosure obligations, and C is wrong because the lesson was not that all financial innovation is inherently bad. The crash sparked renewed debates over how tightly Wall Street should be regulated.",
+              "after": "The crisis suggested that decades of financial deregulation had removed safeguards and encouraged reckless risk-taking in housing and banking. The crash sparked renewed debates over how tightly Wall Street should be regulated."
             }
           }
         ],
@@ -3382,19 +3398,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is D. Its explanation says: \"D is wrong because the speech did not persuade France and Russia to support the invasion.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is D. Delete this intruding sentence? Read the AFTER text — if it still says why D is right, this is a yes.",
             "evidence": [
               "key is 'D'; key text is \"Powell later called it a 'blot' on his record after the WMD claims proved false\"",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "D is wrong because the speech did not persuade France and Russia to support the invasion.",
+              "before": "Colin Powell's 2003 UN speech became historically important because the WMD claims he presented later proved false, and Powell himself called it a stain on his record. D is wrong because the speech did not persuade France and Russia to support the invasion. The moment became a symbol of faulty intelligence and overconfidence before the war.",
+              "after": "Colin Powell's 2003 UN speech became historically important because the WMD claims he presented later proved false, and Powell himself called it a stain on his record. The moment became a symbol of faulty intelligence and overconfidence before the war."
             }
           }
         ],

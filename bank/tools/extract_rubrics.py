@@ -88,10 +88,21 @@ def main():
         if len(bands) != top + 1:
             missing.append(f"{it['id']} (guide names {top} points, {len(bands)} bands parsed)")
             continue
+        # NOT "needs-review". A structural relocation does not create a review
+        # obligation: this text was already in the bank, already in use, and is
+        # moving fields unchanged — the fidelity check proves that. Stamping
+        # needs-review on all 79 put 79 rows on the only reviewer's desk that
+        # were never his to read, and inflated the queue by two thirds (L64).
+        # The scoring guide carries whatever review status the ITEM carries;
+        # what is verified here is that the move was faithful.
         found[it["id"]] = {"scorePoints": top, "criteria": bands, "status": "extracted",
                            "extractedFrom": "explanation",
                            "notes": " ".join(leftover) or None,
-                           "reviewStatus": "needs-review"}
+                           "reviewStatus": "inherits-item",
+                           "extractionVerified": True,
+                           "reviewNote": ("content unchanged from the item's own explanation "
+                                          "field; it is exactly as reviewed, or unreviewed, as "
+                                          "the item it came from")}
 
     print(f"\n{len(found)} extended-response item(s) carry a parseable scoring guide")
     for k, v in list(found.items())[:6]:

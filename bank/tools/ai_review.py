@@ -121,18 +121,43 @@ def check_key_contradiction(it, sheet):
     if not row:
         return None
     key, sent = row["key"], row["offendingSentence"]
+    exp = it.get("explanation") or ""
+    after = " ".join(exp.replace(sent, "").split())
+    # Whether DELETION alone is enough is checkable: what remains must still be
+    # a finished argument. The blanket warning that deleting leaves the
+    # rationale stopping mid-sentence is true for some and not for most — and
+    # asking a reviewer to compose 30 sentences when 26 of them only need a
+    # sentence removed is spending the scarcest thing in this project on
+    # nothing.
+    sentences = [x for x in re.split(r"(?<=[.!?])\s+", after) if x.strip()]
+    intact = (len(sentences) >= 2 and after.rstrip().endswith((".", "!", "?"))
+              and len(after) > 80)
+    if intact:
+        return _rec(it, "key-contradiction", FIX,
+                    f"The key is {key}. Delete this intruding sentence? Read the AFTER text — "
+                    f"if it still says why {key} is right, this is a yes.",
+                    [f"key is {key!r}; key text is {str(row.get('keyText'))[:80]!r}",
+                     "the sentence is a distractor rationale left pointing at the old letter",
+                     f"after deletion the rationale is still {len(sentences)} finished "
+                     f"sentence(s) and ends on terminal punctuation",
+                     "the RENDERED form is already correct — remap_letters fixes the page"],
+                    ["whether the key itself is correct — a claim about history",
+                     "whether the remaining sentences say enough about why the key is right",
+                     "whether the REMAINING text is itself sound — this pass checks that a "
+                     "finished argument survives the deletion, not that it reads well. At "
+                     "least one item's remainder is mangled prose ('highlights city became "
+                     "major center steel production'), which no gate here detects"],
+                    draft={"action": "delete one sentence",
+                           "delete": sent, "before": " ".join(exp.split()), "after": after})
     return _rec(it, "key-contradiction", FIX,
-                f"The key is {key}. Its explanation says: \"{sent}\" — is the KEY still right, "
-                f"and if so what should this sentence say instead?",
+                f"The key is {key}. Its explanation says: \"{sent}\" — deleting it leaves too "
+                f"little behind. What should this rationale say instead?",
                 [f"key is {key!r}; key text is {str(row.get('keyText'))[:80]!r}",
-                 "the sentence is a distractor rationale left pointing at the old key letter",
-                 "the RENDERED form is already correct — forms.remap_letters fixes the page"],
-                ["whether the key itself is correct — that is a claim about history",
-                 "what the replacement sentence should assert"],
-                draft={"action": "delete the sentence and replace it with one saying why the "
-                                 "key is right",
-                       "doNotDo": "deleting it outright leaves the rationale stopping "
-                                  "mid-argument, which is the next defect"})
+                 "the sentence is a distractor rationale left pointing at the old letter",
+                 f"deletion leaves only {len(sentences)} sentence(s) — not a finished argument"],
+                ["whether the key itself is correct — a claim about history",
+                 "what the replacement should assert"],
+                draft={"action": "rewrite", "remove": sent, "wouldLeave": after})
 
 
 def check_translation(it):

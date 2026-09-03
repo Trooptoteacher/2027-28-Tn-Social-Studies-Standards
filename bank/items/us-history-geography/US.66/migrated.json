@@ -182,19 +182,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is D. Its explanation says: \"B is wrong because highways were a transportation change, not a medical advance, and D is wrong because it describes a broad result rather than the specific breakthrough.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is D. Delete this intruding sentence? Read the AFTER text — if it still says why D is right, this is a yes.",
             "evidence": [
               "key is 'D'; key text is \"Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease\"",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is wrong because highways were a transportation change, not a medical advance, and D is wrong because it describes a broad result rather than the specific breakthrough.",
+              "before": "Jonas Salk's polio vaccine, introduced in 1955, sharply reduced a disease that had terrified families and paralyzed thousands of children. B is wrong because highways were a transportation change, not a medical advance, and D is wrong because it describes a broad result rather than the specific breakthrough. The vaccine strengthened public faith in science and public-health campaigns during the postwar era.",
+              "after": "Jonas Salk's polio vaccine, introduced in 1955, sharply reduced a disease that had terrified families and paralyzed thousands of children. The vaccine strengthened public faith in science and public-health campaigns during the postwar era."
             }
           }
         ],
@@ -1188,19 +1192,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"B is wrong because the polio vaccine had nothing to do with highway policy.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'Improving civilian transportation while supporting national defense logistics'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is wrong because the polio vaccine had nothing to do with highway policy.",
+              "before": "Eisenhower justified the Interstate Highway System partly as a way to improve civilian travel while also moving troops and supplies quickly in an emergency. B is wrong because the polio vaccine had nothing to do with highway policy. Cold War defense concerns helped win support for a major domestic building project.",
+              "after": "Eisenhower justified the Interstate Highway System partly as a way to improve civilian travel while also moving troops and supplies quickly in an emergency. Cold War defense concerns helped win support for a major domestic building project."
             }
           }
         ],
@@ -1564,19 +1572,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is A. Its explanation says: \"A is wrong because Congress did not need to vote before FEMA could spend major disaster funds.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is A. Delete this intruding sentence? Read the AFTER text — if it still says why A is right, this is a yes.",
             "evidence": [
               "key is 'A'; key text is 'The Act required a congressional vote before FEMA could deploy resources exceedi'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "A is wrong because Congress did not need to vote before FEMA could spend major disaster funds.",
+              "before": "Katrina showed that disaster law could delay federal action because FEMA depended heavily on formal state requests and clear lines of authority before moving fully. A is wrong because Congress did not need to vote before FEMA could spend major disaster funds. The storm exposed how rigid federal rules can slow response in a fast-moving catastrophe.",
+              "after": "Katrina showed that disaster law could delay federal action because FEMA depended heavily on formal state requests and clear lines of authority before moving fully. The storm exposed how rigid federal rules can slow response in a fast-moving catastrophe."
             }
           }
         ],

@@ -1403,19 +1403,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is D. Its explanation says: \"D is wrong because it describes the New Frontier itself, not the effect of Kennedy's death.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is D. Delete this intruding sentence? Read the AFTER text — if it still says why D is right, this is a yes.",
             "evidence": [
               "key is 'D'; key text is 'It traumatized the nation and created sympathy that helped pass his legislative '",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "D is wrong because it describes the New Frontier itself, not the effect of Kennedy's death.",
+              "before": "Kennedy's assassination shocked the nation and created a wave of sympathy that helped Lyndon Johnson push parts of Kennedy's agenda through Congress. D is wrong because it describes the New Frontier itself, not the effect of Kennedy's death. The tragedy became a turning point in American politics and public memory.",
+              "after": "Kennedy's assassination shocked the nation and created a wave of sympathy that helped Lyndon Johnson push parts of Kennedy's agenda through Congress. The tragedy became a turning point in American politics and public memory."
             }
           }
         ],
@@ -2176,19 +2180,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"B is wrong because the Peace Corps was only one program, not the broader legacy.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'They provided legislative foundations that Johnson advanced through Great Societ'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is wrong because the Peace Corps was only one program, not the broader legacy.",
+              "before": "Even when Kennedy did not get all of his proposals passed, the New Frontier shaped later laws by giving Johnson ideas and political groundwork to build on. B is wrong because the Peace Corps was only one program, not the broader legacy. This continuity shows how presidential agendas can matter even beyond one administration.",
+              "after": "Even when Kennedy did not get all of his proposals passed, the New Frontier shaped later laws by giving Johnson ideas and political groundwork to build on. This continuity shows how presidential agendas can matter even beyond one administration."
             }
           }
         ],

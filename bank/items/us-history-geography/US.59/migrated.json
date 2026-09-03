@@ -1517,19 +1517,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is C. Its explanation says: \"C is incorrect because it describes a different program, event, or idea than this Cold War development.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is C. Delete this intruding sentence? Read the AFTER text — if it still says why C is right, this is a yes.",
             "evidence": [
               "key is 'C'; key text is 'The first peacetime military alliance in American history, entangling the U.S. i'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 3 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "C is incorrect because it describes a different program, event, or idea than this Cold War development.",
+              "before": "Both A and C correctly describe NATO's significance. The alliance tied the United States permanently to Western Europe's defense during the Cold War. C is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+              "after": "Both A and C correctly describe NATO's significance. The alliance tied the United States permanently to Western Europe's defense during the Cold War. It shaped the early Cold War and the postwar order the United States helped build after 1945."
             }
           }
         ],
@@ -4394,7 +4398,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Document A SOAPS — the universalist framing as strategic choice; the commencement setting as public communication platform; the invitation to all nations as a calculated gamble. Document B SOAPS — Molotov's 'sovereignty' argument as proxy for Soviet hegemony concerns; the Paris conference as the turning point that crystallized European division; the accusation of U.S. interference as revealing of Soviet satellite-state model. KEY EVIDENCE EXPECTED: $13.3 billion in aid; Western European GDP recovery (1948–1952); OEEC creation; Molotov Plan and COMECON; Czech coup (February 1948) occurring simultaneously; Berlin Blockade (June 1948) as Soviet counter-pressure.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",

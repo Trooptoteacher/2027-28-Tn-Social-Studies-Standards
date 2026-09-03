@@ -1752,19 +1752,20 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is D. Its explanation says: \"Option D is incorrect because this ideology directly shaped federal land and military policy throughout the 19th century.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is D. Its explanation says: \"Option D is incorrect because this ideology directly shaped federal land and military policy throughout the 19th century.\" — deleting it leaves too little behind. What should this rationale say instead?",
             "evidence": [
               "key is 'D'; key text is 'It provided ideological justification for westward territorial expansion and the'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "deletion leaves only 1 sentence(s) — not a finished argument"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "what the replacement should assert"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "rewrite",
+              "remove": "Option D is incorrect because this ideology directly shaped federal land and military policy throughout the 19th century.",
+              "wouldLeave": "Manifest Destiny — the belief that American expansion across the continent was divinely ordained and inevitable — justified the removal of American Indians from their lands, broken treaties, and the reservation system as necessary steps in a foreordained national progress."
             }
           }
         ],
@@ -1856,19 +1857,20 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is A. Its explanation says: \"Option A is incorrect because the Great Plains suffer from insufficient rainfall and drought, not flooding.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is A. Its explanation says: \"Option A is incorrect because the Great Plains suffer from insufficient rainfall and drought, not flooding.\" — deleting it leaves too little behind. What should this rationale say instead?",
             "evidence": [
               "key is 'A'; key text is 'Insufficient timber for construction, scarce water, periodic droughts, and hard '",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "deletion leaves only 1 sentence(s) — not a finished argument"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "what the replacement should assert"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "rewrite",
+              "remove": "Option A is incorrect because the Great Plains suffer from insufficient rainfall and drought, not flooding.",
+              "wouldLeave": "Great Plains homesteaders faced a harsh semi-arid environment — treeless, with hard sod and unreliable rainfall — that rendered Eastern farming methods useless and required technological adaptations like steel-tipped plows, windmills, and dry-farming techniques."
             }
           }
         ],
@@ -3884,7 +3886,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: 13th Amendment Section 1 exception clause ('except as a punishment for crime'); Mississippi Vagrancy Law's targeting of freedpeople without employment; the racial double standard in fines (freedpeople fined $50, white persons $200); the coercive labor system that followed conviction; the 14th Amendment's equal protection clause as federal response; the Freedmen's Bureau's role in mediating labor contracts and providing legal recourse.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",

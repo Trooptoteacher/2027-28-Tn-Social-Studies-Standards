@@ -79,7 +79,7 @@ can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **63 lessons, 170 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **65 lessons, 179 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -320,9 +320,15 @@ gate, satisfies no provenance, and lets nothing ship**.
 
 | | | what it is |
 |---|---|---|
-| **79** | fast confirm | rubrics whose every band was verified to appear **verbatim** in the item's own text — extracted, not authored |
-| **30** | fix drafted | the key-contradiction sentences, each with the exact sentence and what the replacement must assert. **Not applied** |
+| **28** | delete one sentence | key contradictions where the drafted deletion leaves a finished argument. Before/after shown; **not applied** |
+| **2** | rewrite | key contradictions where deletion leaves too little behind |
 | **10** | needs you | authored content and the four rubrics I wrote — historical and pedagogical claims |
+
+**The queue was 119 and 79 of those rows were my fault.** Extracting the scoring guides out of
+`explanation` stamped all 79 `needs-review` — but none of that content was new. All 79 were
+migrated bank text moving fields unchanged, zero carried authored provenance, and the extraction
+gate already proved the move was faithful. They were never yours to review. `gate_review_debt`
+now fails any component flagged `needs-review` that was not actually authored. See §L64.
 
 **Every recommendation carries its evidence and its cannot-verify list.** A verdict with no
 evidence is an opinion; a reviewer that never says "I don't know" is not reviewing.

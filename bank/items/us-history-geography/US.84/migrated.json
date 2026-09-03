@@ -181,19 +181,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is A. Its explanation says: \"A is incorrect because that refers to Watergate rather than the concept asked about here; D is incorrect because it names a different institution or power than the one the item asks about.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is A. Delete this intruding sentence? Read the AFTER text — if it still says why A is right, this is a yes.",
             "evidence": [
               "key is 'A'; key text is \"A break-in at Democratic headquarters and Nixon's cover-up that led to his resig\"",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "A is incorrect because that refers to Watergate rather than the concept asked about here; D is incorrect because it names a different institution or power than the one the item asks about.",
+              "before": "Watergate began with a break-in at Democratic National Committee headquarters and grew into a scandal because Nixon and his aides tried to cover it up. A is incorrect because that refers to Watergate rather than the concept asked about here; D is incorrect because it names a different institution or power than the one the item asks about. It also shows why constitutional checks matter when presidents try to expand their power.",
+              "after": "Watergate began with a break-in at Democratic National Committee headquarters and grew into a scandal because Nixon and his aides tried to cover it up. It also shows why constitutional checks matter when presidents try to expand their power."
             }
           }
         ],

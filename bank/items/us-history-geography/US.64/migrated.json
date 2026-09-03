@@ -827,19 +827,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"B is wrong because the program was broader than targeted individual warrants.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'Major internet and technology companies — including Google, Facebook, and Apple '",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is wrong because the program was broader than targeted individual warrants.",
+              "before": "PRISM collected data from major internet companies such as Google, Facebook, and Apple under secret surveillance programs revealed by Snowden. B is wrong because the program was broader than targeted individual warrants. The revelation showed how far post-9/11 surveillance had expanded into digital life.",
+              "after": "PRISM collected data from major internet companies such as Google, Facebook, and Apple under secret surveillance programs revealed by Snowden. The revelation showed how far post-9/11 surveillance had expanded into digital life."
             }
           }
         ],
@@ -3478,7 +3482,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS (HIPP for all three): Doc 1 — Cold War context, unanimous Court, sociological evidence (Clark doll studies), 14th Amendment Equal Protection; Doc 2 — Massive resistance, 101 Southern congressmen, constitutional pretext, political audience, blocking enforcement; Doc 3 — Faubus crisis, Eisenhower's institutional (not ideological) motivation, executive enforcement power, military deployment. KEY EVIDENCE EXPECTED: Brown II implementation decree (1955); massive resistance movement; Governor Faubus and Arkansas National Guard; 101st Airborne deployment; Supremacy Clause; Cold War context of desegregation; Southern Democrats' committee power in Congress; gap leading to Civil Rights Act 1964 and VRA 1965.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",

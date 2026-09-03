@@ -1300,19 +1300,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is D. Its explanation says: \"D is wrong because advertising shaped buying habits more than shared culture, and C is wrong because it focuses on campaigns.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is D. Delete this intruding sentence? Read the AFTER text — if it still says why D is right, this is a yes.",
             "evidence": [
               "key is 'D'; key text is 'Families across regions watched the same news, sports, and entertainment program'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "D is wrong because advertising shaped buying habits more than shared culture, and C is wrong because it focuses on campaigns.",
+              "before": "Television helped create a national popular culture because families in different regions watched the same news, sports, and entertainment shows. D is wrong because advertising shaped buying habits more than shared culture, and C is wrong because it focuses on campaigns. TV made Americans more likely to share common celebrities, programs, and public moments.",
+              "after": "Television helped create a national popular culture because families in different regions watched the same news, sports, and entertainment shows. TV made Americans more likely to share common celebrities, programs, and public moments."
             }
           }
         ],
@@ -3871,7 +3875,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Students should identify the H (historical context of 1963 march vs. 1964 DNC challenge), I (mass public audience vs. party committee), P (demand for immediate systemic change vs. exposure of racial violence), P (young militant organizer vs. grassroots sharecropper activist). KEY EVIDENCE EXPECTED: Lewis's criticism of the civil rights bill as \"too little and too late,\" his call for revolution, the \"scorched earth\" metaphor (moderated version still radical); Hamer's personal testimony of beating in Winona jail, her challenge to American ideals, MFDP challenge to Mississippi's all-white delegation.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",

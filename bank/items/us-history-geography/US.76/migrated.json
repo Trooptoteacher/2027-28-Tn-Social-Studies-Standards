@@ -3378,19 +3378,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"B is incorrect because it describes a different program, event, or idea than this civil rights development.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'Congressional passage of the Civil Rights Act of 1968 (Fair Housing Act) within '",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is incorrect because it describes a different program, event, or idea than this civil rights development.",
+              "before": "Both A and B were immediate consequences of King's assassination. B is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
+              "after": "Both A and B were immediate consequences of King's assassination. It helped push the United States toward a broader definition of citizenship and equal rights."
             }
           }
         ],
@@ -9348,7 +9352,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Doc 1 — Scranton Commission as Nixon-appointed body condemning Kent State killings; significance of government self-condemnation; Doc 2 — Kerry as veteran/insider witness, VVAW's Dewey Canyon III occasion, Senate audience, purpose to delegitimize the war, significance of veterans as anti-war voice; Doc 3 — Nixon as resigning president, occasion of first-ever presidential resignation, audience as American people, purpose to frame resignation as sacrifice, significance of gap between stated reason (political base) and actual reason (criminal conduct). KEY EVIDENCE EXPECTED: Kent State killings (May 4, 1970) and context of Cambodia invasion announcement; VVAW Winter Soldier Investigation (1971) and Dewey Canyon III; Watergate break-in (June 1972) through resignation (August 1974); Pentagon Papers and New York Times v. United States (1971); Gallup polling on government trust post-Watergate; Church Committee investigations (1975); Campaign Finance Reform (FECA 1974); War Powers Resolution (1973).",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",
@@ -9528,7 +9534,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Governor Faubus's use of Arkansas National Guard to block integration (Sept. 4, 1957); mob violence on September 23; Eisenhower's deployment of the 101st Airborne (deployment ordered Sept. 24, 1957; first escorted attendance Sept. 25); federalization of Arkansas National Guard; Eisenhower's personal ambivalence toward Brown; Supremacy Clause and Article II constitutional basis; Reconstruction-era Enforcement Acts as precedent; Civil Rights Act of 1964 Title II and VII enforcement through DOJ and EEOC.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",
@@ -9636,7 +9644,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Birmingham campaign (1963) and Bull Connor; March on Washington (August 28, 1963); JFK's June 11, 1963 civil rights address; Howard W. Smith's sex amendment; EEOC creation under Title VII; Title I voting limitations; 24th Amendment (1964); Fannie Lou Hamer's DNC testimony (1964); SNCC voter registration drives; Selma to Montgomery marches (1965) as precipitating factor for VRA.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",

@@ -96,19 +96,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'Standard Oil'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+              "before": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup. Her investigation became one of the best-known examples of muckraking journalism shaping reform, and here the emphasis is on company Ida Tarbell expose her investigative.",
+              "after": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Her investigation became one of the best-known examples of muckraking journalism shaping reform, and here the emphasis is on company Ida Tarbell expose her investigative."
             }
           }
         ],
@@ -290,19 +294,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'The monopolistic practices of Standard Oil Company'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+              "before": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup. Her investigation became one of the best-known examples of muckraking journalism shaping reform, which is especially clear in the item's focus on ida Tarbell s investigative reporting expose.",
+              "after": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Her investigation became one of the best-known examples of muckraking journalism shaping reform, which is especially clear in the item's focus on ida Tarbell s investigative reporting expose."
             }
           }
         ],
@@ -3802,7 +3810,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Sinclair's The Jungle (1906) and its immediate legislative impact; Pure Food and Drug Act (1906) and Federal Meat Inspection Act (1906); Ida Tarbell's History of the Standard Oil Company (1904) and its contribution to the dissolution of Standard Oil; Lincoln Steffens, The Shame of the Cities (1904); Sinclair's quote about hitting \"the stomach instead of the heart\"; the contrast between food safety reform and the lack of immigration/labor reform that Sinclair actually sought; Theodore Roosevelt's role as a political broker between public outrage and legislative action.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",
@@ -3926,7 +3936,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS (HIPP): Doc 1 — Sinclair: purpose was labor reform, not food safety — the disconnect between intent and impact is critical evidence for evaluating journalism's limits. Doc 2 — Tarbell: purpose is to expose regulatory capture — she demonstrates that journalism that lacks executive or judicial backing can be neutralized by corporate power over Congress. Doc 3 — Roosevelt: purpose is to demonstrate executive agency — he converts Sinclair's moral outrage into a political argument for federal jurisdiction, the step journalism alone cannot take. KEY EVIDENCE EXPECTED: Pure Food and Drug Act (1906) and Federal Meat Inspection Act (1906); Sinclair's socialist intent vs. food safety outcome; Tarbell's 5-year investigation and the 7-year gap before Standard Oil dissolution; Lincoln Steffens The Shame of the Cities (1904) and its limited legislative impact; the Beef Trust's eventual support of federal inspection; the Bureau of Corporations as TR's preferred investigative tool; the role of consumer advocacy organizations in building public pressure for Pure Food legislation before Sinclair wrote The Jungle.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",

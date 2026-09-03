@@ -1453,19 +1453,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"B is wrong because B.B.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'Studios in Memphis and Nashville popularized crossover sounds that reached natio'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 3 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is wrong because B.B.",
+              "before": "Recording centers in Memphis and Nashville helped shape youth culture by spreading crossover music that appealed to teenagers nationwide. B is wrong because B.B. King was important but the question asks about studios and music centers, not one artist. Tennessee helped define what many young Americans listened to in the 1950s.",
+              "after": "Recording centers in Memphis and Nashville helped shape youth culture by spreading crossover music that appealed to teenagers nationwide. King was important but the question asks about studios and music centers, not one artist. Tennessee helped define what many young Americans listened to in the 1950s."
             }
           }
         ],
@@ -3975,7 +3979,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Doc 1 — 1964 filibuster limits; individual litigation model; federal elections only; no literacy test ban. Doc 2 — Bloody Sunday catalyst; LBJ's 'We Shall Overcome'; preclearance as federalism revolution; covered jurisdictions (7 Southern states); literacy test suspension as structural fix. KEY EVIDENCE EXPECTED: Selma to Montgomery marches; Bloody Sunday (March 7, 1965); Edmund Pettus Bridge; ABC television broadcast of troopers' attack; LBJ's 'We Shall Overcome' address (March 15, 1965); Section 5 preclearance as 10th Amendment challenge; covered jurisdiction formula; VRA passage August 6, 1965; Black voter registration increase in covered states post-1965.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",

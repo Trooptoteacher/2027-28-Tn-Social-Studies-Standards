@@ -5338,19 +5338,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"B is incorrect because it points to a different Cold War policy or country; D is incorrect because it points to a different Cold War policy or country.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'A massive transfer of American technology to China that accelerated its military'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "B is incorrect because it points to a different Cold War policy or country; D is incorrect because it points to a different Cold War policy or country.",
+              "before": "The WTO is important because it gives countries a formal process for settling trade disputes through international rulings instead of pure retaliation. B is incorrect because it points to a different Cold War policy or country; D is incorrect because it points to a different Cold War policy or country. It also reflects the larger debate over trade, jobs, and the proper size of the federal government.",
+              "after": "The WTO is important because it gives countries a formal process for settling trade disputes through international rulings instead of pure retaliation. It also reflects the larger debate over trade, jobs, and the proper size of the federal government."
             }
           }
         ],
@@ -6774,7 +6778,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Section 215 bulk metadata collection; NSA surveillance programs; Snowden revelations (2013); Second Circuit ruling (2015); USA FREEDOM Act (2015); ACLU v. NSA; connection to Espionage Act (1917)/Schenck; connection to EO 9066 (1942); COINTELPRO; Fourth Amendment warrant requirements.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",
@@ -6889,7 +6895,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Doc A SOAPS — Congress/post-9/11 emergency/law enforcement + courts/expand investigatory tools/Section 215 breadth controversy; Doc B SOAPS — Feingold/PATRIOT Act vote/Senate + American public/constitutional objection/prophetic lone dissent. KEY EVIDENCE EXPECTED: NSA bulk metadata collection; Edward Snowden (2013); Second Circuit ruling Section 215 (2015); USA FREEDOM Act (2015); EO 9066 and internment (1942); Civil Liberties Act of 1988; Espionage Act (1917); COINTELPRO; Fourth Amendment warrant clause; Katz v. United States (1967).",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",

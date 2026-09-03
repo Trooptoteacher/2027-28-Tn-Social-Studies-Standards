@@ -447,19 +447,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is A. Its explanation says: \"A is incorrect because it describes a different program, event, or idea than the topic in the question.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is A. Delete this intruding sentence? Read the AFTER text — if it still says why A is right, this is a yes.",
             "evidence": [
               "key is 'A'; key text is 'The principle that generals could not advocate for different policies publicly w'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 3 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "A is incorrect because it describes a different program, event, or idea than the topic in the question.",
+              "before": "Both A and C reflect the constitutional principles at stake in MacArthur's dismissal. The war showed how Cold War tensions could turn into hot wars fought in divided countries. A is incorrect because it describes a different program, event, or idea than the topic in the question. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+              "after": "Both A and C reflect the constitutional principles at stake in MacArthur's dismissal. The war showed how Cold War tensions could turn into hot wars fought in divided countries. It shaped the early Cold War and the postwar order the United States helped build after 1945."
             }
           }
         ],
@@ -3160,7 +3164,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Neutrality Act of 1935 (arms embargo); Neutrality Act of 1937 (cash-and-carry); America First Committee / Charles Lindbergh; Destroyers-for-bases agreement (September 1940); Lend-Lease Act (March 1941); FDR 'Arsenal of Democracy' speech (December 29, 1940); Fall of France (June 1940) as policy turning point.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",
@@ -3268,7 +3274,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: EO 9066 (February 19, 1942); 120,000 Japanese Americans interned (70,000 U.S. citizens); Manzanar/Topaz camps; Korematsu v. U.S. (1944) 6-3 decision; Jackson/Murphy/Roberts dissents; Civil Liberties Act of 1988 ($20,000 reparations); Trump v. Hawaii (2018) — formally overruled Korematsu.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",
@@ -3386,7 +3394,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Doc A SOAPS — Speaker as wartime leader, occasion as day after attack, purpose as securing war declaration, significance as nation-transforming moment. Doc B SOAPS — Speaker as politically constrained president, occasion as pre-Pearl Harbor State of Union, purpose as building ideological groundwork, significance as revealing FDR's pre-war strategic thinking. KEY EVIDENCE EXPECTED: Neutrality Acts (1935–1937); Lend-Lease Act (March 1941); destroyers-for-bases agreement; America First Committee; 388-1 Congressional vote; Germany/Italy declaration of war (December 11, 1941).",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",
@@ -3504,7 +3514,9 @@
         "status": "extracted",
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: EO 9066 — deliberately avoids naming Japanese Americans; this racial evasion in legal language is historically significant. Jackson dissent — 'loaded weapon' metaphor should be analyzed as legal prophecy, not just protest. KEY EVIDENCE EXPECTED: EO 9066 (February 19, 1942); 120,000 internees (70,000 citizens); Manzanar; Korematsu 6-3 majority decision; Murphy, Jackson, Roberts dissents; Civil Liberties Act of 1988; Trump v. Hawaii (2018) — formally overruled Korematsu.",
-        "reviewStatus": "needs-review"
+        "reviewStatus": "inherits-item",
+        "extractionVerified": true,
+        "reviewNote": "content unchanged from the item's own explanation field; it is exactly as reviewed, or unreviewed, as the item it came from"
       },
       "aiReview": {
         "pass": "ai-first-pass",

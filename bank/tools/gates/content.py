@@ -733,6 +733,10 @@ def gate_bias_review(items, binding=None) -> Result:
             findings.append(Finding(it.get("id", "?"),
                 "biasReview approved with no reviewer named — an approval nobody signed",
                 it.get("_file", "")))
+    if not judged:
+        return Result(name, True, len(items), [], judged=0,
+                      inapplicable="no item in this set carries a rubric — an assessment form "
+                                   "is selected response, so there is no relocation to check")
     return Result(name, not findings, len(items), findings, judged=judged,
                   note="; ".join(f"{v} {k}" for k, v in tally.most_common()))
 
@@ -872,3 +876,54 @@ def gate_ai_review_boundary(items, binding=None) -> Result:
                   note=("; ".join(f"{v} {k}" for k, v in verdicts.most_common())
                         + " — recommendations only; none of this counts toward Grade A"
                         if verdicts else f"{judged} human review claim(s), no AI pass stamped"))
+
+
+def gate_review_debt(items, binding=None) -> Result:
+    """A structural operation may not manufacture a review obligation.
+
+    Extracting 79 scoring guides out of the `explanation` field and into a
+    structured `rubric` field stamped every one of them `needs-review`. None of
+    that content was new — it was migrated bank text moving fields unchanged,
+    and the extraction gate already proves the move was faithful. The effect was
+    to put 79 rows on the only reviewer this project has that were never his to
+    read, and to inflate his queue from 40 to 119.
+
+    Review debt is the scarcest resource here. A queue padded with work nobody
+    needed to do is not a neutral error: it buries the ten items that genuinely
+    need a person, and it teaches whoever is reading to skim.
+
+    So: `needs-review` on a component is a claim that something was AUTHORED.
+    Relocated content inherits the item's status and says so.
+    """
+    name = "review-debt"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    findings, judged = [], 0
+    tally = collections.Counter()
+    for it in items:
+        rub = it.get("rubric")
+        if not isinstance(rub, dict) or not rub.get("status"):
+            continue
+        judged += 1
+        st, rs = rub.get("status"), rub.get("reviewStatus")
+        tally[f"{st}/{rs}"] += 1
+        if rs == "needs-review" and st != "authored":
+            findings.append(Finding(it.get("id", "?"),
+                f"rubric is {st!r} but flagged needs-review — a relocation is not authoring, "
+                f"and marking it for review spends a reviewer's attention on work nobody did",
+                it.get("_file", "")))
+        if st == "extracted" and not rub.get("extractionVerified"):
+            findings.append(Finding(it.get("id", "?"),
+                "rubric claims to be extracted but does not record that the extraction was "
+                "verified — 'moved from somewhere' is not evidence that it moved intact",
+                it.get("_file", "")))
+        if st == "authored" and rs != "needs-review" and not it.get("requiresHistorianReview"):
+            findings.append(Finding(it.get("id", "?"),
+                "rubric was AUTHORED but claims no review is needed — authored pedagogical "
+                "claims are never silently settled", it.get("_file", "")))
+    if not judged:
+        return Result(name, True, len(items), [], judged=0,
+                      inapplicable="no item in this set carries a rubric — an assessment form "
+                                   "is selected response, so there is no relocation to check")
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note="; ".join(f"{v} {k}" for k, v in tally.most_common()))

@@ -677,19 +677,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is D. Its explanation says: \"Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is D. Delete this intruding sentence? Read the AFTER text — if it still says why D is right, this is a yes.",
             "evidence": [
               "key is 'D'; key text is 'Pittsburgh'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.",
+              "before": "Andrew Carnegie made his fortune in steel by using the Bessemer process and controlling production from raw materials to shipping. Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s. Carnegie’s company became a classic example of large-scale industrial capitalism, and this question specifically highlights city became major center steel production.",
+              "after": "Andrew Carnegie made his fortune in steel by using the Bessemer process and controlling production from raw materials to shipping. Carnegie’s company became a classic example of large-scale industrial capitalism, and this question specifically highlights city became major center steel production."
             }
           }
         ],
@@ -879,19 +883,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is D. Its explanation says: \"Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is D. Delete this intruding sentence? Read the AFTER text — if it still says why D is right, this is a yes.",
             "evidence": [
               "key is 'D'; key text is 'Steel production and manufacturing for construction purposes'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.",
+              "before": "Andrew Carnegie made his fortune in steel by using the Bessemer process and controlling production from raw materials to shipping. Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s. Carnegie’s company became a classic example of large-scale industrial capitalism.",
+              "after": "Andrew Carnegie made his fortune in steel by using the Bessemer process and controlling production from raw materials to shipping. Carnegie’s company became a classic example of large-scale industrial capitalism."
             }
           }
         ],
@@ -1233,19 +1241,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'Documented through meticulous research how Rockefeller had used secret railroad '",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+              "before": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup. Her investigation became one of the best-known examples of muckraking journalism shaping reform, with this version stressing ida Tarbell s investigation Standard Oil.",
+              "after": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Her investigation became one of the best-known examples of muckraking journalism shaping reform, with this version stressing ida Tarbell s investigation Standard Oil."
             }
           }
         ],
@@ -1530,19 +1542,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'Public records, court documents, and interviews that Standard Oil believed were '",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+              "before": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup. Her investigation became one of the best-known examples of muckraking journalism shaping reform, and this question narrows that idea to ida Tarbell s investigation Standard Oil.",
+              "after": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Her investigation became one of the best-known examples of muckraking journalism shaping reform, and this question narrows that idea to ida Tarbell s investigation Standard Oil."
             }
           }
         ],
@@ -2735,19 +2751,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'Horizontal integration - buying out competing oil refineries'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+              "before": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup. Her investigation became one of the best-known examples of muckraking journalism shaping reform, with the clue centered on business practice John D Rockefeller use.",
+              "after": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Her investigation became one of the best-known examples of muckraking journalism shaping reform, with the clue centered on business practice John D Rockefeller use."
             }
           }
         ],
@@ -3114,19 +3134,23 @@
           {
             "class": "key-contradiction",
             "verdict": "fix-drafted",
-            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "question": "The key is B. Delete this intruding sentence? Read the AFTER text — if it still says why B is right, this is a yes.",
             "evidence": [
               "key is 'B'; key text is 'A monopoly that controlled oil refining and distribution'",
-              "the sentence is a distractor rationale left pointing at the old key letter",
-              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+              "the sentence is a distractor rationale left pointing at the old letter",
+              "after deletion the rationale is still 2 finished sentence(s) and ends on terminal punctuation",
+              "the RENDERED form is already correct — remap_letters fixes the page"
             ],
             "cannotVerify": [
-              "whether the key itself is correct — that is a claim about history",
-              "what the replacement sentence should assert"
+              "whether the key itself is correct — a claim about history",
+              "whether the remaining sentences say enough about why the key is right",
+              "whether the REMAINING text is itself sound — this pass checks that a finished argument survives the deletion, not that it reads well. At least one item's remainder is mangled prose ('highlights city became major center steel production'), which no gate here detects"
             ],
             "draft": {
-              "action": "delete the sentence and replace it with one saying why the key is right",
-              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+              "action": "delete one sentence",
+              "delete": "Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.",
+              "before": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup. Her investigation became one of the best-known examples of muckraking journalism shaping reform.",
+              "after": "Ida Tarbell documented how Standard Oil used secret rebates and other unfair tactics to crush competitors, helping build public support for action against Rockefeller’s monopoly. Her investigation became one of the best-known examples of muckraking journalism shaping reform."
             }
           }
         ],

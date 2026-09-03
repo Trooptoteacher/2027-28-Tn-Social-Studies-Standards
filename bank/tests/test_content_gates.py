@@ -577,6 +577,38 @@ check("every clearable class in the policy is narrow and declared",
       "a clearable class touching history, citation or bias is the boundary breaking")
 
 
+# ── a structural move must not manufacture review debt ──────────────────
+print("\n  review-debt — a relocation is not authoring")
+RB = A(on_std(ON, id="RD-1"), "evidenced")
+_ok_ex = dict(RB, rubric={"scorePoints": 4, "criteria": [], "status": "extracted",
+                          "reviewStatus": "inherits-item", "extractionVerified": True})
+check("an EXTRACTED rubric inheriting the item's status PASSES",
+      content.gate_review_debt([_ok_ex], REAL_B).passed)
+r = content.gate_review_debt(
+    [dict(RB, rubric={"scorePoints": 4, "criteria": [], "status": "extracted",
+                      "reviewStatus": "needs-review", "extractionVerified": True})], REAL_B)
+check("a RELOCATED rubric may not be flagged needs-review", not r.passed)
+check("the finding says a relocation is not authoring",
+      any("relocation is not authoring" in str(f) for f in r.findings))
+check("an extracted rubric that does not record verification FAILS",
+      not content.gate_review_debt(
+          [dict(RB, rubric={"scorePoints": 4, "criteria": [], "status": "extracted",
+                            "reviewStatus": "inherits-item"})], REAL_B).passed)
+check("an AUTHORED rubric flagged needs-review PASSES — that IS new work",
+      content.gate_review_debt(
+          [dict(RB, requiresHistorianReview=True,
+                rubric={"scorePoints": 4, "criteria": [], "status": "authored",
+                        "reviewStatus": "needs-review"})], REAL_B).passed)
+check("an AUTHORED rubric claiming no review is needed FAILS",
+      not content.gate_review_debt(
+          [dict(RB, rubric={"scorePoints": 4, "criteria": [], "status": "authored",
+                            "reviewStatus": "inherits-item"})], REAL_B).passed)
+check("EMPTY scan FAILS", not content.gate_review_debt([], REAL_B).passed)
+_nr = content.gate_review_debt([A(on_std(ON, id="RD-N"), "evidenced")], REAL_B)
+check("a set with NO rubric is N/A with a reason, not NOT MEASURED",
+      _nr.inapplicable and _nr.judged == 0, f"{_nr.status!r}")
+
+
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
 for f in FAILED:
