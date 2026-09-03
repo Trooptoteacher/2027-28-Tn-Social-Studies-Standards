@@ -1,0 +1,276 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.60",
+  "status": "quarantined",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us60-62-evaluation-1",
+      "stem": "Evaluate the effectiveness: Which Cold War policy - containment (Truman) or massive retaliation (Eisenhower) - was more effective in preventing Soviet expansion?",
+      "stemEs": "Evalúe la efectividad: ¿Qué política de Guerra Fría - contención (Truman) o represalia masiva (Eisenhower) - fue más efectiva en prevenir expansión soviética?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Both aimed to contain communism, but Korea used direct military force while Truman emphasized aid",
+          "textEs": "Represalia masiva fue más efectiva porque amenazas nucleares detuvieron completamente expansión soviética",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Containment was more effective because it addressed root causes through economic and political aid",
+          "textEs": "Contención fue más efectiva porque abordó causas fundamentales mediante ayuda económica y política",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Yes, subsequent decades showed military spending influenced policy and contractors gained power",
+          "textEs": "Ambas políticas fueron igualmente inefectivas y no tuvieron impacto medible en política exterior soviética",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "National security requires strong military, but that same partnership could threaten democracy",
+          "textEs": "Represalia masiva fue más efectiva porque fue mucho menos costosa que programas económicos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The most persuasive evaluation is that containment was more effective because it addressed root causes through economic and political aid. Choice A is wrong because it describes both aimed to contain communism, but Korea used direct military force while Truman emphasized aid, not containment was more effective because it addressed root causes through economic and political aid. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "Contención probó ser más efectiva: Plan Marshall creó democracias prósperas resistentes al comunismo, mientras amenazas nucleares de represalia masiva no eran creíbles para conflictos pequeños. Europa Occidental permaneció libre, validando enfoque integral de contención.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 1.74,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60",
+          "US.62"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.60->US.60 revised sim=0.94",
+          "US.62->US.61 revised sim=0.82 BELOW floor 0.9"
+        ]
+      }
+    },
+    {
+      "id": "q-us60-61-comparison-1",
+      "stem": "Compare and contrast the Truman Doctrine (1947) with U.S. intervention in the Korean War (1950). How were U.S. motivations similar and different?",
+      "stemEs": "Compare y contraste la Doctrina Truman (1947) con la intervención de EE.UU. en la Guerra de Corea (1950). ¿Cómo fueron similares y diferentes las motivaciones de EE.UU.?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Containment was more effective because it addressed root causes through economic and political aid",
+          "textEs": "Ambas políticas se enfocaron exclusivamente en proporcionar asistencia económica sin componentes militares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both aimed to contain communism, but Korea used direct military force while Truman emphasized aid",
+          "textEs": "Ambos buscaban contener comunismo, pero Corea usó fuerza militar directa mientras Truman enfatizó ayuda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Military superiority cannot guarantee victory if political goals are limited by nuclear fears",
+          "textEs": "La intervención coreana representó un rechazo completo de los objetivos anteriores de la Doctrina Truman",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Poverty and instability made countries vulnerable; prosperity created resistance to communism",
+          "textEs": "Ambas situaciones fueron resueltas principalmente mediante negociaciones diplomáticas con liderazgo soviético",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The strongest comparison shows that both aimed to contain communism, but Korea used direct military force while Truman emphasized aid. Choice A is wrong because it describes containment was more effective because it addressed root causes through economic and political aid, not both aimed to contain communism, but Korea used direct military force while Truman emphasized aid. Containment committed the United States to long-term global leadership through aid, alliances, and military readiness.",
+      "explanationEs": "Ambos reflejaron política de contención, pero difirieron en método: Doctrina Truman usó ayuda económica y política a Grecia y Turquía, mientras Guerra de Corea empleó intervención militar directa, mostrando evolución de contención de acción indirecta a directa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.98,
+        "b": 1.21,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60",
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.60->US.60 revised sim=0.94",
+          "US.61->US.63 revised sim=0.86 BELOW floor 0.9"
+        ]
+      }
+    },
+    {
+      "id": "q-us60-dok4-cr-2",
+      "stem": "Read the following excerpt from President Harry S. Truman's Address to Congress, March 12, 1947 — a U.S. government document available through the Avalon Project, Yale Law School, and the National Archives:\n\n\"I believe that it must be the policy of the United States to support free peoples who are resisting attempted subjugation by armed minorities or by outside pressures. I believe that we must assist free peoples to work out their own destinies in their own way. I believe that our help should be primarily through economic and financial aid which is essential to economic stability and orderly political processes.\"\n\nUsing this excerpt and your knowledge of U.S. Cold War foreign policy (US.60–US.62), write a CER response that evaluates the Truman Doctrine as both a foreign policy commitment and an ideological statement. Your response must analyze how the Doctrine set the precedent for later Cold War interventions and assess whether Truman's framing was primarily a reaction to immediate crises in Greece and Turkey or a broader ideological declaration with long-term global consequences.",
+      "stemEs": "Lee el siguiente fragmento del Discurso del Presidente Harry S. Truman ante el Congreso, 12 de marzo de 1947 — un documento del gobierno de EE. UU. disponible a través del Proyecto Avalon de la Escuela de Derecho de Yale y los Archivos Nacionales:\n\n\"Creo que debe ser la política de los Estados Unidos apoyar a los pueblos libres que resisten la subyugación intentada por minorías armadas o por presiones externas. Creo que debemos ayudar a los pueblos libres a trabajar en sus propios destinos a su propia manera. Creo que nuestra ayuda debe ser principalmente a través de ayuda económica y financiera que es esencial para la estabilidad económica y los procesos políticos ordenados.\"\n\nUsando este fragmento y tu conocimiento de la política exterior de EE. UU. durante la Guerra Fría (US.60–US.62), escribe una respuesta CER que evalúe la Doctrina Truman tanto como compromiso de política exterior como como declaración ideológica. Tu respuesta debe analizar cómo la Doctrina estableció el precedente para intervenciones posteriores de la Guerra Fría.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-scoring (4/4) response would include: CLAIM — The Truman Doctrine was simultaneously a response to immediate crises and a sweeping ideological declaration that transformed U.S. foreign policy from selective engagement to open-ended global commitment against communist expansion, establishing a precedent that justified Cold War interventions for decades. EVIDENCE — (1) The immediate context: civil war in Greece (communist guerrillas vs. monarchy) and Soviet pressure on Turkey for access to the Dardanelles Strait — both situations Britain could no longer afford to manage after WWII; (2) Truman's language is explicitly universal ('free peoples... in their own way') rather than geographically limited, signaling a doctrine rather than a one-time aid package; (3) the $400 million aid package to Greece and Turkey as the practical expression; (4) the Marshall Plan (1948, US.61) as the economic counterpart; (5) the Korean War (US.63) and later Vietnam as direct precedential applications of the Doctrine's logic. REASONING — The student should reason that Truman's framing as an ideological statement — rather than simply an emergency aid bill — was a deliberate choice to build congressional and public support by casting the conflict in Manichean terms (free vs. enslaved peoples). This framing had long-term consequences: it committed the U.S. to supporting any anti-communist government regardless of its democratic credentials, a tension visible in later Cold War alliances with authoritarian regimes.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.60, US.62 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Precise claim addresses both dimensions of the prompt (immediate crisis AND ideological declaration). Evidence includes at least three specific historical details: immediate Greece/Turkey context, universal language of the speech, at least one later precedential application (Korea, Vietnam, etc.). Reasoning addresses the tension between anti-communism and democratic values embedded in the Doctrine. CER fully developed and integrated.\n3 - Proficient: Clear claim. Two specific pieces of evidence. Reasoning makes the precedent connection but may not develop the ideological tension or long-term consequences fully.\n2 - Developing: General claim about U.S. containment. One piece of specific evidence. Reasoning describes rather than analyzes (e.g., 'the U.S. helped Greece and Turkey').\n1 - Beginning: Vague or inaccurate claim. Minimal evidence. No real reasoning.\n0 - No response or off-topic.\n\nKEY EVIDENCE EXPECTED: Greek Civil War (1946–1949); Soviet pressure on Turkey (Dardanelles); British withdrawal from the region; $400 million aid appropriation; Marshall Plan as economic companion; Korean War (1950) as first major precedential application; 'police action' justification in Korea; later Vietnam War application; NSC-68 escalation.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: La afirmación precisa aborda ambas dimensiones del indicador (crisis inmediata Y declaración ideológica). La evidencia incluye al menos tres detalles históricos específicos. El razonamiento aborda la tensión entre el anticomunismo y los valores democráticos. CER completamente desarrollado.\n3 - Competente: Afirmación clara. Dos piezas de evidencia específica. El razonamiento hace la conexión de precedente pero puede no desarrollar la tensión ideológica.\n2 - En desarrollo: Afirmación general sobre la contención de EE. UU. Una pieza de evidencia específica. El razonamiento describe en lugar de analizar.\n1 - Inicial: Afirmación vaga o inexacta. Evidencia mínima. Sin razonamiento real.\n0 - Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Guerra Civil Griega (1946–1949); presión soviética sobre Turquía; retirada británica de la región; apropiación de $400 millones en ayuda; Plan Marshall como acompañante económico; Guerra de Corea (1950) como primera aplicación de precedente; aplicación posterior de la Guerra de Vietnam.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.89,
+        "b": -0.24,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60",
+          "US.62"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.60->US.60 revised sim=0.94",
+          "US.62->US.61 revised sim=0.82 BELOW floor 0.9"
+        ]
+      }
+    },
+    {
+      "id": "q-us63-dok4-cr-3",
+      "stem": "Read the following excerpt from NSC-68: United States Objectives and Programs for National Security, April 14, 1950 — a declassified U.S. National Security Council document available through the National Archives:\n\n\"The issues that face us are momentous, involving the fulfillment or destruction not only of this Republic but of civilization itself. They are issues which will not await our deliberation... The Soviet Union is developing the military capacity to support its design for world domination... A defeat of free institutions anywhere is a defeat everywhere.\"\n\nUsing this excerpt and your knowledge of Cold War policy and the Korean War (US.60, US.63), write a CER response that evaluates how NSC-68 transformed the logic of containment and assess the Korean War as a test case for NSC-68's expanded vision of U.S. security commitments. Your response must analyze why the U.S. chose to intervene in Korea and connect that decision to the escalating logic of containment established in NSC-68.",
+      "stemEs": "Lee el siguiente fragmento de NSC-68: Objetivos y Programas de los Estados Unidos para la Seguridad Nacional, 14 de abril de 1950 — un documento del Consejo de Seguridad Nacional de EE. UU. desclasificado, disponible a través de los Archivos Nacionales:\n\n\"Los problemas que enfrentamos son de gran importancia, e implican el cumplimiento o la destrucción no solo de esta República sino de la civilización misma. Son problemas que no esperarán nuestra deliberación... La Unión Soviética está desarrollando la capacidad militar para apoyar su diseño para la dominación mundial... Una derrota de las instituciones libres en cualquier lugar es una derrota en todas partes.\"\n\nUsando este fragmento y tu conocimiento de la política de la Guerra Fría y la Guerra de Corea (US.60, US.63), escribe una respuesta CER que evalúe cómo el NSC-68 transformó la lógica de la contención y evalúa la Guerra de Corea como un caso de prueba para la visión ampliada del NSC-68 de los compromisos de seguridad de EE. UU.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-scoring (4/4) response would include: CLAIM — NSC-68 fundamentally escalated Kennan's restrained containment doctrine into a militarized, global, and existential commitment, and the Korean War (1950–1953) validated that shift by demonstrating the U.S. would use military force to defend any nation threatened by communist aggression, regardless of its strategic value. EVIDENCE — (1) NSC-68's call for a massive increase in U.S. defense spending (from ~$13 billion to ~$50 billion annually); (2) the document's framing of the Soviet threat as civilization-level, not merely geopolitical; (3) Truman's decision to intervene in Korea (June 1950) without a formal congressional declaration of war, justified under UN Security Council authority; (4) General MacArthur's push toward the Yalu River reflecting the rollback impulse embedded in NSC-68's aggressive tone; (5) Chinese intervention in October 1950, which confirmed NSC-68's warnings about the expansiveness of communist power; (6) the eventual armistice (1953) restoring the 38th parallel — containment, not liberation. REASONING — NSC-68's language ('a defeat anywhere is a defeat everywhere') echoed exactly in Truman's justification for Korea, showing that the document operationalized containment as a tripwire obligation. The Korean War both tested and reinforced the NSC-68 framework, ultimately showing that containment could succeed militarily but at enormous human cost and without decisive political resolution.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.60, US.63 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Precise claim identifies NSC-68's transformation of containment and links it specifically to Korea as a test case. Evidence includes at least three specific details: NSC-68's call for defense buildup, Truman's Korea decision, Chinese intervention or armistice outcome. Reasoning integrates the document's logic with the Korean decision and evaluates the success/limits of containment in Korea. CER fully and accurately executed.\n3 - Proficient: Clear claim about NSC-68 and Korea. Two specific evidence points. Reasoning connects NSC-68 logic to Korean intervention but may not evaluate outcomes or tensions (MacArthur, armistice).\n2 - Developing: General claim about U.S. involvement in Korea. One piece of specific evidence. Reasoning is descriptive.\n1 - Beginning: Vague claim. Minimal or inaccurate evidence. No analytical reasoning.\n0 - No response or off-topic.\n\nKEY EVIDENCE EXPECTED: NSC-68 defense spending recommendation; Truman's June 1950 intervention decision; UN Security Council authorization (Soviet boycott); General MacArthur and Yalu River advance; Chinese People's Volunteer Army intervention (Oct. 1950); MacArthur dismissal (April 1951); July 1953 armistice; 38th parallel as final boundary — containment achieved but not rollback.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: La afirmación precisa identifica la transformación de la contención por parte del NSC-68 y la vincula específicamente a Corea como caso de prueba. La evidencia incluye al menos tres detalles específicos. El razonamiento integra la lógica del documento con la decisión coreana.\n3 - Competente: Afirmación clara sobre el NSC-68 y Corea. Dos puntos de evidencia específica. El razonamiento conecta la lógica del NSC-68 con la intervención coreana.\n2 - En desarrollo: Afirmación general sobre la participación de EE. UU. en Corea. Una pieza de evidencia específica.\n1 - Inicial: Afirmación vaga. Evidencia mínima o inexacta.\n0 - Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Recomendación de gastos de defensa del NSC-68; decisión de intervención de Truman en junio de 1950; autorización del Consejo de Seguridad de la ONU; General MacArthur y el avance hacia el río Yalu; intervención del Ejército de Voluntarios del Pueblo Chino; armisticio de julio de 1953.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.31,
+        "b": 0.27,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60",
+          "US.63"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.60->US.60 revised sim=0.94",
+          "US.63->US.62 revised sim=0.72 BELOW floor 0.9"
+        ]
+      }
+    },
+    {
+      "id": "q-us63-dok4-er-2",
+      "stem": "Extended Response — No sources provided. Draw on your knowledge of Cold War history (US.59–US.70).\n\nHistorians sometimes refer to the Korean War as 'The Forgotten War,' yet it was one of the most consequential conflicts of the Cold War era. Using the CER framework, write an extended response that evaluates the Korean War's significance as a turning point in Cold War history. Your response should: (1) construct a thesis about whether the Korean War represented a success or failure of the containment strategy; (2) analyze at least four specific dimensions of the war's impact — military, diplomatic, domestic, and Cold War strategic — using specific historical evidence; and (3) explain how the Korean War set precedents that shaped later Cold War confrontations. Your response must synthesize knowledge across US.60, US.63, US.64, and US.67.",
+      "stemEs": "Respuesta Extendida — No se proporcionan fuentes. Basa tu respuesta en tu conocimiento de la historia de la Guerra Fría (US.59–US.70).\n\nLos historiadores a veces se refieren a la Guerra de Corea como 'La Guerra Olvidada', sin embargo, fue uno de los conflictos más importantes de la era de la Guerra Fría. Usando el marco CER, escribe una respuesta extendida que evalúe la importancia de la Guerra de Corea como un punto de inflexión en la historia de la Guerra Fría. Tu respuesta debe: (1) construir una tesis sobre si la Guerra de Corea representó un éxito o fracaso de la estrategia de contención; (2) analizar al menos cuatro dimensiones específicas del impacto de la guerra; y (3) explicar cómo la Guerra de Corea estableció precedentes que dieron forma a posteriores confrontaciones de la Guerra Fría.",
+      "itemType": "extended-response",
+      "correctAnswer": "A top-scoring (4/4) extended response would include: CLAIM — A precise, defensible thesis (e.g., 'The Korean War was simultaneously a military stalemate and a strategic success for containment: it validated NSC-68's militarization of the Cold War, permanently transformed U.S. defense commitments in Asia, and set the precedent for limited war under nuclear conditions — but its inconclusive resolution revealed the inherent tensions in a doctrine that could prevent communist expansion but could not reverse it'). EVIDENCE across four dimensions: (1) Military: 36,574 American deaths; 5 million total casualties; armistice restoring the 38th parallel rather than achieving unification — containment succeeded, liberation did not; MacArthur's dismissal (April 1951) establishing civilian control of military as a constitutional principle in Cold War context; (2) Diplomatic: Chinese intervention transformed the war's character and established the PRC as a major Cold War actor; Korean War solidified U.S.-Japan security alliance (1951 Treaty) as a Pacific containment structure; (3) Domestic: McCarthyism's acceleration — 'Who lost China?' became 'Why can't we win in Korea?'; Korean War costs fueled the military-industrial complex Eisenhower would later warn about (US.67); Truman's domestic political destruction; (4) Cold War Strategic: NSC-68's defense spending authorization validated; DEFCON system established; Eisenhower's armistice (1953) through nuclear threat as first use of nuclear coercion in limited war. REASONING — The student should reason that Korea established the template for Cold War limited wars: a conflict fought under nuclear shadow, with geographically and politically constrained objectives, where the goal was containment not victory. This template directly shaped Vietnam (US.78) and demonstrated both the necessity and the costs of the containment strategy. SYNTHESIS — The response should connect Korea's lessons (limited war, civilian control, Asian alliances) to later Cold War events, particularly the Vietnam analogy and the Eisenhower warning about defense spending.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.60, US.63, US.64, US.67 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Precise, defensible thesis framing Korea as both success and failure of containment. Analyzes at least four specific dimensions (military, diplomatic, domestic, strategic) with specific historical evidence for each. Reasoning develops the 'limited war under nuclear conditions' template and its implications. Synthesis spans US.60, US.63, US.64, US.67 and connects forward to later Cold War events.\n3 - Proficient: Clear thesis on Korea's containment significance. Analyzes three or four dimensions with two pieces of specific evidence. Reasoning makes the template/precedent connection but may not develop all four synthesis dimensions.\n2 - Developing: General thesis about Korea. Analyzes two dimensions. Reasoning is mostly descriptive.\n1 - Beginning: Vague thesis. One dimension analyzed. Minimal reasoning.\n0 - No response or off-topic.\n\nKEY EVIDENCE EXPECTED: NSC-68 (April 1950) — Korea as its validation; UN Security Council authorization (Soviet boycott); Truman's June 27 intervention decision; Inchon landing (Sept. 1950); Chinese intervention (Oct. 1950); MacArthur dismissal (April 1951) — civilian control precedent; armistice (July 27, 1953); 38th parallel restoration; U.S.-Japan Mutual Security Treaty (1951); McCarthyism acceleration; U.S. defense budget tripling; DEFCON establishment.\nSYNTHESIS EXPECTATIONS: Korea → NSC-68 validation (US.60); Korea → McCarthyism escalation (US.64); Korea → military-industrial complex growth (US.67); Korea → Vietnam limited war template (US.78). The student should articulate why 'The Forgotten War' is actually the foundational conflict of the Cold War's operational phase.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Tesis precisa y defendible que enmarca Corea como éxito y fracaso de la contención. Analiza al menos cuatro dimensiones específicas con evidencia histórica específica para cada una. El razonamiento desarrolla la plantilla de 'guerra limitada bajo condiciones nucleares'.\n3 - Competente: Tesis clara sobre la importancia de la contención en Corea. Analiza tres o cuatro dimensiones con dos piezas de evidencia específica.\n2 - En desarrollo: Tesis general sobre Corea. Analiza dos dimensiones. El razonamiento es principalmente descriptivo.\n1 - Inicial: Tesis vaga. Una dimensión analizada.\n0 - Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: NSC-68 (abril 1950); autorización del Consejo de Seguridad de la ONU; desembarco de Inchon (sept. 1950); intervención china (oct. 1950); destitución de MacArthur (abril 1951); armisticio (27 de julio de 1953); Tratado de Seguridad Mutua EE. UU.-Japón (1951); triplicación del presupuesto de defensa de EE. UU.\nEXPECTATIVAS DE SÍNTESIS: Corea → validación del NSC-68 (US.60); Corea → escalada del macartismo (US.64); Corea → crecimiento del complejo militar-industrial (US.67); Corea → plantilla de guerra limitada de Vietnam.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.02,
+        "b": 0.42,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60",
+          "US.63",
+          "US.64",
+          "US.67"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.60->US.60 revised sim=0.94",
+          "US.63->US.62 revised sim=0.72 BELOW floor 0.9",
+          "US.64->US.69 revised sim=0.88 BELOW floor 0.9",
+          "US.67: retired — no 2027-28 home"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2049 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.52",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us53-dok1-1",
+      "stem": "What did \"Rosie the Riveter\" represent?",
+      "stemEs": "¿Qué representó \"Rosie la Remachadora\"?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Create propaganda to boost public morale and maintain support for the war effort",
+          "textEs": "Sindicato laboral organizando trabajadoras de fábrica para mejores condiciones laborales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Women's military auxiliaries serving in the Army (WAC) and Navy (WAVES) branches",
+          "textEs": "Programa gubernamental reclutando mujeres para servir como enfermeras militares en el extranjero",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Cultural icon representing millions of women who worked in defense industries",
+          "textEs": "Ícono cultural representando millones de mujeres que trabajaron en industrias de defensa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Entered workforce in record numbers, gained independence, and challenged gender roles",
+          "textEs": "Personaje de propaganda animando ciudadanos a conservar recursos en casa",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Rosie the Riveter represented cultural icon representing millions of women who worked in defense industries. Women took on new wartime roles in factories and the military, even though many were pushed back toward traditional roles after the war. B is incorrect because it describes a different program, event, or idea than the topic in the question. It showed how World War II exposed contradictions between American ideals and daily life at home.",
+      "explanationEs": "Rosie la Remachadora fue un ícono cultural representando las más de 6 millones de mujeres que trabajaron en plantas de defensa durante Segunda Guerra Mundial. El póster \"¡Podemos Hacerlo!\" se convirtió en símbolo perdurable del empoderamiento femenino.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.18,
+        "b": -1.02,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us53-dok1-2",
+      "stem": "What was the main purpose of the Office of War Information (OWI)?",
+      "stemEs": "¿Cuál fue el propósito principal de la Oficina de Información de Guerra (OWI)?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Manage the nationwide rationing programs that limited civilian purchases of scarce goods",
+          "textEs": "Administrar programas nacionales de racionamiento que limitaban compras civiles de bienes escasos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Develop and test new advanced military weapons for use on the European battlefields",
+          "textEs": "Desarrollar y probar nuevas armas militares avanzadas para uso en campos de batalla europeos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Create propaganda to boost public morale and maintain support for the war effort",
+          "textEs": "Crear propaganda para impulsar moral pública y mantener apoyo al esfuerzo de guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Train new military recruits in combat skills and prepare them for overseas deployment",
+          "textEs": "Entrenar nuevos reclutas militares en habilidades de combate y prepararlos para despliegue",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The main purpose of the Office of War Information (OWI) was a create propaganda to boost public morale and maintain support for the war effort. D is incorrect because it describes a different program, event, or idea than the topic in the question. It showed how World War II exposed contradictions between American ideals and daily life at home.",
+      "explanationEs": "Oficina de Información de Guerra creó propaganda incluyendo carteles, películas y transmisiones de radio para mantener apoyo público por guerra, promover conservación y racionamiento y reclutar trabajadores para industrias de defensa. Carteles famosos incluyeron Rosie la Remachadora y Tío Sam.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.11,
+        "b": -1.5,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us53-dok1-3",
+      "stem": "What were WACs and WAVES?",
+      "stemEs": "¿Qué fueron las WACs y WAVES?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Types of advanced military aircraft used for long-range bombing and reconnaissance missions",
+          "textEs": "Tipos de aeronaves militares avanzadas usadas para bombardeo de largo alcance y misiones de reconocimiento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Women's military auxiliaries serving in the Army (WAC) and Navy (WAVES) branches",
+          "textEs": "Auxiliares militares femeninos sirviendo en ramas del Ejército (WAC) y Marina (WAVES)",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Code names for top-secret Allied military operations conducted behind enemy lines in Europe",
+          "textEs": "Nombres código para operaciones militares Aliadas ultra secretas realizadas detrás de líneas enemigas en Europa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Government-sponsored propaganda campaigns encouraging civilian participation in war industries",
+          "textEs": "Campañas de propaganda patrocinadas por gobierno animando participación civil en industrias de guerra",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "WACs and WAVES were women's military auxiliaries serving in the Army (WAC) and Navy (WAVES) branches. Women took on new wartime roles in factories and the military, even though many were pushed back toward traditional roles after the war. A is incorrect because it describes a different program, event, or idea than the topic in the question. It showed how World War II exposed contradictions between American ideals and daily life at home.",
+      "explanationEs": "WAC (Cuerpo de Ejército Femenino) y WAVES (Mujeres Aceptadas para Servicio de Emergencia Voluntaria en Marina) fueron auxiliares militares femeninos. Más de 350,000 mujeres sirvieron, trabajando como enfermeras, oficinistas, mecánicas y en muchos otros roles, aunque no en combate.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -1.03,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-53-x012",
+      "stem": "The March on Washington for Jobs and Freedom (August 1963) drew —",
+      "stemEs": "The March on Washington for Jobs and Freedom (August 1963) drew —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "500,000 from across the political spectrum",
+          "textEs": "500,000 from across the political spectrum",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "100,000 from civil rights organizations only",
+          "textEs": "100,000 from derechos civiles organizations only",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "50,000 protesters",
+          "textEs": "50,000 protesters",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "250,000 participants — one of the largest political",
+          "textEs": "250,000 participants — one of the largest political",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "250,000 participants — one of the largest political demonstrations in American history and the site of 'I Have a Dream'. The 1963 march connected civil rights demands to jobs, voting rights, and the promise of American democracy. A is incorrect because it describes a different program, event, or idea than the topic in the question. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "250,000 participants — one of the largest political demonstrations in American history and the site of 'I Have a Dream'. The 1963 march connected derechos civiles demands to jobs, derechos de voto, and the promise of American democracia. A is incorrect because it describes a different program, event, or idea than the topic in the question. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.84,
+        "b": -1.1,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us53-dok2-3",
+      "stem": "What was the \"Double Shift\" many women faced during WWII?",
+      "stemEs": "¿Qué fue el \"Doble Turno\" que muchas mujeres enfrentaron durante la Segunda Guerra Mundial?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It linked victory over fascism overseas with demands for racial equality in the United States",
+          "textEs": "Servicio militar seguido de trabajo civil",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Many were pressured to leave jobs for returning servicemen, facing social pressure to return home",
+          "textEs": "Trabajar dos empleos de fábrica simultáneamente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Working full-time in factories while still managing household and childcare responsibilities",
+          "textEs": "Trabajar tiempo completo en fábricas mientras aún manejaban responsabilidades domésticas y de cuidado infantil",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Entered workforce in record numbers, gained independence, and challenged gender roles",
+          "textEs": "Asistencia escolar diurna y nocturna",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The \"Double Shift\" many women faced during WWII consisted of Working full-time in factories while still managing household and childcare responsibilities. B is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "Muchas mujeres enfrentaron \"doble turno\" - trabajando largas horas en industrias de guerra luego regresando a casa para deberes domésticos tradicionales como cocinar, limpiar y cuidado infantil. A pesar de esta carga, demostraron que mujeres podían manejar trabajo industrial exigente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.02,
+        "b": 0.12,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U6-DOK1-0003",
+      "stem": "Truman's announcement marked which significant event?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The first wartime use of an atomic weapon",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The U.S. declaration of war on Japan",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The signing of the Japanese surrender on the USS Missouri",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The end of the Manhattan Project",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Truman's August 6, 1945 announcement of the Hiroshima bombing marked the first wartime use of an atomic weapon, ending years of secret Manhattan Project work. Distractor B (declaration of war on Japan) was December 8, 1941; C (USS Missouri surrender) was September 2, 1945; D (end of the Manhattan Project) extended past the war.",
+      "explanationEs": "El anuncio de Truman del 6 de agosto de 1945 sobre el bombardeo de Hiroshima marcó el primer uso bélico de un arma atómica, culminando años de trabajo secreto del Proyecto Manhattan. El distractor B (declaración de guerra contra Japón) fue el 8 de diciembre de 1941; C (rendición en el USS Missouri) el 2 de septiembre de 1945; D (fin del Proyecto Manhattan) se extendió más allá de la guerra.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 0.8,
+        "b": -1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PSTIM-0094",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the mushroom cloud rising over Hiroshima, Japan, on August 6, 1945, after the United States dropped the first atomic bomb used in warfare. The bomb killed an estimated 80,000 people instantly, with tens of thousands more dying from radiation in the following months.\n\n(Photograph, August 6, 1945. U.S. Army Air Forces.)\n\nWhat was the name of the aircraft that dropped the atomic bomb shown in this photograph?",
+      "stemEs": "¿Cuál era el nombre de la aeronave que lanzó la bomba atómica?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Spirit of St. Louis",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Memphis Belle",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Enola Gay",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Air Force One",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The B-29 Superfortress 'Enola Gay,' piloted by Colonel Paul Tibbets, dropped the atomic bomb 'Little Boy' on Hiroshima on August 6, 1945. Three days later, a second bomb was dropped on Nagasaki.",
+      "explanationEs": "El B-29 'Enola Gay' lanzó la bomba atómica sobre Hiroshima el 6 de agosto de 1945.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -1.0,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us53-dok2-1",
+      "stem": "How did WWII change women's roles in American society?",
+      "stemEs": "¿Cómo cambió la Segunda Guerra Mundial los roles de las mujeres en la sociedad estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Saw minimal changes with most continuing traditional household responsibilities exclusively",
+          "textEs": "Vieron cambios mínimos con mayoría continuando responsabilidades domésticas tradicionales exclusivamente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Were restricted to traditional domestic roles and prohibited from factory work",
+          "textEs": "Fueron restringidas a roles domésticos tradicionales y prohibidas de trabajo de fábrica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Worked primarily in clerical positions while men dominated war industries",
+          "textEs": "Trabajaron principalmente en posiciones administrativas mientras hombres dominaban industrias de guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Entered workforce in record numbers, gained independence, and challenged gender roles",
+          "textEs": "Entraron fuerza laboral en números récord, ganaron independencia y desafiaron roles de género",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Entered workforce in record numbers, gained independence, and challenged gender roles. B is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Segunda Guerra Mundial transformó roles de mujeres cuando más de 6 millones de mujeres entraron fuerza laboral, muchas en trabajos tradicionalmente masculinos. Aunque muchas fueron presionadas a regresar a casa después de guerra, experiencia sembró semillas para movimiento de mujeres de 1960s.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.42,
+        "b": -0.12,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us53-dok2-2",
+      "stem": "What happened to many women workers after WWII ended?",
+      "stemEs": "¿Qué pasó con muchas trabajadoras después de que terminó la Segunda Guerra Mundial?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It linked victory over fascism overseas with demands for racial equality in the United States",
+          "textEs": "Fueron promovidas a posiciones gerenciales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Working full-time in factories while still managing household and childcare responsibilities",
+          "textEs": "Todas mantuvieron empleos de tiempo de guerra permanentemente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Many were pressured to leave jobs for returning servicemen, facing social pressure to return home",
+          "textEs": "Muchas fueron presionadas a dejar empleos para militares que regresaban, enfrentando presión social para regresar a casa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Entered workforce in record numbers, gained independence, and challenged gender roles",
+          "textEs": "No tuvieron cambios en empleo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Many were pressured to leave jobs for returning servicemen, facing social pressure to return home. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Después de Segunda Guerra Mundial, muchas mujeres fueron despedidas o presionadas a dejar empleos para dar lugar a militares que regresaban. Sociedad esperaba que reanudaran roles domésticos tradicionales. Sin embargo, muchas mujeres continuaron trabajando y su experiencia de tiempo de guerra sembró semillas para movimiento de mujeres de 1960s.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.44,
+        "b": 0.12,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us53-add-1",
+      "stem": "How did the Double V campaign connect the war abroad to civil rights at home?",
+      "stemEs": "¿Cómo the Double V campaign connect the war abroad to derechos civiles at home?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It linked victory over fascism overseas with demands for racial equality in the United States",
+          "textEs": "It linked victory over fascismo overseas with demands for racial igualdad in the United States",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Working full-time in factories while still managing household and childcare responsibilities",
+          "textEs": "Working full-time in factories while still managing household and childcare responsibilities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Many were pressured to leave jobs for returning servicemen, facing social pressure to return home",
+          "textEs": "Many were pressured to leave jobs for returning servicemen, facing social pressure to return home",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Entered workforce in record numbers, gained independence, and challenged gender roles",
+          "textEs": "Entered workforce in record numbers, gained independence, and challenged gender roles",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It linked victory over fascism overseas with demands for racial equality in the United States. African Americans linked victory over fascism abroad with the struggle against segregation at home. C is incorrect because it describes a different program, event, or idea than this civil rights development. These developments helped set the stage for World War II by weakening collective resistance to aggressive dictators.",
+      "explanationEs": "It linked victory over fascismo overseas with demands for racial igualdad in the United States. African Americans linked victory over fascismo abroad with the struggle against segregación at home. C is incorrect because it describes a different program, event, or idea than this derechos civiles development. These developments helped set the stage for Segunda Guerra Mundial by weakening collective resistance to aggressive dictators.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.38,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-53-x017",
+      "stem": "Medgar Evers' 1963 assassination was politically significant because —",
+      "stemEs": "Medgar Evers' 1963 assassination was politically significant because —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It made visible the murderous extremism of white supremacist opposition",
+          "textEs": "It made visible the murderous extremism of white supremacist opposition",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It led Mississippi to voluntarily desegregate",
+          "textEs": "It led Mississippi to voluntarily desegregate",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It caused the NAACP to abandon its legal strategy",
+          "textEs": "It caused the NAACP to abandon its legal strategy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Kennedy administration immediately convicted the killer",
+          "textEs": "The Kennedy administration immediately convicted the killer",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It made visible the murderous extremism of white supremacist opposition. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "It made visible the murderous extremism of white supremacist opposition. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for derechos civiles and equal treatment.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.41,
+        "b": 0.5,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us53-dok3-1",
+      "stem": "Analyze the long-term impact of women's WWII work experience on the feminist movement.",
+      "stemEs": "Analiza el impacto a largo plazo de la experiencia laboral de las mujeres en la Segunda Guerra Mundial en el movimiento feminista.",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Many were pressured to leave jobs for returning servicemen, facing social pressure to return home",
+          "textEs": "Reforzó roles de género tradicionales permanentemente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both ideologies promised stability and national pride to desperate populations suffering from economic collapse",
+          "textEs": "No tuvo impacto en movimientos de derechos de mujeres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Proved women's capability in workforce; challenged gender roles; inspired 1960s-70s women's liberation movement",
+          "textEs": "Probó capacidad de mujeres en fuerza laboral; desafió roles de género; inspiró movimiento de liberación de mujeres de 1960s-70s",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "All-white communities that prohibited Black people after dark; limited where African Americans could live/work",
+          "textEs": "Logró inmediatamente igualdad de género completa",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Proved women's capability in workforce; challenged gender roles; inspired 1960s-70s women's liberation movement. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Experiencia laboral de mujeres en Segunda Guerra Mundial desafió fundamentalmente noción de que no podían manejar \"trabajo de hombres.\" Aunque muchas fueron presionadas a dejar empleos después de guerra, experiencia mostró a mujeres sus capacidades. Hijas de esta generación lideraron movimiento feminista de 1960s-70s, citando contribuciones de guerra de sus madres.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.52,
+        "b": 1.34,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U6-DOK2-0012",
+      "stem": "How did African Americans' experience of fighting for democracy abroad during World War II affect the civil rights movement at home?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It intensified demands for racial equality at home, as veterans who had fought for freedom abroad were unwilling to accept second-class citizenship",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It caused most African American veterans to accept segregation as a necessary sacrifice to preserve national unity",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It led Congress to pass sweeping civil rights legislation immediately after the war ended in 1945",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It had little impact on civil rights because most African American veterans returned to the same communities and accepted prewar conditions",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 'Double V' campaign — victory against fascism abroad and victory against racism at home — expressed the logic that African Americans who fought and died for American democracy had earned equal citizenship; returning veterans' frustration with persistent segregation energized postwar civil rights activism.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.4,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PS-0041",
+      "stem": "Read the excerpt below.\n\n\"Winston Churchill has asked that we join with Britain in a common war effort — sharing intelligence, pooling resources, and coordinating military strategy. Without the full might of America behind us, Britain cannot survive.\" — Harry Hopkins, Memorandum to Roosevelt, January 1941\n\nWhich of the following best describes the role of Winston Churchill in leading Britain during World War II?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Churchill was democratically elected Prime Minister specifically because of his plan to negotiate peace with Germany.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Churchill focused primarily on protecting Britain's colonial empire rather than fighting Germany directly.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Churchill rallied British resistance against Nazi Germany and worked tirelessly to build an alliance with the United States.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Churchill served as the British supreme military commander, personally leading troops in combat throughout the war.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Churchill's leadership was characterized by his determination to resist Nazi Germany at all costs, his extraordinary oratorical skill in rallying the British public and seeking American support, and his strategic vision for winning the war through coalition warfare. This excerpt illustrates his efforts to bring the U.S. into the war on Britain's side. Option A is incorrect because Churchill was not elected Prime Minister — he was appointed in a national emergency. Option B is incorrect because Churchill consistently sought military confrontation with Germany, not negotiation. Option D is incorrect because Churchill was the British Prime Minister, not a military general.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 0.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PS-0042",
+      "stem": "Read the excerpt below.\n\n\"I have nothing to offer but blood, toil, tears, and sweat. You ask what is our policy? I will say: It is to wage war by sea, land, and air with all our might and with all the strength that God can give us.\" — Winston Churchill, First Speech as Prime Minister, May 13, 1940\n\nWhich of the following best describes the historical context in which Churchill delivered this speech?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Germany had just launched the Blitz, bombing British cities nightly, and Churchill was rallying civilians to resist.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Battle of Britain was raging in British skies and the RAF was on the verge of defeat.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The United States had just entered the war and Churchill was welcoming America as an ally.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Germany had just launched its massive Blitzkrieg offensive in Western Europe, and Britain faced the prospect of fighting nearly alone.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Churchill delivered this speech on May 13, 1940 — just three days after becoming Prime Minister — as Germany had just launched its massive Blitzkrieg offensive against France, Belgium, and the Netherlands. Britain faced the prospect of standing nearly alone against the Nazi war machine. Churchill's speech set the tone for total war and unflinching resistance. Option A is incorrect because the Blitz (German bombing of British cities) began in September 1940, months after this speech. Option B is incorrect because the Battle of Britain (air war over England) also began in the summer of 1940, after this speech. Option C is incorrect because the U.S. had not yet entered the war in May 1940.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PS-0043",
+      "stem": "Read the excerpt below.\n\n\"The leaders of the Allied powers — Churchill, Roosevelt, and Stalin — met at Yalta to determine the shape of the post-war world. Each came with different goals, and each left with only part of what he wanted.\" — Historian Robert Dallek, Franklin D. Roosevelt: A Political Life, 2017\n\nWhich of the following best describes a major decision made at the Yalta Conference (February 1945)?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Plans for dividing Germany into occupation zones, establishing the United Nations, and the Soviet Union's entry into the Pacific War.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The decision to use atomic bombs on Japan to force a rapid end to the Pacific War.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Marshall Plan to provide economic aid to war-devastated European nations to prevent communist takeover.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The division of Korea at the 38th parallel into Soviet and American spheres of influence.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "At the Yalta Conference, the Big Three (Roosevelt, Churchill, and Stalin) agreed on plans for the postwar world, including the division of Germany into occupation zones, free elections in liberated Eastern European countries (a promise Stalin later broke), the creation of the United Nations, and Soviet entry into the Pacific War against Japan. Option B is incorrect because the decision to use atomic bombs was made separately by Truman after Roosevelt's death. Option C is incorrect because the Marshall Plan was proposed by Secretary of State Marshall in 1947, after Yalta. Option D is incorrect because the Korean division was not decided at Yalta.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.4,
+        "c": 0.18
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PS-0044",
+      "stem": "Read the excerpt below.\n\n\"I am glad to be here because I am glad that Adolf Hitler is not here. He represents everything I loathe most in this world — racial arrogance, contempt for human dignity, and the use of force to crush the weak.\" — Franklin D. Roosevelt, Private Correspondence, 1942\n\nWhich of the following best describes Roosevelt's wartime leadership approach toward Nazi Germany?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Roosevelt believed negotiating a separate peace with Germany would be possible if Hitler were removed from power.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Roosevelt framed the war as a moral struggle against racial arrogance and tyranny, building the Allied coalition around the goal of unconditional German surrender.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Roosevelt prioritized the Pacific War against Japan over the European Theater, believing Germany could be contained.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Roosevelt personally commanded Allied military operations in Europe as the supreme military commander.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Roosevelt's private statement reveals his deep moral opposition to Nazism and its ideology of racial supremacy. His wartime leadership was characterized by building the Allied coalition, maintaining public support for the war effort with moral clarity, and pursuing unconditional surrender of Nazi Germany. He framed the war as a struggle for fundamental human values. Option A is incorrect because FDR did not pursue a separate peace with Germany. Option C is incorrect because FDR actually prioritized the European (Germany-first) theater before the Pacific. Option D is incorrect because FDR was a civilian president, not a military leader — he delegated military command to generals like Eisenhower.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PS-0045",
+      "stem": "Read the excerpt below.\n\n\"The buck stops here.\" — President Harry S. Truman, Desk Sign, White House\n\nIn the context of World War II, which of the following decisions best reflects President Truman's willingness to accept personal responsibility expressed in this motto?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The decision to implement the Lend-Lease program to supply Britain with war materials.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The decision to authorize Operation Overlord, the D-Day invasion of Normandy.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The 'Germany First' strategy that prioritized defeating Hitler before focusing on Japan.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The decision to use atomic bombs against Japan, which Truman made and defended as his personal responsibility.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Truman's decision to use atomic bombs on Hiroshima (August 6, 1945) and Nagasaki (August 9, 1945) was one of the most consequential and controversial decisions in American history. Truman made the decision himself, accepting full personal responsibility. He justified it as necessary to avoid an invasion of Japan that he believed would cost hundreds of thousands of American and Japanese lives. His desk motto 'The buck stops here' epitomizes his acceptance of this ultimate responsibility. Option A is incorrect because the Lend-Lease program was implemented by Roosevelt. Option B is incorrect because D-Day was planned before Truman became president. Option C is incorrect because the 'Germany First' strategy was also established under Roosevelt.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PSTIM-0095",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the mushroom cloud over Hiroshima, August 6, 1945.\n\n(Photograph, 1945. U.S. Army Air Forces.)\n\nWhat justification did President Truman give for using the weapon shown in this photograph?",
+      "stemEs": "¿Qué justificación dio el presidente Truman para usar el arma mostrada en esta fotografía?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He wanted to demonstrate American scientific superiority to impress the Soviet Union",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Japan had already used nuclear weapons against American forces in the Pacific",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congress required him to use the bomb before funding for the Manhattan Project expired",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "An invasion of Japan would cost hundreds of thousands of American and Japanese lives, and the bomb could end the war quickly",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "President Truman justified the atomic bombings by arguing that a conventional invasion of Japan (Operation Downfall) would result in massive casualties on both sides. He stated the bomb would save lives by forcing a rapid Japanese surrender, which came on August 15, 1945.",
+      "explanationEs": "Truman justificó el uso de la bomba argumentando que una invasión convencional causaría bajas masivas en ambos bandos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-53-x024",
+      "stem": "The Little Rock Central High School crisis (1957) was significant because —",
+      "stemEs": "The Little Rock Central High School crisis (1957) fue significativo/a porque —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eisenhower was forced to send federal troops to enforce Brown, asserting federal supremacy over state resistance",
+          "textEs": "Eisenhower was forced to send federal troops to enforce Brown, asserting federal supremacy over state resistance",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It produced the first televised images of racial violence that shocked national audiences",
+          "textEs": "It produced the first televised images of racial violence that shocked national audiences",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It demonstrated that Arkansas Governor Faubus was willing to use state power to openly defy a Supreme Court ruling",
+          "textEs": "It demonstrated that Arkansas Governor Faubus was willing to use state power to openly defy a Corte Suprema ruling",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It produced the first televised images of racial violence that shocked national audiences without any opposition",
+          "textEs": "It produced the first televised images of racial violence that shocked national audiences without any opposition",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both A and B represent the crisis's historical significance. B is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Both A and B represent the crisis's historical significance. B is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for derechos civiles and equal treatment.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.88,
+        "b": 1.74,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-53-x030",
+      "stem": "The second Brown decision (Brown II, 1955) ordered desegregation 'with all deliberate speed.' This vague standard —",
+      "stemEs": "The second Brown decision (Brown II, 1955) ordered desegregación 'with all deliberate speed.' This vague standard —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Was intended to show Southern courts that the Supreme Court was sensitive to regional concerns",
+          "textEs": "Was intended to show Southern courts that the Corte Suprema was sensitive to regional concerns",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Created a loophole that Southern states exploited to delay desegregation for a decade or more",
+          "textEs": "Created a loophole that Southern states exploited to delay desegregación for a decade or more",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Created a loophole that Southern states exploited to delay desegregation for a decade or more exclusively",
+          "textEs": "Created a loophole that Southern states exploited to delay desegregación for a decade or more exclusively",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Reflected the Court's genuine belief that gradual desegregation was educationally better for Black children",
+          "textEs": "Reflected the Court's genuine belief that gradual desegregación was educationally better for Black children",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both A and B accurately describe the causes and effects of the 'all deliberate speed' standard. The Supreme Court's 1954 ruling declared school segregation unconstitutional and energized the modern civil rights movement. D is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "Both A and B accurately describe the causes and effects of the 'all deliberate speed' standard. The Corte Suprema's 1954 ruling declared school segregación unconstitucional and energized the modern derechos civiles movement. D is incorrect because it describes a different program, event, or idea than this derechos civiles development. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.45,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-073",
+      "stem": "Executive Order 8802 (1941), which established the Fair Employment Practices Committee (FEPC), was issued by FDR in direct response to A. Philip Randolph's threatened March on Washington. Analyzing the causal chain that produced this executive order, which of the following best explains what this episode reveals about how marginalized groups achieved policy change during World War II?",
+      "stemEs": "La Orden Ejecutiva 8802 (1941), que estableció el Comité de Prácticas de Empleo Justo (FEPC), fue emitida por FDR en respuesta directa a la amenaza de A. Philip Randolph de una Marcha sobre Washington. Analizando la cadena causal que produjo esta orden ejecutiva, ¿cuál de las siguientes opciones explica mejor lo que este episodio revela sobre cómo los grupos marginados lograron cambios de política durante la Segunda Guerra Mundial?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The FEPC demonstrates that FDR was a committed civil rights advocate who had personally planned to address racial discrimination in employment before Randolph's march threat, using the threat as a political opportunity to implement a pre-existing policy goal.",
+          "textEs": "La FEPC demuestra que FDR era un defensor comprometido de los derechos civiles que había planificado personalmente abordar la discriminación racial en el empleo antes de la amenaza de marcha de Randolph, usando la amenaza como una oportunidad política para implementar un objetivo de política preexistente.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The executive order demonstrates that wartime emergencies automatically produce racial equality because economic necessity forces employers and governments to abandon discriminatory practices to maximize labor force utilization.",
+          "textEs": "La orden ejecutiva demuestra que las emergencias en tiempo de guerra producen automáticamente igualdad racial porque la necesidad económica obliga a los empleadores y gobiernos a abandonar las prácticas discriminatorias para maximizar la utilización de la fuerza laboral.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The episode demonstrates that organized leverage — the strategic threat of politically costly public action that would expose the contradiction between democratic rhetoric and racial practice — was more effective than moral persuasion alone in extracting policy concessions from a wartime president.",
+          "textEs": "El episodio demuestra que el apalancamiento organizado —la amenaza estratégica de acción pública políticamente costosa que expondría la contradicción entre la retórica democrática y la práctica racial— fue más efectivo que la persuasión moral sola para obtener concesiones de política de un presidente en tiempo de guerra.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The FEPC's creation demonstrates that wartime racial progress was entirely top-down — driven by executive concern for war production efficiency — and that African American activist organizations played no meaningful role in its creation.",
+          "textEs": "La creación de la FEPC demuestra que el progreso racial en tiempo de guerra fue completamente de arriba hacia abajo —impulsado por la preocupación ejecutiva por la eficiencia de la producción bélica— y que las organizaciones activistas afroamericanas no desempeñaron ningún papel significativo en su creación.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The FEPC episode illustrates a recurring dynamic in civil rights history: FDR did not issue E.O. 8802 out of personal conviction about racial equality but because Randolph's threatened march of 100,000 Black Americans on Washington created two unacceptable political costs — the international optics of a democracy racially excluding workers while fighting fascism, and the domestic political disruption of a massive public demonstration. This demonstrates that wartime strategic leverage — the ability to expose the contradiction between American democratic rhetoric and domestic racial practice — was the mechanism through which policy change became possible. Moral arguments alone had failed for decades; the combination of organized pressure and wartime context created actionable leverage. Options A, B, and D mischaracterize the causal mechanism.",
+      "explanationEs": "El episodio de la FEPC ilustra una dinámica recurrente en la historia de los derechos civiles: FDR no emitió la O.E. 8802 por convicción personal sobre la igualdad racial, sino porque la marcha amenazada de Randolph de 100,000 afroamericanos sobre Washington creó dos costos políticos inaceptables —la óptica internacional de una democracia que excluía racialmente a los trabajadores mientras luchaba contra el fascismo, y la disrupción política doméstica de una demostración pública masiva—. Esto demuestra que el apalancamiento estratégico en tiempo de guerra —la capacidad de exponer la contradicción entre la retórica democrática estadounidense y la práctica racial doméstica— fue el mecanismo a través del cual el cambio de política se volvió posible. Los argumentos morales por sí solos habían fallado durante décadas; la combinación de presión organizada y contexto bélico creó un apalancamiento accionable. Las opciones A, B y D tergiversan el mecanismo causal.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.17,
+        "b": 1.07,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-074",
+      "stem": "The FEPC (Fair Employment Practices Committee), established in 1941, prohibited racial discrimination in defense industries receiving federal contracts. However, the FEPC had limited enforcement powers and relied primarily on investigation and public pressure. Analyzing its actual effectiveness, which of the following best evaluates the FEPC as a policy instrument?",
+      "stemEs": "La FEPC (Comité de Prácticas de Empleo Justo), establecida en 1941, prohibió la discriminación racial en las industrias de defensa que recibían contratos federales. Sin embargo, la FEPC tenía poderes de aplicación limitados y dependía principalmente de la investigación y la presión pública. Analizando su efectividad real, ¿cuál de las siguientes opciones evalúa mejor la FEPC como instrumento de política?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The FEPC was completely effective in eliminating racial discrimination in all defense industries nationwide, demonstrating that federal executive orders alone are sufficient to achieve full employment equality without additional enforcement mechanisms.",
+          "textEs": "La FEPC fue completamente efectiva en eliminar la discriminación racial en todas las industrias de defensa a nivel nacional, demostrando que las órdenes ejecutivas federales por sí solas son suficientes para lograr la plena igualdad de empleo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The FEPC was entirely ineffective and produced no measurable improvement in Black employment in war industries, demonstrating that symbolic government policies have no impact on entrenched discrimination without strong accompanying enforcement.",
+          "textEs": "La FEPC fue completamente ineficaz y no produjo ninguna mejora mensurable en el empleo de afroamericanos en las industrias de guerra, demostrando que las políticas gubernamentales simbólicas no tienen impacto sin mecanismos de aplicación sólidos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The FEPC's limitations were irrelevant because market forces naturally and rapidly eliminated racial discrimination in war industries as profit-seeking employers sought the most productive workers available regardless of race.",
+          "textEs": "Las limitaciones de la FEPC fueron irrelevantes porque las fuerzas del mercado eliminaron naturalmente la discriminación racial en las industrias de guerra cuando los empleadores buscaron a los trabajadores más productivos independientemente de la raza.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The FEPC produced real but uneven gains — stronger in the North where political resistance was lower — while its 1946 abolition showed anti-discrimination policies lacked durable political support, leaving its primary legacy as a precedent for future civil rights enforcement mechanisms.",
+          "textEs": "La FEPC produjo ganancias reales pero geográficamente desiguales —más efectiva en las industrias del Norte donde la resistencia política era menor— mientras que su abolición en 1946 demostró que las políticas antidiscriminatorias en tiempo de guerra carecían de la base política duradera para la aplicación a largo plazo, haciendo que su legado principal fuera su valor como precedente para los futuros mecanismos de derechos civiles.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The FEPC illustrates a recurring challenge in anti-discrimination policy: symbolic and investigative powers without enforcement mechanisms produce inconsistent results. The FEPC achieved real gains in some industries and regions (particularly in the North, where Black employment in war industries increased significantly), but was largely ineffective in the South where political opposition was strongest and the FEPC had least leverage. This created a geographically uneven impact. Additionally, the FEPC was abolished by Congress in 1946, demonstrating that wartime anti-discrimination policies were not durable without sustained political support. Its legacy was important as a precedent for later civil rights enforcement mechanisms. Options A, B, and C overstate either its success or its failure without acknowledging the complexity.",
+      "explanationEs": "La FEPC ilustra un desafío recurrente en la política antidiscriminatoria: los poderes simbólicos e investigativos sin mecanismos de aplicación producen resultados inconsistentes. La FEPC logró ganancias reales en algunas industrias y regiones (particularmente en el Norte, donde el empleo de afroamericanos en las industrias de guerra aumentó significativamente), pero fue en gran medida ineficaz en el Sur, donde la oposición política era más fuerte y la FEPC tenía menos apalancamiento. Esto creó un impacto geográficamente desigual. Además, la FEPC fue abolida por el Congreso en 1946, lo que demuestra que las políticas antidiscriminatorias en tiempo de guerra no eran duraderas sin un apoyo político sostenido. Su legado fue importante como precedente para los mecanismos de aplicación de derechos civiles posteriores. Las opciones A, B y C sobreestiman su éxito o fracaso sin reconocer la complejidad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.02,
+        "b": 1.06,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-075",
+      "stem": "During World War II, the U.S. military maintained racially segregated units, and Black soldiers frequently faced racial violence and discrimination from white soldiers and civilian populations, even in the North. Yet these same soldiers were asked to fight for freedom and democracy. Analyzing this contradiction, which of the following best explains how this tension shaped African American political consciousness during and after the war?",
+      "stemEs": "Durante la Segunda Guerra Mundial, el ejército de los EE.UU. mantuvo unidades racialmente segregadas, y los soldados negros frecuentemente enfrentaban violencia racial y discriminación de soldados blancos y poblaciones civiles, incluso en el Norte. Sin embargo, estos mismos soldados eran llamados a luchar por la libertad y la democracia. Analizando esta contradicción, ¿cuál de las siguientes opciones explica mejor cómo esta tensión moldeó la conciencia política afroamericana durante y después de la guerra?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The contradiction had no political effect on African Americans, as the shared wartime sacrifice encouraged Black Americans to accept the existing racial order as a necessary temporary condition that would be addressed after the war.",
+          "textEs": "La contradicción no tuvo ningún efecto político en los afroamericanos, ya que el sacrificio compartido en tiempo de guerra alentó a los afroamericanos a aceptar el orden racial existente como una condición temporal necesaria que sería abordada después de la guerra.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The contradiction between fighting for democracy abroad while facing racial oppression at home intensified African American political consciousness — captured in the 'Double V' campaign — creating a moral foundation for civil rights demands that Black veterans were unwilling to defer once they returned home.",
+          "textEs": "La contradicción entre luchar por la democracia en el extranjero mientras se enfrentaba la opresión racial en casa intensificó la conciencia política afroamericana —capturada en la campaña de la 'Doble V'— creando una base moral para las demandas de derechos civiles que los veteranos negros no estaban dispuestos a diferir una vez que regresaron a casa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The experience of segregation during the war caused most African Americans to conclude that political integration into American society was impossible and to focus instead on developing separate Black economic and cultural institutions.",
+          "textEs": "La experiencia de la segregación durante la guerra llevó a la mayoría de los afroamericanos a concluir que la integración política en la sociedad estadounidense era imposible y a centrarse en cambio en desarrollar instituciones económicas y culturales negras separadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The contradiction was resolved during the war itself when FDR's FEPC eliminated most racial discrimination and Black veterans returned to a country where legal barriers to equality had already been substantially dismantled.",
+          "textEs": "La contradicción se resolvió durante la propia guerra cuando la FEPC de FDR eliminó la mayor parte de la discriminación racial y los veteranos negros regresaron a un país donde las barreras legales a la igualdad ya habían sido sustancialmente desmanteladas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 'Double V' campaign — victory abroad and victory at home — articulated exactly this tension. African American soldiers and civilians made the explicit argument: if we are fighting fascism and racism in Europe and the Pacific, our own government cannot justify racial oppression at home. This created a heightened political consciousness — historian James Goodman coined the term 'watershed moment' for how Black veterans, having fought for democracy, returned unwilling to accept second-class citizenship. The contradiction between wartime democratic rhetoric and domestic racial reality became the moral foundation for accelerated civil rights activism from the late 1940s onward, including the immediate post-war push for desegregation. Options A, C, and D mischaracterize how the tension shaped consciousness.",
+      "explanationEs": "La campaña de la 'Doble V' —victoria en el extranjero y victoria en casa— articuló exactamente esta tensión. Los soldados y civiles afroamericanos hicieron el argumento explícito: si estamos luchando contra el fascismo y el racismo en Europa y el Pacífico, nuestro propio gobierno no puede justificar la opresión racial en casa. Esto creó una conciencia política elevada: el historiador James Goodman acuñó el término 'momento decisivo' para describir cómo los veteranos negros, habiendo luchado por la democracia, regresaron sin estar dispuestos a aceptar una ciudadanía de segunda clase. La contradicción entre la retórica democrática en tiempo de guerra y la realidad racial doméstica se convirtió en la base moral para el activismo de derechos civiles acelerado desde finales de la década de 1940 en adelante, incluido el impulso inmediato de posguerra por la desegregación. Las opciones A, C y D tergiversan cómo la tensión moldeó la conciencia.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.8,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-076",
+      "stem": "When Black veterans of World War II returned home to the South, they encountered violence, disenfranchisement, and continued racial oppression — sometimes including attacks by white veterans. Truman's President's Committee on Civil Rights (1947) was partly a response to this violence. What does the post-war violence against Black veterans most clearly reveal about the relationship between military service and civil rights progress?",
+      "stemEs": "Cuando los veteranos negros de la Segunda Guerra Mundial regresaron al Sur, encontraron violencia, privación del derecho al voto y opresión racial continua —a veces incluyendo ataques de veteranos blancos—. El Comité del Presidente de Truman sobre Derechos Civiles (1947) fue en parte una respuesta a esta violencia. ¿Qué revela más claramente la violencia de posguerra contra los veteranos negros sobre la relación entre el servicio militar y el progreso de los derechos civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Military service created moral leverage for civil rights claims — attacking men who had served their country was politically untenable — but translating that moral authority into policy change still required sustained organized political pressure to produce legislative results.",
+          "textEs": "El servicio militar creó apalancamiento moral para las reclamaciones de derechos civiles —la paradoja de atacar a hombres que habían servido a su país era políticamente insostenible— pero no confirió derechos automáticamente; la conversión del servicio bélico en cambio de política requirió presión política organizada sostenida combinada con la autoridad moral que proporcionó el servicio.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Military service automatically conferred full and equal citizenship rights on African American veterans, and the post-war violence against them was an aberrational response from isolated extremists rather than reflecting any systemic or official racial policy.",
+          "textEs": "El servicio militar confirió automáticamente plena ciudadanía igualitaria a los veteranos afroamericanos, y la violencia de posguerra fue una respuesta aberrante de extremistas aislados en lugar de reflejar cualquier política racial sistémica.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The systematic post-war violence against Black veterans demonstrates that military service was entirely counterproductive to long-term civil rights progress because it intensified racial tensions and backlash rather than building any meaningful bridges toward equality.",
+          "textEs": "La violencia contra los veteranos negros demuestra que el servicio militar fue completamente contraproducente para el progreso de los derechos civiles porque reforzó las tensiones raciales en lugar de construir puentes hacia la igualdad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The post-war violence against Black veterans proves that African American communities had no viable political options whatsoever for advancing civil rights, and that only the eventual intervention of the federal judiciary could produce any meaningful and durable racial progress.",
+          "textEs": "La violencia de posguerra muestra que los veteranos afroamericanos no tenían opciones políticas para avanzar en los derechos civiles y que solo la eventual intervención de los tribunales federales podría producir algún progreso racial significativo.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The post-war violence against Black veterans — who wore their uniforms expecting protection and respect — demonstrates that military service did not automatically confer equal citizenship or protection. This paradox (men who served their country attacked by their fellow citizens upon return) was so morally stark that it created political pressure on Truman. The NAACP's documentation of this violence and Randolph's lobbying contributed directly to Truman's 1948 Executive Order 9981 desegregating the military. The episode reveals that military service created moral leverage but not automatic rights — the translation of wartime service into civil rights required sustained political pressure combined with the moral authority that service provided. Options B, C, and D mischaracterize the relationship between service and rights.",
+      "explanationEs": "La violencia de posguerra contra los veteranos negros —que usaban sus uniformes esperando protección y respeto— demuestra que el servicio militar no confirió automáticamente ciudadanía igualitaria ni protección. Esta paradoja (hombres que sirvieron a su país atacados por sus conciudadanos al regresar) fue tan moralmente impactante que creó presión política sobre Truman. La documentación de esta violencia por parte de la NAACP y el cabildeo de Randolph contribuyeron directamente a la Orden Ejecutiva 9981 de Truman de 1948 que desegregó el ejército. El episodio revela que el servicio militar creó apalancamiento moral pero no derechos automáticos —la traducción del servicio bélico en derechos civiles requirió presión política sostenida combinada con la autoridad moral que proporcionó el servicio—. Las opciones B, C y D tergiversan la relación entre servicio y derechos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.04,
+        "b": 0.74,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-077",
+      "stem": "Truman's Executive Order 9981 (1948), which desegregated the U.S. armed forces, was motivated partly by the moral arguments of civil rights advocates and partly by Cold War strategic concerns about how racial discrimination undermined American credibility in the global struggle against communism. Analyzing these dual motivations, which of the following best assesses their relative importance?",
+      "stemEs": "La Orden Ejecutiva 9981 de Truman (1948), que desegregó las fuerzas armadas de los EE.UU., fue motivada en parte por los argumentos morales de los defensores de los derechos civiles y en parte por las preocupaciones estratégicas de la Guerra Fría sobre cómo la discriminación racial socavaba la credibilidad estadounidense en la lucha global contra el comunismo. Analizando estas motivaciones duales, ¿cuál de las siguientes opciones evalúa mejor su importancia relativa?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cold War strategic concerns were the sole meaningful cause of military desegregation, and moral arguments from civil rights advocates were entirely irrelevant to Truman's decision.",
+          "textEs": "Las preocupaciones estratégicas de la Guerra Fría fueron la única causa significativa de la desegregación militar, y los argumentos morales de los defensores de los derechos civiles fueron completamente irrelevantes para la decisión de Truman.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Moral arguments from civil rights advocates were the sole meaningful cause, and Cold War concerns played no role in Truman's calculation since segregation did not actually harm American foreign policy interests.",
+          "textEs": "Los argumentos morales de los defensores de los derechos civiles fueron la única causa significativa, y las preocupaciones de la Guerra Fría no desempeñaron ningún papel en el cálculo de Truman, ya que la segregación en realidad no perjudicó los intereses de política exterior estadounidenses.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both motivations were genuinely present and mutually reinforcing: moral and political pressure from civil rights advocates created a domestic imperative while Cold War credibility concerns created a foreign policy imperative",
+          "textEs": "Ambas motivaciones estaban genuinamente presentes y se reforzaban mutuamente: la presión moral y política de los defensores de los derechos civiles creó un imperativo doméstico, mientras que las preocupaciones de credibilidad de la Guerra Fría crearon un imperativo de política exterior —su combinación produjo condiciones políticas bajo las cuales la acción era viable donde cualquiera de los dos factores por sí solo probablemente no habría sido suficiente.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Truman's personal moral beliefs were the primary cause of military desegregation, and both civil rights pressure and Cold War concerns were merely convenient justifications for a decision he had already made on purely principled grounds.",
+          "textEs": "Las creencias morales personales de Truman fueron la causa principal de la desegregación militar, y tanto la presión de los derechos civiles como las preocupaciones de la Guerra Fría fueron meramente justificaciones convenientes para una decisión que ya había tomado por razones puramente principistas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "This question requires evaluating competing causal factors. The evidence suggests both motivations were genuinely present and mutually reinforcing: A. Philip Randolph's direct lobbying and threat of a civil disobedience campaign against the draft, combined with documented violence against Black veterans, created moral and political pressure. Simultaneously, State Department officials had documented that Soviet propaganda was effectively using American racial discrimination to undermine U.S. credibility with newly independent nations in Asia and Africa. The strongest assessment acknowledges that neither factor alone would likely have been sufficient — the moral arguments had existed for decades without producing desegregation; Cold War strategy alone might not have overcome Southern political opposition. Their combination created the specific conditions under which action became politically viable. Options A, B, and D inappropriately reduce the explanation to a single cause.",
+      "explanationEs": "Esta pregunta requiere evaluar factores causales en competencia. La evidencia sugiere que ambas motivaciones estaban genuinamente presentes y se reforzaban mutuamente: el cabildeo directo de A. Philip Randolph y la amenaza de una campaña de desobediencia civil contra el reclutamiento, combinados con la violencia documentada contra los veteranos negros, crearon presión moral y política. Simultáneamente, los funcionarios del Departamento de Estado habían documentado que la propaganda soviética estaba utilizando efectivamente la discriminación racial estadounidense para socavar la credibilidad de los EE.UU. con las naciones recién independizadas de Asia y África. La evaluación más sólida reconoce que es probable que ninguno de los factores por sí solo hubiera sido suficiente —los argumentos morales habían existido durante décadas sin producir desegregación; la estrategia de Guerra Fría sola podría no haber superado la oposición política del Sur—. Su combinación creó las condiciones específicas bajo las cuales la acción se volvió políticamente viable. Las opciones A, B y D reducen inapropiadamente la explicación a una sola causa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.69,
+        "b": 0.57,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-078",
+      "stem": "The Great Migration of African Americans from the South to Northern cities accelerated during World War II as workers moved to take advantage of defense industry employment. This demographic shift had profound long-term political consequences. Which of the following best explains how wartime migration shaped African American political power in subsequent decades?",
+      "stemEs": "La Gran Migración de afroamericanos del Sur a las ciudades del Norte se aceleró durante la Segunda Guerra Mundial a medida que los trabajadores se trasladaban para aprovechar el empleo en la industria de defensa. Este cambio demográfico tuvo profundas consecuencias políticas a largo plazo. ¿Cuál de las siguientes opciones explica mejor cómo la migración en tiempo de guerra moldeó el poder político afroamericano en las décadas posteriores?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wartime migration had no political effect because African Americans in Northern cities faced the same disenfranchisement barriers as those in the South, making their geographic relocation politically irrelevant.",
+          "textEs": "La migración en tiempo de guerra no tuvo ningún efecto político porque los afroamericanos en las ciudades del Norte enfrentaron las mismas barreras de privación del derecho al voto que los del Sur, haciendo que su reubicación geográfica fuera políticamente irrelevante.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wartime migration immediately produced equal political representation for African Americans in Northern states, completing the civil rights agenda before the formal movement of the 1950s began.",
+          "textEs": "La migración en tiempo de guerra produjo inmediatamente representación política igualitaria para los afroamericanos en los estados del Norte, completando la agenda de derechos civiles antes de que comenzara el movimiento formal de la década de 1950.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The primary political effect of wartime migration was negative, as Northern whites' resentment of Black migration produced more intense opposition to civil rights legislation than had existed before the population shift.",
+          "textEs": "El efecto político principal de la migración en tiempo de guerra fue negativo, ya que el resentimiento de los blancos del Norte hacia la migración negra produjo una oposición más intensa a la legislación de derechos civiles de la que había existido antes del desplazamiento de población.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Northern migration created geographic concentrations of African American voters who faced fewer disenfranchisement barriers, concentrated economic resources for civil rights organizations",
+          "textEs": "La migración al Norte creó concentraciones geográficas de votantes afroamericanos que enfrentaron menos barreras de privación del derecho al voto, concentraron recursos económicos para las organizaciones de derechos civiles y convirtieron a los votantes negros en decisivos en los estados electorales clave —remodelando el panorama político dentro del cual la organización posterior de derechos civiles podría aprovecharse más efectivamente.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The wartime acceleration of the Great Migration had multi-generational political consequences: (1) Northern cities became centers of Black political power, as Northern Black voters faced fewer disenfranchisement barriers than Southern counterparts; (2) The concentration of Black voters in Northern urban electoral districts made them a decisive swing vote in key presidential states (New York, Pennsylvania, Michigan, Illinois), which influenced Truman's decision to pursue desegregation in the 1948 election; (3) The economic resources of urban Black communities funded civil rights organizations and media (NAACP, Chicago Defender, etc.); (4) Geographic concentration enabled organizational infrastructure that rural dispersal prevented. These factors combined to fundamentally reshape the political landscape within which the civil rights movement operated. Options A, B, and C are oversimplified or inaccurate characterizations of these effects.",
+      "explanationEs": "La aceleración bélica de la Gran Migración tuvo consecuencias políticas multigeneracionales: (1) Las ciudades del Norte se convirtieron en centros de poder político negro, ya que los votantes negros del Norte enfrentaron menos barreras de privación del derecho al voto que sus contrapartes del Sur; (2) La concentración de votantes negros en los distritos electorales urbanos del Norte los convirtió en un voto decisivo de balance en los estados presidenciales clave (Nueva York, Pensilvania, Michigan, Illinois), lo que influyó en la decisión de Truman de buscar la desegregación en las elecciones de 1948; (3) Los recursos económicos de las comunidades negras urbanas financiaron organizaciones de derechos civiles y medios de comunicación (NAACP, Chicago Defender, etc.); (4) La concentración geográfica permitió una infraestructura organizativa que la dispersión rural impedía. Estos factores combinados remodelaron fundamentalmente el panorama político dentro del cual operó el movimiento de derechos civiles. Las opciones A, B y C son caracterizaciones simplificadas o inexactas de estos efectos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.74,
+        "b": 1.55,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-080",
+      "stem": "The Pittsburgh Courier's 'Double V' campaign (1942) explicitly linked the war against fascism abroad to the struggle against racism at home, arguing that African Americans should demand victory on both fronts simultaneously. Analyzing the strategic logic of the Double V campaign, which of the following best explains why wartime was a particularly effective moment to make this argument?",
+      "stemEs": "La campaña 'Doble V' del Pittsburgh Courier (1942) vinculó explícitamente la guerra contra el fascismo en el extranjero con la lucha contra el racismo en casa, argumentando que los afroamericanos deberían exigir la victoria en ambos frentes simultáneamente. Analizando la lógica estratégica de la campaña Doble V, ¿cuál de las siguientes opciones explica mejor por qué el tiempo de guerra fue un momento particularmente efectivo para hacer este argumento?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wartime was strategically ideal because the government was publicly committed to democratic and anti-racist principles as justifications for the war, making domestic racial discrimination an ideological vulnerability that the Double V campaign could exploit",
+          "textEs": "El tiempo de guerra fue estratégicamente ideal porque el gobierno estaba públicamente comprometido con principios democráticos y antirracistas como justificaciones para la guerra, haciendo de la discriminación racial doméstica una vulnerabilidad ideológica que la campaña Doble V podía explotar —cualquier defensa de la discriminación racial contradecía los objetivos de guerra declarados.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wartime was strategically ideal because military service gave African American men access to weapons, providing physical means to enforce civil rights claims that had previously been purely rhetorical.",
+          "textEs": "El tiempo de guerra fue estratégicamente ideal porque el servicio militar dio a los hombres afroamericanos acceso a armas, proporcionando medios físicos para hacer cumplir las reclamaciones de derechos civiles que anteriormente habían sido puramente retóricas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Wartime was strategically challenging rather than advantageous because the government could use national security justifications to suppress civil rights organizing as potentially subversive to the war effort.",
+          "textEs": "El tiempo de guerra fue estratégicamente desafiante en lugar de ventajoso porque el gobierno podía usar justificaciones de seguridad nacional para suprimir la organización de derechos civiles como potencialmente subversiva para el esfuerzo bélico.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Double V campaign's timing had no strategic significance because the strength of a civil rights argument is determined solely by its intrinsic moral merit rather than by the political context in which it is made.",
+          "textEs": "El momento de la campaña Doble V no tuvo ninguna importancia estratégica porque la fuerza de un argumento de derechos civiles está determinada únicamente por su mérito moral intrínseco en lugar de por el contexto político en que se hace.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Double V campaign's strategic timing was brilliant because wartime created a specific ideological vulnerability: the government was asking Americans to fight a war explicitly justified as a defense of democracy and freedom against fascist racial ideology. This made the contradiction between that rhetoric and American racial practices extraordinarily visible and difficult to defend. Any American official who responded to the Double V argument had to either acknowledge the contradiction (which undermined the war's moral case) or commit to racial reform (which some did not want to do). Wartime was uniquely advantageous for this framing because the government was publicly committed to exactly the principles that racial discrimination violated. Options B, C, and D mischaracterize the strategic logic or timing advantage.",
+      "explanationEs": "El momento estratégico de la campaña Doble V fue brillante porque el tiempo de guerra creó una vulnerabilidad ideológica específica: el gobierno estaba pidiendo a los estadounidenses que lucharan en una guerra explícitamente justificada como defensa de la democracia y la libertad contra la ideología racial fascista. Esto hizo extraordinariamente visible y difícil de defender la contradicción entre esa retórica y las prácticas raciales estadounidenses. Cualquier funcionario estadounidense que respondiera al argumento de la Doble V tenía que reconocer la contradicción (lo que socavaba el caso moral de la guerra) o comprometerse con la reforma racial (lo que algunos no querían hacer). El tiempo de guerra fue singularmente ventajoso para este encuadre porque el gobierno estaba públicamente comprometido exactamente con los principios que violaba la discriminación racial. Las opciones B, C y D tergiversan la lógica estratégica o la ventaja del momento.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.85,
+        "b": 1.21,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-081",
+      "stem": "The GI Bill (Servicemen's Readjustment Act of 1944) offered veterans education benefits, low-interest home loans, and unemployment insurance. However, its benefits were administered in ways that largely excluded African American veterans, particularly in the South. Analyzing this pattern, which of the following best explains what the racialized administration of the GI Bill reveals about New Deal-era social policy?",
+      "stemEs": "La Ley del Soldado (Ley de Reajuste de los Militares de 1944) ofrecía a los veteranos beneficios educativos, préstamos hipotecarios de bajo interés y seguro de desempleo. Sin embargo, sus beneficios se administraron de maneras que en gran medida excluyeron a los veteranos afroamericanos, especialmente en el Sur. Analizando este patrón, ¿cuál de las siguientes opciones explica mejor lo que la administración racializada de la Ley del Soldado revela sobre la política social de la era del New Deal?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The GI Bill's racial inequity demonstrates that the federal government deliberately designed it to exclude African Americans, revealing that wartime civil rights gestures were purely cynical with no genuine intent to expand equality.",
+          "textEs": "La inequidad racial de la Ley del Soldado demuestra que el gobierno federal la diseñó deliberadamente para excluir a los afroamericanos, revelando que los gestos de derechos civiles en tiempo de guerra fueron puramente cínicos sin ninguna intención genuina de expandir la igualdad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The unequal outcomes of GI Bill administration were unintentional and reflected only the personal prejudices of individual local administrators rather than any systemic policy design.",
+          "textEs": "Los resultados desiguales de la administración de la Ley del Soldado fueron no intencionales y reflejaron solo los prejuicios personales de los administradores locales individuales en lugar de cualquier diseño de política sistémica.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The GI Bill exemplifies a broader New Deal-era pattern: federally funded programs structured to win Southern Democratic support through decentralized local administration systematically produced racial inequality, as local administrators channeled 'race-neutral' federal benefits through existing racial hierarchies.",
+          "textEs": "La Ley del Soldado ejemplifica un patrón más amplio de la era del New Deal: los programas financiados federalmente estructurados para ganar el apoyo demócrata del Sur a través de la administración local descentralizada produjeron sistemáticamente desigualdad racial, ya que los administradores locales canalizaron los beneficios federales 'racialmente neutros' a través de las jerarquías raciales existentes.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The GI Bill's administration was racially equitable in practice, and statistics showing lower African American benefit usage reflect lower veteran service rates among Black Americans rather than discriminatory administration.",
+          "textEs": "La administración de la Ley del Soldado fue racialmente equitativa en la práctica, y las estadísticas que muestran un menor uso de beneficios por parte de los afroamericanos reflejan tasas más bajas de servicio de veteranos entre los estadounidenses negros en lugar de una administración discriminatoria.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The GI Bill's racially unequal administration is historically significant as part of a broader pattern: New Deal and wartime social policies were designed to win Southern Democratic support by allowing state and local administration, which in the South meant racial exclusion was built into federally funded programs. The FHA (Federal Housing Administration) discriminated against Black borrowers; the Social Security Act initially excluded agricultural and domestic workers (predominantly Black); the GI Bill's local administration allowed Southern officials and institutions to steer Black veterans away from benefits. This pattern reveals that 'race-neutral' federal policy implemented through decentralized administration systematically produced racial inequality. Historian Ira Katznelson has called this the 'affirmative action' for white Americans. Options A, B, and D mischaracterize the policy dynamics.",
+      "explanationEs": "La administración racialmente desigual de la Ley del Soldado es históricamente significativa como parte de un patrón más amplio: las políticas sociales del New Deal y del tiempo de guerra fueron diseñadas para ganar el apoyo demócrata del Sur al permitir la administración estatal y local, lo que en el Sur significaba que la exclusión racial estaba incorporada en los programas financiados federalmente. La FHA (Administración Federal de Vivienda) discriminó a los prestatarios negros; la Ley de Seguridad Social inicialmente excluyó a los trabajadores agrícolas y domésticos (predominantemente negros); la administración local de la Ley del Soldado permitió que los funcionarios e instituciones del Sur alejaran a los veteranos negros de los beneficios. Este patrón revela que la política federal 'racialmente neutral' implementada a través de la administración descentralizada produjo sistemáticamente desigualdad racial. El historiador Ira Katznelson ha llamado a esto la 'acción afirmativa' para los estadounidenses blancos. Las opciones A, B y D tergiversan las dinámicas de política.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.81,
+        "b": 0.61,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PSTIM-0096",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the atomic bombing of Hiroshima, August 6, 1945.\n\n(Photograph, 1945. U.S. Army Air Forces.)\n\nTo what extent is the decision to use atomic weapons, as depicted in this photograph, still debated by historians?",
+      "stemEs": "¿En qué medida la decisión de usar armas atómicas sigue siendo debatida por los historiadores?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Historians remain divided: some argue the bombs saved lives by ending the war quickly, while others contend Japan was near surrender and the bombings were unnecessary or motivated by Cold War strategy",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "All historians agree the decision was entirely justified because no alternative existed",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The debate has been settled and historians universally condemn the decision as a war crime",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Historians do not consider the atomic bombings significant enough to study",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.52"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The atomic bombings remain one of the most debated decisions in American history. Traditionalists argue they saved lives by avoiding invasion; revisionists contend Japan was already seeking surrender and the bombs served partly to intimidate the Soviet Union. This historiographical debate reflects broader questions about ethics, military necessity, and the dawn of the nuclear age.",
+      "explanationEs": "El debate historiográfico refleja preguntas más amplias sobre ética, necesidad militar y el inicio de la era nuclear.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.8,
+        "b": 1.1,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.53"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.53->US.52 unchanged"
+        ]
+      }
+    }
+  ]
+}

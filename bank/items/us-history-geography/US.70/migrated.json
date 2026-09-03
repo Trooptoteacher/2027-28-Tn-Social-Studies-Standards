@@ -1,0 +1,1651 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.70",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us65-dok1-2",
+      "stem": "What characterized the ideal middle-class family in 1950s media?",
+      "stemEs": "¿Qué caracterizó la familia ideal de clase media en medios de los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Single-parent households headed by independent mothers raising children",
+          "textEs": "Hogares monoparentales encabezados por madres independientes criando niños",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both parents working outside the home to support the household income",
+          "textEs": "Ambos padres trabajando fuera del hogar para mantener ingreso del hogar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Working father, stay-at-home mother, and children in a suburban home",
+          "textEs": "Padre trabajador, madre ama de casa y niños en hogar suburbano",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Multi-generational families all living together under one shared roof",
+          "textEs": "Familias multigeneracionales que viven todas juntas bajo un mismo techo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Working father, stay-at-home mother, and children in a suburban home. Choice B is wrong because it describes both parents working outside the home to support the household income, not working father, stay-at-home mother, and children in a suburban home. Suburban growth reshaped race, class, and geography in postwar America for decades.",
+      "explanationEs": "Programas de TV y medios idealizaron la familia nuclear: padre trabajador, madre ama de casa, niños bien educados en hogar suburbano, aunque esta imagen no reflejaba las vidas reales de muchos estadounidenses.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.57,
+        "b": -1.11,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us67-dok1-3",
+      "stem": "What was the Bay of Pigs invasion?",
+      "stemEs": "¿Qué fue la invasión de Bahía de Cochinos?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A failed CIA-backed attempt to overthrow Fidel Castro in Cuba",
+          "textEs": "Un intento fallido respaldado por la CIA de derrocar a Fidel Castro en Cuba",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A successful U.S. military invasion that removed Castro from power",
+          "textEs": "Una invasión militar estadounidense exitosa que removió a Castro del poder",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A Soviet naval attack on the coast of Florida during the Cold War",
+          "textEs": "Un ataque naval soviético en la costa de Florida durante la Guerra Fría",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A joint U.S.-Cuban operation to fight drug trafficking in the Caribbean",
+          "textEs": "Una operación conjunta EE.UU.-Cuba para combatir el narcotráfico en el Caribe",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Bay of Pigs invasion was a failed CIA-backed attempt to overthrow Fidel Castro in Cuba. Choice B is wrong because it describes successful U.S. military invasion that removed Castro from power, not failed CIA-backed attempt to overthrow Fidel Castro in Cuba. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "En abril de 1961, una fuerza de exiliados cubanos entrenada por la CIA intentó invadir Cuba en la Bahía de Cochinos para derrocar a Fidel Castro. La invasión fracasó rotundamente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.84,
+        "b": -0.96,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-65-x021",
+      "stem": "The U.S. invasion of Grenada in 1983 was justified by the Reagan administration on the grounds that —",
+      "stemEs": "La administración Reagan justificó la invasión de los EE.UU. a Granada en 1983 con el argumento de que —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "American medical students were endangered by a Marxist coup, and Grenada was becoming a Soviet-Cuban military base",
+          "textEs": "Estudiantes médicos estadounidenses estaban en peligro por un golpe marxista, y Granada se estaba convirtiendo en una plataforma cubano-soviética",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Grenada had violated treaty obligations with the U.S. by nationalizing American-owned businesses and refineries",
+          "textEs": "Granada había violado sus obligaciones con los EE.UU. al nacionalizar empresas de propiedad estadounidense",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Grenada had launched naval attacks on U.S. Coast Guard vessels patrolling the eastern Caribbean Sea",
+          "textEs": "Granada había lanzado ataques navales contra embarcaciones del Servicio de Guardacostas de los EE.UU. en el Caribe oriental",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The invasion was formally authorized by the Organization of American States under its collective security charter",
+          "textEs": "La invasión fue formalmente autorizada por la Organización de Estados Americanos bajo su cláusula de defensa colectiva",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "American medical students were endangered by a Marxist coup, and Grenada was becoming a Soviet-Cuban military base. Choice B is wrong because it describes grenada had violated treaty obligations by nationalizing U.S.-owned businesses, not american medical students were endangered by a Marxist coup, and Grenada was becoming a Soviet-Cuban military base. This issue helped shape the political, social, and foreign policy debates of modern U.S. history.",
+      "explanationEs": "American medical students were endangered by a Marxist coup, and Grenada was becoming a Soviet-Cuban military base. Choice B is wrong because it describes grenada had violated tratado obligations by nationalizing U.S.-owned businesses, not american medical students were endangered by a Marxist coup, and Grenada was becoming a Soviet-Cuban military base. This issue helped shape the political, social, and política exterior debates of modern U.S. history.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.47,
+        "b": -1.6,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-69-x014",
+      "stem": "Kenneth Starr was the independent counsel who investigated Clinton. His investigation originally focused on —",
+      "stemEs": "Kenneth Starr fue el fiscal independiente que investigó a Clinton. Su investigación se centró originalmente en —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Clinton's relationship with Monica Lewinsky",
+          "textEs": "La relación de Clinton con Mónica Lewinsky",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Whitewater real estate development in Arkansas",
+          "textEs": "El desarrollo inmobiliario de Whitewater en Arkansas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Illegal campaign contributions from foreign donors in the 1996 election",
+          "textEs": "Contribuciones ilegales de campaña de donantes extranjeros en las elecciones de 1996",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The dismissal of White House Travel Office employees in 1993",
+          "textEs": "El despido de empleados de la Oficina de Viajes de la Casa Blanca en 1993",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Whitewater real estate development in Arkansas. Choice A is wrong because it describes clinton's relationship with Monica Lewinsky, not whitewater real estate development in Arkansas. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "El desarrollo inmobiliario de Whitewater en Arkansas. La opción A es incorrecta porque describe la relación de Clinton con Mónica Lewinsky, no el origen de la investigación de Starr. La investigación se expandió desde Whitewater para abarcar la conducta personal de Clinton.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.66,
+        "b": -0.75,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us62-dok2-1",
+      "stem": "What was the military-industrial complex that Eisenhower warned about?",
+      "stemEs": "¿Qué fue el complejo militar-industrial sobre el cual advirtió Eisenhower?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A policy pledging U.S. aid to Middle Eastern countries resisting communist aggression",
+          "textEs": "Una política que comprometía la ayuda de los EE.UU. a los países de Oriente Medio que resistían la agresión comunista",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A strategy of pushing dangerous situations to the edge to force opponents to retreat",
+          "textEs": "Un programa gubernamental estableciendo nuevas instalaciones de pruebas de armas en la nación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The close relationship between military, defense contractors, and government influence",
+          "textEs": "La estrecha relación entre ejército, contratistas de defensa e influencia gubernamental",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It focused on maintaining a credible threat of devastating retaliation to prevent attack",
+          "textEs": "Un sistema convirtiendo industrias de tiempo de paz a producción militar solo durante guerra",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The military-industrial complex that Eisenhower warned about was the close relationship between military, defense contractors, and government influence. Choice A is wrong because it describes policy pledging U.S. aid to Middle Eastern countries resisting communist aggression, not close relationship between military, defense contractors, and government influence. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "El complejo militar-industrial fue la estrecha relación entre el ejército, contratistas de defensa y el gobierno que el Presidente Eisenhower advirtió podría llevar a gasto militar excesivo e influencia injustificada sobre la política.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.14,
+        "b": 0.26,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us67-dok2-3-b",
+      "stem": "How was the Cuban Missile Crisis resolved?",
+      "stemEs": "¿Cómo se resolvió la Crisis de los Misiles de Cuba?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Created demand for products and established brands in American homes daily",
+          "textEs": "EE.UU. invadió Cuba y destruyó los sitios de misiles por la fuerza",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The USSR removed missiles in exchange for a U.S. pledge not to invade Cuba",
+          "textEs": "La URSS retiró los misiles a cambio de la promesa de EE.UU. de no invadir Cuba",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Situation comedies, variety shows, and westerns dominated the programming",
+          "textEs": "Cuba desmanteló voluntariamente los misiles sin ninguna negociación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Reinforced white, middle-class family ideals while largely excluding minorities",
+          "textEs": "Las Naciones Unidas enviaron fuerzas de paz a Cuba para remover las armas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The USSR removed missiles in exchange for a U.S. pledge not to invade Cuba. Choice A is wrong because it describes created demand for products and established brands in American homes daily, not uSSR removed missiles in exchange for a U.S. pledge not to invade Cuba. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "Después de un tenso enfrentamiento de 13 días en octubre de 1962, Jrushchov accedió a retirar los misiles soviéticos de Cuba. A cambio, Kennedy se comprometió a no invadir Cuba y acordó secretamente retirar los misiles estadounidenses de Turquía.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.6,
+        "b": 0.25,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PSTIM-0136",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph is a U.S. aerial reconnaissance image showing Soviet missile installations being constructed in Cuba in October 1962. The image was used by the Kennedy administration as evidence of Soviet nuclear missiles being placed just 90 miles from the United States.\n\n(U.S. Department of Defense photograph, October 1962. Public Domain.)\n\nWhat event is DIRECTLY documented in this photograph?",
+      "stemEs": "¿Qué evento está DIRECTAMENTE documentado en esta fotografía?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Cuban Missile Crisis of 1962",
+          "textEs": "La Crisis de los Misiles de Cuba de 1962",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Bay of Pigs invasion of 1961",
+          "textEs": "La invasión de Bahía de Cochinos de 1961",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Berlin Blockade of 1948",
+          "textEs": "El bloqueo de Berlín de 1948",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Vietnam War escalation of 1964",
+          "textEs": "La escalada de la Guerra de Vietnam de 1964",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "This aerial reconnaissance photograph was taken during the Cuban Missile Crisis of October 1962, when U.S. spy planes discovered Soviet nuclear missile installations being constructed in Cuba, triggering a 13-day confrontation that brought the world to the brink of nuclear war.",
+      "explanationEs": "Esta fotografía de reconocimiento aéreo fue tomada durante la Crisis de los Misiles de Cuba de octubre de 1962.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -1.2,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U7-DOK1-0001",
+      "stem": "The Cuban Missile Crisis is generally considered to be —",
+      "stemEs": "La Crisis de los Misiles de Cuba generalmente se considera —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The first U.S. military intervention in Latin America",
+          "textEs": "La primera intervención militar de EE. UU. en América Latina",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The end of the Cold War",
+          "textEs": "El fin de la Guerra Fría",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A minor diplomatic dispute resolved within hours",
+          "textEs": "Una disputa diplomática menor resuelta en cuestión de horas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The closest the United States and Soviet Union came to nuclear war",
+          "textEs": "El momento en que Estados Unidos y la Unión Soviética estuvieron más cerca de una guerra nuclear",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Cuban Missile Crisis (October 16-28, 1962) is generally considered the closest the United States and Soviet Union came to nuclear war. After U-2 reconnaissance confirmed Soviet medium-range ballistic missiles in Cuba, President Kennedy ordered a naval quarantine and demanded their removal; Soviet Premier Khrushchev agreed to withdraw the missiles in exchange for a public U.S. pledge not to invade Cuba and a private removal of U.S. Jupiter missiles from Turkey. Choice A is wrong because the U.S. had intervened in Latin America repeatedly long before 1962 (e.g., Mexico 1846, Cuba 1898, multiple Caribbean interventions). Choice B is wrong because the Cold War continued for nearly three more decades. The crisis directly produced the 1963 Moscow-Washington hotline and the Limited Test Ban Treaty.",
+      "explanationEs": "La Crisis de los Misiles Cubanos (16-28 de octubre de 1962) se considera generalmente el momento en que Estados Unidos y la Unión Soviética estuvieron más cerca de una guerra nuclear. Después de que un avión de reconocimiento U-2 confirmara la presencia de misiles balísticos soviéticos de alcance medio en Cuba, el presidente Kennedy ordenó una cuarentena naval y exigió su retirada; el primer ministro soviético Jruschov aceptó retirar los misiles a cambio de un compromiso público de EE. UU. de no invadir Cuba y la retirada privada de misiles Jupiter de EE. UU. en Turquía. La opción A es incorrecta porque EE. UU. había intervenido repetidamente en América Latina mucho antes de 1962 (por ejemplo, México 1846, Cuba 1898, varias intervenciones en el Caribe). La opción B es incorrecta porque la Guerra Fría continuó durante casi tres décadas más. La crisis produjo directamente el teléfono rojo Moscú-Washington de 1963 y el Tratado de Prohibición Limitada de Pruebas Nucleares.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 0.8,
+        "b": -1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-76-x030",
+      "stem": "The Cuban Missile Crisis of October 1962 was resolved primarily through —",
+      "stemEs": "The Cuban Missile Crisis of October 1962 was resolved primarily through:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A unilateral U.S. military invasion of Cuba that destroyed Soviet missile installations and expelled Soviet advisors",
+          "textEs": "A unilateral U.S. military invasion of Cuba that destroyed Soviet missile installations and expelled Soviet advisors",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Soviets removed Cuban missiles in exchange for a U.S. non-invasion pledge and a secret agreement removing U.S. missiles from Turkey",
+          "textEs": "The Soviets removed Cuban missiles in exchange for a U.S. non-invasion pledge and a secret agreement removing U.S. missiles from Turkey",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Khrushchev's unilateral decision to withdraw the missiles without any American concessions, presenting it as a Soviet diplomatic victory",
+          "textEs": "Khrushchev's unilateral decision to withdraw the missiles without any American concessions, presenting it as a Soviet diplomatic victory",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The United Nations imposing binding economic sanctions on both superpowers to force them to negotiate a settlement over Cuba",
+          "textEs": "The United Nations imposing binding economic sanctions on both superpowers to force them to negotiate a settlement over Cuba",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Cuban Missile Crisis ended through a negotiated deal: the Soviets removed missiles from Cuba, the U.S. pledged not to invade Cuba, and the U.S. secretly agreed to remove missiles from Turkey. A is wrong because the crisis was not resolved by invasion. The settlement showed how diplomacy could step back from the edge of nuclear war.",
+      "explanationEs": "The Cuban Missile Crisis ended through a negotiated deal: the Soviets removed missiles from Cuba, the U.S. pledged not to invade Cuba, and the U.S. secretly agreed to remove missiles from Turkey. A is wrong because the crisis was not resolved by invasion. The settlement showed how diplomacia could step back from the edge of nuclear war.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.05,
+        "b": -0.4,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-50-x022",
+      "stem": "The Cuban Missile Crisis (1962) was resolved when —",
+      "stemEs": "The Cuban Missile Crisis (1962) was resolved when —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Khrushchev agreed to remove missiles in exchange for NATO missiles being removed from Turkey",
+          "textEs": "Khrushchev agreed to remove missiles in exchange for NATO missiles being removed from Turkey",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy ordered a naval blockade and the Soviets agreed to remove missiles in exchange for a U.S. pledge not to invade Cuba",
+          "textEs": "Kennedy ordered a naval blockade and the Soviets agreed to remove missiles in exchange for a U.S. pledge not to invade Cuba",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The U.S. military destroyed the Soviet missile installations before they became operational",
+          "textEs": "The U.S. military destroyed the Soviet missile installations before they became operational",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Khrushchev agreed initially to remove missiles in exchange for NATO missiles being removed from Turkey",
+          "textEs": "Khrushchev agreed initially to remove missiles in exchange for NATO missiles being removed from Turkey",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy ordered a naval blockade and the Soviets agreed to remove missiles in exchange for a U.S. pledge not to invade Cuba. D is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how World War II and the early Cold War reshaped U.S. power at home and abroad.",
+      "explanationEs": "Kennedy ordered a naval blockade and the Soviets agreed to remove missiles in exchange for a U.S. pledge not to invade Cuba. D is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how Segunda Guerra Mundial and the early Guerra Fría reshaped U.S. power at home and abroad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.4,
+        "b": -0.85,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-50-x023",
+      "stem": "The hotline established between Washington and Moscow after the Cuban Missile Crisis reflected —",
+      "stemEs": "The hotline established between Washington and Moscow after the Cuban Missile Crisis reflected —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "American concerns that the Soviets might miscommunicate during a future crisis",
+          "textEs": "American concerns that the Soviets might miscommunicate during a future crisis",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both sides' recognition that direct communication could prevent accidental nuclear war",
+          "textEs": "Both sides' recognition that direct communication could prevent accidental nuclear war",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The United Nations' recommendation for direct superpower communication mechanisms",
+          "textEs": "The United Nations' recommendation for direct superpower communication mechanisms",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Soviet pressure on Kennedy to formalize the back-channel communications used during the crisis",
+          "textEs": "Soviet pressure on Kennedy to formalize the back-channel communications used during the crisis",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both sides' recognition that direct communication could prevent accidental nuclear war. D is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how World War II and the early Cold War reshaped U.S. power at home and abroad.",
+      "explanationEs": "Both sides' recognition that direct communication could prevent accidental nuclear war. D is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how Segunda Guerra Mundial and the early Guerra Fría reshaped U.S. power at home and abroad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.54,
+        "b": -0.3,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-50-x027",
+      "stem": "The ExComm (Executive Committee of the National Security Council) during the Cuban Missile Crisis included advisors who recommended —",
+      "stemEs": "The ExComm (Executive Committee of the National Security Council) during the Cuban Missile Crisis included advisors who recommended —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only the naval quarantine option, which everyone agreed was the appropriate proportionate response",
+          "textEs": "Only the naval quarantine option, which everyone agreed was the appropriate proportionate response",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Unanimously that a military airstrike would quickly resolve the crisis before Soviet missiles became operational",
+          "textEs": "Unanimously that a military airhuelga would quickly resolve the crisis before Soviet missiles became operational",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A range of options including airstrikes, invasion, naval blockade, and diplomatic negotiation",
+          "textEs": "A range of options including airhuelgas, invasion, naval blockade, and diplomatic negotiation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Immediate diplomatic contact with Khrushchev before any military preparations that might escalate the situation",
+          "textEs": "Immediate diplomatic contact with Khrushchev before any military preparations that might escalate the situation",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A range of options including airstrikes, invasion, naval blockade, and diplomatic negotiation. The United Nations was created in 1945 to reduce the chances of another world war through international cooperation. B is incorrect because it describes a different program, event, or idea than the United Nations question here. It helps explain how World War II and the early Cold War reshaped U.S. power at home and abroad.",
+      "explanationEs": "A range of options including airhuelgas, invasion, naval blockade, and diplomatic negotiation. The United Nations was created in 1945 to reduce the chances of another world war through international cooperation. B is incorrect because it describes a different program, event, or idea than the United Nations question here. It helps explain how Segunda Guerra Mundial and the early Guerra Fría reshaped U.S. power at home and abroad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.47,
+        "b": -0.43,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us65-dok2-3",
+      "stem": "How did women's experiences in the 1950s differ from media portrayals?",
+      "stemEs": "¿Cómo difirieron las experiencias de las mujeres en los años 1950 de los retratos mediáticos?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Media accurately depicted all women's lives and their daily home experiences",
+          "textEs": "Medios representaron con precisión las vidas de todas mujeres y experiencias diarias",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "All women perfectly matched the television ideal of the happy suburban mother",
+          "textEs": "Todas las mujeres coincidieron perfectamente con el ideal televisivo de madre suburbana feliz",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "No women worked outside the home because opportunities were not available",
+          "textEs": "Ninguna mujer trabajó fuera del hogar porque oportunidades no estaban disponibles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Many women worked outside the home despite idealized stay-at-home images",
+          "textEs": "Muchas mujeres trabajaron fuera del hogar a pesar de imágenes idealizadas de amas de casa",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "women's experiences in the 1950s differ from media portrayals because many women worked outside the home despite idealized stay-at-home images. Choice A is wrong because it describes media accurately depicted all women's lives and their daily home experiences, not many women worked outside the home despite idealized stay-at-home images. Suburban growth reshaped race, class, and geography in postwar America for decades.",
+      "explanationEs": "Mientras medios retrataron madres amas de casa idealizadas, muchas mujeres trabajaron fuera del hogar por necesidad, y algunas mujeres educadas se sintieron insatisfechas con roles domésticos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.01,
+        "b": -0.02,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U7-DOK2-0011",
+      "stem": "Why did President Kennedy choose a naval blockade rather than an air strike to respond to the discovery of Soviet missiles in Cuba in 1962?",
+      "stemEs": "¿Por qué el presidente Kennedy eligió un bloqueo naval en lugar de un ataque aéreo para responder al descubrimiento de misiles soviéticos en Cuba en 1962?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A naval blockade was the only option approved by Congress before Kennedy could take any military action",
+          "textEs": "Un bloqueo naval era la única opción aprobada por el Congreso antes de que Kennedy pudiera tomar cualquier acción militar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy chose a blockade because U.S. air forces lacked the ability to destroy the missile sites from the air",
+          "textEs": "Kennedy eligió un bloqueo porque las fuerzas aéreas de EE. UU. carecían de la capacidad de destruir los sitios de misiles desde el aire",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A blockade allowed time for diplomacy and demonstrated resolve without triggering an immediate military exchange that could escalate to nuclear war",
+          "textEs": "Un bloqueo permitió tiempo para la diplomacia y demostró determinación sin desencadenar un intercambio militar inmediato que pudiera escalar a una guerra nuclear",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The blockade was selected because the Soviet Union had already agreed to remove the missiles before Kennedy announced his decision",
+          "textEs": "El bloqueo fue seleccionado porque la Unión Soviética ya había acordado retirar los misiles antes de que Kennedy anunciara su decisión",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The naval quarantine created space for negotiation while signaling U.S. commitment; a direct air strike risked Soviet retaliation and nuclear escalation, a risk Kennedy's ExComm judged unacceptable.",
+      "explanationEs": "La cuarentena naval creó espacio para la negociación y al mismo tiempo señaló el compromiso de EE. UU.; un ataque aéreo directo arriesgaba una represalia soviética y una escalada nuclear, un riesgo que el Comité ExComm de Kennedy consideró inaceptable.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-76-x036",
+      "stem": "The failed Bay of Pigs invasion of 1961 damaged Kennedy's early presidency primarily by —",
+      "stemEs": "The failed Bay of Pigs invasion of 1961 damaged Kennedy's early presidency primarily by:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Prompting a successful U.S. military invasion that overthrew Castro's government and installed a pro-American administration",
+          "textEs": "Prompting a successful U.S. military invasion that overthrew Castro's government and installed a pro-American administration",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Leading Congress to immediately cut the CIA's budget and curtail covert foreign operations worldwide",
+          "textEs": "Leading Congreso to immediately cut the CIA's budget and curtail covert foreign operations worldwide",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Triggering a formal declaration of war between the United States and Cuba under international law",
+          "textEs": "Triggering a formal declaration of war between the United States and Cuba under international law",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Embarrassing the administration with a poorly planned CIA-backed attempt to overthrow Fidel Castro",
+          "textEs": "Embarrassing the administration with a poorly planned CIA-backed attempt to overthrow Fidel Castro",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Bay of Pigs damaged Kennedy because the CIA-backed invasion was badly planned and ended in public failure, embarrassing the new administration. A is wrong because Soviet missiles came later in 1962, not immediately after the invasion. The fiasco weakened Kennedy early in the Cold War.",
+      "explanationEs": "The Bay of Pigs damaged Kennedy because the CIA-backed invasion was badly planned and ended in public failure, embarrassing the new administration. A is wrong because Soviet missiles came later in 1962, not immediately after the invasion. The fiasco weakened Kennedy early in the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.37,
+        "b": -0.54,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-50-x026",
+      "stem": "During the Cuban Missile Crisis, Kennedy chose a naval 'quarantine' rather than calling it a 'blockade' because —",
+      "stemEs": "During the Cuban Missile Crisis, Kennedy chose a naval 'quarantine' rather than calling it a 'blockade' because —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "International law permitted a quarantine with OAS authorization but not a unilateral blockade",
+          "textEs": "International law permitted a quarantine with OAS authorization but not a unilateral blockade",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A blockade would require a declaration of war while a quarantine was framed as a defensive measure",
+          "textEs": "A blockade would require a declaration of war while a quarantine was framed as a defensive measure",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "International diplomacy among the Allied powers during wartime conferences",
+          "textEs": "International diplomacia among the Allied powers during wartime conferences",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The quarantine was limited to offensive weapons while a blockade would have applied to all shipping",
+          "textEs": "The quarantine was limited to offensive weapons while a blockade would have applied to all shipping",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both A and C explain the legal significance of using 'quarantine' rather than 'blockade'. D is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how World War II and the early Cold War reshaped U.S. power at home and abroad.",
+      "explanationEs": "Both A and C explain the legal significance of using 'quarantine' rather than 'blockade'. D is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how Segunda Guerra Mundial and the early Guerra Fría reshaped U.S. power at home and abroad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.95,
+        "b": -0.94,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us67-dok3-2-b",
+      "stem": "Why is the Cuban Missile Crisis considered the closest the world came to nuclear war?",
+      "stemEs": "¿Por qué se considera que la Crisis de los Misiles de Cuba fue el momento más cercano a una guerra nuclear?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Soviet nuclear missiles were 90 miles from the U.S. and both sides were on high alert",
+          "textEs": "Los misiles nucleares soviéticos estaban a 90 millas de EE.UU. y ambas partes estaban en máxima alerta",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Created shared national experiences, shaped consumer habits, and influenced politics",
+          "textEs": "Las armas nucleares fueron realmente lanzadas pero no detonaron",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Made candidates' appearance and performance crucial, changing campaign strategies",
+          "textEs": "Ambos países anunciaron declaraciones formales de guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Promoted standardized images of ideal family life and consumer values nationwide",
+          "textEs": "Fue un incidente diplomático menor con poco riesgo de escalada",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Soviet nuclear missiles were 90 miles from the U.S. and both sides were on high alert. Choice B is wrong because it describes created shared national experiences, shaped consumer habits, and influenced politics, not soviet nuclear missiles were 90 miles from the U.S. and both sides were on high alert. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "Los misiles nucleares soviéticos en Cuba podían alcanzar la mayoría de las ciudades estadounidenses en minutos. Ambas superpotencias pusieron sus fuerzas en máxima alerta, y cualquier error de cálculo podría haber desencadenado una guerra nuclear.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.81,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u7-020",
+      "stem": "The Bay of Pigs invasion (April 1961) failed militarily and damaged U.S. credibility internationally. Which COMBINATION of factors MOST explains the strategic magnitude of the failure?",
+      "stemEs": "¿Cuál COMBINACIÓN de factores explica MEJOR la magnitud estratégica del fracaso de la invasión de Bahía de Cochinos (abril de 1961), que resultó en una derrota militar y dañó la credibilidad internacional de Estados Unidos?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Cuban exile brigade was too small and lacked sufficient military training, making failure inevitable regardless of the air support or uprising assumptions.",
+          "textEs": "La brigada de exiliados cubanos era demasiado pequeña y carecía de suficiente entrenamiento militar, haciendo inevitable el fracaso independientemente del apoyo aéreo o los supuestos del levantamiento.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Soviet intelligence had warned Castro about the invasion plan months in advance, allowing Cuba to prepare a defense that U.S. planners had not anticipated.",
+          "textEs": "La inteligencia soviética había advertido a Castro sobre el plan de invasión meses antes, permitiendo a Cuba preparar una defensa que los planificadores estadounidenses no habían anticipado.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy cancelled the planned air strikes and the CIA's false assumption of a popular uprising proved wrong — removing both the military and political foundations of the operation simultaneously",
+          "textEs": "La cancelación de Kennedy de los ataques aéreos planificados eliminó la base operacional de la invasión, mientras que la falsa suposición de la CIA de que los cubanos se levantarían contra Castro eliminó la base política, haciendo que tanto los componentes militares como políticos del plan fueran simultáneamente inválidos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The UN Security Council condemned the invasion before it began, stripping the operation of international legitimacy and leading Kennedy to suspend the military operation",
+          "textEs": "El Consejo de Seguridad de la ONU aprobó una resolución condenando la invasión antes de que comenzara, privando a la operación de cualquier legitimidad internacional y haciendo que Kennedy ordenara su detención.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Bay of Pigs failure had multiple compounding factors: Kennedy canceled the planned air strikes that would have neutralized Castro's air force, leaving the invasion force without air cover; the plan assumed a popular uprising that never materialized because Cubans did not rise against Castro; and CIA planners had not adequately communicated the operation's dependence on those air strikes to Kennedy. The most strategically damaging combination was the cancellation of air support (operational failure) combined with the false assumption of internal uprising (intelligence failure)—without either, the invasion was doomed. This also signaled to Khrushchev that Kennedy might be indecisive, contributing to the Cuban Missile Crisis.",
+      "explanationEs": "El fracaso de Bahía de Cochinos tuvo múltiples factores agravantes: Kennedy canceló los ataques aéreos planificados que habrían neutralizado la fuerza aérea de Castro; el plan asumía un levantamiento popular que nunca se materializó; y los planificadores de la CIA no comunicaron adecuadamente a Kennedy la dependencia de la operación de esos ataques aéreos. La combinación más estratégicamente dañina fue la cancelación del apoyo aéreo (fallo operacional) combinado con la falsa suposición de levantamiento interno (fallo de inteligencia).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.84,
+        "b": 1.63,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u7-021",
+      "stem": "During the Cuban Missile Crisis, President Kennedy chose a naval 'quarantine' rather than an immediate air strike or invasion. Which strategic consideration MOST justified the quarantine option?",
+      "stemEs": "¿Cuál consideración estratégica justificó MEJOR la opción de la 'cuarentena' naval que eligió el presidente Kennedy durante la Crisis de los Misiles en Cuba, en lugar de un ataque aéreo inmediato o una invasión?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The quarantine was legally required under international maritime law, which prohibited military strikes against vessels in international waters.",
+          "textEs": "El bloqueo era legalmente requerido bajo el derecho marítimo internacional, que prohibía los ataques militares contra embarcaciones en aguas internacionales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The quarantine forced Khrushchev to decide the next escalatory step rather than immediately killing Soviet personnel, preserving a diplomatic off-ramp unavailable after a military strike",
+          "textEs": "A diferencia de un ataque aéreo o una invasión, el bloqueo preservó una salida diplomática al obligar a Jruschov a dar el siguiente paso de escalada en lugar de matar inmediatamente a personal soviético y encerrar a ambos lados en una confrontación militar irreversible.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The quarantine was chosen primarily to satisfy allied nations who threatened to withdraw from NATO if the U.S. took unilateral military action against Cuba.",
+          "textEs": "El bloqueo fue elegido principalmente para satisfacer a las naciones aliadas que amenazaron con retirarse de la OTAN si EE.UU. tomaba acción militar unilateral contra Cuba.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Joint Chiefs of Staff unanimously recommended the quarantine over military options because intelligence reports indicated the Cuban missiles were not yet operational.",
+          "textEs": "Los Jefes del Estado Mayor Conjunto recomendaron unánimemente el bloqueo sobre las opciones militares porque los informes de inteligencia indicaban que los misiles cubanos aún no estaban operativos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The quarantine (blockade) was superior strategically because it gave Khrushchev time and space to back down without requiring immediate escalation. An air strike or invasion would have killed Soviet military personnel already in Cuba, making Soviet retaliation nearly mandatory and potentially triggering nuclear war. The quarantine, by contrast, was reversible and left the decision to escalate with Moscow—it created a diplomatic 'off-ramp.' This is the principle of graduated pressure: force the adversary to make the next escalatory move rather than locking both sides into irreversible action.",
+      "explanationEs": "El bloqueo (cuarentena) fue superior estratégicamente porque le dio a Jruschov tiempo y espacio para retroceder sin requerir una escalada inmediata. Un ataque aéreo o una invasión habrían matado al personal militar soviético ya en Cuba, haciendo que la represalia soviética fuera casi obligatoria y potencialmente desencadenando una guerra nuclear. El bloqueo, por el contrario, era reversible y dejaba la decisión de escalar con Moscú.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.96,
+        "b": 1.18,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u7-022",
+      "stem": "The secret resolution of the Cuban Missile Crisis included a U.S. pledge not to invade Cuba and a quiet withdrawal of Jupiter missiles from Turkey. Which of the following BEST explains why Kennedy insisted this arrangement remain secret at the time?",
+      "stemEs": "La resolución secreta de la Crisis de los Misiles en Cuba incluyó un compromiso de EE.UU. de no invadir Cuba y una retirada discreta de misiles Júpiter de Turquía. ¿Cuál de las siguientes opciones explica MEJOR por qué Kennedy insistió en que este acuerdo permaneciera secreto en ese momento?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The secret deal violated the NATO treaty, and public disclosure would have required Kennedy to withdraw the U.S. from the alliance.",
+          "textEs": "El acuerdo secreto violaba el tratado de la OTAN, y la divulgación pública habría requerido que Kennedy retirara a EE.UU. de la alianza.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy feared that revealing the deal would encourage Congress to investigate the crisis and potentially impeach him for negotiating with a communist government.",
+          "textEs": "Kennedy temía que revelar el acuerdo animara al Congreso a investigar la crisis y potencialmente a destituirlo por negociar con un gobierno comunista.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Soviet Union demanded secrecy as a non-negotiable condition of the deal, leaving Kennedy no choice in the matter.",
+          "textEs": "La Unión Soviética exigió el secreto como condición no negociable del acuerdo, sin dejar a Kennedy otra opción.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A public quid pro quo would have looked like a U.S. concession to Soviet pressure, undermining allied confidence in American deterrence commitments and emboldening Soviet brinkmanship in future crises.",
+          "textEs": "Un trueque público habría parecido una concesión de EE.UU. a la presión soviética, socavando la confianza aliada en los compromisos de disuasión de EE.UU. y envalentonando la diplomacia del borde del abismo soviética en futuras crisis.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy insisted on secrecy because a publicly acknowledged quid pro quo—withdrawing Turkish missiles in exchange for Soviet withdrawal from Cuba—would have appeared as a U.S. capitulation to Soviet pressure. This would have undermined allied confidence in American security commitments (especially Turkey and NATO) and emboldened Soviet brinkmanship in future crises. By keeping the Turkish missile withdrawal secret, Kennedy could present the outcome as a Soviet climb-down in response to firm U.S. resolve. The political optics of 'victory' were strategically essential for deterrence credibility going forward.",
+      "explanationEs": "Kennedy insistió en el secreto porque un trueque reconocido públicamente —retirar los misiles turcos a cambio de la retirada soviética de Cuba— habría parecido una capitulación estadounidense ante la presión soviética. Esto habría socavado la confianza aliada en los compromisos de seguridad de EE.UU. y habría envalentonado a los soviéticos en futuras crisis. Al mantener secreta la retirada de misiles turcos, Kennedy pudo presentar el resultado como una concesión soviética ante la firmeza de EE.UU.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.05,
+        "b": 1.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-76-x032",
+      "stem": "Kennedy's handling of the Cuban Missile Crisis is generally praised by historians primarily because —",
+      "stemEs": "Kennedy's handling of the Cuban Missile Crisis is generally praised by historians primarily because:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He refused all negotiation and the Soviets removed the missiles solely because of U.S. naval superiority in the Caribbean",
+          "textEs": "He refused all negotiation and the Soviets removed the missiles solely because of U.S. naval superiority in the Caribbean",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "His quarantine and private diplomacy let the Soviets back down without public humiliation, preserving an off-ramp a military strike would have foreclosed",
+          "textEs": "His quarantine and private diplomacia let the Soviets back down without public humiliation, preserving an off-ramp a military huelga would have foreclosed",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "He chose the most aggressive option — an air strike — that destroyed the missile sites before the Soviets could respond militarily",
+          "textEs": "He chose the most aggressive option — an air huelga — that destroyed the missile sites before the Soviets could respond militarily",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Kennedy accepted Soviet demands in full to prevent any risk of nuclear escalation over Cuba or Berlin from developing further",
+          "textEs": "Kennedy accepted Soviet demands in full to prevent any risk of nuclear escalation over Cuba or Berlin from developing further",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Historians often praise Kennedy's Cuban Missile Crisis strategy because the naval quarantine and private diplomacy let the Soviets back down without public humiliation. A is wrong because refusing all negotiation would have raised the chance of war. The settlement is remembered as one of the closest successful escapes from nuclear conflict.",
+      "explanationEs": "Historians often praise Kennedy's Cuban Missile Crisis strategy because the naval quarantine and private diplomacia let the Soviets back down without public humiliation. A is wrong because refusing all negotiation would have raised the chance of war. The settlement is remembered as one of the closest successful escapes from nuclear conflict.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.59,
+        "b": 1.33,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U6-DOK3-0008",
+      "stem": "During the Cuban Missile Crisis of October 1962, President Kennedy was advised by several officials to launch immediate air strikes against Soviet missile sites in Cuba, but chose instead to impose a naval quarantine and establish direct back-channel communication with Khrushchev. What does Kennedy's decision-making process most clearly reveal about the strategic principles necessary for managing nuclear confrontation?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy's selection of quarantine over air strikes demonstrates that American Cold War military strategy consistently prioritized diplomatic solutions over kinetic options, reflecting a strategic institutional culture that valued conflict avoidance over demonstrations of military strength regardless of circumstances.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The crisis demonstrated the inherent instability of nuclear deterrence, since the subsequent discovery that Soviet field commanders had authority to use tactical nuclear weapons revealed that the conflict nearly escalated through unauthorized action rather than rational calculation by national leaders.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy's preference for a limited quarantine over immediate military action illustrates that in nuclear confrontations, decision-makers must preserve their adversary's capacity to back down — focusing on escalation management rather than escalation dominance to create space for rational negotiation when the consequences of miscalculation are catastrophic.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The successful resolution of the Cuban Missile Crisis through direct communication between Kennedy and Khrushchev vindicated liberal internationalist theory by demonstrating that great power conflicts can consistently be resolved through good-faith diplomatic engagement when both parties genuinely wish to avoid escalation.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy's selection of quarantine over air strikes reflected the nuclear-age strategic calculation that achieving the objective — removal of the missiles — while leaving Khrushchev a ladder of de-escalation options that preserved Soviet dignity and made backing down politically manageable in Moscow was essential, since an air strike destroying missiles would have created irresistible Soviet domestic pressure for retaliation. Unit 7: The Cold War, 1945–1991 (US.59–US.70)",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-50-x025",
+      "stem": "The Bay of Pigs invasion (1961) damaged Kennedy's presidency primarily because —",
+      "stemEs": "The Bay of Pigs invasion (1961) damaged Kennedy's presidency primarily because —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The CIA had misled Kennedy about the invasion's likelihood of success and triggered a domestic political crisis",
+          "textEs": "The CIA had misled Kennedy about the invasion's likelihood of success and triggered a domestic political crisis",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It killed hundreds of CIA-trained Cuban exiles on the beaches of Cuba",
+          "textEs": "It killed hundreds of CIA-trained Cuban exiles on the beaches of Cuba",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It demonstrated Kennedy's willingness to use military force against smaller nations, alienating Latin American allies",
+          "textEs": "It demonstrated Kennedy's willingness to use military force against smaller nations, alienating Latin American allies",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The failure emboldened Khrushchev and contributed directly to the decision to install missiles in Cuba",
+          "textEs": "The failure emboldened Khrushchev and contributed directly to the decision to install missiles in Cuba",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The failure emboldened Khrushchev and contributed directly to the decision to install missiles in Cuba. C is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how World War II and the early Cold War reshaped U.S. power at home and abroad.",
+      "explanationEs": "The failure emboldened Khrushchev and contributed directly to the decision to install missiles in Cuba. C is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how Segunda Guerra Mundial and the early Guerra Fría reshaped U.S. power at home and abroad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 2.19,
+        "b": 0.85,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us66-dok4-cr-5",
+      "stem": "Read the following excerpt from President John F. Kennedy's letter to Premier Nikita Khrushchev, October 27, 1962 — a declassified U.S. government document available through the National Archives and the John F. Kennedy Presidential Library:\n\n\"You would agree to remove these weapons systems from Cuba under appropriate United Nations observation and supervision; and undertake, with suitable safeguards, to halt the further introduction of such weapons systems into Cuba. We, on our part, would agree — upon the establishment of adequate arrangements through the United Nations to ensure the carrying out and continuation of these commitments — (a) to remove promptly the quarantine measures now in effect and (b) to give assurances against an invasion of Cuba.\"\n\nUsing this excerpt and your knowledge of the Cuban Missile Crisis (US.66), write a CER response that analyzes the diplomatic resolution of the Crisis as a model of coercive bargaining under nuclear conditions. Your response must evaluate what the resolution reveals about both the dangers and the stabilizing mechanisms of nuclear deterrence during the Cold War, and connect the Crisis to the broader arms control efforts that followed (US.68).",
+      "stemEs": "Lee el siguiente fragmento de la carta del Presidente John F. Kennedy al Premier Nikita Jruschev, 27 de octubre de 1962 — un documento del gobierno de EE. UU. desclasificado, disponible a través de los Archivos Nacionales y la Biblioteca Presidencial John F. Kennedy:\n\n\"Usted acordaría retirar estos sistemas de armas de Cuba bajo la observación y supervisión apropiadas de las Naciones Unidas... Nosotros, por nuestra parte, acordaríamos — tras el establecimiento de arreglos adecuados a través de las Naciones Unidas para garantizar el cumplimiento y la continuación de estos compromisos — (a) eliminar prontamente las medidas de cuarentena ahora en vigor y (b) dar garantías contra una invasión de Cuba.\"\n\nUsando este fragmento y tu conocimiento de la Crisis de los Misiles Cubanos (US.66), escribe una respuesta CER que analice la resolución diplomática de la Crisis como un modelo de negociación coercitiva bajo condiciones nucleares.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-scoring (4/4) response would include: CLAIM — The diplomatic resolution of the Cuban Missile Crisis demonstrated that nuclear deterrence could function as a stabilizing force only when both superpowers had secure second-strike capabilities and sufficient communication channels to allow face-saving compromise, and that crisis itself became the catalyst for the arms control architecture of détente. EVIDENCE — (1) The 13-day crisis (October 16–28, 1962) brought the world to the brink of nuclear exchange — U.S. military placed at DEFCON 2 for the only time in history; (2) Kennedy's exchange with Khrushchev produced a public agreement (Soviet missiles removed) and a secret agreement (U.S. Jupiter missiles removed from Turkey); (3) The 'back channel' role of Robert Kennedy and Soviet Ambassador Dobrynin as the actual negotiating mechanism, bypassing formal diplomatic channels; (4) establishment of the Moscow-Washington hotline (June 1963) as a direct consequence; (5) Limited Nuclear Test Ban Treaty (1963) as the first arms control outcome; (6) later Strategic Arms Limitation Talks (SALT I, 1972) and Anti-Ballistic Missile Treaty as the long-term arms control legacy. REASONING — Library of Congress, NAACP Records (loc.gov) revealed that mutual assured destruction (MAD) was simultaneously the most dangerous and most stabilizing feature of the nuclear age: it created incentives for both sides to develop communication mechanisms and arms control agreements because both understood that escalation was irrational. Kennedy's letter excerpt shows the structure of coercive bargaining — each side offered the other a face-saving exit that addressed its core security concern.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.66, US.68 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Claim addresses both the nuclear stability and arms control dimensions. Evidence includes at least three specific details: DEFCON 2, Kennedy-Khrushchev letters, secret Turkey deal, hotline, Test Ban Treaty or SALT. Reasoning explains MAD logic, the face-saving structure of the resolution, and the connection to later arms control. CER fully integrated.\n3 - Proficient: Clear claim about the Crisis resolution. Two specific evidence points. Reasoning connects the Crisis to arms control but may not develop MAD logic or the face-saving dimension.\n2 - Developing: General claim about the Crisis being resolved diplomatically. One specific evidence point. Reasoning is mostly narrative.\n1 - Beginning: Vague claim. Minimal evidence. No analytical reasoning.\n0 - No response or off-topic.\n\nKEY EVIDENCE EXPECTED: DEFCON 2 status; Kennedy-Khrushchev correspondence (Oct. 26–27, 1962); secret Jupiter missile removal from Turkey; Robert Kennedy–Dobrynin back channel; Moscow-Washington hotline (June 1963); Limited Nuclear Test Ban Treaty (Aug. 1963); SALT I (1972); ABM Treaty (1972); link to détente (US.68).",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: La afirmación aborda tanto la estabilidad nuclear como las dimensiones del control de armamentos. La evidencia incluye al menos tres detalles específicos. El razonamiento explica la lógica de la MAD, la estructura de la resolución que salva las apariencias y la conexión con el control de armamentos posterior.\n3 - Competente: Afirmación clara sobre la resolución de la Crisis. Dos puntos de evidencia específica.\n2 - En desarrollo: Afirmación general sobre la resolución diplomática de la Crisis. Un punto de evidencia específica.\n1 - Inicial: Afirmación vaga. Evidencia mínima.\n0 - Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Estado DEFCON 2; correspondencia Kennedy-Jruschev (oct. 26–27, 1962); retiro secreto de misiles Júpiter de Turquía; canal secreto Robert Kennedy-Dobrynin; línea directa Moscú-Washington (junio 1963); Tratado de Prohibición Parcial de Pruebas Nucleares (agosto 1963); SALT I (1972).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.12,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us66-dok4-dbq-5",
+      "stem": "DOCUMENT-BASED QUESTION: The Cuban Missile Crisis — Nuclear Brinkmanship and Diplomatic Resolution\n\nDirections: Read the following three primary source excerpts and respond to the prompt below. Apply HIPP analysis to at least two documents and construct an argument.\n\n---\nDOCUMENT A: President John F. Kennedy, Television and Radio Address on Cuba, October 22, 1962 — U.S. government document, available through the John F. Kennedy Presidential Library (National Archives):\n\"The Soviet Union has taken a new and reckless step in raising the threat of thermonuclear war. Acting in the defense of our own security and of the entire Western Hemisphere, and under the authority entrusted to me by the Constitution as endorsed by the resolution of the Congress, I have directed that the following initial steps be taken immediately. First: To halt this offensive buildup, a strict quarantine on all offensive military equipment under shipment to Cuba is being initiated.\"\n\nDOCUMENT B: Premier Nikita Khrushchev, Letter to President Kennedy, October 26, 1962 — declassified Soviet-American diplomatic correspondence, available through the National Security Archive at George Washington University (National Archives):\n\"If there is no intention to doom the world to the catastrophe of thermonuclear war, then let us not only relax the forces pulling on the ends of the rope, let us take measures to untie that knot. We are ready for this... I have participated in two wars and know that war ends when it has rolled through cities and villages, everywhere sowing death and destruction. For such is the logic of war. If people do not display wisdom, they will clash like blind moles and then mutual annihilation will commence.\"\n\nDOCUMENT C: President John F. Kennedy, Letter to Premier Khrushchev, October 27, 1962 — declassified diplomatic correspondence, available through the John F. Kennedy Presidential Library (National Archives):\n\"The first thing that needs to be done, however, is for work to cease on offensive missile bases in Cuba and for all weapons systems in Cuba capable of offensive use to be rendered inoperable, under effective United Nations arrangements. Assuming this is done promptly, I have given my representatives in New York instructions that will permit them to work out this week end... an arrangement for a permanent solution to the Cuban problem.\"\n\n---\nUsing all three documents and your knowledge of the Cuban Missile Crisis (US.66), construct an argument analyzing the diplomatic resolution of the Crisis as a case study in nuclear deterrence and crisis management. Apply HIPP analysis to at least two documents and address: (1) what Kennedy's and Khrushchev's rhetoric reveals about the constraints and rationality of nuclear deterrence; (2) how the Crisis changed U.S.-Soviet relations and arms control (US.68); and (3) what the episode reveals about the difference between public and private diplomacy in nuclear crises.",
+      "stemEs": "PREGUNTA BASADA EN DOCUMENTOS: La Crisis de los Misiles Cubanos — Política al Borde del Abismo Nuclear y Resolución Diplomática\n\nInstrucciones: Lee los siguientes tres fragmentos de fuentes primarias y responde al indicador. Aplica el análisis HIPP a al menos dos documentos.\n\nDOCUMENTO A: Presidente John F. Kennedy, Discurso televisado sobre Cuba, 22 de octubre de 1962.\n\"La Unión Soviética ha tomado un nuevo e imprudente paso al elevar la amenaza de la guerra termonuclear...\"\n\nDOCUMENTO B: Premier Nikita Jruschev, Carta al Presidente Kennedy, 26 de octubre de 1962.\n\"Si no hay intención de condenar al mundo a la catástrofe de la guerra termonuclear, entonces no solo relajemos las fuerzas que tiran de los extremos de la cuerda, tomemos medidas para desatar ese nudo...\"\n\nDOCUMENTO C: Presidente John F. Kennedy, Carta al Premier Jruschev, 27 de octubre de 1962.\n\"Lo primero que hay que hacer es que cesen los trabajos en las bases de misiles ofensivos en Cuba...\"\n\nUsando los tres documentos y tu conocimiento de la Crisis de los Misiles Cubanos (US.66), construye un argumento analizando la resolución diplomática de la Crisis como un estudio de caso en disuasión nuclear y gestión de crisis.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-scoring (6/6) response would include: THESIS — A precise, arguable thesis (e.g., 'The Cuban Missile Crisis demonstrated that nuclear deterrence functioned not through actual military superiority but through each side's credible communication of resolve combined with the simultaneous construction of face-saving exits, and this discovery directly produced the arms control architecture of détente'). HIPP ANALYSIS (minimum 2 documents): Document A — Historical context: Kennedy addresses the nation on Day 7 of the crisis, having selected quarantine over air strike after deliberation with ExComm; Intended audience: American public and, critically, Soviet leadership (the address was also broadcast internationally); Purpose: To publicly establish U.S. resolve and create political pressure for Soviet withdrawal while avoiding explicit ultimatum language that would foreclose Khrushchev's options; Point of view: Kennedy's legal framing ('authority entrusted to me by the Constitution as endorsed by the resolution of the Congress') reveals awareness of the domestic constitutional constraints — 'quarantine' rather than 'blockade' to avoid acknowledgment of act of war. Document B — Historical context: Khrushchev writes on Day 11, the eve of the most dangerous day (Oct. 27, the day a U-2 was shot down and a Soviet submarine nearly launched a nuclear torpedo); Intended audience: Kennedy, but Khrushchev also knew letters might become public; Purpose: To propose a diplomatic resolution before events spiraled out of control; Point of view: The 'moles' metaphor and war memoir reference reveal Khrushchev's genuine fear — this letter is emotionally different from his public bluster and offers the face-saving formula Kennedy's team used. OUTSIDE EVIDENCE: ExComm deliberations (air strike vs. quarantine); secret Jupiter missile removal from Turkey as part of resolution; Robert Kennedy–Dobrynin back channel; U-2 shootdown (Oct. 27); Soviet submarine B-59 nearly launching nuclear torpedo; Moscow-Washington hotline (June 1963); Limited Test Ban Treaty (August 1963) as direct outcome.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.66, US.68 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.70"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Precise, arguable thesis on nuclear deterrence and crisis resolution. Full HIPP on at least two documents (all four elements, historically accurate). Outside evidence (minimum 3 specific facts). Addresses all three prompt components: deterrence logic, post-crisis arms control, public/private diplomacy distinction. Synthesizes all three documents to show the structure of nuclear brinkmanship.\n5 - Advanced: Clear thesis. Full HIPP on two documents. Two outside evidence points. Addresses two of three prompt components.\n4 - Proficient: Arguable thesis. HIPP partially applied to two documents. One outside evidence fact. Addresses two prompt components.\n3 - Adequate: General thesis. Analyzes at least two documents. Some outside knowledge.\n2 - Developing: Basic claim. References documents, mostly summary. Minimal outside evidence.\n1 - Beginning: Attempts a response without substantive analysis.\n0 - No response or off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: Document A HIPP — 'quarantine' vs. 'blockade' terminology as legal/political calculation; the simultaneous public/Soviet audience. Document B HIPP — Khrushchev's 'moles' metaphor as emotional authenticity contrasting with his public bluster; the Oct. 26 letter as the opening of the resolution path. Document C HIPP — Kennedy's conditional language as coercive bargaining; 'permanent solution to the Cuban problem' as face-saving vagueness.\nKEY EVIDENCE EXPECTED: ExComm (13 members, 13 days); quarantine announced Oct. 22; Khrushchev Oct. 26 and Oct. 27 letters (two different letters on Oct. 27 complicating resolution); U-2 shootdown Oct. 27; B-59 submarine incident; secret Turkey missile deal; hotline (June 1963); Limited Test Ban Treaty (Aug. 1963); SALT I (1972).",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: Tesis precisa y argumentable sobre la disuasión nuclear y la resolución de crisis. HIPP completo en al menos dos documentos. Evidencia externa (mínimo 3 hechos específicos). Aborda los tres componentes del indicador.\n5 - Avanzado: Tesis clara. HIPP completo en dos documentos. Dos puntos de evidencia externa.\n4 - Competente: Tesis argumentable. HIPP parcialmente aplicado. Un hecho de evidencia externa específica.\n3 - Adecuado: Tesis general. Analiza al menos dos documentos. Algún conocimiento externo.\n2 - En desarrollo: Afirmación básica. Referencias a documentos, principalmente resumen.\n1 - Inicial: Intenta una respuesta sin análisis sustantivo.\n0 - Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: ExComm (13 miembros, 13 días); cuarentena anunciada el 22 de oct.; cartas de Jruschev del 26 y 27 de oct.; derribo del U-2 el 27 de oct.; incidente del submarino B-59; acuerdo secreto de misiles de Turquía; línea directa (junio 1963); Tratado de Prohibición de Pruebas (agosto 1963).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.05,
+        "b": 0.04,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.65"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.65->US.70 unchanged"
+        ]
+      }
+    }
+  ]
+}

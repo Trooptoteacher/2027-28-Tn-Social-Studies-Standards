@@ -1,0 +1,1845 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.33",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us33-dok1-1",
+      "stem": "What made Charles Lindbergh famous in 1927?",
+      "stemEs": "¿Qué hizo famoso a Charles Lindbergh en 1927?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Gave rural families access to the same consumer goods available in urban stores",
+          "textEs": "Inventó y probó el primer motor de avión a gasolina exitoso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He completed the first solo nonstop transatlantic flight from New York to Paris",
+          "textEs": "Completó el primer vuelo transatlántico en solitario sin escalas de Nueva York a París",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Chain stores and department stores offering standardized products at fixed prices",
+          "textEs": "Se convirtió en el primer aviador en circunnavegar exitosamente todo el globo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It enabled modern appliances like refrigerators, washing machines, and radios",
+          "textEs": "Estableció y operó el primer servicio comercial de aerolínea de pasajeros",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Charles Lindbergh became a global hero in 1927 by flying solo nonstop from New York to Paris, proving the promise of long-distance aviation. Choice D refers to radio or mass media, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. His flight sparked investment in airlines, airports, and the idea that air travel could transform modern life.",
+      "explanationEs": "El vuelo en solitario de 33 horas de Lindbergh de Nueva York a París en 1927 lo convirtió en un héroe internacional y demostró el potencial de la aviación, provocando inversión masiva en viajes aéreos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.75,
+        "b": -0.73,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us33-dok1-3",
+      "stem": "What new form of shopping emerged in the 1920s?",
+      "stemEs": "¿Qué nueva forma de compras surgió en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Chain stores and department stores offering standardized products at fixed prices",
+          "textEs": "Tiendas en cadena y grandes almacenes ofreciendo productos estandarizados a precios fijos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Small local family-owned stores that continued to dominate all retail markets",
+          "textEs": "Pequeñas tiendas familiares locales que continuaron dominando todos los mercados minoristas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Government-operated cooperative stores that distributed goods at subsidized prices",
+          "textEs": "Tiendas cooperativas operadas por el gobierno que distribuyeron bienes a precios subsidiados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Open-air farmers markets that remained the primary source of consumer goods",
+          "textEs": "Mercados de agricultores al aire libre que permanecieron como fuente principal de bienes de consumo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Chain stores and mail-order companies standardized products and prices, giving customers in small towns and cities access to a more uniform national marketplace. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. Modern retailing helped make consumption a central part of American identity in the 1920s.",
+      "explanationEs": "Tiendas en cadena como A&P, Woolworth's y Sears se expandieron rápidamente en los años 1920, ofreciendo productos estandarizados a precios fijos. Esto transformó el comercio minorista estadounidense y desafió pequeños negocios locales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.55,
+        "b": -0.58,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us31-dok1-5",
+      "stem": "What technology made movies with sound possible?",
+      "stemEs": "¿Qué tecnología hizo posibles las películas con sonido?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Making the first solo nonstop transatlantic flight",
+          "textEs": "Gráficos por computadora",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Ratification of the Twenty-First Amendment",
+          "textEs": "Procesamiento de película en color",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Sound-on-film synchronization technology",
+          "textEs": "Tecnología de sincronización de sonido en película",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Developing the assembly line method of mass production",
+          "textEs": "Grabación digital",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "La tecnología de sonido en película sincronizó audio con imágenes en movimiento, haciendo posibles las \"habladas\". The Jazz Singer (1927) demostró este avance, revolucionando el cine y terminando la era del cine mudo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.49,
+        "b": -1.03,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us33-dok1-173",
+      "stem": "Charles Lindbergh gained international fame in 1927 for:",
+      "stemEs": "Charles Lindbergh ganó fama internacional en 1927 por:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Inventing new radio broadcasting technology",
+          "textEs": "Inventar nueva tecnología de transmisión de radio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Making the first solo nonstop transatlantic flight",
+          "textEs": "Realizar el primer vuelo transatlántico en solitario sin escalas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Starring in the first \"talking\" motion picture",
+          "textEs": "Protagonizar la primera película \"hablada\"",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Breaking multiple baseball records in professional sports",
+          "textEs": "Romper múltiples récords de béisbol en deportes profesionales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Charles Lindbergh became a global hero in 1927 by flying solo nonstop from New York to Paris, proving the promise of long-distance aviation. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to radio or mass media, not the historical point being tested. His flight sparked investment in airlines, airports, and the idea that air travel could transform modern life.",
+      "explanationEs": "Charles Lindbergh se convirtió en un héroe internacional después de su vuelo en solitario de 33 horas de Nueva York a París en 1927. Su logro demostró el potencial de la aviación y provocó inversión masiva en viajes aéreos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -1.72,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-q01",
+      "stem": "Aviation technology in the 1920s was revolutionary primarily because it:",
+      "stemEs": "Aviation technology in the 1920s was revolutionary primarily because it:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Made international travel impossible",
+          "textEs": "Made international travel impossible",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Had no commercial applications",
+          "textEs": "Had no commercial applications",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Replaced all other forms of transportation immediately",
+          "textEs": "Replaced all other forms of transportation immediately",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Provided the first practical air travel capability",
+          "textEs": "Provided the first practical air travel capability",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.52,
+        "b": -0.84,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-x020",
+      "stem": "The Scopes Trial's outcome — Scopes was convicted but the conviction was overturned on a technicality — demonstrated:",
+      "stemEs": "The Scopes Trial's outcome — Scopes was convicted but the conviction was overturned on a technicality — demonstrated:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "That science had definitively defeated religion in public debate",
+          "textEs": "That science had definitively defeated religion in public debate",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "That courts were not the appropriate venue for resolving cultural conflicts",
+          "textEs": "That courts were not the appropriate venue for resolving cultural conflicts",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "That fundamentalism had won the legal battle but lost the cultural war",
+          "textEs": "That fundamentalism had won the legal battle but lost the cultural war",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "That Tennessee's anti-evolution law was unconstitutional",
+          "textEs": "That Tennessee's anti-evolution law was unconstitucional",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Scopes was convicted under Tennessee's Butler Act, but the case mattered more for the national debate it created than for the small legal penalty itself. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The trial became a lasting symbol of conflict between religious fundamentalism and modern science in public life.",
+      "explanationEs": "Scopes was convicted under Tennessee's Butler Act, but the case mattered more for the national debate it created than for the small legal penalty itself. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The trial became a lasting symbol of conflict between religious fundamentalism and modern science in public life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.52,
+        "b": -0.67,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-x022",
+      "stem": "'Buying on margin' during the 1920s meant investors could purchase stock by:",
+      "stemEs": "'Buying on margin' during the 1920s meant investors could purchase stock by:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Borrowing up to 90% of the stock's price, using it as collateral",
+          "textEs": "Borrowing up to 90% of the stock's price, using it as collateral",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Pooling purchases with other investors through investment trusts",
+          "textEs": "Pooling purchases with other investors through investment fideicomisos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Paying the full price immediately from savings",
+          "textEs": "Paying the full price immediately from savings",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Having employers automatically deduct payments from wages",
+          "textEs": "Having employers automatically deduct payments from wages",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Buying on margin meant paying only a small part of a stock's price in cash and borrowing the rest, so investors could gain quickly but also lose more than they actually had. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. Margin buying magnified both the boom of the late 1920s and the crash that followed.",
+      "explanationEs": "Buying on margin meant paying only a small part of a stock's price in cash and borrowing the rest, so investors could gain quickly but also lose more than they actually had. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. Margin buying magnified both the boom of the late 1920s and the crash that followed.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.79,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-x018",
+      "stem": "Bryan's position in the Scopes Trial represented fundamentalists who believed:",
+      "stemEs": "Bryan's position in the Scopes Trial represented fundamentalists who believed:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Teaching evolution undermined Christian faith and should not be permitted in public schools",
+          "textEs": "Teaching evolution undermined Christian faith and should not be permitted in public schools",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The freedom of religion clause prevented states from requiring teaching of evolution",
+          "textEs": "The freedom of religion clause prevented states from requiring teaching of evolution",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Education policy should be decided by professional educators rather than legislatures",
+          "textEs": "Education policy should be decided by professional educators rather than legislatures",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Science and religion were compatible and evolution was consistent with scripture",
+          "textEs": "Science and religion were compatible and evolution was consistent with scripture",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.56,
+        "b": 0.25,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us33-dok2-3",
+      "stem": "How did the airplane change perceptions of distance and possibility?",
+      "stemEs": "¿Cómo cambió el avión las percepciones de distancia y posibilidad?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Failed to capture public interest and had minimal impact on American society",
+          "textEs": "Fracasó en capturar interés público y tuvo impacto mínimo en sociedad estadounidense",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Remained restricted exclusively to military reconnaissance and warfare applications",
+          "textEs": "Permaneció restringido exclusivamente a aplicaciones militares de reconocimiento y guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Made the world seem smaller and demonstrated exciting new technological frontiers",
+          "textEs": "Hizo que el mundo pareciera más pequeño y demostró emocionantes nuevas fronteras tecnológicas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Actually decreased public enthusiasm for technological innovation and progress",
+          "textEs": "De hecho disminuyó entusiasmo público por innovación tecnológica y progreso",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Aviation in the 1920s made practical air travel seem possible for the first time and changed how Americans thought about distance, commerce, and speed. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. Together, aviation and electricity laid the technological foundation for twentieth-century American life.",
+      "explanationEs": "La aviación hizo que las distancias transcontinentales y transatlánticas parecieran conquistables. El vuelo de Lindbergh cautivó al mundo, estimulando inversión en aviación y demostrando el potencial de la tecnología para encoger el mundo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.49,
+        "b": -0.06,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us31-dok2-4",
+      "stem": "What role did radio play in spreading new forms of entertainment?",
+      "stemEs": "¿Qué papel jugó la radio en difundir nuevas formas de entretenimiento?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only broadcast news reports and government public service announcements",
+          "textEs": "Solo transmitió reportes de noticias y anuncios de servicio público gubernamental",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Broadcast comedy shows, soap operas, music, and sports nationwide",
+          "textEs": "Transmitió programas de comedia, telenovelas, música y deportes a nivel nacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Was banned from entertainment programming by federal broadcasting laws",
+          "textEs": "Se le prohibió programación de entretenimiento por leyes federales de transmisión",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Had very limited reach and could only be heard in major urban areas",
+          "textEs": "Tuvo alcance muy limitado y solo podía escucharse en áreas urbanas principales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice A refers to radio or mass media, not the historical point being tested; choice C refers to radio or mass media, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "La radio llevó entretenimiento a hogares a nivel nacional. Programas como Amos ' n' Andy, programas de comedia, telenovelas, actuaciones musicales y transmisiones deportivas crearon cultura nacional compartida.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.94,
+        "b": 0.27,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us31-dok2-172",
+      "stem": "Charlie Chaplin became famous during this era as:",
+      "stemEs": "Charlie Chaplin se hizo famoso durante esta era como:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Creating shared cultural experiences and national celebrities",
+          "textEs": "Un locutor de radio que reportó eventos noticiosos importantes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Powering new household appliances and extending productive hours",
+          "textEs": "Un aviador que estableció nuevos récords de vuelos de larga distancia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Broadcast comedy shows, soap operas, music, and sports nationwide",
+          "textEs": "Un músico de jazz que se presentó en ciudades importantes de Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A silent film comedian known for his \"Little Tramp\" character",
+          "textEs": "Un comediante de cine mudo conocido por su personaje \"El Vagabundo\"",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Charlie Chaplin became famous as a silent-film comedian whose expressive acting made him one of the first global movie stars. Choice C refers to radio or mass media, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. His career showed how movies created a new kind of international popular culture.",
+      "explanationEs": "Charlie Chaplin fue una de las estrellas de cine mudo más famosas, conocido por su personaje \"El Vagabundo\". Su comedia física y comentario social lo convirtieron en un ícono internacional de la industria cinematográfica de los años 1920.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.69,
+        "b": 0.3,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us31-dok2-180",
+      "stem": "The spread of electricity during the 1920s transformed American society by:",
+      "stemEs": "La propagación de la electricidad durante los años 1920 transformó la sociedad estadounidense al:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eliminating the need for all other forms of energy production",
+          "textEs": "Eliminar la necesidad de todas las otras formas de producción de energía",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Powering new household appliances and extending productive hours",
+          "textEs": "Alimentar nuevos electrodomésticos y extender horas productivas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Providing electricity only to wealthy urban neighborhoods",
+          "textEs": "Proporcionar electricidad solo a vecindarios urbanos ricos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Focusing exclusively on industrial rather than residential applications",
+          "textEs": "Enfocarse exclusivamente en aplicaciones industriales en lugar de residenciales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice C refers to aviation or electricity, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "explanationEs": "Para 1929, casi el 68% de los hogares estadounidenses tenían electricidad. La electrificación alimentó electrodomésticos modernos como refrigeradores, lavadoras y radios, mientras la iluminación eléctrica extendió horas productivas hasta la noche.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.98,
+        "b": 0.2,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-q02",
+      "stem": "The spread of electricity throughout American communities in the 1920s resulted in:",
+      "stemEs": "The spread of electricity throughout American communities in the 1920s resultó en:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A return to pre-industrial agricultural society as rural electrification bypassed cities",
+          "textEs": "A return to pre-industrial agricultural society as rural electrification bypassed cities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Decreased industrial productivity as electric machinery proved less reliable than steam power",
+          "textEs": "Decreased industrial productivity as electric machinery proved less reliable than steam power",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The complete elimination of all other energy sources including coal, gas, and wood fuel",
+          "textEs": "The complete elimination of all other energy sources including coal, gas, and wood fuel",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Transformation of homes, workplaces, and public infrastructure",
+          "textEs": "Transformation of homes, workplaces, and public infrastructure",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "explanationEs": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.73,
+        "b": 0.21,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-q03",
+      "stem": "Which statement best describes the impact of electricity on American households:",
+      "stemEs": "¿Qué afirmación describe mejor describes the impact of electricity on American households:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Electricity replaced all other forms of energy immediately",
+          "textEs": "Electricity replaced all other forms of energy immediately",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Electricity enabled new household appliances and extended productive hours into the evening",
+          "textEs": "Electricity enabled new household appliances and extended productive hours into",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Electricity had minimal impact on daily life",
+          "textEs": "Electricity had minimal impact on daily life",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Electricity was used exclusively for industrial purposes",
+          "textEs": "Electricity was used exclusively for industrial purposes",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice C mentions aviation or electricity, but it does not match the main cause or significance in the question; choice A mentions aviation or electricity, but it does not match the main cause or significance in the question. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "explanationEs": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice C mentions aviation or electricity, but it does not match the main cause or significance in the question; choice A mentions aviation or electricity, but it does not match the main cause or significance in the question. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.64,
+        "b": 0.19,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-x021",
+      "stem": "The stock market crash of October 1929 was preceded by all of the following warning signs EXCEPT:",
+      "stemEs": "The mercado de valores crash of October 1929 was preceded by all of the following warning signs EXCEPT:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Federal Reserve tightening of credit in 1928-29",
+          "textEs": "Federal Reserve tightening of credit in 1928-29",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Widespread buying on margin — borrowing money to invest",
+          "textEs": "Widespread buying on margin — borrowing money to invest",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A weak agricultural sector in depression since the early 1920s",
+          "textEs": "A weak agricultural sector in depresión since the early 1920s",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Overproduction in consumer industries that saturated markets",
+          "textEs": "Overproduction in consumer industries that saturated markets",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Speculation in the 1920s encouraged people to buy stocks mainly because they expected prices to keep rising, not because businesses were necessarily earning more. Choice B fits the pattern described in the question, so it cannot be the exception; choice D fits the pattern described in the question, so it cannot be the exception. This speculative mindset made the economy far more fragile by 1929.",
+      "explanationEs": "Speculation in the 1920s encouraged people to buy stocks mainly because they expected prices to keep rising, not because businesses were necessarily earning more. Choice B fits the pattern described in the question, so it cannot be the exception; choice D fits the pattern described in the question, so it cannot be the exception. This speculative mindset made the economy far more fragile by 1929.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.85,
+        "b": -0.46,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-x026",
+      "stem": "Bank runs during the Depression occurred because:",
+      "stemEs": "Bank runs during the depresión occurred because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Depositors feared their bank would fail and rushed to withdraw savings before it did — a self-fulfilling prophecy",
+          "textEs": "Depositors feared their bank would fail and rushed to withdraw savings before it did — a self-fulfilling prophecy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Depositors were legally entitled to withdraw their savings at any time under federal banking law",
+          "textEs": "Depositors were legally entitcondujo a withdraw their savings at any time under federal banking law",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Federal examiners discovered fraud in major banks and required them to suspend operations",
+          "textEs": "Federal examiners discovered fraud in major banks and required them to suspend operations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Banks were legally required to close when deposits fell below a certain threshold",
+          "textEs": "Banks were legally required to close when deposits fell below a certain threshold",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bank runs happened when frightened depositors rushed to withdraw cash, and that panic could destroy even banks that might otherwise have survived. Choice B refers to the Great Depression or New Deal, not the historical point being tested; choice C refers to the Great Depression or New Deal, not the historical point being tested. The crisis revealed how badly the financial system needed federal protections such as deposit insurance.",
+      "explanationEs": "Bank runs happened when frightened depositors rushed to withdraw cash, and that panic could destroy even banks that might otherwise have survived. Choice B refers to the Gran Depresión or New Deal, not the historical point being tested; choice C refers to the Gran Depresión or New Deal, not the historical point being tested. The crisis revealed how badly the financial system needed federal protections such as deposit insurance.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.8,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us31-dok1-179",
+      "stem": "The advent of air travel in the 1920s was significant because it:",
+      "stemEs": "El advenimiento de los viajes aéreos en los años 1920 fue significativo porque:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Immediately replaced all other forms of long-distance transportation",
+          "textEs": "Reemplazó inmediatamente todas las otras formas de transporte de larga distancia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Was available only to government officials and military personnel",
+          "textEs": "Estuvo disponible solo para funcionarios gubernamentales y personal militar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Revolutionized the concept of distance and time in transportation",
+          "textEs": "Revolucionó el concepto de distancia y tiempo en el transporte",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Was used exclusively for carrying mail and cargo, not passengers",
+          "textEs": "Se usó exclusivamente para transportar correo y carga, no pasajeros",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "Los viajes aéreos revolucionaron conceptos de distancia y tiempo. El vuelo transatlántico de Lindbergh en 1927 demostró que lugares antes a semanas de distancia en barco podían alcanzarse en horas, provocando inversión masiva en aviación.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.48,
+        "b": -1.11,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us31-dok3-181",
+      "stem": "Evaluate the impact of new technologies like electricity and air travel on rural communities:",
+      "stemEs": "Evalúa el impacto de nuevas tecnologías como electricidad y viajes aéreos en comunidades rurales:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Created national celebrities and influenced fashion, behavior, and social norms nationwide",
+          "textEs": "Las áreas rurales permanecieron completamente no afectadas por avances tecnológicos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Created shared national culture but also exposed cultural conflicts and regional differences",
+          "textEs": "Las nuevas tecnologías estuvieron disponibles inmediatamente para todos los residentes rurales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Technology helped reduce the isolation of rural areas and connected them to urban centers",
+          "textEs": "La tecnología ayudó a reducir el aislamiento de áreas rurales y las conectó con centros urbanos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Millions heard same radio programs, watched same movies, and followed same celebrities",
+          "textEs": "Los cambios tecnológicos causaron el abandono completo de áreas rurales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice A mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question; choice B mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "explanationEs": "La radio conectó a estadounidenses rurales con noticias y entretenimiento nacionales, reduciendo aislamiento. Sin embargo, la electrificación rural quedó rezagada de áreas urbanas, y solo el 10% de hogares rurales tenían electricidad para 1930. Las tecnologías gradualmente ayudaron a cerrar la brecha urbano-rural.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.31,
+        "b": 1.42,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us31-dok3-1",
+      "stem": "How did mass media in the 1920s both unify and divide Americans?",
+      "stemEs": "¿Cómo unificaron y dividieron los medios masivos en los años 1920 a los estadounidenses?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Created national celebrities and influenced fashion, behavior, and social norms nationwide",
+          "textEs": "Solo crearon división sin efectos unificadores en la diversa población estadounidense",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Created shared national culture but also exposed cultural conflicts and regional differences",
+          "textEs": "Crearon cultura nacional compartida pero también expusieron conflictos culturales y diferencias regionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Technology helped reduce the isolation of rural areas and connected them to urban centers",
+          "textEs": "Unificaron perfectamente a todos los estadounidenses sin ningún conflicto o desacuerdo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Millions heard same radio programs, watched same movies, and followed same celebrities",
+          "textEs": "No tuvieron impacto real medible en la sociedad o desarrollo cultural estadounidense",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice D refers to radio or mass media, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "Radio, películas y revistas crearon experiencias nacionales compartidas y cultura de celebridades. Sin embargo, también expusieron conflictos entre urbano/rural, tradicional/moderno y diferentes grupos raciales y religiosos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.44,
+        "b": 1.04,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-q07",
+      "stem": "The societal and economic implications of aviation and electricity in the 1920s included:",
+      "stemEs": "The societal and economic implications of aviation and electricity in the 1920s included:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No significant change in American society or economy",
+          "textEs": "No significant change in American society or economy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Elimination of all previous technologies",
+          "textEs": "Elimination of all previous technologies",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Transformation of transportation, communication",
+          "textEs": "Transformation of transportation, communication",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Decreased commerce and economic activity",
+          "textEs": "Decreased commerce and economic activity",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "explanationEs": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 2.11,
+        "b": 0.6,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-q10",
+      "stem": "The long-term significance of aviation and electricity development in the 1920s was that they:",
+      "stemEs": "The long-term significance of aviation and electricity development in the 1920s was that they:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Had minimal lasting impact on American society or economy",
+          "textEs": "Had minimal lasting impact on American society or economy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Established the technological foundation for modern American industry, transportation",
+          "textEs": "Established the technological foundation for modern American industry, transportation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Were replaced by superior technologies within a few decades",
+          "textEs": "Were replaced by superior technologies within a few decades",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Created economic problems that outweighed their benefits",
+          "textEs": "Created economic problems that outweighed their benefits",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "explanationEs": "Electricity changed homes and communities by powering lights, radios, refrigerators, and washing machines and by extending work and leisure into the evening. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question. The spread of electric power helped define a more modern, connected, and efficient society.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.64,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-x014",
+      "stem": "The automobile's social impact in the 1920s was most significant because it:",
+      "stemEs": "The automobile's social impact in the 1920s was most significant because it:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Primarily benefited wealthy Americans who could afford cars, with little impact on working-class mobility",
+          "textEs": "Primarily benefited wealthy Americans who could afford cars, with little impact on working-class mobility",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Immediately and completely replaced railroads as the dominant mode of freight and passenger transportation",
+          "textEs": "Immediately and completely replaced railroads as the dominant mode of freight and passenger transportation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Enabled suburban growth, transformed courtship patterns, and created new industries in oil, rubber, and road construction",
+          "textEs": "Enabled suburban growth, transformed courtship patterns, and created new industries in oil, rubber, and road construction",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Had limited social and economic impact outside a handful of major metropolitan areas in the Northeast",
+          "textEs": "Had limited social and economic impact outside a handful of major metropolitan areas in the Northeast",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Automobiles changed family life by making trips, dating, tourism, and suburban living easier and by reducing dependence on fixed rail and streetcar lines. Choice A mentions the automobile industry, but it does not match the main cause or significance in the question; choice D mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Car ownership reshaped where Americans lived, worked, and spent their free time.",
+      "explanationEs": "Automobiles changed family life by making trips, dating, tourism, and suburban living easier and by reducing dependence on fixed rail and streetcar lines. Choice A mentions the automobile industry, but it does not match the main cause or significance in the question; choice D mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Car ownership reshaped where Americans lived, worked, and spent their free time.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.59,
+        "b": 0.68,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us31-dok2-6",
+      "stem": "What evidence from the 1920s supports the claim that mass media created a national culture?",
+      "stemEs": "¿Qué evidencia de los años 1920 apoya la afirmación de que los medios masivos crearon una cultura nacional?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "KDKA Pittsburgh broadcast election results, marking the beginning of commercial radio",
+          "textEs": "Las diferencias regionales se hicieron más pronunciadas mientras medios resaltaron divisiones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Millions heard same radio programs, watched same movies, and followed same celebrities",
+          "textEs": "Millones escucharon mismos programas de radio, vieron mismas películas y siguieron mismas celebridades",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Technology helped reduce the isolation of rural areas and connected them to urban centers",
+          "textEs": "Los estadounidenses no tuvieron experiencias culturales compartidas pese a medios disponibles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Created national celebrities and influenced fashion, behavior, and social norms nationwide",
+          "textEs": "Los medios masivos solo existieron en ciudades principales y nunca alcanzaron comunidades rurales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A refers to radio or mass media, not the historical point being tested; choice D refers to an effect or consequence rather than the item being identified, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "Para 1929, más de 10 millones de hogares tenían radios y 110 millones asistían al cine semanalmente. Los estadounidenses a nivel nacional escucharon las mismas noticias, música y entretenimiento, siguieron los mismos héroes deportivos como Babe Ruth, y fueron influenciados por las mismas estrellas de Hollywood, creando cultura nacional compartida.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.13,
+        "b": -0.44,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-019",
+      "stem": "In the 1920s, the spread of electricity to urban homes transformed domestic life, while rural areas remained largely without electrical service. By 1930, nearly 70 percent of urban homes had electricity, compared to only about 10 percent of rural farms. What does this disparity reveal about the nature of technological change in 1920s America?",
+      "stemEs": "En la década de 1920, la expansión de la electricidad a los hogares urbanos transformó la vida doméstica, mientras que las áreas rurales permanecían en gran medida sin servicio eléctrico. Para 1930, casi el 70 por ciento de los hogares urbanos tenía electricidad, en comparación con solo aproximadamente el 10 por ciento de las granjas rurales. ¿Qué revela esta disparidad sobre la naturaleza del cambio tecnológico en la América de la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Technological modernization was uneven, driven by profit-focused infrastructure investment that prioritized urban markets while excluding rural communities.",
+          "textEs": "La modernización tecnológica fue desigual, impulsada por la inversión en infraestructura orientada a las ganancias que priorizaba los mercados urbanos mientras excluía a las comunidades rurales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Rural Americans actively resisted electricity because they preferred traditional ways of life over modern technology.",
+          "textEs": "Los estadounidenses rurales resistieron activamente la electricidad porque preferían los modos de vida tradicionales sobre la tecnología moderna.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The federal government specifically directed electrical infrastructure investment toward urban areas as part of a planned urban renewal policy.",
+          "textEs": "El gobierno federal dirigió específicamente la inversión en infraestructura eléctrica hacia las áreas urbanas como parte de una política planificada de renovación urbana.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Rural Americans lacked electricity because they were culturally opposed to the consumer culture that electricity enabled.",
+          "textEs": "Los estadounidenses rurales carecían de electricidad porque se oponían culturalmente a la cultura de consumo que la electricidad permitía.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The urban-rural electricity gap demonstrates that technological modernization was uneven — driven by profit potential and infrastructure investment that favored densely populated, commercially viable urban markets over rural areas that were less profitable to serve. A correctly identifies this market-driven inequality. B oversimplifies causation by attributing this to rural disinterest rather than systemic barriers. C makes an inaccurate claim about government policy in this era — rural electrification via the REA came in 1935. D makes a false equivalence between electricity access and cultural attitudes.",
+      "explanationEs": "La brecha de electricidad entre zonas urbanas y rurales demuestra que la modernización tecnológica fue desigual, impulsada por el potencial de ganancias y la inversión en infraestructura que favorecía los mercados urbanos densamente poblados y comercialmente viables sobre las áreas rurales que eran menos rentables para atender. A identifica correctamente esta desigualdad impulsada por el mercado. B simplifica en exceso la causalidad al atribuirlo al desinterés rural en lugar de a barreras sistémicas. C hace una afirmación inexacta sobre la política gubernamental en esta era: la electrificación rural llegó en 1935. D hace una falsa equivalencia entre el acceso a la electricidad y las actitudes culturales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.69,
+        "b": 0.75,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-020",
+      "stem": "The development of commercial aviation in the late 1920s, following Lindbergh's 1927 flight, initially served wealthy passengers on domestic routes. However, historians argue that aviation's most transformative long-term impact was not on passenger travel but on the development of an air mail system that accelerated business communication. What reasoning best supports this historian's argument?",
+      "stemEs": "El desarrollo de la aviación comercial a finales de la década de 1920, tras el vuelo de Lindbergh en 1927, inicialmente servía a pasajeros adinerados en rutas domésticas. Sin embargo, los historiadores argumentan que el impacto transformador a largo plazo más importante de la aviación no fue en el transporte de pasajeros sino en el desarrollo de un sistema de correo aéreo que aceleró la comunicación empresarial. ¿Qué razonamiento apoya mejor el argumento de este historiador?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Since passenger aviation was limited to wealthy travelers, it only benefited a small fraction of the population and therefore had minimal economic impact.",
+          "textEs": "Dado que la aviación de pasajeros estaba limitada a los viajeros adinerados, solo beneficiaba a una pequeña fracción de la población y por lo tanto tenía un impacto económico mínimo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Air mail connected businesses across vast distances at unprecedented speed, accelerating commercial transactions and financial coordination in ways that far outpaced the reach of passenger aviation.",
+          "textEs": "El correo aéreo conectó empresas a través de grandes distancias a una velocidad sin precedentes, acelerando las transacciones comerciales y la coordinación financiera de maneras que superaron con creces el alcance de la aviación de pasajeros.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Aviation had no transformative economic impact in the 1920s because the technology was too immature and expensive to affect mainstream commerce.",
+          "textEs": "La aviación no tuvo ningún impacto económico transformador en la década de 1920 porque la tecnología era demasiado inmadura y costosa para afectar al comercio convencional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Aviation transformed the economy primarily by creating jobs in aircraft manufacturing, which replaced declining agricultural employment.",
+          "textEs": "La aviación transformó la economía principalmente al crear empleos en la fabricación de aeronaves, que reemplazó el empleo agrícola en declive.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Air mail expanded the speed of commercial communication and contract delivery across vast distances, enabling faster business transactions and financial coordination that passenger travel (limited by cost to elites) could not achieve at scale. B correctly articulates this systemic economic impact. A is narrowly true about passenger aviation demographics but doesn't address mail's broader economic role. C dismisses aviation's transformative impact without supporting reasoning. D conflates the aviation industry's financial structure with its societal impact.",
+      "explanationEs": "El correo aéreo amplió la velocidad de la comunicación comercial y la entrega de contratos a través de grandes distancias, permitiendo transacciones comerciales más rápidas y coordinación financiera que el transporte de pasajeros no podía lograr a escala. B articula correctamente este impacto económico sistémico. A es estrictamente verdadero sobre la demografía de la aviación de pasajeros pero no aborda el papel económico más amplio del correo. C descarta el impacto transformador de la aviación sin razonamiento de apoyo. D confunde la estructura financiera de la industria de la aviación con su impacto en la sociedad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.02,
+        "b": 1.46,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-021",
+      "stem": "The spread of electricity in the 1920s enabled new home appliances — refrigerators, washing machines, and vacuum cleaners — that were marketed specifically to American housewives. Advertisers argued these appliances would \"free\" women from domestic drudgery. Historians have noted, however, that time-use studies showed women spent roughly the same number of hours on housework after acquiring appliances as before. What conclusion do these studies challenge?",
+      "stemEs": "La expansión de la electricidad en la década de 1920 permitió nuevos electrodomésticos — refrigeradores, lavadoras y aspiradoras — que se comercializaban específicamente para las amas de casa estadounidenses. Los anunciantes argumentaban que estos electrodomésticos liberarían a las mujeres del trabajo doméstico agotador. Sin embargo, los historiadores han señalado que los estudios de uso del tiempo mostraron que las mujeres dedicaban aproximadamente el mismo número de horas al trabajo doméstico después de adquirir electrodomésticos que antes. ¿Qué conclusión desafían estos estudios?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The conclusion that women in the 1920s were choosing to work outside the home in greater numbers than in previous decades.",
+          "textEs": "La conclusión de que las mujeres en la década de 1920 elegían trabajar fuera del hogar en mayor número que en décadas anteriores.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The conclusion that electricity increased industrial productivity by enabling factories to operate on longer shifts.",
+          "textEs": "La conclusión de que la electricidad aumentó la productividad industrial al permitir a las fábricas operar en turnos más largos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The advertising claim that new appliances would liberate women from domestic labor by substantially reducing the time required for household tasks.",
+          "textEs": "La afirmación publicitaria de que los nuevos electrodomésticos liberarían a las mujeres del trabajo doméstico al reducir sustancialmente el tiempo requerido para las tareas del hogar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The claim that electricity was too expensive for most American households to afford modern appliances in the 1920s.",
+          "textEs": "La afirmación de que la electricidad era demasiado cara para que la mayoría de los hogares estadounidenses pudiera adquirir electrodomésticos modernos en la década de 1920.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The time-use data challenges the advertising claim that new appliances would substantially reduce women's domestic labor burden. Instead, appliances raised standards of cleanliness and domestic expectation, so housewives performed the same tasks more frequently or took on additional tasks. C correctly identifies what the evidence challenges. A is a sociological observation about gender roles that the time-use data doesn't directly address. B confuses the direction of the argument. D is not the claim being evaluated in the evidence presented.",
+      "explanationEs": "Los datos de uso del tiempo desafían la afirmación publicitaria de que los nuevos electrodomésticos reducirían sustancialmente la carga del trabajo doméstico de las mujeres. En cambio, los electrodomésticos elevaron los estándares de limpieza y las expectativas domésticas, de modo que las amas de casa realizaban las mismas tareas con mayor frecuencia o asumían tareas adicionales. C identifica correctamente lo que la evidencia desafía. A es una observación sociológica sobre los roles de género que los datos de uso del tiempo no abordan directamente. B confunde la dirección del argumento. D no es la afirmación que se evalúa en la evidencia presentada.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.09,
+        "b": 0.88,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-062",
+      "stem": "New technologies introduced in the 1920s — automobiles, radios, electric appliances, and aircraft — created both new industries and profound social disruptions. Which of the following best describes the relationship between technological innovation and social change in 1920s America?",
+      "stemEs": "Las nuevas tecnologías introducidas en la década de 1920 — automóviles, radios, electrodomésticos eléctricos y aeronaves — crearon tanto nuevas industrias como profundas disrupciones sociales. ¿Cuál de las siguientes opciones describe mejor la relación entre la innovación tecnológica y el cambio social en la América de la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Technological innovation uniformly improved life for all Americans in the 1920s, creating broad prosperity and eliminating the social conflicts that had characterized the Progressive Era.",
+          "textEs": "La innovación tecnológica mejoró uniformemente la vida de todos los estadounidenses en la década de 1920, creando prosperidad amplia y eliminando los conflictos sociales que habían caracterizado la Era Progresista.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "New technologies had purely negative effects on American society, disrupting traditional communities and creating more problems than the economic benefits they produced.",
+          "textEs": "Las nuevas tecnologías tuvieron efectos puramente negativos en la sociedad estadounidense, interrumpiendo comunidades tradicionales y creando más problemas que los beneficios económicos que produjeron.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Americans across all regions, classes, and communities embraced new technologies enthusiastically, with only a small minority of resistance rooted in irrational fear rather than legitimate concern.",
+          "textEs": "Los estadounidenses de todas las regiones, clases y comunidades adoptaron las nuevas tecnologías con entusiasmo, con solo una pequeña minoría de resistencia arraigada en el miedo irracional en lugar de preocupaciones legítimas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Technological innovation redistributed power, opportunity, and cultural authority unevenly, creating economic winners and losers and driving social conflicts between those who benefited from modernization and those disrupted by it.",
+          "textEs": "La innovación tecnológica redistribuyó el poder, la oportunidad y la autoridad cultural de manera desigual, creando ganadores y perdedores económicos e impulsando conflictos sociales entre quienes se beneficiaron de la modernización y quienes fueron disrumpidos por ella.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.33"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 1920s demonstrates that technological change is never socially neutral — it disrupts existing relationships, redistributes power and opportunity, and creates both winners (new industries, urban consumers) and losers (rural communities, displaced craftsmen, traditional institutions). Social conflicts about modernity vs. tradition were directly connected to technological change's uneven distribution of benefits and costs. D captures this uneven social disruption model. A presents a naive techno-optimism that ignores the disruptions. B presents a techno-pessimism that ignores real material improvements. C makes an empirically false claim about broad consensus on technology's benefits.",
+      "explanationEs": "La década de 1920 demuestra que el cambio tecnológico nunca es socialmente neutral: interrumpe las relaciones existentes, redistribuye el poder y la oportunidad, y crea tanto ganadores (nuevas industrias, consumidores urbanos) como perdedores (comunidades rurales, artesanos desplazados, instituciones tradicionales). Los conflictos sociales sobre modernidad versus tradición estaban directamente relacionados con la distribución desigual de los beneficios y costos del cambio tecnológico. D captura este modelo de disrupción social desigual. A presenta un tecno-optimismo ingenuo que ignora las disrupciones. B presenta un tecno-pesimismo que ignora las mejoras materiales reales. C hace una afirmación empíricamente falsa sobre el consenso amplio sobre los beneficios de la tecnología.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.89,
+        "b": 1.1,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.31"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.31->US.33 unchanged"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.73",
+  "status": "quarantined",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us10-dok4-cr2",
+      "stem": "Write a persuasive essay arguing which single event, policy, or movement from the period 1865-present had the GREATEST impact on shaping modern America. Your argument must acknowledge at least TWO alternative candidates and explain why your choice is more significant.",
+      "stemEs": "Escriba un ensayo persuasivo argumentando qué evento, política o movimiento único del período 1865-presente tuvo el MAYOR impacto en moldear la América moderna.",
+      "itemType": "constructed-response",
+      "correctAnswer": "Strong responses should select a defensible choice, construct a clear argument with specific evidence, genuinely engage with alternatives rather than dismissing them, and demonstrate understanding of historical causation. There is no single \"correct\" answer — strong cases can be made for the New Deal, WWII, Civil Rights Movement, the internet revolution, or other choices. The quality of argument and evidence matters more than the specific choice.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.73"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A strong essay makes a clear claim about one event, policy, or movement after 1865 that most shaped modern America and supports that claim with detailed historical evidence. It should also seriously address at least two other strong possibilities, such as the New Deal, World War II, the Civil Rights Movement, or the digital revolution, and explain why they were less decisive. What matters most is a persuasive argument about causation and significance, not choosing one single answer everyone must agree on.",
+      "explanationEs": "Este ítem DOK 4 requiere seleccionar y defender un argumento histórico y comprometerse genuinamente con contraargumentos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.89,
+        "b": 0.91,
+        "c": 0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.83",
+          "US.92",
+          "US.95"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.83->US.73 revised sim=0.92",
+          "US.92->US.90 revised sim=0.80 BELOW floor 0.9",
+          "US.95: retired — no 2027-28 home"
+        ]
+      }
+    }
+  ]
+}

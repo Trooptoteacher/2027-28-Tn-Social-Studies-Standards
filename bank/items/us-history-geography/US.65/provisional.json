@@ -1,0 +1,2253 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.65",
+  "status": "provisional",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us72-dok1-1",
+      "stem": "What was the \"baby boom\"?",
+      "stemEs": "¿Qué fue el \"baby boom\"?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A government program that encouraged families to have fewer children",
+          "textEs": "Un programa gubernamental que alentaba a las familias a tener menos hijos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A dramatic increase in birth rates after World War II ended in 1945",
+          "textEs": "Un aumento dramático en tasas de natalidad después de terminar la Segunda Guerra Mundial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A wave of immigration that doubled the U.S. population in one decade",
+          "textEs": "Una ola de inmigración que duplicó la población de EE.UU. en una década",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A decline in population caused by the economic effects of the Cold War",
+          "textEs": "Una disminución de la población causada por efectos económicos de la Guerra Fría",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The baby boom was the sharp rise in U.S. birth rates from 1946 to 1964 after World War II. A is wrong because it was not a government program, and C is wrong because it refers to immigration rather than births. This huge generation reshaped schools, housing, consumer markets, and politics for decades.",
+      "explanationEs": "El baby boom se refiere al aumento de nacimientos de 1946-1964, cuando los veteranos que regresaban comenzaron familias. Aproximadamente 76 millones de bebés nacieron durante este período, impactando dramáticamente escuelas, vivienda y la economía durante décadas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -0.62,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "us-72-x026",
+      "stem": "The Iraq Study Group Report (2006) recommended —",
+      "stemEs": "The Iraq Study Group Report (2006) recommended:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Withdrawal of combat troops and engagement with Iraq's neighbors including Iran and Syria",
+          "textEs": "Withdrawal of combat troops and engagement with Iraq's neighbors including Iran and Syria",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Handing security responsibility to the UN and focusing U.S. forces only on counterterrorism",
+          "textEs": "Handing security responsibility to the UN and focusing U.S. forces only on counterterrorism",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A surge of additional troops to break the insurgency before withdrawal began",
+          "textEs": "A surge of additional troops to break the insurgency before withdrawal began",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Dividing Iraq into three autonomous regions — Sunni, Shia, and Kurdish",
+          "textEs": "Dividing Iraq into three autonomous regions — Sunni, Shia, and Kurdish",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Iraq Study Group urged the United States to begin withdrawing combat forces while also engaging regional powers such as Iran and Syria diplomatically. C is wrong because the troop surge was a different strategy adopted later. The report showed growing bipartisan concern that the war needed a new direction.",
+      "explanationEs": "The Iraq Study Group urged the United States to begin withdrawing combat forces while also engaging regional powers such as Iran and Syria diplomatically. C is wrong because the troop surge was a different strategy adopted later. The report showed growing bipartisan concern that the war needed a new direction.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.95,
+        "b": -0.78,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "us-72-x032",
+      "stem": "The 'baby boom' refers to which demographic phenomenon?",
+      "stemEs": "The 'baby boom' refers to which demographic phenomenon?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The migration of young families from cities to suburban areas in the 1950s",
+          "textEs": "The migration of young families from cities to suburban areas in the 1950s",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The dramatic increase in birth rates in the United States following World War II",
+          "textEs": "The dramatic increase in birth rates in the United States following Segunda Guerra Mundial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The rapid growth of immigrant populations in American cities after WWII",
+          "textEs": "The rapid growth of immigrant populations in American cities after WWII",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The rapid expansion of public schools due to Cold War education initiatives",
+          "textEs": "The rapid expansion of public schools due to Guerra Fría education initiatives",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The baby boom was the dramatic rise in birth rates after World War II. A is wrong because suburban migration is not the same as a rise in births. This demographic surge changed everything from school construction to consumer marketing and later politics.",
+      "explanationEs": "The baby boom was the dramatic rise in birth rates after Segunda Guerra Mundial. A is wrong because suburban migration is not the same as a rise in births. This demographic surge changed everything from school construction to consumer marketing and later politics.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.12,
+        "b": 0.18,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "q-us65-dok1-1",
+      "stem": "What was the baby boom?",
+      "stemEs": "¿Qué fue el baby boom?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dramatic surge in birth rates from 1946 to 1964 as veterans returned home",
+          "textEs": "Aumento dramático en tasas de natalidad de 1946 a 1964 cuando veteranos regresaron",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Economic expansion in manufacturing and industrial production after the war",
+          "textEs": "Expansión económica en manufactura y producción industrial después de la guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Population decline due to wartime casualties and emigration from America",
+          "textEs": "Declive de población debido a bajas de guerra y emigración de Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Increased immigration from European countries seeking postwar opportunities",
+          "textEs": "Aumento de inmigración de países europeos buscando oportunidades de posguerra",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The baby boom was the dramatic increase in births from 1946 to 1964 as veterans returned home and started families. D is wrong because immigration was not the main cause, and C is wrong because the period was not marked by population decline. The large baby-boom generation shaped the economy and culture for the rest of the century.",
+      "explanationEs": "El baby boom fue el aumento dramático en tasas de natalidad de 1946-1964, con 76 millones de bebés nacidos cuando veteranos de Segunda Guerra Mundial que regresaban formaron familias en la próspera América de posguerra.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.16,
+        "b": -1.25,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "q-us72-dok1-2",
+      "stem": "Who was the first American to walk on the moon?",
+      "stemEs": "¿Quién fue el primer estadounidense en caminar en la luna?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Threatening nuclear war to force the enemy to back down",
+          "textEs": "John Glenn, el primer estadounidense en orbitar la Tierra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A failed CIA-backed attempt to overthrow Fidel Castro in Cuba",
+          "textEs": "Buzz Aldrin, el piloto del módulo lunar de Apollo 11",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Neil Armstrong, commander of the Apollo 11 mission",
+          "textEs": "Neil Armstrong, comandante de la misión Apollo 11",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Chuck Berry, Little Richard, Buddy Holly, and Jerry Lee Lewis",
+          "textEs": "Alan Shepard, el primer estadounidense en el espacio",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Neil Armstrong became the first American to walk on the moon during Apollo 11 in 1969. B is wrong because it describes the Bay of Pigs, not a space achievement, and D lists early rock musicians rather than astronauts. Armstrong's step on the moon became a major Cold War victory for the United States.",
+      "explanationEs": "Neil Armstrong se convirtió en la primera persona en caminar en la luna el 20 de julio de 1969, durante la misión Apollo 11.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.12,
+        "b": -1.45,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "us-72-x019",
+      "stem": "The 'surge' strategy implemented in Iraq in 2007, ordered by Bush and led by General David Petraeus, succeeded primarily because —",
+      "stemEs": "The 'surge' strategy implemented in Iraq in 2007, ordered by Bush and led by General David Petraeus, succeeded primarily because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It combined troop increases, a new counterinsurgency strategy, and 'Sunni Awakening' payments to Sunni militias to fight al-Qaeda",
+          "textEs": "It combined troop increases, a new counterinsurgency strategy, and 'Sunni Awakening' payments to Sunni militias to fight al-Qaeda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It coincided with Iranian diplomatic pressure on Shia militias to reduce their attacks on American and Iraqi forces",
+          "textEs": "It coincided with Iranian diplomatic pressure on Shia militias to reduce their attacks on American and Iraqi forces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The surge allowed U.S. forces to establish control of Iraq's Syrian and Iranian borders, preventing foreign fighters from entering",
+          "textEs": "The surge allowed U.S. forces to establish control of Iraq's Syrian and Iranian borders, preventing foreign fighters from entering",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The additional 20,000 U.S. troops broke the organizational capacity and command structure of Sunni insurgent groups",
+          "textEs": "The additional 20,000 U.S. troops broke the organizational capacity and command structure of Sunni insurgent groups",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 2007 surge worked mainly because more troops were paired with a new counterinsurgency strategy and the Sunni Awakening against al-Qaeda in Iraq. D is wrong because troop numbers alone did not explain the improvement, and B is wrong because Iranian restraint was only one contributing factor. The episode showed that battlefield gains depended on both military and political change.",
+      "explanationEs": "The 2007 surge worked mainly because more troops were paired with a new counterinsurgency strategy and the Sunni Awakening against al-Qaeda in Iraq. D is wrong because troop numbers alone did not explain the improvement, and B is wrong because Iranian restraint was only one contributing factor. The episode showed that battlefield gains depended on both military and political change.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.03,
+        "b": -0.65,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "q-us72-dok2-1",
+      "stem": "How did the baby boom generation impact the American economy and culture?",
+      "stemEs": "¿Cómo impactó la generación del baby boom la economía y cultura estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It drove demand for schools, housing, consumer goods, and new services",
+          "textEs": "Impulsó la demanda de escuelas, vivienda, bienes de consumo y nuevos servicios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It caused severe economic depression due to overcrowded job markets",
+          "textEs": "Causó depresión económica severa debido a mercados laborales superpoblados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It had minimal impact because most baby boomers emigrated to Europe",
+          "textEs": "Tuvo impacto mínimo porque la mayoría de baby boomers emigraron a Europa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It primarily strengthened rural agricultural communities across America",
+          "textEs": "Fortaleció principalmente las comunidades agrícolas rurales en todo Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The baby-boom generation drove huge demand for schools, houses, toys, cars, and later colleges and jobs as it moved through each life stage. B is wrong because the baby boom did not cause a depression, and D is wrong because its effects were not mainly rural. That giant cohort helped power consumer growth and cultural change for decades.",
+      "explanationEs": "La masiva generación del baby boom creó demanda sin precedentes de nuevas escuelas, vivienda suburbana, juguetes, productos para bebés y eventualmente universidades y empleos. Esta generación moldeó la cultura de consumo estadounidense e impulsó el crecimiento económico durante décadas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.63,
+        "b": -0.31,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "q-us72-add-1",
+      "stem": "Why was the baby boom generation so significant for the American economy?",
+      "stemEs": "¿Por qué fue tan significativa la generación del baby boom para la economía estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The massive population increase drove demand for schools, housing, and consumer goods",
+          "textEs": "El enorme aumento de población impulsó la demanda de escuelas, viviendas y bienes de consumo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It demonstrated technological and ideological superiority over the rival superpower",
+          "textEs": "Todos los baby boomers se hicieron agricultores, fortaleciendo la economía agrícola",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Rapid enrollment growth required construction of new schools and hiring of more teachers",
+          "textEs": "El baby boom disminuyó la demanda de bienes porque las familias tenían menos dinero",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Dramatic surge in birth rates from 1946 to 1964 as veterans returned home",
+          "textEs": "Los baby boomers no tuvieron impacto económico significativo hasta los años 2000",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The baby boom mattered economically because millions of new children created huge demand for schools, housing, and consumer goods. D is wrong because it only defines the baby boom, while the question asks why it was important. That demand fueled long-term growth across many parts of the U.S. economy.",
+      "explanationEs": "El baby boom (1946-1964) produjo 76 millones de estadounidenses. Esta enorme generación impulsó la demanda de nuevas escuelas, viviendas suburbanas, productos de consumo y más tarde transformó la fuerza laboral, la cultura y el panorama político.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -0.02,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "q-us72-add-2",
+      "stem": "How did the baby boom influence public education in the postwar United States?",
+      "stemEs": "¿Cómo the baby boom influence public education in the postwar United States?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Rapid enrollment growth required construction of new schools and hiring of more teachers",
+          "textEs": "Rapid enrollment growth required construction of new schools and hiring of more teachers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The massive population increase drove demand for schools, housing, and consumer goods",
+          "textEs": "The massive population increase drove demand for schools, housing, and consumer goods",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It demonstrated technological and ideological superiority over the rival superpower",
+          "textEs": "It demonstrated technological and ideological superiority over the rival superpower",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A large age cohort moved through life stages together, shifting demand and voting priorities over time",
+          "textEs": "A large age cohort moved through life stages together, shifting demand and voting priorities over time",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The baby boom pushed school enrollment up so quickly that communities had to build new schools and hire many more teachers. B is wrong because it is a broader economic effect, not the specific impact on public education. The pressure of this generation reshaped local budgets and school systems after World War II.",
+      "explanationEs": "The baby boom pushed school enrollment up so quickly that communities had to build new schools and hire many more teachers. B is wrong because it is a broader economic effect, not the specific impact on public education. The pressure of this generation reshaped local budgets and school systems after Segunda Guerra Mundial.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.06,
+        "b": -0.57,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "us-72-x035",
+      "stem": "The growth of American suburbs in the 1950s was facilitated by which three factors?",
+      "stemEs": "The growth of American suburbs in the 1950s was facilitated by which three factors?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mandatory school integration, urban crime reduction, and the baby boom",
+          "textEs": "Mandatory school integración, urban crime reduction, and the baby boom",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Government housing subsidies, expanding public transit, and urban industrial growth",
+          "textEs": "Government housing subsidies, expanding public transit, and urban industrial growth",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The GI Bill, the interstate highway system, and mass production techniques that lowered housing costs",
+          "textEs": "The GI Bill, the interstate highway system, and mass production techniques that lowered housing costs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television advertising, racial integration policies, and declining farm employment",
+          "textEs": "Television advertising, racial integración policies, and declining farm employment",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Suburbs grew because the G.I. Bill helped veterans buy homes, highways made commuting easier, and mass production lowered housing costs. B is wrong because public transit was not the main driver of suburban expansion. Together, these forces transformed where millions of Americans lived after the war.",
+      "explanationEs": "Suburbs grew because the G.I. Bill helped veterans buy homes, highways made commuting easier, and mass production lowered housing costs. B is wrong because public transit was not the main driver of suburban expansion. Together, these forces transformed where millions of Americans lived after the war.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.79,
+        "b": 0.45,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "q-us72-add-3",
+      "stem": "Why did baby-boom demographics matter for long-term U.S. politics and markets?",
+      "stemEs": "¿Por qué baby-boom demographics matter for long-term U.S. politics and markets?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A large age cohort moved through life stages together, shifting demand and voting priorities over time",
+          "textEs": "A large age cohort moved through life stages together, shifting demand and voting priorities over time",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Rapid enrollment growth required construction of new schools and hiring of more teachers",
+          "textEs": "Rapid enrollment growth required construction of new schools and hiring of more teachers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They established that individuals could be held accountable for war crimes and crimes against humanity",
+          "textEs": "They established that individuals could be held accountable for war crimes and crimes against humanity",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both increasingly connected racial justice to economic inequality and criticized American foreign policy",
+          "textEs": "Both increasingly connected racial justice to economic inigualdad and criticized American política exterior",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Baby-boom demographics mattered because such a large generation moved through school, work, family life, and retirement together, changing demand and political priorities at each stage. B is wrong because school construction was only one early effect, not the long-term pattern. The size of this cohort made it unusually powerful in markets and elections.",
+      "explanationEs": "Baby-boom demographics mattered because such a large generation moved through school, work, family life, and retirement together, changing demand and political priorities at each stage. B is wrong because school construction was only one early effect, not the long-term pattern. The size of this cohort made it unusually powerful in markets and elections.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.72,
+        "b": 0.49,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "us-72-x021",
+      "stem": "How does the Iraq War compare to the Gulf War (1991) in terms of strategy and outcome?",
+      "stemEs": "How does the Iraq War compare to the Guerra del Golfo (1991) in terms of strategy and outcome?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Iraq War's outcome was worse than the Gulf War primarily because Iraq in 2003 had stronger military forces",
+          "textEs": "The Iraq War's outcome was worse than the Guerra del Golfo primarily because Iraq in 2003 had stronger military forces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both achieved their objectives with minimal long-term cost to U.S. prestige and resources",
+          "textEs": "Both achieved their objectives with minimal long-term cost to U.S. prestige and resources",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Gulf War was more controversial domestically while the Iraq War enjoyed sustained public support",
+          "textEs": "The Guerra del Golfo was more controversial domestically while the Iraq War enjoyed sustained public support",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Gulf War's limited objective of restoring Kuwait contrasted with Iraq's ambitious goal of regime change, producing very different results",
+          "textEs": "The Guerra del Golfo's limited objective of restoring Kuwait contrasted with Iraq's ambitious goal of regime change, producing very different results",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 1991 Gulf War had the limited goal of forcing Iraq out of Kuwait, while the 2003 Iraq War aimed at regime change and nation-building, which produced a much more difficult outcome. B is wrong because the two wars did not have similar long-term costs. The comparison shows how a narrow military objective is often easier to achieve than remaking a country.",
+      "explanationEs": "The 1991 Guerra del Golfo had the limited goal of forcing Iraq out of Kuwait, while the 2003 Iraq War aimed at regime change and nation-building, which produced a much more difficult outcome. B is wrong because the two wars did not have similar long-term costs. The comparison shows how a narrow military objective is often easier to achieve than remaking a country.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.42,
+        "b": 0.51,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "us-72-x016",
+      "stem": "'Mission Accomplished' — the banner displayed when Bush declared major combat operations over in May 2003 — came to symbolize —",
+      "stemEs": "'Mission Accomplished' — the banner displayed when Bush declared major combat operations over in May 2003 — came to symbolize:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The transition from military operations to nation-building and reconstruction",
+          "textEs": "The transition from military operations to nation-building and Reconstrucción",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Bush's political strategy to capitalize on the military victory before the 2004 election",
+          "textEs": "Bush's political strategy to capitalize on the military victory before the 2004 election",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The gap between the administration's optimistic expectations and the prolonged insurgency that followed",
+          "textEs": "The gap between the administration's optimistic expectations and the prolonged insurgency that followed",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The decisive U.S. military victory that destroyed Iraq's conventional forces",
+          "textEs": "The decisive U.S. military victory that destroyed Iraq's conventional forces",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 'Mission Accomplished' banner came to symbolize how the administration underestimated the long insurgency and instability that followed the fall of Baghdad. D is wrong because defeating Iraq's conventional army did not mean the war was truly over. The phrase became shorthand for the dangers of declaring victory too early in modern warfare.",
+      "explanationEs": "The 'Mission Accomplished' banner came to symbolize how the administration underestimated the long insurgency and instability that followed the fall of Baghdad. D is wrong because defeating Iraq's conventional army did not mean the war was truly over. The phrase became shorthand for the dangers of declaring victory too early in modern warfare.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.85,
+        "b": -1.31,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0003",
+      "stem": "Carter's 1979 address responded most directly to —",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A surplus of domestic oil production",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The end of the Cold War and defense spending cuts",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A surge in U.S. industrial productivity",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "An energy crisis driven by reliance on foreign oil",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "On July 15, 1979, President Carter delivered what became known as the \"crisis of confidence\" address, responding most directly to an energy crisis rooted in American dependence on foreign oil. The 1973 OPEC oil embargo and the 1979 Iranian Revolution each triggered gasoline shortages and price shocks that exposed U.S. vulnerability to imported petroleum. Choice A is wrong because the late 1970s brought an oil shortage, not a surplus; domestic production had been declining since its 1970 peak. Choice B is wrong because the Cold War did not end until 1991, more than a decade after Carter spoke. Carter's speech and the broader energy crisis set the stage for deregulation debates and energy-policy legislation of the early 1980s.",
+      "explanationEs": "El 15 de julio de 1979, el presidente Carter pronunció lo que se conoció como el discurso de la crisis de confianza, respondiendo directamente a una crisis energética enraizada en la dependencia de EE. UU. del petróleo extranjero. El embargo petrolero de la OPEP de octubre de 1973 y la Revolución iraní de 1979 provocaron escasez de gasolina y shocks de precios que expusieron la vulnerabilidad de EE. UU. al petróleo importado. La opción A es incorrecta porque los años setenta trajeron una escasez de petróleo, no un excedente; la producción nacional había disminuido desde su máximo de 1970. La opción B es incorrecta porque la Guerra Fría no terminó hasta 1991, más de una década después de que Carter hablara. El discurso de Carter y la crisis energética más amplia prepararon el terreno para los debates sobre desregulación y la legislación energética de principios de los años ochenta.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0018",
+      "stem": "How did the baby boom generation reshape American society and the economy as its members grew up?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The baby boom had little economic impact because the generation was too small to influence consumer markets",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Baby boomers primarily emigrated to other countries, reducing the size of the American workforce",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The large baby boom generation drove demand for schools, consumer goods, and housing, and reshaped the labor market when boomers entered it",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The baby boom was confined to rural areas and had no influence on urban or suburban development",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The baby boom's 76 million births (1946–1964) created a demographic wave that drove demand for schools in the 1950s, youth consumer markets in the 1960s, and career opportunities in the 1970s-80s.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": -0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0019",
+      "stem": "Which pattern best explains the connection between the baby boom generation and the rise of youth culture in the 1950s and 1960s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Baby boomers were raised to follow their parents' cultural preferences exactly, producing no distinct youth identity",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Baby boomers rejected all forms of consumerism, creating a youth culture based entirely on self-sufficiency",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Youth culture emerged because the government required young people to spend free time in civic organizations rather than consuming entertainment",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The sheer size of the baby boom generation created a mass youth market, and businesses targeted teenagers with music, fashion, and entertainment that became a distinct youth culture",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The concentration of millions of teenagers with disposable income created a youth market; industry responded with rock and roll, teen magazines, drive-in movies, and fashion specifically targeting this new demographic.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0020",
+      "stem": "How did the baby boom generation's entry into the workforce during the 1960s and 1970s affect social and political attitudes in the United States?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Educated baby boomers entering the workforce fueled social movements challenging traditional institutions, including civil rights protests and anti-Vietnam War activism",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Baby boomers entering the workforce uniformly adopted conservative political views identical to those of the previous generation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Baby boomer workers primarily sought to preserve existing social structures and opposed all forms of social change",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The baby boom generation had no connection to social activism because their economic prosperity made them indifferent to political issues",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Educated baby boomers, many attending college for the first time in family history thanks to the GI Bill's legacy, formed the core constituency of the civil rights movement, anti-war protests, and the counterculture of the 1960s–70s.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0021",
+      "stem": "How did baby boomer demand affect the education system in the United States during the 1950s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The boomer generation was so small that schools had excess capacity throughout the 1950s, requiring no new construction",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The massive number of school-age children created demand for rapid school construction, increased teacher hiring, and expansion of public education infrastructure",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Baby boomers were educated at home because public schools were abolished by the federal government after World War II",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The federal government assigned baby boomers to military academies to fill defense needs during the Cold War",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Baby boomers entering elementary school in the early 1950s created a national school construction crisis; communities built thousands of new schools and hired hundreds of thousands of teachers to keep pace with enrollment.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -0.4,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0022",
+      "stem": "Which long-term consequence of the baby boom most directly affected the Social Security system?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The baby boom had no long-term impact on Social Security because the program was funded by private investments",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Baby boomers reformed Social Security in the 1970s to make it entirely self-funded before their retirement",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "As baby boomers retired around 2010, their large numbers strained Social Security, which relies on current workers to fund retiree benefits",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The baby boom actually helped Social Security by reducing the ratio of retirees to workers permanently",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Social Security is a pay-as-you-go system; the baby boom's large size initially boosted revenues as boomers worked, but their mass retirement beginning around 2008–2011 created sustained financial pressure as the worker-to-retiree ratio declined.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0023",
+      "stem": "How did the baby boom generation's size influence American consumer markets during the 1950s and 1960s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Businesses largely ignored the youth market because young people had no disposable income in the postwar era",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The government strictly regulated advertising to children, preventing businesses from targeting young consumers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Baby boomers reduced consumer spending because their large numbers strained family budgets, leaving little money for discretionary purchases",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The large number of children and teenagers created profitable markets for toys, clothing, music, and entertainment specifically designed to appeal to young consumers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The sheer size of the boomer cohort created enormous youth markets; industries from toy manufacturers (Mattel, Hasbro) to music labels recognized and targeted teenage consumers, generating billions in revenue.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "q-us65-dok2-1",
+      "stem": "How did the baby boom impact American society and economy?",
+      "stemEs": "¿Cómo impactó el baby boom la sociedad y economía estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Created huge demand for housing, schools, and goods, shaping culture for decades",
+          "textEs": "Creó demanda enorme por vivienda, escuelas y bienes, moldeando cultura por décadas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reinforced traditional roles with mothers expected to stay home raising children",
+          "textEs": "No tuvo efectos significativos a largo plazo en la economía o desarrollo cultural",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Book by Betty Friedan critiquing the suburban housewife ideal and limited roles",
+          "textEs": "Redujo crecimiento económico porque recursos fueron desviados a necesidades de crianza",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It accepted that the U.S. and USSR might coexist without direct military conflict",
+          "textEs": "Solo afectó tasas de natalidad sin impacto más amplio en la sociedad estadounidense",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "the baby boom impact American society and economy because created huge demand for housing, schools, and goods, shaping culture for decades. Choice B is wrong because it describes reinforced traditional roles with mothers expected to stay home raising children, not created huge demand for housing, schools, and goods, shaping culture for decades. Suburban growth reshaped race, class, and geography in postwar America for decades.",
+      "explanationEs": "El baby boom creó demanda masiva por vivienda, escuelas, juguetes y bienes de consumo, impulsando crecimiento económico y moldeando cultura estadounidense por generaciones cuando este grupo se movió por diferentes etapas de vida.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.88,
+        "b": 0.21,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "q-us65-dok2-2",
+      "stem": "What factors contributed to the baby boom after World War II?",
+      "stemEs": "¿Qué factores contribuyeron al baby boom después de la Segunda Guerra Mundial?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Government mandate requiring families to have more children for the nation",
+          "textEs": "Mandato gubernamental requiriendo familias tener más hijos para la nación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Returning veterans, prosperity, government benefits, and emphasis on family",
+          "textEs": "Veteranos que regresaban, prosperidad, beneficios gubernamentales y énfasis en familia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Declining marriage rates throughout the entire postwar period in America",
+          "textEs": "Tasas de matrimonio en declive durante todo el periodo de posguerra en América",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Economic depression and widespread uncertainty about the future of the country",
+          "textEs": "Depresión económica e incertidumbre generalizada sobre el futuro del país",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Returning veterans, prosperity, government benefits, and emphasis on family. Choice A is wrong because it describes government mandate requiring families to have more children for the nation, not returning veterans, prosperity, government benefits, and emphasis on family. These postwar social patterns shaped debates about gender, family life, and equality well beyond the 1950s.",
+      "explanationEs": "El baby boom resultó de múltiples factores: millones de veteranos regresando a casa ansiosos por formar familias, prosperidad económica sin precedentes, beneficios de Ley G.I. y énfasis cultural en vida familiar y domesticidad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.55,
+        "b": -0.36,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-011",
+      "stem": "The baby boom (roughly 1946–1964) produced approximately 76 million births in the United States. Economists studying this period note that the cohort created 'demand waves' as it aged. Which of the following best explains how this demographic pattern affected the American economy across multiple decades?",
+      "stemEs": "El baby boom (aproximadamente 1946–1964) produjo aproximadamente 76 millones de nacimientos en Estados Unidos. Los economistas que estudian este período señalan que la cohorte creó 'olas de demanda' a medida que envejecía. ¿Cuál de las siguientes opciones explica mejor cómo este patrón demográfico afectó la economía estadounidense a lo largo de varias décadas?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The baby boom created a one-time surge in consumer spending during the 1950s that stabilized once boomers reached adulthood.",
+          "textEs": "El baby boom creó un aumento único del gasto del consumidor durante los años 50 que se estabilizó una vez que los boomers llegaron a la adultez.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The cohort moved through successive life stages — filling classrooms, buying homes, then straining retirement programs — generating rolling peaks of sectoral demand.",
+          "textEs": "A medida que los boomers envejecían a través de sucesivas etapas de vida, crearon olas de demanda secuenciales en educación, vivienda y eventualmente atención médica a lo largo de varias décadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The large boomer cohort accumulated more savings than any previous generation, providing capital for corporate investment but reducing consumer spending.",
+          "textEs": "La gran cohorte de boomers acumuló más ahorros que cualquier generación anterior, proporcionando capital para la inversión corporativa pero reduciendo el gasto del consumidor.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The baby boom flooded the labor market, causing unemployment to rise and productivity to fall throughout the 1950s and 1960s.",
+          "textEs": "El baby boom saturó el mercado laboral, provocando un aumento del desempleo y una caída de la productividad a lo largo de los años 50 y 60.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "As boomers passed through successive life stages, they created surging demand in sectors tied to each stage: schools and toys in the 1950s, universities and rock music in the 1960s, housing and appliances in the 1970s–80s, and healthcare and retirement services in the 2000s–2020s. This 'demand wave' effect made baby boomers a persistent economic force across many decades. Option A is wrong — the effect was not one-time. Option C misidentifies the mechanism; boomers created demand, not necessarily savings. Option D is incorrect — boomer entry into the labor market increased, not decreased, productivity initially.",
+      "explanationEs": "A medida que los boomers pasaban por sucesivas etapas de vida, creaban una demanda creciente en sectores vinculados a cada etapa: escuelas y juguetes en los años 50, universidades y música rock en los 60, viviendas y electrodomésticos en los 70–80, y servicios de salud y jubilación en los 2000–2020. La opción A es incorrecta: el efecto no fue de una sola vez. La opción C identifica mal el mecanismo. La opción D es incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.14,
+        "b": 0.93,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-012",
+      "stem": "The baby boom generation grew up in unprecedented material prosperity. Which of the following best explains why this upbringing paradoxically contributed to the social upheaval of the 1960s?",
+      "stemEs": "La generación del baby boom creció en una prosperidad material sin precedentes. ¿Cuál de las siguientes opciones explica mejor por qué esta crianza contribuyó paradójicamente a la agitación social de los años 60?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Economic anxiety drove boomers to protest when 1960s recessions eliminated the prosperity their parents had enjoyed.",
+          "textEs": "La ansiedad económica llevó a los boomers a protestar cuando las recesiones de los años 60 eliminaron la prosperidad que sus padres habían disfrutado.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The baby boom generation was largely excluded from postwar prosperity, fueling resentment that erupted in social protest.",
+          "textEs": "La generación del baby boom fue en gran medida excluida de la prosperidad de posguerra, lo que alimentó el resentimiento que estalló en protestas sociales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Material security freed boomers to focus on post-material values like equality and authenticity, while university education gave them tools to critique existing institutions.",
+          "textEs": "La seguridad material liberó a los boomers para enfocarse en valores post-materiales como la igualdad y la autenticidad, mientras que la educación universitaria les dio herramientas para criticar las instituciones existentes.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Boomers protested because they were denied civil rights, and the Civil Rights Movement was the only significant social change of the 1960s.",
+          "textEs": "Los boomers protestaron porque se les negaron los derechos civiles, y el Movimiento por los Derechos Civiles fue el único cambio social significativo de los años 60.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Having their material needs met, baby boomers turned to 'post-material' concerns — equality, authenticity, self-expression, and opposition to conformity and war. Their mass enrollment in universities also gave them the space and intellectual tools to critique the society that had produced them. Option A confuses cause and effect — economic anxiety was not the primary driver for most boomer activists, who came from comfortable backgrounds. Option B is historically wrong; the generation overwhelmingly benefited from prosperity. Option D is too narrow — civil rights were one component of broader social transformation.",
+      "explanationEs": "Teniendo sus necesidades materiales satisfechas, los boomers se volcaron hacia preocupaciones 'post-materiales': igualdad, autenticidad, autoexpresión y oposición a la conformidad y la guerra. Su matrícula masiva en universidades también les dio el espacio y las herramientas intelectuales para criticar la sociedad que los había producido. La opción A confunde causa y efecto. La opción B es históricamente incorrecta. La opción D es demasiado limitada.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.01,
+        "b": 0.67,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-013",
+      "stem": "By the mid-1950s, elementary schools across the United States were severely overcrowded. Which of the following best explains the chain of causes that produced this crisis?",
+      "stemEs": "A mediados de los años 50, las escuelas primarias en todo Estados Unidos estaban gravemente superpobladas. ¿Cuál de las siguientes opciones explica mejor la cadena de causas que produjo esta crisis?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "High postwar birth rates beginning in 1946 sent an unprecedented wave of children into schools that had been built for smaller prewar populations.",
+          "textEs": "Las altas tasas de natalidad de posguerra a partir de 1946 enviaron una ola sin precedentes de niños a escuelas que habían sido construidas para poblaciones de preguerra más pequeñas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Suburban developers built new communities without planning for schools, forcing children from multiple towns to share single buildings.",
+          "textEs": "Los desarrolladores suburbanos construyeron nuevas comunidades sin planificar escuelas, obligando a niños de múltiples ciudades a compartir edificios.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Mass immigration from Europe in the late 1940s dramatically increased the school-age population beyond what census projections had anticipated.",
+          "textEs": "La inmigración masiva desde Europa a finales de los años 40 aumentó drásticamente la población en edad escolar más allá de lo que las proyecciones del censo habían anticipado.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The G.I. Bill required veterans to enroll their children in school, adding millions of students who would otherwise have received home schooling.",
+          "textEs": "La Ley G.I. requería que los veteranos matricularan a sus hijos en la escuela, añadiendo millones de estudiantes que de otro modo habrían recibido educación en el hogar.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The causal chain runs: returning veterans married and had children at high rates → the baby boom began 1946 → boomer children reached school age approximately 1951–1952 → schools built for smaller prewar populations could not accommodate the surge. Option B inverts the chain — suburban construction followed demographic demand, not the other way. Option C misidentifies the cause; immigration rates were not historically exceptional in the late 1940s. Option D is irrelevant — GI Bill education benefits were for veterans, not school-age children.",
+      "explanationEs": "La cadena causal es: los veteranos que regresaron se casaron y tuvieron hijos a altas tasas → el baby boom comenzó en 1946 → los niños del boom alcanzaron la edad escolar aproximadamente en 1951–1952 → las escuelas construidas para poblaciones de preguerra más pequeñas no podían acomodar el aumento. La opción B invierte la cadena. La opción C identifica mal la causa. La opción D es irrelevante.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.24,
+        "b": 0.96,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-014",
+      "stem": "The baby boom generation became the largest cohort of college students in American history when they reached university age in the mid-1960s. Which of the following best explains the cultural consequence of this mass higher education?",
+      "stemEs": "La generación del baby boom se convirtió en la cohorte más grande de estudiantes universitarios en la historia estadounidense cuando alcanzó la edad universitaria a mediados de los años 60. ¿Cuál de las siguientes opciones explica mejor la consecuencia cultural de esta educación superior masiva?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mass enrollment in universities made young Americans politically passive, as academic study replaced civic engagement.",
+          "textEs": "La matrícula masiva en universidades hizo que los jóvenes estadounidenses fueran políticamente pasivos, ya que el estudio académico reemplazó el compromiso cívico.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "So many Americans held college degrees by 1970 that bachelor's degrees became economically worthless, pushing graduates into manual labor.",
+          "textEs": "Tantos estadounidenses poseían títulos universitarios para 1970 que los títulos de licenciatura se volvieron económicamente sin valor, empujando a los graduados al trabajo manual.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "University expansion primarily impacted American culture by creating the campus newspaper industry, which became the main source of news for young adults.",
+          "textEs": "La expansión universitaria impactó principalmente la cultura estadounidense al crear la industria del periódico universitario, que se convirtió en la principal fuente de noticias para los jóvenes adultos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Concentrating millions of young adults in universities created spaces for organizing, critical thinking, and shared identity that fueled the counterculture and student activism.",
+          "textEs": "Concentrar a millones de jóvenes adultos en universidades creó espacios para organizarse, el pensamiento crítico y una identidad compartida que impulsó la contracultura y el activismo estudiantil.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Concentrating tens of millions of young adults in universities created physical spaces for organizing, exposed them to critical intellectual traditions, and gave them a shared identity separate from the working world — conditions that fostered the counterculture, anti-war movement, and student activism. Option A is incorrect — universities increased political engagement, not apathy. Option B overstates economic outcomes; degree inflation was a later phenomenon. Option C is a minor point; campus newspapers existed before the 1960s.",
+      "explanationEs": "Concentrar decenas de millones de jóvenes adultos en universidades creó espacios físicos para organizarse, los expuso a tradiciones intelectuales críticas y les dio una identidad compartida separada del mundo laboral, condiciones que fomentaron la contracultura, el movimiento antibelicista y el activismo estudiantil. La opción A es incorrecta. La opción B sobreestima los resultados económicos. La opción C es un punto menor.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 1.61,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-015",
+      "stem": "The baby boom disproportionately increased demand for certain industries in the 1950s while others remained relatively unaffected. Which set of industries best reflects those most directly stimulated by the boom during that decade?",
+      "stemEs": "El baby boom aumentó desproporcionadamente la demanda de ciertas industrias en los años 50, mientras que otras permanecieron relativamente sin cambios. ¿Qué conjunto de industrias refleja mejor las que fueron estimuladas más directamente por el boom durante esa década?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pediatric medicine, school construction, toys, children's clothing, and family-sized vehicles.",
+          "textEs": "Medicina pediátrica, construcción escolar, juguetes, ropa infantil y vehículos de tamaño familiar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Universities, record labels, nightclubs, and draft-resistance legal services.",
+          "textEs": "Universidades, discográficas, clubes nocturnos y servicios legales de resistencia al reclutamiento.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Retirement communities, prescription drug manufacturing, and funeral services.",
+          "textEs": "Comunidades de jubilados, fabricación de medicamentos recetados y servicios funerarios.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Defense manufacturing, engineering firms, and executive recruitment agencies.",
+          "textEs": "Fabricación de defensa, empresas de ingeniería y agencias de reclutamiento ejecutivo.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Young children in the 1950s drove demand for pediatric medicine, school construction (requiring more teachers and educational materials), toys, children's clothing, breakfast cereals, and family-sized automobiles. These were the immediate sector correlates of millions of young children. Option B corresponds to a later stage — when boomers reached young adulthood. Option C reflects retiree demand patterns inappropriate for the 1950s boomer cohort. Option D corresponds to labor market effects, not the child-era demand wave.",
+      "explanationEs": "Los niños pequeños en los años 50 impulsaron la demanda de medicina pediátrica, construcción escolar, juguetes, ropa infantil, cereales para el desayuno y automóviles de tamaño familiar. La opción B corresponde a una etapa posterior. La opción C refleja patrones de demanda de jubilados inapropiados para la cohorte boomer de los años 50. La opción D corresponde a efectos del mercado laboral, no a la ola de demanda de la infancia.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.36,
+        "b": 1.13,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-016",
+      "stem": "Historians debate whether the baby boom was primarily caused by increased birth rates or by decreased death rates. Which of the following evidence would most directly support the increased-birth-rate explanation?",
+      "stemEs": "Los historiadores debaten si el baby boom fue causado principalmente por tasas de natalidad aumentadas o por tasas de mortalidad disminuidas. ¿Cuál de las siguientes evidencias respaldaría más directamente la explicación del aumento de la tasa de natalidad?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Infant mortality rates fell sharply after 1945 due to the widespread use of antibiotics and improved prenatal care",
+          "textEs": "Las tasas de mortalidad infantil cayeron bruscamente después de 1945 debido a los avances en antibióticos y atención prenatal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The total number of Americans under age five was substantially larger in 1950 than in any year during the 1940s",
+          "textEs": "El número total de estadounidenses menores de cinco años era mayor en 1950 que en 1940.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Average children per family rose from 2.3 in the 1930s to 3.7 in the early 1950s, and veterans married at younger ages",
+          "textEs": "El número promedio de hijos por familia aumentó de 2.3 en los años 30 a 3.7 a principios de los 50, y los veteranos se casaron a edades más jóvenes que las cohortes de preguerra.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Immigrants from Southern and Eastern Europe, who had larger families by tradition, arrived in large numbers after World War II",
+          "textEs": "Inmigrantes del sur y este de Europa, que tenían familias más grandes por tradición, llegaron en grandes números después de la Segunda Guerra Mundial.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "If veterans married earlier and had more children per family than prewar couples did, this demonstrates that birth rate increase — not merely survival improvement — drove the boom. Option A would support the death-rate explanation. Option B is consistent with both explanations and does not distinguish between them. Option D actually contradicts the birth-rate explanation by suggesting the boom was selective (immigrant families), not a general phenomenon.",
+      "explanationEs": "Si los veteranos se casaron antes y tuvieron más hijos por familia que las parejas de preguerra, esto demuestra que el aumento de la tasa de natalidad —no meramente la mejora de la supervivencia— impulsó el boom. La opción A respaldaría la explicación de la tasa de mortalidad. La opción B es consistente con ambas explicaciones. La opción D en realidad contradice la explicación de la tasa de natalidad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.22,
+        "b": 0.82,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-017",
+      "stem": "The baby boom generation reached voting age between 1964 and 1982. Which of the following best explains how this demographic shift affected American politics during that period?",
+      "stemEs": "La generación del baby boom alcanzó la edad de votar entre 1964 y 1982. ¿Cuál de las siguientes opciones explica mejor cómo este cambio demográfico afectó la política estadounidense durante ese período?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "All baby boomers voted as a unified bloc for liberal Democratic candidates, permanently shifting American politics to the left.",
+          "textEs": "Todos los baby boomers votaron como un bloque unificado por candidatos demócratas liberales, desplazando permanentemente la política estadounidense hacia la izquierda.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The entry of millions of young voters shaped by Vietnam and civil rights introduced a more skeptical, socially liberal voice that reshaped both major parties.",
+          "textEs": "La entrada de millones de jóvenes votantes formados por Vietnam y los derechos civiles introdujo una voz más escéptica y socialmente liberal que reformó a ambos partidos principales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Baby boomers overwhelmingly rejected both major parties and funded a series of successful third-party campaigns throughout the 1970s.",
+          "textEs": "Los baby boomers rechazaron abrumadoramente a ambos partidos principales y financiaron una serie de campañas exitosas de terceros partidos a lo largo de los años 70.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Baby boomers had higher voter turnout than any previous generation, making elections between 1964 and 1980 more competitive than at any prior point in American history.",
+          "textEs": "Los baby boomers tuvieron una participación electoral más alta que cualquier generación anterior, haciendo que las elecciones entre 1964 y 1980 fueran más competitivas que en cualquier momento previo de la historia estadounidense.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The entry of tens of millions of young voters, many shaped by the civil rights movement, Vietnam War, and counterculture, introduced a large bloc that was more skeptical of government, more supportive of social liberalism, and more anti-war than previous voter cohorts — reshaping both the Democratic coalition and eventually generating a conservative backlash in the late 1970s. Option A is oversimplified — boomers were ideologically diverse. Option C misidentifies the dynamic; third parties did not benefit primarily. Option D is historically incorrect — voter turnout among young voters was notably variable, not consistently high.",
+      "explanationEs": "La entrada de decenas de millones de jóvenes votantes, muchos formados por el movimiento de derechos civiles, la guerra de Vietnam y la contracultura, introdujo un bloque más escéptico del gobierno, más favorable al liberalismo social y más antibelicista que las cohortes de votantes anteriores. La opción A es demasiado simplificada. La opción C identifica mal la dinámica. La opción D es históricamente incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.23,
+        "b": 0.79,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-018",
+      "stem": "Popular culture in the 1950s began targeting teenagers as a distinct consumer market for the first time. Which of the following best explains why this was economically feasible specifically in this decade?",
+      "stemEs": "La cultura popular en los años 50 comenzó a apuntar a los adolescentes como un mercado consumidor distinto por primera vez. ¿Cuál de las siguientes opciones explica mejor por qué esto fue económicamente viable específicamente en esta década?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Teenagers were a new demographic category in the 1950s — the concept of adolescence as a separate life stage did not exist before World War II.",
+          "textEs": "Los adolescentes eran una categoría demográfica nueva en los años 50: el concepto de adolescencia como etapa de vida separada no existía antes de la Segunda Guerra Mundial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Advertising agencies invented the teen market by convincing corporations to create products teenagers would want, then manufacturing demand artificially.",
+          "textEs": "Las agencias de publicidad inventaron el mercado adolescente convenciendo a las corporaciones de crear productos que los adolescentes querrían, luego fabricando la demanda artificialmente.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Teenagers left school at younger ages than before, earning wages that they spent on entertainment rather than contributing to family income.",
+          "textEs": "Los adolescentes dejaban la escuela a edades más jóvenes que antes, ganando salarios que gastaban en entretenimiento en lugar de contribuir a los ingresos familiares.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Unprecedented numbers of baby boomer teenagers combined with parental prosperity and discretionary allowances created a viable mass market for teen-oriented goods.",
+          "textEs": "Un número sin precedentes de adolescentes del baby boom combinado con la prosperidad parental y las mesadas discrecionales creó un mercado masivo viable para bienes orientados a los jóvenes.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Postwar prosperity gave parents discretionary income to provide allowances; the boomer generation created an unprecedented number of teenagers; and industries (records, movies, clothing) recognized and cultivated this new demographic. The combination of sheer numbers (demographic) and spending power (economic) made the teen market viable for the first time at scale. Option A is wrong — teenagers had existed before; the novelty was purchasing power plus sheer numbers. Option B misidentifies the mechanism — advertising followed the market, it did not create it from nothing. Option C is historically backwards — school leaving age was rising, keeping more teens in school and giving them spending money rather than wages.",
+      "explanationEs": "La prosperidad de posguerra dio a los padres ingresos discrecionales para dar mesadas; la generación boomer creó un número sin precedentes de adolescentes; y las industrias reconocieron y cultivaron este nuevo grupo demográfico. La opción A es incorrecta: los adolescentes siempre habían existido; la novedad era el poder adquisitivo más los números. La opción B identifica mal el mecanismo. La opción C es históricamente inversa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.11,
+        "b": 1.66,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-019",
+      "stem": "A demographer notes that the baby boom was followed by the 'baby bust' of the 1970s. Which of the following best explains the long-term economic challenge this generational sequence created?",
+      "stemEs": "Un demógrafo señala que el baby boom fue seguido por la 'caída del baby' de los años 70. ¿Cuál de las siguientes opciones explica mejor el desafío económico a largo plazo que creó esta secuencia generacional?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A smaller working-age cohort following the boomers would eventually have to support a disproportionately large retired population, straining pension and healthcare systems.",
+          "textEs": "Una cohorte más pequeña en edad laboral que siguiera a los boomers eventualmente tendría que mantener a una población jubilada desproporcionadamente grande, tensando los sistemas de pensiones y atención médica.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The sheer size of the baby boom cohort caused Social Security to become insolvent within a decade of the program's creation.",
+          "textEs": "El enorme tamaño de la cohorte del baby boom hizo que el Seguro Social se volviera insolvente dentro de una década desde la creación del programa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The baby bust caused a rapid decline in consumer spending that triggered a depression in the 1980s.",
+          "textEs": "La caída del baby provocó una rápida disminución del gasto del consumidor que desencadenó una depresión en los años 80.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Because fewer children were born in the 1970s, universities shrank dramatically and the United States lost its educational advantage over other nations.",
+          "textEs": "Debido a que nacieron menos niños en los años 70, las universidades se contrajeron drásticamente y Estados Unidos perdió su ventaja educativa sobre otras naciones.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "When the large boomer cohort retires, a smaller worker cohort (Gen X) must support their Social Security and Medicare benefits — creating fiscal strain because fewer workers per retiree fund the system. This demographic imbalance was a predictable structural consequence of the boom-bust pattern. Option B misidentifies the problem — the boom itself did not cause Social Security insolvency, the subsequent smaller cohort did. Option C is not a long-term challenge specific to the boom-bust sequence. Option D is not historically accurate as a consequence of the baby bust.",
+      "explanationEs": "Cuando la gran cohorte boomer se jubile, una cohorte de trabajadores más pequeña (Generación X) debe financiar sus beneficios del Seguro Social y Medicare, creando tensión fiscal porque hay menos trabajadores por jubilado. La opción B identifica mal el problema. La opción C no es un desafío a largo plazo específico de la secuencia boom-bust. La opción D no es históricamente precisa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.61,
+        "b": 0.98,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-020",
+      "stem": "Some historians argue the baby boom was as much a cultural phenomenon as a demographic one — that postwar Americans chose large families because of shared values, not merely biology. Which evidence best supports this interpretation?",
+      "stemEs": "Algunos historiadores argumentan que el baby boom fue tanto un fenómeno cultural como demográfico: que los estadounidenses de posguerra eligieron familias numerosas por valores compartidos, no meramente por biología. ¿Qué evidencia respalda mejor esta interpretación?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Birth rates rose most steeply among women with no access to contraception, showing that biology, not choice, drove the boom.",
+          "textEs": "Las tasas de natalidad aumentaron más pronunciadamente entre las mujeres sin acceso a anticonceptivos, lo que demuestra que la biología, no la elección, impulsó el boom.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Birth rates were highest among the poorest Americans, who had children because they could not afford birth control.",
+          "textEs": "Las tasas de natalidad fueron más altas entre los estadounidenses más pobres, quienes tenían hijos porque no podían pagar los anticonceptivos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "College-educated women also increased family size during this period, suggesting that cultural ideals of domesticity and suburban family life influenced choices across economic strata.",
+          "textEs": "Las mujeres con educación universitaria también aumentaron el tamaño de sus familias durante este período, lo que sugiere que los ideales culturales de domesticidad y vida familiar suburbana influyeron en las elecciones en todos los estratos económicos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Religious revivals in the early 1950s convinced Americans to abandon birth control, producing a theologically-motivated birth surge.",
+          "textEs": "Los avivamientos religiosos a principios de los años 50 convencieron a los estadounidenses de abandonar los anticonceptivos, produciendo un aumento de natalidad de motivación teológica.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The fact that highly educated women — who had more access to information about family planning and greater career alternatives — also participated in the baby boom (though to a lesser degree) suggests that cultural values favoring domesticity, suburban family life, and childrearing were powerful enough to influence choices across educational strata. Additionally, the fertility peak occurring among the middle class (not just among less-educated populations) supports the cultural-values interpretation. Option A supports a biological explanation. Option B would support economic determinism, not cultural values. Option D describes a very different historical period.",
+      "explanationEs": "El hecho de que mujeres altamente educadas —que tenían más acceso a información sobre planificación familiar y mayores alternativas profesionales— también participaron en el baby boom sugiere que los valores culturales que favorecían la domesticidad, la vida familiar suburbana y la crianza de hijos eran suficientemente poderosos para influir en las elecciones en todos los estratos educativos. La opción A respalda una explicación biológica. La opción B respaldaría el determinismo económico. La opción D describe un período histórico muy diferente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.88,
+        "b": 1.69,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    },
+    {
+      "id": "q-us65-dok3-1",
+      "stem": "How did the baby boom contribute to gender role expectations in the 1950s?",
+      "stemEs": "¿Cómo contribuyó el baby boom a las expectativas de roles de género en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Created huge demand for housing, schools, and goods, shaping culture for decades",
+          "textEs": "No tuvo impacto medible en expectativas de género o estructuras de roles familiares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Book by Betty Friedan critiquing the suburban housewife ideal and limited roles",
+          "textEs": "Alentó a mujeres a buscar carreras profesionales sobre deberes de maternidad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It accepted that the U.S. and USSR might coexist without direct military conflict",
+          "textEs": "Promovió división igual de responsabilidades de cuidado infantil entre ambos padres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Reinforced traditional roles with mothers expected to stay home raising children",
+          "textEs": "Reforzó roles tradicionales con madres esperadas quedarse en casa criando niños",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.65"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "the baby boom contribute to gender role expectations in the 1950s because reinforced traditional roles with mothers expected to stay home raising children. Choice B is wrong because it describes book by Betty Friedan critiquing the suburban housewife ideal and limited roles, not reinforced traditional roles with mothers expected to stay home raising children. Suburban growth reshaped race, class, and geography in postwar America for decades.",
+      "explanationEs": "El baby boom reforzó roles de género tradicionales enfatizando el rol doméstico de las mujeres como madres y amas de casa, mientras se esperaba que los padres fueran proveedores, limitando oportunidades de mujeres fuera del hogar.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.27,
+        "b": 1.45,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.72"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.72->US.65 revised sim=0.93"
+        ]
+      }
+    }
+  ]
+}

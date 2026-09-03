@@ -1,0 +1,68 @@
+BINDING — course: United States History and Geography (us-history-geography) · prefix: US · standards year: 2027-28 · standards file: ../standards/us-history-geography.json · output: /home/user/2027-28-Tn-Social-Studies-Standards/bank/items/us-history-geography
+
+Scanning items/us-history-geography — 1511 item(s)
+
+[FAIL] record-complete — scanned 1511
+        1492 finding(s):
+          - US.01-Q01 [items/us-history-geography/US.04/provisional.json]: missing ['explanationEs', 'stemEs']
+          - US.01-X012 [items/us-history-geography/US.04/provisional.json]: missing ['explanationEs', 'stemEs']
+          - US.01-X013 [items/us-history-geography/US.04/provisional.json]: missing ['explanationEs', 'stemEs']
+          - US.01-X015 [items/us-history-geography/US.04/provisional.json]: missing ['explanationEs', 'stemEs']
+          - US.01-X019 [items/us-history-geography/US.04/provisional.json]: missing ['explanationEs', 'stemEs']
+          - US.01-X028 [items/us-history-geography/US.04/provisional.json]: missing ['explanationEs', 'stemEs']
+          - US.01-X033 [items/us-history-geography/US.04/provisional.json]: missing ['explanationEs', 'stemEs']
+          - US.01-X036 [items/us-history-geography/US.04/provisional.json]: missing ['explanationEs', 'stemEs']
+          … and 1484 more
+[PASS] binding — scanned 1511
+[PASS] key-integrity — scanned 1511
+[FAIL] distractor-coverage — scanned 1511
+        8922 finding(s):
+          - US.01-Q01 [items/us-history-geography/US.04/provisional.json]: distractor 'B' has no explanation
+          - US.01-Q01 [items/us-history-geography/US.04/provisional.json]: distractor 'B' names no misconception
+          - US.01-Q01 [items/us-history-geography/US.04/provisional.json]: distractor 'C' has no explanation
+          - US.01-Q01 [items/us-history-geography/US.04/provisional.json]: distractor 'C' names no misconception
+          - US.01-Q01 [items/us-history-geography/US.04/provisional.json]: distractor 'D' has no explanation
+          - US.01-Q01 [items/us-history-geography/US.04/provisional.json]: distractor 'D' names no misconception
+          - US.01-X012 [items/us-history-geography/US.04/provisional.json]: distractor 'A' has no explanation
+          - US.01-X012 [items/us-history-geography/US.04/provisional.json]: distractor 'A' names no misconception
+          … and 8914 more
+[FAIL] truncation — scanned 1511
+        29 finding(s):
+          - us-09-x012 [items/us-history-geography/US.15/migrated.json]: choice 'B' textEs ends on dangling 'and': …'ler had used secret railroad rebates and'
+          - us-09-x016 [items/us-history-geography/US.15/migrated.json]: choice 'A' textEs ends on dangling 'of': …'ed through the systematic application of'
+          - us-15-q07 [items/us-history-geography/US.18/migrated.json]: explanation ends on dangling 'because': …'ntered on 16th Amendment significant because.'
+          - us-15-q07 [items/us-history-geography/US.18/migrated.json]: explanationEs ends on dangling 'because': …'entered on 16th enmienda significant because.'
+          - us-24-q07 [items/us-history-geography/US.26/migrated.json]: choice 'C' textEs ends on dangling 'by': …' an alianza against the United States by'
+          - q-us28-add-4 [items/us-history-geography/US.28/migrated.json]: stem no terminal punctuation: …'ruled that speech could be restricted when it'
+          - q-us28-add-4 [items/us-history-geography/US.28/migrated.json]: stemEs no terminal punctuation: …'ruled that speech could be restricted when it'
+          - q-us28-dok3-3 [items/us-history-geography/US.28/migrated.json]: explanationEs no terminal punctuation: …'ovió "Lunes sin Carne" y "Miércoles sin Trigo'
+          … and 21 more
+[FAIL] blueprint-conformance — scanned 1511 — 30/94 standards have >=1 servable item
+        731 finding(s):
+          - US.01: item count 0 != blueprint 6
+          - US.01: DOK-1 count 0 != blueprint 2
+          - US.01: DOK-2 count 0 != blueprint 2
+          - US.01: DOK-3 count 0 != blueprint 1
+          - US.01: DOK-4 count 0 != blueprint 1
+          - US.01: itemType 'constructed-response' count 0 != blueprint 1
+          - US.01: itemType 'document-based' count 0 != blueprint 1
+          - US.01: itemType 'mcq' count 0 != blueprint 4
+          … and 723 more
+[PASS] key-position-debias — scanned 1487 — 4-choice n=1487 worst=A@27%
+[FAIL] serveability — scanned 1511
+        429 finding(s):
+          - US.01-Q01 [items/us-history-geography/US.04/provisional.json]: bilingual field stemEs absent — item cannot be served in Spanish
+          - US.01-Q01 [items/us-history-geography/US.04/provisional.json]: bilingual field explanationEs absent — item cannot be served in Spanish
+          - US.01-X012 [items/us-history-geography/US.04/provisional.json]: bilingual field stemEs absent — item cannot be served in Spanish
+          - US.01-X012 [items/us-history-geography/US.04/provisional.json]: bilingual field explanationEs absent — item cannot be served in Spanish
+          - US.01-X013 [items/us-history-geography/US.04/provisional.json]: bilingual field stemEs absent — item cannot be served in Spanish
+          - US.01-X013 [items/us-history-geography/US.04/provisional.json]: bilingual field explanationEs absent — item cannot be served in Spanish
+          - US.01-X015 [items/us-history-geography/US.04/provisional.json]: bilingual field stemEs absent — item cannot be served in Spanish
+          - US.01-X015 [items/us-history-geography/US.04/provisional.json]: bilingual field explanationEs absent — item cannot be served in Spanish
+          … and 421 more
+[PASS] reporting-category-provenance — scanned 1511 — 1529 item/standard pair(s) awaiting a category source (mapping sourceOfRecord='UNMAPPED')
+[PASS] teacher-side-isolation — scanned 1511 — measures rendered student surfaces; items at rest are teacher-side by default
+
+5/10 gates pass.
+HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, serveability
+Grade A requires ALL gates pass. "Close" is not "A."

@@ -1,0 +1,55 @@
+{
+  "blueprintVersion": 1,
+  "course": "us-history-geography",
+  "standardsPrefix": "US",
+  "standardsYear": "2027-28",
+  "status": "TEST FIXTURE",
+  "defaults": {
+    "itemCount": 6,
+    "dok": {
+      "1": 2,
+      "2": 2,
+      "3": 1,
+      "4": 1
+    },
+    "itemType": {
+      "mcq": 4,
+      "constructed-response": 1,
+      "document-based": 1
+    }
+  },
+  "perStandard": {
+    "US.04": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.05": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    }
+  },
+  "totals": {
+    "standards": 2,
+    "items": 12
+  }
+}

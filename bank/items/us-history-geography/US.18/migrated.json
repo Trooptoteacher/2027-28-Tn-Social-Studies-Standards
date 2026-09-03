@@ -1,0 +1,3312 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.18",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us15-dok1-17th",
+      "stem": "What change did the 17th Amendment make to the U.S. Constitution?",
+      "stemEs": "¿Qué cambio hizo la 17ª Enmienda a la Constitución de EE.UU.?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It provided for the direct popular election of U.S. senators",
+          "textEs": "Dispuso la elección popular directa de senadores de EE.UU.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It established the nationwide Prohibition of alcoholic beverages",
+          "textEs": "Estableció la Prohibición nacional de bebidas alcohólicas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It granted women the constitutional right to vote in elections",
+          "textEs": "Otorgó a las mujeres el derecho constitucional al voto en elecciones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It created a federal income tax on wages and personal earnings",
+          "textEs": "Creó un impuesto federal sobre la renta de salarios y ganancias",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 17th Amendment, ratified in 1913, required US senators to be elected directly by voters instead of being chosen by state legislatures. A choice about presidential elections is wrong because the amendment changed Senate selection only. It was a major Progressive reform aimed at reducing corruption and increasing democracy.",
+      "explanationEs": "La 17ª Enmienda (1913) estableció la elección directa de senadores de EE.UU. por voto popular. Anteriormente, las legislaturas estatales elegían a los senadores, lo que los progresistas veían como habilitador de corrupción.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.5,
+        "b": -1.73,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us15-dok1-1-u2",
+      "stem": "What is the initiative, as adopted during the Progressive Era?",
+      "stemEs": "¿Qué es la iniciativa, tal como se adoptó durante la Era Progresista?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A process allowing citizens to propose new legislation through petition",
+          "textEs": "Un proceso que permite a los ciudadanos proponer nueva legislación mediante petición",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It allowed the government to fund reforms through a graduated income tax",
+          "textEs": "Una orden presidencial que evita al Congreso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It allowed voters to remove elected officials from office before their term ended",
+          "textEs": "Una decisión judicial que anula leyes inconstitucionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It provided for the direct popular election of U.S. senators",
+          "textEs": "Un acuerdo comercial entre corporaciones competidoras",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The initiative lets citizens propose a law or constitutional amendment directly, usually by collecting enough petition signatures to place it on the ballot. A choice about removing an official from office is wrong because that is recall, not initiative. The reform was designed to weaken party bosses and increase direct democracy.",
+      "explanationEs": "La iniciativa permite a los ciudadanos proponer leyes reuniendo suficientes firmas de petición, evitando la legislatura. Junto con el referéndum y la revocación, expandió la democracia directa durante la Era Progresista.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -1.57,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us15-dok1-2-u2",
+      "stem": "What did the 17th Amendment change about the U.S. government?",
+      "stemEs": "¿Qué cambió la Enmienda 17 sobre el gobierno de los Estados Unidos?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To give citizens more direct control and reduce corruption",
+          "textEs": "Estableció un impuesto federal sobre la renta",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It allowed direct election of U.S. Senators by the people",
+          "textEs": "Permitió la elección directa de senadores de EE.UU. por el pueblo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It provided for the direct popular election of U.S. senators",
+          "textEs": "Prohibió la fabricación y venta de alcohol",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It enabled voters to remove corrupt officials early",
+          "textEs": "Dio a las mujeres el derecho a votar en elecciones federales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 17th Amendment changed the federal government by allowing voters to elect US senators directly instead of leaving that choice to state legislatures. Choice A explains why reformers supported the amendment, but it does not state the actual constitutional change. Choice D is wrong because removing officials early describes recall, not the 17th Amendment. The amendment reflected Progressive efforts to reduce corruption and expand democracy.",
+      "explanationEs": "La Enmienda 17 (1913) estableció la elección directa de senadores por los votantes, reemplazando la selección por legislaturas estatales. Fue una reforma progresista clave para hacer el gobierno más democrático.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.08,
+        "b": -0.92,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-q01",
+      "stem": "The primary goals of the Progressive movement included —",
+      "stemEs": "The primary goals of the Progressive movement included —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Expanding American overseas territory and projecting military power to protect commercial interests in Asia and Latin America",
+          "textEs": "Expanding American overseas territory and projecting military power to protect commercial interests in Asia and Latin America",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Eliminating federal income taxes and dismantling regulatory agencies that Progressive Republicans had built since the 1880s",
+          "textEs": "Eliminating federal income taxes and dismantling regulatory agencies that Progressive repúblicaans had built since the 1880s",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Reducing government's role in the economy by returning regulation of business to the states and market forces",
+          "textEs": "Reducing government's role in the economy by returning regulation of business to the states and market forces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Increasing citizen participation in government and pursuing reforms to reduce corporate power and address social and economic inequality",
+          "textEs": "Increasing citizen participation in government and pursuing reforms to reduce corporate power and address social and economic inigualdad",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Progressives wanted government to address corruption, protect consumers and workers, and make politics more responsive to ordinary citizens. A choice favoring laissez-faire and machine politics is wrong because Progressives were trying to reform both business and government. The movement reshaped American politics in the early 20th century.",
+      "explanationEs": "Progressives wanted government to address corruption, protect consumers and workers, and make politics more responsive to ordinary citizens. A choice favoring laissez-faire and machine politics is wrong because Progressives were trying to reform both business and government. The movement reshaped American politics in the early 20th century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -0.87,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x020",
+      "stem": "The 17th Amendment (1913) changed the U.S. Senate by —",
+      "stemEs": "The 17th enmienda (1913) changed the U.S. Senado by —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Providing for the direct election of senators by voters rather than by state legislatures",
+          "textEs": "Providing for the direct election of senators by voters rather than by state legislatures",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Limiting senators to two consecutive six-year terms to prevent political entrenchment",
+          "textEs": "Limiting senators to two consecutive six-year terms to prevent political entrenchment",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Increasing Senate membership as new states entered the union and existing territories gained statehood",
+          "textEs": "Increasing Senado membership as new states entered the union and existing territories gained statehood",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Creating standing Senate committees with investigative authority to expose corporate lobbying and political corruption",
+          "textEs": "Creating standing Senado committees with investigative authority to expose corporate lobbying and political corruption",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 17th Amendment required senators to be elected directly by voters rather than chosen by state legislatures. Choice B is wrong because the amendment did not set term limits for senators. Choice D is wrong because it did not create new Senate committees. This reform was part of the Progressive push to weaken political machines and corporate influence.",
+      "explanationEs": "The 17th enmienda required senators to be elected directly by voters rather than chosen by state legislatures. Choice B is wrong because the enmienda did not set term limits for senators. Choice D is wrong because it did not create new Senado committees. This reform was part of the Progressive push to weaken political machines and corporate influence.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.58,
+        "b": -0.59,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x022",
+      "stem": "The 16th Amendment (1913) authorized Congress to levy —",
+      "stemEs": "The 16th enmienda (1913) authorized Congreso to levy —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A graduated income tax",
+          "textEs": "A graduated income tax",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A corporate profits tax",
+          "textEs": "A corporate profits tax",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A tariff on imported goods",
+          "textEs": "A arancel on imported goods",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A national sales tax",
+          "textEs": "A national sales tax",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 16th Amendment authorized a federal income tax, giving the national government a more flexible and reliable source of revenue than tariffs alone. A choice about direct election of senators is wrong because that was the 17th Amendment. It strengthened the federal government and made later reforms easier to fund, which is especially clear in the item's focus on 16th Amendment 1913 authorized Congress levy.",
+      "explanationEs": "The 16th enmienda authorized a federal income tax, giving the national government a more flexible and reliable source of revenue than arancels alone. A choice about direct election of senators is wrong because that was the 17th enmienda. It strengthened the gobierno federal and made later reforms easier to fund, which is especially clear in the item's focus on 16th enmienda 1913 authorized Congreso levy.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.8,
+        "b": -0.96,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x029",
+      "stem": "The Niagara Movement (1905), founded by Du Bois and others, demanded —",
+      "stemEs": "The Niagara Movement (1905), founded by Du Bois and others, demanded —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Integration of Southern schools as the primary strategy for racial advancement",
+          "textEs": "integración of Southern schools as the primary strategy for racial advancement",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Economic development of Black communities as the foundation for later civil rights claims",
+          "textEs": "Economic development of Black communities as the foundation for later derechos civiles claims",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Voluntary emigration to Africa as the only true solution to American racism",
+          "textEs": "Voluntary emigración to Africa as the only true solution to American racism",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Full civil and political rights without compromise or gradualism",
+          "textEs": "Full civil and political rights without compromise or gradualism",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Niagara Movement, founded in 1905 by Du Bois and others, demanded immediate civil rights, full manhood suffrage, and an end to segregation and accommodation. A choice centered on vocational patience is wrong because the movement rejected Booker T. Washington’s gradualism. It helped prepare the way for the NAACP and later civil rights activism.",
+      "explanationEs": "The Niagara Movement, founded in 1905 by Du Bois and others, demanded immediate derechos civiles, full manhood sufragio, and an end to segregación and accommodation. A choice centered on vocational patience is wrong because the movement rejected Booker T. Washington’s gradualism. It helped prepare the way for the NAACP and later derechos civiles activism.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.76,
+        "b": -0.97,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x012",
+      "stem": "Which of the following best describes the political legacy of the Triangle Shirtwaist Factory fire?",
+      "stemEs": "¿Cuál de las siguientes opciones best describes the political legacy of the Triangle Shirtwaist Factory fire?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It caused all major American garment manufacturers to voluntarily improve safety conditions",
+          "textEs": "It caused all major American garment manufacturers to voluntarily improve safety conditions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It resulted in criminal convictions of the Triangle owners for manslaughter",
+          "textEs": "It resultó en criminal convictions of the Triangle owners for manslaughter",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It created political pressure that produced New York State's Factory Investigating Commission",
+          "textEs": "It created political pressure that produced New York State's Factory Investigating Commission",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It led immediately to federal OSHA regulations protecting all American workers",
+          "textEs": "It led immediately to federal OSHA regulations protecting all American workers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Triangle fire’s political legacy was that it strengthened support for government regulation of workplace safety and labor conditions. A choice saying it proved factories could regulate themselves is wrong because the disaster showed the opposite. The fire became a landmark argument for Progressive reform legislation.",
+      "explanationEs": "The Triangle fire’s political legacy was that it strengthened support for government regulation of workplace safety and labor conditions. A choice saying it proved factories could regulate themselves is wrong because the disaster showed the opposite. The fire became a landmark argument for Progressive reform legislación.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.95,
+        "b": 0.03,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-q03",
+      "stem": "The 17th Amendment to the U.S. Constitution provided for —",
+      "stemEs": "The 17th enmienda to the U.S. Constitución provided for —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Women's right to vote in federal elections, granted by constitutional amendment following the Civil War",
+          "textEs": "Women's right to vote in federal elections, granted by constitucional enmienda following the Guerra Civil",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The direct election of U.S. senators by popular vote rather than by state legislatures",
+          "textEs": "The direct election of U.S. senators by popular vote rather than by state legislatures",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The establishment of a permanent federal income tax on individual earnings and corporate profits",
+          "textEs": "The establishment of a permanent federal income tax on individual earnings and corporate profits",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The nationwide prohibition of the manufacture, sale, and transportation of alcoholic beverages",
+          "textEs": "The nationwide prohibition of the manufacture, sale, and transportation of alcoholic beverages",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 17th Amendment, ratified in 1913, required US senators to be elected directly by voters instead of being chosen by state legislatures. A choice about presidential elections is wrong because the amendment changed Senate selection only. It was a major Progressive reform aimed at reducing corruption and increasing democracy.",
+      "explanationEs": "The 17th enmienda, ratified in 1913, required US senators to be elected directly by voters instead of being chosen by state legislatures. A choice about presidential elections is wrong because the enmienda changed Senado selection only. It was a major Progressive reform aimed at reducing corruption and increasing democracia, especially in this item's emphasis on 17th enmienda U S Constitución provided.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.58,
+        "b": -0.47,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x027",
+      "stem": "The initiative process allows citizens to —",
+      "stemEs": "The initiative process allows citizens to —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Recall elected officials who have lost public confidence before their terms end",
+          "textEs": "Recall elected officials who have lost public confidence before their terms end",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Approve or reject laws already passed by the legislature",
+          "textEs": "Approve or reject laws already passed by the legislature",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Nominate candidates for office outside the normal party primary process",
+          "textEs": "Nominate candidates for office outside the normal party primary process",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Propose laws directly on the ballot without going through the legislature",
+          "textEs": "Propose laws directly on the ballot without going through the legislature",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The initiative lets citizens propose a law or constitutional amendment directly, usually by collecting enough petition signatures to place it on the ballot. A choice about removing an official from office is wrong because that is recall, not initiative. The reform was designed to weaken party bosses and increase direct democracy.",
+      "explanationEs": "The initiative lets citizens propose a law or constitucional enmienda directly, usually by collecting enough petition signatures to place it on the ballot. A choice about removing an official from office is wrong because that is recall, not initiative. The reform was designed to weaken party bosses and increase direct democracia, especially in this item's emphasis on initiative process allows citizens.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.09,
+        "b": -0.68,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x028",
+      "stem": "W.E.B. Du Bois coined the term 'double consciousness' to describe African Americans' experience of —",
+      "stemEs": "W.E.B. Du Bois coined the term 'double consciousness' to describe African Americans' experience of —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The dual burden of racism — facing both economic exploitation and social humiliation simultaneously",
+          "textEs": "The dual burden of racism — facing both economic exploitation and social humiliation simultaneously",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Being torn between accommodationist leaders like Washington and activist leaders like Du Bois himself",
+          "textEs": "Being torn between accommodationist leaders like Washington and activist leaders like Du Bois himself",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Being legally Black in a white-dominated society while simultaneously claiming American identity",
+          "textEs": "Being legally Black in a white-dominated society while simultaneously claiming American identity",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Living in two worlds — the rural South of their origins and the urban North of their migration",
+          "textEs": "Living in two worlds — the rural South of their origins and the urban North of their migration",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Du Bois used “double consciousness” to describe how African Americans were forced to see themselves both through their own identity and through a racist society that devalued them. A choice about economic class alone is wrong because Du Bois was describing a racial and psychological experience under segregation. The concept became one of the most influential ideas in African American intellectual history.",
+      "explanationEs": "Du Bois used “double consciousness” to describe how African Americans were forced to see themselves both through their own identity and through a racist society that devalued them. A choice about economic class alone is wrong because Du Bois was describing a racial and psychological experience under segregación. The concept became one of the most influential ideas in African American intellectual history.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.11,
+        "b": -0.44,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x034",
+      "stem": "Ida B. Wells' antilynching campaign documented that most lynching victims had —",
+      "stemEs": "Ida B. Wells' antilynching campaign documented that most lynching victims had —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Been members of the Republican Party targeted by former Confederates",
+          "textEs": "Been members of the repúblicaan Party targeted by former Confederates",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Actually committed the crimes for which they were lynched, revealing a breakdown of formal justice",
+          "textEs": "Actually committed the crimes for which they were lynched, revealing a breakdown of formal justice",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Been accused of minor offenses or no crime at all — often including economic competition with white businesses",
+          "textEs": "Been accused of minor offenses or no crime at all — often including economic competition with white businesses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Been recent immigrants from the North who had violated Southern racial customs",
+          "textEs": "Been recent immigrants from the North who had violated Southern racial customs",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ida B. Wells documented that most lynching victims had not committed the crimes used to justify mob violence, exposing lynching as a tool of racial terror rather than justice. A choice claiming lynching mostly punished proven criminals is wrong because Wells’s research showed those excuses were often false. Her reporting made anti-lynching activism a crucial part of the fight for civil rights.",
+      "explanationEs": "Ida B. Wells documented that most lynching victims had not committed the crimes used to justify mob violence, exposing lynching as a tool of racial terror rather than justice. A choice claiming lynching mostly punished proven criminals is wrong because Wells’s research showed those excuses were often false. Her reporting made anti-lynching activism a crucial part of the fight for derechos civiles.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": 0.38,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x035",
+      "stem": "Carter G. Woodson founded Negro History Week (precursor to Black History Month) in 1926 because —",
+      "stemEs": "Carter G. Woodson founded Negro History Week (precursor to Black History Month) in 1926 because —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He believed racial integration would accelerate if white Americans were educated about Black achievements",
+          "textEs": "He believed racial integración would accelerate if white Americans were educated about Black achievements",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He wanted to correct the omission of Black contributions from standard American history curricula",
+          "textEs": "He wanted to correct the omission of Black contributions from standard American history curricula",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "He believed initially racial integration would accelerate if white Americans were educated about Black achievements",
+          "textEs": "He believed initially racial integración would accelerate if white Americans were educated about Black achievements",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The NAACP had commissioned him to create educational materials for its legal campaign against segregation",
+          "textEs": "The NAACP had commissioned him to create educational materials for its legal campaign against segregación",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Carter G. Woodson founded Negro History Week in 1926 because he believed Black achievements and experiences were being erased from standard US history. A choice saying he wanted to separate Black history from American history entirely is wrong because his goal was recognition and inclusion, not isolation. His work helped create the foundation for Black History Month and modern African American studies.",
+      "explanationEs": "Carter G. Woodson founded Negro History Week in 1926 because he believed Black achievements and experiences were being erased from standard US history. A choice saying he wanted to separate Black history from American history entirely is wrong because his goal was recognition and inclusion, not isolation. His work helped create the foundation for Black History Month and modern African American studies.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.82,
+        "b": 0.31,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-q07",
+      "stem": "The 16th Amendment was significant because it —",
+      "stemEs": "The 16th enmienda fue significativo/a porque it —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Required balanced federal budgets during peacetime",
+          "textEs": "Required balanced federal budgets during peacetime",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Limited congressional power to regulate interstate commerce",
+          "textEs": "Limited Congresoional power to regulate interstate commerce",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Established the federal income tax system to fund Progressive Era",
+          "textEs": "Established the federal income tax system to fund Era Progresista",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Eliminated many federal taxes except those on imports",
+          "textEs": "Eliminated many federal taxes except those on imports",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 16th Amendment authorized a federal income tax, giving the national government a more flexible and reliable source of revenue than tariffs alone. A choice about direct election of senators is wrong because that was the 17th Amendment. It strengthened the federal government and made later reforms easier to fund, with the clue centered on 16th Amendment significant because.",
+      "explanationEs": "The 16th enmienda authorized a federal income tax, giving the national government a more flexible and reliable source of revenue than arancels alone. A choice about direct election of senators is wrong because that was the 17th enmienda. It strengthened the gobierno federal and made later reforms easier to fund, with the clue centered on 16th enmienda significant because.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.76,
+        "b": 0.79,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x030",
+      "stem": "The debate between Washington and Du Bois was shaped by which historical context?",
+      "stemEs": "The debate between Washington and Du Bois was shaped by which historical context?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Washington operated in the post-Reconstruction South under intense racial terrorism while Du Bois had Northern freedoms",
+          "textEs": "Washington operated in the post-Reconstrucción South under intense racial terrorism while Du Bois had Northern freedoms",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Washington had experienced slavery directly while Du Bois's Northern birth gave him no experience of Jim Crow",
+          "textEs": "Washington had experienced slavery directly while Du Bois's Northern birth gave him no experience of Jim Crow",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Washington was primarily funded by Black business leaders while Du Bois received Northern white philanthropy",
+          "textEs": "Washington fue principalmente funded by Black business leaders while Du Bois received Northern white philanthropy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Washington spoke for Southern Black farmers while Du Bois represented Northern urban professionals",
+          "textEs": "Washington spoke for Southern Black farmers while Du Bois represented Northern urban professionals",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Washington’s views were shaped by the violent post-Reconstruction South, where racial terrorism and disfranchisement made open confrontation dangerous, while Du Bois had more room to speak from the North. Choice B is wrong because Du Bois still understood Jim Crow deeply even though he was born in Massachusetts; the key contrast is political context, not ignorance. Historical context helps explain why Black leaders sometimes adopted very different strategies.",
+      "explanationEs": "Washington’s views were shaped by the violent post-Reconstrucción South, where racial terrorism and disfranchisement made open confrontation dangerous, while Du Bois had more room to speak from the North. Choice B is wrong because Du Bois still understood Jim Crow deeply even though he was born in Massachusetts; the key contrast is political context, not ignorance. Historical context helps explain why Black leaders sometimes adopted very different strategies.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.47,
+        "b": 0.9,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PSTIM-0115",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph by Lewis Hine shows garment workers laboring in a crowded sweatshop in the early 1900s. Workers, including women and children, sit close together at sewing machines in poor conditions.\n\n(Photograph by Lewis Hine, c. 1908. Public Domain.)\n\nWhat was the PRIMARY purpose of photographs like this one taken by Lewis Hine?",
+      "stemEs": "¿Cuál era el propósito PRINCIPAL de fotografías como esta tomada por Lewis Hine?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To advertise the efficiency of American manufacturing",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To celebrate the contributions of immigrant workers to the economy",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To promote the expansion of the garment industry",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To document unsafe working conditions and build support for labor reform",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Lewis Hine was a Progressive Era photographer who used his camera as a tool for social reform. His photographs of child labor, sweatshops, and factory conditions were used by reform organizations to advocate for workplace safety laws and child labor restrictions.",
+      "explanationEs": "Lewis Hine usó su cámara como herramienta de reforma social, documentando condiciones laborales inseguras para abogar por leyes de protección.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1,
+        "b": -1,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U2-DOK1-0003",
+      "stem": "The 16th Amendment changed the Constitution by —",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Requiring Congress to raise tariffs on imported goods",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Granting women the right to vote in federal elections",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Authorizing Congress to levy a federal income tax",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Establishing the direct election of United States Senators",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Sixteenth Amendment (1913) gave Congress the power to tax income from any source without apportioning it among the states by population — the constitutional basis of the federal income tax. Choice B is wrong because women's suffrage came with the Nineteenth Amendment in 1920. Choice D is wrong because direct election of senators came with the Seventeenth Amendment, also in 1913. The amendment gave the federal government a revenue base large enough to fund the modern state.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 0.8,
+        "b": -1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us15-dok2-summary",
+      "stem": "Summarize: What were the main goals of Progressive Era political reforms like initiative, referendum, and recall?",
+      "stemEs": "Resuma: ¿Cuáles eran los objetivos principales de las reformas políticas de la Era Progresista como iniciativa, referéndum y revocatoria?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It allowed direct election of U.S. Senators by the people",
+          "textEs": "Para reducir la participación ciudadana y depender de expertos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It provided for the direct popular election of U.S. senators",
+          "textEs": "Para transferir más poder a las legislaturas estatales y los partidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It enabled voters to remove corrupt officials early",
+          "textEs": "Para fortalecer a los jefes de partidos y agilizar el gobierno",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To give citizens more direct control and reduce corruption",
+          "textEs": "Para dar a los ciudadanos control directo y reducir la corrupción política",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Reforms like initiative, referendum, and recall were meant to weaken party machines, reduce corruption, and give ordinary voters more direct control over government. A choice about expanding corporate power is wrong because these reforms were designed to curb elites, not strengthen them. They expressed the Progressive belief that democracy needed structural reform.",
+      "explanationEs": "Las reformas políticas progresistas buscaban aumentar la democracia directa y reducir la corrupción. La iniciativa permitía a los ciudadanos proponer leyes, el referéndum les permitía votar sobre legislación, y la revocatoria permitía destituir funcionarios corruptos. Estas reformas dieron a los ciudadanos ordinarios más poder y redujeron la influencia de las máquinas políticas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.25,
+        "b": 0.21,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us15-dok2-recall",
+      "stem": "How did the recall process increase democratic accountability?",
+      "stemEs": "¿Cómo aumentó el proceso de revocatoria la responsabilidad democrática?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It allowed party leaders to remove unpopular officials",
+          "textEs": "Permitía a los líderes del partido destituir a funcionarios impopulares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It gave governors power to dismiss any legislators",
+          "textEs": "Daba a los gobernadores poder para despedir legisladores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It allowed courts to overturn election outcomes",
+          "textEs": "Permitía a los tribunales anular elecciones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It enabled voters to remove corrupt officials early",
+          "textEs": "Permitía a los votantes destituir a funcionarios corruptos o ineficaces antes de que terminaran sus mandatos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Recall allows voters to remove an elected official before the end of a term, making public officials more directly accountable to the people. A choice about proposing laws is wrong because that describes initiative, not recall. Like referendum and initiative, recall reflected Progressive distrust of entrenched political power.",
+      "explanationEs": "La revocatoria permitía a los votantes solicitar una elección especial para destituir a funcionarios corruptos, incompetentes o que no respondían. Esto daba a los ciudadanos responsabilidad continua sobre sus representantes, no solo en tiempo de elecciones.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.01,
+        "b": 0.55,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us15-dok2-1-u2",
+      "stem": "Why did Progressives support the adoption of the 16th Amendment?",
+      "stemEs": "¿Por qué los progresistas apoyaron la adopción de la Enmienda 16?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It allowed the government to fund reforms through a graduated income tax",
+          "textEs": "Permitió al gobierno financiar reformas a través de un impuesto sobre la renta progresivo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A process allowing citizens to propose new legislation through petition",
+          "textEs": "Dio a las mujeres el derecho a poseer propiedad y asistir a la universidad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It allowed voters to remove elected officials from office before their term ended",
+          "textEs": "Eliminó todos los aranceles sobre bienes importados de Europa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It provided for the direct popular election of U.S. senators",
+          "textEs": "Prohibió el trabajo infantil en fábricas en todo Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 16th Amendment authorized a federal income tax, giving the national government a more flexible and reliable source of revenue than tariffs alone. A choice about direct election of senators is wrong because that was the 17th Amendment. It strengthened the federal government and made later reforms easier to fund.",
+      "explanationEs": "La Enmienda 16 (1913) autorizó al Congreso a recaudar un impuesto federal sobre la renta. Los progresistas apoyaron esto porque un impuesto graduado requeriría que los ricos pagaran más, financiando programas gubernamentales y reduciendo la desigualdad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.01,
+        "b": -0.08,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-q02",
+      "stem": "The initiative, referendum, and recall processes were designed to —",
+      "stemEs": "The initiative, referendum, and recall processes were designed to —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Limit voting rights to educated and wealthy citizens only",
+          "textEs": "Limit derechos de voto to educated and wealthy citizens only",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Increase the power of political party bosses and machines",
+          "textEs": "Increase the power of political party bosses and machines",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Strengthen the role of special interest groups in government",
+          "textEs": "Strengthen the role of special interest groups in government",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Give voters more direct control over legislation and elected",
+          "textEs": "Give voters more direct control over legislación and elected",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Initiative, referendum, and recall were designed to let citizens bypass or discipline party machines and make government more directly responsive to voters. A choice about reducing voter involvement is wrong because these reforms expanded participation. They became signature examples of Progressive political reform.",
+      "explanationEs": "Initiative, referendum, and recall were designed to let citizens bypass or discipline party machines and make government more directly responsive to voters. A choice about reducing voter involvement is wrong because these reforms expanded participation. They became signature examples of Progressive political reform.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.96,
+        "b": -0.09,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x011",
+      "stem": "The Keating-Owen Child Labor Act (1916) was historically significant because —",
+      "stemEs": "The Keating-Owen Child Labor Act (1916) was historically significant because —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was passed unanimously by Congress with bipartisan support",
+          "textEs": "It was passed unanimously by Congreso with bipartisan support",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was the first federal law restricting child labor",
+          "textEs": "It was the first federal law restricting child labor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It permanently ended child labor in all American industries",
+          "textEs": "It permanently ended child labor in all American industries",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It was proposed by the AFL and signed by Woodrow Wilson over employer opposition",
+          "textEs": "It was proposed by the AFL and signed by Woodrow Wilson over employer opposition",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Keating-Owen Act of 1916 was historically significant because it was the first major federal attempt to curb child labor by using Congress’s power over interstate commerce. A choice saying it permanently ended child labor is wrong because the Supreme Court later struck it down. Even so, it marked a major step toward later national labor standards.",
+      "explanationEs": "The Keating-Owen Act of 1916 was historically significant because it was the first major federal attempt to curb child labor by using Congreso’s power over interstate commerce. A choice saying it permanently ended child labor is wrong because the Corte Suprema later struck it down. Even so, it marked a major step toward later national labor standards, with a focus here on keating Owen Child Labor Act 1916.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -0.18,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x013",
+      "stem": "The Fair Labor Standards Act (1938) that established federal minimum wage and prohibited child labor was possible because —",
+      "stemEs": "The Fair Labor Standards Act (1938) that established federal minimum wage and prohibited child labor was possible because —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Decades of Progressive Era documentation of labor abuses, New Deal coalition-building, and wartime labor cooperation created the political conditions and evidentiary foundation for landmark 1930s labor legislation",
+          "textEs": "Decades of Era Progresista documentation of labor abuses, New Deal coalition-building, and wartime labor cooperation created the political conditions and evidentiary foundation for landmark 1930s labor legislación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Supreme Court's 1905 Lochner ruling had paradoxically established broad federal authority over labor standards by defining maximum-hours laws as legitimate health regulations",
+          "textEs": "The Corte Suprema's 1905 Lochner ruling had paradoxically established broad federal authority over labor standards by defining maximum-hours laws as legitimate health regulations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The AFL's sustained lobbying campaign after losing state-level battles produced enough congressional support for federal minimum wage and hour legislation by the late 1930s",
+          "textEs": "The AFL's sustained lobbying campaign after losing state-level battles produced enough Congresoional support for federal minimum wage and hour legislación by the late 1930s",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "American corporations voluntarily endorsed federal labor standards in the early New Deal to preempt more radical socialist and communist proposals gaining traction among industrial workers",
+          "textEs": "American corporations voluntarily endorsed federal labor standards in the early New Deal to preempt more radical socialist and communist proposals gaining traction among industrial workers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Fair Labor Standards Act became possible because New Deal constitutional changes and stronger federal power allowed national regulation of wages, hours, and child labor. A choice saying Progressive reform had no legacy is wrong because the FLSA built on earlier reform efforts. It accomplished on a lasting basis what earlier Progressives had struggled to secure.",
+      "explanationEs": "The Fair Labor Standards Act became possible because New Deal constitucional changes and stronger federal power allowed national regulation of wages, hours, and child labor. A choice saying Progressive reform had no legacy is wrong because the FLSA built on earlier reform efforts. It accomplished on a lasting basis what earlier Progressives had struggcondujo a secure.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.52,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x021",
+      "stem": "The initiative, referendum, and recall are Progressive Era democratic reforms that shared which underlying principle?",
+      "stemEs": "The initiative, referendum, and recall are Era Progresista democrático reforms that shared which underlying principle?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Professionalizing government through merit-based hiring rather than political appointments",
+          "textEs": "Professionalizing government through merit-based hiring rather than political appointments",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Shifting political power from state governments to the federal government",
+          "textEs": "Shifting political power from gobierno estatals to the gobierno federal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Strengthening political parties as the primary vehicle for democratic representation",
+          "textEs": "Strengthening political parties as the primary vehicle for democrático representation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Giving citizens more direct control over legislation and elected officials, reducing the power of corrupt party machines",
+          "textEs": "Giving citizens more direct control over legislación and elected officials, reducing the power of corrupt party machines",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Initiative, referendum, and recall shared the Progressive principle that citizens should have more direct power over government decisions and officeholders. A choice favoring stronger legislative control by party elites is wrong because these reforms were meant to bypass elites. They reflected a democratic response to corruption and machine politics.",
+      "explanationEs": "Initiative, referendum, and recall shared the Progressive principle that citizens should have more direct power over government decisions and officeholders. A choice favoring stronger legislative control by party elites is wrong because these reforms were meant to bypass elites. They reflected a democrático response to corruption and machine politics.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.35,
+        "b": -0.1,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x023",
+      "stem": "Progressive Era city reforms — including commission government and city manager systems — were designed to —",
+      "stemEs": "Era Progresista city reforms — including commission government and city manager systems — were designed to —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transfer authority for city services from the private sector to the public sector",
+          "textEs": "Transfer authority for city services from the private sector to the public sector",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reduce city government spending by eliminating patronage jobs",
+          "textEs": "Reduce city government spending by eliminating patronage jobs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Replace corrupt ward-based political machines with professional, expert-driven city administration",
+          "textEs": "Replace corrupt ward-based political machines with professional, expert-driven city administration",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Give more power to ethnic political machines that represented immigrant voters",
+          "textEs": "Give more power to ethnic political machines that represented immigrant voters",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Progressive city reforms like commission government and the city manager system aimed to make local government more efficient, less corrupt, and less dominated by party machines. A choice about expanding patronage is wrong because these reforms sought professional administration, not more spoils. They reflected the Progressive faith in expertise and efficiency.",
+      "explanationEs": "Progressive city reforms like commission government and the city manager system aimed to make local government more efficient, less corrupt, and less dominated by party machines. A choice about expanding patronage is wrong because these reforms sought professional administration, not more spoils. They reflected the Progressive faith in expertise and efficiency.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.32,
+        "b": 0.54,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x025",
+      "stem": "Woodrow Wilson's 'New Freedom' program differed from Theodore Roosevelt's 'New Nationalism' primarily in —",
+      "stemEs": "Woodrow Wilson's 'New Freedom' program differed from Theodore Roosevelt's 'New nacionalismo' primarily in —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wilson preferring to break up monopolies rather than simply regulate them as TR advocated",
+          "textEs": "Wilson preferring to break up monopolies rather than simply regulate them as TR advocated",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wilson opposing the income tax as government overreach while TR championed it as progressive taxation",
+          "textEs": "Wilson opposing the income tax as government overreach while TR championed it as progressive taxation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Wilson favoring government ownership of monopolies while TR favored private ownership with regulation",
+          "textEs": "Wilson favoring government ownership of monopolies while TR favored private ownership with regulation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "TR believing tariff reduction was essential while Wilson favored maintaining protective tariffs",
+          "textEs": "TR believing arancel reduction was essential while Wilson favored maintaining protective arancels",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wilson's New Freedom preferred breaking up monopolies to restore competition, while Roosevelt's New Nationalism was more willing to regulate large corporations rather than dismantle them. Choice B is wrong because Wilson did not oppose the income tax; in fact, the 16th Amendment and Underwood Tariff were part of his program. Choice D is wrong because Wilson favored tariff reduction more than Roosevelt did. Their debate defined two major Progressive approaches to economic reform.",
+      "explanationEs": "Wilson's New Freedom preferred breaking up monopolies to restore competition, while Roosevelt's New nacionalismo was more willing to regulate large corporations rather than dismantle them. Choice B is wrong because Wilson did not oppose the income tax; in fact, the 16th enmienda and Underwood arancel were part of his program. Choice D is wrong because Wilson favored arancel reduction more than Roosevelt did. Their debate defined two major Progressive approaches to economic reform.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.62,
+        "b": -0.59,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us15-dok2-2-u2",
+      "stem": "What was the recall, and how did it empower voters during the Progressive Era?",
+      "stemEs": "¿Qué fue la revocación y cómo empoderó a los votantes durante la Era Progresista?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It allowed voters to remove elected officials from office before their term ended",
+          "textEs": "Permitió a los votantes destituir a funcionarios electos antes de que terminara su mandato",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It allowed the government to fund reforms through a graduated income tax",
+          "textEs": "Permitió a los tribunales revertir decisiones tomadas por el presidente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A process allowing citizens to propose new legislation through petition",
+          "textEs": "Obligó a todos los candidatos a debatir públicamente antes de las elecciones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Expanding democratic participation reduces corruption and increases accountability",
+          "textEs": "Obligó a las empresas a retirar productos defectuosos del mercado",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Recall allows voters to remove an elected official before the end of a term, making public officials more directly accountable to the people. A choice about proposing laws is wrong because that describes initiative, not recall. Like referendum and initiative, recall reflected Progressive distrust of entrenched political power.",
+      "explanationEs": "La revocación dio a los ciudadanos el poder de votar para destituir a funcionarios corruptos o incompetentes antes de que expirara su mandato. Fue parte del impulso progresista por más democracia directa y responsabilidad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.08,
+        "b": -0.11,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-q10",
+      "stem": "Which statement best explains the long-term significance of Progressive Era constitutional amendments and electoral reforms?",
+      "stemEs": "¿Qué afirmación describe mejor explains the long-term significance of Era Progresista constitucional enmiendas and electoral reforms?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They created more problems than they solved and were largely reversed by later amendments",
+          "textEs": "They created more problems than they solved and were largely reversed by later enmiendas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They established lasting foundations for more direct democracy and expanded federal authority to address national problems",
+          "textEs": "They established lasting foundations for more direct democracia and expanded federal authority to address national problems",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They proved that constitutional amendments were ineffective tools for meaningful social reform",
+          "textEs": "They proved that constitucional enmiendas were ineffective tools for meaningful social reform",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They permanently solved the problems of political corruption and voter disenfranchisement",
+          "textEs": "They permanently solved the problems of political corruption and voter disenfranchisement",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Progressive amendments and electoral reforms had lasting significance because they permanently expanded federal power and made parts of the political system more directly democratic. A choice saying they changed little is wrong because the income tax, direct election of senators, Prohibition, and women’s suffrage all reshaped politics. These reforms left a constitutional legacy that lasted well beyond the Progressive Era.",
+      "explanationEs": "Progressive enmiendas and electoral reforms had lasting significance because they permanently expanded federal power and made parts of the political system more directly democrático. A choice saying they changed little is wrong because the income tax, direct election of senators, Prohibition, and women’s sufragio all reshaped politics. These reforms left a constitucional legacy that lasted well beyond the Era Progresista.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.77,
+        "b": 0.81,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-15-x024",
+      "stem": "The primary critique of Progressive Era political reforms from a democratic perspective is that they —",
+      "stemEs": "The primary critique of Era Progresista political reforms from a democrático perspective is that they —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Were designed by middle-class Anglo-Americans who often disenfranchised immigrant, working-class, and Black voters",
+          "textEs": "Were designed by middle-class Anglo-Americans who often disenfranchised immigrant, working-class, and Black voters",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Growth of labor unions in response to workplace conditions",
+          "textEs": "Growth of sindicatos in response to workplace conditions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eliminated the political parties that were the primary vehicle for citizens to participate in government",
+          "textEs": "Eliminated the political parties that were the primary vehicle for citizens to participate in government",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Concentrated power in a small group of reformers who believed in efficiency over democratic representation",
+          "textEs": "Concentrated power in a small group of reformers who believed in efficiency over democrático representation",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A major democratic critique of Progressive reform is that many reforms were led by middle-class experts who distrusted parties and sometimes excluded immigrants, working-class voters, and Black Americans. Choice D captures part of this problem, but the best answer recognizes both the exclusionary and anti-party limits of Progressive reform. The question reminds us that reform can expand democracy for some groups while narrowing it for others.",
+      "explanationEs": "A major democrático critique of Progressive reform is that many reforms were led by middle-class experts who disfideicomisoed parties and sometimes excluded immigrants, working-class voters, and Black Americans. Choice D captures part of this problem, but the best answer recognizes both the exclusionary and anti-party limits of Progressive reform. The question reminds us that reform can expand democracia for some groups while narrowing it for others.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.57,
+        "b": 0.43,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PSTIM-0116",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows garment workers in a sweatshop, c. 1908.\n\n(Photograph by Lewis Hine, c. 1908. Public Domain.)\n\nHow did working conditions like those shown in this photograph lead to the growth of the labor movement during the Progressive Era?",
+      "stemEs": "¿Cómo llevaron condiciones como las mostradas en esta fotografía al crecimiento del movimiento laboral?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Workers were satisfied with conditions and did not organize",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The government immediately passed laws eliminating all dangerous workplaces",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Dangerous conditions, low wages, and long hours motivated workers to form unions and demand reforms",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Factory owners voluntarily improved conditions without pressure from workers",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Sweatshop conditions — including low wages, 12-16 hour days, poor ventilation, and fire hazards — drove workers to organize. The International Ladies' Garment Workers' Union (ILGWU) and similar unions fought for safer workplaces, leading to landmark reforms after tragedies like the Triangle Shirtwaist Fire (1911).",
+      "explanationEs": "Las condiciones peligrosas motivaron a los trabajadores a formar sindicatos y exigir reformas, especialmente después del incendio de Triangle Shirtwaist.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U2-DOK2-0016",
+      "stem": "How did the Progressive Era political reforms of the initiative, referendum, and recall expand democratic participation in American government?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They transferred authority to appoint federal judges from the Senate to a direct popular vote, limiting corporate influence on the courts",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They gave citizens the power to propose laws, approve or reject legislation, and remove elected officials — reducing the influence of political machines over lawmaking",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They eliminated the Electoral College and replaced presidential selection with a national direct popular vote",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They required all state legislation to be approved by a supermajority of citizens before taking legal effect",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Initiative allows citizens to place legislation directly on the ballot; referendum allows voters to approve or reject laws passed by legislatures; recall allows voters to remove elected officials before their term ends — all reducing machine politicians' monopoly over the legislative process.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us15-dok3-1-u2",
+      "stem": "How did the 18th Amendment reflect both Progressive ideals and their limitations?",
+      "stemEs": "¿Cómo reflejó la Enmienda 18 tanto los ideales progresistas como sus limitaciones?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It showed Progressives could use government to shape morality, but Prohibition proved unenforceable",
+          "textEs": "Mostró que los progresistas podían usar el gobierno para moldear la moralidad, pero la Prohibición resultó inaplicable",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Data on poverty, disease, and working conditions provided evidence that changed public policy",
+          "textEs": "Eliminó exitosamente el consumo de alcohol en todo el país",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Vertical integration controls every stage of production while horizontal buys out competitors",
+          "textEs": "No tenía nada que ver con los valores progresistas o esfuerzos de reforma",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He received a letter from his mother urging him to \"be a good boy\" and vote for suffrage",
+          "textEs": "Fue aprobada sin ningún apoyo del movimiento progresista",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 18th Amendment reflected Progressive ideals because reformers believed government could improve society by reducing alcohol abuse, but it also revealed Progressive limits when enforcement proved difficult and illegal markets grew. A choice saying Prohibition solved social problems permanently is wrong because crime and bootlegging expanded instead. It became one of the clearest examples of reform overreach in US history.",
+      "explanationEs": "La Enmienda 18 (Prohibición, 1919) reflejaba la creencia progresista en usar el gobierno para mejorar la sociedad. Sin embargo, resultó en gran medida inaplicable, llevó al crimen organizado y fue derogada por la Enmienda 21 en 1933.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.48,
+        "b": 0.66,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us2-dok4-cr3",
+      "stem": "The women's suffrage movement took over 70 years from the Seneca Falls Convention (1848) to the 19th Amendment (1920). Explain why suffrage took so long by analyzing at least THREE obstacles the movement faced. Then evaluate which strategy — the moderate approach of NAWSA or the militant approach of Alice Paul's NWP — was more important to the final victory, using specific evidence.",
+      "stemEs": "El movimiento por el sufragio femenino tomó más de 70 años desde la Convención de Seneca Falls (1848) hasta la Enmienda 19 (1920). Explique por qué el sufragio tardó tanto analizando al menos TRES obstáculos que enfrentó el movimiento. Luego evalúe qué estrategia fue más importante para la victoria final.",
+      "itemType": "constructed-response",
+      "correctAnswer": "Strong responses should identify multiple obstacles (cultural norms, anti-suffrage movements, racial divisions within the movement, state-by-state strategy limitations, wartime interruptions) and make a nuanced argument about strategy effectiveness with specific evidence.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A strong response should analyze several obstacles to women’s suffrage, such as separate-spheres beliefs, organized anti-suffrage campaigns, racial divisions within the movement, and the slow state-by-state strategy before a federal amendment succeeded. It should then compare NAWSA’s moderate lobbying and state campaigns with Alice Paul’s more militant picketing and pressure tactics, using evidence to argue which strategy mattered more in winning the 19th Amendment in 1920. This question highlights how major democratic reforms usually require both long-term organizing and strategic change.",
+      "explanationEs": "Este ítem DOK 4 requiere analizar la causalidad a lo largo de un período largo y evaluar estrategias competidoras.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.99,
+        "b": 1.09,
+        "c": 0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-031",
+      "stem": "Progressive Era reformers pursued the initiative, referendum, and recall as tools to restore democratic accountability. Which of the following best explains why these direct democracy mechanisms represented a structural critique of the existing representative system rather than simply a desire for more voter participation?",
+      "stemEs": "Los reformistas de la Era Progresista buscaron la iniciativa, el referéndum y la revocación como herramientas para restaurar la responsabilidad democrática. ¿Cuál de las siguientes opciones explica mejor por qué estos mecanismos de democracia directa representaban una crítica estructural al sistema representativo existente en lugar de simplemente un deseo de mayor participación electoral?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Progressives supported direct democracy because they believed average citizens were more knowledgeable about complex policy issues than professional legislators and could make better decisions.",
+          "textEs": "Los progresistas apoyaban la democracia directa porque creían que los ciudadanos promedio eran más conocedores de los complejos asuntos de política que los legisladores profesionales y podían tomar mejores decisiones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Direct democracy tools were designed to bypass legislatures that corporate interests had captured, providing citizens with mechanisms to override institutional corruption that formal elections could not remedy.",
+          "textEs": "Las herramientas de democracia directa fueron diseñadas para evitar a las legislaturas que los intereses corporativos habían capturado, proporcionando a los ciudadanos mecanismos para anular la corrupción institucional que las elecciones formales no podían remediar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Progressives supported the initiative and referendum primarily to allow rural voters to counterbalance the disproportionate influence of urban immigrants on state legislatures.",
+          "textEs": "Los progresistas apoyaban la iniciativa y el referéndum principalmente para permitir que los votantes rurales contrarrestaran la influencia desproporcionada de los inmigrantes urbanos en las legislaturas estatales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Direct democracy tools were popular because they reduced the cost of governance by eliminating the need for professional legislators in states with engaged and informed electorates.",
+          "textEs": "Las herramientas de democracia directa eran populares porque reducían el costo de la gobernanza al eliminar la necesidad de legisladores profesionales en estados con electorados comprometidos e informados.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Progressives advocated for direct democracy tools because they diagnosed the problem with the existing system as structural: state legislatures had been captured by corporate interests through bribery, patronage, and machine politics. Simply electing better candidates was insufficient when the system itself rewarded legislators who served corporate paymasters. The initiative allowed citizens to bypass captured legislatures entirely; the referendum allowed voters to override corporate-favored laws; the recall allowed citizens to remove corrupt officials before their terms ended. These tools were designed not to supplement representative democracy but to provide a democratic veto over its corruption — a recognition that representative institutions themselves had failed.",
+      "explanationEs": "Los progresistas abogaron por herramientas de democracia directa porque diagnosticaron el problema con el sistema existente como estructural: las legislaturas estatales habían sido capturadas por intereses corporativos a través del soborno, el patrocinio y la política de maquinarias. Simplemente elegir mejores candidatos era insuficiente cuando el propio sistema recompensaba a los legisladores que servían a los patrocinadores corporativos. La iniciativa permitía a los ciudadanos evitar por completo las legislaturas capturadas; el referéndum permitía a los votantes anular las leyes favorecidas por las corporaciones; la revocación permitía a los ciudadanos remover a funcionarios corruptos antes de que terminaran sus mandatos. Estas herramientas fueron diseñadas no para complementar la democracia representativa sino para proporcionar un veto democrático sobre su corrupción, un reconocimiento de que las propias instituciones representativas habían fallado.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.67,
+        "b": 1.22,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-032",
+      "stem": "The 16th Amendment (1913) established a federal income tax, the 17th Amendment (1913) provided for direct election of senators, and the 18th Amendment (1919) prohibited alcohol. Which of the following best explains why these three amendments, though addressing different issues, all reflected the same underlying Progressive philosophy?",
+      "stemEs": "La 16.ª Enmienda (1913) estableció un impuesto federal sobre la renta, la 17.ª Enmienda (1913) estableció la elección directa de senadores, y la 18.ª Enmienda (1919) prohibió el alcohol. ¿Cuál de las siguientes opciones explica mejor por qué estas tres enmiendas, aunque abordan diferentes temas, reflejaban la misma filosofía progresista subyacente?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "All three amendments were designed to limit the power of state governments and transfer authority to the federal government, reflecting a nationalist Progressive ideology.",
+          "textEs": "Las tres enmiendas fueron diseñadas para limitar el poder de los gobiernos estatales y transferir autoridad al gobierno federal, reflejando una ideología progresista nacionalista.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The three amendments all reflected the Progressive commitment to scientific management of social problems, applying emerging social science research to determine optimal policies.",
+          "textEs": "Las tres enmiendas reflejaron el compromiso progresista con la gestión científica de los problemas sociales, aplicando la investigación de ciencias sociales emergentes para determinar las políticas óptimas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The amendments shared a common philosophical basis in Protestant evangelical Christianity, which drove Progressive social reform across economic, political, and moral domains.",
+          "textEs": "Las enmiendas compartían una base filosófica común en el cristianismo evangélico protestante, que impulsó la reforma social progresista en los dominios económico, político y moral.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "All three reflected Progressive governmental activism — the belief that social and economic problems required deliberate collective action through democratic institutions rather than laissez-faire acceptance of existing conditions.",
+          "textEs": "Las tres reflejaron el activismo gubernamental progresista, la creencia de que los problemas sociales y económicos requerían acción colectiva deliberada a través de instituciones democráticas en lugar de la aceptación laissez-faire de las condiciones existentes.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "All three amendments reflect the Progressive conviction that government should actively use its power to correct social problems rather than leaving outcomes to unguided markets or existing political structures. The income tax used government power to redistribute wealth from concentrated elites and fund public programs. Direct senatorial elections used government structural reform to reduce the power of corrupt state machines over federal representation. Prohibition used government power to eliminate a social harm. The connecting thread is governmental activism — the belief that social and economic problems required deliberate collective action through democratic institutions, not laissez-faire acceptance of existing outcomes.",
+      "explanationEs": "Las tres enmiendas reflejan la convicción progresista de que el gobierno debe usar activamente su poder para corregir los problemas sociales en lugar de dejar los resultados a los mercados sin guía o las estructuras políticas existentes. El impuesto sobre la renta usaba el poder gubernamental para redistribuir la riqueza de las élites concentradas y financiar programas públicos. Las elecciones senatoriales directas usaban la reforma estructural del gobierno para reducir el poder de las máquinas estatales corruptas sobre la representación federal. La Prohibición usaba el poder gubernamental para eliminar un daño social. El hilo conector es el activismo gubernamental, la creencia de que los problemas sociales y económicos requerían acción colectiva deliberada a través de instituciones democráticas, no la aceptación laissez-faire de los resultados existentes.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.06,
+        "b": 0.71,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-033",
+      "stem": "Progressive Era reformers successfully enacted many structural changes — the direct primary, initiative, referendum, recall, and direct Senate election — yet economic inequality and corporate power remained largely intact by 1920. Which of the following best evaluates the most important reason Progressive political reforms fell short of their goals?",
+      "stemEs": "Los reformistas de la Era Progresista lograron con éxito muchos cambios estructurales —la primaria directa, la iniciativa, el referéndum, la revocación y la elección directa del Senado— sin embargo, la desigualdad económica y el poder corporativo permanecieron en gran medida intactos para 1920. ¿Cuál de las siguientes opciones evalúa mejor la razón más importante por la que las reformas políticas progresistas no alcanzaron sus objetivos?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Political reforms could not overcome economic concentration because wealthy interests adapted to new rules and used their resources within democratic systems, while the fundamental structures of private property and capital accumulation were never challenged.",
+          "textEs": "Las reformas políticas no pudieron superar la concentración económica porque los intereses ricos se adaptaron a las nuevas reglas y usaron sus recursos dentro de los sistemas democráticos, mientras que las estructuras fundamentales de la propiedad privada y la acumulación de capital nunca fueron desafiadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Progressive political reforms failed because they were too radical — the initiative and referendum systems allowed anti-reform majorities to repeal Progressive legislation faster than reformers could pass it.",
+          "textEs": "Las reformas políticas progresistas fracasaron porque eran demasiado radicales: los sistemas de iniciativa y referéndum permitieron que las mayorías anti-reforma derogaran la legislación progresista más rápido de lo que los reformistas podían aprobarla.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The reforms failed primarily because the Supreme Court struck down all major Progressive Era legislation as unconstitutional violations of economic liberty before the reforms could take effect.",
+          "textEs": "Las reformas fracasaron principalmente porque la Corte Suprema anuló toda la legislación importante de la Era Progresista por ser inconstitucional y violar la libertad económica antes de que las reformas pudieran tener efecto.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Progressive reforms fell short because reformers divided their energy between too many issues — suffrage, labor, antitrust, Prohibition — preventing them from building a focused coalition around any single transformative change.",
+          "textEs": "Las reformas progresistas se quedaron cortas porque los reformistas dividieron su energía entre demasiados temas —sufragio, trabajo, antimonopolio, Prohibición— impidiéndoles construir una coalición enfocada en torno a cualquier cambio transformador único.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Progressive political reforms assumed that once citizens had more direct democratic power, they would use it to curb corporate privilege. But this analysis underestimated several factors: corporate interests quickly adapted to the new rules, spending heavily on initiative and referendum campaigns; the new primary system was dominated by voters who tended to be wealthier and better organized than the general electorate; and the reforms did not touch the fundamental structure of private property rights and capital accumulation that concentrated economic power. Political democratization alone cannot overcome economic concentration when wealthy interests can deploy their resources within democratic systems.",
+      "explanationEs": "Las reformas políticas progresistas asumían que una vez que los ciudadanos tuvieran más poder democrático directo, lo usarían para frenar los privilegios corporativos. Pero este análisis subestimó varios factores: los intereses corporativos se adaptaron rápidamente a las nuevas reglas, gastando fuertemente en campañas de iniciativa y referéndum; el nuevo sistema de primarias estaba dominado por votantes que tendían a ser más ricos y estar mejor organizados que el electorado general; y las reformas no tocaron la estructura fundamental de los derechos de propiedad privada y la acumulación de capital que concentraba el poder económico. La democratización política por sí sola no puede superar la concentración económica cuando los intereses ricos pueden desplegar sus recursos dentro de los sistemas democráticos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.75,
+        "b": 1.13,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-050",
+      "stem": "The Progressive Era saw the rise of expert-run regulatory commissions (ICC, FTC, FRB) alongside traditional democratic institutions. Which of the following best evaluates the tension this created between expertise and democratic accountability?",
+      "stemEs": "La Era Progresista vio el surgimiento de comisiones reguladoras dirigidas por expertos (ICC, FTC, FRB) junto a las instituciones democráticas tradicionales. ¿Cuál de las siguientes opciones evalúa mejor la tensión que esto creó entre la experiencia y la responsabilidad democrática?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Expert commissions were designed to be insulated from political pressure to ensure technical rationality, but this created a structural tension with democratic accountability since their decisions affected millions of people who could not directly remove or control them.",
+          "textEs": "Las comisiones de expertos fueron diseñadas para estar aisladas de la presión política para garantizar la racionalidad técnica, pero esto creó una tensión estructural con la responsabilidad democrática ya que sus decisiones afectaban a millones de personas que no podían eliminarlos o controlarlos directamente.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Expert regulatory commissions resolved the tension between expertise and democracy by requiring public hearings before any regulatory decision, ensuring that all affected citizens had a formal voice in the process.",
+          "textEs": "Las comisiones reguladoras de expertos resolvieron la tensión entre la experiencia y la democracia al requerir audiencias públicas antes de cualquier decisión regulatoria, garantizando que todos los ciudadanos afectados tuvieran una voz formal en el proceso.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The tension was manageable because expert commissioners were directly elected by voters in the industries they regulated, ensuring alignment between technical expertise and the interests of affected constituencies.",
+          "textEs": "La tensión era manejable porque los comisionados expertos eran elegidos directamente por los votantes en las industrias que regulaban, asegurando la alineación entre la experiencia técnica y los intereses de las partes interesadas afectadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Expert regulatory commissions did not create democratic tension because Congress retained full authority to override any commission decision through ordinary legislation, maintaining ultimate democratic accountability.",
+          "textEs": "Las comisiones reguladoras de expertos no crearon tensión democrática porque el Congreso retuvo plena autoridad para anular cualquier decisión de la comisión mediante legislación ordinaria, manteniendo la responsabilidad democrática definitiva.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Expert regulatory commissions were designed to be insulated from direct political pressure — their members served long terms and had technical expertise that elected politicians lacked. This was intended as a feature, not a bug: the whole point was to place scientific management of complex industries beyond the reach of short-term democratic politics and corporate lobbying. But this created a genuine democratic tension: agencies making decisions affecting millions of Americans were staffed by unelected experts who could not be directly voted out of office. Critics from both left (progressives who wanted more direct democratic control) and right (conservatives who opposed federal regulation) attacked this model. The question of how to make expert bureaucracies democratically accountable without destroying their technical independence remains unresolved.",
+      "explanationEs": "Las comisiones reguladoras de expertos fueron diseñadas para estar aisladas de la presión política directa: sus miembros cumplían mandatos largos y tenían experiencia técnica que los políticos electos carecían. Esto fue diseñado como una característica, no como un error: todo el punto era colocar la gestión científica de industrias complejas fuera del alcance de la política democrática a corto plazo y el lobbying corporativo. Pero esto creó una tensión democrática genuina: las agencias que tomaban decisiones que afectaban a millones de estadounidenses estaban formadas por expertos no electos que no podían ser votados directamente fuera del cargo. Los críticos de ambos lados, izquierda (progresistas que querían más control democrático directo) y derecha (conservadores que se oponían a la regulación federal), atacaron este modelo. La pregunta de cómo hacer que las burocracias expertas sean democráticamente responsables sin destruir su independencia técnica sigue sin resolverse.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.26,
+        "b": 1.49,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-051",
+      "stem": "The direct primary system, championed by Progressive reformers, was intended to remove party bosses' control over candidate selection. Which of the following best evaluates an unintended consequence of this reform that complicated its democratic goals?",
+      "stemEs": "El sistema de primaria directa, defendido por los reformistas progresistas, fue diseñado para eliminar el control de los jefes de partido sobre la selección de candidatos. ¿Cuál de las siguientes opciones evalúa mejor una consecuencia no deseada de esta reforma que complicó sus objetivos democráticos?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An unintended consequence was that direct primaries produced more extreme candidates, since primary voters tended to be more ideologically committed than general election voters, polarizing both parties.",
+          "textEs": "Una consecuencia no deseada fue que las primarias directas produjeron candidatos más extremos, ya que los votantes de primarias tendían a estar más comprometidos ideológicamente que los votantes de las elecciones generales, polarizando a ambos partidos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The direct primary unintentionally strengthened party bosses because they could now claim democratic legitimacy for their preferred candidates, making it harder to challenge machine nominees on reform grounds.",
+          "textEs": "La primaria directa fortaleció involuntariamente a los jefes de partido porque ahora podían reclamar legitimidad democrática para sus candidatos preferidos, dificultando el desafío a los nominados de las maquinarias por razones de reforma.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "An unintended consequence was voter confusion: because multiple primaries were held simultaneously for different offices, turnout declined sharply, making primary results less representative of the general public than under the caucus system.",
+          "textEs": "Una consecuencia no deseada fue la confusión de los votantes: debido a que se celebraban múltiples primarias simultáneamente para diferentes cargos, la participación declinó marcadamente, haciendo que los resultados de las primarias fueran menos representativos del público en general que bajo el sistema de caucus.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "By requiring candidates to campaign to a mass electorate rather than party insiders, direct primaries dramatically raised campaign costs and increased the importance of wealthy donors, creating new forms of financial influence over candidate selection.",
+          "textEs": "Al requerir que los candidatos hicieran campaña ante un electorado masivo en lugar de insiders del partido, las primarias directas aumentaron dramáticamente los costos de campaña e incrementaron la importancia de los donantes adinerados, creando nuevas formas de influencia financiera sobre la selección de candidatos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The direct primary successfully weakened party bosses' control over nominations. However, it also raised the cost of political campaigns dramatically: candidates now had to campaign and advertise to the general electorate rather than simply building relationships with a relatively small group of party insiders. Higher campaign costs increased the importance of campaign financing, giving wealthy interests a new lever of influence — contributing to candidates directly rather than through party machines. Candidates with wealthy donor networks now had structural advantages in primary elections that earlier machine-era candidates had not needed. This unintended consequence eventually created new forms of political corruption that reform campaign finance laws would spend decades trying to address.",
+      "explanationEs": "La primaria directa debilitó con éxito el control de los jefes de partido sobre las nominaciones. Sin embargo, también elevó dramáticamente el costo de las campañas políticas: los candidatos ahora tenían que hacer campaña y publicitar al electorado general en lugar de simplemente construir relaciones con un grupo relativamente pequeño de insiders del partido. Los mayores costos de campaña aumentaron la importancia del financiamiento de campañas, dando a los intereses ricos una nueva palanca de influencia, contribuyendo a los candidatos directamente en lugar de a través de las maquinarias de partido. Los candidatos con redes de donantes ricos ahora tenían ventajas estructurales en las elecciones primarias que los candidatos de la era de las maquinarias anteriores no habían necesitado. Esta consecuencia no deseada eventualmente creó nuevas formas de corrupción política que las leyes de reforma de financiamiento de campañas pasarían décadas tratando de abordar.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.97,
+        "b": 0.92,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-052",
+      "stem": "The Progressive Era saw major expansions of federal regulatory authority over the economy. Which of the following best explains why some Progressive reformers were deeply ambivalent about expanding federal power even as they supported regulation?",
+      "stemEs": "La Era Progresista vio importantes expansiones de la autoridad regulatoria federal sobre la economía. ¿Cuál de las siguientes opciones explica mejor por qué algunos reformistas progresistas estaban profundamente ambivalentes sobre la expansión del poder federal incluso cuando apoyaban la regulación?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Progressive reformers opposed expanded federal power because they were fundamentally committed to states' rights as a constitutional principle derived from the Founding era, which they believed should not be violated even for progressive ends.",
+          "textEs": "Los reformistas progresistas se oponían a la expansión del poder federal porque estaban fundamentalmente comprometidos con los derechos de los estados como principio constitucional derivado de la era fundacional, que creían no debía violarse incluso para fines progresistas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Progressives recognized that a government powerful enough to regulate corporations could also be captured by those corporations and used against workers or minority communities — federal power was a tool that depended on who controlled it.",
+          "textEs": "Los progresistas reconocían que un gobierno lo suficientemente poderoso como para regular las corporaciones también podía ser capturado por esas corporaciones y usado contra trabajadores o comunidades minoritarias: el poder federal era una herramienta que dependía de quién lo controlaba.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Ambivalence about federal power reflected Progressives' awareness that constitutional amendments required supermajorities, making any expansion of federal regulatory authority virtually impossible to achieve through the amendment process.",
+          "textEs": "La ambivalencia sobre el poder federal reflejaba la conciencia de los progresistas de que las enmiendas constitucionales requerían supermayorías, haciendo que cualquier expansión de la autoridad regulatoria federal fuera virtualmente imposible de lograr a través del proceso de enmienda.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Progressive ambivalence about federal power arose primarily from concern that federal regulation would disadvantage American businesses internationally, reducing their competitiveness against European corporations that faced no similar regulatory burdens.",
+          "textEs": "La ambivalencia progresista sobre el poder federal surgió principalmente de la preocupación de que la regulación federal pondría en desventaja a las empresas estadounidenses a nivel internacional, reduciendo su competitividad frente a las corporaciones europeas que no enfrentaban cargas regulatorias similares.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Many Progressives were aware of the contradiction in their position: they wanted to use expanded federal power to curb corporate power, but a government powerful enough to regulate corporations was also powerful enough to be captured by those corporations and used against workers, minority communities, and reform movements. Southern Progressives, in particular, worried that federal regulatory power would undermine Jim Crow racial arrangements. Louis Brandeis argued that concentrated government power was as dangerous as concentrated corporate power. This ambivalence explains why some Progressives preferred decentralized state-level reforms, why others wanted to build counter-power through unions and cooperatives rather than relying on government, and why the Progressive coalition fractured over the appropriate scale and nature of federal authority.",
+      "explanationEs": "Muchos progresistas eran conscientes de la contradicción en su posición: querían usar el poder federal expandido para frenar el poder corporativo, pero un gobierno lo suficientemente poderoso como para regular las corporaciones también era lo suficientemente poderoso como para ser capturado por esas corporaciones y usado contra los trabajadores, las comunidades minoritarias y los movimientos de reforma. Los progresistas del Sur, en particular, temían que el poder regulatorio federal socavara los arreglos raciales de Jim Crow. Louis Brandeis argumentó que el poder gubernamental concentrado era tan peligroso como el poder corporativo concentrado. Esta ambivalencia explica por qué algunos progresistas preferían reformas descentralizadas a nivel estatal, por qué otros querían construir un contra-poder a través de sindicatos y cooperativas en lugar de depender del gobierno, y por qué la coalición progresista se fracturó sobre la escala y la naturaleza apropiadas de la autoridad federal.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.94,
+        "b": 1.49,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-060",
+      "stem": "Between 1900 and 1920, the United States experienced both a Progressive Era of reform and a period of intense nativist restriction on immigration. Which of the following best explains how these two trends could coexist and, in some cases, reinforce each other?",
+      "stemEs": "Entre 1900 y 1920, los Estados Unidos experimentaron tanto una Era Progresista de reforma como un período de intensa restricción nativista de la inmigración. ¿Cuál de las siguientes opciones explica mejor cómo estas dos tendencias podían coexistir y, en algunos casos, reforzarse mutuamente?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Some Progressives believed effective democratic governance required cultural homogeneity, using eugenics and labor arguments to support immigration restriction as compatible with and even necessary for their reform program.",
+          "textEs": "Algunos progresistas creían que la gobernanza democrática efectiva requería homogeneidad cultural, usando la eugenesia y los argumentos laborales para apoyar la restricción de la inmigración como compatible con e incluso necesaria para su programa de reforma.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The two trends coexisted in contradiction rather than mutual reinforcement: most individual reformers were either Progressive on domestic policy or nativist on immigration, but not both simultaneously.",
+          "textEs": "Las dos tendencias coexistieron en contradicción en lugar de refuerzo mutuo: la mayoría de los reformistas individuales eran progresistas en política doméstica o nativistas en inmigración, pero no ambos simultáneamente.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Progressive reformers actively opposed immigration restriction and the two trends reflected a competition between reformers and nativists for control of the Republican Party during this period.",
+          "textEs": "Los reformistas progresistas se oponían activamente a la restricción de la inmigración y las dos tendencias reflejaban una competencia entre reformistas y nativistas por el control del Partido Republicano durante este período.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Immigration restriction and Progressive reform coexisted simply because they were promoted by entirely different constituencies with no overlap — urban reformers supported immigration while rural reformers supported restriction.",
+          "textEs": "La restricción de la inmigración y la reforma progresista coexistieron simplemente porque fueron promovidas por circunscripciones completamente diferentes sin superposición: los reformistas urbanos apoyaban la inmigración mientras que los reformistas rurales apoyaban la restricción.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Progressivism was not a monolithic movement with consistent principles applied to all people equally. Many Progressives held that democratic self-governance required a culturally homogeneous citizenry capable of deliberation — a belief that immigrants from Southern and Eastern Europe (Catholic, Jewish, and Orthodox) could not be quickly assimilated into Anglo-Protestant democratic culture. Some Progressives used eugenics and racial science (Social Darwinist-influenced) to argue that immigration restriction was a public health and civic improvement measure. Labor Progressives supported restriction because immigration suppressed wages. The two trends reinforced each other because some reformers believed that effective Progressive governance required a restricted, more homogeneous population — a deeply nativist assumption compatible with Progressive governance goals.",
+      "explanationEs": "El progresismo no era un movimiento monolítico con principios consistentes aplicados igualmente a todas las personas. Muchos progresistas creían que el autogobierno democrático requería una ciudadanía culturalmente homogénea capaz de deliberación, una creencia de que los inmigrantes del sur y este de Europa (católicos, judíos y ortodoxos) no podían ser rápidamente asimilados en la cultura democrática angloprotestante. Algunos progresistas usaron la eugenesia y la ciencia racial (influenciada por el darwinismo social) para argumentar que la restricción de la inmigración era una medida de salud pública y mejora cívica. Los progresistas laborales apoyaban la restricción porque la inmigración suprimía los salarios. Las dos tendencias se reforzaron mutuamente porque algunos reformistas creían que la gobernanza progresista efectiva requería una población restringida y más homogénea, una suposición profundamente nativista compatible con los objetivos de gobernanza progresista.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.82,
+        "b": 0.61,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-064",
+      "stem": "The Progressive Era produced an unprecedented number of constitutional amendments in a short period (16th, 17th, 18th, and 19th Amendments, all between 1913 and 1920). Which of the following best explains the conditions that enabled this unusual concentration of constitutional change?",
+      "stemEs": "La Era Progresista produjo un número sin precedentes de enmiendas constitucionales en un corto período (enmiendas 16.ª, 17.ª, 18.ª y 19.ª, todas entre 1913 y 1920). ¿Cuál de las siguientes opciones explica mejor las condiciones que permitieron esta inusual concentración de cambio constitucional?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The amendments were possible because President Wilson negotiated directly with state legislatures, bypassing Congress and using executive authority to expedite ratification through the executive branch.",
+          "textEs": "Las enmiendas fueron posibles porque el Presidente Wilson negoció directamente con las legislaturas estatales, evitando el Congreso y usando la autoridad ejecutiva para agilizar la ratificación a través del poder ejecutivo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Decades of organizing created public demand; the 17th Amendment itself reformed the Senate toward greater responsiveness; aligned Progressive majorities in Congress and the presidency converged; and WWI political conditions created additional reform space.",
+          "textEs": "Décadas de organización crearon demanda pública; la 17.ª Enmienda reformó el Senado hacia una mayor capacidad de respuesta; las mayorías progresistas alineadas en el Congreso y la presidencia convergieron; y las condiciones políticas de la Primera Guerra Mundial crearon espacio adicional para la reforma.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The amendments succeeded primarily because the Supreme Court under Chief Justice Edward White signaled in advance that it would uphold them, removing the constitutional uncertainty that had blocked earlier reform efforts.",
+          "textEs": "Las enmiendas tuvieron éxito principalmente porque la Corte Suprema bajo el Presidente del Tribunal Supremo Edward White señaló de antemano que las confirmaría, eliminando la incertidumbre constitucional que había bloqueado los esfuerzos de reforma anteriores.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The concentration of amendments was coincidental — each amendment was independently proposed and ratified through separate political processes with no connection between them.",
+          "textEs": "La concentración de enmiendas fue coincidental: cada enmienda fue propuesta y ratificada de manera independiente a través de procesos políticos separados sin conexión entre ellas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Constitutional amendments require extraordinary political conditions: two-thirds majorities in both houses of Congress and ratification by three-fourths of states. The convergence of several factors between 1913 and 1920 made this achievable: decades of reform organizing had built broad public demand for specific changes; the direct election of senators (17th Amendment) itself changed the Senate from an aristocratic body resistant to reform to one more responsive to popular pressure; Progressive and reformist majorities in Congress were aligned with a Progressive presidency; and the WWI mobilization context created political space for the 18th and 19th Amendments. The amendments also built on each other — the progressive political infrastructure created for one reform supported subsequent ones.",
+      "explanationEs": "Las enmiendas constitucionales requieren condiciones políticas extraordinarias: mayorías de dos tercios en ambas cámaras del Congreso y ratificación por tres cuartas partes de los estados. La convergencia de varios factores entre 1913 y 1920 hizo esto posible: décadas de organización de reforma habían construido una amplia demanda pública de cambios específicos; la elección directa de senadores (17.ª Enmienda) en sí misma cambió el Senado de un cuerpo aristocrático resistente a la reforma a uno más receptivo a la presión popular; las mayorías progresistas y reformistas en el Congreso estaban alineadas con una presidencia progresista; y el contexto de movilización de la Primera Guerra Mundial creó espacio político para las enmiendas 18.ª y 19.ª. Las enmiendas también se construyeron mutuamente: la infraestructura política progresista creada para una reforma apoyó las siguientes.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.46,
+        "b": 0.91,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-070",
+      "stem": "The Progressive Era coincided with the Great Migration of African Americans from the South to Northern cities. Which of the following best analyzes why the Progressive movement largely failed to address racial inequality despite its stated commitment to democratic reform?",
+      "stemEs": "La Era Progresista coincidió con la Gran Migración de afroamericanos del Sur a las ciudades del Norte. ¿Cuál de las siguientes opciones analiza mejor por qué el movimiento progresista no logró en gran medida abordar la desigualdad racial a pesar de su compromiso declarado con la reforma democrática?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Progressive coalition structurally depended on Southern white congressional support, so including racial justice demands would have destroyed the majority needed to pass economic and political reforms Progressives prioritized.",
+          "textEs": "La coalición progresista dependía estructuralmente del apoyo parlamentario blanco del Sur, por lo que incluir demandas de justicia racial habría destruido la mayoría necesaria para aprobar las reformas económicas y políticas que los progresistas priorizaban.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Progressive movement did address racial inequality through the NAACP's legal strategy, but these efforts were overshadowed by the larger economic reforms that have dominated historical memory of the era.",
+          "textEs": "El movimiento progresista sí abordó la desigualdad racial a través de la estrategia legal de la NAACP, pero estos esfuerzos fueron eclipsados por las reformas económicas más grandes que han dominado la memoria histórica de la era.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Progressives largely ignored racial inequality because they believed economic reforms would automatically improve conditions for all Americans, including African Americans, without requiring specific attention to racial discrimination.",
+          "textEs": "Los progresistas ignoraron en gran medida la desigualdad racial porque creían que las reformas económicas mejorarían automáticamente las condiciones para todos los estadounidenses, incluidos los afroamericanos, sin requerir atención específica a la discriminación racial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Progressive movement failed to address racial inequality because its leaders were personally racist, unlike labor and agrarian reform movements of the same period that explicitly committed to interracial organizing.",
+          "textEs": "El movimiento progresista no logró abordar la desigualdad racial porque sus líderes eran personalmente racistas, a diferencia de los movimientos de reforma laboral y agraria del mismo período que se comprometían explícitamente con la organización interracial.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Progressive coalition's dependence on Southern white voters and politicians created a structural constraint that race reform would have shattered. Theodore Roosevelt's dinner with Booker T. Washington provoked a national firestorm; Wilson re-segregated the federal civil service. Most Progressive legislation carefully avoided provisions that would challenge racial hierarchies because including them would have cost the Southern congressional votes needed to pass economic and political reforms. Progressives prioritized reforms that built their coalition — labor regulation, antitrust, political reform — over racial justice that would have destroyed it. This reveals that Progressivism's democratic commitments were fundamentally bounded by the racial assumptions of its predominantly white constituency.",
+      "explanationEs": "La dependencia de la coalición progresista en los votantes y políticos blancos del Sur creó una restricción estructural que la reforma racial habría destrozado. La cena de Theodore Roosevelt con Booker T. Washington provocó una tormenta nacional; Wilson volvió a segregar el servicio civil federal. La mayoría de la legislación progresista evitó cuidadosamente las disposiciones que desafiarían las jerarquías raciales porque incluirlas habría costado los votos parlamentarios del Sur necesarios para aprobar las reformas económicas y políticas. Los progresistas priorizaron las reformas que construían su coalición —regulación laboral, antimonopolio, reforma política— sobre la justicia racial que la habría destruido. Esto revela que los compromisos democráticos del progresismo estaban fundamentalmente limitados por los supuestos raciales de su constituyente predominantemente blanca.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.31,
+        "b": 0.55,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-075",
+      "stem": "Progressive reforms like the Australian ballot (secret ballot), direct primaries, and civil service merit systems all targeted political machines. Which of the following best analyzes why these reforms had differential success in different types of cities?",
+      "stemEs": "Las reformas progresistas como la boleta australiana (votación secreta), las primarias directas y los sistemas de mérito del servicio civil apuntaban a las maquinarias políticas. ¿Cuál de las siguientes opciones analiza mejor por qué estas reformas tuvieron éxito diferencial en diferentes tipos de ciudades?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Political machine reforms succeeded in cities with strong labor unions because unions provided an alternative organizational base that could replace machine-provided social services, while they failed in non-union cities.",
+          "textEs": "Las reformas de las maquinarias políticas tuvieron éxito en ciudades con sindicatos laborales fuertes porque los sindicatos proporcionaban una base organizativa alternativa que podía reemplazar los servicios sociales proporcionados por las maquinarias, mientras que fracasaron en ciudades sin sindicatos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Progressive political reforms succeeded universally in Western cities and failed universally in Eastern cities regardless of local conditions, reflecting a fundamental regional political culture difference rather than local socioeconomic factors.",
+          "textEs": "Las reformas políticas progresistas tuvieron éxito universal en las ciudades del Oeste y fracasaron universalmente en las ciudades del Este independientemente de las condiciones locales, reflejando una diferencia fundamental en la cultura política regional más que factores socioeconómicos locales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "In cities with large immigrant populations dependent on machine social services, reforms that eliminated patronage threatened the social support system those communities depended on; reform succeeded more easily where middle-class voters with alternative civic institutions predominated.",
+          "textEs": "En ciudades con grandes poblaciones inmigrantes dependientes de los servicios sociales de las maquinarias, las reformas que eliminaban el patrocinio amenazaban el sistema de apoyo social del que dependían esas comunidades; la reforma tuvo más éxito donde predominaban los votantes de clase media con instituciones cívicas alternativas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Reform succeeded in cities with professional police departments that could enforce election laws, while it failed in cities where machine-controlled police forces refused to enforce the new ballot and primary regulations.",
+          "textEs": "La reforma tuvo éxito en ciudades con departamentos de policía profesionales que podían hacer cumplir las leyes electorales, mientras que fracasó en ciudades donde las fuerzas policiales controladas por las maquinarias se negaban a aplicar las nuevas regulaciones de boletas y primarias.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Political machines derived their power from providing tangible services — jobs, legal assistance, emergency food, social services — to working-class immigrant communities that had few alternative institutions. In cities with large immigrant populations dependent on machine services, reforms that eliminated patronage (civil service) or weakened machine control of nominations (primaries) threatened the very social support system machine voters depended on. Immigrants who relied on the machine precinct captain to help them navigate the legal system, find jobs, and access emergency relief would not enthusiastically support reforms that would destroy those relationships. In cities with more middle-class, homogeneous populations with alternative civic institutions, reform had fewer constituencies to alienate and could succeed more readily.",
+      "explanationEs": "Las maquinarias políticas derivaban su poder de proporcionar servicios tangibles —empleos, asistencia legal, comida de emergencia, servicios sociales— a las comunidades de inmigrantes de clase trabajadora que tenían pocas instituciones alternativas. En ciudades con grandes poblaciones inmigrantes que dependían de los servicios de las maquinarias, las reformas que eliminaban el patrocinio (servicio civil) o debilitaban el control de las maquinarias sobre las nominaciones (primarias) amenazaban el mismo sistema de apoyo social del que dependían los votantes de las maquinarias. Los inmigrantes que dependían del capitán de precinto de la maquinaria para ayudarlos a navegar el sistema legal, encontrar empleo y acceder a la ayuda de emergencia no apoyarían con entusiasmo las reformas que destruirían esas relaciones. En ciudades con poblaciones más homogéneas de clase media con instituciones cívicas alternativas, la reforma tenía menos circunscripciones a alienar y podía tener más éxito.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.32,
+        "b": 1.08,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-088",
+      "stem": "The Progressive Era produced an expansion of both federal regulatory power and grassroots democratic participation (direct primaries, initiative, referendum, recall). Which of the following best evaluates whether these two trends were complementary or contradictory?",
+      "stemEs": "La Era Progresista produjo una expansión tanto del poder regulatorio federal como de la participación democrática de base (primarias directas, iniciativa, referéndum, revocación). ¿Cuál de las siguientes opciones evalúa mejor si estas dos tendencias eran complementarias o contradictorias?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The two trends were purely complementary: federal regulatory expansion created the rules, while direct democracy tools gave citizens the power to enforce those rules against resistant state and local governments.",
+          "textEs": "Las dos tendencias eran puramente complementarias: la expansión regulatoria federal creaba las reglas, mientras que las herramientas de democracia directa daban a los ciudadanos el poder de hacer cumplir esas reglas contra los gobiernos estatales y locales resistentes.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The two trends were purely contradictory: every expansion of federal regulatory power directly reduced citizens' ability to use direct democracy tools to influence economic policy, creating a zero-sum competition between democratic and technocratic governance.",
+          "textEs": "Las dos tendencias eran puramente contradictorias: cada expansión del poder regulatorio federal reducía directamente la capacidad de los ciudadanos para usar herramientas de democracia directa para influir en la política económica, creando una competencia de suma cero entre la gobernanza democrática y la tecnocrática.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The trends were complementary in their shared diagnosis (institutional capture) and goal (democratic accountability) but contradictory in institutional logic: expert regulatory agencies concentrated power away from direct democratic participation while direct democracy tools decentralized it.",
+          "textEs": "Las tendencias eran complementarias en su diagnóstico compartido (captura institucional) y objetivo (responsabilidad democrática) pero contradictorias en lógica institucional: las agencias reguladoras expertas concentraban el poder alejándolo de la participación democrática directa mientras que las herramientas de democracia directa lo descentralizaban.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The relationship between the two trends is unknowable because there is insufficient quantitative data about the actual use of initiative, referendum, and recall processes during the Progressive Era to compare with data on federal regulatory expansion.",
+          "textEs": "La relación entre las dos tendencias es incognoscible porque no hay datos cuantitativos suficientes sobre el uso real de los procesos de iniciativa, referéndum y revocación durante la Era Progresista para comparar con los datos sobre la expansión regulatoria federal.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The two trends were both complementary and contradictory in different respects. They were complementary in their shared diagnosis: both responded to the same problem of institutional capture by corporate interests, and both sought to restore democratic control over economic power. Direct democracy tools gave citizens mechanisms to bypass captured institutions at the state level; federal regulatory expansion gave democratic majorities the institutional capacity to manage corporate power at the national level. They were contradictory in their institutional logic: federal regulatory expansion concentrated power in expert agencies insulated from direct democratic pressure, while direct democracy tools decentralized power to citizens. A federal regulatory commission setting rates for railroads was not more 'democratic' than a state ballot initiative, even if both served similar reform goals.",
+      "explanationEs": "Las dos tendencias eran tanto complementarias como contradictorias en diferentes aspectos. Eran complementarias en su diagnóstico compartido: ambas respondían al mismo problema de captura institucional por intereses corporativos, y ambas buscaban restaurar el control democrático sobre el poder económico. Las herramientas de democracia directa daban a los ciudadanos mecanismos para evitar las instituciones capturadas a nivel estatal; la expansión regulatoria federal daba a las mayorías democráticas la capacidad institucional para gestionar el poder corporativo a nivel nacional. Eran contradictorias en su lógica institucional: la expansión regulatoria federal concentraba poder en agencias expertas aisladas de la presión democrática directa, mientras que las herramientas de democracia directa descentralizaban el poder a los ciudadanos. Una comisión regulatoria federal que fija tarifas para los ferrocarriles no era más 'democrática' que una iniciativa de votación estatal, aunque ambas sirvieran objetivos de reforma similares.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.07,
+        "b": 1.35,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-093",
+      "stem": "Between 1877 and 1920, the federal government's relationship to the economy underwent a fundamental transformation. Which of the following best evaluates what drove this transformation, considering both economic and political factors?",
+      "stemEs": "Entre 1877 y 1920, la relación del gobierno federal con la economía experimentó una transformación fundamental. ¿Cuál de las siguientes opciones evalúa mejor qué impulsó esta transformación, considerando tanto los factores económicos como los políticos?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The transformation resulted from converging economic factors (national corporations requiring national regulation), political structural reforms reducing corporate blocking power, and social movements (muckrakers, Social Gospel, unions) creating public demand — all mutually reinforcing.",
+          "textEs": "La transformación resultó de la convergencia de factores económicos (corporaciones nacionales que requieren regulación nacional), reformas estructurales políticas que reducen el poder de bloqueo corporativo, y movimientos sociales (periodistas muckraker, Evangelio Social, sindicatos) que crearon demanda pública, todos mutuamente reforzantes.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The transformation was driven primarily by intellectual factors: Progressive economists and political scientists developed new theories of state intervention that convinced legislators to abandon laissez-faire ideology regardless of economic or political pressures.",
+          "textEs": "La transformación fue impulsada principalmente por factores intelectuales: economistas progresistas y politólogos desarrollaron nuevas teorías de intervención estatal que convencieron a los legisladores de abandonar la ideología laissez-faire independientemente de las presiones económicas o políticas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The transformation was driven primarily by the preferences of large corporations that found government regulation preferable to the competitive instability of unregulated markets, and lobbied effectively for the specific regulatory frameworks that were enacted.",
+          "textEs": "La transformación fue impulsada principalmente por las preferencias de las grandes corporaciones que encontraban que la regulación gubernamental era preferible a la inestabilidad competitiva de los mercados no regulados, y lobbying efectivamente por los marcos regulatorios específicos que fueron promulgados.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The transformation resulted entirely from external shocks — the financial panics of 1893 and 1907 — that demonstrated the inadequacy of laissez-faire policy and forced reluctant politicians to enact regulatory frameworks they would otherwise have rejected.",
+          "textEs": "La transformación resultó enteramente de shocks externos —los pánicos financieros de 1893 y 1907— que demostraron la inadecuación de la política laissez-faire y obligaron a políticos reacios a promulgar marcos regulatorios que de otro modo habrían rechazado.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The transformation from laissez-faire to regulatory state was driven by a convergence of economic and political factors that mutually reinforced each other. Economically, the rise of national corporations operating across state lines created problems (monopoly power, unsafe products, financial instability) that state-level regulation could not address, creating demand for federal solutions. Politically, Progressive Era reforms (direct primaries, direct Senate election) changed the political structure in ways that allowed reform majorities to convert public demand into legislation over elite opposition. Muckraker journalism mobilized public opinion; the Social Gospel provided moral justification; union organizing created an organized constituency for labor regulation. Without any single one of these factors, the transformation might have failed — their convergence made it possible.",
+      "explanationEs": "La transformación del laissez-faire al estado regulatorio fue impulsada por una convergencia de factores económicos y políticos que se reforzaban mutuamente. Económicamente, el surgimiento de corporaciones nacionales que operaban a través de las líneas estatales creó problemas (poder de monopolio, productos inseguros, inestabilidad financiera) que la regulación a nivel estatal no podía abordar, creando demanda de soluciones federales. Políticamente, las reformas de la Era Progresista (primarias directas, elección directa del Senado) cambiaron la estructura política de maneras que permitieron a las mayorías reformistas convertir la demanda pública en legislación frente a la oposición de las élites. El periodismo muckraker movilizó la opinión pública; el Evangelio Social proporcionó justificación moral; la organización sindical creó una circunscripción organizada para la regulación laboral. Sin ninguno de estos factores, la transformación podría haber fracasado: su convergencia la hizo posible.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.23,
+        "b": 1.66,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-107",
+      "stem": "The Progressive Era debate between those who favored expanding democracy (more direct popular participation) and those who favored expanding expertise (more technocratic governance) reflects a tension that has persisted throughout American political history. Which of the following best evaluates which approach actually produced more durable reforms during the Progressive Era itself?",
+      "stemEs": "El debate de la Era Progresista entre quienes favorecían la expansión de la democracia (mayor participación popular directa) y quienes favorecían la expansión de la experiencia (gobernanza más tecnocrática) refleja una tensión que ha persistido a lo largo de la historia política estadounidense. ¿Cuál de las siguientes opciones evalúa mejor qué enfoque produjo reformas más duraderas durante la propia Era Progresista?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Expert-administered institutional agencies (Federal Reserve, FDA, FTC, NPS) proved more durable than direct democracy mechanisms, suggesting that institutional permanence — not the democratic/expert distinction — was the key variable in reform durability.",
+          "textEs": "Las agencias institucionales administradas por expertos (Reserva Federal, FDA, FTC, NPS) demostraron ser más duraderas que los mecanismos de democracia directa, sugiriendo que la permanencia institucional, no la distinción democrática/experta, fue la variable clave en la durabilidad de la reforma.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Direct democracy mechanisms (initiative, referendum, recall) produced more durable reforms because they created self-reinforcing popular majorities that became politically impossible to reverse once the reforms were demonstrated to benefit average voters.",
+          "textEs": "Los mecanismos de democracia directa (iniciativa, referéndum, revocación) produjeron reformas más duraderas porque crearon mayorías populares autorreinforzan tes que se volvieron políticamente imposibles de revertir una vez que las reformas demostraron beneficiar a los votantes promedio.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Neither approach produced durable reforms: all significant Progressive Era changes were reversed during the 1920s by business-friendly Republican administrations that dismantled regulatory agencies and repealed democratic reforms.",
+          "textEs": "Ninguno de los enfoques produjo reformas duraderas: todos los cambios significativos de la Era Progresista fueron revertidos durante la década de 1920 por administraciones republicanas favorables a los negocios que desmantelaron las agencias reguladoras y revocaron las reformas democráticas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The expertise approach produced uniformly more durable reforms because expert agencies were legally immune from legislative reversal, while direct democracy measures were constantly vulnerable to repeal by simple majority vote.",
+          "textEs": "El enfoque de experiencia produjo reformas uniformemente más duraderas porque las agencias expertas eran legalmente inmunes a la reversión legislativa, mientras que las medidas de democracia directa eran constantemente vulnerables a la derogación por simple mayoría de votos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The most durable Progressive Era reforms were those that created permanent institutional structures insulated from direct political reversal — the Federal Reserve, the FDA (growing from the Pure Food and Drug Act), the FTC, the ICC (strengthened ICC), national parks administered by the NPS. These expert-administered agencies proved much more durable than direct democracy mechanisms: initiative and referendum results could be reversed by later votes; recall elections were rarely successful; direct primary systems could be modified or undermined. Constitutional amendments were also highly durable. But the institutional agencies created by Progressive expertise-based governance — though often captured by the interests they were meant to regulate — proved more resistant to complete dismantling than directly democratic measures. This suggests that institutional design (creating permanent bureaucratic structures) was more important for reform durability than the democratic-versus-expert choice itself.",
+      "explanationEs": "Las reformas más duraderas de la Era Progresista fueron las que crearon estructuras institucionales permanentes aisladas de la reversión política directa: la Reserva Federal, la FDA (que creció a partir de la Ley de Alimentos y Medicamentos Puros), la FTC, la ICC (ICC fortalecida), los parques nacionales administrados por el NPS. Estas agencias administradas por expertos demostraron ser mucho más duraderas que los mecanismos de democracia directa: los resultados de iniciativa y referéndum podían ser revertidos por votos posteriores; las elecciones de revocación raramente tuvieron éxito; los sistemas de primarias directas podían ser modificados o socavados. Las enmiendas constitucionales también fueron muy duraderas. Pero las agencias institucionales creadas por la gobernanza progresista basada en la experiencia, aunque a menudo capturadas por los intereses que se suponía debían regular, demostraron ser más resistentes al desmantelamiento completo que las medidas directamente democráticas. Esto sugiere que el diseño institucional (creación de estructuras burocráticas permanentes) fue más importante para la durabilidad de la reforma que la elección democracia frente a expertos en sí misma.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.64,
+        "b": 1.54,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u2-109",
+      "stem": "The Progressive Era (roughly 1890–1920) produced more significant institutional change in American government than any period since Reconstruction. Which of the following best evaluates the most important legacy of Progressive Era reforms for subsequent American political development?",
+      "stemEs": "La Era Progresista (aproximadamente 1890-1920) produjo un cambio institucional más significativo en el gobierno estadounidense que cualquier período desde la Reconstrucción. ¿Cuál de las siguientes opciones evalúa mejor el legado más importante de las reformas de la Era Progresista para el desarrollo político estadounidense posterior?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The most important legacy was the constitutional amendments (16th–19th) that permanently expanded democratic participation and redistributed fiscal burden — specific institutional changes that remained in force regardless of subsequent political changes.",
+          "textEs": "El legado más importante fueron las enmiendas constitucionales (16.ª-19.ª) que expandieron permanentemente la participación democrática y redistribuyeron la carga fiscal, cambios institucionales específicos que permanecieron en vigor independientemente de los cambios políticos posteriores.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The most important legacy was the creation of a professional civil service that replaced patronage-based government employment, ensuring that federal agencies would be staffed by qualified experts regardless of which political party held power.",
+          "textEs": "El legado más importante fue la creación de un servicio civil profesional que reemplazó el empleo gubernamental basado en el patrocinio, asegurando que las agencias federales serían dotadas de expertos calificados independientemente de qué partido político estuviera en el poder.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The most important legacy was the establishment of the principle that federal government has legitimate authority and responsibility to actively manage the economy in the public interest — the constitutional and political foundation for all subsequent New Deal, Great Society, and federal domestic policy expansions.",
+          "textEs": "El legado más importante fue el establecimiento del principio de que el gobierno federal tiene autoridad y responsabilidad legítimas para gestionar activamente la economía en beneficio público, el fundamento constitucional y político para todas las expansiones posteriores del New Deal, la Gran Sociedad y la política doméstica federal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The most important legacy was the Progressive movement's failure to address racial inequality, which left a structural injustice at the heart of American democracy that required the Civil Rights Movement to address a half-century later.",
+          "textEs": "El legado más importante fue el fracaso del movimiento progresista en abordar la desigualdad racial, lo que dejó una injusticia estructural en el corazón de la democracia estadounidense que el Movimiento de Derechos Civiles tuvo que abordar medio siglo después.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The most important legacy of the Progressive Era was the establishment of the principle that the federal government had legitimate authority and responsibility to actively manage the economy in the public interest — a transformation from the laissez-faire conception of government as merely protecting property rights and enforcing contracts. This principle — federal regulatory authority over private economic activity — became the constitutional and political foundation for the New Deal, Great Society, and all subsequent expansions of federal domestic policy. The specific institutions created (FDA, FTC, Federal Reserve, ICC, National Park Service) have all persisted and grown. The constitutional precedents established (Commerce Clause authority extended to production and workplace conditions) enabled the New Deal's even more extensive regulatory programs. Without the Progressive Era's establishment of this fundamental principle, the New Deal's response to the Great Depression would have lacked constitutional and political foundations.",
+      "explanationEs": "El legado más importante de la Era Progresista fue el establecimiento del principio de que el gobierno federal tenía autoridad y responsabilidad legítimas para gestionar activamente la economía en beneficio público, una transformación desde la concepción laissez-faire del gobierno como meramente protector de los derechos de propiedad y ejecutor de contratos. Este principio, la autoridad regulatoria federal sobre la actividad económica privada, se convirtió en el fundamento constitucional y político para el New Deal, la Gran Sociedad y todas las expansiones posteriores de la política doméstica federal. Las instituciones específicas creadas (FDA, FTC, Reserva Federal, ICC, Servicio Nacional de Parques) han persistido y crecido. Los precedentes constitucionales establecidos (la autoridad de la Cláusula de Comercio extendida a la producción y las condiciones del lugar de trabajo) permitieron los programas regulatorios aún más extensos del New Deal. Sin el establecimiento por parte de la Era Progresista de este principio fundamental, la respuesta del New Deal a la Gran Depresión habría carecido de fundamentos constitucionales y políticos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.82,
+        "b": 1.62,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PSTIM-0117",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows garment workers in a sweatshop, c. 1908.\n\n(Photograph by Lewis Hine, c. 1908. Public Domain.)\n\nEvaluate the effectiveness of Progressive Era strategies — including photography, journalism, and legislation — in addressing the working conditions depicted in this photograph.",
+      "stemEs": "Evalúe la efectividad de las estrategias de la Era Progresista para abordar las condiciones mostradas en esta fotografía.",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Progressive strategies were completely unsuccessful because no labor laws were passed before the 1930s",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Documentary evidence and public pressure led to significant but incomplete reforms, including state-level workplace safety laws and restrictions on child labor",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The federal government immediately eliminated all sweatshops after seeing Hine's photographs",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Progressive reformers focused only on women workers and ignored conditions for men and children",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Progressive strategies achieved significant but uneven results. Hine's photographs and muckraking journalism built public support. State legislatures passed workplace safety laws, especially after the Triangle Fire. The Keating-Owen Act (1916) attempted federal child labor regulation. However, enforcement was inconsistent, and many protections were struck down by courts, leaving reform incomplete until the New Deal era.",
+      "explanationEs": "Las estrategias progresistas lograron resultados significativos pero desiguales, con reformas incompletas hasta la era del New Deal.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 0.8,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U2-DOK3-0013",
+      "stem": "The 16th, 17th, 18th, and 19th Amendments were all ratified between 1913 and 1920. Which conclusion is best supported by this concentration of constitutional change?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Progressive reformers were primarily focused on restricting the civil liberties of immigrant and minority populations.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Progressive Era reforms were driven mainly by demands from industrial corporations seeking stable regulatory frameworks.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The federal government was systematically expanding its authority to address economic and social problems that state governments had failed to resolve.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Americans in this era believed the Constitution contained such fundamental structural flaws that comprehensive revision was necessary.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.18"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The income tax (16th), direct election of senators (17th), Prohibition (18th), and women's suffrage (19th) all represent deliberate expansions of federal authority or democratic participation aimed at correcting specific failures of state and market governance.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.15"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.15->US.18 unchanged"
+        ]
+      }
+    }
+  ]
+}

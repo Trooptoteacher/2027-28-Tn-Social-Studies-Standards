@@ -1,0 +1,3247 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.67",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "us-75-x020",
+      "stem": "The NSA surveillance revelations by Edward Snowden in 2013 disclosed that —",
+      "stemEs": "The NSA surveillance revelations by Edward Snowden in 2013 disclosed that:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The U.S. government had hacked into foreign leaders' personal communications systems",
+          "textEs": "The U.S. government had hacked into foreign leaders' personal communications systems",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The U.S. government had been conducting targeted surveillance of known terrorist suspects without warrants",
+          "textEs": "The U.S. government had been conducting targeted surveillance of known terrorist suspects without warrants",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The NSA was collecting bulk data on millions of Americans' phone calls and internet communications",
+          "textEs": "The NSA was collecting bulk data on millions of Americans' phone calls and internet communications",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "CIA operatives had infiltrated domestic political organizations opposed to the War on Terror",
+          "textEs": "CIA operatives had infiltrated domestic political organizations opposed to the Guerra contra el Terrorismo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Snowden revealed that the NSA was collecting bulk phone and internet data involving millions of Americans, not just narrow surveillance of known suspects. B is wrong because the disclosures went far beyond targeted warrants. The revelations reignited debates over privacy, security, and executive power after 9/11.",
+      "explanationEs": "Snowden revealed that the NSA was collecting bulk phone and internet data involving millions of Americans, not just narrow surveillance of known suspects. B is wrong because the disclosures went far beyond targeted warrants. The revelations reignited debates over privacy, security, and executive power after 9/11.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -1.24,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-76-x012",
+      "stem": "In contemporary American politics, political polarization refers to —",
+      "stemEs": "In contemporary American politics, political polarization refers to:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The increasing geographic concentration of minority populations in urban areas",
+          "textEs": "The increasing geographic concentration of minority populations in urban areas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The concentration of political power in the executive branch at the expense of Congress",
+          "textEs": "The concentration of political power in the executive branch at the expense of Congreso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The growing ideological distance between the parties and the decline of political moderates",
+          "textEs": "The growing ideological distance between the parties and the decline of political moderates",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The tendency of social media to amplify extreme political viewpoints",
+          "textEs": "The tendency of social media to amplify extreme political viewpoints",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "In current politics, polarization means the parties have grown farther apart ideologically and moderate positions have weakened. D is wrong because social media can contribute to polarization but does not define it. This trend has shaped elections, news coverage, and lawmaking in the 21st century.",
+      "explanationEs": "In current politics, polarization means the parties have grown farther apart ideologically and moderate positions have weakened. D is wrong because social media can contribute to polarization but does not define it. This trend has shaped elections, news coverage, and lawmaking in the 21st century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.16,
+        "b": -1.46,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-75-x026",
+      "stem": "The Deferred Action for Childhood Arrivals (DACA) program protected —",
+      "stemEs": "The Deferred Action for Childhood Arrivals (DACA) program protected:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Undocumented immigrants from nations designated as unsafe by the State Department",
+          "textEs": "Undocumented immigrants from nations designated as unsafe by the State Department",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Undocumented immigrants who had arrived as children and met education, employment, and other requirements",
+          "textEs": "Undocumented immigrants who had arrived as children and met education, employment, and other requirements",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The children of undocumented immigrants born in the United States",
+          "textEs": "The children of undocumented immigrants born in the United States",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "All undocumented immigrants who had lived in the United States for more than 10 years",
+          "textEs": "All undocumented immigrants who had lived in the United States for more than 10 years",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "DACA protected certain undocumented immigrants who came to the United States as children and met education, work, and background requirements. C is wrong because children born in the United States are already citizens under the Constitution. The program became a major example of executive action in an era of immigration gridlock.",
+      "explanationEs": "DACA protected certain undocumented immigrants who came to the United States as children and met education, work, and background requirements. C is wrong because children born in the United States are already citizens under the Constitución. The program became a major example of executive action in an era of inmigración gridlock.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -1.02,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-75-x035",
+      "stem": "The Civil Rights Act of 1957, signed by Eisenhower, was significant as the first civil rights legislation since Reconstruction primarily because it —",
+      "stemEs": "The derechos civiles Act of 1957, signed by Eisenhower, was significant as the first derechos civiles legislación since Reconstrucción primarily because it:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Made lynching a federal crime for the first time in U.S. history",
+          "textEs": "Made lynching a federal crime for the first time in U.S. history",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Extended the Voting Rights Act of 1965 to all federal elections",
+          "textEs": "Extended the derechos de voto Act of 1965 to all federal elections",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Created the Civil Rights Commission and weakly protected Black voting rights",
+          "textEs": "Created the derechos civiles Commission and weakly protected Black derechos de voto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Immediately desegregated all Southern schools",
+          "textEs": "Immediately desegregated all Southern schools",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Civil Rights Act of 1957 mattered because it created a Civil Rights Commission and gave the federal government limited new tools to protect Black voting rights. D is wrong because it did not desegregate all Southern schools, and A is wrong because it did not make lynching a federal crime. Even though it was weak, it marked the first civil rights law since Reconstruction.",
+      "explanationEs": "The derechos civiles Act of 1957 mattered because it created a derechos civiles Commission and gave the gobierno federal limited new tools to protect Black derechos de voto. D is wrong because it did not desegregate all Southern schools, and A is wrong because it did not make lynching a federal crime. Even though it was weak, it marked the first derechos civiles law since Reconstrucción.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.89,
+        "b": -0.16,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us75-dok1-1",
+      "stem": "How did television change American homes in the 1950s?",
+      "stemEs": "¿Cómo cambió la televisión los hogares estadounidenses en la década de 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television was banned from homes and only available in public spaces",
+          "textEs": "La televisión fue prohibida en hogares y solo disponible en espacios públicos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Very few American families could afford to purchase television sets",
+          "textEs": "Muy pocas familias estadounidenses podían permitirse comprar televisores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "TV became the center of family entertainment and a source of news",
+          "textEs": "La TV se convirtió en centro de entretenimiento familiar y fuente de noticias",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Radio remained far more popular than television throughout the decade",
+          "textEs": "La radio siguió siendo mucho más popular que la televisión durante toda la década",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television became the center of family entertainment and a major source of news in American homes during the 1950s. B is wrong because TV sets spread rapidly, and D is wrong because radio no longer dominated the decade the way it had before. TV changed what families watched, bought, and talked about together.",
+      "explanationEs": "Para 1960, aproximadamente el 90% de los hogares estadounidenses tenían un televisor. La TV reemplazó a la radio como el principal medio de entretenimiento, moldeó las rutinas familiares alrededor de los horarios de programación y se convirtió en la principal fuente de noticias y publicidad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.08,
+        "b": -1.23,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-75-x015",
+      "stem": "The Supreme Court upheld the ACA's individual mandate in NFIB v. Sebelius (2012) by ruling it was constitutional as —",
+      "stemEs": "The Corte Suprema upheld the ACA's individual mandate in NFIB v. Sebelius (2012) by ruling it was constitucional as:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A necessary and proper law supporting the regulation of the healthcare industry",
+          "textEs": "A necessary and proper law supporting the regulation of the healthcare industry",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "An exercise of the federal government's general welfare powers under Article I",
+          "textEs": "An exercise of the gobierno federal's general welfare powers under Article I",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A tax under Congress's power to lay and collect taxes",
+          "textEs": "A tax under Congreso's power to lay and collect taxes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A regulation of interstate commerce under the Commerce Clause",
+          "textEs": "A regulation of interstate commerce under the Commerce Clause",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Supreme Court upheld the individual mandate by treating it as a tax Congress had the power to impose. D is wrong because the Court rejected the idea that the Commerce Clause alone justified the mandate. The decision preserved the ACA while limiting one broad reading of federal regulatory power.",
+      "explanationEs": "The Corte Suprema upheld the individual mandate by treating it as a tax Congreso had the power to impose. D is wrong because the Court rejected the idea that the Commerce Clause alone justified the mandate. The decision preserved the ACA while limiting one broad reading of federal regulatory power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.19,
+        "b": -0.26,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-75-x032",
+      "stem": "President Truman's Executive Order 9981 (1948) required —",
+      "stemEs": "President Truman's orden ejecutiva 9981 (1948) required:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The elimination of the poll tax in federal elections",
+          "textEs": "The elimination of the poll tax in federal elections",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Equal pay for Black and white federal employees",
+          "textEs": "Equal pay for Black and white federal employees",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Desegregation of the U.S. armed forces",
+          "textEs": "desegregación of the U.S. armed forces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "All states to integrate their public schools within one year",
+          "textEs": "All states to integrate their public schools within one year",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Executive Order 9981 required the desegregation of the U.S. armed forces. D is wrong because Truman did not order immediate school integration, and A is wrong because the order was not about the poll tax. It was one of the federal government's earliest major civil rights actions after World War II.",
+      "explanationEs": "orden ejecutiva 9981 required the desegregación of the U.S. armed forces. D is wrong because Truman did not order immediate school integración, and A is wrong because the order was not about the poll tax. It was one of the gobierno federal's earliest major derechos civiles actions after Segunda Guerra Mundial.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.95,
+        "b": -0.44,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-75-x033",
+      "stem": "Jackie Robinson's integration of Major League Baseball in 1947 was significant as a civil rights event because —",
+      "stemEs": "Jackie Robinson's integración of Major League Baseball in 1947 was significant as a derechos civiles event because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was legally required by a Supreme Court ruling on public accommodations",
+          "textEs": "It was legally required by a Corte Suprema ruling on public accommodations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Robinson was the first African American athlete to compete professionally in any sport",
+          "textEs": "Robinson was the first African American athlete to compete professionally in any sport",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It demonstrated that desegregation efforts could succeed publicly, challenged racial stereotypes",
+          "textEs": "It demonstrated that desegregación efforts could succeed publicly, challenged racial stereotypes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It immediately led to the integration of all professional sports and public entertainment venues",
+          "textEs": "It immediately condujo a the integración of all professional sports and public entertainment venues",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Jackie Robinson's entry into Major League Baseball mattered because it showed that integration could succeed in a very visible national institution and challenged racist stereotypes. B is wrong because Black athletes had competed professionally in other sports before Robinson. His success gave the civil rights movement a powerful public example.",
+      "explanationEs": "Jackie Robinson's entry into Major League Baseball mattered because it showed that integración could succeed in a very visible national institution and challenged racist stereotypes. B is wrong because Black athletes had competed professionally in other sports before Robinson. His success gave the derechos civiles movement a powerful public example.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.09,
+        "b": -0.66,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-75-x037",
+      "stem": "The NAACP's campaign against lynching in the 1940s achieved which limited but important goal?",
+      "stemEs": "The NAACP's campaign against lynching in the 1940s achieved which limited but important goal?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congress passed and Truman signed the nation's first federal anti-lynching law, imposing criminal penalties",
+          "textEs": "Congreso passed and Truman signed the nation's first federal anti-lynching law, imposing criminal penalties",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Southern governors signed agreements to prosecute all future lynching cases vigorously in state courts",
+          "textEs": "Southern governors signed agreements to prosecute all future lynching cases vigorously in state courts",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It produced a Supreme Court ruling that racial lynching violated the Fourteenth Amendment's equal protection clause",
+          "textEs": "It produced a Corte Suprema ruling that racial lynching violated the Fourteenth enmienda's equal protection clause",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It raised national awareness and pressured Truman to investigate lynching through the President's Committee on Civil Rights",
+          "textEs": "It raised national awareness and pressured Truman to investigate lynching through the President's Committee on derechos civiles",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The NAACP's anti-lynching campaign helped raise national attention and pushed Truman's administration to investigate racial violence through the President's Committee on Civil Rights. A is wrong because Congress still did not pass a federal anti-lynching law in the 1940s. Even limited federal attention showed that civil rights pressure was growing after the war.",
+      "explanationEs": "The NAACP's anti-lynching campaign helped raise national attention and pushed Truman's administration to investigate racial violence through the President's Committee on derechos civiles. A is wrong because Congreso still did not pass a federal anti-lynching law in the 1940s. Even limited federal attention showed that derechos civiles pressure was growing after the war.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.93,
+        "b": -0.41,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-75-x039",
+      "stem": "The term 'Double V Campaign' in World War II referred to the African American goal of —",
+      "stemEs": "The term 'Double V Campaign' in Segunda Guerra Mundial referred to the African American goal of:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Voting for both Democratic and Republican candidates to maintain political influence",
+          "textEs": "Voting for both democrático and repúblicaan candidates to maintain political influence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Winning both racial integration and economic equality through separate campaigns",
+          "textEs": "Winning both racial integración and economic igualdad through separate campaigns",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Serving in both the Army and Navy to prove Black competence in all military roles",
+          "textEs": "Serving in both the Army and Navy to prove Black competence in all military roles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Fighting fascism abroad while also demanding freedom and equality at home",
+          "textEs": "Fighting fascismo abroad while also demanding freedom and igualdad at home",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Double V Campaign called for victory over fascism abroad and victory over racism at home. A is wrong because it was not about splitting votes between parties. The campaign linked World War II patriotism to the demand for full citizenship rights for African Americans.",
+      "explanationEs": "The Double V Campaign called for victory over fascismo abroad and victory over racism at home. A is wrong because it was not about splitting votes between parties. The campaign linked Segunda Guerra Mundial patriotism to the demand for full ciudadanía rights for African Americans.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -0.29,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us67-dok1-2",
+      "stem": "What was the primary format of television entertainment in the 1950s?",
+      "stemEs": "¿Cuál fue el formato primario de entretenimiento televisivo en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Educational programs and children's content filled all prime time viewing hours",
+          "textEs": "Programas educativos y contenido infantil llenaron horas de máxima audiencia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "News documentaries and investigative journalism were the most popular shows",
+          "textEs": "Documentales de noticias y periodismo investigativo fueron los programas más populares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Situation comedies, variety shows, and westerns dominated the programming",
+          "textEs": "Comedias de situación, programas de variedades y westerns dominaron programación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Live theatrical performances broadcast from major New York City stage venues",
+          "textEs": "Presentaciones teatrales en vivo transmitidas desde lugares escénicos de Nueva York",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The primary format of television entertainment in the 1950s was Situation comedies, variety shows, and westerns dominated the programming. Choice B is wrong because it describes news documentaries and investigative journalism were the most popular shows, not situation comedies, variety shows, and westerns dominated the programming. Television became a powerful force in consumer culture, politics, and the spread of national norms.",
+      "explanationEs": "La televisión temprana presentó comedias de situación como \"I Love Lucy",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.44,
+        "b": -1.71,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us67-dok2-2",
+      "stem": "How did television ownership change in the 1950s?",
+      "stemEs": "¿Cómo cambió la propiedad de televisión en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Remained constant throughout the decade with no significant change at all",
+          "textEs": "Permaneció constante durante la década sin ningún cambio significativo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Grew from 9% to 87% of households from 1950 to 1960 across America",
+          "textEs": "Creció del 9% al 87% de hogares de 1950 a 1960 en toda América",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Decreased as radio became more popular and affordable for most families",
+          "textEs": "Disminuyó cuando la radio se volvió más popular y asequible para familias",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Only increased by roughly 10% because television sets were too expensive",
+          "textEs": "Solo aumentó aproximadamente 10% porque televisores eran demasiado caros",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "television ownership change in the 1950s because grew from 9% to 87% of households from 1950 to 1960 across America. Choice A is wrong because it describes remained constant throughout the decade with no significant change at all, not grew from 9% to 87% of households from 1950 to 1960 across America. Television became a powerful force in consumer culture, politics, and the spread of national norms.",
+      "explanationEs": "La propiedad de televisión explotó en los años 1950, creciendo de solo 9% de hogares estadounidenses en 1950 a 87% en 1960, transformando cultura estadounidense y vida familiar.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.75,
+        "b": 0.33,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us75-dok2-1",
+      "stem": "How did television impact American politics during the 1950s and early 1960s?",
+      "stemEs": "¿Cómo impactó la televisión la política estadounidense durante la década de 1950 y principios de los 1960?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It combined audio and visuals to influence consumer preferences at scale",
+          "textEs": "Los políticos se negaron a aparecer en televisión prefiriendo transmisiones de radio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Televised debates and news coverage transformed how voters chose leaders",
+          "textEs": "Los debates televisados y la cobertura de noticias transformaron cómo votantes elegían",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "TV advertising created national demand for products and shaped consumer desires",
+          "textEs": "La televisión no tuvo efecto medible en comportamiento de votantes o lealtad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "TV became the center of family entertainment and a source of news",
+          "textEs": "Solo las elecciones locales fueron influenciadas por cobertura de televisión",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Televised debates and news changed politics by making image, speaking style, and camera presence matter more to voters. D is wrong because it describes television's role in home entertainment, not politics, and C is wrong because it focuses on consumer culture. The Kennedy-Nixon debates proved that television could shape election outcomes.",
+      "explanationEs": "La televisión transformó la política dramáticamente. Los debates Kennedy-Nixon de 1960 mostraron el poder de la TV: la presencia televisiva pulida de Kennedy le ayudó a ganar. La TV también expuso los excesos del macartismo y llevó las luchas por los derechos civiles a los hogares estadounidenses.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.46,
+        "b": -0.14,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us75-add-1",
+      "stem": "How did television change American politics in the 1960s?",
+      "stemEs": "¿Cómo cambió la televisión la política estadounidense en los años 1960?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The 1960 Kennedy-Nixon debate showed that television image mattered as much as policy",
+          "textEs": "El debate Kennedy-Nixon de 1960 demostró que la imagen televisiva importaba tanto como la política",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Candidates invested more in image, televised appearances, and short message framing",
+          "textEs": "La televisión no tuvo impacto en la política porque pocos estadounidenses la veían",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Families across regions watched the same news, sports, and entertainment programs",
+          "textEs": "Los políticos se negaron a aparecer en televisión durante esta era",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Broadcast images of protests and violence drew national attention to segregation",
+          "textEs": "La televisión solo se usaba para entretenimiento, nunca cobertura política",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television changed politics when the 1960 Kennedy-Nixon debate showed that appearance on screen could matter as much as policy arguments. B is wrong because it describes a broader campaign trend rather than the clearest example, and D is wrong because it relates more to civil rights coverage. The rise of TV helped create the modern image-driven campaign.",
+      "explanationEs": "El debate Kennedy-Nixon de 1960 fue el primer debate presidencial televisado. Los oyentes de radio pensaron que Nixon ganó en sustancia, pero los televidentes favorecieron al joven y compuesto Kennedy.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -0.21,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us75-add-2",
+      "stem": "How did television affect American consumer culture in the 1950s?",
+      "stemEs": "¿Cómo afectó la televisión a la cultura de consumo estadounidense en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TV advertising created national demand for products and shaped consumer desires",
+          "textEs": "La publicidad televisiva creó demanda nacional de productos y moldeó deseos del consumidor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television reduced consumer spending because families stayed home instead of shopping",
+          "textEs": "La televisión redujo el gasto del consumidor porque las familias se quedaban en casa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Advertising was banned on television during the 1950s",
+          "textEs": "La publicidad fue prohibida en la televisión durante los años 1950",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television had no effect on what Americans bought or consumed",
+          "textEs": "La televisión no tuvo efecto en lo que los estadounidenses compraban o consumían",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television advertising created nationwide demand for the same brands and products by showing the same commercials to millions of families. B is wrong because TV encouraged consumer desire rather than reducing spending, and C is wrong because advertising was common on television. TV helped build a powerful national consumer culture in the 1950s.",
+      "explanationEs": "La publicidad televisiva transformó la cultura de consumo al crear mercados nacionales para las marcas. Las familias veían los mismos anuncios, creando deseo compartido por los productos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.42,
+        "b": 0.47,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us75-add-3",
+      "stem": "How did television contribute to a more national popular culture in the 1950s?",
+      "stemEs": "¿Cómo television contribute to a more national popular culture in the 1950s?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "TV advertising created national demand for products and shaped consumer desires",
+          "textEs": "TV advertising created national demand for products and shaped consumer desires",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Broadcast images of protests and violence drew national attention to segregation",
+          "textEs": "Broadcast images of protests and violence drew national attention to segregación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Candidates invested more in image, televised appearances, and short message framing",
+          "textEs": "Candidates invested more in image, televised appearances, and short message framing",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Families across regions watched the same news, sports, and entertainment programs",
+          "textEs": "Families across regions watched the same news, sports, and entertainment programs",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television helped create a national popular culture because families in different regions watched the same news, sports, and entertainment shows. D is wrong because advertising shaped buying habits more than shared culture, and C is wrong because it focuses on campaigns. TV made Americans more likely to share common celebrities, programs, and public moments.",
+      "explanationEs": "Television helped create a national popular culture because families in different regions watched the same news, sports, and entertainment shows. D is wrong because advertising shaped buying habits more than shared culture, and C is wrong because it focuses on campaigns. TV made Americans more likely to share common celebrities, programs, and public moments.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.47,
+        "b": 0.21,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us75-add-4",
+      "stem": "Which change in campaigning is most associated with television's rise?",
+      "stemEs": "Which change in campaigning se asocia más con television's rise?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Candidates invested more in image, televised appearances, and short message framing",
+          "textEs": "Candidates invested more in image, televised appearances, and short message framing",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Families across regions watched the same news, sports, and entertainment programs",
+          "textEs": "Families across regions watched the same news, sports, and entertainment programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The 1960 Kennedy-Nixon debate showed that television image mattered as much as policy",
+          "textEs": "The 1960 Kennedy-Nixon debate showed that television image mattered as much as policy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Broadcast images of protests and violence drew national attention to segregation",
+          "textEs": "Broadcast images of protests and violence drew national attention to segregación",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "As television rose, candidates began investing more in image, short televised messages, and appearances that worked well on camera. C is wrong because the Kennedy-Nixon debate is an example of that change, not the broader change itself. Modern political campaigning grew more visual and performance-based because of TV.",
+      "explanationEs": "As television rose, candidates began investing more in image, short televised messages, and appearances that worked well on camera. C is wrong because the Kennedy-Nixon debate is an example of that change, not the broader change itself. Modern political campaigning grew more visual and performance-based because of TV.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.94,
+        "b": -0.15,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us75-add-5",
+      "stem": "How did mass media affect civil rights awareness in the 1950s and 1960s?",
+      "stemEs": "¿Cómo mass media affect derechos civiles awareness in the 1950s and 1960s?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Broadcast images of protests and violence drew national attention to segregation",
+          "textEs": "Broadcast images of protests and violence drew national attention to segregación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Families across regions watched the same news, sports, and entertainment programs",
+          "textEs": "Families across regions watched the same news, sports, and entertainment programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "TV advertising created national demand for products and shaped consumer desires",
+          "textEs": "TV advertising created national demand for products and shaped consumer desires",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Candidates invested more in image, televised appearances, and short message framing",
+          "textEs": "Candidates invested more in image, televised appearances, and short message framing",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Mass media increased civil rights awareness by showing protestors, police violence, and segregation to viewers across the country. B is wrong because shared entertainment did not expose injustice in the same direct way. Television helped turn local civil rights struggles into national moral issues.",
+      "explanationEs": "Mass media increased derechos civiles awareness by showing protestors, police violence, and segregación to viewers across the country. B is wrong because shared entertainment did not expose injustice in the same direct way. Television helped turn local derechos civiles struggles into national moral issues.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.07,
+        "b": 0.33,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-76-q08",
+      "stem": "The decline of local newspapers and local television news since 2000 has contributed to political polarization by —",
+      "stemEs": "The decline of local newspapers and local television news since 2000 has contribuyó a political polarization by:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Making national politics less important to most Americans",
+          "textEs": "Making national politics less important to most Americans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Leaving a void filled by national partisan media",
+          "textEs": "Leaving a void filled by national partisan media",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Having no measurable effect on political attitudes",
+          "textEs": "Having no measurable effect on political attitudes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Strengthening the power of local politicians who no longer face media scrutiny",
+          "textEs": "Strengthening the power of local politicians who no longer face media scrutiny",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "As local news declined, many Americans turned to national partisan outlets that focused more on ideological conflict than local problem-solving. A is wrong because national politics became more central, not less, and C is wrong because the decline clearly did affect political attitudes. The loss of local journalism weakened a common civic information base.",
+      "explanationEs": "As local news declined, many Americans turned to national partisan outlets that focused more on ideological conflict than local problem-solving. A is wrong because national politics became more central, not less, and C is wrong because the decline clearly did affect political attitudes. The loss of local journalism weakened a common civic information base.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.76,
+        "b": -0.47,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-72-x037",
+      "stem": "The rise of television in the 1950s transformed American culture primarily by —",
+      "stemEs": "The rise of television in the 1950s transformed American culture primarily by:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Encouraging more Americans to pursue careers in the arts and communications industries",
+          "textEs": "Encouraging more Americans to pursue careers in the arts and communications industries",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reducing demand for radio and film entertainment, which quickly disappeared",
+          "textEs": "Reducing demand for radio and film entertainment, which quickly disappeared",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Creating shared national cultural experiences and reshaping consumer culture, political communication, and family life",
+          "textEs": "Creating shared national cultural experiences and reshaping consumer culture, political communication, and family life",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Providing a new medium for government propaganda that the Eisenhower administration used to manage public opinion",
+          "textEs": "Providing a new medium for government propaganda that the Eisenhower administration used to manage public opinion",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television changed American culture by creating shared national experiences and reshaping shopping habits, politics, and family routines. B is wrong because radio and movies did not disappear, and D is wrong because television was not mainly a government propaganda tool. TV became the most powerful mass medium of the 1950s.",
+      "explanationEs": "Television changed American culture by creating shared national experiences and reshaping shopping habits, politics, and family routines. B is wrong because radio and movies did not disappear, and D is wrong because television was not mainly a government propaganda tool. TV became the most powerful mass medium of the 1950s.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -0.06,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-75-x034",
+      "stem": "The murder of Emmett Till in Mississippi in 1955 galvanized the civil rights movement because —",
+      "stemEs": "The murder of Emmett Till in Mississippi in 1955 galvanized the derechos civiles movement because:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It immediately resulted in the arrest and prosecution of all the perpetrators under federal anti-lynching statutes",
+          "textEs": "It immediately resultó en the arrest and prosecution of all the perpetrators under federal anti-lynching statutes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "His mother insisted on an open casket funeral, and photographs of his mutilated body shocked the nation and revealed the brutality of Jim Crow",
+          "textEs": "His mother insisted on an open casket funeral, and photographs of his mutilated body shocked the nation and revealed the brutality of Jim Crow",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was the first documented racial killing of an African American teenager to receive sustained national press coverage",
+          "textEs": "It was the first documented racial killing of an African American teenager to receive sustained national press coverage",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Emmett Till was a nationally recognized athlete and entertainer whose killing attracted immediate media coverage",
+          "textEs": "Emmett Till was a nationally recognized athlete and entertainer whose killing attracted immediate media coverage",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Emmett Till's murder galvanized the civil rights movement after his mother demanded an open-casket funeral and photos of his beaten body shocked the nation. A is wrong because his killers were not promptly convicted under federal hate-crime laws. The case exposed the brutality of Jim Crow to a national audience.",
+      "explanationEs": "Emmett Till's murder galvanized the derechos civiles movement after his mother demanded an open-casket funeral and photos of his beaten body shocked the nation. A is wrong because his killers were not promptly convicted under federal hate-crime laws. The case exposed the brutality of Jim Crow to a national audience.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.11,
+        "b": -0.15,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us75-add-6",
+      "stem": "Why did advertisers value television more than earlier media formats?",
+      "stemEs": "¿Por qué advertisers value television more than earlier media formats?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It combined audio and visuals to influence consumer preferences at scale",
+          "textEs": "It combined audio and visuals to influence consumer preferences at scale",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Televised debates and news coverage transformed how voters chose leaders",
+          "textEs": "Televised debates and news coverage transformed how voters chose leaders",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "TV advertising created national demand for products and shaped consumer desires",
+          "textEs": "TV advertising created national demand for products and shaped consumer desires",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "TV became the center of family entertainment and a source of news",
+          "textEs": "TV became the center of family entertainment and a source of news",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Advertisers valued television because it combined moving images, sound, and repeated exposure to influence huge national audiences at once. D is wrong because being family entertainment made TV popular, but the key advertising advantage was its persuasive power. Television became the most effective consumer-marketing tool of the postwar era.",
+      "explanationEs": "Advertisers valued television because it combined moving images, sound, and repeated exposure to influence huge national audiences at once. D is wrong because being family entertainment made TV popular, but the key advertising advantage was its persuasive power. Television became the most effective consumer-marketing tool of the postwar era.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.73,
+        "b": 0.91,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0036",
+      "stem": "How did television change American politics during the 1950s and 1960s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television gave viewers direct visual access to political figures and events, making candidate image, appearance, and communication style more important than ever before",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television had little impact on politics because voters relied entirely on newspapers and radio for political information",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television strengthened political parties by making voters more loyal to party platforms rather than individual candidates",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television was banned from political broadcasting to maintain the separation of media and government",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 1960 Kennedy-Nixon debate became the defining example: television viewers thought Kennedy won while radio listeners favored Nixon, establishing that visual appearance and media presence were now critical political assets.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": -0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0037",
+      "stem": "How did television transform American family life and home culture during the 1950s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television eliminated family conversation entirely and was widely banned by parent groups during the 1950s",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television became the central household medium, reorganizing family schedules around programming and creating shared national cultural experiences",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television was a luxury item that only wealthy families could afford throughout the entire decade of the 1950s",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television had minimal impact on families because most people watched it in public theaters rather than at home",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television ownership grew from 1% to 90% of U.S. homes in the 1950s; shows like I Love Lucy and Ozzie and Harriet defined family culture and norms, while furniture arrangement increasingly centered the living room on the TV set.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0038",
+      "stem": "How did television advertising change the American economy during the 1950s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television advertising was prohibited by the federal government to prevent commercial exploitation of the public airwaves",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television advertising had no measurable impact on consumer behavior because viewers consistently ignored commercials",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television advertising created a powerful new channel for reaching mass audiences, accelerating consumer demand for branded products and transforming marketing practices across American industry",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television advertising was available only to small local businesses since national corporations continued to rely exclusively on newspaper advertising",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "National television advertising enabled companies to reach tens of millions of households simultaneously, creating brand awareness at unprecedented scale and driving the consumer culture that defined the postwar American economy.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0039",
+      "stem": "How did television coverage of the civil rights movement in the late 1950s and 1960s affect the national response to racial injustice?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television coverage consistently supported Southern segregationists and increased national opposition to civil rights",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television coverage of civil rights events had no impact because most Black Americans did not own televisions",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television ignored the civil rights movement entirely because networks feared losing Southern advertising revenue",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Broadcast images of peaceful protesters being attacked by police and fire hoses shocked northern white viewers, building public support for civil rights legislation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television footage of Bull Connor's police using fire hoses and attack dogs on Birmingham protesters in 1963, and state troopers attacking marchers at Selma in 1965, galvanized national outrage and directly accelerated passage of the Civil Rights Act (1964) and Voting Rights Act (1965).",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0040",
+      "stem": "How did the rise of national television networks in the 1950s create a more unified American popular culture?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "National networks broadcast identical programming to audiences across the country, exposing Americans from different regions to the same shows, news, and cultural references and reducing regional differences",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "National networks promoted regional diversity by broadcasting only locally produced content from different parts of the country",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "National networks were prohibited from operating across state lines due to FCC regulations protecting regional broadcasters",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television actually increased regional cultural differences by allowing isolated communities to create their own broadcast content",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "ABC, CBS, and NBC reached from coast to coast; shows like The Ed Sullivan Show, Gunsmoke, and Leave It to Beaver created shared cultural touchstones that reduced regional distinctiveness and accelerated national cultural homogenization.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0041",
+      "stem": "How did television influence the 1960 presidential election between John F. Kennedy and Richard Nixon?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television had no effect because neither candidate purchased airtime and the networks refused to cover the debates",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The televised Kennedy-Nixon debates revealed that visual presentation, camera ease, and physical appearance significantly affected voter perception, favoring the telegenic Kennedy over Nixon",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television coverage of the election focused exclusively on policy issues, making appearance irrelevant to the outcome",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Nixon benefited from television because his experience as vice president made him the more recognizable figure to television viewers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The first presidential debate (September 1960) illustrated the medium's new power: television viewers — an estimated 70 million — overwhelmingly felt Kennedy won, while radio listeners gave the edge to Nixon, demonstrating that image now rivaled substance in political communication.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us67-dok2-1",
+      "stem": "How did television impact American society in the 1950s?",
+      "stemEs": "¿Cómo impactó la televisión a la sociedad estadounidense en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Soviet nuclear missiles were 90 miles from the U.S. and both sides were on high alert",
+          "textEs": "Redujo tiempo que familias pasaban juntas reemplazando radio y conversación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Made candidates' appearance and performance crucial, changing campaign strategies",
+          "textEs": "Tuvo impacto cultural mínimo porque pocas familias podían pagar un televisor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Promoted standardized images of ideal family life and consumer values nationwide",
+          "textEs": "Solo gente adinerada poseía televisiones, limitando su influencia en sociedad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Created shared national experiences, shaped consumer habits, and influenced politics",
+          "textEs": "Creó experiencias nacionales compartidas, moldeó hábitos de consumo e influyó política",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "television impact American society in the 1950s because created shared national experiences, shaped consumer habits, and influenced politics. Choice C is wrong because it describes promoted standardized images of ideal family life and consumer values nationwide, not created shared national experiences, shaped consumer habits, and influenced politics. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "La televisión explotó del 9% al 87% de hogares (1950-1960), creando experiencias nacionales compartidas, moldeando hábitos de consumo mediante publicidad e influyendo política trayendo candidatos a salas de estar.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.12,
+        "b": 0.46,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us67-dok2-3",
+      "stem": "How did television change American politics in the 1950s?",
+      "stemEs": "¿Cómo cambió la televisión la política estadounidense en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Promoted standardized images of ideal family life and consumer values nationwide",
+          "textEs": "Redujo participación política porque gente se quedó en casa viendo programas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reinforced white, middle-class family ideals while largely excluding minorities",
+          "textEs": "Eliminó necesidad de debates políticos reemplazándolos con anuncios publicitarios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Created shared national experiences, shaped consumer habits, and influenced politics",
+          "textEs": "No tuvo efecto medible en elecciones o cómo votantes tomaron sus decisiones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Made candidates' appearance and performance crucial, changing campaign strategies",
+          "textEs": "Hizo apariencia y desempeño de candidatos cruciales, cambiando estrategias de campaña",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "television change American politics in the 1950s because made candidates' appearance and performance crucial, changing campaign strategies. Choice C is wrong because it describes created shared national experiences, shaped consumer habits, and influenced politics, not made candidates' appearance and performance crucial, changing campaign strategies. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "La televisión transformó política haciendo presentación visual crucial, ejemplificado por debates Kennedy-Nixon de 1960 donde apariencia importó tanto como sustancia.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.54,
+        "b": -0.05,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-75-x036",
+      "stem": "Historians have noted that early Cold War pressures actually helped accelerate the civil rights movement because —",
+      "stemEs": "Historians have noted that early Guerra Fría pressures actually helped accelerate the derechos civiles movement because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "African American veterans returning from Korea demanded full citizenship rights and joined civil rights organizations in large numbers",
+          "textEs": "African American veterans returning from Korea demanded full ciudadanía rights and joined derechos civiles organizations in large numbers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Soviet Union secretly funded NAACP legal challenges, providing financial and strategic support for civil rights litigation",
+          "textEs": "The Soviet Union secretly funded NAACP legal challenges, providing financial and strategic support for derechos civiles litigation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "American racial segregation gave the Soviet Union a propaganda weapon to embarrass the U.S. globally, creating diplomatic incentives to address civil rights",
+          "textEs": "American racial segregación gave the Soviet Union a propaganda weapon to embarrass the U.S. globally, creating diplomatic incentives to address derechos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The United Nations Charter required all member nations to eliminate racial discrimination as a condition of continued membership",
+          "textEs": "The United Nations Charter required all member nations to eliminate racial discriminación as a condition of continued membership",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Early Cold War pressure helped civil rights because segregation embarrassed the United States in the global struggle with the Soviet Union. A is partly true because veterans were important too, but C best explains why foreign policy concerns pushed leaders toward reform. International rivalry made domestic racism harder for U.S. leaders to ignore.",
+      "explanationEs": "Early Guerra Fría pressure helped derechos civiles because segregación embarrassed the United States in the global struggle with the Soviet Union. A is partly true because veterans were important too, but C best explains why política exterior concerns pushed leaders toward reform. International rivalry made domestic racism harder for U.S. leaders to ignore.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.75,
+        "b": 0.97,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-005",
+      "stem": "In the 1950s, American corporations increasingly marketed consumer goods — refrigerators, televisions, washing machines — as essential to the 'American Dream.' Which of the following best explains why this marketing strategy was so effective during this period?",
+      "stemEs": "En los años 50, las corporaciones estadounidenses comercializaban cada vez más bienes de consumo —refrigeradores, televisores, lavadoras— como esenciales para el 'Sueño Americano'. ¿Cuál de las siguientes opciones explica mejor por qué esta estrategia de mercadotecnia fue tan efectiva durante este período?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The government mandated that all households own basic appliances as part of postwar economic recovery programs.",
+          "textEs": "Los ingresos crecientes de posguerra, el crédito al consumidor y la publicidad televisiva hicieron juntos que las compras masivas fueran tanto asequibles como culturalmente deseables.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wartime rationing had created such pent-up demand that Americans bought goods regardless of advertising influence.",
+          "textEs": "El racionamiento de guerra había creado una demanda tan reprimida que los estadounidenses compraban bienes independientemente de la influencia publicitaria.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Corporations first saturated the market with consumer goods and then invented television to create a new advertising channel.",
+          "textEs": "Las corporaciones primero saturaron el mercado con bienes de consumo y luego inventaron la televisión para crear un nuevo canal publicitario.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Rising postwar incomes, consumer credit, and television advertising together made mass purchasing both affordable and culturally desirable.",
+          "textEs": "El gobierno ordenó que todos los hogares tuvieran electrodomésticos básicos como parte de los programas de recuperación económica de posguerra.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Rising incomes from a booming postwar economy, widespread availability of credit, and the spread of television (itself a consumer good) as an advertising medium created the structural conditions for mass consumerism to take hold. The link between national identity and consumption was also reinforced by Cold War rhetoric contrasting American material abundance with Soviet scarcity. Option B is incorrect — rationing had ended. Option C is backward; television enabled advertising, not the reverse. Option D is a minor factor, not the primary driver.",
+      "explanationEs": "Los ingresos crecientes de la economía de posguerra en auge, la amplia disponibilidad de crédito y la expansión de la televisión como medio publicitario crearon las condiciones estructurales para el consumismo masivo. El vínculo entre identidad nacional y consumo también fue reforzado por la retórica de la Guerra Fría. La opción B es incorrecta: el racionamiento había terminado. La opción C es inversa. La opción D es un factor menor.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.44,
+        "b": 1.63,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-041",
+      "stem": "By 1960, approximately 90% of American homes owned a television set. Which of the following best explains how this saturation level transformed the relationship between political candidates and voters?",
+      "stemEs": "Para 1960, aproximadamente el 90% de los hogares estadounidenses poseía un televisor. ¿Cuál de las siguientes opciones explica mejor cómo este nivel de saturación transformó la relación entre los candidatos políticos y los votantes?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television eliminated newspapers as a political information source, ending the influence of editorial boards on election outcomes.",
+          "textEs": "La televisión eliminó a los periódicos como fuente de información política, poniendo fin a la influencia de los consejos editoriales en los resultados electorales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television gave corporations direct control over government by allowing them to fund candidate advertising without any disclosure requirements.",
+          "textEs": "La televisión dio a las corporaciones control directo sobre el gobierno al permitirles financiar publicidad de candidatos sin ningún requisito de divulgación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television reduced public engagement with politics because entertainment programming distracted Americans from civic participation.",
+          "textEs": "La televisión redujo el compromiso público con la política porque la programación de entretenimiento distrajo a los estadounidenses de la participación cívica.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television made visual presentation and telegenic performance central to political success, fundamentally changing how campaigns were conducted and which candidate qualities voters prioritized.",
+          "textEs": "La televisión hizo de la presentación visual y la actuación telegénica algo central para el éxito político, cambiando fundamentalmente cómo se conducían las campañas y qué cualidades de los candidatos priorizaban los votantes.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television shifted political communication from primarily text-based (newspapers, pamphlets) and audio (radio) to visual performance. Candidates now had to manage appearance, body language, and telegenic presence alongside policy content. The Kennedy-Nixon debates (1960) are the defining example: radio listeners thought Nixon won; television viewers favored Kennedy. This fundamentally changed how campaigns were run and what qualities voters valued. Option A is incorrect — newspapers remained influential. Option B conflates media influence on voters with influence over government institutions. Option C is historically backwards — TV increased mass exposure to politics, not decreased it.",
+      "explanationEs": "La televisión desplazó la comunicación política de textos e impresos a actuación visual. Los candidatos ahora tenían que gestionar la apariencia, el lenguaje corporal y la presencia telegénica. Los debates Kennedy-Nixon (1960) son el ejemplo definitivo. La opción A es incorrecta: los periódicos siguieron siendo influyentes. La opción B conflate la influencia mediática en los votantes con la influencia sobre las instituciones gubernamentales. La opción C es históricamente inversa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.68,
+        "b": 1.36,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-042",
+      "stem": "The 1960 Kennedy-Nixon presidential debates are often cited as the first election significantly decided by television. Which of the following best evaluates this claim using available evidence?",
+      "stemEs": "Los debates presidenciales Kennedy-Nixon de 1960 se citan a menudo como la primera elección significativamente decidida por la televisión. ¿Cuál de las siguientes opciones evalúa mejor esta afirmación usando la evidencia disponible?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The claim is unsupported because both Kennedy and Nixon performed equally well on radio and television according to polls taken immediately after the debate",
+          "textEs": "La afirmación no está respaldada porque Kennedy y Nixon se desempeñaron igualmente bien tanto en la radio como en la televisión.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Radio listeners thought Nixon won while TV viewers favored Kennedy — showing visual performance independently shaped voter perception beyond the debate's policy content",
+          "textEs": "La afirmación está respaldada por la divergencia entre las reacciones de la audiencia de radio y televisión: los oyentes pensaron que Nixon ganó mientras que los televidentes favorecieron a Kennedy, demostrando que la actuación visual moldeó de manera independiente la percepción del votante.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The claim is fully proven: Kennedy's superior television appearance was the single decisive reason he won the 1960 presidential election",
+          "textEs": "La afirmación está completamente probada: la actuación televisiva de Kennedy fue la única razón por la que ganó las elecciones de 1960.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "False because Kennedy and Nixon discussed identical policy positions, making visual presentation irrelevant to voters' decisions",
+          "textEs": "La afirmación es falsa porque Kennedy y Nixon discutieron posiciones políticas idénticas, haciendo que la presentación visual fuera irrelevante para las decisiones de los votantes.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The evidence that radio listeners believed Nixon won while television viewers favored Kennedy strongly suggests that visual presentation mattered independently of policy content. Kennedy appeared relaxed, tanned, and confident; Nixon appeared pale, sweaty, and uncomfortable. This divergence between audio and visual judgments is the strongest evidence that television introduced a new dimension to electoral evaluation. Option A ignores the radio/TV divergence evidence. Option C overstates certainty — the election was close, and many other factors contributed. Option D is unsupported — Kennedy's issue positions were similar on radio and TV.",
+      "explanationEs": "La evidencia de que los oyentes de radio creyeron que Nixon ganó mientras que los televidentes favorecieron a Kennedy sugiere fuertemente que la presentación visual importó independientemente del contenido de las políticas. Kennedy aparecía relajado, bronceado y confiado; Nixon parecía pálido, sudoroso e incómodo. La opción A ignora la evidencia de la divergencia radio/TV. La opción C sobreestima la certeza. La opción D no está respaldada.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.66,
+        "b": 1.69,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-043",
+      "stem": "Television's impact on the American economy in the 1950s extended well beyond the television industry itself. Which of the following best explains the most significant economic effect?",
+      "stemEs": "El impacto económico de la televisión en la economía estadounidense de los años 50 se extendió mucho más allá de la propia industria televisiva. ¿Cuál de las siguientes opciones explica mejor el efecto económico más significativo?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The federal government funded all television programming in the 1950s, making television a public service with no commercial economic function",
+          "textEs": "La televisión creó una plataforma publicitaria nacional que permitió a las corporaciones llegar simultáneamente a millones de consumidores, acelerando dramáticamente el marketing masivo y el gasto del consumidor en muchas industrias.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television's economic impact was confined mainly to stimulating demand for TV sets, antennas, and repair technicians in local consumer markets",
+          "textEs": "El principal impacto económico de la televisión se limitó a estimular la demanda de televisores y técnicos de reparación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Consumer spending created mass demand for advertised products, which then supplied the revenue that funded the television broadcasting industry",
+          "textEs": "El gasto del consumidor creó demanda de publicidad, que luego financió el desarrollo de la industria televisiva.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television gave corporations a national advertising platform reaching millions simultaneously, dramatically accelerating mass marketing and consumer spending across many industries",
+          "textEs": "El gobierno federal financió toda la programación televisiva en los años 50, convirtiendo a la televisión en un servicio público sin ninguna función económica comercial.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television created a national advertising platform that allowed corporations to simultaneously reach millions of consumers, enabling mass marketing of branded goods — accelerating consumer spending on appliances, foods, automobiles, and personal care products. Advertising revenue funded the television industry itself. This created a feedback loop: TV ads drove consumer spending → corporate ad revenue funded programming → programming attracted more viewers → ads reached more consumers. Option B is too narrow. Option C reverses the relationship. Option D is factually incorrect — many programs were produced by advertising agencies, not government.",
+      "explanationEs": "La televisión creó una plataforma publicitaria nacional que permitió a las corporaciones llegar simultáneamente a millones de consumidores, habilitando el marketing masivo de productos de marca y acelerando el gasto del consumidor. Los ingresos publicitarios financiaron la propia industria televisiva. La opción B es demasiado limitada. La opción C invierte la relación. La opción D es factualmente incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.66,
+        "b": 0.76,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-044",
+      "stem": "Television's portrayal of the ideal American family in the 1950s — shows like 'Leave It to Beaver' and 'Father Knows Best' — was widely watched but also widely criticized. Which of the following best evaluates the strongest critique of these portrayals?",
+      "stemEs": "La representación televisiva de la familia estadounidense ideal en los años 50 —programas como 'Leave It to Beaver' y 'Father Knows Best'— fue muy vista pero también muy criticada. ¿Cuál de las siguientes opciones evalúa mejor la crítica más sólida de estas representaciones?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The shows were unrealistic because they showed fathers who were too kind and patient — real 1950s fathers were much more authoritarian.",
+          "textEs": "Los programas eran poco realistas porque mostraban padres demasiado amables y pacientes: los padres reales de los años 50 eran mucho más autoritarios.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The shows were criticized because no middle-class families with stay-at-home mothers actually existed in the 1950s.",
+          "textEs": "Los programas fueron criticados porque ninguna familia de clase media con madres que se quedaban en casa existía realmente en los años 50.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "By portraying only white, middle-class, suburban families as the American norm, these shows erased the experiences of Black Americans, working-class families",
+          "textEs": "Al representar únicamente a familias blancas, de clase media y suburbanas como la norma estadounidense, estos programas borraron las experiencias de los afroamericanos, las familias de clase trabajadora y otros que no encajaban en la imagen idealizada, reforzando las jerarquías raciales y de género.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "These shows were poorly received and rarely watched, meaning they had little actual influence on American cultural norms.",
+          "textEs": "Estos programas tuvieron mala recepción y rara vez fueron vistos, lo que significa que tuvieron poca influencia real en las normas culturales estadounidenses.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "These shows depicted an entirely white, middle-class, suburban, heteronormative family where the father worked, the mother stayed home, and children's problems were minor — erasing from view the experiences of Black Americans, working-class families, single parents, and the many Americans who did not fit this ideal. By normalizing this narrow image as 'American,' they reinforced racial and gender hierarchies. Option A is too narrow. Option B confuses the realistic critique with accuracy — many middle-class families did exist, but they were not the only valid American family. Option D is historically inaccurate — these shows were extremely popular.",
+      "explanationEs": "Estos programas representaban una familia enteramente blanca, de clase media, suburbana y heteronormativa donde el padre trabajaba y la madre se quedaba en casa, borrando de la vista las experiencias de los afroamericanos, las familias de clase trabajadora y los padres solteros. Al normalizar esta imagen estrecha como 'americana', reforzaron las jerarquías raciales y de género. La opción A es demasiado limitada. La opción B confunde la crítica realista con la exactitud. La opción D es históricamente inexacta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.67,
+        "b": 0.58,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-045",
+      "stem": "Television coverage of the Army-McCarthy hearings in 1954 is often credited with ending Senator Joseph McCarthy's political influence. Which of the following best explains the mechanism by which television achieved this outcome?",
+      "stemEs": "La cobertura televisiva de las audiencias del Ejército-McCarthy en 1954 a menudo se acredita con haber terminado la influencia política del senador Joseph McCarthy. ¿Cuál de las siguientes opciones explica mejor el mecanismo por el cual la televisión logró este resultado?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Live television let millions watch McCarthy's bullying directly rather than relying on edited news accounts, turning public opinion against him through unmediated exposure",
+          "textEs": "La cobertura televisiva en vivo permitió a millones de estadounidenses presenciar directamente el comportamiento intimidatorio de McCarthy en lugar de depender de relatos periodísticos editados, convirtiendo la opinión pública en su contra a través de la exposición directa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television reporters discovered and revealed evidence of McCarthy's fabricated accusations that newspapers had been too afraid to publish.",
+          "textEs": "Los reporteros de televisión descubrieron y revelaron evidencia de las acusaciones fabricadas de McCarthy que los periódicos habían tenido demasiado miedo de publicar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television gave McCarthy's opponents an equal platform to present counter-evidence, allowing them to definitively prove all his accusations were false.",
+          "textEs": "La televisión dio a los opositores de McCarthy una plataforma igualitaria para presentar contraevidencia, permitiéndoles demostrar definitivamente que todas sus acusaciones eran falsas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "McCarthy had never had political influence before the hearings; television simply made people aware for the first time that he existed.",
+          "textEs": "McCarthy nunca había tenido influencia política antes de las audiencias; la televisión simplemente hizo que la gente se diera cuenta por primera vez de que existía.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television allowed millions of Americans to watch McCarthy's behavior in real time — his bullying, interruptions, and recklessness — rather than reading edited summaries in newspapers. When attorney Joseph Welch asked, 'Have you no sense of decency?', Americans saw McCarthy's response directly. The visual medium exposed his character in ways print could not. This is a defining example of television's power to shape political opinion through direct witnessing of events. Option B is historically incorrect — McCarthy had newspaper critics but they had not destroyed his influence. Option C misidentifies the mechanism. Option D is factually wrong — McCarthy had been powerful for years before the hearings.",
+      "explanationEs": "La televisión permitió a millones de estadounidenses observar en tiempo real el comportamiento de McCarthy —su intimidación, interrupciones e imprudencia— en lugar de leer resúmenes editados en los periódicos. Cuando el abogado Joseph Welch preguntó: '¿No tiene ningún sentido de la decencia?', los estadounidenses vieron la respuesta de McCarthy directamente. La opción B es históricamente incorrecta. La opción C identifica mal el mecanismo. La opción D es factualmente incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.14,
+        "b": 1.48,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-046",
+      "stem": "The emergence of television created a paradox for American democracy: it simultaneously increased public access to political information and may have reduced the quality of political debate. Which of the following best supports both sides of this claim?",
+      "stemEs": "El surgimiento de la televisión creó una paradoja para la democracia estadounidense: simultáneamente aumentó el acceso público a la información política y puede haber reducido la calidad del debate político. ¿Cuál de las siguientes opciones respalda mejor ambos lados de esta afirmación?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television only improved democracy by making political events accessible to all Americans regardless of literacy or location.",
+          "textEs": "La televisión solo mejoró la democracia al hacer que los eventos políticos fueran accesibles para todos los estadounidenses independientemente de la alfabetización o la ubicación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television only harmed democracy by reducing all political discourse to shallow entertainment with no informational value.",
+          "textEs": "La televisión solo dañó la democracia al reducir todo el discurso político a entretenimiento superficial sin ningún valor informativo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television increased access to political information while newspaper readership disappeared entirely, leaving TV as the only political news source.",
+          "textEs": "La televisión aumentó el acceso a la información política mientras que la lectura de periódicos desapareció por completo, dejando a la televisión como la única fuente de noticias políticas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television democratized access to political events while simultaneously incentivizing candidates to prioritize telegenic appearance and sound bites over substantive policy arguments.",
+          "textEs": "La televisión democratizó el acceso a los eventos políticos mientras que simultáneamente incentivaba a los candidatos a priorizar la apariencia telegénica y las frases impactantes sobre los argumentos de políticas sustantivas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "TV exposed millions of Americans to political events they had never seen (elections, hearings, civil rights confrontations) — genuinely democratizing information access. Simultaneously, television rewarded appearance, personality, and short memorable sound bites over substantive policy arguments, incentivizing politicians to prioritize performance over depth. Both effects were real. Option A only presents the positive side. Option B only presents the negative. Option C is factually incorrect about newspaper readership trends.",
+      "explanationEs": "La TV expuso a millones de estadounidenses a eventos políticos que nunca habían visto, democratizando genuinamente el acceso a la información. Al mismo tiempo, la televisión recompensó la apariencia, la personalidad y las frases memorables cortas sobre los argumentos de políticas sustantivas, incentivando a los políticos a priorizar la actuación sobre la profundidad. Ambos efectos fueron reales. La opción A solo presenta el lado positivo. La opción B solo el negativo. La opción C es factualmente incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.51,
+        "b": 0.95,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-047",
+      "stem": "Television's influence on American consumerism in the 1950s was more than just advertising specific products. Which of the following best explains the deeper cultural effect television had on consumer expectations?",
+      "stemEs": "La influencia de la televisión en el consumismo estadounidense de los años 50 fue más que solo publicitar productos específicos. ¿Cuál de las siguientes opciones explica mejor el efecto cultural más profundo que tuvo la televisión en las expectativas del consumidor?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television's consumer impact was limited to direct product advertisements, which were persuasive only because they repeated the same messages many times.",
+          "textEs": "El impacto del consumidor de la televisión se limitó a los anuncios directos de productos, que eran persuasivos solo porque repetían los mismos mensajes muchas veces.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Television programming established visual benchmarks for the aspirational American lifestyle, creating mass social comparison that raised the baseline of what Americans believed they needed to own.",
+          "textEs": "La programación televisiva estableció puntos de referencia visuales para el estilo de vida estadounidense aspiracional, creando una comparación social masiva que elevó la línea base de lo que los estadounidenses creían que necesitaban poseer.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Watching television made Americans physically passive, reducing their work productivity and making them more likely to spend time shopping.",
+          "textEs": "Ver televisión hizo a los estadounidenses físicamente pasivos, reduciendo su productividad laboral y haciéndolos más propensos a pasar tiempo comprando.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television's deepest consumer impact came from news programs that exposed corporate abuses, pushing Americans to demand safer and higher-quality products.",
+          "textEs": "El impacto más profundo del consumidor de la televisión vino de los programas de noticias que expusieron los abusos corporativos, empujando a los estadounidenses a exigir productos más seguros y de mayor calidad.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television programming — not just commercials — showed audiences idealized suburban living rooms, kitchens, and wardrobes, establishing visual benchmarks for what an aspirational American home and lifestyle should look like. This created 'social comparison' through mass media at a scale never before possible, raising the baseline of what Americans felt they needed to own. Advertising then offered the specific products to achieve this vision. Option A is too narrow — commercials were part of a larger programming effect. Option C is not a documented mechanism. Option D describes something that occurred later (1960s–70s), not in 1950s television.",
+      "explanationEs": "La programación televisiva —no solo los comerciales— mostraba a las audiencias salas de estar, cocinas y guardarropas suburbanos idealizados, estableciendo puntos de referencia visuales para cómo debería verse un hogar y estilo de vida estadounidense aspiracional. Esto creó una 'comparación social' a través de los medios masivos a una escala nunca antes posible. La opción A es demasiado limitada. La opción C no es un mecanismo documentado. La opción D describe algo que ocurrió más tarde.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.09,
+        "b": 0.91,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-048",
+      "stem": "Television coverage of the Civil Rights Movement in the late 1950s and early 1960s — showing peaceful demonstrators being attacked — is often credited with shifting Northern white public opinion toward supporting civil rights legislation. Which of the following best explains why visual media was particularly effective in this context?",
+      "stemEs": "La cobertura televisiva del Movimiento de Derechos Civiles a finales de los años 50 y principios de los 60 —mostrando manifestantes pacíficos siendo atacados— a menudo se acredita con haber cambiado la opinión pública blanca norteña hacia el apoyo a la legislación de derechos civiles. ¿Cuál de las siguientes opciones explica mejor por qué los medios visuales fueron particularmente efectivos en este contexto?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Visual images of peaceful protesters being attacked made racial violence viscerally real to Northern viewers in a way that written reports could not achieve, creating moral urgency that drove political pressure for legislation.",
+          "textEs": "Las imágenes visuales de manifestantes pacíficos siendo atacados hicieron que la violencia racial fuera visceralmente real para los espectadores norteños de una manera que los informes escritos no podían lograr, creando urgencia moral que impulsó la presión política para la legislación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Civil rights organizations controlled the major television networks and strategically manipulated coverage to maximize sympathy for their cause.",
+          "textEs": "Las organizaciones de derechos civiles controlaban las principales cadenas de televisión y manipulaban estratégicamente la cobertura para maximizar la simpatía por su causa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television changed the opinions of white Southerners who witnessed the protests, leading them to voluntarily desegregate businesses without waiting for legislation.",
+          "textEs": "La televisión cambió las opiniones de los blancos sureños que presenciaron las protestas, llevándolos a desegregar voluntariamente los negocios sin esperar la legislación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television was effective because it allowed civil rights leaders to directly address Congress, bypassing the need for public demonstrations entirely.",
+          "textEs": "La televisión fue efectiva porque permitió a los líderes de los derechos civiles dirigirse directamente al Congreso, evitando completamente la necesidad de manifestaciones públicas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Newspapers could report on brutality, but television made it impossible to maintain emotional distance — viewers witnessed in real time peaceful Black Americans being beaten, hosed, and arrested for demanding rights. This visceral, visual evidence was harder to dismiss as exaggeration than written descriptions and created moral urgency among viewers who had previously been indifferent. The Birmingham campaign and Bull Connor's fire hoses were decisive precisely because they were televised. Option B is factually wrong — television was not controlled by civil rights organizations. Option C overstates the case — white Southerners who witnessed the same coverage often did not change their views. Option D misidentifies the mechanism.",
+      "explanationEs": "Los periódicos podían informar sobre la brutalidad, pero la televisión hacía imposible mantener la distancia emocional: los espectadores presenciaban en tiempo real a afroamericanos pacíficos siendo golpeados, rociados con agua y arrestados. Esta evidencia visceral y visual era más difícil de desestimar como exageración. La campaña de Birmingham y las mangueras de Bull Connor fueron decisivas precisamente porque fueron televisadas. La opción B es factualmente incorrecta. La opción C sobreestima el caso. La opción D identifica mal el mecanismo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 1.51,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-049",
+      "stem": "By the mid-1950s, television networks had developed a model where programming was designed primarily to maximize advertising revenue. Which of the following best evaluates the long-term consequence of this commercial model for American public discourse?",
+      "stemEs": "A mediados de los años 50, las cadenas de televisión habían desarrollado un modelo en el que la programación estaba diseñada principalmente para maximizar los ingresos publicitarios. ¿Cuál de las siguientes opciones evalúa mejor la consecuencia a largo plazo de este modelo comercial para el discurso público estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The commercial model was entirely beneficial because market competition ensured that Americans always received the highest quality programming available.",
+          "textEs": "El modelo comercial fue completamente beneficioso porque la competencia del mercado aseguró que los estadounidenses siempre recibieran la programación de mayor calidad disponible.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Commercial pressures had no effect on programming content because networks were committed to journalistic independence.",
+          "textEs": "Las presiones comerciales no tuvieron ningún efecto en el contenido de la programación porque las cadenas estaban comprometidas con la independencia periodística.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The commercial model created structural incentives to prioritize entertainment over complex public affairs content, shaping a media environment that rewarded simplicity and spectacle.",
+          "textEs": "El modelo comercial creó incentivos estructurales para priorizar el entretenimiento y el atractivo masivo sobre el contenido complejo de asuntos públicos, moldeando gradualmente un entorno mediático que recompensaba la simplicidad y el espectáculo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Advertising control over television allowed corporations to directly censor political reporting, preventing any critical coverage of government or business.",
+          "textEs": "El control publicitario sobre la televisión permitió a las corporaciones censurar directamente la cobertura política, impidiendo cualquier cobertura crítica del gobierno o los negocios.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The commercial model rewarded content that attracted the largest possible audience (and therefore the most advertiser revenue), incentivizing entertainment over education, simplification over nuance, and controversy over depth. This created structural pressure against public affairs programming, complex topics, and minority viewpoints that appealed to smaller audiences. The British BBC model (public broadcasting) produced different programming precisely because revenue depended on quality rather than audience size. Option A is too positive — the model had real trade-offs. Option B is incorrect — commercial pressures shaped content significantly. Option D confuses advertising with political censorship.",
+      "explanationEs": "El modelo comercial recompensaba el contenido que atraía a la mayor audiencia posible, incentivando el entretenimiento sobre la educación, la simplificación sobre los matices y la controversia sobre la profundidad. Esto creó presión estructural contra la programación de asuntos públicos y los temas complejos. La opción A es demasiado positiva. La opción B es incorrecta: las presiones comerciales moldearon el contenido significativamente. La opción D confunde la publicidad con la censura política.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.55,
+        "b": 0.92,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-050",
+      "stem": "Edward R. Murrow's 1958 speech to the Radio-Television News Directors Association criticized television for becoming 'an instrument of escapism' rather than an instrument of enlightenment. Which of the following best explains the structural reason Murrow's warning was ignored?",
+      "stemEs": "El discurso de Edward R. Murrow de 1958 ante la Asociación de Directores de Noticias de Radio y Televisión criticó a la televisión por convertirse en 'un instrumento de escapismo' en lugar de un instrumento de ilustración. ¿Cuál de las siguientes opciones explica mejor la razón estructural por la que se ignoró la advertencia de Murrow?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Americans genuinely preferred escapism and had no interest in serious programming, so networks were simply responding to authentic public demand.",
+          "textEs": "Los estadounidenses genuinamente preferían el escapismo y no tenían interés en la programación seria, por lo que las cadenas simplemente respondían a la demanda pública auténtica.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Murrow's speech was dismissed by network executives because he lacked sufficient credibility and viewership within the competitive television industry",
+          "textEs": "El discurso de Murrow fue ignorado porque no era una figura creíble en la industria televisiva.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The federal government had mandated entertainment programming and forbidden news content, so networks had no legal ability to follow Murrow's advice.",
+          "textEs": "El gobierno federal había ordenado la programación de entretenimiento y prohibido el contenido de noticias, por lo que las cadenas no tenían capacidad legal para seguir el consejo de Murrow.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Entertainment consistently drew larger audiences than serious content, so the commercial funding model created structural financial incentives that rewarded escapism over civic programming",
+          "textEs": "El modelo de financiación comercial recompensó el tamaño de la audiencia sobre el valor social: el entretenimiento atrajo audiencias más grandes que el contenido serio, creando incentivos financieros estructurales que hacían que el escapismo fuera más rentable que la ilustración independientemente de las preferencias individuales.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The commercial broadcasting model meant that networks' revenue came from advertisers who paid based on audience size. Entertainment programming attracted larger audiences than serious news or public affairs shows. Therefore, the financial structure of American television created a powerful incentive to produce escapism rather than enlightenment — not because network executives were malicious, but because the funding model rewarded audience size over social value. Murrow's criticism challenged the structure, not just the content choices. Option A misidentifies the reason. Option B is incorrect — Murrow was widely respected. Option C is historically inaccurate — the government did not dictate programming content.",
+      "explanationEs": "El modelo de radiodifusión comercial significaba que los ingresos de las cadenas provenían de anunciantes que pagaban en función del tamaño de la audiencia. La programación de entretenimiento atraía audiencias más grandes que los programas serios de noticias. Por lo tanto, la estructura financiera de la televisión estadounidense creó un poderoso incentivo para producir escapismo en lugar de iluminación. La opción A identifica mal la razón. La opción B es incorrecta. La opción C es históricamente inexacta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 1.72,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK3-0004",
+      "stem": "START I represented which broader trend in U.S.-Soviet relations during the late 1980s and early 1990s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An escalation of nuclear weapons production",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Negotiated reductions in nuclear arsenals as the Cold War ended",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A withdrawal of all U.S. military forces from Europe",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A new alliance between the United States and Cuba",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Strategic Arms Reduction Treaty, known as START I, was signed on July 31, 1991, by President George H.W. Bush and Soviet General Secretary Mikhail Gorbachev and entered into force on December 5, 1994. It required both superpowers to reduce deployed strategic nuclear warheads and delivery vehicles, representing the most sweeping negotiated reduction in nuclear arsenals up to that time. Choice A is wrong because START I required reductions, not increases, in nuclear weapons; an arms-escalation trend would be the opposite of the treaty's purpose. Choice C is wrong because the treaty addressed nuclear arms, not conventional troop deployments in Europe. START I reflected the broader diplomatic transformation of the late Cold War period, culminating in the Soviet Union's dissolution on December 25, 1991.",
+      "explanationEs": "El Tratado de Reducción de Armas Estratégicas, conocido como Tratado START I, fue firmado el 31 de julio de 1991 por el presidente George H.W. Bush y el Secretario General soviético Mijaíl Gorbachov, y entró en vigor el 5 de diciembre de 1994. Requería que ambas superpotencias redujeran los ojivos nucleares estratégicos desplegados y los vehículos de entrega, lo que representó la reducción negociada más significativa de arsenales nucleares hasta ese momento. La opción A es incorrecta porque el Tratado START I exigió reducciones, no aumentos, en las armas nucleares; una tendencia de escalada armamentista sería lo opuesto al propósito del tratado. La opción C es incorrecta porque el tratado abordó las armas nucleares, no los despliegues de tropas convencionales en Europa. El Tratado START I reflejó la transformación diplomática más amplia del período final de la Guerra Fría, que culminó con la disolución de la Unión Soviética el 25 de diciembre de 1991.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK3-0008",
+      "stem": "The political mobilization of evangelical Christians in the late 1970s and 1980s — through organizations like the Moral Majority — transformed evangelical Protestantism from relative political non-engagement into a core constituency of the Republican Party. What does this transformation most reveal about the relationship between cultural anxiety and political mobilization in this period?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Religious Right's emergence demonstrated that religious communities become politically active primarily when their institutional tax-exempt status is threatened, as the immediate organizational trigger was the IRS's attempt to revoke tax exemptions from segregated religious schools — making fiscal policy rather than cultural transformation the primary mobilizing force.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The evangelical political mobilization of the late 1970s illustrates that rapid cultural change — including legalized abortion after Roe v. Wade, Supreme Court decisions limiting school prayer, the Equal Rights Amendment debate, and the sexual revolution — created conditions in which religious communities perceived their core values as under systematic governmental and cultural threat, mobilizing them to seek political power as a mechanism of cultural",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Religious Right's success reflected the organizational infrastructure of evangelical megachurches and television ministries, which used modern media and direct-mail technology to build political coalitions from a pre-existing religious community base — demonstrating that mobilization capacity rather than the content of cultural grievance explains the movement's political effectiveness.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Religious Right emerged primarily as a response to the perceived failures of the Carter presidency, whose evangelical Christian identity generated high expectations among social conservatives that his moderate governing record disappointed — making partisan disillusionment rather than long-term cultural anxiety the primary mobilizing trigger.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The evangelical political mobilization of the late 1970s is best understood as a cultural defense reaction: the convergence of Roe v. Wade, school prayer restrictions, the ERA, and federal intervention in religious schools created a perception among evangelical communities that the federal government and secular culture were actively dismantling the normative social order they regarded as foundational.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK3-0009",
+      "stem": "The savings and loan crisis of the 1980s cost American taxpayers approximately $132 billion in bailout funds and resulted directly from the combination of S&L; deregulation and the continuation of federal deposit insurance guarantees. How does the S&L; crisis most clearly illustrate the structural risks created when financial deregulation is combined with maintained public safety nets?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The S&L; crisis demonstrates the moral hazard problem created when financial institutions are simultaneously deregulated and protected by federal guarantees — freed from regulatory constraints but insulated from failure by deposit insurance, S&Ls; faced incentives to pursue high-risk investments where potential gains were private while potential losses would be covered by taxpayers, creating a structurally predictable failure mode.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The S&L; crisis was primarily caused by the inflationary environment of the late 1970s that made S&Ls;' fixed-rate mortgage portfolios unprofitable, demonstrating that macroeconomic conditions rather than regulatory changes were the decisive driver of the industry's structural instability in this period.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The bailout cost demonstrates that the Reagan deregulation agenda was based on flawed assumptions about private sector self-regulation, confirming that market-based approaches to financial stability require consistent government monitoring to prevent systemic fraud and risk-taking regardless of ideological preferences.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The S&L; crisis illustrated that the federalist structure of financial regulation — with state-chartered institutions operating under inconsistent oversight frameworks across jurisdictions — created regulatory arbitrage opportunities that undermined effective oversight, making institutional design rather than deregulation per se the primary cause of the failure.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The S&L; crisis is a textbook example of moral hazard: deposit insurance was designed to protect depositors from bank failure, but when combined with deregulation it created a perverse incentive structure — S&L; managers could pursue high-risk investments knowing that if bets succeeded profits were theirs, while if bets failed federal insurance would cover depositors and political pressure would produce a taxpayer bailout, socializing the losses. Unit 9: The Civil Rights Movement, 1950s–1960s (US.78–US.82)",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us67-dok3-1",
+      "stem": "How did television reinforce or challenge social norms in the 1950s?",
+      "stemEs": "¿Cómo reforzó o desafió la televisión normas sociales en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Promoted standardized images of ideal family life and consumer values nationwide",
+          "textEs": "Mostró representación diversa de todas las familias estadounidenses de cada región",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reinforced white, middle-class family ideals while largely excluding minorities",
+          "textEs": "Reforzó ideales de familia blanca de clase media excluyendo en gran medida a minorías",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Made candidates' appearance and performance crucial, changing campaign strategies",
+          "textEs": "Desafió todos los roles de género tradicionales mostrando mujeres en trabajo profesional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Created demand for products and established brands in American homes daily",
+          "textEs": "Generó demanda de productos y estableció marcas en los hogares estadounidenses de forma cotidiana",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "television reinforce or challenge social norms in the 1950s because reinforced white, middle-class family ideals while largely excluding minorities. Choice A is wrong because it describes promoted standardized images of ideal family life and consumer values nationwide, not reinforced white, middle-class family ideals while largely excluding minorities. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "La televisión reforzó imágenes idealizadas de familias suburbanas blancas de clase media con roles de género tradicionales, excluyendo en gran medida a minorías y estilos de vida alternativos, moldeando percepción pública de vida estadounidense \"normal\".",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.78,
+        "b": 1.75,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us67-dok3-2",
+      "stem": "How did television function as a tool of cultural conformity in the 1950s?",
+      "stemEs": "¿Cómo funcionó la televisión como herramienta de conformidad cultural en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Made candidates' appearance and performance crucial, changing campaign strategies",
+          "textEs": "Hizo que la apariencia y el desempeño de los candidatos fueran cruciales, transformando las estrategias de campaña",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reinforced white, middle-class family ideals while largely excluding minorities",
+          "textEs": "Celebró diversidad y diferencias regionales presentando programación local",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Created shared national experiences, shaped consumer habits, and influenced politics",
+          "textEs": "Alentó a espectadores a cuestionar autoridad y desafiar normas sociales establecidas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Promoted standardized images of ideal family life and consumer values nationwide",
+          "textEs": "Promovió imágenes estandarizadas de vida familiar ideal y valores de consumo a nivel nacional",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.67"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "television function as a tool of cultural conformity in the 1950s because promoted standardized images of ideal family life and consumer values nationwide. Choice B is wrong because it describes reinforced white, middle-class family ideals while largely excluding minorities, not promoted standardized images of ideal family life and consumer values nationwide. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "La televisión promovió conformidad cultural transmitiendo imágenes uniformes del estilo de vida suburbano ideal, roles de género tradicionales y valores de consumo a millones de hogares.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.41,
+        "b": 0.71,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us75-dok4-dbq-4",
+      "stem": "DOCUMENT-BASED QUESTION\n\nDirections: Analyze the following two primary sources using the HIPP framework (Historical context, Intended audience, Purpose, Point of view) for each document. Then construct a multi-paragraph argument responding to the central question: How did civil rights leaders at the March on Washington use different rhetorical strategies to frame their demands for racial justice, and what do these differences reveal about tensions within the movement over pace and methods of change?\n\n---\nDocument 1: Excerpt from John Lewis, Chairman of the Student Nonviolent Coordinating Committee (SNCC), speech delivered at the March on Washington for Jobs and Freedom, Lincoln Memorial, Washington, D.C., August 28, 1963. Source: Congressional Record; archived at the Library of Congress, loc.gov.\n\n\"We march today for jobs and freedom, but we have nothing to be proud of, for hundreds and thousands of our brothers are not here. They have no money for their transportation, for they are receiving starvation wages, or no wages at all... In good conscience, we cannot support wholeheartedly the administration's civil rights bill, for it is too little and too late. There's not one thing in the bill that will protect our people from police brutality... The revolution is at hand, and we must free ourselves of the chains of political and economic slavery. The nonviolent revolution is saying, 'We will not wait for the courts to act, for we have been waiting for hundreds of years. We will not wait for the President, the Justice Department, nor Congress, but we will take matters into our own hands and create a source of power, outside of any national structure, that could and would assure us a victory.' To those who have said, 'Be patient and wait,' we must say that 'patience' is a dirty and nasty word. We cannot be patient, we do not want to be free gradually. We want our freedom, and we want it now.\"\n\n---\nDocument 2: Excerpt from Fannie Lou Hamer's testimony before the Credentials Committee of the Democratic National Convention, Atlantic City, New Jersey, August 22, 1964. Sources: Library of Congress, Prints & Photographs Division (Warren K. Leffler photograph dated Aug. 22, 1964, https://www.loc.gov/pictures/item/2003688126/); Library of Congress Law Blog, *In Custodia Legis*, \"Stunned by Her Thunder: Fannie Lou Hamer\" (https://blogs.loc.gov/law/2021/02/stunned-by-her-thunder-fannie-lou-hamer/); transcript via Iowa State University Catt Center Archives of Women's Political Communication.\n\n\"I was carried to the county jail and put in the booking room. They left some of the people in the booking room and began to place us in cells... Three white men came into my room. One of the men said, 'We are going to make you wish you was dead.' They had me lay down on a bunk bed on my face, and they beat me. I screamed to God in pain... All of this is on account of we want to register, to become first-class citizens... If the Freedom Democratic Party is not seated now, I question America. Is this America, the land of the free and the home of the brave, where we have to sleep with our telephones off the hooks because our lives be threatened daily, because we want to live as decent human beings in America?\"\n\n---\nUsing both documents and your knowledge of the Civil Rights Movement (US.75, US.77), analyze how Lewis and Hamer employed different rhetorical approaches to advocate for racial justice. In your response:\n1. Conduct a HIPP analysis of each document.\n2. Compare the rhetorical strategies used by each speaker.\n3. Evaluate how the different contexts (1963 March on Washington vs. 1964 DNC challenge) shaped each speaker's argument.\n4. Synthesize your analysis to argue whether the movement's strength came from unity of message or diversity of approaches.",
+      "stemEs": "PREGUNTA BASADA EN DOCUMENTOS\n\nInstrucciones: Analyze the following two primary sources using the HIPP framework (Historical context, Intended audience, Purpose, Point of view) for each document. Then construct a multi-paragraph argument responding to the central question: How did civil rights leaders at the March on Washington use different rhetorical strategies to frame their demands for racial justice, and what do these differences reveal about tensions within the movement over pace and methods of change?\n\n---\nDocumento 1: Excerpt from John Lewis, Chairman of the Student Nonviolent Coordinating Committee (SNCC), speech delivered at the March on Washington for Jobs and Freedom, Lincoln Memorial, Washington, D.C., August 28, 1963. Source: Congressional Record; archived at the Library of Congress, loc.gov.\n\n\"We march today for jobs and freedom, but we have nothing to be proud of, for hundreds and thousands of our brothers are not here. They have no money for their transportation, for they are receiving starvation wages, or no wages at all... In good conscience, we cannot support wholeheartedly the administration's civil rights bill, for it is too little and too late. There's not one thing in the bill that will protect our people from police brutality... The revolution is at hand, and we must free ourselves of the chains of political and economic slavery. The nonviolent revolution is saying, 'We will not wait for the courts to act, for we have been waiting for hundreds of years. We will not wait for the President, the Justice Department, nor Congress, but we will take matters into our own hands and create a source of power, outside of any national structure, that could and would assure us a victory.' To those who have said, 'Be patient and wait,' we must say that 'patience' is a dirty and nasty word. We cannot be patient, we do not want to be free gradually. We want our freedom, and we want it now.\"\n\n---\nDocumento 2: Excerpt from Fannie Lou Hamer's testimony before the Credentials Committee of the Democratic National Convention, Atlantic City, New Jersey, August 22, 1964. Source: Congressional Record and DNC proceedings; archived at the Library of Congress, loc.gov.\n\n\"I was carried to the county jail and put in the booking room. They left some of the people in the booking room and began to place us in cells... Three white men came into my room. One of the men said, 'We are going to make you wish you was dead.' They had me lay down on a bunk bed on my face, and they beat me. I screamed to God in pain... All of this is on account of we want to register, to become first-class citizens... If the Freedom Democratic Party is not seated now, I question America. Is this America, the land of the free and the home of the brave, where we have to sleep with our telephones off the hooks because our lives be threatened daily, because we want to live as decent human beings in America?\"\n\n---\nUsing both documents and your knowledge of the Civil Rights Movement (US.75, US.77), analyze how Lewis and Hamer employed different rhetorical approaches to advocate for racial justice. In your response:\n1. Conduct a HIPP analysis of each document.\n2. Compare the rhetorical strategies used by each speaker.\n3. Evaluate how the different contexts (1963 March on Washington vs. 1964 DNC challenge) shaped each speaker's argument.\n4. Synthesize your analysis to argue whether the movement's strength came from unity of message or diversity of approaches.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-scoring response would: (1) HIPP Analysis of Document 1: Historical context — Lewis spoke as the youngest leader at the March on Washington, representing SNCC's more militant grassroots wing; his original draft was even more confrontational but was moderated under pressure from other march leaders. Intended audience — the 250,000 attendees, national television audience, and Congress. Purpose — to push the movement beyond gradualism and demand immediate, radical action. Point of view — a young activist frustrated with the pace of federal action, openly criticizing the Kennedy administration's civil rights bill. (2) HIPP Analysis of Document 2: Historical context — Hamer testified one year later, after the Mississippi Freedom Summer and extensive voter registration violence. Intended audience — the DNC Credentials Committee and national television audience. Purpose — to expose the reality of racial violence preventing Black political participation and challenge the Democratic Party to seat the MFDP. Point of view — a sharecropper who personally experienced brutal retaliation for attempting to register to vote. (3) Comparison: Lewis used confrontational political rhetoric demanding systemic change; Hamer used personal testimony and moral witness. Both challenged the establishment but through different modes — Lewis through ideological critique, Hamer through lived experience. (4) Synthesis: The movement's power derived from its diversity of approaches — Lewis's demand for urgency and Hamer's moral testimony served complementary functions, pressuring both the streets and the institutions.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.75, US.77 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.67",
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Thorough HIPP analysis of both documents with specific textual evidence; nuanced comparison of rhetorical strategies (confrontational political critique vs. personal moral testimony); sophisticated synthesis connecting both approaches to the movement's evolving strategies; evidence of cross-standard thinking connecting US.75 (March on Washington) and US.77 (Voting Rights Act context).\n5 - Advanced: Strong HIPP analysis of both documents; clear comparison of strategies with evidence; synthesis present but may lack full sophistication.\n4 - Proficient: Adequate HIPP analysis with some textual evidence; comparison identifies key differences; synthesis attempts cross-document connections.\n3 - Adequate: Basic HIPP elements addressed for both documents; comparison is surface-level; limited synthesis.\n2 - Developing: Partial HIPP analysis (may address only one document thoroughly); minimal comparison; no meaningful synthesis.\n1 - Beginning: Attempts to address documents but HIPP analysis is incomplete or inaccurate; no comparison or synthesis.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: Students should identify the H (historical context of 1963 march vs. 1964 DNC challenge), I (mass public audience vs. party committee), P (demand for immediate systemic change vs. exposure of racial violence), P (young militant organizer vs. grassroots sharecropper activist).\n\nKEY EVIDENCE EXPECTED: Lewis's criticism of the civil rights bill as \"too little and too late,\" his call for revolution, the \"scorched earth\" metaphor (moderated version still radical); Hamer's personal testimony of beating in Winona jail, her challenge to American ideals, MFDP challenge to Mississippi's all-white delegation.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: El estudiante aplica HIPP de manera precisa y perspicaz a ambos documentos. Construye una tesis sofisticada sobre las estrategias complementarias. Analiza la elección retórica de King (ideales fundacionales, encuadre inclusivo, patriotismo) con evidencia textual específica del extracto. Analiza la estrategia testimonial de Hamer (credibilidad de testigo presencial, desafío moral a los ideales americanos) con evidencia textual específica. Hace una evaluación comparativa sustantiva de qué estrategia produjo más directamente la legislación de LDV (probablemente argumenta que el testimonio al estilo Selma/Hamer creó urgencia, con King estableciendo el marco moral a largo plazo). Usa conocimiento externo (organización de la Marcha sobre Washington, A. Philip Randolph, interferencia en la transmisión de Johnson, Domingo Sangriento en Selma, discurso 'Venceremos' de LBJ). La escritura es analítica y avanza una tesis defendible.\n5 - Avanzado: HIPP aplicado con precisión a ambos documentos. La tesis aborda las estrategias complementarias claramente. Los documentos se analizan con evidencia textual específica. Evalúa el impacto legislativo con cierta profundidad analítica. Se usa algo de conocimiento externo.\n4 - Competente: HIPP aplicado a ambos documentos con la mayoría de los elementos presentes. El argumento aborda la pregunta central con evidencia de ambos documentos. La comparación de estrategias está presente. La conexión con la LDV se establece.\n3 - Adecuado: HIPP aplicado a un documento completamente y a uno parcialmente. El argumento está presente pero puede depender más de un documento. La comparación es general. La conexión con la LDV puede estar poco desarrollada.\n2 - En desarrollo: HIPP intentado para ambos documentos con precisión parcial. El argumento responde parcialmente la pregunta central. Los documentos se resumen más de lo que se analizan.\n1 - Inicial: Resúmenes básicos sin HIPP significativo. Argumento ausente o vago.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS DE DOCUMENTOS: Doc 1 — 250,000 asistentes; transmisión televisiva nacional; invocación de la Declaración de Independencia; encuadre de justicia económica de A. Philip Randolph; contraste moderado de King vs. separatista de Malcolm X; contexto de la legislación de derechos civiles de JFK. Doc 2 — Antecedentes de aparcera de Hamer; entrenamiento de registro de votantes del SNCC; supresión de la transmisión por Johnson; lucha por las credenciales del PDFM; contexto de la CND de agosto de 1964.\nEVIDENCIA CLAVE ESPERADA: Marcha sobre Washington (28 de agosto de 1963) como presión política sobre el Congreso; proyecto de ley de derechos civiles de JFK; estrategia retórica de ideales fundacionales de King; Hamer como aparcera entrenada por el SNCC; violencia en el registro de votantes de Mississippi (Verano de la Libertad del SNCC de 1964); marchas de Selma a Montgomery (1965); Domingo Sangriento (7 de marzo de 1965); discurso 'Venceremos' de LBJ (15 de marzo de 1965); aprobación de la Ley de Derechos de Voto (6 de agosto de 1965).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.65,
+        "b": 0.31,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.75",
+          "US.77"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.75->US.67 unchanged",
+          "US.77->US.72 unchanged"
+        ]
+      }
+    }
+  ]
+}

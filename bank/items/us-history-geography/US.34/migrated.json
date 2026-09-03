@@ -1,0 +1,2253 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.34",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us34-dok1-1",
+      "stem": "What innovation made Henry Ford's Model T affordable?",
+      "stemEs": "¿Qué innovación hizo asequible el Modelo T de Henry Ford?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It created suburbs, highways, tourism, and spawned many new related industries",
+          "textEs": "Usar materiales plásticos livianos en lugar de partes tradicionales de acero",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It created workers who could afford products they made, fueling consumer economy",
+          "textEs": "Subsidios del gobierno federal que bajaron el precio minorista para consumidores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Enabled suburban living by eliminating dependence on urban public transit systems",
+          "textEs": "Importar partes y materiales más baratos de fábricas europeas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Assembly line production that dramatically reduced manufacturing time and costs",
+          "textEs": "Producción en línea de ensamblaje que redujo dramáticamente tiempo y costos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line made the Model T affordable by cutting production time from about 12 hours to roughly 90 minutes and slashing costs. Choice B refers to Ford's later wage policy, not the manufacturing innovation itself, and choice A describes effects of car ownership rather than the reason the price dropped. Mass production helped turn the automobile from a luxury for the wealthy into a product ordinary families could buy.",
+      "explanationEs": "La línea de ensamblaje de Ford redujo el tiempo de producción de 12 horas a 90 minutos, bajando el precio del Modelo T de $850 a $260 y haciendo los autos asequibles para estadounidenses promedio.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.84,
+        "b": -1.16,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok1-2",
+      "stem": "What was the Model T's nickname?",
+      "stemEs": "¿Cuál fue el apodo del Modelo T?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Enabled suburban living by eliminating dependence on urban public transit systems",
+          "textEs": "Sueño Americano, simbolizando la prosperidad y oportunidad de la era de los años 1920",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It created workers who could afford products they made, fueling consumer economy",
+          "textEs": "Caballo de Hierro, término tomado de la era del ferrocarril para describir su poder",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Assembly line production that dramatically reduced manufacturing time and costs",
+          "textEs": "Máquina de Libertad, enfatizando la libertad personal que automóviles proporcionaron a dueños",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Tin Lizzie, reflecting its affordable and practical design for everyday Americans",
+          "textEs": "Tin Lizzie, reflejando su diseño asequible y práctico para estadounidenses comunes",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Americans nicknamed the Model T the 'Tin Lizzie' because it was plain, durable, and affordable enough for ordinary families. Choice C points to the automobile industry, not the specific person, law, or event asked for; choice B points to the automobile industry, not the specific person, law, or event asked for. The nickname captured how the car became a symbol of everyday mobility rather than elite luxury.",
+      "explanationEs": "El Modelo T fue cariñosamente llamado \"Tin Lizzie\" por los estadounidenses. Este auto asequible se convirtió en símbolo de movilidad estadounidense y prosperidad de clase media.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.04,
+        "b": -1.1,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok1-3",
+      "stem": "What was the \"$5 workday\" that Henry Ford introduced?",
+      "stemEs": "¿Qué fue el \"día de trabajo de $5\" que introdujo Henry Ford?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mass production techniques spread to appliances, clothing, and other consumer goods",
+          "textEs": "Un requisito de salario mínimo federal aplicado a todos los trabajadores industriales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "More than double the typical industrial wage, increasing worker loyalty significantly",
+          "textEs": "Más del doble del salario industrial típico, aumentando lealtad del trabajador significativamente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Enabled suburban living by eliminating dependence on urban public transit systems",
+          "textEs": "Una reducción significativa en salarios diarios que forzó a trabajadores a aceptar menos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Tin Lizzie, reflecting its affordable and practical design for everyday Americans",
+          "textEs": "Un pago de bono exclusivamente por trabajo de horas extras excediendo horario estándar",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Henry Ford's $5 day, announced in 1914, more than doubled many workers' wages, reduced turnover, and helped workers afford the products they built. Choice A points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for; choice C points to an effect or consequence rather than the item being identified, not the specific person, law, or event asked for. It became a famous example of how mass production, wages, and consumer markets could reinforce one another.",
+      "explanationEs": "En 1914, Ford anunció un salario de $5 por día (más del doble del típico $2.34 para trabajadores industriales). Esto redujo la rotación del 370% al 16%, aumentó productividad y creó trabajadores que podían permitirse los autos que construían.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -0.79,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok1-182",
+      "stem": "Henry Ford revolutionized automobile manufacturing by:",
+      "stemEs": "Henry Ford revolucionó la manufactura de automóviles al:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Inventing the first gasoline-powered automobile engine",
+          "textEs": "Inventar el primer motor de automóvil a gasolina",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Developing the assembly line method of mass production",
+          "textEs": "Desarrollar el método de línea de ensamblaje de producción en masa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Creating the first automobile designed specifically for racing",
+          "textEs": "Crear el primer automóvil diseñado específicamente para carreras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Establishing the first automobile manufacturing plant in America",
+          "textEs": "Establecer la primera planta de manufactura de automóviles en Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice D refers to the automobile industry, not the historical point being tested; choice A refers to the automobile industry, not the historical point being tested. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "Henry Ford revolucionó la manufactura al desarrollar el método de línea de ensamblaje de producción en masa. Esta innovación redujo dramáticamente el tiempo y costos de producción, haciendo los automóviles asequibles para estadounidenses promedio.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.11,
+        "b": -1.51,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-q01",
+      "stem": "Henry Ford's primary innovation in automobile manufacturing was:",
+      "stemEs": "Henry Ford's primary innovation in automobile manufacturing was:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Creating the first commercially viable electric-powered passenger automobile",
+          "textEs": "Creating the first commercially viable electric-powered passenger automobile",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Inventing the internal combustion engine and gasoline-powered automobile",
+          "textEs": "Inventing the internal combustion engine and gasoline-powered automobile",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Developing the moving assembly line for mass production of automobiles",
+          "textEs": "Developing the moving assembly line for mass production of automobiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Establishing the first nationwide network of automobile dealerships and service centers",
+          "textEs": "Establishing the first nationwide network of automobile dealerships and service centers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A refers to the automobile industry, not the historical point being tested; choice B refers to the automobile industry, not the historical point being tested. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A refers to the automobile industry, not the historical point being tested; choice B refers to the automobile industry, not the historical point being tested. Mass production became a model for factories across the world in the twentieth century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.14,
+        "b": -1.38,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-33-x013",
+      "stem": "Henry Ford's assembly line reduced automobile costs primarily by:",
+      "stemEs": "Henry Ford's assembly line reduced automobile costs primarily by:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Moving production to Southern states with cheaper labor",
+          "textEs": "Moving production to Southern states with cheaper labor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Eliminating workers through automation",
+          "textEs": "Eliminating workers through automation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Breaking production into specialized repetitive tasks",
+          "textEs": "Breaking production into specialized repetitive tasks",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Using cheaper materials",
+          "textEs": "Using cheaper materials",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.68,
+        "b": -1.02,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-28-x024",
+      "stem": "Henry Ford's moving assembly line reduced the time to produce a Model T from 12 hours to:",
+      "stemEs": "Henry Ford's moving assembly line reduced the time to produce a Model T from 12 hours to:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6 hours",
+          "textEs": "6 hours",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "93 minutes",
+          "textEs": "93 minutes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "One hour",
+          "textEs": "One hour",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "30 minutes",
+          "textEs": "30 minutes",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. Mass production became a model for factories across the world in the twentieth century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -1.29,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-x027",
+      "stem": "The Hawley-Smoot Tariff and Hoover's commitment to a balanced budget are both examples of:",
+      "stemEs": "The Hawley-Smoot arancel and Hoover's commitment to a balanced budget are both examples of:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Sound economic management that correctly identified the Depression's monetary causes",
+          "textEs": "Sound economic management that correctly identified the depresión's monetary causes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Political compromises that satisfied special interests while doing little to address unemployment",
+          "textEs": "Political compromises that satisfied special interests while doing little to address desempleo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Policies that aggravated the Depression by reducing demand and shrinking international trade",
+          "textEs": "Policies that aggravated the depresión by reducing demand and shrinking international comercio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Sound economic management that correctly identified initially the Depression's monetary causes",
+          "textEs": "Sound economic management that correctly identified initially the depresión's monetary causes",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Great Depression deepened because stock speculation, weak banks, low farm prices, and unequal wealth made the economy fragile even before the crash. Choice D refers to the Great Depression or New Deal, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The crisis transformed expectations about what the federal government should do in an economic emergency.",
+      "explanationEs": "The Gran Depresión deepened because stock speculation, weak banks, low farm prices, and unequal wealth made the economy fragile even before the crash. Choice D refers to the Gran Depresión or New Deal, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The crisis transformed expectations about what the gobierno federal should do in an economic emergency.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.45,
+        "b": -0.73,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-29-x027",
+      "stem": "The automotive industry's dominance of the 1920s economy was reflected in the fact that by 1929:",
+      "stemEs": "The automotive industry's dominance of the 1920s economy was reflected in the fact that by 1929:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Automobile sales had made Henry Ford the world's wealthiest individual",
+          "textEs": "Automobile sales had made Henry Ford the world's wealthiest individual",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Big Three — Ford, GM, Chrysler — had eliminated all smaller competitors through consolidation",
+          "textEs": "The Big Three — Ford, GM, Chrysler — had eliminated all smaller competitors through consolidation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "More than half of American families owned an automobile",
+          "textEs": "More than half of American families owned an automobile",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "One in five American jobs was connected to the automobile industry either directly or indirectly",
+          "textEs": "One in five American jobs was connected to the automobile industry either directly or indirectly",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's innovations made cars affordable for ordinary Americans, turning the automobile from a luxury into a mass consumer good. Choice A refers to the automobile industry, not the historical point being tested; choice C refers to the automobile industry, not the historical point being tested. That change reorganized work, space, and consumption in modern America.",
+      "explanationEs": "Ford's innovations made cars affordable for ordinary Americans, turning the automobile from a luxury into a mass consumer good. Choice A refers to the automobile industry, not the historical point being tested; choice C refers to the automobile industry, not the historical point being tested. That change reorganized work, space, and consumption in modern America.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.81,
+        "b": 0.2,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok2-1",
+      "stem": "How did the automobile transform American society?",
+      "stemEs": "¿Cómo transformó el automóvil la sociedad estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It decreased industrial development by drawing workers away from factory jobs",
+          "textEs": "Disminuyó desarrollo industrial al alejar trabajadores de empleos de fábrica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It reduced American mobility by making public transportation systems less common",
+          "textEs": "Redujo movilidad estadounidense al hacer sistemas de transporte público menos comunes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It remained accessible only to wealthy Americans who could afford maintenance",
+          "textEs": "Permaneció accesible solo para estadounidenses ricos que podían costear mantenimiento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It created suburbs, highways, tourism, and spawned many new related industries",
+          "textEs": "Creó suburbios, autopistas, turismo y generó muchas nuevas industrias relacionadas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's innovations made cars affordable for ordinary Americans, turning the automobile from a luxury into a mass consumer good. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested. That change reorganized work, space, and consumption in modern America.",
+      "explanationEs": "La propiedad de autos creció de 8 millones (1920) a 23 millones (1929). Los automóviles crearon suburbios, autopistas, turismo y generaron industrias como gasolineras, moteles y restaurantes con servicio al auto, dando a los estadounidenses movilidad sin precedentes.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.98,
+        "b": -0.08,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us32-dok2-3",
+      "stem": "What was the significance of \"race records\" in the 1920s?",
+      "stemEs": "¿Cuál fue la importancia de los \"race records\" en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Emphasized improvisation and individual expression over traditional European structure",
+          "textEs": "Récords de competencias atléticas documentando logros de atletas negros a nivel nacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Recordings marketed to African American audiences that helped spread blues and jazz",
+          "textEs": "Grabaciones comercializadas para audiencias afroamericanas que ayudaron a difundir blues y jazz",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Influential jazz pianist and composer who led the famous Cotton Club orchestra",
+          "textEs": "Datos del censo gubernamental rastreando movimiento poblacional durante la Gran Migración",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "First distinctly American music form that crossed racial boundaries and influenced culture",
+          "textEs": "Grabaciones de música clásica presentando composiciones europeas interpretadas por orquestas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "'Race records' were recordings marketed to Black consumers, and they helped blues and jazz artists reach larger audiences in the 1920s. Choice C points to Harlem culture or jazz, not the specific person, law, or event asked for; choice D points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for. The category reflected segregation in marketing, but it also expanded the national reach of Black music.",
+      "explanationEs": "Los \"race records\" eran grabaciones de blues, jazz y música gospel comercializadas específicamente para audiencias negras. Artistas como Bessie Smith y Louis Armstrong grabaron estos, ayudando a que la música afroamericana alcanzara audiencias más amplias.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.48,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok2-3",
+      "stem": "How did the automobile affect family life and leisure activities?",
+      "stemEs": "¿Cómo afectó el automóvil la vida familiar y actividades de ocio?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It stimulated growth in steel, rubber, glass, and petroleum industries",
+          "textEs": "Limitó actividades de ocio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Lower prices that made automobiles affordable for average Americans",
+          "textEs": "Redujo tiempo familiar juntos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Enabled family road trips, vacations, and visits to distant relatives",
+          "textEs": "Permitió viajes familiares por carretera, vacaciones y visitas a parientes distantes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Oil, rubber, steel, glass, gas stations, motels, road construction",
+          "textEs": "Solo se usaba con propósitos laborales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Automobiles changed family life by making trips, dating, tourism, and suburban living easier and by reducing dependence on fixed rail and streetcar lines. Choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. Car ownership reshaped where Americans lived, worked, and spent their free time.",
+      "explanationEs": "Los autos transformaron el ocio, permitiendo viajes familiares por carretera, camping, vacaciones en la playa y visitas a parques nacionales. Dieron independencia a jóvenes y cambiaron patrones de cortejo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.95,
+        "b": 0.51,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok2-4",
+      "stem": "What impact did Ford's assembly line have on other industries?",
+      "stemEs": "¿Qué impacto tuvo la línea de ensamblaje de Ford en otras industrias?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Other industries rejected mechanization and continued using traditional craft methods",
+          "textEs": "Otras industrias rechazaron mecanización y continuaron usando métodos artesanales tradicionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Only car manufacturers used assembly lines and no other industries adopted them",
+          "textEs": "Solo fabricantes de autos usaron líneas de ensamblaje y ninguna otra industria las adoptó",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Mass production techniques spread to appliances, clothing, and other consumer goods",
+          "textEs": "Técnicas de producción en masa se extendieron a electrodomésticos, ropa y otros bienes de consumo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Had no meaningful influence beyond the automotive sector or car manufacturing",
+          "textEs": "No tuvo influencia significativa más allá del sector automotriz o fabricación de autos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice B mentions the automobile industry, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "La línea de ensamblaje de Ford revolucionó la manufactura más allá de automóviles. Otras industrias adoptaron técnicas de producción en masa para radios, refrigeradores, ropa y varios bienes de consumo, transformando producción industrial estadounidense.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.38,
+        "b": -0.55,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok2-183",
+      "stem": "Ford's assembly line method of production resulted in:",
+      "stemEs": "El método de producción de línea de ensamblaje de Ford resultó en:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Oil, rubber, steel, glass, gas stations, motels, road construction",
+          "textEs": "Precios más altos para automóviles debido a mayores costos laborales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Lower prices that made automobiles affordable for average Americans",
+          "textEs": "Precios más bajos que hicieron los automóviles asequibles para estadounidenses promedio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Enabled family road trips, vacations, and visits to distant relatives",
+          "textEs": "Tiempos de producción más lentos pero vehículos de mayor calidad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It stimulated growth in steel, rubber, glass, and petroleum industries",
+          "textEs": "Automóviles que estaban disponibles solo para compradores ricos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice D refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "La línea de ensamblaje de Ford redujo el tiempo de producción de 12 horas a 90 minutos, bajando el precio del Modelo T de $850 a $260. Para 1929, la propiedad de autos creció de 8 millones a 23 millones de vehículos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.15,
+        "b": 0.44,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok2-184",
+      "stem": "The mass production of automobiles impacted American society by:",
+      "stemEs": "La producción en masa de automóviles impactó la sociedad estadounidense al:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Black paint dried fastest, maximizing assembly line efficiency",
+          "textEs": "Limitar movilidad y opciones de viaje para la mayoría de estadounidenses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Oil, rubber, steel, glass, gas stations, motels, road construction",
+          "textEs": "Eliminar la necesidad de sistemas de transporte público",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Lower prices that made automobiles affordable for average Americans",
+          "textEs": "Reducir oportunidades de empleo en industrias relacionadas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Encouraging the growth of suburbs and changing social patterns",
+          "textEs": "Fomentar el crecimiento de suburbios y cambiar patrones sociales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A mentions the automobile industry, but it does not match the main cause or significance in the question; choice C mentions the automobile industry, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "Los automóviles liberaron a estadounidenses de vivir cerca del trabajo o líneas de tranvía, permitiendo desarrollo suburbano. Los autos transformaron patrones sociales, permitiendo vacaciones familiares, visitas a parientes distantes y nuevas prácticas de cortejo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.39,
+        "b": 0.17,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-q02",
+      "stem": "The assembly line manufacturing process developed by Ford resulted in:",
+      "stemEs": "The assembly line manufacturing process developed by Ford resultó en:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dramatic reduction in production time and costs, making automobiles affordable to middle-class Americans",
+          "textEs": "Dramatic reduction in production time and costs, making automobiles affordable to middle-class Americans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The rapid elimination of all competing manufacturing methods and artisan production",
+          "textEs": "The rapid elimination of all competing manufacturing methods and artisan production",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Increased production costs and significantly higher automobile prices due to precision requirements",
+          "textEs": "Increased production costs and significantly higher automobile prices due to precision requirements",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A sharp decrease in total automobile production caused by worker resistance to the assembly pace",
+          "textEs": "A sharp decrease in total automobile production caused by worker resistance to the assembly pace",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice C refers to the automobile industry, not the historical point being tested; choice D refers to the automobile industry, not the historical point being tested. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice C refers to the automobile industry, not the historical point being tested; choice D refers to the automobile industry, not the historical point being tested. Mass production became a model for factories across the world in the twentieth century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.09,
+        "b": 0.36,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-q03",
+      "stem": "Ford's economic impact on manufacturing included:",
+      "stemEs": "Ford's economic impact on manufacturing included:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A significant decrease in American industrial output as assembly line efficiency proved disappointing",
+          "textEs": "A significant decrease in American industrial output as assembly line efficiency proved disappointing",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The complete elimination of all employee benefits as Ford prioritized cost reduction above worker welfare",
+          "textEs": "The complete elimination of all employee benefits as Ford prioritized cost reduction above worker welfare",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The creation of low-wage, unskilled labor positions with no path to advancement within the Ford system",
+          "textEs": "The creation of low-wage, unskilled labor positions with no path to advancement within the Ford system",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Introduction of the $5 workday for assembly line workers, doubling prevailing wages and reducing turnover",
+          "textEs": "Introduction of the $5 workday for assembly line workers, doubling prevailing wages and reducing turnover",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.48,
+        "b": -0.51,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-x026",
+      "stem": "Hoover's opposition to direct federal relief was based partly on his belief that direct relief would:",
+      "stemEs": "Hoover's opposition to direct federal relief was based partly on his belief that direct relief would:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Violate the 10th Amendment by involving the federal government in matters reserved to states",
+          "textEs": "Violate the 10th enmienda by involving the gobierno federal in matters reserved to states",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Create a federal bureaucracy that could not be dismantled after the emergency ended",
+          "textEs": "Create a federal bureaucracy that could not be dismantled after the emergency ended",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Require tax increases that would reduce private investment and worsen the Depression",
+          "textEs": "Require tax increases that would reduce private investment and worsen the depresión",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Undermine recipients' self-reliance and discourage the private charity that had always met Americans' needs",
+          "textEs": "Undermine recipients' self-reliance and discourage the private charity that had always met Americans' needs",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "New Deal programs tried to combine relief, recovery, and reform by using federal power more aggressively than any earlier peacetime administration. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. They redefined what Americans expected from national government during crisis.",
+      "explanationEs": "New Deal programs tried to combine relief, recovery, and reform by using federal power more aggressively than any earlier peacetime administration. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. They redefined what Americans expected from national government during crisis.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.09,
+        "b": 0.06,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-x030",
+      "stem": "The Hoover Dam — completed in 1936 — was actually begun under Hoover as one of his:",
+      "stemEs": "The Hoover Dam — completed in 1936 — was actually begun under Hoover as one of his:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Voluntary cooperation projects financed by Western states without federal funds",
+          "textEs": "Voluntary cooperation projects financed by Western states without federal funds",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Contradictions — a massive federal public works project inconsistent with his opposition to direct relief",
+          "textEs": "Contradictions — a massive federal public works project inconsistent with his opposition to direct relief",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The first New Deal projects begun before FDR took office",
+          "textEs": "The first New Deal projects begun before FDR took office",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Modest public works projects consistent with his philosophy of limited government infrastructure investment",
+          "textEs": "Modest public works projects consistent with his philosophy of limited government infrastructure investment",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "New Deal programs tried to combine relief, recovery, and reform by using federal power more aggressively than any earlier peacetime administration. Choice C refers to the Great Depression or New Deal, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. They redefined what Americans expected from national government during crisis.",
+      "explanationEs": "New Deal programs tried to combine relief, recovery, and reform by using federal power more aggressively than any earlier peacetime administration. Choice C refers to the Gran Depresión or New Deal, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. They redefined what Americans expected from national government during crisis.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.19,
+        "b": 0.21,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok3-1",
+      "stem": "How did Henry Ford's $5-per-day wage policy revolutionize labor practices?",
+      "stemEs": "¿Cómo revolucionó la política salarial de $5 por día de Henry Ford las prácticas laborales?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It created suburbs, highways, tourism, and spawned many new related industries",
+          "textEs": "Disminuyó productividad del trabajador y aumentó rotación de empleados en fábricas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Assembly line production that dramatically reduced manufacturing time and costs",
+          "textEs": "Redujo significativamente poder adquisitivo de trabajadores y estándares de vida",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It created workers who could afford products they made, fueling consumer economy",
+          "textEs": "Solo aplicaba a posiciones de gerencia y excluía trabajadores de línea de ensamblaje",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Created middle-class workers who could afford the products they manufactured",
+          "textEs": "Creó trabajadores de clase media que podían permitirse productos que fabricaban",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Henry Ford's $5 day, announced in 1914, more than doubled many workers' wages, reduced turnover, and helped workers afford the products they built. Choice C refers to the automobile industry, not the historical point being tested; choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested. It became a famous example of how mass production, wages, and consumer markets could reinforce one another.",
+      "explanationEs": "El salario de $5 por día de Ford en 1914 (más del doble del salario típico) redujo rotación, aumentó productividad y creó trabajadores que podían permitirse autos. Este modelo de \"capitalismo de bienestar\" influyó en otras industrias.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.35,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us32-dok3-1",
+      "stem": "Why was jazz music considered revolutionary in American culture?",
+      "stemEs": "¿Por qué se consideró la música jazz revolucionaria en la cultura estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Emphasized improvisation and individual expression over traditional European structure",
+          "textEs": "Enfatizó improvisación y expresión individual sobre estructura europea tradicional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Recordings marketed to African American audiences that helped spread blues and jazz",
+          "textEs": "Era idéntica a música clásica europea y no ofreció elementos estadounidenses originales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "First distinctly American music form that crossed racial boundaries and influenced culture",
+          "textEs": "No requería entrenamiento o habilidad musical y podía ser interpretada fácilmente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Influential jazz pianist and composer who led the famous Cotton Club orchestra",
+          "textEs": "Fue ampliamente aprobada por líderes religiosos y organizaciones comunitarias conservadoras",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Jazz became a symbol of the 1920s because its improvisation, syncopation, and African American origins challenged older ideas about what serious American music could be. Choice B refers to Harlem culture or jazz, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. Its rise helped make Black musical forms central to modern American culture.",
+      "explanationEs": "El jazz rompió con tradiciones musicales europeas al enfatizar improvisación, síncopa y expresión individual. Reflejó innovación y libertad estadounidense, aunque muchos conservadores lo condenaron como inmoral.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.43,
+        "b": 1.27,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us4-dok3-mc4",
+      "stem": "The U.S. pursued a policy of appeasement toward Japan through the 1930s before shifting to economic sanctions in 1940-41. What explains this shift in American policy?",
+      "stemEs": "EE.UU. persiguió una política de apaciguamiento hacia Japón durante los 1930 antes de cambiar a sanciones económicas en 1940-41. ¿Qué explica este cambio en la política americana?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Japan's expansion into French Indochina and alliance with the Axis powers directly threatened American strategic interests in the Pacific",
+          "textEs": "La expansión de Japón a Indochina francesa y la alianza con las potencias del Eje amenazaron directamente los intereses estratégicos americanos en el Pacífico",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Japan was already seeking surrender through diplomatic channels, and the bombs were partly intended to intimidate the Soviet Union",
+          "textEs": "La opinión pública americana repentina y unánimemente demandó guerra con Japón en 1940",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Japanese Americans were forcibly relocated to camps by executive order while German Americans faced informal persecution but not mass incarceration",
+          "textEs": "Japón atacó Pearl Harbor primero, causando que EE.UU. impusiera sanciones como represalia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Cutting taxes on businesses and wealthy individuals would stimulate investment, creating jobs and growth that would \"trickle down\" to all",
+          "textEs": "EE.UU. no tenía relación económica con Japón antes de 1940",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The United States shifted from limited accommodation to sanctions after Japan moved into French Indochina and joined the Axis, making it seem like a direct threat to American interests in the Pacific. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to the automobile industry, not the historical point being tested. The shift helps explain the rising tensions that led to Pearl Harbor.",
+      "explanationEs": "La invasión de Japón a Indochina francesa y el Pacto Tripartito transformaron a Japón de un agresor regional a una amenaza estratégica global.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.13,
+        "b": 1.27,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-q07",
+      "stem": "The widespread availability of automobiles as a result of Ford's innovations affected American society by:",
+      "stemEs": "The widespread availability of automobiles Como resultado de Ford's innovations affected American society by:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eliminating the need for most other forms of transportation",
+          "textEs": "Eliminating the need for most other forms of transportation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Transforming transportation, suburban development, dating patterns,",
+          "textEs": "Transforming transportation, suburban development, dating patterns,",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Creating economic hardship for most Americans",
+          "textEs": "Creating economic hardship for most Americans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Having minimal impact on American life and culture",
+          "textEs": "Having minimal impact on American life and culture",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's innovations made cars affordable for ordinary Americans, turning the automobile from a luxury into a mass consumer good. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. That change reorganized work, space, and consumption in modern America.",
+      "explanationEs": "Ford's innovations made cars affordable for ordinary Americans, turning the automobile from a luxury into a mass consumer good. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. That change reorganized work, space, and consumption in modern America.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.76,
+        "b": 1.18,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-q10",
+      "stem": "The long-term significance of Ford's mass production innovations was that they:",
+      "stemEs": "The long-term significance of Ford's mass production innovations was that they:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Had minimal lasting impact on American manufacturing or society",
+          "textEs": "Had minimal lasting impact on American manufacturing or society",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Eliminated the need for skilled workers in manufacturing permanently",
+          "textEs": "Eliminated the need for skilled workers in manufacturing permanently",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Proved that mass production was economically impossible",
+          "textEs": "Proved that mass production was economically impossible",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Established the model for modern mass production manufacturing that became the standard for industries worldwide",
+          "textEs": "Established the model for modern mass production manufacturing that became the standard for",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice C mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+      "explanationEs": "Ford's moving assembly line broke car building into simple repeated steps, cutting Model T production time from about 12 hours to roughly 90 minutes and lowering costs. Choice C mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Mass production became a model for factories across the world in the twentieth century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 1.17,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-x029",
+      "stem": "Revisionist historians have argued that Hoover was more activist than his 'do-nothing' reputation suggests because:",
+      "stemEs": "Revisionist historians have argued that Hoover was more activist than his 'do-nothing' reputation suggests because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hoover's programs were identical to the early New Deal but lacked Roosevelt's political skill in selling them",
+          "textEs": "Hoover's programs were identical to the early New Deal but lacked Roosevelt's political skill in selling them",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Hoover secretly proposed a form of deficit spending but was blocked by a conservative Congress",
+          "textEs": "Hoover secretly proposed a form of deficit spending but was blocked by a conservative Congreso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "He created the RFC, expanded public works more than any previous peacetime president, and worked to stabilize wages",
+          "textEs": "He created the RFC, expanded public works more than any previous peacetime president, and worked to stabilize wages",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He intervened aggressively in the banking crisis but his interventions were too technically complex to succeed",
+          "textEs": "He intervened aggressively in the banking crisis but his interventions were too technically complex to succeed",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "New Deal programs tried to combine relief, recovery, and reform by using federal power more aggressively than any earlier peacetime administration. Choice A fits the pattern described in the question, so it cannot be the exception; choice B fits the pattern described in the question, so it cannot be the exception. They redefined what Americans expected from national government during crisis.",
+      "explanationEs": "New Deal programs tried to combine relief, recovery, and reform by using federal power more aggressively than any earlier peacetime administration. Choice A fits the pattern described in the question, so it cannot be the exception; choice B fits the pattern described in the question, so it cannot be the exception. They redefined what Americans expected from national government during crisis.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.34,
+        "b": 1.42,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok2-6",
+      "stem": "Based on the context of the 1920s, explain the significance of Ford's $5 workday:",
+      "stemEs": "Basándose en el contexto de los años 1920, explica la importancia del día de trabajo de $5 de Ford:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was a temporary measure that had no lasting impact on American labor practices",
+          "textEs": "Fue una medida temporal que no tuvo impacto duradero en prácticas laborales estadounidenses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It created workers who could afford products they made, fueling consumer economy",
+          "textEs": "Creó trabajadores que podían permitirse productos que fabricaban, impulsando economía de consumo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It reduced worker productivity and company profits because of higher labor expenses",
+          "textEs": "Redujo productividad del trabajador y ganancias de la compañía por mayores gastos laborales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It only applied to factory owners and managers, not assembly line production workers",
+          "textEs": "Solo aplicaba a dueños de fábrica y gerentes, no a trabajadores de línea de ensamblaje",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Henry Ford's $5 day, announced in 1914, more than doubled many workers' wages, reduced turnover, and helped workers afford the products they built. Choice D mentions the automobile industry, but it does not match the main cause or significance in the question; choice A mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question. It became a famous example of how mass production, wages, and consumer markets could reinforce one another.",
+      "explanationEs": "En el contexto de la cultura de consumo emergente, el día de trabajo de $5 de Ford (más del doble de salarios típicos) creó una nueva clase media de trabajadores que podían permitirse autos y otros bienes de consumo. Este modelo de \"capitalismo de bienestar\" apoyó el auge económico de los años 1920.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.58,
+        "b": 0.13,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-022",
+      "stem": "Henry Ford's introduction of the moving assembly line at his Highland Park plant allowed the Model T to be produced in 93 minutes rather than 728 minutes. This dramatically lowered production costs and allowed Ford to reduce the car's price repeatedly while paying workers higher wages. What broader economic principle does Ford's Model T strategy best illustrate?",
+      "stemEs": "La introducción por Henry Ford de la línea de ensamblaje en movimiento en su planta de Highland Park permitió producir el Modelo T en 93 minutos en lugar de 728 minutos. Esto redujo drásticamente los costos de producción y permitió a Ford reducir el precio del automóvil repetidamente mientras pagaba a los trabajadores salarios más altos. ¿Qué principio económico más amplio ilustra mejor la estrategia del Modelo T de Ford?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Vertical integration — controlling all stages of production from raw materials to retail sale — guarantees the highest possible profit margins.",
+          "textEs": "La integración vertical — controlar todas las etapas de producción desde las materias primas hasta la venta minorista — garantiza los márgenes de ganancia más altos posibles.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Scientific management — applying systematic time studies to eliminate inefficient worker movements — is the primary driver of industrial productivity gains.",
+          "textEs": "La gestión científica — aplicar estudios sistemáticos de tiempo para eliminar movimientos ineficientes de los trabajadores — es el principal impulsor de las ganancias de productividad industrial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Lowering prices by reducing worker wages allows manufacturers to capture greater market share while maintaining high profit margins.",
+          "textEs": "Bajar los precios reduciendo los salarios de los trabajadores permite a los fabricantes capturar mayor participación de mercado mientras mantienen altos márgenes de ganancia.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Economies of scale allow increased production volume to reduce per-unit costs, enabling lower prices that expand consumer markets and generate greater overall profit.",
+          "textEs": "Las economías de escala permiten que el aumento del volumen de producción reduzca los costos por unidad, lo que permite precios más bajos que expanden los mercados de consumidores y generan mayores ganancias en general.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's strategy exemplifies economies of scale — as volume increases, per-unit production costs decline, enabling lower prices that expand the market to more consumers, which further increases volume in a self-reinforcing cycle. His worker wage policy also exemplifies the idea that producers benefit from a consuming workforce. D captures both dimensions. A describes vertical integration, a real Ford strategy but not what the Model T pricing-wages dynamic illustrates. B describes Taylorism, which is related but more about labor efficiency. C is a supply-side description that misses the demand-expansion dimension.",
+      "explanationEs": "La estrategia de Ford ejemplifica las economías de escala: a medida que aumenta el volumen, los costos de producción por unidad disminuyen, lo que permite precios más bajos que amplían el mercado a más consumidores, lo que a su vez aumenta el volumen en un ciclo que se refuerza a sí mismo. D captura ambas dimensiones. A describe la integración vertical, no lo que ilustra la dinámica de precios y salarios del Modelo T. B describe el taylorismo, relacionado pero más sobre eficiencia laboral. C es una descripción del lado de la oferta que pasa por alto la dimensión de expansión de la demanda.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.33,
+        "b": 0.67,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-023",
+      "stem": "Ford's $5-a-day wage policy (1914) paid workers nearly double the industry average, but in exchange demanded strict behavioral compliance — workers were monitored for sobriety, gambling, and family conduct by a company \"Sociological Department.\" What does this policy reveal about the relationship between mass production and labor control in the early 20th century?",
+      "stemEs": "La política de salario de $5 al día de Ford (1914) pagaba a los trabajadores casi el doble del promedio de la industria, pero a cambio exigía estricta conformidad conductual: los trabajadores eran monitoreados por sobriedad, juegos de azar y conducta familiar por un 'Departamento Sociológico' de la empresa. ¿Qué revela esta política sobre la relación entre la producción en masa y el control laboral a principios del siglo XX?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "High wages were both an economic incentive to attract reliable workers and a behavioral compliance mechanism that extended corporate control into workers' private lives.",
+          "textEs": "Los salarios altos eran tanto un incentivo económico para atraer trabajadores confiables como un mecanismo de cumplimiento conductual que extendía el control corporativo a la vida privada de los trabajadores.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Ford's policy demonstrated a genuine commitment to worker welfare, prioritizing employees' quality of life over production efficiency.",
+          "textEs": "La política de Ford demostró un compromiso genuino con el bienestar de los trabajadores, priorizando la calidad de vida de los empleados sobre la eficiencia de producción.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Ford raised wages to encourage workers to organize unions, which he believed would create more stable labor relations in mass production facilities.",
+          "textEs": "Ford aumentó los salarios para alentar a los trabajadores a organizarse en sindicatos, lo que creía que crearía relaciones laborales más estables en las instalaciones de producción en masa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The $5 wage was purely an economic strategy to reduce worker turnover, with the behavioral requirements added later to comply with Progressive Era labor legislation.",
+          "textEs": "El salario de $5 fue puramente una estrategia económica para reducir la rotación de trabajadores, con los requisitos conductuales añadidos más tarde para cumplir con la legislación laboral de la Era Progresista.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's policy reveals that high wages were a tool of labor management — attracting reliable workers, reducing turnover that was costly on the assembly line, and extending managerial authority into workers' private lives. Wages were both an economic incentive and a behavioral compliance mechanism. A correctly identifies this dual control function. B misrepresents the intent as pure worker welfare. C describes a union strategy, not Ford's explicitly anti-union approach. D is a plausible economic analysis but misses the social control dimension.",
+      "explanationEs": "La política de Ford revela que los altos salarios eran una herramienta de gestión laboral: atraer trabajadores confiables, reducir la rotación que era costosa en la línea de ensamblaje y extender la autoridad gerencial a la vida privada de los trabajadores. A identifica correctamente esta función dual de control. B malinterpreta la intención como bienestar puro del trabajador. C describe una estrategia sindical, no el enfoque explícitamente antisindicato de Ford. D es un análisis económico plausible pero pasa por alto la dimensión de control social.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.57,
+        "b": 1.14,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-024",
+      "stem": "The mass production of automobiles in the 1920s had far-reaching secondary economic effects beyond the auto industry itself. Consider the following industries: steel, glass, rubber, petroleum, road construction, insurance, and suburban real estate. What does the growth of all these industries as a result of automobile demand best illustrate about the nature of industrial economic growth?",
+      "stemEs": "La producción en masa de automóviles en la década de 1920 tuvo efectos económicos secundarios de gran alcance más allá de la propia industria automotriz. Considera las siguientes industrias: acero, vidrio, caucho, petróleo, construcción de carreteras, seguros y bienes raíces suburbanos. ¿Qué ilustra mejor el crecimiento de todas estas industrias como resultado de la demanda de automóviles sobre la naturaleza del crecimiento económico industrial?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Economies of scale in automobile production reduced costs in all related industries by standardizing their inputs.",
+          "textEs": "Las economías de escala en la producción de automóviles redujeron los costos en todas las industrias relacionadas al estandarizar sus insumos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Mass production isolated individual industries from one another, preventing economic downturns in one sector from affecting others.",
+          "textEs": "La producción en masa aisló a las industrias individuales entre sí, evitando que las recesiones económicas en un sector afectaran a otros.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Industrial growth generates multiplier effects, where demand for a single product creates cascading economic activity across many linked industries.",
+          "textEs": "El crecimiento industrial genera efectos multiplicadores, donde la demanda de un solo producto crea actividad económica en cascada en muchas industrias vinculadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "When a single industry dominates the economy, it creates stability by ensuring that all sectors grow and decline together.",
+          "textEs": "Cuando una sola industria domina la economía, crea estabilidad al garantizar que todos los sectores crezcan y declinen juntos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The automobile's effect on steel, glass, rubber, petroleum, roads, insurance, and real estate demonstrates multiplier effects — a single industrial product generates cascading demand across multiple sectors, amplifying overall economic growth beyond what any single industry's output can account for. C correctly identifies this multiplier dynamic. A describes economies of scale rather than multiplier effects. B is the opposite of what occurred; automobile production created economic interdependence. D makes an unwarranted causal claim about economic stability and crashes.",
+      "explanationEs": "El efecto del automóvil sobre el acero, el vidrio, el caucho, el petróleo, las carreteras, los seguros y los bienes raíces demuestra los efectos multiplicadores: un solo producto industrial genera demanda en cascada en múltiples sectores, amplificando el crecimiento económico general. C identifica correctamente esta dinámica multiplicadora. A describe economías de escala en lugar de efectos multiplicadores. B es lo opuesto de lo que ocurrió; la producción de automóviles creó interdependencia económica. D hace una afirmación causal injustificada sobre la estabilidad económica.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.02,
+        "b": 0.72,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-025",
+      "stem": "Ford's assembly line required workers to perform repetitive, highly specialized tasks at a constant pace set by the line's speed. Workers had no control over their work pace, minimal variation in daily tasks, and little skill development. Despite higher wages, Ford plants had extremely high worker turnover in the early years. What does this pattern of high turnover reveal about the human costs of mass production?",
+      "stemEs": "La línea de ensamblaje de Ford requería que los trabajadores realizaran tareas repetitivas y altamente especializadas a un ritmo constante establecido por la velocidad de la línea. Los trabajadores no tenían control sobre su ritmo de trabajo, variación mínima en las tareas diarias y poco desarrollo de habilidades. A pesar de los salarios más altos, las plantas de Ford tenían una rotación de trabajadores extremadamente alta en los primeros años. ¿Qué revela este patrón de alta rotación sobre los costos humanos de la producción en masa?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Workers quickly adapted to assembly-line conditions and turnover declined once they understood the job's requirements.",
+          "textEs": "Los trabajadores se adaptaron rápidamente a las condiciones de la línea de ensamblaje y la rotación disminuyó una vez que entendieron los requisitos del trabajo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The loss of craft autonomy, skill development, and control over work pace made assembly-line labor psychologically costly, leading workers to leave even when wages were above average.",
+          "textEs": "La pérdida de autonomía artesanal, el desarrollo de habilidades y el control sobre el ritmo de trabajo hicieron que el trabajo en línea de ensamblaje fuera psicológicamente costoso, llevando a los trabajadores a marcharse incluso cuando los salarios estaban por encima del promedio.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "High turnover demonstrated that workers were economically irrational, choosing lower-paying jobs elsewhere over Ford's higher wages.",
+          "textEs": "La alta rotación demostró que los trabajadores eran económicamente irracionales, eligiendo empleos con menor paga en otros lugares sobre los salarios más altos de Ford.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Unions successfully organized Ford workers, who used turnover strategically as a bargaining tactic to force wage concessions.",
+          "textEs": "Los sindicatos organizaron exitosamente a los trabajadores de Ford, quienes usaron la rotación estratégicamente como táctica de negociación para forzar concesiones salariales.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "High turnover despite above-market wages demonstrates that workers found the dehumanizing conditions of assembly-line labor — loss of autonomy, alienation from the product, and mechanical pacing — intolerable enough to leave despite the economic incentive. B correctly identifies the human cost of deskilling and lost autonomy. A misrepresents the evidence — high turnover shows workers rejected the conditions. C draws an unjustified conclusion about economic irrationality. D makes a historically inaccurate claim about union activity; Ford was vigorously anti-union.",
+      "explanationEs": "La alta rotación a pesar de los salarios superiores al mercado demuestra que los trabajadores encontraban las condiciones deshumanizantes del trabajo en línea de ensamblaje — pérdida de autonomía, alienación del producto y ritmo mecánico — intolerables como para irse a pesar del incentivo económico. B identifica correctamente el costo humano de la descalificación y la pérdida de autonomía. A malinterpreta la evidencia: la alta rotación muestra que los trabajadores rechazaron las condiciones. C saca una conclusión injustificada sobre la irracionalidad económica. D hace una afirmación históricamente inexacta sobre la actividad sindical.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.33,
+        "b": 0.68,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-026",
+      "stem": "The rise of the automobile fundamentally changed American residential patterns. Before the automobile, most urban workers lived within walking distance of factories and workplaces. By the 1920s, the automobile enabled the growth of suburbs, with middle-class families moving away from urban centers. What was the most significant long-term consequence of this residential shift for American cities?",
+      "stemEs": "El surgimiento del automóvil cambió fundamentalmente los patrones residenciales estadounidenses. Antes del automóvil, la mayoría de los trabajadores urbanos vivían a distancia a pie de las fábricas y lugares de trabajo. Para la década de 1920, el automóvil permitió el crecimiento de los suburbios, con familias de clase media alejándose de los centros urbanos. ¿Cuál fue la consecuencia a largo plazo más significativa de este desplazamiento residencial para las ciudades estadounidenses?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Urban neighborhoods were revitalized as automobile infrastructure brought new businesses and investment to city centers.",
+          "textEs": "Los vecindarios urbanos se revitalizaron cuando la infraestructura para automóviles trajo nuevos negocios e inversiones a los centros de las ciudades.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Suburban growth stimulated commercial development along major roads, creating economic prosperity equally shared between cities and suburbs.",
+          "textEs": "El crecimiento suburbano estimuló el desarrollo comercial a lo largo de las principales carreteras, creando prosperidad económica compartida igualmente entre ciudades y suburbios.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Factory workers moved to suburbs first, leaving urban centers to wealthier residents who could afford inner-city real estate prices.",
+          "textEs": "Los trabajadores de fábrica se mudaron primero a los suburbios, dejando los centros urbanos a residentes más adinerados que podían pagar los precios de los bienes raíces en el interior de la ciudad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Middle-class suburbanization eroded the urban tax base and concentrated poverty in cities, creating long-term fiscal and social challenges for urban communities.",
+          "textEs": "La suburbanización de clase media erosionó la base impositiva urbana y concentró la pobreza en las ciudades, creando desafíos fiscales y sociales a largo plazo para las comunidades urbanas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Middle-class suburbanization drained cities of their tax base, investment, and economically stable residents, leaving behind concentrated poverty, underfunded services, and physical decay — a pattern with profound long-term consequences for urban America. D captures this structural consequence. A describes an outcome not primarily driven by the automobile in the 1920s. B is partially true about commercial activity but understates the negative fiscal and social consequences. C misrepresents the direction of demographic flow; workers generally remained in cities initially while middle-class families suburbanized.",
+      "explanationEs": "La suburbanización de clase media drenó a las ciudades de su base impositiva, inversiones y residentes económicamente estables, dejando atrás pobreza concentrada, servicios con fondos insuficientes y deterioro físico. D captura esta consecuencia estructural. A describe un resultado que no fue impulsado principalmente por el automóvil en la década de 1920. B es parcialmente verdadero sobre la actividad comercial pero subestima las consecuencias fiscales y sociales negativas. C malinterpreta la dirección del flujo demográfico.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.26,
+        "b": 1.65,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-063",
+      "stem": "During the 1920s, Henry Ford was a virulent antisemite who published a series called \"The International Jew\" in his newspaper, the Dearborn Independent, and reportedly inspired Adolf Hitler. At the same time, Ford championed higher wages, the $5 workday, and was celebrated as a humanitarian. What does this contradiction reveal about the relationship between industrial innovation, personal ideology, and American hero-worship in the 1920s?",
+      "stemEs": "Durante la década de 1920, Henry Ford era un antisemita virulento que publicó una serie llamada 'El judío internacional' en su periódico, el Dearborn Independent, y supuestamente inspiró a Adolf Hitler. Al mismo tiempo, Ford defendía salarios más altos, la jornada de $5 al día, y era celebrado como un humanitario. ¿Qué revela esta contradicción sobre la relación entre la innovación industrial, la ideología personal y el culto al héroe estadounidense en la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ford's antisemitism was unknown to the general public, so his celebration as a humanitarian reflected genuine ignorance rather than selective acceptance of his contradictions.",
+          "textEs": "El antisemitismo de Ford era desconocido para el público en general, por lo que su celebración como humanitario reflejaba una ignorancia genuina en lugar de una aceptación selectiva de sus contradicciones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "In 1920s American culture, technological and economic achievement could insulate a public figure from accountability for harmful ideological positions, with industrial genius overshadowing moral failures.",
+          "textEs": "En la cultura estadounidense de la década de 1920, el logro tecnológico y económico podía aislar a una figura pública de la responsabilidad por posiciones ideológicas dañinas, con el genio industrial eclipsando los fracasos morales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The press deliberately concealed Ford's antisemitism in exchange for advertising revenue from Ford Motor Company, preventing any public awareness of his ideology.",
+          "textEs": "La prensa ocultó deliberadamente el antisemitismo de Ford a cambio de ingresos publicitarios de Ford Motor Company, impidiendo cualquier conciencia pública de su ideología.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Most Americans who celebrated Ford were aware of his antisemitism but disagreed with it, demonstrating the era's commitment to separating professional achievement from personal beliefs.",
+          "textEs": "La mayoría de los estadounidenses que celebraban a Ford eran conscientes de su antisemitismo pero estaban en desacuerdo con él, demostrando el compromiso de la era de separar el logro profesional de las creencias personales.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's public celebration despite his virulent antisemitism reveals that in American popular culture of the 1920s, technological and economic achievement could serve as cultural insulation — allowing a figure's industrial genius to dominate public perception while his harmful ideological positions remained secondary or were actively ignored. B captures this cultural compartmentalization. A is factually inaccurate; Ford's antisemitism was widely known. C reduces a complex cultural phenomenon to media conspiracy. D makes an empirically false claim about public awareness of Ford's publications.",
+      "explanationEs": "La celebración pública de Ford a pesar de su virulento antisemitismo revela que en la cultura popular estadounidense de la década de 1920, el logro tecnológico y económico podía servir como aislamiento cultural, permitiendo que el genio industrial de una figura dominara la percepción pública mientras sus posiciones ideológicas dañinas permanecían secundarias o eran activamente ignoradas. B captura este compartimentalización cultural. A es factualmente inexacto; el antisemitismo de Ford era ampliamente conocido. C reduce un fenómeno cultural complejo a conspiración mediática. D hace una afirmación empíricamente falsa sobre el conocimiento público de las publicaciones de Ford.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.72,
+        "b": 1.66,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U4-DOK3-0005",
+      "stem": "Which conclusion about American society in the 1920s is best supported by the data?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Most Americans abandoned automobile ownership",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Automobile ownership remained constant throughout the period",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Automobiles became significantly more common across American society",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Only the wealthy could afford automobiles by 1929",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.34"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The data show car ownership spreading widely across the decade as mass production and installment buying lowered the cost of a Model T and its competitors. Choice A is wrong because ownership rose rather than fell. Choice D is wrong because the whole point of the trend is that ownership reached beyond the wealthy. The automobile reshaped housing, work, and leisure by making distance easier to cross.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.32"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.32->US.34 unchanged"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3723 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.44",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us42-dok1-2",
+      "stem": "How many acres of farmland were destroyed by the Dust Bowl?",
+      "stemEs": "¿Cuántos acres de tierra agrícola fueron destruidos por la Cuenca de Polvo?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Approximately 100 million acres",
+          "textEs": "Aproximadamente 100 millones de acres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Relief, Recovery, and Reform",
+          "textEs": "Aproximadamente 1 millón de acres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Over 9,000 banks collapsed across the nation",
+          "textEs": "Más de 500 millones de acres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Only about 3%, which was near full employment",
+          "textEs": "Menos de 10,000 acres",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Approximately 100 million acres, after drought and overplowing stripped away topsoil across the Plains. Choice C refers to bank failures, which does not fit this question, and choice D refers to a different statistic or date, which does not fit this question. This helps explain why environmental disaster and economic hardship pushed many Plains families to migrate west.",
+      "explanationEs": "La Cuenca de Polvo destruyó aproximadamente 100 millones de acres de tierra agrícola a través de las Grandes Llanuras. La peor \"Ventisca Negra\" el 14 de abril de 1935 (Domingo Negro) llevó 300 millones de toneladas de capa superior del suelo en un solo día.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.7,
+        "b": -0.61,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us42-dok1-3",
+      "stem": "What was \"Black Sunday\" during the Dust Bowl?",
+      "stemEs": "¿Qué fue el \"Domingo Negro\" durante la Cuenca de Polvo?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "April 14, 1935 - worst dust storm that turned day into night",
+          "textEs": "14 de abril de 1935 - peor tormenta de polvo que convirtió día en noche",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Dust Bowl migrants who fled to California seeking farm work",
+          "textEs": "El día que el mercado de valores colapsó",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "\"Okies\" - a derogatory term for Dust Bowl refugees",
+          "textEs": "Un día festivo religioso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "\"Dust pneumonia\" from inhaling dirt, malnutrition, and respiratory diseases",
+          "textEs": "Día que comenzó Segunda Guerra Mundial",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "\"Black Sunday\" during the Dust Bowl was april 14, 1935 - worst dust storm that turned day into night, when a massive storm turned day into night across parts of the Great Plains. Choice B is wrong because the Dust Bowl was a regional environmental disaster, not just one storm or migration label, and choice C is wrong because the Dust Bowl was a regional environmental disaster, not just one storm or migration label. The Dust Bowl showed that drought and poor land use could deepen the suffering of the Great Depression.",
+      "explanationEs": "\"Domingo Negro\" (14 de abril de 1935) fue la peor tormenta de polvo de la era de Cuenca de Polvo. Una masiva \"ventisca negra\" rodó a través de Llanuras, convirtiendo día en noche negra como boca de lobo. Electricidad estática del polvo mató motores de autos y gente no podía ver unos pies adelante.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.98,
+        "b": -1.11,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us42-dok1-4",
+      "stem": "What nickname did migrants from Oklahoma receive during the Dust Bowl?",
+      "stemEs": "¿Qué apodo recibieron migrantes de Oklahoma durante la Cuenca de Polvo?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "\"Plains People\" - referring to their Great Plains origins",
+          "textEs": "\"Gente de las Llanuras\" - refiriéndose a sus orígenes de Grandes Llanuras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "\"Dust Bowlers\" - named after the storms they fled",
+          "textEs": "\"Dust Bowlers\" - nombrados por las tormentas de las que huyeron",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "\"Okies\" - a derogatory term for Dust Bowl refugees",
+          "textEs": "\"Okies\" - un término despectivo para refugiados de la Cuenca de Polvo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "\"Hobos\" - a term for all Depression-era wanderers",
+          "textEs": "\"Hobos\" - un término para todos los vagabundos de la era de la Depresión",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "\"Okies\" - a derogatory term for Dust Bowl refugees, many of whom headed to California looking for seasonal farm work. Choice B refers to the Dust Bowl, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. The crisis changed farming practices and became a lasting symbol of the link between ecology and economics.",
+      "explanationEs": "\"Okies\" fue el término (a menudo despectivo) usado para migrantes de Cuenca de Polvo de Oklahoma y estados circundantes que huyeron a California. \"Las Uvas de la Ira\" de John Steinbeck inmortalizó sus luchas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.66,
+        "b": -1.13,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-q01",
+      "stem": "President Hoover's philosophy of 'Rugged Individualism' held that:",
+      "stemEs": "President Hoover's philosophy of 'Rugged Individualism' held that:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "State governments should replace the federal government as the primary providers of economic relief",
+          "textEs": "gobierno estatals should replace the gobierno federal as the primary providers of economic relief",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Americans should rely on their own initiative and private charity",
+          "textEs": "Americans should rely on their own initiative and private charity",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The federal government should directly employ all unemployed",
+          "textEs": "The gobierno federal should directly employ all unemployed",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Industrial corporations should be nationalized to ensure workers",
+          "textEs": "Industrial corporations should be nationalized to ensure workers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Americans should rely on their own initiative and private charity, because Hoover believed direct federal relief weakened self-reliance. Choice A refers to another event or policy from the era, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. This issue became part of the larger argument over how much the federal government should do in an economic crisis.",
+      "explanationEs": "Americans should rely on their own initiative and private charity, because Hoover believed direct federal relief weakened self-reliance. Choice A refers to another event or policy from the era, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. This issue became part of the larger argument over how much the gobierno federal should do in an economic crisis.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.7,
+        "b": -1.55,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x012",
+      "stem": "Social Security Act (1935) provided which of the following:",
+      "stemEs": "Social Security Act (1935) provided ¿Cuál de las siguientes opciones:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Free medical care for all Americans over 65",
+          "textEs": "Free medical care for all Americans over 65",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Free housing for elderly Americans who could no longer work",
+          "textEs": "Free housing for elderly Americans who could no longer work",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Retirement benefits for workers over 65, unemployment insurance",
+          "textEs": "Retirement benefits for workers over 65, desempleo insurance",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A guaranteed minimum income for all American citizens",
+          "textEs": "A guaranteed minimum income for all American citizens",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Social Security Act of 1935 created retirement pensions, unemployment insurance, and aid for several vulnerable groups. Choice A is wrong because Social Security was insurance for retirement and unemployment, not a temporary jobs program, and choice B is wrong because Social Security was insurance for retirement and unemployment, not a temporary jobs program. Programs like this changed what many Americans expected from the federal government in a national emergency.",
+      "explanationEs": "The Social Security Act of 1935 created retirement pensions, desempleo insurance, and aid for several vulnerable groups. Choice A is wrong because Social Security was insurance for retirement and desempleo, not a temporary jobs program, and choice B is wrong because Social Security was insurance for retirement and desempleo, not a temporary jobs program. Programs like this changed what many Americans expected from the gobierno federal in a national emergency.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.77,
+        "b": -1.39,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x018",
+      "stem": "Huey Long's 'Share Our Wealth' program would have addressed the Depression by:",
+      "stemEs": "Huey Long's 'Share Our Wealth' program would have addressed the depresión by:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Using high taxes on large incomes and fortunes to fund a guaranteed minimum income and free education",
+          "textEs": "Using high taxes on large incomes and fortunes to fund a guaranteed minimum income and free education",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Creating a progressive income tax that made everyone's income equal",
+          "textEs": "Creating a progressive income tax that made everyone's income equal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Nationalizing major industries and distributing profits equally among workers",
+          "textEs": "Nationalizing major industries and distributing profits equally among workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Canceling all private debt to free Americans from the burden of Depression-era loans",
+          "textEs": "Canceling all private debt to free Americans from the burden of depresión-era loans",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Using high taxes on large incomes and fortunes to fund a guaranteed minimum income and free education. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+      "explanationEs": "Using high taxes on large incomes and fortunes to fund a guaranteed minimum income and free education. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.16,
+        "b": -1.18,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x021",
+      "stem": "Father Charles Coughlin, a Catholic radio priest, criticized the New Deal from which perspective?",
+      "stemEs": "Father Charles Coughlin, a Catholic radio priest, criticized the New Deal from which perspective?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Populist and sometimes antisemitic — initially supporting FDR then demanding more radical redistribution",
+          "textEs": "Populist and sometimes antisemitic — initially supporting FDR then demanding more radical redistribution",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Socialist — arguing FDR had not gone far enough in nationalizing banks and industry",
+          "textEs": "Socialist — arguing FDR had not gone far enough in nationalizing banks and industry",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Religious — arguing New Deal programs violated Catholic social teaching on subsidiarity",
+          "textEs": "Religious — arguing New Deal programs violated Catholic social teaching on subsidiarity",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Conservative — arguing it expanded government power and undermined free enterprise",
+          "textEs": "Conservative — arguing it expanded government power and undermined libre empresa",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Populist and sometimes antisemitic — initially supporting FDR then demanding more radical redistribution. Choice C refers to another event or policy from the era, which does not fit this question, and choice B refers to bank failures, which does not fit this question. Programs like this changed what many Americans expected from the federal government in a national emergency.",
+      "explanationEs": "Populist and sometimes antisemitic — initially supporting FDR then demanding more radical redistribution. Choice C refers to another event or policy from the era, which does not fit this question, and choice B refers to bank failures, which does not fit this question. Programs like this changed what many Americans expected from the gobierno federal in a national emergency.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.75,
+        "b": -1.11,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x022",
+      "stem": "D-Day (June 6, 1944) was significant because it:",
+      "stemEs": "D-Day (June 6, 1944) fue significativo/a porque it:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Demonstrated that airpower alone could defeat a modern industrial military without ground operations",
+          "textEs": "Demonstrated that airpower alone could defeat a modern industrial military without ground operations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Ended the war in Europe within 90 days by cutting German supply lines",
+          "textEs": "Ended the war in Europe within 90 days by cutting German supply lines",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Was the first time the United States had fought German forces in Europe",
+          "textEs": "Was the first time the United States had fought German forces in Europe",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Opened a second front that forced Germany to divide its forces between East and West",
+          "textEs": "Opened a second front that forced Germany to divide its forces between East and West",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Opened a second front that forced Germany to divide its forces between East and West, opening a major western front against Nazi Germany. Choice C refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. Decisions like this helped define the United States as a global power after 1945.",
+      "explanationEs": "Opened a second front that forced Germany to divide its forces between East and West, opening a major western front against Nazi Germany. Choice C refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. Decisions like this helped define the United States as a global power after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.85,
+        "b": -1.06,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x025",
+      "stem": "The Manhattan Project was significant because it:",
+      "stemEs": "The Manhattan Project fue significativo/a porque it:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Demonstrated that government could successfully direct large-scale scientific innovation",
+          "textEs": "Demonstrated that government could successfully direct large-scale scientific innovation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Manhattan Project was notable on multiple levels: it demonstrated that government could direct large-scale",
+          "textEs": "The Manhattan Project was notable on multiple levels: it demonstrated that government could direct large-scale",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Developed nuclear weapons, fundamentally transforming military strategy",
+          "textEs": "Developed nuclear weapons, fundamentally transforming military strategy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Was the largest scientific research program in history up to that point",
+          "textEs": "Was the largest scientific research program in history up to that point",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Manhattan Project was significant on multiple levels: it demonstrated that government could direct large-scale scientific innovation, it produced nuclear weapons that transformed military strategy, and it stood as the largest scientific research program in history to that point, after a huge secret research effort produced atomic weapons. Choice A refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. Decisions like this helped define the United States as a global power after 1945.",
+      "explanationEs": "The Manhattan Project was significant on multiple levels: it demonstrated that government could direct large-scale scientific innovation, it produced nuclear weapons that transformed military strategy, and it stood as the largest scientific research program in history to that point, after a huge secret research effort produced atomic weapons. Choice A refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. Decisions like this helped define the United States as a global power after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.76,
+        "b": -1.13,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x027",
+      "stem": "The Battle of Midway (June 1942) was the turning point in the Pacific War because:",
+      "stemEs": "The Battle of Midway (June 1942) was the turning point in the Pacific War because:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Japan's defeat forced a peace negotiation that eventually produced the Treaty of Tokyo",
+          "textEs": "Japan's defeat forced a peace negotiation that eventually produced the tratado of Tokyo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "American code-breaking allowed U.S. forces to ambush the Japanese fleet with overwhelming air power",
+          "textEs": "American code-breaking allowed U.S. forces to ambush the Japanese fleet with overwhelming air power",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The U.S. captured Midway Island, establishing a base for future offensive operations",
+          "textEs": "The U.S. captured Midway Island, establishing a base for future offensive operations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The U.S. destroyed four Japanese aircraft carriers, permanently crippling Japan's naval offensive capability",
+          "textEs": "The U.S. destroyed four Japanese aircraft carriers, permanently crippling Japan's naval offensive capability",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The U.S. destroyed four Japanese aircraft carriers, permanently crippling Japan's naval offensive capability, when the United States destroyed four Japanese aircraft carriers. Choice C refers to a World War II event, which does not fit this question, and choice B refers to a World War II event, which does not fit this question. World War II policies like this reshaped American power, industry, and daily life.",
+      "explanationEs": "The U.S. destroyed four Japanese aircraft carriers, permanently crippling Japan's naval offensive capability, when the United States destroyed four Japanese aircraft carriers. Choice C refers to a Segunda Guerra Mundial event, which does not fit this question, and choice B refers to a Segunda Guerra Mundial event, which does not fit this question. Segunda Guerra Mundial policies like this reshaped American power, industry, and daily life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -1.31,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x038",
+      "stem": "The American Liberty League, formed in 1934, opposed the New Deal primarily from which perspective?",
+      "stemEs": "The American Liberty League, formed in 1934, opposed the New Deal primarily from which perspective?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Conservative business leaders who believed it threatened free enterprise and constitutional limits on government",
+          "textEs": "Conservative business leaders who believed it threatened libre empresa and constitucional limits on government",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Labor unions who believed New Deal labor provisions were too weak",
+          "textEs": "sindicatos who believed New Deal labor provisions were too weak",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Farmers who believed New Deal agricultural programs destroyed their livelihoods",
+          "textEs": "Farmers who believed New Deal agricultural programs destroyed their livelihoods",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Left-wing critics who believed it did not go far enough in redistributing wealth",
+          "textEs": "Left-wing critics who believed it did not go far enough in redistributing wealth",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Conservative business leaders who believed it threatened free enterprise and constitutional limits on government, because conservative business leaders thought the New Deal threatened free enterprise. Choice B refers to another event or policy from the era, which does not fit this question, and choice C refers to farm losses, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+      "explanationEs": "Conservative business leaders who believed it threatened libre empresa and constitucional limits on government, because conservative business leaders thought the New Deal threatened libre empresa. Choice B refers to another event or policy from the era, which does not fit this question, and choice C refers to farm losses, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.67,
+        "b": -0.22,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us42-dok2-2",
+      "stem": "Who were the \"Okies\" and where did they go?",
+      "stemEs": "¿Quiénes fueron los \"Okies\" y a dónde fueron?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dust Bowl migrants who fled to California seeking farm work",
+          "textEs": "Migrantes de la Cuenca de Polvo que huyeron a California buscando trabajo agrícola",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Oklahoma farmers who received federal loans to remain on land",
+          "textEs": "Agricultores de Oklahoma que recibieron préstamos federales para permanecer en tierra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Wealthy landowners who bought foreclosed farms at low prices",
+          "textEs": "Terratenientes ricos que compraron granjas embargadas a precios bajos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Relief workers sent by government to assist drought victims",
+          "textEs": "Trabajadores de alivio enviados por gobierno para asistir víctimas de sequía",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The \"Okies\" and where did they go were dust Bowl migrants who fled to California seeking farm work, many of whom headed to California looking for seasonal farm work. Choice B is wrong because Okies were Dust Bowl migrants, not a government agency or military group, and choice C is wrong because Okies were Dust Bowl migrants, not a government agency or military group. The Dust Bowl showed that drought and poor land use could deepen the suffering of the Great Depression.",
+      "explanationEs": "\"Okies\" fue un término despectivo para más de 400,000 migrantes de la Cuenca de Polvo de Oklahoma, Texas, Arkansas y Missouri que huyeron a California. Trabajaron como trabajadores agrícolas migrantes por salarios bajos y enfrentaron discriminación y pobreza.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.4,
+        "b": 0.15,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-x022",
+      "stem": "Herbert Hoover's initial Depression response emphasized:",
+      "stemEs": "Herbert Hoover's initial depresión response emphasized:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Immediate federal relief payments to prevent mass suffering",
+          "textEs": "Immediate federal relief payments to prevent mass suffering",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Public works programs employing millions of workers",
+          "textEs": "Public works programs employing millions of workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Devaluing the dollar to stimulate exports",
+          "textEs": "Devaluing the dollar to stimulate exports",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Voluntary cooperation between businesses and local governments, opposing",
+          "textEs": "Voluntary cooperation between businesses and local governments, opposing",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Herbert Hoover believed voluntary cooperation, local aid, and business recovery should come before large direct federal relief programs for individuals. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. His approach came to look too limited once unemployment and bank failures spiraled out of control.",
+      "explanationEs": "Herbert Hoover believed voluntary cooperation, local aid, and business recovery should come before large direct federal relief programs for individuals. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. His approach came to look too limited once desempleo and bank failures spiraled out of control.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.77,
+        "b": -0.57,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-35-x021",
+      "stem": "Herbert Hoover's response to the beginning of the Great Depression reflected his belief that:",
+      "stemEs": "Herbert Hoover's response to the beginning of the Gran Depresión reflected his belief that:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Aggressive tariff increases like Smoot-Hawley would protect American industrial and farm jobs from foreign competition",
+          "textEs": "Aggressive arancel increases like Smoot-Hawley would protect American industrial and farm jobs from foreign competition",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Large-scale federal public works programs could put unemployed Americans back to work quickly",
+          "textEs": "Large-scale federal public works programs could put unemployed Americans back to work quickly",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Voluntary cooperation between business and government — without direct federal relief — could restore economic confidence",
+          "textEs": "Voluntary cooperation between business and government — without direct federal relief — could restore economic confidence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The federal government should provide direct relief payments and unemployment insurance to Americans in need",
+          "textEs": "The gobierno federal should provide direct relief payments and desempleo insurance to Americans in need",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Great Depression deepened because stock speculation, weak banks, low farm prices, and unequal wealth made the economy fragile even before the crash. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The crisis transformed expectations about what the federal government should do in an economic emergency.",
+      "explanationEs": "The Gran Depresión deepened because stock speculation, weak banks, low farm prices, and unequal wealth made the economy fragile even before the crash. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The crisis transformed expectations about what the gobierno federal should do in an economic emergency.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.01,
+        "b": -0.41,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-x023",
+      "stem": "Hoover's Reconstruction Finance Corporation (RFC, 1932) was created to:",
+      "stemEs": "Hoover's Reconstrucción Finance Corporation (RFC, 1932) was created to:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Provide direct cash payments to unemployed Americans",
+          "textEs": "Provide direct cash payments to unemployed Americans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Regulate commodity prices to prevent agricultural deflation",
+          "textEs": "Regulate commodity prices to prevent agricultural deflation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Loan money to banks, railroads, and insurance companies to prevent collapse",
+          "textEs": "Loan money to banks, railroads, and insurance companies to prevent collapse",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Fund public works projects employing workers",
+          "textEs": "Fund public works projects employing workers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Great Depression deepened because stock speculation, weak banks, low farm prices, and unequal wealth made the economy fragile even before the crash. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The crisis transformed expectations about what the federal government should do in an economic emergency.",
+      "explanationEs": "The Gran Depresión deepened because stock speculation, weak banks, low farm prices, and unequal wealth made the economy fragile even before the crash. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The crisis transformed expectations about what the gobierno federal should do in an economic emergency.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.63,
+        "b": 0.21,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us42-dok1-5",
+      "stem": "What caused the severe drought that contributed to the Dust Bowl?",
+      "stemEs": "¿Qué causó la sequía severa que contribuyó a la Cuenca de Polvo?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only human farming practices caused the environmental disaster without any drought",
+          "textEs": "Solo prácticas agrícolas humanas causaron el desastre ambiental sin ninguna sequía",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Natural climate patterns combined with a decade-long lack of adequate rainfall",
+          "textEs": "Patrones climáticos naturales combinados con una falta de lluvia adecuada de una década",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Secret government weather experiments that accidentally disrupted normal rain patterns",
+          "textEs": "Experimentos meteorológicos gubernamentales secretos que accidentalmente interrumpieron lluvias normales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "There was no significant drought and the Dust Bowl was greatly exaggerated by media",
+          "textEs": "No hubo sequía significativa y la Cuenca de Polvo fue grandemente exagerada por los medios",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Natural climate patterns combined with a decade-long lack of adequate rainfall, after drought hit land already weakened by overplowing. Choice D refers to the Dust Bowl, which does not fit this question, and choice A refers to farm losses, which does not fit this question. This helps explain why environmental disaster and economic hardship pushed many Plains families to migrate west.",
+      "explanationEs": "Cuenca de Polvo resultó de causas naturales y humanas. Sequía severa de patrones climáticos naturales duró durante años 1930. Sin embargo, prácticas agrícolas pobres hicieron efectos de sequía catastróficos al destruir suelo que podría haber resistido condiciones secas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.48,
+        "b": -0.41,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us42-dok2-3",
+      "stem": "What health problems did people face during the Dust Bowl?",
+      "stemEs": "¿Qué problemas de salud enfrentó la gente durante la Cuenca de Polvo?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "\"Dust pneumonia\" from inhaling dirt, malnutrition, and respiratory diseases",
+          "textEs": "\"Neumonía de polvo\" por inhalar suciedad, desnutrición y enfermedades respiratorias",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Importance of crop rotation, contour plowing, and maintaining native grasses",
+          "textEs": "No ocurrieron problemas de salud significativos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Natural climate patterns combined with a decade-long lack of adequate rainfall",
+          "textEs": "Solo alergias menores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Soil Conservation Service taught sustainable farming practices and planted shelterbelts",
+          "textEs": "Salud mejorada debido a estilo de vida al aire libre",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "\"Dust pneumonia\" from inhaling dirt, malnutrition, and respiratory diseases, after drought hit land already weakened by overplowing. Choice C refers to another event or policy from the era, which does not fit this question, and choice D refers to farm losses, which does not fit this question. The crisis changed farming practices and became a lasting symbol of the link between ecology and economics.",
+      "explanationEs": "Víctimas de la Cuenca de Polvo sufrieron \"neumonía de polvo\" por inhalar partículas finas de suciedad que dañaron pulmones, enfermedades respiratorias crónicas, desnutrición por fracasos de cultivos e infecciones. Muchos niños y ancianos murieron por estas condiciones.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.66,
+        "b": -0.45,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-q02",
+      "stem": "The Reconstruction Finance Corporation (RFC), created by Hoover in 1932, was significant because it:",
+      "stemEs": "The Reconstrucción Finance Corporation (RFC), created by Hoover in 1932, fue significativo/a porque it:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Nationalized failing banks by purchasing them with federal funds, absorbing their losses, and converting them to government-owned institutions",
+          "textEs": "Nationalized failing banks by purchasing them with federal funds, absorbing their losses, and converting them to government-owned institutions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Rebuilt war-damaged infrastructure in Western Europe as a plan to revive American export markets and stabilize trading partners",
+          "textEs": "Rebuilt war-damaged infrastructure in Western Europe as a plan to revive American export markets and stabilize trading partners",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Provided direct cash relief payments to unemployed individuals and poor families to restore consumer household spending",
+          "textEs": "Provided direct cash relief payments to unemployed individuals and poor families to restore consumer household spending",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Loaned federal money to banks, railroads, and large corporations on the theory that stabilizing major institutions would revive the broader economy",
+          "textEs": "Loaned federal money to banks, railroads, and large corporations on the theory that stabilizing major institutions would revive the broader economy",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Loaned federal money to banks, railroads, and large corporations on the theory that stabilizing major institutions would revive the broader economy, as Hoover tried to stabilize major institutions rather than give direct aid to individuals. Choice A refers to bank failures, which does not fit this question, and choice B refers to a public works project, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
+      "explanationEs": "Loaned federal money to banks, railroads, and large corporations on the theory that stabilizing major institutions would revive the broader economy, as Hoover tried to stabilize major institutions rather than give direct aid to individuals. Choice A refers to bank failures, which does not fit this question, and choice B refers to a public works project, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.17,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-q03",
+      "stem": "The Bonus Army of 1932 consisted of:",
+      "stemEs": "The Bonus Army of 1932 consisted of:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A private security force hired by the Hoover administration to guard",
+          "textEs": "A private security force hired by the Hoover administration to guard",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "World War I veterans who marched to Washington demanding early",
+          "textEs": "Primera Guerra Mundial veterans who marched to Washington demanding early",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Unemployed civilians who falsely claimed veteran status to receive",
+          "textEs": "Unemployed civilians who falsely claimed veteran status to receive",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Active military personnel protesting pay cuts ordered by the Hoover",
+          "textEs": "Active military personnel protesting pay cuts ordered by the Hoover",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "World War I veterans who marched to Washington demanding early, which made Hoover seem harsh toward struggling veterans. Choice D is wrong because it does not describe the veterans' demand for early bonus payments, and choice A is wrong because it does not describe the veterans' demand for early bonus payments. Hoover-era debates like this set the stage for Roosevelt to expand the federal role after 1933.",
+      "explanationEs": "Primera Guerra Mundial veterans who marched to Washington demanding early, which made Hoover seem harsh toward struggling veterans. Choice D is wrong because it does not describe the veterans' demand for early bonus payments, and choice A is wrong because it does not describe the veterans' demand for early bonus payments. Hoover-era debates like this set the stage for Roosevelt to expand the federal role after 1933.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.76,
+        "b": 0.07,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-q07",
+      "stem": "Hoover's public works projects, including the Hoover Dam (Boulder Dam), were intended to address the Depression by:",
+      "stemEs": "Hoover's public works projects, including the Hoover Dam (Boulder Dam), were intended to address the depresión by:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Demonstrating that the government could build infrastructure more",
+          "textEs": "Demonstrating that the government could build infrastructure more",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Providing direct employment to all unemployed Americans through",
+          "textEs": "Providing direct employment to all unemployed Americans through",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Creating some employment through large construction projects while maintaining his philosophical",
+          "textEs": "Creating some employment through large construction projects while maintaining his philosophical",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Replacing private construction companies with government-operated",
+          "textEs": "Replacing private construction companies with government-operated",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Creating some employment through large construction projects while maintaining his philosophical opposition to direct federal relief, which provided jobs and power but did not solve mass unemployment. Choice B refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. This issue became part of the larger argument over how much the federal government should do in an economic crisis.",
+      "explanationEs": "Creating some employment through large construction projects while maintaining his philosophical opposition to direct federal relief, which provided jobs and power but did not solve mass desempleo. Choice B refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. This issue became part of the larger argument over how much the gobierno federal should do in an economic crisis.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.74,
+        "b": -0.59,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x013",
+      "stem": "The National Labor Relations Act (Wagner Act, 1935) was significant because it:",
+      "stemEs": "The National Labor Relations Act (Wagner Act, 1935) fue significativo/a porque it:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Established a federal minimum wage of $1 per hour",
+          "textEs": "Established a federal minimum wage of $1 per hour",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Required all American workers to join unions",
+          "textEs": "Required all American workers to join unions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Guaranteed workers the right to organize and bargain collectively",
+          "textEs": "Guaranteed workers the right to organize and bargain collectively",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Required all companies with more than 500 employees to adopt profit-sharing programs",
+          "textEs": "Required all companies with more than 500 employees to adopt profit-sharing programs",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Guaranteed workers the right to organize and bargain collectively, by protecting unions and collective bargaining. Choice B refers to another event or policy from the era, which does not fit this question, and choice D refers to a different statistic or date, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "explanationEs": "Guaranteed workers the right to organize and bargain collectively, by protecting unions and collective bargaining. Choice B refers to another event or policy from the era, which does not fit this question, and choice D refers to a different statistic or date, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.52,
+        "b": -0.37,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x014",
+      "stem": "The Fair Labor Standards Act (1938) established:",
+      "stemEs": "The Fair Labor Standards Act (1938) established:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mandatory paid vacation for all full-time workers",
+          "textEs": "Mandatory paid vacation for all full-time workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The first constitutional amendment protecting labor rights",
+          "textEs": "The first constitucional enmienda protecting labor rights",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Universal health insurance for all American workers",
+          "textEs": "Universal health insurance for all American workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A federal minimum wage and maximum work week",
+          "textEs": "A federal minimum wage and maximum work week",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A federal minimum wage (25 cents per hour) and maximum work week (44 hours), and prohibited child labor in industries engaged in interstate commerce, by setting national rules for wages, hours, and child labor. Choice B refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+      "explanationEs": "A federal minimum wage (25 cents per hour) and maximum work week (44 hours), and prohibited child labor in industries engaged in interstate commerce, by setting national rules for wages, hours, and child labor. Choice B refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.73,
+        "b": 0.02,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x019",
+      "stem": "Business conservatives criticized the New Deal because they believed:",
+      "stemEs": "Business conservatives criticized the New Deal because they believed:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Government intervention was unnecessary, unconstitutional, and would undermine free enterprise",
+          "textEs": "Government intervention was unnecessary, unconstitucional, and would undermine libre empresa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The New Deal redistributed wealth from productive businesses to unworthy relief recipients",
+          "textEs": "The New Deal redistributed wealth from productive businesses to unworthy relief recipients",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Opposition to New Deal policies from business leaders and the Supreme Court",
+          "textEs": "Opposition to New Deal policies from business leaders and the Corte Suprema",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "FDR's programs were too limited and could not produce the economic recovery America needed",
+          "textEs": "FDR's programs were too limited and could not produce the economic recovery America needed",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both B and C represent core conservative critiques of the New Deal. Choice B refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "explanationEs": "Both B and C represent core conservative critiques of the New Deal. Choice B refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.67,
+        "b": 0.57,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x020",
+      "stem": "The Supreme Court struck down several New Deal programs in 1935-36, including the NRA and AAA, primarily because:",
+      "stemEs": "The Corte Suprema struck down several New Deal programs in 1935-36, including the NRA and AAA, primarily because:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The programs violated the 5th Amendment's protection against government taking of property",
+          "textEs": "The programs violated the 5th enmienda's protection against government taking of property",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Court found Congress had exceeded its commerce power and unconstitutionally delegated legislative authority",
+          "textEs": "The Court found Congreso had exceeded its commerce power and unconstitucionally delegated legislative authority",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The programs violated freedom of contract protected by the 14th Amendment",
+          "textEs": "The programs violated freedom of contract protected by the 14th enmienda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Court's conservative majority was politically motivated to defeat FDR's reelection",
+          "textEs": "The Court's conservative majority was politically motivated to defeat FDR's reelection",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Court found Congress had exceeded its commerce power and unconstitutionally delegated legislative authority. Choice A refers to a different statistic or date, which does not fit this question, and choice C refers to a different statistic or date, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+      "explanationEs": "The Court found Congreso had exceeded its commerce power and unconstitucionally delegated legislative authority. Choice A refers to a different statistic or date, which does not fit this question, and choice C refers to a different statistic or date, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.69,
+        "b": 0.06,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x023",
+      "stem": "The island-hopping strategy in the Pacific was designed to:",
+      "stemEs": "The island-hopping strategy in the Pacific was designed to:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The strategy combined bypassing fortified Japanese positions to cut their supply lines with capturing islands within",
+          "textEs": "The strategy combined bypassing fortified Japanese positions to cut their supply lines with capturing islands within",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Capture each Japanese island systematically before advancing toward the home islands",
+          "textEs": "Capture each Japanese island systematically before advancing toward the home islands",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Avoid costly assaults by bypassing fortified Japanese positions to cut supply lines",
+          "textEs": "Avoid costly assaults by bypassing fortified Japanese positions to cut supply lines",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Establish air bases within bombing range of the Japanese home islands",
+          "textEs": "Establish air bases within bombing range of the Japanese home islands",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The strategy combined bypassing fortified Japanese positions to cut their supply lines with capturing islands within bombing range of the Japanese home islands. Choice C refers to a World War II event, which does not fit this question, and choice D refers to a World War II event, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Great Depression.",
+      "explanationEs": "The strategy combined bypassing fortified Japanese positions to cut their supply lines with capturing islands within bombing range of the Japanese home islands. Choice C refers to a Segunda Guerra Mundial event, which does not fit this question, and choice D refers to a Segunda Guerra Mundial event, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Gran Depresión.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.74,
+        "b": -0.52,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x026",
+      "stem": "The 'Europe First' strategy adopted by the U.S. after Pearl Harbor reflected the assessment that:",
+      "stemEs": "The 'Europe First' strategy adopted by the U.S. after Pearl Harbor reflected the assessment that:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "British and Soviet allies needed immediate help in Europe while the Pacific theater could wait",
+          "textEs": "British and Soviet allies needed immediate help in Europe while the Pacific theater could wait",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Nazi Germany was the more powerful and dangerous enemy and must be defeated before full resources shifted to the Pacific",
+          "textEs": "Nazi Germany was the more powerful and dangerous enemy and must be defeated before full resources shifted to the Pacific",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Japan posed a greater immediate threat to U.S. territory than Germany",
+          "textEs": "Japan posed a greater immediate threat to U.S. territory than Germany",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Japan posed a greater immediate threat to U.S. territory than Germany without any opposition",
+          "textEs": "Japan posed a greater immediate threat to U.S. territory than Germany without any opposition",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both B and C reflect the reasoning behind the Europe First strategy, after the surprise attack pushed the United States into World War II. Choice C refers to a World War II event, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. This event was part of the larger transformation of the United States during World War II.",
+      "explanationEs": "Both B and C reflect the reasoning behind the Europe First strategy, after the surprise attack pushed the United States into Segunda Guerra Mundial. Choice C refers to a Segunda Guerra Mundial event, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. This event was part of the larger transformation of the United States during Segunda Guerra Mundial.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.24,
+        "b": -0.41,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x031",
+      "stem": "Operation Overlord's success on D-Day depended critically on:",
+      "stemEs": "Operation Overlord's success on D-Day depended critically on:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Stalin's agreement to launch a simultaneous eastern offensive that prevented Germany from transferring divisions west",
+          "textEs": "Stalin's agreement to launch a simultaneous eastern offensive that prevented Germany from transferring divisions west",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Allied deception operations (Operation Fortitude) that convinced Germany the main invasion would come at Pas-de-Calais",
+          "textEs": "Allied deception operations (Operation Fortitude) that convinced Germany the main invasion would come at Pas-de-Calais",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The RAF's complete air superiority over Normandy that prevented any German air attacks on the invasion fleet",
+          "textEs": "The RAF's complete air superiority over Normandy that prevented any German air attacks on the invasion fleet",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both Allied deception operations and Soviet pressure on the eastern front contributed to the success of the Normandy landing",
+          "textEs": "Both Allied deception operations and Soviet pressure on the eastern front contribuyó a the success of the Normandy landing",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both Allied deception operations and Soviet pressure on the eastern front contributed to the success of the Normandy landing, opening a major western front against Nazi Germany. Choice B refers to a World War II event, which does not fit this question, and choice A refers to a World War II event, which does not fit this question. Decisions like this helped define the United States as a global power after 1945.",
+      "explanationEs": "Both Allied deception operations and Soviet pressure on the eastern front contribuyó a the success of the Normandy landing, opening a major western front against Nazi Germany. Choice B refers to a Segunda Guerra Mundial event, which does not fit this question, and choice A refers to a Segunda Guerra Mundial event, which does not fit this question. Decisions like this helped define the United States as a global power after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.83,
+        "b": -0.54,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x032",
+      "stem": "Operation Overlord required three years of preparation primarily because:",
+      "stemEs": "Operation Overlord required three years of preparation primarily because:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Agricultural price stabilization programs that needed time to reduce rural unemployment",
+          "textEs": "Agricultural price stabilization programs that needed time to reduce rural desempleo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Assembling ships, landing craft, troops, and air support for the largest amphibious operation in history",
+          "textEs": "Assembling ships, landing craft, troops, and air support for the largest amphibious operation in history",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Soviet Union's insistence on waiting until Germany was sufficiently weakened on the Eastern Front",
+          "textEs": "The Soviet Union's insistence on waiting until Germany was sufficiently weakened on the Eastern Front",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Allied command structures and joint planning staffs had to be built before detailed operations could begin",
+          "textEs": "Allied command structures and joint planning staffs had to be built before detailed operations could begin",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both A and B explain why D-Day required three years, opening a major western front against Nazi Germany. Choice B refers to the Bonus Army, which does not fit this question, and choice C refers to a World War II event, which does not fit this question. This event was part of the larger transformation of the United States during World War II.",
+      "explanationEs": "Both A and B explain why D-Day required three years, opening a major western front against Nazi Germany. Choice B refers to the Bonus Army, which does not fit this question, and choice C refers to a Segunda Guerra Mundial event, which does not fit this question. This event was part of the larger transformation of the United States during Segunda Guerra Mundial.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.79,
+        "b": -0.04,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x034",
+      "stem": "Father Charles Coughlin initially supported FDR but later attacked the New Deal as insufficiently radical because it:",
+      "stemEs": "Father Charles Coughlin initially supported FDR but later attacked the New Deal as insufficiently radical because it:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Failed to nationalize the banking system and redistribute wealth",
+          "textEs": "Faicondujo a nationalize the banking system and redistribute wealth",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Spent too much money on foreign aid instead of helping Americans",
+          "textEs": "Spent too much money on foreign aid instead of helping Americans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Refused to address racial segregation in New Deal programs",
+          "textEs": "Refused to address racial segregación in New Deal programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Gave too much power to labor unions at the expense of small businesses",
+          "textEs": "Gave too much power to sindicatos at the expense of small businesses",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Failed to nationalize the banking system and redistribute wealth. Choice C refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "explanationEs": "Faicondujo a nationalize the banking system and redistribute wealth. Choice C refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.48,
+        "b": -0.53,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x035",
+      "stem": "Senator Huey Long's 'Share Our Wealth' plan proposed to address the Depression by:",
+      "stemEs": "Senator Huey Long's 'Share Our Wealth' plan proposed to address the depresión by:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Providing direct employment through massive public works programs",
+          "textEs": "Providing direct employment through massive public works programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Capping personal fortunes and using the revenue to guarantee every family a minimum income",
+          "textEs": "Capping personal fortunes and using the revenue to guarantee every family a minimum income",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Reducing the national debt through higher tariffs on imported goods",
+          "textEs": "Reducing the national debt through higher arancels on imported goods",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Expanding the money supply by returning to a bimetallic silver and gold standard",
+          "textEs": "Expanding the money supply by returning to a bimetallic silver and gold standard",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Capping personal fortunes and using the revenue to guarantee every family a minimum income. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to a public works project, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Great Depression.",
+      "explanationEs": "Capping personal fortunes and using the revenue to guarantee every family a minimum income. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to a public works project, which does not fit this question. It is part of the larger chain of events that turned a market crash into the Gran Depresión.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.31,
+        "b": -0.36,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x036",
+      "stem": "FDR's 'court-packing' plan of 1937, which proposed adding up to six new justices to the Supreme Court, was intended to:",
+      "stemEs": "FDR's 'court-packing' plan of 1937, which proposed adding up to six new justices to the Corte Suprema, was intended to:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Replace retiring justices with younger judges who could serve for more decades",
+          "textEs": "Replace retiring justices with younger judges who could serve for more decades",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Overcome the conservative justices who had struck down key New Deal programs",
+          "textEs": "Overcome the conservative justices who had struck down key New Deal programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Create more ideological diversity on the Court to represent all regions of the U.S",
+          "textEs": "Create more ideological diversity on the Court to represent all regions of the U.S",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Comply with a constitutional requirement to expand the Court as the nation grew",
+          "textEs": "Comply with a constitucional requirement to expand the Court as the nation grew",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Overcome the conservative justices who had struck down key New Deal programs, because Roosevelt wanted a Court more likely to uphold New Deal laws. Choice A is wrong because Roosevelt wanted to add justices, not remove the Court entirely, and choice C is wrong because Roosevelt wanted to add justices, not remove the Court entirely. Programs like this changed what many Americans expected from the federal government in a national emergency.",
+      "explanationEs": "Overcome the conservative justices who had struck down key New Deal programs, because Roosevelt wanted a Court more likely to uphold New Deal laws. Choice A is wrong because Roosevelt wanted to add justices, not remove the Court entirely, and choice C is wrong because Roosevelt wanted to add justices, not remove the Court entirely. Programs like this changed what many Americans expected from the gobierno federal in a national emergency.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.49,
+        "b": -0.22,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x039",
+      "stem": "The Supreme Court struck down the AAA in 1936 (United States v. Butler) on the grounds that:",
+      "stemEs": "The Corte Suprema struck down the AAA in 1936 (United States v. Butler) on the grounds that:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The AAA violated the First Amendment rights of farmers",
+          "textEs": "The AAA violated the First enmienda rights of farmers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The AAA's processing tax was an unconstitutional use of the taxing power",
+          "textEs": "The AAA's processing tax was an unconstitucional use of the taxing power",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Agricultural price supports violated the Fourteenth Amendment's equal protection clause",
+          "textEs": "Agricultural price supports violated the Fourteenth enmienda's equal protection clause",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The power to regulate agriculture belonged to states, not the federal government",
+          "textEs": "The power to regulate agriculture belonged to states, not the gobierno federal",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The AAA's processing tax was an unconstitutional use of the taxing power. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to farm losses, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+      "explanationEs": "The AAA's processing tax was an unconstitucional use of the taxing power. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to farm losses, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -0.17,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x041",
+      "stem": "African American leaders criticized the New Deal because many of its programs:",
+      "stemEs": "African American leaders criticized the New Deal because many of its programs:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Were funded primarily through taxes that disproportionately burdened Black workers",
+          "textEs": "Were funded primarily through taxes that disproportionately burdened Black workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Were deliberately designed to destroy Black community organizations",
+          "textEs": "Were deliberately designed to destroy Black community organizations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Were administered by Southern officials who excluded or discriminated against Black workers",
+          "textEs": "Were administered by Southern officials who excluded or discriminated against Black workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Explicitly prohibited Black Americans from receiving any federal assistance",
+          "textEs": "Explicitly prohibited Black Americans from receiving any federal assistance",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Were administered by Southern officials who excluded or discriminated against Black workers. Choice A refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+      "explanationEs": "Were administered by Southern officials who excluded or discriminated against Black workers. Choice A refers to another event or policy from the era, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. It shows how the New Deal expanded federal responsibility for relief, recovery, and reform.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.96,
+        "b": -0.39,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x043",
+      "stem": "The 1937 recession within the Depression (the 'Roosevelt Recession') was largely caused by:",
+      "stemEs": "The 1937 recesión within the depresión (the 'Roosevelt recesión') was largely caused by:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Supreme Court striking down all major New Deal employment and recovery programs in a series of rulings",
+          "textEs": "The Corte Suprema striking down all major New Deal employment and recovery programs in a series of rulings",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A new wave of bank failures in 1937 after FDIC insurance reserves were exhausted by accumulated claims",
+          "textEs": "A new wave of bank failures in 1937 after FDIC insurance reserves were exhausted by accumulated claims",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "FDR cutting government spending and raising taxes prematurely, withdrawing stimulus from a still-fragile economy",
+          "textEs": "FDR cutting government spending and raising taxes prematurely, withdrawing stimulus from a still-fragile economy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Republican senators blocking all New Deal spending bills in Congress",
+          "textEs": "repúblicaan senators blocking all New Deal spending bills in Congreso",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "FDR cutting government spending and raising taxes prematurely, withdrawing stimulus from the still-fragile economy. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected.",
+      "explanationEs": "FDR cutting government spending and raising taxes prematurely, withdrawing stimulus from the still-fragile economy. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. The depresión revealed how closely jobs, banks, farms, and consumer spending were connected.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.97,
+        "b": -0.38,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U5-DOK2-0004",
+      "stem": "Based on the excerpt, which was a primary purpose of the Tennessee Valley Authority?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To regulate banking practices in the Tennessee River Valley",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To establish a national park in the Smoky Mountains",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To provide flood control, navigation, and electrical power generation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To enforce racial segregation in federal employment",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Tennessee Valley Authority, created in 1933, built dams that controlled flooding, improved river navigation, and generated cheap electricity across a seven-state region. Choice A is wrong because banking regulation belonged to other New Deal laws. Choice B is wrong because Great Smoky Mountains National Park was authorized separately. The TVA is the New Deal's largest experiment in regional planning, and it brought electricity to much of rural Tennessee for the first time.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1,
+        "b": 0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U5-DOK2-0017",
+      "stem": "How did President Hoover's philosophy of 'Rugged Individualism' shape his response to the Great Depression?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It led him to support massive federal public works programs to immediately employ all unemployed Americans",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It prompted him to nationalize failing banks to prevent the financial system from collapsing",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It caused him to resist providing direct federal relief to citizens, believing individuals and charities should handle hardship",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It convinced him to dramatically raise tariffs to protect American workers from foreign competition",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Hoover's 'Rugged Individualism' held that character and self-reliance were built through overcoming hardship without government handouts; this belief led him to oppose direct federal relief, fearing it would undermine American values and create dependency.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": -0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U5-DOK2-0018",
+      "stem": "What was the primary purpose of the Reconstruction Finance Corporation (RFC), established by President Hoover in 1932?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To provide direct cash payments to unemployed American workers to stimulate consumer spending",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To fund the rebuilding of Southern states still recovering from the Civil War era",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To create jobs by funding new construction projects like roads, bridges, and public buildings",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To lend federal money to banks, railroads, and other institutions to prevent further economic collapse",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The RFC was designed to make emergency loans to banks, railroads, mortgage associations, and other large institutions to stabilize them and prevent further cascading failures — consistent with Hoover's preference for indirect, top-down economic intervention over direct relief.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.6,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U5-DOK2-0019",
+      "stem": "How did Hoover's handling of the Bonus Army in 1932 damage his public image?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "By ordering the military to forcibly disperse veterans and their families, he appeared callous toward struggling Americans",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "By granting the veterans early bonus payments, he appeared to reward lawbreaking and undermined fiscal discipline",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "By allowing veterans to camp indefinitely in Washington, he appeared unable to maintain public order",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "By arresting veteran leaders, he appeared to target the most vulnerable members of society",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "When General MacArthur used cavalry, infantry, and tear gas to drive WWI veterans and their families out of their camp, images of soldiers attacking their own countrymen proved a public relations disaster for Hoover, reinforcing perceptions that he was indifferent to ordinary Americans' suffering.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U5-DOK2-0020",
+      "stem": "Which statement best explains why Hoover's public works projects were insufficient to address Depression-era unemployment?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The projects were completed too quickly, ending employment before the Depression was over",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The scale of unemployment was so vast that limited public works could not absorb the millions out of work",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congress refused to fund any of Hoover's public works proposals, preventing them from being built",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Hoover directed all public works funds to rural areas, leaving urban unemployment unaddressed",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By 1933, unemployment reached 25% — roughly 13 million workers. Hoover's public works projects, while real, employed only a fraction of those out of work; the scale of the economic catastrophe simply exceeded the government's willingness to spend.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-36-x019",
+      "stem": "The Bonus Army march on Washington (1932) was significant because:",
+      "stemEs": "The Bonus Army march on Washington (1932) fue significativo/a porque:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It successfully pressured Congress to pass immediate bonus payments to WWI veterans",
+          "textEs": "It successfully pressured Congreso to pass immediate bonus payments to WWI veterans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It inspired Roosevelt's promise to create the Civilian Conservation Corps for veterans",
+          "textEs": "It inspired Roosevelt's promise to create the Civilian Conservation Corps for veterans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It marked the first time since the Civil War that American troops fired on American citizens",
+          "textEs": "It marked the first time since the Guerra Civil that American troops fired on American citizens",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Hoover's decision to use the Army to remove the marchers damaged his public standing during the 1932 election",
+          "textEs": "Hoover's decision to use the Army to remove the marchers damaged his public standing during the 1932 election",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Bonus Army march became politically important when Hoover sent the Army to remove World War I veterans from Washington, making him seem harsh and out of touch in 1932. Choice A is wrong because the marchers did not win immediate payment, and choice C exaggerates the event's military violence. The episode badly damaged Hoover's image during the election year.",
+      "explanationEs": "The Bonus Army march became politically important when Hoover sent the Army to remove Primera Guerra Mundial veterans from Washington, making him seem harsh and out of touch in 1932. Choice A is wrong because the marchers did not win immediate payment, and choice C exaggerates the event's military violence. The episode badly damaged Hoover's image during the election year.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.39,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-32-x025",
+      "stem": "The Bonus Army's dispersal by MacArthur's troops affected the 1932 election because:",
+      "stemEs": "The Bonus Army's dispersal by MacArthur's troops affected the 1932 election because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Expansion of automobile ownership across social classes",
+          "textEs": "Expansion of automobile ownership across social classes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It demonstrated Hoover's willingness to use military force against peaceful protesters",
+          "textEs": "It demonstrated Hoover's willingness to use military force against peaceful protesters",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Roosevelt used the event to define a more compassionate vision of government",
+          "textEs": "Roosevelt used the event to define a more compassionate vision of government",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It mobilized veterans who campaigned actively against Hoover",
+          "textEs": "It mobilized veterans who campaigned actively against Hoover",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Bonus Army episode hurt Hoover politically because the use of troops against veterans made him look harsh, and Roosevelt benefited by offering a more compassionate tone about government. Choice B is true but incomplete by itself, and choice C is also true, so the answer combining them is best. The incident became one of the most damaging symbols of Hoover's failed public image in 1932.",
+      "explanationEs": "The Bonus Army episode hurt Hoover politically because the use of troops against veterans made him look harsh, and Roosevelt benefited by offering a more compassionate tone about government. Choice B is true but incomplete by itself, and choice C is also true, so the answer combining them is best. The incident became one of the most damaging symbols of Hoover's failed public image in 1932.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.91,
+        "b": 0.42,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us42-dok3-1",
+      "stem": "What long-term lessons did farmers learn from the Dust Bowl about sustainable agriculture?",
+      "stemEs": "¿Qué lecciones a largo plazo aprendieron los agricultores de la Cuenca de Polvo sobre agricultura sostenible?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Importance of crop rotation, contour plowing, and maintaining native grasses",
+          "textEs": "Importancia de rotación de cultivos, arado en contorno y mantener pastos nativos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "That farming should be completely abandoned throughout the Great Plains region",
+          "textEs": "Que agricultura debería ser completamente abandonada en toda la región de Grandes Llanuras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "That intensive overplowing was actually beneficial for increasing crop yields",
+          "textEs": "Que arar intensivo en exceso era realmente beneficioso para aumentar rendimientos de cultivos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "That soil conservation and drought prevention techniques simply don't work",
+          "textEs": "Que técnicas de conservación de suelo y prevención de sequía simplemente no funcionan",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Importance of crop rotation, contour plowing, and maintaining native grasses, after drought hit land already weakened by overplowing. Choice C refers to farm losses, which does not fit this question, and choice B refers to farm losses, which does not fit this question. The Dust Bowl showed that drought and poor land use could deepen the suffering of the Great Depression.",
+      "explanationEs": "La Cuenca de Polvo enseñó a los agricultores lecciones cruciales sobre conservación del suelo: rotar cultivos para preservar nutrientes del suelo, usar arado en contorno para prevenir erosión, mantener cortavientos y pastos nativos y evitar arar en exceso. Estas prácticas se convirtieron en estándar en agricultura moderna.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.17,
+        "b": 0.65,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us42-dok3-2",
+      "stem": "How did the Dust Bowl demonstrate the relationship between human activity and environmental consequences?",
+      "stemEs": "¿Cómo demostró la Cuenca de Polvo la relación entre actividad humana y consecuencias ambientales?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Poor farming practices destroyed natural ecosystem, showing humans can create environmental disasters",
+          "textEs": "Prácticas agrícolas pobres destruyeron ecosistema natural, mostrando que humanos pueden crear desastres ambientales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Southern white Democrats supported segregation while African Americans increasingly demanded civil rights",
+          "textEs": "Fue enteramente desastre natural sin causa humana",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Depression made farmers too poor to invest in soil conservation; drought made Depression worse",
+          "textEs": "Probó que agricultura no tiene impacto ambiental",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Soil Conservation Service taught sustainable farming practices and planted shelterbelts",
+          "textEs": "Ambiente fue más fuerte después de Cuenca de Polvo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Poor farming practices destroyed natural ecosystem, showing humans can create environmental disasters, after drought hit land already weakened by overplowing. Choice D refers to farm losses, which does not fit this question, and choice C refers to farm losses, which does not fit this question. The crisis changed farming practices and became a lasting symbol of the link between ecology and economics.",
+      "explanationEs": "Cuenca de Polvo fue desastre ecológico causado por humanos. Agricultores removieron pastos nativos de pradera que mantenían suelo en su lugar, araron en exceso sin considerar erosión e ignoraron prácticas sostenibles. Cuando llegó sequía, ecosistema destruido no pudo resistir. Esto demostró cómo acciones humanas pueden desencadenar catástrofes ambientales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.49,
+        "b": 0.74,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-q05",
+      "stem": "Which statement best explains the fundamental tension in Hoover's approach to the Great Depression?",
+      "stemEs": "¿Qué afirmación describe mejor explains the fundamental tension in Hoover's approach to the Gran Depresión?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hoover was willing to provide direct federal relief but was blocked by a hostile Democratic Congress",
+          "textEs": "Hoover was willing to provide direct federal relief but was blocked by a hostile democrático Congreso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Hoover wanted to help ordinary Americans but believed the Constitution denied him authority to act",
+          "textEs": "Hoover wanted to help ordinary Americans but believed the Constitución denied him authority to act",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Hoover's ideological commitment to limited government and individual self-reliance conflicted with the unprecedented scale of suffering the Depression produced",
+          "textEs": "Hoover's ideological commitment to limited government and individual self-reliance conflicted with the unprecedented scale of suffering the depresión produced",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Hoover believed the Depression was caused largely by European economic collapse and could only be solved by international action",
+          "textEs": "Hoover believed the depresión was caused largely by European economic collapse and could only be solved by international action",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Hoover's ideological commitment to limited government and individual self-reliance conflicted with the unprecedented scale of suffering the Depression produced. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
+      "explanationEs": "Hoover's ideological commitment to limited government and individual self-reliance conflicted with the unprecedented scale of suffering the depresión produced. Choice D refers to another event or policy from the era, which does not fit this question, and choice A refers to another event or policy from the era, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.67,
+        "b": 1.54,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-q10",
+      "stem": "The dispersal of the Bonus Army in July 1932 had long-term political consequences primarily because:",
+      "stemEs": "The dispersal of the Bonus Army in July 1932 had long-term political consequences primarily because:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It strengthened Hoover's reputation for decisive leadership and law enforcement against unruly protesters",
+          "textEs": "It strengthened Hoover's reputation for decisive leadership and law enforcement against unruly protesters",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Produced photographs and newsreel footage of the U.S",
+          "textEs": "Produced photographs and newsreel footage of the U.S",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It caused Congress to immediately pass the Bonus Bill over Hoover's",
+          "textEs": "It caused Congreso to immediately pass the Bonus Bill over Hoover's",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It united veterans across the country behind a third-party",
+          "textEs": "It united veterans across the country behind a third-party",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It produced photographs and newsreel footage of the U.S. Army using force against unarmed veterans, severely damaging Hoover's public image during the 1932 election, which made Hoover seem harsh toward struggling veterans. Choice A is wrong because it does not describe the veterans' demand for early bonus payments, and choice C is wrong because it does not describe the veterans' demand for early bonus payments. This issue became part of the larger argument over how much the federal government should do in an economic crisis.",
+      "explanationEs": "It produced photographs and newsreel footage of the U.S. Army using force against unarmed veterans, severely damaging Hoover's public image during the 1932 election, which made Hoover seem harsh toward struggling veterans. Choice A is wrong because it does not describe the veterans' demand for early bonus payments, and choice C is wrong because it does not describe the veterans' demand for early bonus payments. This issue became part of the larger argument over how much the gobierno federal should do in an economic crisis.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.59,
+        "b": 1.66,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x015",
+      "stem": "The New Deal's most lasting legacy for American society was its:",
+      "stemEs": "The New Deal's most lasting legacy for American society was its:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Complete elimination of poverty and economic inequality by 1941",
+          "textEs": "Complete elimination of poverty and economic inigualdad by 1941",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Permanent solution to business cycle recessions through Keynesian management",
+          "textEs": "Permanent solution to business cycle recesións through Keynesian management",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Transformation of America into a social democratic state comparable to European welfare states",
+          "textEs": "Transformation of America into a social democrático state comparable to European welfare states",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Establishment of the principle that the federal government bears responsibility for economic security",
+          "textEs": "Establishment of the principle that the gobierno federal bears responsibility for economic security",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Establishment of the principle that the federal government bears responsibility for economic security. Choice A refers to a different statistic or date, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. Programs like this changed what many Americans expected from the federal government in a national emergency.",
+      "explanationEs": "Establishment of the principle that the gobierno federal bears responsibility for economic security. Choice A refers to a different statistic or date, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. Programs like this changed what many Americans expected from the gobierno federal in a national emergency.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.64,
+        "b": 1.71,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x028",
+      "stem": "Allied strategic bombing of German cities during WWII was controversial because:",
+      "stemEs": "Allied strategic bombing of German cities during WWII was controversial because:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It violated international law prohibiting attacks on civilian populations without any opposition",
+          "textEs": "It violated international law prohibiting attacks on civilian populations without any opposition",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It caused enormous civilian casualties while its actual impact on German war production was limited",
+          "textEs": "It caused enormous civilian casualties while its actual impact on German war production was limited",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It violated international law prohibiting attacks on civilian populations",
+          "textEs": "It violated international law prohibiting attacks on civilian populations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "American bomber crews suffered casualty rates that made the campaign militarily unsustainable",
+          "textEs": "American bomber crews suffered casualty rates that made the campaign militarily unsustainable",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both B and C represent legitimate criticisms of the strategic bombing campaign. Choice B refers to a World War II event, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected.",
+      "explanationEs": "Both B and C represent legitimate criticisms of the strategic bombing campaign. Choice B refers to a Segunda Guerra Mundial event, which does not fit this question, and choice D refers to another event or policy from the era, which does not fit this question. The depresión revealed how closely jobs, banks, farms, and consumer spending were connected.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.66,
+        "b": 0.66,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x033",
+      "stem": "The firebombing of Tokyo (March 1945) killed an estimated 100,000 civilians. This complicates the atomic bomb debate because:",
+      "stemEs": "The firebombing of Tokyo (March 1945) killed an estimated 100,000 civilians. This complicates the atomic bomb debate because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Tokyo firebombing complicates the Hiroshima moral debate on multiple levels: it suggests Hiroshima's distinctive contribution was psychological shock",
+          "textEs": "The Tokyo firebombing complicates the Hiroshima moral debate on multiple levels: it suggests Hiroshima's distinctive contribution was psychological shock",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Tokyo bombing demonstrates that Hiroshima's distinctive contribution to Allied strategy was the psychological shock of atomic weapons, not the unprecedented scale of mass civilian killing",
+          "textEs": "The Tokyo bombing demonstrates that Hiroshima's distinctive contribution to Allied strategy was the psychological shock of atomic weapons, not the unprecedented scale of mass civilian killing",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It shows that American military strategy had already accepted mass civilian casualties as a legitimate wartime practice well before the atomic bombings of Hiroshima and Nagasaki",
+          "textEs": "It shows that American military strategy had already accepted mass civilian casualties as a legitimate wartime practice well before the atomic bombings of Hiroshima and Nagasaki",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It demonstrates that conventional strategic bombing had already crossed the moral threshold conventionally attributed exclusively to the atomic bomb, complicating claims of atomic uniqueness",
+          "textEs": "It demonstrates that conventional strategic bombing had already crossed the moral threshold conventionally attributed exclusively to the atomic bomb, complicating claims of atomic uniqueness",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Tokyo firebombing complicates the Hiroshima moral debate on multiple levels: it suggests Hiroshima's distinctive contribution was psychological shock rather than scale of killing, it shows American strategy had already accepted mass civilian casualties before the atomic bomb, and it challenges any claim that the atomic bomb crossed a moral line that conventional bombing had not already crossed, and it triggered lasting debate about military necessity and civilian deaths. Choice B refers to another event or policy from the era, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. World War II policies like this reshaped American power, industry, and daily life.",
+      "explanationEs": "The Tokyo firebombing complicates the Hiroshima moral debate on multiple levels: it suggests Hiroshima's distinctive contribution was psychological shock rather than scale of killing, it shows American strategy had already accepted mass civilian casualties before the atomic bomb, and it challenges any claim that the atomic bomb crossed a moral line that conventional bombing had not already crossed, and it triggered lasting debate about military necessity and civilian deaths. Choice B refers to another event or policy from the era, which does not fit this question, and choice C refers to another event or policy from the era, which does not fit this question. Segunda Guerra Mundial policies like this reshaped American power, industry, and daily life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.66,
+        "b": 0.65,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x037",
+      "stem": "FDR's court-packing plan failed in Congress, yet the Supreme Court began upholding New Deal legislation shortly after. This development is known as the 'switch in time that saved nine.' What does this episode reveal about the limits of presidential power?",
+      "stemEs": "FDR's court-packing plan failed in Congreso, yet the Corte Suprema began upholding New Deal legislación shortly after. This development is known as the 'switch in time that saved nine.' What does this episode reveal about the limits of presidential power?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "That Congress, not the president, holds final authority over the Supreme Court's composition",
+          "textEs": "That Congreso, not the president, holds final authority over the Corte Suprema's composition",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "That presidents can typically force the Supreme Court to change its rulings if they apply enough political pressure",
+          "textEs": "That presidents can typically force the Corte Suprema to change its rulings if they apply enough political pressure",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "That the threat of institutional change can influence judicial behavior even without legislative victory",
+          "textEs": "That the threat of institutional change can influence judicial behavior even without legislative victory",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "That FDR should have abandoned the New Deal rather than challenging the Supreme Court",
+          "textEs": "That FDR should have abandoned the New Deal rather than challenging the Corte Suprema",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "That the threat of institutional change can influence judicial behavior even without legislative victory, because Roosevelt wanted a Court more likely to uphold New Deal laws. Choice B is wrong because Roosevelt wanted to add justices, not remove the Court entirely, and choice D is wrong because Roosevelt wanted to add justices, not remove the Court entirely. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "explanationEs": "That the threat of institutional change can influence judicial behavior even without legislative victory, because Roosevelt wanted a Court more likely to uphold New Deal laws. Choice B is wrong because Roosevelt wanted to add justices, not remove the Court entirely, and choice D is wrong because Roosevelt wanted to add justices, not remove the Court entirely. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 0.58,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-42-x040",
+      "stem": "Historically, critics of the New Deal from both the left (Coughlin, Long) and right (American Liberty League) ultimately shared which common concern?",
+      "stemEs": "Historically, critics of the New Deal from both the left (Coughlin, Long) and right (American Liberty League) ultimately shared which common concern?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Both supported a constitutional amendment to expand the Supreme Court's size and break its conservative majority",
+          "textEs": "Both supported a constitucional enmienda to expand the Corte Suprema's size and break its conservative majority",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both believed the New Deal spent too much on military preparedness at the expense of domestic relief",
+          "textEs": "Both believed the New Deal spent too much on military preparedness at the expense of domestic relief",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both insisted that racial integration should be a mandatory condition for any group receiving New Deal benefits",
+          "textEs": "Both insisted that racial integración should be a mandatory condition for any group receiving New Deal benefits",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both believed the New Deal failed to address the Depression's root causes, though they disagreed sharply on the solution",
+          "textEs": "Both believed the New Deal faicondujo a address the depresión's root causes, though they disagreed sharply on the solution",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both believed the New Deal failed to fundamentally address the root causes of the Depression, though they disagreed on the solution, because conservative business leaders thought the New Deal threatened free enterprise. Choice C refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "explanationEs": "Both believed the New Deal faicondujo a fundamentally address the root causes of the depresión, though they disagreed on the solution, because conservative business leaders thought the New Deal threatened libre empresa. Choice C refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. The New Deal left a lasting legacy by making Washington more active in economic and social life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 2.05,
+        "b": 0.68,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us5-dok4-cr2",
+      "stem": "Some historians argue that World War II, not the New Deal, ended the Great Depression. Evaluate this claim by examining economic evidence from the New Deal period (1933-1939) and the war period (1941-1945). Then explain what this debate reveals about the role of government spending in economic recovery.",
+      "stemEs": "Algunos historiadores argumentan que la Segunda Guerra Mundial, no el New Deal, terminó la Gran Depresión. Evalúe esta afirmación.",
+      "itemType": "constructed-response",
+      "correctAnswer": "Strong responses should engage with economic evidence: New Deal reduced unemployment from 25% to 14% but never eliminated it; the 1937-38 recession showed fragility; wartime spending ($300+ billion) dwarfed New Deal budgets and drove unemployment below 2%. Both sides have evidence. The debate illuminates Keynesian economics: if war spending worked, the New Deal may have been too small, not too large.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44",
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A strong response should compare New Deal recovery with wartime mobilization by using evidence such as unemployment falling from about 25 percent in 1933, the 1937-38 recession, and the much larger scale of war spending after 1941. Full-credit answers should explain that the New Deal eased suffering and promoted recovery, while World War II finally drove unemployment to extremely low levels through massive federal spending. The debate matters because it reveals how government spending can shape recovery during a severe economic crisis.",
+      "explanationEs": "Este ítem DOK 4 requiere evaluar interpretaciones históricas competidoras usando evidencia económica.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.94,
+        "b": 1.26,
+        "c": 0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42",
+          "US.44"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged",
+          "US.44->US.46 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u5-014",
+      "stem": "President Hoover responded to the Great Depression primarily through the Reconstruction Finance Corporation (RFC) and his philosophy of 'Rugged Individualism.' A historian argues these two approaches were fundamentally contradictory. Which reasoning BEST supports this argument?",
+      "stemEs": "El presidente Hoover respondió a la Gran Depresión principalmente a través de la Corporación de Finanzas para la Reconstrucción (RFC) y su filosofía de 'Individualismo Robusto'. Un historiador argumenta que estos dos enfoques eran fundamentalmente contradictorios. ¿Qué razonamiento apoya MEJOR este argumento?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The RFC was too small to actually rescue failing banks, so in practice it reinforced Hoover's individualist philosophy by leaving most institutions to fail on their own.",
+          "textEs": "La RFC era demasiado pequeña para rescatar realmente a los bancos en quiebra, por lo que en la práctica reforzó la filosofía individualista de Hoover al dejar que la mayoría de las instituciones quebraran por su cuenta.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Rugged Individualism was a speech-making philosophy while the RFC was a practical policy, and contradictions between political rhetoric and policy action are normal in democratic governance.",
+          "textEs": "El Individualismo Robusto era una filosofía de discurso mientras que la RFC era una política práctica, y las contradicciones entre la retórica política y la acción política son normales en la gobernanza democrática.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Hoover used federal power to rescue banks and corporations through the RFC while simultaneously refusing direct relief to unemployed workers, applying the principle of Rugged Individualism only to ordinary people and not to institutions.",
+          "textEs": "Hoover usó el poder federal para rescatar bancos y corporaciones a través de la RFC mientras simultáneamente se negaba a dar ayuda directa a los trabajadores desempleados, aplicando el principio de Individualismo Robusto solo a las personas ordinarias y no a las instituciones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The RFC represented an abandonment of laissez-faire economics, and Hoover introduced it too late in his presidency to be effective, which is why Roosevelt won the 1932 election by such a large margin.",
+          "textEs": "La RFC representó un abandono de la economía de laissez-faire, y Hoover la introdujo demasiado tarde en su presidencia para ser efectiva, razón por la que Roosevelt ganó las elecciones de 1932 por un margen tan amplio.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Rugged Individualism held that government assistance created dependency and undermined self-reliance — that individuals should survive economic hardship through their own effort. The RFC, however, was a massive federal intervention that used government funds to rescue banks and corporations. The contradiction is that Hoover was willing to use federal power to protect large institutions but insisted that ordinary workers and unemployed people must fend for themselves. Students must analyze the internal logical contradiction between two policy positions — a DOK 3 evaluative task.",
+      "explanationEs": "El Individualismo Robusto sostenía que la asistencia gubernamental creaba dependencia y socavaba la autosuficiencia: que los individuos debían sobrevivir las dificultades económicas por su propio esfuerzo. Sin embargo, la RFC fue una intervención federal masiva que utilizó fondos gubernamentales para rescatar bancos y corporaciones. La contradicción es que Hoover estaba dispuesto a usar el poder federal para proteger a las grandes instituciones pero insistía en que los trabajadores ordinarios y los desempleados debían valerse por sí mismos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.08,
+        "b": 0.64,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u5-015",
+      "stem": "In the summer of 1932, approximately 17,000 World War I veterans marched on Washington to demand early payment of bonuses promised for 1945. President Hoover ordered the U.S. Army to forcibly remove them from their encampments. Which analysis of Hoover's decision BEST explains its political consequences?",
+      "stemEs": "En el verano de 1932, aproximadamente 17,000 veteranos de la Primera Guerra Mundial marcharon hacia Washington para exigir el pago anticipado de bonificaciones prometidas para 1945. El presidente Hoover ordenó al ejército de EE. UU. que los desalojara por la fuerza de sus campamentos. ¿Qué análisis de la decisión de Hoover explica MEJOR sus consecuencias políticas?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The violent dispersal of veterans reinforced the public perception that Hoover prioritized order over the welfare of suffering Americans, becoming a powerful symbol that accelerated his political defeat in 1932.",
+          "textEs": "La dispersión violenta de los veteranos reforzó la percepción pública de que Hoover priorizaba el orden por encima del bienestar de los estadounidenses que sufrían, convirtiéndose en un poderoso símbolo que aceleró su derrota política en 1932.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Hoover's decision rallied conservative voters who valued law and order, but alienated veterans' organizations that had previously been among his strongest supporters.",
+          "textEs": "La decisión de Hoover movilizó a los votantes conservadores que valoraban la ley y el orden, pero alienó a las organizaciones de veteranos que anteriormente habían sido de sus principales apoyos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The dispersal of the Bonus Army had minimal political consequences because most Americans in 1932 were too focused on their own economic survival to pay attention to the march or its aftermath.",
+          "textEs": "La dispersión del Ejército de la Bonificación tuvo consecuencias políticas mínimas porque la mayoría de los estadounidenses en 1932 estaban demasiado concentrados en su propia supervivencia económica para prestar atención a la marcha o sus consecuencias.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The incident strengthened Hoover's standing with Congress, which was concerned about the precedent of veterans using mass protest to pressure the government into early payments of wartime obligations.",
+          "textEs": "El incidente fortaleció la posición de Hoover ante el Congreso, que estaba preocupado por el precedente de que los veteranos usaran protestas masivas para presionar al gobierno a realizar pagos anticipados de obligaciones de tiempo de guerra.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Using the U.S. Army against veterans who had served in WWI — and who were now suffering during the Depression — was a politically catastrophic optic. It visually confirmed the public narrative that Hoover's government cared more about order and property than about the welfare of ordinary Americans, including men who had sacrificed for their country. The images of soldiers using tear gas and bayonets against destitute veterans became powerful symbols of government indifference and directly contributed to Hoover's landslide defeat in 1932. Students must evaluate a decision's consequences in terms of political symbolism and public perception.",
+      "explanationEs": "Usar el ejército de EE. UU. contra veteranos que habían servido en la Primera Guerra Mundial y que ahora sufrían durante la Depresión fue políticamente catastrófico. Confirmó visualmente la narrativa pública de que el gobierno de Hoover se preocupaba más por el orden y la propiedad que por el bienestar de los estadounidenses ordinarios, incluidos los hombres que se habían sacrificado por su país. Las imágenes de soldados usando gases lacrimógenos y bayonetas contra veteranos indigentes se convirtieron en poderosos símbolos de la indiferencia gubernamental.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.98,
+        "b": 1.01,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u5-016",
+      "stem": "President Hoover funded public works projects and created the RFC, yet he consistently opposed direct federal relief payments to unemployed individuals. A student evaluating Hoover's response argues his approach reflected a coherent philosophy rather than simple indifference to suffering. Which evidence BEST supports this interpretation?",
+      "stemEs": "El presidente Hoover financió proyectos de obras públicas y creó la RFC, pero se opuso constantemente a los pagos directos de ayuda federal a los desempleados. Un estudiante que evalúa la respuesta de Hoover argumenta que su enfoque reflejaba una filosofía coherente más que una simple indiferencia al sufrimiento. ¿Qué evidencia apoya MEJOR esta interpretación?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hoover's opposition to direct relief was purely political — he feared that providing government payments to unemployed workers would be used against him in the 1932 election as evidence of socialist tendencies.",
+          "textEs": "La oposición de Hoover a la ayuda directa era puramente política: temía que proporcionar pagos gubernamentales a los trabajadores desempleados se usaría en su contra en las elecciones de 1932 como evidencia de tendencias socialistas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Hoover believed the Depression was caused entirely by international economic forces beyond any government's control, and therefore neither direct relief nor public works could address the underlying problem.",
+          "textEs": "Hoover creía que la Depresión fue causada enteramente por fuerzas económicas internacionales más allá del control de cualquier gobierno, y por lo tanto ni la ayuda directa ni las obras públicas podían abordar el problema subyacente.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Hoover supported public works because they were constitutionally authorized, but opposed direct relief because the Constitution did not grant the federal government the power to distribute welfare payments to individuals.",
+          "textEs": "Hoover apoyaba las obras públicas porque estaban constitucionalmente autorizadas, pero se oponía a la ayuda directa porque la Constitución no otorgaba al gobierno federal el poder de distribuir pagos de bienestar social a los individuos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Hoover distinguished between government actions that created conditions for self-help (public works, institutional stabilization) and direct handouts, believing the latter would destroy the individual initiative and voluntary community action he considered essential to American society.",
+          "textEs": "Hoover distinguía entre acciones gubernamentales que creaban condiciones para la autoayuda (obras públicas, estabilización institucional) y los subsidios directos, creyendo que estos últimos destruirían la iniciativa individual y la acción comunitaria voluntaria que consideraba esenciales para la sociedad estadounidense.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Hoover's distinction between indirect relief (public works that created jobs, RFC loans that stabilized institutions) and direct federal handouts was coherent within the framework of Rugged Individualism: he believed government could create conditions for recovery without creating dependency, but that direct charity from the federal government would undermine the work ethic, the voluntary spirit, and local responsibility that he believed were core American virtues. This was a genuine philosophical position, even if it proved inadequate. Students must evaluate whether actions reflect a coherent framework — a DOK 3 analytical task.",
+      "explanationEs": "La distinción de Hoover entre la ayuda indirecta (obras públicas que creaban empleos, préstamos RFC que estabilizaban las instituciones) y los subsidios directos federales era coherente dentro del marco del Individualismo Robusto: creía que el gobierno podía crear condiciones para la recuperación sin crear dependencia, pero que la caridad directa del gobierno federal socavaría la ética del trabajo, el espíritu voluntario y la responsabilidad local que consideraba virtudes americanas fundamentales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.68,
+        "b": 1.12,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-050",
+      "stem": "In 1928, Republican presidential candidate Herbert Hoover promised that the United States was \"nearer to the final triumph over poverty than ever before in the history of any land,\" and that \"the poor-house is vanishing from among us.\" One year later, the Great Depression began. What does the gap between Hoover's rhetoric and subsequent events reveal about the nature of the 1920s economic boom?",
+      "stemEs": "En 1928, el candidato presidencial republicano Herbert Hoover prometió que los Estados Unidos estaban 'más cerca que nunca del triunfo final sobre la pobreza en la historia de cualquier tierra', y que 'el asilo de pobres está desapareciendo de entre nosotros'. Un año después, comenzó la Gran Depresión. ¿Qué revela la brecha entre la retórica de Hoover y los eventos posteriores sobre la naturaleza del auge económico de la 1920s?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hoover was deliberately deceiving voters, knowing the economy was about to collapse while publicly claiming prosperity.",
+          "textEs": "Hoover estaba engañando deliberadamente a los votantes, sabiendo que la economía estaba a punto de colapsar mientras afirmaba públicamente la prosperidad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The apparent prosperity of the late 1920s concealed structural economic weaknesses — agricultural depression, speculative excess, and debt fragility — that were invisible in aggregate growth figures.",
+          "textEs": "La aparente prosperidad de finales de la década de 1920 ocultaba debilidades económicas estructurales — depresión agrícola, exceso especulativo y fragilidad de la deuda — que eran invisibles en las cifras de crecimiento agregado.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Hoover's statement reveals that he was economically incompetent, demonstrating that the Republican Party had no understanding of economics in the 1920s.",
+          "textEs": "La declaración de Hoover revela que era económicamente incompetente, demostrando que el Partido Republicano no tenía comprensión de la economía en la década de 1920.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "No economists or financial observers in 1928 recognized any signs of economic weakness, confirming that the Depression was entirely unpredictable.",
+          "textEs": "Ningún economista u observador financiero en 1928 reconoció ninguna señal de debilidad económica, confirmando que la Depresión era completamente impredecible.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.44"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Hoover's optimism reflected a failure to recognize that surface-level growth figures obscured structural vulnerabilities: agricultural depression, speculative excess, consumer debt expansion, and financial sector fragility that were invisible in aggregate statistics. B correctly identifies this misleading appearance of prosperity. A makes an unwarranted claim about deliberate dishonesty. C draws an unwarranted conclusion about what Hoover's statement reveals about his character rather than the economy. D presents the opposite empirical claim; economists and some financial observers did warn about overvaluation and debt levels.",
+      "explanationEs": "El optimismo de Hoover reflejó un fracaso para reconocer que las cifras de crecimiento superficial ocultaban vulnerabilidades estructurales: depresión agrícola, exceso especulativo, expansión de la deuda del consumidor y fragilidad del sector financiero que eran invisibles en las estadísticas agregadas. B identifica correctamente esta apariencia engañosa de prosperidad. A hace una afirmación injustificada sobre deshonestidad deliberada. C saca una conclusión injustificada sobre lo que la declaración de Hoover revela sobre su carácter en lugar de la economía. D presenta la afirmación empírica opuesta; economistas y algunos observadores financieros sí advirtieron sobre la sobrevaluación y los niveles de deuda.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.36,
+        "b": 0.67,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.42"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.42->US.44 unchanged"
+        ]
+      }
+    }
+  ]
+}

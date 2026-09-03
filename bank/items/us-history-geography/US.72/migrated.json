@@ -1,0 +1,2933 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.72",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us77-dok1-1",
+      "stem": "What was President Kennedy's \"New Frontier\" program?",
+      "stemEs": "¿Cuál fue el programa de \"Nueva Frontera\" del Presidente Kennedy?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Domestic agenda to improve education, end discrimination, and reach the moon",
+          "textEs": "Agenda doméstica para mejorar educación, acabar discriminación y llegar a la luna",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A domestic agenda to improve education, end discrimination, and advance science",
+          "textEs": "Un plan para expandir territorio estadounidense adquiriendo nuevas tierras en el Pacífico",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Landing on the moon would demonstrate American technological superiority",
+          "textEs": "Una estrategia militar enfocada en construir armas nucleares para defensa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Send American volunteers to developing nations to provide assistance",
+          "textEs": "Un programa económico que eliminó todo gasto federal en programas sociales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy's New Frontier was a domestic reform agenda that called for better education, civil rights progress, aid for the elderly, and major scientific goals such as reaching the moon. C is wrong because it describes only the moon goal, and D is wrong because it describes the Peace Corps rather than the whole program. The New Frontier linked Cold War competition with domestic reform at home.",
+      "explanationEs": "La Nueva Frontera de Kennedy propuso mejorar la educación, proporcionar atención médica para los ancianos, terminar la discriminación racial y poner un hombre en la luna. También creó el Cuerpo de Paz para enviar voluntarios estadounidenses a naciones en desarrollo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -1.23,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us77-add-1",
+      "stem": "What was Kennedy's New Frontier program?",
+      "stemEs": "¿Cuál fue el programa Nueva Frontera de Kennedy?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Domestic agenda to improve education, end discrimination, and reach the moon",
+          "textEs": "Una agenda doméstica para mejorar la educación, terminar con la discriminación y avanzar la ciencia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A domestic agenda to improve education, end discrimination, and advance science",
+          "textEs": "Una estrategia militar para conquistar nuevos territorios en América Latina",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It traumatized the nation and created sympathy that helped pass his legislative agenda",
+          "textEs": "Un plan económico para eliminar todo el gasto gubernamental en programas sociales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Landing on the moon would demonstrate American technological superiority",
+          "textEs": "Una política exterior enfocada exclusivamente en contener el comunismo en Asia",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy's New Frontier was a broad domestic agenda focused on education, civil rights, science, and social reform. B is tempting because the moon goal was part of Kennedy's program, but the New Frontier was bigger than the space race alone, and C is wrong because it describes the effect of his assassination. Many New Frontier ideas later influenced legislation passed under Lyndon Johnson.",
+      "explanationEs": "La Nueva Frontera de Kennedy pedía mejorar la educación, proporcionar atención médica a los ancianos, terminar con la discriminación racial, financiar el programa espacial y crear el Cuerpo de Paz.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -0.72,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-73-q02",
+      "stem": "Hurricane Katrina struck the Gulf Coast in August 2005. The catastrophic flooding of New Orleans was primarily caused by —",
+      "stemEs": "Hurricane Katrina struck the Gulf Coast in August 2005. The catastrophic flooding of New Orleans fue principalmente caused by:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The complete absence of any emergency preparation in New Orleans",
+          "textEs": "The complete absence of any emergency preparation in New Orleans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A deliberate government decision to flood certain neighborhoods to protect others",
+          "textEs": "A deliberate government decision to flood certain neighborhoods to protect others",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The storm's wind damage alone destroying the city's infrastructure",
+          "textEs": "The storm's wind damage alone destroying the city's infrastructure",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The failure of the Army Corps of Engineers' levee system",
+          "textEs": "The failure of the Army Corps of Engineers' levee system",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "New Orleans flooded catastrophically after Katrina because parts of the levee system failed. C is wrong because wind damage alone did not produce the worst flooding, and A is wrong because weak preparation was a problem but not the direct physical cause. The disaster showed how infrastructure failure can turn a storm into a far larger human catastrophe.",
+      "explanationEs": "New Orleans flooded catastrophically after Katrina because parts of the levee system failed. C is wrong because wind damage alone did not produce the worst flooding, and A is wrong because weak preparation was a problem but not the direct physical cause. The disaster showed how infrastructure failure can turn a storm into a far larger human catastrophe.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.85,
+        "b": -0.81,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-q02",
+      "stem": "Nashville's population growth in the 2000s–2020s made it one of the fastest-growing metropolitan areas in the United States. This growth was driven primarily by —",
+      "stemEs": "Nashville's population growth in the 2000s–2020s made it one of the fastest-growing metropolitan areas in the United States. This growth was driven primarily by:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A state law requiring many federal contractors to be headquartered in Tennessee, which historians consider a secondary factor in this development",
+          "textEs": "A state law requiring many federal contractors to be headquartered in Tennessee, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Federal government relocation of agencies to Tennessee, which historians consider a secondary factor in this development",
+          "textEs": "gobierno federal relocation of agencies to Tennessee, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A combination of healthcare and insurance industry expansion, automotive manufacturing, music and entertainment, a lower cost of living than coastal cities",
+          "textEs": "A combination of healthcare and insurance industry expansion, automotive manufacturing, music and entertainment, a lower cost of living than coastal cities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Discovery of major natural resources in the Nashville Basin, which historians consider a secondary factor in this development",
+          "textEs": "Discovery of major natural resources in the Nashville Basin, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Nashville grew rapidly because it built a diversified economy around healthcare, insurance, music, higher education, and manufacturing while also attracting migrants with lower costs than many coastal cities. A and B are wrong because federal relocation was not the main engine of that growth. Nashville's rise reflects broader Sun Belt migration and urban economic change in the modern South.",
+      "explanationEs": "Nashville grew rapidly because it built a diversified economy around healthcare, insurance, music, higher education, and manufacturing while also attracting migrants with lower costs than many coastal cities. A and B are wrong because federal relocation was not the main engine of that growth. Nashville's rise reflects broader Sun Belt migration and urban economic change in the modern South.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.85,
+        "b": -1.58,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-q03",
+      "stem": "Tennessee's automotive manufacturing sector grew significantly in the late 20th and early 21st centuries primarily through —",
+      "stemEs": "Tennessee's automotive manufacturing sector grew significantly in the late 20th and early 21st centuries primarily through:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Federal subsidies that required automakers to build in Southern states, which historians consider a secondary factor in this development",
+          "textEs": "Federal subsidies that required automakers to build in Southern states, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Tennessee-based companies starting new domestic automobile brands, which historians consider a secondary factor in this development",
+          "textEs": "Tennessee-based companies starting new domestic automobile brands, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The establishment of Nissan's North American headquarters and manufacturing in Smyrna, followed by Volkswagen in Chattanooga and General Motors in Spring Hill",
+          "textEs": "The establishment of Nissan's North American headquarters and manufacturing in Smyrna, followed by Volkswagen in Chattanooga and General Motors in Spring Hill",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Ford Motor Company moving its entire production to Tennessee, which historians consider a secondary factor in this development",
+          "textEs": "Ford Motor Company moving its entire production to Tennessee, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Tennessee's auto sector grew through major plants and investments from Nissan in Smyrna, Volkswagen in Chattanooga, and General Motors in Spring Hill. A is wrong because no federal rule required automakers to build in Southern states, and D is wrong because Ford did not move all production to Tennessee. This growth helped shift Tennessee toward a more diversified manufacturing economy.",
+      "explanationEs": "Tennessee's auto sector grew through major plants and investments from Nissan in Smyrna, Volkswagen in Chattanooga, and General Motors in Spring Hill. A is wrong because no federal rule required automakers to build in Southern states, and D is wrong because Ford did not move all production to Tennessee. This growth helped shift Tennessee toward a more diversified manufacturing economy.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -0.99,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x014",
+      "stem": "Tennessee's economy in the 21st century has been characterized by growth in which sectors?",
+      "stemEs": "Tennessee's economy in the 21st century has been characterized by growth in which sectors?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Healthcare, automotive manufacturing, and technology",
+          "textEs": "Healthcare, automotive manufacturing, and technology",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Tourism, hospitality, and creative industries centered on Nashville's music scene",
+          "textEs": "Tourism, hospitality, and creative industries centered on Nashville's music scene",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Coal mining, tobacco farming, and cotton production",
+          "textEs": "Coal mining, tobacco farming, and cotton production",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Finance, legal services, and government employment",
+          "textEs": "Finance, legal services, and government employment",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "In the 21st century, Tennessee has seen major growth in healthcare, automotive manufacturing, and technology. C is wrong because coal, tobacco, and cotton are not the state's leading growth sectors today. That shift shows Tennessee's move away from an older agricultural economy toward a more varied modern one.",
+      "explanationEs": "In the 21st century, Tennessee has seen major growth in healthcare, automotive manufacturing, and technology. C is wrong because coal, tobacco, and cotton are not the state's leading growth sectors today. That shift shows Tennessee's move away from an older agricultural economy toward a more varied modern one.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.92,
+        "b": -0.81,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x018",
+      "stem": "Tennessee became part of the 'Bible Belt' designation primarily because of —",
+      "stemEs": "Tennessee became part of the 'Bible Belt' designation primarily because of:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The influence of the Scopes Trial (1925) on public attitudes toward religion and science",
+          "textEs": "The influence of the Scopes Trial (1925) on public attitudes toward religion and science",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Tennessee's historical role in founding the Southern Baptist Convention",
+          "textEs": "Tennessee's historical role in founding the Southern Baptist Convention",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "State laws requiring Bible study as part of the public school curriculum",
+          "textEs": "State laws requiring Bible study as part of the public school curriculum",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The high concentration of Baptist, Methodist, and Evangelical Christian churches",
+          "textEs": "The high concentration of Baptist, Methodist, and Evangelical Christian churches",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Tennessee is part of the Bible Belt mainly because of its high concentration of Baptist, Methodist, and Evangelical churches and the strong cultural influence of Protestant Christianity. A is wrong because the Scopes Trial was important symbolically but did not create the label by itself. Religion has remained a powerful force in Tennessee's social and political life.",
+      "explanationEs": "Tennessee is part of the Bible Belt mainly because of its high concentration of Baptist, Methodist, and Evangelical churches and the strong cultural influence of Protestant Christianity. A is wrong because the Scopes Trial was important symbolically but did not create the label by itself. Religion has remained a powerful force in Tennessee's social and political life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -1.32,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x030",
+      "stem": "Lyndon Johnson's domestic program, modeled on FDR's New Deal, was called the —",
+      "stemEs": "Lyndon Johnson's domestic program, modeled on FDR's New Deal, was called the:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Great Society",
+          "textEs": "Gran Sociedad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "New Frontier",
+          "textEs": "New Frontier",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Fair Deal",
+          "textEs": "Fair Deal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Square Deal",
+          "textEs": "Square Deal",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Johnson's domestic reform program was called the Great Society. B is wrong because the New Frontier was Kennedy's program. The Great Society expanded federal efforts to fight poverty, improve education, and widen healthcare access.",
+      "explanationEs": "Johnson's domestic reform program was called the Gran Sociedad. B is wrong because the New Frontier was Kennedy's program. The Gran Sociedad expanded federal efforts to fight poverty, improve education, and widen healthcare access.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.07,
+        "b": 0.2,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us77-dok2-1",
+      "stem": "What was the purpose of the Peace Corps created by President Kennedy?",
+      "stemEs": "¿Cuál fue el propósito del Cuerpo de Paz creado por el Presidente Kennedy?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Negotiate trade agreements with communist nations to reduce tensions",
+          "textEs": "Negociar acuerdos comerciales con naciones comunistas para reducir tensiones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Deploy military forces to maintain peace in Cold War conflict zones",
+          "textEs": "Desplegar fuerzas militares para mantener la paz en zonas de conflicto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Send American volunteers to developing nations to provide assistance",
+          "textEs": "Enviar voluntarios estadounidenses a naciones en desarrollo para proveer asistencia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Build nuclear shelters to protect American citizens from atomic attack",
+          "textEs": "Construir refugios nucleares para proteger a ciudadanos de ataques atómicos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy created the Peace Corps in 1961 to send American volunteers to developing nations to help with education, health, and agriculture. B is wrong because it was not a military force, and D is wrong because building nuclear shelters had nothing to do with its mission. The program used service and goodwill as tools in the Cold War struggle for influence.",
+      "explanationEs": "El Cuerpo de Paz (1961) envió voluntarios estadounidenses a países en desarrollo para ayudar con educación, salud y agricultura. Promovió buena voluntad, contrarrestó la influencia comunista y sigue siendo uno de los legados más duraderos de Kennedy.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.95,
+        "b": 0.26,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us77-add-4",
+      "stem": "What was the purpose of the Peace Corps under Kennedy?",
+      "stemEs": "What was the purpose of the Peace Corps under Kennedy?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Sending American volunteers abroad to support education, health, and development projects",
+          "textEs": "Sending American volunteers abroad to support education, health, and development projects",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They provided legislative foundations that Johnson advanced through Great Society programs",
+          "textEs": "They provided legislative foundations that Johnson advanced through Gran Sociedad programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It traumatized the nation and created sympathy that helped pass his legislative agenda",
+          "textEs": "It traumatized the nation and created sympathy that helped pass his legislative agenda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A domestic agenda to improve education, end discrimination, and advance science",
+          "textEs": "A domestic agenda to improve education, end discriminación, and advance science",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Peace Corps sent American volunteers overseas to support schools, health programs, and development projects in poorer nations. D is wrong because the New Frontier was Kennedy's larger domestic agenda, and C is wrong because it describes the effect of his assassination. The program became one of Kennedy's most lasting efforts to build goodwill during the Cold War.",
+      "explanationEs": "The Peace Corps sent American volunteers overseas to support schools, health programs, and development projects in poorer nations. D is wrong because the New Frontier was Kennedy's larger domestic agenda, and C is wrong because it describes the effect of his assassination. The program became one of Kennedy's most lasting efforts to build goodwill during the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.06,
+        "b": -0.75,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us77-add-3",
+      "stem": "Which New Frontier goal reflected Kennedy's emphasis on science and technology?",
+      "stemEs": "Which New Frontier goal reflected Kennedy's emphasis on science and technology?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Commitment to landing Americans on the moon before the decade ended",
+          "textEs": "Commitment to landing Americans on the moon before the decade ended",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Send American volunteers to developing nations to provide assistance",
+          "textEs": "Send American volunteers to developing nations to provide assistance",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Landing on the moon would demonstrate American technological superiority",
+          "textEs": "Landing on the moon would demonstrate American technological superiority",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Domestic agenda to improve education, end discrimination, and reach the moon",
+          "textEs": "Domestic agenda to improve education, end discriminación, and reach the moon",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy's promise to land Americans on the moon before the decade ended showed his emphasis on science and technology. B is wrong because the Peace Corps focused on service abroad rather than scientific research. The moon challenge made space exploration a central part of Cold War competition.",
+      "explanationEs": "Kennedy's promise to land Americans on the moon before the decade ended showed his emphasis on science and technology. B is wrong because the Peace Corps focused on service abroad rather than scientific research. The moon challenge made space exploration a central part of Guerra Fría competition.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -0.49,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-q04",
+      "stem": "The demographic transformation of Tennessee in the 21st century includes —",
+      "stemEs": "The demographic transformation of Tennessee in the 21st century includes:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Significant growth in Hispanic, Asian American, and immigrant communities",
+          "textEs": "Significant growth in Hispanic, Asian American, and immigrant communities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A population decline in most major cities as residents moved to rural areas",
+          "textEs": "A population decline in most major cities as residents moved to rural areas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "An aging population with very few young residents migrating into the state",
+          "textEs": "An aging population with very few young residents migrating into the state",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A declining Hispanic population due to stricter state immigration laws",
+          "textEs": "A declining Hispanic population due to stricter state inmigración laws",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Tennessee's demographic changes have included significant growth in Hispanic, Asian American, and immigrant communities. B is wrong because many major cities have grown rather than emptied out, and D is wrong because the Hispanic population has not declined overall. These changes have made Tennessee more diverse than in the late 20th century.",
+      "explanationEs": "Tennessee's demographic changes have included significant growth in Hispanic, Asian American, and immigrant communities. B is wrong because many major cities have grown rather than emptied out, and D is wrong because the Hispanic population has not declined overall. These changes have made Tennessee more diverse than in the late 20th century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.92,
+        "b": -0.14,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x015",
+      "stem": "The opioid epidemic, which severely affected Tennessee and other states, was driven initially by —",
+      "stemEs": "The opioid epidemic, which severely affected Tennessee and other states, was driven initially by:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mexican drug cartels deliberately targeting vulnerable communities in rural states like Tennessee",
+          "textEs": "Mexican drug cartels deliberately targeting vulnerable communities in rural states like Tennessee",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Illegal methamphetamine production spreading in rural communities",
+          "textEs": "Illegal methamphetamine production in rural communities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Over-prescription of opioid painkillers like OxyContin and the subsequent shift to heroin and fentanyl",
+          "textEs": "Over-prescription of opioid painkillers like OxyContin and the subsequent shift to heroin and fentanyl",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The collapse of manufacturing jobs that created conditions of hopelessness in rural communities",
+          "textEs": "The collapse of manufacturing jobs that created conditions of hopelessness in rural communities",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The opioid crisis began largely with the over-prescription of painkillers such as OxyContin, followed by many users turning to heroin and fentanyl. D is wrong because economic hardship helped worsen the crisis but was not its initial driver. Tennessee's experience reflects a national public-health and regulatory failure.",
+      "explanationEs": "The opioid crisis began largely with the over-prescription of painkillers such as OxyContin, followed by many users turning to heroin and fentanyl. D is wrong because economic hardship helped worsen the crisis but was not its initial driver. Tennessee's experience reflects a national public-health and regulatory failure.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.85,
+        "b": 0.4,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x027",
+      "stem": "Tennessee's 'Tennessee Promise' scholarship program, launched in 2015, was significant because —",
+      "stemEs": "Tennessee's 'Tennessee Promise' scholarship program, launched in 2015, fue significativo/a porque:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It eliminated student loan debt for all Tennessee residents who completed four-year degrees",
+          "textEs": "It eliminated student loan debt for all Tennessee residents who completed four-year degrees",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was the first free community college program in the nation, providing a model later adopted by other states",
+          "textEs": "It was the first free community college program in the nation, providing a model later adopted by other states",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It guaranteed all high school graduates two years of free community or technical college",
+          "textEs": "It guaranteed all high school graduates two years of free community or technical college",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It was funded by a state lottery that redistributed gambling revenue to education",
+          "textEs": "It was funded by a state lottery that redistributed gambling revenue to education",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Tennessee Promise was significant because it guaranteed two years of free community or technical college to high school graduates who met the program rules. B is wrong because Tennessee was influential but not literally the first place ever to offer free postsecondary aid in every form. The program became a model for expanding workforce training and college access.",
+      "explanationEs": "Tennessee Promise fue significativo/a porque it guaranteed two years of free community or technical college to high school graduates who met the program rules. B is wrong because Tennessee was influential but not literally the first place ever to offer free postsecondary aid in every form. The program became a model for expanding workforce training and college access.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.06,
+        "b": 0.43,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-74-x033",
+      "stem": "The Apollo 11 moon landing in 1969 fulfilled which challenge issued earlier in the decade?",
+      "stemEs": "The Apollo 11 moon landing in 1969 fulfilled which challenge issued earlier in the decade?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NASA's 1957 projection that the Soviet Union would land on the moon first",
+          "textEs": "NASA's 1957 projection that the Soviet Union would land on the moon first",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Nixon's 1968 campaign promise to restore American prestige after years of space program setbacks",
+          "textEs": "Nixon's 1968 campaign promise to restore American prestige after years of space program setbacks",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy's 1961 pledge to land a man on the moon before the end of the decade",
+          "textEs": "Kennedy's 1961 pledge to land a man on the moon before the end of the decade",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Eisenhower's goal to create a permanent orbiting space station",
+          "textEs": "Eisenhower's goal to create a permanent orbiting space station",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Apollo 11 fulfilled Kennedy's 1961 challenge to land a man on the moon before the decade ended. A is wrong because it was not just an old NASA projection, and D is wrong because Eisenhower did not issue that goal. The landing became one of the most famous achievements of the Cold War era.",
+      "explanationEs": "Apollo 11 fulfilled Kennedy's 1961 challenge to land a man on the moon before the decade ended. A is wrong because it was not just an old NASA projection, and D is wrong because Eisenhower did not issue that goal. The landing became one of the most famous achievements of the Guerra Fría era.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.91,
+        "b": 0.22,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us77-dok2-2",
+      "stem": "How did President Kennedy's space program goal reflect Cold War competition?",
+      "stemEs": "¿Cómo reflejó el objetivo del programa espacial del Presidente Kennedy la competencia de la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Domestic agenda to improve education, end discrimination, and reach the moon",
+          "textEs": "Kennedy propuso una misión conjunta con la Unión Soviética para explorar el espacio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Send American volunteers to developing nations to provide assistance",
+          "textEs": "Kennedy quería construir una base militar permanente en la superficie lunar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Commitment to landing Americans on the moon before the decade ended",
+          "textEs": "El programa espacial fue diseñado para encontrar nuevos recursos para uso de EE.UU.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Landing on the moon would demonstrate American technological superiority",
+          "textEs": "Aterrizar en la luna demostraría la superioridad tecnológica estadounidense",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy's moon goal reflected Cold War rivalry because landing Americans on the moon would prove U.S. scientific and technological strength against the Soviet Union. C is wrong because it states the goal but not its broader meaning, and B is wrong because the Peace Corps addressed a different part of the Cold War. The space race turned science into a contest for global prestige.",
+      "explanationEs": "Después de que los soviéticos lanzaran el Sputnik (1957) y pusieran al primer hombre en el espacio (1961), Kennedy se comprometió a aterrizar un hombre en la luna antes del fin de la década. Este objetivo trataba de probar la superioridad tecnológica y científica estadounidense sobre la Unión Soviética en la Guerra Fría.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.12,
+        "b": -0.17,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us77-add-2",
+      "stem": "How did Kennedy's assassination in 1963 affect American society?",
+      "stemEs": "¿Cómo afectó el asesinato de Kennedy en 1963 a la sociedad estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A domestic agenda to improve education, end discrimination, and advance science",
+          "textEs": "Traumatizó a la nación y creó simpatía que ayudó a aprobar su agenda legislativa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Sending American volunteers abroad to support education, health, and development projects",
+          "textEs": "Tuvo poco impacto porque la mayoría de los estadounidenses se oponían a las políticas de Kennedy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They provided legislative foundations that Johnson advanced through Great Society programs",
+          "textEs": "Inmediatamente terminó la Guerra Fría entre EE.UU. y la Unión Soviética",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It traumatized the nation and created sympathy that helped pass his legislative agenda",
+          "textEs": "Causó que EE.UU. se retirara de todos los compromisos internacionales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy's assassination shocked the nation and created a wave of sympathy that helped Lyndon Johnson push parts of Kennedy's agenda through Congress. D is wrong because it describes the New Frontier itself, not the effect of Kennedy's death. The tragedy became a turning point in American politics and public memory.",
+      "explanationEs": "El asesinato de Kennedy el 22 de noviembre de 1963 impactó y traumatizó a la nación. El Presidente Johnson usó el duelo nacional para impulsar la agenda legislativa de Kennedy.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.74,
+        "b": 0.27,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-q01",
+      "stem": "The Nashville metropolitan area's population has grown dramatically in the 21st century, making it one of the fastest-growing large cities in America. Which of the following best describes the economic factors driving Nashville's growth?",
+      "stemEs": "The Nashville metropolitan area's population has grown dramatically in the 21st century, making it one of the fastest-growing large cities in America. ¿Cuál de las siguientes opciones best describes the economic factors driving Nashville's growth?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Nashville's growth resulted from population decline in Memphis, Knoxville, and other Tennessee cities that lost residents to the capital",
+          "textEs": "Nashville's growth resulted from population decline in Memphis, Knoxville, and other Tennessee cities that lost residents to the capital",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Healthcare, technology, higher education, and music industries created a diversified economy attracting both businesses and workers",
+          "textEs": "Healthcare, technology, higher education, and music industries created a diversified economy attracting both businesses and workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Nashville's growth is driven primarily by its role as Tennessee's state capital and center of state government employment",
+          "textEs": "Nashville's growth is driven primarily by its role as Tennessee's state capital and center of gobierno estatal employment",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Federal contracts related to Fort Campbell military base expansion drove most of the region's employment and economic growth",
+          "textEs": "Federal contracts related to Fort Campbell military base expansion drove most of the region's employment and economic growth",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Nashville's growth came from a diversified economy that included healthcare, technology, higher education, and music, which attracted both companies and workers. C is wrong because being the state capital alone does not explain the boom, and D is wrong because Fort Campbell is not the main source of Nashville's expansion. The city became a leading example of modern urban growth in the South.",
+      "explanationEs": "Nashville's growth came from a diversified economy that included healthcare, technology, higher education, and music, which attracted both companies and workers. C is wrong because being the state capital alone does not explain the boom, and D is wrong because Fort Campbell is not the main source of Nashville's expansion. The city became a leading example of modern urban growth in the South.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.66,
+        "b": -0.27,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-q08",
+      "stem": "Tennessee's political evolution from a traditionally Democratic 'solid South' state to a reliably Republican state occurred primarily because —",
+      "stemEs": "Tennessee's political evolution from a traditionally democrático 'solid South' state to a reliably repúblicaan state occurred primarily because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Republican Party adopted economic policies specifically designed to attract Tennessee voters",
+          "textEs": "The repúblicaan Party adopted economic policies specifically designed to attract Tennessee voters",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Tennessee's economy became dependent on federal contracts that Republicans promised to deliver",
+          "textEs": "Tennessee's economy became dependent on federal contracts that repúblicaans promised to deliver",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The national Democratic Party's embrace of civil rights legislation in the 1960s gradually alienated white Southern voters",
+          "textEs": "The national democrático Party's embrace of derechos civiles legislación in the 1960s gradually alienated white Southern voters",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Tennessee's population became overwhelmingly rural after its cities declined",
+          "textEs": "Tennessee's population became overwhelmingly rural after its cities declined",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Tennessee moved toward the Republican Party largely because many white Southern voters drifted away from national Democrats after the party embraced civil rights in the 1960s. D is wrong because Tennessee did not become overwhelmingly rural through city collapse, and B is wrong because federal contracts were not the main cause. This shift was part of the larger political realignment of the South.",
+      "explanationEs": "Tennessee moved toward the repúblicaan Party largely because many white Southern voters drifted away from national Democrats after the party embraced derechos civiles in the 1960s. D is wrong because Tennessee did not become overwhelmingly rural through city collapse, and B is wrong because federal contracts were not the main cause. This shift was part of the larger political realignment of the South.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.14,
+        "b": 0.05,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x013",
+      "stem": "The Nashville metropolitan area's growth reflects a broader national trend toward —",
+      "stemEs": "The Nashville metropolitan area's growth reflects a broader national trend toward:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Counterurbanization — Americans moving from large metro areas to smaller towns and rural communities",
+          "textEs": "Counterurbanización — Americans moving from large metro areas to smaller towns and rural communities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Coastal-inland migration — Americans moving from coastal states toward interior states with lower housing costs",
+          "textEs": "Coastal-inland migration — Americans moving from coastal states toward interior states with lower housing costs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Sun Belt migration — the movement of people and businesses from the industrial Midwest and Northeast to the South and Southwest",
+          "textEs": "Sun Belt migration — the movement of people and businesses from the industrial Midwest and Northeast to the South and Southwest",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Suburbanization — the movement of Americans from urban centers to surrounding suburban communities",
+          "textEs": "suburbanización — the movement of Americans from urban centers to surrounding suburban communities",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Nashville's growth reflects the broader Sun Belt trend of people and businesses moving from the Northeast and Midwest to the South and Southwest. D is wrong because the question is about interstate and regional migration, not only movement from city centers to suburbs. This trend reshaped population, politics, and investment across the modern United States.",
+      "explanationEs": "Nashville's growth reflects the broader Sun Belt trend of people and businesses moving from the Northeast and Midwest to the South and Southwest. D is wrong because the question is about interstate and regional migration, not only movement from city centers to suburbs. This trend reshaped population, politics, and investment across the modern United States.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.92,
+        "b": -0.25,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x017",
+      "stem": "Tennessee's Volkswagen plant in Chattanooga became the focus of a nationally significant labor dispute in 2014 when —",
+      "stemEs": "Tennessee's Volkswagen plant in Chattanooga became the focus of a nationally significant labor dispute in 2014 when:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Volkswagen relocated production to Mexico after workers voted for unionization",
+          "textEs": "Volkswagen relocated production to Mexico after workers voted for unionization",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Tennessee Republicans threatened to withdraw state incentives if workers voted to unionize",
+          "textEs": "Tennessee repúblicaans threatened to withdraw state incentives if workers voted to unionize",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Workers voted to join the United Auto Workers union, making Tennessee the first Southern state with a UAW auto plant",
+          "textEs": "Workers voted to join the United Auto Workers union, making Tennessee the first Southern state with a UAW auto plant",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Workers voted against joining the UAW union in a closely watched election despite the company's neutrality",
+          "textEs": "Workers voted against joining the UAW union in a closely watched election despite the company's neutrality",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Chattanooga Volkswagen plant drew national attention when workers voted against joining the UAW in a closely watched 2014 election, even though Volkswagen itself stayed neutral. C is wrong because the union did not win that vote. The episode highlighted the difficulties unions faced in the modern South.",
+      "explanationEs": "The Chattanooga Volkswagen plant drew national attention when workers voted against joining the UAW in a closely watched 2014 election, even though Volkswagen itself stayed neutral. C is wrong because the union did not win that vote. The episode highlighted the difficulties unions faced in the modern South.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.01,
+        "b": -0.42,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x019",
+      "stem": "How does Tennessee's experience with urbanization — Nashville's growth, Memphis's challenges — reflect broader national trends?",
+      "stemEs": "How does Tennessee's experience with urbanización — Nashville's growth, Memphis's challenges — reflect broader national trends?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tennessee is unique in experiencing urbanization without the racial tension that characterizes Northern cities",
+          "textEs": "Tennessee is unique in experiencing urbanización without the racial tension that characterizes Northern cities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Tennessee's urbanization was driven by government investment that is not representative of national trends",
+          "textEs": "Tennessee's urbanización was driven by government investment that is not representative of national trends",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Tennessee's cities grew primarily through industrial development while national trends favored service economies",
+          "textEs": "Tennessee's cities grew primarily through industrial development while national trends favored service economies",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Tennessee's urban-rural divide mirrors national patterns where large cities grow while rural areas face economic decline",
+          "textEs": "Tennessee's urban-rural divide mirrors national patterns where large cities grow while rural areas face economic decline",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Tennessee reflects a national pattern in which major cities grow and diversify while many rural areas struggle economically and politically. A is wrong because Tennessee is not unique in facing urban-rural tension. The state's geography helps explain why its politics can look different in cities than in the countryside.",
+      "explanationEs": "Tennessee reflects a national pattern in which major cities grow and diversify while many rural areas struggle economically and politically. A is wrong because Tennessee is not unique in facing urban-rural tension. The state's geography helps explain why its politics can look different in cities than in the countryside.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.65,
+        "b": 0.14,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x024",
+      "stem": "Tennessee's largest cities — Nashville and Memphis — differ politically from the rest of the state because —",
+      "stemEs": "Tennessee's largest cities — Nashville and Memphis — differ politically from the rest of the state because:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Urban-rural political differences in Tennessee are primarily driven by differences in racial composition",
+          "textEs": "Urban-rural political differences in Tennessee are primarily driven by differences in racial composition",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Urban areas across the South have become more Democratic as their populations diversify and college-educated voters increase",
+          "textEs": "Urban areas across the South have become more democrático as their populations diversify and college-educated voters increase",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Nashville and Memphis were historically exempt from Tennessee's conservative political tradition",
+          "textEs": "Nashville and Memphis were historically exempt from Tennessee's conservative political tradition",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The state's largest cities have remained Democratic because they are dominated by government workers",
+          "textEs": "The state's largest cities have remained democrático because they are dominated by government workers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Nashville and Memphis differ politically from much of Tennessee because large Southern cities have become more Democratic as they grow more diverse and more college-educated. A is wrong because race matters but does not fully explain the difference by itself. Their politics reflect a wider urban-rural divide seen across the United States.",
+      "explanationEs": "Nashville and Memphis differ politically from much of Tennessee because large Southern cities have become more democrático as they grow more diverse and more college-educated. A is wrong because race matters but does not fully explain the difference by itself. Their politics reflect a wider urban-rural divide seen across the United States.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.32,
+        "b": -0.28,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-76-x031",
+      "stem": "Kennedy's establishment of the Peace Corps in 1961 reflected which Cold War strategy?",
+      "stemEs": "Kennedy's establishment of the Peace Corps in 1961 reflected which Guerra Fría strategy?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Military deterrence through the deployment of American troops in developing nations",
+          "textEs": "Military deterrence through the deployment of American troops in developing nations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Winning hearts and minds in developing countries through volunteerism and development assistance to counter Soviet influence",
+          "textEs": "Winning hearts and minds in developing countries through volunteerism and development assistance to counter Soviet influence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Economic competition with the Soviet Union through trade agreements with newly independent African and Asian nations",
+          "textEs": "Economic competition with the Soviet Union through comercio agreements with newly independent African and Asian nations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Intelligence gathering in foreign countries through the presence of civilian volunteers",
+          "textEs": "Intelligence gathering in foreign countries through the presence of civilian volunteers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Peace Corps reflected a Cold War 'hearts and minds' strategy by sending volunteers to help developing countries and build goodwill toward the United States. D is wrong because it was not mainly an intelligence operation. Kennedy used volunteer service as a peaceful way to compete with Soviet influence.",
+      "explanationEs": "The Peace Corps reflected a Guerra Fría 'hearts and minds' strategy by sending volunteers to help developing countries and build goodwill toward the United States. D is wrong because it was not mainly an intelligence operation. Kennedy used volunteer service as a peaceful way to compete with Soviet influence.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 0.48,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x038",
+      "stem": "Johnson's announcement in March 1968 that he would **NOT** seek reelection reflected which political reality?",
+      "stemEs": "Johnson's announcement in March 1968 that he would NOT seek reelection reflected which political reality?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Johnson was in poor health and his doctors advised against the physical demands of campaigning",
+          "textEs": "Johnson was in poor health and his doctors advised against the physical demands of campaigning",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Growing opposition to the Vietnam War had severely damaged his popularity and he faced a serious primary challenge",
+          "textEs": "Growing opposition to the Guerra de Vietnam had severely damaged his popularity and he faced a serious challenge within his own party",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Republican Party had already selected a stronger candidate whom Johnson could not defeat",
+          "textEs": "The repúblicaan Party had already selected a stronger candidate whom Johnson could not defeat",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Constitution's 22nd Amendment prevented him from serving another term",
+          "textEs": "The Constitución's 22nd enmienda prevented him from serving another term",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Johnson's 1968 decision not to run again reflected how deeply the Vietnam War had damaged his popularity and split his own party. D is wrong because the Constitution still allowed him to seek another full term. Vietnam weakened support for the same president who had passed the Great Society.",
+      "explanationEs": "Johnson's 1968 decision not to run again reflected how deeply the Guerra de Vietnam had damaged his popularity and split his own party. D is wrong because the Constitución still allowed him to seek another full term. Vietnam weakened support for the same president who had passed the Gran Sociedad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.89,
+        "b": -0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us77-add-5",
+      "stem": "How did New Frontier proposals influence later domestic policy even when not fully enacted under Kennedy?",
+      "stemEs": "¿Cómo New Frontier proposals influence later política interna even when not fully enacted under Kennedy?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Sending American volunteers abroad to support education, health, and development projects",
+          "textEs": "Sending American volunteers abroad to support education, health, and development projects",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They provided legislative foundations that Johnson advanced through Great Society programs",
+          "textEs": "They provided legislative foundations that Johnson advanced through Gran Sociedad programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It traumatized the nation and created sympathy that helped pass his legislative agenda",
+          "textEs": "It traumatized the nation and created sympathy that helped pass his legislative agenda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A domestic agenda to improve education, end discrimination, and advance science",
+          "textEs": "A domestic agenda to improve education, end discriminación, and advance science",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Even when Kennedy did not get all of his proposals passed, the New Frontier shaped later laws by giving Johnson ideas and political groundwork to build on. B is wrong because the Peace Corps was only one program, not the broader legacy. This continuity shows how presidential agendas can matter even beyond one administration.",
+      "explanationEs": "Even when Kennedy did not get all of his proposals passed, the New Frontier shaped later laws by giving Johnson ideas and political groundwork to build on. B is wrong because the Peace Corps was only one program, not the broader legacy. This continuity shows how presidential agendas can matter even beyond one administration.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.65,
+        "b": 1.55,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0044",
+      "stem": "The 1965 Immigration Act represented a major change from previous U.S. immigration policy by —",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Banning all immigration from Asia and Latin America",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Requiring all immigrants to come from Northern and Western Europe",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eliminating all numerical limits on immigration",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Replacing national-origin quotas with a system based on family ties and skills",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Hart-Celler Act, enacted as Public Law 89-236 on October 3, 1965 (79 Stat. 911), fundamentally restructured U.S. immigration by replacing the national-origin quota system established by the Immigration Act of 1924 with a preference system based on family reunification and occupational skills. Choice A is wrong because the Hart-Celler Act did not ban immigration from Asia or Latin America; it actually opened pathways for immigrants from those regions previously excluded by national-origin caps. Choice B is wrong because the prior quotas, not the 1965 law, heavily favored Northern and Western Europeans; the new law ended that preference. Choice C is wrong because the law maintained numerical limits on overall immigration while changing the selection criteria. The demographic transformation that followed significantly altered the ethnic composition of the United States.",
+      "explanationEs": "La Ley Hart-Celler, promulgada como Ley Pública 89-236 el 3 de octubre de 1965 (79 Stat. 911), reestructuró fundamentalmente la inmigración en EE. UU. al reemplazar el sistema de cuotas por origen nacional establecido por la Ley de Inmigración de 1924 con un sistema de preferencias basado en la reunificación familiar y las habilidades laborales. La opción A es incorrecta porque la Ley de Inmigración y Nacionalidad de 1965 no prohibió la inmigración de Asia o América Latina; en realidad abrió caminos para inmigrantes de esas regiones que anteriormente habían sido excluidos por los límites de cuotas nacionales. La opción B es incorrecta porque las cuotas previas por origen nacional, no la ley de 1965, favorecían ampliamente a los europeos del norte y del oeste; la nueva ley eliminó esa preferencia. La opción C es incorrecta porque la ley mantuvo límites numéricos a la inmigración total mientras cambiaba los criterios de selección. La transformación demográfica que siguió alteró significativamente la composición étnica de los Estados Unidos.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0051",
+      "stem": "How did Kennedy's New Frontier agenda reflect a departure from Eisenhower's domestic priorities?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The New Frontier called for increased federal investment in education, space exploration, foreign aid through the Peace Corps, and civil rights — a more activist approach than Eisenhower's",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The New Frontier reduced federal spending dramatically to balance the budget, reversing Eisenhower's expansion of programs like the Interstate Highway System",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy's New Frontier focused exclusively on military preparedness and eliminated all social welfare programs from the federal budget",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The New Frontier represented a return to isolationism by ending foreign aid and withdrawing from international organizations",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy's New Frontier was an activist domestic and foreign agenda: it proposed federal aid to education, created the Peace Corps (1961), pledged to land a man on the moon, and challenged the complacency of the Eisenhower era with calls for national sacrifice and service.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0052",
+      "stem": "How did the Peace Corps, established by Kennedy in 1961, reflect the goals of the New Frontier?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Peace Corps was a military organization designed to train soldiers for counterinsurgency operations in developing nations",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Peace Corps embodied the New Frontier's call to service, sending volunteers to developing nations to advance economic development and goodwill as peaceful Cold War competition",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Peace Corps was established to provide employment for American workers during a recession rather than to assist foreign countries",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Peace Corps focused exclusively on rebuilding European nations still recovering from the devastation of World War II",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy's Peace Corps sent American volunteers — educators, engineers, health workers — to developing nations, combining genuine humanitarian goals with strategic Cold War aims: demonstrating that democracy could improve lives more effectively than communism.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0053",
+      "stem": "Why did Kennedy commit the United States to landing a man on the Moon by the end of the 1960s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy was primarily motivated by scientific curiosity and had no strategic or political reasons for the moon commitment",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy committed to the moon program because NASA scientists had already completed all preparatory work and needed only funding to launch the mission",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Following Soviet achievements like Sputnik and Gagarin's orbit, Kennedy used the moon goal to reassert American technological prestige and demonstrate democratic capitalism's vitality",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Kennedy announced the moon commitment as part of a treaty with the Soviet Union to cooperate on space exploration",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "After Gagarin's 1961 orbit humiliated the U.S., Kennedy chose the moon as a goal the Soviets had not yet achieved, framing Apollo as a demonstration that democratic free enterprise could outperform Soviet central planning in a visible, dramatic competition.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0054",
+      "stem": "How did Kennedy's approach to racial discrimination differ from that of the Eisenhower administration?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy was more reluctant than Eisenhower to use federal power to address racial discrimination and avoided civil rights entirely",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy opposed civil rights legislation and relied on the states to address racial inequality without federal intervention",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy and Eisenhower had identical approaches to civil rights; both aggressively enforced desegregation throughout their presidencies",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Kennedy issued executive orders addressing discrimination in federal housing and employment and proposed comprehensive civil rights legislation — more proactive than Eisenhower's",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy signed Executive Order 10925 (1961) banning discrimination by federal contractors, federalized the National Guard during the Ole Miss crisis (1962), and proposed comprehensive civil rights legislation in June 1963 — a notably more interventionist stance than Eisenhower's reluctant enforcement.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0055",
+      "stem": "How did Kennedy's New Frontier reflect a generational shift in American political leadership?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy's emphasis on youth, vigor, and sacrifice — embodied in his 'ask not' inaugural — signaled a shift from Eisenhower's cautious leadership to a younger, idealistic vision",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy's policies were indistinguishable from those of older leaders and represented no meaningful generational change",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy's New Frontier explicitly rejected the accomplishments of the New Deal and sought to dismantle all programs created by FDR",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Kennedy won the presidency primarily based on his military record, with no connection to generational or cultural appeal",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy, at 43 the youngest elected president, deliberately projected youth and vigor as symbols of national renewal; his inaugural address's call to service resonated with baby boomers and represented a self-conscious generational changing of the guard.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK2-0056",
+      "stem": "How did Kennedy's federal education initiatives reflect New Frontier priorities?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy eliminated all federal involvement in education, arguing it should be handled entirely by states and local communities",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy's education initiatives focused exclusively on creating new private religious schools as alternatives to public education",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy sought to increase federal aid to public schools to improve educational quality and address Cold War concerns about American competitiveness",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Kennedy's education proposals were unanimously approved by Congress with no opposition and implemented immediately",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy proposed federal aid to elementary and secondary education as a Cold War competitiveness measure and equity investment, but the bills stalled in Congress due to battles over aid to parochial schools and segregated Southern districts — issues LBJ would resolve with the 1965 Elementary and Secondary Education Act.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.4,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-77-x016",
+      "stem": "The political transformation of Tennessee from a competitive state (represented by Al Gore) to a reliably Republican one reflects —",
+      "stemEs": "The political transformation of Tennessee from a competitive state (represented by Al Gore) to a reliably repúblicaan one reflects:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Economic changes that made Tennessee more prosperous, and research shows prosperous states lean Republican",
+          "textEs": "Economic changes that made Tennessee more prosperous, and research shows prosperous states lean repúblicaan",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The realignment of white Southern voters from the Democratic Party that accelerated after the 1960s and completed in the 1990s-2000s",
+          "textEs": "The realignment of white Southern voters from the democrático Party that accelerated after the 1960s and completed in the 1990s-2000s",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The success of Tennessee Republicans in disenfranchising Democratic-leaning voter groups",
+          "textEs": "The success of Tennessee repúblicaans in disenfranchising democrático-leaning voter groups",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "In-migration of Republican voters from Northern states who shifted Tennessee's political balance",
+          "textEs": "In-migration of repúblicaan voters from Northern states who shifted Tennessee's political balance",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Tennessee's shift from competitive to reliably Republican reflects the long realignment of white Southern voters away from the Democratic Party after the 1960s. D is wrong because migration from the North was not the main reason. By the 1990s and 2000s, this regional realignment was largely complete.",
+      "explanationEs": "Tennessee's shift from competitive to reliably repúblicaan reflects the long realignment of white Southern voters away from the democrático Party after the 1960s. D is wrong because migration from the North was not the main reason. By the 1990s and 2000s, this regional realignment was largely complete.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.72,
+        "b": 0.99,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-061",
+      "stem": "Kennedy's New Frontier programs faced significant opposition in Congress despite Democratic majorities. Which of the following best explains why congressional opposition limited Kennedy's domestic agenda?",
+      "stemEs": "Los programas de la Nueva Frontera de Kennedy enfrentaron una oposición significativa en el Congreso a pesar de las mayorías demócratas. ¿Cuál de las siguientes opciones explica mejor por qué la oposición del Congreso limitó la agenda interna de Kennedy?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Republicans controlled both the House and Senate throughout Kennedy's presidency, blocking any Democratic legislation from reaching the floor for a vote",
+          "textEs": "Los republicanos controlaban tanto la Cámara como el Senado durante toda la presidencia de Kennedy, lo que hacía imposible aprobar cualquier legislación demócrata.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Conservative Southern Democrats with key committee chairs joined Republicans to block the civil rights measures and federal program expansions at the heart of Kennedy's agenda",
+          "textEs": "Los demócratas sureños conservadores, que controlaban las presidencias de los comités clave y se oponían a los derechos civiles y a la expansión de los programas federales, formaron una coalición de bloqueo con los republicanos que impidió que gran parte de la agenda de la Nueva Frontera se aprobara.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy refused to introduce any civil rights legislation, which alienated liberal Democrats who then voted against all of his other programs in retaliation.",
+          "textEs": "Kennedy se negó a presentar cualquier legislación de derechos civiles, lo que alienó a los demócratas liberales que luego votaron en contra de todos sus otros programas en represalia.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Democratic Party had collapsed as a political force by 1961, leaving Kennedy unable to count on any congressional allies for his domestic agenda.",
+          "textEs": "El Partido Demócrata se había derrumbado como fuerza política para 1961, dejando a Kennedy incapaz de contar con aliados del Congreso para su agenda interna.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Democratic Party of the early 1960s was internally divided between Northern liberals (who supported New Frontier expansion) and conservative Southern Democrats who controlled key committee chairmanships and opposed civil rights legislation, federal aid to education, and healthcare programs. This 'conservative coalition' of Southern Democrats and Republicans could block most liberal legislation regardless of formal Democratic majorities. Kennedy's narrow 1960 victory also left him without a strong electoral mandate. Option A is factually incorrect — Democrats had majorities. Option C misidentifies Kennedy's stance; he did support civil rights legislation, though cautiously. Option D describes a later dynamic (post-1965).",
+      "explanationEs": "El Partido Demócrata de principios de los años 60 estaba internamente dividido entre liberales del Norte y demócratas sureños conservadores que controlaban presidencias clave de comités y se oponían a la legislación de derechos civiles, la ayuda federal a la educación y los programas de atención médica. Esta 'coalición conservadora' podía bloquear la mayoría de la legislación liberal independientemente de las mayorías demócratas formales. La opción A es factualmente incorrecta. La opción C identifica mal la postura de Kennedy. La opción D describe una dinámica posterior.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.93,
+        "b": 0.86,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-062",
+      "stem": "The Peace Corps, established by Kennedy in 1961, represented a new approach to American foreign policy. Which of the following best explains how it differed from prior instruments of U.S. foreign policy during the Cold War?",
+      "stemEs": "El Cuerpo de Paz, establecido por Kennedy en 1961, representó un nuevo enfoque de la política exterior estadounidense. ¿Cuál de las siguientes opciones explica mejor cómo difería de los instrumentos anteriores de la política exterior de Estados Unidos durante la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Peace Corps deployed soft power through people-to-people assistance, contrasting with Cold War instruments that relied on military aid, covert operations, and government-to-government ties",
+          "textEs": "El Cuerpo de Paz desplegó poder blando a través de asistencia directa de desarrollo de persona a persona a nivel de base, contrastando con los instrumentos anteriores de la Guerra Fría que dependían de ayuda militar, operaciones encubiertas y relaciones gobierno a gobierno.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Peace Corps focused exclusively on wealthy European nations, aiming to prevent them from aligning with the Soviet Union through economic development assistance.",
+          "textEs": "El Cuerpo de Paz se centró exclusivamente en las naciones europeas ricas, con el objetivo de evitar que se alinearan con la Unión Soviética a través de la asistencia para el desarrollo económico.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Peace Corps was a military training program that prepared volunteers to serve as guerrilla fighters in nations threatened by communist insurgencies.",
+          "textEs": "El Cuerpo de Paz era un programa de entrenamiento militar que preparaba a los voluntarios para servir como guerrilleros en naciones amenazadas por insurgencias comunistas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Peace Corps was primarily an intelligence-gathering operation that used development workers as cover for CIA agents collecting information on communist movements.",
+          "textEs": "El Cuerpo de Paz era principalmente una operación de recopilación de inteligencia que utilizaba a los trabajadores del desarrollo como cobertura para agentes de la CIA que recopilaban información sobre los movimientos comunistas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Prior Cold War instruments (military aid, CIA covert operations, arms sales) relied on hard power — supporting friendly governments militarily regardless of their democratic legitimacy. The Peace Corps represented a 'soft power' approach: rather than supporting governments, it deployed ordinary Americans into communities to provide direct grassroots development assistance, building goodwill at the people-to-people level rather than the government-to-government level. This was a genuine departure from covert operations and military aid as primary foreign policy tools. Option B is incorrect — the Peace Corps specifically targeted developing nations. Option C is factually inaccurate. Option D misidentifies the innovation — the Peace Corps was not primarily an intelligence program.",
+      "explanationEs": "Los instrumentos anteriores de la Guerra Fría (ayuda militar, operaciones encubiertas de la CIA, ventas de armas) dependían del poder duro. El Cuerpo de Paz representó un enfoque de 'poder blando': en lugar de apoyar gobiernos, desplegó a estadounidenses comunes en comunidades para proporcionar asistencia directa de desarrollo de base, construyendo buena voluntad a nivel pueblo a pueblo. La opción B es incorrecta. La opción C es factualmente inexacta. La opción D identifica mal la innovación.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.73,
+        "b": 0.82,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-063",
+      "stem": "Kennedy's 1961 moon mission commitment — 'We choose to go to the moon in this decade' — was made at a moment when the United States was behind the Soviet Union in the space race. Which of the following best explains the strategic reasoning behind this specific, ambitious timeline?",
+      "stemEs": "El compromiso de Kennedy en 1961 con la misión lunar —'Elegimos ir a la luna en esta década'— se hizo en un momento en que Estados Unidos estaba detrás de la Unión Soviética en la carrera espacial. ¿Cuál de las siguientes opciones explica mejor el razonamiento estratégico detrás de este cronograma específico y ambicioso?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy chose the moon mission because the United States already had overwhelming superiority in space technology and the mission was a low-risk way to demonstrate established American leadership.",
+          "textEs": "Kennedy eligió la misión lunar porque Estados Unidos ya tenía una abrumadora superioridad en tecnología espacial y la misión era una forma de bajo riesgo de demostrar el liderazgo estadounidense establecido.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy's primary motivation was economic — the moon mission would stimulate the American economy through defense contracts, with the Cold War competition being a secondary justification.",
+          "textEs": "La motivación principal de Kennedy era económica: la misión lunar estimularía la economía estadounidense a través de contratos de defensa, siendo la competencia de la Guerra Fría una justificación secundaria.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "By choosing a destination where neither nation had yet achieved any milestone, Kennedy reset the competition to a level playing field while committing a specific deadline that would sustain public funding and national focus across administrations.",
+          "textEs": "Al elegir un destino donde ninguna nación había logrado ningún hito todavía, Kennedy reinició la competencia en un campo de juego nivelado mientras comprometía un plazo específico que sostendría la financiación pública y el enfoque nacional a través de las administraciones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Kennedy publicly proposed that the United States and Soviet Union collaborate on the moon mission, reasoning that joint achievement would be more impressive than competitive victory.",
+          "textEs": "Kennedy propuso públicamente que Estados Unidos y la Unión Soviética colaboraran en la misión lunar, razonando que el logro conjunto sería más impresionante que la victoria competitiva.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By committing to a destination (the moon) where neither superpower had yet achieved any milestone, Kennedy essentially reset the competition to a level playing field. The Soviets led in near-Earth orbital achievements; the moon mission was a new race where both sides were starting from scratch. The ten-year deadline also created public accountability that sustained funding across administrations. Option A reverses the logic — Kennedy chose the moon precisely because the U.S. was behind in existing competitions. Option B misidentifies the motivation; economic development was secondary. Option D is factually incorrect — Kennedy did not propose abandoning competition.",
+      "explanationEs": "Al comprometerse con un destino (la luna) donde ninguna superpotencia había logrado ningún hito todavía, Kennedy esencialmente reinició la competencia en un campo de juego nivelado. Los soviéticos lideraban en logros orbitales cercanos a la Tierra; la misión lunar era una nueva carrera donde ambos lados partían desde cero. La opción A invierte la lógica. La opción B identifica mal la motivación. La opción D es factualmente incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.48,
+        "b": 0.62,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-064",
+      "stem": "Kennedy's approach to civil rights has been described by historians as 'cautious' and even 'reluctant' in his first two years. Which of the following best explains why a president who opposed racial discrimination moved slowly on civil rights legislation?",
+      "stemEs": "El enfoque de Kennedy hacia los derechos civiles ha sido descrito por los historiadores como 'cauteloso' e incluso 'reticente' en sus primeros dos años. ¿Cuál de las siguientes opciones explica mejor por qué un presidente que se oponía a la discriminación racial avanzó lentamente en la legislación de derechos civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy took no action on civil rights whatsoever during his presidency, waiting entirely for Congress to initiate any legislative or executive steps.",
+          "textEs": "Kennedy dependía de los votos del Congreso demócrata sureño para su agenda legislativa más amplia y temía que la legislación agresiva de derechos civiles destruyera la coalición que necesitaba para los programas de educación, económicos y espaciales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy privately supported racial segregation and only appeared to support civil rights for political purposes during election campaigns.",
+          "textEs": "Kennedy apoyaba privadamente la segregación racial y solo aparentaba apoyar los derechos civiles con fines políticos durante las campañas electorales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy believed civil rights were exclusively a state matter and that the federal government had no constitutional authority to address racial discrimination.",
+          "textEs": "Kennedy creía que los derechos civiles eran exclusivamente un asunto estatal y que el gobierno federal no tenía autoridad constitucional para abordar la discriminación racial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Kennedy relied on Southern Democratic votes and feared civil rights legislation would destroy the congressional coalition he needed for education, economic, and space programs",
+          "textEs": "Kennedy no tomó ninguna acción sobre los derechos civiles durante su presidencia, esperando completamente que el Congreso iniciara cualquier paso legislativo o ejecutivo.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy depended on Southern Democratic votes for his entire legislative agenda — aid to education, economic programs, the space program. Pushing civil rights legislation hard in 1961–62 risked destroying the Southern Democratic coalition that Kennedy needed for everything else. He used executive action (executive orders on federal employment discrimination, federal contracts) rather than legislation to make incremental progress while preserving congressional relationships. Only after Birmingham (spring 1963) did he commit to major civil rights legislation. Option B is historically inaccurate — Kennedy did support civil rights. Option C misidentifies the mechanism. Option D is factually wrong — he did act through executive orders.",
+      "explanationEs": "Kennedy dependía de los votos demócratas sureños para toda su agenda legislativa. Presionar fuertemente por la legislación de derechos civiles en 1961–62 arriesgaba destruir la coalición demócrata sureña que Kennedy necesitaba para todo lo demás. Utilizó la acción ejecutiva en lugar de la legislación para hacer avances incrementales. Solo después de Birmingham (primavera de 1963) se comprometió con la legislación principal de derechos civiles. La opción B es históricamente inexacta. La opción C identifica mal el mecanismo. La opción D es factualmente incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.42,
+        "b": 1.69,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-065",
+      "stem": "Kennedy's proposal for federal aid to education was blocked in Congress partly due to the issue of aid to religious (Catholic) schools. Which of the following best explains the constitutional dimension of this controversy?",
+      "stemEs": "La propuesta de Kennedy de ayuda federal a la educación fue bloqueada en el Congreso en parte debido al tema de la ayuda a las escuelas religiosas (católicas). ¿Cuál de las siguientes opciones explica mejor la dimensión constitucional de esta controversia?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The controversy arose because Congress believed public schools were adequately funded and that federal aid would only improve Catholic schools at the expense of public education",
+          "textEs": "La controversia surgió porque el Congreso creía que las escuelas públicas ya estaban adecuadamente financiadas y que la ayuda federal solo mejoraría las escuelas católicas a expensas del público.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Tenth Amendment reserved education entirely to state governments, making any federal education funding unconstitutional regardless of which schools received it",
+          "textEs": "La Décima Enmienda reservaba la educación completamente a los gobiernos estatales, haciendo que cualquier financiación federal de la educación fuera inconstitucional independientemente de qué escuelas la recibieran.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy personally opposed federal funding for education, believing schools should be supported entirely through local taxation and private contributions",
+          "textEs": "Kennedy se opuso a cualquier ayuda a las escuelas públicas porque creía que la educación debería financiarse enteramente de forma privada a través de matrículas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Including religious schools risked violating the First Amendment, while excluding them alienated Catholic voters — a dilemma Kennedy could not resolve without losing key political allies",
+          "textEs": "Incluir a las escuelas religiosas en la ayuda federal corría el riesgo de violar la Cláusula de Establecimiento de la Primera Enmienda, mientras que excluirlas alienaba a los electores católicos, creando un dilema constitucional y político que Kennedy no podía resolver sin perder aliados liberales o votantes católicos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Establishment Clause of the First Amendment prohibits government from establishing or favoring religion. Kennedy — himself Catholic — was in an awkward position: if federal education aid included religious schools, it might violate the Establishment Clause; if it excluded them, Catholic leaders (a core Democratic constituency) would oppose the bill. This constitutional tension was compounded by the political dynamics of Kennedy being the first Catholic president and needing to appear neutral on church-state issues. Option A is incorrect — the controversy was specifically constitutional and political, not purely about school quality. Option B misidentifies the constitutional issue. Option C is incorrect — Kennedy supported aid to public schools.",
+      "explanationEs": "La Cláusula de Establecimiento de la Primera Enmienda prohíbe al gobierno establecer o favorecer la religión. Kennedy —él mismo católico— estaba en una posición incómoda: si la ayuda federal a la educación incluía escuelas religiosas, podría violar la Cláusula de Establecimiento; si las excluía, los líderes católicos se opondrían al proyecto de ley. La opción A es incorrecta. La opción B identifica mal el problema constitucional. La opción C es incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.88,
+        "b": 1.16,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-066",
+      "stem": "Kennedy's New Frontier rhetoric promised bold action, but his actual legislative achievements by 1963 were limited. Which of the following best explains the gap between the New Frontier's aspirations and its legislative record?",
+      "stemEs": "La retórica de la Nueva Frontera de Kennedy prometía una acción audaz, pero sus logros legislativos reales para 1963 eran limitados. ¿Cuál de las siguientes opciones explica mejor la brecha entre las aspiraciones de la Nueva Frontera y su historial legislativo?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy deliberately chose not to pursue any domestic legislation, believing that executive action alone was sufficient to transform American society.",
+          "textEs": "Kennedy optó deliberadamente por no buscar ninguna legislación interna, creyendo que la acción ejecutiva sola era suficiente para transformar la sociedad estadounidense.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy focused exclusively on foreign policy and never sent domestic legislative proposals to Congress during his presidency.",
+          "textEs": "Kennedy se centró exclusivamente en la política exterior y nunca envió propuestas legislativas internas al Congreso durante su presidencia.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Structural constraints — including a slim electoral mandate, the conservative coalition blocking progressive legislation",
+          "textEs": "Las restricciones estructurales —incluyendo un mandato electoral estrecho, la coalición conservadora bloqueando la legislación progresista y las demandas de política exterior de la Guerra Fría consumiendo capital político— impidieron que la mayoría de las propuestas de la Nueva Frontera se aprobaran a pesar de las genuinas aspiraciones de Kennedy.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Kennedy's New Frontier proposals failed because he was personally opposed to federal spending and refused to fund the programs he publicly endorsed.",
+          "textEs": "Las propuestas de la Nueva Frontera de Kennedy fracasaron porque él personalmente se oponía al gasto federal y se negó a financiar los programas que públicamente respaldaba.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The gap between rhetoric and results reflects structural constraints: Kennedy's slim 1960 electoral margin gave him little political capital; the conservative coalition of Southern Democrats and Republicans controlled key committee chairs and could block most progressive legislation; and Kennedy chose to pursue Cold War foreign policy priorities (space, Berlin, Cuba) that consumed his political energy and public capital. His strongest domestic achievements came through executive action, not legislation. Option A is too strong — some legislation did pass. Option B is incorrect — Kennedy did seek congressional action. Option D misidentifies the primary obstacles; fiscal conservatism was one factor but not the dominant one.",
+      "explanationEs": "La brecha entre la retórica y los resultados refleja restricciones estructurales: el estrecho margen electoral de Kennedy en 1960 le dio poco capital político; la coalición conservadora controlaba las presidencias clave de los comités; y Kennedy eligió priorizar la política exterior de la Guerra Fría. Sus logros domésticos más sólidos vinieron a través de la acción ejecutiva, no de la legislación. La opción A es demasiado fuerte. La opción B es incorrecta. La opción D identifica mal los obstáculos principales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.73,
+        "b": 1.0,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-067",
+      "stem": "Kennedy's executive order establishing the President's Committee on Equal Employment Opportunity (1961) addressed racial discrimination in federal employment. Which of the following best explains why Kennedy chose executive action rather than legislation for this initiative?",
+      "stemEs": "La orden ejecutiva de Kennedy que estableció el Comité del Presidente sobre Igualdad de Oportunidades de Empleo (1961) abordó la discriminación racial en el empleo federal. ¿Cuál de las siguientes opciones explica mejor por qué Kennedy eligió la acción ejecutiva en lugar de la legislación para esta iniciativa?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy used executive orders because they required a two-thirds congressional majority — a higher bar than simple legislation — demonstrating stronger commitment.",
+          "textEs": "Kennedy usó órdenes ejecutivas porque requerían una mayoría de dos tercios del Congreso —un estándar más alto que la legislación simple— demostrando un mayor compromiso.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Executive action allowed Kennedy to advance civil rights within executive authority without the congressional coalition backlash that legislation would have triggered, protecting political capital",
+          "textEs": "La acción ejecutiva permitió a Kennedy avanzar en los derechos civiles dentro de la clara autoridad del poder ejecutivo sin desencadenar la reacción de la coalición del Congreso que habría provocado la legislación de derechos civiles, preservando el capital político para otras prioridades.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Constitution explicitly prohibited Congress from passing civil rights legislation, leaving executive orders as the only available tool for addressing discrimination.",
+          "textEs": "La Constitución prohibía explícitamente al Congreso aprobar legislación de derechos civiles, dejando las órdenes ejecutivas como la única herramienta disponible para abordar la discriminación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Executive orders applied automatically to all levels of government and all private employers, making them more comprehensive than any legislation could have been.",
+          "textEs": "Las órdenes ejecutivas se aplicaban automáticamente a todos los niveles de gobierno y a todos los empleadores privados, haciéndolas más completas de lo que podría haber sido cualquier legislación.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Executive orders allow the president to act within the executive branch without congressional approval. By targeting federal employment specifically, Kennedy could advance civil rights incrementally in an area where presidential authority was clear, without triggering the Southern Democrat coalition backlash that civil rights legislation would provoke. This approach produced real change in a limited sphere while preserving legislative coalitions for other priorities. Option A is factually incorrect — executive orders do not require congressional approval. Option C is correct but incomplete — the broader reason was congressional obstruction, not just the Constitution. Option D misrepresents the nature of executive orders.",
+      "explanationEs": "Las órdenes ejecutivas permiten al presidente actuar dentro del poder ejecutivo sin aprobación del Congreso. Al apuntar específicamente al empleo federal, Kennedy podía avanzar en los derechos civiles de manera incremental en un área donde la autoridad presidencial era clara, sin desencadenar la reacción de la coalición demócrata sureña que provocaría la legislación de derechos civiles. La opción A es factualmente incorrecta. La opción C es correcta pero incompleta. La opción D representa incorrectamente la naturaleza de las órdenes ejecutivas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.39,
+        "b": 0.7,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-068",
+      "stem": "Historians debate whether Kennedy's New Frontier programs represented a genuine philosophical break from Eisenhower's 'dynamic conservatism' or merely a rhetorical difference with similar underlying policies. Which of the following evidence best supports the argument for continuity rather than change?",
+      "stemEs": "Los historiadores debaten si los programas de la Nueva Frontera de Kennedy representaron una ruptura filosófica genuina del 'conservadurismo dinámico' de Eisenhower o meramente una diferencia retórica con políticas subyacentes similares. ¿Cuál de las siguientes evidencias respalda mejor el argumento de continuidad en lugar de cambio?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Both maintained large defense budgets, accepted the New Deal, and pursued anti-communist containment — suggesting their differences were more rhetorical and stylistic than substantively directional",
+          "textEs": "Tanto Kennedy como Eisenhower mantuvieron grandes presupuestos de defensa, aceptaron el marco del New Deal sin una expansión dramática y persiguieron la contención anticomunista, lo que sugiere que sus políticas reales diferían más en retórica y estilo que en dirección fundamental.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kennedy dramatically increased the federal budget, created new cabinet agencies, and fundamentally restructured the federal government's relationship with state and local governments",
+          "textEs": "Kennedy aumentó dramáticamente el presupuesto federal, creó docenas de nuevas agencias a nivel de gabinete y reestructuró fundamentalmente la relación entre el gobierno federal y los estados.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy aggressively pursued civil rights legislation in his first year, passing major bills that Eisenhower had refused to support throughout his two terms",
+          "textEs": "Kennedy avanzó agresivamente en la legislación de derechos civiles en su primer año, aprobando proyectos de ley importantes que Eisenhower se había negado a apoyar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Kennedy explicitly rejected the Eisenhower defense budget, cutting military spending in half and redirecting funds entirely to domestic social programs",
+          "textEs": "Kennedy rechazó explícitamente el presupuesto de defensa de Eisenhower, reduciendo el gasto militar a la mitad y redirigiendo los fondos enteramente a programas sociales internos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both Kennedy and Eisenhower maintained large defense budgets, accepted the basic New Deal welfare state framework without dramatically expanding it, used Keynesian demand management, and were deeply committed to anti-communist containment in foreign policy. Kennedy's actual legislative achievements in domestic policy were modest — his tax cut proposal was supply-side in nature, and he did not pass major new social programs. The contrast was more in rhetoric, style, and youth than in fundamental policy direction. Option B actually supports the change argument. Option C supports the change argument regarding civil rights. Option D would support difference — Kennedy's rhetorical vision was distinctly more expansionist.",
+      "explanationEs": "Tanto Kennedy como Eisenhower mantuvieron grandes presupuestos de defensa, aceptaron el marco básico del Estado de bienestar del New Deal sin expandirlo dramáticamente, y estuvieron profundamente comprometidos con la contención anticomunista. Los logros legislativos reales de Kennedy en política doméstica fueron modestos. La opción B en realidad respalda el argumento del cambio. La opción C respalda el argumento del cambio sobre los derechos civiles. La opción D respaldaría la diferencia.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.33,
+        "b": 1.43,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u8-069",
+      "stem": "Kennedy's assassination in November 1963 led directly to the passage of major legislation in 1964 and 1965 that Kennedy had proposed but could not pass. Which of the following best explains the mechanism by which his death changed the political landscape?",
+      "stemEs": "El asesinato de Kennedy en noviembre de 1963 llevó directamente a la aprobación de la legislación principal en 1964 y 1965 que Kennedy había propuesto pero no podía aprobar. ¿Cuál de las siguientes opciones explica mejor el mecanismo por el cual su muerte cambió el panorama político?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kennedy's death caused his congressional opponents to change their policy beliefs, resulting in formerly conservative politicians voting for liberal legislation out of genuine conviction.",
+          "textEs": "La muerte de Kennedy hizo que sus opositores en el Congreso cambiaran sus creencias políticas, resultando en que políticos anteriormente conservadores votaran por legislación liberal por convicción genuina.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Public grief over Kennedy's death shifted American public opinion so dramatically that Congress had no choice but to pass all of his proposals to avoid electoral defeat.",
+          "textEs": "El duelo público por la muerte de Kennedy cambió la opinión pública estadounidense tan dramáticamente que el Congreso no tuvo más remedio que aprobar todas sus propuestas para evitar la derrota electoral.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kennedy's assassination triggered special elections that replaced conservative Democratic senators with liberal ones, giving Lyndon Johnson the votes he needed for new legislation.",
+          "textEs": "El asesinato de Kennedy desencadenó elecciones especiales que reemplazaron a senadores demócratas conservadores con liberales, dándole a Lyndon Johnson los votos que necesitaba para nueva legislación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Johnson invoked Kennedy's legacy to frame resistance to civil rights and anti-poverty legislation as dishonoring a fallen president, overcoming the Southern Democrats who had blocked Kennedy's agenda",
+          "textEs": "Lyndon Johnson invocó hábilmente el legado mártir de Kennedy para enmarcar la oposición a la legislación de derechos civiles y anti-pobreza como una falta de respeto a un presidente caído, superando la misma coalición demócrata sureña que había bloqueado los proyectos de ley de Kennedy combinando culpa, duelo y su propio dominio de las relaciones del Congreso.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.72"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Kennedy's assassination created a political environment in which opposing his legislative agenda could be framed as disrespecting his martyred memory. Lyndon Johnson — a master congressional strategist with deep Southern Democratic ties — skillfully invoked Kennedy's legacy to overcome the very Southern Democratic opposition that had blocked Kennedy's bills. Johnson used guilt, grief, and his own congressional relationships to pass the Civil Rights Act (1964), the Economic Opportunity Act (1964), and eventually the Voting Rights Act (1965). Option A is factually incorrect — opposition politicians did not suddenly agree. Option B overstates the role of public opinion shifts alone. Option C incorrectly identifies the mechanism — the congressional composition changed little immediately.",
+      "explanationEs": "El asesinato de Kennedy creó un entorno político en el que oponerse a su agenda legislativa podía enmarcarse como falta de respeto a su memoria de mártir. Lyndon Johnson —un maestro estratega del Congreso con profundos lazos demócratas sureños— invocó hábilmente el legado de Kennedy para superar la propia oposición demócrata sureña que había bloqueado los proyectos de ley de Kennedy. La opción A es factualmente incorrecta. La opción B sobreestima el papel de los cambios en la opinión pública solos. La opción C identifica incorrectamente el mecanismo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.83,
+        "b": 1.61,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.77"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.77->US.72 unchanged"
+        ]
+      }
+    }
+  ]
+}

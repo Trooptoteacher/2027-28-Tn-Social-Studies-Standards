@@ -1,0 +1,289 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.58",
+  "status": "quarantined",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us58-60-summary-1",
+      "stem": "Summarize the main ways the United States responded to post-WWII global challenges between 1945-1950.",
+      "stemEs": "Resuma las principales formas en que Estados Unidos respondió a desafíos globales post-Segunda Guerra Mundial entre 1945-1950.",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Economic stability would make nations less vulnerable to communist pressure and influence",
+          "textEs": "Se enfocó exclusivamente en intervención militar sin proporcionar ninguna ayuda económica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It committed the U.S. to actively intervening globally to support threatened free nations",
+          "textEs": "Regresó a aislacionismo de preguerra evitando todo involucramiento en asuntos internacionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Created the UN, provided Marshall Plan aid, formed NATO alliance, and intervened in Korea",
+          "textEs": "Creó la ONU, proporcionó ayuda del Plan Marshall, formó alianza OTAN e intervino en Corea",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "As president, he had authority to commit U.S. resources and set foreign policy direction",
+          "textEs": "Negoció tratados aceptando control comunista tanto de Europa Occidental como Oriental",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.58",
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Created the UN, provided Marshall Plan aid, formed NATO alliance, and intervened in Korea. The United States sent billions of dollars to rebuild Western Europe and strengthen it against communist influence. B is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Resumen de respuesta de EE.UU. incluye: institucional (fundación ONU), económico (Plan Marshall), alianza militar (OTAN) e intervención directa (Corea) - mostrando enfoque internacionalista integral a contención.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.26,
+        "b": 1.52,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.58",
+          "US.60",
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.58->US.58 unchanged",
+          "US.60->US.60 revised sim=0.94",
+          "US.61->US.63 revised sim=0.86 BELOW floor 0.9"
+        ]
+      }
+    },
+    {
+      "id": "q-us50-dok4-cr-6",
+      "stem": "Read the following excerpt from the Nuremberg Laws (Reich Citizenship Law and Law for the Protection of German Blood and German Honor), September 15, 1935, promulgated by the Nazi government of Germany (Avalon Project, Yale Law School, public domain):\n\n\"A citizen of the Reich is that subject only who is of German or kindred blood and who, through his conduct, shows that he is both desirous and fit to serve the German people and Reich faithfully. The right to citizenship is acquired by the granting of Reich citizenship papers... Marriages between Jews and subjects of the state of German or kindred blood are forbidden.\"\n\nUsing this excerpt and your knowledge of the Holocaust, write a CER response that analyzes how the Nuremberg Laws of 1935 represented a critical step in the Nazi regime's systematic persecution of Jewish people and other targeted groups, leading ultimately to genocide. Your response must: (1) trace the escalating legal and social persecution from 1933 to 1942 (from Dachau to the Wannsee Conference); (2) analyze how legal dehumanization enabled mass murder; (3) evaluate the international response and what it reveals about the failure of the world community to intervene. Connect to the postwar Nuremberg Trials (US.58) and what the Holocaust revealed about the need for international law.",
+      "stemEs": "Lee el siguiente fragmento de las Leyes de Núremberg (Ley de Ciudadanía del Reich y Ley para la Protección de la Sangre y el Honor Alemanes), 15 de septiembre de 1935, promulgadas por el gobierno nazi de Alemania (Proyecto Avalon, Escuela de Derecho de Yale, dominio público):\n\n\"Un ciudadano del Reich es aquel súbdito que sea solo de sangre alemana o afín y que, a través de su conducta, demuestre que es tanto deseoso como apto para servir fielmente al pueblo y al Reich alemán. El derecho a la ciudadanía se adquiere mediante el otorgamiento de documentos de ciudadanía del Reich... Los matrimonios entre judíos y súbditos del estado de sangre alemana o afín están prohibidos.\"\n\nUsando este fragmento y tu conocimiento del Holocausto, escribe una respuesta CER que analice cómo las Leyes de Núremberg de 1935 representaron un paso crítico en la persecución sistemática del pueblo judío y otros grupos señalados por el régimen nazi, conduciendo en última instancia al genocidio. Tu respuesta debe: (1) rastrear la escalada de persecución legal y social de 1933 a 1942 (desde Dachau hasta la Conferencia de Wannsee); (2) analizar cómo la deshumanización legal permitió el asesinato masivo; (3) evaluar la respuesta internacional y lo que revela sobre el fracaso de la comunidad mundial para intervenir. Conecta con los Juicios de Núremberg de posguerra (US.58) y lo que el Holocausto reveló sobre la necesidad del derecho internacional.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-score response will: (1) Claim: The Nuremberg Laws were the legal foundation for genocide — by stripping Jews of citizenship and legal protections, they made mass murder administratively possible and socially normalized. (2) Evidence: Dachau opened (March 1933); Nuremberg Laws (September 1935) — stripped citizenship, banned intermarriage; Kristallnacht (November 1938); ghettos established (1939–1940); Einsatzgruppen mobile killing units (1941); Wannsee Conference (January 1942) — systematized 'Final Solution'; six million Jews murdered, plus Romani people, disabled persons, political prisoners, LGBTQ+ individuals, others. International failure: Evian Conference (1938) — 32 nations, no meaningful commitments to accept Jewish refugees; U.S. immigration quotas. (3) Reasoning: Legal dehumanization (removing citizenship) preceded physical dehumanization; bureaucratic categorization enabled logistical genocide. Postwar connection: Nuremberg Trials (1945–1946) established 'crimes against humanity' as a legal category, directly responding to the failure of existing international law to prevent genocide. Connect US.50 → US.58 → founding of UN and Universal Declaration of Human Rights (1948).",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.50, US.58 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.58"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Clear claim linking legal persecution to genocide. Evidence traces escalation from 1933 through 1942 with specific events and dates. Analysis of how legal dehumanization enabled mass murder is explicit. International failure analyzed (Evian Conference). Cross-standard synthesis to US.58 (Nuremberg Trials) present. Writing shows historical sensitivity and factual precision.\n3 - Proficient: Clear claim. Evidence covers at least three specific events in the escalation. Some analysis of legal-to-physical persecution link. International failure addressed. Partial US.58 connection.\n2 - Developing: Describes Holocaust events without analytical framework. Two events cited. No explicit reasoning about legal dehumanization. No international response analysis.\n1 - Beginning: General statements about the Holocaust. One or no specific events. No analysis or cross-standard connection.\n0 - No response or completely off-topic.\n\nKEY EVIDENCE EXPECTED: Dachau (1933); Nuremberg Laws (1935); Kristallnacht (1938); Wannsee Conference (January 1942); six million Jewish deaths; Evian Conference (1938) — international failure; Nuremberg Trials (1945–1946) — crimes against humanity; Universal Declaration of Human Rights (1948).",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Afirmación clara que vincula la persecución legal con el genocidio. La evidencia rastrea la escalada desde 1933 hasta 1942 con eventos y fechas específicos. El análisis de cómo la deshumanización legal permitió el asesinato masivo es explícito. El fracaso internacional analizado (Conferencia de Evian). Síntesis entre estándares con US.58 (Juicios de Núremberg) presente. La escritura muestra sensibilidad histórica y precisión factual.\n3 - Competente: Afirmación clara. La evidencia cubre al menos tres eventos específicos en la escalada. Algún análisis del vínculo entre persecución legal y física. Fracaso internacional abordado. Conexión parcial con US.58.\n2 - En desarrollo: Describe eventos del Holocausto sin marco analítico. Dos eventos citados. Sin razonamiento explícito sobre la deshumanización legal. Sin análisis de la respuesta internacional.\n1 - Inicial: Declaraciones generales sobre el Holocausto. Uno o ningún evento específico. Sin análisis ni conexión entre estándares.\n0 - Sin respuesta o completamente fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Dachau (1933); Leyes de Núremberg (1935); Kristallnacht (1938); Conferencia de Wannsee (enero de 1942); seis millones de muertos judíos; Conferencia de Evian (1938) — fracaso internacional; Juicios de Núremberg (1945–1946) — crímenes contra la humanidad; Declaración Universal de Derechos Humanos (1948).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.49,
+        "b": -0.18,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.50",
+          "US.58"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.50: retired — no 2027-28 home",
+          "US.58->US.58 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us50-dok4-dbq-3",
+      "stem": "Analyze the following two primary source excerpts and construct a document-based argument about how the Holocaust revealed failures of international law and how the Nuremberg Trials attempted to address those failures.\n\nDOCUMENT A: Excerpt from the Nuremberg Laws (Law for the Protection of German Blood and German Honor), September 15, 1935 (Avalon Project, Yale Law School, public domain):\n\"Marriages between Jews and subjects of the state of German or kindred blood are forbidden. Marriages nevertheless concluded are invalid, even if concluded abroad to circumvent this law... Extramarital intercourse between Jews and subjects of the state of German or kindred blood is forbidden... A Jew cannot be a citizen of the Reich. He has no right to vote in political affairs and he cannot occupy a public office.\"\n\nDOCUMENT B: Excerpt from the Nuremberg Trial opening statement by Chief U.S. Prosecutor Robert H. Jackson, November 21, 1945 (Nuremberg Trial Proceedings, Vol. 2; Avalon Project, Yale Law School, public domain):\n\"The wrongs which we seek to condemn and punish have been so calculated, so malignant and so devastating, that civilization cannot tolerate their being ignored, because it cannot survive their being repeated. That four great nations, flushed with victory and stung with injury, stay the hand of vengeance and voluntarily submit their captive enemies to the judgment of the law is one of the most significant tributes that Power has ever paid to Reason.\"\n\nUsing HIPP analysis for each document and your knowledge of the Holocaust and postwar justice, construct an argument that evaluates: (1) how Document A represents the legal architecture of persecution that enabled genocide; (2) how Document B reflects the philosophical and legal challenge of prosecuting 'crimes against humanity' for acts that were technically legal under German law at the time; (3) what the Nuremberg Trials established as precedent for international human rights law. Include at least two pieces of outside evidence.",
+      "stemEs": "Analiza los siguientes dos extractos de fuentes primarias y construye un argumento basado en documentos sobre cómo el Holocausto reveló los fracasos del derecho internacional y cómo los Juicios de Núremberg intentaron abordar esos fracasos.\n\nDOCUMENTO A: Extracto de las Leyes de Núremberg (Ley para la Protección de la Sangre y el Honor Alemanes), 15 de septiembre de 1935 (Proyecto Avalon, Escuela de Derecho de Yale, dominio público):\n\"Los matrimonios entre judíos y súbditos del estado de sangre alemana o afín están prohibidos. Los matrimonios concluidos sin embargo son inválidos, aunque se concluyan en el extranjero para eludir esta ley... Las relaciones extramatrimoniales entre judíos y súbditos del estado de sangre alemana o afín están prohibidas... Un judío no puede ser ciudadano del Reich. No tiene derecho a votar en asuntos políticos y no puede ocupar un cargo público.\"\n\nDOCUMENTO B: Extracto de la declaración de apertura del juicio de Núremberg del Fiscal Jefe de EE.UU. Robert H. Jackson, 21 de noviembre de 1945 (Procedimientos del Juicio de Núremberg, Vol. 2; Proyecto Avalon, Escuela de Derecho de Yale, dominio público):\n\"Los males que buscamos condenar y castigar han sido tan calculados, tan malignos y tan devastadores, que la civilización no puede tolerar que sean ignorados, porque no puede sobrevivir a que se repitan. Que cuatro grandes naciones, exultantes con la victoria y heridas por la injuria, detengan la mano de la venganza y voluntariamente sometan a sus enemigos cautivos al juicio de la ley es uno de los tributos más significativos que el Poder ha pagado jamás a la Razón.\"\n\nUsando el análisis HIPP para cada documento y tu conocimiento del Holocausto y la justicia de posguerra, construye un argumento que evalúe: (1) cómo el Documento A representa la arquitectura legal de la persecución que habilitó el genocidio; (2) cómo el Documento B refleja el desafío filosófico y legal de procesar 'crímenes contra la humanidad' por actos que eran técnicamente legales bajo la ley alemana en ese momento; (3) qué establecieron los Juicios de Núremberg como precedente para el derecho internacional de derechos humanos. Incluye al menos dos piezas de evidencia externa.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-score (6/6) response will: THESIS: A sophisticated claim — e.g., 'The pairing of the Nuremberg Laws (Document A) and Jackson's prosecution argument (Document B) reveals the core paradox of the Holocaust: that the most systematic genocide in history was carried out within a legal framework — and that addressing it required inventing new legal categories, establishing that governments can commit crimes against their own citizens that transcend national sovereignty.' HIPP — Doc A: Historical context: Nazi consolidation of power, 1933–1935; Intended audience: German citizens, Jewish population, international observers; Purpose: legally define Jews as non-citizens, enabling discrimination without legal recourse; Point of view: Nazi state — using legal mechanisms to institutionalize racism. HIPP — Doc B: Historical context: War's end, Nuremberg 1945, Allied occupation; Intended audience: international legal community, surviving victims, global public; Purpose: establish legal justification for prosecuting acts previously outside international law; Point of view: Jackson as architect of new international legal norm — 'crimes against humanity.' OUTSIDE EVIDENCE: Wannsee Conference (1942); six million Jewish deaths; Dachau/Auschwitz; Evian Conference (1938) — international failure; Universal Declaration of Human Rights (1948); Genocide Convention (1948) — direct Nuremberg legacy. SYNTHESIS: Document A shows the legal mechanism of dehumanization; Document B shows the legal response — and together they reveal the transformation in international law that the Holocaust forced.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.50, US.58 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.58"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Sophisticated thesis about the paradox of legal persecution and the invention of 'crimes against humanity.' Both documents analyzed with full HIPP (all four elements for each). Two or more outside evidence pieces. Synthesis connects legal architecture of persecution (Doc A) to legal architecture of accountability (Doc B). Postwar legacy addressed (UDHR, Genocide Convention).\n5 - Advanced: Clear thesis. Both documents with mostly complete HIPP. Two outside evidence pieces. Synthesis present.\n4 - Proficient: Clear thesis. Both documents analyzed with at least three HIPP elements. One outside evidence piece. Argument present.\n3 - Adequate: Thesis present. One document fully analyzed. Some outside evidence. Partial synthesis.\n2 - Developing: Minimal thesis. Documents described, not analyzed. Little outside evidence.\n1 - Beginning: No thesis. One document referenced. No HIPP.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: Doc A HIPP — purpose is legal dehumanization/citizenship stripping as precondition to genocide; Doc B HIPP — purpose is establishing 'crimes against humanity' as new legal category; Jackson's 'Power has paid to Reason' as rhetorical construction of rule-of-law legitimacy for victor's tribunal.\nKEY EVIDENCE EXPECTED: Nuremberg Laws (1935); Kristallnacht (1938); Wannsee Conference (1942); six million Jewish deaths; Nuremberg Tribunal (1945–1946) verdicts; Universal Declaration of Human Rights (1948); Genocide Convention (1948).",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: Tesis sofisticada sobre la paradoja de la persecución legal y la invención de los 'crímenes contra la humanidad'. Ambos documentos analizados con HIPP completo (los cuatro elementos para cada uno). Dos o más piezas de evidencia externa. La síntesis conecta la arquitectura legal de la persecución (Doc A) con la arquitectura legal de la responsabilidad (Doc B). Legado de posguerra abordado (DUDH, Convención sobre Genocidio).\n5 - Avanzado: Tesis clara. Ambos documentos con HIPP mayormente completo. Dos piezas de evidencia externa. Síntesis presente.\n4 - Competente: Tesis clara. Ambos documentos analizados con al menos tres elementos HIPP. Una pieza de evidencia externa. Argumento presente.\n3 - Adecuado: Tesis presente. Un documento completamente analizado. Alguna evidencia externa. Síntesis parcial.\n2 - En desarrollo: Tesis mínima. Documentos descritos, no analizados. Poca evidencia externa.\n1 - Inicial: Sin tesis. Un documento referenciado. Sin HIPP.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS DE DOCUMENTOS: HIPP del Doc A — el propósito es la deshumanización legal/despojo de ciudadanía como condición previa al genocidio; HIPP del Doc B — el propósito es establecer los 'crímenes contra la humanidad' como nueva categoría legal; 'El Poder ha pagado a la Razón' de Jackson como construcción retórica de la legitimidad del estado de derecho para el tribunal de los vencedores.\nEVIDENCIA CLAVE ESPERADA: Leyes de Núremberg (1935); Kristallnacht (1938); Conferencia de Wannsee (1942); seis millones de muertos judíos; veredictos del Tribunal de Núremberg (1945–1946); Declaración Universal de Derechos Humanos (1948); Convención sobre Genocidio (1948).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.86,
+        "b": 0.39,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.50",
+          "US.58"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.50: retired — no 2027-28 home",
+          "US.58->US.58 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us58-dok4-dbq-10",
+      "stem": "Analyze the following two primary source excerpts and construct a document-based argument about whether the Nuremberg Trials established a meaningful and lasting standard of international accountability for crimes against humanity.\n\nDOCUMENT A: Excerpt from the Nuremberg Trial Indictment, International Military Tribunal, October 18, 1945 (Yale Law School Avalon Project; public domain):\n\"The defendants... used their positions of authority and control over the armed forces and the civilian population... to commit Crimes against Peace, War Crimes, and Crimes against Humanity as defined in the Charter of the International Military Tribunal... Murder, extermination, enslavement, deportation, and other inhumane acts committed against any civilian population before or during the war, or persecutions on political, racial, or religious grounds in execution of or in connection with any crime within the jurisdiction of the Tribunal, whether or not in violation of the domestic law of the country where perpetrated.\"\n\nDOCUMENT B: Excerpt from the Nuremberg Judgment — 'Superior Orders' ruling, International Military Tribunal, October 1, 1946 (Yale Law School Avalon Project; public domain):\n\"The fact that the defendant acted pursuant to order of his Government or of a superior shall not free him from responsibility, but may be considered in mitigation of punishment if the Tribunal determines that justice so requires... The true test, which is found in varying degrees in the criminal law of most nations, is not the existence of the order, but whether moral choice was in fact possible.\"\n\nUsing HIPP analysis for each document and your knowledge of the Holocaust (US.50) and the Nuremberg Trials (US.58), construct an argument that evaluates: (1) what legal precedents the Tribunal established and why they were historically significant; (2) how Document B's rejection of the 'superior orders' defense directly addressed the mechanisms by which the Holocaust was carried out; (3) whether the Nuremberg Trials represented genuine justice or were, as some critics charged, 'victors' justice.' Include at least two pieces of outside evidence from either the Holocaust or subsequent applications of the Nuremberg principles.",
+      "stemEs": "Analiza los siguientes dos extractos de fuentes primarias y construye un argumento basado en documentos sobre si los Juicios de Núremberg establecieron un estándar significativo y duradero de responsabilidad internacional por crímenes contra la humanidad.\n\nDOCUMENTO A: Extracto de la Acusación del Juicio de Núremberg, Tribunal Militar Internacional, 18 de octubre de 1945 (Proyecto Avalon de la Escuela de Derecho de Yale; dominio público):\n\"Los acusados... utilizaron sus posiciones de autoridad y control sobre las fuerzas armadas y la población civil... para cometer Crímenes contra la Paz, Crímenes de Guerra y Crímenes contra la Humanidad según se definen en la Carta del Tribunal Militar Internacional... Asesinato, exterminio, esclavización, deportación y otros actos inhumanos cometidos contra cualquier población civil antes o durante la guerra, o persecuciones por motivos políticos, raciales o religiosos...\"\n\nDOCUMENTO B: Extracto de la Sentencia de Núremberg — fallo sobre 'Órdenes Superiores', Tribunal Militar Internacional, 1 de octubre de 1946 (Proyecto Avalon de la Escuela de Derecho de Yale; dominio público):\n\"El hecho de que el acusado haya actuado en cumplimiento de una orden de su gobierno o de un superior no lo eximirá de responsabilidad, pero puede considerarse como atenuante si el Tribunal determina que la justicia así lo requiere... La verdadera prueba... no es la existencia de la orden, sino si era de hecho posible una elección moral.\"\n\nUsando el análisis HIPP para cada documento y tu conocimiento del Holocausto (US.50) y los Juicios de Núremberg (US.58), construye un argumento que evalúe: (1) qué precedentes legales estableció el Tribunal y por qué fueron históricamente significativos; (2) cómo el rechazo del Documento B a la defensa de 'órdenes superiores' abordó directamente los mecanismos por los cuales se llevó a cabo el Holocausto; (3) si los Juicios de Núremberg representaron justicia genuina o fueron, como alegaron algunos críticos, 'justicia de los vencedores'. Incluye al menos dos piezas de evidencia externa.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-score response will: (1) Apply full HIPP to both documents. Document A — Historical context: the revelation of the full scale of the Holocaust and Nazi war crimes at war's end; Intended audience: the defendants, international legal community, and postwar world; Purpose: Define new categories of international crime and establish a legal basis for prosecution; Point of view: Allied prosecutors who were simultaneously victor-nations, creating a tension of legitimacy. Document B — Historical context: Nazi defendants uniformly claiming they were 'just following orders'; Intended audience: the defendants and future perpetrators of state-sponsored crimes; Purpose: Establish individual moral responsibility that transcends state command; Point of view: International jurists attempting to build universal moral law from the specific horror of the Holocaust. (2) Connect to the Holocaust's bureaucratic machinery: Adolf Eichmann's 'desk murderer' role; the Wannsee Conference (1942) and the administrative coordination of the Final Solution — these are precisely the acts Document B targets. (3) Address 'victors' justice' critique: the Soviet Union at the Tribunal had committed the Katyn Forest massacre; the U.S. had firebombed Dresden and used atomic weapons; yet neither faced prosecution. A strong response acknowledges this tension while arguing that the Nuremberg principles nevertheless established lasting precedents: the UN Genocide Convention (1948), the Universal Declaration of Human Rights (1948), and subsequent tribunals (Rwanda, former Yugoslavia) all build directly on Nuremberg.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.58, US.50 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.58"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Sophisticated thesis taking a defensible position on whether Nuremberg represented genuine or victors' justice. Full HIPP for both documents including critical analysis of the Allied nations' own wartime conduct as a tension point. At least three outside evidence pieces (Holocaust mechanics, UN Genocide Convention, subsequent tribunals). Synthesis across US.50 and US.58 with cross-era connections to international law development.\n5 - Advanced: Clear, defensible thesis. Both documents with mostly complete HIPP. Two outside evidence pieces. Acknowledges the complexity of Nuremberg's legacy.\n4 - Proficient: Clear thesis. Both documents with three or more HIPP elements. One outside piece. Engages with the 'victors' justice' tension in some form.\n3 - Adequate: Thesis present. One document fully analyzed. Some outside evidence. Limited engagement with Nuremberg's complexity.\n2 - Developing: Documents described but not critically analyzed. Little outside evidence.\n1 - Beginning: One document referenced. No analysis of Nuremberg's significance or limitations.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: Document A — the phrase 'whether or not in violation of the domestic law of the country where perpetrated' is critical — it establishes that sovereign state law cannot shield perpetrators of crimes against humanity. Document B — 'whether moral choice was in fact possible' is the key phrase; it sets a standard of individual conscience over state obedience.\nKEY EVIDENCE EXPECTED: Wannsee Conference (1942); Adolf Eichmann; concentration and death camps (Auschwitz, Treblinka); Nazi euthanasia programs (T4); UN Genocide Convention (1948); UDHR (1948); subsequent tribunals (Eichmann Trial 1961, ICTY for former Yugoslavia, ICTR for Rwanda); Rome Statute establishing the ICC (1998).",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: Tesis sofisticada que toma una posición defendible sobre si Núremberg representó justicia genuina o de los vencedores. HIPP completo para ambos documentos, incluyendo análisis crítico de la propia conducta bélica de las naciones aliadas como punto de tensión. Al menos tres piezas de evidencia externa. Síntesis entre US.50 y US.58 con conexiones entre eras sobre el desarrollo del derecho internacional.\n5 - Avanzado: Tesis clara y defendible. Ambos documentos con HIPP mayormente completo. Dos piezas de evidencia externa. Reconoce la complejidad del legado de Núremberg.\n4 - Competente: Tesis clara. Ambos documentos con tres o más elementos HIPP. Una pieza externa. Aborda la tensión de 'justicia de los vencedores'.\n3 - Adecuado: Tesis presente. Un documento completamente analizado. Alguna evidencia externa.\n2 - En desarrollo: Documentos descritos pero no analizados críticamente. Poca evidencia externa.\n1 - Inicial: Un documento referenciado. Sin análisis.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS: Documento A — 'independientemente de si viola el derecho interno del país donde se perpetró' establece que la ley soberana no puede proteger a los perpetradores de crímenes contra la humanidad. Documento B — 'si era de hecho posible una elección moral' establece el estándar de conciencia individual sobre la obediencia al estado.\nEVIDENCIA CLAVE ESPERADA: Conferencia de Wannsee (1942); Adolf Eichmann; campos de concentración y exterminio (Auschwitz, Treblinka); Programa T4; Convención para la Prevención y la Sanción del Delito de Genocidio (1948); DUDH (1948); Juicio Eichmann (1961); TPIY; TPIR; Estatuto de Roma (1998).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.52,
+        "b": 0.53,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.50",
+          "US.58"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.50: retired — no 2027-28 home",
+          "US.58->US.58 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us50-dok4-er-3",
+      "stem": "Using your knowledge of the Holocaust (US.50) and the Nuremberg Trials (US.58), write an extended response using the CER framework (Claim, Evidence, Reasoning) that addresses the following question:\n\nWas the international community's response to the Holocaust — including the Nuremberg Trials, the UN Genocide Convention of 1948, and the Universal Declaration of Human Rights — sufficient to prevent future genocides, or did it primarily serve as moral acknowledgment without adequate enforcement mechanisms?\n\nYour response must: (1) Advance a defensible claim about the adequacy and legacy of the international community's post-Holocaust response; (2) Use specific evidence from the Holocaust itself (scale, methods, complicity), the Nuremberg proceedings, and at least one post-WWII application of Nuremberg principles; (3) Reason through the structural tension between national sovereignty and international accountability that the Nuremberg Trials exposed but did not fully resolve. Your argument should synthesize across the history of the Holocaust, the legal innovations of Nuremberg, and their long-term legacy.",
+      "stemEs": "Usando tu conocimiento del Holocausto (US.50) y los Juicios de Núremberg (US.58), escribe una respuesta extendida usando el marco CER que aborde la siguiente pregunta:\n\n¿Fue suficiente la respuesta de la comunidad internacional al Holocausto — incluyendo los Juicios de Núremberg, la Convención para la Prevención del Genocidio de 1948 y la Declaración Universal de Derechos Humanos — para prevenir futuros genocidios, o sirvió principalmente como reconocimiento moral sin mecanismos de aplicación adecuados?\n\nTu respuesta debe: (1) Plantear una afirmación defendible sobre la adecuación y el legado de la respuesta de la comunidad internacional posterior al Holocausto; (2) Usar evidencia específica del propio Holocausto (escala, métodos, complicidad), de los procedimientos de Núremberg y de al menos una aplicación posterior de los principios de Núremberg; (3) Razonar sobre la tensión estructural entre la soberanía nacional y la responsabilidad internacional que los Juicios de Núremberg expusieron pero no resolvieron completamente.",
+      "itemType": "extended-response",
+      "correctAnswer": "A top-score response will: CLAIM — A nuanced, defensible thesis: e.g., 'While the Nuremberg Trials established unprecedented legal precedents and the subsequent Genocide Convention and UDHR created a moral framework for international accountability, the absence of a permanent enforcement mechanism with binding jurisdiction ensured that genocide would continue — as Cambodia, Rwanda, and Bosnia would later demonstrate.' OR a counter-thesis is equally valid: 'The Nuremberg Trials represented a genuine, if imperfect, watershed in international law — the creation of the ICC in 2002 represents the institutional fulfillment of what Nuremberg began.' EVIDENCE — Holocaust: 6 million Jews systematically murdered; Wannsee Conference (January 1942) as bureaucratic coordination; the role of ordinary perpetrators (Reserve Police Battalion 101); complicity of bystander nations. Nuremberg: 'crimes against humanity' as a new legal category; rejection of 'superior orders' (tu quoque was also rejected); sentences ranging from death to acquittal. Post-Nuremberg applications: UN Genocide Convention (1948); UDHR (1948); Eichmann Trial (1961); ICTY and ICTR in the 1990s; Rome Statute/ICC (1998/2002). REASONING — The sovereign consent gap: the UN Genocide Convention requires states to ratify it and then actually act; Rwanda (1994) exposed this gap catastrophically — 800,000 killed while the world debated whether to use the word 'genocide.' The ICC is the institutional answer to Nuremberg's incompleteness, but major powers (US, Russia, China) have not ratified the Rome Statute.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.50, US.58 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.58"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Sophisticated, nuanced claim engaging the tension between Nuremberg's legal innovation and its enforcement gap. Specific evidence from the Holocaust's scale and mechanisms, Nuremberg proceedings (specific verdicts or legal innovations), and at least one post-WWII case (Rwanda, Cambodia, Bosnia, ICC). Reasoning addresses the sovereign consent problem and the legacy debate. Cross-era synthesis connecting WWII (US.50, US.58) to Cold War-era or modern human rights developments.\n3 - Proficient: Clear claim on adequacy/inadequacy of the response. Evidence from Holocaust, Nuremberg, and one post-WWII example. Reasoning engages with enforcement problems or legacy of Nuremberg principles.\n2 - Developing: Claim present. Evidence mostly from Holocaust and Nuremberg with limited post-WWII application. Some reasoning but limited synthesis.\n1 - Beginning: Vague claim. General statements about the Holocaust and Nuremberg without specific evidence or reasoning.\n0 - No response or completely off-topic.\n\nKEY EVIDENCE EXPECTED: 6 million Jews; Wannsee Conference (1942); Nazi death camps; Nuremberg verdicts (Göring, Hess, Speer, etc.); Genocide Convention (1948); UDHR (1948); Eichmann Trial (1961); Pol Pot and Cambodia (1975-79); Rwanda genocide (1994); ICTY (former Yugoslavia); ICC (2002).\nSYNTHESIS EXPECTATIONS: The item requires connecting the historical fact of the Holocaust (US.50) → the legal response of Nuremberg (US.58) → post-WWII international law development. DOK 4 is achieved by the cross-era synthesis through the 1990s to present.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Afirmación sofisticada y matizada que aborda la tensión entre la innovación legal de Núremberg y su brecha de aplicación. Evidencia específica de la escala y los mecanismos del Holocausto, los procedimientos de Núremberg y al menos un caso posterior a la WWII. El razonamiento aborda el problema del consentimiento soberano y el debate sobre el legado.\n3 - Competente: Afirmación clara. Evidencia del Holocausto, Núremberg y un ejemplo posterior a la WWII. Razonamiento sobre el legado.\n2 - En desarrollo: Afirmación presente. Evidencia principalmente del Holocausto y Núremberg. Síntesis limitada.\n1 - Inicial: Afirmación vaga. Declaraciones generales sin evidencia específica.\n0 - Sin respuesta o completamente fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: 6 millones de judíos; Conferencia de Wannsee; campos de exterminio; veredictos de Núremberg; Convención contra el Genocidio (1948); DUDH (1948); Juicio Eichmann (1961); Ruanda (1994); CPI (2002).\nEXPECTATIVAS DE SÍNTESIS: Conectar US.50 → US.58 → desarrollo del derecho internacional hasta el presente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.98,
+        "b": -0.02,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.50",
+          "US.58"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.50: retired — no 2027-28 home",
+          "US.58->US.58 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us45-dok4-er-7",
+      "stem": "Using your knowledge of the causes of World War II (US.45), the postwar transition and the GI Bill (US.57), and the Nuremberg Trials (US.58), write an extended response using the CER framework (Claim, Evidence, Reasoning) that addresses the following question:\n\nFrom the rise of fascist dictatorships in the 1930s to the Nuremberg Trials and the GI Bill in 1945-1946, the era of World War II forced humanity to confront fundamental questions about justice, freedom, and responsibility. To what extent did the international and domestic responses to WWII — specifically the Nuremberg Trials (international accountability) and the GI Bill (domestic reintegration) — successfully address the conditions that had made the war possible and necessary? What opportunities were seized, and what failures or unfinished business did the postwar settlement leave behind?\n\nYour response must: (1) Advance a clear, defensible claim about the adequacy of postwar responses to WWII's causes and human costs; (2) Use specific evidence from the pre-war causes (Treaty of Versailles, Depression, appeasement) and their postwar correctives (Nuremberg, Marshall Plan, GI Bill, UN), as well as the failures of each; (3) Reason through whether the architects of the postwar order learned from the failures that produced WWII — including comparing the post-WWI settlement (Versailles) with the post-WWII settlement — and evaluate what was left unresolved. Synthesize across US.45, US.57, and US.58 with cross-era connections to the Cold War (US.59) and Civil Rights (US.71).",
+      "stemEs": "Usando tu conocimiento de las causas de la Segunda Guerra Mundial (US.45), la transición de posguerra y el GI Bill (US.57) y los Juicios de Núremberg (US.58), escribe una respuesta extendida usando el marco CER que aborde la siguiente pregunta:\n\nDesde el ascenso de las dictaduras fascistas en la década de 1930 hasta los Juicios de Núremberg y el GI Bill en 1945-1946, la era de la Segunda Guerra Mundial obligó a la humanidad a confrontar preguntas fundamentales sobre justicia, libertad y responsabilidad. ¿En qué medida las respuestas internacionales y domésticas a la WWII — específicamente los Juicios de Núremberg (responsabilidad internacional) y el GI Bill (reintegración doméstica) — abordaron con éxito las condiciones que habían hecho posible y necesaria la guerra? ¿Qué oportunidades se aprovecharon y qué fracasos o asuntos pendientes dejó el acuerdo de posguerra?\n\nTu respuesta debe: (1) Plantear una afirmación clara y defendible sobre la adecuación de las respuestas de posguerra; (2) Usar evidencia específica de las causas previas a la guerra y sus correctivos de posguerra, así como los fracasos de cada uno; (3) Razonar si los arquitectos del orden de posguerra aprendieron de los fracasos que produjeron la WWII. Sintetiza entre US.45, US.57 y US.58 con conexiones entre eras hacia US.59 y US.71.",
+      "itemType": "extended-response",
+      "correctAnswer": "A top-score response will: CLAIM — A comprehensive thesis such as: 'The postwar settlement of 1945-1946 represented a partial but genuine improvement over the post-WWI settlement: Nuremberg established legal accountability where Versailles imposed punitive humiliation, and the GI Bill and Marshall Plan invested in economic recovery where Versailles demanded reparations — but both postwar responses contained their own seeds of future conflict: Nuremberg's enforcement gap and the GI Bill's racial exclusions left critical injustices unaddressed.' EVIDENCE — Pre-war failures: Versailles reparations fueling German resentment; Great Depression enabling fascism; appeasement (Munich 1938) emboldening Hitler. Postwar corrections: Nuremberg — 'crimes against humanity' as legal category; Marshall Plan (1948) — economic recovery of Western Europe (inverse of Versailles); UN Charter (1945) — collective security framework; GI Bill — mass education and homeownership creating postwar prosperity. Postwar failures: Nuremberg's sovereign consent gap (no enforcement mechanism); GI Bill's racial exclusions; Yalta's ambiguity creating Cold War; Soviet occupation of Eastern Europe; the absence of decolonization on the postwar agenda (Africa, Asia remained colonized). REASONING — The post-WWII architects deliberately avoided Versailles' mistakes (no crushing reparations on Germany; Marshall Plan invested in German reconstruction; Occupation Zones transitioned to West German democracy). But they replicated other failures: racial hierarchy persisted domestically (GI Bill); power politics replaced idealism internationally (Cold War replaced League of Nations idealism with real-world superpower competition). The clearest 'unfinished business': the Civil Rights Movement (beginning 1955) forced the domestic reckoning that the GI Bill generation's promise left unfulfilled.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.45, US.57, US.58 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.58"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Sophisticated, multi-layered thesis comparing the post-WWI and post-WWII settlements and evaluating what each got right and wrong. Evidence spanning all three tagged standards (US.45 causes, US.57 GI Bill, US.58 Nuremberg) with specific details and at least two cross-era connections (Cold War US.59, Civil Rights US.71, or postwar international law). Reasoning demonstrates genuine historical synthesis: the post-WWII architects consciously drew lessons from Versailles but created new problems through racial exclusion and Cold War power politics. This is the highest-demand item in the bank.\n3 - Proficient: Clear claim comparing post-WWI and post-WWII settlements. Evidence from two of the three standards with accurate details. Reasoning connects to at least one cross-era development.\n2 - Developing: Claim present. Evidence from one standard with some accuracy. Limited cross-era reasoning.\n1 - Beginning: Vague claim. Some WWII content with minimal evidence. No synthesis across standards or eras.\n0 - No response or completely off-topic.\n\nKEY EVIDENCE EXPECTED: Treaty of Versailles (1919) — reparations, war guilt; Great Depression enabling fascism; Munich Agreement (1938); Nuremberg — 'crimes against humanity,' superior orders rejection; Marshall Plan (1948); UN Charter (1945); GI Bill — education/housing boom; GI Bill racial exclusions; Cold War origins (Truman Doctrine 1947); Civil Rights Movement (1955-68) as the unfinished domestic agenda of WWII.\nSYNTHESIS EXPECTATIONS: This item demands the highest level of cross-standard synthesis in Unit 6: US.45 (WWII causes) + US.57 (GI Bill domestic order) + US.58 (Nuremberg international accountability) + cross-era connections to US.59 (Cold War) and US.71 (Civil Rights). A response that achieves all of this earns the full 4 points.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Tesis sofisticada y de múltiples capas que compara los acuerdos de posguerra de la WWI y WWII. Evidencia de los tres estándares etiquetados con detalles específicos y al menos dos conexiones entre eras. El razonamiento demuestra síntesis histórica genuina — el ítem de mayor demanda del banco.\n3 - Competente: Afirmación clara que compara los acuerdos de posguerra. Evidencia de dos de los tres estándares. El razonamiento se conecta con al menos un desarrollo entre eras.\n2 - En desarrollo: Afirmación presente. Evidencia de un estándar. Razonamiento entre eras limitado.\n1 - Inicial: Afirmación vaga. Contenido de WWII con evidencia mínima. Sin síntesis.\n0 - Sin respuesta o completamente fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Tratado de Versalles (1919); Gran Depresión; Múnich (1938); Núremberg; Plan Marshall (1948); Carta de la ONU (1945); GI Bill y sus exclusiones raciales; Guerra Fría (Doctrina Truman 1947); Movimiento de Derechos Civiles (1955-68).\nEXPECTATIVAS DE SÍNTESIS: US.45 + US.57 + US.58 + conexiones hacia US.59 y US.71.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.48,
+        "b": 0.36,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.45",
+          "US.57",
+          "US.58"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.45->US.47 revised sim=0.66 BELOW floor 0.9",
+          "US.57: retired — no 2027-28 home",
+          "US.58->US.58 unchanged"
+        ]
+      }
+    }
+  ]
+}

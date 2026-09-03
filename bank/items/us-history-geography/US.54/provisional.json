@@ -1,0 +1,2117 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.54",
+  "status": "provisional",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us54-dok1-1",
+      "stem": "How many Japanese Americans were forcibly interned during WWII?",
+      "stemEs": "¿Cuántos japonés-estadounidenses fueron forzosamente internados durante la Segunda Guerra Mundial?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50,000 people, limited to non-citizens and first-generation immigrants only",
+          "textEs": "50,000 personas, limitado a no ciudadanos e inmigrantes de primera generación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "25,000 people, primarily those with direct ties to Japanese government",
+          "textEs": "25,000 personas, principalmente aquellos con lazos directos al gobierno japonés",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "120,000 people, of whom two-thirds were American citizens by birth",
+          "textEs": "120,000 personas, de las cuales dos tercios eran ciudadanos estadounidenses de nacimiento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "200,000 people, including German and Italian Americans from coastal areas",
+          "textEs": "200,000 personas, incluyendo alemanes e italianos estadounidenses de áreas costeras",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "120,000 people, of whom two-thirds were American citizens by birth. B is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "EE.UU. reubicó forzosamente 120,000 japonés-estadounidenses a campos de internamiento durante Segunda Guerra Mundial. Dos tercios eran ciudadanos de EE.UU. Esto se basó en prejuicio racial, no evidencia de deslealtad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.97,
+        "b": -0.62,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "q-us54-dok1-2",
+      "stem": "What apology did the U.S. government make for Japanese American internment?",
+      "stemEs": "¿Qué disculpa hizo el gobierno de EE.UU. por internamiento japonés-americano?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "War Relocation Centers, located in remote areas across seven western states",
+          "textEs": "Nunca se disculpó",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Civil Liberties Act of 1988 apologized and paid $20,000 to each survivor",
+          "textEs": "Ley de Libertades Civiles de 1988 se disculpó y pagó $20,000 a cada sobreviviente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "120,000 people, of whom two-thirds were American citizens by birth",
+          "textEs": "Se disculpó inmediatamente después de guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "FDR's order authorizing military to relocate Japanese Americans to internment camps",
+          "textEs": "Solo se disculpó con no ciudadanos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Civil Liberties Act of 1988 apologized and paid $20,000 to each survivor. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "En 1988, Presidente Reagan firmó Ley de Libertades Civiles, disculpándose formalmente por internamiento y reconociendo que se basó en \"prejuicio racial, histeria de guerra y fracaso de liderazgo político.\" Gobierno pagó $20,000 de reparaciones a cada internado sobreviviente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.47,
+        "b": -0.7,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "q-us54-dok1-3",
+      "stem": "What were the ten internment camps called?",
+      "stemEs": "¿Cómo se llamaron los diez campos de internamiento?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "War Relocation Centers, located in remote areas across seven western states",
+          "textEs": "Centros de Reubicación de Guerra, ubicados en áreas remotas a través de siete estados occidentales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Federal Detention Centers, operated by the Justice Department in major American cities",
+          "textEs": "Centros de Detención Federal, operados por Departamento de Justicia en principales ciudades americanas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Resettlement Villages, designed as permanent new communities for relocated families",
+          "textEs": "Pueblos de Reasentamiento, diseñados como comunidades nuevas permanentes para familias reubicadas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Civilian Protection Camps, established to safeguard Japanese Americans from public hostility",
+          "textEs": "Campos de Protección Civil, establecidos para proteger japonés-estadounidenses de hostilidad pública",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The ten internment camps called were war Relocation Centers, located in remote areas across seven western states. More than 100,000 Japanese Americans were forced from their homes, showing how wartime fear can lead to violations of civil liberties. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Gobierno los llamó \"Centros de Reubicación de Guerra\" - eufemismo para campos de internamiento. Diez campos fueron construidos en áreas remotas: Manzanar y Tule Lake (CA), Poston y Gila River (AZ), Minidoka (ID), Heart Mountain (WY), Topaz (UT), Amache (CO), Jerome y Rohwer (AR).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.68,
+        "b": -1.03,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "us-54-q05",
+      "stem": "King's theory of nonviolent direct action was grounded in the belief that —",
+      "stemEs": "King's theory of nonviolent direct action was grounded in the belief that —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The federal government would automatically intervene to protect peaceful protesters, which historians consider a secondary factor in this development",
+          "textEs": "The gobierno federal would automatically intervene to protect peaceful protesters, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Suffering accepted voluntarily by protesters would awaken the conscience of the oppressor and of white moderates who were passive",
+          "textEs": "Suffering accepted voluntarily by protesters would awaken the conscience of the oppressor and of white moderates who were passive",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Nonviolence was the fastest way to achieve change, which historians consider a secondary factor in this development",
+          "textEs": "Nonviolence was the fastest way to achieve change, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Nonviolence was the only moral option for people who lacked weapons, which historians consider a secondary factor in this development",
+          "textEs": "Nonviolence was the only moral option for people who lacked weapons, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Suffering accepted voluntarily by protesters would awaken the conscience of the oppressor and of white moderates who were passive. A is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "Suffering accepted voluntarily by protesters would awaken the conscience of the oppressor and of white moderates who were passive. A is incorrect because it describes a different program, event, or idea than this derechos civiles development. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.71,
+        "b": -1.5,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "q-us54-dok2-3",
+      "stem": "How did Fred Korematsu challenge his internment?",
+      "stemEs": "¿Cómo desafió Fred Korematsu su internamiento?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Japanese Americans faced mass internment based on race; German/Italian Americans faced limited restrictions",
+          "textEs": "Dejó el país",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Harsh: overcrowded barracks, inadequate sanitation, extreme weather, barbed wire, armed guards",
+          "textEs": "Lideró resistencia armada",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Upheld internment based on race over constitutional rights; later overturned as based on lies",
+          "textEs": "Fue voluntariamente a campo sin protesta",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Refused to report for internment; arrested and appealed to Supreme Court claiming constitutional violation",
+          "textEs": "Se negó a presentarse para internamiento; fue arrestado y apeló a Corte Suprema alegando violación constitucional",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Refused to report for internment; arrested and appealed to Supreme Court claiming constitutional violation. More than 100,000 Japanese Americans were forced from their homes, showing how wartime fear can lead to violations of civil liberties. C is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Fred Korematsu desafió orden de internamiento, fue arrestado y llevó su caso a Corte Suprema, argumentando que Orden Ejecutiva 9066 violaba sus derechos constitucionales. Corte falló contra él 6-3 (1944). En 1983, su condena fue anulada cuando evidencia mostró mala conducta gubernamental.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.57,
+        "b": -0.63,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "us-54-x025",
+      "stem": "The sit-in movement that began in Greensboro, North Carolina on February 1, 1960 was significant because —",
+      "stemEs": "The sit-in movement that began in Greensboro, North Carolina on February 1, 1960 fue significativo/a porque —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was the first protest strategy that won sympathetic coverage from mainstream white media",
+          "textEs": "It was the first protest strategy that won sympathetic coverage from mainstream white media",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It led directly to the founding of the Student Nonviolent Coordinating Committee (SNCC)",
+          "textEs": "It led directly to the founding of the Student Nonviolent Coordinating Committee (SNCC)",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was the first time Black students had used nonviolent civil disobedience to challenge segregation",
+          "textEs": "It was the first time Black students had used nonviolent civil disobedience to challenge segregación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It spread to dozens of cities within weeks, demonstrating that the movement could be replicated without centralized direction",
+          "textEs": "It spread to dozens of cities within weeks, demonstrating that the movement could be replicated without centralized direction",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It spread to dozens of cities within weeks, demonstrating that the movement could be replicated without centralized direction. Student activists used nonviolent direct action to challenge segregation at lunch counters and other public spaces. C is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "It spread to dozens of cities within weeks, demonstrating that the movement could be replicated without centralized direction. Student activists used nonviolent direct action to challenge segregación at lunch counters and other public spaces. C is incorrect because it describes a different program, event, or idea than this derechos civiles development. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.89,
+        "b": -0.31,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "U6-DOK1-0004",
+      "stem": "The Nuremberg Trials were held primarily to —",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Negotiate the postwar boundaries of European nations",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Establish the United Nations Charter",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Prosecute Nazi leaders for war crimes and crimes against humanity",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Rebuild the economy of postwar Germany",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Nuremberg Trials (1945–1946) were international military tribunals prosecuting senior Nazi leaders for war crimes, crimes against humanity, and crimes against peace. Distractor A describes Yalta/Potsdam negotiations; B describes the June 1945 San Francisco Conference; D describes the Marshall Plan.",
+      "explanationEs": "Los Juicios de Núremberg (1945–1946) fueron tribunales militares internacionales que procesaron a líderes nazis por crímenes de guerra, crímenes contra la humanidad y crímenes contra la paz. El distractor A describe las negociaciones de Yalta/Potsdam; B describe la Conferencia de San Francisco de junio de 1945; D describe el Plan Marshall.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 0.8,
+        "b": -1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "q-us54-dok2-1",
+      "stem": "What was Executive Order 9066?",
+      "stemEs": "¿Qué fue la Orden Ejecutiva 9066?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congressional declaration of war against Japan following the attack on Pearl Harbor",
+          "textEs": "Declaración del Congreso de guerra contra Japón tras el ataque a Pearl Harbor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "FDR's order directing scientists to begin developing the atomic bomb in secret labs",
+          "textEs": "Orden de FDR dirigiendo científicos a comenzar desarrollo de bomba atómica en laboratorios secretos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "FDR's order authorizing military to relocate Japanese Americans to internment camps",
+          "textEs": "Orden de FDR autorizando militares a reubicar japonés-estadounidenses a campos de internamiento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Truman's order requiring full racial integration of all branches of the armed forces",
+          "textEs": "Orden de Truman requiriendo integración racial completa de todas ramas de fuerzas armadas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Executive Order 9066 was FDR's order authorizing military to relocate Japanese Americans to internment camps. More than 100,000 Japanese Americans were forced from their homes, showing how wartime fear can lead to violations of civil liberties. D is incorrect because it describes a different program, event, or idea than this New Deal policy. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Orden Ejecutiva 9066, emitida por FDR el 19 de febrero de 1942, autorizó militares a designar áreas de las cuales personas podían ser excluidas. Llevó a reubicación forzada e internamiento de 120,000 japonés-estadounidenses, mayoría ciudadanos de EE.UU.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.45,
+        "b": 0.15,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "q-us54-dok2-2",
+      "stem": "What were conditions like in Japanese American internment camps?",
+      "stemEs": "¿Cómo fueron las condiciones en campos de internamiento japonés-americanos?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Upheld internment based on race over constitutional rights; later overturned as based on lies",
+          "textEs": "Hoteles lujosos con todas las comodidades",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Harsh: overcrowded barracks, inadequate sanitation, extreme weather, barbed wire, armed guards",
+          "textEs": "Duras: barracones hacinados, saneamiento inadecuado, clima extremo, alambre de púas, guardias armados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "FDR's order authorizing military to relocate Japanese Americans to internment camps",
+          "textEs": "Vivienda temporal con completa libertad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Refused to report for internment; arrested and appealed to Supreme Court claiming constitutional violation",
+          "textEs": "Similar a vecindarios normales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Conditions like in Japanese American internment camps were harsh: overcrowded barracks, inadequate sanitation, extreme weather, barbed wire, armed guards. More than 100,000 Japanese Americans were forced from their homes, showing how wartime fear can lead to violations of civil liberties. C is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Campos de internamiento tuvieron condiciones duras: familias vivieron en barracones hacinados de papel alquitranado, compartieron baños comunales y comedores, soportaron calor y frío extremos y estuvieron rodeados por alambre de púas y guardias armados. Familias perdieron casas, negocios y dignidad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.31,
+        "b": -0.33,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "us-54-q03",
+      "stem": "King's 'Letter from Birmingham Jail' (1963) responded to white Alabama clergymen who called his protests 'unwise and untimely.' Which of the following was King's central argument against the 'wait for a better time' position?",
+      "stemEs": "King's 'Letter from Birmingham Jail' (1963) responded to white Alabama clergymen who called his protests 'unwise and untimely.' ¿Cuál de las siguientes opciones was King's central argument against the 'wait for a better time' position?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "'Wait' had almost always meant 'never'; justice too long delayed was justice denied, and those who had suffered injustice could not wait for political convenience",
+          "textEs": "'Wait' had almost always meant 'never'; justice too long delayed was justice denied, and those who had suffered injustice could not wait for political convenience",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The economic costs of continued segregation were so high that delay was economically irrational for the South",
+          "textEs": "The economic costs of continued segregación were so high that delay was economically irrational for the South",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Supreme Court had already ruled that all forms of segregation were unconstitutional and further waiting was unnecessary",
+          "textEs": "The Corte Suprema had already ruled that all forms of segregación were unconstitucional and further waiting was unnecessary",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "International pressure from Cold War allies demanded that the United States immediately resolve its racial contradictions",
+          "textEs": "International pressure from Guerra Fría allies demanded that the United States immediately resolve its racial contradictions",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "'Wait' had almost always meant 'never'; justice too long delayed was justice denied, and those who had suffered injustice could not wait for political convenience. King defended direct action by arguing that people have a moral duty to resist unjust laws. B is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "'Wait' had almost always meant 'never'; justice too long delayed was justice denied, and those who had suffered injustice could not wait for political convenience. King defended direct action by arguing that people have a moral duty to resist unjust laws. B is incorrect because it describes a different program, event, or idea than this derechos civiles development. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.14,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "us-54-q06",
+      "stem": "King's 'Beyond Vietnam' speech (1967), in which he publicly opposed the war, was significant because it —",
+      "stemEs": "King's 'Beyond Vietnam' speech (1967), in which he publicly opposed the war, fue significativo/a porque it —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cost him significant support from the Johnson administration and many civil rights allies who felt he was damaging both causes",
+          "textEs": "Cost him significant support from the Johnson administration and many derechos civiles allies who felt he was damaging both causes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Led the Democratic Party to officially oppose the war within weeks, shifting the congressional debate decisively",
+          "textEs": "Led the democrático Party to officially oppose the war within weeks, shifting the Congresoional debate decisively",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Immediately ended the war by forcing LBJ to open direct peace negotiations with North Vietnam",
+          "textEs": "Immediately ended the war by forcing LBJ to open direct peace negotiations with North Vietnam",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Permanently unified the civil rights and antiwar movements into a single coordinated national coalition",
+          "textEs": "Permanently unified the derechos civiles and antiwar movements into a single coordinated national coalition",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Cost him significant support from the Johnson administration and many civil rights allies who felt he was linking the war to civil rights in a way that weakened both causes. The Vietnam War widened the credibility gap and made many Americans question U.S. foreign policy. B is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "Cost him significant support from the Johnson administration and many derechos civiles allies who felt he was linking the war to derechos civiles in a way that weakened both causes. The Guerra de Vietnam widened the credibility gap and made many Americans question U.S. política exterior. B is incorrect because it describes a different program, event, or idea than this derechos civiles development. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.98,
+        "b": 0.57,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "us-54-x015",
+      "stem": "Stokely Carmichael's 1966 'Black Power' call represented —",
+      "stemEs": "Stokely Carmichael's 1966 'Black Power' call represented —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A return to Booker T. Washington's accommodationist strategy of gradual economic self-improvement",
+          "textEs": "A return to Booker T. Washington's accommodationist strategy of gradual economic self-improvement",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "An immediate call for armed revolution against the federal government and its institutions",
+          "textEs": "An immediate call for armed revolution against the gobierno federal and its institutions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Racial pride, independent Black political and economic institutions, and rejection of racial integration",
+          "textEs": "Racial pride, independent Black political and economic institutions, and rejection of racial integración",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Pan-African international solidarity with African independence movements over domestic civil rights organizing",
+          "textEs": "Pan-African international solidarity with African independence movements over domestic derechos civiles organizing",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Racial pride, independent Black institutions, and rejection of integration. These ideas reflected frustration with slow change and emphasized pride, self-determination, and community control. D is incorrect because it describes a different program, event, or idea than the topic in the question. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "Racial pride, independent Black institutions, and rejection of integración. These ideas reflected frustration with slow change and emphasized pride, self-determination, and community control. D is incorrect because it describes a different program, event, or idea than the topic in the question. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.38,
+        "b": 0.03,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "us-54-x016",
+      "stem": "The Black Panther Party (1966) differed from mainstream civil rights organizations by —",
+      "stemEs": "The Black Panther Party (1966) differed from mainstream derechos civiles organizations by —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Organizing exclusively in the South",
+          "textEs": "Organizing exclusively in the South",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Working within the Democratic Party to elect Black candidates",
+          "textEs": "Working within the democrático Party to elect Black candidates",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Combining Marxist analysis with community programs",
+          "textEs": "Combining Marxist analysis with community programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Focusing exclusively on legal challenges",
+          "textEs": "Focusing exclusively on legal challenges",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Black Panther Party (1966) differed from mainstream civil rights organizations by: combining Marxist analysis with community programs. B is incorrect because it describes a different program, event, or idea than this civil rights development. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "The Black Panther Party (1966) differed from mainstream derechos civiles organizations by: combining Marxist analysis with community programs. B is incorrect because it describes a different program, event, or idea than this derechos civiles development. It connects wartime change to the longer struggle for derechos civiles and equal treatment.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.32,
+        "b": 0.35,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "q-us54-dok3-2",
+      "stem": "Compare the treatment of Japanese Americans during WWII with treatment of German or Italian Americans.",
+      "stemEs": "Compara el tratamiento de japonés-americanos durante Segunda Guerra Mundial con tratamiento de alemanes o italianos estadounidenses.",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Refused to report for internment; arrested and appealed to Supreme Court claiming constitutional violation",
+          "textEs": "Los tres grupos fueron internados igualmente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Those of Asian descent faced mass removal to guarded camps; Europeans faced selective restrictions",
+          "textEs": "Japonés-americanos enfrentaron internamiento masivo basado en raza; alemanes/italianos estadounidenses enfrentaron restricciones limitadas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Harsh: overcrowded barracks, inadequate sanitation, extreme weather, barbed wire, armed guards",
+          "textEs": "Alemanes estadounidenses enfrentaron trato más duro",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Upheld internment based on race over constitutional rights; later overturned as based on lies",
+          "textEs": "Ningún grupo enfrentó discriminación",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Japanese Americans faced mass internment based on race; German/Italian Americans faced limited restrictions. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Japonés-americanos enfrentaron internamiento masivo (120,000 personas) basado únicamente en raza. Alemanes e italianos estadounidenses enfrentaron algunas restricciones (toques de queda, límites de viaje) pero no internamiento masivo. Esta disparidad reveló que prejuicio racial fue motivación primaria para internamiento japonés.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.69,
+        "b": 1.35,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "us-54-x026",
+      "stem": "The Albany Movement (1961-62) was considered a tactical failure for the Civil Rights Movement because —",
+      "stemEs": "The Albany Movement (1961-62) was considered a tactical failure for the derechos civiles Movement because —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Military campaigns across both the European and Pacific theaters",
+          "textEs": "Military campaigns across both the European and Pacific theaters",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Internal divisions between SCLC and SNCC prevented a coordinated campaign",
+          "textEs": "Internal divisions between SCLC and SNCC prevented a coordinated campaign",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Kennedy administration refused to intervene, leaving protesters without federal support",
+          "textEs": "The Kennedy administration refused to intervene, leaving protesters without federal support",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Albany's police chief Laurie Pritchett studied King's tactics and defeated nonviolent protest by arresting protesters quietly",
+          "textEs": "Albany's police chief Laurie Pritchett studied King's tactics and defeated nonviolent protest by arresting protesters quietly",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both A and C contributed to the Albany Movement's failure. C is incorrect because it describes a different program, event, or idea than this civil rights development. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Both A and C contribuyó a the Albany Movement's failure. C is incorrect because it describes a different program, event, or idea than this derechos civiles development. It connects wartime change to the longer struggle for derechos civiles and equal treatment.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.83,
+        "b": -1.13,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "U6-DOK2-0013",
+      "stem": "Which constitutional principle was most directly violated by the internment of Japanese Americans during World War II?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The right to bear arms protected by the Second Amendment",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Due process rights, as Japanese Americans were imprisoned without individual hearings or proof of wrongdoing",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The right to vote guaranteed by the Fifteenth Amendment",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Freedom of religion protected by the First Amendment",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Executive Order 9066 authorized the removal and imprisonment of over 110,000 people of Japanese ancestry — the majority U.S. citizens — solely based on ethnicity, without individual charges, trials, or evidence of disloyalty, violating the Fifth Amendment's due process guarantee.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "PS-0046",
+      "stem": "Read the excerpt below.\n\n\"The battle of the Atlantic is the dominating factor in the war... Everything happening elsewhere... depends upon its outcome.\" — Winston Churchill, March 1941\n\nWhich of the following best describes why the Battle of the Atlantic was a critical turning point in World War II?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Allied control of Atlantic supply lines was essential for Britain's survival and the buildup of forces needed for the D-Day invasion.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Battle of the Atlantic was the decisive air battle that prevented Germany from invading Britain.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Allied victory in the Atlantic opened a second front against Germany that immediately forced Hitler to sue for peace.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Battle of the Atlantic primarily concerned the safe transport of American troops to Europe rather than supply shipments.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Churchill identified the Battle of the Atlantic as 'dominating' because Britain depended entirely on supply convoys from North America for food, fuel, and war materials. If German U-boats could cut these supply lines, Britain would be unable to continue fighting. The Allied victory in the Battle of the Atlantic secured the supply lines that enabled Britain to survive and eventually allowed the buildup for the D-Day invasion. Option B is incorrect because the Battle of Britain was an air battle, not a naval one. Option C is incorrect because the Battle of the Atlantic preceded the opening of the second front. Option D is incorrect because the Battle of the Atlantic was not primarily about troop transport — it was about supplies.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.4,
+        "c": 0.18
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "PS-0047",
+      "stem": "Read the excerpt below.\n\n\"June 6, 1944 — D-Day. The liberation of Europe has begun. Allied forces have landed on the beaches of Normandy, France, in the largest amphibious invasion in history.\" — Supreme Headquarters Allied Expeditionary Force Communiqué, June 6, 1944\n\nWhich of the following best explains why the D-Day invasion was a significant turning point in the European Theater?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was the first Allied offensive in Western Europe, as no military operations had been conducted against Germany before D-Day.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It reversed Germany's earlier victory at the Battle of Stalingrad and restored Allied momentum on the Eastern Front.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It opened a major second front in Western Europe, forcing Germany to divide its forces and accelerating its military collapse.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The success of D-Day led the United States to use atomic weapons against Germany to force an immediate surrender.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The D-Day invasion on June 6, 1944 was a turning point because it opened a major second front in Western Europe, forcing Germany to fight simultaneously on both its eastern front (against the Soviet Union) and its western front (against the advancing Allied armies from Normandy). This division of German forces accelerated Germany's military collapse. Option A is incorrect because the invasion of Italy had already opened a Mediterranean front before D-Day. Option B is incorrect because Stalingrad (1943) was the earlier turning point on the Eastern Front. Option D is incorrect because the atomic bomb was used against Japan, not Germany.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "PS-0048",
+      "stem": "Read the excerpt below.\n\n\"The turning point of the war in the Pacific came not on land but at sea — four Japanese aircraft carriers sunk in three days. After Midway, Japan could never again take the offensive.\" — Historian Gordon Prange, Miracle at Midway, 1982\n\nWhich of the following best explains why the Battle of Midway was a decisive turning point in the Pacific War?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "American forces captured Midway Island and used it as a land base to launch the invasion of Japan.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Japan lost four irreplaceable aircraft carriers, permanently shifting the balance of naval power in the Pacific to the United States.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The United States adopted the island-hopping strategy after its victory at Midway revealed Japan's defensive weaknesses.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Germany began to withdraw troops from Europe to reinforce Japan after the U.S. victory demonstrated American naval superiority.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Battle of Midway (June 1942) was decisive because Japan lost four fleet carriers — the core of its offensive strike force — while the U.S. lost only one. Japan could not replace these carriers or their experienced crews, permanently shifting the balance of naval power in the Pacific. After Midway, Japan was forced onto the strategic defensive. Option A is incorrect because Midway was a naval air battle, not a ground battle. Option C is incorrect because the U.S. adopted the island-hopping strategy before, not as a result of, Midway. Option D is incorrect because Germany was not involved in the Pacific War.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "PS-0049",
+      "stem": "Read the excerpt below.\n\n\"The German attack on Stalingrad has stalled. Our forces are surrounded, the temperature is -30 degrees, and we have no ammunition for three more days.\" — German Field Marshal Friedrich Paulus, Telegram to Hitler, January 1943\n\nWhich of the following best describes the significance of the German defeat at Stalingrad?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was the first major defeat of German forces on the Eastern Front, ending Germany's advance toward Moscow.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It opened the Allied invasion of North Africa, allowing Britain and the U.S. to push into the Mediterranean.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Germany's defeat at Stalingrad prompted the United States to launch the D-Day invasion of Normandy immediately.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Germany's defeat at Stalingrad marked the decisive turning point on the Eastern Front, forcing Germany onto the strategic defensive for the remainder of the war.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Battle of Stalingrad (1942-43) was the largest and bloodiest battle of World War II and marked the decisive turning point on the Eastern Front. The German Army's defeat and the surrender of the Sixth Army shattered the myth of German invincibility and forced Germany onto the strategic defensive for the rest of the war. Option A is incorrect because the Soviet Union had already repulsed a German attack on Moscow before Stalingrad. Option B is incorrect because Stalingrad was on the Eastern Front, not connected to North Africa. Option C is incorrect because D-Day opened the Western Front and came after Stalingrad.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "q-us54-dok3-1",
+      "stem": "Why is the Korematsu v. United States decision considered one of the Supreme Court's worst decisions?",
+      "stemEs": "¿Por qué se considera la decisión Korematsu contra Estados Unidos una de las peores decisiones de la Corte Suprema?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Upheld internment based on race over constitutional rights; later overturned as based on lies",
+          "textEs": "Respaldó internamiento basado en raza sobre derechos constitucionales; luego anulada por mentiras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Harsh: overcrowded barracks, inadequate sanitation, extreme weather, barbed wire, armed guards",
+          "textEs": "Ordenó liberación inmediata de todos los japonés-estadounidenses internados y pagó reparaciones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "FDR's order authorizing military to relocate Japanese Americans to internment camps",
+          "textEs": "Prohibió permanentemente toda inmigración japonesa y revocó ciudadanía de internados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Refused to report for internment; arrested and appealed to Supreme Court claiming constitutional violation",
+          "textEs": "Declaró internamiento legal solo para no ciudadanos e inmigrantes de primera generación",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Upheld internment based on race over constitutional rights; later overturned as based on lies. More than 100,000 Japanese Americans were forced from their homes, showing how wartime fear can lead to violations of civil liberties. D is incorrect because it describes a different program, event, or idea than the topic in the question. It connects wartime change to the longer struggle for civil rights and equal treatment.",
+      "explanationEs": "Korematsu respaldó internamiento a pesar de violar derechos constitucionales. Priorizó juicio militar sobre libertades civiles. En 1983, la condena de Korematsu fue anulada cuando evidencia mostró que el gobierno había ocultado información clave.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.84,
+        "b": 1.13,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "us-54-x017",
+      "stem": "The shift from integrationist civil rights to Black Power reflected —",
+      "stemEs": "The shift from integraciónist derechos civiles to Black Power reflected —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The movement's failure to achieve any legal victories",
+          "textEs": "The movement's failure to achieve any legal victories",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Malcolm X's takeover after King's assassination",
+          "textEs": "Malcolm X's takeover after King's assassination",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A universal generational rejection of nonviolence",
+          "textEs": "A universal generational rejection of nonviolence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The limits of legal equality without economic equality",
+          "textEs": "The limits of legal igualdad without economic igualdad",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The limits of legal equality without economic equality. These ideas reflected frustration with slow change and emphasized pride, self-determination, and community control. A is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "The limits of legal igualdad without economic igualdad. These ideas reflected frustration with slow change and emphasized pride, self-determination, and community control. A is incorrect because it describes a different program, event, or idea than this derechos civiles development. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 2.08,
+        "b": 1.39,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-082",
+      "stem": "Executive Order 9066 (1942) authorized the forced removal and internment of approximately 120,000 Japanese Americans from the West Coast, including American citizens. The order was justified on national security grounds. Analyzing the actual evidence of security threat at the time, which of the following best evaluates the constitutional legitimacy of this justification?",
+      "stemEs": "La Orden Ejecutiva 9066 (1942) autorizó el traslado forzado e internamiento de aproximadamente 120,000 japoneses americanos de la Costa Oeste, incluidos ciudadanos estadounidenses. La orden fue justificada por razones de seguridad nacional. Analizando la evidencia real de amenaza de seguridad en ese momento, ¿cuál de las siguientes opciones evalúa mejor la legitimidad constitucional de esta justificación?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The internment was constitutionally legitimate because wartime security emergencies permit the president to suspend civil liberties for all citizens, making the constitutional legitimacy question inapplicable during declared wars.",
+          "textEs": "El internamiento fue constitucionalmente legítimo porque las emergencias de seguridad en tiempo de guerra permiten al presidente suspender las libertades civiles de todos los ciudadanos, haciendo que la cuestión de legitimidad constitucional sea inaplicable durante las guerras declaradas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The security justification was legitimate at the time because classified intelligence accurately identified widespread Japanese American espionage networks that have since been declassified and confirmed.",
+          "textEs": "La justificación de seguridad era legítima en ese momento porque la inteligencia clasificada identificó con precisión extensas redes de espionaje de japoneses americanos que desde entonces han sido desclasificadas y confirmadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The internment was constitutionally permissible because non-citizens can legally be detained during wartime, and most internees were foreign nationals rather than American citizens.",
+          "textEs": "El internamiento fue constitucionalmente permisible porque los no ciudadanos pueden ser detenidos legalmente durante la guerra, y la mayoría de los internados eran ciudadanos extranjeros en lugar de ciudadanos estadounidenses.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The security justification is repudiated by historical evidence: intelligence reports questioned the security threat, no Japanese American was convicted of espionage, German and Italian Americans were not similarly interned",
+          "textEs": "La justificación de seguridad es repudiada por la evidencia histórica: los informes de inteligencia cuestionaron la amenaza de seguridad, ningún japonés americano fue condenado por espionaje, los alemanes americanos e italianos americanos no fueron internados de manera similar, y la Comisión de 1983 concluyó que la acción fue impulsada por prejuicio racial en lugar de necesidad genuina de seguridad —revelando que la violación constitucional no estaba justificada.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The security justification for internment has been thoroughly repudiated by historical evidence: the government possessed intelligence (the Ringle Report, from Naval Intelligence) suggesting the great majority of Japanese Americans posed no security threat; no Japanese American was convicted of espionage or sabotage during the war; German and Italian Americans (whose nations were also at war with the U.S.) were not subjected to mass internment; and the CWRIC (Commission on Wartime Relocation and Internment of Civilians) concluded in 1983 that the internment was driven by 'race prejudice, war hysteria, and a failure of political leadership,' not genuine security necessity. The constitutional violation — denying due process and equal protection to citizens based solely on ancestry — was therefore not justified by any demonstrable security imperative. Options A, B, and C either accept the security rationale uncritically or make legal claims that misrepresent constitutional analysis.",
+      "explanationEs": "La justificación de seguridad para el internamiento ha sido completamente repudiada por la evidencia histórica: el gobierno poseía inteligencia (el Informe Ringle, de Inteligencia Naval) que sugería que la gran mayoría de los japoneses americanos no representaban ninguna amenaza de seguridad; ningún japonés americano fue condenado por espionaje o sabotaje durante la guerra; los alemanes americanos e italianos americanos (cuyas naciones también estaban en guerra con los EE.UU.) no fueron sometidos a internamiento masivo; y la CWRIC (Comisión sobre Reubicación e Internamiento de Civiles en Tiempo de Guerra) concluyó en 1983 que el internamiento fue impulsado por 'prejuicio racial, histeria de guerra y un fracaso del liderazgo político', no por necesidad genuina de seguridad. La violación constitucional —negar el debido proceso y la protección igualitaria a los ciudadanos únicamente basándose en la ascendencia— por lo tanto no fue justificada por ningún imperativo de seguridad demostrable. Las opciones A, B y C aceptan la justificación de seguridad acríticamente o hacen afirmaciones legales que tergiversan el análisis constitucional.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.81,
+        "b": 1.02,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-083",
+      "stem": "In Korematsu v. United States (1944), the Supreme Court upheld the constitutionality of Japanese American internment in a 6-3 decision. Justice Frank Murphy's dissent called it 'legalization of racism.' Analyzing the majority opinion and the dissent, which of the following best evaluates the constitutional reasoning in the case?",
+      "stemEs": "En Korematsu contra Estados Unidos (1944), la Corte Suprema avaló la constitucionalidad del internamiento de japoneses americanos en una decisión de 6-3. La disidencia del juez Frank Murphy la llamó 'legalización del racismo'. Analizando la opinión de la mayoría y la disidencia, ¿cuál de las siguientes opciones evalúa mejor el razonamiento constitucional en el caso?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The majority opinion was constitutionally sound because the Court correctly applied strict scrutiny and found a compelling national security interest that narrowly justified the racial classification, demonstrating the proper functioning of judicial review.",
+          "textEs": "La opinión de la mayoría fue constitucionalmente sólida porque el Tribunal aplicó correctamente el escrutinio estricto y encontró un interés de seguridad nacional convincente que justificó estrechamente la clasificación racial, demostrando el correcto funcionamiento de la revisión judicial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The majority opinion was constitutionally flawed because it deferred to executive military necessity claims without independently scrutinizing the evidence, accepting racial classification without demanding the government demonstrate the factual basis for its security assertions — the core error that Murphy's dissent correctly identified.",
+          "textEs": "La opinión de la mayoría fue constitucionalmente defectuosa porque se deferió a las afirmaciones ejecutivas de necesidad militar sin examinar independientemente la evidencia, aceptando la clasificación racial sin exigir al gobierno que demostrara la base fáctica de sus afirmaciones de seguridad —el error central que la disidencia de Murphy identificó correctamente.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The dissent was constitutionally correct but the majority opinion was also correct, demonstrating that the Constitution provides no clear answer in wartime civil liberties cases and that either ruling would have been legally defensible.",
+          "textEs": "La disidencia era constitucionalmente correcta pero la opinión de la mayoría también era correcta, demostrando que la Constitución no proporciona una respuesta clara en los casos de libertades civiles en tiempo de guerra y que cualquiera de los dos fallos habría sido legalmente defendible.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Korematsu case was correctly decided because Japanese American internment was not a racial classification — it was an emergency national security measure that applied to all persons of Japanese ancestry regardless of their race as a biological category.",
+          "textEs": "El caso Korematsu fue correctamente decidido porque el internamiento de japoneses americanos no fue una clasificación racial —fue una medida de seguridad nacional de emergencia que se aplicó a todas las personas de ascendencia japonesa independientemente de su raza como categoría biológica.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Korematsu majority applied something resembling strict scrutiny — acknowledging that racial classifications are suspect — but accepted the government's unverified military necessity claims without independent judicial examination of the underlying intelligence. Murphy's dissent correctly identified this as the fatal flaw: the Court deferred to executive assertions of military necessity without scrutinizing whether those assertions were supported by actual evidence. Murphy argued the exclusion fell 'into the ugly abyss of racism.' The case has been widely condemned by constitutional scholars and was formally repudiated by the Supreme Court in Trump v. Hawaii (2018), where Chief Justice Roberts called the Korematsu decision 'gravely wrong the day it was decided.' Options A, C, and D mischaracterize the constitutional reasoning or its legacy.",
+      "explanationEs": "La mayoría de Korematsu aplicó algo parecido a un escrutinio estricto —reconociendo que las clasificaciones raciales son sospechosas— pero aceptó las afirmaciones no verificadas del gobierno sobre necesidad militar sin un examen judicial independiente de la inteligencia subyacente. La disidencia de Murphy identificó correctamente esto como el defecto fatal: el Tribunal se deferió a las afirmaciones ejecutivas de necesidad militar sin examinar si esas afirmaciones estaban respaldadas por evidencia real. Murphy argumentó que la exclusión caía 'en el feo abismo del racismo'. El caso ha sido ampliamente condenado por académicos constitucionales y fue formalmente repudiado por la Corte Suprema en Trump contra Hawaii (2018), donde el Presidente Roberts llamó a la decisión Korematsu 'gravemente errónea el día en que fue decidida'. Las opciones A, C y D tergiversan el razonamiento constitucional o su legado.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.81,
+        "b": 0.6,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-084",
+      "stem": "The U.S. government interned approximately 120,000 Japanese Americans during WWII while not implementing comparable mass internment of German Americans or Italian Americans, even though the U.S. was also at war with Germany and Italy. Analyzing this differential treatment, which of the following best explains its primary cause?",
+      "stemEs": "El gobierno de los EE.UU. internó a aproximadamente 120,000 japoneses americanos durante la Segunda Guerra Mundial sin implementar un internamiento masivo comparable de alemanes americanos o italianos americanos, a pesar de que los EE.UU. también estaba en guerra con Alemania e Italia. Analizando este trato diferencial, ¿cuál de las siguientes opciones explica mejor su causa principal?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Racial ideology was the primary cause: Japanese Americans were racialized as unassimilable regardless of citizenship status, while German and Italian Americans were racially categorized as white Europeans who could be trusted — a distinction that reveals the internment was fundamentally about race, not security.",
+          "textEs": "La ideología racial fue la causa principal: los japoneses americanos fueron racializados como no asimilables independientemente de su estatus de ciudadanía, mientras que los alemanes americanos e italianos americanos fueron categorizados racialmente como europeos blancos en quienes se podía confiar —una distinción que revela que el internamiento fue fundamentalmente sobre raza, no sobre seguridad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The differential treatment was entirely due to numbers — there were simply too many German and Italian Americans to intern logistically, while the smaller Japanese American population made internment operationally feasible.",
+          "textEs": "El trato diferencial se debió enteramente a los números —simplemente había demasiados alemanes americanos e italianos americanos para internar logísticamente, mientras que la población más pequeña de japoneses americanos hizo que el internamiento fuera operativamente factible.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The difference reflected genuine security intelligence: federal authorities had specific evidence of Japanese American espionage networks but had found no comparable evidence of German or Italian American disloyal activity.",
+          "textEs": "La diferencia reflejó inteligencia de seguridad genuina: las autoridades federales tenían evidencia específica de redes de espionaje de japoneses americanos pero no habían encontrado evidencia comparable de actividad desleal de alemanes americanos o italianos americanos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The differential treatment was caused primarily by geographic factors: Japanese Americans were concentrated on the West Coast near military installations, while German and Italian Americans were dispersed throughout the country making surveillance impossible.",
+          "textEs": "El trato diferencial fue causado principalmente por factores geográficos: los japoneses americanos estaban concentrados en la Costa Oeste cerca de instalaciones militares, mientras que los alemanes americanos e italianos americanos estaban dispersos por todo el país haciendo que la vigilancia fuera imposible.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The differential treatment is most directly explained by racial ideology: Japanese Americans were racialized as physically and culturally unassimilable 'foreigners' regardless of citizenship, while German and Italian Americans — predominantly white Europeans — were not subjected to the same racial categorization. General DeWitt's statements ('A Jap is a Jap') explicitly reflect this racial logic. Additionally, the West Coast business community had economic interests in removing Japanese American agricultural competitors. Political factors also played a role — there were approximately 600,000 Italian Americans in California with significant electoral influence. But the primary factor, as the CWRIC concluded, was racial prejudice. Options B, C, and D offer partial explanations but none captures the primary causal factor.",
+      "explanationEs": "El trato diferencial se explica más directamente por la ideología racial: los japoneses americanos fueron racializados como 'extranjeros' físicamente y culturalmente no asimilables independientemente de su ciudadanía, mientras que los alemanes americanos e italianos americanos —predominantemente europeos blancos— no fueron sometidos a la misma categorización racial. Las declaraciones del General DeWitt ('Un japonés es un japonés') reflejan explícitamente esta lógica racial. Además, la comunidad empresarial de la Costa Oeste tenía intereses económicos en eliminar a los competidores agrícolas japoneses americanos. Los factores políticos también jugaron un papel —había aproximadamente 600,000 italianos americanos en California con significativa influencia electoral—. Pero el factor principal, como concluyó la CWRIC, fue el prejuicio racial. Las opciones B, C y D ofrecen explicaciones parciales pero ninguna capta el factor causal principal.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.05,
+        "b": 0.92,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-085",
+      "stem": "In 1988, Congress passed the Civil Liberties Act, which provided a formal presidential apology and $20,000 in reparations to surviving Japanese American internees. Analyzing this 46-year delay between the internment and the government's formal acknowledgment of wrongdoing, which of the following best explains the political dynamics that both delayed and ultimately enabled this reparations legislation?",
+      "stemEs": "En 1988, el Congreso aprobó la Ley de Libertades Civiles, que proporcionó una disculpa presidencial formal y $20,000 en reparaciones a los internados japoneses americanos sobrevivientes. Analizando este retraso de 46 años entre el internamiento y el reconocimiento formal del gobierno de haber actuado mal, ¿cuál de las siguientes opciones explica mejor las dinámicas políticas que tanto retrasaron como finalmente posibilitaron esta legislación de reparaciones?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The 46-year delay occurred because Japanese Americans did not pursue reparations before 1988, choosing to remain silent about the internment out of cultural shame rather than political strategy.",
+          "textEs": "El retraso de 46 años ocurrió porque los japoneses americanos no buscaron reparaciones antes de 1988, eligiendo permanecer en silencio sobre el internamiento por vergüenza cultural en lugar de estrategia política.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reparations legislation would have been passed immediately after the war if not for a constitutional barrier that required a constitutional amendment before the federal government could issue apologies or financial reparations to American citizens.",
+          "textEs": "La legislación de reparaciones habría sido aprobada inmediatamente después de la guerra si no hubiera sido por una barrera constitucional que requería una enmienda constitucional antes de que el gobierno federal pudiera emitir disculpas o reparaciones financieras a los ciudadanos estadounidenses.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The delay reflected limited post-war Japanese American political power and Cold War inconvenience of admitting civil liberties violations; the eventual passage resulted from organized advocacy over decades, official documentation through the CWRIC, the moral framework established by the civil rights movement",
+          "textEs": "El retraso reflejó el limitado poder político de los japoneses americanos en la posguerra y la inconveniencia de la Guerra Fría de admitir violaciones de libertades civiles; la eventual aprobación resultó de la defensa organizada durante décadas, la documentación oficial a través de la CWRIC, el marco moral establecido por el movimiento de derechos civiles y la aparición de líderes políticos japoneses americanos en el Congreso.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The legislation was delayed because the Supreme Court's Korematsu decision remained valid law until 1988, and Congress could not pass reparations while the internment was still constitutionally upheld.",
+          "textEs": "La legislación se retrasó porque la decisión Korematsu de la Corte Suprema siguió siendo ley válida hasta 1988, y el Congreso no podía aprobar reparaciones mientras el internamiento todavía estuviera constitucionalmente avalado.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 46-year delay reflects multiple factors: (1) Immediate post-war period — Japanese Americans had limited political power and faced continued prejudice; returning veterans focused on rebuilding; (2) Cold War era — admitting a major racial civil liberties violation was politically inconvenient when competing with the Soviet Union in the court of global opinion; (3) 1970s–80s — the CWRIC investigation (ordered by Congress in 1980) provided official documentation; the civil rights movement had established a moral and legislative framework for addressing historical injustice; Japanese American political organizations (JACL) had organized over decades; and key Japanese American political leaders (Congressmen Matsui and Mineta) could advocate from inside Congress. The combination of documented evidence, changed political context, and organized advocacy finally made action possible. Options A, B, and D mischaracterize the dynamics.",
+      "explanationEs": "El retraso de 46 años refleja múltiples factores: (1) Período de posguerra inmediato —los japoneses americanos tenían poder político limitado y enfrentaban prejuicios continuos; los veteranos que regresaban se enfocaban en reconstruir—; (2) Era de la Guerra Fría —admitir una gran violación racial de las libertades civiles era políticamente inconveniente cuando se competía con la Unión Soviética en el tribunal de la opinión global—; (3) Décadas de 1970-80 —la investigación de la CWRIC (ordenada por el Congreso en 1980) proporcionó documentación oficial; el movimiento de derechos civiles había establecido un marco moral y legislativo para abordar la injusticia histórica; las organizaciones políticas japonesas americanas (JACL) se habían organizado durante décadas; y líderes políticos japoneses americanos clave (los Congresistas Matsui y Mineta) podían abogar desde dentro del Congreso—. La combinación de evidencia documentada, contexto político cambiado y defensa organizada finalmente hizo posible la acción. Las opciones A, B y D tergiversan las dinámicas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.32,
+        "b": 0.58,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-086",
+      "stem": "The Korematsu decision established that racial classifications by the government require 'the most rigid scrutiny.' Yet the Court then accepted the government's national security argument without independently verifying the underlying intelligence assessments. Analyzing this pattern, which of the following best explains what Korematsu reveals about the limits of judicial review during wartime emergencies?",
+      "stemEs": "La decisión Korematsu estableció que las clasificaciones raciales por el gobierno requieren 'el escrutinio más riguroso'. Sin embargo, el Tribunal luego aceptó el argumento de seguridad nacional del gobierno sin verificar independientemente las evaluaciones de inteligencia subyacentes. Analizando este patrón, ¿cuál de las siguientes opciones explica mejor lo que Korematsu revela sobre los límites de la revisión judicial durante emergencias en tiempo de guerra?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Korematsu reveals that articulating rigorous constitutional standards does not ensure rigorous application when courts defer to executive factual assertions — particularly when the government suppresses contradicting intelligence, exposing the practical limits of judicial independence from executive expertise claims during emergencies.",
+          "textEs": "Korematsu revela que articular estándares constitucionales rigurosos no garantiza una aplicación rigurosa cuando los tribunales se defieren a las afirmaciones fácticas del ejecutivo —especialmente cuando el gobierno suprime inteligencia contradictoria, exponiendo los límites prácticos de la independencia judicial de las afirmaciones de expertise ejecutivo durante emergencias.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Korematsu demonstrates that judicial review is entirely ineffective during wartime and that the courts always uphold executive actions regardless of their constitutional implications when national security is invoked.",
+          "textEs": "Korematsu demuestra que la revisión judicial es completamente ineficaz durante la guerra y que los tribunales siempre avalan las acciones ejecutivas independientemente de sus implicaciones constitucionales cuando se invoca la seguridad nacional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Korematsu decision reveals that the 'most rigid scrutiny' standard is unconstitutional when applied to wartime security classifications, and should be replaced by a more deferential review standard in all national security cases.",
+          "textEs": "La decisión Korematsu revela que el estándar de 'el escrutinio más riguroso' es inconstitucional cuando se aplica a las clasificaciones de seguridad en tiempo de guerra, y debería ser reemplazado por un estándar de revisión más deferente en todos los casos de seguridad nacional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Korematsu demonstrates that strict scrutiny is a reliable constitutional safeguard against racially discriminatory government action, because the Court's rigorous analysis would have prevented the internment if not for unforeseeable wartime pressures that no court could have been expected to resist.",
+          "textEs": "Korematsu demuestra que el escrutinio estricto es una salvaguardia constitucional confiable contra la acción gubernamental racialmente discriminatoria, porque el riguroso análisis del Tribunal habría prevenido el internamiento si no hubiera sido por presiones en tiempo de guerra imprevisibles que ningún tribunal habría podido esperarse que resistiera.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Korematsu illustrates a structural limitation of judicial review under war emergencies: courts can articulate rigorous constitutional standards while simultaneously deferring to executive branch factual assertions about military necessity. The Court claimed to apply strict scrutiny but failed to actually scrutinize the factual basis of the government's claims — which were later shown to include deliberate misrepresentations (the Solicitor General suppressed the Ringle Report that undermined the security argument). This reveals that judicial independence has practical limits when courts defer to executive expertise claims in domains (military intelligence) where courts have limited institutional competence. The case became a cautionary precedent for exactly this reason. Options B, C, and D mischaracterize the constitutional significance of this limitation.",
+      "explanationEs": "Korematsu ilustra una limitación estructural de la revisión judicial bajo emergencias bélicas: los tribunales pueden articular estándares constitucionales rigurosos mientras simultáneamente se defieren a las afirmaciones fácticas del ejecutivo sobre necesidad militar. El Tribunal afirmó aplicar escrutinio estricto pero no logró realmente examinar la base fáctica de las afirmaciones del gobierno —que más tarde se demostró que incluían tergiversaciones deliberadas (el Procurador General suprimió el Informe Ringle que socavaba el argumento de seguridad)—. Esto revela que la independencia judicial tiene límites prácticos cuando los tribunales se defieren a las afirmaciones de expertise ejecutivo en dominios (inteligencia militar) donde los tribunales tienen competencia institucional limitada. El caso se convirtió en un precedente cautelar exactamente por esta razón. Las opciones B, C y D tergiversan la importancia constitucional de esta limitación.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.18,
+        "b": 1.27,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-087",
+      "stem": "Fred Korematsu refused to report for internment, was convicted, and took his case to the Supreme Court. Six decades later, a federal court vacated his conviction on grounds that the government had misrepresented evidence to the Supreme Court. Analyzing Korematsu's decision to challenge the internment legally, which of the following best explains the historical significance of individual acts of legal resistance to unconstitutional government actions?",
+      "stemEs": "Fred Korematsu se negó a presentarse al internamiento, fue condenado y llevó su caso a la Corte Suprema. Seis décadas después, un tribunal federal anuló su condena con el fundamento de que el gobierno había tergiversado evidencia ante la Corte Suprema. Analizando la decisión de Korematsu de desafiar legalmente el internamiento, ¿cuál de las siguientes opciones explica mejor la importancia histórica de los actos individuales de resistencia legal a las acciones gubernamentales inconstitucionales?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Individual legal resistance is historically insignificant when courts immediately rule against the challenger, as Korematsu's loss demonstrates that legal challenges to wartime executive actions are always futile exercises that waste resources better directed toward political organizing.",
+          "textEs": "La resistencia legal individual es históricamente insignificante cuando los tribunales fallan inmediatamente en contra del impugnador, ya que la derrota de Korematsu demuestra que los desafíos legales a las acciones ejecutivas en tiempo de guerra son siempre ejercicios inútiles que desperdician recursos mejor dirigidos hacia la organización política.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Korematsu's legal challenge was historically significant only as a personal act of conscience rather than as a constitutional or political contribution, since his case had no measurable effect on subsequent judicial interpretation of civil liberties law.",
+          "textEs": "El desafío legal de Korematsu fue históricamente significativo solo como un acto personal de conciencia en lugar de como una contribución constitucional o política, ya que su caso no tuvo ningún efecto mensurable en la interpretación judicial posterior de la ley de libertades civiles.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Individual legal resistance is only historically significant when it succeeds in the original court, and Korematsu's case therefore represents a historical failure whose legacy is entirely negative since it legitimized internment through Supreme Court validation.",
+          "textEs": "La resistencia legal individual es solo históricamente significativa cuando tiene éxito en el tribunal original, y el caso de Korematsu por lo tanto representa un fracaso histórico cuyo legado es enteramente negativo ya que legitimó el internamiento a través de la validación de la Corte Suprema.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Individual legal resistance creates preserved legal records that can serve as vehicles for later vindication when evidence surfaces and contexts change — Korematsu's initial defeat preserved the constitutional argument within the legal system, enabling his 1983 exoneration and making his case a lasting precedent for civil liberties advocacy.",
+          "textEs": "La resistencia legal individual crea registros legales preservados que pueden servir como vehículos para la vindicación posterior cuando emerge la evidencia y los contextos cambian —la derrota inicial de Korematsu preservó el argumento constitucional dentro del sistema legal, posibilitando su exoneración de 1983 y convirtiendo su caso en un precedente duradero para la defensa de las libertades civiles.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Fred Korematsu's case illustrates that individual legal resistance to unconstitutional government actions creates legal records — convictions, appeals, opinions — that become vehicles for later challenge and vindication. His initial legal defeat did not represent the end of the constitutional argument but preserved it within the legal system for later reconsideration when political and judicial contexts changed. The 1983 vacating of his conviction — made possible by a coram nobis petition revealing government misrepresentation — demonstrates that preserved legal records can serve justice decades later when evidence surfaces. His case also became a foundational precedent for both constitutional law teaching and civil rights advocacy. Options A, B, and C understate the significance of legal resistance or mischaracterize its mechanisms.",
+      "explanationEs": "El caso de Fred Korematsu ilustra que la resistencia legal individual a las acciones gubernamentales inconstitucionales crea registros legales —condenas, apelaciones, opiniones— que se convierten en vehículos para desafíos posteriores y vindicación. Su derrota legal inicial no representó el fin del argumento constitucional sino que lo preservó dentro del sistema legal para su reconsideración posterior cuando los contextos políticos y judiciales cambiaron. La anulación de su condena en 1983 —posible gracias a una petición de coram nobis que reveló la tergiversación gubernamental— demuestra que los registros legales preservados pueden servir a la justicia décadas después cuando surge la evidencia. Su caso también se convirtió en un precedente fundamental tanto para la enseñanza del derecho constitucional como para la defensa de los derechos civiles. Las opciones A, B y C subestiman la importancia de la resistencia legal o tergiversan sus mecanismos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.06,
+        "b": 1.04,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-088",
+      "stem": "The Korematsu decision was formally overruled in Trump v. Hawaii (2018), where Chief Justice Roberts wrote that the internment was 'morally reprehensible' and 'gravely wrong the day it was decided.' Yet Roberts also upheld the travel ban in that case. What does this combination most clearly reveal about how courts use historical precedent?",
+      "stemEs": "La decisión Korematsu fue formalmente anulada en Trump contra Hawaii (2018), donde el Presidente Roberts escribió que el internamiento fue 'moralmente reprehensible' y 'gravemente erróneo el día en que fue decidido'. Sin embargo, Roberts también avaló la prohibición de viaje en ese caso. ¿Qué revela más claramente esta combinación sobre cómo los tribunales usan el precedente histórico?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The combination demonstrates that courts always learn from historical mistakes, and the formal repudiation of Korematsu proves that the Supreme Court consistently applies civil liberties principles more rigorously today than it did during WWII.",
+          "textEs": "La combinación demuestra que los tribunales siempre aprenden de los errores históricos, y la repudiación formal de Korematsu demuestra que la Corte Suprema aplica consistentemente los principios de libertades civiles con mayor rigor hoy en día que durante la Segunda Guerra Mundial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The combination reveals courts can selectively repudiate discredited precedents to distinguish new cases while applying similar reasoning elsewhere — showing historical precedent can be deployed strategically to legitimate new decisions rather than as a genuine constitutional constraint.",
+          "textEs": "La combinación revela que los tribunales pueden usar la repudiación formal de precedentes desacreditados selectivamente —para distinguir nuevos casos de comparaciones vergonzosas— mientras potencialmente aplican razonamientos similares en nuevos contextos, demostrando que el precedente histórico puede desplegarse estratégicamente para legitimar nuevas decisiones en lugar de como una restricción constitucional genuina.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Roberts's simultaneous repudiation of Korematsu and upholding of the travel ban is legally incoherent and demonstrates that the Supreme Court no longer makes decisions based on constitutional principle.",
+          "textEs": "La simultánea repudiación de Korematsu y el aval de la prohibición de viaje por parte de Roberts es legalmente incoherente y demuestra que la Corte Suprema ya no toma decisiones basadas en principios constitucionales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The repudiation of Korematsu in Trump v. Hawaii demonstrates that constitutional law progresses in a linear trajectory from less to more protection of civil liberties, and that no future court could uphold racial or ethnic discrimination under any circumstances.",
+          "textEs": "La repudiación de Korematsu en Trump contra Hawaii demuestra que el derecho constitucional progresa en una trayectoria lineal de menor a mayor protección de las libertades civiles, y que ningún tribunal futuro podría avalar la discriminación racial o étnica bajo ninguna circunstancia.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Trump v. Hawaii decision is analytically rich: Roberts formally repudiated Korematsu to distinguish it from the travel ban case. Critics pointed out the irony — Korematsu was repudiated precisely in a case where the Court upheld a government action that critics argued was similarly motivated by ethnic/religious prejudice. This reveals how courts can use historical precedent strategically: formally denouncing a discredited precedent can insulate a new decision from comparison rather than genuinely committing to the principle that motivated the denouncement. Justice Sotomayor's dissent made exactly this argument: 'the majority redeploys the same dangerous logic underlying Korematsu.' The episode illustrates that precedent can be used selectively to legitimate new decisions rather than as a genuinely binding constraint. Options A, C, and D mischaracterize the constitutional dynamics.",
+      "explanationEs": "La decisión Trump contra Hawaii es analíticamente rica: Roberts repudió formalmente a Korematsu para distinguirlo del caso de la prohibición de viaje. Los críticos señalaron la ironía —Korematsu fue repudiado precisamente en un caso donde el Tribunal avaló una acción gubernamental que los críticos argumentaban estaba igualmente motivada por prejuicio étnico/religioso—. Esto revela cómo los tribunales pueden usar el precedente histórico estratégicamente: denunciar formalmente un precedente desacreditado puede aislar una nueva decisión de la comparación en lugar de comprometerse genuinamente con el principio que motivó la denuncia. La disidencia de la Jueza Sotomayor hizo exactamente este argumento: 'la mayoría redistribuye la misma lógica peligrosa subyacente a Korematsu'. El episodio ilustra que el precedente puede usarse selectivamente para legitimar nuevas decisiones en lugar de como una restricción genuinamente vinculante. Las opciones A, C y D tergiversan las dinámicas constitucionales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.27,
+        "b": 1.27,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-089",
+      "stem": "The property losses suffered by Japanese Americans during internment — farms, businesses, and homes seized or sold under distress — were partially compensated by the Japanese American Evacuation Claims Act (1948), which paid approximately ten cents on the dollar for documented losses. Analyzing this compensation, which of the following best evaluates what it reveals about how societies address historical injustices?",
+      "stemEs": "Las pérdidas de propiedades sufridas por los japoneses americanos durante el internamiento —granjas, negocios y hogares confiscados o vendidos bajo presión— fueron parcialmente compensadas por la Ley de Reclamaciones de Evacuación Japonesa Americana (1948), que pagó aproximadamente diez centavos por dólar por las pérdidas documentadas. Analizando esta compensación, ¿cuál de las siguientes opciones evalúa mejor lo que revela sobre cómo las sociedades abordan las injusticias históricas?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The 1948 compensation demonstrates that the American government promptly and fully acknowledged its responsibility for internment and provided complete restitution that made Japanese American victims economically whole within three years of the war's end.",
+          "textEs": "La compensación de 1948 demuestra que el gobierno estadounidense reconoció rápida y completamente su responsabilidad por el internamiento y proporcionó una restitución completa que hizo económicamente enteros a las víctimas japonesas americanas dentro de los tres años del final de la guerra.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The partial compensation provided in 1948 demonstrates that financial restitution is a morally equivalent substitute for formal acknowledgment of wrongdoing, making the 1988 Civil Liberties Act unnecessary.",
+          "textEs": "La compensación parcial proporcionada en 1948 demuestra que la restitución financiera es un sustituto moralmente equivalente al reconocimiento formal de haber actuado mal, haciendo innecesaria la Ley de Libertades Civiles de 1988.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The partial, inadequate 1948 compensation reveals a recurring pattern: societies often offer minimal financial acknowledgment of historical injustice while structuring claims processes to limit liability — creating formal recognition of wrong that is simultaneously insufficient for genuine restitution and does not address intangible losses.",
+          "textEs": "La compensación parcial e inadecuada de 1948 revela un patrón recurrente: las sociedades a menudo ofrecen un reconocimiento financiero mínimo de la injusticia histórica mientras estructuran los procesos de reclamaciones para limitar la responsabilidad —creando un reconocimiento formal del daño que es simultáneamente insuficiente para la restitución genuina y no aborda las pérdidas intangibles.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The 1948 compensation proves that financial restitution is impossible for historical injustices because the economic losses from internment could not be documented with sufficient precision to allow fair payment regardless of political will.",
+          "textEs": "La compensación de 1948 demuestra que la restitución financiera es imposible para las injusticias históricas porque las pérdidas económicas del internamiento no podían documentarse con suficiente precisión para permitir un pago justo independientemente de la voluntad política.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 1948 claims process reveals a pattern in how societies partially address historical injustices: offering limited financial compensation while structuring the process to minimize liability (requiring documentation that had been destroyed or never created; capping claims; paying fractions of value). This creates a formal acknowledgment of wrong that is simultaneously insufficient to provide genuine restitution. The 10-cent-on-the-dollar payment acknowledges the loss but does not restore the victims to their pre-injustice position. Furthermore, property compensation does not address the intangible losses — imprisonment, stigmatization, disruption of life trajectories. The contrast between 1948 partial compensation and 1988 full apology with $20,000 payments shows how formal acknowledgment took four additional decades. Options A, B, and D oversimplify or mischaracterize the significance.",
+      "explanationEs": "El proceso de reclamaciones de 1948 revela un patrón en cómo las sociedades abordan parcialmente las injusticias históricas: ofrecen compensación financiera limitada mientras estructuran el proceso para minimizar la responsabilidad (requiriendo documentación que había sido destruida o nunca creada; limitando las reclamaciones; pagando fracciones del valor). Esto crea un reconocimiento formal del daño que es simultáneamente insuficiente para proporcionar una restitución genuina. El pago de diez centavos por dólar reconoce la pérdida pero no restaura a las víctimas a su posición previa a la injusticia. Además, la compensación de propiedades no aborda las pérdidas intangibles —encarcelamiento, estigmatización, interrupción de las trayectorias de vida—. El contraste entre la compensación parcial de 1948 y la disculpa completa de 1988 con pagos de $20,000 muestra cómo el reconocimiento formal tardó cuatro décadas adicionales. Las opciones A, B y D simplifican excesivamente o tergiversan la importancia.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.43,
+        "b": 1.74,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u6-090",
+      "stem": "The internment of Japanese Americans, the military service of the 442nd and Tuskegee Airmen, and the denial of veterans' benefits to women's military branches can all be analyzed as manifestations of the same underlying pattern. Which of the following best identifies that shared underlying pattern?",
+      "stemEs": "El internamiento de los japoneses americanos, el servicio militar del 442.º y los Aviadores de Tuskegee, y la negación de beneficios para veteranos a las ramas militares femeninas pueden analizarse como manifestaciones del mismo patrón subyacente. ¿Cuál de las siguientes opciones identifica mejor ese patrón subyacente compartido?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wartime institutions systematically extracted service and labor from marginalized groups while denying them full rights, recognition, and equal status — demonstrating that emergency necessity can coexist with structural exclusion, creating opportunity without equality.",
+          "textEs": "Las instituciones bélicas extrajeron sistemáticamente servicio y trabajo de los grupos marginados mientras les negaban plenos derechos, reconocimiento y estatus igual —demostrando que la necesidad de emergencia puede coexistir con la exclusión estructural, creando oportunidad sin igualdad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The shared pattern is simply wartime racism, and each case reflects the same form of racial prejudice — distinguishable only in the specific group targeted rather than in any structural or institutional mechanism.",
+          "textEs": "El patrón compartido es simplemente el racismo en tiempo de guerra, y cada caso refleja la misma forma de prejuicio racial —distinguible solo en el grupo específico objetivo en lugar de en cualquier mecanismo estructural o institucional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The shared pattern is that all three cases represent individual acts of prejudice by specific military leaders rather than any systemic institutional policy that would require a structural rather than an individual-level explanation.",
+          "textEs": "El patrón compartido es que los tres casos representan actos individuales de prejuicio por parte de líderes militares específicos en lugar de cualquier política institucional sistémica que requeriría una explicación estructural en lugar de a nivel individual.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The shared pattern is that all three cases were ultimately resolved during the war itself through executive action, demonstrating that democratic institutions reliably self-correct discriminatory practices under wartime pressure without requiring external advocacy.",
+          "textEs": "El patrón compartido es que los tres casos fueron finalmente resueltos durante la propia guerra mediante acción ejecutiva, demostrando que las instituciones democráticas se autocorrigen de manera confiable en las prácticas discriminatorias bajo presión bélica sin requerir defensa externa.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The unifying pattern across these cases is that wartime institutions systematically valued and used the labor and service of marginalized groups while simultaneously denying them the full rights, recognition, and protection that their service should have warranted. Japanese Americans' loyalty was questioned and their property seized while they were American citizens; African American soldiers risked their lives while segregated and denied equal command roles; women served in the military while denied full military status and equal veterans' benefits. This pattern reveals that wartime emergency creates opportunity but not equality — the state was willing to accept contributions from marginalized groups without reciprocating full inclusion. This is a DOK 3 synthesis across multiple standards. Options B, C, and D are either too narrow or miss the shared structural pattern.",
+      "explanationEs": "El patrón unificador en estos casos es que las instituciones bélicas valoraron y utilizaron sistemáticamente el trabajo y servicio de los grupos marginados mientras simultáneamente les negaban los plenos derechos, reconocimiento y protección que su servicio debería haber merecido. Se cuestionó la lealtad de los japoneses americanos y se confiscó su propiedad mientras eran ciudadanos estadounidenses; los soldados afroamericanos arriesgaron sus vidas mientras eran segregados y se les negaban roles de mando iguales; las mujeres sirvieron en el ejército mientras se les negaba el estatus militar pleno y los beneficios iguales para veteranos. Este patrón revela que la emergencia bélica crea oportunidad pero no igualdad —el estado estaba dispuesto a aceptar contribuciones de grupos marginados sin reciprocar con la inclusión plena—. Esta es una síntesis de DOK 3 a través de múltiples estándares. Las opciones B, C y D son demasiado estrechas o pierden el patrón estructural compartido.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.81,
+        "b": 1.66,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.54"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.54->US.54 revised sim=0.94"
+        ]
+      }
+    }
+  ]
+}

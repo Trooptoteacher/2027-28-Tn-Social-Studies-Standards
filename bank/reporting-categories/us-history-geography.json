@@ -1,0 +1,495 @@
+{
+  "$comment": "reportingCategory is NOT in the standards document. TDOE publishes a US History EOC blueprint that defines reporting categories, but (a) it is keyed to the 2026-27 standards and (b) no blueprint exists yet for 2027-28 (adopted Feb 2024, implements 2027-28). So this field cannot currently claim to be the state's own category. It is sourced HERE, in a reviewable file, with provenance on every row. The gate checks PROVENANCE, not plausibility: a plausibility check built on the standards' strand letters was measured and it PASSES the known-bad item (a Bessemer-process stem filed under Government and Civics), because that standard carries strands C and P.",
+  "mappingVersion": 1,
+  "course": "us-history-geography",
+  "standardsPrefix": "US",
+  "standardsYear": "2027-28",
+  "sourceOfRecord": "UNMAPPED",
+  "sourceOptions": [
+    "tdoe-blueprint",
+    "interim-district",
+    "UNMAPPED"
+  ],
+  "candidateCategories": {
+    "$comment": "Names carried over from the existing 2026-27 bank. UNVERIFIED against the TDOE blueprint — the names are plausible, the assignments provably were not.",
+    "values": [
+      "History",
+      "Government and Civics",
+      "Economics",
+      "Geography"
+    ]
+  },
+  "reviewRequired": true,
+  "standards": {
+    "US.01": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.02": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.03": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.04": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.05": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.06": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.07": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.08": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.09": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.10": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.11": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.12": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.13": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.14": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.15": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.16": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.17": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.18": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.19": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.20": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.21": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.22": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.23": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.24": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.25": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.26": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.27": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.28": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.29": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.30": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.31": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.32": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.33": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.34": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.35": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.36": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.37": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.38": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.39": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.40": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.41": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.42": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.43": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.44": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.45": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.46": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.47": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.48": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.49": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.50": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.51": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.52": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.53": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.54": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.55": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.56": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.57": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.58": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.59": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.60": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.61": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.62": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.63": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.64": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.65": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.66": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.67": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.68": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.69": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.70": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.71": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.72": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.73": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.74": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.75": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.76": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.77": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.78": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.79": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.80": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.81": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.82": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.83": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.84": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.85": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.86": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.87": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.88": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.89": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.90": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.91": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.92": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.93": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    },
+    "US.94": {
+      "category": null,
+      "source": "UNMAPPED",
+      "verifiedAt": null
+    }
+  }
+}

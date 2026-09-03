@@ -1,0 +1,24 @@
+{
+  "$comment": "THE BINDING. Every generator and every gate loads this file and asserts against it. One shared toolchain, many walled courses. A generator that will happily emit another course's prefix will eventually do it.",
+  "bindingVersion": 1,
+  "course": "us-history-geography",
+  "courseTitle": "United States History and Geography",
+  "standardsPrefix": "US",
+  "standardsYear": "2027-28",
+  "standardsFile": "../standards/us-history-geography.json",
+  "standardsSourceDocument": "TN-Social-Studies-Standards-2027-28.pdf",
+  "crosswalkFile": "../crosswalk/us-history-geography.csv",
+  "outputDir": "items/us-history-geography",
+  "quarantineDir": "quarantine/us-history-geography",
+  "blueprintFile": "blueprints/us-history-geography.blueprint.json",
+  "reportingCategoryFile": "reporting-categories/us-history-geography.json",
+  "forbiddenPrefixes": {
+    "$comment": "Codes matching any other course's prefix are a hard build failure. Listed explicitly rather than inferred, so adding a course is a deliberate edit.",
+    "prefixes": ["K", "1", "2", "3", "4", "5", "6", "7", "8", "AAH", "AH", "CI", "E", "P", "S", "TN", "GC", "WG", "W"]
+  },
+  "forbiddenStandardsYears": {
+    "$comment": "84 of the 94 US codes changed meaning between 2026-27 and 2027-28. A code is not a stable identifier across years. Any item still claiming the prior year is a hard failure, not a warning.",
+    "years": ["2026-27"]
+  },
+  "disclosureLine": "classroom-formative · pre-field-test"
+}

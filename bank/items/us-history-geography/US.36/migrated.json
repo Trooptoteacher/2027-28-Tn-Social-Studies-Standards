@@ -1,0 +1,2593 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.36",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us36-dok1-1",
+      "stem": "What were flappers?",
+      "stemEs": "¿Qué fueron las flappers?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Conservative religious women who advocated for traditional Victorian family values",
+          "textEs": "Mujeres religiosas conservadoras que abogaron por valores familiares victorianos tradicionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Female factory workers who organized labor unions to improve working conditions",
+          "textEs": "Trabajadoras de fábrica que organizaron sindicatos para mejorar condiciones laborales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Women activists who opposed the expansion of voting rights to all citizens",
+          "textEs": "Activistas mujeres que se opusieron a la expansión de derechos de voto a todos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Young women who challenged traditional gender norms through dress and behavior",
+          "textEs": "Mujeres jóvenes que desafiaron normas de género tradicionales a través de vestimenta y comportamiento",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice A refers to women's changing roles, not the historical point being tested; choice C refers to women's changing roles, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+      "explanationEs": "Las flappers fueron mujeres jóvenes en los años 1920 que desafiaron normas de género tradicionales usando faldas cortas y pelo bob, bailando, bebiendo, fumando y afirmando independencia.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.58,
+        "b": -0.8,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok1-2",
+      "stem": "What did the term \"New Woman\" represent in the 1920s?",
+      "stemEs": "¿Qué representó el término \"Nueva Mujer\" en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Gained voting rights and cultural freedom but faced wage discrimination and limited careers",
+          "textEs": "Mujeres conservadoras que rechazaron cambios modernos y abogaron por valores tradicionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Independent women pursuing higher education, professional careers, and personal freedom",
+          "textEs": "Mujeres independientes buscando educación superior, carreras profesionales y libertad personal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Women filled jobs left by soldiers, proving their workplace capabilities to society",
+          "textEs": "Mujeres activistas que se opusieron a expansión de derechos de voto a ciudadanos más jóvenes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Challenged gender norms but was limited to young, urban, middle-class white women",
+          "textEs": "Mujeres que se enfocaron exclusivamente en responsabilidades domésticas y criar hijos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 'New Woman' represented women seeking higher education, paid work, political participation, and greater personal freedom after World War I and the 19th Amendment. Choice C points to women's changing roles, not the specific person, law, or event asked for; choice D points to women's changing roles, not the specific person, law, or event asked for. The term captured a broader social shift than the flapper image alone.",
+      "explanationEs": "La \"Nueva Mujer\" de los años 1920 buscó educación, carreras y libertad personal. Desafiaron convenciones victorianas, buscaron independencia económica y redefinieron roles femeninos en la sociedad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.05,
+        "b": -1.35,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok1-3",
+      "stem": "What did the term \"bobbed hair\" refer to in the 1920s?",
+      "stemEs": "¿A qué se refería el término \"pelo bob\" en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Advocated for birth control access and opened the first birth control clinic",
+          "textEs": "Un tipo de sombrero",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Short hairstyle worn by flappers that challenged traditional long hair norms",
+          "textEs": "Peinado corto usado por flappers que desafió normas tradicionales de pelo largo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Provided new opportunities for economic independence and professional work",
+          "textEs": "Una técnica de coloración de cabello",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Young women who challenged traditional gender norms through dress and behavior",
+          "textEs": "Peinado victoriano tradicional",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bobbed hair was the short hairstyle adopted by many young women in the 1920s as a visible rejection of older expectations about femininity. Choice D points to women's changing roles, not the specific person, law, or event asked for; choice A points to women's changing roles, not the specific person, law, or event asked for. Even fashion became a battleground over modern gender roles in the decade.",
+      "explanationEs": "El pelo bob era un peinado corto a la altura del mentón adoptado por flappers. Simbolizó rechazo de la feminidad victoriana y abrazo de independencia moderna, chocando a la sociedad conservadora.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.6,
+        "b": -0.96,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok1-192",
+      "stem": "\"Flappers\" in the 1920s were:",
+      "stemEs": "Las \"flappers\" en los años 1920 eran:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Provided new opportunities for economic independence and professional work",
+          "textEs": "Aviadoras que establecieron nuevos récords de vuelos de larga distancia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Advocated for birth control access and opened the first birth control clinic",
+          "textEs": "Trabajadoras de fábrica que apoyaron esfuerzos de organización sindical",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Lower wages (60% of men), discrimination, pressure to quit upon marriage",
+          "textEs": "Mujeres que hicieron campaña por la prohibición de bebidas alcohólicas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Young women who challenged traditional gender roles and social conventions",
+          "textEs": "Mujeres jóvenes que desafiaron roles de género tradicionales y convenciones sociales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice B refers to women's changing roles, not the historical point being tested; choice A refers to an effect or consequence rather than the item being identified, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+      "explanationEs": "Las flappers fueron mujeres jóvenes en los años 1920 que desafiaron normas de género tradicionales usando faldas cortas, cortándose el pelo, bailando, bebiendo, fumando y afirmando independencia personal.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -1.02,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-31-x011",
+      "stem": "The flapper of the 1920s challenged Victorian norms by:",
+      "stemEs": "The flapper of the 1920s challenged Victorian norms by:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Representing working-class women who entered the workforce during WWI",
+          "textEs": "Representing working-class women who entered the workforce during WWI",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Advocating for women's political rights through suffrage organizing",
+          "textEs": "Advocating for women's political rights through sufragio organizing",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Being primarily a middle-class phenomenon with no working-class equivalent",
+          "textEs": "Being primarily a middle-class phenomenon with no working-class equivalent",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Wearing shorter skirts, bobbing hair, and embracing public freedoms",
+          "textEs": "Wearing shorter skirts, bobbing hair, and embracing public freedoms",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice A refers to women's changing roles, not the historical point being tested; choice B refers to women's changing roles, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+      "explanationEs": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice A refers to women's changing roles, not the historical point being tested; choice B refers to women's changing roles, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.64,
+        "b": -1.2,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-34-x019",
+      "stem": "The Washington Naval Conference (1921-22) was significant as:",
+      "stemEs": "The Washington Naval Conference (1921-22) was significant as:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The agreement that established the League of Nations' naval oversight role",
+          "textEs": "The agreement that established the League of Nations' naval oversight role",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The first post-WWI conference to include Germany as an equal partner",
+          "textEs": "The first post-WWI conference to include Germany as an equal partner",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The agreement in which the United States first recognized the Soviet Union",
+          "textEs": "The agreement in which the United States first recognized the Soviet Union",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The first major international arms control agreement limiting naval armaments",
+          "textEs": "The first major international arms control agreement limiting naval armaments",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Washington Naval Conference produced the first major international agreement to limit battleship construction and reduce naval rivalry among the great powers. Choice A or D may mention diplomacy in general, but the specific achievement was arms limitation, not a full peace settlement. It showed that the United States still shaped world affairs even while avoiding the League of Nations.",
+      "explanationEs": "The Washington Naval Conference produced the first major international agreement to limit battleship construction and reduce naval rivalry among the great powers. Choice A or D may mention diplomacia in general, but the specific achievement was arms limitation, not a full peace settlement. It showed that the United States still shaped world affairs even while avoiding the League of Nations.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.56,
+        "b": -0.92,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-34-x020",
+      "stem": "The Dawes Plan (1924) addressed WWI reparations by:",
+      "stemEs": "The Dawes Plan (1924) addressed WWI reparations by:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Canceling German reparations entirely in exchange for German military disarmament guarantees",
+          "textEs": "Canceling German reparations entirely in exchange for German military disarmament guarantees",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Transferring German reparations payments directly to Belgium and France, bypassing German banks",
+          "textEs": "Transferring German reparations payments directly to Belgium and France, bypassing German banks",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Rescheduling German reparations payments and providing U.S. bank loans to stabilize the German economy",
+          "textEs": "Rescheduling German reparations payments and providing U.S. bank loans to stabilize the German economy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Canceling all of Germany's WWI debts unconditionally to allow immediate postwar economic recovery",
+          "textEs": "Canceling all of Germany's WWI debts unconditionally to allow immediate postwar economic recovery",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Dawes Plan eased the reparations crisis by rescheduling German payments and channeling U.S. loans into the German economy. Choice C would describe punishment, not the plan's purpose, and choice D points to a different diplomatic issue. The plan illustrates how American finance became deeply tied to European recovery in the 1920s.",
+      "explanationEs": "The Dawes Plan eased the reparations crisis by rescheduling German payments and channeling U.S. loans into the German economy. Choice C would describe punishment, not the plan's purpose, and choice D points to a different diplomatic issue. The plan illustrates how American finance became deeply tied to European recovery in the 1920s.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -1.17,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-30-x027",
+      "stem": "The 'New Woman' of the 1920s was symbolized by the flapper, who challenged Victorian norms by:",
+      "stemEs": "The 'New Woman' of the 1920s was symbolized by the flapper, who challenged Victorian norms by:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Demanding the right to vote and hold professional careers on equal terms with men",
+          "textEs": "Demanding the right to vote and hold professional careers on equal terms with men",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Adopting short hair, shorter skirts, and independent social behavior including drinking and dancing in public venues",
+          "textEs": "Adopting short hair, shorter skirts, and independent social behavior including drinking and dancing in public venues",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Organizing politically around issues of consumer rights and public health",
+          "textEs": "Organizing politically around issues of consumer rights and public health",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Entering the workforce in unprecedented numbers as secretaries and factory workers",
+          "textEs": "Entering the workforce in unprecedented numbers as secretaries and factory workers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to the automobile industry, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+      "explanationEs": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to the automobile industry, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -1.19,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-34-x018",
+      "stem": "The Kellogg-Briand Pact (1928) was an international agreement to:",
+      "stemEs": "The Kellogg-Briand Pact (1928) was an international agreement to:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Outlaw war as an instrument of national policy",
+          "textEs": "Outlaw war as an instrument of national policy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Establish collective security agreements against future aggression",
+          "textEs": "Establish collective security agreements against future aggression",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Forgive Germany's WWI reparations in exchange for peaceful behavior",
+          "textEs": "Forgive Germany's WWI reparations in exchange for peaceful behavior",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Limit naval armaments to prevent an arms race among the major powers",
+          "textEs": "Limit naval armaments to prevent an carrera armamentista among the major powers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Kellogg-Briand Pact of 1928 was an agreement in which nations renounced war as a tool of national policy. Choice D describes the Washington Naval Conference, and choice B sounds stronger than the pact actually was because Kellogg-Briand created no real enforcement system. Its failure later exposed the limits of idealistic diplomacy in the interwar years.",
+      "explanationEs": "The Kellogg-Briand Pact of 1928 was an agreement in which nations renounced war as a tool of national policy. Choice D describes the Washington Naval Conference, and choice B sounds stronger than the pact actually was because Kellogg-Briand created no real enforcement system. Its failure later exposed the limits of idealistic diplomacia in the interwar years.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.82,
+        "b": -0.56,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-30-x018",
+      "stem": "The 'New Woman' of the 1920s challenged traditional gender roles by:",
+      "stemEs": "The 'New Woman' of the 1920s challenged traditional gender roles by:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Entering politics in large numbers after winning the right to vote in 1920",
+          "textEs": "Entering politics in large numbers after winning the right to vote in 1920",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Demanding equal pay and professional advancement in male-dominated fields",
+          "textEs": "Demanding equal pay and professional advancement in male-dominated fields",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Embracing greater personal freedom in dress, social behavior, and romantic life",
+          "textEs": "Embracing greater personal freedom in dress, social behavior, and romantic life",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Entering initially politics in large numbers after winning the right to vote in 1920",
+          "textEs": "Entering initially politics in large numbers after winning the right to vote in 1920",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 'New Woman' represented women seeking higher education, paid work, political participation, and greater personal freedom after World War I and the 19th Amendment. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The term captured a broader social shift than the flapper image alone.",
+      "explanationEs": "The 'New Woman' represented women seeking higher education, paid work, political participation, and greater personal freedom after Primera Guerra Mundial and the 19th enmienda. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The term captured a broader social shift than the flapper image alone.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.59,
+        "b": 0.08,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok2-1",
+      "stem": "What limitations did women still face in the workforce during the 1920s?",
+      "stemEs": "¿Qué limitaciones aún enfrentaban las mujeres en la fuerza laboral durante los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Gave women the constitutional right to vote in all elections nationwide",
+          "textEs": "Las mujeres ganaban los mismos salarios que los hombres por trabajo comparable",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Provided new opportunities for economic independence and professional work",
+          "textEs": "Las mujeres estaban legalmente prohibidas de trabajar en todas las ocupaciones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Lower wages (60% of men), discrimination, pressure to quit upon marriage",
+          "textEs": "Salarios más bajos (60% del salario de hombres), discriminación, se esperaba dejar trabajo al casarse",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Young women who challenged traditional gender roles and social conventions",
+          "textEs": "Las mujeres solo podían trabajar en producción de fábrica y servicio doméstico",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Women's roles changed in the 1920s as more women pursued work, education, and public independence, even though old limits still shaped daily life. Choice D refers to women's changing roles, not the historical point being tested; choice A refers to women's changing roles, not the historical point being tested. Those tensions became a lasting part of debates over gender in modern America.",
+      "explanationEs": "A pesar de avances en participación laboral (25% para 1930), las mujeres enfrentaron salarios más bajos (aproximadamente 60% del salario de hombres), discriminación y presión social para dejar el trabajo al casarse.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.31,
+        "b": -0.49,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok2-2",
+      "stem": "What secondary industries grew because of the automobile?",
+      "stemEs": "¿Qué industrias secundarias crecieron debido al automóvil?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only the car manufacturing sector saw any significant economic growth",
+          "textEs": "Solo el sector de manufactura de autos vio crecimiento económico significativo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Oil, rubber, steel, glass, gas stations, motels, road construction",
+          "textEs": "Petróleo, caucho, acero, vidrio, gasolineras, moteles, construcción de carreteras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Agricultural production was the only industry positively impacted by cars",
+          "textEs": "La producción agrícola fue la única industria positivamente impactada por autos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "No other industries were significantly affected by automobile production",
+          "textEs": "Ninguna otra industria fue significativamente afectada por producción de automóviles",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The automobile industry boosted steel, rubber, glass, oil, road construction, and service businesses such as gas stations and motels. Choice D refers to the automobile industry, not the historical point being tested; choice A refers to the automobile industry, not the historical point being tested. Cars mattered not just as products but as engines for a much wider industrial economy.",
+      "explanationEs": "El automóvil creó crecimiento masivo en industrias relacionadas: refinación de petróleo, manufactura de caucho, producción de acero, fabricación de vidrio, gasolineras, moteles, restaurantes, construcción de carreteras y sistemas de autopistas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.5,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok2-2",
+      "stem": "How did the 19th Amendment (1920) change women's political participation?",
+      "stemEs": "¿Cómo cambió la 19ª Enmienda (1920) la participación política de las mujeres?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only allowed women to vote in local elections but not state or federal ones",
+          "textEs": "Solo permitió a las mujeres votar en elecciones locales pero no estatales o federales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Gave women the constitutional right to vote in all elections nationwide",
+          "textEs": "Dio a las mujeres el derecho constitucional a votar en todas las elecciones a nivel nacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Required women to register for military service in exchange for voting rights",
+          "textEs": "Requirió que las mujeres se registraran para servicio militar a cambio de derechos de voto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Banned women from holding political office despite granting them voting rights",
+          "textEs": "Prohibió a las mujeres ocupar cargos políticos a pesar de otorgarles derechos de voto",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 19th Amendment gave women the vote in 1920, expanding formal political participation even though many women, especially women of color in the South, still faced barriers. Choice A refers to women's changing roles, not the historical point being tested; choice D refers to women's changing roles, not the historical point being tested. Voting rights marked a major legal gain but not full equality in everyday life.",
+      "explanationEs": "La 19ª Enmienda otorgó a las mujeres el derecho a votar en todas las elecciones, culminando décadas de activismo sufragista. Cambió fundamentalmente la democracia estadounidense al expandir derechos de voto a la mitad de la población.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.61,
+        "b": -0.49,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok2-3",
+      "stem": "What was Margaret Sanger's contribution to women's rights in the 1920s?",
+      "stemEs": "¿Cuál fue la contribución de Margaret Sanger a los derechos de las mujeres en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Founded the flapper movement that emphasized fashion and social rebellion in youth",
+          "textEs": "Fundó el movimiento flapper que enfatizó moda y rebelión social en juventud",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Led the women's suffrage movement that achieved passage of the 19th Amendment",
+          "textEs": "Lideró el movimiento sufragista femenino que logró aprobación de la Enmienda 19",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Opposed women working outside the home and advocated for traditional family roles",
+          "textEs": "Se opuso a mujeres trabajando fuera del hogar y abogó por roles familiares tradicionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Advocated for birth control access and opened the first birth control clinic",
+          "textEs": "Abogó por acceso a control de natalidad y abrió la primera clínica de control de natalidad",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Margaret Sanger's birth-control activism helped women gain more control over family size, health, and the timing of work or education. Choice C points to women's changing roles, not the specific person, law, or event asked for; choice A points to women's changing roles, not the specific person, law, or event asked for. Access to contraception became an important part of the long struggle for women's autonomy.",
+      "explanationEs": "Margaret Sanger defendió el control de natalidad como esencial para independencia y salud femenina. Abrió la primera clínica de control de natalidad de Estados Unidos (1916) y fundó lo que se convirtió en Planned Parenthood, luchando contra leyes que prohibían información anticonceptiva.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 0.03,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok2-5",
+      "stem": "Why did Ford initially offer the Model T only in black?",
+      "stemEs": "¿Por qué Ford inicialmente ofreció el Modelo T solo en negro?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Encouraging the growth of suburbs and changing social patterns",
+          "textEs": "Negro era el color más barato disponible",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Black paint dried fastest, maximizing assembly line efficiency",
+          "textEs": "Pintura negra se secó más rápido, maximizando eficiencia de línea de ensamblaje",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Oil, rubber, steel, glass, gas stations, motels, road construction",
+          "textEs": "Regulaciones gubernamentales requerían autos negros",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Lower prices that made automobiles affordable for average Americans",
+          "textEs": "Clientes solo querían autos negros",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford first sold the Model T mainly in black because black paint dried quickly, which kept the moving assembly line running efficiently. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. That choice shows how mass production depended on standardization as much as invention.",
+      "explanationEs": "Ford dijo famosamente que los clientes podían tener \"cualquier color siempre que sea negro\" porque la pintura esmaltada negra se secó más rápido, manteniendo la línea de ensamblaje moviéndose eficientemente y reduciendo tiempo de producción.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.59,
+        "b": -0.5,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok2-4",
+      "stem": "How did World War I contribute to women's changing roles?",
+      "stemEs": "¿Cómo contribuyó la Primera Guerra Mundial a los roles cambiantes de las mujeres?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Women filled jobs left by soldiers, proving their workplace capabilities to society",
+          "textEs": "Las mujeres llenaron empleos dejados por soldados, probando sus capacidades laborales a la sociedad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Challenged gender norms but was limited to young, urban, middle-class white women",
+          "textEs": "La guerra reforzó roles domésticos tradicionales y empujó a mujeres de vuelta a hogares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Independent women pursuing higher education, professional careers, and personal freedom",
+          "textEs": "Mujeres fueron prohibidas de trabajo de guerra y restringidas a deberes voluntarios de enfermería",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Young women who challenged traditional gender norms through dress and behavior",
+          "textEs": "La guerra no tuvo impacto medible en derechos de las mujeres o su posición social",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Women's roles changed in the 1920s as more women pursued work, education, and public independence, even though old limits still shaped daily life. Choice B refers to women's changing roles, not the historical point being tested; choice D refers to women's changing roles, not the historical point being tested. Those tensions became a lasting part of debates over gender in modern America.",
+      "explanationEs": "Durante la Primera Guerra Mundial, las mujeres trabajaron en fábricas, condujeron ambulancias y sirvieron como enfermeras. Esto demostró sus capacidades más allá de roles domésticos, contribuyendo al éxito del sufragio (1920) y cambios sociales de los años 1920.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.33,
+        "b": 0.25,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok2-193",
+      "stem": "The availability of birth control during the 1920s was significant because it:",
+      "stemEs": "La disponibilidad de control de natalidad durante los años 1920 fue significativa porque:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Women were judged more harshly than men for the same social behaviors",
+          "textEs": "Fue universalmente aceptada por todos los grupos religiosos y sociales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Gave women the constitutional right to vote in all elections nationwide",
+          "textEs": "Solo estaba disponible para mujeres casadas con permiso de sus esposos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Lower wages (60% of men), discrimination, pressure to quit upon marriage",
+          "textEs": "Fue ilegal en todos los estados durante toda la década",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Gave women more control over family planning and reproductive choices",
+          "textEs": "Dio a las mujeres más control sobre planificación familiar y decisiones reproductivas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Margaret Sanger's birth-control activism helped women gain more control over family size, health, and the timing of work or education. Choice B refers to women's changing roles, not the historical point being tested; choice A refers to women's changing roles, not the historical point being tested. Access to contraception became an important part of the long struggle for women's autonomy.",
+      "explanationEs": "El control de natalidad, defendido por Margaret Sanger, dio a las mujeres más control sobre planificación familiar y decisiones reproductivas. Esto permitió a las mujeres mayor independencia en buscar educación, carreras y metas personales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.34,
+        "b": 0.54,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok2-194",
+      "stem": "The expansion of clerical and office jobs for women during the 1920s:",
+      "stemEs": "La expansión de trabajos de oficina y administrativos para mujeres durante los años 1920:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Young women who challenged traditional gender roles and social conventions",
+          "textEs": "Se limitó a mujeres de familias ricas con educación universitaria",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Provided new opportunities for economic independence and professional work",
+          "textEs": "Proporcionó nuevas oportunidades de independencia económica y trabajo profesional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Advocated for birth control access and opened the first birth control clinic",
+          "textEs": "Ofreció los mismos salarios y oportunidades de avance que recibían los hombres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Lower wages (60% of men), discrimination, pressure to quit upon marriage",
+          "textEs": "Fue temporal y desapareció completamente al final de la década",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Clerical and office jobs expanded in the 1920s, giving many women wages and a degree of independence, though they still faced lower pay and marriage bars. Choice A refers to women's changing roles, not the historical point being tested; choice C refers to women's changing roles, not the historical point being tested. The growth of white-collar work changed expectations about what kinds of jobs women could hold.",
+      "explanationEs": "El crecimiento de trabajos administrativos, de comercio minorista y de oficina proporcionó a las mujeres nuevas oportunidades de independencia económica. Para 1930, aproximadamente el 25% de las mujeres trabajaban fuera del hogar, aunque aún enfrentaban discriminación salarial.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.99,
+        "b": -0.34,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-34-q02",
+      "stem": "The availability of birth control in the 1920s affected women by:",
+      "stemEs": "The availability of birth control in the 1920s affected women by:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reducing women's reproductive autonomy by requiring physician approval for family planning",
+          "textEs": "Reducing women's reproductive autonomy by requiring physician approval for family planning",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Enabling women greater control over family planning and reproductive choices through accessible contraception",
+          "textEs": "Enabling women greater control over family planning and reproductive choices through accessible contraception",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eliminating all existing family planning options previously available to middle-class women",
+          "textEs": "Eliminating all existing family planning options previously available to middle-class women",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Having no meaningful impact on women's lives, decisions, or family size in the 1920s",
+          "textEs": "Having no meaningful impact on women's lives, decisions, or family size in the 1920s",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Margaret Sanger's birth-control activism helped women gain more control over family size, health, and the timing of work or education. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to women's changing roles, not the historical point being tested. Access to contraception became an important part of the long struggle for women's autonomy.",
+      "explanationEs": "Margaret Sanger's birth-control activism helped women gain more control over family size, health, and the timing of work or education. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to women's changing roles, not the historical point being tested. Access to contraception became an important part of the long struggle for women's autonomy.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.18,
+        "b": 0.29,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-34-q03",
+      "stem": "Women's entry into clerical and office jobs during the 1920s resulted in:",
+      "stemEs": "Women's entry into clerical and office jobs during the 1920s resultó en:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Increased economic independence and new professional opportunities",
+          "textEs": "Increased economic independence and new professional opportunities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The rapid elimination of all other job categories as clerical work displaced domestic service entirely",
+          "textEs": "The rapid elimination of all other job categories as clerical work displaced domestic service entirely",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A measurable decrease in overall female workforce participation as office work replaced factory employment",
+          "textEs": "A measurable decrease in overall female workforce participation as office work replaced factory employment",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Significantly decreased long-term economic opportunities as clerical wages remained well below male equivalents",
+          "textEs": "Significantly decreased long-term economic opportunities as clerical wages remained well below male equivalents",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Clerical and office jobs expanded in the 1920s, giving many women wages and a degree of independence, though they still faced lower pay and marriage bars. Choice D refers to women's changing roles, not the historical point being tested; choice B refers to women's changing roles, not the historical point being tested. The growth of white-collar work changed expectations about what kinds of jobs women could hold.",
+      "explanationEs": "Clerical and office jobs expanded in the 1920s, giving many women wages and a degree of independence, though they still faced lower pay and marriage bars. Choice D refers to women's changing roles, not the historical point being tested; choice B refers to women's changing roles, not the historical point being tested. The growth of white-collar work changed expectations about what kinds of jobs women could hold.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.78,
+        "b": -0.22,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-30-x026",
+      "stem": "Advertising in the 1920s created consumer demand by:",
+      "stemEs": "Advertising in the 1920s created consumer demand by:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Using scientific research to match products with consumers' practical needs",
+          "textEs": "Using scientific research to match products with consumers' practical needs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Informing consumers about the specific features and benefits of competing products",
+          "textEs": "Informing consumers about the specific features and benefits of competing products",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Directing appeals to women who made most household purchasing decisions",
+          "textEs": "Directing appeals to women who made most household purchasing decisions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Associating products with lifestyle aspirations, social status, and personal identity",
+          "textEs": "Associating products with lifestyle aspirations, social status, and personal identity",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Advertising in the 1920s increasingly used psychology, aspiration, and celebrity appeal to persuade people to buy products they did not strictly need. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. That shift helped build the consumer culture that defined the decade.",
+      "explanationEs": "Advertising in the 1920s increasingly used psychology, aspiration, and celebrity appeal to persuade people to buy products they did not strictly need. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. That shift helped build the consumer culture that defined the decade.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.02,
+        "b": 0.25,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok3-2",
+      "stem": "How did automobile ownership change American settlement patterns?",
+      "stemEs": "¿Cómo cambió la propiedad de automóviles los patrones de asentamiento estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Had no significant impact on where people chose to live or build their homes",
+          "textEs": "No tuvo impacto significativo en dónde la gente eligió vivir o construir sus hogares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Forced everyone to move to crowded city centers closer to their factory workplaces",
+          "textEs": "Obligó a todos a mudarse a centros urbanos llenos más cerca de sus lugares de trabajo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Enabled suburban living by eliminating dependence on urban public transit systems",
+          "textEs": "Permitió vida suburbana al eliminar dependencia de sistemas de tránsito público urbano",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Only affected rural agricultural areas and had no influence on urban development",
+          "textEs": "Solo afectó áreas agrícolas rurales y no tuvo influencia en desarrollo urbano",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Automobiles changed family life by making trips, dating, tourism, and suburban living easier and by reducing dependence on fixed rail and streetcar lines. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. Car ownership reshaped where Americans lived, worked, and spent their free time.",
+      "explanationEs": "Los autos liberaron a trabajadores de vivir cerca de líneas de tranvía o distancia caminable a empleos. Esto permitió desarrollo suburbano, ya que familias podían viajar desde hogares fuera de centros urbanos llenos, remodelando fundamentalmente ciudades estadounidenses.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.01,
+        "b": 1.48,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok1-4",
+      "stem": "What was the \"double standard\" regarding women's behavior in the 1920s?",
+      "stemEs": "¿Qué fue el \"doble estándar\" respecto al comportamiento femenino en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Women were judged more harshly than men for the same social behaviors",
+          "textEs": "Las mujeres fueron juzgadas más duramente que los hombres por los mismos comportamientos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Women and men were treated equally in all aspects of social life",
+          "textEs": "Mujeres y hombres fueron tratados igualmente en todos los aspectos de vida social",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Men faced stricter social rules than women regarding personal conduct",
+          "textEs": "Hombres enfrentaron reglas sociales más estrictas que mujeres respecto a conducta personal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "No behavioral expectations existed for either gender during this period",
+          "textEs": "No existieron expectativas de comportamiento para ningún género durante este período",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The double standard meant women were judged more harshly than men for the same behavior, especially drinking, smoking, dating, and sexual choices. Choice C points to women's changing roles, not the specific person, law, or event asked for; choice B points to women's changing roles, not the specific person, law, or event asked for. That gap shows that cultural change in the 1920s did not end gender inequality.",
+      "explanationEs": "A pesar de la libertad de las flappers, la sociedad juzgó a las mujeres más duramente que a los hombres por beber, fumar o comportamiento sexual. Las mujeres enfrentaron consecuencias sociales que los hombres no, reflejando desigualdad de género continua.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.88,
+        "b": -0.62,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-34-q01",
+      "stem": "Flappers in the 1920s were significant because they:",
+      "stemEs": "Flappers in the 1920s were significant because they:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Had no cultural influence on American society",
+          "textEs": "Had no cultural influence on American society",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Represented traditional women's roles exclusively",
+          "textEs": "Represented traditional women's roles exclusively",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Challenged conventional gender norms through fashion, behavior",
+          "textEs": "Challenged conventional gender norms through fashion, behavior",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Supported strict adherence to Victorian values",
+          "textEs": "Supported strict adherence to Victorian values",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to women's changing roles, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+      "explanationEs": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to women's changing roles, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.43,
+        "b": -1,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us34-dok3-185",
+      "stem": "Analyze the economic impact of the automobile industry on other sectors:",
+      "stemEs": "Analiza el impacto económico de la industria automotriz en otros sectores:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It stimulated growth in steel, rubber, glass, and petroleum industries",
+          "textEs": "Estimuló crecimiento en industrias de acero, caucho, vidrio y petróleo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Enabled family road trips, vacations, and visits to distant relatives",
+          "textEs": "La industria automotriz no tuvo efecto en otros sectores económicos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Lower prices that made automobiles affordable for average Americans",
+          "textEs": "Causó el declive de todas las otras industrias manufactureras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Oil, rubber, steel, glass, gas stations, motels, road construction",
+          "textEs": "Solo afectó transporte y no tuvo impacto económico más amplio",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The automobile industry boosted steel, rubber, glass, oil, road construction, and service businesses such as gas stations and motels. Choice D mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice B mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question. Cars mattered not just as products but as engines for a much wider industrial economy.",
+      "explanationEs": "La industria automotriz creó crecimiento masivo en sectores relacionados: acero para carrocerías, caucho para llantas, vidrio para ventanas, petróleo para combustible, y nuevas industrias como gasolineras, moteles y construcción de carreteras.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.26,
+        "b": 1.08,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-34-x024",
+      "stem": "Critics argued the NIRA's industry codes were problematic because:",
+      "stemEs": "Critics argued the NIRA's industry codes were problematic because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They allowed industries to set prices and production levels that functioned like legal cartels",
+          "textEs": "They allowed industries to set prices and production levels that functioned like legal cartels",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Growth of consumer culture driven by advertising and credit",
+          "textEs": "Growth of consumer culture driven by advertising and credit",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They required businesses to pay wages that were too low to provide workers a living income",
+          "textEs": "They required businesses to pay wages that were too low to provide workers a living income",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They created regulations that small businesses could not comply with, favoring large corporations",
+          "textEs": "They created regulations that small businesses could not comply with, favoring large corporations",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Critics said NIRA codes could act like legal cartels and also favored larger firms that could handle complex regulations more easily than small businesses. Choice A gives one major criticism, and choice D gives another, so the combined answer fits better than either one alone. The debate showed how hard it was for the New Deal to regulate industry without creating new problems.",
+      "explanationEs": "Critics said NIRA codes could act like legal cartels and also favored larger firms that could handle complex regulations more easily than small businesses. Choice A gives one major criticism, and choice D gives another, so the combined answer fits better than either one alone. The debate showed how hard it was for the New Deal to regulate industry without creating new problems.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.27,
+        "b": 0.4,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PSTIM-0062",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows Louise Brooks, an icon of 1920s flapper culture.\n\n(Photograph, c. 1927. Library of Congress.)\n\nHow did the cultural changes represented by figures like the one in this photograph reflect broader transformations in American society during the 1920s?",
+      "stemEs": "¿Cómo reflejaron los cambios culturales representados por esta figura las transformaciones más amplias en la sociedad estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cultural changes were limited to wealthy urban elites and had no impact on most Americans",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "American society became more conservative as traditional values strengthened during the decade",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Urbanization, mass media, and economic prosperity enabled new forms of personal expression that clashed with traditional rural values",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The changes were entirely caused by the passage of the 19th Amendment and had no economic roots",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The flapper era emerged from broader shifts: urbanization, rising incomes, new mass media (radio, movies), and the 19th Amendment. These changes enabled women's expanded freedom but also provoked backlash from traditionalists, contributing to culture wars between urban modernism and rural conservatism.",
+      "explanationEs": "La era flapper surgió de cambios más amplios: urbanización, medios masivos y prosperidad económica.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok3-1",
+      "stem": "What contradictions existed in women's progress during the 1920s?",
+      "stemEs": "¿Qué contradicciones existieron en el progreso de las mujeres durante los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They provided education and training that supported women's expanded social and economic roles",
+          "textEs": "No experimentaron cambios significativos en su posición social, política o económica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Independent women pursuing higher education, professional careers, and personal freedom",
+          "textEs": "Lograron igualdad completa en todas las áreas de vida profesional y personal a nivel nacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Women filled jobs left by soldiers, proving their workplace capabilities to society",
+          "textEs": "Perdieron todos los derechos que habían ganado a través de décadas de activismo sufragista",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Gained voting rights and cultural freedom but faced wage discrimination and limited careers",
+          "textEs": "Ganaron derechos de voto y libertad cultural pero enfrentaron discriminación salarial y carreras limitadas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Women made real gains in voting, education, fashion, and paid work during the 1920s, but wage discrimination, limited careers, and traditional expectations remained strong. Choice B refers to the automobile industry, not the historical point being tested; choice A refers to women's changing roles, not the historical point being tested. The decade was a turning point, but not a complete revolution in gender equality.",
+      "explanationEs": "Mientras las mujeres ganaron el voto y libertades culturales (flappers, carreras), aún enfrentaron barreras significativas: salarios más bajos, trayectorias profesionales limitadas, presión para dejar trabajo al casarse y exclusión de muchas profesiones.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.06,
+        "b": 0.75,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok3-2",
+      "stem": "How did the flapper movement both advance and limit women's liberation?",
+      "stemEs": "¿Cómo avanzó y limitó el movimiento flapper la liberación de las mujeres?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Women filled jobs left by soldiers, proving their workplace capabilities to society",
+          "textEs": "Solo afectó a mujeres viviendo en áreas rurales y no tuvo influencia cultural urbana",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Young women who challenged traditional gender norms through dress and behavior",
+          "textEs": "Logró igualdad completa y duradera para todas las mujeres sin importar clase o raza",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Challenged gender norms but was limited to young, urban, middle-class white women",
+          "textEs": "Desafió normas de género pero se limitó a mujeres jóvenes, urbanas, blancas de clase media",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Advocated for birth control access and opened the first birth control clinic",
+          "textEs": "No tuvo impacto real en derechos de las mujeres o expectativas cambiantes sobre roles de género",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Flappers were young women who wore shorter skirts, bobbed hair, and embraced dancing, smoking, and public independence in ways that challenged older Victorian norms. Choice B refers to women's changing roles, not the historical point being tested; choice A refers to women's changing roles, not the historical point being tested. The flapper became a symbol of the decade's wider argument over women's freedom and modern culture.",
+      "explanationEs": "Mientras las flappers desafiaron convenciones victorianas y reclamaron libertad personal, el movimiento se limitó en gran medida a mujeres jóvenes blancas privilegiadas. La mayoría de mujeres aún enfrentaron discriminación económica y expectativas tradicionales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.55,
+        "b": 1.46,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us36-dok3-195",
+      "stem": "Analyze the relationship between women's colleges and changing gender roles in the 1920s:",
+      "stemEs": "Analiza la relación entre universidades para mujeres y los cambios en roles de género en los años 1920:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They provided education and training that supported women's expanded social and economic roles",
+          "textEs": "Proporcionaron educación y entrenamiento que apoyaron los roles sociales y económicos expandidos de las mujeres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Gained voting rights and cultural freedom but faced wage discrimination and limited careers",
+          "textEs": "Prepararon a las mujeres solo para roles domésticos tradicionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Independent women pursuing higher education, professional careers, and personal freedom",
+          "textEs": "Las universidades para mujeres no tuvieron impacto en cambios sociales más amplios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Women filled jobs left by soldiers, proving their workplace capabilities to society",
+          "textEs": "Fueron establecidas para prevenir que las mujeres entraran a la fuerza laboral",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The growth of women's colleges and female enrollment in higher education showed that more Americans accepted advanced education as part of women's public role. Choice C refers to the automobile industry, not the historical point being tested; choice D refers to women's changing roles, not the historical point being tested. Education helped prepare women for larger roles in professions, reform, and politics.",
+      "explanationEs": "Las universidades para mujeres proporcionaron educación superior que preparó a las mujeres para carreras en enseñanza, enfermería, trabajo social y otras profesiones. Las mujeres con educación universitaria a menudo se convirtieron en líderes en movimientos de reforma social y desafiaron expectativas de género tradicionales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.03,
+        "b": 1.74,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-34-q07",
+      "stem": "The rise of women's colleges in the 1920s demonstrated that:",
+      "stemEs": "The rise of women's colleges in the 1920s demonstrated that:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Higher education had no value for women",
+          "textEs": "Higher education had no value for women",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "American society was providing increased educational opportunities",
+          "textEs": "American society was providing increased educational opportunities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Women's education was considered less important than men's",
+          "textEs": "Women's education was considered less important than men's",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Women were becoming less educated",
+          "textEs": "Women were becoming less educated",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The growth of women's colleges and female enrollment in higher education showed that more Americans accepted advanced education as part of women's public role. Choice A refers to women's changing roles, not the historical point being tested; choice C refers to women's changing roles, not the historical point being tested. Education helped prepare women for larger roles in professions, reform, and politics.",
+      "explanationEs": "The growth of women's colleges and female enrollment in higher education showed that more Americans accepted advanced education as part of women's public role. Choice A refers to women's changing roles, not the historical point being tested; choice C refers to women's changing roles, not the historical point being tested. Education helped prepare women for larger roles in professions, reform, and politics.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.89,
+        "b": 1.04,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-34-q10",
+      "stem": "The long-term significance of changes in women's status during the 1920s was that they:",
+      "stemEs": "The long-term significance of changes in women's status during the 1920s was that they:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "largely eliminated all gender discrimination",
+          "textEs": "largely eliminated all gender discriminación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Had minimal lasting impact on women's status or opportunities",
+          "textEs": "Had minimal lasting impact on women's status or opportunities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Established the foundation for ongoing women's rights movements and continued",
+          "textEs": "Established the foundation for ongoing women's rights movements and continued",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Proved that gender equality was impossible in America",
+          "textEs": "Proved that gender igualdad was impossible in America",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Women's roles changed in the 1920s as more women pursued work, education, and public independence, even though old limits still shaped daily life. Choice D mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Those tensions became a lasting part of debates over gender in modern America.",
+      "explanationEs": "Women's roles changed in the 1920s as more women pursued work, education, and public independence, even though old limits still shaped daily life. Choice D mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Those tensions became a lasting part of debates over gender in modern America.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.36,
+        "b": 1.6,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-031",
+      "stem": "During the 1920s, the flapper became an iconic symbol of changing gender roles. Flappers cut their hair short, wore short dresses, smoked in public, and rejected Victorian standards of female modesty. Yet the flapper phenomenon was largely limited to urban, middle-class white women and had little immediate effect on the lives of working-class women, immigrant women, or African American women. What does this limitation reveal about the nature of 1920s gender change?",
+      "stemEs": "Durante la década de 1920, la flapper se convirtió en un símbolo icónico del cambio de roles de género. Las flappers se cortaban el cabello corto, usaban vestidos cortos, fumaban en público y rechazaban los estándares victorianos de modestia femenina. Sin embargo, el fenómeno de las flappers estaba en gran medida limitado a mujeres blancas urbanas de clase media y tuvo poco efecto inmediato en las vidas de las mujeres de clase trabajadora, las mujeres inmigrantes o las mujeres afroamericanas. ¿Qué revela esta limitación sobre la naturaleza del cambio de género en la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Gender liberation in the 1920s was filtered through race and class privilege, remaining inaccessible to women who lacked economic security and social mobility.",
+          "textEs": "La liberación de género en la década de 1920 estaba filtrada a través del privilegio racial y de clase, permaneciendo inaccesible para las mujeres que carecían de seguridad económica y movilidad social.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The flapper was primarily a commercial image created by advertisers, with no real connection to changes in women's actual social behavior.",
+          "textEs": "La flapper era principalmente una imagen comercial creada por anunciantes, sin conexión real con los cambios en el comportamiento social real de las mujeres.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Working-class and African American women achieved full legal equality in the 1920s, making the flapper image irrelevant to their daily lives.",
+          "textEs": "Las mujeres de clase trabajadora y afroamericanas lograron plena igualdad legal en la década de 1920, haciendo que la imagen de la flapper fuera irrelevante para sus vidas cotidianas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Women across all races and classes rejected the flapper image as incompatible with their cultural values and family responsibilities.",
+          "textEs": "Las mujeres de todas las razas y clases rechazaron la imagen de la flapper por ser incompatible con sus valores culturales y responsabilidades familiares.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The flapper's demographic limitations reveal that visible social change in gender norms was filtered through race and class privilege — women without economic security, social mobility, or access to leisure culture could not participate in or benefit from this symbolic liberation. A correctly identifies this intersectional limitation. B misrepresents the flapper as purely commercial, ignoring genuine social shifts in women's self-presentation. C makes a false claim about legal rights in this era. D is too generalized and ignores the real demographic exclusions the question specifically identifies.",
+      "explanationEs": "Las limitaciones demográficas de la flapper revelan que el cambio social visible en las normas de género estaba filtrado a través del privilegio racial y de clase: las mujeres sin seguridad económica, movilidad social o acceso a la cultura de ocio no podían participar en esta liberación simbólica ni beneficiarse de ella. A identifica correctamente esta limitación interseccional. B malinterpreta la flapper como puramente comercial, ignorando cambios sociales genuinos en la autopresentación de las mujeres. C hace una afirmación falsa sobre los derechos legales en esta era. D es demasiado generalizado e ignora las exclusiones demográficas reales que la pregunta identifica específicamente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.89,
+        "b": 1.22,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-032",
+      "stem": "In the 1920s, the number of women in clerical and office jobs grew dramatically, and the number of women attending women's colleges also increased. At the same time, women who worked were frequently paid less than men for equivalent work, and professional advancement beyond clerical roles remained extremely limited. What conclusion does this evidence support about women's economic status in the 1920s?",
+      "stemEs": "En la década de 1920, el número de mujeres en empleos administrativos y de oficina creció dramáticamente, y el número de mujeres que asistían a colegios femeninos también aumentó. Al mismo tiempo, las mujeres que trabajaban frecuentemente recibían menos paga que los hombres por trabajo equivalente, y el avance profesional más allá de los roles administrativos permanecía extremadamente limitado. ¿Qué conclusión apoya esta evidencia sobre el estatus económico de las mujeres en la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Women achieved full economic equality in the 1920s because their workforce participation and educational enrollment increased substantially.",
+          "textEs": "Las mujeres lograron plena igualdad económica en la década de 1920 porque su participación en la fuerza laboral y la matriculación educativa aumentaron sustancialmente.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Women's economic status did not improve at all during the 1920s because discriminatory wages and limited advancement prevented any meaningful change.",
+          "textEs": "El estatus económico de las mujeres no mejoró en absoluto durante la década de 1920 porque los salarios discriminatorios y el avance limitado impidieron cualquier cambio significativo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Women made meaningful gains in workforce participation and education while structural inequalities in pay and professional advancement persisted, creating a pattern of advancement within continued constraint.",
+          "textEs": "Las mujeres hicieron avances significativos en la participación en la fuerza laboral y la educación mientras persistían las desigualdades estructurales en los salarios y el avance profesional, creando un patrón de avance dentro de la restricción continua.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Working women in the 1920s were satisfied with their economic status because clerical jobs offered more independence than factory or domestic service work.",
+          "textEs": "Las mujeres trabajadoras en la década de 1920 estaban satisfechas con su estatus económico porque los empleos administrativos ofrecían más independencia que el trabajo fabril o de servicio doméstico.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The evidence presents a pattern of simultaneous advancement and continued limitation: women entered the workforce and higher education in greater numbers, but structural inequalities in pay and advancement persisted. C correctly synthesizes both the gains and persistent structural barriers as the defining characteristic of women's economic status. A ignores the real gains documented. B ignores the real limitations documented. D makes a claim about consciousness (satisfaction/dissatisfaction) that goes beyond what the evidence establishes.",
+      "explanationEs": "La evidencia presenta un patrón de avance simultáneo y limitación continua: las mujeres entraron a la fuerza laboral y la educación superior en mayor número, pero persistieron las desigualdades estructurales en salarios y avance. C sintetiza correctamente tanto los logros como las barreras estructurales persistentes como la característica definitoria del estatus económico de las mujeres. A ignora los logros reales documentados. B ignora las limitaciones reales documentadas. D hace una afirmación sobre la conciencia (satisfacción/insatisfacción) que va más allá de lo que establece la evidencia.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.81,
+        "b": 1.03,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-033",
+      "stem": "Margaret Sanger founded the American Birth Control League in the 1920s and advocated for women's access to contraception. Her arguments drew both on women's liberation — claiming that reproductive autonomy was essential to women's freedom — and on eugenics, linking birth control to controlling the reproduction of populations she deemed \"unfit.\" What does this dual foundation reveal about Progressive Era and 1920s reform movements more broadly?",
+      "stemEs": "Margaret Sanger fundó la Liga Americana de Control de la Natalidad en la década de 1920 y abogó por el acceso de las mujeres a la anticoncepción. Sus argumentos se basaban tanto en la liberación de la mujer — afirmando que la autonomía reproductiva era esencial para la libertad de las mujeres — como en la eugenesia, vinculando el control de la natalidad con el control de la reproducción de poblaciones que consideraba 'no aptas'. ¿Qué revela esta base dual sobre los movimientos de reforma de la Era Progresista y la década de 1920 en general?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reform movements of the 1920s were either purely liberatory or purely oppressive, and any figure who held both perspectives was being dishonest about their true goals.",
+          "textEs": "Los movimientos de reforma de la década de 1920 eran o puramente liberadores o puramente opresivos, y cualquier figura que tuviera ambas perspectivas era deshonesta sobre sus verdaderos objetivos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Sanger's eugenics arguments were purely tactical, used only to gain political support while her true motivation was exclusively women's liberation.",
+          "textEs": "Los argumentos eugenésicos de Sanger eran puramente tácticos, usados solo para ganar apoyo político mientras su verdadera motivación era exclusivamente la liberación de las mujeres.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Reform advocates in the 1920s routinely combined contradictory ideologies purely for political pragmatism, without actually believing in either set of principles.",
+          "textEs": "Los defensores de la reforma en la década de 1920 combinaban rutinariamente ideologías contradictorias puramente por pragmatismo político, sin creer realmente en ninguno de los conjuntos de principios.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Reform movements of the 1920s often combined genuinely liberatory goals with racist ideological frameworks, revealing that social reform claims could simultaneously advance rights for some while reinforcing hierarchy for others.",
+          "textEs": "Los movimientos de reforma de la década de 1920 a menudo combinaban objetivos genuinamente liberadores con marcos ideológicos racistas, revelando que las afirmaciones de reforma social podían simultáneamente hacer avanzar los derechos de algunos mientras reforzaban la jerarquía para otros.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Sanger's work illustrates that Progressive-era and 1920s reform movements frequently blended genuinely liberatory goals with racist and eugenicist frameworks — revealing that 'reform' is not inherently progressive and that social improvement claims were often built on assumptions of racial hierarchy. D correctly identifies this ideological complexity. A presents a false dichotomy suggesting reformers were either pure or wholly corrupt. B conflates motivation with outcome; Sanger did seek reproductive rights alongside eugenics. C is too shallow — this was not mere political pragmatism but a deeply held ideological position.",
+      "explanationEs": "El trabajo de Sanger ilustra que los movimientos de reforma de la era progresista y la década de 1920 frecuentemente mezclaban objetivos genuinamente liberadores con marcos racistas y eugenésicos, revelando que la 'reforma' no es inherentemente progresiva y que las afirmaciones de mejora social a menudo se construían sobre suposiciones de jerarquía racial. D identifica correctamente esta complejidad ideológica. A presenta una falsa dicotomía que sugiere que los reformadores eran o puros o completamente corruptos. B conflate motivación con resultado; Sanger buscaba derechos reproductivos junto con la eugenesia. C es demasiado superficial: esto no era mero pragmatismo político sino una posición ideológica profundamente arraigada.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.47,
+        "b": 1.4,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-054",
+      "stem": "In the 1920s, advertising transformed from informational descriptions of products into psychological persuasion campaigns that sold lifestyles, social status, and identity. Advertisers worked with psychologists to understand what desires, fears, and aspirations consumers could be made to associate with products. What does this shift in advertising approach reveal about the relationship between consumer capitalism and personal identity in the 1920s?",
+      "stemEs": "En la década de 1920, la publicidad se transformó de descripciones informativas de productos en campañas de persuasión psicológica que vendían estilos de vida, estatus social e identidad. Los anunciantes trabajaban con psicólogos para entender qué deseos, miedos y aspiraciones podían hacer que los consumidores asociaran con los productos. ¿Qué revela este cambio en el enfoque publicitario sobre la relación entre el capitalismo de consumo y la identidad personal en la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Advertisers were dishonest manipulators who tricked Americans into buying products they neither needed nor wanted, exploiting psychological vulnerabilities for profit.",
+          "textEs": "Los anunciantes eran manipuladores deshonestos que engañaban a los estadounidenses para que compraran productos que ni necesitaban ni querían, explotando vulnerabilidades psicológicas por lucro.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Consumer capitalism transformed personal identity itself — self-expression and social status became increasingly defined through consumption patterns, reshaping what it meant to be an American.",
+          "textEs": "El capitalismo de consumo transformó la identidad personal misma: la autoexpresión y el estatus social se definieron cada vez más a través de los patrones de consumo, redefiniendo lo que significaba ser estadounidense.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Most Americans recognized psychological advertising as manipulative and resisted its influence by making purchasing decisions based purely on rational economic calculation.",
+          "textEs": "La mayoría de los estadounidenses reconocieron la publicidad psicológica como manipuladora y resistieron su influencia tomando decisiones de compra basadas puramente en el cálculo económico racional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Psychological advertising was illegal under existing consumer protection laws and was quickly banned by the Federal Trade Commission before it could substantially influence purchasing behavior.",
+          "textEs": "La publicidad psicológica era ilegal bajo las leyes de protección al consumidor existentes y fue rápidamente prohibida por la Comisión Federal de Comercio antes de que pudiera influir sustancialmente en el comportamiento de compra.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The shift to psychological advertising reflects the emergence of consumer identity — the idea that who you are is expressed through what you buy. This represents a transformation in American culture where personal identity and social status became increasingly defined by consumption patterns rather than by work, community, or moral character. B captures this cultural transformation. A reduces the advertising shift to manipulation without addressing the deeper identity question. C makes an implausible empirical claim about consumer resistance. D conflates advertising's method (psychology) with a claim about its deceptive intent.",
+      "explanationEs": "El cambio hacia la publicidad psicológica refleja la emergencia de la identidad consumidora: la idea de que quién eres se expresa a través de lo que compras. Esto representa una transformación en la cultura estadounidense donde la identidad personal y el estatus social se definieron cada vez más por los patrones de consumo en lugar de por el trabajo, la comunidad o el carácter moral. B captura esta transformación cultural. A reduce el cambio publicitario a la manipulación sin abordar la pregunta más profunda de la identidad. C hace una afirmación empírica implausible sobre la resistencia del consumidor. D conflate el método de la publicidad (psicología) con una afirmación sobre su intención engañosa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.27,
+        "b": 1.31,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u4-059",
+      "stem": "Women gained the right to vote through the 19th Amendment in 1920, yet women's voting patterns in the 1920s largely followed those of their husbands and fathers, and women did not emerge as a distinct political bloc that transformed American politics. Some historians argue this outcome represented a failure of the suffrage movement. Others argue it reflected the complexity of political identity. Which reasoning best evaluates these competing interpretations?",
+      "stemEs": "Las mujeres obtuvieron el derecho al voto a través de la 19ª Enmienda en 1920, sin embargo, los patrones de voto de las mujeres en la década de 1920 seguían en gran medida los de sus esposos y padres, y las mujeres no emergieron como un bloque político distinto que transformara la política estadounidense. Algunos historiadores argumentan que este resultado representó un fracaso del movimiento sufragista. Otros argumentan que reflejó la complejidad de la identidad política. ¿Qué razonamiento evalúa mejor estas interpretaciones en competencia?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The 'failure' interpretation is entirely correct: the suffrage movement failed because women did not vote distinctly from men, demonstrating that suffrage had no meaningful impact on American politics.",
+          "textEs": "La interpretación del 'fracaso' es completamente correcta: el movimiento sufragista fracasó porque las mujeres no votaban de manera distinta a los hombres, demostrando que el sufragio no tuvo ningún impacto significativo en la política estadounidense.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The 'complexity' interpretation is entirely correct: women's suffrage immediately transformed American politics, and historians who see it as a failure are simply wrong about the historical record.",
+          "textEs": "La interpretación de la 'complejidad' es completamente correcta: el sufragio femenino transformó inmediatamente la política estadounidense, y los historiadores que lo ven como un fracaso simplemente están equivocados sobre el registro histórico.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The 'failure' interpretation applies an unrealistic standard — suffrage guaranteed the right to vote, not the guarantee of a distinct political bloc; women's political choices reflected their actual social contexts rather than proving an absence of meaningful change.",
+          "textEs": "La interpretación del 'fracaso' aplica un estándar irreal: el sufragio garantizaba el derecho a votar, no la garantía de un bloque político distinto; las elecciones políticas de las mujeres reflejaban sus contextos sociales reales en lugar de demostrar una ausencia de cambio significativo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both interpretations are equally invalid because women did not actually vote in the 1920s — widespread disenfranchisement prevented meaningful female participation in elections despite the 19th Amendment.",
+          "textEs": "Ambas interpretaciones son igualmente inválidas porque las mujeres en realidad no votaron en la década de 1920: la privación generalizada del voto impidió una participación femenina significativa en las elecciones a pesar de la 19ª Enmienda.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Evaluating these interpretations requires considering what the suffrage movement actually promised: the right to vote, not necessarily a guaranteed transformation in women's political autonomy. Voting patterns reflecting family social networks do not necessarily represent failure but may reflect women's actual preferences given their social context. The 'failure' interpretation assumes women's votes should have been distinct from men's, which reflects a particular political expectation rather than a universal standard. C presents the most balanced evaluation. A accepts the failure argument without engaging its assumptions. B dismisses the 'failure' interpretation too quickly without addressing the valid observation about political alignment. D presents a false empirical claim; women did vote in meaningful numbers in some states.",
+      "explanationEs": "Evaluar estas interpretaciones requiere considerar lo que el movimiento sufragista realmente prometió: el derecho a votar, no necesariamente una transformación garantizada en la autonomía política de las mujeres. Los patrones de voto que reflejan las redes sociales familiares no representan necesariamente un fracaso, sino que pueden reflejar las preferencias reales de las mujeres dado su contexto social. La interpretación del 'fracaso' asume que los votos de las mujeres deberían haber sido distintos de los de los hombres, lo que refleja una expectativa política particular más que un estándar universal. C presenta la evaluación más equilibrada. A acepta el argumento del fracaso sin comprometerse con sus supuestos. B descarta la interpretación del 'fracaso' demasiado rápido sin abordar la observación válida sobre la alineación política. D presenta una afirmación empírica falsa; las mujeres sí votaron en números significativos en algunos estados.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.13,
+        "b": 1.57,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U4-DOK3-0015",
+      "stem": "Harding's call for a 'return to normalcy' reflected which broader public sentiment in 1920?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eagerness for further U.S. involvement in European affairs",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A desire to expand Progressive Era reforms",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A desire to step back from the disruptions of war and reform",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Demand for the United States to join the League of Nations",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.36"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Harding's 'return to normalcy' appealed to voters tired of the World War and of the sustained reform effort that preceded it, promising steadiness rather than crusades. Choice A is wrong because the public was pulling back from European involvement. Choice B is wrong because the slogan signaled a pause in Progressive reform, not its expansion. His landslide victory in 1920 confirmed how widely that mood was shared.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.34"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.34->US.36 unchanged"
+        ]
+      }
+    }
+  ]
+}

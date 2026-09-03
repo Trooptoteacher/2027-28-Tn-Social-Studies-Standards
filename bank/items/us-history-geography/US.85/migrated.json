@@ -1,0 +1,2729 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.85",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us87-1",
+      "stem": "What was the primary purpose of creating the Environmental Protection Agency (EPA) in 1970?",
+      "stemEs": "¿Cuál fue el propósito principal de crear la Agencia de Protección Ambiental (EPA) en 1970?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To coordinate energy production and reduce dependence on foreign oil imports",
+          "textEs": "Coordinar la producción de energía y reducir la dependencia del petróleo extranjero",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To promote industrial development by streamlining business permit processes",
+          "textEs": "Promover el desarrollo industrial simplificando procesos de permisos comerciales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To manage the national park system and protect designated wilderness areas",
+          "textEs": "Administrar el sistema de parques nacionales y proteger áreas silvestres designadas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To protect human health and the environment through federal regulations",
+          "textEs": "Proteger la salud humana y el medio ambiente mediante regulaciones federales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The EPA was created to protect human health and the environment by setting and enforcing federal pollution rules. Choice A is about coordinate energy production and reduce dependence on foreign oil imports and Choice C is about manage the national park system and protect designated wilderness areas; those options do not match protect human health and the environment through federal regulations. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "explanationEs": "The EPA was created to protect human health and the environment by setting and enforcing federal pollution rules. Choice A is about coordinate energy production and reduce dependence on foreign oil imports and Choice C is about manage the national park system and protect designated wilderness areas; those options do not match protect human health and the environment through federal regulations. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.57,
+        "b": -1.15,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us87-add-3",
+      "stem": "What happened at Three Mile Island in 1979?",
+      "stemEs": "¿Qué sucedió en Three Mile Island en 1979?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A partial nuclear meltdown that heightened fears about nuclear energy safety",
+          "textEs": "A partial nuclear meltdown that heightened fears about nuclear energy safety",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To protect human health and the environment through federal regulations",
+          "textEs": "To protect human health and the environment through federal regulations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It mobilized 20 million Americans and launched modern environmentalism",
+          "textEs": "It mobilized 20 million Americans and launched modern environmentalism",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Growing pollution awareness, Rachel Carson's writings, and disasters",
+          "textEs": "Growing pollution awareness, Rachel Carson's writings, and disasters",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Three Mile Island suffered a partial nuclear meltdown in 1979, which alarmed the public and raised doubts about nuclear safety. Choice B is about protect human health and the environment through federal regulations and Choice D is about growing pollution awareness, Rachel Carson's writings, and disasters; those options do not match a partial nuclear meltdown that heightened fears about nuclear energy safety. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "explanationEs": "Three Mile Island suffered a partial nuclear meltdown in 1979, which alarmed the public and raised doubts about nuclear safety. Choice B is about protect human health and the environment through federal regulations and Choice D is about growing pollution awareness, Rachel Carson's writings, and disasters; those options do not match a partial nuclear meltdown that heightened fears about nuclear energy safety. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.59,
+        "b": -0.83,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-q02",
+      "stem": "The Environmental Protection Agency (EPA) was created in:",
+      "stemEs": "The Environmental Protection Agency (EPA) was created in:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1980, under President Carter",
+          "textEs": "1980, under President Carter",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "1963, under President Kennedy",
+          "textEs": "1963, under President Kennedy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "1955, under President Eisenhower",
+          "textEs": "1955, under President Eisenhower",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "1970, under President Nixon",
+          "textEs": "1970, under President Nixon",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The EPA was created in 1970 under President Nixon as part of the federal government’s stronger response to pollution. A is incorrect because it names a different institution or power than the one the item asks about; B is incorrect because it names a different institution or power than the one the item asks about. The issue also connects to broader debates over how much power the federal government should have to protect the public.",
+      "explanationEs": "The EPA was created in 1970 under President Nixon as part of the gobierno federal’s stronger response to pollution. A is incorrect because it names a different institution or power than the one the item asks about; B is incorrect because it names a different institution or power than the one the item asks about. The issue also connects to broader debates over how much power the gobierno federal should have to protect the public.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.13,
+        "b": -1.24,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-q03",
+      "stem": "The Love Canal disaster of the late 1970s involved:",
+      "stemEs": "The Love Canal disaster of the late 1970s involved:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A neighborhood in New York built over a toxic chemical",
+          "textEs": "A neighborhood in New York built over a toxic chemical",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A chemical plant explosion in Tennessee",
+          "textEs": "A chemical plant explosion in Tennessee",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A nuclear plant meltdown in Pennsylvania",
+          "textEs": "A nuclear plant meltdown in Pennsylvania",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "An oil spill in the Gulf of Mexico",
+          "textEs": "An oil spill in the Gulf of Mexico",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Love Canal involved homes and a school built near buried chemical waste, and the illnesses there helped push Congress toward the Superfund cleanup law. C is incorrect because it points to a different environmental event or policy; D is incorrect because it points to a different environmental event or policy. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "explanationEs": "Love Canal involved homes and a school built near buried chemical waste, and the illnesses there helped push Congreso toward the Superfund cleanup law. C is incorrect because it points to a different environmental event or policy; D is incorrect because it points to a different environmental event or policy. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.53,
+        "b": -0.62,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-q04",
+      "stem": "The Exxon Valdez oil spill (1989) was significant because it:",
+      "stemEs": "The Exxon Valdez oil spill (1989) fue significativo/a porque it:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Was caused by a terrorist attack, which was not the primary driver of this historical change",
+          "textEs": "Was caused by a terrorist attack, which was not the primary driver of this historical change",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Occurred in the Gulf of Mexico, which was not the primary driver of this historical change",
+          "textEs": "Occurred in the Gulf of Mexico, which was not the primary driver of this historical change",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Had no lasting environmental impact, which was not the primary driver of this historical change",
+          "textEs": "Had no lasting environmental impact, which was not the primary driver of this historical change",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Released 11 million gallons of oil into Alaska's Prince William Sound, prompting stronger environmental regulations",
+          "textEs": "Released 11 million gallons of oil into Alaska's Prince William Sound, prompting stronger environmental regulations",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Exxon Valdez spill dumped about 11 million gallons of oil into Prince William Sound and became a major symbol of environmental damage from energy transport. Choice A is about was caused by a terrorist attack, which was not the primary driver of this historical change and Choice B is about occurred in the Gulf of Mexico, which was not the primary driver of this historical change; those options do not match released 11 million gallons of oil into Alaska's Prince William Sound, prompting stronger environmental regulations. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "explanationEs": "The Exxon Valdez spill dumped about 11 million gallons of oil into Prince William Sound and became a major symbol of environmental damage from energy transport. Choice A is about was caused by a terrorist attack, which was not the primary driver of this historical change and Choice B is about occurred in the Gulf of Mexico, which was not the primary driver of this historical change; those options do not match released 11 million gallons of oil into Alaska's Prince William Sound, prompting stronger environmental regulations. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.11,
+        "b": -1.53,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-x013",
+      "stem": "The constitutional principle of separation of powers means that:",
+      "stemEs": "The constitucional principle of separation of powers means that:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Individual rights are protected by separating private life from government control",
+          "textEs": "Individual rights are protected by separating private life from government control",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Legislative, executive, and judicial powers are distributed among three distinct branches",
+          "textEs": "Legislative, executive, and judicial powers are distributed among three distinct branches",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Federal and state governments each have separate and non-overlapping spheres of authority",
+          "textEs": "Federal and gobierno estatals each have separate and non-overlapping spheres of authority",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Economic, political, and military power must be held by different individuals",
+          "textEs": "Economic, political, and military power must be held by different individuals",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Separation of powers divides lawmaking, law enforcement, and constitutional interpretation among three branches so no single institution controls everything. A is incorrect because that refers to environmental policy, not the issue asked about here; C is incorrect because that refers to environmental policy, not the issue asked about here. The issue also connects to broader debates over how much power the federal government should have to protect the public.",
+      "explanationEs": "Separation of powers divides lawmaking, law enforcement, and constitucional interpretation among three branches so no single institution controls everything. A is incorrect because that refers to environmental policy, not the issue asked about here; C is incorrect because that refers to environmental policy, not the issue asked about here. The issue also connects to broader debates over how much power the gobierno federal should have to protect the public.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.98,
+        "b": -0.7,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-x015",
+      "stem": "An executive action that exceeded constitutional authority would be checked by:",
+      "stemEs": "An executive action that exceeded constitucional authority would be checked by:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The judiciary reviewing and potentially striking down the action as unconstitutional",
+          "textEs": "The judiciary reviewing and potentially striking down the action as unconstitucional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress passing a resolution disapproving the action",
+          "textEs": "Congreso passing a resolution disapproving the action",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "State governments refusing to comply with the unconstitutional federal action",
+          "textEs": "gobierno estatals refusing to comply with the unconstitucional federal action",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The vice president refusing to carry out the president's directive",
+          "textEs": "The vice president refusing to carry out the president's directive",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The courts can strike down executive actions that violate the Constitution, making the judiciary a key check on presidential power. Choice B is about congress passing a resolution disapproving the action and Choice C is about state governments refusing to comply with the unconstitutional federal action; those options do not match the judiciary reviewing and potentially striking down the action as unconstitutional. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "explanationEs": "The courts can huelga down executive actions that violate the Constitución, making the judiciary a key check on presidential power. Choice B is about Congreso passing a resolution disapproving the action and Choice C is about gobierno estatals refusing to comply with the unconstitucional federal action; those options do not match the judiciary reviewing and potentially striking down the action as unconstitucional. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.05,
+        "b": -1.51,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-x019",
+      "stem": "The Necessary and Proper Clause (Article I, Section 8) grants Congress the power to:",
+      "stemEs": "The Necessary and Proper Clause (Article I, Section 8) grants Congreso the power to:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Regulate interstate commerce and establish a national currency",
+          "textEs": "Regulate interstate commerce and establish a national currency",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Declare war and raise and support armies",
+          "textEs": "Declare war and raise and support armies",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Make all laws necessary and proper for carrying out its enumerated constitutional powers",
+          "textEs": "Make all laws necessary and proper for carrying out its enumerated constitucional powers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Override Supreme Court decisions it believes are inconsistent with constitutional intent",
+          "textEs": "Override Corte Suprema decisions it believes are inconsistent with constitucional intent",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Necessary and Proper Clause lets Congress pass laws needed to carry out its listed powers, which is why it is also called the elastic clause. Choice A is about regulate interstate commerce and establish a national currency and Choice D is about override Supreme Court decisions it believes are inconsistent with constitutional intent; those options do not match make all laws necessary and proper for carrying out its enumerated constitutional powers. The issue also connects to broader debates over how much power the federal government should have to protect the public.",
+      "explanationEs": "The Necessary and Proper Clause lets Congreso pass laws needed to carry out its listed powers, which is why it is also called the elastic clause. Choice A is about regulate interstate commerce and establish a national currency and Choice D is about override Corte Suprema decisions it believes are inconsistent with constitucional intent; those options do not match make all laws necessary and proper for carrying out its enumerated constitucional powers. The issue also connects to broader debates over how much power the gobierno federal should have to protect the public.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -0.67,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-x024",
+      "stem": "The principle of 'stare decisis' means that courts:",
+      "stemEs": "The principle of 'stare decisis' means that courts:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Must typically rule in favor of the government in cases involving national security",
+          "textEs": "Must typically rule in favor of the government in cases involving national security",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Should follow precedent established in earlier decisions unless there is compelling reason to overturn it",
+          "textEs": "Should follow precedent established in earlier decisions unless there is compelling reason to overturn it",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Must issue written opinions explaining every case they choose not to hear",
+          "textEs": "Must issue written opinions explaining every case they choose not to hear",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Cannot consider arguments not raised in lower courts when hearing appeals",
+          "textEs": "Cannot consider arguments not raised in lower courts when hearing appeals",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Stare decisis means courts generally follow precedent so the law stays stable unless there is a strong reason to change course. Choice A is about must typically rule in favor of the government in cases involving national security and Choice C is about must issue written opinions explaining every case they choose not to hear; those options do not match should follow precedent established in earlier decisions unless there is compelling reason to overturn it. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "explanationEs": "Stare decisis means courts generally follow precedent so the law stays stable unless there is a strong reason to change course. Choice A is about must typically rule in favor of the government in cases involving national security and Choice C is about must issue written opinions explaining every case they choose not to hear; those options do not match should follow precedent established in earlier decisions unless there is compelling reason to overturn it. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.11,
+        "b": -0.74,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us87-add-2",
+      "stem": "What was the Love Canal disaster and why was it significant?",
+      "stemEs": "¿Qué fue el desastre de Love Canal y por qué fue significativo?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Toxic waste buried under a neighborhood caused illness, leading to Superfund legislation",
+          "textEs": "Toxic waste buried under a neighborhood caused illness, leading to Superfund legislación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It documented the harmful effects of pesticides and helped launch the environmental movement",
+          "textEs": "It documented the harmful effects of pesticides and helped launch the environmental movement",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A partial nuclear meltdown that heightened fears about nuclear energy safety",
+          "textEs": "A partial nuclear meltdown that heightened fears about nuclear energy safety",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A break-in at Democratic headquarters and Nixon's cover-up that led to his resignation",
+          "textEs": "A break-in at democrático headquarters and Nixon's cover-up that condujo a his resignation",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Love Canal involved homes and a school built near buried chemical waste, and the illnesses there helped push Congress toward the Superfund cleanup law. C is incorrect because it points to a different environmental event or policy; D is incorrect because that refers to Watergate rather than the concept asked about here. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "explanationEs": "Love Canal involved homes and a school built near buried chemical waste, and the illnesses there helped push Congreso toward the Superfund cleanup law. C is incorrect because it points to a different environmental event or policy; D is incorrect because that refers to Watergate rather than the concept asked about here. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.62,
+        "b": 0.06,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-q08",
+      "stem": "The National Environmental Policy Act (NEPA, 1970) required that:",
+      "stemEs": "The National Environmental Policy Act (NEPA, 1970) required that:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Citizens pay a tax to fund environmental cleanup",
+          "textEs": "Citizens pay a tax to fund environmental cleanup",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Federal agencies assess the environmental impact of major government",
+          "textEs": "Federal agencies assess the environmental impact of major government",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "States independently manage all environmental regulations",
+          "textEs": "States independently manage all environmental regulations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "All factories be immediately shut down",
+          "textEs": "All factories be immediately shut down",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "NEPA requires federal agencies to study the environmental impact of major projects before acting, which made environmental review part of federal decision-making. Choice A is about citizens pay a tax to fund environmental cleanup and Choice D is about all factories be immediately shut down; those options do not match federal agencies assess the environmental impact of major government actions before proceeding. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "explanationEs": "NEPA requires federal agencies to study the environmental impact of major projects before acting, which made environmental review part of federal decision-making. Choice A is about citizens pay a tax to fund environmental cleanup and Choice D is about all factories be immediately shut down; those options do not match federal agencies assess the environmental impact of major government actions before proceeding. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.16,
+        "b": 0.35,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-66-q01",
+      "stem": "In August 1990, Iraq invaded and occupied its neighbor Kuwait, prompting President George H.W. Bush to assemble an international coalition and launch Operation Desert Storm. What was the primary outcome of the Gulf War?",
+      "stemEs": "In August 1990, Iraq invaded and occupied its neighbor Kuwait, prompting President George H.W. Bush to assemble an international coalition and launch Operation Desert Storm. ¿Cuál fue el principal outcome of the Guerra del Golfo?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Coalition forces seized Baghdad, toppled Saddam Hussein's government, and occupied Iraq",
+          "textEs": "Las fuerzas de la coalición tomaron Bagdad, derrocaron el gobierno de Saddam Hussein y ocuparon Irak",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The multinational force expelled Iraqi troops and restored Kuwaiti sovereignty, stopping short of Baghdad",
+          "textEs": "The multinational force expelled Iraqi troops and restored Kuwaiti soberanía, stopping short of Baghdad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The United Nations imposed a permanent no-fly zone over Iraq that prevented future aggression",
+          "textEs": "Las Naciones Unidas impusieron una zona de exclusión aérea permanente sobre Irak que impidió futuras agresiones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Saddam Hussein was captured and tried by an international tribunal for war crimes",
+          "textEs": "Saddam Hussein fue capturado y juzgado por un tribunal internacional por crímenes de guerra",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The international coalition liberated Kuwait and pushed Iraqi forces back, but left Saddam Hussein in power in Iraq. Choice A is wrong because it describes u.S. forces destroyed Saddam Hussein's government and occupied Iraq, not international coalition liberated Kuwait and pushed Iraqi forces back, but left Saddam Hussein in power in Iraq. The Gulf War showed unmatched U.S. military power after the Cold War but also the limits of coalition war aims.",
+      "explanationEs": "The international coalition liberated Kuwait and pushed Iraqi forces back, but left Saddam Hussein in power in Iraq. Choice A is wrong because it describes u.S. forces destroyed Saddam Hussein's government and occupied Iraq, not international coalition liberated Kuwait and pushed Iraqi forces back, but left Saddam Hussein in power in Iraq. The Guerra del Golfo showed unmatched U.S. military power after the Guerra Fría but also the limits of coalition war aims.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.14,
+        "b": -1.56,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us87-add-1",
+      "stem": "What was the significance of Rachel Carson's book \"Silent Spring\"?",
+      "stemEs": "¿Cuál fue la importancia del libro \"Primavera Silenciosa\" de Rachel Carson?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It documented the harmful effects of pesticides and helped launch the environmental movement",
+          "textEs": "It documented the harmful effects of pesticides and helped launch the environmental movement",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Toxic waste buried under a neighborhood caused illness, leading to Superfund legislation",
+          "textEs": "Toxic waste buried under a neighborhood caused illness, leading to Superfund legislación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It allowed politicians to communicate directly with voters and enabled grassroots organizing",
+          "textEs": "It allowed politicians to communicate directly with voters and enabled grassroots organizing",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Many believed Nixon should face trial, and the pardon may have cost Ford the 1976 election",
+          "textEs": "Many believed Nixon should face trial, and the pardon may have cost Ford the 1976 election",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Rachel Carson’s Silent Spring exposed the danger of pesticides such as DDT and helped launch the modern environmental movement. Choice B is about toxic waste buried under a neighborhood caused illness, leading to Superfund legislation and Choice C is about allowed politicians to communicate directly with voters and enabled grassroots organizing; those options do not match documented the harmful effects of pesticides and helped launch the environmental movement. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "explanationEs": "Rachel Carson’s Silent Spring exposed the danger of pesticides such as DDT and helped launch the modern environmental movement. Choice B is about toxic waste buried under a neighborhood caused illness, leading to Superfund legislación and Choice C is about allowed politicians to communicate directly with voters and enabled grassroots organizing; those options do not match documented the harmful effects of pesticides and helped launch the environmental movement. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.08,
+        "b": -0.67,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us87-2",
+      "stem": "How did the Love Canal disaster influence environmental policy in the United States?",
+      "stemEs": "¿Cómo influyó el desastre de Love Canal en la política ambiental de Estados Unidos?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It caused Congress to reduce regulations on all chemical companies",
+          "textEs": "Causó que el Congreso redujera regulaciones sobre todas las compañías químicas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It resulted in the construction of new nuclear power plant facilities",
+          "textEs": "Resultó en la construcción de nuevas instalaciones de plantas nucleares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It led to the Superfund law requiring cleanup of toxic waste sites",
+          "textEs": "Llevó a la ley Superfund requiriendo limpieza de sitios de desechos tóxicos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It prompted the creation of the Environmental Protection Agency",
+          "textEs": "Impulsó la creación de la Agencia de Protección Ambiental",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Love Canal involved homes and a school built near buried chemical waste, and the illnesses there helped push Congress toward the Superfund cleanup law. Choice D is about prompted the creation of the Environmental Protection Agency; those options do not match led to the Superfund law requiring cleanup of toxic waste sites. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "explanationEs": "Love Canal involved homes and a school built near buried chemical waste, and the illnesses there helped push Congreso toward the Superfund cleanup law. Choice D is about prompted the creation of the Environmental Protection Agency; those options do not match condujo a the Superfund law requiring cleanup of toxic waste sites. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.27,
+        "b": -0.28,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us87-3",
+      "stem": "What effect did the Three Mile Island accident have on nuclear power in America?",
+      "stemEs": "¿Qué efecto tuvo el accidente de Three Mile Island en la energía nuclear en América?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It significantly slowed the construction of new nuclear power plants",
+          "textEs": "Ralentizó significativamente la construcción de nuevas plantas nucleares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Growing pollution awareness, Rachel Carson's writings, and disasters",
+          "textEs": "Aceleró la expansión de energía nuclear en todo el país",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It led to the Superfund law requiring cleanup of toxic waste sites",
+          "textEs": "Llevó al cierre inmediato de todas las instalaciones nucleares existentes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It mobilized 20 million Americans and launched modern environmentalism",
+          "textEs": "Tuvo impacto mínimo en la opinión pública sobre seguridad de energía nuclear",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Three Mile Island accident slowed enthusiasm for new nuclear plants because it convinced many Americans that a serious reactor accident was possible. Choice B is about growing pollution awareness, Rachel Carson's writings, and disasters and Choice C is about led to the Superfund law requiring cleanup of toxic waste sites; those options do not match significantly slowed the construction of new nuclear power plants. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "explanationEs": "The Three Mile Island accident slowed enthusiasm for new nuclear plants because it convinced many Americans that a serious reactor accident was possible. Choice B is about growing pollution awareness, Rachel Carson's writings, and disasters and Choice C is about condujo a the Superfund law requiring cleanup of toxic waste sites; those options do not match significantly slowed the construction of new nuclear power plants. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.95,
+        "b": 0.22,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us87-4",
+      "stem": "Which factors contributed to the emergence of the modern environmental movement?",
+      "stemEs": "¿Qué factores contribuyeron al surgimiento del movimiento ambientalista moderno?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Discovery of new oil reserves and expansion of industrial manufacturing",
+          "textEs": "Descubrimiento de nuevas reservas de petróleo y expansión de manufactura industrial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Growing pollution awareness, Rachel Carson's writings, and disasters",
+          "textEs": "Creciente conciencia sobre contaminación, escritos de Rachel Carson y desastres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Government campaigns promoting unlimited economic growth nationwide",
+          "textEs": "Campañas gubernamentales promoviendo crecimiento económico ilimitado a nivel nacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Declining interest in conservation and reduced national park funding",
+          "textEs": "Disminución del interés en conservación y reducción de fondos para parques nacionales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The modern environmental movement grew from rising awareness of pollution, Rachel Carson’s writing, and visible disasters that made environmental harm impossible to ignore. Choice A is about discovery of new oil reserves and expansion of industrial manufacturing and Choice D is about declining interest in conservation and reduced national park funding; those options do not match growing pollution awareness, Rachel Carson's writings, and disasters. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "explanationEs": "The modern environmental movement grew from rising awareness of pollution, Rachel Carson’s writing, and visible disasters that made environmental harm impossible to ignore. Choice A is about discovery of new oil reserves and expansion of industrial manufacturing and Choice D is about declining interest in conservation and reduced national park funding; those options do not match growing pollution awareness, Rachel Carson's writings, and disasters. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.16,
+        "b": -0.18,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "q-us87-5",
+      "stem": "Why was the first Earth Day in 1970 significant for the environmental movement?",
+      "stemEs": "¿Por qué fue significativo el primer Día de la Tierra en 1970 para el movimiento ambientalista?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It focused exclusively on protecting endangered species from extinction",
+          "textEs": "Movilizó a 20 millones de estadounidenses y lanzó el ambientalismo moderno",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It resulted in the immediate passage of all major environmental laws",
+          "textEs": "Resultó en la aprobación inmediata de todas las leyes ambientales principales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was organized by the federal government to promote industrial growth",
+          "textEs": "Fue organizado por el gobierno federal para promover el crecimiento industrial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It mobilized 20 million Americans and launched modern environmentalism",
+          "textEs": "Se enfocó exclusivamente en proteger especies en peligro de extinción",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The first Earth Day in 1970 brought millions of Americans into environmental activism and showed that environmental protection had become a mass political issue. Choice B is about resulted in the immediate passage of all major environmental laws and Choice D is about focused exclusively on protecting endangered species from extinction; those options do not match mobilized 20 million Americans and launched modern environmentalism. The issue also connects to broader debates over how much power the federal government should have to protect the public.",
+      "explanationEs": "The first Earth Day in 1970 brought millions of Americans into environmental activism and showed that environmental protection had become a mass political issue. Choice B is about resultó en the immediate passage of all major environmental laws and Choice D is about focused exclusively on protecting endangered species from extinction; those options do not match mobilized 20 million Americans and launched modern environmentalism. The issue also connects to broader debates over how much power the gobierno federal should have to protect the public.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.51,
+        "b": 0.4,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-x016",
+      "stem": "Federalism — the division of power between federal and state governments — is an additional check on power because:",
+      "stemEs": "Federalism — the division of power between federal and gobierno estatals — is an additional check on power because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It creates multiple levels of government, meaning power is not concentrated in any single national authority",
+          "textEs": "It creates multiple levels of government, meaning power is not concentrated in any single national authority",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "State governments can veto federal legislation that affects state sovereignty",
+          "textEs": "gobierno estatals can veto federal legislación that affects state soberanía",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "States can ignore federal laws they believe are unconstitutional through nullification",
+          "textEs": "States can ignore federal laws they believe are unconstitucional through nullification",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Constitution clearly delineates which policy areas are federal and which are state, preventing overlap",
+          "textEs": "The Constitución clearly delineates which policy areas are federal and which are state, preventing overlap",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Federalism divides authority between national and state governments, which keeps power from being concentrated in one place. Choice B is about state governments can veto federal legislation that affects state sovereignty and Choice C is about states can ignore federal laws they believe are unconstitutional through nullification; those options do not match creates multiple levels of government, meaning power is not concentrated in any single national authority. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "explanationEs": "Federalism divides authority between national and gobierno estatals, which keeps power from being concentrated in one place. Choice B is about gobierno estatals can veto federal legislación that affects state soberanía and Choice C is about states can ignore federal laws they believe are unconstitucional through nullification; those options do not match creates multiple levels of government, meaning power is not concentrated in any single national authority. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.37,
+        "b": -0.16,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-x023",
+      "stem": "The president's ability to issue executive orders governing executive branch agencies represents:",
+      "stemEs": "The president's ability to issue orden ejecutivas governing executive branch agencies represents:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A power that originated with Washington but that Congress has consistently tried to eliminate",
+          "textEs": "A power that originated with Washington but that Congreso has consistently tried to eliminate",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A legitimate exercise of executive power subject to congressional override and judicial review",
+          "textEs": "A legitimate exercise of executive power subject to Congresoional override and judicial review",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "An unconstitutional usurpation of legislative authority that should require a constitutional amendment to validate",
+          "textEs": "An unconstitucional usurpation of legislative authority that should require a constitucional enmienda to validate",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "An implied power that expands presidential authority beyond what the Constitution explicitly grants",
+          "textEs": "An implied power that expands presidential authority beyond what the Constitución explicitly grants",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Executive orders are a real presidential power, but Congress can limit them by law and courts can strike them down if they exceed constitutional authority. Choice A is about a power that originated with Washington but that Congress has consistently tried to eliminate and Choice C is about an unconstitutional usurpation of legislative authority that should require a constitutional amendment to validate; those options do not match a legitimate exercise of executive power subject to congressional override and judicial review. The issue also connects to broader debates over how much power the federal government should have to protect the public.",
+      "explanationEs": "orden ejecutivas are a real presidential power, but Congreso can limit them by law and courts can huelga them down if they exceed constitucional authority. Choice A is about a power that originated with Washington but that Congreso has consistently tried to eliminate and Choice C is about an unconstitucional usurpation of legislative authority that should require a constitucional enmienda to validate; those options do not match a legitimate exercise of executive power subject to Congresoional override and judicial review. The issue also connects to broader debates over how much power the gobierno federal should have to protect the public.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.38,
+        "b": -0.01,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-x025",
+      "stem": "The principle of 'checks and balances' requires that each branch of government:",
+      "stemEs": "The principle of 'checks and balances' requires that each branch of government:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hold equal power to the other two branches on all constitutional questions",
+          "textEs": "Hold equal power to the other two branches on all constitucional questions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Have the ability to limit and constrain the power of the other two branches",
+          "textEs": "Have the ability to limit and constrain the power of the other two branches",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "All operate independently without coordination on any policy matter",
+          "textEs": "All operate independently without coordination on any policy matter",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Be selected by different constituencies to represent different interests",
+          "textEs": "Be selected by different constituencies to represent different interests",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Checks and balances means each branch has tools to limit the others, such as vetoes, judicial review, and impeachment. Choice A is about hold equal power to the other two branches on all constitutional questions and Choice C is about all operate independently without coordination on any policy matter; those options do not match have the ability to limit and constrain the power of the other two branches. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "explanationEs": "Checks and balances means each branch has tools to limit the others, such as vetoes, judicial review, and juicio político. Choice A is about hold equal power to the other two branches on all constitucional questions and Choice C is about all operate independently without coordination on any policy matter; those options do not match have the ability to limit and constrain the power of the other two branches. This fits the larger rise of environmentalism and concern about the long-term costs of industrial growth.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.47,
+        "b": -0.33,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-x027",
+      "stem": "Checks and balances require each branch to:",
+      "stemEs": "Checks and balances require each branch to:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hold equal power on all constitutional questions",
+          "textEs": "Hold equal power on all constitucional questions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Be selected by different constituencies representing different interests",
+          "textEs": "Be selected by different constituencies representing different interests",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Have the ability to limit and constrain the other two branches",
+          "textEs": "Have the ability to limit and constrain the other two branches",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Operate independently without coordination on policy matters",
+          "textEs": "Operate independently without coordination on policy matters",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Checks and balances means each branch has tools to limit the others, such as vetoes, judicial review, and impeachment. Choice C is about hold equal power on all constitutional questions; those options do not match have the ability to limit and constrain the other two branches. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "explanationEs": "Checks and balances means each branch has tools to limit the others, such as vetoes, judicial review, and juicio político. Choice C is about hold equal power on all constitucional questions; those options do not match have the ability to limit and constrain the other two branches. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.96,
+        "b": -0.26,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U10-DOK2-0006",
+      "stem": "How did events like the Love Canal crisis and the Three Mile Island accident contribute to the growth of the environmental movement in the 1970s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Both events demonstrated that environmental problems were limited to specific industrial accidents and did not require broad regulatory changes",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both events were caused primarily by natural disasters rather than industrial negligence, shifting the environmental debate toward climate change",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both events exposed the public health risks of inadequate environmental regulation, generating widespread public concern and pressure for stronger federal oversight of toxic waste and nuclear power safety",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Love Canal and Three Mile Island convinced the federal government to ban all nuclear power plants and chemical manufacturing in residential areas by 1980",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Love Canal (1978) revealed that children living on toxic chemical waste developed serious illnesses. Three Mile Island (1979) raised fears of nuclear meltdown. Together they galvanized public support for stronger EPA powers and created the Superfund program.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PS-0027",
+      "stem": "Read the excerpt below.\n\n\"There is no scientific consensus that is stronger than the consensus on climate change. Ninety-seven percent of climate scientists agree: climate change is real, it is happening now, and it is caused by human activity.\" — NASA Climate Science Statement, 2014\n\nWhich of the following best describes the modern challenge referenced in this excerpt?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Political debate over whether government should regulate private industry's environmental practices.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The challenge of meeting air quality standards set by the Environmental Protection Agency.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Human-caused climate change, supported by overwhelming scientific consensus, as a defining modern environmental challenge.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Natural climate cycles that scientists believe are beginning to reverse the warming trends of the 20th century.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The excerpt addresses climate change as a modern challenge backed by overwhelming scientific consensus. NASA's statement reflects the position of the major scientific organizations that human-caused climate change is one of the most significant challenges facing the modern world. Option A is incorrect because the excerpt describes scientific consensus, not political debate about regulating industry. Option B is incorrect because the excerpt addresses climate change, not air quality regulations specifically. Option D is incorrect because the excerpt focuses on human-caused climate change, not natural climate cycles.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U10-DOK2-0019",
+      "stem": "The Environmental Protection Agency (EPA), created in 1970, represented what shift in U.S. policy?",
+      "stemEs": "¿La Agencia de Protección Ambiental (EPA), creada en 1970, representó qué cambio en la política de EE. UU.?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An acknowledgment that environmental protection required coordinated federal regulation",
+          "textEs": "Un reconocimiento de que la protección ambiental requería una regulación federal coordinada",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A reaction to the Arab oil embargo that threatened U.S. energy independence",
+          "textEs": "Una reacción al embargo petrolero árabe que amenazó la independencia energética de EE. UU.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A recognition that pollution was primarily a local problem requiring state-level solutions",
+          "textEs": "Un reconocimiento de que la contaminación era principalmente un problema local que requería soluciones a nivel estatal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Congress's response to the Supreme Court's ruling that the federal government bore responsibility for clean air",
+          "textEs": "La respuesta del Congreso al fallo de la Corte Suprema que atribuía al gobierno federal la responsabilidad del aire limpio",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "An acknowledgment that environmental protection required coordinated federal regulation. Choice B is wrong because it describes reaction to the Arab oil embargo that threatened U.S. energy independence, not acknowledgment that environmental protection required coordinated federal regulation. The 1970s brought new arguments about rights, energy, gender, and diplomacy that reshaped politics after the early Cold War.",
+      "explanationEs": "An acknowledgment that environmental protection required coordinated federal regulation. Choice B is wrong because it describes reaction to the Arab oil embargo that threatened U.S. energy independence, not acknowledgment that environmental protection required coordinated federal regulation. The 1970s brought new arguments about rights, energy, gender, and diplomacia that reshaped politics after the early Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.97,
+        "b": 0.12,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-66-x025",
+      "stem": "The U.S. decision **NOT** to occupy Baghdad and remove Saddam Hussein during the Gulf War (1991) reflected —",
+      "stemEs": "La decisión de los EE.UU. de **NO** ocupar Bagdad y retirar a Saddam Hussein durante la Guerra del Golfo (1991) reflejó —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Nuclear weapons development and the arms race",
+          "textEs": "El desarrollo de armas nucleares y la carrera armamentista",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A constitutional requirement for a new congressional authorization before advancing beyond Kuwait",
+          "textEs": "Un requisito constitucional de una nueva autorización del Congreso antes de avanzar más allá de Kuwait",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A UN Security Council resolution that limited the coalition's mandate to liberating Kuwait",
+          "textEs": "Una resolución del Consejo de Seguridad de la ONU que limitaba el mandato de la coalición a la liberación de Kuwait",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Bush's judgment that removing Saddam would fracture the Arab coalition and create a power vacuum in Iraq",
+          "textEs": "El juicio de Bush de que retirar a Saddam fractura la coalición árabe y crearía un vacío de poder en Irak",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both A and B reflect the decision-making process around the decision not to march on Baghdad. Choice D is wrong because it describes bush's judgment that removing Saddam would fracture the Arab coalition and create a power vacuum in Iraq, not both A and B reflect the decision-making process around the decision not to march on Baghdad. The Gulf War showed unmatched U.S. military power after the Cold War but also the limits of coalition war aims.",
+      "explanationEs": "Both A and B reflect the decision-making process around the decision not to march on Baghdad. Choice D is wrong because it describes bush's judgment that removing Saddam would fracture the Arab coalition and create a power vacuum in Iraq, not both A and B reflect the decision-making process around the decision not to march on Baghdad. The Guerra del Golfo showed unmatched U.S. military power after the Guerra Fría but also the limits of coalition war aims.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.46,
+        "b": 0.21,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-66-q03",
+      "stem": "Operation Desert Storm (January–February 1991) was notable for —",
+      "stemEs": "La Operación Tormenta del Desierto (enero-febrero de 1991) fue notable por —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The largest military coalition since World War II and the decisive role of precision air power in liberating Kuwait",
+          "textEs": "La coalición militar más grande desde la Segunda Guerra Mundial y el papel decisivo del poder aéreo de precisión en la liberación de Kuwait",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Being the longest sustained ground combat operation in American military history since the Korean War",
+          "textEs": "Ser la operación de combate terrestre sostenido más larga en la historia militar estadounidense desde la Guerra de Corea",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Being the first combat use of American nuclear weapons in the Pacific since the 1945 bombing of Nagasaki",
+          "textEs": "Ser el primer uso en combate de armas nucleares estadounidenses en el Pacífico desde el bombardeo de Nagasaki en 1945",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Achieving regime change in Iraq by capturing Saddam Hussein and installing a democratic transitional government",
+          "textEs": "Achieving regime change in Iraq by capturing Saddam Hussein and installing a democrático transitional government",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The largest coalition of nations since World War II, the decisive role of air power. Choice C is wrong because it describes being the first use of American nuclear weapons since Hiroshima, not largest coalition of nations since World War II, the decisive role of air power. The Gulf War showed unmatched U.S. military power after the Cold War but also the limits of coalition war aims.",
+      "explanationEs": "The largest coalition of nations since Segunda Guerra Mundial, the decisive role of air power. Choice C is wrong because it describes being the first use of American nuclear weapons since Hiroshima, not largest coalition of nations since Segunda Guerra Mundial, the decisive role of air power. The Guerra del Golfo showed unmatched U.S. military power after the Guerra Fría but also the limits of coalition war aims.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.22,
+        "b": -0.49,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-66-x026",
+      "stem": "The Gulf War's outcome demonstrated which principle about coalition warfare?",
+      "stemEs": "¿Qué principio sobre la guerra de coalición demostró el resultado de la Guerra del Golfo?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The United Nations can authorize effective military operations when great powers agree",
+          "textEs": "Las Naciones Unidas pueden autorizar operaciones militares eficaces cuando las grandes potencias están de acuerdo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The United Nations can authorize effective military operations when great powers agree exclusively",
+          "textEs": "Las Naciones Unidas pueden autorizar operaciones militares eficaces cuando las grandes potencias están de acuerdo exclusivamente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Large coalitions require the leading power to accept constraints on military objectives to maintain unity",
+          "textEs": "Las grandes coaliciones exigen que la potencia líder acepte limitaciones sobre los objetivos militares para mantener la unidad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Coalition partners provide military forces more efficiently than any single nation could alone",
+          "textEs": "Los socios de la coalición aportan fuerzas militares de manera más eficiente de lo que podría hacerlo cualquier nación por sí sola",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both A and C describe lessons from Gulf War coalition warfare. Choice D is wrong because it describes coalition partners provide military forces more efficiently than any single nation could alone, not both A and C describe lessons from Gulf War coalition warfare. The Gulf War showed unmatched U.S. military power after the Cold War but also the limits of coalition war aims.",
+      "explanationEs": "Both A and C describe lessons from Guerra del Golfo coalition warfare. Choice D is wrong because it describes coalition partners provide military forces more efficiently than any single nation could alone, not both A and C describe lessons from Guerra del Golfo coalition warfare. The Guerra del Golfo showed unmatched U.S. military power after the Guerra Fría but also the limits of coalition war aims.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.12,
+        "b": -0.51,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-q11",
+      "stem": "Historians who study the environmental movement of the 1970s most often argue that its success depended primarily on:",
+      "stemEs": "Historians who study the environmental movement of the 1970s most often argue that its success depended primarily on:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Postwar economic prosperity that allowed middle-class Americans to shift attention to quality-of-life concerns",
+          "textEs": "Postwar economic prosperity that allowed middle-class Americans to shift attention to quality-of-life concerns",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Diplomatic pressure from Western European governments that had already enacted strong environmental protections",
+          "textEs": "Diplomatic pressure from Western European governments that had already enacted strong environmental protections",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The leadership of a single charismatic figure such as Ralph Nader or Rachel Carson",
+          "textEs": "The leadership of a single charismatic figure such as Ralph Nader or Rachel Carson",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The combination of growing scientific evidence, grassroots activism, and high-profile environmental disasters",
+          "textEs": "The combination of growing scientific evidence, grassroots activism, and high-profile environmental disasters",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Historians usually explain the movement’s success as the result of science, grassroots organizing, and dramatic disasters that pushed public opinion and lawmakers. Choice A is about economic prosperity that allowed Americans to focus on non-economic issues and Choice C is about the efforts of a single charismatic leader; those options do not match the combination of growing scientific evidence, grassroots activism, high-profile disasters. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "explanationEs": "Historians usually explain the movement’s success as the result of science, grassroots organizing, and dramatic disasters that pushed public opinion and lawmakers. Choice A is about economic prosperity that allowed Americans to focus on non-economic issues and Choice C is about the efforts of a single charismatic leader; those options do not match the combination of growing scientific evidence, grassroots activism, high-profile disasters. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.32,
+        "b": 1.12,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-87-x020",
+      "stem": "The debate between 'strict constructionists' and 'loose constructionists' of the Constitution reflects disagreement over:",
+      "stemEs": "The debate between 'strict constructionists' and 'loose constructionists' of the Constitución reflects disagreement over:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Whether the Constitution should be interpreted to protect individual rights or state sovereignty",
+          "textEs": "Whether the Constitución should be interpreted to protect individual rights or state soberanía",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Whether the Supreme Court or the president has final authority over constitutional interpretation",
+          "textEs": "Whether the Corte Suprema or the president has final authority over constitucional interpretation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "How broadly or narrowly to read Congress's enumerated powers, especially the Necessary and Proper Clause",
+          "textEs": "How broadly or narrowly to read Congreso's enumerated powers, especially the Necessary and Proper Clause",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Whether the Bill of Rights should apply to state governments through the 14th Amendment",
+          "textEs": "Whether the Bill of Rights should apply to gobierno estatals through the 14th enmienda",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The dispute is over whether Congress’s powers should be read narrowly or broadly, especially under the Necessary and Proper Clause. Choice A is about whether the Constitution should be interpreted to protect individual rights or state sovereignty and Choice B is about whether the Supreme Court or the president has final authority over constitutional interpretation; those options do not match how broadly or narrowly to read Congress's enumerated powers, especially the Necessary and Proper Clause. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "explanationEs": "The dispute is over whether Congreso’s powers should be read narrowly or broadly, especially under the Necessary and Proper Clause. Choice A is about whether the Constitución should be interpreted to protect individual rights or state soberanía and Choice B is about whether the Corte Suprema or the president has final authority over constitucional interpretation; those options do not match how broadly or narrowly to read Congreso's enumerated powers, especially the Necessary and Proper Clause. It matters because modern environmental policy grew out of these conflicts over science, regulation, and public safety.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 1.07,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u10-025",
+      "stem": "The Love Canal disaster of the late 1970s significantly shaped American environmental policy. Which of the following best explains the causal chain connecting Love Canal to the creation of the Superfund program?",
+      "stemEs": "El desastre de Love Canal a finales de la década de 1970 moldeó significativamente la política medioambiental estadounidense. ¿Cuál de las siguientes opciones explica mejor la cadena causal que conecta Love Canal con la creación del programa Superfondo?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Love Canal proved that air pollution from industrial factories was more dangerous than previously understood, leading Congress to strengthen the Clean Air Act.",
+          "textEs": "Love Canal demostró que la contaminación del aire de las fábricas industriales era más peligrosa de lo que se entendía anteriormente, lo que llevó al Congreso a fortalecer la Ley de Aire Limpio.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Love Canal demonstrated that private industry could create long-term toxic contamination it would not voluntarily remediate, revealing the need for a federal fund to finance cleanup of abandoned hazardous waste sites.",
+          "textEs": "Love Canal demostró que la industria privada podía crear contaminación tóxica a largo plazo que no remediarían voluntariamente, revelando la necesidad de un fondo federal para financiar la limpieza de sitios de residuos peligrosos abandonados.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Love Canal motivated Congress to nationalize the chemical industry to prevent future environmental disasters caused by corporate negligence.",
+          "textEs": "Love Canal motivó al Congreso a nacionalizar la industria química para prevenir futuros desastres ambientales causados por negligencia corporativa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Love Canal led directly to the creation of the EPA, which was established to investigate industrial pollution and remove affected families from contaminated neighborhoods.",
+          "textEs": "Love Canal llevó directamente a la creación de la EPA, que fue establecida para investigar la contaminación industrial y reubicar a las familias afectadas de los vecindarios contaminados.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Love Canal revealed that industrial chemical waste dumped decades earlier could leach through soil into residential areas, causing serious health problems—including high rates of miscarriage, birth defects, and cancer. The evacuation of hundreds of families demonstrated that private industry could create toxic messes that it could not or would not clean up, and that existing environmental law was insufficient to compel remediation. This directly led Congress to pass CERCLA (Comprehensive Environmental Response, Compensation, and Liability Act—Superfund) in 1980, creating a federal fund to clean up toxic sites. Options A, C, and D either misattribute causation or describe unrelated mechanisms.",
+      "explanationEs": "Love Canal reveló que los residuos químicos industriales vertidos décadas antes podían filtrarse a través del suelo hacia las zonas residenciales, causando graves problemas de salud, incluidas altas tasas de abortos espontáneos, defectos de nacimiento y cáncer. La evacuación de cientos de familias demostró que la industria privada podía crear catástrofes tóxicas que no podía o no quería limpiar, y que la ley ambiental existente era insuficiente para obligar a la remediación. Esto llevó directamente al Congreso a aprobar CERCLA (Superfondo) en 1980.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.36,
+        "b": 1.21,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u10-026",
+      "stem": "The Three Mile Island nuclear accident (1979) affected U.S. energy policy for decades. Which of the following best explains the long-term consequence of this accident for American nuclear power development?",
+      "stemEs": "El accidente nuclear de Three Mile Island (1979) afectó la política energética de EE. UU. durante décadas. ¿Cuál de las siguientes opciones explica mejor la consecuencia a largo plazo de este accidente para el desarrollo de la energía nuclear estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Three Mile Island caused a massive radiation release that contaminated much of the northeastern United States, proving nuclear power was inherently unsafe.",
+          "textEs": "Three Mile Island causó una liberación masiva de radiación que contaminó gran parte del noreste de los Estados Unidos, demostrando que la energía nuclear era inherentemente insegura.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Three Mile Island led Congress to immediately shut down all operating nuclear plants in the United States until comprehensive safety reviews were completed.",
+          "textEs": "Three Mile Island llevó al Congreso a cerrar de inmediato todas las plantas nucleares en operación en los Estados Unidos hasta que se completaran revisiones de seguridad exhaustivas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Three Mile Island accelerated U.S. transition to coal and natural gas, which were proven safer in the short term but produced more air pollution than nuclear power.",
+          "textEs": "Three Mile Island aceleró la transición de EE. UU. al carbón y al gas natural, que eran más seguros a corto plazo pero producían más contaminación del aire que la energía nuclear.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "By amplifying public fear and triggering stricter regulations that dramatically raised costs, Three Mile Island effectively halted new nuclear plant construction in the U.S. for over three decades.",
+          "textEs": "Al amplificar el temor público y desencadenar regulaciones más estrictas que aumentaron dramáticamente los costos, Three Mile Island efectivamente detuvo la construcción de nuevas plantas nucleares en EE. UU. durante más de tres décadas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Three Mile Island dramatically increased public fear of nuclear power and energized the anti-nuclear movement. The Nuclear Regulatory Commission imposed stricter safety requirements that dramatically increased construction costs. Combined with public opposition making siting difficult and rising costs from safety retrofits, no new nuclear plants were ordered in the U.S. for over three decades after TMI. The accident did not cause a meltdown or major radiation release, but the perception of risk was sufficient to halt nuclear expansion. Options A, B, and C either overstate the physical damage or misattribute policy consequences.",
+      "explanationEs": "Three Mile Island aumentó dramáticamente el temor público a la energía nuclear y energizó el movimiento antinuclear. La Comisión Reguladora Nuclear impuso requisitos de seguridad más estrictos que aumentaron dramáticamente los costos de construcción. Combinado con la oposición pública que dificultaba la ubicación de nuevas plantas y los crecientes costos de las mejoras de seguridad, no se ordenó ninguna nueva planta nuclear en EE. UU. durante más de tres décadas después de TMI.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.35,
+        "b": 0.86,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u10-027",
+      "stem": "The Environmental Protection Agency (EPA), created in 1970, represented a new approach to federal environmental regulation. Which of the following best explains the political tensions its creation revealed?",
+      "stemEs": "La Agencia de Protección Ambiental (EPA), creada en 1970, representó un nuevo enfoque para la regulación ambiental federal. ¿Cuál de las siguientes opciones explica mejor las tensiones políticas que su creación reveló?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The EPA's creation provoked a constitutional debate over whether environmental protection was a legitimate use of the commerce clause, which the Supreme Court ultimately rejected.",
+          "textEs": "La EPA encarnó el conflicto entre la protección ambiental como bien público que requiere intervención federal y los intereses económicos que veían la regulación como una amenaza para el crecimiento y la autonomía de los estados.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The EPA's creation revealed the tension between urban and rural Americans, as farmers opposed the EPA while city dwellers supported it to reduce industrial smog.",
+          "textEs": "La creación de la EPA reveló la tensión entre los estadounidenses urbanos y rurales, ya que los agricultores se oponían a la EPA mientras que los habitantes de las ciudades la apoyaban para reducir el smog industrial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The EPA embodied the conflict between environmental protection as a public good requiring federal intervention and economic interests that viewed regulation as a threat to growth and states' autonomy.",
+          "textEs": "La creación de la EPA provocó un debate constitucional sobre si la protección ambiental era un uso legítimo de la cláusula de comercio, que la Corte Suprema finalmente rechazó.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The EPA was created primarily to manage nuclear waste from military programs, and its expansion into industrial pollution regulation caused unexpected political controversy.",
+          "textEs": "La EPA fue creada principalmente para gestionar los residuos nucleares de los programas militares, y su expansión hacia la regulación de la contaminación industrial causó una controversia política inesperada.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The EPA's creation reflected a tension between environmental protection as a public good and economic growth through industrial activity. Industry groups and states' rights advocates opposed federal environmental regulation as an overreach that would raise costs and reduce competitiveness. Environmentalists argued the market would never adequately price environmental damage, requiring government intervention. This tension between economic freedom and environmental protection would define environmental politics for the next fifty years. Options B, C, and D either misattribute motivations or describe separate debates.",
+      "explanationEs": "La creación de la EPA reflejó una tensión entre la protección del medio ambiente como bien público y el crecimiento económico a través de la actividad industrial. Los grupos industriales y los defensores de los derechos de los estados se opusieron a la regulación ambiental federal como una intromisión que aumentaría los costos y reduciría la competitividad. Los ambientalistas argumentaron que el mercado nunca fijaría adecuadamente el precio del daño ambiental, requiriendo intervención gubernamental.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.13,
+        "b": 1.4,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u10-028",
+      "stem": "Rachel Carson's 'Silent Spring' (1962) is credited with launching the modern environmental movement. Evaluating its impact, which of the following best describes the mechanism by which a book transformed policy?",
+      "stemEs": "La 'Primavera Silenciosa' (1962) de Rachel Carson es acreditada con el lanzamiento del movimiento ambientalista moderno. Evaluando su impacto, ¿cuál de las siguientes opciones describe mejor el mecanismo por el cual un libro transformó las políticas?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Carson's book directly convinced Congress to ban DDT by providing legislators with technical evidence they could not find elsewhere.",
+          "textEs": "El libro de Carson convenció directamente al Congreso de prohibir el DDT al proporcionar a los legisladores evidencia técnica que no podían encontrar en ningún otro lugar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Silent Spring worked by creating a moral framework that persuaded chemical industry executives to voluntarily stop producing DDT and other harmful pesticides.",
+          "textEs": "La Primavera Silenciosa funcionó creando un marco moral que persuadió a los ejecutivos de la industria química a dejar de producir voluntariamente DDT y otros pesticidas dañinos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "By translating scientific evidence into accessible public narrative, Carson created the public alarm and political pressure needed to delegitimize corporate claims and build institutional support for environmental regulation.",
+          "textEs": "Al traducir la evidencia científica en una narrativa pública accesible, Carson creó la alarma pública y la presión política necesarias para deslegitimar las afirmaciones corporativas y construir apoyo institucional para la regulación ambiental.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Silent Spring proved that scientific consensus alone was sufficient to change policy, demonstrating that facts—not political organizing—drive environmental progress.",
+          "textEs": "La Primavera Silenciosa demostró que el consenso científico por sí solo era suficiente para cambiar las políticas, demostrando que los hechos—no la organización política—impulsan el progreso ambiental.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Silent Spring worked by translating complex scientific evidence about DDT's ecological effects into accessible narrative that created public alarm, which in turn created political pressure for regulatory change. Carson demonstrated that scientific experts and corporate interests had misled the public about pesticide safety. This combination of scientific evidence, public mobilization, and delegitimization of corporate claims created the political conditions for DDT's eventual ban (1972) and helped build the institutional infrastructure (Earth Day, EPA) for the environmental movement. Options A, B, and D either mischaracterize how the book worked or overstate direct legislative causation.",
+      "explanationEs": "La Primavera Silenciosa funcionó al traducir evidencia científica compleja sobre los efectos ecológicos del DDT en una narrativa accesible que creó alarma pública, que a su vez creó presión política para el cambio regulatorio. Carson demostró que los expertos científicos y los intereses corporativos habían engañado al público sobre la seguridad de los pesticidas. Esta combinación de evidencia científica, movilización pública y deslegitimación de las afirmaciones corporativas creó las condiciones políticas para la eventual prohibición del DDT (1972) y ayudó a construir la infraestructura institucional del movimiento ambientalista.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.04,
+        "b": 1.66,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "dok3-gen-u10-029",
+      "stem": "The first Earth Day in 1970 drew 20 million Americans into the streets. Which of the following best explains why environmental consciousness emerged so powerfully as a political force at this particular moment in American history?",
+      "stemEs": "El primer Día de la Tierra en 1970 llevó a 20 millones de estadounidenses a las calles. ¿Cuál de las siguientes opciones explica mejor por qué la conciencia ambiental surgió con tanta fuerza como una fuerza política en este momento particular de la historia estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A convergence of visible environmental crises, post-war industrial pollution reaching critical thresholds, and movement infrastructure from civil rights and anti-war organizing created the conditions for mass environmental mobilization.",
+          "textEs": "Una convergencia de crisis ambientales visibles, contaminación industrial de posguerra que alcanzaba umbrales críticos, e infraestructura de movimientos del activismo de derechos civiles y antibelicista creó las condiciones para la movilización ambiental masiva.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "President Nixon's strong personal commitment to environmentalism inspired ordinary Americans to take political action to support his proposed EPA legislation.",
+          "textEs": "El fuerte compromiso personal del presidente Nixon con el ambientalismo inspiró a los estadounidenses ordinarios a tomar acción política para apoyar su legislación propuesta para la EPA.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The environmental movement emerged primarily as a response to suburban sprawl, as middle-class homeowners sought to protect property values from industrial development.",
+          "textEs": "El movimiento ambiental surgió principalmente como respuesta a la expansión suburbana, ya que los propietarios de clase media buscaban proteger el valor de sus propiedades frente al desarrollo industrial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Earth Day was primarily a youth-led rejection of their parents' consumerist values, with little connection to concrete environmental problems or policy demands.",
+          "textEs": "El Día de la Tierra fue principalmente un rechazo liderado por jóvenes de los valores consumistas de sus padres, con poca conexión con problemas ambientales concretos o demandas de políticas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The convergence of visible environmental crises (the 1969 Santa Barbara oil spill, the Cuyahoga River fire), post-war industrial pollution reaching visible thresholds in American cities, the organizational infrastructure of the civil rights and anti-war movements that taught mass protest techniques, and the counterculture's critique of industrial consumerism all converged in 1970. Silent Spring had already shifted public opinion. These structural conditions—not simply a spontaneous awakening—explain Earth Day's scale. Options B, C, and D identify real elements but do not capture the full convergence.",
+      "explanationEs": "La convergencia de crisis ambientales visibles (el derrame de petróleo de Santa Bárbara en 1969, el incendio del río Cuyahoga), la contaminación industrial de posguerra que alcanzaba umbrales visibles en las ciudades estadounidenses, la infraestructura organizativa de los movimientos de derechos civiles y antibelicista que enseñó técnicas de protesta masiva, y la crítica de la contracultura al consumismo industrial convergieron en 1970. Estas condiciones estructurales—no simplemente un despertar espontáneo—explican la escala del Día de la Tierra.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.86,
+        "b": 0.55,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U10-DOK3-0008",
+      "stem": "Which best explains the primary foreign policy challenge the Arab Spring of 2010–2011 posed for the United States? H The popular uprisings created direct pressure on the United States to support democratic movements, even when doing so threatened stable relationships with allied authoritarian governments. B. The Arab Spring demonstrated that prior American military interventions in the region had created power vacuums that made regional governments too fragile to maintain order. C. The uprisings were primarily driven by anti-American sentiment, requiring the United States to reduce its military and diplomatic footprint across North Africa and the Middle East. D. The Arab Spring revealed that American intelligence agencies had completely failed to monitor the political stability of allied governments in the region. CORRECT ANSWER",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The popular uprisings created direct pressure on the United States to support democratic movements, even when doing so threatened stable relationships with allied authoritarian governments.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Arab Spring demonstrated that prior American military interventions in the region had created power vacuums that made regional governments too fragile to maintain order.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The uprisings were primarily driven by anti-American sentiment, requiring the United States to reduce its military and diplomatic footprint across North Africa and the Middle East.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Arab Spring revealed that American intelligence agencies had completely failed to monitor the political stability of allied governments in the region.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Egypt illustrates the dilemma: Mubarak was a long-standing American ally essential to the Camp David framework, yet his population was demanding democratic change. Supporting him meant opposing democratic values; supporting the protesters meant potentially destabilizing a cornerstone of regional security.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PS-0097",
+      "stem": "Read the excerpt below.\n\n\"Give me your tired, your poor, your huddled masses yearning to breathe free.\" — Emma Lazarus, 'The New Colossus,' inscribed on the Statue of Liberty, 1883\n\nCompare this inscription to the following: \"A Nation without borders is not a Nation at all. We must protect our people, our culture, and our jobs from those who would take them.\" — Political Speech, 2016\n\nWhich of the following best analyzes how these two statements reflect the modern immigration debate?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Lazarus supported accepting refugees while the 2016 speaker opposed economic immigration — they were actually in agreement on most immigration issues.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Lazarus wrote before immigration was regulated, so her statement has no relevance to the modern legal immigration debate.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both statements ultimately agree that immigration should be welcomed but regulated through legal channels.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The two statements reflect a core tension in American identity: the ideal of the U.S. as an immigrant nation versus restrictionist concerns about borders, culture, and jobs.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The two statements represent the central tension in the American immigration debate: the traditional ideal of the United States as a nation of immigrants and a refuge for the oppressed (Lazarus) versus the restrictionist view that prioritizes national security, cultural preservation, and economic protection of existing citizens (the 2016 speech). This tension reflects a genuine values conflict about American national identity — whether the U.S. is defined by its openness to immigration or by the interests of its current citizens. Option A is incorrect because Lazarus was not specifically addressing asylum seekers versus economic migrants. Option B is incorrect because Lazarus's poem was written in 1883, long before modern immigration policy. Option C is incorrect because the two statements directly contradict each other on immigration.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.5,
+        "c": 0.18
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PS-0098",
+      "stem": "Read the excerpt below.\n\n\"Unauthorized immigrants do not just take jobs — they contribute to Social Security, pay sales taxes, and often start businesses. The economic case for mass deportation is not supported by the evidence.\" — Congressional Budget Office Report, 2007\n\nAnalyze this excerpt as evidence in the immigration debate. Which of the following most accurately describes a challenge in evaluating claims about immigration's economic impact?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Government reports on immigration are generally unreliable because they are politically motivated.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Immigration's economic effects vary by sector, skill level, and region, making it difficult to reach simple conclusions that apply to all workers or communities.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The economic impact of immigration is unknowable because unauthorized immigrants do not file taxes or participate in legal economic systems.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The CBO's findings settle the economic debate about immigration, making further study unnecessary.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Evaluating immigration's economic impact is genuinely complex because the effects vary significantly by sector, skill level, geographic region, and time period. The same data can be used to support competing conclusions: unauthorized immigrants contribute economically AND some industries face wage pressure from immigrant labor. The challenge in evaluating such claims is that economic effects are not uniform — some workers and communities benefit while others face increased competition. Option A is incorrect because government reports like CBO are generally considered credible, evidence-based sources. Option C is incorrect because immigration's economic impact has been extensively studied. Option D is incorrect because one CBO report does not settle all aspects of the debate.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.6,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "PS-0099",
+      "stem": "Read the excerpt below.\n\n\"The DREAM Act would provide a path to citizenship for young people who were brought to this country as children, through no choice of their own. They know no other home. They are as American as anyone born here.\" — Senator Dick Durbin, Senate Floor Speech, 2010\n\nWhich of the following best evaluates the constitutional argument for and against legislation like the DREAM Act?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Supporters cite the 14th Amendment's equal protection and congressional naturalization authority; opponents argue it rewards illegal immigration and exceeds federal power.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The 10th Amendment gives states exclusive authority over immigration, making any federal legislation unconstitutional.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Only the President has constitutional authority to grant or deny citizenship, making legislation like the DREAM Act unconstitutional.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The constitutional arguments are irrelevant because immigration law is a political question courts will not review.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The DREAM Act raised genuine constitutional tensions: supporters argued the 14th Amendment's equal protection clause supports giving pathways to citizenship for those raised in the U.S., and that Congress has broad authority to set naturalization rules. Opponents argued that providing citizenship to those who entered illegally, even as children, rewards illegal immigration and exceeds congressional authority. The constitutional argument turns on whether children bear responsibility for their parents' actions and what equal protection requires. Option B is incorrect because the 10th Amendment concerns state vs. federal power, not citizenship. Option C is incorrect because the debate is not about presidential power but congressional authority. Option D is incorrect because the constitutional issues are substantive, not merely about procedure.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 0.7,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "us-66-q11",
+      "stem": "The Gulf War's most significant long-term consequence was arguably —",
+      "stemEs": "The Guerra del Golfo's most significant long-term consequence was arguably:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The permanent democratization of Kuwait and the broader Middle East",
+          "textEs": "La democratización permanente de Kuwait y el Oriente Medio en general",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The complete elimination of Iraq as a military threat",
+          "textEs": "La eliminación completa de Irak como amenaza militar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The maintenance of U.S. military presence in Saudi Arabia after the war",
+          "textEs": "El mantenimiento de la presencia militar de los EE.UU. en Arabia Saudita después de la guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The strengthening of Iran as a regional power broker",
+          "textEs": "El fortalecimiento de Irán como intermediario regional de poder",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The maintenance of U.S. military presence in Saudi Arabia after the war. Choice B is wrong because it describes complete elimination of Iraq as a military threat, not maintenance of U.S. military presence in Saudi Arabia after the war. The Gulf War showed unmatched U.S. military power after the Cold War but also the limits of coalition war aims.",
+      "explanationEs": "The maintenance of U.S. military presence in Saudi Arabia after the war. Choice B is wrong because it describes complete elimination of Iraq as a military threat, not maintenance of U.S. military presence in Saudi Arabia after the war. The Guerra del Golfo showed unmatched U.S. military power after the Guerra Fría but also the limits of coalition war aims.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.13,
+        "b": 1.31,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    },
+    {
+      "id": "U8-DOK3-0019",
+      "stem": "The Persian Gulf War (1991) has been analyzed through three competing frameworks for post-Cold War American foreign policy: unipolar hegemony, selective national interest, and cooperative security. How does the Gulf War's actual conduct and outcome most accurately illustrate the complex relationship among these three frameworks operating simultaneously in practice?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Gulf War validated the unipolar hegemony model by demonstrating that only American military power could organize and execute a multinational coalition, conduct precision operations, and achieve decisive results — confirming that the post-Cold War international order fundamentally depended on the willingness and capacity of the United States to act as the indispensable enforcer.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Bush's construction of a UN-authorized coalition and his decision to halt the war at Kuwait's liberation rather than advancing to Baghdad demonstrated that even unipolar military dominance must operate within legitimating multilateral frameworks, and that coalition partners impose their own strategic constraints on what the leading power can accomplish.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Gulf War illustrated the simultaneous operation of all three frameworks without clean resolution: Bush assembled a multilateral coalition for legitimacy and burden-sharing, but American command and decision-making authority reflected unipolar reality, while the decision not to pursue Saddam to Baghdad reflected selective national interest calculation — demonstrating that American foreign policy in practice rarely conforms to a single strategic paradigm.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Gulf War's operational success and strategic limitations — particularly the failure to establish durable regional stability — validated the selective national interest model, since the war demonstrated that clearly defined limited objectives achieved through overwhelming force are more reliably attainable than the ambitious nation-building or regional architecture that broader strategic frameworks require.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.85"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Gulf War is particularly useful for foreign policy analysis because it embodied all three frameworks simultaneously rather than cleanly instantiating one: multilateral coalition and UN mandate represented cooperative security; American command and technology represented unipolar military reality; and the war termination decision reflected selective interest calculation — making it a case study in the complexity of translating strategic frameworks into policy.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.87"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.87->US.85 unchanged"
+        ]
+      }
+    }
+  ]
+}

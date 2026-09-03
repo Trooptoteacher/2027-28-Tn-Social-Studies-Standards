@@ -1,0 +1,1349 @@
+{
+  "$comment": "Backward design. Nothing gets written until this exists. The bank is MEASURED against this file per standard, per DOK, per item type, and drift fails in EITHER direction. Writing items first and describing the coverage afterward produces a bank that is 70% DOK-1 recall and reads as complete.",
+  "blueprintVersion": 1,
+  "course": "us-history-geography",
+  "standardsPrefix": "US",
+  "standardsYear": "2027-28",
+  "status": "DRAFT — defaults proposed by build, not yet approved by Sean Reynolds",
+  "rationale": {
+    "itemCount": "6 per standard = enough to build two non-overlapping 3-item forms per standard.",
+    "dokSpread": "2/2/1/1 puts 33% at DOK-1. The failure mode this resists is a bank that drifts to 70% recall; the gate fails a standard that is over OR under on any level.",
+    "itemType": "4 selected-response + 1 constructed + 1 document-based keeps a DBQ tier on every standard."
+  },
+  "defaults": {
+    "itemCount": 6,
+    "dok": {
+      "1": 2,
+      "2": 2,
+      "3": 1,
+      "4": 1
+    },
+    "itemType": {
+      "mcq": 4,
+      "constructed-response": 1,
+      "document-based": 1
+    }
+  },
+  "perStandard": {
+    "US.01": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.02": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.03": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.04": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.05": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.06": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.07": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.08": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.09": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.10": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.11": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.12": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.13": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.14": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.15": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.16": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.17": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.18": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.19": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.20": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.21": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.22": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.23": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.24": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.25": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.26": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.27": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.28": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.29": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.30": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.31": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.32": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.33": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.34": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.35": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.36": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.37": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.38": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.39": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.40": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.41": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.42": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.43": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.44": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.45": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.46": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.47": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.48": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.49": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.50": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.51": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.52": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.53": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.54": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.55": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.56": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.57": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.58": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.59": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.60": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.61": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.62": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.63": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.64": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.65": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.66": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.67": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.68": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.69": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.70": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.71": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.72": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.73": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.74": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.75": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.76": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.77": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.78": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.79": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.80": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.81": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.82": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.83": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.84": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.85": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.86": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.87": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.88": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.89": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.90": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.91": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.92": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.93": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    },
+    "US.94": {
+      "itemCount": 6,
+      "dok": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "itemType": {
+        "mcq": 4,
+        "constructed-response": 1,
+        "document-based": 1
+      }
+    }
+  },
+  "totals": {
+    "standards": 94,
+    "items": 564
+  }
+}
