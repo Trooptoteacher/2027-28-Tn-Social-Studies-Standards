@@ -1,0 +1,129 @@
+{
+  "items": [
+    {
+      "id": "US.05-GEN-01",
+      "stem": "What did the Dawes Act of 1887 do to tribal land?",
+      "stemEs": "¿Qué hizo la Ley Dawes de 1887 con las tierras tribales?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "dokLevel": 1,
+      "dokRationale": "The student retrieves what one named act did. A single recalled fact, which is DOK-1; explaining how allotment reduced tribal holdings would be DOK-2.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It returned land taken under earlier treaties to tribal governments",
+          "textEs": "Devolvió a los gobiernos tribales las tierras tomadas en tratados anteriores",
+          "explanation": "Federal policy moved the other way in this period. No general restoration of treaty land occurred until the 1934 Indian Reorganization Act.",
+          "misconception": "reverses the direction of federal land policy in this period"
+        },
+        {
+          "id": "B",
+          "text": "It set aside reservation land as permanent federal wilderness reserve",
+          "textEs": "Reservó las tierras de reserva como reserva forestal federal permanente",
+          "explanation": "Conservation reserves were a separate policy under Theodore Roosevelt, two decades later and unrelated to allotment.",
+          "misconception": "confuses allotment policy with federal conservation"
+        },
+        {
+          "id": "C",
+          "text": "It divided reservation land into individual family allotments",
+          "textEs": "Dividió las tierras de reserva en parcelas familiares individuales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It granted tribal councils authority to sell land to settlers",
+          "textEs": "Otorgó a los consejos tribales autoridad para vender tierras a los colonos",
+          "explanation": "Allotment was imposed by federal statute, not delegated to tribal councils; the surplus was sold by the government.",
+          "misconception": "attributes federal action to tribal decision-making"
+        }
+      ],
+      "standardCodes": [
+        "US.05"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Allotment broke communal holdings into individually owned parcels, and the land left over was sold. Tribal holdings fell from roughly 138 million acres in 1887 to about 48 million by 1934.",
+      "explanationEs": "La asignación dividió las tierras comunales en parcelas individuales y vendió el excedente. Las tierras tribales pasaron de unos 138 millones de acres en 1887 a unos 48 millones en 1934.",
+      "translationStatus": "needs-review",
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.05.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      },
+      "requiresHistorianReview": true
+    },
+    {
+      "id": "US.05-GEN-02",
+      "stem": "Boarding schools for American Indians were designed primarily to —",
+      "stemEs": "Los internados para indígenas americanos fueron diseñados principalmente para —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "dokLevel": 1,
+      "dokRationale": "The student recalls the stated purpose of a named institution. One retrieved fact, which is DOK-1.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Preserve tribal languages through formal written instruction",
+          "textEs": "Preservar las lenguas tribales mediante instrucción escrita formal",
+          "explanation": "Students were punished for speaking their languages. Preservation is the opposite of the schools' stated aim.",
+          "misconception": "reverses the schools' stated purpose"
+        },
+        {
+          "id": "B",
+          "text": "Replace tribal culture with white American customs and language",
+          "textEs": "Reemplazar la cultura tribal por costumbres y lengua angloamericanas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Train students for skilled positions in the federal Indian Service",
+          "textEs": "Formar estudiantes para puestos calificados en el Servicio Indígena federal",
+          "explanation": "Vocational training was offered, but it was a method of assimilation rather than the purpose, and led mostly to manual work.",
+          "misconception": "mistakes a method of assimilation for its purpose"
+        },
+        {
+          "id": "D",
+          "text": "Prepare tribal leaders to negotiate treaties with the United States",
+          "textEs": "Preparar a líderes tribales para negociar tratados con Estados Unidos",
+          "explanation": "Treaty-making with tribes had ended by statute in 1871, before the boarding-school system expanded.",
+          "misconception": "assumes treaty-making continued through the boarding-school era"
+        }
+      ],
+      "standardCodes": [
+        "US.05"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The schools removed children from their families to strip tribal identity — Carlisle's founder summarised the aim as killing the Indian to save the man. Language, dress and names were forcibly replaced.",
+      "explanationEs": "Las escuelas separaban a los niños de sus familias para eliminar la identidad tribal. Se reemplazaban por la fuerza la lengua, la vestimenta y los nombres.",
+      "translationStatus": "needs-review",
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.05.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      },
+      "requiresHistorianReview": true
+    }
+  ],
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.05",
+  "status": "authored",
+  "disclosure": "classroom-formative · pre-field-test"
+}

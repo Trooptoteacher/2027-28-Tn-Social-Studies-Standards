@@ -350,6 +350,49 @@ check("readiness and the builder agree on the ladder",
       [t["id"] for t in _form["tiers"]]
       == ["full", "extended", "extended-dok3", "selected-response"])
 
+# ── a gate must be SATISFIABLE ──────────────────────────────────────────
+print("\n  choice-length-cue — a gate that cannot be satisfied is worse than no gate")
+def mcq_set(n, key_longest):
+    out = []
+    for i in range(n):
+        it = fixtures.item(id=f"CL-{i}", standardCodes=["US.05"],
+                           stem="Why did the Dawes Act divide reservation land?")
+        fixtures._sync_key(it, "ABCD"[i % 4])
+        long_is_key = i < key_longest
+        for c in it["choices"]:
+            hit = (c["id"] == it["correctAnswer"]) if long_is_key else (c["id"] != it["correctAnswer"])
+            c["text"] = "word " * (12 if hit else 4)
+        out.append(it)
+    return out
+
+r = content.gate_choice_length_cue(mcq_set(2, 0), B)
+check("a 2-item set is N/A — the tolerance band is unreachable at that size",
+      bool(r.inapplicable), f"status={r.status!r}")
+check("the reason says the proportion cannot land in the band",
+      "cannot land inside the tolerance band" in r.inapplicable, r.inapplicable)
+check("N/A here is not counted as a pass", not r.counts_as_pass)
+r = content.gate_choice_length_cue(mcq_set(8, 2), B)
+check("an 8-item set at 25% PASSES", r.passed, r.note)
+check("an 8-item set at 100% FAILS",
+      not content.gate_choice_length_cue(mcq_set(8, 8), B).passed)
+check("an 8-item set at 0% FAILS (the reverse cue still holds)",
+      not content.gate_choice_length_cue(mcq_set(8, 0), B).passed)
+
+# ── the admission loop refuses before it admits ─────────────────────────
+print("\n  submit_items — generation is gated BEFORE admission, not reviewed after")
+import submit_items as _si
+names = [g.__name__ for g in _si.ADMISSION_GATES]
+check("the admission gates include alignment, distractors and the cue",
+      {"gate_standard_relevance", "gate_distractor_coverage",
+       "gate_choice_length_cue"} <= set(names), f"got {names}")
+check("review-provenance is NOT an admission gate (a draft has none yet)",
+      "gate_review_provenance" not in names)
+check("it refuses an empty draft",
+      "refusing to report a successful submission of nothing" in
+      open(os.path.join(BANK, "tools", "submit_items.py"), encoding="utf-8").read())
+check("it checks a draft stem against the whole bank for duplicates",
+      hasattr(_si, "dedupe_against_bank"))
+
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
 for f in FAILED:

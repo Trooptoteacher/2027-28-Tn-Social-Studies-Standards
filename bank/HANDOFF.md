@@ -68,7 +68,7 @@ can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **48 lessons, 104 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **50 lessons, 109 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -117,7 +117,33 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
 - **No gate can check historical accuracy.** Every authored rationale is a claim. That is
   what `requiresHistorianReview` is for.
 
-## 8. To continue the loop
+## 8. Standard-first generation — the answer to "repair or rebuild"
+
+The old bank was written **item-first** and filed against standards afterward. That is why
+42% of it names nothing that identifies its standard. Authoring **from** the standard makes
+alignment true by construction, and removes that entire class of defect.
+
+```bash
+python3 tools/generation_brief.py US.05          # the brief: standard, signals, slots, rules
+# author generation/US.05.draft.json
+python3 tools/submit_items.py generation/US.05.draft.json --apply
+```
+
+**Generation is gated BEFORE admission, not reviewed after.** `submit_items.py` runs twelve
+item-level gates plus an id/stem collision check against the whole bank, and a draft that
+fails any of them **does not enter**. It names what to fix and you regenerate.
+
+This matters because the migrated bank *was* built to a real specification — IRT parameters
+on 100% of 5,045 items, DOK levels on 100%, blueprint structure, item-writing conventions —
+and still shipped the key as the longest choice 53% of the time, 920 explanations restating
+the key, and DOK rationales on 8.7%. **The spec was satisfied in form and not in substance,
+and nothing measured the difference.** A parameter present in a field looks identical to a
+parameter that means something.
+
+What reaches you afterward is only what no gate can judge: **is the history right, and is
+this a question you would give your students?** Everything else is enforced.
+
+## 9. To continue the loop
 
 **55 of 94 standards can build a form. 1,539 authoring units to green them all.**
 Cheapest next: US.25 (23) · US.26 (24) · US.27 (24) · US.38 (24) · US.61 (24).
@@ -138,7 +164,7 @@ Per form, the recipe that produced both green ones:
 The skill `.claude/skills/tn-assessment-bank/SKILL.md` carries this discipline into a new
 session.
 
-## 9. Honest note
+## 10. Honest note
 
 Four consecutive rounds each found a defect that invalidated an earlier "green". They
 narrowed — from *the system measures the wrong thing* to *which text counts as evidence* —

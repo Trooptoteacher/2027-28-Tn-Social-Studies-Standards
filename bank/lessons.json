@@ -761,6 +761,40 @@
           "contains": "US.25 is weakly identifiable"
         }
       ]
+    },
+    {
+      "id": "L49",
+      "mistake": "The choice-length gate was UNSATISFIABLE below four items. With n=2 the only possible shares are 0%, 50% and 100%, none of which falls in the 15-35% band, so a two-item draft could never pass however it was written. A gate that cannot be satisfied is worse than no gate: it blocks work rather than catching a defect, and it is the L05/L33 lesson in the one shape that stops everything.",
+      "caughtBy": "the first clean generated draft being refused by a gate it could not satisfy",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "UNREACHABLE"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "the tolerance band is unreachable at that size"
+        }
+      ]
+    },
+    {
+      "id": "L50",
+      "mistake": "The migrated bank was generated against a REAL specification — IRT parameters on 100% of 5,045 items, DOK levels on 100%, blueprint structure, item-writing conventions — and still shipped the key as the longest choice 53% of the time, 920 explanations restating the key, and DOK rationales on 8.7%. The spec was satisfied in FORM and not in SUBSTANCE, and nothing measured the difference. A parameter present in a field is indistinguishable from a parameter that means something. That is why generation is now gated BEFORE admission rather than reviewed after: tools/submit_items.py refuses a draft that fails any item-level gate, and the draft does not enter the bank at all.",
+      "caughtBy": "measuring conformance against substance on a bank that was fully conformant",
+      "guards": [
+        {
+          "file": "tools/submit_items.py",
+          "contains": "satisfied in FORM and not in SUBSTANCE"
+        },
+        {
+          "file": "tools/generation_brief.py",
+          "contains": "true by construction"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "generation is gated BEFORE admission"
+        }
+      ]
     }
   ]
 }

@@ -10,25 +10,25 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 | Gate | Result | Scanned | Judged | Findings |
 |---|---|---|---|---|
-| `record-complete` | **FAIL** | 3986 | — | 3844 |
-| `binding` | **PASS** | 3986 | — | 0 |
-| `key-integrity` | **PASS** | 3986 | — | 0 |
-| `distractor-coverage` | **FAIL** | 3986 | 3844 | 22944 |
-| `truncation` | **FAIL** | 3986 | — | 91 |
-| `blueprint-conformance` | **FAIL** | 1890 | — | 25 |
-| `blueprint-achievability` | **FAIL** | 1890 | 94 | 39 |
-| `key-position-debias` | **PASS** | 3821 | — | 0 |
-| `serveability` | **FAIL** | 3956 | — | 998 |
-| `reporting-category-provenance` | **PASS** | 3986 | — | 0 |
-| `alignment-claim` | **PASS** | 3986 | 3625 | 0 |
-| `choice-length-cue` | **FAIL** | 3986 | 3821 | 1 |
-| `duplicate-stems` | **PASS** | 3986 | 3956 | 0 |
-| `citation-integrity` | **PASS** | 3986 | 35 | 0 |
-| `translation-claim` | **PASS** | 3986 | 3471 | 0 |
-| `explanation-quality` | **FAIL** | 3986 | 3956 | 918 |
-| `embedded-answer-key` | **PASS** | 3986 | 3956 | 0 |
-| `review-provenance` | **PASS** | 3986 | 24 | 0 |
-| `release-readiness` | **FAIL** | 3956 | — | 6 |
+| `record-complete` | **FAIL** | 3988 | — | 3844 |
+| `binding` | **PASS** | 3988 | — | 0 |
+| `key-integrity` | **PASS** | 3988 | — | 0 |
+| `distractor-coverage` | **FAIL** | 3988 | 3846 | 22944 |
+| `truncation` | **FAIL** | 3988 | — | 91 |
+| `blueprint-conformance` | **FAIL** | 1892 | — | 25 |
+| `blueprint-achievability` | **FAIL** | 1892 | 94 | 39 |
+| `key-position-debias` | **PASS** | 3823 | — | 0 |
+| `serveability` | **FAIL** | 3958 | — | 998 |
+| `reporting-category-provenance` | **PASS** | 3988 | — | 0 |
+| `alignment-claim` | **PASS** | 3988 | 3627 | 0 |
+| `choice-length-cue` | **FAIL** | 3988 | 3823 | 1 |
+| `duplicate-stems` | **PASS** | 3988 | 3958 | 0 |
+| `citation-integrity` | **PASS** | 3988 | 35 | 0 |
+| `translation-claim` | **PASS** | 3988 | 3473 | 0 |
+| `explanation-quality` | **FAIL** | 3988 | 3958 | 918 |
+| `embedded-answer-key` | **PASS** | 3988 | 3958 | 0 |
+| `review-provenance` | **PASS** | 3988 | 24 | 0 |
+| `release-readiness` | **FAIL** | 3958 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 17 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 49816 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 6 | 0 |
@@ -48,7 +48,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 ## Bank
 
 - Source: **5,045** items from the 2026-27 `history-hack-web-app` bank
-- Servable: **3956** (3416 migrated, 516 provisional)
+- Servable: **3958** (3416 migrated, 516 provisional)
 - Quarantined (not servable, not coverage): **1059**
   - 929 — standard retired / no 2027-28 home
   - 130 — tests an element the 2027-28 standard dropped

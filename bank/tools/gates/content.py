@@ -151,8 +151,23 @@ def gate_choice_length_cue(items, binding=None) -> Result:
         longest = max(ch, key=lambda c: len(c["text"]))
         if longest.get("id") == it["correctAnswer"]:
             cohorts[k][0] += 1
+    # Below four items the tolerance band is UNREACHABLE: with n=2 the only
+    # possible shares are 0%, 50% and 100%, so a two-item draft could never
+    # pass no matter how it was written. A gate that cannot be satisfied is
+    # worse than no gate — it is the "alarm that fires on the harmless" again,
+    # in the one shape that blocks work entirely.
+    MIN_COHORT = 4
+    if all(total < MIN_COHORT for _, total in cohorts.values()):
+        n = sum(t for _, t in cohorts.values())
+        return Result(name, True, len(items), [], judged=judged,
+                      inapplicable=f"only {n} selected-response item(s) — below {MIN_COHORT} "
+                                   f"the proportion cannot land inside the tolerance band, so "
+                                   f"there is no distribution to judge")
     findings, notes = [], []
     for k, (hits, total) in sorted(cohorts.items()):
+        if total < MIN_COHORT:
+            notes.append(f"{k}-choice n={total} (below {MIN_COHORT}, not judged)")
+            continue
         chance, share = 1.0 / k, hits / total
         notes.append(f"{k}-choice n={total} key-is-longest {share:.1%} (chance {chance:.0%})")
         # TWO-SIDED. Balancing a cued set down to 0% is also a cue — "the longest
@@ -331,6 +346,10 @@ def gate_translation_claim(items, binding=None) -> Result:
             findings.append(Finding(it.get("id", "?"),
                 f"claims translationStatus 'complete' but its Spanish is a {d} — a bilingual "
                 f"claim is an accessibility claim", it.get("_file", "")))
+    if judged == 0:
+        return Result(name, True, len(items), [], judged=0,
+                      inapplicable="no item in this set carries any Spanish field, so there "
+                                   "is no bilingual claim to check")
     return Result(name, not findings, len(items), findings, judged=judged,
                   note=f"{counts.get('untranslated-copy', 0)} untranslated copy, "
                        f"{counts.get('pseudo-translation', 0)} pseudo-translation, "
