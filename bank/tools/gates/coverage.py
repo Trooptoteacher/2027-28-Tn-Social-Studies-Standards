@@ -26,12 +26,14 @@ def gate_blueprint(items, binding=None) -> Result:
     with open(binding.blueprint_file, encoding="utf-8") as fh:
         bp = json.load(fh)
     per = bp["perStandard"]
-    live = [i for i in items if itemio.servable(i)]
+    # Coverage counts only items whose alignment is established. An `unverified`
+    # item is kept and usable; it is not evidence that a standard is covered.
+    live = [i for i in items if itemio.aligned(i)]
     if not live:
         return Result(name, False, len(items),
-                      [Finding("(none)", "no servable items — every item is quarantined or "
-                                         "unauthored, so measured coverage is zero")],
-                      note="EMPTY SCAN after servability filter")
+                      [Finding("(none)", "no items with established alignment — measured "
+                                         "coverage is zero")],
+                      note="EMPTY SCAN after alignment filter")
 
     by_std = collections.defaultdict(list)
     for it in live:
@@ -53,7 +55,9 @@ def gate_blueprint(items, binding=None) -> Result:
             if gt.get(typ, 0) != n:
                 findings.append(Finding(code, f"itemType {typ!r} count {gt.get(typ, 0)} != blueprint {n}"))
     return Result(name, not findings, len(live), findings,
-                  note=f"{len(by_std)}/{len(per)} standards have >=1 servable item")
+                  note=f"{len(by_std)}/{len(per)} standards have >=1 aligned item "
+                       f"({sum(1 for i in items if itemio.servable(i) and not itemio.aligned(i))} "
+                       f"servable items kept but not counted)")
 
 
 # ------------------------------------------------------ answer-position bias
@@ -284,6 +288,12 @@ def gate_release_readiness(items, binding=None) -> Result:
         findings.append(Finding("blueprint",
             f"blueprint status is {bp.get('status')!r} — not signed off by the course owner"))
 
+    unver = [i for i in live if i.get("alignmentStatus") == "unverified"]
+    if unver:
+        findings.append(Finding("alignment",
+            f"{len(unver)} item(s) are kept and usable but their alignment is unverified, so "
+            f"they are excluded from standards coverage. Not a defect in the items — a gap in "
+            f"what can be claimed about coverage."))
     prov = [i for i in live if i.get("status") == "provisional"]
     if prov:
         findings.append(Finding("alignment",

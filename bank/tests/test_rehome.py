@@ -99,8 +99,21 @@ import itemio
 items = itemio.load_dir(REAL.output_dir)
 judged, flagged = content.relevance_scan(items, REAL)
 r = content.gate_standard_relevance(items, REAL)
-check("gate findings == relevance_scan flags (they once disagreed by 437)",
-      len(r.findings) == len(flagged), f"gate={len(r.findings)} scan={len(flagged)}")
+flagged_ids = {i["id"] for i, _, _ in flagged}
+# The gate no longer fails on every flagged item — an item honestly marked
+# `unverified` is kept and passes. What must hold is that both read ONE
+# definition of relevance: every gate finding is an item the scan flagged.
+gate_ids = {str(f).split(" ")[0].rstrip(":") for f in r.findings}
+check("every gate finding is an item relevance_scan flagged (one shared definition)",
+      gate_ids <= flagged_ids, f"gate-only ids: {sorted(gate_ids - flagged_ids)[:5]}")
+check("a flagged item that CLAIMS evidence does produce a gate finding",
+      bool(content.gate_standard_relevance(
+          [dict(next(i for i, _, _ in flagged), alignmentStatus="evidenced")],
+          REAL).findings))
+check("the same item marked unverified produces none — kept, not a defect",
+      not content.gate_standard_relevance(
+          [dict(next(i for i, _, _ in flagged), alignmentStatus="unverified")],
+          REAL).findings)
 check("relevance_scan on an empty bank flags nothing and judges nothing",
       content.relevance_scan([], REAL) == (0, []))
 

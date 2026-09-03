@@ -59,6 +59,8 @@ BASE = {
     "calibrationStatus": "pre-field-test",
     "bankTier": "teacher",
     "status": "authored",
+    # Alignment confidence is its own axis — see schema/item.schema.json.
+    "alignmentStatus": "evidenced",
     "image": None,
 }
 

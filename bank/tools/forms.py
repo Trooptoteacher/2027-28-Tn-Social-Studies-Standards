@@ -107,7 +107,10 @@ def select(items, standards, blueprint):
     """
     by_std = collections.defaultdict(list)
     for it in items:
-        if not itemio.servable(it):
+        # A standards-aligned form draws only from items whose alignment is
+        # established. Unverified items stay in the bank and stay usable; they
+        # just do not go on a form that claims to test a named standard.
+        if not itemio.aligned(it):
             continue
         for c in (it.get("standardCodes") or []):
             by_std[c].append(it)

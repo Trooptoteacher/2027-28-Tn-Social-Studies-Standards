@@ -245,7 +245,7 @@
         },
         {
           "file": "tests/test_content_gates.py",
-          "contains": "an off-standard item FAILS"
+          "contains": "an item CLAIMING 'evidenced' with no evidence FAILS"
         }
       ]
     },
@@ -320,7 +320,7 @@
         },
         {
           "file": "tests/test_rehome.py",
-          "contains": "gate findings == relevance_scan flags"
+          "contains": "one shared definition"
         }
       ]
     },
@@ -336,6 +336,29 @@
         {
           "file": "tests/test_rehome.py",
           "contains": "a name appearing only in the EXPLANATION cannot move an item"
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "mistake": "Content quality and ALIGNMENT CONFIDENCE were collapsed into one axis, so an unverified label read as a verdict on the question. 1,320 items with fully intact stems, choices, explanations and bilingual fields were described to the owner as items that could not be saved, when nothing had been deleted and every one was still usable. The owner caught it: 'The content is the same? It's just the alignment as my concern.' alignmentStatus is now its own field, and the gate fails a DISHONEST CLAIM rather than the existence of an unverified item.",
+      "caughtBy": "the owner, reading a status report that confused a label with a loss",
+      "guards": [
+        {
+          "file": "schema/item.schema.json",
+          "contains": "alignmentStatus"
+        },
+        {
+          "file": "tools/itemio.py",
+          "contains": "def aligned"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "kept, usable, honestly labelled"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "its CONTENT is untouched by the label"
         }
       ]
     }

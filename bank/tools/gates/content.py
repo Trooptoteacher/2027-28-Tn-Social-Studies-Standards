@@ -71,27 +71,50 @@ def relevance_scan(items, binding):
 
 
 def gate_standard_relevance(items, binding=None) -> Result:
-    """Every item names at least one element of the standard it is filed under.
+    """An item's ALIGNMENT CLAIM must be backed by evidence.
 
-    Measured against the standard's own content checklist — the words after
-    "including" — via the same signal matching the migration router uses.
-    Standards with no checklist are not judged, and the gate reports how many
-    it judged so that exemption cannot quietly become the whole bank.
+    This gate used to fail on every item that named nothing from its standard,
+    which treated an unverified label as a verdict on the question. It is not:
+    the content is intact and the item is kept and usable. What must never
+    happen is an item CLAIMING an alignment nobody established — that is the
+    "renders perfectly while testing the wrong standards" failure.
+
+    So: `evidenced` and `human-verified` must be backed. `rehomed` must carry
+    its move evidence. `unverified` is an honest label and passes — it simply
+    does not count toward standards coverage (see itemio.aligned).
     """
-    name = "standard-relevance"
+    name = "alignment-claim"
     if (r := empty_scan_guard(name, items)):
         return r
-    stds = binding.standards()
     judged, flagged = relevance_scan(items, binding)
-    findings = []
-    for it, codes, _ in flagged:
-        els = sorted({e for c in codes for e in alignment.elements(stds[c]["text"])})[:4]
-        findings.append(Finding(it.get("id", "?"),
-            f"names no element of {', '.join(codes)} — that standard asks about "
-            f"{els}; review whether the item is filed correctly", it.get("_file", "")))
+    flagged_ids = {it["id"] for it, _, _ in flagged}
     allow = _allowed()
+    findings, unverified = [], 0
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        st = it.get("alignmentStatus")
+        if st is None:
+            findings.append(Finding(it.get("id", "?"),
+                "no alignmentStatus — an item with no stated alignment confidence is a "
+                "silent claim", it.get("_file", "")))
+        elif st == "unverified":
+            unverified += 1
+        elif st in ("evidenced", "human-verified"):
+            if it["id"] in flagged_ids and it["id"] not in allow:
+                findings.append(Finding(it.get("id", "?"),
+                    f"claims alignmentStatus {st!r} to {', '.join(it.get('standardCodes') or [])} "
+                    f"but names nothing that identifies it — either re-home it, mark it "
+                    f"unverified, or record a human verification",
+                    it.get("_file", "")))
+        elif st == "rehomed":
+            if not (it.get("provenance") or {}).get("rehomed"):
+                findings.append(Finding(it.get("id", "?"),
+                    "marked rehomed but carries no move evidence in provenance",
+                    it.get("_file", "")))
     return Result(name, not findings, len(items), findings, judged=judged,
-                  note=f"{len(allow)} item(s) allowlisted by review")
+                  note=(f"{unverified} item(s) honestly marked unverified — kept and usable, "
+                        f"not counted as coverage; {len(allow)} allowlisted"))
 
 
 def gate_choice_length_cue(items, binding=None) -> Result:

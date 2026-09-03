@@ -44,56 +44,72 @@ print("=" * 74)
 print("CONTENT GATE PROOFS")
 print("=" * 74)
 
-# ── standard-relevance ───────────────────────────────────────────────────
-print("\n  standard-relevance")
-clean = [on_std(ON, id=f"T-{n}") for n in range(6)]
+# ── alignment claim ──────────────────────────────────────────────────────
+print("\n  alignment-claim — content quality and alignment confidence are separate axes")
+def A(it, st):
+    it["alignmentStatus"] = st
+    return it
+
+clean = [A(on_std(ON, id=f"T-{n}"), "evidenced") for n in range(6)]
 r = content.gate_standard_relevance(clean, B)
-check("an item naming its standard's element PASSES", r.passed,
+check("items whose evidence backs their claim PASS", r.passed,
       "; ".join(str(f) for f in r.findings[:2]))
-check("it actually judged the items (not exempted)", r.judged == 6, f"judged={r.judged}")
 
-bad = copy.deepcopy(clean)
-bad[2]["stem"] = OFF
-bad[2]["choices"] = [dict(c, text="Steel industry consolidation strategy.") for c in bad[2]["choices"]]
-bad[2]["explanation"] = "Carnegie bought suppliers at every stage of production."
-r = content.gate_standard_relevance(bad, B)
-check("an off-standard item FAILS", not r.passed)
-check("the finding names the item and what the standard asks about",
-      any("T-2" in str(f) and "Dawes Act" in str(f) for f in r.findings),
-      f"got {[str(f)[:100] for f in r.findings[:2]]}")
+off = copy.deepcopy(clean)
+off[2]["stem"] = OFF
+off[2]["choices"] = [dict(c, text="Steel industry consolidation.") for c in off[2]["choices"]]
+off[2]["explanation"] = "Carnegie bought suppliers at every stage of production."
+r = content.gate_standard_relevance(off, B)
+check("an item CLAIMING 'evidenced' with no evidence FAILS", not r.passed)
+check("the finding offers the three honest ways out",
+      any("mark it" in str(f) and "unverified" in str(f) for f in r.findings),
+      f"got {[str(f)[:110] for f in r.findings[:1]]}")
 
-# US.04 carries NO "including" checklist, but it names the Homestead Act in its
-# stem — so it IS judgeable. Matching the checklist alone was L21: it flagged
-# correctly-filed items whose standard names its subject before the "including".
+# The point of the whole redesign: an unverified item is KEPT, and honest.
+honest = copy.deepcopy(off)
+honest[2]["alignmentStatus"] = "unverified"
+r = content.gate_standard_relevance(honest, B)
+check("the same item marked 'unverified' PASSES — kept, usable, honestly labelled",
+      r.passed, "; ".join(str(f) for f in r.findings[:2]))
+check("the note says unverified items are kept and not counted as coverage",
+      "kept and usable" in r.note, r.note)
+check("its CONTENT is untouched by the label",
+      honest[2]["stem"] == OFF and bool(honest[2]["choices"])
+      and bool(honest[2]["explanation"]))
+
+silent = copy.deepcopy(clean)
+del silent[1]["alignmentStatus"]
+r = content.gate_standard_relevance(silent, B)
+check("an item with NO alignmentStatus FAILS (a silent claim)", not r.passed)
+
+fake = copy.deepcopy(clean)
+fake[0]["alignmentStatus"] = "rehomed"
+r = content.gate_standard_relevance(fake, B)
+check("'rehomed' without move evidence in provenance FAILS", not r.passed)
+fake[0]["provenance"] = {"rehomed": {"from": ["US.04"], "to": "US.05"}}
+check("'rehomed' WITH move evidence passes", content.gate_standard_relevance(fake, B).passed)
+
+check("EMPTY scan FAILS", not content.gate_standard_relevance([], B).passed)
+
+# US.04 names its subject in the stem, so it is judgeable (L21).
 r = content.gate_standard_relevance(
-    [on_std("How did the Homestead Act change western settlement?", code="US.04", id="H-1")], B)
+    [A(on_std("How did the Homestead Act change western settlement?", code="US.04", id="H-1"),
+       "evidenced")], B)
 check("a standard naming its subject in the STEM is judged, and a matching item passes",
       r.passed and r.judged == 1, f"status={r.status!r} judged={r.judged}")
 
-# A standard that names nothing at all genuinely cannot be judged, and that must
-# be reported rather than silently passed. US.22, US.65 and US.67 are the three.
-no_sig = [on_std("Anything at all about nothing in particular.", code="US.22", id=f"N-{n}")
+# A standard that names nothing cannot be judged at all.
+no_sig = [A(on_std("Anything at all.", code="US.22", id=f"N-{n}"), "not-applicable")
           for n in range(4)]
 r = content.gate_standard_relevance(no_sig, REAL_B)
-check("a standard that names NOTHING is NOT MEASURED, not passed",
-      not r.measured, f"status={r.status!r} judged={r.judged}")
-check("EMPTY scan FAILS", not content.gate_standard_relevance([], B).passed)
+check("a standard that names NOTHING is NOT MEASURED, not passed", not r.measured,
+      f"status={r.status!r} judged={r.judged}")
 
-# The allowlist is a reviewed decision, and it must actually work.
-import json
-AL = os.path.join(BANK, "reviewed", "relevance-allowlist.json")
-orig = open(AL, encoding="utf-8").read()
-try:
-    d = json.loads(orig)
-    d["items"] = {"T-2": "reviewed 2026-09-03: excerpt is on-standard; names no listed term"}
-    json.dump(d, open(AL, "w", encoding="utf-8"), indent=2)
-    r = content.gate_standard_relevance(bad, B)
-    check("an allowlisted item stops failing", r.passed,
-          "; ".join(str(f) for f in r.findings[:2]))
-    check("the allowlist count is reported", "1 item(s) allowlisted" in r.note, r.note)
-finally:
-    open(AL, "w", encoding="utf-8").write(orig)
-check("the allowlist file was restored", json.loads(open(AL, encoding="utf-8").read())["items"] == {})
+# Coverage must not count what alignment has not established.
+import itemio as _io
+check("an unverified item is servable but NOT counted toward coverage",
+      _io.servable(honest[2]) and not _io.aligned(honest[2]))
+check("an evidenced item counts toward coverage", _io.aligned(clean[0]))
 
 # ── choice-length cue ────────────────────────────────────────────────────
 print("\n  choice-length-cue")

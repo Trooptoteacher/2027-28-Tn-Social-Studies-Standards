@@ -74,12 +74,31 @@ carried the code faithfully. Structure gates are constitutionally unable to see 
 
 | Gate | Catches | Found on the migrated bank |
 |---|---|---|
-| `standard-relevance` | item names no element of its standard's checklist | **1,703** |
+| `alignment-claim` | an item CLAIMING an alignment nothing backs | **0** — all honestly labelled |
 | `choice-length-cue` | the key is the longest choice far above chance | **53.3%** vs 25% |
 | `duplicate-stems` | one question filed twice under two ids | **21 groups** |
 
-`standard-relevance` has a reviewed escape hatch — `reviewed/relevance-allowlist.json`,
-one committed decision per item. Never a loosened threshold.
+### Content quality and alignment confidence are separate axes
+
+Collapsing them let an unverified label read as a verdict on the question. It is not:
+1,320 items had fully intact stems, choices, explanations and bilingual fields and were
+nonetheless described as unsaveable. **Nothing has ever been deleted from this bank —
+all 5,045 migrated items are retained, and `quarantine/` is retention, not a bin.**
+
+`alignmentStatus` is its own field:
+
+| value | meaning |
+|---|---|
+| `evidenced` | the item names something that identifies its standard |
+| `rehomed` | moved on stem evidence, carrying that evidence, awaiting sign-off |
+| `human-verified` | a person confirmed it |
+| `unverified` | **kept and usable.** Alignment not established, so excluded from standards coverage and from standards-aligned forms — nothing more |
+| `not-applicable` | the standard names nothing matchable |
+
+The gate fails a **dishonest claim**, never the existence of an unverified item. An
+item may say "I don't know what standard this tests"; it may not say "I test US.05"
+when nothing supports that. `reviewed/relevance-allowlist.json` records human
+verification, one committed decision per item.
 
 **What these do NOT do:** they cannot tell you whether a stem's history is right. A
 wrong date, a key that is defensible but not best, a distractor that is accidentally

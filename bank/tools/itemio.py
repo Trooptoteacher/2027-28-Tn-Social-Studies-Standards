@@ -60,3 +60,16 @@ def servable(item: dict) -> bool:
 
 def student_facing(item: dict) -> bool:
     return item.get("bankTier") == "student"
+
+
+ALIGNED = {"evidenced", "rehomed", "human-verified"}
+
+
+def aligned(item: dict) -> bool:
+    """Counts toward STANDARDS COVERAGE and may appear on a standards-aligned form.
+
+    An `unverified` item is still servable content — it is kept, intact, and
+    usable. It simply may not be counted as evidence that a standard is covered,
+    because nobody has established that it tests that standard.
+    """
+    return servable(item) and item.get("alignmentStatus") in ALIGNED

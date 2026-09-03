@@ -15,14 +15,14 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `key-integrity` | **PASS** | 3986 | — | 0 |
 | `distractor-coverage` | **FAIL** | 3986 | 3844 | 23064 |
 | `truncation` | **FAIL** | 3986 | — | 100 |
-| `blueprint-conformance` | **FAIL** | 3986 | — | 671 |
+| `blueprint-conformance` | **FAIL** | 2529 | — | 656 |
 | `key-position-debias` | **PASS** | 3844 | — | 0 |
 | `serveability` | **FAIL** | 3986 | — | 1014 |
 | `reporting-category-provenance` | **PASS** | 3986 | — | 0 |
-| `standard-relevance` | **FAIL** | 3986 | 3849 | 1320 |
+| `alignment-claim` | **PASS** | 3986 | 3849 | 0 |
 | `choice-length-cue` | **FAIL** | 3986 | 3844 | 1 |
 | `duplicate-stems` | **FAIL** | 3986 | 3986 | 21 |
-| `release-readiness` | **FAIL** | 3986 | — | 6 |
+| `release-readiness` | **FAIL** | 3986 | — | 7 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 14 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 32983 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 6 | 0 |
@@ -30,7 +30,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `FORM-A/teacher-side-isolation` | **PASS** | 18 | 18 | 0 |
 | `all-gates-measured` | **PASS** | 18 | — | 0 |
 
-**10/19 pass.** Grade A requires all of them. "Close" is not "A."
+**11/19 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 

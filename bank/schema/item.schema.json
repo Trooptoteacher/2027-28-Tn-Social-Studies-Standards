@@ -5,57 +5,235 @@
   "$comment": "The gates read `required` from this file. One list, so schema and gates cannot drift apart.",
   "type": "object",
   "required": [
-    "id", "stem", "itemType", "correctAnswer", "dokLevel", "dokRationale",
-    "standardCodes", "standardsYear", "reportingCategory", "reportingCategorySource",
-    "explanation", "stemEs", "explanationEs", "translationStatus",
-    "calibrationStatus", "bankTier", "status"
+    "id",
+    "stem",
+    "itemType",
+    "correctAnswer",
+    "dokLevel",
+    "dokRationale",
+    "standardCodes",
+    "standardsYear",
+    "reportingCategory",
+    "reportingCategorySource",
+    "explanation",
+    "stemEs",
+    "explanationEs",
+    "translationStatus",
+    "calibrationStatus",
+    "bankTier",
+    "status",
+    "alignmentStatus"
   ],
   "properties": {
-    "id":       { "type": "string", "minLength": 1 },
-    "stem":     { "type": "string", "minLength": 1 },
-    "stemEs":   { "type": ["string", "null"] },
-    "itemType": { "enum": ["mcq", "constructed-response", "document-based", "extended-response", "short-answer"] },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stem": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stemEs": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "itemType": {
+      "enum": [
+        "mcq",
+        "constructed-response",
+        "document-based",
+        "extended-response",
+        "short-answer"
+      ]
+    },
     "choices": {
       "type": "array",
       "$comment": "Required for single-select types. Every wrong choice carries its own explanation naming the specific misconception it catches — distractors written to be merely wrong are noise.",
       "items": {
         "type": "object",
-        "required": ["id", "text", "textEs", "explanation", "misconception"],
+        "required": [
+          "id",
+          "text",
+          "textEs",
+          "explanation",
+          "misconception"
+        ],
         "properties": {
-          "id":            { "type": "string", "minLength": 1 },
-          "text":          { "type": "string", "minLength": 1 },
-          "textEs":        { "type": ["string", "null"] },
-          "explanation":   { "type": ["string", "null"] },
-          "misconception": { "type": ["string", "null"],
-                             "$comment": "Null on the key. Required and distinct on every distractor." }
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "textEs": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "explanation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "misconception": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "$comment": "Null on the key. Required and distinct on every distractor."
+          }
         }
       }
     },
-    "correctAnswer": { "type": ["string", "null"], "$comment": "Must name a choice id that exists." },
-    "dokLevel":      { "enum": [1, 2, 3, 4] },
-    "dokRationale":  { "type": "string", "minLength": 1,
-                       "$comment": "The check on the number. A DOK-2 label on a recall stem is the single most common defect and the number alone never reveals it." },
-    "standardCodes": { "type": "array", "minItems": 1, "items": { "type": "string" },
-                       "$comment": "Verbatim from the declared standards file, never typed from memory." },
-    "standardsYear": { "type": "string", "$comment": "Pinned. A code is not stable across years." },
-    "reportingCategory":       { "type": ["string", "null"] },
-    "reportingCategorySource": { "enum": ["tdoe-blueprint", "interim-district", "UNMAPPED"] },
-    "explanation":   { "type": "string", "minLength": 1,
-                       "$comment": "Why the key is right — not a restatement of it." },
-    "explanationEs": { "type": ["string", "null"] },
-    "translationStatus": { "enum": ["complete", "needs-review", "pending", "not-started"] },
-    "irtParameters": {
-      "type": ["object", "null"],
-      "properties": { "a": { "type": "number" }, "b": { "type": "number" }, "c": { "type": "number" } }
+    "correctAnswer": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "$comment": "Must name a choice id that exists."
     },
-    "calibrationStatus": { "enum": ["pre-field-test", "field-tested", "calibrated"],
-                           "$comment": "pre-field-test until real response data exists. Parameters that have never met a student are estimates." },
-    "bankTier": { "enum": ["student", "teacher", "retired"] },
-    "status":   { "enum": ["authored", "migrated", "provisional", "quarantined", "unauthored"],
-                  "$comment": "quarantined and unauthored are NOT servable and NOT counted as coverage." },
-    "image":    { "type": ["object", "null"],
-                  "required": ["src", "alt", "altEs"],
-                  "properties": { "src": { "type": "string" }, "alt": { "type": "string" }, "altEs": { "type": "string" } } },
-    "provenance": { "type": ["object", "null"] }
+    "dokLevel": {
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "dokRationale": {
+      "type": "string",
+      "minLength": 1,
+      "$comment": "The check on the number. A DOK-2 label on a recall stem is the single most common defect and the number alone never reveals it."
+    },
+    "standardCodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "$comment": "Verbatim from the declared standards file, never typed from memory."
+    },
+    "standardsYear": {
+      "type": "string",
+      "$comment": "Pinned. A code is not stable across years."
+    },
+    "reportingCategory": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reportingCategorySource": {
+      "enum": [
+        "tdoe-blueprint",
+        "interim-district",
+        "UNMAPPED"
+      ]
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 1,
+      "$comment": "Why the key is right — not a restatement of it."
+    },
+    "explanationEs": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "translationStatus": {
+      "enum": [
+        "complete",
+        "needs-review",
+        "pending",
+        "not-started"
+      ]
+    },
+    "irtParameters": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "a": {
+          "type": "number"
+        },
+        "b": {
+          "type": "number"
+        },
+        "c": {
+          "type": "number"
+        }
+      }
+    },
+    "calibrationStatus": {
+      "enum": [
+        "pre-field-test",
+        "field-tested",
+        "calibrated"
+      ],
+      "$comment": "pre-field-test until real response data exists. Parameters that have never met a student are estimates."
+    },
+    "bankTier": {
+      "enum": [
+        "student",
+        "teacher",
+        "retired"
+      ]
+    },
+    "status": {
+      "enum": [
+        "authored",
+        "migrated",
+        "provisional",
+        "quarantined",
+        "unauthored"
+      ],
+      "$comment": "The ITEM's lifecycle. quarantined and unauthored are not servable. Alignment confidence is a separate axis — see alignmentStatus."
+    },
+    "image": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "src",
+        "alt",
+        "altEs"
+      ],
+      "properties": {
+        "src": {
+          "type": "string"
+        },
+        "alt": {
+          "type": "string"
+        },
+        "altEs": {
+          "type": "string"
+        }
+      }
+    },
+    "provenance": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "alignmentStatus": {
+      "enum": [
+        "evidenced",
+        "rehomed",
+        "human-verified",
+        "unverified",
+        "not-applicable"
+      ],
+      "$comment": "Confidence in the item's STANDARD ALIGNMENT — deliberately separate from `status`, which is about the item itself. An item can be perfectly good content whose alignment nobody has verified; collapsing the two axes let an unverified label read as a verdict on the question. evidenced = the item names something that identifies its standard. rehomed = moved on stem evidence, awaiting sign-off. human-verified = a person confirmed it. unverified = KEPT AND USABLE, alignment not established — excluded from standards coverage and from standards-aligned forms, nothing more. not-applicable = the standard names nothing that can be matched."
+    }
   }
 }
