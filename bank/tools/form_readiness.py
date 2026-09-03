@@ -20,21 +20,29 @@ import itemio
 from gates import content
 
 
-def slots(want):
-    dok = []
-    for lvl, n in sorted(want["dok"].items()):
-        dok += [int(lvl)] * n
-    dok.sort()
-    out = []
-    for typ, n in sorted(want["itemType"].items(), key=lambda kv: -kv[1]):
-        out += [[typ, None]] * n
-    out = [[t, None] for t, _ in out]
-    for s, lvl in zip(out, dok):
-        s[1] = lvl
-    return out
+def reachable_tier(pool, form):
+    """The highest tier this pool can fill, and the items that fill it.
+
+    Shares the builder's ladder. This tool measured a FLAT blueprint and broke
+    silently when the blueprint became tiered — its CSV was regenerated with
+    output suppressed and the failure shipped.
+    """
+    for tier in form["tiers"]:
+        used, got = set(), []
+        for slot in tier["slots"]:
+            cand = [i for i in pool if i["id"] not in used
+                    and i.get("itemType") in slot["types"]
+                    and i.get("dokLevel") == slot["dok"]]
+            if not cand:
+                got = None
+                break
+            used.add(cand[0]["id"]); got.append(cand[0])
+        if got:
+            return tier, got
+    return None, []
 
 
-def cost(items, want):
+def cost(items, want=None):
     """Authoring needed to bring this selection to Grade A."""
     c = collections.Counter()
     for it in items:
@@ -68,8 +76,7 @@ def main():
     a = ap.parse_args()
     b = binding_mod.load(); print(b.declaration())
     with open(b.blueprint_file, encoding="utf-8") as fh:
-        want = (json.load(fh)).get("form")
-    plan = slots(want)
+        form = json.load(fh)["form"]
 
     # Same placement rule the FORM BUILDER uses — an item counts toward a
     # standard only if it is relevant to THAT standard. Two implementations of
@@ -90,17 +97,12 @@ def main():
     rows = []
     for code in sorted(b.valid_codes()):
         pool = sorted(by_std.get(code, []), key=lambda i: i["id"])
-        used, got = set(), []
-        for typ, lvl in plan:
-            cand = [i for i in pool if i["id"] not in used
-                    and i.get("itemType") == typ and i.get("dokLevel") == lvl] or \
-                   [i for i in pool if i["id"] not in used and i.get("itemType") == typ]
-            if cand:
-                used.add(cand[0]["id"]); got.append(cand[0])
-        buildable = len(got) == want["itemCount"]
-        c = cost(got, want) if buildable else collections.Counter()
+        tier, got = reachable_tier(pool, form)
+        buildable = tier is not None
+        c = cost(got) if buildable else collections.Counter()
         rows.append({"standard": code, "aligned": len(pool), "buildable": buildable,
-                     "shortBy": want["itemCount"] - len(got),
+                     "tier": tier["id"] if tier else "none",
+                     "dokCeiling": tier["dokCeiling"] if tier else None,
                      "distractorRationale": c["distractorRationale"],
                      "dokRationale": c["dokRationale"], "translation": c["translation"],
                      "explanationRewrite": c["explanationRewrite"],
@@ -110,18 +112,20 @@ def main():
     ok = [r for r in rows if r["buildable"]]
     print(f"\n{len(ok)}/{len(rows)} standards can fill a form from aligned items.\n")
     ok.sort(key=lambda r: r["totalAuthoringUnits"])
-    print(f"{'standard':<9}{'aligned':>8}{'distract':>9}{'dok':>5}{'transl':>8}"
-          f"{'rebal':>7}{'TOTAL':>7}")
+    print(f"{'standard':<9}{'tier':<18}{'aligned':>8}{'distract':>9}{'dok':>5}"
+          f"{'transl':>8}{'rebal':>7}{'TOTAL':>7}")
     for r in ok[:a.top]:
-        print(f"{r['standard']:<9}{r['aligned']:>8}{r['distractorRationale']:>9}"
-              f"{r['dokRationale']:>5}{r['translation']:>8}{r['choiceRebalance']:>7}"
-              f"{r['totalAuthoringUnits']:>7}")
+        print(f"{r['standard']:<9}{r['tier']:<18}{r['aligned']:>8}"
+              f"{r['distractorRationale']:>9}{r['dokRationale']:>5}{r['translation']:>8}"
+              f"{r['choiceRebalance']:>7}{r['totalAuthoringUnits']:>7}")
+    tiers = collections.Counter(r["tier"] for r in rows)
+    print("\ntier reached: " + ", ".join(f"{k}={v}" for k, v in tiers.most_common()))
     tot = sum(r["totalAuthoringUnits"] for r in ok)
     print(f"\nauthoring units to green ONE form for each of the {len(ok)} buildable "
           f"standards: {tot:,}")
     notb = [r for r in rows if not r["buildable"]]
     print(f"{len(notb)} standard(s) cannot fill a form yet: "
-          + ", ".join(f"{r['standard']}(-{r['shortBy']})" for r in notb[:12])
+          + ", ".join(f"{r['standard']}({r['aligned']})" for r in notb[:12])
           + (" …" if len(notb) > 12 else ""))
 
     if a.csv:

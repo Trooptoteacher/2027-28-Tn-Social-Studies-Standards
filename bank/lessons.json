@@ -674,6 +674,29 @@
           "contains": "a form declaring NO tier FAILS"
         }
       ]
+    },
+    {
+      "id": "L44",
+      "mistake": "form_readiness.py was broken by the tiered blueprint — it read a flat `form.dok` that no longer existed — and its stale CSV was committed and sent to the owner anyway, because the regeneration ran with `>/dev/null 2>&1` and nobody read the exit code. Suppressing a tool's output is how a broken tool ships. Then, fixing it, the SAME slicing mistake as L42 deleted the block that built its data.",
+      "caughtBy": "the owner asking what the next step was, which meant running the tool for real",
+      "guards": [
+        {
+          "file": "tools/check_reports_fresh.py",
+          "contains": "its generator CRASHED"
+        },
+        {
+          "file": "tools/run_all.sh",
+          "contains": "Reporting tools are code too"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "every committed report can be regenerated"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "readiness reports the tier a pool can actually reach"
+        }
+      ]
     }
   ]
 }

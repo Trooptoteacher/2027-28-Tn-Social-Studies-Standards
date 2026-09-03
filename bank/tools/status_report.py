@@ -94,7 +94,11 @@ def main():
         fh.write("\n".join(L))
     print(f"wrote {os.path.relpath(OUT, itemio.BANK_ROOT)} — "
           f"{len(results) - len(failed)}/{len(results)} gates pass")
-    return 1 if failed else 0
+    # A report generator's exit code describes GENERATION, not its subject. This
+    # once exited non-zero because the bank had failing gates, which made the
+    # pipeline report the same failure twice and made a real generator crash
+    # indistinguishable from a bank that simply is not finished yet.
+    return 0
 
 
 if __name__ == "__main__":

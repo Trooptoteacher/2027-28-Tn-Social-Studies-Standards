@@ -318,6 +318,38 @@ check("a form claiming a tier it does not fill FAILS",
       not cov3.gate_form_blueprint(good, B, standards=["US.05"],
                                    tiers={"US.05": "full"}).passed)
 
+# ── committed reports must still be producible ──────────────────────────
+print("\n  check-reports-fresh — a stale CSV shipped because output was suppressed")
+import subprocess as _sp2
+r = _sp2.run([sys.executable, os.path.join(BANK, "tools", "check_reports_fresh.py")],
+             capture_output=True, text=True)
+check("every committed report can be regenerated", r.returncode == 0, r.stdout[-300:])
+
+import check_reports_fresh as _crf
+check("the readiness CSV is one of the checked reports",
+      "reports/form-readiness.csv" in _crf.REPORTS)
+check("it distinguishes a crashed generator from a failing gate",
+      "not about the generator" in open(
+          os.path.join(BANK, "tools", "check_reports_fresh.py"), encoding="utf-8").read())
+
+# The readiness tool must speak the tiered blueprint.
+import form_readiness as _fr, json as _j
+_form = _j.load(open(os.path.join(BANK, "blueprints",
+                                  "us-history-geography.blueprint.json")))["form"]
+_sel = next(t for t in _form["tiers"] if t["id"] == "selected-response")
+_pool = [fixtures.item(id=f"RD-{n}", standardCodes=["US.05"],
+                       itemType=sl["types"][0], dokLevel=sl["dok"])
+         for n, sl in enumerate(_sel["slots"])]
+_tier, _got = _fr.reachable_tier(_pool, _form)
+check("readiness reports the tier a pool can actually reach",
+      _tier is not None and _tier["id"] == "selected-response",
+      f"got {_tier['id'] if _tier else None}")
+check("readiness returns no tier for a pool that fills none",
+      _fr.reachable_tier(_pool[:2], _form)[0] is None)
+check("readiness and the builder agree on the ladder",
+      [t["id"] for t in _form["tiers"]]
+      == ["full", "extended", "extended-dok3", "selected-response"])
+
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
 for f in FAILED:
