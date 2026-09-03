@@ -290,29 +290,35 @@ finally:
 print("\n  form-blueprint tiers — tiering is not a loosening")
 from gates import coverage as cov3
 import json as _json
-_bp = _json.load(open(os.path.join(BANK, "blueprints",
-                                   "us-history-geography.blueprint.json")))["form"]
-sel_tier = next(t for t in _bp["tiers"] if t["id"] == "selected-response")
+# The blueprint the GATE reads, not a different one. Loading the real course
+# blueprint here while the gate read the test binding's meant the two ladders
+# had to stay identical by luck; they did not.
+_bp = _json.load(open(B.blueprint_file, encoding="utf-8"))["form"]
+# The SMALLEST tier, taken by position. Naming a tier pinned this proof to
+# "selected-response", and when the ladder became TCAP-style the whole suite
+# died on a StopIteration rather than telling anyone what had changed.
+sel_tier = _bp["tiers"][-1]
+SEL = sel_tier["id"]
 good = []
 for n, slot in enumerate(sel_tier["slots"]):
     it = fixtures.item(id=f"T-{n}", standardCodes=["US.05"],
                        itemType=slot["types"][0], dokLevel=slot["dok"])
     good.append(it)
 r = cov3.gate_form_blueprint(good, B, standards=["US.05"],
-                             tiers={"US.05": "selected-response"})
+                             tiers={"US.05": SEL})
 check("a form matching its declared tier PASSES", r.passed,
       "; ".join(str(f) for f in r.findings[:2]))
 check("one item OVER the tier FAILS",
       not cov3.gate_form_blueprint(good + [fixtures.item(id="X", standardCodes=["US.05"])],
                                    B, standards=["US.05"],
-                                   tiers={"US.05": "selected-response"}).passed)
+                                   tiers={"US.05": SEL}).passed)
 check("one item UNDER the tier FAILS",
       not cov3.gate_form_blueprint(good[:-1], B, standards=["US.05"],
-                                   tiers={"US.05": "selected-response"}).passed)
+                                   tiers={"US.05": SEL}).passed)
 wrong = [dict(i) for i in good]; wrong[0]["dokLevel"] = 3
 check("right count but a wrong DOK FAILS",
       not cov3.gate_form_blueprint(wrong, B, standards=["US.05"],
-                                   tiers={"US.05": "selected-response"}).passed)
+                                   tiers={"US.05": SEL}).passed)
 check("a form declaring NO tier FAILS — it cannot be checked",
       not cov3.gate_form_blueprint(good, B, standards=["US.05"], tiers={}).passed)
 check("a form claiming a tier it does not fill FAILS",
@@ -337,19 +343,34 @@ check("it distinguishes a crashed generator from a failing gate",
 import form_readiness as _fr, json as _j
 _form = _j.load(open(os.path.join(BANK, "blueprints",
                                   "us-history-geography.blueprint.json")))["form"]
-_sel = next(t for t in _form["tiers"] if t["id"] == "selected-response")
+_sel = _form["tiers"][-1]
 _pool = [fixtures.item(id=f"RD-{n}", standardCodes=["US.05"],
                        itemType=sl["types"][0], dokLevel=sl["dok"])
          for n, sl in enumerate(_sel["slots"])]
 _tier, _got = _fr.reachable_tier(_pool, _form)
 check("readiness reports the tier a pool can actually reach",
-      _tier is not None and _tier["id"] == "selected-response",
+      _tier is not None and _tier["id"] == _sel["id"],
       f"got {_tier['id'] if _tier else None}")
 check("readiness returns no tier for a pool that fills none",
       _fr.reachable_tier(_pool[:2], _form)[0] is None)
-check("readiness and the builder agree on the ladder",
-      [t["id"] for t in _form["tiers"]]
-      == ["full", "extended", "extended-dok3", "selected-response"])
+# The ladder used to be pinned as a literal list of four tier names, which is a
+# fact that rots the moment the ladder changes and says nothing about why the
+# ladder is right. What matters is the INVARIANT Sean set: an assessment form
+# is selected response, and it declares the DOK ceiling that follows from that.
+_allowed = set(_form.get("allowedItemTypes") or [])
+check("the assessment blueprint declares its surface and allowed item types",
+      _form.get("surface") == "assessment" and _allowed <= {"mcq", "multiple-select"}
+      and _allowed, f"surface={_form.get('surface')!r} allowed={_allowed}")
+check("every tier slot accepts ONLY selected-response types",
+      all(set(sl["types"]) <= _allowed for t in _form["tiers"] for sl in t["slots"]),
+      "an extended item on an assessment form is what made FORM-A a mixed packet")
+check("no tier claims a DOK ceiling above 3 — a four-option item cannot reach DOK-4",
+      all(t["dokCeiling"] <= 3 for t in _form["tiers"]),
+      f"got {[(t['id'], t['dokCeiling']) for t in _form['tiers']]}")
+check("every ceiling the tiers use has printed disclosure text",
+      all(str(t["dokCeiling"]) in (_form.get("disclosureByCeiling") or {})
+          for t in _form["tiers"]),
+      "a form that cannot say what it does not assess is the defect being fixed")
 
 # ── a gate must be SATISFIABLE ──────────────────────────────────────────
 print("\n  choice-length-cue — a gate that cannot be satisfied is worse than no gate")

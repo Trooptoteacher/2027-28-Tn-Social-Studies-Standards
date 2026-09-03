@@ -8,6 +8,7 @@ built by hand-writing a PDF would prove only that the gate can read a PDF.
 from __future__ import annotations
 
 import os
+import re
 import shutil
 import sys
 
@@ -116,6 +117,56 @@ check("choice order is deterministic for a given form", [c["_letter"] for c in c
 _, key_other = formbuild.ordered_choices(items[0], "OTHER-FORM")
 check("a different form reshuffles (de-bias is per form)", True,
       f"FIX key={key_a} OTHER={key_other}")
+
+# ── the DBQ ACTIVITY surface ────────────────────────────────────────────
+print("\n  activity gates — a DBQ is a lesson, not question 6 of 6")
+import dbq_activity as DA
+
+_dbq = next((i for i in itemio.load_dir(B.output_dir)
+             if itemio.servable(i) and i.get("itemType") == "document-based"), None)
+check("the bank has a document-based item to build from", _dbq is not None)
+
+if _dbq is not None:
+    _out = os.path.join(TMP, "dbq")
+    _parsed, _probs = DA.build(_dbq, B, _out)
+    check("a real DBQ builds both surfaces", not _probs, str(_probs))
+    _stu = os.path.join(_out, "student-activity.pdf")
+    _tea = os.path.join(_out, "teacher-edition.pdf")
+
+    r = fg.gate_activity_sourcing([_stu, _tea], B)
+    check("a real activity PASSES sourcing", r.passed, str(r.findings[:2]))
+    check("...and judged one card per document per sheet",
+          r.judged == 2 * len(_parsed["documents"]), f"judged {r.judged}")
+    check("a CITATION QUOTING A TITLE does not read as a missing citation",
+          fg.gate_activity_sourcing([_stu], B).passed,
+          'George Kennan, "The Long Telegram," stopped the matcher at 15 chars')
+
+    # Defect: a source card with the citation stripped out.
+    _html = open(os.path.join(_out, "student-activity.html"), encoding="utf-8").read()
+    _stripped = re.sub(r'<p class="cite">.*?</p>', '<p class="cite"></p>', _html, count=1,
+                       flags=re.S)
+    _bad = render(_stripped, "dbq-nocite.pdf")
+    r = fg.gate_activity_sourcing([_bad], B)
+    check("a source card with NO citation FAILS", not r.passed)
+    check("the finding says an unsourced source is worse than a missing one",
+          any("worse than a missing one" in str(f) for f in r.findings))
+    check("EMPTY scan FAILS", not fg.gate_activity_sourcing([], B).passed)
+
+    r = fg.gate_activity_teacher_isolation([_stu], B)
+    check("a real student activity PASSES teacher isolation", r.passed, str(r.findings[:2]))
+    check("its own footer saying 'its scoring guide is not calibrated' is NOT a leak",
+          r.passed, "an unanchored matcher failed all 34 student sheets on this line")
+    _leak = _html.replace("</body>",
+                          "<h2>Scoring guide</h2><p>4 Exemplary. Full HIPP.</p></body>")
+    r = fg.gate_activity_teacher_isolation([render(_leak, "student-leak.pdf")], B)
+    check("a student sheet carrying the scoring guide FAILS", not r.passed)
+    check("EMPTY scan FAILS", not fg.gate_activity_teacher_isolation([], B).passed)
+
+    check("the teacher edition carries the scoring guide",
+          any("Scoring guide" in pg["text"] for pg in fg._pages(_tea)))
+    check("every document on the sheet keeps its citation",
+          all(d["citation"] for d in _parsed["documents"]))
+
 
 print("\n" + "=" * 74)
 print(f"{len(PASSED)} proof(s) passed, {len(FAILED)} failed")

@@ -143,12 +143,14 @@ prove(coverage.gate_blueprint, fixtures.clean_bank(CODES)[:-1], "US.05")
 #      Tier-shape proofs live in tests/test_regressions.py; this pins that the
 #      bank-level suite still exercises the form gate's contract.
 import json as _json
-_tier = next(t for t in _json.load(open(B.blueprint_file))["form"]["tiers"]
-             if t["id"] == "selected-response")
+# By POSITION, not by name. A named tier pinned this to "selected-response"
+# and the suite died on StopIteration when the ladder became TCAP-style,
+# instead of saying what had changed.
+_tier = _json.load(open(B.blueprint_file))["form"]["tiers"][-1]
 form = [fixtures.item(id=f"F-{n}", standardCodes=["US.04"],
                       itemType=sl["types"][0], dokLevel=sl["dok"])
         for n, sl in enumerate(_tier["slots"])]
-TIERS = {"US.04": "selected-response"}
+TIERS = {"US.04": _tier["id"]}
 check("form: a form matching its declared tier PASSES",
       coverage.gate_form_blueprint(form, B, standards=["US.04"], tiers=TIERS).passed,
       "; ".join(str(f) for f in
@@ -183,8 +185,12 @@ mixed = fixtures.clean_bank(CODES)
 r = coverage.gate_blueprint_achievability(mixed, NB)
 check("achievability: a bank where every standard reaches a tier PASSES", r.passed,
       "; ".join(str(f) for f in r.findings[:2]))
+# Read the tier names from the BLUEPRINT. Listing them literally pinned this
+# to a ladder that no longer exists, and a hard-coded name is the same rot the
+# handoff-number check exists to catch.
+_TIER_IDS = [t["id"] for t in _json.load(open(B.blueprint_file))["form"]["tiers"]]
 check("the note reports which tier each standard reached",
-      any(t in r.note for t in ("full", "extended", "selected-response")), r.note)
+      any(t in r.note for t in _TIER_IDS), f"{r.note!r} names none of {_TIER_IDS}")
 
 thin = fixtures.clean_bank(CODES)[:3]      # US.04 can no longer fill any tier
 r = coverage.gate_blueprint_achievability(thin, NB)

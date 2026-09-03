@@ -519,3 +519,46 @@ def gate_form_standard_relevance(rendered_items, binding=None, standards=None) -
                     f"printed under {c} but names nothing that identifies it — the heading "
                     f"claims more than the item supports", it.get("_file", "")))
     return Result(name, not findings, len(rendered_items), findings, judged=judged)
+
+
+def gate_form_surface(items, binding=None, blueprint=None) -> Result:
+    """An assessment form carries ONLY the item types its blueprint allows.
+
+    Sean, 2026-09-03: "all the questions on the assessment builder need to be
+    TCAP-style multiple choice, maybe multiple select." Before this, a form
+    could reach its highest tier only by including a constructed response and a
+    document-based question, so the builder was REQUIRED to produce the mixed
+    packet he objected to. The blueprint now declares `allowedItemTypes` and
+    this gate holds the artifact to it.
+
+    Extended responses are not deleted and are not lesser — they leave the
+    ASSESSMENT surface and become their own activity. A gate that only counted
+    item types would have read green on the old form too; what makes this one
+    real is that the blueprint states the surface it is measuring.
+    """
+    name = "form-surface"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    if blueprint is None:
+        with open(binding.blueprint_file, encoding="utf-8") as fh:
+            blueprint = json.load(fh)["form"]
+    allowed = set(blueprint.get("allowedItemTypes") or [])
+    if not allowed:
+        return Result(name, False, len(items), [Finding("(blueprint)",
+            "the blueprint declares no allowedItemTypes, so 'assessment form' means nothing "
+            "and this gate cannot judge anything", binding.blueprint_file if binding else "")],
+            judged=0)
+    findings, judged = [], 0
+    for it in items:
+        if not itemio.servable(it) and it.get("_surface") is None:
+            continue
+        judged += 1
+        t = it.get("itemType")
+        if t not in allowed:
+            findings.append(Finding(it.get("id", "?"),
+                f"itemType {t!r} on an assessment form, which allows only "
+                f"{', '.join(sorted(allowed))} — an extended response belongs on its own "
+                f"activity, not inside a test form", it.get("_file", "")))
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note=f"surface: {blueprint.get('surface', 'unstated')}; "
+                       f"allowed: {', '.join(sorted(allowed))}")

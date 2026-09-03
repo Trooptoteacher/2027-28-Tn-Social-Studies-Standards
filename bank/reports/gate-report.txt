@@ -48,17 +48,17 @@ Scanning items/us-history-geography — 3988 item(s)
           - US.24: 2 aligned item(s), below the bank minimum of 6
           - US.33: 3 aligned item(s), below the bank minimum of 6
           … and 16 more
-[FAIL] blueprint-achievability — scanned 1989, judged 94 — selected-response=29; none=28; extended=21; full=10; extended-dok3=6
-        28 finding(s):
-          - US.01: cannot fill even the lowest tier 'selected-response' (0 relevant aligned item(s))
-          - US.02: cannot fill even the lowest tier 'selected-response' (4 relevant aligned item(s))
-          - US.03: cannot fill even the lowest tier 'selected-response' (0 relevant aligned item(s))
-          - US.07: cannot fill even the lowest tier 'selected-response' (4 relevant aligned item(s))
-          - US.10: cannot fill even the lowest tier 'selected-response' (3 relevant aligned item(s))
-          - US.21: cannot fill even the lowest tier 'selected-response' (23 relevant aligned item(s))
-          - US.22: cannot fill even the lowest tier 'selected-response' (0 relevant aligned item(s))
-          - US.24: cannot fill even the lowest tier 'selected-response' (0 relevant aligned item(s))
-          … and 20 more
+[FAIL] blueprint-achievability — scanned 1989, judged 94 — tcap-standard=66; none=21; tcap-short=5; tcap-floor=2
+        21 finding(s):
+          - US.01: cannot fill even the lowest tier 'tcap-floor' (0 relevant aligned item(s))
+          - US.03: cannot fill even the lowest tier 'tcap-floor' (0 relevant aligned item(s))
+          - US.07: cannot fill even the lowest tier 'tcap-floor' (4 relevant aligned item(s))
+          - US.10: cannot fill even the lowest tier 'tcap-floor' (3 relevant aligned item(s))
+          - US.22: cannot fill even the lowest tier 'tcap-floor' (0 relevant aligned item(s))
+          - US.24: cannot fill even the lowest tier 'tcap-floor' (0 relevant aligned item(s))
+          - US.40: cannot fill even the lowest tier 'tcap-floor' (0 relevant aligned item(s))
+          - US.53: cannot fill even the lowest tier 'tcap-floor' (2 relevant aligned item(s))
+          … and 13 more
 [PASS] key-position-debias — scanned 3793 — 4-choice n=3793 worst=A@27% max-dev=2.3% chi2=14.8>11.345 (advisory)
 [FAIL] serveability — scanned 3928
         994 finding(s):
@@ -119,30 +119,36 @@ Scanning items/us-history-geography — 3988 item(s)
           - authoring-debt: 11313 distractors with no rationale
           - authoring-debt: 3654 items with no dokRationale
           - authoring-debt: 511 items missing a bilingual field
-[PASS] FORM-A/form-pagination — scanned 2, judged 36 — 36 rendered page(s) checked
-[PASS] FORM-A/form-type-size — scanned 2, judged 73410 — 73410 glyph(s) measured
-[PASS] FORM-A/form-key-leakage — scanned 1, judged 6 — 6 student page(s) checked
+[PASS] FORM-A/form-pagination — scanned 2, judged 27 — 27 rendered page(s) checked
+[PASS] FORM-A/form-type-size — scanned 2, judged 53240 — 53240 glyph(s) measured
+[PASS] FORM-A/form-key-leakage — scanned 1, judged 5 — 5 student page(s) checked
 [PASS] FORM-A/form-disclosure — scanned 2
-[PASS] FORM-A/form-key-contradiction — scanned 1, judged 12 — 12 keyed item block(s) read on the rendered teacher PDF
+[PASS] FORM-A/form-key-contradiction — scanned 1, judged 18 — 18 keyed item block(s) read on the rendered teacher PDF
 [PASS] FORM-A/form-teacher-metadata — scanned 1, judged 9 — 9 required row(s) checked per teacher PDF
 [PASS] FORM-A/teacher-side-isolation — scanned 18 — measures rendered student surfaces; items at rest are teacher-side by default
+[PASS] FORM-A/form-surface — scanned 18 — surface: assessment; allowed: mcq, multiple-select
 [FAIL] FORM-A/form-blueprint — scanned 18, judged 3 — 3 standard(s); tiers US.23=?, US.46=?, US.60=?
         3 finding(s):
           - US.23: the form declares no tier for this standard — a form that does not say what it is cannot be checked
           - US.46: the form declares no tier for this standard — a form that does not say what it is cannot be checked
           - US.60: the form declares no tier for this standard — a form that does not say what it is cannot be checked
-[PASS] FORM-B/form-pagination — scanned 2, judged 13 — 13 rendered page(s) checked
-[PASS] FORM-B/form-type-size — scanned 2, judged 23454 — 23454 glyph(s) measured
+[PASS] FORM-B/form-pagination — scanned 2, judged 11 — 11 rendered page(s) checked
+[PASS] FORM-B/form-type-size — scanned 2, judged 17767 — 17767 glyph(s) measured
 [PASS] FORM-B/form-key-leakage — scanned 1, judged 2 — 2 student page(s) checked
 [PASS] FORM-B/form-disclosure — scanned 2
-[PASS] FORM-B/form-key-contradiction — scanned 1, judged 4 — 4 keyed item block(s) read on the rendered teacher PDF
+[PASS] FORM-B/form-key-contradiction — scanned 1, judged 6 — 6 keyed item block(s) read on the rendered teacher PDF
 [PASS] FORM-B/form-teacher-metadata — scanned 1, judged 9 — 9 required row(s) checked per teacher PDF
 [PASS] FORM-B/teacher-side-isolation — scanned 6 — measures rendered student surfaces; items at rest are teacher-side by default
+[PASS] FORM-B/form-surface — scanned 6 — surface: assessment; allowed: mcq, multiple-select
 [FAIL] FORM-B/form-blueprint — scanned 6, judged 1 — 1 standard(s); tiers US.59=?
         1 finding(s):
           - US.59: the form declares no tier for this standard — a form that does not say what it is cannot be checked
-[PASS] all-gates-measured — scanned 40 — 40/40 gates actually measured something
+[PASS] dbq-activities/form-pagination — scanned 68, judged 459 — 459 rendered page(s) checked
+[PASS] dbq-activities/form-type-size — scanned 68, judged 370166 — 370166 glyph(s) measured
+[PASS] dbq-activities/activity-sourcing — scanned 68, judged 172 — 172 document card(s) checked on the rendered sheet
+[PASS] dbq-activities/activity-teacher-isolation — scanned 34, judged 220 — 220 student page(s) checked
+[PASS] all-gates-measured — scanned 46 — 46/46 gates actually measured something
 
-28/41 applicable gates pass (0 not measured).
+34/47 applicable gates pass (0 not measured).
 HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, blueprint-achievability, serveability, choice-length-cue, explanation-quality, review-provenance, rubric, release-readiness, FORM-A/form-blueprint, FORM-B/form-blueprint
 Grade A requires ALL gates pass. "Close" is not "A."

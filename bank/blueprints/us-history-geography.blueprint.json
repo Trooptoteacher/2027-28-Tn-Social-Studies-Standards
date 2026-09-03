@@ -1347,191 +1347,131 @@
     "items": 564
   },
   "form": {
-    "$comment": "A form is built at the HIGHEST TIER its standard can fill, and it DECLARES which. Tiers exist because DOK-4 is structurally impossible in a four-option selected-response item — the bank holds 610/702/627 mcq at DOK 1/2/3 and ZERO at DOK-4, correctly. A form with no extended item therefore cannot assess DOK-4, and the honest response is to say so on the page rather than to require a document-based item that does not exist for 71 of 94 standards. Within a tier conformance is EXACT and fails in either direction.",
+    "$comment": "SELECTED RESPONSE ONLY. Sean Reynolds, 2026-09-03, after reading FORM-A as a teacher: 'this is a mixed classroom assessment, not a TCAP-field-testable form' and 'all the questions on the assessment builder need to be TCAP-style multiple choice, maybe multiple select.' The four-tier ladder existed to keep a DBQ slot on a form; that slot is what made the form a mixed instructional packet rather than an assessment. Extended responses and DBQs are NOT deleted — they leave the assessment builder and become their own branded activity (tools/dbq_activity.py), which is what they always were. Within a tier conformance is EXACT and fails in either direction.",
+    "surface": "assessment",
+    "allowedItemTypes": [
+      "mcq",
+      "multiple-select"
+    ],
+    "dokCeilingRationale": "DOK-4 is structurally impossible in a selected-response item, so a selected-response form CANNOT assess it and must say so on the page rather than pretend. The ceiling is 3 and it is printed. Previously the ladder answered this by requiring an extended item; that answer is withdrawn.",
     "itemCount": 6,
     "tiers": [
       {
-        "id": "full",
-        "label": "Full form — selected response, constructed response and DBQ",
-        "dokCeiling": 4,
-        "slots": [
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 1
-          },
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 1
-          },
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 2
-          },
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 2
-          },
-          {
-            "types": [
-              "constructed-response"
-            ],
-            "dok": 3
-          },
-          {
-            "types": [
-              "document-based"
-            ],
-            "dok": 4
-          }
-        ]
-      },
-      {
-        "id": "extended",
-        "label": "Extended form — selected response plus one extended-response item",
-        "dokCeiling": 4,
-        "slots": [
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 1
-          },
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 1
-          },
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 2
-          },
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 2
-          },
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 3
-          },
-          {
-            "types": [
-              "document-based",
-              "constructed-response",
-              "extended-response",
-              "short-answer"
-            ],
-            "dok": 4
-          }
-        ]
-      },
-      {
-        "id": "extended-dok3",
-        "label": "Extended form — one extended-response item at DOK-3",
+        "id": "tcap-standard",
+        "label": "TCAP-style form — selected response, DOK 1-3",
         "dokCeiling": 3,
         "slots": [
           {
             "types": [
-              "mcq"
+              "mcq",
+              "multiple-select"
             ],
             "dok": 1
           },
           {
             "types": [
-              "mcq"
+              "mcq",
+              "multiple-select"
             ],
             "dok": 1
           },
           {
             "types": [
-              "mcq"
+              "mcq",
+              "multiple-select"
             ],
             "dok": 2
           },
           {
             "types": [
-              "mcq"
+              "mcq",
+              "multiple-select"
             ],
             "dok": 2
           },
           {
             "types": [
-              "mcq"
+              "mcq",
+              "multiple-select"
             ],
             "dok": 3
           },
           {
             "types": [
-              "document-based",
-              "constructed-response",
-              "extended-response",
-              "short-answer"
+              "mcq",
+              "multiple-select"
             ],
             "dok": 3
           }
         ]
       },
       {
-        "id": "selected-response",
-        "label": "Selected-response form",
+        "id": "tcap-short",
+        "label": "TCAP-style short form — selected response, DOK 1-3",
         "dokCeiling": 3,
         "slots": [
           {
             "types": [
-              "mcq"
+              "mcq",
+              "multiple-select"
             ],
             "dok": 1
           },
           {
             "types": [
-              "mcq"
+              "mcq",
+              "multiple-select"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "mcq",
+              "multiple-select"
+            ],
+            "dok": 2
+          },
+          {
+            "types": [
+              "mcq",
+              "multiple-select"
+            ],
+            "dok": 3
+          }
+        ]
+      },
+      {
+        "id": "tcap-floor",
+        "label": "TCAP-style floor form — selected response, DOK 1-2 only",
+        "dokCeiling": 2,
+        "slots": [
+          {
+            "types": [
+              "mcq",
+              "multiple-select"
             ],
             "dok": 1
           },
           {
             "types": [
-              "mcq"
+              "mcq",
+              "multiple-select"
             ],
             "dok": 2
           },
           {
             "types": [
-              "mcq"
+              "mcq",
+              "multiple-select"
             ],
             "dok": 2
-          },
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 3
-          },
-          {
-            "types": [
-              "mcq"
-            ],
-            "dok": 3
           }
         ]
       }
     ],
     "disclosureByCeiling": {
-      "4": "This form assesses Depth of Knowledge levels 1 through 4.",
-      "3": "This form assesses Depth of Knowledge levels 1 through 3. It carries no extended-response item, so it does not assess DOK-4 — a four-option question cannot ask a student to construct and defend an argument."
+      "3": "This is a selected-response form. It assesses Depth of Knowledge levels 1 through 3. It carries no extended-response item, so it does not assess DOK-4 — a four-option question cannot ask a student to construct and defend an argument. Extended responses and document-based questions are delivered as separate activities.",
+      "2": "This is a selected-response form. It assesses Depth of Knowledge levels 1 and 2 only — the bank does not yet hold enough DOK-3 selected-response items aligned to this standard to build a fuller form. It does not assess DOK-3 or DOK-4."
     }
   },
   "bank": {

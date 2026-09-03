@@ -408,11 +408,40 @@
       "_formKeyLetter": "A"
     },
     {
-      "id": "q-us3-dok4-cr3",
-      "stem": "Design a \"New Deal Report Card\" that grades THREE specific programs on two criteria: (1) effectiveness in addressing the immediate crisis, and (2) long-term impact on American government and society. For each program, assign a letter grade (A-F) for each criterion and justify your grading with specific historical evidence.",
-      "stemEs": "Diseñe una \"Tarjeta de Calificaciones del New Deal\" que califique TRES programas específicos en dos criterios: (1) efectividad para abordar la crisis inmediata, y (2) impacto a largo plazo en el gobierno y la sociedad americanos.",
-      "itemType": "constructed-response",
-      "choices": [],
+      "id": "PSTIM-0150",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows a TVA dam, c. 1936.\n\n(Photograph, c. 1936. Public Domain.)\n\nEvaluate the extent to which the TVA and similar New Deal programs achieved their goals of economic recovery and reform.",
+      "stemEs": "Evalúe en qué medida la TVA y programas similares del New Deal lograron sus objetivos de recuperación y reforma económica.",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "New Deal programs had no positive effects and actually worsened economic conditions",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The TVA brought electricity, jobs, and flood control to a poor region, but full economic recovery required the industrial mobilization of World War II",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "New Deal programs completely ended the Great Depression and eliminated poverty in the United States",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The TVA only benefited wealthy landowners and provided no assistance to ordinary citizens",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
       "dokLevel": 3,
       "standardCodes": [
         "US.46"
@@ -422,205 +451,143 @@
       "reportingCategorySource": "UNMAPPED",
       "translationStatus": "complete",
       "irtParameters": {
-        "a": 1.37,
-        "b": 1.51,
-        "c": 0
+        "a": 1.7,
+        "b": 0.9,
+        "c": 0.17
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "authored",
+      "status": "provisional",
       "image": null,
       "provenance": {
-        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-3.json",
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
         "priorStandardsYear": "2026-27",
         "priorStandardCodes": [
-          "US.21",
-          "US.22"
+          "US.40"
         ],
-        "priorBankTier": "teacher",
+        "priorBankTier": "standard",
         "crosswalkReasons": [
-          "US.21->US.23: standard ADDED ['Spanish-American War'] — coverage gap at the standard, not a defect in this item",
-          "US.22->US.24: standard ADDED ['militarism/expansionism', 'economics', 'nationalism'] — coverage gap at the standard, not a defect in this item"
+          "US.40->US.42: verb changed analyze->explain"
         ],
         "alignmentReview": {
-          "elementsAddedToStandard": [
-            "Spanish-American War",
-            "militarism/expansionism",
-            "economics",
-            "nationalism"
-          ]
+          "verbChange": "analyze -> explain"
         },
         "rehomed": {
           "from": [
-            "US.23",
-            "US.24"
+            "US.42"
           ],
           "to": "US.46",
           "matchedElements": [
             "New Deal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
-        },
-        "authoring": {
-          "record": "form-a.json",
-          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
-      "requiresHistorianReview": true,
-      "historianReview": {
-        "status": "approved",
-        "record": "form-a-authoring-2026-09-03",
-        "reviewer": "Sean Reynolds",
-        "date": "2026-09-03"
-      },
       "tcapFormat": false,
-      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
       "biasReview": {
         "status": "not-started",
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
       },
-      "rubric": {
-        "scorePoints": 4,
-        "criteria": [
-          {
-            "points": 4,
-            "label": "Exemplary",
-            "descriptor": "Grades THREE named New Deal programs on BOTH criteria separately, and the two grades come apart for at least one program — the response shows it understands that immediate relief and long-term structural change are different achievements (the CCC put men to work quickly and left little institutional legacy; Social Security did comparatively little in 1935 and reshaped the federal government permanently). Every grade is justified with specific evidence: enrollment or spending figures, dates, what the programme actually did, what a court or Congress did to it."
-          },
-          {
-            "points": 3,
-            "label": "Proficient",
-            "descriptor": "Three named programs graded on both criteria with accurate supporting evidence. Grades are defended. The short-term/long-term distinction is present but the two grades largely track each other."
-          },
-          {
-            "points": 2,
-            "label": "Developing",
-            "descriptor": "Three programs named but one is described inaccurately, or only two are graded on both criteria. Justification leans on general characterisation (\"it helped people\") rather than specific evidence."
-          },
-          {
-            "points": 1,
-            "label": "Beginning",
-            "descriptor": "Fewer than three programs, or programs misidentified as New Deal. Grades assigned with no historical justification."
-          },
-          {
-            "points": 0,
-            "label": "No response",
-            "descriptor": "No response, or off-topic."
-          }
-        ],
-        "status": "authored",
-        "reviewStatus": "needs-review"
-      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": null
+      "_formKeyLetter": "B"
     },
     {
-      "id": "q-us41-dok4-dbq-4",
-      "stem": "DOCUMENT-BASED QUESTION\n\nDirections: Analyze the three primary sources below. Then respond to the prompt using evidence from ALL THREE documents and your own historical knowledge.\n\n---\nDOCUMENT A\nNational Industrial Recovery Act, Section 1 (Declaration of Policy), June 16, 1933 (National Archives, public domain):\n\"A national emergency productive of widespread unemployment and disorganization of industry, which burdens interstate and foreign commerce...is hereby declared to exist. It is hereby declared to be the policy of Congress to remove obstructions to the free flow of interstate and foreign commerce which tend to diminish the amount thereof; and to provide for the general welfare by promoting the organization of industry for the purpose of cooperative action among trade groups...\"\n\n---\nDOCUMENT B\nNational Labor Relations Act (Wagner Act), Section 1 (Findings and Policy), July 5, 1935 (National Archives, public domain):\n\"The inequality of bargaining power between employees who do not possess full freedom of association or actual liberty of contract, and employers who are organized in the corporate or other forms of ownership association substantially burdens and affects the flow of commerce...It is hereby declared to be the policy of the United States to eliminate the causes of certain substantial obstructions to the free flow of commerce...by protecting the exercise by workers of full freedom of association, self-organization, and designation of representatives of their own choosing.\"\n\n---\nDOCUMENT C\nFDR, Message to Congress on Tax Revision, June 19, 1935 (FDR Presidential Library, public domain):\n\"Our revenue laws have operated in many ways to the unfair advantage of the few, and they have done little to prevent an unjust concentration of wealth and economic power...The very wealthy may be able to hire the ablest tax lawyers so that the letter of the tax law is followed but not the spirit...Inherited economic power is as inconsistent with the ideals of this generation as inherited political power was inconsistent with the ideals of the generation which established our Government.\"\n\n---\nPROMPT: Using all three documents and your knowledge of the New Deal (1933–1938), construct an argument that answers: How did the New Deal evolve from the First New Deal (1933–1934) to the Second New Deal (1935–1938), and what does this evolution reveal about FDR's response to political pressure from critics on both the left and right?\n\nIn your response, you MUST:\n1. Analyze each document using the HIPP framework — at least ONE HIPP element per document.\n2. Place each document within the First or Second New Deal phase and explain what governing philosophy it reflects.\n3. Construct a central argument using all three documents AND at least two outside historical facts explaining how the shift from Document A to Documents B and C reflects a meaningful philosophical and political evolution in the New Deal.\n4. Evaluate: Was the Second New Deal a genuine ideological shift toward redistribution and worker empowerment, or primarily a political strategy to neutralize critics like Huey Long and the Supreme Court?",
-      "stemEs": "PREGUNTA BASADA EN DOCUMENTOS\n\nInstrucciones: Analice las tres fuentes primarias a continuación. Luego responda a la pregunta utilizando evidencia de los TRES documentos y su propio conocimiento histórico.\n\n---\nDOCUMENTO A\nLey de Recuperación Industrial Nacional, Sección 1 (Declaración de Política), 16 de junio de 1933 (Archivos Nacionales, dominio público):\n'Una emergencia nacional que produce un desempleo generalizado y desorganización de la industria, que carga el comercio interestatal y extranjero...se declara aquí que existe. Se declara aquí que es política del Congreso eliminar los obstáculos al libre flujo del comercio interestatal y extranjero que tienden a disminuir su cantidad; y proporcionar para el bienestar general promoviendo la organización de la industria con el propósito de acción cooperativa entre grupos comerciales...'\n\n---\nDOCUMENTO B\nLey Nacional de Relaciones Laborales (Ley Wagner), Sección 1 (Conclusiones y Política), 5 de julio de 1935 (Archivos Nacionales, dominio público):\n'La desigualdad del poder de negociación entre empleados que no poseen plena libertad de asociación o libertad real de contrato, y empleadores que están organizados en formas corporativas u otras formas de asociación de propiedad, carga sustancialmente y afecta el flujo del comercio...Se declara aquí que es política de los Estados Unidos eliminar las causas de ciertos obstáculos sustanciales al libre flujo del comercio...protegiendo el ejercicio por parte de los trabajadores de plena libertad de asociación, autoorganización y designación de representantes de su propia elección.'\n\n---\nDOCUMENTO C\nFDR, Mensaje al Congreso sobre Revisión de Impuestos, 19 de junio de 1935 (Biblioteca Presidencial de FDR, dominio público):\n'Nuestras leyes fiscales han operado en muchas formas en beneficio injusto de unos pocos, y han hecho poco para prevenir una concentración injusta de riqueza y poder económico...Los muy ricos pueden ser capaces de contratar a los mejores abogados fiscales para que se siga la letra de la ley tributaria pero no su espíritu...El poder económico heredado es tan inconsistente con los ideales de esta generación como lo era el poder político heredado con los ideales de la generación que estableció nuestro Gobierno.'\n\n---\nPREGUNTA: Usando los tres documentos y su conocimiento del New Deal (1933–1938), construya un argumento que responda: ¿Cómo evolucionó el New Deal desde el Primer New Deal (1933–1934) hasta el Segundo New Deal (1935–1938), y qué revela esta evolución sobre la respuesta de FDR a la presión política de los críticos tanto de izquierda como de derecha?\n\nEn su respuesta, DEBE:\n1. Analizar cada documento usando el marco HIPP — al menos UN elemento HIPP por documento.\n2. Ubicar cada documento dentro de la fase del Primer o Segundo New Deal y explicar qué filosofía de gobierno refleja.\n3. Construir un argumento central usando los tres documentos Y al menos dos hechos históricos externos que expliquen cómo el cambio del Documento A a los Documentos B y C refleja una evolución filosófica y política significativa en el New Deal.\n4. Evaluar: ¿Fue el Segundo New Deal un cambio ideológico genuino hacia la redistribución y el empoderamiento de los trabajadores, o principalmente una estrategia política para neutralizar a los críticos como Huey Long y la Corte Suprema?",
-      "itemType": "document-based",
-      "choices": [],
-      "dokLevel": 4,
+      "id": "U4-DOK3-0018",
+      "stem": "Critics of the New Deal from the left, including Huey Long and socialist intellectuals, argued it preserved capitalism without genuine structural transformation, while critics from the right argued it represented dangerous federal overreach. What does the existence of this two-sided criticism most reveal about the New Deal's actual ideological character and historical significance?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Roosevelt's political genius lay in synthesizing elements of both left and right criticism into a coherent program, borrowing regulatory ideas from progressives and efficiency principles from business conservatives to create pragmatic policies that maintained political viability by satisfying neither extreme.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The two-sided criticism demonstrates that the New Deal was an incoherent collection of experimental programs lacking a unifying reform philosophy, which is why historians continue to debate whether it extended or shortened the Depression's duration rather than agreeing on a definitive assessment.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The New Deal occupied a reform-without-revolution position — it stabilized the capitalist system by addressing its most destabilizing failures without fundamentally redistributing wealth or restructuring ownership — making it an ideologically moderate but historically unprecedented response to economic catastrophe that satisfied neither ideological extreme.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The New Deal's primary significance was its expansion of the permanent federal bureaucratic apparatus and the precedent it established for government economic intervention, regardless of whether its specific programs effectively accelerated economic recovery from the Depression.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
       "standardCodes": [
-        "US.43",
-        "US.45",
         "US.46"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "complete",
+      "translationStatus": "not-started",
       "irtParameters": {
-        "a": 1.81,
-        "b": 0.24,
-        "c": 0.0
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
-        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-4.json",
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
         "priorStandardsYear": "2026-27",
         "priorStandardCodes": [
-          "US.41",
-          "US.43",
-          "US.44"
+          "US.43"
         ],
-        "priorBankTier": "teacher",
+        "priorBankTier": "student",
         "crosswalkReasons": [
-          "US.41->US.43: checklist intact (3 element(s))",
-          "US.43->US.45: checklist intact (9 element(s))",
-          "US.44->US.46: checklist intact (2 element(s))"
+          "US.43->US.45: checklist intact (9 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.45"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
       },
-      "alignmentStatus": "evidenced",
+      "alignmentStatus": "rehomed",
       "tcapFormat": false,
-      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
       "biasReview": {
         "status": "not-started",
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
       },
-      "rubric": {
-        "scorePoints": 6,
-        "criteria": [
-          {
-            "points": 6,
-            "label": "Exemplary",
-            "descriptor": "All three documents analyzed with accurate HIPP. Correctly places NIRA in First New Deal and Wagner Act/Tax Message in Second New Deal. Argues the evolution with evidence from all three documents plus two outside facts. Evaluation of genuine vs. strategic shift is nuanced and evidence-based. Historical writing is rigorous."
-          },
-          {
-            "points": 5,
-            "label": "Advanced",
-            "descriptor": "Three documents with HIPP (one may be less precise). Argument traces evolution with all three documents and at least one outside fact. Evaluation present with some nuance."
-          },
-          {
-            "points": 4,
-            "label": "Proficient",
-            "descriptor": "Two or three documents with some HIPP. Argument traces First to Second New Deal with evidence from at least two documents and one outside fact. Evaluation present."
-          },
-          {
-            "points": 3,
-            "label": "Adequate",
-            "descriptor": "Two documents referenced. Argument identifies evolution in general terms. Some HIPP. Limited outside knowledge."
-          },
-          {
-            "points": 2,
-            "label": "Developing",
-            "descriptor": "Minimal document analysis. Argument vague about evolution. Little outside knowledge."
-          },
-          {
-            "points": 1,
-            "label": "Beginning",
-            "descriptor": "One document summarized. No argument. No HIPP."
-          },
-          {
-            "points": 0,
-            "label": null,
-            "descriptor": "No response or completely off-topic."
-          }
-        ],
-        "status": "extracted",
-        "extractedFrom": "explanation",
-        "notes": "DOCUMENT ANALYSIS EXPECTATIONS: - Doc A (NIRA): First New Deal; cooperative capitalism; Context = Hundred Days emergency legislation - Doc B (Wagner Act): Second New Deal; labor rights shift; Context = post-Schechter, Long threat - Doc C (FDR Tax): Second New Deal; redistributive rhetoric; Context = Share Our Wealth pressure KEY EVIDENCE EXPECTED: NIRA (1933) and Schechter Poultry v. United States (1935); Huey Long / Share Our Wealth (4.5 million members); Wagner Act (1935) and NLRB; Social Security Act (1935); Works Progress Administration (1935); Revenue Act of 1935 ('Soak the Rich'); CIO formation (1935); GM sit-down strike (1936–1937).",
-        "reviewStatus": "needs-review"
-      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": null
+      "_formKeyLetter": "C"
     },
     {
       "id": "U7-DOK1-0002",
@@ -637,8 +604,8 @@
         },
         {
           "id": "B",
-          "text": "The Marshall Plan for European recovery",
-          "textEs": "El Plan Marshall para la recuperación económica europea",
+          "text": "The Eisenhower Doctrine for the Middle East",
+          "textEs": "La Doctrina Eisenhower",
           "explanation": null,
           "misconception": null
         },
@@ -651,8 +618,8 @@
         },
         {
           "id": "D",
-          "text": "The Eisenhower Doctrine for the Middle East",
-          "textEs": "La Doctrina Eisenhower",
+          "text": "The Marshall Plan for European recovery",
+          "textEs": "El Plan Marshall para la recuperación económica europea",
           "explanation": null,
           "misconception": null
         }
@@ -714,7 +681,7 @@
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "B"
+      "_formKeyLetter": "D"
     },
     {
       "id": "q-us57-dok1-3",
@@ -724,22 +691,22 @@
       "choices": [
         {
           "id": "A",
+          "text": "Contain the spread of communism by supporting free nations resisting Soviet subjugation",
+          "textEs": "Contener propagación del comunismo apoyando naciones libres resistiendo subyugación soviética",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
           "text": "Form a permanent military and economic alliance with the Soviet Union against Asian nations",
           "textEs": "Formar alianza militar y económica permanente con Unión Soviética contra naciones asiáticas",
           "explanation": null,
           "misconception": null
         },
         {
-          "id": "B",
+          "id": "C",
           "text": "Expand United States colonial territories across Asia and the Pacific Island regions",
           "textEs": "Expandir territorios coloniales de Estados Unidos a través de Asia y regiones de islas del Pacífico",
-          "explanation": null,
-          "misconception": null
-        },
-        {
-          "id": "C",
-          "text": "Contain the spread of communism by supporting free nations resisting Soviet subjugation",
-          "textEs": "Contener propagación del comunismo apoyando naciones libres resistiendo subyugación soviética",
           "explanation": null,
           "misconception": null
         },
@@ -808,7 +775,7 @@
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "C"
+      "_formKeyLetter": "A"
     },
     {
       "id": "PSTIM-0041",
@@ -818,15 +785,15 @@
       "choices": [
         {
           "id": "A",
-          "text": "The U.S. imposed economic sanctions that forced the Soviet Union to end communism",
-          "textEs": "EE. UU. impuso sanciones económicas que obligaron a la Unión Soviética a poner fin al comunismo",
+          "text": "The U.S. used military force to drive Soviet troops out of the eastern sector of Berlin",
+          "textEs": "EE. UU. utilizó la fuerza militar para expulsar las tropas soviéticas de Berlín Oriental",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "B",
-          "text": "The U.S. used military force to drive Soviet troops out of the eastern sector of Berlin",
-          "textEs": "EE. UU. utilizó la fuerza militar para expulsar las tropas soviéticas de Berlín Oriental",
+          "text": "The U.S. showed resolve against Soviet expansion without direct force",
+          "textEs": "EE. UU. demostró su determinación de impedir la expansión soviética sin una confrontación militar directa",
           "explanation": null,
           "misconception": null
         },
@@ -839,8 +806,8 @@
         },
         {
           "id": "D",
-          "text": "The U.S. showed resolve against Soviet expansion without direct force",
-          "textEs": "EE. UU. demostró su determinación de impedir la expansión soviética sin una confrontación militar directa",
+          "text": "The U.S. imposed economic sanctions that forced the Soviet Union to end communism",
+          "textEs": "EE. UU. impuso sanciones económicas que obligaron a la Unión Soviética a poner fin al comunismo",
           "explanation": null,
           "misconception": null
         }
@@ -902,7 +869,7 @@
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "D"
+      "_formKeyLetter": "B"
     },
     {
       "id": "U7-DOK2-0001",
@@ -912,8 +879,8 @@
       "choices": [
         {
           "id": "A",
-          "text": "A commitment to support nations resisting communist expansion",
-          "textEs": "Un compromiso de apoyar a las naciones que resistían la expansión comunista",
+          "text": "Recognition of the Soviet Union as an ally",
+          "textEs": "El reconocimiento de la Unión Soviética como aliada",
           "explanation": null,
           "misconception": null
         },
@@ -926,8 +893,8 @@
         },
         {
           "id": "C",
-          "text": "Recognition of the Soviet Union as an ally",
-          "textEs": "El reconocimiento de la Unión Soviética como aliada",
+          "text": "A commitment to support nations resisting communist expansion",
+          "textEs": "Un compromiso de apoyar a las naciones que resistían la expansión comunista",
           "explanation": null,
           "misconception": null
         },
@@ -996,14 +963,43 @@
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "A"
+      "_formKeyLetter": "C"
     },
     {
-      "id": "q-us6-dok4-cr3",
-      "stem": "Compare the Marshall Plan (1948) with modern American foreign aid programs. What principles from the Marshall Plan's success could be applied to current challenges? What limitations would such an approach face today?",
-      "stemEs": "Compare el Plan Marshall (1948) con los programas modernos de ayuda exterior americana. ¿Qué principios del éxito del Plan Marshall podrían aplicarse a los desafíos actuales?",
-      "itemType": "constructed-response",
-      "choices": [],
+      "id": "PSTIM-0132",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows American soldiers during the Korean War, c. 1950.\n\n(U.S. Army photograph, c. 1950. Public Domain.)\n\nWhich statement best analyzes the long-term consequences of the Korean War for U.S. foreign policy and military strategy?",
+      "stemEs": "Utiliza la fotografía para responder la pregunta.\n\nEsta fotografía muestra a soldados estadounidenses durante la Guerra de Corea, c. 1950.\n\n(Fotografía del Ejército de los Estados Unidos, c. 1950. Dominio público.)\n\n¿Cuál enunciado analiza mejor las consecuencias a largo plazo de la Guerra de Corea para la política exterior y la estrategia militar de Estados Unidos?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Korean War convinced the United States to abandon the containment policy in favor of isolationism",
+          "textEs": "La Guerra de Corea convenció a Estados Unidos de abandonar la política de contención a favor del aislacionismo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The war had no lasting consequences because it ended in a stalemate",
+          "textEs": "La guerra no tuvo consecuencias duraderas porque terminó en un empate",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The war resulted in the reunification of Korea and permanent peace in the region",
+          "textEs": "La guerra resultó en la reunificación de Corea y la paz permanente en la región",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The war established a precedent for limited wars to contain communism, expanded the permanent military establishment, and deepened Cold War alliances in Asia",
+          "textEs": "La guerra estableció un precedente para las guerras limitadas destinadas a contener el comunismo, amplió el establecimiento militar permanente y profundizó las alianzas de la Guerra Fría en Asia",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
       "dokLevel": 3,
       "standardCodes": [
         "US.60"
@@ -1013,13 +1009,13 @@
       "reportingCategorySource": "UNMAPPED",
       "translationStatus": "complete",
       "irtParameters": {
-        "a": 1.76,
-        "b": 1.42,
-        "c": 0.0
+        "a": 1.7,
+        "b": 1.0,
+        "c": 0.17
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "authored",
+      "status": "provisional",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
@@ -1027,7 +1023,90 @@
         "priorStandardCodes": [
           "US.60"
         ],
-        "priorBankTier": "teacher",
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "U5-DOK3-0017",
+      "stem": "Which best explains why the Truman Doctrine of 1947 represented a significant departure from traditional American foreign policy?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It committed the United States to supporting free peoples resisting subjugation by outside pressures, abandoning the prewar tradition of non-intervention in foreign conflicts.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It authorized the United States military to conduct offensive operations against Soviet-backed governments in Eastern Europe.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It established the United Nations as the primary institution through which the United States would respond to Soviet expansion.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It replaced the Monroe Doctrine by formally extending American security commitments from the Western Hemisphere to the entire world.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60"
+        ],
+        "priorBankTier": "student",
         "crosswalkReasons": [
           "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
         ],
@@ -1035,163 +1114,26 @@
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
         },
-        "authoring": {
-          "record": "form-a.json",
-          "note": "rationales explain misconceptions and remain historical claims"
+        "stemRepair": {
+          "was": "Which best explains why the Truman Doctrine of 1947 represented a significant departure from traditional American foreign policy? H It committed the United States to supporting free peoples resisting subjugation by outside pressures, abandoning the prewar tradition of non-intervention in foreign conflicts. B. It authorized the United States military to conduct offensive operations against Soviet-backed governments in Eastern Europe. C. It replaced the Monroe Doctrine by formally extending American security commitments from the Western Hemisphere to the entire world. D. It established the United Nations as the primary institution through which the United States would respond to Soviet expansion. CORRECT ANSWER",
+          "reason": "stem had swallowed its own choice list"
         }
       },
       "alignmentStatus": "evidenced",
-      "requiresHistorianReview": true,
-      "historianReview": {
-        "status": "approved",
-        "record": "form-a-authoring-2026-09-03",
-        "reviewer": "Sean Reynolds",
-        "date": "2026-09-03"
-      },
       "tcapFormat": false,
-      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
       "biasReview": {
         "status": "not-started",
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
       },
-      "rubric": {
-        "scorePoints": 4,
-        "criteria": [
-          {
-            "points": 4,
-            "label": "Exemplary",
-            "descriptor": "Identifies specific principles behind the Marshall Plan's success — its scale, its requirement that recipients cooperate and plan jointly, and the alignment of American economic self-interest with European recovery — and applies them to a NAMED contemporary aid context rather than to foreign aid in general. The limitations are historically grounded: post-war Europe had industrial capacity and institutions to rebuild, the aid ran through a bipartisan Cold War consensus, and the recipients were states that wanted it. Comparison runs in both directions; it does not simply recommend repeating the Plan."
-          },
-          {
-            "points": 3,
-            "label": "Proficient",
-            "descriptor": "Names at least two real principles and applies them to a contemporary context with reasonable specificity. Limitations are identified and plausible, if not fully developed."
-          },
-          {
-            "points": 2,
-            "label": "Developing",
-            "descriptor": "Describes the Marshall Plan accurately but the modern comparison stays generic (\"we should help other countries more\"). Limitations are asserted rather than explained."
-          },
-          {
-            "points": 1,
-            "label": "Beginning",
-            "descriptor": "Marshall Plan described inaccurately or only by name. No usable comparison or limitation."
-          },
-          {
-            "points": 0,
-            "label": "No response",
-            "descriptor": "No response, or off-topic."
-          }
-        ],
-        "status": "authored",
-        "reviewStatus": "needs-review"
-      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": null
-    },
-    {
-      "id": "q-us59-dok4-dbq-1",
-      "stem": "DOCUMENT-BASED QUESTION: The Origins of the Cold War\n\nDirections: Read the following three primary source excerpts and then respond to the prompt below. In your response, analyze each document using the HIPP framework (Historical context, Intended audience, Purpose, Point of view) and construct an evidence-based argument.\n\n---\nDOCUMENT A: George Kennan, \"The Long Telegram,\" February 22, 1946 — declassified U.S. State Department cable, available through the National Archives:\n\"We have here a political force committed fanatically to the belief that with US there can be no permanent modus vivendi, that it is desirable and necessary that the internal harmony of our society be disrupted, our traditional way of life be destroyed, the international authority of our state be broken, if Soviet power is to be secured.\"\n\nDOCUMENT B: Winston Churchill, \"The Sinews of Peace\" (Iron Curtain Speech), Westminster College, Fulton, Missouri, March 5, 1946 — public address, transcript available through Westminster College archives:\n\"From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent. Behind that line lie all the capitals of the ancient states of Central and Eastern Europe... all are subject in one form or another, not only to Soviet influence but to a very high and in many cases increasing measure of control from Moscow.\"\n\nDOCUMENT C: Harry S. Truman, Address to Congress (Truman Doctrine), March 12, 1947 — U.S. government document, National Archives:\n\"At the present moment in world history nearly every nation must choose between alternative ways of life. The choice is too often not a free one. One way of life is based upon the will of the majority... The second way of life is based upon the will of a minority forcibly imposed upon the majority.\"\n\n---\nUsing all three documents and your knowledge of Cold War origins (US.59–US.60), construct an argument that evaluates the relative roles of ideology and geopolitical strategy in causing the Cold War. Apply HIPP analysis to at least two of the three documents and use outside historical knowledge to support your argument. Your response should address: (1) what each document reveals about U.S./Western perceptions of the Soviet threat; (2) whether the Cold War was primarily an ideological conflict or a geopolitical competition for power; and (3) whether alternative outcomes were possible given the structural conditions of 1945–1947.",
-      "stemEs": "PREGUNTA BASADA EN DOCUMENTOS: Los Orígenes de la Guerra Fría\n\nInstrucciones: Lee los siguientes tres fragmentos de fuentes primarias y luego responde al indicador a continuación. En tu respuesta, analiza cada documento usando el marco HIPP (Contexto histórico, Audiencia prevista, Propósito, Punto de vista) y construye un argumento basado en evidencia.\n\nDOCUMENTO A: George Kennan, \"El Telegrama Largo,\" 22 de febrero de 1946.\n\"Tenemos aquí una fuerza política comprometida fanáticamente con la creencia de que con EE. UU. no puede haber un modus vivendi permanente...\"\n\nDOCUMENTO B: Winston Churchill, \"Los Nervios de la Paz\" (Discurso de la Cortina de Hierro), Fulton, Missouri, 5 de marzo de 1946.\n\"Desde Stettin en el Báltico hasta Trieste en el Adriático, ha caído un telón de acero sobre el Continente...\"\n\nDOCUMENTO C: Harry S. Truman, Discurso ante el Congreso (Doctrina Truman), 12 de marzo de 1947.\n\"En el momento presente de la historia mundial, casi cada nación debe elegir entre formas alternativas de vida...\"\n\nUsando los tres documentos y tu conocimiento de los orígenes de la Guerra Fría (US.59–US.60), construye un argumento que evalúe los roles relativos de la ideología y la estrategia geopolítica en la causación de la Guerra Fría.",
-      "itemType": "document-based",
-      "choices": [],
-      "dokLevel": 4,
-      "standardCodes": [
-        "US.60"
-      ],
-      "standardsYear": "2027-28",
-      "reportingCategory": null,
-      "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "complete",
-      "irtParameters": {
-        "a": 2.47,
-        "b": 0.88,
-        "c": 0.0
-      },
-      "calibrationStatus": "pre-field-test",
-      "bankTier": "student",
-      "status": "provisional",
-      "image": null,
-      "provenance": {
-        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
-        "priorStandardsYear": "2026-27",
-        "priorStandardCodes": [
-          "US.60"
-        ],
-        "priorBankTier": "teacher",
-        "crosswalkReasons": [
-          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
-        ],
-        "alignmentReview": {
-          "verbChange": "explain -> analyze",
-          "dokReviewRequired": true
-        }
-      },
-      "alignmentStatus": "evidenced",
-      "tcapFormat": false,
-      "tcapFormatReason": "item type is never TCAP-format under policy v1",
-      "biasReview": {
-        "status": "not-started",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": null
-      },
-      "rubric": {
-        "scorePoints": 6,
-        "criteria": [
-          {
-            "points": 6,
-            "label": "Exemplary",
-            "descriptor": "Presents a precise, historically arguable thesis on the ideology/geopolitics question. Applies full HIPP analysis to at least two documents, identifying historical context, audience, purpose, AND point of view for each. Uses outside historical evidence (minimum 3 specific facts) not from the documents. Addresses all three prompt components: perceptions, causation debate, and alternative outcomes. Demonstrates sophisticated understanding of historiographical debate."
-          },
-          {
-            "points": 5,
-            "label": "Advanced",
-            "descriptor": "Clear thesis. Full HIPP applied to two documents (may be incomplete on one element for one document). Two pieces of outside evidence. Addresses two of three prompt components thoroughly."
-          },
-          {
-            "points": 4,
-            "label": "Proficient",
-            "descriptor": "Arguable thesis. HIPP partially applied to two documents (addresses 2–3 elements per document). One piece of outside evidence. Addresses at least two prompt components."
-          },
-          {
-            "points": 3,
-            "label": "Adequate",
-            "descriptor": "General thesis. Analyzes at least two documents but without systematic HIPP. Uses document evidence but limited outside knowledge. Addresses one prompt component clearly."
-          },
-          {
-            "points": 2,
-            "label": "Developing",
-            "descriptor": "Basic claim. References at least one document but analysis is mostly summary. Minimal outside evidence. Prompt components addressed superficially."
-          },
-          {
-            "points": 1,
-            "label": "Beginning",
-            "descriptor": "Attempts a response. May reference documents but without analysis. Little to no outside evidence. Does not address prompt components."
-          },
-          {
-            "points": 0,
-            "label": null,
-            "descriptor": "No response or off-topic."
-          }
-        ],
-        "status": "extracted",
-        "extractedFrom": "explanation",
-        "notes": "DOCUMENT ANALYSIS EXPECTATIONS: For Document A — HIPP should identify Kennan's diplomatic vantage point, State Dept. audience, warning purpose, and his trained diplomat's point of view that shaped his perception. For Document B — HIPP should note Churchill's political status, the American audience (Truman present), the galvanizing purpose, and Churchill's imperial Great Power point of view. For Document C — HIPP should identify the immediate Greece/Turkey crisis, the congressional audience, the funding request purpose, and Truman's Manichean framing as a political strategy. KEY EVIDENCE EXPECTED: Yalta and Potsdam tensions; Soviet satellite states (1945–1948); Soviet rejection of Marshall Plan; Berlin Blockade (1948–1949); Soviet atomic test (1949); Chinese Communist victory (1949); NSC-68 (1950) as ideological escalation.",
-        "reviewStatus": "needs-review"
-      },
-      "correctAnswer": null,
-      "explanation": "",
-      "explanationEs": "",
-      "dokRationale": "",
-      "_surface": "student-form",
-      "_formKeyLetter": null
+      "_formKeyLetter": "A"
     },
     {
       "id": "PSTIM-0124",
@@ -1619,11 +1561,40 @@
       "_formKeyLetter": "A"
     },
     {
-      "id": "q-us2-dok4-cr2",
-      "stem": "Analyze how American imperialism in the late 1800s reflected BOTH idealistic and self-interested motivations. Use evidence from at least THREE specific events or policies (e.g., Spanish-American War, annexation of Hawaii, Open Door Policy, Panama Canal, Philippine-American War). Then evaluate whether imperialism ultimately strengthened or weakened American democratic ideals.",
-      "stemEs": "Analice cómo el imperialismo americano a fines del siglo XIX reflejó motivaciones TANTO idealistas como interesadas. Use evidencia de al menos TRES eventos o políticas específicas. Luego evalúe si el imperialismo finalmente fortaleció o debilitó los ideales democráticos americanos.",
-      "itemType": "constructed-response",
-      "choices": [],
+      "id": "PSTIM-0126",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the excavation of the Culebra Cut during Panama Canal construction.\n\n(Photograph, c. 1910. Public Domain.)\n\nAnalyze how the construction of the Panama Canal reflected the principles of Theodore Roosevelt's approach to foreign policy.",
+      "stemEs": "Analice cómo la construcción del Canal de Panamá reflejó los principios de la política exterior de Theodore Roosevelt.",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Roosevelt preferred diplomatic negotiation over action, as shown by his patient 20-year effort to gain permission from Colombia",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Roosevelt's 'Big Stick' diplomacy combined military readiness with assertive action, as seen in his support for Panamanian independence and unilateral canal construction",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The canal project demonstrated Roosevelt's isolationist beliefs and reluctance to engage in foreign affairs",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Roosevelt opposed the canal but was overruled by Congress, which funded the project independently",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
       "dokLevel": 3,
       "standardCodes": [
         "US.23"
@@ -1633,208 +1604,154 @@
       "reportingCategorySource": "UNMAPPED",
       "translationStatus": "complete",
       "irtParameters": {
-        "a": 1.34,
-        "b": 0.55,
-        "c": 0
+        "a": 1.7,
+        "b": 0.9,
+        "c": 0.17
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "authored",
+      "status": "provisional",
       "image": null,
       "provenance": {
-        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-3.json",
         "priorStandardsYear": "2026-27",
         "priorStandardCodes": [
-          "US.16",
-          "US.17"
+          "US.22"
         ],
-        "priorBankTier": "teacher",
+        "priorBankTier": "standard",
         "crosswalkReasons": [
-          "US.16->US.17: checklist intact (6 element(s))",
-          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+          "US.22->US.24: standard ADDED ['militarism/expansionism', 'economics', 'nationalism'] — coverage gap at the standard, not a defect in this item"
         ],
         "alignmentReview": {
           "elementsAddedToStandard": [
-            "Clayton Antitrust Act of 1914"
+            "militarism/expansionism",
+            "economics",
+            "nationalism"
           ]
         },
         "rehomed": {
           "from": [
-            "US.17",
-            "US.19"
+            "US.24"
           ],
           "to": "US.23",
           "matchedElements": [
-            "Spanish-American War",
-            "Annexation of Hawaii",
             "Panama Canal",
-            "Spanish-American War",
-            "Annexation of Hawaii",
-            "Panama Canal"
+            "Roosevelt Corollary",
+            "Panama Canal",
+            "Roosevelt Corollary"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
-        },
-        "authoring": {
-          "record": "form-a.json",
-          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
-      "requiresHistorianReview": true,
-      "historianReview": {
-        "status": "approved",
-        "record": "form-a-authoring-2026-09-03",
-        "reviewer": "Sean Reynolds",
-        "date": "2026-09-03"
-      },
       "tcapFormat": false,
-      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
       "biasReview": {
         "status": "not-started",
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
       },
-      "rubric": {
-        "scorePoints": 4,
-        "criteria": [
-          {
-            "points": 4,
-            "label": "Exemplary",
-            "descriptor": "Names THREE specific events or policies (e.g. the Spanish-American War, the annexation of Hawaii, the Open Door Policy, the Panama Canal, the Philippine-American War) and shows each carrying BOTH an idealistic justification and a self-interested motive — not three examples of one and none of the other. Quotes or closely paraphrases the era's own language (\"civilization\", \"duty\", \"markets\", \"coaling stations\") rather than asserting motive. The evaluation takes a clear position on whether imperialism strengthened or weakened American democratic ideals and defends it against the strongest objection to it, most often the Philippines."
-          },
-          {
-            "points": 3,
-            "label": "Proficient",
-            "descriptor": "Three specific examples, accurate, with both motive types present across the response even if one example carries only one. Evidence is concrete. The evaluation states a position and supports it, but does not engage a counterargument."
-          },
-          {
-            "points": 2,
-            "label": "Developing",
-            "descriptor": "Two or three examples, at least one imprecise or misdated. Idealism and self-interest are both named but treated as labels rather than shown in the evidence. The evaluation is asserted without support."
-          },
-          {
-            "points": 1,
-            "label": "Beginning",
-            "descriptor": "Fewer than two usable examples, or examples outside the period. Motives are described generally (\"America wanted power\") with no specific policy attached. No evaluation, or an evaluation that restates the prompt."
-          },
-          {
-            "points": 0,
-            "label": "No response",
-            "descriptor": "No response, or off-topic."
-          }
-        ],
-        "status": "authored",
-        "reviewStatus": "needs-review"
-      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": null
+      "_formKeyLetter": "B"
     },
     {
-      "id": "q-us20-dok4-dbq-2",
-      "stem": "Document-Based Question: The Spanish-American War and the Question of Empire, 1898\n\nDirections: Read the three documents below. Then write a well-organized essay that constructs an argument addressing the following question: Did the Spanish-American War represent a turning point in American foreign policy, or was it the inevitable product of forces already at work in American society and politics?\n\nYour essay must:\n— Apply SOAPS analysis (Speaker, Occasion, Audience, Purpose, Significance) to at least two of the three documents\n— Use evidence from all three documents\n— Incorporate outside knowledge of the period\n— Construct a clear, defensible argument\n\n---\nDOCUMENT 1\nPresident William McKinley, War Message to Congress, April 11, 1898 — Bryan, William Jennings, ed., Republic or Empire (1899), public domain, public domain:\n\"The present condition of affairs in Cuba is a constant menace to our peace and entails upon this Government an enormous expense. With such a conflict waged for years in an island so near our border and with which our people have such trade and business relations; when the lives and liberty of our citizens are in constant danger and their property destroyed and themselves ruined; where our trading vessels are liable to seizure and are seized at our very door by warships of a foreign nation — the expedient of enforcing American interests will justify forceful intervention.\"\n\n---\nDOCUMENT 2\nTeller Amendment, April 20, 1898, Bryan, William Jennings, ed., Republic or Empire (1899), public domain — public domain:\n\"Resolved by the Senate and House of Representatives... That the United States hereby disclaims any disposition or intention to exercise sovereignty, jurisdiction, or control over said Island except for the pacification thereof, and asserts its determination, when that is accomplished, to leave the government and control of the Island to its people.\"\n\n---\nDOCUMENT 3\nPlatt Amendment, 1901, Statutes at Large of the United States — public domain:\n\"The government of Cuba consents that the United States may exercise the right to intervene for the preservation of Cuban independence, the maintenance of a government adequate for protecting life, property, and individual liberty, and for discharging the obligations with respect to Cuba imposed by the Treaty of Paris on the United States... Cuba will sell or lease to the United States lands necessary for coaling or naval stations at certain specified points to be agreed upon with the President of the United States.\"",
-      "stemEs": "Pregunta Basada en Documentos: La Guerra Hispano-Americana y la Cuestión del Imperio, 1898\n\nInstrucciones: Lea los tres documentos a continuación. Luego escriba un ensayo bien organizado que construya un argumento que aborde la siguiente pregunta: ¿Representó la Guerra Hispano-Americana un punto de inflexión en la política exterior estadounidense, o fue el producto inevitable de fuerzas ya en acción en la sociedad y la política estadounidenses?\n\nSu ensayo debe:\n— Aplicar el análisis SOAPS (Orador, Ocasión, Audiencia, Propósito, Significado) a al menos dos de los tres documentos\n— Utilizar evidencia de los tres documentos\n— Incorporar conocimiento externo del período\n— Construir un argumento claro y defendible\n\n---\nDOCUMENTO 1\nPresidente William McKinley, Mensaje de Guerra al Congreso, 11 de abril de 1898 — Registro del Congreso de EE. UU., dominio público:\n\"La presente condición de los asuntos en Cuba es una amenaza constante para nuestra paz y supone para este Gobierno un enorme gasto. Con tal conflicto librado durante años en una isla tan cercana a nuestra frontera y con la que nuestro pueblo tiene tales relaciones comerciales y de negocios; cuando las vidas y la libertad de nuestros ciudadanos están en peligro constante y su propiedad destruida y ellos mismos arruinados; donde nuestros barcos mercantes son susceptibles de incautación y son incautados a nuestra misma puerta por buques de guerra de una nación extranjera — el expediente de hacer cumplir los intereses americanos justificará la intervención forzosa.\"\n\n---\nDOCUMENTO 2\nEnmienda Teller, 20 de abril de 1898, Registro del Congreso de EE. UU. — dominio público:\n\"Resuelto por el Senado y la Cámara de Representantes... Que los Estados Unidos por la presente reniegan de cualquier disposición o intención de ejercer soberanía, jurisdicción o control sobre dicha Isla excepto para la pacificación de la misma, y afirman su determinación, cuando se logre eso, de dejar el gobierno y control de la Isla a su pueblo.\"\n\n---\nDOCUMENTO 3\nEnmienda Platt, 1901, Estatutos Generales de los Estados Unidos — dominio público:\n\"El gobierno de Cuba consiente en que los Estados Unidos puedan ejercer el derecho de intervenir para la preservación de la independencia de Cuba, el mantenimiento de un gobierno adecuado para proteger la vida, la propiedad y la libertad individual, y para cumplir las obligaciones respecto a Cuba impuestas por el Tratado de París a los Estados Unidos... Cuba venderá o arrendará a los Estados Unidos tierras necesarias para estaciones de carbón o navales en ciertos puntos especificados a acordar con el Presidente de los Estados Unidos.\"",
-      "itemType": "document-based",
-      "choices": [],
-      "dokLevel": 4,
+      "id": "STIM-0021",
+      "stem": "Use the political cartoon to answer the question.\n\nThe 1898 cartoon shows Uncle Sam at a restaurant table, with a menu listing the territories of Cuba, Puerto Rico, the Philippines, and Hawaii, and President McKinley as the waiter serving these options after the Spanish-American War.\n\nWhich argument made by anti-imperialists of the time most directly challenges the decision shown in this cartoon?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Governing distant territories would cost too much money and strain the federal budget",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The territories' populations were racially superior and deserved equal representation in Congress",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Annexing peoples without their consent contradicted American principles of self-government and democracy",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The United States should have adopted a more aggressive military strategy to control more territory",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
       "standardCodes": [
-        "US.22",
         "US.23"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "complete",
+      "translationStatus": "not-started",
       "irtParameters": {
-        "a": 2.2,
-        "b": 0.74,
-        "c": 0.0
+        "a": 1.4,
+        "b": 0.7,
+        "c": 0.2
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "provisional",
       "image": null,
       "provenance": {
-        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-4.json",
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
         "priorStandardsYear": "2026-27",
         "priorStandardCodes": [
-          "US.20",
-          "US.21"
+          "US.15",
+          "US.16"
         ],
-        "priorBankTier": "teacher",
+        "priorBankTier": "stimulus-based",
         "crosswalkReasons": [
-          "US.20->US.22: checklist intact (0 element(s))",
-          "US.21->US.23: standard ADDED ['Spanish-American War'] — coverage gap at the standard, not a defect in this item"
+          "US.15->US.18: checklist intact (6 element(s))",
+          "US.16->US.17: checklist intact (6 element(s))"
         ],
-        "alignmentReview": {
-          "elementsAddedToStandard": [
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.17",
+            "US.18"
+          ],
+          "to": "US.23",
+          "matchedElements": [
+            "Spanish-American War",
             "Spanish-American War"
-          ]
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         }
       },
-      "alignmentStatus": "evidenced",
+      "alignmentStatus": "rehomed",
       "tcapFormat": false,
-      "tcapFormatReason": "item type is never TCAP-format under policy v1",
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
       "biasReview": {
         "status": "not-started",
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
       },
-      "rubric": {
-        "scorePoints": 6,
-        "criteria": [
-          {
-            "points": 6,
-            "label": "Exemplary",
-            "descriptor": "Complex thesis addressing both 'turning point' and 'inevitable product' dimensions. SOAPS analysis of at least two documents accurately and specifically. Cross-document synthesis (Teller → Platt contradiction). Extensive outside knowledge. Well-organized argumentative essay."
-          },
-          {
-            "points": 5,
-            "label": "Advanced",
-            "descriptor": "Clear thesis. SOAPS applied to at least two documents accurately. Good outside knowledge. Addresses the Teller/Platt contradiction but may not fully develop the 'turning point vs. inevitable' framework."
-          },
-          {
-            "points": 4,
-            "label": "Proficient",
-            "descriptor": "Clear thesis. Uses all three documents as evidence. SOAPS applied to at least two documents with reasonable accuracy. Some outside knowledge. Coherent argument."
-          },
-          {
-            "points": 3,
-            "label": "Adequate",
-            "descriptor": "Thesis present but simple. Uses two or more documents. Some SOAPS elements. Limited outside knowledge. Some organizational issues."
-          },
-          {
-            "points": 2,
-            "label": "Developing",
-            "descriptor": "Weak or no thesis. Uses one or two documents without SOAPS. Little outside knowledge. Descriptive rather than argumentative."
-          },
-          {
-            "points": 1,
-            "label": "Beginning",
-            "descriptor": "No thesis. Minimal document use. No SOAPS. No outside knowledge."
-          },
-          {
-            "points": 0,
-            "label": null,
-            "descriptor": "No response or completely off-topic."
-          }
-        ],
-        "status": "extracted",
-        "extractedFrom": "explanation",
-        "notes": "DOCUMENT ANALYSIS EXPECTATIONS: — Doc 1: McKinley's economic/commercial framing; distinguish from humanitarian yellow-press justification; note 'enforcing American interests' as the operative phrase. — Doc 2: Teller's explicit anti-annexation intent; note its unanimous passage alongside the war authorization; significance = set up later contradiction with Platt. — Doc 3: Platt's intervention rights and naval basing provisions; note this was imposed as a condition of U.S. military withdrawal; Cuba had no real choice; significance = established protectorate in all but name. KEY EVIDENCE EXPECTED: Mahan's influence; De Lôme Letter; USS Maine (Feb. 15, 1898); Commodore Dewey Manila Bay (May 1, 1898); Battle of San Juan Hill; Treaty of Paris (1898); Philippine acquisition; Teller-to-Platt contradiction; Guantanamo Bay lease (still in force); Cuba as protectorate 1901–1934.",
-        "reviewStatus": "needs-review"
-      },
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": null
+      "_formKeyLetter": "C"
     }
   ]
 }

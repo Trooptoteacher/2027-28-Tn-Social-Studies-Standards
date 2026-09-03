@@ -42,9 +42,18 @@ explanation calls the key wrong — see §12.
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
 from standards coverage and from standards-aligned forms, nothing more.
 
-**Two green forms**, both enforced by the pipeline:
-- `forms/FORM-A/` — US.46 · US.60 · US.23, tier `full`
-- `forms/FORM-B/` — US.59, tier `full`
+**Assessment forms are SELECTED RESPONSE ONLY** (Sean, 2026-09-03) — TCAP-style multiple
+choice, with multiple-select allowed. The blueprint declares `surface: assessment` and
+`allowedItemTypes`, and `form-surface` fails anything else. Tiers `tcap-standard` (6 items,
+DOK 1-3), `tcap-short` (4), `tcap-floor` (3, DOK 1-2). A selected-response form cannot reach
+DOK-4 and says so on the page instead of carrying an extended item to pretend otherwise.
+- `forms/FORM-A/` — US.46 · US.60 · US.23, tier `tcap-standard`
+- `forms/FORM-B/` — US.59, tier `tcap-standard`
+
+**34 DBQ activities**, `deliverables/dbq/<item-id>/` — student activity + teacher edition, in
+the America 250 brand. Every document is a source card with its own citation, a HIPP sourcing
+scaffold, a planning frame and writing space; the teacher edition adds the scoring guide. Built
+by `python3 tools/dbq_activity.py --all`. See §13.
 
 ## 3. How to run it
 
@@ -70,7 +79,7 @@ can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **59 lessons, 150 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **62 lessons, 161 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -148,7 +157,7 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**66 of 94 standards can build a form. 1,866 authoring units to green them all.**
+**73 of 94 standards can build a form. 2,281 authoring units to green them all.**
 Cheapest next: US.25 (23) · US.26 (24) · US.27 (24) · US.38 (24) · US.61 (24).
 
 Per form, the recipe that produced both green ones:
@@ -232,3 +241,61 @@ civil defense indiscriminately, while `civil defense` and `civil rights act` are
 | bank gates passing | 21 / 32 | **22 / 33** |
 
 Recorded as **L51, L52, L53** with 14 guards. Both forms remain green (24/24).
+
+## 13. Selected response only, and the DBQs as their own activity (2026-09-03)
+
+Two instructions from your first teacher read, and they are one decision:
+
+> "all the questions on the assessment builder need to be TCAP-style multiple choice, maybe
+> multiple select" · "let's turn those larger DBQ questions into actual separate DBQ questions.
+> We'll put the primary source of the context in my brand. Make sure we have the citations and
+> sourcing. Make sure it's easily read, and then just turn that into an activity."
+
+**Why the builder was producing a mixed packet.** The old blueprint's top tier *required* a
+constructed response and a document-based question. The builder was structurally obliged to put
+them on a test form. That ladder existed to answer a real problem — DOK-4 is impossible in a
+four-option item — but it answered it by smuggling an extended item onto an assessment instead
+of saying on the page that a selected-response form cannot reach DOK-4. It now says it.
+
+| | before | after |
+|---|---|---|
+| assessment item types | mcq + CR + DBQ | **mcq, multiple-select** |
+| tiers | full / extended / extended-dok3 / selected-response | **tcap-standard / tcap-short / tcap-floor** |
+| DOK ceiling | 4 (via an extended item) | **3, printed on the form** |
+| standards that can build a form | 66 | **73** |
+
+The DBQ requirement was what most standards could not meet; removing it was worth seven
+standards on its own.
+
+**The DBQs did not go away — they became what they always were.** A document-based question
+crammed into slot 6 of 6 is three primary sources, a three-part prompt and a six-band scoring
+guide, printed with a KEY line and a paragraph headed *"Why the key is right."* All 34 now build
+as standalone activities: `deliverables/dbq/<item-id>/student-activity.pdf` + `teacher-edition.pdf`.
+
+Each source is a card in the America 250 palette — Heritage Blue border, warm tint, its citation
+on a gold rule, the excerpt in 12 pt serif at 1.65 leading because it is the thing being read.
+Under each card, a HIPP sourcing scaffold with ruled lines. Then the prompt broken into its own
+numbered parts, a planning frame (claim → evidence per document → why it supports the claim →
+outside knowledge), and writing space. The teacher edition adds the scoring guide as a real
+table and the expected-evidence notes.
+
+**Nothing was rewritten.** Documents, citations and prompts are the items' own text; the scoring
+guides were extracted from the `explanation` field where they had been buried (§L58).
+
+**Four gates measure the new surface**, all on the rendered PDF: pagination, the 9 pt print
+floor, `activity-sourcing` (every document card carries a citation between its heading and its
+excerpt), `activity-teacher-isolation` (no scoring guide on a student sheet). 172 source cards
+and 220 student pages measured, all passing.
+
+**Three of my own gates false-positived on my own clean output** before they were trusted —
+`activity-teacher-isolation` failed all 34 student sheets on their own footer line *"its scoring
+guide is not calibrated"*, and `activity-sourcing` read `George Kennan, "The Long Telegram,"` as
+a 15-character citation. That is the third time in this repo an over-eager matcher has failed
+clean work (L49, L59, L62). A gate is now run against known-clean output *before* it is trusted,
+not only against a defect.
+
+**What this cost.** Rebuilding FORM-A and FORM-B as pure selected response pulled in different
+items — the old DOK-3/4 slots were the CR and DBQ. The new items carry the usual authoring debt
+(6 items on FORM-A need DOK rationales, distractor misconceptions and Spanish; the key-longest
+cue sits at 50%). **Neither form is green right now.** That is the honest cost of the change and
+it is one authoring pass, not a redesign.

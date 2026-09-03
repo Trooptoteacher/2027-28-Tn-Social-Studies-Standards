@@ -244,3 +244,90 @@ def gate_form_teacher_metadata(pdfs, binding=None) -> Result:
                     f"block is missing from {n_keys - seen} of them"))
     return Result(name, not findings, len(teacher), findings, judged=judged,
                   note=f"{len(_ANALYSIS_ROWS)} required row(s) checked per teacher PDF")
+
+
+def gate_activity_sourcing(pdfs, binding=None) -> Result:
+    """Every document on a DBQ activity carries its citation ON THE PAGE.
+
+    Sean's ask when the DBQs left the assessment builder: "Make sure we have
+    the citations and sourcing." An unsourced primary source is the one thing
+    this repo will not ship (guardrail 1), and the check has to be on the
+    rendered sheet — the citation existing in the item record is not the same
+    as it reaching the student's hand, which is the whole lesson of L56.
+
+    Measured by counting document headings against citation-bearing lines: a
+    template that prints the first citation and drops the rest is the way this
+    fails silently.
+    """
+    name = "activity-sourcing"
+    if (r := empty_scan_guard(name, pdfs)):
+        return r
+    findings, judged = [], 0
+    # A SOURCE CARD, not every mention of the label. "Document C" also appears
+    # as a row label in the planning table, where no citation follows and none
+    # should — counting those inflated the population and failed cards that are
+    # correctly sourced. The card is the label followed by text and then an
+    # opening quotation mark: that is what a source card looks like.
+    # The boundary is the EXCERPT'S opening quote, and only the curly one: the
+    # renderer inserts \u201c via CSS ::before, so its presence is a
+    # construction guarantee. Accepting a straight quote too made the gate stop
+    # inside citations that quote a title — `George Kennan, "The Long
+    # Telegram,"` measured as a 15-character citation and failed three
+    # correctly-sourced cards. Third time an over-eager matcher has failed
+    # clean work in this repo (L49, L59); the pattern is always the same, a
+    # boundary chosen from what usually appears rather than from what the
+    # builder actually emits.
+    card_rx = re.compile(
+        r"^[ \t]*Document[ \t]+([A-Z0-9]{1,2})[ \t]*\n(.{0,500}?)\u201c",
+        re.M | re.S)
+    for path in pdfs:
+        text = "\n".join(pg["text"] for pg in _pages(path))
+        cards = card_rx.findall(text)
+        if not cards:
+            findings.append(Finding(os.path.basename(path),
+                "no source card found — nothing was measured on this sheet"))
+            continue
+        for lab, body in cards:
+            judged += 1
+            if len(body.strip()) < 15:
+                findings.append(Finding(f"{os.path.basename(path)} Document {lab}",
+                    "no citation printed between the document heading and its excerpt — "
+                    "an unsourced primary source is worse than a missing one"))
+    return Result(name, not findings, len(pdfs), findings, judged=judged,
+                  note=f"{judged} document card(s) checked on the rendered sheet")
+
+
+# ANCHORED TO HEADINGS. An unanchored "Scoring guide" matched this activity's
+# own footer — "its scoring guide is not calibrated" — and failed all 34
+# student sheets for saying the honest thing about themselves. That is L49/L59
+# a third time: a gate that fires on the harmless teaches you to ignore it.
+_TEACHER_ONLY = (
+    (re.compile(r"^\s*TEACHER EDITION\b", re.M), "the teacher band"),
+    (re.compile(r"^\s*Scoring guide\s*$", re.M | re.I), "the scoring-guide heading"),
+    (re.compile(r"^\s*Expected evidence", re.M | re.I), "expected evidence"),
+    (re.compile(r"^\s*\d+\s*\n?\s*(?:Exemplary|Advanced|Proficient|Adequate|Developing|"
+                r"Beginning)\b", re.M), "a scored rubric band"),
+)
+
+
+def gate_activity_teacher_isolation(pdfs, binding=None) -> Result:
+    """No scoring guide or expected evidence on a student activity sheet.
+
+    Same rule as the answer key on a test form, and the same reason it is
+    enforced on the RENDERED artifact: hiding a section in the template leaves
+    the text in the PDF.
+    """
+    name = "activity-teacher-isolation"
+    student = [p for p in pdfs if "student" in os.path.basename(p)]
+    if (r := empty_scan_guard(name, student)):
+        return r
+    findings, judged = [], 0
+    for path in student:
+        for n, pg in enumerate(_pages(path), 1):
+            judged += 1
+            for rx, what in _TEACHER_ONLY:
+                if rx.search(pg["text"]):
+                    findings.append(Finding(f"{os.path.basename(path)} p{n}",
+                        f"student activity carries {what}"))
+    return Result(name, not findings, len(student), findings, judged=judged,
+                  note=f"{judged} student page(s) checked")

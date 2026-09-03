@@ -1022,6 +1022,71 @@
           "contains": "validate accepts a short ZERO band"
         }
       ]
+    },
+    {
+      "id": "L60",
+      "mistake": "The assessment builder's blueprint REQUIRED a constructed response and a document-based question to reach its highest tier, so the builder was structurally obliged to produce the mixed instructional packet Sean objected to: 'this is a mixed classroom assessment, not a TCAP-field-testable form ... all the questions on the assessment builder need to be TCAP-style multiple choice, maybe multiple select.' The four-tier ladder had been built to answer a real problem — DOK-4 is impossible in a four-option item — but it answered it by putting an extended item on a test form rather than by saying on the page that a selected-response form cannot reach DOK-4. The blueprint now declares surface: assessment and allowedItemTypes, the tiers are selected-response only with a printed DOK ceiling of 3, and gate_form_surface holds the artifact to it. Buildable standards went 66 -> 73 as a side effect: the DBQ requirement was what most standards could not meet.",
+      "caughtBy": "Sean, reading the form as a teacher and naming what it was",
+      "guards": [
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "def gate_form_surface"
+        },
+        {
+          "file": "blueprints/us-history-geography.blueprint.json",
+          "contains": "allowedItemTypes"
+        },
+        {
+          "file": "blueprints/us-history-geography.blueprint.json",
+          "contains": "dokCeilingRationale"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "gate_form_surface"
+        }
+      ]
+    },
+    {
+      "id": "L61",
+      "mistake": "The DBQ parser knew ONE of the two stem formats in this bank and reported '0 doc(s)' for the other — which reads as 'this item has no sources' rather than 'this parser cannot see them', the same confusion as a standard with no signals reading as 'no items exist' (L51). 26 of 34 DBQs used the second shape (DOCUMENT 1 / Source: / excerpt, separated by box-drawing rules) rather than the first. Four more parsed their documents and reported no PROMPT, because a stem with no closing separator leaves the prompt inside the last document's body. Coverage was MEASURED across all 34 before the builder was trusted, not sampled on the one item I happened to be reading.",
+      "caughtBy": "running --list across all 34 items instead of building the one I had open",
+      "guards": [
+        {
+          "file": "tools/dbq_activity.py",
+          "contains": "TWO stem formats live in this bank"
+        },
+        {
+          "file": "tools/dbq_activity.py",
+          "contains": "SOURCE_RX"
+        },
+        {
+          "file": "tools/dbq_activity.py",
+          "contains": "no CLOSING separator"
+        }
+      ]
+    },
+    {
+      "id": "L62",
+      "mistake": "THE THIRD OVER-EAGER MATCHER (after L49 and L59), and this time two in one gate pass. activity-teacher-isolation matched the substring 'scoring guide' and failed all 34 student sheets on their own footer — 'its scoring guide is not calibrated' — which is the sheet honestly disclosing itself. activity-sourcing took the first quotation mark as the citation/excerpt boundary and so measured a citation that quotes a title (George Kennan, “The Long Telegram,”) as 15 characters, failing three correctly-sourced cards; it also counted the planning table's 'Document C' row as a source card, inflating the population from 172 to 348. In all three cases the boundary was chosen from what USUALLY appears rather than from what the builder actually emits — the excerpt's opening quote is inserted by CSS ::before as U+201C, which is a construction guarantee, and a heading is anchored to its line. A gate must be run against KNOWN-CLEAN output before it is trusted, not only against a defect.",
+      "caughtBy": "my own new gates failing my own new deliverable, and checking the artifact rather than believing them",
+      "guards": [
+        {
+          "file": "tools/gates/forms.py",
+          "contains": "ANCHORED TO HEADINGS"
+        },
+        {
+          "file": "tools/gates/forms.py",
+          "contains": "construction guarantee"
+        },
+        {
+          "file": "tests/test_form_gates.py",
+          "contains": "is NOT a leak"
+        },
+        {
+          "file": "tests/test_form_gates.py",
+          "contains": "CITATION QUOTING A TITLE"
+        }
+      ]
     }
   ]
 }

@@ -30,12 +30,15 @@ UNWIRED = {
     "gate_form_standard_relevance": "called directly by the form scope in collect_form",
     "gate_form_key_position": "called directly by the form scope in collect_form",
     "gate_form_blueprint": "called directly with the form's declared tiers",
+    "gate_form_surface": "called directly by the form scope in collect_form",
     "gate_form_pagination": "print gate, called on rendered PDFs",
     "gate_form_type_size": "print gate, called on rendered PDFs",
     "gate_form_key_leakage": "print gate, called on rendered PDFs",
     "gate_form_disclosure": "print gate, called on rendered PDFs",
     "gate_form_key_contradiction": "print gate, called on rendered PDFs",
     "gate_form_teacher_metadata": "print gate, called on rendered PDFs",
+    "gate_activity_sourcing": "activity gate, called on rendered DBQ PDFs by collect_activities",
+    "gate_activity_teacher_isolation": "activity gate, called on rendered DBQ PDFs by collect_activities",
     "gate_teacher_side_isolation": "form scope only — items at rest carry no surface",
 }
 

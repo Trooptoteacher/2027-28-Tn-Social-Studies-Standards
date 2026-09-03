@@ -82,6 +82,9 @@ def collect(b, target=None):
             r = coverage.gate_teacher_side_isolation(surface, b)
             r.gate = f"{fid}/teacher-side-isolation"
             results.append(r)
+            r = coverage.gate_form_surface(surface, b)
+            r.gate = f"{fid}/form-surface"
+            results.append(r)
             man = os.path.join(fd, "manifest.json")
             decl = (json.load(open(man, encoding="utf-8")).get("standards")
                     if os.path.exists(man) else None)
@@ -89,6 +92,7 @@ def collect(b, target=None):
             r.gate = f"{fid}/form-blueprint"
             results.append(r)
 
+    results.extend(collect_activities(b))
     results.append(coverage.unmeasured_gates(results))
     return items, results
 
@@ -100,6 +104,29 @@ def collect(b, target=None):
 _BANK_ONLY = {"gate_blueprint", "gate_blueprint_achievability",
               "gate_release_readiness", "gate_key_position"}
 ITEM_GATES = [g for g in GATES if g.__name__ not in _BANK_ONLY]
+
+
+def collect_activities(b):
+    """Every gate that applies to the DBQ ACTIVITIES — a different surface.
+
+    An activity is not a form: it has no answer key, no key position and no
+    blueprint tier. Running the form gates over it would report N/A eleven
+    times and prove nothing; running nothing over it would mean the newest
+    deliverable in the repo is the only unmeasured one.
+    """
+    import glob
+    root = os.path.join(itemio.BANK_ROOT, "deliverables", "dbq")
+    out = []
+    dirs = sorted(d for d in glob.glob(os.path.join(root, "*")) if os.path.isdir(d))
+    if not dirs:
+        return out
+    pdfs = sorted(glob.glob(os.path.join(root, "*", "*.pdf")))
+    for g in (formgates.gate_form_pagination, formgates.gate_form_type_size,
+              formgates.gate_activity_sourcing, formgates.gate_activity_teacher_isolation):
+        r = g(pdfs, b)
+        r.gate = f"dbq-activities/{r.gate}"
+        out.append(r)
+    return out
 
 
 def collect_form(b, form_id):
@@ -131,6 +158,7 @@ def collect_form(b, form_id):
              if os.path.exists(man) else None)
     results.append(coverage.gate_form_blueprint(rendered, b, standards=decl, tiers=tiers))
     results.append(coverage.gate_form_key_position(rendered, b))
+    results.append(coverage.gate_form_surface(rendered, b))
     # Measured on the SOURCE items, not the rendered student surface. That
     # surface strips the key by design, and an item whose identifying signal
     # lives in its correct answer then reads as naming nothing — the Marshall

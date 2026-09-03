@@ -16,7 +16,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `distractor-coverage` | **FAIL** | 3988 | 3846 | 22944 |
 | `truncation` | **FAIL** | 3988 | — | 91 |
 | `blueprint-conformance` | **FAIL** | 1989 | — | 24 |
-| `blueprint-achievability` | **FAIL** | 1989 | 94 | 28 |
+| `blueprint-achievability` | **FAIL** | 1989 | 94 | 21 |
 | `key-position-debias` | **PASS** | 3793 | — | 0 |
 | `serveability` | **FAIL** | 3928 | — | 994 |
 | `reporting-category-provenance` | **PASS** | 3988 | — | 0 |
@@ -34,25 +34,31 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `bias-review` | **PASS** | 3988 | 3928 | 0 |
 | `key-contradiction` | **PASS** | 3988 | 3928 | 0 |
 | `release-readiness` | **FAIL** | 3928 | — | 6 |
-| `FORM-A/form-pagination` | **PASS** | 2 | 36 | 0 |
-| `FORM-A/form-type-size` | **PASS** | 2 | 73410 | 0 |
-| `FORM-A/form-key-leakage` | **PASS** | 1 | 6 | 0 |
+| `FORM-A/form-pagination` | **PASS** | 2 | 27 | 0 |
+| `FORM-A/form-type-size` | **PASS** | 2 | 53240 | 0 |
+| `FORM-A/form-key-leakage` | **PASS** | 1 | 5 | 0 |
 | `FORM-A/form-disclosure` | **PASS** | 2 | 2 | 0 |
-| `FORM-A/form-key-contradiction` | **PASS** | 1 | 12 | 0 |
+| `FORM-A/form-key-contradiction` | **PASS** | 1 | 18 | 0 |
 | `FORM-A/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
 | `FORM-A/teacher-side-isolation` | **PASS** | 18 | 18 | 0 |
+| `FORM-A/form-surface` | **PASS** | 18 | 18 | 0 |
 | `FORM-A/form-blueprint` | **FAIL** | 18 | 3 | 3 |
-| `FORM-B/form-pagination` | **PASS** | 2 | 13 | 0 |
-| `FORM-B/form-type-size` | **PASS** | 2 | 23454 | 0 |
+| `FORM-B/form-pagination` | **PASS** | 2 | 11 | 0 |
+| `FORM-B/form-type-size` | **PASS** | 2 | 17767 | 0 |
 | `FORM-B/form-key-leakage` | **PASS** | 1 | 2 | 0 |
 | `FORM-B/form-disclosure` | **PASS** | 2 | 2 | 0 |
-| `FORM-B/form-key-contradiction` | **PASS** | 1 | 4 | 0 |
+| `FORM-B/form-key-contradiction` | **PASS** | 1 | 6 | 0 |
 | `FORM-B/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
 | `FORM-B/teacher-side-isolation` | **PASS** | 6 | 6 | 0 |
+| `FORM-B/form-surface` | **PASS** | 6 | 6 | 0 |
 | `FORM-B/form-blueprint` | **FAIL** | 6 | 1 | 1 |
-| `all-gates-measured` | **PASS** | 40 | — | 0 |
+| `dbq-activities/form-pagination` | **PASS** | 68 | 459 | 0 |
+| `dbq-activities/form-type-size` | **PASS** | 68 | 370166 | 0 |
+| `dbq-activities/activity-sourcing` | **PASS** | 68 | 172 | 0 |
+| `dbq-activities/activity-teacher-isolation` | **PASS** | 34 | 220 | 0 |
+| `all-gates-measured` | **PASS** | 46 | — | 0 |
 
-**28/41 pass.** Grade A requires all of them. "Close" is not "A."
+**34/47 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
