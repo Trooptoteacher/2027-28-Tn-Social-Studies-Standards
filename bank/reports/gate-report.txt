@@ -61,6 +61,31 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-X015 [items/us-history-geography/US.04/migrated.json]: bilingual field explanationEs absent — item cannot be served in Spanish
           … and 1006 more
 [PASS] reporting-category-provenance — scanned 3986 — 4131 item/standard pair(s) awaiting a category source (mapping sourceOfRecord='UNMAPPED')
+[FAIL] standard-relevance — scanned 3986, judged 3231 — 0 item(s) allowlisted by review
+        1703 finding(s):
+          - STIM-0001 [items/us-history-geography/US.04/migrated.json]: names no element of US.04, US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
+          - STIM-0003 [items/us-history-geography/US.04/migrated.json]: names no element of US.04, US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
+          - US.02-X011 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
+          - US.02-X012 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
+          - US.02-X015 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
+          - US.02-X019 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
+          - US.02-X028 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
+          - US.02-X032 [items/us-history-geography/US.05/migrated.json]: names no element of US.05 — that standard asks about ['Dawes Act', 'assimilation', 'boarding schools', 'movement to reservations']; review whether the item is filed correctly
+          … and 1695 more
+[FAIL] choice-length-cue — scanned 3986, judged 3844 — 4-choice n=3844 key-is-longest 53.3% (chance 25%)
+        1 finding(s):
+          - 4-choice cohort: the key is the longest option in 2048/3844 items (53.3%) against 25% by chance — a student can beat this bank without reading the stems
+[FAIL] duplicate-stems — scanned 3986
+        21 finding(s):
+          - us-19-x020, us-20-x022: 2 items share one stem, filed under ['US.21', 'US.22']: "Alfred Thayer Mahan's The Influence of Sea Power upon History (1890) a…"
+          - q-tcap-us08-1, q-tcap-us08-boss-tweed-2: 2 items share one stem, filed under ['US.11']: "Boss Tweed and Tammany Hall are examples of —…"
+          - q-tcap-us09-carver-1, q-new-us09-dok2-carver: 2 items share one stem, filed under ['US.15']: "George Washington Carver contributed to American agriculture by —…"
+          - US.07-X014, us-14-q01: 2 items share one stem, filed under ['US.10', 'US.16']: "Muckrakers were journalists and writers who:…"
+          - us-83-q04, us-58-x022: 2 items share one stem, filed under ['US.79']: "The American Indian Movement (AIM), founded in 1968, focused primarily…"
+          - us-46-q07, us-46-x013: 2 items share one stem, filed under ['US.48']: "The Battle of Midway (June 1942) was a turning point in the Pacific Wa…"
+          - us-53-x014, us-54-x021: 2 items share one stem, filed under ['US.78']: "The Civil Rights Act of 1964 prohibited discrimination based on —…"
+          - us-49-q04, us-49-x011: 2 items share one stem, filed under ['US.61']: "The Korean War began in June 1950 when —…"
+          … and 13 more
 [FAIL] release-readiness — scanned 3986 — Grade A requires zero findings here. "Close" is not "A."
         6 finding(s):
           - reportingCategory: 76 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
@@ -74,8 +99,8 @@ Scanning items/us-history-geography — 3986 item(s)
 [PASS] FORM-A/form-key-leakage — scanned 1, judged 6 — 6 student page(s) checked
 [PASS] FORM-A/form-disclosure — scanned 2
 [PASS] FORM-A/teacher-side-isolation — scanned 18 — measures rendered student surfaces; items at rest are teacher-side by default
-[PASS] all-gates-measured — scanned 15 — 15/15 gates actually measured something
+[PASS] all-gates-measured — scanned 18 — 18/18 gates actually measured something
 
-10/16 gates pass (0 not measured).
-HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, serveability, release-readiness
+10/19 gates pass (0 not measured).
+HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, serveability, standard-relevance, choice-length-cue, duplicate-stems, release-readiness
 Grade A requires ALL gates pass. "Close" is not "A."

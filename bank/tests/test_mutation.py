@@ -17,7 +17,7 @@ sys.path.insert(0, HERE)
 
 import binding as binding_mod
 import fixtures
-from gates import Result, record, coverage
+from gates import Result, record, coverage, content
 
 B = binding_mod.load(os.path.join(HERE, "fixtures", "testbinding", "binding.json"))
 CODES = ["US.04", "US.05"]
@@ -59,6 +59,25 @@ def defect_for(gate_name):
         b[0]["reportingCategorySource"] = "tdoe-blueprint"
     elif gate_name == "teacher_side_isolation":
         b[0].update(bankTier="student", _surface="student-form")
+    elif gate_name == "standard_relevance":
+        b = [fixtures.item(id=f"R-{n}", standardCodes=["US.05"],
+                           stem="Why did the Dawes Act divide reservation land?")
+             for n in range(4)]
+        b[1]["stem"] = "How did Carnegie's vertical integration reshape steel?"
+        b[1]["choices"] = [dict(c, text="Steel consolidation.") for c in b[1]["choices"]]
+        b[1]["explanation"] = "He bought suppliers at every stage."
+    elif gate_name == "choice_length_cue":
+        b = []
+        for n in range(40):
+            it = fixtures.item(id=f"C-{n}", standardCodes=["US.05"],
+                               stem="Why did the Dawes Act divide reservation land?")
+            fixtures._sync_key(it, "ABCD"[n % 4])
+            for c in it["choices"]:
+                c["text"] = "word " * (12 if c["id"] == it["correctAnswer"] else 4)
+            b.append(it)
+    elif gate_name == "duplicate_stems":
+        b = fixtures.clean_bank(CODES)
+        b[3]["stem"] = b[0]["stem"]
     return b
 
 
@@ -73,6 +92,9 @@ GATES = {
     "serveability": coverage.gate_serveability,
     "reporting_category": coverage.gate_reporting_category,
     "teacher_side_isolation": coverage.gate_teacher_side_isolation,
+    "standard_relevance": content.gate_standard_relevance,
+    "choice_length_cue": content.gate_choice_length_cue,
+    "duplicate_stems": content.gate_duplicate_stems,
 }
 
 print("=" * 74)

@@ -15,6 +15,7 @@ stage "gate proofs"           python3 tests/test_gates.py
 stage "gate mutation check"   python3 tests/test_mutation.py
 stage "alignment routing"     python3 tests/test_alignment.py
 stage "regression pins"       python3 tests/test_regressions.py
+stage "content gate proofs"   python3 tests/test_content_gates.py
 stage "print gate proofs"     python3 tests/test_form_gates.py
 stage "gates vs artifact"     python3 tools/run_gates.py
 

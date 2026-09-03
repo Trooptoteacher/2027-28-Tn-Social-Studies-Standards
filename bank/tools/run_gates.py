@@ -16,7 +16,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import binding as binding_mod
 import itemio
-from gates import record, coverage
+from gates import record, coverage, content
 from gates import forms as formgates
 
 GATES = [
@@ -29,6 +29,10 @@ GATES = [
     coverage.gate_key_position,
     coverage.gate_serveability,
     coverage.gate_reporting_category,
+    # Content gates: what the bank is ABOUT, not how it was made.
+    content.gate_standard_relevance,
+    content.gate_choice_length_cue,
+    content.gate_duplicate_stems,
     # teacher-side-isolation is a FORM gate, not a bank gate: items at rest
     # carry no surface, so running it here could only ever be vacuous. It runs
     # once per rendered form, below.

@@ -65,6 +65,26 @@ clean pass.
 | `release-readiness` | the Grade A decision — unsourced categories, unsigned blueprint, unreviewed provisional items, authoring debt |
 | `all-gates-measured` | any gate that formed no opinion (see below) |
 
+**Content gates — what the bank is ABOUT, not how it was made.** Sixteen structural
+gates all passed a bank in which **1,680 items (42%) name no element of the standard
+they are filed under**: a Vietnam anti-war question under *the founding of the United
+Nations*, a Korea question under *prosperity and consumerism in the 1950s*. Those are
+pre-existing misfiles in the 2026-27 bank, verified against provenance — the migration
+carried the code faithfully. Structure gates are constitutionally unable to see this.
+
+| Gate | Catches | Found on the migrated bank |
+|---|---|---|
+| `standard-relevance` | item names no element of its standard's checklist | **1,703** |
+| `choice-length-cue` | the key is the longest choice far above chance | **53.3%** vs 25% |
+| `duplicate-stems` | one question filed twice under two ids | **21 groups** |
+
+`standard-relevance` has a reviewed escape hatch — `reviewed/relevance-allowlist.json`,
+one committed decision per item. Never a loosened threshold.
+
+**What these do NOT do:** they cannot tell you whether a stem's history is right. A
+wrong date, a key that is defensible but not best, a distractor that is accidentally
+also true — those need a historian, and no gate substitutes for one.
+
 Print gates, run per rendered form, reading the **PDF**:
 
 | Gate | Catches |
@@ -199,7 +219,7 @@ It has already earned its place: it caught a refactor that silently deleted an
 invariant comment `run_gates.py` was cited for, and three ledger entries pointing at
 strings that did not exist.
 
-**16 lessons, 28 guards** — among them:
+**19 lessons, 34 guards** — among them:
 
 | | |
 |---|---|
@@ -209,6 +229,8 @@ strings that did not exist.
 | `L13` | a PDF scan's zero hits treated as evidence, when the extractor was simply broken |
 | `L14` | a gate designed that would have **passed the very defect it existed to catch** |
 | `L15` | a pass tally reported that included a vacuous pass |
+| `L17` | sixteen gates measured how the bank was made; **none measured what it is about** |
+| `L18` | the key is the longest choice 53.3% of the time — beatable without reading |
 
 A lesson written down but not enforced is a promise. A lesson with a guard is a fact
 about the code.

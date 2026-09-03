@@ -102,6 +102,22 @@ wrong standards — every structural gate passes because they measure how it was
 what it is about. Mark an unauthored bank `"_unauthored"` and refuse to render it.
 **Never build a unit with a wildcard** — name the standards actually authored.
 
+## 8b. Structure gates cannot see content
+
+Sixteen gates measuring binding, keys, blueprint, truncation, pagination and print
+floor all passed a bank in which **42% of items name no element of the standard they
+are filed under**. Structural gates measure how an artifact was made. Add gates that
+measure what it is about:
+
+- `standard-relevance` — the item names something its standard actually asks for
+- `choice-length-cue` — the key is not reliably the longest option (it was, 53.3% against
+  25% by chance: beatable without reading)
+- `duplicate-stems` — one question is not filed twice
+
+And know the ceiling: **no gate can tell you whether a stem's history is right.** A wrong
+date, a key that is defensible but not best, a distractor that happens to be true — those
+need a historian. Build the review QUEUE, never fake the verdict.
+
 ## 9. Every mistake gets a guard
 
 Standing instruction from the owner. When you make or find a mistake:

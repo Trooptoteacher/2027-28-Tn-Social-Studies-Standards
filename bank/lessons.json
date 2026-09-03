@@ -5,7 +5,8 @@
     "tests/test_mutation.py",
     "tests/test_alignment.py",
     "tests/test_form_gates.py",
-    "tests/test_regressions.py"
+    "tests/test_regressions.py",
+    "tests/test_content_gates.py"
   ],
   "lessons": [
     {
@@ -229,6 +230,51 @@
         {
           "file": "tests/test_gates.py",
           "contains": "EMPTY scan FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "mistake": "Sixteen gates were built and every one measured how the bank was MADE; none measured what it is ABOUT. They all passed a bank in which 1,680 items (42%) contain no named element of the standard they are filed under — a Vietnam anti-war question under 'the founding of the United Nations', a Korea question under 'prosperity and consumerism in the 1950s'. This is the exact failure the owner described in the opening brief.",
+      "caughtBy": "probing the bank for defects no existing gate was looking for",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_standard_relevance"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "an off-standard item FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "mistake": "Answer-position de-bias was gated, but no gate measured any other test-taking cue. The key is the LONGEST choice in 53.3% of items against 25% by chance — a student can beat the bank without reading a single stem, which is the same defect as '60% of keys are C' and was equally invisible.",
+      "caughtBy": "asking what other cues a structural gate cannot see",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_choice_length_cue"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a bank where the key is ALWAYS longest FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "mistake": "Nothing checked for duplicate items. 44 items across 21 groups share a stem with another item under a different id, so one question can appear twice on a form and be counted twice toward coverage.",
+      "caughtBy": "probing the migrated bank",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_duplicate_stems"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "two ids sharing one stem FAILS"
         }
       ]
     }

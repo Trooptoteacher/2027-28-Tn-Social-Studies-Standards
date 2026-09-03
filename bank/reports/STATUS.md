@@ -19,15 +19,18 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `key-position-debias` | **PASS** | 3844 | — | 0 |
 | `serveability` | **FAIL** | 3986 | — | 1014 |
 | `reporting-category-provenance` | **PASS** | 3986 | — | 0 |
+| `standard-relevance` | **FAIL** | 3986 | 3231 | 1703 |
+| `choice-length-cue` | **FAIL** | 3986 | 3844 | 1 |
+| `duplicate-stems` | **FAIL** | 3986 | 3986 | 21 |
 | `release-readiness` | **FAIL** | 3986 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 14 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 32983 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 6 | 0 |
 | `FORM-A/form-disclosure` | **PASS** | 2 | 2 | 0 |
 | `FORM-A/teacher-side-isolation` | **PASS** | 18 | 18 | 0 |
-| `all-gates-measured` | **PASS** | 15 | — | 0 |
+| `all-gates-measured` | **PASS** | 18 | — | 0 |
 
-**10/16 pass.** Grade A requires all of them. "Close" is not "A."
+**10/19 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
