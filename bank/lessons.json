@@ -470,6 +470,74 @@
           "contains": "form: one item OVER the blueprint FAILS"
         }
       ]
+    },
+    {
+      "id": "L32",
+      "mistake": "The form builder left key placement to a hash, so FORM-A rendered 42% of its keys on position D. The de-bias gate had existed for several commits and could not pass, because nothing in the BUILDER was trying to satisfy it. A gate the builder cannot satisfy is a gate that stays red and gets ignored.",
+      "caughtBy": "running the scoped form check and seeing a gate that had never been green",
+      "guards": [
+        {
+          "file": "tools/forms.py",
+          "contains": "def key_targets"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "key_targets spreads key positions evenly"
+        }
+      ]
+    },
+    {
+      "id": "L33",
+      "mistake": "Fixing the longest-choice cue over-corrected FORM-A from 66.7% to 0.0%, and the gate PASSED it. 'The longest option is never right' is exactly as learnable as the reverse, and the gate was one-sided. A remediation that trips the opposite version of the same defect is not a fix.",
+      "caughtBy": "the suspiciously perfect 0.0% reading",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "TWO-SIDED"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "ALSO FAILS (the reverse cue)"
+        }
+      ]
+    },
+    {
+      "id": "L34",
+      "mistake": "The scoped form runner ran the BANK-level key-position gate over a form. That gate reads each item's stored correctAnswer id, so it reported D at 42% while the form actually rendered 3/3/3/3 — a distribution no student would ever see. A gate must measure the artifact at the level the artifact exists.",
+      "caughtBy": "the rendered surface disagreeing with the gate that was judging it",
+      "guards": [
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "def gate_form_key_position"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "_BANK_ONLY"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "a skewed rendered form FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L35",
+      "mistake": "Introducing N/A — a gate with an honest reason for having nothing to judge — risked re-opening L11, where a gate judging nothing reported PASS. The exception is real (citation-integrity on a form whose items carry no citations) but it is the kind of exception that swallows the rule. So the reason is REQUIRED, N/A is never reported or counted as PASS, and a gate cannot claim N/A while its population exists.",
+      "caughtBy": "noticing the exception was the shape of the defect it sat next to",
+      "guards": [
+        {
+          "file": "tools/gates/__init__.py",
+          "contains": "The loophole this could open is obvious"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "citation-integrity does NOT claim N/A when a citation is present"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "all-gates-measured still fails unexplained vacuity"
+        }
+      ]
     }
   ]
 }

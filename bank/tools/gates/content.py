@@ -147,11 +147,20 @@ def gate_choice_length_cue(items, binding=None) -> Result:
     for k, (hits, total) in sorted(cohorts.items()):
         chance, share = 1.0 / k, hits / total
         notes.append(f"{k}-choice n={total} key-is-longest {share:.1%} (chance {chance:.0%})")
+        # TWO-SIDED. Balancing a cued set down to 0% is also a cue — "the longest
+        # option is never right" is just as learnable as "the longest option is
+        # always right", and a one-sided gate calls that a pass. Found by
+        # over-correcting a real form from 66.7% to 0.0% and being told it passed.
         if share > chance + TOLERANCE:
             findings.append(Finding(f"{k}-choice cohort",
                 f"the key is the longest option in {hits}/{total} items ({share:.1%}) "
                 f"against {chance:.0%} by chance — a student can beat this bank without "
                 f"reading the stems"))
+        elif share < chance - TOLERANCE:
+            findings.append(Finding(f"{k}-choice cohort",
+                f"the key is the longest option in only {hits}/{total} items ({share:.1%}) "
+                f"against {chance:.0%} by chance — 'the longest option is never right' is "
+                f"equally learnable"))
     return Result(name, not findings, len(items), findings, judged=judged,
                   note="; ".join(notes))
 
@@ -237,6 +246,12 @@ def gate_citation_integrity(items, binding=None) -> Result:
                 findings.append(Finding(it.get("id", "?"),
                     f"{detail}: …{m.group(0)[:80]}…", it.get("_file", "")))
                 break
+    if judged == 0:
+        return Result(name, True, len(items), [], judged=0,
+                      inapplicable="no item in this set carries a source citation, so there "
+                                   "is no attribution to check",
+                      note=f"{held} held out of service awaiting source verification"
+                           if held else "")
     return Result(name, not findings, len(items), findings, judged=judged,
                   note=f"{judged} servable item(s) carry a citation" +
                        (f"; {held} held out of service awaiting source verification" if held else ""))

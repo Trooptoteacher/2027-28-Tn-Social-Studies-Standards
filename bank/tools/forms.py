@@ -77,12 +77,17 @@ HTML = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 </body></html>"""
 
 
-def ordered_choices(item, form_id):
+def ordered_choices(item, form_id, target_letter=None):
     """Deterministic per-item choice order, shared by BOTH surfaces.
 
     Seeded from the item id and the form id so the same item on the same form
     always renders identically, and the teacher key can never disagree with the
     student form about which letter is the key.
+
+    When `target_letter` is given the order is rotated so the key lands there.
+    Leaving key placement to the hash alone put 42% of one form's keys on D —
+    the de-bias gate exists to catch that, and the BUILDER is what has to
+    satisfy it. A gate the builder cannot satisfy is a gate that stays red.
     """
     ch = [c for c in itemio.choices(item) if isinstance(c, dict)]
     if not ch:
@@ -91,6 +96,12 @@ def ordered_choices(item, form_id):
     order = list(ch)
     random.Random(seed).shuffle(order)
     letters = "ABCDEFGH"
+    if target_letter and target_letter in letters[:len(order)]:
+        want = letters.index(target_letter)
+        at = next((n for n, c in enumerate(order)
+                   if c.get("id") == item.get("correctAnswer")), None)
+        if at is not None:
+            order[want], order[at] = order[at], order[want]
     out, key_letter = [], None
     for i, c in enumerate(order):
         letter = letters[i]
@@ -98,6 +109,24 @@ def ordered_choices(item, form_id):
             key_letter = letter
         out.append({**c, "_letter": letter})
     return out, key_letter
+
+
+def key_targets(items, form_id):
+    """Balanced key positions across the form: {item_id: letter}.
+
+    Round-robin over the available positions, offset by the form id so two
+    forms do not share the same pattern.
+    """
+    letters = "ABCDEFGH"
+    offset = int(hashlib.sha256(form_id.encode()).hexdigest()[:4], 16)
+    out, n = {}, 0
+    for it in items:
+        ch = [c for c in itemio.choices(it) if isinstance(c, dict)]
+        if not ch or not it.get("correctAnswer"):
+            continue
+        out[it["id"]] = letters[(offset + n) % len(ch)]
+        n += 1
+    return out
 
 
 def select(items, standards, blueprint):
@@ -149,10 +178,11 @@ def select(items, standards, blueprint):
     return picked, short
 
 
-def render(items, form_id, b, teacher: bool):
+def render(items, form_id, b, teacher: bool, targets=None):
+    targets = targets if targets is not None else key_targets(items, form_id)
     blocks = []
     for n, it in enumerate(items, 1):
-        ch, key_letter = ordered_choices(it, form_id)
+        ch, key_letter = ordered_choices(it, form_id, targets.get(it["id"]))
         lis = "".join(
             f'<li><span class="cid">{c["_letter"]}.</span> {c.get("text","")}</li>'
             for c in ch)
@@ -205,9 +235,10 @@ def build(form_id, standards, b=None):
     manifest = {"formId": form_id, "course": b.course, "standardsYear": b.standards_year,
                 "standards": standards, "itemCount": len(picked),
                 "shortOfBlueprint": short, "surfaces": {}}
+    targets = key_targets(picked, form_id)
     for teacher in (False, True):
         name = "teacher-key" if teacher else "student"
-        html = render(picked, form_id, b, teacher)
+        html = render(picked, form_id, b, teacher, targets)
         hp = os.path.join(out, f"{name}.html")
         with open(hp, "w", encoding="utf-8") as fh:
             fh.write(html)
@@ -217,7 +248,7 @@ def build(form_id, standards, b=None):
     # has something real to judge.
     student_records = []
     for it in picked:
-        ch, key_letter = ordered_choices(it, form_id)
+        ch, key_letter = ordered_choices(it, form_id, targets.get(it["id"]))
         student_records.append({
             **{k: v for k, v in it.items() if k not in
                ("correctAnswer", "explanation", "explanationEs", "dokRationale", "_file")},

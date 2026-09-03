@@ -744,35 +744,38 @@
       "choices": [
         {
           "id": "A",
-          "text": "The Eisenhower Doctrine",
+          "text": "The Eisenhower Doctrine for the Middle East",
           "textEs": "La Doctrina Eisenhower",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The Eisenhower Doctrine came a decade later, in 1957, and addressed the Middle East.",
+          "misconception": "confuses the Marshall Plan with the Eisenhower Doctrine",
+          "_wasText": "The Eisenhower Doctrine"
         },
         {
           "id": "B",
           "text": "The North Atlantic Treaty Organization",
           "textEs": "La Organización del Tratado del Atlántico Norte",
-          "explanation": null,
-          "misconception": null
+          "explanation": "NATO was a 1949 military alliance. The Marshall Plan was economic aid and came first.",
+          "misconception": "confuses economic aid with the military alliance"
         },
         {
           "id": "C",
-          "text": "The Berlin Airlift",
+          "text": "The Berlin Airlift to the blockaded city",
           "textEs": "El Puente Aéreo de Berlín",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The Berlin Airlift was a 1948-49 supply operation for one city, not a Europe-wide recovery programme.",
+          "misconception": "confuses a single-city operation with a continental aid programme",
+          "_wasText": "The Berlin Airlift"
         },
         {
           "id": "D",
-          "text": "The Marshall Plan for European economic recovery",
+          "text": "The Marshall Plan for European recovery",
           "textEs": "El Plan Marshall para la recuperación económica europea",
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "The Marshall Plan for European economic recovery"
         }
       ],
       "dokLevel": 1,
-      "dokRationale": null,
+      "dokRationale": "The student recalls which initiative a named speech announced. One retrieved association, which is DOK-1.",
       "standardCodes": [
         "US.60"
       ],
@@ -789,7 +792,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
@@ -804,9 +807,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "PSTIM-0130",
@@ -819,15 +827,15 @@
           "id": "A",
           "text": "Détente",
           "textEs": "Distensión",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Détente was the 1970s easing of tensions under Nixon, two decades after Korea and opposite in posture.",
+          "misconception": "places a 1970s policy in a 1950 context"
         },
         {
           "id": "B",
           "text": "Isolationism",
           "textEs": "Aislacionismo",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Isolationism is the refusal to intervene abroad. Sending troops to Korea is its contradiction.",
+          "misconception": "reverses the policy the deployment demonstrates"
         },
         {
           "id": "C",
@@ -840,12 +848,12 @@
           "id": "D",
           "text": "Imperialism",
           "textEs": "Imperialismo",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Imperialism means acquiring territory. The stated aim in Korea was to hold a line, not to annex it.",
+          "misconception": "confuses containing an opponent with acquiring territory"
         }
       ],
       "dokLevel": 1,
-      "dokRationale": null,
+      "dokRationale": "The student matches a described deployment to the named policy that explains it. This is retrieval of a labelled concept — DOK-1.",
       "standardCodes": [
         "US.60"
       ],
@@ -862,7 +870,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
@@ -877,9 +885,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us57-dok1-3",
@@ -2755,35 +2768,37 @@
       "choices": [
         {
           "id": "A",
-          "text": "The U.S. used military force to drive Soviet troops out of East Berlin",
+          "text": "The U.S. used military force to drive Soviet troops out of the eastern sector of Berlin",
           "textEs": "EE. UU. utilizó la fuerza militar para expulsar las tropas soviéticas de Berlín Oriental",
-          "explanation": null,
-          "misconception": null
+          "explanation": "No Soviet troops were driven out. The airlift deliberately avoided force by flying over the blockade instead of breaking it.",
+          "misconception": "reads a non-military response as a military one",
+          "_wasText": "The U.S. used military force to drive Soviet troops out of East Berlin"
         },
         {
           "id": "B",
           "text": "The U.S. negotiated a peace treaty that divided Germany into permanent zones",
           "textEs": "EE. UU. negoció un tratado de paz que dividió a Alemania en zonas permanentes",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Germany's division was not settled by a treaty during the airlift; the blockade ended in 1949 without one.",
+          "misconception": "invents a negotiated settlement for the blockade"
         },
         {
           "id": "C",
           "text": "The U.S. imposed economic sanctions that forced the Soviet Union to end communism",
           "textEs": "EE. UU. impuso sanciones económicas que obligaron a la Unión Soviética a poner fin al comunismo",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Sanctions were not the instrument, and Soviet communism continued for four more decades.",
+          "misconception": "attributes the end of Soviet communism to a 1948 operation"
         },
         {
           "id": "D",
-          "text": "The U.S. demonstrated resolve to prevent Soviet expansion without direct military confrontation",
+          "text": "The U.S. showed resolve against Soviet expansion without direct force",
           "textEs": "EE. UU. demostró su determinación de impedir la expansión soviética sin una confrontación militar directa",
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "The U.S. demonstrated resolve to prevent Soviet expansion without direct military confrontation"
         }
       ],
       "dokLevel": 2,
-      "dokRationale": null,
+      "dokRationale": "The student must interpret an image of a supply flight and infer the strategic message it sent — evidence to inference, which is DOK-2. Identifying the aircraft or the city would be DOK-1.",
       "standardCodes": [
         "US.60"
       ],
@@ -2800,7 +2815,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
@@ -2815,9 +2830,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "us-48-q04",
@@ -3441,7 +3461,7 @@
     {
       "id": "PS-0090",
       "stem": "Read the excerpt below.\n\n\"The Grand Alliance between the United States, Great Britain, and the Soviet Union rests upon one thing only — our common enemy. When Hitler is defeated, I wonder what will hold us together.\" — Diplomat George Kennan, Private Memo, 1944\n\nWhich of the following best describes the fragility of the World War II Allied alliance referenced in this excerpt?",
-      "stemEs": "",
+      "stemEs": "Lea el extracto a continuación y responda la pregunta. El extracto describe la Gran Alianza entre Estados Unidos, Gran Bretaña y la Unión Soviética.",
       "itemType": "mcq",
       "correctAnswer": "D",
       "choices": [
@@ -3449,33 +3469,34 @@
           "id": "A",
           "text": "Personal conflicts between Roosevelt, Churchill, and Stalin made sustained military cooperation nearly impossible.",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The source points to ideology, not personalities. The three leaders in fact sustained working cooperation through the war.",
+          "misconception": "substitutes personal friction for the structural cause the source names"
         },
         {
           "id": "B",
           "text": "The three Allies had agreed to share all military technology, creating economic competition that strained relations.",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The Allies did not share all military technology — the United States withheld the atomic programme from the Soviets entirely.",
+          "misconception": "assumes full technology sharing among the Allies"
         },
         {
           "id": "C",
           "text": "The creation of the United Nations divided the Allies into competing blocs before the war even ended.",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The United Nations was designed to keep the Allies cooperating after 1945, and the blocs hardened afterward rather than before the war ended.",
+          "misconception": "reverses the chronology of the UN and the Cold War blocs"
         },
         {
           "id": "D",
-          "text": "The Alliance was held together only by a common enemy, and the ideological differences between Western democracy and Soviet communism would inevitably create postwar conflict.",
+          "text": "The Alliance was held together only by a common enemy, masking ideological differences that surfaced once Germany was defeated",
           "textEs": "",
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "The Alliance was held together only by a common enemy, and the ideological differences between Western democracy and Soviet communism would inevitably create postwar conflict."
         }
       ],
       "dokLevel": 2,
-      "dokRationale": null,
+      "dokRationale": "The student must read a source and infer what it implies about the alliance's durability — drawing a conclusion from evidence, which is DOK-2. Naming the three Allies would be DOK-1.",
       "standardCodes": [
         "US.60"
       ],
@@ -3483,8 +3504,8 @@
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Kennan's prescient observation captures the fundamental weakness of the wartime Allied coalition: the U.S., Britain, and the Soviet Union had vastly different political systems, ideological commitments, and postwar goals. The only thing binding them was a common enemy. Once Germany was defeated, these differences rapidly emerged, leading to the Cold War. The ideological conflict between Western liberal democracy and Soviet communism made postwar cooperation impossible. Option A is incorrect because the differences were ideological and political, not merely personal between leaders. Option B is incorrect because economic cooperation was limited and strained even during the war. Option C is incorrect because the UN was created to manage these tensions, not a cause of the breakdown.",
-      "explanationEs": "",
-      "translationStatus": "not-started",
+      "explanationEs": "El extracto afirma que la alianza se sostenía únicamente en un enemigo común. Esto implica que, al desaparecer ese enemigo, las diferencias ideológicas entre las democracias occidentales y la Unión Soviética quedarían al descubierto, lo que ocurrió al terminar la guerra.",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.3,
         "b": 0.3,
@@ -3492,7 +3513,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
@@ -3507,9 +3528,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-rebalance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "PS-0012",
@@ -4991,7 +5017,7 @@
       "correctAnswer": "Strong responses should analyze Marshall Plan features (massive scale, recipient-driven planning, economic not military, integration requirement, self-interest alignment) and evaluate applicability to modern contexts. Limitations: Cold War urgency created political will that doesn't exist today; Europe had pre-existing industrial capacity; cultural/institutional differences complicate application elsewhere; modern challenges (climate, pandemics) are different from postwar reconstruction.",
       "choices": [],
       "dokLevel": 3,
-      "dokRationale": null,
+      "dokRationale": "The student must build an evidence-based argument and reason from it to a conclusion, which is DOK-3 rather than the retrieval or interpretation of DOK-1 and DOK-2.",
       "standardCodes": [
         "US.60"
       ],
@@ -5008,7 +5034,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
@@ -5023,9 +5049,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us6-dok3-mc4",

@@ -372,8 +372,50 @@ def gate_release_readiness(items, binding=None) -> Result:
 def unmeasured_gates(results) -> Result:
     """Grade A cannot be claimed while any gate formed no opinion."""
     name = "all-gates-measured"
-    un = [r.gate for r in results if not r.measured]
+    # N/A is excluded: a gate with an honest reason for having nothing to judge
+    # is not the L11 defect. The reason is required and shown in the report.
+    un = [r.gate for r in results if not r.measured and not r.inapplicable]
     findings = [Finding(g, "gate judged 0 records — its PASS would have been vacuous")
                 for g in un]
     return Result(name, not findings, len(results), findings,
                   note=f"{len(results) - len(un)}/{len(results)} gates actually measured something")
+
+
+def gate_form_key_position(rendered_items, binding=None) -> Result:
+    """Key positions AS RENDERED on this form.
+
+    The bank-level gate reads each item's stored `correctAnswer` id, which is
+    the position it happened to occupy in the source file. A form re-derives
+    positions at render time, so running the bank gate over a form measured a
+    distribution the student never sees: the form rendered 3/3/3/3 while the
+    gate reported D at 42%.
+
+    A gate must measure the artifact at the level the artifact exists.
+    """
+    name = "form-key-position"
+    if (r := empty_scan_guard(name, rendered_items)):
+        return r
+    MAX_DEVIATION = 0.07
+    counts = collections.Counter()
+    for it in rendered_items:
+        letter = it.get("_formKeyLetter")
+        if letter:
+            counts[letter] += 1
+    if not counts:
+        return Result(name, True, len(rendered_items), [], judged=0,
+                      inapplicable="no selected-response items on this form carry a rendered "
+                                   "key position")
+    n = sum(counts.values())
+    k = max(len(counts), 2)
+    uniform = 1.0 / k
+    share = {p: c / n for p, c in counts.items()}
+    worst = max(share, key=share.get)
+    dev = max(abs(v - uniform) for v in share.values())
+    findings = []
+    if dev > MAX_DEVIATION:
+        findings.append(Finding(f"{k}-position cohort",
+            f"rendered key position {worst!r} is {share[worst]:.0%} of keys, {dev:.1%} off the "
+            f"{uniform:.0%} uniform share (bar: {MAX_DEVIATION:.0%}); "
+            f"distribution {dict(sorted(counts.items()))}"))
+    return Result(name, not findings, len(rendered_items), findings, judged=n,
+                  note=f"{k}-position n={n} worst={worst}@{share[worst]:.0%} max-dev={dev:.1%}")

@@ -3863,7 +3863,7 @@
       "correctAnswer": "Strong responses should select three distinct programs, evaluate each on both criteria with specific evidence, and demonstrate understanding that immediate effectiveness and long-term impact can differ. Example: CCC might get A for immediate crisis response (employed 3 million young men) but C for long-term impact (disbanded in 1942). Social Security might get B for immediate response (slow to implement) but A for long-term impact (still operating, expanded repeatedly).",
       "choices": [],
       "dokLevel": 3,
-      "dokRationale": null,
+      "dokRationale": "The student must construct and defend a claim using cited evidence from the source and outside knowledge. Building an argument rather than reporting one is DOK-3.",
       "standardCodes": [
         "US.46"
       ],
@@ -3880,7 +3880,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-3.json",
@@ -3912,9 +3912,14 @@
             "New Deal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "rehomed"
+      "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true
     },
     {
       "id": "dok3-gen-u3-021",

@@ -19,7 +19,7 @@ sys.path.insert(0, HERE)
 import alignment
 import binding as binding_mod
 import fixtures
-from gates import Result, record, coverage
+from gates import Result, record, coverage, content
 
 B = binding_mod.load(os.path.join(HERE, "fixtures", "testbinding", "binding.json"))
 CODES = ["US.04", "US.05"]
@@ -190,6 +190,77 @@ rc, out = run_ledger(d)
 check("an ORPHAN suite (exists but never runs) FAILS", rc != 0)
 check("the message says it would never run", "never run" in out, out[:300])
 
+
+# ── the builder must be able to satisfy the gate ────────────────────────
+print("\n  form builder — a gate the builder cannot satisfy stays red forever")
+import forms as formbuild
+from gates import coverage as cov
+
+pilot = fixtures.clean_bank(CODES * 2)
+targets = formbuild.key_targets(pilot, "FORM-T")
+letters = collections.Counter(targets.values()) if (collections := __import__("collections")) else None
+check("key_targets spreads key positions evenly across the form",
+      max(letters.values()) - min(letters.values()) <= 1, f"got {dict(letters)}")
+rot = [formbuild.ordered_choices(it, "FORM-T", targets.get(it["id"]))[1]
+       for it in pilot if it["itemType"] == "mcq"]
+got = collections.Counter(rot)
+check("the rendered key letter actually lands on its target",
+      max(got.values()) - min(got.values()) <= 1, f"got {dict(got)}")
+check("both surfaces get the SAME letter for an item",
+      formbuild.ordered_choices(pilot[0], "FORM-T", targets.get(pilot[0]["id"]))[1]
+      == formbuild.ordered_choices(pilot[0], "FORM-T", targets.get(pilot[0]["id"]))[1])
+
+# ── de-bias is TWO-SIDED ────────────────────────────────────────────────
+print("\n  choice-length-cue — balancing to zero is also a cue")
+def cue(bank, ratio):
+    """Make the key the longest option in `ratio` of the items."""
+    n = int(len(bank) * ratio)
+    for i, it in enumerate(bank):
+        for c in it["choices"]:
+            long = (c["id"] == it["correctAnswer"]) if i < n else (c["id"] != it["correctAnswer"])
+            c["text"] = "word " * (12 if long else 4)
+    return bank
+
+allkeys = cue(fixtures.clean_bank(CODES * 10), 1.0)
+check("key longest in 100% of items FAILS",
+      not content.gate_choice_length_cue(allkeys, B).passed)
+nokeys = cue(fixtures.clean_bank(CODES * 10), 0.0)
+r = content.gate_choice_length_cue(nokeys, B)
+check("key longest in 0% of items ALSO FAILS (the reverse cue)", not r.passed)
+check("the finding says the reverse is equally learnable",
+      any("never right" in str(f) for f in r.findings),
+      f"got {[str(f)[:90] for f in r.findings[:1]]}")
+
+# ── a gate must measure the artifact at the level it exists ─────────────
+print("\n  form-key-position — the bank gate measured a distribution no student sees")
+rendered = [{"id": f"R-{n}", "_formKeyLetter": "ABCD"[n % 4]} for n in range(12)]
+check("an evenly rendered form PASSES", cov.gate_form_key_position(rendered, B).passed)
+skewed = [{"id": f"S-{n}", "_formKeyLetter": ("D" if n % 3 else "A")} for n in range(12)]
+check("a skewed rendered form FAILS", not cov.gate_form_key_position(skewed, B).passed)
+check("EMPTY scan FAILS", not cov.gate_form_key_position([], B).passed)
+check("a form with no rendered key letters is N/A, not a pass",
+      bool(cov.gate_form_key_position([{"id": "X"}], B).inapplicable))
+
+# ── N/A must not become a loophole ──────────────────────────────────────
+print("\n  N/A semantics — the narrow exception to 'judged nothing is not a pass'")
+na = Result("g", True, 5, [], judged=0, inapplicable="nothing of this kind is present")
+vac = Result("h", True, 5, [], judged=0)
+check("N/A reports as N/A, never PASS", na.status == "N/A")
+check("N/A does not count as a pass", not na.counts_as_pass)
+check("a judged-0 gate with NO reason still reports NOT MEASURED", vac.status == "NOT MEASURED")
+check("all-gates-measured ignores N/A", cov.unmeasured_gates([na]).passed)
+check("all-gates-measured still fails unexplained vacuity",
+      not cov.unmeasured_gates([vac]).passed)
+check("the N/A reason is shown in the report", "nothing of this kind" in na.report())
+# The loophole: a gate must not claim inapplicable while its population exists.
+withcite = [dict(fixtures.item(id="C-1"),
+                 explanation="Hughes, first published in The Crisis, June 1921.")]
+check("citation-integrity does NOT claim N/A when a citation is present",
+      not content.gate_citation_integrity(withcite, B).inapplicable)
+check("it DOES claim N/A when no item carries a citation",
+      bool(content.gate_citation_integrity(
+          [fixtures.item(id="N-1", explanation="Because the Act transferred land cheaply.")],
+          B).inapplicable))
 
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")

@@ -3,7 +3,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 Scanning items/us-history-geography — 3986 item(s)
 
 [FAIL] record-complete — scanned 3986
-        3868 finding(s):
+        3853 finding(s):
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: missing ['explanationEs', 'stemEs']
           - US.01-X012 [items/us-history-geography/US.04/migrated.json]: missing ['explanationEs', 'stemEs']
           - US.01-X013 [items/us-history-geography/US.04/migrated.json]: missing ['explanationEs', 'stemEs']
@@ -12,11 +12,11 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-X028 [items/us-history-geography/US.04/migrated.json]: missing ['explanationEs', 'stemEs']
           - US.01-X033 [items/us-history-geography/US.04/migrated.json]: missing ['explanationEs', 'stemEs']
           - US.01-X036 [items/us-history-geography/US.04/migrated.json]: missing ['explanationEs', 'stemEs']
-          … and 3860 more
+          … and 3845 more
 [PASS] binding — scanned 3986
 [PASS] key-integrity — scanned 3986
 [FAIL] distractor-coverage — scanned 3986, judged 3844
-        23064 finding(s):
+        22992 finding(s):
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: distractor 'B' has no explanation
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: distractor 'B' names no misconception
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: distractor 'C' has no explanation
@@ -25,7 +25,7 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: distractor 'D' names no misconception
           - US.01-X012 [items/us-history-geography/US.04/migrated.json]: distractor 'A' has no explanation
           - US.01-X012 [items/us-history-geography/US.04/migrated.json]: distractor 'A' names no misconception
-          … and 23056 more
+          … and 22984 more
 [FAIL] truncation — scanned 3986
         91 finding(s):
           - q-us10-dok1-1-u2-b [items/us-history-geography/US.06/migrated.json]: stem ends on dangling 'with': …'he Granger movement primarily concerned with?'
@@ -50,7 +50,7 @@ Scanning items/us-history-geography — 3986 item(s)
           … and 14 more
 [PASS] key-position-debias — scanned 3821 — 4-choice n=3821 worst=A@27% max-dev=2.2% chi2=14.5>11.345 (advisory)
 [FAIL] serveability — scanned 3956
-        1008 finding(s):
+        998 finding(s):
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: bilingual field stemEs absent — item cannot be served in Spanish
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: bilingual field explanationEs absent — item cannot be served in Spanish
           - US.01-X012 [items/us-history-geography/US.04/migrated.json]: bilingual field stemEs absent — item cannot be served in Spanish
@@ -59,17 +59,17 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-X013 [items/us-history-geography/US.04/migrated.json]: bilingual field explanationEs absent — item cannot be served in Spanish
           - US.01-X015 [items/us-history-geography/US.04/migrated.json]: bilingual field stemEs absent — item cannot be served in Spanish
           - US.01-X015 [items/us-history-geography/US.04/migrated.json]: bilingual field explanationEs absent — item cannot be served in Spanish
-          … and 1000 more
+          … and 990 more
 [PASS] reporting-category-provenance — scanned 3986 — 4118 item/standard pair(s) awaiting a category source (mapping sourceOfRecord='UNMAPPED')
 [PASS] alignment-claim — scanned 3986, judged 3821 — 1309 item(s) honestly marked unverified — kept and usable, not counted as coverage; 0 allowlisted
-[FAIL] choice-length-cue — scanned 3986, judged 3821 — 4-choice n=3821 key-is-longest 53.4% (chance 25%)
+[FAIL] choice-length-cue — scanned 3986, judged 3821 — 4-choice n=3821 key-is-longest 53.2% (chance 25%)
         1 finding(s):
-          - 4-choice cohort: the key is the longest option in 2039/3821 items (53.4%) against 25% by chance — a student can beat this bank without reading the stems
+          - 4-choice cohort: the key is the longest option in 2034/3821 items (53.2%) against 25% by chance — a student can beat this bank without reading the stems
 [PASS] duplicate-stems — scanned 3986, judged 3956
 [PASS] citation-integrity — scanned 3986, judged 35 — 35 servable item(s) carry a citation; 7 held out of service awaiting source verification
-[PASS] translation-claim — scanned 3986, judged 3466 — 1144 untranslated copy, 408 pseudo-translation, 1914 genuine — all honestly labelled except the findings
+[PASS] translation-claim — scanned 3986, judged 3471 — 1144 untranslated copy, 408 pseudo-translation, 1919 genuine — all honestly labelled except the findings
 [FAIL] explanation-quality — scanned 3986, judged 3956
-        920 finding(s):
+        919 finding(s):
           - US.01-Q01 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
           - US.01-X012 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
           - US.01-X013 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
@@ -78,25 +78,25 @@ Scanning items/us-history-geography — 3986 item(s)
           - US.01-X028 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
           - US.01-X033 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
           - US.01-X036 [items/us-history-geography/US.04/migrated.json]: explanation is identical to dokRationale — one editorial note standing in for two different jobs
-          … and 912 more
+          … and 911 more
 [PASS] embedded-answer-key — scanned 3986, judged 3956
 [FAIL] release-readiness — scanned 3956 — Grade A requires zero findings here. "Close" is not "A."
         7 finding(s):
           - reportingCategory: 86 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
           - blueprint: blueprint status is "OPERATING TARGET — adopted by the build so authoring can proceed; not signed off by the course owner. release-readiness HOLDS while this reads 'operating' or 'draft'. Raise or lower it freely: the bank is measured against this file, and blueprint-conformance fails in BOTH directions, so a target set too high never goes green." — not signed off by the course owner
           - alignment: 1309 item(s) are kept and usable but their alignment is unverified, so they are excluded from standards coverage. Not a defect in the items — a gap in what can be claimed about coverage.
-          - alignment: 532 item(s) are provisional: the standard's verb rose or elements were added. Each needs a human alignment decision before it is Grade A.
-          - authoring-debt: 11463 distractors with no rationale
-          - authoring-debt: 3706 items with no dokRationale
-          - authoring-debt: 518 items missing a bilingual field
-[PASS] FORM-A/form-pagination — scanned 2, judged 16 — 16 rendered page(s) checked
-[PASS] FORM-A/form-type-size — scanned 2, judged 47627 — 47627 glyph(s) measured
+          - alignment: 520 item(s) are provisional: the standard's verb rose or elements were added. Each needs a human alignment decision before it is Grade A.
+          - authoring-debt: 11427 distractors with no rationale
+          - authoring-debt: 3691 items with no dokRationale
+          - authoring-debt: 513 items missing a bilingual field
+[PASS] FORM-A/form-pagination — scanned 2, judged 18 — 18 rendered page(s) checked
+[PASS] FORM-A/form-type-size — scanned 2, judged 51431 — 51431 glyph(s) measured
 [PASS] FORM-A/form-key-leakage — scanned 1, judged 6 — 6 student page(s) checked
 [PASS] FORM-A/form-disclosure — scanned 2
 [PASS] FORM-A/teacher-side-isolation — scanned 18 — measures rendered student surfaces; items at rest are teacher-side by default
 [PASS] FORM-A/form-blueprint — scanned 18, judged 3 — 3 standard(s) on this form
 [PASS] all-gates-measured — scanned 23 — 23/23 gates actually measured something
 
-16/24 gates pass (0 not measured).
+16/24 applicable gates pass (0 not measured).
 HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, serveability, choice-length-cue, explanation-quality, release-readiness
 Grade A requires ALL gates pass. "Close" is not "A."

@@ -3447,35 +3447,37 @@
       "choices": [
         {
           "id": "A",
-          "text": "The federal government took direct responsibility for economic development and public welfare on an unprecedented scale",
+          "text": "The federal government took direct responsibility for economic development and public welfare",
           "textEs": null,
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "The federal government took direct responsibility for economic development and public welfare on an unprecedented scale"
         },
         {
           "id": "B",
           "text": "The government reduced its involvement in the economy and allowed private industry to manage recovery",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "The TVA is the clearest case of the opposite: the federal government built and ran dams and sold the power itself.",
+          "misconception": "reverses the direction of federal involvement under the New Deal"
         },
         {
           "id": "C",
-          "text": "The TVA was a private corporation that received no government funding",
+          "text": "The TVA was a private utility corporation that operated without any federal funding or oversight",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "The TVA was created by Congress in 1933 as a federally owned corporation. Reading it as private misses why critics called it socialism.",
+          "misconception": "mistakes a federally owned corporation for a private company",
+          "_wasText": "The TVA was a private corporation that received no government funding"
         },
         {
           "id": "D",
           "text": "The federal government's role remained unchanged from the policies of the 1920s",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "Federal public works on this scale had no 1920s precedent; that discontinuity is the point of the image.",
+          "misconception": "treats the New Deal as continuous with 1920s policy"
         }
       ],
       "dokLevel": 2,
-      "dokRationale": null,
+      "dokRationale": "The student must read an image of infrastructure and infer what it shows about the federal government's role — a relationship between evidence and a claim, which is DOK-2. Naming the agency in the photograph would be DOK-1.",
       "standardCodes": [
         "US.46"
       ],
@@ -3492,7 +3494,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -3516,9 +3518,14 @@
             "New Deal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "rehomed"
+      "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true
     },
     {
       "id": "us-33-x025",

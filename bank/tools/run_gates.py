@@ -84,10 +84,61 @@ def collect(b, target=None):
     return items, results
 
 
+# Bank-level gates cannot pass on a form scope: blueprint-conformance measures
+# depth across all 94 standards, and release-readiness is a whole-artifact call.
+# key-position-debias reads each item's STORED correctAnswer id; a form
+# re-derives positions at render time, so the form uses gate_form_key_position.
+_BANK_ONLY = {"gate_blueprint", "gate_release_readiness", "gate_key_position"}
+ITEM_GATES = [g for g in GATES if g.__name__ not in _BANK_ONLY]
+
+
+def collect_form(b, form_id):
+    """Every gate that applies to ONE form: its items and its rendered PDFs.
+
+    A bank-wide run cannot show that a single form is clean, and a form is the
+    unit a teacher actually hands out.
+    """
+    import glob
+    fd = os.path.join(itemio.BANK_ROOT, "forms", form_id)
+    surface = os.path.join(fd, "student-surface.json")
+    with open(surface, encoding="utf-8") as fh:
+        ids = [i["id"] for i in json.load(fh)["items"]]
+    by_id = {i["id"]: i for i in itemio.load_dir(b.output_dir)}
+    sel = [by_id[i] for i in ids if i in by_id]
+    results = [g(sel, b) for g in ITEM_GATES]
+    pdfs = sorted(glob.glob(os.path.join(fd, "*.pdf")))
+    for g in (formgates.gate_form_pagination, formgates.gate_form_type_size,
+              formgates.gate_form_key_leakage, formgates.gate_form_disclosure):
+        results.append(g(pdfs, b))
+    rendered = itemio.load_dir(fd)
+    results.append(coverage.gate_teacher_side_isolation(rendered, b))
+    man = os.path.join(fd, "manifest.json")
+    decl = (json.load(open(man, encoding="utf-8")).get("standards")
+            if os.path.exists(man) else None)
+    results.append(coverage.gate_form_blueprint(rendered, b, standards=decl))
+    results.append(coverage.gate_form_key_position(rendered, b))
+    results.append(coverage.unmeasured_gates(results))
+    return sel, results
+
+
 def main(argv):
     b = binding_mod.load()
     print(b.declaration())
     print()
+    if len(argv) > 2 and argv[1] == "--form":
+        sel, results = collect_form(b, argv[2])
+        print(f"Form {argv[2]} — {len(sel)} item(s)\n")
+        for r in results:
+            print(r.report())
+        failed = [r for r in results if not r.counts_as_pass and not r.inapplicable]
+        na = sum(1 for r in results if r.inapplicable)
+        print(f"\n{len(results) - len(failed) - na}/{len(results) - na} applicable gates pass"
+              + (f" ({na} N/A)" if na else "") + ".")
+        if failed:
+            print("HELD — " + ", ".join(r.gate for r in failed))
+        else:
+            print(f"Form {argv[2]} is GREEN on every gate that applies to it.")
+        return 1 if failed else 0
     target = argv[1] if len(argv) > 1 else b.output_dir
     items, results = collect(b, target)
     print(f"Scanning {os.path.relpath(target, itemio.BANK_ROOT)} — {len(items)} item(s)\n")
@@ -95,10 +146,12 @@ def main(argv):
         print(r.report())
     # NOT MEASURED is not a pass. Counting it as one is how a vacuous gate
     # inflates the tally and reads exactly like a clean result.
-    failed = [r for r in results if not (r.passed and r.measured)]
+    failed = [r for r in results if not r.counts_as_pass and not r.inapplicable]
+    na = sum(1 for r in results if r.inapplicable)
     print()
-    print(f"{len(results) - len(failed)}/{len(results)} gates pass "
-          f"({sum(1 for r in results if not r.measured)} not measured).")
+    print(f"{len(results) - len(failed) - na}/{len(results) - na} applicable gates pass "
+          f"({sum(1 for r in results if not r.measured and not r.inapplicable)} not measured"
+          + (f", {na} N/A" if na else "") + ").")
     if failed:
         print("HELD — " + ", ".join(r.gate for r in failed))
         print('Grade A requires ALL gates pass. "Close" is not "A."')

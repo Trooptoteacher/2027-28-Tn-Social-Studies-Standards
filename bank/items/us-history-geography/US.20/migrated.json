@@ -2549,7 +2549,7 @@
     {
       "id": "PS-0065",
       "stem": "Read the excerpt below.\n\n\"I took the Canal Zone and let Congress debate, and while the debate goes on, the canal does also.\" — President Theodore Roosevelt, Lecture at University of California, 1911\n\nWhich of the following best describes the controversy surrounding Roosevelt's acquisition of the Panama Canal Zone?",
-      "stemEs": "",
+      "stemEs": "Lea el extracto a continuación. Es una declaración del presidente Theodore Roosevelt sobre la Zona del Canal.",
       "itemType": "mcq",
       "correctAnswer": "C",
       "choices": [
@@ -2557,33 +2557,34 @@
           "id": "A",
           "text": "Roosevelt seized the Canal Zone from France, which had originally agreed to sell it to the United States but then backed out.",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The French company sold its concession and equipment; the sovereignty dispute was with Colombia, not France.",
+          "misconception": "substitutes France for Colombia as the aggrieved party"
         },
         {
           "id": "B",
           "text": "Roosevelt used U.S. taxpayer money to pay other nations to build the canal without congressional authorization.",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The United States built the canal itself with its own workforce rather than paying other nations to build it.",
+          "misconception": "assumes the canal was contracted out to other nations"
         },
         {
           "id": "C",
-          "text": "The U.S. supported Panama's revolution against Colombia to obtain the canal rights, bypassing Colombia's rejection of the treaty.",
+          "text": "The U.S. backed Panama's revolution against Colombia to obtain the canal rights",
           "textEs": "",
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "The U.S. supported Panama's revolution against Colombia to obtain the canal rights, bypassing Colombia's rejection of the treaty."
         },
         {
           "id": "D",
           "text": "Panama declared independence from Spain with U.S. support specifically to gain the economic benefits of the canal.",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Panama declared independence from Colombia, not Spain; Spain had lost its mainland American colonies eighty years earlier.",
+          "misconception": "confuses Colombia with Spain as the colonial power"
         }
       ],
       "dokLevel": 2,
-      "dokRationale": null,
+      "dokRationale": "The student must interpret Roosevelt's boast and connect it to the actual sequence of events in Panama — inference from a source, which is DOK-2.",
       "standardCodes": [
         "US.23"
       ],
@@ -2591,8 +2592,8 @@
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
       "explanation": "Roosevelt's boastful admission that he 'took' the Canal Zone without waiting for Congress refers to the U.S. role in supporting Panama's revolution against Colombia. When Colombia refused to ratify the canal treaty, the U.S. encouraged Panamanian independence, recognized Panama immediately, and signed a favorable canal treaty. Critics argued this was an illegal use of presidential power and violated Colombia's sovereignty. Option A is incorrect because France originally attempted to build the canal, not Colombia. Option B is incorrect because the canal was not paid for by other nations. Option D is incorrect because Panama gained independence from Colombia, not from Spain.",
-      "explanationEs": "",
-      "translationStatus": "not-started",
+      "explanationEs": "Cuando Colombia rechazó el tratado, Estados Unidos apoyó la revolución de Panamá en 1903 y de inmediato firmó un tratado con el nuevo país para obtener la Zona del Canal. La frase de Roosevelt reconoce que actuó primero y dejó el debate para después.",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.3,
         "b": 0.3,
@@ -2600,7 +2601,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -2627,9 +2628,14 @@
             "Panama Canal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "rehomed"
+      "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true
     },
     {
       "id": "PS-0066",
@@ -2708,7 +2714,7 @@
     {
       "id": "PS-0067",
       "stem": "Read the excerpt below.\n\n\"The construction of the canal required the labor of tens of thousands of workers — Jamaicans, Barbadians, Spanish workers — in brutal tropical conditions. Yellow fever and malaria killed thousands before Dr. Gorgas brought the diseases under control.\" — David McCullough, The Path Between the Seas, 1977\n\nWhich of the following best describes a major challenge that had to be overcome to complete the Panama Canal?",
-      "stemEs": "",
+      "stemEs": "Lea el extracto a continuación. Describe la mano de obra empleada en la construcción del Canal de Panamá.",
       "itemType": "mcq",
       "correctAnswer": "D",
       "choices": [
@@ -2716,33 +2722,34 @@
           "id": "A",
           "text": "The engineers had to redirect four major rivers that flooded the construction site annually.",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The Chagres River was dammed rather than redirected, and it was one river, not four.",
+          "misconception": "overstates the hydrological problem and its scale"
         },
         {
           "id": "B",
           "text": "The project faced a severe labor shortage because American workers refused to work in tropical conditions.",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "There was no labour shortage: tens of thousands of Caribbean and European workers were recruited, which is what the source describes.",
+          "misconception": "contradicts the source, which documents abundant recruited labour"
         },
         {
           "id": "C",
           "text": "The lack of adequate explosives technology meant engineers had to rely entirely on hand-dug excavations.",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Dynamite and steam shovels were used extensively; the Culebra Cut was blasted, not dug by hand.",
+          "misconception": "assumes excavation was manual"
         },
         {
           "id": "D",
-          "text": "Tropical diseases, particularly yellow fever and malaria, killed thousands of workers until a mosquito eradication campaign brought them under control.",
+          "text": "Tropical disease, especially yellow fever and malaria, killed thousands of workers until a mosquito-control campaign cut the death rate",
           "textEs": "",
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "Tropical diseases, particularly yellow fever and malaria, killed thousands of workers until a mosquito eradication campaign brought them under control."
         }
       ],
       "dokLevel": 2,
-      "dokRationale": null,
+      "dokRationale": "The student must weigh the obstacles described in the source and identify which one the evidence supports as decisive — evaluating evidence for a claim, which is DOK-2.",
       "standardCodes": [
         "US.23"
       ],
@@ -2750,8 +2757,8 @@
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
       "explanation": "One of the greatest obstacles to building the Panama Canal was tropical disease — particularly yellow fever and malaria, which killed thousands of French workers in the earlier failed attempt. Dr. William Gorgas implemented a massive mosquito eradication campaign based on the theory that mosquitoes spread disease (then a new scientific understanding), which dramatically reduced the death rate and made the construction feasible. Option A is incorrect because the engineering challenge was the mountainous terrain, not river flooding (though landslides were a problem). Option B is incorrect because labor was plentiful — it was disease, not shortage of workers, that was the main challenge. Option C is incorrect because dynamite was readily available — the explosive used was a technological advance, not a limitation.",
-      "explanationEs": "",
-      "translationStatus": "not-started",
+      "explanationEs": "La fiebre amarilla y la malaria mataron a miles de trabajadores hasta que la campaña de control de mosquitos dirigida por William Gorgas redujo drásticamente las muertes. El control de la enfermedad, más que la ingeniería, fue lo que hizo posible terminar el canal.",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.1,
         "b": 0.1,
@@ -2759,7 +2766,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -2786,9 +2793,14 @@
             "Panama Canal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a-rebalance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "rehomed"
+      "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us18-dok3-evaluation",

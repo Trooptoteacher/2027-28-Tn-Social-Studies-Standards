@@ -51,7 +51,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -63,9 +63,14 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
       },
       "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -88,15 +93,15 @@
         },
         {
           "id": "B",
-          "text": "WWI veterans demanding early bonus payment; Hoover ordered military to disperse them",
-          "textEs": "Veteranos de Primera Guerra Mundial exigiendo pago anticipado de bonos; Hoover ordenó al ejército dispersarlos",
+          "text": "Raised tariffs to the highest levels in U.S. history, worsening the global Depression",
+          "textEs": "Soldados en servicio activo solicitando mejores condiciones; Hoover negoció aumentos de pago",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "C",
-          "text": "Raised tariffs to the highest levels in U.S. history, worsening the global Depression",
-          "textEs": "Soldados en servicio activo solicitando mejores condiciones; Hoover negoció aumentos de pago",
+          "text": "WWI veterans demanding early bonus payment; Hoover ordered military to disperse them",
+          "textEs": "Veteranos de Primera Guerra Mundial exigiendo pago anticipado de bonos; Hoover ordenó al ejército dispersarlos",
           "explanation": null,
           "misconception": null
         },
@@ -123,7 +128,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -135,15 +140,20 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
       },
       "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "B"
+      "_formKeyLetter": "C"
     },
     {
       "id": "PSTIM-0149",
@@ -160,21 +170,21 @@
         },
         {
           "id": "B",
-          "text": "The federal government took direct responsibility for economic development and public welfare on an unprecedented scale",
+          "text": "The federal government's role remained unchanged from the policies of the 1920s",
           "textEs": null,
           "explanation": null,
           "misconception": null
         },
         {
           "id": "C",
-          "text": "The TVA was a private corporation that received no government funding",
+          "text": "The TVA was a private utility corporation that operated without any federal funding or oversight",
           "textEs": null,
           "explanation": null,
           "misconception": null
         },
         {
           "id": "D",
-          "text": "The federal government's role remained unchanged from the policies of the 1920s",
+          "text": "The federal government took direct responsibility for economic development and public welfare",
           "textEs": null,
           "explanation": null,
           "misconception": null
@@ -195,7 +205,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -219,25 +229,30 @@
             "New Deal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "B"
+      "_formKeyLetter": "D"
     },
     {
       "id": "U5-DOK2-0027",
       "stem": "Why did critics of the New Deal charge that FDR's programs represented socialism?",
-      "stemEs": "",
+      "stemEs": "¿Por qué los críticos del New Deal afirmaban que los programas de FDR representaban socialismo?",
       "itemType": "mcq",
       "choices": [
         {
           "id": "A",
-          "text": "Because the New Deal significantly expanded the federal government's role in regulating the economy and providing social welfare",
+          "text": "Because the New Deal greatly expanded federal regulation of the economy and created public employment and Social Security",
           "textEs": "",
           "explanation": null,
           "misconception": null
@@ -251,7 +266,7 @@
         },
         {
           "id": "C",
-          "text": "Because New Deal programs replaced all private charities with mandatory government services",
+          "text": "Because New Deal programs abolished all private and religious charities in favor of state services",
           "textEs": "",
           "explanation": null,
           "misconception": null
@@ -271,7 +286,7 @@
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "not-started",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.3,
         "b": 0.4,
@@ -279,7 +294,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -291,9 +306,14 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "authoring": {
+          "record": "form-a-rebalance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
       },
       "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -322,7 +342,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-3.json",
@@ -354,9 +374,14 @@
             "New Deal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -421,15 +446,15 @@
       "choices": [
         {
           "id": "A",
-          "text": "Containment",
-          "textEs": "Contención",
+          "text": "Imperialism",
+          "textEs": "Imperialismo",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "B",
-          "text": "Imperialism",
-          "textEs": "Imperialismo",
+          "text": "Containment",
+          "textEs": "Contención",
           "explanation": null,
           "misconception": null
         },
@@ -463,7 +488,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
@@ -478,15 +503,20 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "A"
+      "_formKeyLetter": "B"
     },
     {
       "id": "U7-DOK1-0002",
@@ -496,29 +526,29 @@
       "choices": [
         {
           "id": "A",
-          "text": "The Berlin Airlift",
+          "text": "The Berlin Airlift to the blockaded city",
           "textEs": "El Puente Aéreo de Berlín",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "B",
-          "text": "The Eisenhower Doctrine",
+          "text": "The Eisenhower Doctrine for the Middle East",
           "textEs": "La Doctrina Eisenhower",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "C",
-          "text": "The North Atlantic Treaty Organization",
-          "textEs": "La Organización del Tratado del Atlántico Norte",
+          "text": "The Marshall Plan for European recovery",
+          "textEs": "El Plan Marshall para la recuperación económica europea",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "D",
-          "text": "The Marshall Plan for European economic recovery",
-          "textEs": "El Plan Marshall para la recuperación económica europea",
+          "text": "The North Atlantic Treaty Organization",
+          "textEs": "La Organización del Tratado del Atlántico Norte",
           "explanation": null,
           "misconception": null
         }
@@ -538,7 +568,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
@@ -553,20 +583,25 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "D"
+      "_formKeyLetter": "C"
     },
     {
       "id": "PS-0090",
       "stem": "Read the excerpt below.\n\n\"The Grand Alliance between the United States, Great Britain, and the Soviet Union rests upon one thing only — our common enemy. When Hitler is defeated, I wonder what will hold us together.\" — Diplomat George Kennan, Private Memo, 1944\n\nWhich of the following best describes the fragility of the World War II Allied alliance referenced in this excerpt?",
-      "stemEs": "",
+      "stemEs": "Lea el extracto a continuación y responda la pregunta. El extracto describe la Gran Alianza entre Estados Unidos, Gran Bretaña y la Unión Soviética.",
       "itemType": "mcq",
       "choices": [
         {
@@ -592,7 +627,7 @@
         },
         {
           "id": "D",
-          "text": "The Alliance was held together only by a common enemy, and the ideological differences between Western democracy and Soviet communism would inevitably create postwar conflict.",
+          "text": "The Alliance was held together only by a common enemy, masking ideological differences that surfaced once Germany was defeated",
           "textEs": "",
           "explanation": null,
           "misconception": null
@@ -605,7 +640,7 @@
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "not-started",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.3,
         "b": 0.3,
@@ -613,7 +648,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
@@ -628,9 +663,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-rebalance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -646,14 +686,14 @@
       "choices": [
         {
           "id": "A",
-          "text": "The U.S. demonstrated resolve to prevent Soviet expansion without direct military confrontation",
+          "text": "The U.S. showed resolve against Soviet expansion without direct force",
           "textEs": "EE. UU. demostró su determinación de impedir la expansión soviética sin una confrontación militar directa",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "B",
-          "text": "The U.S. used military force to drive Soviet troops out of East Berlin",
+          "text": "The U.S. used military force to drive Soviet troops out of the eastern sector of Berlin",
           "textEs": "EE. UU. utilizó la fuerza militar para expulsar las tropas soviéticas de Berlín Oriental",
           "explanation": null,
           "misconception": null
@@ -688,7 +728,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
@@ -703,9 +743,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -734,7 +779,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
@@ -749,9 +794,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
@@ -820,14 +870,14 @@
         },
         {
           "id": "B",
-          "text": "William Howard Taft",
+          "text": "Theodore Roosevelt",
           "textEs": null,
           "explanation": null,
           "misconception": null
         },
         {
           "id": "C",
-          "text": "Theodore Roosevelt",
+          "text": "William Howard Taft",
           "textEs": null,
           "explanation": null,
           "misconception": null
@@ -855,7 +905,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-1.json",
@@ -884,39 +934,44 @@
             "Panama Canal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "C"
+      "_formKeyLetter": "B"
     },
     {
       "id": "STIM-0019",
       "stem": "Use the political cartoon to answer the question.\n\nThe 1898 cartoon shows Uncle Sam seated at a restaurant table, looking at a menu containing 'Cuba Steak,' 'Porto Rico Pig,' 'Philippine Floating Islands,' and 'Sandwich Islands (Hawaii).' President McKinley stands as the waiter. The cartoon comments on American territorial expansion after the Spanish-American War.\n\nIn this cartoon, what does Uncle Sam being seated at the restaurant menu most directly represent?",
-      "stemEs": "",
+      "stemEs": "Use la caricatura política para responder la pregunta. La caricatura de 1898 muestra al Tío Sam sentado a la mesa de un restaurante, mirando un menú que enumera territorios.",
       "itemType": "mcq",
       "choices": [
         {
           "id": "A",
-          "text": "The United States deciding which territories to acquire following its victory in the Spanish-American War",
+          "text": "The United States refusing to accept any new territorial responsibilities after defeating Spain",
           "textEs": "",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "B",
-          "text": "American diplomats negotiating trade agreements with newly independent Caribbean nations",
+          "text": "American diplomats negotiating new trade agreements with independent Caribbean republics",
           "textEs": "",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "C",
-          "text": "The United States refusing to accept any new territorial responsibilities after defeating Spain",
+          "text": "The United States choosing which territories to acquire after defeating Spain",
           "textEs": "",
           "explanation": null,
           "misconception": null
@@ -936,7 +991,7 @@
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "not-started",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 0.9,
         "b": -0.4,
@@ -944,7 +999,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -970,20 +1025,25 @@
             "Spanish-American War"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "A"
+      "_formKeyLetter": "C"
     },
     {
       "id": "PS-0065",
       "stem": "Read the excerpt below.\n\n\"I took the Canal Zone and let Congress debate, and while the debate goes on, the canal does also.\" — President Theodore Roosevelt, Lecture at University of California, 1911\n\nWhich of the following best describes the controversy surrounding Roosevelt's acquisition of the Panama Canal Zone?",
-      "stemEs": "",
+      "stemEs": "Lea el extracto a continuación. Es una declaración del presidente Theodore Roosevelt sobre la Zona del Canal.",
       "itemType": "mcq",
       "choices": [
         {
@@ -1002,14 +1062,14 @@
         },
         {
           "id": "C",
-          "text": "The U.S. supported Panama's revolution against Colombia to obtain the canal rights, bypassing Colombia's rejection of the treaty.",
+          "text": "Roosevelt seized the Canal Zone from France, which had originally agreed to sell it to the United States but then backed out.",
           "textEs": "",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "D",
-          "text": "Roosevelt seized the Canal Zone from France, which had originally agreed to sell it to the United States but then backed out.",
+          "text": "The U.S. backed Panama's revolution against Colombia to obtain the canal rights",
           "textEs": "",
           "explanation": null,
           "misconception": null
@@ -1022,7 +1082,7 @@
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "not-started",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.3,
         "b": 0.3,
@@ -1030,7 +1090,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -1057,32 +1117,37 @@
             "Panama Canal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "C"
+      "_formKeyLetter": "D"
     },
     {
       "id": "PS-0067",
       "stem": "Read the excerpt below.\n\n\"The construction of the canal required the labor of tens of thousands of workers — Jamaicans, Barbadians, Spanish workers — in brutal tropical conditions. Yellow fever and malaria killed thousands before Dr. Gorgas brought the diseases under control.\" — David McCullough, The Path Between the Seas, 1977\n\nWhich of the following best describes a major challenge that had to be overcome to complete the Panama Canal?",
-      "stemEs": "",
+      "stemEs": "Lea el extracto a continuación. Describe la mano de obra empleada en la construcción del Canal de Panamá.",
       "itemType": "mcq",
       "choices": [
         {
           "id": "A",
-          "text": "The lack of adequate explosives technology meant engineers had to rely entirely on hand-dug excavations.",
+          "text": "Tropical disease, especially yellow fever and malaria, killed thousands of workers until a mosquito-control campaign cut the death rate",
           "textEs": "",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "B",
-          "text": "Tropical diseases, particularly yellow fever and malaria, killed thousands of workers until a mosquito eradication campaign brought them under control.",
+          "text": "The lack of adequate explosives technology meant engineers had to rely entirely on hand-dug excavations.",
           "textEs": "",
           "explanation": null,
           "misconception": null
@@ -1109,7 +1174,7 @@
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "not-started",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.1,
         "b": 0.1,
@@ -1117,7 +1182,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
@@ -1144,15 +1209,20 @@
             "Panama Canal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a-rebalance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "B"
+      "_formKeyLetter": "A"
     },
     {
       "id": "q-us2-dok4-cr2",
@@ -1175,7 +1245,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -1209,9 +1279,14 @@
             "Panama Canal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
       "explanationEs": "",

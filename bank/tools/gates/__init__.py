@@ -29,6 +29,19 @@ class Result:
     scanned: int = 0
     findings: list = field(default_factory=list)
     note: str = ""
+    inapplicable: str = ""
+    """Why this gate has nothing to judge in THIS artifact — never blank when set.
+
+    A narrow and dangerous distinction. `NOT MEASURED` exists because a gate
+    whose filter never matches anything reports a meaningless PASS (L11:
+    teacher-side-isolation over 3,986 items, judging none). But a gate can also
+    have nothing to judge for an honest reason — citation-integrity on a form
+    whose items carry no citations. That is N/A, not a failure of the form.
+
+    The loophole this could open is obvious, so: the reason is REQUIRED, N/A is
+    never reported as PASS, and tests/test_regressions.py pins that a gate
+    cannot claim inapplicable while its population exists.
+    """
     judged: int = None
     """How many records the gate actually JUDGED, after its own filtering.
 
@@ -46,9 +59,16 @@ class Result:
 
     @property
     def status(self) -> str:
+        if self.inapplicable:
+            return "N/A"
         if not self.measured:
             return "NOT MEASURED"
         return "PASS" if self.passed else "FAIL"
+
+    @property
+    def counts_as_pass(self) -> bool:
+        """N/A is not a pass and not a failure — it is excluded from the tally."""
+        return self.passed and self.measured and not self.inapplicable
 
     def report(self, limit=8) -> str:
         head = f"[{self.status}] {self.gate} — scanned {self.scanned}"
@@ -56,6 +76,8 @@ class Result:
             head += f", judged {self.judged}"
         if self.note:
             head += f" — {self.note}"
+        if self.inapplicable:
+            return head + f"\n        N/A — {self.inapplicable}"
         if not self.measured:
             return head + "\n        judged 0 records — a gate that formed no opinion is not a pass"
         if self.passed:

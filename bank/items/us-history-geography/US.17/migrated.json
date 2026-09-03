@@ -1276,41 +1276,43 @@
     {
       "id": "STIM-0019",
       "stem": "Use the political cartoon to answer the question.\n\nThe 1898 cartoon shows Uncle Sam seated at a restaurant table, looking at a menu containing 'Cuba Steak,' 'Porto Rico Pig,' 'Philippine Floating Islands,' and 'Sandwich Islands (Hawaii).' President McKinley stands as the waiter. The cartoon comments on American territorial expansion after the Spanish-American War.\n\nIn this cartoon, what does Uncle Sam being seated at the restaurant menu most directly represent?",
-      "stemEs": "",
+      "stemEs": "Use la caricatura política para responder la pregunta. La caricatura de 1898 muestra al Tío Sam sentado a la mesa de un restaurante, mirando un menú que enumera territorios.",
       "itemType": "mcq",
       "correctAnswer": "A",
       "choices": [
         {
           "id": "A",
-          "text": "The United States deciding which territories to acquire following its victory in the Spanish-American War",
+          "text": "The United States choosing which territories to acquire after defeating Spain",
           "textEs": "",
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "The United States deciding which territories to acquire following its victory in the Spanish-American War"
         },
         {
           "id": "B",
           "text": "The United States refusing to accept any new territorial responsibilities after defeating Spain",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "A refusal would be shown by pushing the menu away. Reading the menu is the act of choosing.",
+          "misconception": "reverses what the menu imagery represents"
         },
         {
           "id": "C",
-          "text": "American diplomats negotiating trade agreements with newly independent Caribbean nations",
+          "text": "American diplomats negotiating new trade agreements with independent Caribbean republics",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The territories on the menu were annexed or occupied, not treated as independent trading partners.",
+          "misconception": "recasts annexation as trade negotiation",
+          "_wasText": "American diplomats negotiating trade agreements with newly independent Caribbean nations"
         },
         {
           "id": "D",
           "text": "President McKinley choosing between military options for fighting the Spanish-American War",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The cartoon is dated after the fighting, and the menu lists territories rather than military options.",
+          "misconception": "places the cartoon before the war rather than after"
         }
       ],
       "dokLevel": 1,
-      "dokRationale": null,
+      "dokRationale": "The cartoon's own labels name the territories on the menu, so the student recognises the subject rather than analysing an unstated argument. That recognition is DOK-1; asking what the cartoonist thought of expansion would be DOK-3.",
       "standardCodes": [
         "US.23"
       ],
@@ -1318,8 +1320,8 @@
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
       "explanation": "A is correct: By depicting Uncle Sam choosing from a menu of territories like Cuba, Puerto Rico, the Philippines, and Hawaii, the cartoon represents the United States deciding which territories to acquire after defeating Spain in 1898. The restaurant metaphor makes territorial acquisition look like a consumer choice. B is incorrect: Uncle Sam is selecting from the menu, not refusing — the cartoon shows the U.S. as the decision-maker about which territories to take. C is incorrect: the menu items are territories, not trade agreements or diplomacy. D is incorrect: McKinley as the waiter suggests he is facilitating the choice, but the cartoon is about territorial selection, not a comparison of military options.",
-      "explanationEs": "",
-      "translationStatus": "not-started",
+      "explanationEs": "El menú presenta los territorios como platos por elegir, lo que representa a Estados Unidos decidiendo qué territorios adquirir tras vencer a España en la Guerra Hispano-Estadounidense de 1898.",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 0.9,
         "b": -0.4,
@@ -1327,7 +1329,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
@@ -1353,9 +1355,14 @@
             "Spanish-American War"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "rehomed"
+      "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us16-dok2-trustbusting",
@@ -2573,7 +2580,7 @@
       "correctAnswer": "Strong responses should identify both idealistic motivations (spreading democracy, \"civilizing mission\") and self-interested ones (economic markets, strategic military bases, national prestige) in specific events, then make a nuanced evaluative argument. The Spanish-American War combined genuine sympathy for Cuban independence with yellow journalism and commercial interests. Hawaiian annexation served naval strategy (Pearl Harbor) while overthrowing a sovereign government. The Philippine-American War exposed the contradiction between liberation rhetoric and colonial violence (200,000+ Filipino deaths).",
       "choices": [],
       "dokLevel": 3,
-      "dokRationale": null,
+      "dokRationale": "The student must weigh competing motives against evidence and argue a position, which requires strategic reasoning — DOK-3.",
       "standardCodes": [
         "US.23"
       ],
@@ -2590,7 +2597,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
@@ -2624,9 +2631,14 @@
             "Panama Canal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "rehomed"
+      "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true
     },
     {
       "id": "dok3-gen-u2-034",

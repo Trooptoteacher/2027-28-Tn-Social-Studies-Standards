@@ -1855,8 +1855,8 @@
           "id": "A",
           "text": "William McKinley",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "McKinley was president during the Spanish-American War and was assassinated in 1901, before canal construction began.",
+          "misconception": "assigns the canal to the preceding administration"
         },
         {
           "id": "B",
@@ -1869,19 +1869,19 @@
           "id": "C",
           "text": "Woodrow Wilson",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "Wilson took office in 1913, the year before the canal opened; he did not initiate it.",
+          "misconception": "credits the president in office at completion rather than construction"
         },
         {
           "id": "D",
           "text": "William Howard Taft",
           "textEs": null,
-          "explanation": null,
-          "misconception": null
+          "explanation": "Taft succeeded Roosevelt and oversaw later construction, but the acquisition and decision were Roosevelt's.",
+          "misconception": "credits Roosevelt's successor with the decision"
         }
       ],
       "dokLevel": 1,
-      "dokRationale": null,
+      "dokRationale": "The student recalls which president is associated with building the canal. A single retrieved fact, which is DOK-1.",
       "standardCodes": [
         "US.23"
       ],
@@ -1898,7 +1898,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "teacher",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-3/dok-1.json",
@@ -1927,9 +1927,14 @@
             "Panama Canal"
           ],
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "rehomed"
+      "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us24-dok2-1",

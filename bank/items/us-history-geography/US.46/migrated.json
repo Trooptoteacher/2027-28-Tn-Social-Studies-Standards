@@ -98,8 +98,8 @@
           "id": "A",
           "text": "Raised tariffs to the highest levels in U.S. history, worsening the global Depression",
           "textEs": "Proporcionó pagos en efectivo directos a trabajadores desempleados y familias en dificultades",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Raising tariffs was the Hawley-Smoot Tariff of 1930, a separate Hoover-era policy that restricted trade rather than lending money.",
+          "misconception": "confuses the RFC with the Hawley-Smoot Tariff"
         },
         {
           "id": "B",
@@ -112,26 +112,26 @@
           "id": "C",
           "text": "Businesses cut wages and jobs anyway to survive; voluntary measures had no enforcement",
           "textEs": "Construyó proyectos de vivienda pública asequible para familias sin hogar y de bajos ingresos",
-          "explanation": null,
-          "misconception": null
+          "explanation": "This describes the failure of Hoover's voluntary-cooperation approach, in which he asked business to hold wages. The RFC was the opposite: a funded federal lender.",
+          "misconception": "confuses the RFC with Hoover's voluntary cooperation policy"
         },
         {
           "id": "D",
           "text": "WWI veterans demanding early bonus payment; Hoover ordered military to disperse them",
           "textEs": "Distribuyó cupones de alimentos y productos agrícolas excedentes a ciudadanos hambrientos",
-          "explanation": null,
-          "misconception": null
+          "explanation": "This is the Bonus Army episode of 1932, a protest by WWI veterans. It is an event, not an agency, and had no lending function.",
+          "misconception": "confuses the RFC with the Bonus Army episode"
         }
       ],
       "dokLevel": 1,
-      "dokRationale": null,
+      "dokRationale": "The student retrieves what one named agency did. No relationship or inference is required, which is DOK-1; asking why the RFC's design drew criticism would be DOK-2.",
       "standardCodes": [
         "US.46"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "explanation": "Loaned government money to banks, railroads, and large businesses to prevent failures, as Hoover tried to stabilize major institutions rather than give direct aid to individuals. Choice C refers to unemployment, which does not fit this question, and choice D refers to the Bonus Army, which does not fit this question. Public frustration with Hoover helped shift many voters toward the New Deal in 1932.",
+      "explanation": "The RFC was Hoover's main federal intervention: it lent public money to banks, railroads and large firms on the theory that keeping big institutions solvent would stop failures cascading down to workers. That 'top-down' logic is why the RFC is the standard contrast with the New Deal's direct relief.",
       "explanationEs": "La RFC prestó $2 mil millones a bancos, ferrocarriles y grandes corporaciones. Críticos lo llamaron \"bienestar para ricos\" porque ayudó a grandes empresas mientras Hoover se oponía a ayuda directa a trabajadores desempleados y familias hambrientas.",
       "translationStatus": "complete",
       "irtParameters": {
@@ -141,7 +141,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -153,9 +153,14 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us44-dok1-3",
@@ -1009,22 +1014,22 @@
           "id": "A",
           "text": "Loaned government money to banks, railroads, and large businesses to prevent failures",
           "textEs": "Agricultores protestando precios bajos de cultivos; Hoover aprobó subsidios agrícolas de emergencia",
-          "explanation": null,
-          "misconception": null
+          "explanation": "This is the Reconstruction Finance Corporation, a lending agency, not a protest.",
+          "misconception": "confuses the Bonus Army with the RFC"
         },
         {
           "id": "B",
           "text": "Raised tariffs to the highest levels in U.S. history, worsening the global Depression",
           "textEs": "Soldados en servicio activo solicitando mejores condiciones; Hoover negoció aumentos de pago",
-          "explanation": null,
-          "misconception": null
+          "explanation": "This is the Hawley-Smoot Tariff, a trade policy unrelated to the veterans' march.",
+          "misconception": "confuses the Bonus Army with the Hawley-Smoot Tariff"
         },
         {
           "id": "C",
           "text": "Businesses cut wages and jobs anyway to survive; voluntary measures had no enforcement",
           "textEs": "Trabajadores industriales en huelga por salarios más altos; Hoover medió un acuerdo pacífico",
-          "explanation": null,
-          "misconception": null
+          "explanation": "This describes why Hoover's voluntary wage-maintenance appeals failed, not the veterans' bonus demand.",
+          "misconception": "confuses the Bonus Army with Hoover's voluntary cooperation policy"
         },
         {
           "id": "D",
@@ -1035,7 +1040,7 @@
         }
       ],
       "dokLevel": 1,
-      "dokRationale": null,
+      "dokRationale": "The student recalls who the marchers were and what Hoover did. Both halves are retrieved facts, which is DOK-1; explaining how the episode shifted public opinion toward FDR would be DOK-2.",
       "standardCodes": [
         "US.46"
       ],
@@ -1052,7 +1057,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
@@ -1064,9 +1069,14 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "authoring": {
+          "record": "form-a.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "q-us44-dok2-3",
@@ -2967,41 +2977,43 @@
     {
       "id": "U5-DOK2-0027",
       "stem": "Why did critics of the New Deal charge that FDR's programs represented socialism?",
-      "stemEs": "",
+      "stemEs": "¿Por qué los críticos del New Deal afirmaban que los programas de FDR representaban socialismo?",
       "itemType": "mcq",
       "correctAnswer": "A",
       "choices": [
         {
           "id": "A",
-          "text": "Because the New Deal significantly expanded the federal government's role in regulating the economy and providing social welfare",
+          "text": "Because the New Deal greatly expanded federal regulation of the economy and created public employment and Social Security",
           "textEs": "",
           "explanation": null,
-          "misconception": null
+          "misconception": null,
+          "_wasText": "Because the New Deal significantly expanded the federal government's role in regulating the economy and providing social welfare"
         },
         {
           "id": "B",
           "text": "Because FDR called for nationalizing all major American industries and placing them under government ownership",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "FDR never proposed nationalising major industries. The charge rested on regulation and public employment, not government ownership.",
+          "misconception": "overstates the charge as nationalisation of industry"
         },
         {
           "id": "C",
           "text": "Because FDR eliminated private property rights by redistributing land from wealthy Americans to the poor",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Private property rights were not abolished; New Deal farm policy paid owners to limit production rather than redistributing their land.",
+          "misconception": "confuses regulation and subsidy with land redistribution"
         },
         {
           "id": "D",
-          "text": "Because New Deal programs replaced all private charities with mandatory government services",
+          "text": "Because New Deal programs abolished all private and religious charities in favor of state services",
           "textEs": "",
-          "explanation": null,
-          "misconception": null
+          "explanation": "Private and religious charities continued throughout the 1930s; federal relief supplemented them because their resources had been exhausted.",
+          "misconception": "assumes federal relief replaced private charity",
+          "_wasText": "Because New Deal programs replaced all private charities with mandatory government services"
         }
       ],
       "dokLevel": 2,
-      "dokRationale": null,
+      "dokRationale": "The student must connect features of New Deal programs to the political charge made against them, which is a cause-and-claim relationship — DOK-2. Recalling that critics used the word 'socialism' would be DOK-1.",
       "standardCodes": [
         "US.46"
       ],
@@ -3009,8 +3021,8 @@
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
       "explanation": "New Deal opponents — including business leaders and conservatives — argued that programs like the TVA (a government-owned utility), the AAA (government interference in markets), and Social Security (a government welfare program) crossed the line from capitalism into socialism by making the government a major economic actor.",
-      "explanationEs": "",
-      "translationStatus": "not-started",
+      "explanationEs": "El New Deal amplió enormemente la función del gobierno federal: reguló la industria y la agricultura, creó empleo público y estableció la Seguridad Social. Los críticos consideraron que esa expansión era socialismo, aunque la propiedad privada y los mercados siguieron intactos.",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.3,
         "b": 0.4,
@@ -3018,7 +3030,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "migrated",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
@@ -3030,9 +3042,14 @@
         "crosswalkReasons": [
           "US.44->US.46: checklist intact (2 element(s))"
         ],
-        "alignmentReview": null
+        "alignmentReview": null,
+        "authoring": {
+          "record": "form-a-rebalance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "U5-DOK2-0028",

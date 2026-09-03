@@ -251,7 +251,7 @@ It has already earned its place: it caught a refactor that silently deleted an
 invariant comment `run_gates.py` was cited for, and three ledger entries pointing at
 strings that did not exist.
 
-**19 lessons, 34 guards** — among them:
+**35 lessons, 71 guards** — among them:
 
 | | |
 |---|---|
@@ -263,9 +263,38 @@ strings that did not exist.
 | `L15` | a pass tally reported that included a vacuous pass |
 | `L17` | sixteen gates measured how the bank was made; **none measured what it is about** |
 | `L18` | the key is the longest choice 53.3% of the time — beatable without reading |
+| `L27` | 1,144 items' "Spanish" was English; 408 were pseudo-translated by word swap |
+| `L32` | a de-bias gate existed for commits that the **builder could not satisfy** |
+| `L33` | fixing the length cue **over-corrected to 0%**, which a one-sided gate passed |
+| `L34` | a bank gate run over a form measured a distribution **no student ever sees** |
 
 A lesson written down but not enforced is a promise. A lesson with a guard is a fact
 about the code.
+
+## The pilot: one form proven green
+
+`python3 tools/run_gates.py --form FORM-A`
+
+**FORM-A (US.46 · US.60 · US.23) passes every gate that applies to it** — 21 of 21
+applicable, 1 N/A. It is the existence proof that Grade A is reachable, and the cost of
+getting there for one form of 18 items was:
+
+| | |
+|---|---|
+| distractor rationales authored | 36 |
+| DOK rationales authored | 15 |
+| Spanish pairs authored (marked `needs-review`) | 5 |
+| explanations rewritten | 1 |
+| choice sets rebalanced for the length cue | 11 |
+
+Authored content is committed as DATA in [`authoring/`](authoring/) so a reviewer reads
+what was written, not the script that wrote it. `tools/apply_authoring.py` refuses to
+write a distractor rationale onto the key, to name a choice the item does not have, or to
+let two distractors on one item claim the same misconception — it validates the whole
+record before writing anything, because a partial content write is worse than none.
+
+Every authored item carries `requiresHistorianReview: true`. A rationale explaining a
+misconception is still a historical claim.
 
 ## Run everything
 

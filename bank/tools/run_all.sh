@@ -19,6 +19,9 @@ stage "content gate proofs"   python3 tests/test_content_gates.py
 stage "re-home triage pins"   python3 tests/test_rehome.py
 stage "print gate proofs"     python3 tests/test_form_gates.py
 stage "gates vs artifact"     python3 tools/run_gates.py
+# The pilot form is GREEN. Enforce it: a regression here means something that
+# was proven achievable stopped being achievable.
+stage "FORM-A (proven green)"  python3 tools/run_gates.py --form FORM-A
 
 printf '\n'
 if [ "$FAIL" -eq 0 ]; then
