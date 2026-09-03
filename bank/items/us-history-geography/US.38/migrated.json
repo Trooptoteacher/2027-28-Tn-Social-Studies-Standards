@@ -1,0 +1,3054 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.38",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us38-dok1-1",
+      "stem": "What was the Scopes Trial about?",
+      "stemEs": "¿De qué se trató el Juicio de Scopes?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A legal challenge questioned the validity of women's voting rights nationwide",
+          "textEs": "Un desafío legal cuestionó la validez de los derechos de voto femenino a nivel nacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A court debate challenged the constitutionality of alcohol prohibition laws",
+          "textEs": "Un debate judicial desafió la constitucionalidad de las leyes de prohibición del alcohol",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A teacher was prosecuted for teaching evolution in Tennessee public schools",
+          "textEs": "Un maestro fue procesado por enseñar evolución en escuelas públicas de Tennessee",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A dispute over labor union organizing and workers' collective bargaining rights",
+          "textEs": "Una disputa sobre organización sindical y derechos de negociación colectiva de trabajadores",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A points to women's changing roles, not the specific person, law, or event asked for; choice B points to Prohibition, not the specific person, law, or event asked for. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "El \"Juicio del Mono\" de 1925 en Dayton, Tennessee procesó al maestro John Scopes por enseñar evolución, violando el Acta Butler de Tennessee. Simbolizó el choque entre modernismo y fundamentalismo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.59,
+        "b": -1.52,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-q01",
+      "stem": "The Scopes Trial of 1925 centered on the controversy over:",
+      "stemEs": "The Scopes Trial of 1925 centered on the controversy over:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Government censorship of newspapers",
+          "textEs": "Government censorship of newspapers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Teaching evolution in public schools",
+          "textEs": "Teaching evolution in public schools",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Immigration restrictions",
+          "textEs": "inmigración restrictions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Women's suffrage rights",
+          "textEs": "Women's sufragio rights",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to nativism or racial conflict, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to nativism or racial conflict, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.89,
+        "b": -1.66,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-28-x012",
+      "stem": "The 'Red Scare' of 1919-1920 was triggered by:",
+      "stemEs": "The 'Temor Rojo' of 1919-1920 was triggered by:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Bolshevik government nationalizing American investments in Russia",
+          "textEs": "The Bolshevik government nationalizing American investments in Russia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Germany's attempt to rebuild its military after Versailles",
+          "textEs": "Germany's attempt to rebuild its military after Versailles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Fear of communist revolution spreading from Russia",
+          "textEs": "Fear of communist revolution spreading from Russia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Soviet Union's military invasion of Western Europe",
+          "textEs": "The Soviet Union's military invasion of Western Europe",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.8,
+        "b": -0.77,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-31-x017",
+      "stem": "The Scopes 'Monkey Trial' (1925) represented a conflict between:",
+      "stemEs": "The Scopes 'Monkey Trial' (1925) represented a conflict between:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Labor unions and corporations over workplace safety",
+          "textEs": "sindicatos and corporations over workplace safety",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Religious fundamentalism and modern science over the teaching of evolution",
+          "textEs": "Religious fundamentalism and modern science over the teaching of evolution",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Prohibition supporters and opponents over the enforcement of the 18th Amendment",
+          "textEs": "Prohibition supporters and opponents over the enforcement of the 18th enmienda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Ku Klux Klan and civil rights advocates over racial equality",
+          "textEs": "The Ku Klux Klan and derechos civiles advocates over racial igualdad",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial pitted religious fundamentalists against supporters of modern science, making the courtroom a stage for larger clashes between rural traditionalism and urban modernism. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to Prohibition, not the historical point being tested. It showed that culture-war debates over school curriculum and public values did not begin in the late twentieth century.",
+      "explanationEs": "The Scopes Trial pitted religious fundamentalists against supporters of modern science, making the courtroom a stage for larger clashes between rural traditionalism and urban modernism. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to Prohibition, not the historical point being tested. It showed that culture-war debates over school curriculum and public values did not begin in the late twentieth century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.84,
+        "b": -0.56,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-31-x019",
+      "stem": "Clarence Darrow's defense strategy in the Scopes Trial was to:",
+      "stemEs": "Clarence Darrow's defense strategy in the Scopes Trial was to:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Challenge the constitutionality of Tennessee's Butler Act on religious freedom grounds",
+          "textEs": "Challenge the constitucionality of Tennessee's Butler Act on religious freedom grounds",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Present scientific testimony to prove that evolution was scientifically established",
+          "textEs": "Present scientific testimony to prove that evolution was scientifically established",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Call Bryan as a witness and use cross-examination to expose the difficulties of literal biblical interpretation",
+          "textEs": "Call Bryan as a witness and use cross-examination to expose the difficulties of literal biblical interpretation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Argue that evolution was consistent with the Bible and did not contradict religious teaching",
+          "textEs": "Argue that evolution was consistent with the Bible and did not contradict religious teaching",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Clarence Darrow put William Jennings Bryan on the stand to expose the problems with a literal reading of Genesis when discussing science and education. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. That tactic helped turn the Scopes case into a national cultural showdown, not just a local trial.",
+      "explanationEs": "Clarence Darrow put William Jennings Bryan on the stand to expose the problems with a literal reading of Genesis when discussing science and education. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. That tactic helped turn the Scopes case into a national cultural showdown, not just a local trial.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.96,
+        "b": -0.71,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-x020",
+      "stem": "FDR defeated Hoover in 1932 in a landslide primarily because:",
+      "stemEs": "FDR defeated Hoover in 1932 in a landslide primarily because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hoover's refusal to intervene in the economy made him appear heartless and ineffective",
+          "textEs": "Hoover's refusal to intervene in the economy made him appear heartless and ineffective",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Hoover's refusal to intervene was widely blamed for inadequate response to the Depression's causes and consequences",
+          "textEs": "Hoover's refusal to intervene was widely blamed for inadequate response to the depresión's causes and consequences",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Great Depression had been caused by Hoover's tariff policies and voters held him responsible for the economic collapse",
+          "textEs": "The Gran Depresión had been caused by Hoover's arancel policies and voters held him responsible for the economic collapse",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "FDR's specific New Deal proposals appealed to an electorate desperate for change",
+          "textEs": "FDR's specific New Deal proposals appeacondujo a an electorate desperate for change",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Great Depression deepened because stock speculation, weak banks, low farm prices, and unequal wealth made the economy fragile even before the crash. Choice C mentions the Great Depression or New Deal, but it does not match the main cause or significance in the question; choice B mentions the Great Depression or New Deal, but it does not match the main cause or significance in the question. The crisis transformed expectations about what the federal government should do in an economic emergency.",
+      "explanationEs": "The Gran Depresión deepened because stock speculation, weak banks, low farm prices, and unequal wealth made the economy fragile even before the crash. Choice C mentions the Gran Depresión or New Deal, but it does not match the main cause or significance in the question; choice B mentions the Gran Depresión or New Deal, but it does not match the main cause or significance in the question. The crisis transformed expectations about what the gobierno federal should do in an economic emergency.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.16,
+        "b": -1.51,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-x021",
+      "stem": "Social Security (1935) was designed primarily as:",
+      "stemEs": "Social Security (1935) was designed primarily as:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A welfare program for all Americans below the poverty line",
+          "textEs": "A welfare program for all Americans below the poverty line",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A federal savings program requiring all Americans to deposit 10% of income for retirement",
+          "textEs": "A federal savings program requiring all Americans to deposit 10% of income for retirement",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A contributory insurance program funded by payroll taxes from workers and employers",
+          "textEs": "A contributory insurance program funded by payroll taxes from workers and employers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A government pension replacing all private retirement plans",
+          "textEs": "A government pension replacing all private retirement plans",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Social Security created a federal old-age insurance system funded by payroll taxes, and reserves build up when current tax collections exceed current benefit payments. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. The program permanently changed expectations about federal responsibility for economic security.",
+      "explanationEs": "Social Security created a federal old-age insurance system funded by payroll taxes, and reserves build up when current tax collections exceed current benefit payments. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. The program permanently changed expectations about federal responsibility for economic security.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.82,
+        "b": -1.17,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-x026",
+      "stem": "The Social Security Board initially operated as a completely separate federal agency because:",
+      "stemEs": "The Social Security Board initially operated as a completely separate federal agency because:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FDR wanted Social Security to be politically independent of agencies controlled by conservative bureaucrats",
+          "textEs": "FDR wanted Social Security to be politically independent of agencies controlled by conservative bureaucrats",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "FDR designed it as insurance rather than welfare, requiring separate administrative structure outside the Labor Department",
+          "textEs": "FDR designed it as insurance rather than welfare, requiring separate administrative structure outside the Labor Department",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Huey Long's political pressure forced FDR to make Social Security independent to prevent it from being weakened",
+          "textEs": "Huey Long's political pressure forced FDR to make Social Security independent to prevent it from being weakened",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Supreme Court had ruled that income redistribution programs had to be administered by independent commissions",
+          "textEs": "The Corte Suprema had ruled that income redistribution programs had to be administered by independent commissions",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Social Security created a federal old-age insurance system funded by payroll taxes, and reserves build up when current tax collections exceed current benefit payments. Choice A refers to the Great Depression or New Deal, not the historical point being tested; choice C refers to the Great Depression or New Deal, not the historical point being tested. The program permanently changed expectations about federal responsibility for economic security.",
+      "explanationEs": "Social Security created a federal old-age insurance system funded by payroll taxes, and reserves build up when current tax collections exceed current benefit payments. Choice A refers to the Gran Depresión or New Deal, not the historical point being tested; choice C refers to the Gran Depresión or New Deal, not the historical point being tested. The program permanently changed expectations about federal responsibility for economic security.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.74,
+        "b": -0.94,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us37-dok2-3",
+      "stem": "What was the Red Scare of 1919-1920?",
+      "stemEs": "¿Qué fue el Miedo Rojo de 1919-1920?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fear of communist revolution that led to mass deportations and political persecution",
+          "textEs": "Miedo a revolución comunista que llevó a deportaciones masivas y persecución política",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A cultural exchange program that promoted understanding between American and Russian citizens",
+          "textEs": "Un programa de intercambio cultural que promovió entendimiento entre ciudadanos estadounidenses y rusos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A government initiative that supported labor union organizing and collective bargaining rights",
+          "textEs": "Una iniciativa gubernamental que apoyó organización sindical y derechos de negociación colectiva",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A federal campaign designed to increase immigration from Eastern European countries",
+          "textEs": "Una campaña federal diseñada para aumentar inmigración de países de Europa del Este",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice B points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for; choice C points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "Después de la Primera Guerra Mundial y la Revolución Rusa, los estadounidenses temieron revolución comunista. El Fiscal General A. Mitchell Palmer condujo redadas, deportando miles de supuestos radicales y violando libertades civiles.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.62,
+        "b": 0.16,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us38-dok2-5",
+      "stem": "What was the significance of the \"Monkey Trial\" nickname for the Scopes Trial?",
+      "stemEs": "¿Cuál fue la importancia del apodo \"Juicio del Mono\" para el Juicio de Scopes?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A secret word or phrase needed to enter illegal bars during Prohibition",
+          "textEs": "Nombrado después de un zoológico local",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Referred to evolution debate and Darwin's theory about human-ape ancestry",
+          "textEs": "Se refirió al debate de evolución y teoría de Darwin sobre ancestros humano-simio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A teacher was prosecuted for teaching evolution in Tennessee public schools",
+          "textEs": "Describió el comportamiento en la corte",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Chicago gangster who controlled the illegal alcohol trade during Prohibition",
+          "textEs": "No tuvo conexión con asuntos del caso",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice C points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for; choice A points to Prohibition, not the specific person, law, or event asked for. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "El apodo \"Juicio del Mono\" destacó el asunto central: la teoría de Darwin de que humanos y simios comparten ancestros comunes. Este término despectivo reflejó cómo el juicio se convirtió en espectáculo cultural sobre orígenes humanos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.01,
+        "b": -0.31,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-x012",
+      "stem": "Clarence Darrow's strategy at the Scopes Trial was designed to:",
+      "stemEs": "Clarence Darrow's strategy at the Scopes Trial was designed to:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Use Bryan as a witness on Biblical literalism to expose the scientific impossibility of creationism",
+          "textEs": "Use Bryan as a witness on Biblical literalism to expose the scientific impossibility of creationism",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Challenge the constitutionality of the Butler Act before the Tennessee Supreme Court",
+          "textEs": "Challenge the constitucionality of the Butler Act before the Tennessee Corte Suprema",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Build a coalition of scientists and educators to pressure Tennessee legislators",
+          "textEs": "Build a coalition of scientists and educators to pressure Tennessee legislators",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Prove that John Scopes was innocent of teaching evolution",
+          "textEs": "Prove that John Scopes was innocent of teaching evolution",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Clarence Darrow put William Jennings Bryan on the stand to expose the problems with a literal reading of Genesis when discussing science and education. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. That tactic helped turn the Scopes case into a national cultural showdown, not just a local trial.",
+      "explanationEs": "Clarence Darrow put William Jennings Bryan on the stand to expose the problems with a literal reading of Genesis when discussing science and education. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. That tactic helped turn the Scopes case into a national cultural showdown, not just a local trial.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.12,
+        "b": -0.35,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-x029",
+      "stem": "The Social Security trust fund accumulates reserves when:",
+      "stemEs": "The Social Security fideicomiso fund accumulates reserves when:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Federal Reserve purchases Social Security bonds to prevent government borrowing costs",
+          "textEs": "The Federal Reserve purchases Social Security bonds to prevent government borrowing costs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The trust fund invests in private equity markets to earn returns exceeding bond interest rates",
+          "textEs": "The fideicomiso fund invests in private equity markets to earn returns exceeding bond interest rates",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Payroll tax revenues exceed current benefit payments, building a buffer for demographic shifts",
+          "textEs": "Payroll tax revenues exceed current benefit payments, building a buffer for demographic shifts",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Congress appropriates additional funds to ensure adequate reserves for future retirees",
+          "textEs": "Congreso appropriates additional funds to ensure adequate reserves for future retirees",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Social Security created a federal old-age insurance system funded by payroll taxes, and reserves build up when current tax collections exceed current benefit payments. Choice A refers to the Great Depression or New Deal, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The program permanently changed expectations about federal responsibility for economic security.",
+      "explanationEs": "Social Security created a federal old-age insurance system funded by payroll taxes, and reserves build up when current tax collections exceed current benefit payments. Choice A refers to the Gran Depresión or New Deal, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. The program permanently changed expectations about federal responsibility for economic security.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.41,
+        "b": 0.9,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U4-DOK1-0003",
+      "stem": "Which 1925 trial directly resulted from the enforcement of this Tennessee law?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Scopes 'Monkey' Trial",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Leopold and Loeb trial",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Sacco and Vanzetti trial",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The trial of Eugene V. Debs",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Tennessee's Butler Act made it unlawful to teach that man descended from a lower order of animals in state-funded schools, and enforcing it produced the 1925 Scopes trial in Dayton. Choice C is wrong because the Sacco and Vanzetti case was a Massachusetts murder trial tied to fears of anarchism. Choice D is wrong because Debs was prosecuted under the Espionage Act during World War I. The trial became the decade's most public collision between traditional religious belief and modern science.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 0.8,
+        "b": -1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-39-tn11",
+      "stem": "The Scopes Trial of 1925, which took place in Dayton, Tennessee, was a legal case about:",
+      "stemEs": "The Scopes Trial of 1925, which took place in Dayton, Tennessee, was a legal case about:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A teacher's right to organize a union in public schools",
+          "textEs": "A teacher's right to organize a union in public schools",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A challenge to the constitutionality of mandatory school prayer in Tennessee classrooms",
+          "textEs": "A challenge to the constitucionality of mandatory school prayer in Tennessee classrooms",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "John Scopes' prosecution for teaching evolution in violation of Tennessee's Butler Act",
+          "textEs": "John Scopes' prosecution for teaching evolution in violation of Tennessee's Butler Act",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The right of African American students to attend integrated schools in Tennessee",
+          "textEs": "The right of African American students to attend integrated schools in Tennessee",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "John Scopes' prosecution for teaching evolution in violation of Tennessee's Butler Act, after Tennessee prosecuted teacher John Scopes for violating the Butler Act. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+      "explanationEs": "John Scopes' prosecution for teaching evolution in violation of Tennessee's Butler Act, after Tennessee prosecuted teacher John Scopes for violating the Butler Act. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. This helps explain how debt, fear, weak banks, and falling demand fed the economic collapse.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.03,
+        "b": -0.72,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us38-dok2-1",
+      "stem": "What did the Scopes Trial reveal about American society?",
+      "stemEs": "¿Qué reveló el Juicio de Scopes sobre la sociedad estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Deep cultural divide between traditional religious values and modern scientific thought",
+          "textEs": "División cultural profunda entre valores religiosos tradicionales y pensamiento científico moderno",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Universal acceptance of evolutionary theory by all religious and scientific communities",
+          "textEs": "Aceptación universal de teoría evolutiva por todas las comunidades religiosas y científicas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Complete decline of religious belief and church attendance throughout American society",
+          "textEs": "Declive completo de creencia religiosa y asistencia a iglesia en toda la sociedad estadounidense",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Decisive legal victory for fundamentalist views that permanently banned evolution teaching",
+          "textEs": "Victoria legal decisiva para puntos de vista fundamentalistas que prohibió permanentemente enseñanza de evolución",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice C points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for; choice B points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "El juicio expuso la tensión entre fundamentalismo (interpretación literal de la Biblia, valores tradicionales) y modernismo (ciencia, razón, cambio social). Aunque Scopes fue declarado culpable, el fundamentalismo fue expuesto al ridículo nacional.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.31,
+        "b": 0.11,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us38-dok2-4",
+      "stem": "How did fundamentalism respond to modernism in the 1920s?",
+      "stemEs": "¿Cómo respondió el fundamentalismo al modernismo en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Deep cultural divide between traditional religious values and modern scientific thought",
+          "textEs": "No tuvo conflicto significativo con ideas modernistas y coexistió pacíficamente con ellas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The rise of organized crime, illegal speakeasies, bootlegging, and gang violence",
+          "textEs": "Abrazó teorías científicas y apoyó entusiastamente rápido progreso social",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Promoted literal Bible interpretation and traditional values against science and change",
+          "textEs": "Promovió interpretación literal de Biblia y valores tradicionales contra ciencia y cambio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both showed conflict between traditional rural values and modern urban changes",
+          "textEs": "Desapareció completamente durante la década ya que todos aceptaron ciencia moderna",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "Los fundamentalistas religiosos rechazaron ideas modernistas como evolución y crítica bíblica. Promovieron interpretación literal de Biblia, moralidad tradicional y se opusieron al jazz, alcohol y cambio de normas de género, creando conflicto cultural.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.48,
+        "b": -0.16,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-q02",
+      "stem": "The major figures involved in the Scopes Trial included:",
+      "stemEs": "The major figures involved in the Scopes Trial included:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Supreme Court justices exclusively",
+          "textEs": "Corte Suprema justices exclusively",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Theodore Roosevelt and William Jennings Bryan exclusively",
+          "textEs": "Theodore Roosevelt and William Jennings Bryan exclusively",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "European scientists and American educators",
+          "textEs": "European scientists and American educators",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "William Jennings Bryan (prosecutor) and Clarence Darrow (defense",
+          "textEs": "William Jennings Bryan (prosecutor) and Clarence Darrow (defense",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.81,
+        "b": -0.22,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-q03",
+      "stem": "The two sides of the Scopes Trial controversy represented:",
+      "stemEs": "The two sides of the Scopes Trial controversy represented:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Different political parties' views exclusively",
+          "textEs": "Different political parties' views exclusively",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Religious fundamentalism versus scientific evolution teaching",
+          "textEs": "Religious fundamentalism versus scientific evolution teaching",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Only scientific perspectives on evolution",
+          "textEs": "Only scientific perspectives on evolution",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Disagreements among religious denominations only",
+          "textEs": "Disagreements among religious denominations only",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial pitted religious fundamentalists against supporters of modern science, making the courtroom a stage for larger clashes between rural traditionalism and urban modernism. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. It showed that culture-war debates over school curriculum and public values did not begin in the late twentieth century.",
+      "explanationEs": "The Scopes Trial pitted religious fundamentalists against supporters of modern science, making the courtroom a stage for larger clashes between rural traditionalism and urban modernism. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. It showed that culture-war debates over school curriculum and public values did not begin in the late twentieth century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.3,
+        "b": -0.55,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-33-x030",
+      "stem": "The Depression's psychological impact on Americans included all of the following EXCEPT:",
+      "stemEs": "The depresión's psychological impact on Americans included all of the following EXCEPT:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Deferred family formation — marriages and births declined as economic insecurity made family formation too risky",
+          "textEs": "Deferred family formation — marriages and births declined as economic insecurity made family formation too risky",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Widespread revolutionary political radicalism that nearly overthrew American capitalism",
+          "textEs": "Widespread revolutionary political radicalism that nearly overthrew American capitalismo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Permanent changes in savings behavior — Depression generation Americans became extremely thrifty throughout their lives",
+          "textEs": "Permanent changes in savings behavior — depresión generation Americans became extremely thrifty throughout their lives",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A sense of personal failure and shame among unemployed workers who internalized their joblessness as their own fault",
+          "textEs": "A sense of personal failure and shame among unemployed workers who internalized their joblessness as their own fault",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice C mentions the Great Depression or New Deal, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "explanationEs": "The Scopes Trial began in 1925 when Tennessee teacher John Scopes was charged with teaching evolution in violation of the Butler Act. Choice C mentions the Gran Depresión or New Deal, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. The case made Dayton, Tennessee, a national symbol of the struggle between science and religious fundamentalism.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.33,
+        "b": 0.48,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-q07",
+      "stem": "The outcome of the Scopes Trial demonstrated that:",
+      "stemEs": "The outcome of the Scopes Trial demonstrated that:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Scientific perspectives largely triumphed over religious views",
+          "textEs": "Scientific perspectives largely triumphed over religious views",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Science and religion were largely compatible without any tension",
+          "textEs": "Science and religion were largely compatible without any tension",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Tension between religious fundamentalism and scientific education",
+          "textEs": "Tension between religious fundamentalism and scientific education",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Religious fundamentalism was largely eliminated from American public life by scientific advances",
+          "textEs": "Religious fundamentalism was largely eliminated from American public life by scientific advances",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Scopes was convicted under Tennessee's Butler Act, but the case mattered more for the national debate it created than for the small legal penalty itself. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The trial became a lasting symbol of conflict between religious fundamentalism and modern science in public life.",
+      "explanationEs": "Scopes was convicted under Tennessee's Butler Act, but the case mattered more for the national debate it created than for the small legal penalty itself. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. The trial became a lasting symbol of conflict between religious fundamentalism and modern science in public life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.29,
+        "b": 0.86,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0011",
+      "stem": "Use the photograph to answer the question.\n\nThis 1936 Farm Security Administration photograph by Arthur Rothstein shows a desolate farmstead on the Great Plains. A father and his two sons run toward their small wooden farmhouse as a massive wall of dust approaches from behind. The land around the house is flat and barren, with drifting dust partially burying fences and farm structures.\n\n(Photograph by Arthur Rothstein for the Farm Security Administration, 1936. Library of Congress, Farm Security Administration Collection.)\n\nHow did agricultural farming practices of the early twentieth century contribute to the environmental disaster shown in this photograph?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Overuse of irrigation diverted river water, causing rivers to dry up and leaving the soil too wet to support crops",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Farmers had plowed up native grasses to plant crops, removing the root systems that held the topsoil in place against wind erosion",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A government program forced farmers to plant a single crop, which trapped moisture and caused flooding that loosened the soil",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Farmers over-planted forests, cutting off wind patterns that normally brought rainfall to the plains region",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38",
+        "US.39"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Farmers on the Great Plains had plowed up the deep-rooted native grasses that held the soil in place, replacing them with wheat and other crops. When the drought of the 1930s killed the crops, there were no root systems left to anchor the topsoil, leaving it vulnerable to the massive wind erosion visible in the photograph. Mechanized farming had also accelerated the scale of this land conversion. Choice A describes a problem in a different region. Choice C reverses the causal relationship. Choice D confuses the water-related Dust Bowl with different agricultural practices.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.18
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36",
+          "US.37"
+        ],
+        "priorBankTier": "stimulus-based",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item",
+          "US.37->US.39: standard ADDED ['eventual repeal with the 21st Amendment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism",
+            "eventual repeal with the 21st Amendment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U4-DOK2-0002",
+      "stem": "Which conclusion is best supported by the data in the chart?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The stock market grew steadily without disruption throughout the late 1920s",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Dow Jones average remained stable throughout 1929",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Stock prices rose continuously from 1925 through the end of 1929",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The stock market peaked in September 1929 before a sharp October crash",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The chart shows the Dow reaching its high point in September 1929 and then falling steeply in late October, the collapse remembered as Black Thursday and Black Tuesday. Choice A is wrong because the data show a sharp break, not uninterrupted growth. Choice C is wrong because prices turned down before the year ended. The crash exposed how much of the boom rested on buying stock on margin.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1,
+        "b": 0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-26-x021",
+      "stem": "The Scopes Trial (1925) in Dayton, Tennessee became a national sensation because it dramatized:",
+      "stemEs": "The Scopes Trial (1925) in Dayton, Tennessee became a national sensation because it dramatized:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The cultural clash between religious fundamentalism and scientific modernism in 1920s America",
+          "textEs": "The cultural clash between religious fundamentalism and scientific modernism in 1920s America",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The legal question of whether states had authority under the Constitution to mandate religion in public schools",
+          "textEs": "The legal question of whether states had authority under the Constitución to mandate religion in public schools",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The conflict between rural Southern conservatism and urban Northern progressivism",
+          "textEs": "The conflict between rural Southern conservadurismo and urban Northern progresismo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The conflict between academic freedom and state authority over public school curriculum",
+          "textEs": "The conflict between academic freedom and state authority over public school curriculum",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The cultural clash between religious fundamentalism and scientific modernism in 1920s America, and the Dayton trial became famous as a showdown between religious fundamentalism and modern science. Choice B talks about the legal question of whether states had authority under the Constitution to mandate religion in public schools, but that describes the legal question of whether states had authority under the Constitution to mandate religion in public schools, not the reason the question is asking about; Choice C talks about the conflict between rural Southern conservatism and urban Northern progressivism, but that describes the conflict between rural Southern conservatism and urban Northern progressivism, not the reason the question is asking about. This reflects the larger changes and tensions of the 1920s, when new prosperity and culture existed alongside conflict and inequality.",
+      "explanationEs": "The cultural clash between religious fundamentalism and scientific modernism in 1920s America, and the Dayton trial became famous as a showdown between religious fundamentalism and modern science. Choice B talks about the legal question of whether states had authority under the Constitución to mandate religion in public schools, but that describes the legal question of whether states had authority under the Constitución to mandate religion in public schools, not the reason the question is asking about; Choice C talks about the conflict between rural Southern conservadurismo and urban Northern progresismo, but that describes the conflict between rural Southern conservadurismo and urban Northern progresismo, not the reason the question is asking about. This reflects the larger changes and tensions of the 1920s, when new prosperity and culture existed alongside conflict and inigualdad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.13,
+        "b": -0.55,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-39-tn12",
+      "stem": "The Scopes Trial's broader cultural significance in the 1920s was that it dramatized:",
+      "stemEs": "The Scopes Trial's broader cultural significance in the 1920s was that it dramatized:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The clash between modernism and fundamentalism",
+          "textEs": "The clash between modernism and fundamentalism",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The federal government's effort to impose secular education on religious Southern communities",
+          "textEs": "The gobierno federal's effort to impose secular education on religious Southern communities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The growing political power of fundamentalist Christians who sought to dominate the Democratic Party",
+          "textEs": "The growing political power of fundamentalist Christians who sought to dominate the democrático Party",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The conflict between Northern and Southern views on states' rights in education policy",
+          "textEs": "The conflict between Northern and Southern views on states' rights in education policy",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The clash between modernism and fundamentalism, after Tennessee prosecuted teacher John Scopes for violating the Butler Act. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. The Depression revealed how closely jobs, banks, farms, and consumer spending were connected.",
+      "explanationEs": "The clash between modernism and fundamentalism, after Tennessee prosecuted teacher John Scopes for violating the Butler Act. Choice D refers to another event or policy from the era, which does not fit this question, and choice B refers to another event or policy from the era, which does not fit this question. The depresión revealed how closely jobs, banks, farms, and consumer spending were connected.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.42,
+        "b": 0.27,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us36-dok3-3",
+      "stem": "Evaluate the extent to which the 1920s represented real progress for women's rights:",
+      "stemEs": "Evalúa hasta qué punto los años 1920 representaron progreso real para los derechos de las mujeres:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Significant gains in voting and cultural freedom, but continued economic discrimination and limited opportunities",
+          "textEs": "Ganancias significativas en voto y libertad cultural, pero continua discriminación económica y oportunidades limitadas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It argued that fighting fascism abroad while tolerating racism at home was a contradiction that demanded change",
+          "textEs": "Se logró igualdad completa en todas las áreas de la sociedad incluyendo salarios y carreras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "For: reduce crime and improve morality; Against: violated personal freedom and increased organized crime",
+          "textEs": "No se logró progreso significativo durante esta década hacia avanzar derechos de las mujeres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both gave voice to working-class experiences but emerged from different regional and racial communities",
+          "textEs": "Las mujeres de hecho perdieron derechos importantes que habían ganado previamente por activismo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Women made real gains in voting, education, fashion, and paid work during the 1920s, but wage discrimination, limited careers, and traditional expectations remained strong. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. The decade was a turning point, but not a complete revolution in gender equality.",
+      "explanationEs": "Los años 1920 trajeron progreso significativo: las mujeres ganaron derechos de voto (Enmienda 19), mayor participación laboral y mayor libertad social (flappers). Sin embargo, las mujeres aún ganaban aproximadamente el 60% del salario de hombres, enfrentaron discriminación y se esperaba que dejaran el trabajo al casarse.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.13,
+        "b": 0.77,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us4-dok3-mc2",
+      "stem": "Japanese American internment during WWII and the treatment of German Americans during WWI both involved suspicion of ethnic groups during wartime. How did the scale and nature of these responses differ?",
+      "stemEs": "El internamiento de japoneses americanos durante la SGMM y el tratamiento de alemanes americanos durante la PGM ambos involucraron sospecha de grupos étnicos. ¿Cómo difirieron la escala y naturaleza de estas respuestas?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Japan's expansion into French Indochina and alliance with the Axis powers directly threatened American strategic interests in the Pacific",
+          "textEs": "Los alemanes americanos enfrentaron campos de internamiento formales mientras los japoneses americanos solo experimentaron discriminación social",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Those of Asian descent were forcibly uprooted to fenced detention camps by executive order while those of European enemy-nation heritage faced only localized surveillance",
+          "textEs": "Los japoneses americanos fueron reubicados forzosamente a campos por orden ejecutiva mientras los alemanes americanos enfrentaron persecución informal pero no encarcelamiento masivo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It proved that racial barriers to the highest office had been overcome, but claims of a \"post-racial\" America ignored persistent systemic inequalities",
+          "textEs": "Ambos grupos fueron tratados idénticamente con reubicación forzada y confiscación de propiedad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both periods feature concerns about cultural change, economic competition, and national identity as immigration patterns shift toward new source regions",
+          "textEs": "Ninguno de los grupos experimentó discriminación significativa durante sus respectivas guerras",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Japanese Americans were forcibly relocated and incarcerated by executive order during World War II, while German Americans in World War I faced suspicion, censorship, and harassment but not the same mass camp system. Choice A explains the shift toward sanctions against Japan, not internment, and choice D refers to later immigration debates rather than wartime policy. The comparison shows how fear can produce very different levels of civil-liberties abuse.",
+      "explanationEs": "Los japoneses americanos enfrentaron encarcelamiento masivo sin precedentes mientras los alemanes americanos enfrentaron supresión cultural pero no encarcelamiento masivo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.67,
+        "b": 0.98,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us4-dok3-mc3",
+      "stem": "How did the \"Double V Campaign\" by African Americans during WWII connect the war abroad to racial justice at home?",
+      "stemEs": "¿Cómo conectó la \"Campaña Doble V\" de los afroamericanos durante la SGMM la guerra en el extranjero con la justicia racial en casa?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It argued that fighting fascism abroad while tolerating racism at home was a contradiction that demanded change",
+          "textEs": "Argumentó que luchar contra el fascismo en el extranjero mientras se toleraba el racismo en casa era una contradicción que demandaba cambio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Significant gains in voting and cultural freedom, but continued economic discrimination and limited opportunities",
+          "textEs": "Pidió a los afroamericanos que se negaran al servicio militar hasta que terminara la segregación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "For: reduce crime and improve morality; Against: violated personal freedom and increased organized crime",
+          "textEs": "Se enfocó solo en ganar la guerra y pospuso las demandas de derechos civiles hasta tiempos de paz",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both gave voice to working-class experiences but emerged from different regional and racial communities",
+          "textEs": "Rechazó los ideales democráticos americanos como fundamentalmente incompatibles con la libertad negra",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Double V campaign argued that African Americans should win victory over fascism abroad and victory over racism at home at the same time. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. It linked wartime service to the later civil rights movement by exposing the contradiction between democracy and segregation.",
+      "explanationEs": "La Campaña Doble V demandó victoria contra el fascismo en el extranjero Y victoria contra el racismo en casa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1,
+        "b": 1.18,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-q10",
+      "stem": "The Scopes Trial's legacy demonstrates that:",
+      "stemEs": "The Scopes Trial's legacy demonstrates that:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Religious perspectives should have no influence on education policy",
+          "textEs": "Religious perspectives should have no influence on education policy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Science and religion are largely incompatible",
+          "textEs": "Science and religion are largely incompatible",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Public schools should exclude all scientific teaching contrary to religious beliefs",
+          "textEs": "Public schools should exclude all scientific teaching contrary to religious beliefs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The debate over science education and religious perspectives in public schools would continue",
+          "textEs": "The debate over science education and religious perspectives in public schools would continue",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Scopes was convicted under Tennessee's Butler Act, but the case mattered more for the national debate it created than for the small legal penalty itself. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. The trial became a lasting symbol of conflict between religious fundamentalism and modern science in public life.",
+      "explanationEs": "Scopes was convicted under Tennessee's Butler Act, but the case mattered more for the national debate it created than for the small legal penalty itself. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. The trial became a lasting symbol of conflict between religious fundamentalism and modern science in public life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.35,
+        "b": 1.55,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-36-x013",
+      "stem": "The Scopes Trial verdict — Scopes was convicted and fined $100 — reveals that:",
+      "stemEs": "The Scopes Trial verdict — Scopes was convicted and fined $100 — reveals that:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The legal outcome was almost irrelevant to the trial's cultural significance",
+          "textEs": "The legal outcome was almost irrelevant to the trial's cultural significance",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The ACLU's strategy of using the trial as a publicity vehicle failed substantially",
+          "textEs": "The ACLU's strategy of using the trial as a publicity vehicle failed substantially",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Scientific evidence was insufficient to overcome religious conviction in Tennessee courts",
+          "textEs": "Scientific evidence was insufficient to overcome religious conviction in Tennessee courts",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Tennessee successfully defended its right to control its own educational curriculum",
+          "textEs": "Tennessee successfully defended its right to control its own educational curriculum",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Scopes was convicted under Tennessee's Butler Act, but the case mattered more for the national debate it created than for the small legal penalty itself. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. The trial became a lasting symbol of conflict between religious fundamentalism and modern science in public life.",
+      "explanationEs": "Scopes was convicted under Tennessee's Butler Act, but the case mattered more for the national debate it created than for the small legal penalty itself. Choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. The trial became a lasting symbol of conflict between religious fundamentalism and modern science in public life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 1.35,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u4-039",
+      "stem": "The Scopes Trial of 1925 pitted high school teacher John Scopes against the state of Tennessee for teaching evolution in violation of the Butler Act. Clarence Darrow defended Scopes, and William Jennings Bryan prosecuted. Though Scopes was found guilty and fined, Bryan's credibility was severely damaged during cross-examination. What does the trial's outcome reveal about the relationship between legal verdicts and broader cultural conflicts?",
+      "stemEs": "El Juicio Scopes de 1925 enfrentó al maestro de secundaria John Scopes contra el estado de Tennessee por enseñar la evolución en violación de la Ley Butler. Clarence Darrow defendió a Scopes, y William Jennings Bryan lo acusó. Aunque Scopes fue declarado culpable y multado, la credibilidad de Bryan fue severamente dañada durante el contrainterrogatorio. ¿Qué revela el resultado del juicio sobre la relación entre los veredictos legales y los conflictos culturales más amplios?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The conviction of Scopes demonstrated that religious fundamentalism had permanently defeated scientific modernism in American public life.",
+          "textEs": "La condena de Scopes demostró que el fundamentalismo religioso había derrotado permanentemente al modernismo científico en la vida pública estadounidense.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Scopes was acquitted, demonstrating that courts would protect scientific teaching from religious censorship.",
+          "textEs": "Scopes fue absuelto, demostrando que los tribunales protegerían la enseñanza científica de la censura religiosa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A legal verdict can be technically won while the broader cultural argument is lost, as Bryan's defeat in public opinion represented a symbolic victory for modernism despite Scopes's conviction.",
+          "textEs": "Un veredicto legal puede ganarse técnicamente mientras se pierde el argumento cultural más amplio, ya que la derrota de Bryan en la opinión pública representó una victoria simbólica para el modernismo a pesar de la condena de Scopes.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Scopes Trial immediately resulted in the repeal of anti-evolution laws across the United States, ending the conflict over teaching Darwin in public schools.",
+          "textEs": "El Juicio Scopes resultó inmediatamente en la derogación de las leyes anti-evolución en todo los Estados Unidos, poniendo fin al conflicto sobre la enseñanza de Darwin en las escuelas públicas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial shows that a legal verdict can be technically irrelevant to the cultural conflict it represents — Scopes was convicted but modernist scientific thinking won the broader public debate, as Bryan's literal fundamentalism was exposed as intellectually vulnerable. The trial became a symbolic defeat for anti-evolution forces despite the legal outcome. C captures this divergence between legal outcome and cultural significance. A conflates the legal verdict with cultural outcome. B misrepresents the verdict — Scopes was convicted. D is factually inaccurate; the Butler Act remained in force in Tennessee until 1967.",
+      "explanationEs": "El Juicio Scopes muestra que un veredicto legal puede ser técnicamente irrelevante para el conflicto cultural que representa: Scopes fue condenado pero el pensamiento científico modernista ganó el debate público más amplio, ya que el fundamentalismo literal de Bryan quedó expuesto como intelectualmente vulnerable. El juicio se convirtió en una derrota simbólica para las fuerzas anti-evolución a pesar del resultado legal. C captura esta divergencia entre el resultado legal y el significado cultural. A conflate el veredicto legal con el resultado cultural. B malinterpreta el veredicto: Scopes fue condenado. D es factualmente inexacto; la Ley Butler permaneció vigente en Tennessee hasta 1967.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.95,
+        "b": 0.65,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u4-040",
+      "stem": "The Scopes Trial has often been portrayed as a simple conflict between science and religion, with urban modernists versus rural fundamentalists. Historians have challenged this simplified narrative, noting that William Jennings Bryan was also a Populist who had championed workers and farmers, and that his objection to evolution was partly rooted in concerns about Social Darwinism's use to justify inequality. How does this context complicate the standard interpretation of the Scopes Trial?",
+      "stemEs": "El Juicio Scopes ha sido frecuentemente retratado como un simple conflicto entre la ciencia y la religión, con modernistas urbanos frente a fundamentalistas rurales. Los historiadores han cuestionado esta narrativa simplificada, señalando que William Jennings Bryan también fue un populista que había defendido a los trabajadores y agricultores, y que su objeción a la evolución estaba parcialmente arraigada en preocupaciones sobre el uso del Darwinismo Social para justificar la desigualdad. ¿Cómo complica este contexto la interpretación estándar del Juicio Scopes?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The context confirms the standard interpretation: the trial was simply a conflict between ignorant rural fundamentalism and enlightened urban science.",
+          "textEs": "El contexto confirma la interpretación estándar: el juicio fue simplemente un conflicto entre el fundamentalismo rural ignorante y la ciencia urbana ilustrada.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Bryan's Populist background reveals that he was actually sympathetic to racial equality and used the trial to challenge segregationist uses of evolutionary theory.",
+          "textEs": "El trasfondo populista de Bryan revela que en realidad era simpatizante de la igualdad racial y usó el juicio para desafiar los usos segregacionistas de la teoría evolutiva.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Bryan's Populist background reveals that he secretly opposed the prosecution of Scopes but was forced by political pressure to lead the anti-evolution case.",
+          "textEs": "El trasfondo populista de Bryan revela que secretamente se oponía al procesamiento de Scopes pero fue obligado por la presión política a liderar el caso anti-evolución.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Bryan's opposition to evolution was partly motivated by concerns about Social Darwinism's use to justify inequality, revealing the trial as a conflict over competing social values, not merely religion versus science.",
+          "textEs": "La oposición de Bryan a la evolución estaba parcialmente motivada por preocupaciones sobre el uso del Darwinismo Social para justificar la desigualdad, revelando el juicio como un conflicto sobre valores sociales en competencia, no meramente religión versus ciencia.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The historical context reveals that the Scopes Trial was not simply science vs. religion, but also involved debates about what scientific theories justified — Bryan feared that Darwinian evolution, as applied to society, could be used to legitimize economic exploitation and racial hierarchy. D captures this complexity. A is the standard simplified narrative this question challenges. B misrepresents Bryan's actual positions on segregation, which were not notably progressive. C conflates Bryan's economic Populism with opposition to the trial itself, which he supported vigorously.",
+      "explanationEs": "El contexto histórico revela que el Juicio Scopes no fue simplemente ciencia contra religión, sino que también involucró debates sobre qué justificaban las teorías científicas: Bryan temía que la evolución darwiniana, aplicada a la sociedad, pudiera usarse para legitimar la explotación económica y la jerarquía racial. D captura esta complejidad. A es la narrativa simplificada estándar que esta pregunta desafía. B malinterpreta las posiciones reales de Bryan sobre la segregación, que no eran notablemente progresistas. C conflate el Populismo económico de Bryan con la oposición al juicio en sí, que apoyó vigorosamente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 1.71,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u4-041",
+      "stem": "The Scopes Trial was held in Dayton, Tennessee, and local boosters hoped the national attention would bring economic development to their small town. Attorneys on both sides played to journalists and the radio audience as much as to the judge. What does this dimension of the trial reveal about the role of mass media in shaping public events in the 1920s?",
+      "stemEs": "El Juicio Scopes se celebró en Dayton, Tennessee, y los promotores locales esperaban que la atención nacional trajera desarrollo económico a su pequeña ciudad. Los abogados de ambos lados actuaban para los periodistas y la audiencia de radio tanto como para el juez. ¿Qué revela esta dimensión del juicio sobre el papel de los medios masivos en la configuración de eventos públicos en la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mass media transformed the trial from a local legal proceeding into a national cultural spectacle, causing participants to perform for a mass audience as much as for legal purposes.",
+          "textEs": "Los medios masivos transformaron el juicio de un procedimiento legal local en un espectáculo cultural nacional, haciendo que los participantes actuaran para una audiencia masiva tanto como para propósitos legales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Media coverage of the Scopes Trial disappointed Dayton residents because journalists focused on mockery rather than economic promotion of the town.",
+          "textEs": "La cobertura mediática del Juicio Scopes decepcionó a los residentes de Dayton porque los periodistas se enfocaron en la burla en lugar de la promoción económica de la ciudad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Scopes Trial was deliberately excluded from radio coverage to prevent its cultural content from reaching conservative rural audiences.",
+          "textEs": "El Juicio Scopes fue deliberadamente excluido de la cobertura de radio para evitar que su contenido cultural llegara a audiencias rurales conservadoras.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Media attention at the Scopes Trial ensured that the scientific arguments for evolution were clearly communicated to a national audience, permanently shifting public opinion toward modernism.",
+          "textEs": "La atención mediática en el Juicio Scopes aseguró que los argumentos científicos a favor de la evolución fueron claramente comunicados a una audiencia nacional, cambiando permanentemente la opinión pública hacia el modernismo.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes Trial demonstrates that mass media didn't just report events but transformed them — the presence of radio and national newspapers altered participants' behavior, turning a local criminal trial into a national spectacle in which performance for a mass audience became as important as legal argumentation. A captures this media-event transformation. B describes a consequence (Dayton's disappointment) but not what the media dimension reveals. C is factually inaccurate; the Scopes Trial was broadcast on radio. D makes a claim about outcome rather than about the media's role in shaping the event itself.",
+      "explanationEs": "El Juicio Scopes demuestra que los medios masivos no solo reportaban eventos sino que los transformaban: la presencia de la radio y los periódicos nacionales alteró el comportamiento de los participantes, convirtiendo un juicio criminal local en un espectáculo nacional en el que la actuación para una audiencia masiva se volvió tan importante como la argumentación legal. A captura esta transformación del evento mediático. B describe una consecuencia (la decepción de Dayton) pero no lo que revela la dimensión mediática. C es factualmente inexacto; el Juicio Scopes fue transmitido por radio. D hace una afirmación sobre el resultado en lugar del papel de los medios en la configuración del evento en sí.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.62,
+        "b": 1.26,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u4-042",
+      "stem": "The Scopes Trial legacy persists in American culture: debates about evolution in public school curricula continued throughout the 20th century and into the 21st century. What conclusion about American political culture does the long-term persistence of this debate most strongly support?",
+      "stemEs": "El legado del Juicio Scopes persiste en la cultura americana: los debates sobre la evolución en los planes de estudio de las escuelas públicas continuaron a lo largo del siglo XX y hasta el siglo XXI. ¿Qué conclusión sobre la cultura política estadounidense apoya más fuertemente la persistencia a largo plazo de este debate?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Conflicts between science and religion in American public life are inevitable and will always end with science eventually winning decisive legal victories.",
+          "textEs": "Los conflictos entre la ciencia y la religión en la vida pública estadounidense son inevitables y siempre terminarán con la ciencia ganando eventualmente victorias legales decisivas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Curriculum debates in public education often serve as proxy conflicts over deeper questions of community identity, values, and who controls the socialization of the next generation.",
+          "textEs": "Los debates sobre el plan de estudios en la educación pública a menudo sirven como conflictos proxy sobre preguntas más profundas de identidad comunitaria, valores y quién controla la socialización de la próxima generación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The persistence of evolution debates is purely a regional Southern phenomenon, reflecting that region's cultural isolation from national scientific consensus.",
+          "textEs": "La persistencia de los debates sobre la evolución es puramente un fenómeno regional sureño, que refleja el aislamiento cultural de esa región del consenso científico nacional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The ongoing debate demonstrates that the scientific community has never reached consensus about the validity of evolutionary theory.",
+          "textEs": "El debate en curso demuestra que la comunidad científica nunca ha alcanzado consenso sobre la validez de la teoría evolutiva.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The enduring Scopes debate demonstrates that in American political culture, conflicts over public education curriculum are proxy battles for deeper conflicts over community identity, values, and authority — questions about who controls the socialization of children and what worldview public institutions should transmit. B correctly identifies this proxy-conflict dynamic. A presents an unsupported deterministic claim about inevitable resolution. C misrepresents the issue as purely regional when it was national. D is empirically false — evolution is consistently accepted by the scientific community.",
+      "explanationEs": "El debate duradero de Scopes demuestra que en la cultura política estadounidense, los conflictos sobre el plan de estudios de la educación pública son batallas proxy por conflictos más profundos sobre identidad comunitaria, valores y autoridad: preguntas sobre quién controla la socialización de los niños y qué visión del mundo deben transmitir las instituciones públicas. B identifica correctamente esta dinámica de conflicto proxy. A presenta una afirmación determinista sin apoyo sobre la resolución inevitable. C malinterpreta el problema como puramente regional cuando era nacional. D es empíricamente falso: la evolución es consistentemente aceptada por la comunidad científica.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.04,
+        "b": 1.27,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u4-072",
+      "stem": "The scientific and cultural debate during the Scopes Trial reflected a broader tension between empiricism (knowledge through evidence and observation) and revelation (knowledge through religious authority and scripture). In the trial, both sides appealed to different epistemological frameworks. What does this epistemological conflict reveal about the nature of the 1920s modernity debate?",
+      "stemEs": "El debate científico y cultural durante el Juicio Scopes reflejó una tensión más amplia entre el empirismo (conocimiento a través de la evidencia y la observación) y la revelación (conocimiento a través de la autoridad religiosa y las escrituras). En el juicio, ambos lados apelaban a diferentes marcos epistemológicos. ¿Qué revela este conflicto epistemológico sobre la naturaleza del debate sobre la modernidad en la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The trial was fundamentally about whether evolution was scientifically correct, with both sides ultimately agreeing that the empirically superior explanation should win.",
+          "textEs": "El juicio trató fundamentalmente sobre si la evolución era científicamente correcta, con ambos lados acordando en última instancia que la explicación empíricamente superior debería ganar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The trial revealed a conflict over which knowledge system — scientific empiricism or religious revelation — should hold authority over public truth claims, particularly in the socialization of children through public education.",
+          "textEs": "El juicio reveló un conflicto sobre qué sistema de conocimiento — el empirismo científico o la revelación religiosa — debería tener autoridad sobre las afirmaciones de verdad pública, particularmente en la socialización de los niños a través de la educación pública.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The trial definitively resolved the conflict between science and religion by establishing a legal principle that scientific explanations must always supersede religious ones in public settings.",
+          "textEs": "El juicio resolvió definitivamente el conflicto entre la ciencia y la religión estableciendo un principio legal de que las explicaciones científicas siempre deben reemplazar a las religiosas en entornos públicos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both Bryan and Darrow agreed that scientific and religious knowledge were compatible, but disagreed only about whether evolution was actually supported by the scientific evidence available in 1925.",
+          "textEs": "Tanto Bryan como Darrow estaban de acuerdo en que el conocimiento científico y religioso eran compatibles, pero solo discrepaban sobre si la evolución estaba realmente respaldada por la evidencia científica disponible en 1925.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Scopes epistemological conflict reveals that the 1920s modernization debate was not simply about specific facts (did humans evolve from earlier primates?) but about which knowledge system — scientific empiricism or religious revelation — should have authority over public truth claims, especially in public education. B captures this deeper authority-of-knowledge conflict. A reduces the conflict to a factual dispute when it was fundamentally about authority and epistemology. C makes a false empirical claim about the trial's legal outcome with respect to a different issue. D misrepresents the historical positions; Bryan explicitly argued for biblical authority rather than the compatibility of both frameworks.",
+      "explanationEs": "El conflicto epistemológico de Scopes revela que el debate sobre la modernización de la década de 1920 no era simplemente sobre hechos específicos (¿evolucionaron los humanos de primates anteriores?) sino sobre qué sistema de conocimiento — el empirismo científico o la revelación religiosa — debería tener autoridad sobre las afirmaciones de verdad pública, especialmente en la educación pública. B captura este conflicto más profundo sobre la autoridad del conocimiento. A reduce el conflicto a una disputa fáctica cuando era fundamentalmente sobre autoridad y epistemología. C hace una afirmación empírica falsa sobre el resultado legal del juicio con respecto a un problema diferente. D malinterpreta las posiciones históricas; Bryan argumentó explícitamente a favor de la autoridad bíblica en lugar de la compatibilidad de ambos marcos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.33,
+        "b": 0.61,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u4-075",
+      "stem": "Between 1920 and 1929, technological change, consumer culture, racial conflict, immigration restriction, and religious-scientific tension all developed simultaneously and interactively. A historian argues that these trends were not independent developments but aspects of a single underlying process. What is the most defensible characterization of that underlying process?",
+      "stemEs": "Entre 1920 y 1929, el cambio tecnológico, la cultura del consumidor, el conflicto racial, la restricción de la inmigración y la tensión religiosa-científica se desarrollaron simultáneamente e interactivamente. Un historiador argumenta que estas tendencias no eran desarrollos independientes sino aspectos de un único proceso subyacente. ¿Cuál es la caracterización más defendible de ese proceso subyacente?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Rapid modernization disrupted existing social hierarchies, cultural authorities, and community identities simultaneously, generating both liberation for those empowered by change and organized resistance from those threatened by it.",
+          "textEs": "La rápida modernización perturbó las jerarquías sociales existentes, las autoridades culturales y las identidades comunitarias simultáneamente, generando tanto liberación para quienes fueron empoderados por el cambio como resistencia organizada de quienes se sintieron amenazados por él.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "All 1920s social conflicts were caused exclusively by economic inequality — if wealth had been distributed more equally, racial conflict, immigration restriction, and religious controversy would not have occurred.",
+          "textEs": "Todos los conflictos sociales de la década de 1920 fueron causados exclusivamente por la desigualdad económica: si la riqueza se hubiera distribuido de manera más equitativa, el conflicto racial, la restricción de la inmigración y la controversia religiosa no habrían ocurrido.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "All major 1920s social conflicts were imported from Europe through immigration, and native-born Americans would have achieved a peaceful, progressive society without foreign influence.",
+          "textEs": "Todos los principales conflictos sociales de la década de 1920 fueron importados de Europa a través de la inmigración, y los estadounidenses nacidos en el país habrían logrado una sociedad pacífica y progresista sin influencia extranjera.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The underlying process was pure social decline — every development of the 1920s represented a moral and social deterioration with no genuinely positive dimensions.",
+          "textEs": "El proceso subyacente fue un puro declive social: cada desarrollo de la década de 1920 representó un deterioro moral y social sin dimensiones genuinamente positivas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "All the major 1920s social conflicts can be understood as expressions of a single underlying tension: the rapid modernization of American economy and society disrupted existing social hierarchies, cultural authorities, and community identities, generating both celebration from those empowered by change and resistance from those threatened by it. This modernization-disruption framework connects the Scopes Trial, Klan revival, immigration restriction, Harlem Renaissance, and consumer culture as related responses to the same structural transformation. A captures this synthetic explanatory framework. B presents a single-cause explanation that is too narrow. C presents a false empirical claim about external causation. D presents an overly pessimistic and unsupported claim about purely negative effects.",
+      "explanationEs": "Todos los principales conflictos sociales de la década de 1920 pueden entenderse como expresiones de una única tensión subyacente: la rápida modernización de la economía y la sociedad estadounidenses perturbó las jerarquías sociales existentes, las autoridades culturales y las identidades comunitarias, generando tanto celebración de quienes fueron empoderados por el cambio como resistencia de quienes se sintieron amenazados por él. Este marco de modernización-disrupción conecta el Juicio Scopes, el resurgimiento del Klan, la restricción de la inmigración, el Renacimiento de Harlem y la cultura del consumidor como respuestas relacionadas a la misma transformación estructural. A captura este marco explicativo sintético. B presenta una explicación de causa única que es demasiado estrecha. C presenta una afirmación empírica falsa sobre la causación externa. D presenta una afirmación excesivamente pesimista y sin apoyo sobre efectos puramente negativos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1,
+        "b": 1.57,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok4-cr-3",
+      "stem": "Read the following excerpt from the transcript of State of Tennessee v. John T. Scopes (Rhea County Circuit Court, Dayton, Tennessee, July 1925), during Clarence Darrow's cross-examination of William Jennings Bryan, July 20, 1925 (trial transcript, public domain, Library of Congress collection):\n\n\"DARROW: Do you think the earth was made in six days?\nBRYAN: Not six days of twenty-four hours.\nDARROW: Doesn't it say so?\nBRYAN: No, sir…\nDARROW: What do you think?\nBRYAN: I do not think about things I don't think about.\nDARROW: Do you think about things you do think about?\nBRYAN: Well, sometimes.\"\n\nThis exchange took place in Dayton, Tennessee, during the trial of high school teacher John T. Scopes, who was charged with violating the Butler Act (Tennessee's law banning the teaching of evolution). Using this excerpt and your knowledge of the Scopes Trial (US.31) and the broader cultural divisions of the 1920s (US.33, US.34), write a 1–2 paragraph CER response that claims what the Scopes Trial revealed about the tensions between modernity and traditionalism in 1920s America. Support your claim with specific evidence from the excerpt and from your knowledge, and reason through why this trial in a small Tennessee town became a national event.",
+      "stemEs": "Lee el siguiente extracto de la transcripción del caso Estado de Tennessee contra John T. Scopes (Tribunal de Circuito del Condado de Rhea, Dayton, Tennessee, julio de 1925), durante el contrainterrogatorio de Clarence Darrow a William Jennings Bryan, 20 de julio de 1925 (transcripción del juicio, dominio público, colección de la Biblioteca del Congreso):\n\n\"DARROW: ¿Cree usted que la tierra fue creada en seis días?\nBRYAN: No en seis días de veinticuatro horas.\nDARROW: ¿No es eso lo que dice?\nBRYAN: No, señor…\nDARROW: ¿Qué piensa usted?\nBRYAN: No pienso en cosas sobre las que no pienso.\nDARROW: ¿Piensa en cosas sobre las que sí piensa?\nBRYAN: Bueno, a veces.\"\n\nEste intercambio tuvo lugar en Dayton, Tennessee, durante el juicio del maestro de secundaria John T. Scopes, quien fue acusado de violar la Ley Butler (la ley de Tennessee que prohibía la enseñanza de la evolución). Usando este extracto y tu conocimiento del Juicio Scopes (US.31) y las divisiones culturales más amplias de los años 1920 (US.33, US.34), escribe una respuesta CER de 1 a 2 párrafos que afirme qué reveló el Juicio Scopes sobre las tensiones entre la modernidad y el tradicionalismo en la América de los años 1920. Apoya tu afirmación con evidencia específica del extracto y de tu conocimiento, y razona por qué este juicio en un pequeño pueblo de Tennessee se convirtió en un evento nacional.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-score response will: (1) Claim—e.g., 'The Scopes Trial in Dayton, Tennessee, exposed the deep cultural fault line between scientific modernity and religious fundamentalism that defined 1920s America, becoming a national media spectacle precisely because both sides recognized the trial as a proxy battle for the nation's identity.' (2) Evidence from the excerpt: Darrow forcing Bryan to admit inconsistency in Biblical literalism—'not six days of twenty-four hours'—undermined the fundamentalist position; Bryan's evasion ('I do not think about things I don't think about') was broadcast nationally and ridiculed in the press. (3) Specific outside evidence: Butler Act (1925), ACLU sponsorship of Scopes, H.L. Mencken's media coverage mocking fundamentalism, William Jennings Bryan as champion of rural/religious values, radio broadcasting of the trial, Scopes convicted and fined $100, Bryan died five days after the trial. (4) Reasoning: Dayton became a stage for a national debate because mass media (US.34) could amplify a local courtroom into a cultural referendum; the trial showed that urban/secular modernism and rural/religious traditionalism were genuinely irreconcilable in 1920s public life.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an strategic argument that connects US.31, US.33, US.34 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Precise claim connecting the Scopes Trial to the modernity-vs.-traditionalism conflict. Direct analysis of the excerpt (not just a quote). At least two specific pieces of outside evidence. Reasoning explains the national significance and role of mass media. Tennessee connection explicit and accurate.\n3 - Proficient: Clear claim. Excerpt referenced. At least one piece of specific outside evidence. Reasoning present but may not fully explain the national/media dimension.\n2 - Developing: General claim. Excerpt paraphrased. Vague outside evidence. Limited reasoning.\n1 - Beginning: Minimal claim. Little use of excerpt. No specific evidence. No reasoning.\n0 - No response or completely off-topic.\n\nKEY EVIDENCE EXPECTED: Butler Act (Tennessee, 1925), ACLU involvement, Clarence Darrow, William Jennings Bryan, H.L. Mencken's coverage, radio broadcast of the trial, Scopes found guilty, Bryan's death, fundamentalism vs. modernism, Dayton Tennessee as symbolic battleground.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Afirmación precisa que conecta el Juicio Scopes con el conflicto modernidad vs. tradicionalismo. Análisis directo del extracto (no solo una cita). Al menos dos piezas específicas de evidencia externa. El razonamiento explica la importancia nacional y el papel de los medios masivos. La conexión con Tennessee es explícita y precisa.\n3 - Competente: Afirmación clara. Extracto referenciado. Al menos una pieza específica de evidencia externa. Razonamiento presente pero puede no desarrollar completamente la dimensión nacional/mediática.\n2 - En desarrollo: Afirmación general. Extracto parafraseado. Evidencia externa vaga. Razonamiento limitado.\n1 - Inicial: Afirmación mínima. Poco uso del extracto. Sin evidencia específica. Sin razonamiento.\n0 - Sin respuesta o completamente fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Ley Butler (Tennessee, 1925), participación de la ACLU, Clarence Darrow, William Jennings Bryan, cobertura de H.L. Mencken, transmisión radial del juicio, Scopes declarado culpable, muerte de Bryan, fundamentalismo vs. modernismo, Dayton Tennessee como campo de batalla simbólico.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.83,
+        "b": -0.22,
+        "c": 0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok4-dbq-3",
+      "stem": "Read the following three primary source excerpts and answer the prompt below.\n\n─────────────────────────────────────────\nDOCUMENT A\nTennessee Butler Act, Chapter 27, House Bill 185, enacted March 21, 1925 (Tennessee Acts, 64th General Assembly, public domain):\n\n\"An Act prohibiting the teaching of the Evolution Theory in all the Universities, Normals and all other public schools of Tennessee, which are supported in whole or in part by the public school funds of the State, and to provide penalties for the violations thereof. Be it enacted by the General Assembly of the State of Tennessee, That it shall be unlawful for any teacher in any of the Universities, Normals and all other public schools of the State which are supported in whole or in part by the public school funds of the State, to teach any theory that denies the story of the Divine Creation of man as taught in the Bible, and to teach instead that man has descended or ascended from a lower order of animals.\"\n\n─────────────────────────────────────────\nDOCUMENT B\nScopes Trial transcript, cross-examination of William Jennings Bryan by Clarence Darrow, Rhea County Circuit Court, Dayton, Tennessee, July 20, 1925 (public domain, Library of Congress):\n\n\"DARROW: Do you think the earth was made in six days?\nBRYAN: Not six days of twenty-four hours.\nDARROW: Doesn't it say so?\nBRYAN: No, sir…I do not think about things I don't think about.\nDARROW: Do you think about things you do think about?\nBRYAN: Well, sometimes.\n[Laughter from the crowd.]\"\n\n─────────────────────────────────────────\nDOCUMENT C\nH.L. Mencken, \"Homo Neanderthalensis,\" Baltimore Sun, July 29, 1925 (pre-1928 publication, public domain):\n\n\"Such is the great capital of the Fundamentalists, such is the Athens of the Coca-Cola belt. What could be more lovely?…The yokels have been galvanized. They leap and cavort. They roll and cry. They are led by a prophet who knows all the answers. Bryan is their Moses and their Woodrow Wilson.\"\n\n─────────────────────────────────────────\nUsing ALL THREE documents and your knowledge of the Scopes Trial (US.31), cultural changes of the 1920s (US.33), and mass media (US.34), write a multi-paragraph response that applies HIPP to each document and constructs an argument about what the Scopes Trial revealed about 1920s American culture. Be sure to identify each document's purpose and point of view, explain what the three together show that no single document shows alone, and use outside knowledge to support your argument. Note: This trial took place in Dayton, Tennessee — identify what the Tennessee context adds to your analysis.",
+      "stemEs": "Lee los siguientes tres extractos de fuentes primarias y responde al ejercicio.\n\n─────────────────────────────────────────\nDOCUMENTO A\nLey Butler de Tennessee, Capítulo 27, Proyecto de Ley 185 de la Cámara, promulgada el 21 de marzo de 1925 (Actas de Tennessee, 64.ª Asamblea General, dominio público):\n\n\"Un acto que prohíbe la enseñanza de la Teoría de la Evolución en todas las Universidades, Normales y todas las demás escuelas públicas de Tennessee, que son sostenidas total o parcialmente por los fondos de las escuelas públicas del Estado, y para establecer penas por las violaciones del mismo. Sea promulgado por la Asamblea General del Estado de Tennessee, Que será ilegal para cualquier maestro en cualquiera de las Universidades, Normales y todas las demás escuelas públicas del Estado que son sostenidas total o parcialmente por los fondos de las escuelas públicas del Estado, enseñar cualquier teoría que niegue la historia de la Creación Divina del hombre según se enseña en la Biblia, y enseñar en cambio que el hombre ha descendido o ascendido de un orden inferior de animales.\"\n\n─────────────────────────────────────────\nDOCUMENTO B\nTranscripción del Juicio Scopes, contrainterrogatorio de William Jennings Bryan por Clarence Darrow, Tribunal de Circuito del Condado de Rhea, Dayton, Tennessee, 20 de julio de 1925 (dominio público, Biblioteca del Congreso):\n\n\"DARROW: ¿Cree usted que la tierra fue creada en seis días?\nBRYAN: No en seis días de veinticuatro horas.\nDARROW: ¿No es eso lo que dice?\nBRYAN: No, señor…No pienso en cosas sobre las que no pienso.\nDARROW: ¿Piensa en cosas sobre las que sí piensa?\nBRYAN: Bueno, a veces.\n[Risas de la multitud.]\"\n\n─────────────────────────────────────────\nDOCUMENTO C\nH.L. Mencken, \"Homo Neanderthalensis\", Baltimore Sun, 29 de julio de 1925 (publicación anterior a 1928, dominio público):\n\n\"Tal es la gran capital de los Fundamentalistas, tal es la Atenas del cinturón de Coca-Cola. ¿Qué podría ser más hermoso?…Los lugareños han sido galvanizados. Saltan y se agitan. Ruedan y lloran. Son liderados por un profeta que conoce todas las respuestas. Bryan es su Moisés y su Woodrow Wilson.\"\n\n─────────────────────────────────────────\nUsando LOS TRES documentos y tu conocimiento del Juicio Scopes (US.31), los cambios culturales de los años 1920 (US.33) y los medios masivos (US.34), escribe una respuesta de varios párrafos que aplique HIPP a cada documento y construya un argumento sobre lo que el Juicio Scopes reveló sobre la cultura americana de los años 1920. Asegúrate de identificar el propósito y punto de vista de cada documento, explica qué muestran los tres juntos que ningún documento muestra solo, y usa conocimiento externo para apoyar tu argumento. Nota: Este juicio tuvo lugar en Dayton, Tennessee — identifica qué añade el contexto de Tennessee a tu análisis.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-score response (6/6) will: (1) HIPP on Document A: Historical context—1920s rural Tennessee, fundamentalist religious revival; Intended audience—Tennessee citizens and legislators; Purpose—legislate religious belief into public education, protect traditional values from secular science; Point of view—rural, Protestant legislative majority using state power to enforce religious orthodoxy. (2) HIPP on Document B: Historical context—seventh day of trial, moved outdoors due to crowds; Intended audience—packed courthouse and, via telegraph/newspaper, national audience; Purpose—Darrow uses Bryan's own words to expose the inconsistency of Biblical literalism; Point of view—urban secular attorney using Socratic questioning to discredit fundamentalism in the court of national opinion. (3) HIPP on Document C: Historical context—post-trial reporting; Intended audience—Northern urban readership; Purpose—ridicule fundamentalism and Southern rural culture; Point of view—elite Northern journalist deploying condescension that itself reveals urban-rural cultural contempt. (4) Together: the three documents show the trial as a media event—the law (A) was the legal trigger, the courtroom (B) was the dramatic content, and the press (C) was the national amplifier. (5) Tennessee context: Dayton's business leaders actually invited the ACLU to use the town for the test case, hoping for tourism revenue—illustrating how the trial served multiple agendas simultaneously. (6) Outside evidence: ACLU sponsorship, radio coverage, Scopes convicted and fined $100, Bryan's death five days later, Butler Act not repealed until 1967.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an strategic argument that connects US.31, US.33, US.34 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Full HIPP (all four elements) for all three documents. Constructs a precise argument using all three. Addresses Tennessee-specific context. At least two pieces of outside evidence. Explains what the three documents show together (media event argument).\n5 - Advanced: HIPP (3+ elements) for all three documents. Clear argument. All three documents cited. At least one piece of outside evidence.\n4 - Proficient: HIPP (2+ elements) for at least two documents. Argument present. At least two documents cited.\n3 - Adequate: Some HIPP for two or more documents. Argument present but underdeveloped. Tennessee context may be missing.\n2 - Developing: HIPP applied to only one document. Weak argument.\n1 - Beginning: Summary without HIPP. No clear argument.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: Document C's bias (Mencken's condescension) must be identified as a limitation; Document B's public/theatrical nature.\nKEY EVIDENCE EXPECTED: Butler Act, ACLU, Darrow, Bryan, Dayton TN business leaders' role, radio, Mencken's coverage, conviction, Bryan's death, 1967 repeal.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: HIPP completo (los cuatro elementos) para los tres documentos. Construye un argumento preciso usando los tres. Aborda el contexto específico de Tennessee. Al menos dos piezas de evidencia externa. Explica qué muestran los tres documentos juntos (argumento del evento mediático).\n5 - Avanzado: HIPP (3+ elementos) para los tres documentos. Argumento claro. Los tres documentos citados. Al menos una pieza de evidencia externa.\n4 - Competente: HIPP (2+ elementos) para al menos dos documentos. Argumento presente. Al menos dos documentos citados.\n3 - Adecuado: Cierto HIPP para dos o más documentos. Argumento presente pero poco desarrollado. El contexto de Tennessee puede estar ausente.\n2 - En desarrollo: HIPP aplicado a solo un documento. Argumento débil.\n1 - Inicial: Resumen sin HIPP. Sin argumento claro.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS DOCUMENTAL: El sesgo del Documento C (condescendencia de Mencken) debe identificarse como una limitación; naturaleza pública/teatral del Documento B.\nEVIDENCIA CLAVE ESPERADA: Ley Butler, ACLU, Darrow, Bryan, papel de los líderes empresariales de Dayton TN, radio, cobertura de Mencken, condena, muerte de Bryan, derogación de 1967.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.18,
+        "b": -0.3,
+        "c": 0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U4-DOK3-0004",
+      "stem": "The Scopes Trial of 1925 in Dayton, Tennessee centered on a state law that:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Prohibited the teaching of evolution in public schools",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Required public schools to teach the theory of evolution",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Required all public school students to attend religious services",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Banned the teaching of any science in public schools",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Butler Act barred teaching evolution in Tennessee's public schools, and John Scopes was tried for violating it. Choice B is wrong because the law forbade rather than required teaching evolution. Choice D is wrong because only this one subject was restricted. The trial pitted William Jennings Bryan against Clarence Darrow and drew national radio coverage.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0063",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows Louise Brooks, an icon of 1920s flapper culture.\n\n(Photograph, c. 1927. Library of Congress.)\n\nTo what extent did the cultural conflicts of the 1920s — between modernism and traditionalism — shape the political and social landscape of the decade?",
+      "stemEs": "¿En qué medida los conflictos culturales de los años 1920 moldearon el panorama político y social de la década?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cultural conflicts were minor and had no significant impact on politics or legislation during the 1920s",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Clashes between urban modernism and rural traditionalism drove major political battles including Prohibition, immigration restriction, the Scopes trial, and the resurgence of the KKK",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Traditional values completely dominated the decade because modern culture was rejected by the majority of Americans",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The cultural conflicts were resolved peacefully through compromise legislation that satisfied both sides",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 1920s saw deep cultural conflict: Prohibition reflected traditionalist influence; the Scopes Trial dramatized the evolution-religion divide; immigration quotas (1924) reflected nativist backlash; and the KKK resurged targeting Catholics, Jews, and immigrants. These culture wars shaped American politics for decades.",
+      "explanationEs": "Los conflictos culturales de los años 1920 impulsaron batallas políticas importantes incluyendo la Prohibición, el juicio Scopes y restricciones de inmigración.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 1,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok4-dbq-8",
+      "stem": "Read the following two primary source excerpts and answer the prompt below.\n\n─────────────────────────────────────────\nDOCUMENT A\nWilliam Jennings Bryan, closing statement prepared for the Scopes Trial, Dayton, Tennessee, 1925 (Bryan never delivered this statement — the trial ended before the defense rested — but it was published posthumously in Memoirs of William Jennings Bryan, 1925, public domain):\n\n\"The real issue is not what is true in science, but whether teachers paid by the taxpayers shall be permitted to undermine the religious faith of the children of those taxpayers… I am not making any argument against the truth of evolution. I am arguing against the right of evolutionists to demand pay for teaching that which is offensive to those who pay the taxes.\"\n\n─────────────────────────────────────────\nDOCUMENT B\nClarence Darrow, closing argument in the Scopes Trial, Rhea County Circuit Court, Dayton, Tennessee, July 1925 (trial transcript, public domain, Library of Congress):\n\n\"If today you can take a thing like evolution and make it a crime to teach it in the public schools, tomorrow you can make it a crime to teach it in the private schools, and next year you can make it a crime to teach it to the hustings or in the church. At the next session you may ban books and the newspapers. Ignorance and fanaticism are ever busy and ever in need of fresh victories. Whenever they are stopped they must be stopped or they will pile on ignorance upon ignorance and fanaticism on fanaticism, until we shall all find ourselves in the very darkness of the middle ages.\"\n\n─────────────────────────────────────────\nBoth of these arguments were made in Dayton, Tennessee during the 1925 Scopes Trial. Using BOTH documents and your knowledge of the Scopes Trial (US.31) and cultural tensions of the 1920s (US.33), write a multi-paragraph response that applies HIPP to each document and constructs an argument about the fundamental values in conflict at the Scopes Trial and why this conflict mattered beyond Dayton, Tennessee. Your response must analyze each document using all four HIPP elements, explain what each author believed was truly at stake, and use outside knowledge to assess the lasting significance of this Tennessee trial for American constitutional history.",
+      "stemEs": "Lee los siguientes dos extractos de fuentes primarias y responde al ejercicio.\n\n─────────────────────────────────────────\nDOCUMENTO A\nWilliam Jennings Bryan, declaración de cierre preparada para el Juicio Scopes, Dayton, Tennessee, 1925 (Bryan nunca pronunció esta declaración —el juicio terminó antes de que la defensa descansara— pero fue publicada póstumamente en Memorias de William Jennings Bryan, 1925, dominio público):\n\n\"El verdadero problema no es qué es verdad en la ciencia, sino si se permitirá a los maestros pagados por los contribuyentes minar la fe religiosa de los hijos de esos contribuyentes… No argumento contra la verdad de la evolución. Argumento contra el derecho de los evolucionistas a exigir pago por enseñar lo que ofende a quienes pagan los impuestos.\"\n\n─────────────────────────────────────────\nDOCUMENTO B\nClarence Darrow, alegato final en el Juicio Scopes, Tribunal de Circuito del Condado de Rhea, Dayton, Tennessee, julio de 1925 (transcripción del juicio, dominio público, Biblioteca del Congreso):\n\n\"Si hoy puedes tomar algo como la evolución y hacerlo delito enseñarlo en las escuelas públicas, mañana puedes hacerlo delito enseñarlo en las escuelas privadas, y el año que viene puedes hacerlo delito enseñarlo en los mítines o en la iglesia. En la próxima sesión puedes prohibir libros y periódicos. La ignorancia y el fanatismo siempre están activos y siempre necesitan nuevas victorias. Cuando se los detiene, deben detenerse o acumularán ignorancia sobre ignorancia y fanatismo sobre fanatismo, hasta que todos nos encontremos en la oscuridad más profunda de la Edad Media.\"\n\n─────────────────────────────────────────\nAmbos argumentos se hicieron en Dayton, Tennessee durante el Juicio Scopes de 1925. Usando AMBOS documentos y tu conocimiento del Juicio Scopes (US.31) y las tensiones culturales de los años 1920 (US.33), escribe una respuesta de varios párrafos que aplique HIPP a cada documento y construya un argumento sobre los valores fundamentales en conflicto en el Juicio Scopes y por qué este conflicto importó más allá de Dayton, Tennessee. Tu respuesta debe analizar cada documento usando los cuatro elementos HIPP, explicar qué creía cada autor que estaba verdaderamente en juego, y usar conocimiento externo para evaluar la importancia duradera de este juicio de Tennessee para la historia constitucional americana.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-score response (6/6) will: (1) HIPP on Document A: Historical context—Bryan's position as champion of rural Protestant fundamentalism; Intended audience—his prepared remarks are to the jury and public record; Purpose—reframe the trial from science vs. religion to taxpayer rights vs. elite imposition, avoiding the science question; Point of view—populist Democratic politician who made his career championing ordinary people; limitation—Bryan retreats from defending Biblical literalism to defending community control, revealing that the cross-examination had damaged his credibility. (2) HIPP on Document B: Historical context—Darrow speaking in a court where the verdict was predetermined (Scopes was convicted); Intended audience—national public via press (Darrow knew the trial had become a media event); Purpose—make the case for academic freedom and warn against the slippery slope of legislating belief; Point of view—secular humanist attorney whose real audience is history, not the Rhea County jury. (3) What each author saw at stake: Bryan saw local democratic control over publicly funded education; Darrow saw the First Amendment and the entire architecture of intellectual freedom. (4) National significance: Butler Act not repealed until 1967; Epperson v. Arkansas (1968) SCOTUS ruling; creation-evolution debate continues into the 21st century; establishes the 'culture war' template for American politics. (5) Outside evidence: ACLU's role, Mencken's press coverage, radio broadcast, Bryan's death, conviction upheld on appeal.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.31, US.33 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Full HIPP (all four elements) for both documents. Identifies what each author believes is at stake (democratic control vs. intellectual freedom). Addresses the Tennessee-specific context AND the national constitutional significance. At least two pieces of outside evidence. Notes Bryan's strategic shift from science to taxpayer rights.\n5 - Advanced: HIPP (3+ elements) for both. Clear argument about values in conflict. Both documents cited. National significance addressed. At least one piece of outside evidence.\n4 - Proficient: HIPP (2+ elements) for both. Argument present. Both documents used. Some national significance.\n3 - Adequate: Some HIPP for both. Argument present but underdeveloped. National significance missing or minimal.\n2 - Developing: HIPP for only one document. Weak argument.\n1 - Beginning: Summary without HIPP. No clear argument.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: Bryan's undelivered statement as evidence of strategic retreat; Darrow's audience as national/historical, not local.\nKEY EVIDENCE EXPECTED: Butler Act, ACLU, conviction, Bryan's death, Epperson v. Arkansas (1968), ongoing culture war significance, Mencken.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: HIPP completo (los cuatro elementos) para ambos documentos. Identifica qué cree cada autor que está en juego (control democrático vs. libertad intelectual). Aborda el contexto específico de Tennessee Y la importancia constitucional nacional. Al menos dos piezas de evidencia externa. Señala el cambio estratégico de Bryan de ciencia a derechos de contribuyentes.\n5 - Avanzado: HIPP (3+ elementos) para ambos. Argumento claro sobre valores en conflicto. Ambos documentos citados. Importancia nacional abordada. Al menos una pieza de evidencia externa.\n4 - Competente: HIPP (2+ elementos) para ambos. Argumento presente. Ambos documentos utilizados. Cierta importancia nacional.\n3 - Adecuado: Cierto HIPP para ambos. Argumento presente pero poco desarrollado. Importancia nacional ausente o mínima.\n2 - En desarrollo: HIPP para solo un documento. Argumento débil.\n1 - Inicial: Resumen sin HIPP. Sin argumento claro.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS DOCUMENTAL: Declaración no pronunciada de Bryan como evidencia de retirada estratégica; audiencia de Darrow como nacional/histórica, no local.\nEVIDENCIA CLAVE ESPERADA: Ley Butler, ACLU, condena, muerte de Bryan, Epperson v. Arkansas (1968), importancia continua de la guerra cultural, Mencken.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.09,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok4-er-3",
+      "stem": "The 1920s have been described as a decade when 'modern America' and 'traditional America' came into direct conflict. The Scopes Trial in Dayton, Tennessee became the most visible symbol of this conflict. Using your knowledge of the Scopes Trial (US.31), Jazz Age cultural changes (US.33), and the rise of mass media (US.34), write an extended essay that argues whether the 1920s cultural conflict between modernity and traditionalism was primarily a regional divide (urban North vs. rural South) or a deeper national struggle over values. Your essay must: (1) state a clear, defensible claim about the nature of the conflict; (2) use specific evidence from all three standards; (3) address how mass media transformed a local Tennessee trial into a national event; and (4) synthesize across the standards to assess the long-term legacy of this conflict for American cultural and political life. Your essay should be 4–6 well-developed paragraphs. Be sure to address the significance of the Tennessee setting specifically.",
+      "stemEs": "Los años 1920 han sido descritos como una década en la que 'la América moderna' y 'la América tradicional' entraron en conflicto directo. El Juicio Scopes en Dayton, Tennessee se convirtió en el símbolo más visible de este conflicto. Usando tu conocimiento del Juicio Scopes (US.31), los cambios culturales de la Era del Jazz (US.33) y el surgimiento de los medios masivos (US.34), escribe un ensayo extendido que argumente si el conflicto cultural de los años 1920 entre la modernidad y el tradicionalismo fue principalmente una división regional (Norte urbano vs. Sur rural) o una lucha nacional más profunda sobre los valores. Tu ensayo debe: (1) formular una afirmación clara y defendible sobre la naturaleza del conflicto; (2) usar evidencia específica de los tres estándares; (3) abordar cómo los medios masivos transformaron un juicio local en Tennessee en un evento nacional; y (4) sintetizar a través de los estándares para evaluar el legado a largo plazo de este conflicto para la vida cultural y política americana. Tu ensayo debe tener 4–6 párrafos bien desarrollados. Asegúrate de abordar específicamente la importancia del contexto de Tennessee.",
+      "itemType": "extended-response",
+      "correctAnswer": "A top-score response (4/4) will include: (1) A nuanced claim — e.g., 'While the Scopes Trial in Dayton, Tennessee was geographically situated in the rural South, the conflict it symbolized was national in scope: the tension between scientific modernity and religious traditionalism was not regional but structural to a rapidly urbanizing, media-saturated American society.' (2) Evidence from all three standards — US.31: Butler Act (Tennessee), ACLU sponsorship, Darrow vs. Bryan, Scopes convicted, Bryan's death five days after trial, Butler Act not repealed until 1967; US.33: Jazz Age as the cultural expression of modernity that fundamentalism opposed — jazz labeled 'immoral,' flapper culture, Prohibition as parallel traditionalist backlash; US.34: radio broadcasting the Scopes Trial nationally; H.L. Mencken's newspaper coverage reaching millions; Western Union telegraph transmitting trial proceedings daily. (3) Mass media analysis: Dayton business leaders deliberately invited the ACLU for the national publicity, revealing that even small-town 'traditional America' was embedded in national media culture. (4) Long-term synthesis: Butler Act not repealed until 1967; Epperson v. Arkansas (1968); creation science and intelligent design movements; school curriculum battles continue — the Scopes Trial established the template for American 'culture wars' that persisted through the 20th and into the 21st century.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.31, US.33, US.34 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.38"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Nuanced claim that moves beyond a simple urban/rural binary. Specific evidence from all three standards (US.31, US.33, US.34). Addresses mass media's role in nationalizing the trial. Tennessee-specific context used meaningfully (Dayton business leaders' role, Butler Act longevity). Cross-era synthesis connecting to later culture war politics.\n3 - Proficient: Clear claim. Specific evidence from at least two standards. Some discussion of mass media. Tennessee context mentioned. Some cross-era connection present.\n2 - Developing: General claim (urban vs. rural binary without nuance). Evidence from one or two standards but with limited specificity. Minimal media analysis. Tennessee context not meaningfully integrated.\n1 - Beginning: Minimal or absent claim. Vague or inaccurate evidence. No meaningful analysis of media or Tennessee context.\n0 - No response or completely off-topic.\n\nKEY EVIDENCE EXPECTED: Butler Act (Tennessee, 1925), ACLU sponsorship, Clarence Darrow, William Jennings Bryan, H.L. Mencken, radio broadcasting, Dayton TN business leaders, Scopes convicted, Bryan's death, 1967 repeal, Epperson v. Arkansas, flappers, jazz as cultural modernity, Prohibition.\nSYNTHESIS EXPECTATIONS: Student should connect the 1920s modernity/tradition conflict to ongoing American culture war politics, demonstrating that the Scopes Trial established the template for curriculum battles, values conflicts, and religious vs. secular public life that continued through the 20th century and into the present.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Afirmación matizada que supera el simple binario urbano/rural. Evidencia específica de los tres estándares (US.31, US.33, US.34). Aborda el papel de los medios masivos en la nacionalización del juicio. Contexto específico de Tennessee usado significativamente (rol de líderes empresariales de Dayton, longevidad de la Ley Butler). Síntesis transversal que conecta con las guerras culturales posteriores.\n3 - Competente: Afirmación clara. Evidencia específica de al menos dos estándares. Alguna discusión sobre medios masivos. Contexto de Tennessee mencionado. Alguna conexión entre eras presente.\n2 - En desarrollo: Afirmación general (binario urbano/rural sin matices). Evidencia de uno o dos estándares con especificidad limitada. Análisis mínimo de medios. Contexto de Tennessee no integrado significativamente.\n1 - Inicial: Afirmación mínima o ausente. Evidencia vaga o inexacta. Sin análisis significativo de medios o contexto de Tennessee.\n0 - Sin respuesta o completamente fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Ley Butler (Tennessee, 1925), patrocinio de la ACLU, Clarence Darrow, William Jennings Bryan, H.L. Mencken, transmisión por radio, líderes empresariales de Dayton TN, condena de Scopes, muerte de Bryan, derogación en 1967, Epperson v. Arkansas, flappers, jazz como modernidad cultural, Prohibición.\nEXPECTATIVAS DE SÍNTESIS: El estudiante debe conectar el conflicto modernidad/tradición de los años 1920 con la política de las guerras culturales americanas posteriores, demostrando que el Juicio Scopes estableció la plantilla para las batallas curriculares y los conflictos de valores que continuaron a través del siglo XX y hasta el presente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.99,
+        "b": 0.35,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.36"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.36->US.38: standard ADDED ['John Scopes', 'William Jennings Bryan', 'Clarence Darrow', 'fundamentalism', 'modernism'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "John Scopes",
+            "William Jennings Bryan",
+            "Clarence Darrow",
+            "fundamentalism",
+            "modernism"
+          ]
+        }
+      }
+    }
+  ]
+}

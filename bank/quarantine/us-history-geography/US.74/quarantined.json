@@ -1,0 +1,572 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.74",
+  "status": "quarantined",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us80-2",
+      "stem": "Who were the Little Rock Nine?",
+      "stemEs": "¿Quiénes fueron los Nueve de Little Rock?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Civil rights leaders who organized the March on Washington",
+          "textEs": "Líderes de derechos civiles que organizaron la Marcha sobre Washington",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Students who integrated Clinton High School in Tennessee",
+          "textEs": "Estudiantes que integraron Clinton High School en Tennessee",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Students who integrated Central High School in Arkansas",
+          "textEs": "Estudiantes que integraron Central High School en Arkansas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Freedom Riders who were arrested in Birmingham, Alabama",
+          "textEs": "Viajeros de la Libertad que fueron arrestados en Birmingham, Alabama",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.74",
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Students who integrated Central High School in Arkansas best fits the question because it matches the historical facts and time period being tested. A is wrong because it describes civil rights leaders who organized the March on Washington, not students who integrated Central High School in Arkansas. The item connects to larger changes in civil rights, social movements, or constitutional development in modern U.S. history.",
+      "explanationEs": "Students who integrated Central High School in Arkansas best fits the question because it matches the historical facts and time period being tested. A is wrong because it describes derechos civiles leaders who organized the March on Washington, not students who integrated Central High School in Arkansas. The item connects to larger changes in derechos civiles, social movements, or constitucional development in modern U.S. history.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.95,
+        "b": -1.72,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78",
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item",
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9",
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-5",
+      "stem": "What did Governor Orval Faubus do in response to school integration?",
+      "stemEs": "¿Qué hizo el Gobernador Orval Faubus en respuesta a la integración escolar?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A youth-led group organizing sit-ins and voter registration",
+          "textEs": "Negoció un plan de integración gradual con líderes de la NAACP",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Legal battles including Brown v. Board and activist defense",
+          "textEs": "Cerró todas las escuelas públicas en lugar de cumplir la orden",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A document signed by Southern congressmen denouncing Brown",
+          "textEs": "Pidió calma y apoyó la implementación pacífica de la orden",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Used the National Guard to block the Little Rock Nine entry",
+          "textEs": "Usó la Guardia Nacional para bloquear entrada de los Nueve de Little Rock",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.74",
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Governor Orval Faubus used the Arkansas National Guard in 1957 to block the Little Rock Nine from entering Central High School. Choices about protecting students are wrong because Faubus first resisted integration rather than enforcing it. His actions set up a major clash between state resistance and federal authority.",
+      "explanationEs": "Governor Orval Faubus used the Arkansas National Guard in 1957 to block the Little Rock Nine from entering Central High School. Choices about protecting students are wrong because Faubus first resisted integración rather than enforcing it. His actions set up a major clash between state resistance and federal authority.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.94,
+        "b": -0.68,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78",
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item",
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9",
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us78-3",
+      "stem": "What was significant about the integration of Clinton High School in Tennessee?",
+      "stemEs": "¿Qué fue significativo sobre la integración de Clinton High School en Tennessee?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A voter registration campaign in Mississippi facing violent opposition",
+          "textEs": "Fue la primera escuela con fondos federales en integrarse en la región",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Her refusal to give up her bus seat sparked the Montgomery Bus Boycott",
+          "textEs": "Fue la última escuela pública en integrarse en la antigua Confederación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was the first state-supported high school in the South to integrate",
+          "textEs": "Fue la primera escuela secundaria estatal del Sur en integrarse",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It established federal authority to enforce constitutional protections",
+          "textEs": "Se integró pacíficamente sin resistencia ni protesta de la comunidad",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Clinton High School in Tennessee became the first state-supported high school in the South to integrate after Brown. Choices about Little Rock or Ole Miss are wrong because those conflicts happened later in Arkansas and Mississippi, not in Tennessee. The episode showed that desegregation battles were not limited to one state but spread across the South.",
+      "explanationEs": "Clinton High School in Tennessee became the first state-supported high school in the South to integrate after Brown. Choices about Little Rock or Ole Miss are wrong because those conflicts happened later in Arkansas and Mississippi, not in Tennessee. The episode showed that desegregación battles were not limited to one state but spread across the South.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.91,
+        "b": 0.19,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us78-4",
+      "stem": "How did President Eisenhower respond to the Little Rock Nine crisis?",
+      "stemEs": "¿Cómo respondió el Presidente Eisenhower a la crisis de los Nueve de Little Rock?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He publicly supported Governor Faubus' defiance of federal law",
+          "textEs": "Apoyó públicamente el desafío del Gobernador Faubus a la ley federal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He declined to intervene in what he called a state matter",
+          "textEs": "Se negó a intervenir en lo que llamó un asunto estatal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "He sent federal troops to enforce the desegregation order",
+          "textEs": "Envió tropas federales para hacer cumplir la orden de desegregación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He negotiated a gradual integration plan with Arkansas officials",
+          "textEs": "Negoció un plan de integración gradual con funcionarios de Arkansas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "President Eisenhower sent the 101st Airborne and federalized the Arkansas National Guard to enforce desegregation at Little Rock Central High in 1957. A choice about negotiation alone is wrong because Eisenhower used military power to carry out a federal court order. The crisis showed that the federal government could step in when states defied constitutional rights.",
+      "explanationEs": "President Eisenhower sent the 101st Airborne and federalized the Arkansas National Guard to enforce desegregación at Little Rock Central High in 1957. A choice about negotiation alone is wrong because Eisenhower used military power to carry out a federal court order. The crisis showed that the gobierno federal could step in when states defied constitucional rights.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.93,
+        "b": -0.57,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us9-dok4-cr3",
+      "stem": "You are a museum curator designing an exhibit called \"The Unfinished March: Civil Rights Then and Now.\" Select FIVE artifacts or documents that connect the Civil Rights Movement of the 1950s-60s to ongoing struggles for racial justice today. For each item, explain its historical significance and its connection to the present —",
+      "stemEs": "Usted es un curador de museo diseñando una exhibición llamada \"La Marcha Inconclusa.\" Seleccione CINCO artefactos o documentos que conecten el Movimiento por los Derechos Civiles con las luchas actuales por la justicia racial.",
+      "itemType": "constructed-response",
+      "correctAnswer": "Strong responses should select historically significant items that illuminate connections between past and present. Possible items: Voting Rights Act (1965) → Shelby County v. Holder (2013) and ongoing voter suppression debates; King's \"Letter from Birmingham Jail\" → contemporary debates about protest and civil disobedience; redlining maps → persistent residential segregation; \"I Am a Man\" signs from Memphis 1968 → George Floyd protests; school desegregation orders → contemporary school resegregation.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.74",
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A strong response should choose five meaningful artifacts or documents, such as Brown v. Board, a Montgomery bus boycott leaflet, the Voting Rights Act, a Black Lives Matter sign, or footage from Selma. For each item, it should explain the original historical moment and then connect it to a present-day issue like school inequality, policing, voting rights, housing, or protest strategy. The best exhibits show continuity and change by linking past civil rights struggles to current debates over racial justice.",
+      "explanationEs": "Este ítem DOK 4 requiere pensamiento histórico creativo y la capacidad de conectar eventos pasados con problemas contemporáneos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.09,
+        "b": 1.01,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78",
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item",
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9",
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u9-020",
+      "stem": "The desegregation of Clinton High School in Tennessee in 1956 occurred in a community that had not experienced the same level of organized resistance as Little Rock, yet still faced significant white supremacist violence including bombings. What does this pattern suggest about the nature of resistance to Brown-mandated integration?",
+      "stemEs": "La desegregación de la Escuela Secundaria Clinton en Tennessee en 1956 ocurrió en una comunidad que no había experimentado el mismo nivel de resistencia organizada que Little Rock, pero aún así enfrentó una violencia significativa de supremacistas blancos, incluidos bombardeos. ¿Qué sugiere este patrón sobre la naturaleza de la resistencia a la integración ordenada por Brown?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Violent resistance to desegregation could operate independently of official state policy, driven by white supremacist networks that mobilized across communities regardless of local officials' positions.",
+          "textEs": "La resistencia violenta a la desegregación podía operar independientemente de la política estatal oficial, impulsada por redes supremacistas blancas que se movilizaban entre comunidades independientemente de las posiciones de los funcionarios locales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Clinton's experience proves that Tennessee was more committed to racial equality than other Southern states because its governor did not organize formal resistance.",
+          "textEs": "La experiencia de Clinton demuestra que Tennessee estaba más comprometido con la igualdad racial que otros estados del sur porque su gobernador no organizó resistencia formal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The bombings at Clinton High School were planned by the state government specifically to undermine the federal court order requiring integration.",
+          "textEs": "Los bombardeos en la Escuela Secundaria Clinton fueron planeados por el gobierno estatal específicamente para socavar la orden del tribunal federal que requería la integración.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Clinton experience shows that integration always failed in small towns because communities lacked the law enforcement infrastructure to protect Black students.",
+          "textEs": "La experiencia de Clinton muestra que la integración siempre fracasó en los pueblos pequeños porque las comunidades carecían de la infraestructura policial para proteger a los estudiantes negros.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Clinton's experience shows that violent resistance to integration was not confined to states with organized massive resistance programs but could erupt in any Southern community where white supremacist networks (including outside agitators from groups like John Kasper's network) could mobilize. This challenges the narrative that resistance was purely a product of official state policy — it demonstrates that grassroots white supremacist violence operated independently of and sometimes in opposition to local officials who had accepted court orders, complicating the picture of how integration resistance worked.",
+      "explanationEs": "La experiencia de Clinton muestra que la resistencia violenta a la integración no se limitó a los estados con programas organizados de resistencia masiva, sino que podía estallar en cualquier comunidad sureña donde las redes supremacistas blancas (incluidos los agitadores externos de grupos como la red de John Kasper) pudieran movilizarse. Esto desafía la narrativa de que la resistencia fue puramente producto de la política estatal oficial; demuestra que la violencia supremacista blanca de base operó independientemente y a veces en oposición a los funcionarios locales que habían aceptado las órdenes judiciales, complicando la imagen de cómo funcionó la resistencia a la integración.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.46,
+        "b": 0.81,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us78-dok4-dbq-1",
+      "stem": "DIRECTIONS: Analyze the three primary source excerpts below. Then write a response that constructs a historical argument answering the following question:\n\nHow did the shift in U.S. Vietnam War strategy from escalation under LBJ to Vietnamization under Nixon reflect changing domestic and constitutional constraints on presidential war-making authority, and what were the long-term consequences for the balance of power between the executive and legislative branches?\n\nYour response must:\n- Analyze at least TWO of the three documents using the HIPP framework (Historical Context, Intended Audience, Purpose, Point of View)\n- Synthesize evidence across the documents to support a historical argument\n- Connect to your own knowledge of events and consequences beyond the documents\n- Address standards US.78 and US.80\n\n---\nDOCUMENT 1\nSource: Gulf of Tonkin Resolution (H.J. Res. 1145), Joint Resolution of Congress, August 7, 1964. National Archives, Record Group 46.\nExcerpt: \"The Congress approves and supports the determination of the President, as Commander in Chief, to take all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression... This resolution shall expire when the President shall determine that the peace and security of the area is reasonably assured by international conditions created by action of the United Nations or otherwise.\"\n\n---\nDOCUMENT 2\nSource: President Richard Nixon, 'Address to the Nation on the War in Vietnam' (Vietnamization Speech), November 3, 1969. Public Papers of the Presidents of the United States. National Archives and Records Administration.\nExcerpt: \"The precipitate withdrawal of American forces from Vietnam would be a disaster not only for South Vietnam but for the United States and for the cause of peace... I have initiated a plan which will end this war and serve the cause of peace — not just in Vietnam but in the Pacific and in the world. In the previous administration, we Americanized the war in Vietnam. In this administration, we are Vietnamizing the search for peace.\"\n\n---\nDOCUMENT 3\nSource: War Powers Resolution (Public Law 93-148), passed by Congress over President Nixon's veto, November 7, 1973. United States Statutes at Large, 87 Stat. 555. National Archives.\nExcerpt: \"The constitutional powers of the President as Commander-in-Chief to introduce United States Armed Forces into hostilities, or into situations where imminent involvement in hostilities is clearly indicated by the circumstances, are exercised only pursuant to (1) a declaration of war, (2) specific statutory authorization, or (3) a national emergency created by attack upon the United States... The President shall, in every possible instance, consult with Congress before introducing United States Armed Forces into hostilities...\"\n\n---\nUse HIPP to analyze the documents, then construct your argument in 2–3 paragraphs.",
+      "stemEs": "INSTRUCCIONES: Analiza los tres fragmentos de fuentes primarias a continuación. Luego escribe una respuesta que construya un argumento histórico respondiendo la siguiente pregunta:\n\n¿Cómo reflejó el cambio en la estrategia de EE. UU. en la Guerra de Vietnam, de la escalada bajo LBJ a la Vietnamización bajo Nixon, los cambiantes límites domésticos y constitucionales sobre la autoridad presidencial para hacer la guerra, y cuáles fueron las consecuencias a largo plazo para el equilibrio de poder entre los poderes ejecutivo y legislativo?\n\nTu respuesta debe:\n- Analizar al menos DOS de los tres documentos usando el marco HIPP (Contexto Histórico, Audiencia Prevista, Propósito, Punto de Vista)\n- Sintetizar evidencia de todos los documentos para apoyar un argumento histórico\n- Conectar con tu propio conocimiento de eventos y consecuencias más allá de los documentos\n- Abordar los estándares US.78 y US.80\n\n---\nDOCUMENTO 1\nFuente: Resolución del Golfo de Tonkín (H.J. Res. 1145), Resolución Conjunta del Congreso, 7 de agosto de 1964. Archivos Nacionales, Grupo de Registros 46.\nFragmento: «El Congreso aprueba y apoya la determinación del Presidente, en su calidad de Comandante en Jefe, de tomar todas las medidas necesarias para repeler cualquier ataque armado contra las fuerzas de los Estados Unidos y para prevenir una mayor agresión... Esta resolución expirará cuando el Presidente determine que la paz y la seguridad del área están razonablemente garantizadas por condiciones internacionales creadas por la acción de las Naciones Unidas o de otra manera.»\n\n---\nDOCUMENTO 2\nFuente: Presidente Richard Nixon, 'Discurso a la Nación sobre la Guerra en Vietnam' (Discurso de Vietnamización), 3 de noviembre de 1969. Documentos Públicos de los Presidentes de los Estados Unidos. Administración Nacional de Archivos y Registros.\nFragmento: «El retiro precipitado de las fuerzas estadounidenses de Vietnam sería un desastre no solo para Vietnam del Sur sino para los Estados Unidos y para la causa de la paz... He iniciado un plan que pondrá fin a esta guerra y servirá a la causa de la paz, no solo en Vietnam sino en el Pacífico y en el mundo. En la administración anterior, americanizamos la guerra en Vietnam. En esta administración, estamos vietnamizando la búsqueda de la paz.»\n\n---\nDOCUMENTO 3\nFuente: Resolución de Poderes de Guerra (Ley Pública 93-148), aprobada por el Congreso sobre el veto del Presidente Nixon, 7 de noviembre de 1973. Estatutos de los Estados Unidos, 87 Stat. 555. Archivos Nacionales.\nFragmento: «Los poderes constitucionales del Presidente como Comandante en Jefe para introducir Fuerzas Armadas de los Estados Unidos en hostilidades... se ejercen solo en virtud de (1) una declaración de guerra, (2) autorización estatutaria específica, o (3) una emergencia nacional creada por un ataque a los Estados Unidos... El Presidente deberá, en todo caso posible, consultar con el Congreso antes de introducir Fuerzas Armadas de los Estados Unidos en hostilidades...»\n\n---\nUsa HIPP para analizar los documentos, luego construye tu argumento en 2–3 párrafos.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-score (6/6) response would include: ARGUMENT — The arc from the Gulf of Tonkin Resolution (1964) to Vietnamization (1969) to the War Powers Resolution (1973) traces a constitutional correction: Congress first surrendered its war-making authority under the pressure of Cold War crisis management, then watched an unchecked executive expand and extend an increasingly unpopular war, and finally reclaimed that authority through legislation passed over a presidential veto. HIPP ANALYSIS (Doc 1) — Historical context: August 1964, second Gulf of Tonkin incident, Cold War context of communist containment; Intended audience: American public and Congress needing justification for escalation; Purpose: grant the president open-ended military authority without a formal declaration of war; Point of view: reflects Cold War consensus that executive flexibility was necessary but contains the seeds of its own overreach (no sunset clause enforceable by Congress, only by the president). HIPP ANALYSIS (Doc 2) — Historical context: 1969, peak U.S. casualties, Tet Offensive aftermath, growing anti-war movement; Audience: 'silent majority' of Americans Nixon was trying to hold together against protesters; Purpose: reframe escalation as responsible drawdown to buy time and domestic support; Point of view: Nixon presents Vietnamization as peace-seeking while simultaneously planning Operation Menu (secret Cambodia bombing); reveals the 'credibility gap' — official rhetoric diverged from covert reality. HIPP ANALYSIS (Doc 3) — Historical context: 1973, Paris Peace Accords signed, Watergate unfolding, Cambodia bombing just ended; Audience: future presidents and Congress; Purpose: structurally prevent another Gulf of Tonkin-style delegation by codifying presidential consultation and 60-day authorization requirements; Point of view: reflects Congress's post-Vietnam determination to reclaim constitutional war powers. SYNTHESIS — Documents 1 and 3 together show Congress giving and then taking back war-making authority; Document 2 reveals the mechanism — executive deception and unilateral action — that made Document 3 necessary. Outside knowledge: Pentagon Papers (1971) exposed the deception behind Doc 1; Nixon's Cambodia bombing violated the spirit of Doc 2's promise of Vietnamization; War Powers Resolution has never been successfully enforced, raising questions about whether Congress permanently recovered its authority.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.78, US.80 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Constructs a defensible historical argument that directly answers the prompt across both US.78 and US.80. Analyzes all three documents using HIPP with accuracy — correctly identifies historical context, intended audience, purpose, and point of view for each. Synthesizes across documents to show how they form a causal narrative (authority granted → misused → constrained). Integrates substantial outside knowledge (Pentagon Papers, Operation Menu, Paris Peace Accords, Watergate). Writing is clear, organized, and sustained across 2–3 paragraphs.\n5 - Advanced: Constructs a defensible argument. Analyzes all three documents with HIPP, with minor gaps or errors in one element. Synthesizes across at least two documents. Includes relevant outside knowledge. Writing is organized.\n4 - Proficient: Constructs a clear argument addressing the prompt. Analyzes two of three documents using HIPP. Some synthesis present. Includes some outside knowledge. Writing is adequate.\n3 - Adequate: States a claim. Analyzes one or two documents with partial HIPP (addresses some but not all elements). Limited synthesis. Minimal outside knowledge. Writing is underdeveloped.\n2 - Developing: Describes document content without full HIPP analysis. Claim is vague or implicit. Little to no synthesis. No outside knowledge or very general.\n1 - Beginning: Restates documents without analysis. No argument. No HIPP. No synthesis.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: Doc 1 — historical context (Cold War, disputed Gulf of Tonkin incident), audience (Congress, American public), purpose (delegate war authority to president), POV (Cold War executive power expansion); Doc 2 — context (1969 anti-war pressure, Tet aftermath), audience ('silent majority'), purpose (reframe escalation as peace), POV (Nixon's gap between rhetoric and covert action); Doc 3 — context (post-Vietnam, Watergate, War Powers debate), audience (future executives/Congress), purpose (codify constitutional war power limits), POV (legislative reassertion of checks).\nKEY EVIDENCE EXPECTED: Gulf of Tonkin incident details and disputed nature; LBJ escalation 1965–1968; Tet Offensive 1968; Nixon secret Cambodia bombing (Operation Menu); Paris Peace Accords (1973); War Powers Resolution 60-day clock; Watergate; Pentagon Papers.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: Construye un argumento histórico defensible que responde directamente a la pregunta en US.78 y US.80. Analiza los tres documentos usando HIPP con precisión — identifica correctamente el contexto histórico, la audiencia prevista, el propósito y el punto de vista de cada uno. Sintetiza entre documentos para mostrar cómo forman una narrativa causal (autoridad concedida → mal usada → limitada). Integra conocimiento externo sustancial (Papeles del Pentágono, Operación Menú, Acuerdos de Paz de París, Watergate). La escritura es clara, organizada y sostenida en 2–3 párrafos.\n5 - Avanzado: Construye un argumento defensible. Analiza los tres documentos con HIPP, con pequeñas brechas o errores en un elemento. Sintetiza entre al menos dos documentos. Incluye conocimiento externo relevante. La escritura está organizada.\n4 - Competente: Construye un argumento claro que aborda la pregunta. Analiza dos de tres documentos usando HIPP. Hay alguna síntesis. Incluye algún conocimiento externo. La escritura es adecuada.\n3 - Adecuado: Formula un argumento. Analiza uno o dos documentos con HIPP parcial. Síntesis limitada. Conocimiento externo mínimo. La escritura está poco desarrollada.\n2 - En desarrollo: Describe el contenido del documento sin análisis HIPP completo. El argumento es vago o implícito. Poca o ninguna síntesis. Sin conocimiento externo o muy general.\n1 - Inicial: Reitera los documentos sin análisis. Sin argumento. Sin HIPP. Sin síntesis.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS DOCUMENTAL: Doc 1 — contexto histórico (Guerra Fría, incidente disputado del Golfo de Tonkín), audiencia (Congreso, público estadounidense), propósito (delegar autoridad de guerra al presidente), PDV (expansión del poder ejecutivo en la Guerra Fría); Doc 2 — contexto (presión antibelicista de 1969, secuelas de Tet), audiencia ('mayoría silenciosa'), propósito (reencuadrar la escalada como paz), PDV (brecha de Nixon entre retórica y acción encubierta); Doc 3 — contexto (post-Vietnam, Watergate, debate sobre Poderes de Guerra), audiencia (ejecutivos/Congreso futuros), propósito (codificar límites constitucionales del poder de guerra), PDV (reasertación legislativa de controles).\nEVIDENCIA CLAVE ESPERADA: Detalles del incidente del Golfo de Tonkín y su naturaleza disputada; escalada de LBJ 1965–1968; Ofensiva Tet 1968; bombardeo secreto de Camboya de Nixon (Operación Menú); Acuerdos de Paz de París (1973); reloj de 60 días de la Resolución de Poderes de Guerra; Watergate; Papeles del Pentágono.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.31,
+        "b": 0.11,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78",
+          "US.80"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us78-dok4-er-1",
+      "stem": "Extended Response — No source is provided for this item. You must draw entirely on your knowledge of U.S. history.\n\nHistorians often argue that the Vietnam Era (approximately 1964–1974) represented a turning point in the relationship between the American government and its citizens — one that permanently altered public trust, constitutional norms around war-making, and the willingness of Americans to accept official narratives during times of crisis.\n\nWrite an extended response (3–4 paragraphs) in which you:\n1. STATE a CLAIM arguing either that the Vietnam Era did or did not represent a permanent turning point in American political culture and constitutional governance.\n2. Provide EVIDENCE from at least FOUR of the five standards (US.78–US.82) to support your claim. Your evidence must include specific events, legislation, and the actions of specific individuals or groups — not just general references.\n3. REASON through how the evidence you have selected supports your claim, connecting across standards and, where relevant, drawing comparisons to earlier or later periods in American history (e.g., the Civil War era, the Red Scare, the post-9/11 period).\n\nYour argument must be sustained across your entire response and must demonstrate synthesis across the Vietnam Era as a whole — not standard-by-standard description —",
+      "stemEs": "Respuesta Extendida — No se proporciona ninguna fuente para este ítem. Debes basarte completamente en tu conocimiento de la historia de EE. UU.\n\nLos historiadores a menudo argumentan que la Era de Vietnam (aproximadamente 1964–1974) representó un punto de inflexión en la relación entre el gobierno estadounidense y sus ciudadanos — uno que alteró permanentemente la confianza pública, las normas constitucionales sobre la guerra, y la disposición de los estadounidenses a aceptar narrativas oficiales durante tiempos de crisis.\n\nEscribe una respuesta extendida (3–4 párrafos) en la que:\n1. FORMULES un ARGUMENTO argumentando que la Era de Vietnam sí o no representó un punto de inflexión permanente en la cultura política estadounidense y la gobernanza constitucional.\n2. Proporciones EVIDENCIA de al menos CUATRO de los cinco estándares (US.78–US.82) para apoyar tu argumento. Tu evidencia debe incluir eventos específicos, legislación y las acciones de individuos o grupos específicos — no solo referencias generales.\n3. RAZONAR cómo la evidencia que has seleccionado apoya tu argumento, conectando entre estándares y, cuando sea relevante, estableciendo comparaciones con períodos anteriores o posteriores de la historia estadounidense (p. ej., la era de la Guerra Civil, el Miedo Rojo, el período post-11-S).\n\nTu argumento debe sostenerse a lo largo de toda tu respuesta y debe demostrar síntesis en toda la Era de Vietnam como un todo — no una descripción estándar por estándar.",
+      "itemType": "extended-response",
+      "correctAnswer": "A top-score (4/4) response would include: CLAIM — The Vietnam Era did represent a permanent turning point, not because any single event shattered public trust, but because the convergence of five simultaneous crises — military deception (US.78), mass civic resistance (US.79), constitutional overreach and its rollback (US.80), the expansion of rights movements that challenged government authority on multiple fronts (US.81), and institutional corruption exposed at the highest level (US.82) — together produced structural changes to American governance that have not been reversed. EVIDENCE across standards: US.78 — Gulf of Tonkin Resolution passed on disputed intelligence; Pentagon Papers (1971) proved the Johnson administration deliberately deceived Congress; over 58,000 Americans died; US.79 — the 1969 Moratorium drew ~2 million participants; Kent State killings (May 4, 1970) resulted from the government using military force against its own citizens; VVAW's John Kerry testified before the Senate (April 1971) that veterans had committed war crimes under orders; US.80 — Nixon's secret bombing of Cambodia (Operation Menu, 1969–1970) and invasion of Cambodia (1970) exceeded even the Gulf of Tonkin Resolution's authorization; the War Powers Resolution (1973), passed over Nixon's veto, represented Congress's first statutory limitation on presidential war-making authority since the Constitution; US.81 — Title IX (1972) and the ERA's congressional passage (1972) both reflected demands for federal action that paralleled the anti-war movement's distrust of inherited authority; the women's movement's challenge to institutional sexism mirrored veterans' challenge to institutional militarism; US.82 — Nixon's resignation (August 9, 1974) was the first presidential resignation in U.S. history; the Saturday Night Massacre (October 1973) revealed Nixon's willingness to abuse power; EPA founded 1970 in response to popular environmental mobilization that also reflected distrust of corporate and government authority; the Church Committee (1975) revealed CIA and FBI domestic surveillance programs. REASONING and CROSS-ERA SYNTHESIS — The scale of this transformation becomes clear in comparison: during the Red Scare (1919–1920), government restriction of dissent went largely unchallenged; during McCarthyism (early 1950s), Congress itself participated in civil liberties violations. By contrast, in the Vietnam Era, Congress passed the War Powers Resolution, the Freedom of Information Act amendments (1974), and established the Church Committee to investigate executive branch abuses — representing a structural reassertion of checks and balances unprecedented in the 20th century. The comparison to the post-9/11 period further supports the 'permanent shift' argument: while the Patriot Act (2001) temporarily expanded executive surveillance powers, it triggered immediate legal challenges (ACLU v. NSA) and sunset provisions that reflect the institutionalized skepticism born in the Vietnam Era.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.78, US.79, US.80, US.81, US.82 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.74",
+        "US.76",
+        "US.78",
+        "US.79"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: States a defensible, specific claim that takes a clear position on whether the Vietnam Era represented a permanent turning point in political culture and constitutional governance. Draws evidence from at least four of five standards (US.78–US.82), citing specific events, legislation, and named individuals or groups — not general references. Reasoning sustains the argument across all evidence, connecting standards thematically rather than treating them sequentially. Includes at least one meaningful cross-era comparison (e.g., to the Red Scare, the post-9/11 period, or earlier constitutional crises). Writing is sustained, organized, and analytical throughout all 3–4 paragraphs.\n3 - Proficient: States a clear claim. Draws evidence from at least three standards with specific events or legislation. Reasoning connects evidence to the claim. May include a cross-era comparison but with limited development. Writing is adequate and organized.\n2 - Developing: States a claim but it is vague or inconsistently supported. Evidence drawn from one or two standards, or evidence is general without specific events, legislation, or individuals. Reasoning describes rather than analyzes. No meaningful cross-era synthesis.\n1 - Beginning: Restates the prompt or provides a general summary of Vietnam Era events without taking a position or providing sustained analysis. Evidence is absent or purely anecdotal.\n0 - No response or completely off-topic.\n\nKEY EVIDENCE EXPECTED: Gulf of Tonkin Resolution (1964) and disputed intelligence; Pentagon Papers (1971); LBJ and Nixon troop escalation data; Kent State (May 4, 1970); VVAW testimony (1971); War Powers Resolution (1973); Operation Menu (secret Cambodia bombing); Title IX (1972); ERA (1972–1982 ratification timeline); Nixon resignation (August 9, 1974); EPA creation (1970); Church Committee (1975); Freedom of Information Act amendments (1974); Gallup polling data on government trust.\nSYNTHESIS EXPECTATIONS: Response should connect across at least four of US.78–US.82 thematically (e.g., the theme of distrust of institutional authority unifying the anti-war movement, the women's movement, the environmental movement, and Watergate); should compare to at least one prior or later historical period; should argue explicitly for or against permanence of the turning point rather than merely describing events.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Formula un argumento defensible y específico que toma una posición clara sobre si la Era de Vietnam representó un punto de inflexión permanente en la cultura política y la gobernanza constitucional. Extrae evidencia de al menos cuatro de los cinco estándares (US.78–US.82), citando eventos específicos, legislación e individuos o grupos nombrados — no referencias generales. El razonamiento sostiene el argumento en toda la evidencia, conectando los estándares temáticamente en lugar de tratarlos secuencialmente. Incluye al menos una comparación entre eras significativa (p. ej., con el Miedo Rojo, el período post-11-S o crisis constitucionales anteriores). La escritura es sostenida, organizada y analítica a lo largo de los 3–4 párrafos.\n3 - Competente: Formula un argumento claro. Extrae evidencia de al menos tres estándares con eventos o legislación específicos. El razonamiento conecta la evidencia con el argumento. Puede incluir una comparación entre eras pero con desarrollo limitado. La escritura es adecuada y organizada.\n2 - En desarrollo: Formula un argumento pero es vago o inconsistentemente respaldado. Evidencia extraída de uno o dos estándares, o la evidencia es general sin eventos, legislación o individuos específicos. El razonamiento describe en lugar de analizar. Sin síntesis entre eras significativa.\n1 - Inicial: Reitera la pregunta o proporciona un resumen general de los eventos de la Era de Vietnam sin tomar posición o proporcionar análisis sostenido.\n0 - Sin respuesta o completamente fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Resolución del Golfo de Tonkín (1964) e inteligencia disputada; Papeles del Pentágono (1971); datos de escalada de tropas de LBJ y Nixon; Kent State (4 de mayo de 1970); testimonio del VVAW (1971); Resolución de Poderes de Guerra (1973); Operación Menú (bombardeo secreto de Camboya); Título IX (1972); ERA (cronología de ratificación 1972–1982); renuncia de Nixon (9 de agosto de 1974); creación de la EPA (1970); Comité Church (1975); enmiendas a la Ley de Libertad de Información (1974); datos de encuestas Gallup sobre confianza gubernamental.\nEXPECTATIVAS DE SÍNTESIS: La respuesta debe conectar al menos cuatro de US.78–US.82 temáticamente (p. ej., el tema de la desconfianza en la autoridad institucional que une el movimiento antibelicista, el movimiento de mujeres, el movimiento ambiental y Watergate); debe comparar con al menos un período histórico anterior o posterior; debe argumentar explícitamente a favor o en contra de la permanencia del punto de inflexión en lugar de simplemente describir eventos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.5,
+        "b": -0.24,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78",
+          "US.79",
+          "US.80",
+          "US.81",
+          "US.82"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item",
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home",
+          "US.81->US.78: checklist intact (5 element(s))",
+          "US.82->US.79: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9",
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    }
+  ]
+}

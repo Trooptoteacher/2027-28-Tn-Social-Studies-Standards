@@ -1,0 +1,2518 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.13",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us13-dok1-childlabor",
+      "stem": "What industries commonly employed child labor during the Gilded Age?",
+      "stemEs": "¿Qué industrias comúnmente empleaban trabajo infantil durante la Edad Dorada?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Textile mills, coal mines, glass factories, and large farms",
+          "textEs": "Fábricas textiles, minas de carbón, fábricas de vidrio y granjas grandes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Only agriculture and domestic service in isolated rural areas",
+          "textEs": "Solo agricultura y servicio doméstico en áreas rurales aisladas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Only small family-owned businesses and local neighborhood shops",
+          "textEs": "Solo pequeños negocios familiares y tiendas de barrio locales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Child labor had already been outlawed across all American states",
+          "textEs": "El trabajo infantil ya había sido prohibido en todos los estados americanos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Child labor was common in factories, mines, textile mills, and canneries, where children worked long hours for low pay. A choice focused on professional office work is wrong because children were usually hired in dangerous low-skill industries. The widespread use of child labor became a major target of Progressive reformers.",
+      "explanationEs": "Niños de tan solo 5-6 años trabajaban en fábricas textiles, minas de carbón, fábricas de vidrio y campos agrícolas. Sufrían problemas de salud, lesiones y perdían oportunidades educativas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.75,
+        "b": -1.55,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us13-dok1-1-u2",
+      "stem": "What tragic event in 1911 highlighted the dangerous working conditions in factories?",
+      "stemEs": "¿Qué trágico evento en 1911 destacó las peligrosas condiciones de trabajo en las fábricas?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Women earned less pay and faced harassment and barriers",
+          "textEs": "La Huelga del Acero de Homestead en Pensilvania",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Triangle Shirtwaist Factory fire in New York City",
+          "textEs": "El incendio de la fábrica Triangle Shirtwaist en la ciudad de Nueva York",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Textile mills, coal mines, glass factories, and large farms",
+          "textEs": "El bombardeo de la Plaza Haymarket en Chicago",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Without oversight, owners neglected safety causing 146 deaths",
+          "textEs": "La huelga de vagones de ferrocarril Pullman",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Triangle Shirtwaist Fire in 1911 exposed deadly factory conditions when locked doors and poor fire escapes trapped workers inside a burning New York garment factory. A choice about the Haymarket Affair is wrong because Haymarket was a labor rally in 1886, not the 1911 factory disaster. The fire helped build support for workplace safety laws.",
+      "explanationEs": "El incendio de la fábrica Triangle Shirtwaist (25 de marzo de 1911) mató a 146 trabajadores de la confección, en su mayoría mujeres inmigrantes jóvenes. Las puertas de salida cerradas impidieron el escape, llevando a importantes reformas de seguridad laboral.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.77,
+        "b": -1.09,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us13-dok1-2-u2",
+      "stem": "How many hours per day did children typically work in factories during the Gilded Age?",
+      "stemEs": "¿Cuántas horas al día trabajaban típicamente los niños en las fábricas durante la Edad Dorada?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4 to 5 hours after school",
+          "textEs": "4 a 5 horas después de la escuela",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "10 to 16 hours, often six days a week",
+          "textEs": "10 a 16 horas, a menudo seis días a la semana",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "6 to 8 hours with regular breaks",
+          "textEs": "6 a 8 horas con descansos regulares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Children were not allowed to work in factories by law",
+          "textEs": "A los niños no se les permitía trabajar en fábricas por ley",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Many working children in the Gilded Age spent 10 to 12 hours a day in mills, mines, or factories, often in dangerous conditions. A choice suggesting only a few hours after school is wrong because child labor was often full-time and exhausting. These harsh schedules strengthened the demand for labor regulation and compulsory schooling.",
+      "explanationEs": "Niños de tan solo 5 años trabajaban jornadas de 10-16 horas en minas, molinos y fábricas. Había pocas leyes de trabajo infantil, y las familias a menudo necesitaban los salarios de los niños para sobrevivir.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.84,
+        "b": -1.09,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-q01",
+      "stem": "Industrial working conditions during the late 1800s and early 1900s were typically characterized by —",
+      "stemEs": "Industrial working conditions during the late 1800s and early 1900s were typically characterized by —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Twelve to sixteen-hour workdays with dangerous machinery and poor",
+          "textEs": "Twelve to sixteen-hour workdays with dangerous machinery and poor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "High wages and comprehensive health insurance for most workers",
+          "textEs": "High wages and comprehensive health insurance for most workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eight-hour workdays with regular breaks and safety equipment",
+          "textEs": "Eight-hour workdays with regular breaks and safety equipment",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Government-regulated safety standards and worker compensation",
+          "textEs": "Government-regulated safety standards and worker compensation",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Industrial workplaces in the late 1800s were often crowded, unsafe, poorly ventilated, and marked by long hours and low wages. A choice describing modern safety standards is wrong because many protections had not yet been created. These conditions helped fuel unions, muckraking, and Progressive labor reform.",
+      "explanationEs": "Industrial workplaces in the late 1800s were often crowded, unsafe, poorly ventilated, and marked by long hours and low wages. A choice describing modern safety standards is wrong because many protections had not yet been created. These conditions helped fuel unions, muckraking, and Progressive labor reform, with a focus here on industrial working conditions late 1800s early.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.53,
+        "b": -0.76,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x011",
+      "stem": "Theodore Roosevelt's conservation policy resulted in the preservation of approximately —",
+      "stemEs": "Theodore Roosevelt's conservation policy resultó en the preservation of approximately —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "230 million acres of public land through national parks, forests, monuments",
+          "textEs": "230 million acres of public land through national parks, forests, monuments",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "All remaining federal land west of the Mississippi River",
+          "textEs": "All remaining federal land west of the Mississippi River",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "1 million acres of public land",
+          "textEs": "1 million acres of public land",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "50 million acres reserved exclusively for timber harvesting by federal contractors",
+          "textEs": "50 million acres reserved exclusively for timber harvesting by federal contractors",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Roosevelt preserved roughly 150 million acres of public land through forests, wildlife refuges, and monuments. A choice giving a tiny number is wrong because Roosevelt’s conservation program was unusually large for its time. His actions made conservation a major responsibility of the federal government.",
+      "explanationEs": "Roosevelt preserved roughly 150 million acres of public land through forests, wildlife refuges, and monuments. A choice giving a tiny number is wrong because Roosevelt’s conservation program was unusually large for its time. His actions made conservation a major responsibility of the gobierno federal.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.41,
+        "b": -0.92,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x012",
+      "stem": "Gifford Pinchot, TR's chief forester, believed that conservation meant —",
+      "stemEs": "Gifford Pinchot, TR's chief forester, believed that conservation meant —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Scientific management of natural resources for sustained use",
+          "textEs": "Scientific management of natural resources for sustained use",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Prohibiting all commercial development in national forests and parks",
+          "textEs": "Prohibiting all commercial development in national forests and parks",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Preserving wilderness areas in their natural state, free from any human use",
+          "textEs": "Preserving wilderness areas in their natural state, free from any human use",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Transferring federal land to state governments for local resource management",
+          "textEs": "Transferring federal land to gobierno estatals for local resource management",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Gifford Pinchot believed conservation meant the wise, efficient use of natural resources for the long-term public good rather than locking all land away from development. A choice favoring complete preservation of every wilderness area is wrong because that position was closer to John Muir. The Pinchot-Muir disagreement shaped the direction of environmental policy.",
+      "explanationEs": "Gifford Pinchot believed conservation meant the wise, efficient use of natural resources for the long-term public good rather than locking all land away from development. A choice favoring complete preservation of every wilderness area is wrong because that position was closer to John Muir. The Pinchot-Muir disagreement shaped the direction of environmental policy, with a focus here on gifford Pinchot TR s chief forester.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.81,
+        "b": -0.82,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x021",
+      "stem": "Carrie Chapman Catt's 'Winning Plan' for women's suffrage prioritized —",
+      "stemEs": "Carrie Chapman Catt's 'Winning Plan' for women's sufragio prioritized —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Organizing women's strikes and boycotts to pressure Congress to pass the 19th Amendment",
+          "textEs": "Organizing women's huelgas and boycotts to pressure Congreso to pass the 19th enmienda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Persuading President Wilson to support women's suffrage as a war measure",
+          "textEs": "Persuading President Wilson to support women's sufragio as a war measure",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A constitutional amendment that would take effect immediately in all states",
+          "textEs": "A constitucional enmienda that would take effect immediately in all states",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Winning suffrage state by state while simultaneously lobbying for a federal amendment",
+          "textEs": "Winning sufragio state by state while simultaneously lobbying for a federal enmienda",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Carrie Chapman Catt’s “Winning Plan” combined state-level suffrage campaigns with a coordinated push for a federal constitutional amendment. A choice about militant picketing is wrong because that tactic is more closely associated with Alice Paul and the National Woman’s Party. Catt’s strategy helped unify the final drive for the 19th Amendment.",
+      "explanationEs": "Carrie Chapman Catt’s “Winning Plan” combined state-level sufragio campaigns with a coordinated push for a federal constitucional enmienda. A choice about militant picketing is wrong because that tactic is more closely associated with Alice Paul and the National Woman’s Party. Catt’s strategy helped unify the final drive for the 19th enmienda, especially in this item's emphasis on carrie Chapman Catt s Winning Plan.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.63,
+        "b": -1.41,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x022",
+      "stem": "Women's significant contributions to the WWI war effort — as workers, nurses, and volunteers — strengthened the case for suffrage by —",
+      "stemEs": "Women's significant contributions to the WWI war effort — as workers, nurses, and volunteers — strengthened the case for sufragio by —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Winning Wilson's personal support, which was essential for the 19th Amendment's passage",
+          "textEs": "Winning Wilson's personal support, which was essential for the 19th enmienda's passage",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Giving women enough economic independence to organize more effectively for their rights",
+          "textEs": "Giving women enough economic independence to organize more effectively for their rights",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Demonstrating women's civic commitment and economic productivity, undermining the argument that women were not full citizens",
+          "textEs": "Demonstrating women's civic commitment and economic productivity, undermining the argument that women were not full citizens",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Creating legal precedents that required equal treatment under the war powers provisions",
+          "textEs": "Creating legal precedents that required equal treatment under the war powers provisions",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Women’s work as nurses, factory workers, and volunteers during World War I strengthened the case for suffrage by showing that women were fully capable of national citizenship and public service. A choice saying the war made women less visible is wrong because wartime participation increased their public role. Wartime service helped persuade more Americans to support the 19th Amendment.",
+      "explanationEs": "Women’s work as nurses, factory workers, and volunteers during Primera Guerra Mundial strengthened the case for sufragio by showing that women were fully capable of national ciudadanía and public service. A choice saying the war made women less visible is wrong because wartime participation increased their public role. Wartime service helped persuade more Americans to support the 19th enmienda.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.51,
+        "b": -0.21,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x031",
+      "stem": "The Women's Christian Temperance Union's 'Do Everything' strategy under Frances Willard meant —",
+      "stemEs": "The Women's Christian Temperance Union's 'Do Everything' strategy under Frances Willard meant —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pursuing Prohibition through any legal and political channel available, including state referenda, congressional lobbying, and party platform pressure",
+          "textEs": "Pursuing Prohibition through any legal and political channel available, including state referenda, Congresoional lobbying, and party platform pressure",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Connecting temperance to a broad coalition of Progressive causes — women's suffrage, labor protection, child welfare — to build cross-movement political alliances",
+          "textEs": "Connecting temperance to a broad coalition of Progressive causes — women's sufragio, labor protection, child welfare — to build cross-movement political alianzas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The 'Do All aspects' approach pursued Prohibition through every available legal and political channel while simultaneously linking the anti-alcohol cause to female activists's suffrage, labor reform, and social welfare causes",
+          "textEs": "The 'Do All aspects' approach pursued Prohibition through every available legal and political channel while simultaneously linking the anti-alcohol cause to female activists's sufragio, labor reform, and social welfare causes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Organizing WCTU chapters in every congressional district to maintain sustained constituent pressure on individual representatives for Prohibition legislation",
+          "textEs": "Organizing WCTU chapters in every Congresoional district to maintain sustained constituent pressure on individual representatives for Prohibition legislación",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Under Frances Willard, the WCTU connected temperance to a larger reform agenda that included women’s suffrage, labor reform, and protection of the family. A choice reducing the group to alcohol alone is wrong because Willard’s “Do Everything” strategy linked many causes together. The WCTU became one of the largest women’s reform organizations in the country.",
+      "explanationEs": "Under Frances Willard, the WCTU connected temperance to a larger reform agenda that included women’s sufragio, labor reform, and protection of the family. A choice reducing the group to alcohol alone is wrong because Willard’s “Do Everything” strategy linked many causes together. The WCTU became one of the largest women’s reform organizations in the country, especially in this item's emphasis on women s Christian Temperance Union s.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -0.16,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us13-dok2-women",
+      "stem": "How did women's work experiences differ from men's during the industrial era?",
+      "stemEs": "¿Cómo diferían las experiencias laborales de las mujeres de las de los hombres durante la era industrial?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Women and men received identical pay and equal conditions",
+          "textEs": "Las mujeres y los hombres recibían igual salario y condiciones de trabajo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Women were legally barred from working in any factories",
+          "textEs": "A las mujeres se les prohibía legalmente trabajar en fábricas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Women earned less pay and faced harassment and barriers",
+          "textEs": "Las mujeres ganaban menos y enfrentaban acoso y avance limitado",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Women earned higher wages for their specialized skill sets",
+          "textEs": "Las mujeres ganaban salarios más altos por sus habilidades textiles",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Women in the industrial era were concentrated in lower-paying jobs such as garment work, domestic service, and clerical work, and they were often paid less than men for similar labor. A choice saying women held the same positions with equal wages is wrong because the workplace was sharply divided by gender. These inequalities helped drive women’s labor activism and reform movements.",
+      "explanationEs": "Las mujeres típicamente ganaban 50-60% del salario de los hombres por el mismo trabajo, enfrentaban acoso sexual, tenían oportunidades de avance limitadas y a menudo trabajaban en condiciones particularmente duras en fábricas textiles y de ropa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.18,
+        "b": 0.19,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us13-dok2-1-u2",
+      "stem": "How did the Triangle Shirtwaist fire lead to changes in labor laws?",
+      "stemEs": "¿Cómo llevó el incendio de Triangle Shirtwaist a cambios en las leyes laborales?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It resulted in new workplace safety regulations including fire codes and inspections",
+          "textEs": "Resultó en nuevas regulaciones de seguridad laboral incluyendo códigos de incendio e inspecciones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Because families, businesses, and courts all had reasons to resist reform",
+          "textEs": "Llevó al Congreso a prohibir todo el trabajo fabril para mujeres permanentemente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Social Gospel argued that Christians had a duty to address poverty and injustice",
+          "textEs": "No tuvo impacto duradero en leyes laborales o regulaciones de fábricas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He believed natural resources should be managed by the government for the public good",
+          "textEs": "Obligó a todas las fábricas a cerrar inmediatamente durante un año",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Triangle Shirtwaist Fire of 1911 killed 146 workers, many of them young immigrant women, and led to stronger factory safety laws and inspections in New York. A choice about trust regulation is wrong because the fire exposed unsafe working conditions, not monopoly practices. The disaster became a turning point in the movement for workplace reform.",
+      "explanationEs": "El incendio provocó indignación pública y llevó a 36 nuevas leyes en el estado de Nueva York, incluyendo requisitos para escaleras de incendio, sistemas de rociadores, horas máximas de trabajo e inspecciones de edificios.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.78,
+        "b": -0.42,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-q02",
+      "stem": "Women workers during the industrial era were primarily employed in —",
+      "stemEs": "Women workers during the industrial era were primarily employed in —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Heavy manufacturing and steel production",
+          "textEs": "Heavy manufacturing and steel production",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Textile factories, garment industry, and domestic service",
+          "textEs": "Textile factories, garment industry, and domestic service",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Banking and professional services exclusively",
+          "textEs": "Banking and professional services exclusively",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Railroad construction and mining operations",
+          "textEs": "Railroad construction and mining operations",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Women workers were concentrated in textile mills, garment factories, domestic service, and later clerical jobs rather than the highest-paid industrial trades. A choice emphasizing heavy steel or mining work is wrong because those industries employed mostly men. Gendered labor patterns shaped both wages and reform efforts.",
+      "explanationEs": "Women workers were concentrated in textile mills, garment factories, domestic service, and later clerical jobs rather than the highest-paid industrial comercios. A choice emphasizing heavy steel or mining work is wrong because those industries employed mostly men. Gendered labor patterns shaped both wages and reform efforts.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.85,
+        "b": -0.08,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-q03",
+      "stem": "Child labor was widespread in industrial America primarily because —",
+      "stemEs": "Child labor was widespread in industrial America primarily because —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Government policies required children to work to support the economy",
+          "textEs": "Government policies required children to work to support the economy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Children enjoyed working in factories more than attending school",
+          "textEs": "Children enjoyed working in factories more than attending school",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Public education was not yet available in most American cities",
+          "textEs": "Public education was not yet available in most American cities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Families needed the income and employers valued children's small size and lower wages, while child labor laws were weak or unenforced",
+          "textEs": "Las familias necesitaban el ingreso y los empleadores valoraban el tamaño pequeño y los salarios más bajos de los niños, mientras que las leyes de trabajo infantil eran débiles o no se aplicaban",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Child labor was widespread because poor families needed income, employers wanted cheap workers, and labor laws were weak or poorly enforced. A choice saying children worked mainly by choice for career training is wrong because economic necessity drove most child labor. The issue became one of the strongest arguments for government regulation of industry.",
+      "explanationEs": "Child labor was widespread because poor families needed income, employers wanted cheap workers, and labor laws were weak or poorly enforced. A choice saying children worked mainly by choice for career training is wrong because economic necessity drove most child labor. The issue became one of the strongest arguments for government regulation of industry.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.61,
+        "b": 0.2,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x013",
+      "stem": "John Muir's disagreement with Gifford Pinchot over the Hetch Hetchy Valley represented a fundamental split between —",
+      "stemEs": "John Muir's disagreement with Gifford Pinchot over the Hetch Hetchy Valley represented a fundamental split between —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Scientists and federal policymakers over who held legitimate authority to determine allowable harvest levels for timber, water, and mineral resources on public lands",
+          "textEs": "Scientists and federal policymakers over who held legitimate authority to determine allowable harvest levels for timber, water, and mineral resources on public lands",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Republicans who supported retaining federal lands under scientific management and Democrats who wanted public lands sold to private owners and returned to state jurisdiction",
+          "textEs": "repúblicaans who supported retaining federal lands under scientific management and Democrats who wanted public lands sold to private owners and returned to state jurisdiction",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eastern conservation advocates seeking sustained-yield management and Western politicians demanding faster opening of federal territories to mining, ranching, and timber extraction",
+          "textEs": "Eastern conservation advocates seeking sustained-yield management and Western politicians demanding faster opening of federal territories to mining, ranching, and timber extraction",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Utilitarian conservationists who believed resources should be managed efficiently for long-term human use and preservationists who held that wilderness had value independent of human economic needs",
+          "textEs": "Utilitarian conservationists who believed resources should be managed efficiently for long-term human use and preservationists who held that wilderness had value independent of human economic needs",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Gifford Pinchot believed conservation meant the wise, efficient use of natural resources for the long-term public good rather than locking all land away from development. A choice favoring complete preservation of every wilderness area is wrong because that position was closer to John Muir. The Pinchot-Muir disagreement shaped the direction of environmental policy.",
+      "explanationEs": "Gifford Pinchot believed conservation meant the wise, efficient use of natural resources for the long-term public good rather than locking all land away from development. A choice favoring complete preservation of every wilderness area is wrong because that position was closer to John Muir. The Pinchot-Muir disagreement shaped the direction of environmental policy, especially in this item's emphasis on john Muir s disagreement Gifford Pinchot.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -0.04,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x014",
+      "stem": "The creation of the National Park Service (1916) established the principle that —",
+      "stemEs": "The creation of the National Park Service (1916) established the principle that —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Certain American landscapes were so significant that they should be preserved intact for all future generations",
+          "textEs": "Certain American landscapes were so significant that they should be preserved intact for all future generations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "States had primary responsibility for protecting natural resources within their borders",
+          "textEs": "States had primary responsibility for protecting natural resources within their borders",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "National parks were available for industrial development as long as environmental impact was minimized",
+          "textEs": "National parks were available for industrial development as long as environmental impact was minimized",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "National parks would be managed for both recreation and sustainable timber harvesting by approved contractors",
+          "textEs": "National parks would be managed for both recreation and sustainable timber harvesting by approved contractors",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The National Park Service, created in 1916, established the principle that national parks should be protected and managed by the federal government for public use and preservation. A choice saying it was created by Theodore Roosevelt is wrong because the agency itself came during Wilson’s presidency. It helped turn conservation into a permanent federal function.",
+      "explanationEs": "The National Park Service, created in 1916, established the principle that national parks should be protected and managed by the gobierno federal for public use and preservation. A choice saying it was created by Theodore Roosevelt is wrong because the agency itself came during Wilson’s presidency. It helped turn conservation into a permanent federal function, with a focus here on creation National Park Service 1916 established.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.76,
+        "b": 0.05,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x019",
+      "stem": "The TVA (Tennessee Valley Authority), created in 1933 as a New Deal program, built on Progressive Era conservation principles by —",
+      "stemEs": "The TVA (Tennessee Valley Authority), created in 1933 as a New Deal program, built on Era Progresista conservation principles by —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Applying government management of natural resources to regional economic development",
+          "textEs": "Applying government management of natural resources to regional economic development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Preserving the Tennessee River valley from all industrial development",
+          "textEs": "Preserving the Tennessee River valley from all industrial development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Creating a national park system throughout the Appalachian Mountain region",
+          "textEs": "Creating a national park system throughout the Appalachian Mountain region",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Restricting commercial fishing and timber harvesting in Tennessee River tributaries",
+          "textEs": "Restricting commercial fishing and timber harvesting in Tennessee River tributaries",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The TVA built on Progressive conservation ideas by using federal planning to manage natural resources, generate electricity, and improve regional development. A choice about private ownership alone is wrong because the TVA represented active government management. It showed how Progressive ideas continued into the New Deal.",
+      "explanationEs": "The TVA built on Progressive conservation ideas by using federal planning to manage natural resources, generate electricity, and improve regional development. A choice about private ownership alone is wrong because the TVA represented active government management. It showed how Progressive ideas continued into the New Deal.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.71,
+        "b": -0.56,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-q07",
+      "stem": "Which statement best explains why industrial employers preferred to hire women and children for certain jobs?",
+      "stemEs": "¿Qué afirmación describe mejor explains why industrial employers preferred to hire women and children for certain jobs?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Government regulations required factories to employ diverse",
+          "textEs": "Government regulations required factories to employ diverse",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They could be paid lower wages and were considered more manageable",
+          "textEs": "They could be paid lower wages and were considered more manageable",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They were more skilled and educated than male workers",
+          "textEs": "They were more skilled and educated than male workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They had better attendance records and higher productivity rates",
+          "textEs": "They had better attendance records and higher productivity rates",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Employers often hired women and children because they could pay them less, demand obedience, and use them in repetitive factory jobs. A choice saying women and children were hired mainly for superior legal rights is wrong because lower labor costs were the main attraction. This practice linked industrial growth to exploitation and reform efforts.",
+      "explanationEs": "Employers often hired women and children because they could pay them less, demand obedience, and use them in repetitive factory jobs. A choice saying women and children were hired mainly for superior legal rights is wrong because lower labor costs were the main attraction. This practice linked industrial growth to exploitation and reform efforts.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.56,
+        "b": 0.41,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-q10",
+      "stem": "The long-term significance of poor industrial working conditions during this era can best be understood as —",
+      "stemEs": "The long-term significance of poor industrial working conditions during this era can best be understood as —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An inevitable result of industrialization that had no lasting impact",
+          "textEs": "An inevitable result of industrialización that had no lasting impact",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A catalyst for labor organizing, progressive reforms, and modern",
+          "textEs": "A catalyst for labor organizing, progressive reforms, and modern",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A temporary problem that was quickly solved by market forces",
+          "textEs": "A temporary problem that was quickly solved by market forces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A problem that primarily affected immigrant workers and had little broader",
+          "textEs": "A problem that primarily affected immigrant workers and had little broader",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Industrial workplaces in the late 1800s were often crowded, unsafe, poorly ventilated, and marked by long hours and low wages. A choice describing modern safety standards is wrong because many protections had not yet been created. These conditions helped fuel unions, muckraking, and Progressive labor reform.",
+      "explanationEs": "Industrial workplaces in the late 1800s were often crowded, unsafe, poorly ventilated, and marked by long hours and low wages. A choice describing modern safety standards is wrong because many protections had not yet been created. These conditions helped fuel unions, muckraking, and Progressive labor reform, especially in this item's emphasis on long term significance poor industrial working.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.82,
+        "b": 0.52,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x015",
+      "stem": "The Progressive Era conservation movement revealed a tension between —",
+      "stemEs": "The Era Progresista conservation movement revealed a tension between —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Western states seeking rapid resource extraction vs. Eastern conservation advocates who wanted federal lands protected from development",
+          "textEs": "Western states seeking rapid resource extraction vs. Eastern conservation advocates who wanted federal lands protected from development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Professionally trained scientists who understood ecological limits vs. politicians who prioritized short-term economic development over long-term sustainability",
+          "textEs": "Professionally trained scientists who understood ecological limits vs. politicians who prioritized short-term economic development over long-term sustainability",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The utilitarian belief that natural resources existed to serve human economic development and the preservationist conviction that wilderness had intrinsic value independent of human utility",
+          "textEs": "The utilitarian belief that natural resources existed to serve human economic development and the preservationist conviction that wilderness had intrinsic value independent of human utility",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Republicans who embraced scientific management of federal forests and ranges vs. Democrats who opposed federal land ownership as an unconstitutional extension of central government power",
+          "textEs": "repúblicaans who embraced scientific management of federal forests and ranges vs. Democrats who opposed federal land ownership as an unconstitucional extension of central government power",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Progressive conservation revealed a tension between preserving nature for its own sake and using resources efficiently for human benefit. A choice saying conservation had no internal disagreements is wrong because the Muir-Pinchot split was central to the movement. That tension still shapes environmental policy debates.",
+      "explanationEs": "Progressive conservation revealed a tension between preserving nature for its own sake and using resources efficiently for human benefit. A choice saying conservation had no internal disagreements is wrong because the Muir-Pinchot split was central to the movement. That tension still shapes environmental policy debates.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.25,
+        "b": 0.74,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-13-x025",
+      "stem": "The debate over whether to repeal Prohibition illustrates which broader principle?",
+      "stemEs": "The debate over whether to repeal Prohibition illustrates which broader principle?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Federal laws imposed against majority preferences will eventually be repealed when enforcement costs become politically unsustainable",
+          "textEs": "Federal laws imposed against majority preferences will eventually be repealed when enforcement costs become politically unsustainable",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Moral reform movements can achieve constitutional changes but cannot change underlying cultural practices",
+          "textEs": "Moral reform movements can achieve constitucional changes but cannot change underlying cultural practices",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Constitutional amendments, once ratified, are virtually impossible to reverse through the political process",
+          "textEs": "constitucional enmiendas, once ratified, are virtually impossible to reverse through the political process",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Moral reform movements can achieve constitutional changes but cannot change underlying cultural practices immediately and permanently",
+          "textEs": "Moral reform movements can achieve constitucional changes but cannot change underlying cultural practices immediately and permanently",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The fight over repealing Prohibition showed that reformers had to weigh moral goals against practical results when a law produced corruption, crime, and weak enforcement. A choice saying constitutional amendments are always permanent is wrong because the 21st Amendment repealed the 18th. It demonstrated that reform movements can overreach and later be reversed.",
+      "explanationEs": "The fight over repealing Prohibition showed that reformers had to weigh moral goals against practical results when a law produced corruption, crime, and weak enforcement. A choice saying constitucional enmiendas are always permanent is wrong because the 21st enmienda repealed the 18th. It demonstrated that reform movements can overreach and later be reversed.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.52,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U2-DOK2-0009",
+      "stem": "Why were women and children a significant portion of the industrial workforce in the late 1800s and early 1900s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Employers hired women and children because they could be paid lower wages than men and had fewer legal protections, reducing production costs",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Women and children preferred factory work because it offered more social interaction than domestic service or farm labor",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Federal laws required factories to employ a minimum percentage of women and children to ensure economic opportunity for vulnerable populations",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Women and children worked in factories because male workers refused to perform certain dangerous tasks, leaving those positions unfilled",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Industrial employers specifically targeted women and children as a cheap labor supply: women earned 50-60% of male wages for identical work and children even less, with minimal legal protections — maximizing profit margins at the expense of the most vulnerable workers.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U2-DOK2-0013",
+      "stem": "How did the Triangle Shirtwaist Factory fire of 1911 change public attitudes toward working conditions for women and children in American factories?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It demonstrated that factory owners voluntarily improved safety conditions when given financial incentives by state governments",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It proved that the federal government already had sufficient workplace safety regulations that only needed stronger enforcement",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It showed that women workers preferred factory employment despite known dangers because wages were higher than in domestic service",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It revealed that dangerous conditions for women workers resulted from employer negligence and inadequate regulations, generating demand for workplace safety laws",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Triangle Shirtwaist fire killed 146 garment workers, mostly young immigrant women, when locked exits trapped them — graphically demonstrating the deadly consequences of inadequate workplace safety laws and generating massive public pressure for fire safety codes, labor inspection laws, and workers' compensation in New York and nationally.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us13-dok3-triangle",
+      "stem": "Analyze how the Triangle Shirtwaist Fire revealed the failures of laissez-faire policies toward workplace safety.",
+      "stemEs": "Analice cómo el incendio de Triangle Shirtwaist reveló los fracasos de las políticas de laissez-faire hacia la seguridad laboral.",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Without oversight, owners neglected safety causing 146 deaths",
+          "textEs": "Sin supervisión, los propietarios descuidaron la seguridad, causando 146 muertes prevenibles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The fire showed that government regulations were far too strict",
+          "textEs": "El incendio mostró que las regulaciones gubernamentales ya eran demasiado estrictas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Excessive government interference in business caused the fire",
+          "textEs": "El incendio fue causado por la interferencia excesiva del gobierno en los negocios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Existing safety regulations were adequate but poorly enforced",
+          "textEs": "Las regulaciones de seguridad existentes eran adecuadas pero los trabajadores las ignoraron",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Triangle Shirtwaist Fire of 1911 killed 146 workers, many of them young immigrant women, and led to stronger factory safety laws and inspections in New York. A choice about trust regulation is wrong because the fire exposed unsafe working conditions, not monopoly practices. The disaster became a turning point in the movement for workplace reform.",
+      "explanationEs": "El Incendio de Triangle mostró que sin regulaciones de seguridad gubernamentales, los propietarios priorizaban las ganancias sobre la seguridad de los trabajadores. Salidas cerradas, sin rociadores y escaleras de incendios inadecuadas llevaron a 146 muertes, demostrando que el cumplimiento voluntario era insuficiente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.07,
+        "b": 0.56,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us13-dok3-1-u2",
+      "stem": "Why was it difficult to pass child labor laws during the Gilded Age?",
+      "stemEs": "¿Por qué fue difícil aprobar leyes de trabajo infantil durante la Edad Dorada?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It resulted in new workplace safety regulations including fire codes and inspections",
+          "textEs": "Porque los niños preferían trabajar a asistir a la escuela",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Because families, businesses, and courts all had reasons to resist reform",
+          "textEs": "Porque familias, empresas y tribunales todos tenían razones para resistir la reforma",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Without oversight, owners neglected safety causing 146 deaths",
+          "textEs": "Porque no había organizaciones que abogaran por los derechos de los niños",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Textile mills, coal mines, glass factories, and large farms",
+          "textEs": "Porque todos los estadounidenses creían que el trabajo infantil era moralmente aceptable",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Child labor laws were hard to pass because many families depended on children’s wages, employers wanted cheap labor, and courts often resisted broad government regulation of the economy. A choice claiming everyone already agreed child labor was wrong is inaccurate because business interests strongly opposed reform. The fight showed the limits of Progressive reform before the New Deal.",
+      "explanationEs": "La reforma del trabajo infantil enfrentó múltiples obstáculos: las familias pobres dependían de los salarios de los niños, los industriales dependían de mano de obra barata, los tribunales anularon leyes como interferencia inconstitucional con la libertad de contratación.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.19,
+        "b": 1.34,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us2-dok3-sa1",
+      "stem": "President Theodore Roosevelt distinguished between \"good trusts\" and \"bad trusts.\" Explain this distinction using specific examples, and evaluate whether this approach was effective in addressing the problems of monopoly power.",
+      "stemEs": "El presidente Theodore Roosevelt distinguía entre \"trusts buenos\" y \"trusts malos.\" Explique esta distinción usando ejemplos específicos y evalúe si este enfoque fue efectivo para abordar los problemas del poder monopólico.",
+      "itemType": "short-answer",
+      "correctAnswer": "Roosevelt believed \"good trusts\" like U.S. Steel operated efficiently and served consumers, while \"bad trusts\" like Northern Securities used unfair practices to eliminate competition. He pursued selective antitrust action rather than breaking up all large corporations. This approach was partially effective — it established federal authority to regulate business — but critics argued it gave the president too much discretion and left many monopolies intact.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Roosevelt called some corporations “good trusts” when they operated efficiently under public oversight, but he labeled “bad trusts” as companies that crushed competition through unfair practices, as in the Northern Securities case. A strong response should use specific examples like US Steel or Northern Securities and then evaluate whether Roosevelt’s selective trust-busting actually reduced monopoly power or mainly expanded presidential authority to regulate business. This debate connects to a larger Progressive Era question about whether government should regulate big business or break it apart.",
+      "explanationEs": "Los estudiantes deben analizar una distinción histórica, aplicarla con evidencia específica y evaluar la efectividad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.18,
+        "b": 1.44,
+        "c": 0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us2-dok4-cr1",
+      "stem": "The Progressive Era saw three presidents — Roosevelt, Taft, and Wilson — each pursue different approaches to reform. Compare their reform philosophies and methods, using specific legislation and actions as evidence. Then evaluate which president's approach had the most lasting impact on the role of the federal government in American life.",
+      "stemEs": "La Era Progresista vio a tres presidentes — Roosevelt, Taft y Wilson — cada uno perseguir enfoques diferentes de reforma. Compare sus filosofías y métodos de reforma, usando legislación y acciones específicas como evidencia. Luego evalúe qué enfoque presidencial tuvo el impacto más duradero en el rol del gobierno federal.",
+      "itemType": "constructed-response",
+      "correctAnswer": "Strong responses should: (1) Describe each president's reform philosophy with specific examples, (2) Compare approaches systematically, (3) Make an evidence-based argument about lasting impact. Roosevelt: \"Square Deal\" — selective trust-busting (Northern Securities), consumer protection (Meat Inspection Act, Pure Food and Drug Act), conservation (150 million acres of forest reserves). Taft: more aggressive trust-busting (90 suits vs. Roosevelt's 44) but politically clumsy (Payne-Aldrich Tariff, Ballinger-Pinchot controversy). Wilson: \"New Freedom\" — Federal Reserve Act (1913), Clayton Antitrust Act (1914), FTC, graduated income tax (16th Amendment). Wilson's reforms arguably had the most lasting structural impact because the Federal Reserve and income tax became permanent foundations of modern governance.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13",
+        "US.16"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A strong response should compare Roosevelt’s Square Deal, Taft’s aggressive but politically divisive antitrust actions, and Wilson’s New Freedom using specific evidence such as the Northern Securities case, the Payne-Aldrich Tariff and Ballinger-Pinchot controversy, and the Federal Reserve Act or Clayton Antitrust Act. The best essays do more than list reforms: they explain how each president viewed federal power and make a clear argument about which approach had the most lasting effect on the role of government. This matters because the Progressive Era helped define the modern expectation that the federal government should shape the economy and protect the public.",
+      "explanationEs": "Este ítem DOK 4 requiere síntesis a través de tres administraciones, comparación de filosofías y métodos, y argumento evaluativo sobre significado duradero.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.26,
+        "b": 1.31,
+        "c": 0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13",
+          "US.14"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))",
+          "US.14->US.16: standard ADDED ['Jane Addams', 'Jacob Riis', 'Ida B. Wells-Barnett'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Jane Addams",
+            "Jacob Riis",
+            "Ida B. Wells-Barnett"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-021",
+      "stem": "The Triangle Shirtwaist Factory fire of 1911 killed 146 workers, most of them young immigrant women. Which of the following best analyzes how this event exposed the interconnected failures of multiple systems — not just a single employer's negligence?",
+      "stemEs": "El incendio de la fábrica Triangle Shirtwaist de 1911 mató a 146 trabajadores, la mayoría mujeres inmigrantes jóvenes. ¿Cuál de las siguientes opciones analiza mejor cómo este evento expuso los fallos interconectados de múltiples sistemas, no solo la negligencia de un solo empleador?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The fire exposed simultaneous failures of employer safety practices, city inspection systems, state regulatory law, and courts — all of which disproportionately failed immigrant women with limited political power.",
+          "textEs": "El incendio expuso fallos simultáneos en las prácticas de seguridad de los empleadores, los sistemas de inspección de la ciudad, la ley regulatoria estatal y los tribunales, todos los cuales fallaron desproporcionadamente a las mujeres inmigrantes con poder político limitado.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The fire primarily exposed the failure of private charities and settlement houses to provide adequate fire safety training for immigrant workers in industrial settings.",
+          "textEs": "El incendio expuso principalmente el fracaso de las organizaciones benéficas privadas y las casas de asentamiento para proporcionar capacitación adecuada en seguridad contra incendios a los trabajadores inmigrantes en entornos industriales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The tragedy was primarily the result of cultural differences: immigrant workers from Southern Europe were unfamiliar with American fire safety regulations and did not use available exits.",
+          "textEs": "La tragedia fue principalmente el resultado de diferencias culturales: los trabajadores inmigrantes del sur de Europa no estaban familiarizados con las regulaciones estadounidenses de seguridad contra incendios y no utilizaron las salidas disponibles.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The fire's systemic significance was limited because New York City already had adequate fire codes; the problem was that the Triangle owners deliberately chose to violate them for profit.",
+          "textEs": "El significado sistémico del incendio fue limitado porque la Ciudad de Nueva York ya tenía códigos de incendio adecuados; el problema fue que los propietarios de Triangle eligieron deliberadamente violarlos por ganancias.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Triangle fire revealed systemic failures at multiple levels simultaneously: employers (locked exit doors, no sprinklers), city government (inadequate building inspections, unenforced fire codes), state legislature (insufficient factory safety laws), and the courts (owners were acquitted). The young women who died were also disproportionately vulnerable because they were immigrant, female, and poor — groups with limited political power to demand enforcement. This interconnected web of failures made the fire a catalyst for comprehensive Progressive reform rather than just punishment of two employers, resulting in the NY State Factory Investigating Commission and landmark labor legislation.",
+      "explanationEs": "El incendio de Triangle reveló fallos sistémicos en múltiples niveles simultáneamente: empleadores (puertas de salida bloqueadas, sin rociadores), gobierno de la ciudad (inspecciones de edificios inadecuadas, códigos de incendio no aplicados), legislatura estatal (leyes insuficientes de seguridad en fábricas) y los tribunales (los propietarios fueron absueltos). Las mujeres jóvenes que murieron también eran desproporcionadamente vulnerables porque eran inmigrantes, mujeres y pobres, grupos con poder político limitado para exigir el cumplimiento. Esta red interconectada de fallos convirtió el incendio en un catalizador para la reforma progresista integral en lugar de simplemente el castigo de dos empleadores, resultando en la Comisión de Investigación de Fábricas del Estado de Nueva York y legislación laboral histórica.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.38,
+        "b": 0.6,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u2-022",
+      "stem": "Child labor was widespread in American factories, mines, and farms at the turn of the 20th century. Which of the following best explains why child labor persisted despite widespread awareness of its harms?",
+      "stemEs": "El trabajo infantil era generalizado en fábricas, minas y granjas estadounidenses a principios del siglo XX. ¿Cuál de las siguientes opciones explica mejor por qué el trabajo infantil persistió a pesar del conocimiento generalizado de sus daños?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Child labor persisted because most Americans in the early 20th century did not consider factory work harmful to children and actively supported it as a way to teach discipline and responsibility.",
+          "textEs": "El trabajo infantil persistió porque la mayoría de los estadounidenses a principios del siglo XX no consideraban que el trabajo en fábricas fuera dañino para los niños y lo apoyaban activamente como una forma de enseñar disciplina y responsabilidad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Child labor persisted primarily because muckraker journalists refused to cover the issue, leaving the public uninformed about the conditions children faced in factories.",
+          "textEs": "El trabajo infantil persistió principalmente porque los periodistas muckraker se negaron a cubrir el tema, dejando al público desinformado sobre las condiciones que enfrentaban los niños en las fábricas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Child labor persisted because poor families depended on children's wages to survive, employers benefited from their cheap docile labor, and interstate competition prevented any single state from enacting effective restrictions.",
+          "textEs": "El trabajo infantil persistió porque las familias pobres dependían de los salarios de los niños para sobrevivir, los empleadores se beneficiaban de su mano de obra barata y dócil, y la competencia interestatal impedía que cualquier estado individual estableciera restricciones efectivas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Child labor persisted because labor unions actively supported it, preferring that children work in factories rather than compete with adult union members for skilled positions.",
+          "textEs": "El trabajo infantil persistió porque los sindicatos laborales lo apoyaban activamente, prefiriendo que los niños trabajaran en fábricas en lugar de competir con miembros adultos del sindicato por puestos especializados.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Child labor persisted through a web of mutually reinforcing structural pressures. Poor families needed children's wages to survive — the alternative to child labor for many families was not school but starvation, which is why moral condemnation alone rarely changed behavior. Employers preferred child workers because they accepted lower wages and were more docile than adults. States competed to attract industry by maintaining weak labor laws, creating a 'race to the bottom' where stricter states lost businesses to permissive ones. This structural trap required federal legislation (ultimately the Fair Labor Standards Act of 1938) because state-level solutions were undermined by interstate competition.",
+      "explanationEs": "El trabajo infantil persistió a través de una red de presiones estructurales mutuamente reforzadas. Las familias pobres necesitaban los salarios de los niños para sobrevivir; la alternativa al trabajo infantil para muchas familias no era la escuela sino el hambre, razón por la cual la condena moral por sí sola rara vez cambió el comportamiento. Los empleadores preferían a los trabajadores infantiles porque aceptaban salarios más bajos y eran más dóciles que los adultos. Los estados competían para atraer industrias manteniendo leyes laborales débiles, creando una 'carrera a la baja' donde los estados más estrictos perdían negocios frente a los más permisivos. Esta trampa estructural requirió legislación federal (finalmente la Ley de Normas Laborales Justas de 1938) porque las soluciones a nivel estatal fueron socavadas por la competencia interestatal.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.29,
+        "b": 0.61,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u2-023",
+      "stem": "Women in late 19th and early 20th century American industry were paid significantly less than men for comparable work. Which of the following best analyzes the multiple factors that sustained this wage gap?",
+      "stemEs": "Las mujeres en la industria estadounidense de finales del siglo XIX y principios del XX recibían salarios significativamente más bajos que los hombres por trabajo comparable. ¿Cuál de las siguientes opciones analiza mejor los múltiples factores que sustentaban esta brecha salarial?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The wage gap existed primarily because women worked exclusively in lower-skilled jobs than men; where women and men performed identical tasks, pay was equal.",
+          "textEs": "La brecha salarial existía principalmente porque las mujeres trabajaban exclusivamente en empleos de menor cualificación que los hombres; donde las mujeres y los hombres realizaban tareas idénticas, el salario era igual.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The 'family wage' ideology, exclusion from most trade unions, and legal frameworks that treated women as weaker workers all worked together to normalize and entrench lower wages for women.",
+          "textEs": "La ideología del 'salario familiar', la exclusión de la mayoría de los sindicatos comerciales y los marcos legales que trataban a las mujeres como trabajadoras más débiles, trabajaron juntos para normalizar y arraigar salarios más bajos para las mujeres.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Women's wages were lower primarily because state laws explicitly prohibited employers from paying women more than a defined maximum, regardless of productivity.",
+          "textEs": "Los salarios de las mujeres eran más bajos principalmente porque las leyes estatales prohibían explícitamente a los empleadores pagar a las mujeres más de un máximo definido, independientemente de la productividad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Lower wages for women reflected their preference for part-time work and shorter hours, which led employers to classify all female positions as part-time regardless of actual hours worked.",
+          "textEs": "Los salarios más bajos para las mujeres reflejaban su preferencia por el trabajo a tiempo parcial y las horas más cortas, lo que llevó a los empleadores a clasificar todos los puestos femeninos como a tiempo parcial independientemente de las horas realmente trabajadas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The wage gap was sustained by interlocking ideological, legal, and structural factors. The 'family wage' ideology held that men required higher wages because they supported families while women worked only temporarily before marriage — regardless of the reality that many women were permanent breadwinners. Most craft unions excluded women, denying them collective bargaining power. Legal protections for women (like maximum hours laws upheld in Muller v. Oregon) were framed as protection, but actually reinforced ideas that women were weaker and less capable workers. Together, these ideological justifications, union exclusion, and legal frameworks normalized the wage differential and made it difficult for women to challenge.",
+      "explanationEs": "La brecha salarial fue sustentada por factores ideológicos, legales y estructurales entrelazados. La ideología del 'salario familiar' sostenía que los hombres requerían salarios más altos porque mantenían familias mientras las mujeres trabajaban solo temporalmente antes del matrimonio, independientemente de la realidad de que muchas mujeres eran proveedoras permanentes. La mayoría de los sindicatos gremiales excluían a las mujeres, negándoles poder de negociación colectiva. Las protecciones legales para las mujeres (como las leyes de horas máximas defendidas en Muller v. Oregon) fueron enmarcadas como protección, pero en realidad reforzaban la idea de que las mujeres eran trabajadoras más débiles y menos capaces. Juntos, estas justificaciones ideológicas, la exclusión sindical y los marcos legales normalizaron el diferencial salarial y dificultaron que las mujeres lo desafiaran.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.09,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u2-049",
+      "stem": "The National Child Labor Committee, founded in 1904, used photographer Lewis Hine's images of working children to build public support for child labor reform. Which of the following best explains how visual evidence was uniquely effective in this campaign compared to statistical data alone?",
+      "stemEs": "El Comité Nacional de Trabajo Infantil, fundado en 1904, utilizó las imágenes del fotógrafo Lewis Hine de niños trabajadores para construir apoyo público a la reforma del trabajo infantil. ¿Cuál de las siguientes opciones explica mejor cómo la evidencia visual fue únicamente efectiva en esta campaña en comparación con los datos estadísticos solos?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Visual evidence was more effective because photographs could be reproduced at low cost in mass-circulation newspapers, reaching audiences that could not afford to purchase expensive illustrated reform pamphlets.",
+          "textEs": "La evidencia visual fue más efectiva porque las fotografías podían reproducirse a bajo costo en periódicos de gran circulación, llegando a audiencias que no podían permitirse comprar costosos folletos ilustrados de reforma.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Photographs were more effective than statistics because courts required visual evidence to establish the fact of child labor before state legislatures could pass regulatory laws.",
+          "textEs": "Las fotografías fueron más efectivas que las estadísticas porque los tribunales requerían evidencia visual para establecer el hecho del trabajo infantil antes de que las legislaturas estatales pudieran aprobar leyes reguladoras.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Photographs created individual moral identification — transforming statistics about millions of child workers into emotional connection with specific children — generating the moral outrage that abstract data alone could not produce.",
+          "textEs": "Las fotografías crearon identificación moral individual, transformando las estadísticas sobre millones de niños trabajadores en conexión emocional con niños específicos, generando la indignación moral que los datos abstractos solos no podían producir.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Visual evidence was uniquely effective because the employers of child labor could not deny or reinterpret photographic documentation the way they could dispute or contextualize statistical reports.",
+          "textEs": "La evidencia visual fue únicamente efectiva porque los empleadores de trabajo infantil no podían negar o reinterpretar la documentación fotográfica de la manera en que podían disputar o contextualizar los informes estadísticos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Statistical data about child labor — numbers of children employed, average ages, injury rates — was available and widely reported but did not generate the same political pressure as Hine's photographs. Statistics describe aggregate conditions abstractly; photographs create emotional identification with specific individuals. A photograph of a 7-year-old coal breaker boy covered in dust, staring directly into the camera, made the abstraction of '1.7 million working children' concrete and morally immediate for middle-class viewers. This was a form of moral proximity that statistics cannot create. The NCLC understood that moral outrage sufficient to overcome economic interests required emotional engagement that narrative statistics alone could not produce.",
+      "explanationEs": "Los datos estadísticos sobre el trabajo infantil —número de niños empleados, edades promedio, tasas de lesiones— estaban disponibles y ampliamente reportados, pero no generaban la misma presión política que las fotografías de Hine. Las estadísticas describen condiciones agregadas de manera abstracta; las fotografías crean identificación emocional con individuos específicos. Una fotografía de un niño de 7 años rompedor de carbón cubierto de polvo, mirando directamente a la cámara, hizo que la abstracción de '1,7 millones de niños trabajadores' fuera concreta e inmediatamente moral para los espectadores de clase media. Esta era una forma de proximidad moral que las estadísticas no pueden crear. La NCLC entendía que la indignación moral suficiente para superar los intereses económicos requería participación emocional que las estadísticas narrativas solas no podían producir.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 1.05,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u2-054",
+      "stem": "The working conditions Upton Sinclair described in The Jungle — 12-hour days, dangerous machinery, no safety equipment — had been publicly documented by labor reformers for decades before the book's publication. Which of the following best explains why The Jungle succeeded in generating legislative action when earlier documentation had failed?",
+      "stemEs": "Las condiciones de trabajo que Upton Sinclair describió en La jungla —días de 12 horas, maquinaria peligrosa, sin equipo de seguridad— habían sido documentadas públicamente por los reformistas laborales durante décadas antes de la publicación del libro. ¿Cuál de las siguientes opciones explica mejor por qué La jungla tuvo éxito en generar acción legislativa cuando la documentación anterior había fallado?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Jungle succeeded because Sinclair was the first to use fictional narrative rather than dry factual reporting, and fiction proved more persuasive to legislators than factual documentation.",
+          "textEs": "La jungla tuvo éxito porque Sinclair fue el primero en usar narrativa ficticia en lugar de reportaje factual árido, y la ficción resultó ser más persuasiva para los legisladores que la documentación factual.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Jungle succeeded because progressive Republicans who had just won large congressional majorities were actively seeking legislative vehicles for reform, and the book provided the political justification they needed.",
+          "textEs": "La jungla tuvo éxito porque los republicanos progresistas que acababan de ganar grandes mayorías parlamentarias buscaban activamente vehículos legislativos para la reforma, y el libro proporcionó la justificación política que necesitaban.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Jungle succeeded where earlier documentation failed because Sinclair presented his evidence before a congressional committee in person, giving legislators direct access to his research in ways that print publications could not.",
+          "textEs": "La jungla tuvo éxito donde la documentación anterior fracasó porque Sinclair presentó su evidencia ante un comité del Congreso en persona, dando a los legisladores acceso directo a su investigación de maneras que las publicaciones impresas no podían.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The food contamination content mobilized a broader political coalition — including middle-class consumers and meat export interests — that had more political power than the worker advocates who had previously documented the same conditions.",
+          "textEs": "El contenido de contaminación de alimentos movilizó una coalición política más amplia, incluidos los consumidores de clase media y los intereses de exportación de carne, que tenía más poder político que los defensores de los trabajadores que habían documentado previamente las mismas condiciones.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The key difference is the political coalition The Jungle activated. Earlier labor reform documentation mobilized workers and their allies — already a politically marginalized group that corporations could successfully characterize as self-interested radicals. The Jungle's food contamination content mobilized a completely different group: middle-class consumers and business interests who depended on export markets. American meat exports had been declining because European governments were questioning the safety of American products. Suddenly the political coalition for reform included not just workers and their advocates but the meat industry's export interests and the middle class — constituencies with much more political power. This broadened coalition, not the documentation itself, drove legislative success.",
+      "explanationEs": "La diferencia clave es la coalición política que La jungla activó. La documentación de reforma laboral anterior movilizó a los trabajadores y sus aliados, ya un grupo políticamente marginado que las corporaciones podían caracterizar con éxito como radicales interesados. El contenido de contaminación de alimentos de La jungla movilizó a un grupo completamente diferente: consumidores de clase media e intereses empresariales que dependían de los mercados de exportación. Las exportaciones de carne estadounidense habían estado disminuyendo porque los gobiernos europeos cuestionaban la seguridad de los productos estadounidenses. De repente, la coalición política para la reforma incluía no solo a trabajadores y sus defensores sino a los intereses de exportación de la industria cárnica y a la clase media, circunscripciones con mucho más poder político. Esta coalición ampliada, no la documentación en sí misma, impulsó el éxito legislativo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.63,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u2-058",
+      "stem": "Working women in the early 20th century faced the dilemma that protective labor legislation (maximum hours laws, restrictions on night work) simultaneously protected them from exploitation and reinforced their second-class status in the labor market. Which of the following best evaluates this tension?",
+      "stemEs": "Las mujeres trabajadoras a principios del siglo XX enfrentaban el dilema de que la legislación laboral protectora (leyes de horas máximas, restricciones al trabajo nocturno) simultáneamente las protegía de la explotación y reforzaba su estatus de segunda clase en el mercado laboral. ¿Cuál de las siguientes opciones evalúa mejor esta tensión?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Protective legislation had no genuine protective value for working women because employers found ways to circumvent all restrictions within months of each law's passage.",
+          "textEs": "La legislación protectora no tuvo valor protector genuino para las mujeres trabajadoras porque los empleadores encontraron formas de eludir todas las restricciones a los meses de la aprobación de cada ley.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The tension was resolved by the National Woman's Party, which successfully argued that women and men required identical labor laws and that any sex-specific legislation was inherently discriminatory.",
+          "textEs": "La tensión fue resuelta por el Partido Nacional de la Mujer, que argumentó con éxito que las mujeres y los hombres requerían leyes laborales idénticas y que cualquier legislación específica por sexo era inherentemente discriminatoria.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Protective legislation was purely beneficial for working women because any measure that reduced hours and improved conditions created a foundation from which women could subsequently demand equal treatment in all other employment matters.",
+          "textEs": "La legislación protectora fue puramente beneficiosa para las mujeres trabajadoras porque cualquier medida que redujera las horas y mejorara las condiciones creaba una base desde la cual las mujeres podían posteriormente exigir un trato igualitario en todos los demás asuntos de empleo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Protective labor laws simultaneously provided real protections and reinforced legal distinctions treating women as less capable workers — demonstrating how 'protection' can encode subordinating assumptions while addressing genuine vulnerabilities.",
+          "textEs": "Las leyes laborales protectoras simultáneamente proporcionaban protecciones reales y reforzaban distinciones legales que trataban a las mujeres como trabajadoras menos capaces, demostrando cómo la 'protección' puede codificar suposiciones subordinantes mientras aborda vulnerabilidades genuinas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Muller v. Oregon (1908) case upheld maximum hours laws for women specifically by accepting the argument that women's physical and maternal characteristics made them uniquely in need of protection. While this did provide real protections that prevented some exploitation, it simultaneously established in law the principle that women were different from male workers in ways that justified different (lower) treatment — less access to higher-paid night shifts, exclusion from 'hazardous' jobs that also paid more. The legal framework of 'protection' was built on premises about female incapacity that employers then used to justify occupational segregation and lower pay. This reveals how 'protection' and 'discrimination' are not always clearly distinct — protective measures can simultaneously address real vulnerabilities while encoding subordinating assumptions.",
+      "explanationEs": "El caso Muller v. Oregon (1908) defendió las leyes de horas máximas para las mujeres específicamente aceptando el argumento de que las características físicas y maternales de las mujeres las hacían únicamente necesitadas de protección. Si bien esto proporcionó protecciones reales que prevenían cierta explotación, simultáneamente estableció en la ley el principio de que las mujeres eran diferentes de los trabajadores masculinos de maneras que justificaban un trato diferente (inferior): menos acceso a turnos nocturnos mejor pagados, exclusión de trabajos 'peligrosos' que también pagaban más. El marco legal de 'protección' se construyó sobre premisas sobre la incapacidad femenina que los empleadores luego usaban para justificar la segregación ocupacional y los salarios más bajos. Esto revela cómo 'protección' y 'discriminación' no siempre están claramente distintas: las medidas protectoras pueden abordar simultáneamente vulnerabilidades reales mientras codifican suposiciones subordinantes.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.33,
+        "b": 0.63,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u2-085",
+      "stem": "Working conditions for women in the early 20th century were the subject of both labor reform legislation and protective labor laws. Which of the following best analyzes how the Supreme Court's reasoning in Muller v. Oregon (1908) reflected and reinforced broader societal assumptions about gender?",
+      "stemEs": "Las condiciones de trabajo para las mujeres a principios del siglo XX fueron objeto tanto de legislación de reforma laboral como de leyes laborales protectoras. ¿Cuál de las siguientes opciones analiza mejor cómo el razonamiento de la Corte Suprema en Muller v. Oregon (1908) reflejó y reforzó supuestos sociales más amplios sobre el género?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Muller v. Oregon reflected societal assumptions that women were morally superior to men and needed protection from the corrupting influence of long working hours in male-dominated industrial environments.",
+          "textEs": "Muller v. Oregon reflejó supuestos sociales de que las mujeres eran moralmente superiores a los hombres y necesitaban protección de la influencia corruptora de las largas horas de trabajo en entornos industriales dominados por hombres.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Court's reasoning reflected no specific gender assumptions; the decision applied the same protective rationale it used in earlier decisions upholding maximum hours laws for male workers in particularly dangerous occupations.",
+          "textEs": "El razonamiento del Tribunal no reflejó supuestos de género específicos; la decisión aplicó el mismo fundamento protector que había usado en decisiones anteriores confirmando leyes de horas máximas para trabajadores masculinos en ocupaciones particularmente peligrosas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Muller v. Oregon reflected the assumption that all workers, male and female, required state protection from industrial exploitation, but used women as the test case because their political powerlessness made them most vulnerable to employer abuses.",
+          "textEs": "Muller v. Oregon reflejó el supuesto de que todos los trabajadores, masculinos y femeninos, requerían protección estatal de la explotación industrial, pero usó a las mujeres como caso de prueba porque su impotencia política las hacía más vulnerables a los abusos de los empleadores.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Court grounded women's protection in their physical difference and reproductive capacity — real protections that simultaneously encoded women's categorical difference from male workers in constitutional law, creating a legal framework later used to justify occupational exclusion.",
+          "textEs": "El Tribunal fundamentó la protección de las mujeres en su diferencia física y capacidad reproductiva, protecciones reales que simultáneamente codificaron la diferencia categórica de las mujeres de los trabajadores masculinos en el derecho constitucional, creando un marco legal usado más tarde para justificar la exclusión ocupacional.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Muller v. Oregon decision upheld an Oregon maximum hours law for women by accepting Louis Brandeis's argument (the 'Brandeis Brief') that women's physical constitution and maternal role made them uniquely in need of workplace protection that men did not require. The Court explicitly grounded its ruling in the difference between male and female workers, treating women's reproductive capacity as a legitimate basis for differential treatment. While this provided real protections — shorter workdays for women — it simultaneously encoded in constitutional law the assumption that women were categorically different from and less capable than male workers, a legal framework that courts would later use to justify excluding women from better-paying jobs classified as requiring 'physical strength' or involving 'danger.' The decision is a historical example of how protective measures can simultaneously advance and constrain the groups they claim to protect.",
+      "explanationEs": "La decisión de Muller v. Oregon confirmó una ley de Oregon de horas máximas para mujeres al aceptar el argumento de Louis Brandeis (el 'Informe Brandeis') de que la constitución física y el rol materno de las mujeres las hacían únicamente necesitadas de protección en el lugar de trabajo que los hombres no requerían. El Tribunal fundamentó explícitamente su fallo en la diferencia entre trabajadores masculinos y femeninos, tratando la capacidad reproductiva de las mujeres como base legítima para el trato diferencial. Si bien esto proporcionó protecciones reales —jornadas laborales más cortas para las mujeres—, simultáneamente codificó en el derecho constitucional la suposición de que las mujeres eran categóricamente diferentes y menos capaces que los trabajadores masculinos, un marco legal que los tribunales utilizarían más tarde para justificar la exclusión de las mujeres de empleos mejor pagados clasificados como que requieren 'fuerza física' o involucran 'peligro'. La decisión es un ejemplo histórico de cómo las medidas protectoras pueden simultáneamente avanzar y restringir a los grupos que afirman proteger.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.41,
+        "b": 0.67,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u2-090",
+      "stem": "The Progressive Era's reforms in workplace safety, child labor, and women's work conditions were achieved despite fierce opposition from employers. Which of the following best evaluates the most important structural change that made Progressive labor regulation possible despite this opposition?",
+      "stemEs": "Las reformas de la Era Progresista en seguridad en el lugar de trabajo, trabajo infantil y condiciones laborales de las mujeres se lograron a pesar de la feroz oposición de los empleadores. ¿Cuál de las siguientes opciones evalúa mejor el cambio estructural más importante que hizo posible la regulación laboral progresista a pesar de esta oposición?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Progressive political reforms — direct primaries, direct Senate election, initiative and referendum — changed the structure of representation, reducing corporate interests' ability to block labor legislation through machine-controlled legislatures.",
+          "textEs": "Las reformas políticas progresistas, primarias directas, elección directa del Senado, iniciativa y referéndum, cambiaron la estructura de representación, reduciendo la capacidad de los intereses corporativos de bloquear la legislación laboral a través de legislaturas controladas por maquinarias.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Labor regulation became possible when courts changed their interpretation of the 14th Amendment's due process clause to allow state regulation of economic liberty in the public interest, removing the main constitutional barrier to reform.",
+          "textEs": "La regulación laboral se hizo posible cuando los tribunales cambiaron su interpretación de la cláusula de debido proceso de la 14.ª Enmienda para permitir la regulación estatal de la libertad económica en interés público, eliminando la principal barrera constitucional a la reforma.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Labor regulation became possible primarily because major corporations decided that standardized federal labor regulations were preferable to the uncertainty of varying state regulations, and therefore withdrew their opposition once federal legislation was proposed.",
+          "textEs": "La regulación laboral se hizo posible principalmente porque las principales corporaciones decidieron que las regulaciones laborales federales estandarizadas eran preferibles a la incertidumbre de las regulaciones estatales variables y, por lo tanto, retiraron su oposición una vez que se propuso legislación federal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The most important structural change was the rise of professional social workers who provided the technical expertise that legislators needed to draft effective labor regulations that could withstand legal challenges from employers.",
+          "textEs": "El cambio estructural más importante fue el surgimiento de trabajadores sociales profesionales que proporcionaron la experiencia técnica que los legisladores necesitaban para redactar regulaciones laborales efectivas que pudieran resistir los desafíos legales de los empleadores.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Before Progressive Era political reforms, corporate interests could more easily block labor legislation through control of state legislatures via political machines. The shift to direct primaries reduced machine bosses' control over nominations; the 17th Amendment directly elected senators who had previously been chosen by corporate-influenced state legislatures; the initiative and referendum allowed reform coalitions to bypass captured legislatures entirely. These changes in the political structure of representation made it possible for reform majorities to convert public support for labor regulation into actual legislation over employer opposition. The content of the reforms did not change — labor reformers had been demanding similar changes for decades — but the political institutions changed in ways that made corporate blocking strategies less effective.",
+      "explanationEs": "Antes de las reformas políticas de la Era Progresista, los intereses corporativos podían bloquear más fácilmente la legislación laboral a través del control de las legislaturas estatales mediante las maquinarias políticas. El cambio a las primarias directas redujo el control de los jefes de las maquinarias sobre las nominaciones; la 17.ª Enmienda eligió directamente a los senadores que anteriormente eran elegidos por las legislaturas estatales influenciadas por corporaciones; la iniciativa y el referéndum permitieron a las coaliciones de reforma evitar por completo las legislaturas capturadas. Estos cambios en la estructura política de la representación hicieron posible que las mayorías reformistas convirtieran el apoyo público a la regulación laboral en legislación real frente a la oposición de los empleadores. El contenido de las reformas no cambió: los reformistas laborales habían exigido cambios similares durante décadas, pero las instituciones políticas cambiaron de maneras que hicieron que las estrategias de bloqueo corporativo fueran menos efectivas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2,
+        "b": 0.84,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U2-DOK3-0011",
+      "stem": "Which best explains why the United States initially maintained neutrality when World War I began in Europe in 1914? H A significant portion of the American population had ethnic and cultural ties to both sides of the conflict, making full support for either alliance politically divisive. B. Most Americans had strong cultural and economic ties to Germany and the Central Powers that made opposing them politically unpopular. C. President Wilson believed the United States military was too unprepared to fight a major European land war. D. Congress had passed binding legislation requiring the United States to remain neutral in all conflicts between European nations. CORRECT ANSWER",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A significant portion of the American population had ethnic and cultural ties to both sides of the conflict, making full support for either alliance politically divisive.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Most Americans had strong cultural and economic ties to Germany and the Central Powers that made opposing them politically unpopular.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "President Wilson believed the United States military was too unprepared to fight a major European land war.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Congress had passed binding legislation requiring the United States to remain neutral in all conflicts between European nations.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.13"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wilson explicitly cited the diverse ethnic loyalties of the American population in calling for neutrality 'in thought as well as deed.' German Americans, Irish Americans, and Anglo Americans all had competing sympathies that made alignment with either side politically untenable.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us11-dok4-cr-3",
+      "stem": "Read the following excerpt from the Report of the Factory Investigating Commission of the State of New York (1912), established in the aftermath of the Triangle Shirtwaist Factory fire of March 25, 1911 (available through the New York State Library and the National Archives):\n\n\"The fire at the Triangle Waist Company demonstrated beyond all question that the present system of factory inspection is wholly inadequate for the protection of those employed in manufacturing establishments... In this fire 146 persons lost their lives, nearly all of them young women and girls employed in garment-making. Exit doors were found locked. Fire escapes were inadequate. No sprinkler system existed. The owners had given no fire drills. The investigation has shown that this tragedy was not an accident — it was the predictable result of unchecked industrial power operating without legislative constraint.\"\n— New York Factory Investigating Commission, Preliminary Report, 1912\n\nUsing this excerpt and your knowledge of the labor movement (US.11) and government regulation of industry (US.13), write a constructed response that:\n1. States a CLAIM about whether the labor movement or government regulation was the more effective force for protecting American workers during the Progressive Era.\n2. Provides at least TWO pieces of specific EVIDENCE — one from the excerpt and one from your knowledge of labor unions, strikes, or legislative reforms — to support your claim.\n3. Offers REASONING that explains the relationship between labor organizing and government action, addressing why one mechanism proved more durable than the other in protecting worker rights.\n\nYour response should be one to two well-developed paragraphs.",
+      "stemEs": "Lee el siguiente fragmento del Informe de la Comisión de Investigación de Fábricas del Estado de Nueva York (1912), establecida tras el incendio de la fábrica Triangle Shirtwaist el 25 de marzo de 1911 (disponible en la Biblioteca del Estado de Nueva York y los Archivos Nacionales):\n\n\"El incendio en Triangle Waist Company demostró sin lugar a dudas que el sistema actual de inspección de fábricas es completamente inadecuado para proteger a los empleados en establecimientos manufactureros... En este incendio perdieron la vida 146 personas, casi todas mujeres jóvenes y niñas empleadas en la confección de prendas. Se encontraron puertas de salida cerradas con llave. Las escaleras de incendios eran inadecuadas. No existía sistema de rociadores. Los propietarios no habían realizado simulacros de incendio. La investigación ha demostrado que esta tragedia no fue un accidente — fue el resultado predecible del poder industrial no controlado que operaba sin restricciones legislativas.\"\n— Comisión de Investigación de Fábricas de Nueva York, Informe Preliminar, 1912\n\nUsando este fragmento y tu conocimiento del movimiento obrero (US.11) y la regulación gubernamental de la industria (US.13), escribe una respuesta construida que:\n1. Establezca un ARGUMENTO sobre si el movimiento obrero o la regulación gubernamental fue la fuerza más efectiva para proteger a los trabajadores estadounidenses durante la Era Progresista.\n2. Proporcione al menos DOS piezas de EVIDENCIA específica — una del fragmento y una de tu conocimiento sobre sindicatos laborales, huelgas o reformas legislativas.\n3. Ofrezca RAZONAMIENTO que explique la relación entre la organización laboral y la acción gubernamental, abordando por qué un mecanismo resultó más duradero que el otro.\n\nTu respuesta debe ser de uno a dos párrafos bien desarrollados.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-scoring response might claim that government regulation ultimately proved more durable because labor organizing alone was vulnerable to suppression, while legislation created structural protections. The student uses the commission report's conclusion — that the disaster was \"the predictable result of unchecked industrial power operating without legislative constraint\" — as evidence that the absence of regulation (not worker organization) was the primary failure. Outside knowledge evidence might include: the International Ladies' Garment Workers' Union (ILGWU) organizing drives; the 1909 \"Uprising of the 20,000\" shirtwaist workers' strike; and the post-fire passage of New York labor laws (1911-1913) that became a national model. Strong reasoning explains that the AFL and early unions could not compel employers to improve safety conditions without legal backing, and that the Triangle fire galvanized political will for state intervention, demonstrating that labor action and government regulation were complementary rather than competing forces.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.11, US.13 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.13",
+        "US.14"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n\n4 — Exemplary: Takes a clear, historically defensible position on labor organizing vs. government regulation. Uses excerpt evidence (e.g., the commission's conclusion about \"unchecked industrial power\") and specific outside knowledge evidence (e.g., ILGWU, the \"Uprising of the 20,000,\" AFL organizing, specific New York labor laws passed 1911-1913, or the Sherman/Clayton Acts). Reasoning explicitly explains the relationship between the two forces and evaluates durability, addressing why one mechanism outlasted the other. Synthesis spans US.11 and US.13 and may connect to US.14 (muckrakers) or US.18 (TR/progressivism).\n\n3 — Proficient: Clear claim with two pieces of evidence. Reasoning present but does not fully develop the comparison between labor organizing and government regulation.\n\n2 — Developing: Claim present but takes no clear position on the relative effectiveness of the two forces. One substantial evidence piece. Reasoning undeveloped.\n\n1 — Beginning: Summarizes the fire without analytical claim. Minimal evidence or only paraphrase of the excerpt.\n\n0 — No response or off-topic.\n\nKEY EVIDENCE EXPECTED: Triangle Shirtwaist Factory fire (March 25, 1911) — 146 deaths; ILGWU and the \"Uprising of the 20,000\" (1909); American Federation of Labor (AFL) under Samuel Gompers; New York Factory Acts (1911-1913); Sherman Antitrust Act (1890) and Clayton Antitrust Act (1914); Frances Perkins's role as a witness to the fire and later labor reformer; the political coalition between labor unions and Progressive reformers that produced workplace safety legislation.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n\n4 — Ejemplar: Toma una posición clara y históricamente defendible sobre la organización laboral frente a la regulación gubernamental. Usa evidencia del fragmento (p. ej., la conclusión de la comisión sobre el \"poder industrial no controlado\") y evidencia externa específica (p. ej., ILGWU, el \"Levantamiento de las 20,000,\" la AFL, leyes laborales de Nueva York de 1911-1913, o las Leyes Sherman/Clayton). El razonamiento explica explícitamente la relación entre las dos fuerzas y evalúa su durabilidad.\n\n3 — Competente: Argumento claro con dos piezas de evidencia. El razonamiento está presente pero no desarrolla completamente la comparación.\n\n2 — En desarrollo: El argumento está presente pero no toma una posición clara sobre la efectividad relativa de las dos fuerzas. Una pieza de evidencia sustancial.\n\n1 — Inicial: Resume el incendio sin argumento analítico. Evidencia mínima.\n\n0 — Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Incendio de Triangle Shirtwaist (25 de marzo de 1911) — 146 muertes; ILGWU y el \"Levantamiento de las 20,000\" (1909); AFL bajo Samuel Gompers; Leyes de Fábricas de Nueva York (1911-1913); Ley Sherman Antimonopolio (1890) y Ley Clayton Antimonopolio (1914); Frances Perkins como testigo del incendio y reformadora laboral posterior.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.39,
+        "b": 0.48,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.11",
+          "US.13"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.11->US.14: checklist intact (3 element(s))",
+          "US.13->US.13: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us18-dok4-cr-7",
+      "stem": "Read the following excerpt from Theodore Roosevelt, \"The New Nationalism\" speech delivered at Osawatomie, Kansas, August 31, 1910, and published by the National Archives:\n\n\"The man who wrongly holds that every human right is secondary to his profit must now give way to the advocate of human welfare, who rightly maintains that every man holds his property subject to the general right of the community to regulate its use to whatever degree the public welfare may require it. The New Nationalism puts the national need before sectional or personal advantage. It is impatient of the utter confusion that results from local legislatures attempting to treat national issues as local issues. It is still more impatient of the impotence which springs from overdivision of governmental powers, the impotence which makes it possible for local selfishness or for legal cunning, hired by wealthy special interests, to bring national activities to a deadlock.\"\n— Theodore Roosevelt, \"The New Nationalism,\" Osawatomie, Kansas, August 31, 1910\n\nUsing this excerpt and your knowledge of Theodore Roosevelt's progressivism (US.18) and government regulation of industry (US.13), write a constructed response that:\n1. States a CLAIM about the extent to which Roosevelt's \"New Nationalism\" represented a genuine expansion of federal regulatory power or was primarily rhetorical positioning.\n2. Provides at least TWO pieces of specific EVIDENCE — one from the excerpt and one from your knowledge of Roosevelt's specific regulatory actions as president or the legislative legacy of his progressivism — to support your claim.\n3. Provides REASONING that evaluates the long-term tension between expanded federal authority and constitutional limits on executive power, connecting Roosevelt's vision to specific outcomes during or after his presidency.\n\nYour response should be one to two well-developed paragraphs.",
+      "stemEs": "Lee el siguiente fragmento del discurso de Theodore Roosevelt, \"El Nuevo Nacionalismo,\" pronunciado en Osawatomie, Kansas, el 31 de agosto de 1910, y publicado por los Archivos Nacionales:\n\n\"El hombre que sostiene erróneamente que cada derecho humano es secundario a su ganancia debe ahora ceder el paso al defensor del bienestar humano, quien mantiene correctamente que cada hombre posee su propiedad sujeta al derecho general de la comunidad de regular su uso hasta el grado que el bienestar público pueda requerirlo. El Nuevo Nacionalismo antepone la necesidad nacional a la ventaja sectorial o personal. Es impaciente con la total confusión que resulta de las legislaturas locales que intentan tratar los asuntos nacionales como asuntos locales. Es aún más impaciente con la impotencia que surge de la excesiva división de los poderes gubernamentales, la impotencia que hace posible que el egoísmo local o la astucia legal, contratada por intereses especiales adinerados, paralice las actividades nacionales.\"\n— Theodore Roosevelt, \"El Nuevo Nacionalismo,\" Osawatomie, Kansas, 31 de agosto de 1910\n\nUsando este fragmento y tu conocimiento del progresismo de Theodore Roosevelt (US.18) y la regulación gubernamental de la industria (US.13), escribe una respuesta construida que:\n1. Establezca un ARGUMENTO sobre en qué medida el \"Nuevo Nacionalismo\" de Roosevelt representó una expansión genuina del poder regulador federal o fue principalmente un posicionamiento retórico.\n2. Proporcione al menos DOS piezas de EVIDENCIA específica — una del fragmento y una de tu conocimiento sobre las acciones regulatorias específicas de Roosevelt como presidente o el legado legislativo de su progresismo.\n3. Proporcione RAZONAMIENTO que evalúe la tensión a largo plazo entre la autoridad federal ampliada y los límites constitucionales del poder ejecutivo.\n\nTu respuesta debe ser de uno a dos párrafos bien desarrollados.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-scoring response claims that Roosevelt's New Nationalism was both substantive and rhetorical — it built on real regulatory precedents from his presidency but also signaled an ambition that exceeded what his actual record achieved. The student uses the excerpt's argument that property rights are \"subject to the general right of the community\" as evidence that Roosevelt articulated a genuinely expansive theory of federal authority. Outside knowledge evidence includes: the Bureau of Corporations (1903), the Hepburn Act (1906) strengthening ICC railroad regulation, the Pure Food and Drug Act (1906), the dissolution of Northern Securities Company (1902) as the first major trust-bust, and the designation of 150 million acres of national forest reserves. Strong reasoning notes the tension between Roosevelt's rhetoric and constitutional constraints: the Supreme Court and Congress limited regulatory expansion, and Roosevelt's inability to translate New Nationalism into legislation in 1912 (his Progressive Party campaign) revealed the limits of executive progressivism without legislative backing.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.18, US.13 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.13",
+        "US.20"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n\n4 — Exemplary: States a clear, historically defensible claim that evaluates both the substantive and rhetorical dimensions of Roosevelt's New Nationalism. Uses excerpt evidence (e.g., \"property subject to the general right of the community\") and at least one specific outside knowledge evidence piece (Northern Securities dissolution 1902, Hepburn Act 1906, Pure Food and Drug Act 1906, Bureau of Corporations, national forest reserves, or the 1912 Progressive Party campaign). Reasoning evaluates the long-term tension between federal authority and constitutional limits, connecting Roosevelt's vision to specific outcomes. Synthesis spans US.13 and US.18 and may reference US.14 (muckrakers) or US.12 (monopoly).\n\n3 — Proficient: Clear claim with two evidence pieces. Reasoning present but does not fully develop the tension between rhetoric and reality or between executive and constitutional power.\n\n2 — Developing: Claim is present but either treats Roosevelt as purely successful or purely rhetorical without nuance. One evidence piece.\n\n1 — Beginning: Summarizes Roosevelt's views without analytical claim.\n\n0 — No response or off-topic.\n\nKEY EVIDENCE EXPECTED: Northern Securities Company dissolution (1902) — first major trust bust; Hepburn Act (1906) — ICC regulation of railroads; Pure Food and Drug Act and Meat Inspection Act (1906); Bureau of Corporations; 150 million acres of national forest reserved; the \"Square Deal\" domestic program; Roosevelt's \"stewardship theory\" of executive power; the 1912 Progressive (\"Bull Moose\") Party campaign and its loss to Wilson; Taft's more restrained approach as Roosevelt's successor.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n\n4 — Ejemplar: Establece un argumento claro y históricamente defendible que evalúa tanto las dimensiones sustantivas como retóricas del Nuevo Nacionalismo de Roosevelt. Usa evidencia del fragmento y al menos una pieza de conocimiento externo (disolución de Northern Securities 1902, Ley Hepburn 1906, Ley de Alimentos y Medicamentos Puros 1906, Oficina de Corporaciones, reservas forestales nacionales, o la campaña del Partido Progresista de 1912). El razonamiento evalúa la tensión a largo plazo entre la autoridad federal y los límites constitucionales.\n\n3 — Competente: Argumento claro con dos piezas de evidencia. El razonamiento está presente pero no desarrolla completamente la tensión entre retórica y realidad.\n\n2 — En desarrollo: El argumento está presente pero trata a Roosevelt como completamente exitoso o completamente retórico sin matices.\n\n1 — Inicial: Resume los puntos de vista de Roosevelt sin argumento analítico.\n\n0 — Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Disolución de Northern Securities Company (1902); Ley Hepburn (1906); Ley de Alimentos y Medicamentos Puros y Ley de Inspección de Carne (1906); Oficina de Corporaciones; 150 millones de acres de bosques nacionales reservados; el programa \"Trato Justo\"; la teoría de \"mayordomía\" del poder ejecutivo de Roosevelt; la campaña del Partido Progresista (\"Bull Moose\") de 1912 y su derrota ante Wilson.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.3,
+        "b": -0.12,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13",
+          "US.18"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))",
+          "US.18->US.20: standard ADDED ['Legacy of Susan B. Anthony'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Legacy of Susan B. Anthony"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us14-dok4-er-4",
+      "stem": "Extended Response: No sources are provided. Draw on your knowledge of United States history to construct your argument.\n\nPROMPT: The Progressive Era developed two distinct instruments for challenging concentrated economic power: investigative journalism and executive leadership. Each had different strengths, limitations, and modes of operation — and their relationship was often collaborative, competitive, and occasionally adversarial.\n\nWrite an extended response in which you construct a historically defensible argument that responds to the following question:\n\nHow did the relationship between muckraker journalism and presidential leadership shape the scope and limits of Progressive Era reform between 1901 and 1920? In your argument, evaluate whether the combination of journalistic exposure and executive power was sufficient to achieve the structural reforms that Progressive reformers sought.\n\nIn your response:\n- State a clear CLAIM that takes a defensible position on the relationship and its effectiveness.\n- Provide at least THREE specific pieces of EVIDENCE from your knowledge of muckrakers (US.14), Theodore Roosevelt's progressivism (US.18), and government regulation (US.13) that support your claim.\n- Provide REASONING that evaluates the specific mechanisms by which journalism and executive leadership interacted — when they reinforced each other, when they diverged, and why their combination still left structural problems unresolved.\n- Demonstrate SYNTHESIS by connecting the journalism-executive power relationship to either the muckraking tradition before the Progressive Era (e.g., pre-Civil War abolitionist press) or to a post-Progressive Era moment when the same dynamic recurred (e.g., Watergate and the press, or the New Deal's use of media).\n\nYour response should be two to three well-developed paragraphs.",
+      "stemEs": "Respuesta Extendida: No se proporcionan fuentes. Basa tu respuesta en tu conocimiento de la historia de los Estados Unidos.\n\nENUNCIADO: La Era Progresista desarrolló dos instrumentos distintos para desafiar el poder económico concentrado: el periodismo de investigación y el liderazgo ejecutivo. Cada uno tenía diferentes fortalezas, limitaciones y modos de operación — y su relación fue a menudo colaborativa, competitiva y ocasionalmente adversarial.\n\nEscribe una respuesta extendida en la que construyas un argumento históricamente defendible que responda a la siguiente pregunta:\n\n¿Cómo moldeó la relación entre el periodismo de denuncia y el liderazgo presidencial el alcance y los límites de la reforma de la Era Progresista entre 1901 y 1920? En tu argumento, evalúa si la combinación de exposición periodística y poder ejecutivo fue suficiente para lograr las reformas estructurales que buscaban los reformadores progresistas.\n\nEn tu respuesta:\n- Establece un ARGUMENTO claro que tome una posición defendible sobre la relación y su efectividad.\n- Proporciona al menos TRES piezas específicas de EVIDENCIA de tu conocimiento sobre los denunciantes (US.14), el progresismo de Theodore Roosevelt (US.18) y la regulación gubernamental (US.13) que apoyen tu argumento.\n- Proporciona RAZONAMIENTO que evalúe los mecanismos específicos por los cuales el periodismo y el liderazgo ejecutivo interactuaron.\n- Demuestra SÍNTESIS conectando la relación periodismo-poder ejecutivo con ya sea la tradición de denuncia antes de la Era Progresista (p. ej., la prensa abolicionista previa a la Guerra Civil) o con un momento posterior a la Era Progresista en que ocurrió la misma dinámica (p. ej., Watergate y la prensa, o el uso de los medios por el New Deal).\n\nTu respuesta debe ser de dos a tres párrafos bien desarrollados.",
+      "itemType": "extended-response",
+      "correctAnswer": "A top-scoring response argues that journalism and executive leadership were mutually reinforcing within specific issue areas — food safety, railroad regulation, antitrust — but that their combination was insufficient to achieve structural reforms because it depended on individual leadership rather than institutional transformation. Evidence (1): Upton Sinclair's The Jungle (1906) → Roosevelt ordered independent inspections → Pure Food and Drug Act (1906) — a clear journalism-to-legislation pathway in which executive action was the bridge between public outrage and law. Evidence (2): Ida Tarbell's Standard Oil (1904) → informed public opinion → but took seven years and a Supreme Court case (1911) to produce dissolution, and only under Taft, not TR — showing that journalism without immediate executive commitment could not accelerate reform. Evidence (3): Roosevelt coined the term \"muckraker\" (1906) as a critique of journalists who went too far — revealing that the journalism-executive relationship was not purely collaborative; TR used and limited investigative journalism to maintain control over reform's pace and scope. Reasoning: the combination worked when journalists exposed issues the public could easily understand (tainted food) and executives found politically advantageous to address; it failed when the structural remedy required challenging entrenched corporate political power (labor rights, minimum wage). Synthesis: connects to the abolitionist press (Garrison's Liberator, 1831-1865) — the same dynamic of moral journalism failing to achieve structural change without executive (Lincoln) leadership and ultimately a constitutional amendment; OR connects to the New Deal — FDR's fireside chats and use of radio as a media instrument shows how the journalism-executive power relationship evolved into direct executive communication with the public.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.14, US.18, US.13 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.13",
+        "US.16",
+        "US.20"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n\n4 — Exemplary: States a clear, historically defensible claim about the journalism-executive relationship and its structural limits. Provides three or more specific evidence pieces spanning US.13, US.14, and US.18, including at least one example of successful collaboration and one of divergence or failure. Reasoning evaluates the specific mechanisms — issue salience, political advantage, corporate power — that determined when the combination worked and when it did not. Synthesis connects to either the abolitionist press or a post-Progressive example with explicit reasoning about the recurring dynamic.\n\n3 — Proficient: Clear claim. Two to three evidence pieces. Reasoning present but does not fully explain the mechanisms of success or failure. Synthesis present but not fully developed.\n\n2 — Developing: Claim may address only the collaboration side or only the failure side. Two evidence pieces. Reasoning describes rather than evaluates.\n\n1 — Beginning: Minimal claim. One evidence piece. No synthesis.\n\n0 — No response or off-topic.\n\nKEY EVIDENCE EXPECTED: Upton Sinclair's The Jungle (1906) and Pure Food and Drug Act (1906); Ida Tarbell's Standard Oil (1904) and the 7-year gap before dissolution; Lincoln Steffens's The Shame of the Cities (1904); TR's \"muckraker\" speech (1906) distancing himself from radical journalism; TR's distinction between \"good\" and \"bad\" trusts; the Northern Securities case (1902) as TR initiative (pre-dating major muckraking); Hepburn Act (1906) strengthening railroad regulation; Bureau of Corporations as TR's preferred regulatory tool; the Clayton Act (1914) under Wilson as a post-TR reform; absence of federal minimum wage or right to organize.\n\nSYNTHESIS EXPECTATIONS: Abolitionist press (Garrison, Douglass's North Star) — moral journalism that created public pressure but required Lincoln's executive leadership and ultimately constitutional amendment (13th) to achieve structural change; OR New Deal media — FDR's fireside chats as an evolution from the journalism-dependent Progressive model to direct executive communication, showing how subsequent administrations learned from TR's approach.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n\n4 — Ejemplar: Establece un argumento claro y históricamente defendible sobre la relación periodismo-ejecutivo y sus límites estructurales. Proporciona tres o más piezas específicas de evidencia que abarcan US.13, US.14 y US.18, incluyendo al menos un ejemplo de colaboración exitosa y uno de divergencia o fracaso. El razonamiento evalúa los mecanismos específicos que determinaron cuándo la combinación funcionó y cuándo no. La síntesis conecta con la prensa abolicionista o un ejemplo post-progresista.\n\n3 — Competente: Argumento claro. Dos a tres piezas de evidencia. El razonamiento está presente pero no explica completamente los mecanismos de éxito o fracaso. Síntesis presente pero no completamente desarrollada.\n\n2 — En desarrollo: El argumento puede abordar solo el lado de la colaboración o solo el del fracaso. Dos piezas de evidencia. El razonamiento describe en lugar de evaluar.\n\n1 — Inicial: Argumento mínimo. Una pieza de evidencia. Sin síntesis.\n\n0 — Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: La Jungla de Sinclair (1906) y la Ley de Alimentos y Medicamentos Puros (1906); Standard Oil de Tarbell (1904) y la brecha de 7 años antes de la disolución; La Vergüenza de las Ciudades de Steffens (1904); discurso \"muckraker\" de TR (1906); distinción de TR entre trusts \"buenos\" y \"malos\"; caso Northern Securities (1902); Ley Hepburn (1906); Oficina de Corporaciones; Ley Clayton (1914).\n\nEXPECTATIVAS DE SÍNTESIS: Prensa abolicionista (Garrison, North Star de Douglass) — periodismo moral que creó presión pública pero requirió liderazgo ejecutivo de Lincoln y finalmente una enmienda constitucional (13ª) para lograr un cambio estructural; O medios del New Deal — las charlas del hogar de FDR como una evolución del modelo periodístico progresista.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.15,
+        "b": 0.81,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.13",
+          "US.14",
+          "US.18"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.13->US.13: checklist intact (0 element(s))",
+          "US.14->US.16: standard ADDED ['Jane Addams', 'Jacob Riis', 'Ida B. Wells-Barnett'] — coverage gap at the standard, not a defect in this item",
+          "US.18->US.20: standard ADDED ['Legacy of Susan B. Anthony'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Jane Addams",
+            "Jacob Riis",
+            "Ida B. Wells-Barnett",
+            "Legacy of Susan B. Anthony"
+          ]
+        }
+      }
+    }
+  ]
+}

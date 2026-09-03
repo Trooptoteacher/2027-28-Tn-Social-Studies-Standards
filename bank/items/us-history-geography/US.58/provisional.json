@@ -6,37 +6,37 @@
   "disclosure": "classroom-formative · pre-field-test",
   "items": [
     {
-      "id": "q-us58-59-corroboration-1",
-      "stem": "Compare the goals stated in the UN Charter with the actual Cold War actions of the Security Council. What does this comparison reveal?",
-      "stemEs": "Compare los objetivos declarados en la Carta de la ONU con las acciones reales del Consejo de Seguridad durante la Guerra Fría. ¿Qué revela esta comparación?",
+      "id": "q-us58-60-summary-1",
+      "stem": "Summarize the main ways the United States responded to post-WWII global challenges between 1945-1950.",
+      "stemEs": "Resuma las principales formas en que Estados Unidos respondió a desafíos globales post-Segunda Guerra Mundial entre 1945-1950.",
       "itemType": "mcq",
-      "correctAnswer": "A",
+      "correctAnswer": "C",
       "choices": [
         {
           "id": "A",
-          "text": "UN peace goals were often blocked by superpower rivalry and frequent veto power usage",
-          "textEs": "Objetivos de paz de la ONU fueron frecuentemente bloqueados por rivalidad de superpotencias y uso frecuente del veto",
+          "text": "Economic stability would make nations less vulnerable to communist pressure and influence",
+          "textEs": "Se enfocó exclusivamente en intervención militar sin proporcionar ninguna ayuda económica",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "B",
-          "text": "The UN successfully achieved all goals stated in the original Charter during this period",
-          "textEs": "La ONU logró exitosamente todos los objetivos declarados en la Carta original durante este período",
+          "text": "It committed the U.S. to actively intervening globally to support threatened free nations",
+          "textEs": "Regresó a aislacionismo de preguerra evitando todo involucramiento en asuntos internacionales",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "C",
-          "text": "Both superpowers consistently cooperated to achieve all of the Charter goals together",
-          "textEs": "Ambas superpotencias cooperaron consistentemente para lograr todos los objetivos de la Carta juntas",
+          "text": "Created the UN, provided Marshall Plan aid, formed NATO alliance, and intervened in Korea",
+          "textEs": "Creó la ONU, proporcionó ayuda del Plan Marshall, formó alianza OTAN e intervino en Corea",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "D",
-          "text": "The Security Council became increasingly effective as Cold War tensions grew stronger",
-          "textEs": "El Consejo de Seguridad se volvió cada vez más efectivo mientras tensiones de Guerra Fría crecían",
+          "text": "As president, he had authority to commit U.S. resources and set foreign policy direction",
+          "textEs": "Negoció tratados aceptando control comunista tanto de Europa Occidental como Oriental",
           "explanation": null,
           "misconception": null
         }
@@ -45,18 +45,19 @@
       "dokRationale": null,
       "standardCodes": [
         "US.58",
-        "US.59"
+        "US.60",
+        "US.63"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "explanation": "UN peace goals were often blocked by superpower rivalry and frequent veto power usage. The United Nations was created in 1945 to reduce the chances of another world war through international cooperation. B is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
-      "explanationEs": "Comparar ideales de la Carta de la ONU con realidad de Guerra Fría muestra tensión entre objetivos declarados y limitaciones prácticas: mientras la Carta prometía paz y cooperación, poder de veto de superpotencias frecuentemente paralizaba acción.",
+      "explanation": "Created the UN, provided Marshall Plan aid, formed NATO alliance, and intervened in Korea. The United States sent billions of dollars to rebuild Western Europe and strengthen it against communist influence. B is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Resumen de respuesta de EE.UU. incluye: institucional (fundación ONU), económico (Plan Marshall), alianza militar (OTAN) e intervención directa (Corea) - mostrando enfoque internacionalista integral a contención.",
       "translationStatus": "complete",
       "irtParameters": {
-        "a": 1.4,
-        "b": 1.15,
-        "c": 0.23
+        "a": 1.26,
+        "b": 1.52,
+        "c": 0.22
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
@@ -67,13 +68,22 @@
         "priorStandardsYear": "2026-27",
         "priorStandardCodes": [
           "US.58",
-          "US.59"
+          "US.60",
+          "US.61"
         ],
         "priorBankTier": "student",
         "crosswalkReasons": [
-          "US.58->US.58 unchanged",
-          "US.59->US.59 revised sim=0.92"
-        ]
+          "US.58->US.58: checklist intact (1 element(s))",
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled",
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true,
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
       }
     }
   ]

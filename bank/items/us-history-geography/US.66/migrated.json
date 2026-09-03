@@ -1,0 +1,2973 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.66",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us73-dok1-1",
+      "stem": "What major infrastructure project was created during the Eisenhower administration?",
+      "stemEs": "¿Qué proyecto de infraestructura importante se creó durante la administración de Eisenhower?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Interstate Highway System connecting cities across the nation",
+          "textEs": "El Sistema de Autopistas Interestatales conectando ciudades en toda la nación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Jonas Salk's polio vaccine eliminated a feared childhood disease",
+          "textEs": "El Ferrocarril Transcontinental conectando las Costas Este y Oeste",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Polio cases dropped sharply, reducing fear of seasonal outbreaks",
+          "textEs": "El Canal de Panamá conectando los Océanos Atlántico y Pacífico",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Improving civilian transportation while supporting national defense logistics",
+          "textEs": "La Presa Hoover proporcionando electricidad a toda la región occidental",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Interstate Highway System was created during Eisenhower's presidency through the Federal-Aid Highway Act of 1956. B is wrong because the polio vaccine was a medical breakthrough, not an infrastructure project, and D describes one purpose of the highways rather than naming the project itself. The new road network changed travel, trade, defense planning, and suburban growth across the United States.",
+      "explanationEs": "La Ley Federal de Autopistas de 1956 creó el Sistema de Autopistas Interestatales, el proyecto de obras públicas más grande en la historia estadounidense. Conectó ciudades, impulsó el comercio, permitió el crecimiento suburbano y fue justificado en parte para la defensa nacional.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -1.54,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us73-add-2",
+      "stem": "What medical advance during the 1950s dramatically improved public health?",
+      "stemEs": "¿Qué avance médico durante los años 1950 mejoró dramáticamente la salud pública?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They paired infrastructure and health advances that increased productivity and mobility",
+          "textEs": "La vacuna contra la polio de Jonas Salk, que casi eliminó una temida enfermedad infantil",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Expanded highways made daily commuting practical for more middle-class families",
+          "textEs": "La invención de la máquina de rayos X para diagnosticar huesos rotos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Improving civilian transportation while supporting national defense logistics",
+          "textEs": "El descubrimiento de la penicilina como el primer medicamento antibiótico",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease",
+          "textEs": "El desarrollo del primer corazón artificial para pacientes de trasplante",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Jonas Salk's polio vaccine, introduced in 1955, sharply reduced a disease that had terrified families and paralyzed thousands of children. B is wrong because highways were a transportation change, not a medical advance, and D is wrong because it describes a broad result rather than the specific breakthrough. The vaccine strengthened public faith in science and public-health campaigns during the postwar era.",
+      "explanationEs": "Jonas Salk desarrolló la vacuna contra la polio en 1955, prácticamente eliminando una enfermedad que había paralizado a miles de niños anualmente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.15,
+        "b": -0.74,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x015",
+      "stem": "New Orleans' flooding in Katrina was caused primarily by —",
+      "stemEs": "New Orleans' flooding in Katrina was caused primarily by:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The failure of levees built by the U.S. Army Corps of Engineers to withstand storm surge",
+          "textEs": "The failure of levees built by the U.S. Army Corps of Engineers to withstand storm surge",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Katrina being an unusually powerful Category 5 storm when it made landfall",
+          "textEs": "Katrina being an unusually powerful Category 5 storm when it made landfall",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Heavy rainfall that overwhelmed the city's pumping and drainage systems",
+          "textEs": "Heavy rainfall that overwhelmed the city's pumping and drainage systems",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The city's decision not to order a mandatory evacuation 72 hours before the storm hit",
+          "textEs": "The city's decision not to order a mandatory evacuation 72 hours before the storm hit",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "New Orleans flooded mainly because levees built and overseen by the Army Corps of Engineers failed under storm surge pressure. B is wrong because Katrina was not still a Category 5 storm at landfall, and D is wrong because evacuation timing did not physically cause the levees to break. The event exposed how vulnerable major cities can be when protective infrastructure fails.",
+      "explanationEs": "New Orleans flooded mainly because levees built and overseen by the Army Corps of Engineers failed under storm surge pressure. B is wrong because Katrina was not still a Category 5 storm at landfall, and D is wrong because evacuation timing did not physically cause the levees to break. The event exposed how vulnerable major cities can be when protective infrastructure fails.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -0.66,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x018",
+      "stem": "Which phrase, describing the administration's response to Katrina, became associated with Bush's declining political standing?",
+      "stemEs": "Which phrase, describing the administration's response to Katrina, became associated with Bush's declining political standing?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "'Mission Accomplished' — declared on the deck of USS Abraham Lincoln",
+          "textEs": "'Mission Accomplished' — declared on the deck of USS Abraham Lincoln",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "'Heckuva job' — said about the Louisiana governor's evacuation order",
+          "textEs": "'Heckuva job' — said about the Louisiana governor's evacuation order",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "'New Orleans is drowning' — said by an aide who Bush reportedly ignored",
+          "textEs": "'New Orleans is drowning' — said by an aide who Bush reportedly ignored",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "'You're doing a heck of a job, Brownie' — said to FEMA director Michael Brown",
+          "textEs": "'You're doing a heck of a job, Brownie' — said to FEMA director Michael Brown",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bush's praise, 'You're doing a heck of a job, Brownie,' became infamous because Michael Brown's FEMA response was already being seen as a disaster. A is wrong because 'Mission Accomplished' referred to Iraq, not Katrina. The phrase came to represent the administration's tone-deaf handling of the crisis.",
+      "explanationEs": "Bush's praise, 'You're doing a heck of a job, Brownie,' became infamous because Michael Brown's FEMA response was already being seen as a disaster. A is wrong because 'Mission Accomplished' referred to Iraq, not Katrina. The phrase came to represent the administration's tone-deaf handling of the crisis.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -1.61,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x024",
+      "stem": "The phrase 'heckuva job, Brownie' became associated with Katrina because —",
+      "stemEs": "The phrase 'heckuva job, Brownie' became associated with Katrina because:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Brown used it to describe his own performance in media interviews after the crisis",
+          "textEs": "Brown used it to describe his own performance in media interviews after the crisis",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A whistleblower revealed Bush had said it sarcastically to mock FEMA's failed response",
+          "textEs": "A whistleblower revealed Bush had said it sarcastically to mock FEMA's failed response",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was found in internal White House emails released by the 9/11 Commission's successor body",
+          "textEs": "It was found in internal White House emails released by the 9/11 Commission's successor body",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Bush praised FEMA director Michael Brown even as the catastrophic failure of the response became apparent",
+          "textEs": "Bush praised FEMA director Michael Brown even as the catastrophic failure of the response became apparent",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "'Heckuva job, Brownie' became famous because Bush praised FEMA director Michael Brown even as the response to Katrina was clearly failing. A is wrong because Brown did not coin the phrase about himself. The line damaged the administration by making it seem disconnected from the suffering on the ground.",
+      "explanationEs": "'Heckuva job, Brownie' became famous because Bush praised FEMA director Michael Brown even as the response to Katrina was clearly failing. A is wrong because Brown did not coin the phrase about himself. The line damaged the administration by making it seem disconnected from the suffering on the ground.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.94,
+        "b": -0.6,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-72-x040",
+      "stem": "The Interstate Highway System, authorized in 1956, had which major economic effect on suburban growth?",
+      "stemEs": "The Interstate Highway System, authorized in 1956, had which major economic effect on suburban growth?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It made long-distance commuting practical, enabling workers to live in suburbs far from city jobs",
+          "textEs": "It made long-distance commuting practical, enabling workers to live in suburbs far from city jobs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It reduced shipping costs for goods manufactured in urban factories",
+          "textEs": "It reduced shipping costs for goods manufactured in urban factories",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It reduced automobile use by providing faster public transportation",
+          "textEs": "It reduced automobile use by providing faster public transportation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It primarily benefited rural farmers by improving roads between agricultural areas",
+          "textEs": "It primarily benefited rural farmers by improving roads between agricultural areas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Interstate Highway System made it possible for many workers to live far from downtown jobs and still commute by car. B is wrong because lower shipping costs were important but do not best explain suburban growth. Highways helped spread suburbs outward and changed the map of American metropolitan life.",
+      "explanationEs": "The Interstate Highway System made it possible for many workers to live far from downtown jobs and still commute by car. B is wrong because lower shipping costs were important but do not best explain suburban growth. Highways helped spread suburbs outward and changed the map of American metropolitan life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.18,
+        "b": -0.18,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x037",
+      "stem": "The National Defense Education Act of 1958 was passed primarily in response to —",
+      "stemEs": "The National Defense Education Act of 1958 was passed primarily in response to:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Korean War's exposure of widespread illiteracy among American draftees and inadequate math skills in recruits",
+          "textEs": "The Guerra de Corea's exposure of widespread illiteracy among American draftees and inadequate math skills in recruits",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Soviet launch of Sputnik, which raised fears that the U.S. was falling behind in science and technology education",
+          "textEs": "The Soviet launch of Sputnik, which raised fears that the U.S. was falling behind in science and technology education",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "FDR's unrealized New Deal proposal for a national system of federally funded public schools and universities",
+          "textEs": "FDR's unrealized New Deal proposal for a national system of federally funded public schools and universities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The desegregation crisis at Little Rock's Central High School, which exposed failures in public education",
+          "textEs": "The desegregación crisis at Little Rock's Central High School, which exposed failures in public education",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Congress passed the National Defense Education Act after Sputnik because many Americans feared the Soviet Union was ahead in science and technology. D is wrong because Little Rock concerned civil rights, not math and science education. The law tied schooling directly to Cold War competition.",
+      "explanationEs": "Congreso passed the National Defense Education Act after Sputnik because many Americans feared the Soviet Union was ahead in science and technology. D is wrong because Little Rock concerned derechos civiles, not math and science education. The law tied schooling directly to Guerra Fría competition.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.11,
+        "b": -0.08,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us73-add-5",
+      "stem": "What public-health outcome followed widespread use of the polio vaccine?",
+      "stemEs": "What public-health outcome followed widespread use of the polio vaccine?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Polio cases dropped sharply, reducing fear of seasonal outbreaks",
+          "textEs": "Polio cases dropped sharply, reducing fear of seasonal outbreaks",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Infant mortality rose because clinics closed vaccination programs",
+          "textEs": "Infant mortality rose because clinics closed vaccination programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Polio treatment shifted from hospitals to home remedies",
+          "textEs": "Polio treatment shifted from hospitals to home remedies",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Vaccination rates fell after federal safety warnings",
+          "textEs": "Vaccination rates fell after federal safety warnings",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Widespread vaccination caused polio cases to drop sharply and reduced the fear of summer outbreaks that had haunted parents for years. B and D are wrong because the vaccine increased safety and vaccination, not the opposite. The result became one of the clearest victories of postwar public health.",
+      "explanationEs": "Widespread vaccination caused polio cases to drop sharply and reduced the fear of summer outbreaks that had haunted parents for years. B and D are wrong because the vaccine increased safety and vaccination, not the opposite. The result became one of the clearest victories of postwar public health.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.94,
+        "b": -0.56,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x014",
+      "stem": "FEMA's response to Katrina was criticized primarily because —",
+      "stemEs": "FEMA's response to Katrina was criticized primarily because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FEMA's leadership was unqualified and the agency's resources were inadequate for a disaster of Katrina's scale",
+          "textEs": "FEMA's leadership was unqualified and the agency's resources and planning were inadequate for a disaster of Katrina's scale",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "FEMA lacked the authority to deploy National Guard units without state governors' requests",
+          "textEs": "FEMA lacked the authority to deploy National Guard units without state governors' requests",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congress had cut FEMA's budget dramatically in the year before the storm",
+          "textEs": "Congreso had cut FEMA's budget dramatically in the year before the storm",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "FEMA resources were committed to Iraq and were unavailable for domestic disaster response",
+          "textEs": "FEMA resources were committed to Iraq and were unavailable for domestic disaster response",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "FEMA was criticized because its leadership was weak and the agency was not prepared for a disaster on Katrina's scale. B is wrong because legal limits on the National Guard do not fully explain the breakdown, and D is wrong because Katrina response problems were deeper than resource diversion to Iraq. The failure damaged public faith in federal emergency management.",
+      "explanationEs": "FEMA was criticized because its leadership was weak and the agency was not prepared for a disaster on Katrina's scale. B is wrong because legal limits on the National Guard do not fully explain the breakdown, and D is wrong because Katrina response problems were deeper than resource diversion to Iraq. The failure damaged public faith in federal emergency management.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.95,
+        "b": 0.31,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x030",
+      "stem": "Eisenhower's concept of 'Modern Republicanism' was characterized by —",
+      "stemEs": "Eisenhower's concept of 'Modern repúblicaanism' se caracterizó por:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reducing the military budget to fund domestic social programs",
+          "textEs": "Reducing the military budget to fund domestic social programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Rolling back New Deal programs and eliminating the federal role in social welfare",
+          "textEs": "Rolling back New Deal programs and eliminating the federal role in social welfare",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Accepting the basic framework of the New Deal while avoiding new large-scale government expansion",
+          "textEs": "Accepting the basic framework of the New Deal while avoiding new large-scale government expansion",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Dramatically increasing social welfare spending to compete with Soviet claims of worker welfare",
+          "textEs": "Dramatically increasing social welfare spending to compete with Soviet claims of worker welfare",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower's Modern Republicanism accepted core New Deal programs while resisting major new expansions of federal government. B is wrong because he did not try to dismantle the New Deal completely. His approach showed that even many Republicans now accepted a stronger federal role than before the 1930s.",
+      "explanationEs": "Eisenhower's Modern repúblicaanism accepted core New Deal programs while resisting major new expansions of gobierno federal. B is wrong because he did not try to dismantle the New Deal completely. His approach showed that even many repúblicaans now accepted a stronger federal role than before the 1930s.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -0.41,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x031",
+      "stem": "In his farewell address of 1961, Eisenhower warned against —",
+      "stemEs": "In his farewell address of 1961, Eisenhower warned against:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Soviet Union's nuclear weapons program that threatened American cities",
+          "textEs": "The Soviet Union's nuclear weapons program that threatened American cities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The civil rights movement's potential to destabilize American society",
+          "textEs": "The derechos civiles movement's potential to destabilize American society",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The growth of a 'military-industrial complex' that could exert undue influence on government policy",
+          "textEs": "The growth of a 'military-industrial complex' that could exert undue influence on government policy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The danger of communist infiltration of American universities and media",
+          "textEs": "The danger of communist infiltration of American universities and media",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "In 1961 Eisenhower warned Americans about the growing power of the military-industrial complex, meaning the close relationship among the military, defense contractors, and government officials. D is wrong because anti-communist fears on campuses were not the focus of that speech. His warning remained influential in later debates about war and defense spending.",
+      "explanationEs": "In 1961 Eisenhower warned Americans about the growing power of the military-industrial complex, meaning the close relationship among the military, defense contractors, and government officials. D is wrong because anti-communist fears on campuses were not the focus of that speech. His warning remained influential in later debates about war and defense spending.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -0.42,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us73-add-1",
+      "stem": "Why was the Interstate Highway System significant for American life?",
+      "stemEs": "¿Por qué fue significativo el Sistema de Autopistas Interestatales para la vida estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It connected the nation, boosted commerce, enabled suburban growth, and provided defense routes",
+          "textEs": "Conectó la nación, impulsó el comercio, permitió el crecimiento suburbano y proporcionó rutas de defensa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They paired infrastructure and health advances that increased productivity and mobility",
+          "textEs": "Solo fue usado por el ejército y cerrado a vehículos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Yes, subsequent decades showed military spending influenced policy and contractors gained power",
+          "textEs": "Reemplazó todo el transporte ferroviario en los Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "National security requires strong military, but that same partnership could threaten democracy",
+          "textEs": "Solo conectaba grandes ciudades en la Costa Este",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Interstate Highway System was significant because it connected the country, sped up trade, supported defense, and made suburban commuting easier. B is wrong because it gives a vague combined effect, not the actual significance of the highways. The system changed where Americans lived, worked, and traveled.",
+      "explanationEs": "La Ley Federal de Autopistas (1956) creó más de 41,000 millas de autopistas interestatales. Transformó la vida estadounidense al permitir el tránsito suburbano, el transporte por carretera de larga distancia y proporcionó rutas de evacuación militar.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.36,
+        "b": -0.28,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us73-add-3",
+      "stem": "Which domestic objective helped Eisenhower justify the Interstate Highway System?",
+      "stemEs": "Which domestic objective helped Eisenhower justify the Interstate Highway System?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease",
+          "textEs": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Improving civilian transportation while supporting national defense logistics",
+          "textEs": "Improving civilian transportation while supporting national defense logistics",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Expanded highways made daily commuting practical for more middle-class families",
+          "textEs": "Expanded highways made daily commuting practical for more middle-class families",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They paired infrastructure and health advances that increased productivity and mobility",
+          "textEs": "They paired infrastructure and health advances that increased productivity and mobility",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower justified the Interstate Highway System partly as a way to improve civilian travel while also moving troops and supplies quickly in an emergency. B is wrong because the polio vaccine had nothing to do with highway policy. Cold War defense concerns helped win support for a major domestic building project.",
+      "explanationEs": "Eisenhower justified the Interstate Highway System partly as a way to improve civilian travel while also moving troops and supplies quickly in an emergency. B is wrong because the polio vaccine had nothing to do with highway policy. Guerra Fría defense concerns helped win support for a major domestic building project.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.17,
+        "b": 0.3,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-q04",
+      "stem": "The demographic pattern of Katrina's victims — those who could **NOT** evacuate or were most severely affected — revealed —",
+      "stemEs": "The demographic pattern of Katrina's victims — those who could NOT evacuate or were most severely affected — revealed:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "That weather disasters affect Americans equally regardless of income or race",
+          "textEs": "That weather disasters affect most Americans equally regardless of income or race",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "That the elderly were the only demographic unable to evacuate",
+          "textEs": "That the elderly were the only demographic unable to evacuate",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A stark intersection of race, poverty, and government failure",
+          "textEs": "A stark intersection of race, poverty",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "That recent immigrants were the most affected population",
+          "textEs": "That recent immigrants were the most affected population",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Katrina's victims revealed a harsh intersection of race, poverty, and vulnerability because many of those trapped had the fewest resources to evacuate. A is wrong because disasters do not affect all groups equally, and D is wrong because recent immigrants were not the main pattern seen in New Orleans. The storm exposed deep social inequalities that had existed long before 2005.",
+      "explanationEs": "Katrina's victims revealed a harsh intersection of race, poverty, and vulnerability because many of those trapped had the fewest resources to evacuate. A is wrong because disasters do not affect all groups equally, and D is wrong because recent immigrants were not the main pattern seen in New Orleans. The storm exposed deep social inequalities that had existed long before 2005.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.83,
+        "b": 0.33,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-q08",
+      "stem": "The Katrina disaster most clearly demonstrated which of the following about the U.S. federal system?",
+      "stemEs": "The Katrina disaster most clearly demonstrated ¿Cuál de las siguientes opciones about the U.S. federal system?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "State governors have no meaningful authority during federally declared disasters",
+          "textEs": "State governors have no meaningful authority during federally declared disasters",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Federal government authority automatically supersedes state and local authority in emergencies",
+          "textEs": "gobierno federal authority automatically supersedes state and local authority in emergencies",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The coordination between federal, state, and local governments in disaster response is fragmented and prone to failure",
+          "textEs": "The coordination between federal, state, and local governments in disaster response is fragmented and prone to failure",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The National Guard is consistently the most effective first responder in natural disasters",
+          "textEs": "The National Guard is consistently the most effective first responder in natural disasters",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Katrina showed that disaster response in the U.S. federal system can break down when city, state, and federal officials are poorly coordinated. B is wrong because federal authority does not automatically override all local control in emergencies. The crisis led many Americans to question whether the system was prepared for major domestic disasters.",
+      "explanationEs": "Katrina showed that disaster response in the U.S. federal system can break down when city, state, and federal officials are poorly coordinated. B is wrong because federal authority does not automatically override all local control in emergencies. The crisis led many Americans to question whether the system was prepared for major domestic disasters.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 0.24,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x017",
+      "stem": "Bush's approval ratings fell sharply after Katrina primarily because —",
+      "stemEs": "Bush's approval ratings fell sharply after Katrina primarily because:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Americans held Bush personally responsible for the storm's damage",
+          "textEs": "Americans held Bush personally responsible for the storm's damage",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Democrats successfully blamed Republican budget cuts for the levee failures",
+          "textEs": "Democrats successfully blamed repúblicaan budget cuts for the levee failures",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Bush's decision to remain on vacation in Texas during the immediate aftermath damaged his image",
+          "textEs": "Bush's decision to remain on vacation in Texas during the immediate aftermath damaged his image",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The government's slow and inadequate response reinforced perceptions of an incompetent administration",
+          "textEs": "The government's slow and inadequate response reinforced perceptions of an incompetent administration",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bush's approval fell after Katrina because the slow and ineffective response reinforced an image of incompetence in his administration. C is tempting because vacation optics mattered, but the larger issue was the government's visible failure to help people in crisis. Katrina became one of the turning points in Bush's second term.",
+      "explanationEs": "Bush's approval fell after Katrina because the slow and ineffective response reinforced an image of incompetence in his administration. C is tempting because vacation optics mattered, but the larger issue was the government's visible failure to help people in crisis. Katrina became one of the turning points in Bush's second term.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -0.37,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x023",
+      "stem": "The Stafford Act governs FEMA's authority to respond to disasters. Katrina revealed its limitations because —",
+      "stemEs": "The Stafford Act governs FEMA's authority to respond to disasters. Katrina revealed its limitations because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Act required a congressional vote before FEMA could deploy resources exceeding $100 million",
+          "textEs": "The Act required a Congresoional vote before FEMA could deploy resources exceeding $100 million",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Grassroots voter registration campaigns in the Deep South states",
+          "textEs": "Grassroots voter registration campaigns in the Deep South",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "FEMA could not act without the governor officially requesting federal disaster assistance",
+          "textEs": "FEMA could not act without the governor officially requesting federal disaster assistance — delaying response",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It allowed the governor to block federal assistance she did not request",
+          "textEs": "It allowed the governor to block federal assistance she did not request",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Katrina showed that disaster law could delay federal action because FEMA depended heavily on formal state requests and clear lines of authority before moving fully. A is wrong because Congress did not need to vote before FEMA could spend major disaster funds. The storm exposed how rigid federal rules can slow response in a fast-moving catastrophe.",
+      "explanationEs": "Katrina showed that disaster law could delay federal action because FEMA depended heavily on formal state requests and clear lines of authority before moving fully. A is wrong because Congreso did not need to vote before FEMA could spend major disaster funds. The storm exposed how rigid federal rules can slow response in a fast-moving catastrophe.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.23,
+        "b": 0.18,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-72-x033",
+      "stem": "The G.I. Bill (Servicemen's Readjustment Act of 1944) contributed most to postwar prosperity by —",
+      "stemEs": "The G.I. Bill (Servicemen's Readjustment Act of 1944) contributed most to postwar prosperity by:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Guaranteeing veterans lifetime government employment in the federal bureaucracy",
+          "textEs": "Guaranteeing veterans lifetime government employment in the federal bureaucracy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Providing veterans with low-cost mortgages, college tuition, and business loans that expanded the middle class",
+          "textEs": "Providing veterans with low-cost mortgages, college tuition, and business loans that expanded the middle class",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Funding a massive public works program that built the interstate highway system",
+          "textEs": "Funding a massive public works program that built the interstate highway system",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Establishing a federal health insurance program for all veterans and their families",
+          "textEs": "Establishing a federal health insurance program for all veterans and their families",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The G.I. Bill boosted prosperity by giving veterans cheap mortgages, college tuition aid, and business loans that expanded the middle class. A is wrong because it did not guarantee lifetime government jobs, and C is wrong because it did not build the interstate system. The law helped turn wartime service into postwar economic mobility for many families.",
+      "explanationEs": "The G.I. Bill boosted prosperity by giving veterans cheap mortgages, college tuition aid, and business loans that expanded the middle class. A is wrong because it did not guarantee lifetime government jobs, and C is wrong because it did not build the interstate system. The law helped turn wartime service into postwar economic mobility for many families.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.93,
+        "b": -0.04,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x038",
+      "stem": "How did the Eisenhower administration's policy of 'massive retaliation' reflect the influence of nuclear weapons on Cold War strategy?",
+      "stemEs": "¿Cómo the Eisenhower administration's policy of 'massive retaliation' reflect the influence of nuclear weapons on Guerra Fría strategy?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It rejected nuclear weapons as immoral and committed the U.S. to conventional military superiority",
+          "textEs": "It rejected nuclear weapons as immoral and committed the U.S. to conventional military superiority",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It proposed sharing nuclear technology with NATO allies to spread deterrence costs",
+          "textEs": "It proposed sharing nuclear technology with NATO allies to spread deterrence costs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It threatened overwhelming nuclear response to Soviet aggression, hoping to deter any Soviet military action",
+          "textEs": "It threatened overwhelming nuclear response to Soviet aggression, hoping to deter any Soviet military action",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It committed the U.S. to fighting limited conventional wars against Soviet proxies anywhere in the world",
+          "textEs": "It committed the U.S. to fighting limited conventional wars against Soviet proxies anywhere in the world",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Massive retaliation meant the United States threatened overwhelming nuclear response to major Soviet aggression in order to deter conflict. D is wrong because the policy did not commit the U.S. to fighting every limited conventional war. Nuclear weapons changed Cold War strategy by making deterrence central.",
+      "explanationEs": "Massive retaliation meant the United States threatened overwhelming nuclear response to major Soviet aggression in order to deter conflict. D is wrong because the policy did not commit the U.S. to fighting every limited conventional war. Nuclear weapons changed Guerra Fría strategy by making deterrence central.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.65,
+        "b": -0.3,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U8-DOK2-0024",
+      "stem": "How did the Interstate Highway System, authorized under Eisenhower in 1956, transform American society and the economy?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It accelerated suburban growth, shifted freight dominance from railroads to trucking, and fostered automobile-dependent communities",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It connected major cities but had little effect on commerce because most goods continued to be shipped by railroad",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was built exclusively for military use and remained closed to civilian traffic for the first decade",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It reduced automobile use by providing efficient mass transit corridors connecting urban centers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Federal Aid Highway Act (1956) funded 41,000 miles of interstate highways, dramatically reducing shipping costs via trucking, enabling suburbanites to commute farther, and transforming retail through highway-adjacent shopping patterns.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U8-DOK2-0026",
+      "stem": "Why did Eisenhower justify building the Interstate Highway System primarily on national defense grounds rather than economic ones?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congress only funded infrastructure projects that had direct military applications, so economic arguments were legally prohibited",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The economic benefits of highways were unknown in 1956, so Eisenhower had no economic argument to make",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Framing the highway system as necessary for military troop and equipment movement made it easier to secure congressional funding during the Cold War",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Eisenhower opposed the economic development aspects of the highway system and only approved it for defense reasons",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower invoked Cold War defense needs — evacuating cities and moving military forces — because the political climate made defense spending easier to pass than domestic economic investment, even though economic gains were widely anticipated.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U8-DOK2-0027",
+      "stem": "How did the development of the polio vaccine in the 1950s reflect the relationship between government, science, and public health in the United States?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It showed that private pharmaceutical companies could solve public health crises without any government involvement",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It established that all American medical advances required Soviet scientific cooperation to succeed",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It proved that the U.S. government opposed scientific medicine and only approved the vaccine under public pressure",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It demonstrated how federally and privately funded research, public health campaigns, and mass vaccination programs eliminated a major childhood disease",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Salk vaccine succeeded through a combination of National Foundation for Infantile Paralysis (March of Dimes) fundraising, university research, federal oversight, and the largest clinical trial in history — a model of public-private scientific collaboration.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U8-DOK2-0028",
+      "stem": "How did the Interstate Highway System affect the decline of downtowns and the growth of outlying shopping areas?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Highways directed shoppers away from urban commercial districts toward highway-adjacent shopping centers and eventually suburban malls, weakening downtown retail",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The highway system revitalized urban downtowns by making it easier for suburban residents to commute to city shops",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The highway system was designed to bypass all urban areas entirely, so it had no effect on city commercial activity",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Shopping patterns were unaffected because all retail remained concentrated in urban cores until the 1990s",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Highway-access shopping centers (predecessors to enclosed malls) grew rapidly along interstate corridors in the late 1950s–1960s, drawing retailers and customers away from traditional downtowns in a lasting structural shift.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U8-DOK2-0029",
+      "stem": "Why did the development of antibiotics during and after World War II represent a turning point in American medicine?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Antibiotics were primarily used as dietary supplements rather than for treating infections",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Antibiotics transformed fatal bacterial infections like pneumonia and tuberculosis into treatable conditions, dramatically reducing mortality",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Antibiotics had no significant impact because most Americans died of viral rather than bacterial infections",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The U.S. government banned antibiotic use until the 1970s due to concerns about overprescription",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Penicillin (widely available after 1945) and subsequent antibiotics converted bacterial infections that had been leading killers into routine treatable illnesses, contributing significantly to rising life expectancy in postwar America.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us66-dok2-1",
+      "stem": "How did the Interstate Highway System impact American society?",
+      "stemEs": "¿Cómo impactó el Sistema de Autopistas Interestatales a la sociedad estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Funded research and infrastructure projects like highways, spurring innovation",
+          "textEs": "Solo benefició áreas agrícolas rurales al conectar granjas con mercados principales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Facilitated suburban growth and commerce but destroyed many urban neighborhoods",
+          "textEs": "Facilitó crecimiento suburbano y comercio pero destruyó muchos vecindarios urbanos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Destroyed minority neighborhoods, divided communities, and accelerated sprawl",
+          "textEs": "No tuvo efecto medible en dónde estadounidenses eligieron vivir y trabajar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Developed the first effective vaccine to prevent polio infections nationwide",
+          "textEs": "Redujo uso de automóviles significativamente haciendo tránsito público más atractivo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "the Interstate Highway System impact American society because facilitated suburban growth and commerce but destroyed many urban neighborhoods. Choice C is wrong because it describes destroyed minority neighborhoods, divided communities, and accelerated sprawl, not facilitated suburban growth and commerce but destroyed many urban neighborhoods. Suburban growth reshaped race, class, and geography in postwar America for decades.",
+      "explanationEs": "El Sistema de Autopistas Interestatales facilitó crecimiento suburbano, revolucionó comercio y habilitó viaje de larga distancia, pero autopistas a menudo destruyeron vecindarios urbanos, particularmente comunidades minoritarias.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.09,
+        "b": -0.16,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us73-add-6",
+      "stem": "Why are Eisenhower-era domestic programs often linked to long-term economic growth?",
+      "stemEs": "Why are Eisenhower-era domestic programs often linked to long-term economic growth?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Expanded highways made daily commuting practical for more middle-class families",
+          "textEs": "Expanded highways made daily commuting practical for more middle-class families",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They paired infrastructure and health advances that increased productivity and mobility",
+          "textEs": "They paired infrastructure and health advances that increased productivity and mobility",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It connected the nation, boosted commerce, enabled suburban growth, and provided defense routes",
+          "textEs": "It connected the nation, boosted commerce, enabled suburban growth, and provided defense routes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease",
+          "textEs": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower-era programs are linked to long-term growth because investments in highways and public health increased mobility, productivity, and consumer confidence. B and D each name only one part of that story. These policies helped create conditions for broader economic expansion in the postwar decades.",
+      "explanationEs": "Eisenhower-era programs are linked to long-term growth because investments in highways and public health increased mobility, productivity, and consumer confidence. B and D each name only one part of that story. These policies helped create conditions for broader economic expansion in the postwar decades.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.79,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x016",
+      "stem": "The racially disparate impact of Katrina — with poor African American communities in New Orleans suffering most — reflected —",
+      "stemEs": "The racially disparate impact of Katrina — with poor African American communities in New Orleans suffering most — reflected:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The New Orleans city government's decision to evacuate wealthy areas before poor ones",
+          "textEs": "The New Orleans city government's decision to evacuate wealthy areas before poor ones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "FEMA's deliberate policy of prioritizing resources for more affluent neighborhoods",
+          "textEs": "FEMA's deliberate policy of prioritizing resources for more affluent neighborhoods",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Long-standing patterns of racial residential segregation that concentrated poverty in low-lying, flood-prone areas",
+          "textEs": "Long-standing patterns of racial residential segregación that concentrated poverty in low-lying, flood-prone areas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Racial bias in the deployment of National Guard troops sent to restore order",
+          "textEs": "Racial bias in the deployment of National Guard troops sent to restore order",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Katrina hit poor Black communities especially hard because decades of segregation had concentrated poverty in low-lying neighborhoods that were more vulnerable to flooding. B is wrong because there is no evidence FEMA officially prioritized rich neighborhoods first. The disaster revealed how old patterns of inequality shape who suffers most in a crisis.",
+      "explanationEs": "Katrina hit poor Black communities especially hard because decades of segregación had concentrated poverty in low-lying neighborhoods that were more vulnerable to flooding. B is wrong because there is no evidence FEMA officially prioritized rich neighborhoods first. The disaster revealed how old patterns of inigualdad shape who suffers most in a crisis.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.45,
+        "b": 1.73,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x019",
+      "stem": "Which of the following best explains why Katrina's long-term impact on U.S. politics extended beyond disaster policy?",
+      "stemEs": "¿Cuál de las siguientes opciones best explains why Katrina's long-term impact on U.S. politics extended beyond disaster policy?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The storm discredited the environmental movement's predictions about climate change",
+          "textEs": "The storm discredited the environmental movement's predictions about climate change",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It led Congress to constitutionally redefine FEMA's authority relative to state emergency management agencies",
+          "textEs": "It led Congreso to constitucionally redefine FEMA's authority relative to state emergency management agencies",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It permanently shifted population from Louisiana to Texas, changing electoral maps in both states",
+          "textEs": "It permanently shifted population from Louisiana to Texas, changing electoral maps in both states",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It reinforced doubts about government competence and revived debates about poverty, race, and federal responsibility",
+          "textEs": "It reinforced doubts about government competence and revived debates about poverty, race, and federal responsibility",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Katrina mattered politically beyond disaster policy because it deepened doubts about government competence and reopened debates over race, poverty, and federal responsibility. C is wrong because population shifts alone do not explain its national impact. The storm became a symbol of what government failure looks like in a modern democracy.",
+      "explanationEs": "Katrina mattered politically beyond disaster policy because it deepened doubts about government competence and reopened debates over race, poverty, and federal responsibility. C is wrong because population shifts alone do not explain its national impact. The storm became a symbol of what government failure looks like in a modern democracia.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.96,
+        "b": 1.4,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x032",
+      "stem": "Eisenhower's 'New Look' defense policy, which emphasized nuclear weapons over conventional forces, was motivated by which strategic calculation?",
+      "stemEs": "Eisenhower's 'New Look' defense policy, which emphasized nuclear weapons over conventional forces, was motivated by which strategic calculation?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eisenhower believed the Soviet Union would rarely use nuclear weapons if the U.S. was properly armed",
+          "textEs": "Eisenhower believed the Soviet Union would rarely use nuclear weapons if the U.S. was properly armed",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Conventional military forces had proven ineffective in Korea, requiring a complete shift to nuclear deterrence",
+          "textEs": "Conventional military forces had proven ineffective in Korea, requiring a complete shift to nuclear deterrence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "NATO allies had requested that the U.S. shift its military contribution to nuclear forces",
+          "textEs": "NATO allies had requested that the U.S. shift its military contribution to nuclear forces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Nuclear weapons were cheaper than maintaining large conventional armies, allowing defense without excessive deficit spending",
+          "textEs": "Nuclear weapons were cheaper than maintaining large conventional armies, allowing defense without excessive deficit spending",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower's New Look favored nuclear weapons partly because they seemed cheaper than maintaining huge conventional armies. B is wrong because Korea influenced strategy, but cost and deterrence were central calculations. The policy tied Cold War military planning to concerns about the federal budget.",
+      "explanationEs": "Eisenhower's New Look favored nuclear weapons partly because they seemed cheaper than maintaining huge conventional armies. B is wrong because Korea influenced strategy, but cost and deterrence were central calculations. The policy tied Guerra Fría military planning to concerns about the federal budget.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.55,
+        "b": 1.18,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u8-021",
+      "stem": "President Eisenhower justified the Interstate Highway System (1956) primarily on national defense grounds, arguing roads were needed to evacuate cities in a nuclear attack. Which of the following best evaluates the long-term consequence that most diverged from this original justification?",
+      "stemEs": "El presidente Eisenhower justificó el Sistema de Autopistas Interestatales (1956) principalmente con argumentos de defensa nacional, argumentando que se necesitaban carreteras para evacuar ciudades en un ataque nuclear. ¿Cuál de las siguientes opciones evalúa mejor la consecuencia a largo plazo que más se apartó de esta justificación original?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The highways successfully enabled rapid military troop movements across the country during Cold War readiness exercises.",
+          "textEs": "Las autopistas permitieron con éxito el movimiento rápido de tropas militares a través del país durante los ejercicios de preparación de la Guerra Fría.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The system accelerated suburban sprawl and the decline of urban commercial centers, reshaping where Americans lived and shopped in ways unrelated to defense.",
+          "textEs": "El sistema aceleró la expansión suburbana y el declive de los centros comerciales urbanos, remodelando dónde vivían y compraban los estadounidenses de maneras no relacionadas con la defensa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Interstate highways reduced the cost of long-distance freight shipping, lowering consumer prices for manufactured goods nationwide.",
+          "textEs": "Las autopistas interestatales redujeron el costo del transporte de carga a larga distancia, bajando los precios al consumidor de bienes manufacturados en todo el país.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The interstate system made large-scale civilian evacuation during nuclear emergencies practically feasible, saving millions of lives.",
+          "textEs": "El sistema interestatal hizo prácticamente viable la evacuación civil a gran escala durante emergencias nucleares, salvando millones de vidas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Interstate Highway System's most transformative unintended consequence was the acceleration of suburban sprawl and the decline of urban cores and downtown commercial districts — the opposite of the defense rationale. By making automobile commuting efficient, interstates enabled people to live far from city centers, hollowing out downtowns, undermining public transit, and reshaping where Americans lived and shopped. Option A aligns with the defense rationale, not a divergence. Option C was a secondary effect but less transformative than suburban restructuring. Option D is not an accurate consequence of the highway system.",
+      "explanationEs": "La consecuencia no intencional más transformadora del Sistema de Autopistas Interestatales fue la aceleración de la expansión suburbana y el declive de los centros urbanos: lo opuesto a la justificación de defensa. Al hacer eficiente el desplazamiento en automóvil, las autopistas permitieron a las personas vivir lejos de los centros urbanos, vaciando los centros comerciales y remodelando dónde vivían y compraban los estadounidenses. La opción A se alinea con la justificación de defensa. La opción C fue un efecto secundario menos transformador. La opción D no es una consecuencia precisa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.9,
+        "b": 1.36,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u8-022",
+      "stem": "The Salk polio vaccine, introduced in 1955, was one of the most celebrated medical achievements in American history. Which of the following best explains why its development was considered a specifically American cultural triumph as well as a scientific one?",
+      "stemEs": "La vacuna contra la polio de Salk, introducida en 1955, fue uno de los logros médicos más celebrados en la historia estadounidense. ¿Cuál de las siguientes opciones explica mejor por qué su desarrollo fue considerado un triunfo cultural específicamente estadounidense además de científico?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was funded by millions of ordinary Americans through the March of Dimes, making it a democratic collective achievement that showed American scientific leadership in the Cold War.",
+          "textEs": "Fue financiada por millones de estadounidenses comunes a través de la March of Dimes, convirtiéndola en un logro colectivo democrático que demostró el liderazgo científico estadounidense durante la Guerra Fría.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The vaccine was developed at government expense but kept secret from the public until the Cold War ended.",
+          "textEs": "La vacuna fue desarrollada con gastos gubernamentales pero se mantuvo en secreto para el público hasta que terminó la Guerra Fría.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Jonas Salk refused to patent the vaccine and donated the formula to the Soviet Union as a Cold War gesture of scientific goodwill.",
+          "textEs": "Jonas Salk se negó a patentar la vacuna y donó la fórmula a la Unión Soviética como un gesto de buena voluntad científica de la Guerra Fría.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The United States beat the Soviet Union in a publicly acknowledged vaccine race, proving American scientific superiority in the Cold War competition.",
+          "textEs": "Estados Unidos venció a la Unión Soviética en una carrera de vacunas reconocida públicamente, demostrando la superioridad científica estadounidense en la competencia de la Guerra Fría.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The polio vaccine was developed with funding from the March of Dimes — a mass public fundraising campaign that involved millions of ordinary Americans donating dimes — meaning the vaccine's creation was framed as a collective democratic achievement, not just a government or corporate project. It also demonstrated American scientific capability in a Cold War context and ended a disease that had struck President Roosevelt. Option B is factually incorrect — the vaccine was widely distributed, not withheld. Option C confuses Salk with later researchers. Option D overstates international rivalry in this specific case.",
+      "explanationEs": "La vacuna contra la polio fue desarrollada con fondos de la March of Dimes —una campaña masiva de recaudación pública— lo que significó que la creación de la vacuna fue enmarcada como un logro democrático colectivo. También demostró la capacidad científica estadounidense en un contexto de Guerra Fría. La opción B es factualmente incorrecta. La opción C confunde a Salk con investigadores posteriores. La opción D sobreestima la rivalidad internacional en este caso específico.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.09,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u8-023",
+      "stem": "Eisenhower's domestic policy is often described as 'dynamic conservatism' — accepting the New Deal's basic framework while resisting further expansion. Which of the following best demonstrates this approach?",
+      "stemEs": "La política interna de Eisenhower se describe a menudo como 'conservadurismo dinámico': aceptar el marco básico del New Deal mientras resistía una mayor expansión. ¿Cuál de las siguientes opciones demuestra mejor este enfoque?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eisenhower dramatically expanded federal welfare programs and created new government agencies to address poverty and housing.",
+          "textEs": "Eisenhower amplió dramáticamente los programas de bienestar federal y creó nuevas agencias gubernamentales para abordar la pobreza y la vivienda.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Eisenhower dismantled Social Security, ended farm subsidies, and returned all economic regulation to the states.",
+          "textEs": "Eisenhower desmanteló el Seguro Social, eliminó los subsidios agrícolas y devolvió toda la regulación económica a los estados.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eisenhower introduced universal healthcare, federally funded education, and a major civil rights bill as part of his domestic agenda.",
+          "textEs": "Eisenhower introdujo atención médica universal, educación financiada por el gobierno federal y un importante proyecto de ley de derechos civiles como parte de su agenda interna.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Eisenhower kept Social Security and built the Interstate Highway System while resisting national health insurance and major new welfare programs",
+          "textEs": "Eisenhower mantuvo y amplió modestamente los programas del New Deal como el Seguro Social mientras financiaba el Sistema de Autopistas Interestatales, pero resistió las propuestas de seguro médico nacional y una mayor expansión del bienestar social.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower retained Social Security and expanded it (adding disability coverage), kept interstate commerce regulations, and signed the largest public works project in history (the Interstate Highway System) — clearly not dismantling the New Deal. Yet he also resisted calls for national health insurance and other Great Society-type expansions. This balance perfectly exemplifies 'dynamic conservatism.' Option A describes FDR/Truman policy, not Eisenhower. Option B describes an approach too far right for Eisenhower. Option C describes Kennedy/LBJ approaches, not Eisenhower.",
+      "explanationEs": "Eisenhower mantuvo el Seguro Social y lo amplió, conservó las regulaciones del comercio interestatal y firmó el mayor proyecto de obras públicas en la historia. Sin embargo, también resistió la demanda de seguro médico nacional. Este equilibrio ejemplifica perfectamente el 'conservadurismo dinámico'. La opción A describe la política de FDR/Truman. La opción B describe un enfoque demasiado conservador para Eisenhower. La opción C describe enfoques de Kennedy/LBJ.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.28,
+        "b": 0.81,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u8-024",
+      "stem": "The Federal Aid Highway Act of 1956 allocated 90% federal funding for interstate construction, with states contributing only 10%. Which of the following best explains the long-term political significance of this funding structure?",
+      "stemEs": "La Ley Federal de Ayuda a las Autopistas de 1956 asignó el 90% de financiación federal para la construcción de autopistas interestatales, con los estados contribuyendo solo el 10%. ¿Cuál de las siguientes opciones explica mejor la importancia política a largo plazo de esta estructura de financiamiento?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The 90-10 split gave states nearly complete autonomy over highway design and placement, reducing federal influence over infrastructure.",
+          "textEs": "La división 90-10 dio a los estados casi completa autonomía sobre el diseño y la colocación de las autopistas, reduciendo la influencia federal sobre la infraestructura.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The structure ensured that federal agencies, not private contractors, directly built and operated the interstate highway system.",
+          "textEs": "La estructura aseguró que las agencias federales, no los contratistas privados, construyeran y operaran directamente el sistema de autopistas interestatales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Federal funding at 90% gave Washington effective control over construction standards, routing, and design, dramatically expanding federal influence over state infrastructure decisions.",
+          "textEs": "La financiación federal al 90% le dio a Washington control efectivo sobre los estándares de construcción, el trazado y el diseño, ampliando dramáticamente la influencia federal sobre las decisiones de infraestructura estatal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The 10% state contribution requirement allowed states to veto any highway route they opposed, preserving meaningful state sovereignty.",
+          "textEs": "El requisito de contribución estatal del 10% permitió a los estados vetar cualquier ruta de autopista que se opusieran, preservando una soberanía estatal significativa.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By covering 90% of costs, the federal government effectively set construction standards, design specifications, and routing decisions — meaning the federal government dramatically expanded its influence over state infrastructure even though states formally 'chose' to participate. This expanded the federal-state relationship in a way consistent with Eisenhower's defense rationale and set a precedent for conditional federal grants reshaping state policy. Option A misidentifies the dynamic — states had limited genuine autonomy in the 90-10 structure. Option B is inaccurate — construction contracts went primarily to private firms. Option D ignores the massive federal strings attached to the funding.",
+      "explanationEs": "Al cubrir el 90% de los costos, el gobierno federal estableció efectivamente estándares de construcción, especificaciones de diseño y decisiones de trazado, ampliando dramáticamente su influencia sobre la infraestructura estatal. Esto expandió la relación federal-estatal y sentó un precedente para las subvenciones federales condicionales. La opción A identifica mal la dinámica. La opción B es inexacta. La opción D ignora las condiciones federales masivas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.73,
+        "b": 1.24,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u8-025",
+      "stem": "The development of the Salk and Sabin polio vaccines occurred during a period of significant public anxiety about disease. Which of the following best explains how this anxiety shaped government and public response to the vaccine trials?",
+      "stemEs": "El desarrollo de las vacunas contra la polio de Salk y Sabin ocurrió durante un período de significativa ansiedad pública sobre las enfermedades. ¿Cuál de las siguientes opciones explica mejor cómo esta ansiedad moldeó la respuesta gubernamental y pública a los ensayos de vacunas?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Public fear of polio generated mass willingness to participate in vaccination trials, fund research, and trust health authorities, making the nationwide trials logistically feasible.",
+          "textEs": "El temor público a la polio generó una disposición masiva para participar en ensayos de vacunación, financiar investigaciones y confiar en las autoridades sanitarias, haciendo factibles los ensayos a nivel nacional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Public anxiety led to widespread rejection of experimental vaccines, forcing researchers to conduct trials only on prison populations.",
+          "textEs": "La ansiedad pública llevó al rechazo generalizado de las vacunas experimentales, obligando a los investigadores a realizar ensayos solo en poblaciones carcelarias.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Politicians interfered repeatedly with vaccine development to prevent any treatment that might reduce defense-related medical research funding.",
+          "textEs": "Los políticos interfirieron repetidamente con el desarrollo de vacunas para evitar cualquier tratamiento que pudiera reducir la financiación de la investigación médica relacionada con la defensa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The federal government's March of Dimes agency mandated participation in vaccine trials for all public school children.",
+          "textEs": "La agencia federal March of Dimes ordenó la participación en ensayos de vacunas para todos los niños de escuelas públicas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Public fear of polio — which struck children visibly and unpredictably — generated extraordinary public willingness to participate in mass vaccination trials, fund research through donations, and trust government health authorities in a way that paralleled wartime mobilization. This social readiness made the nationwide vaccination of schoolchildren in 1954 (the largest field trial in history) logistically possible. Option B is wrong — the 1955 'Cutter incident' (contaminated vaccines) actually caused temporary public hesitancy. Option C misidentifies the dynamic; political interference was minimal. Option D is factually incorrect — the March of Dimes was not a government agency.",
+      "explanationEs": "El temor público a la polio —que golpeaba a los niños de manera visible e impredecible— generó una extraordinaria disposición pública a participar en ensayos de vacunación masiva, financiar investigaciones y confiar en las autoridades sanitarias gubernamentales. Esta disposición social hizo posible la vacunación a nivel nacional de los escolares en 1954. La opción B es incorrecta: el incidente de Cutter de 1955 causó vacilación temporal. La opción C identifica mal la dinámica. La opción D es factualmente incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.94,
+        "b": 1.45,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u8-026",
+      "stem": "When the Soviet Union launched Sputnik in 1957, Eisenhower resisted pressure to dramatically escalate defense spending. Which of the following best explains the reasoning behind his restraint?",
+      "stemEs": "Cuando la Unión Soviética lanzó el Sputnik en 1957, Eisenhower resistió la presión para aumentar dramáticamente el gasto en defensa. ¿Cuál de las siguientes opciones explica mejor el razonamiento detrás de su moderación?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eisenhower believed Sputnik posed no real military threat and dismissed it as a propaganda stunt by the Soviet government.",
+          "textEs": "Eisenhower creía que el Sputnik no representaba ninguna amenaza militar real y lo descartó como un truco de propaganda del gobierno soviético.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Eisenhower believed that excessive military spending would damage the domestic economy, and that economic strength was itself a critical component of national security.",
+          "textEs": "Eisenhower creía que el gasto militar excesivo dañaría la economía nacional, y que la fortaleza económica era en sí misma un componente crítico de la seguridad nacional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eisenhower preferred investing in scientific education over military hardware, so he redirected all defense funds to university research grants.",
+          "textEs": "Eisenhower prefería invertir en educación científica sobre hardware militar, por lo que redirigió todos los fondos de defensa a subvenciones de investigación universitaria.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Eisenhower was primarily concerned that increased defense spending would reduce consumer confidence and cause a recession.",
+          "textEs": "Eisenhower estaba principalmente preocupado por que el aumento del gasto en defensa reduciría la confianza del consumidor y causaría una recesión.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower — a former five-star general — understood that an unrestrained arms race would damage the domestic economy ('the military-industrial complex' he later warned about in his Farewell Address) without necessarily producing greater security. He believed a strong economy was itself a pillar of national security, and that overspending on defense could cause the very economic collapse the Soviets sought. Option A is historically wrong — Eisenhower took Sputnik seriously but responded with measured investments. Option C reverses the logic — Eisenhower feared military spending, not investment in science. Option D misidentifies his concern; he was not primarily focused on consumer confidence.",
+      "explanationEs": "Eisenhower —un ex general de cinco estrellas— entendía que una carrera armamentista sin restricciones dañaría la economía nacional (el 'complejo militar-industrial' del que luego advirtió en su Discurso de Despedida) sin producir necesariamente mayor seguridad. La opción A es históricamente incorrecta. La opción C invierte la lógica. La opción D identifica mal su preocupación.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.67,
+        "b": 0.72,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u8-027",
+      "stem": "The National Defense Education Act (NDEA) of 1958 dramatically increased federal funding for science, mathematics, and foreign language education. Which of the following best explains why this represented a significant departure from prior federal education policy?",
+      "stemEs": "La Ley Nacional de Educación para la Defensa (NDEA) de 1958 aumentó dramáticamente la financiación federal para la educación en ciencias, matemáticas e idiomas extranjeros. ¿Cuál de las siguientes opciones explica mejor por qué esto representó una desviación significativa de la política federal de educación anterior?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The NDEA eliminated local school board control and transferred all curriculum decisions to the federal Department of Education",
+          "textEs": "La NDEA eliminó el control de las juntas escolares locales y transfirió todas las decisiones curriculares al Departamento Federal de Educación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The NDEA replaced public schools with federally operated science academies and technology institutes to compete with Soviet education",
+          "textEs": "La NDEA reemplazó las escuelas públicas con academias operadas federalmente especializadas en ciencia y tecnología.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The NDEA required all American high school students to study Russian language to prepare for Cold War diplomatic competition",
+          "textEs": "La NDEA requirió que todos los estudiantes estadounidenses aprendieran ruso para prepararse para las negociaciones diplomáticas de la Guerra Fría.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "By framing education as a national security issue, the NDEA established the first precedent for direct federal involvement in shaping school curricula",
+          "textEs": "Al usar la seguridad nacional como justificación, la NDEA estableció por primera vez un precedente para la participación federal directa en la configuración de los currículos y prioridades de las escuelas públicas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Prior to the NDEA, direct federal involvement in public school curricula and funding was largely limited by constitutional tradition and political resistance — education was considered a state and local matter. The NDEA broke this precedent by using the national security rationale (Sputnik) to justify federal curriculum priorities for the first time, establishing the precedent for later, broader federal education involvement. Option A is incorrect — the NDEA did not eliminate local control entirely. Option B is incorrect — the NDEA worked through existing public schools. Option C misrepresents the NDEA's approach; it funded curriculum development through existing institutions.",
+      "explanationEs": "Antes de la NDEA, la participación federal directa en los currículos y la financiación de las escuelas públicas estaba en gran medida limitada por la tradición constitucional y la resistencia política. La NDEA rompió este precedente utilizando la justificación de la seguridad nacional para justificar prioridades curriculares federales por primera vez. La opción A es incorrecta. La opción B es incorrecta. La opción C representa mal el enfoque de la NDEA.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.63,
+        "b": 0.84,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u8-028",
+      "stem": "Eisenhower's farewell address (1961) warned against the 'military-industrial complex.' Which of the following best explains the connection between this warning and his own domestic policy decisions during his presidency?",
+      "stemEs": "El discurso de despedida de Eisenhower (1961) advirtió contra el 'complejo militar-industrial'. ¿Cuál de las siguientes opciones explica mejor la conexión entre esta advertencia y sus propias decisiones de política interna durante su presidencia?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "His warning was hypocritical because he had approved every defense budget request from the Pentagon during his eight years in office.",
+          "textEs": "Su advertencia reflejó tensiones reales que había navegado durante toda su presidencia: había resistido la presión del Pentágono por presupuestos de defensa más grandes mientras creía que el equilibrio económico era esencial para la seguridad nacional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "His warning reflected real tensions — resisting Pentagon pressure for larger defense budgets while believing fiscal discipline was essential to national security",
+          "textEs": "Su advertencia fue hipócrita porque había aprobado cada solicitud de presupuesto de defensa del Pentágono durante sus ocho años en el cargo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eisenhower believed the military-industrial complex should be expanded during his presidency but wanted it dismantled after he left.",
+          "textEs": "Eisenhower creía que el complejo militar-industrial debería expandirse durante su presidencia pero quería que se desmantelara después de que se fuera.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Eisenhower used the farewell address to propose specific legislation to break up defense corporations that had grown too powerful.",
+          "textEs": "Eisenhower usó el discurso de despedida para proponer legislación específica para disolver las corporaciones de defensa que habían crecido demasiado poderosas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower's warning was rooted in his own experience resisting Pentagon and congressional pressure to spend far more on defense throughout his presidency. He had kept defense budgets lower than military advisors wanted, believing this balance protected the domestic economy — so the farewell warning was both a reflection of real tensions he had personally navigated and a genuine fear about what might happen after he left. Option B misreads Eisenhower — he did spend on defense, just more selectively. Option C is the opposite of his actual position. Option D confuses the farewell address with a policy proposal rather than a warning.",
+      "explanationEs": "La advertencia de Eisenhower estaba arraigada en su propia experiencia resistiendo la presión del Pentágono y del Congreso para gastar mucho más en defensa durante toda su presidencia. Había mantenido los presupuestos de defensa más bajos de lo que querían los asesores militares. La opción B lee mal a Eisenhower. La opción C es lo opuesto a su posición real. La opción D confunde el discurso de despedida con una propuesta de política.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.67,
+        "b": 0.94,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u8-030",
+      "stem": "Eisenhower presided over the construction of the St. Lawrence Seaway (1959), which opened Great Lakes ports to international shipping. Which of the following best explains how this project reflects the complexity of Eisenhower's approach to federal economic involvement?",
+      "stemEs": "Eisenhower presidió la construcción del Canal Marino de San Lorenzo (1959), que abrió los puertos de los Grandes Lagos al comercio internacional. ¿Cuál de las siguientes opciones explica mejor cómo este proyecto refleja la complejidad del enfoque de Eisenhower hacia la participación económica federal?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Seaway demonstrated that Eisenhower would only approve infrastructure projects with negligible costs to the federal budget.",
+          "textEs": "El Canal demostró que Eisenhower solo aprobaría proyectos de infraestructura con costos insignificantes para el presupuesto federal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Seaway shows that Eisenhower supported large federal investments in commercial and strategic infrastructure while simultaneously resisting expansion of social programs",
+          "textEs": "El Canal muestra que Eisenhower apoyaba grandes inversiones federales en infraestructura comercial y estratégica mientras resistía simultáneamente la expansión de los programas sociales: un conservadurismo selectivo, no absoluto.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Seaway proved Eisenhower was fundamentally a liberal who only posed as a conservative to win Republican primaries.",
+          "textEs": "El Canal demostró que Eisenhower era fundamentalmente un liberal que solo fingía ser conservador para ganar las primarias republicanas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Eisenhower funded the Seaway entirely from Cold War military budgets to avoid congressional debate over domestic spending.",
+          "textEs": "Eisenhower financió el Canal enteramente con los presupuestos militares de la Guerra Fría para evitar el debate del Congreso sobre el gasto interno.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The St. Lawrence Seaway was a major international infrastructure investment involving both U.S. and Canadian federal spending, yet Eisenhower was simultaneously resisting expansion of domestic social programs. This reveals that his 'conservatism' was selective — he supported large infrastructure investments tied to commerce and defense while opposing social welfare expansion. This is consistent with his 'dynamic conservatism': active government in areas of strategic/economic infrastructure, restrained government in social provision. Option A is inaccurate — the Seaway was not cheap. Option C misidentifies the dynamic. Option D is factually wrong.",
+      "explanationEs": "El Canal de San Lorenzo fue una gran inversión internacional de infraestructura que involucró gasto federal tanto estadounidense como canadiense, pero Eisenhower resistía simultáneamente la expansión de los programas sociales internos. Esto revela que su 'conservadurismo' era selectivo: apoyaba grandes inversiones en infraestructura vinculadas al comercio y la defensa mientras se oponía a la expansión del bienestar social. La opción A es inexacta. La opción C identifica mal la dinámica. La opción D es factualmente incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.21,
+        "b": 1.36,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us66-dok3-1",
+      "stem": "What unintended consequences did the Interstate Highway System have on urban communities?",
+      "stemEs": "¿Qué consecuencias no intencionadas tuvo el Sistema de Autopistas Interestatales en comunidades urbanas?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Destroyed minority neighborhoods, divided communities, and accelerated sprawl",
+          "textEs": "Destruyó vecindarios minoritarios, dividió comunidades y aceleró expansión",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Improved all urban neighborhoods equally through new infrastructure investment",
+          "textEs": "Mejoró todos los vecindarios urbanos igualmente mediante nueva inversión en infraestructura",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Strengthened urban cores by bringing more traffic and commerce to downtowns",
+          "textEs": "Fortaleció centros urbanos trayendo más tráfico y comercio a los centros",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Had no significant negative effects on any communities across the nation",
+          "textEs": "No tuvo efectos negativos significativos en ninguna comunidad en la nación",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Destroyed minority neighborhoods, divided communities, and accelerated sprawl. Choice B is wrong because it describes improved all urban neighborhoods equally through new infrastructure investment, not destroyed minority neighborhoods, divided communities, and accelerated sprawl. Federal investment in science, medicine, and infrastructure transformed daily life and expanded national power.",
+      "explanationEs": "La construcción de autopistas a menudo destruyó deliberadamente vecindarios minoritarios y de bajos ingresos, dividió físicamente comunidades, aceleró fuga blanca a suburbios y contribuyó a declive urbano.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.82,
+        "b": 0.75,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.73"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    }
+  ]
+}

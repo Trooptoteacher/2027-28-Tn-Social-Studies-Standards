@@ -62,6 +62,7 @@ clean pass.
 | `serveability` | item routes to a standard that does not exist, image that does not resolve, absent bilingual field |
 | `reporting-category-provenance` | a category with no declared source, or disagreeing with the mapping |
 | `teacher-side-isolation` | key material on a student-facing surface |
+| `release-readiness` | the Grade A decision — unsourced categories, unsigned blueprint, unreviewed provisional items, authoring debt |
 
 Run: `python3 tools/run_gates.py`
 
@@ -73,6 +74,9 @@ and an empty set fails.
 
 `python3 tests/test_mutation.py` — replaces each gate with an always-green stub and
 confirms its proofs go red. A test that has never failed is worth nothing.
+
+`python3 tests/test_alignment.py` — pins migration routing against real standard
+pairs, each one a case the similarity floor got wrong.
 
 Fixtures reproduce the real record's structure — all 17 required fields, bilingual
 twins, per-distractor rationales, IRT block. A simplified fixture proves only that the
@@ -87,7 +91,14 @@ currently claim to be the state's own category.
 
 It is therefore sourced in [`reporting-categories/us-history-geography.json`](reporting-categories/us-history-geography.json),
 one reviewable row per standard, each carrying `source` ∈ `tdoe-blueprint` |
-`interim-district` | `UNMAPPED`. **All 94 rows are currently `UNMAPPED`.**
+`interim-district` | `UNMAPPED`. **All 94 rows are currently `UNMAPPED`, and no
+interim mapping has been authored** — inventing one would be fabrication dressed
+as data.
+
+The provenance gate reads **green** over all-`UNMAPPED`, because consistency is all
+it can check. That is why `release-readiness` exists and **holds on it**: a green
+column over 94 unsourced categories is the same trap as a gate green over an empty
+set.
 
 The gate checks **provenance, not plausibility.** A plausibility check built on the
 standards' strand letters was built and measured against the existing 2026-27 bank: it
@@ -97,17 +108,37 @@ that passes the defect it exists to catch is worse than no gate.
 
 ## Migration from the 2026-27 bank
 
-`python3 tools/migrate.py <source-dir> [--floor 0.90] [--apply]`
+`python3 tools/migrate.py <source-dir> [--apply]`
 
-Nothing is carried forward by code. Every item routes through
-`../crosswalk/us-history-geography.csv` into one of three buckets, and the old code
-moves to `provenance.priorStandardCodes` rather than being dropped:
+Nothing is carried forward by code. The old code moves to
+`provenance.priorStandardCodes` rather than being dropped.
+
+**Routing is by element, not by text similarity.** A similarity floor was built
+first, then measured, and it is *anti-correlated* with alignment:
+
+| pair | similarity | what actually happened |
+|---|---|---|
+| `US.16 → US.17` | 0.79 | pure bullet reorder — **identical content** |
+| `US.12 → US.12` | 0.89 | **Clayton Antitrust Act of 1914 deleted** |
+| `US.19 → US.21` | 0.89 | "spread American democratic and moral ideals" → "American nationalism" |
+| `US.60 → US.60` | 0.94 | verb **Explain → Analyze** — a DOK shift |
+
+A 0.90 floor quarantines the first and waves through the rest. So
+[`tools/alignment.py`](tools/alignment.py) diffs the standard's **content
+checklist** — the words after "including" — and its verb:
 
 | Bucket | Rule | Servable |
 |---|---|---|
-| `migrated` | crosswalk says `unchanged` | yes |
-| `provisional` | `revised`, similarity ≥ floor | yes, flagged |
-| `quarantined` | `revised` below floor, or `retired` | **no — not counted as coverage** |
+| `migrated` | checklist intact for this item | yes |
+| `provisional` | standard's verb rose, or elements were added | yes, flagged for review |
+| `quarantined` | standard retired, **or this item tests a dropped element** | **no — not coverage** |
+
+Every quarantine names the element that caused it. Pinned by
+[`tests/test_alignment.py`](tests/test_alignment.py), which carries each
+false positive found by reading real output: a distractor mentioning the 18th
+Amendment quarantining a 17th Amendment item; `United States v. Nixon` vs
+`vs. Nixon` reading as a deletion; `suffragettes → suffragists` and Tennessee's
+"Perfect 36" reading as deletions when only the wording moved.
 
 Quarantine is the point. An item whose standard moved out from under it is not a
 coverage number, and calling it one is how a bank ends up testing the wrong standards

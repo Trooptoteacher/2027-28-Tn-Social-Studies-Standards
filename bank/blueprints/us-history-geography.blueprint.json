@@ -4,7 +4,7 @@
   "course": "us-history-geography",
   "standardsPrefix": "US",
   "standardsYear": "2027-28",
-  "status": "DRAFT — defaults proposed by build, not yet approved by Sean Reynolds",
+  "status": "OPERATING TARGET — adopted by the build so authoring can proceed; not signed off by the course owner. release-readiness HOLDS while this reads 'operating' or 'draft'. Raise or lower it freely: the bank is measured against this file, and blueprint-conformance fails in BOTH directions, so a target set too high never goes green.",
   "rationale": {
     "itemCount": "6 per standard = enough to build two non-overlapping 3-item forms per standard.",
     "dokSpread": "2/2/1/1 puts 33% at DOK-1. The failure mode this resists is a bank that drifts to 70% recall; the gate fails a standard that is over OR under on any level.",

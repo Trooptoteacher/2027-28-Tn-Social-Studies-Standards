@@ -1,0 +1,1199 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.76",
+  "status": "quarantined",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us79-1",
+      "stem": "What was Rosa Parks' role in the Civil Rights Movement?",
+      "stemEs": "¿Cuál fue el papel de Rosa Parks en el Movimiento por los Derechos Civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "She organized the Nashville student sit-in movement in 1960 for desegregation",
+          "textEs": "Organizó el movimiento de sentadas estudiantiles de Nashville en 1960 por la desegregación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "She led voter registration drives during Freedom Summer across Mississippi",
+          "textEs": "Lideró campañas de registro de votantes durante el Verano de la Libertad en Mississippi",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Her refusal to give up her bus seat sparked the Montgomery Bus Boycott",
+          "textEs": "Su negativa a ceder su asiento de autobús inició el Boicot de Autobuses de Montgomery",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "She founded the Student Nonviolent Coordinating Committee for young activists",
+          "textEs": "Fundó el Comité Coordinador Estudiantil No Violento para jóvenes activistas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Rosa Parks refused to surrender her seat on a Montgomery bus in December 1955, and her arrest helped launch the 381-day Montgomery Bus Boycott. A choice about organizing Nashville sit-ins is wrong because that work is associated with Diane Nash, not Parks. Her action helped turn a local protest into a national civil rights breakthrough.",
+      "explanationEs": "Rosa Parks refused to surrender her seat on a Montgomery bus in December 1955, and her arrest helped launch the 381-day Montgomery Bus Boycott. A choice about organizing Nashville sit-ins is wrong because that work is associated with Diane Nash, not Parks. Her action helped turn a local protest into a national derechos civiles breakthrough.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -0.77,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-4",
+      "stem": "Who was Bull Connor?",
+      "stemEs": "¿Quién fue Bull Connor?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A civil rights leader who organized the Birmingham desegregation campaign",
+          "textEs": "Un líder de derechos civiles que organizó la campaña de desegregación de Birmingham",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A Birmingham official who ordered attacks on protesters with dogs and hoses",
+          "textEs": "Un funcionario de Birmingham que ordenó ataques a manifestantes con perros y mangueras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Arkansas Governor who defied federal orders to integrate public schools",
+          "textEs": "El Gobernador de Arkansas que desafió órdenes federales de integrar escuelas públicas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "An Alabama Senator who conducted a filibuster against civil rights legislation",
+          "textEs": "Un Senador de Alabama que realizó un filibusterismo contra legislación de derechos civiles",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bull Connor was Birmingham's public safety commissioner, and in 1963 he ordered police dogs and fire hoses used against civil rights demonstrators. C is wrong because Orval Faubus resisted school integration in Arkansas, not protests in Birmingham. Connor's brutality helped turn national opinion against segregation.",
+      "explanationEs": "Bull Connor was Birmingham's public safety commissioner, and in 1963 he ordered police dogs and fire hoses used against derechos civiles demonstrators. C is wrong because Orval Faubus resisted school integración in Arkansas, not protests in Birmingham. Connor's brutality helped turn national opinion against segregación.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -0.92,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-8",
+      "stem": "What was the Southern Christian Leadership Conference (SCLC)?",
+      "stemEs": "¿Qué fue la Conferencia de Liderazgo Cristiano del Sur (SCLC)?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Advocated for Black separation and economic self-sufficiency",
+          "textEs": "Una coalición de iglesias abogando por reforma gradual",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Thurgood Marshall, who led the NAACP Legal Defense Fund team",
+          "textEs": "Un fondo de defensa legal para activistas de derechos civiles arrestados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A youth-led group organizing sit-ins and voter registration",
+          "textEs": "Un grupo de presión política enfocado en legislación de derechos de voto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "An MLK-led organization that coordinated nonviolent protests",
+          "textEs": "Una organización liderada por MLK que coordinó protestas no violentas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "An MLK-led organization that coordinated nonviolent protests best fits the question because it matches the historical facts and time period being tested. A is wrong because it describes advocated for Black separation and economic self-sufficiency, not an MLK-led organization that coordinated nonviolent protests. The item connects to larger changes in civil rights, social movements, or constitutional development in modern U.S. history.",
+      "explanationEs": "An MLK-led organization that coordinated nonviolent protests best fits the question because it matches the historical facts and time period being tested. A is wrong because it describes advocated for Black separation and economic self-sufficiency, not an MLK-led organization that coordinated nonviolent protests. The item connects to larger changes in derechos civiles, social movements, or constitucional development in modern U.S. history.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.89,
+        "b": -1.64,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-13",
+      "stem": "What was James Meredith's significance in the Civil Rights Movement?",
+      "stemEs": "¿Cuál fue la importancia de James Meredith en el Movimiento de Derechos Civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A violent riot erupted when James Meredith enrolled, requiring federal troops",
+          "textEs": "Argumentó Brown v. Board ante la Corte Suprema",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He was a Birmingham civil rights leader who helped organize the 1963 campaign",
+          "textEs": "Lideró el Boicot de Autobuses de Montgomery junto con Rosa Parks",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Using peaceful protests to create tension that forces negotiation and change",
+          "textEs": "Fundó el Comité Coordinador Estudiantil No Violento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He became the first African American student at the University of Mississippi",
+          "textEs": "Se convirtió en el primer estudiante afroamericano en la Universidad de Mississippi",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "James Meredith became the first African American student admitted to the University of Mississippi in 1962 under federal protection. Choices about Little Rock are wrong because Meredith's battle centered on Ole Miss, not Central High School. His enrollment showed how dangerous desegregation remained even after Brown.",
+      "explanationEs": "James Meredith became the first African American student admitted to the University of Mississippi in 1962 under federal protection. Choices about Little Rock are wrong because Meredith's battle centered on Ole Miss, not Central High School. His enrollment showed how dangerous desegregación remained even after Brown.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.03,
+        "b": -1.12,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us80-10",
+      "stem": "What was the Birmingham Campaign of 1963?",
+      "stemEs": "¿Qué fue la Campaña de Birmingham de 1963?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A voting rights march where marchers were beaten on Bloody Sunday",
+          "textEs": "Una campaña de registro de votantes enfocada en comunidades rurales de Alabama",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Four college students sat at a segregated Woolworth lunch counter",
+          "textEs": "Un boicot económico contra negocios segregados a nivel nacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "She led Nashville sit-ins and helped coordinate the Freedom Rides",
+          "textEs": "Una demanda federal desafiando los estatutos de segregación de Alabama",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "SCLC protests using children marchers that faced violent response",
+          "textEs": "Protestas de la SCLC usando niños marchistas que enfrentaron respuesta violenta",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Birmingham Campaign was a 1963 SCLC drive against segregation in one of the South's harshest cities, and children as well as adults faced dogs, jails, and fire hoses. Choices that describe it as a court case are wrong because Birmingham was a street protest campaign. Its televised brutality helped push the Kennedy administration toward stronger civil rights legislation.",
+      "explanationEs": "The Birmingham Campaign was a 1963 SCLC drive against segregación in one of the South's harshest cities, and children as well as adults faced dogs, jails, and fire hoses. Choices that describe it as a court case are wrong because Birmingham was a street protest campaign. Its televised brutality helped push the Kennedy administration toward stronger derechos civiles legislación.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -0.49,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-20",
+      "stem": "What was the philosophy of nonviolent direct action?",
+      "stemEs": "¿Cuál era la filosofía de la acción directa no violenta?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A Birmingham official who ordered attacks on protesters with dogs and hoses",
+          "textEs": "Usar violencia solo como último recurso cuando métodos pacíficos fallaron",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A movement emphasizing Black pride, self-determination, and political power",
+          "textEs": "Evitar toda confrontación y esperar un cambio gradual",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Using peaceful protests to create tension that forces negotiation and change",
+          "textEs": "Usar protestas pacíficas para crear tensión que fuerce negociación y cambio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A violent riot erupted when James Meredith enrolled, requiring federal troops",
+          "textEs": "Trabajar exclusivamente a través del sistema judicial para lograr derechos civiles",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "King believed nonviolent direct action should create public tension that exposed injustice and forced negotiation without using violence. Choices calling for armed retaliation are wrong because King grounded his strategy in peaceful civil disobedience. That approach helped the movement win moral credibility and national attention.",
+      "explanationEs": "King believed nonviolent direct action should create public tension that exposed injustice and forced negotiation without using violence. Choices calling for armed retaliation are wrong because King grounded his strategy in peaceful civil disobedience. That approach helped the movement win moral credibility and national attention.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.87,
+        "b": 1.34,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-2",
+      "stem": "What was Dr. Martin Luther King Jr.'s main approach to achieving civil rights?",
+      "stemEs": "¿Cuál fue el enfoque principal del Dr. Martin Luther King Jr. para lograr derechos civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Nonviolent resistance and peaceful civil disobedience tactics",
+          "textEs": "Resistencia no violenta y tácticas pacíficas de desobediencia civil",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Economic boycotts combined with organized armed self-defense",
+          "textEs": "Boicots económicos combinados con autodefensa armada organizada",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Legal challenges filed exclusively through the federal court system",
+          "textEs": "Desafíos legales presentados exclusivamente en el sistema de tribunales federales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Black nationalism and advocacy for complete racial separation",
+          "textEs": "Nacionalismo negro y defensa de la separación racial completa",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "King believed nonviolent direct action should create public tension that exposed injustice and forced negotiation without using violence. Choices calling for armed retaliation are wrong because King grounded his strategy in peaceful civil disobedience. That approach helped the movement win moral credibility and national attention.",
+      "explanationEs": "King believed nonviolent direct action should create public tension that exposed injustice and forced negotiation without using violence. Choices calling for armed retaliation are wrong because King grounded his strategy in peaceful civil disobedience. That approach helped the movement win moral credibility and national attention.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.95,
+        "b": -0.03,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us80-16",
+      "stem": "What was \"Letter from Birmingham Jail\"?",
+      "stemEs": "¿Qué fue la \"Carta desde la Cárcel de Birmingham\"?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A voter registration campaign in Mississippi facing violent opposition",
+          "textEs": "Una declaración pública de funcionarios de Birmingham defendiendo segregación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Her refusal to give up her bus seat sparked the Montgomery Bus Boycott",
+          "textEs": "Un escrito legal presentado como parte de un caso federal de desegregación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was the first state-supported high school in the South to integrate",
+          "textEs": "Un manifiesto del SNCC pidiendo tácticas más agresivas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "MLK's letter defending nonviolent resistance and criticizing moderates",
+          "textEs": "Carta de MLK defendiendo resistencia no violenta y criticando a moderados",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "In \"Letter from Birmingham Jail,\" King argued that unjust laws violate moral law and therefore should be disobeyed through nonviolent civil disobedience. Choices saying he rejected law completely are wrong because he insisted protesters accept legal penalties to expose injustice. The letter became one of the movement's clearest statements about law, conscience, and democracy.",
+      "explanationEs": "In \"Letter from Birmingham Jail,\" King argued that unjust laws violate moral law and therefore should be disobeyed through nonviolent civil disobedience. Choices saying he rejected law completely are wrong because he insisted protesters accept legal penalties to expose injustice. The letter became one of the movement's clearest statements about law, conscience, and democracia.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -0.06,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-14",
+      "stem": "What was Diane Nash's role in the Civil Rights Movement?",
+      "stemEs": "¿Cuál fue el papel de Diane Nash en el Movimiento de Derechos Civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "She led Nashville sit-ins and helped coordinate the Freedom Rides",
+          "textEs": "Lideró sentadas en Nashville y ayudó a coordinar los Viajes de la Libertad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A voting rights march where marchers were beaten on Bloody Sunday",
+          "textEs": "Argumentó casos de derechos civiles ante la Corte Suprema",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Four college students sat at a segregated Woolworth lunch counter",
+          "textEs": "Fundó la Organización Nacional de Mujeres en 1966",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "SCLC protests using children marchers that faced violent response",
+          "textEs": "Sirvió como la primera jueza afroamericana de la Corte Suprema",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Diane Nash was a key student leader in the Nashville sit-ins and helped keep the Freedom Rides going after early mob attacks. Choices naming her as the founder of SNCC or the trigger of the bus boycott are wrong because her leadership was centered in student direct action. She represents the crucial role of young organizers in the movement.",
+      "explanationEs": "Diane Nash was a key student leader in the Nashville sit-ins and helped keep the Freedom Rides going after early mob attacks. Choices naming her as the founder of SNCC or the trigger of the bus boycott are wrong because her leadership was centered in student direct action. She represents the crucial role of young organizers in the movement.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.91,
+        "b": 0.14,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-15",
+      "stem": "How did John Lewis contribute to the Civil Rights Movement?",
+      "stemEs": "¿Cómo contribuyó John Lewis al Movimiento de Derechos Civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Albany failed because police avoided violent confrontations on camera",
+          "textEs": "Sirvió como abogado principal del Fondo de Defensa Legal de la NAACP",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He led SNCC, participated in sit-ins, and was beaten on Bloody Sunday",
+          "textEs": "Lideró SNCC, participó en sentadas y fue golpeado el Domingo Sangriento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A voter registration campaign in Mississippi facing violent opposition",
+          "textEs": "Fundó el Partido Pantera Negra para autodefensa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A. Philip Randolph and Bayard Rustin along with civil rights leaders",
+          "textEs": "Organizó la Marcha del Millón de Hombres en Washington D.C.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "John Lewis helped lead SNCC, joined major sit-ins and Freedom Rides, and was brutally beaten on Bloody Sunday in Selma. Choices that reduce him to one speech are wrong because his activism stretched across many of the movement's biggest campaigns. His career connected student protest, voting rights, and later national politics.",
+      "explanationEs": "John Lewis helped lead SNCC, joined major sit-ins and Freedom Rides, and was brutally beaten on Bloody Sunday in Selma. Choices that reduce him to one speech are wrong because his activism stretched across many of the movement's biggest campaigns. His career connected student protest, derechos de voto, and later national politics.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.07,
+        "b": 0.04,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-19",
+      "stem": "What was Fred Shuttlesworth's role in the Civil Rights Movement?",
+      "stemEs": "¿Cuál fue el papel de Fred Shuttlesworth en el Movimiento de Derechos Civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A violent riot erupted when James Meredith enrolled, requiring federal troops",
+          "textEs": "Sirvió como el primer fiscal general afroamericano",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He was a Birmingham civil rights leader who helped organize the 1963 campaign",
+          "textEs": "Fue un líder de derechos civiles de Birmingham que ayudó a organizar la campaña de 1963",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "He became the first African American student at the University of Mississippi",
+          "textEs": "Fundó la Nación del Islam en Detroit",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Using peaceful protests to create tension that forces negotiation and change",
+          "textEs": "Fue el arquitecto del Manifiesto del Sur",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Fred Shuttlesworth was a fearless Birmingham minister who helped invite King and the SCLC into the 1963 Birmingham Campaign. Choices that identify him with Montgomery or Washington are wrong because his base was Birmingham activism. Local leaders like Shuttlesworth made national civil rights victories possible.",
+      "explanationEs": "Fred Shuttlesworth was a fearless Birmingham minister who helped invite King and the SCLC into the 1963 Birmingham Campaign. Choices that identify him with Montgomery or Washington are wrong because his base was Birmingham activism. Local leaders like Shuttlesworth made national derechos civiles victories possible.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -0.25,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us79-11",
+      "stem": "How did civil rights opponents use economic pressure against activists?",
+      "stemEs": "¿Cómo usaron los opositores de derechos civiles presión económica contra activistas?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "MLK's 1968 campaign addressing economic injustice for all races",
+          "textEs": "Aumentaron tarifas de seguro para organizaciones de derechos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Their bus was firebombed and riders were beaten by an angry mob",
+          "textEs": "Boicotearon negocios que contrataron simpatizantes de derechos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A 1963 protest where students faced fire hoses and police dogs",
+          "textEs": "Presionaron por leyes restringiendo recaudación de fondos de derechos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Fired workers, evicted tenants, and denied credit to supporters",
+          "textEs": "Despidieron trabajadores, desalojaron inquilinos y negaron crédito a simpatizantes",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Fired workers, evicted tenants, and denied credit to supporters best fits the question because it matches the historical facts and time period being tested. A is wrong because it describes mLK's 1968 campaign addressing economic injustice for all races, not fired workers, evicted tenants, and denied credit to supporters. The item connects to larger changes in civil rights, social movements, or constitutional development in modern U.S. history.",
+      "explanationEs": "Fired workers, evicted tenants, and denied credit to supporters best fits the question because it matches the historical facts and time period being tested. A is wrong because it describes mLK's 1968 campaign addressing economic injustice for all races, not fired workers, evicted tenants, and denied credit to supporters. The item connects to larger changes in derechos civiles, social movements, or constitucional development in modern U.S. history.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.88,
+        "b": 1.21,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us9-dok3-sa1",
+      "stem": "The Civil Rights Act of 1964 and the Voting Rights Act of 1965 are often considered the movement's greatest legislative achievements. Explain why BOTH laws were necessary — why wasn't one sufficient?",
+      "stemEs": "La Ley de Derechos Civiles de 1964 y la Ley de Derechos de Voto de 1965 son consideradas los mayores logros legislativos del movimiento. Explique por qué AMBAS leyes fueron necesarias.",
+      "itemType": "short-answer",
+      "correctAnswer": "The Civil Rights Act addressed discrimination in public accommodations, employment, and federally funded programs, but it did not effectively address voting rights. Southern states continued to use literacy tests, poll taxes, and violence to prevent Black voter registration. The Voting Rights Act specifically targeted voting discrimination: it banned literacy tests, authorized federal registrars in resistant counties, and required preclearance for changes to voting laws. Each law addressed a different dimension of inequality — social/economic discrimination and political disenfranchisement.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Civil Rights Act of 1964 attacked segregation in public places, employment, and federally funded programs, but it did not fully protect the right to vote in the Deep South. A strong response should explain that the Voting Rights Act of 1965 was still needed because literacy tests, intimidation, and discriminatory local officials kept many African Americans from the ballot box even after the 1964 law. The two laws worked together to break Jim Crow by expanding both equal access and political power.",
+      "explanationEs": "Los estudiantes deben analizar el alcance específico y las limitaciones de cada ley.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.03,
+        "b": 1.3,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us9-dok4-cr1",
+      "stem": "The Civil Rights Movement achieved landmark legislation (Civil Rights Act 1964, Voting Rights Act 1965) but King warned in his final years that legal equality without economic justice was insufficient. Evaluate this claim by comparing the movement's legal achievements with its unfinished economic agenda. Has America achieved the \"beloved community\" King envisioned? Use specific evidence from both the 1960s and the present.",
+      "stemEs": "El Movimiento por los Derechos Civiles logró legislación histórica pero King advirtió que la igualdad legal sin justicia económica era insuficiente. Evalúe esta afirmación.",
+      "itemType": "constructed-response",
+      "correctAnswer": "Strong responses should distinguish between legal and economic dimensions of equality, provide specific evidence for both progress and persistent inequality, and construct a nuanced argument. Legal achievements: desegregation, voting rights, anti-discrimination law. Persistent gaps: racial wealth gap (Black families own roughly one-eighth to one-sixth the wealth of white families (Federal Reserve Survey of Consumer Finances)), educational inequality, mass incarceration, residential segregation. The \"beloved community\" remains aspirational.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A strong response should weigh the movement's major legal victories, such as the Civil Rights Act of 1964 and Voting Rights Act of 1965, against continuing problems like poverty, job discrimination, housing segregation, and unequal schools. It should use evidence from the 1960s, including King's Poor People's Campaign and the Memphis sanitation strike, and connect those issues to present-day debates about wealth gaps, voting access, and criminal justice. The best essays make a clear argument about whether America has reached King's \"beloved community\" and support it with specific historical and modern examples.",
+      "explanationEs": "Este ítem DOK 4 requiere evaluar una afirmación histórica usando evidencia histórica y contemporánea.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.87,
+        "b": 1.06,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u9-028",
+      "stem": "The Highlander Folk School in Monteagle, Tennessee trained civil rights activists including Rosa Parks, Martin Luther King Jr., and John Lewis. Southern states targeted Highlander with investigations and ultimately revoked its charter in 1961. Which of the following best explains why Highlander was perceived as threatening enough to warrant state suppression?",
+      "stemEs": "La Escuela Popular Highlander en Monteagle, Tennessee, entrenó a activistas de derechos civiles como Rosa Parks, Martin Luther King Jr. y John Lewis. Los estados del sur atacaron a Highlander con investigaciones y finalmente revocaron su carta constitutiva en 1961. ¿Cuál de las siguientes opciones explica mejor por qué Highlander fue percibida como suficientemente amenazante para justificar la supresión estatal?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Highlander was suppressed because it openly published communist propaganda that federal authorities classified as a threat to national security under the Smith Act.",
+          "textEs": "Highlander fue suprimida porque publicaba abiertamente propaganda comunista que las autoridades federales clasificaron como amenaza a la seguridad nacional bajo la Ley Smith.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Highlander systematically trained civil rights leaders across racial lines and built the organizational capacity that transformed individual protest into coordinated mass action throughout the South.",
+          "textEs": "Highlander entrenó sistemáticamente a líderes de derechos civiles a través de líneas raciales y construyó la capacidad organizacional que transformó la protesta individual en acción masiva coordinada en todo el sur.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "State authorities targeted Highlander primarily because it illegally recruited children for civil rights protests, which violated Tennessee child labor laws.",
+          "textEs": "Las autoridades estatales atacaron a Highlander principalmente porque reclutaba ilegalmente a niños para protestas de derechos civiles, lo que violaba las leyes de trabajo infantil de Tennessee.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Highlander was primarily a fundraising organization that threatened segregationists by financing NAACP legal cases against Southern school districts.",
+          "textEs": "Highlander era principalmente una organización de recaudación de fondos que amenazaba a los segregacionistas al financiar casos legales de la NAACP contra los distritos escolares del sur.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Highlander was threatening because it functioned as an interracial organizing and leadership training center that systematically built the human infrastructure of the civil rights movement. It was one of the very few places in the South where Black and white activists lived, ate, and planned together — directly violating both the letter and spirit of Jim Crow. By training leaders, teaching organizing skills, and connecting activists from across the South and nation, Highlander was the network node that turned individual resistance into coordinated movement. Its closure revealed that authorities understood the danger of organizational capacity, not merely individual protest.",
+      "explanationEs": "Highlander era amenazante porque funcionaba como un centro de organización interracial y entrenamiento de liderazgo que construía sistemáticamente la infraestructura humana del movimiento de derechos civiles. Era uno de los muy pocos lugares en el sur donde activistas negros y blancos vivían, comían y planeaban juntos, violando directamente tanto la letra como el espíritu de Jim Crow. Al entrenar líderes, enseñar habilidades de organización y conectar activistas de todo el sur y la nación, Highlander era el nodo de red que convertía la resistencia individual en un movimiento coordinado. Su cierre reveló que las autoridades entendían el peligro de la capacidad organizacional, no solo de la protesta individual.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.09,
+        "b": 1.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u9-036",
+      "stem": "The Nashville sit-in movement of 1960, led by students trained by James Lawson, was described by Martin Luther King Jr. as the most disciplined and well-organized in the South. What does the Nashville movement's effectiveness suggest about the relationship between nonviolent philosophy, training, and strategic success?",
+      "stemEs": "El movimiento de sentadas de Nashville de 1960, liderado por estudiantes entrenados por James Lawson, fue descrito por Martin Luther King Jr. como el más disciplinado y bien organizado del sur. ¿Qué sugiere la efectividad del movimiento de Nashville sobre la relación entre la filosofía no violenta, el entrenamiento y el éxito estratégico?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Nashville's success proves that the key variable in civil rights movement victories was always the personal charisma of individual leaders rather than organizational preparation.",
+          "textEs": "El éxito de Nashville demuestra que la variable clave en las victorias del movimiento de derechos civiles siempre fue el carisma personal de los líderes individuales en lugar de la preparación organizacional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Nashville movement shows that nonviolent tactics were effective only in communities where white moderates already supported desegregation before the demonstrations began.",
+          "textEs": "El movimiento de Nashville muestra que las tácticas no violentas eran efectivas solo en comunidades donde los moderados blancos ya apoyaban la desegregación antes de que comenzaran las manifestaciones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Nashville's effectiveness demonstrated that nonviolent direct action was a strategic discipline requiring systematic training, not simply a moral stance, and that organizational preparation was essential to movement success.",
+          "textEs": "La efectividad de Nashville demostró que la acción directa no violenta era una disciplina estratégica que requería entrenamiento sistemático, no simplemente una postura moral, y que la preparación organizacional era esencial para el éxito del movimiento.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Nashville sit-ins succeeded because city officials chose to negotiate immediately, proving that civil rights progress depended primarily on the goodwill of white political leaders.",
+          "textEs": "Las sentadas de Nashville tuvieron éxito porque los funcionarios de la ciudad eligieron negociar de inmediato, demostrando que el progreso en los derechos civiles dependía principalmente de la buena voluntad de los líderes políticos blancos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Nashville students had undergone extensive nonviolent discipline workshops under Lawson before sitting in — they had practiced absorbing abuse without retaliation, studied Gandhi's methods, and developed organizational protocols for dealing with arrest and jail. This preparation meant their discipline under provocation was not spontaneous virtue but trained behavior. The strategic logic was that disciplined nonviolence maximized the moral contrast with white violence, minimized the legal exposure of participants, maintained movement coherence under pressure, and prevented infiltrators from provoking incidents that could justify repression. Nashville's success demonstrated that nonviolent direct action was a learnable skill requiring institutional investment, not merely a moral disposition.",
+      "explanationEs": "Los estudiantes de Nashville habían participado en extensivos talleres de disciplina no violenta bajo Lawson antes de las sentadas — habían practicado absorber abusos sin represalia, estudiado los métodos de Gandhi y desarrollado protocolos organizacionales para enfrentar el arresto y la cárcel. Esta preparación significaba que su disciplina bajo provocación no era una virtud espontánea sino un comportamiento entrenado. La lógica estratégica era que la no violencia disciplinada maximizaba el contraste moral con la violencia blanca, minimizaba la exposición legal de los participantes, mantenía la coherencia del movimiento bajo presión e impedía que los infiltrados provocaran incidentes que pudieran justificar la represión. El éxito de Nashville demostró que la acción directa no violenta era una habilidad que se podía aprender y que requería inversión institucional, no solo una disposición moral.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.16,
+        "b": 1.59,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79",
+          "US.80"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item",
+          "US.80: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.90",
+  "status": "quarantined",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us10-dok3-sa1",
+      "stem": "Explain how the 2008 financial crisis revealed weaknesses in the deregulation policies of the 1990s and 2000s. What specific regulatory failures contributed to the crisis, and how did the government's response compare to the New Deal's response to the Great Depression?",
+      "stemEs": "Explique cómo la crisis financiera de 2008 reveló debilidades en las políticas de desregulación de los 1990 y 2000.",
+      "itemType": "short-answer",
+      "correctAnswer": "Deregulation failures: repeal of Glass-Steagall (1999) allowed banks to combine commercial and investment banking; inadequate regulation of derivatives and mortgage-backed securities; credit rating agencies failed their oversight role. Response comparison: both crises saw massive government intervention (TARP bailouts vs. New Deal programs), but the 2008 response focused on stabilizing financial institutions (\"too big to fail\") while the New Deal focused more on employment and structural reform. Both permanently expanded government's economic role.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.90"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 2008 financial crisis exposed how deregulation had allowed banks and investors to take dangerous risks with mortgages, derivatives, and securities while facing too little oversight. A strong response should mention changes such as the repeal of Glass-Steagall, weak regulation of mortgage-backed securities and derivatives, and the failure of credit-rating agencies to warn about risk. It should also compare TARP and other bailouts with the New Deal by explaining that both expanded federal action, but the 2008 response focused more on stabilizing financial institutions while the New Deal more directly reshaped regulation and relief for workers.",
+      "explanationEs": "Los estudiantes deben analizar la causalidad de políticas a través de décadas y comparar respuestas gubernamentales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.57,
+        "b": 1.17,
+        "c": 0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "quarantined",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.92",
+          "US.95"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.92->US.90: standard ADDED ['USA PATRIOT Act'] — coverage gap at the standard, not a defect in this item",
+          "US.95: retired — no 2027-28 home"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "USA PATRIOT Act"
+          ]
+        }
+      }
+    }
+  ]
+}

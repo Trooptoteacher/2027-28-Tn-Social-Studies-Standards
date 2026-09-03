@@ -1,0 +1,1884 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.31",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us31-dok1-4",
+      "stem": "What was \"Amos 'n' Andy\"?",
+      "stemEs": "¿Qué fue \"Amos 'n' Andy\"?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A famous jazz band that toured extensively performing at nightclubs and concerts",
+          "textEs": "Una famosa banda de jazz que realizó giras extensas presentándose en clubes y conciertos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A touring vaudeville theater act that performed in cities throughout the country",
+          "textEs": "Un acto de teatro de variedades itinerante que se presentó en ciudades de todo el país",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A popular silent film series that was shown in movie theaters across America",
+          "textEs": "Una serie popular de películas mudas que se mostró en cines de todo Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Popular radio show that attracted millions of listeners nightly across America",
+          "textEs": "Programa de radio popular que atrajo millones de oyentes nocturnamente en toda América",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Amos 'n' Andy was one of the most popular radio programs of the era, drawing millions of listeners and showing radio's power to create mass entertainment. Choice C points to radio or mass media, not the specific person, law, or event asked for; choice A points to Harlem culture or jazz, not the specific person, law, or event asked for. Its popularity also reminds historians that national media could spread stereotypes as well as shared culture.",
+      "explanationEs": "\"Amos 'n' Andy\" fue uno de los programas de radio más populares de los años 1920-1950, aunque controvertido por su representación de afroamericanos por actores blancos. En su pico, atrajo 40 millones de oyentes.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.07,
+        "b": -1.62,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-29-q01",
+      "stem": "Radio and movies in the 1920s were significant primarily because they:",
+      "stemEs": "Radio and movies in the 1920s were significant primarily because they:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Provided entertainment options exclusively for wealthy Americans who could afford admission",
+          "textEs": "Provided entertainment options exclusively for wealthy Americans who could afford admission",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Had minimal impact on American cultural life, reaching only small urban audiences",
+          "textEs": "Had minimal impact on American cultural life, reaching only small urban audiences",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Crowded out vaudeville, local theater, and other entertainment forms entirely",
+          "textEs": "Crowded out vaudeville, local theater, and other entertainment forms entirely",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Emerged as mass communication media that created shared cultural experiences across regional and class lines",
+          "textEs": "Emerged as mass communication media that created shared cultural experiences across regional and class lines",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice A mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question; choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice A mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question; choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.43,
+        "b": -1.22,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-28-x020",
+      "stem": "The consumer culture of the 1920s was characterized by:",
+      "stemEs": "The consumer culture of the 1920s se caracterizó por:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Government programs that distributed consumer goods to veterans",
+          "textEs": "Government programs that distributed consumer goods to veterans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Americans rejecting materialism after the sacrifices of WWI",
+          "textEs": "Americans rejecting materialism after the sacrifices of WWI",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A return to agricultural self-sufficiency after wartime industrialization",
+          "textEs": "A return to agricultural self-sufficiency after wartime industrialización",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Widespread purchase of automobiles, radios, and household appliances on credit",
+          "textEs": "Widespread purchase of automobiles, radios, and household appliances on credit",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -1.02,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-30-x022",
+      "stem": "Radio's emergence as a mass medium in the 1920s transformed American culture by:",
+      "stemEs": "Radio's emergence as a mass medium in the 1920s transformed American culture by:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Creating shared national experiences — music, sports, news, and advertising — that transcended regional boundaries",
+          "textEs": "Creating shared national experiences — music, sports, news, and advertising — that transcended regional boundaries",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reducing movie theater attendance as Americans could now be entertained at home for free",
+          "textEs": "Reducing movie theater attendance as Americans could now be entertained at home for free",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Strengthening regional dialects as local radio stations reinforced community accents and traditions",
+          "textEs": "Strengthening regional dialects as local radio stations reinforced community accents and traditions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Replacing newspapers as the primary and most trusted source of political news and opinion",
+          "textEs": "Replacing newspapers as the primary and most fideicomisoed source of political news and opinion",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice B refers to radio or mass media, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice B refers to radio or mass media, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.46,
+        "b": -0.63,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok1-1",
+      "stem": "How did radio transform American culture in the 1920s?",
+      "stemEs": "¿Cómo transformó la radio la cultura estadounidense en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Remained limited to wealthy urban households who could afford equipment",
+          "textEs": "Permaneció limitada a hogares urbanos ricos que podían permitirse el equipo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Decreased communication between different geographic regions of America",
+          "textEs": "Disminuyó comunicación entre diferentes regiones geográficas de América",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Created shared national experiences through news, music, and entertainment",
+          "textEs": "Creó experiencias nacionales compartidas a través de noticias, música y entretenimiento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Was primarily restricted to military and government official communications",
+          "textEs": "Estuvo principalmente restringida a comunicaciones militares y gubernamentales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A refers to the automobile industry, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "Para 1929, más de 10 millones de hogares tenían radios. La radiodifusión creó experiencias nacionales compartidas a través de noticias, música, deportes y entretenimiento, unificando la cultura estadounidense a través de distancias geográficas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.66,
+        "b": -1.15,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok1-3",
+      "stem": "What was the significance of the first radio broadcast in 1920?",
+      "stemEs": "¿Cuál fue la importancia de la primera transmisión de radio en 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Millions heard same radio programs, watched same movies, and followed same celebrities",
+          "textEs": "Transmisión de radio permaneció limitada exclusivamente a reportes de clima y emergencia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Focused on emotions, desires, and creating needs rather than just product features",
+          "textEs": "La transmisión inmediatamente terminó publicación de periódicos como fuente principal de noticias",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "KDKA Pittsburgh broadcast election results, marking the beginning of commercial radio",
+          "textEs": "KDKA Pittsburgh transmitió resultados electorales, marcando el comienzo de radio comercial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Millions heard same programs simultaneously, creating shared cultural experiences",
+          "textEs": "La primera transmisión fracasó completamente y no atrajo casi ningún oyente interesado",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A points to radio or mass media, not the specific person, law, or event asked for; choice B points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "KDKA en Pittsburgh condujo la primera transmisión de radio comercial el 2 de noviembre de 1920, anunciando resultados electorales. Esto marcó el comienzo de transmisión comercial que transformaría la cultura estadounidense.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.96,
+        "b": -1.29,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us29-add-5",
+      "stem": "Which statement best summarizes the Senate debate over Versailles?",
+      "stemEs": "¿Qué afirmación describe mejor summarizes the Senado debate over Versailles?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It reflected a conflict between international cooperation and preserving U.S. foreign-policy autonomy",
+          "textEs": "It reflected a conflict between international cooperation and preserving U.S. foreign-policy autonomy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They feared Article X could commit the U.S. to conflicts without congressional approval",
+          "textEs": "They feared Article X could commit the U.S. to conflicts without Congresoional approval",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Interventionists saw expansion as destiny while non-interventionists feared constitutional violations",
+          "textEs": "Interventionists saw expansion as destiny while non-interventionists feared constitucional violations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Platt Amendment gave the U.S. significant control over Cuban affairs despite formal independence",
+          "textEs": "The Platt enmienda gave the U.S. significant control over Cuban affairs despite formal independence",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ford's innovations made cars affordable for ordinary Americans, turning the automobile from a luxury into a mass consumer good. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. That change reorganized work, space, and consumption in modern America.",
+      "explanationEs": "Ford's innovations made cars affordable for ordinary Americans, turning the automobile from a luxury into a mass consumer good. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. That change reorganized work, space, and consumption in modern America.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.34,
+        "b": -0.18,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok2-1",
+      "stem": "What was the significance of The Jazz Singer (1927)?",
+      "stemEs": "¿Cuál fue la importancia de The Jazz Singer (1927)?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was the first documentary film that captured actual historical events",
+          "textEs": "Fue la primera película documental que capturó eventos históricos reales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was the first feature-length movie shown entirely in full color",
+          "textEs": "Fue la primera película de largo metraje mostrada completamente a color",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was the first commercially successful movie with synchronized sound",
+          "textEs": "Fue la primera película comercialmente exitosa con sonido sincronizado",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It was the first animated feature film produced in the United States",
+          "textEs": "Fue la primera película animada de largo metraje producida en Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Jazz Singer in 1927 popularized synchronized sound in film and marked the rapid decline of the silent-movie era. Choice B points to radio or mass media, not the specific person, law, or event asked for; choice A points to radio or mass media, not the specific person, law, or event asked for. That breakthrough changed the film industry and helped make Hollywood an even more powerful cultural force.",
+      "explanationEs": "The Jazz Singer introdujo sonido sincronizado al cine, transformando el cine de películas mudas a \"habladas\" y revolucionando la industria del entretenimiento.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.73,
+        "b": -0.24,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok2-2",
+      "stem": "How did movies influence American culture in the 1920s?",
+      "stemEs": "¿Cómo influyeron las películas en la cultura estadounidense en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Technology helped reduce the isolation of rural areas and connected them to urban centers",
+          "textEs": "Permanecieron como forma menor de entretenimiento que mayoría de estadounidenses no podían costear",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Created national celebrities and influenced fashion, behavior, and social norms nationwide",
+          "textEs": "Crearon celebridades nacionales e influyeron en moda, comportamiento y normas sociales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Created shared national culture but also exposed cultural conflicts and regional differences",
+          "textEs": "Se enfocaron exclusivamente en documentales educativos y cobertura de noticias de eventos actuales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Millions heard same radio programs, watched same movies, and followed same celebrities",
+          "textEs": "Fueron fuertemente censuradas por gobiernos estatales limitando significativamente su influencia cultural",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice C refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice D refers to radio or mass media, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "Para 1929, 110 millones de estadounidenses iban al cine semanalmente. Estrellas de Hollywood como Charlie Chaplin y Clara Bow se convirtieron en íconos nacionales, influyendo en moda, peinados y comportamiento social en todo el país.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.29,
+        "b": 0.59,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok2-3",
+      "stem": "How did advertising change in the 1920s with the rise of psychology?",
+      "stemEs": "¿Cómo cambió la publicidad en los años 1920 con el surgimiento de la psicología?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Millions heard same programs simultaneously, creating shared cultural experiences",
+          "textEs": "Se volvió menos sofisticada y revirtió a simples anuncios basados en texto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "KDKA Pittsburgh broadcast election results, marking the beginning of commercial radio",
+          "textEs": "Solo listó especificaciones del producto y detalles técnicos sin atractivo emocional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Focused on emotions, desires, and creating needs rather than just product features",
+          "textEs": "Se enfocó en emociones, deseos y crear necesidades en lugar de solo características del producto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Millions heard same radio programs, watched same movies, and followed same celebrities",
+          "textEs": "Dejó de usar imágenes completamente y dependió solo de anuncios clasificados de periódicos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Advertising in the 1920s increasingly used psychology, aspiration, and celebrity appeal to persuade people to buy products they did not strictly need. Choice B refers to radio or mass media, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. That shift helped build the consumer culture that defined the decade.",
+      "explanationEs": "Los publicistas comenzaron a usar técnicas psicológicas para apelar a emociones, inseguridades y deseos. Crearon necesidades en lugar de solo satisfacerlas, prometiendo que los productos traerían felicidad, estatus y aceptación social.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.64,
+        "b": -0.05,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok2-5",
+      "stem": "How did radio create a \"national community\" in the 1920s?",
+      "stemEs": "¿Cómo creó la radio una \"comunidad nacional\" en los años 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Millions heard same programs simultaneously, creating shared cultural experiences",
+          "textEs": "Millones escucharon mismos programas simultáneamente, creando experiencias culturales compartidas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Focused on emotions, desires, and creating needs rather than just product features",
+          "textEs": "Solo transmitió en ciudades principales y no estuvo disponible en áreas rurales o suburbanas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Popular radio show that attracted millions of listeners nightly across America",
+          "textEs": "Era demasiado caro para la mayoría de estadounidenses y permaneció lujo para familias ricas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "KDKA Pittsburgh broadcast election results, marking the beginning of commercial radio",
+          "textEs": "No tuvo impacto significativo en unidad estadounidense o identidad cultural nacional compartida",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice C refers to radio or mass media, not the historical point being tested; choice D refers to radio or mass media, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "La radio permitió a millones de estadounidenses de diferentes regiones escuchar las mismas noticias, música, eventos deportivos y entretenimiento simultáneamente. Esto creó experiencias compartidas y unificó la cultura popular a pesar de distancias geográficas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.96,
+        "b": 0.38,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok2-170",
+      "stem": "Radio became a significant form of mass communication in the 1920s because it:",
+      "stemEs": "La radio se convirtió en una forma significativa de comunicación masiva en los años 1920 porque:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Could reach large audiences simultaneously across great distances",
+          "textEs": "Podía alcanzar grandes audiencias simultáneamente a través de grandes distancias",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Broadcast comedy shows, soap operas, music, and sports nationwide",
+          "textEs": "Era más barato de operar que periódicos o revistas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Revolutionized the concept of distance and time in transportation",
+          "textEs": "Estaba controlada completamente por el gobierno federal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Powering new household appliances and extending productive hours",
+          "textEs": "Solo transmitía programación educativa y religiosa",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice B refers to radio or mass media, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "La capacidad de la radio de transmitir a millones de oyentes simultáneamente en todo el país la hizo revolucionaria. Para 1929, más de 10 millones de hogares tenían radios, creando experiencias nacionales compartidas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.73,
+        "b": -0.51,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us31-dok2-171",
+      "stem": "The growth of the movie industry in the 1920s contributed to popular culture by:",
+      "stemEs": "El crecimiento de la industria cinematográfica en los años 1920 contribuyó a la cultura popular al:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Restricting entertainment to wealthy urban audiences only",
+          "textEs": "Restringir entretenimiento solo a audiencias urbanas ricas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Eliminating regional differences in American society",
+          "textEs": "Eliminar diferencias regionales en la sociedad estadounidense",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Focusing exclusively on serious dramatic and educational content",
+          "textEs": "Enfocarse exclusivamente en contenido dramático serio y educativo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Creating shared cultural experiences and national celebrities",
+          "textEs": "Crear experiencias culturales compartidas y celebridades nacionales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "Para 1929, 110 millones de estadounidenses asistían al cine semanalmente. Hollywood creó celebridades nacionales cuyos estilos influyeron en la moda y el comportamiento, mientras las películas proporcionaron experiencias culturales compartidas en todo el país.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.06,
+        "b": -0.13,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us38a-add-3",
+      "stem": "Which trend best reflects 1920s consumer culture?",
+      "stemEs": "Which trend best reflects 1920s consumer culture?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "National advertising campaigns linked personal identity to mass-market products",
+          "textEs": "National advertising campaigns linked personal identity to mass-market products",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Overextended debt, inflated stock prices, and overproduction all crashed together",
+          "textEs": "Overextended debt, inflated stock prices, and overproduction all crashed together",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It expanded household debt while incomes became less able to absorb shocks",
+          "textEs": "It expanded household debt while incomes became less able to absorb shocks",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Investors bought stocks on margin with borrowed money, inflating prices",
+          "textEs": "Investors bought stocks on margin with borrowed money, inflating prices",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice C refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice C refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.37,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-29-q02",
+      "stem": "The growth of the film industry in the 1920s resulted in:",
+      "stemEs": "The growth of the film industry in the 1920s resultó en:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Decreased attendance at live theater performances exclusively",
+          "textEs": "Decreased attendance at live theater performances exclusively",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Creation of movie stars and celebrity culture that influenced public",
+          "textEs": "Creation of movie stars and celebrity culture that influenced public",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Decline of American cultural production",
+          "textEs": "Decline of American cultural production",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Elimination of all other forms of entertainment",
+          "textEs": "Elimination of all other forms of entertainment",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.55,
+        "b": -0.5,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-31-x012",
+      "stem": "1920s consumer spending growth was enabled primarily by:",
+      "stemEs": "1920s consumer spending growth was enabled primarily by:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Rising wages, installment credit, and aggressive advertising that normalized buying on borrowed time",
+          "textEs": "Rising wages, installment credit, and aggressive advertising that normalized buying on borrowed time",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A direct federal consumer subsidy program providing discounts on manufactured goods for working families",
+          "textEs": "A direct federal consumer subsidy program providing discounts on manufactured goods for working families",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A sharp reduction in military spending after WWI that freed up capital for domestic consumer markets",
+          "textEs": "A sharp reduction in military spending after WWI that freed up capital for domestic consumer markets",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Large numbers of wealthy European immigrants arriving with substantial capital to invest in American goods",
+          "textEs": "Large numbers of wealthy European immigrants arriving with substantial capital to invest in American goods",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice C mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question; choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice C mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question; choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.24,
+        "b": 0.01,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-30-x019",
+      "stem": "Mass media — movies, radio, and mass-circulation magazines — transformed American culture in the 1920s by:",
+      "stemEs": "Mass media — movies, radio, and mass-circulation magazines — transformed American culture in the 1920s by:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Creating a shared national popular culture that began to break down regional and ethnic differences",
+          "textEs": "Creating a shared national popular culture that began to break down regional and ethnic differences",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Generating political opposition to immigration and cultural change",
+          "textEs": "Generating political opposition to inmigración and cultural change",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Promoting the intellectual ideas of the Progressive Era to a broader audience",
+          "textEs": "Promoting the intellectual ideas of the Era Progresista to a broader audience",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Primarily reinforcing traditional rural values against the corrupting influence of cities",
+          "textEs": "Primarily reinforcing traditional rural values against the corrupting influence of cities",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice B refers to nativism or racial conflict, not the historical point being tested; choice C refers to an effect or consequence rather than the item being identified, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice B refers to nativism or racial conflict, not the historical point being tested; choice C refers to an effect or consequence rather than the item being identified, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.52,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-28-x023",
+      "stem": "The radio's emergence as mass entertainment in the 1920s was significant because:",
+      "stemEs": "The radio's emergence as mass entertainment in the 1920s fue significativo/a porque:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It replaced newspapers as Americans' primary source of political information",
+          "textEs": "It replaced newspapers as Americans' primary source of political information",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It made political conventions and presidential speeches accessible to listeners thousands of miles from Washington for the first time in American history",
+          "textEs": "It made political conventions and presidential speeches accessible to listeners thousands of miles from Washington for the first time in American history",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It created the first national advertising market that linked brands with consumers across the country",
+          "textEs": "It created the first national advertising market that linked brands with consumers across the country",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It gave the federal government its first tool for directly communicating with all citizens",
+          "textEs": "It gave the gobierno federal its first tool for directly communicating with all citizens",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice D refers to an effect or consequence rather than the item being identified, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice D refers to an effect or consequence rather than the item being identified, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.84,
+        "b": 0.24,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us29-add-4",
+      "stem": "How did the U.S. decision to reject League membership affect postwar diplomacy?",
+      "stemEs": "¿Cómo the U.S. decision to reject League membership affect postwar diplomacia?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It weakened collective security by removing a major economic and military power",
+          "textEs": "It weakened collective security by removing a major economic and military power",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They feared Article X could commit the U.S. to conflicts without congressional approval",
+          "textEs": "They feared Article X could commit the U.S. to conflicts without Congresoional approval",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To build a lasting peace based on open diplomacy and self-determination",
+          "textEs": "To build a lasting peace based on open diplomacia and self-determination",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Women entered the workforce in large numbers, contributing to suffrage momentum",
+          "textEs": "Women entered the workforce in large numbers, contributing to sufragio momentum",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Rejecting League membership weakened collective security because the organization lost the support of one of the world's strongest economies and militaries. Choice B explains why some senators objected, but the question asks about the diplomatic consequence after rejection. The decision signaled that the United States would influence world affairs without fully joining the new postwar system Wilson had proposed.",
+      "explanationEs": "Rejecting League membership weakened collective security because the organization lost the support of one of the world's strongest economies and militaries. Choice B explains why some senators objected, but the question asks about the diplomatic consequence after rejection. The decision signaled that the United States would influence world affairs without fully joining the new postwar system Wilson had proposed.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.78,
+        "b": 0.57,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-31-x013",
+      "stem": "Radio broadcasting in the early 1920s transformed American culture by:",
+      "stemEs": "Radio broadcasting in the early 1920s transformed American culture by:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reaching only major cities with no rural audience",
+          "textEs": "Reaching only major cities with no rural audience",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Providing exclusively news content to households",
+          "textEs": "Providing exclusively news content to households",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Being government-controlled to ensure fair reporting of news and current events",
+          "textEs": "Being government-controlcondujo a ensure fair reporting of news and current events",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Creating the first truly national mass media",
+          "textEs": "Creating the first truly national mass media",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "Radio and movies became the first national mass media, letting Americans in different places hear the same music, news, and advertisements at the same time. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.56,
+        "b": -0.96,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-29-q10",
+      "stem": "The long-term significance of the emergence of radio and movies in the 1920s was that they:",
+      "stemEs": "The long-term significance of the emergence of radio and movies in the 1920s was that they:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Created uniform political opinion and ended regional ideological diversity among most Americans by 1930",
+          "textEs": "Created uniform political opinion and ended regional ideological diversity among most Americans by 1930",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Had minimal lasting impact on American culture, regional identity, or social behavior in subsequent decades",
+          "textEs": "Had minimal lasting impact on American culture, regional identity, or social behavior in subsequent decades",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Established mass media as a dominant force in American culture and a permanent feature of national identity",
+          "textEs": "Established mass media as a dominant force in American culture and a permanent feature of national identity",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Permanently prevented the development of subsequent entertainment technologies including television and the internet",
+          "textEs": "Permanently prevented the development of subsequent entertainment technologies including television and the internet",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice A mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "explanationEs": "By the 1920s, radio broadcasts and motion pictures were creating shared experiences across class and region, which made popular culture more national than local. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice A mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question. This media revolution helped create modern celebrity culture, national advertising, and a shared sense of American identity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 2.08,
+        "b": 1.7,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u4-008",
+      "stem": "In the 1920s, radio broadcasting spread rapidly across the United States, reaching millions of households by the end of the decade. At the same time, silent films gave way to \"talkies,\" and movie attendance soared. A student argues that radio and film together created the first true national popular culture in American history. Which evidence most strongly supports this argument?",
+      "stemEs": "En la década de 1920, la radiodifusión se extendió rápidamente por los Estados Unidos, llegando a millones de hogares al final de la década. Al mismo tiempo, las películas mudas dieron paso a las películas sonoras, y la asistencia al cine se disparó. Un estudiante argumenta que la radio y el cine juntos crearon la primera verdadera cultura popular nacional en la historia estadounidense. ¿Qué evidencia apoya más fuertemente este argumento?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radio and film were highly profitable industries that sold national advertising to major corporations, generating enormous revenue.",
+          "textEs": "La radio y el cine eran industrias rentables que vendían publicidad a corporaciones nacionales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "By 1929, over 600 radio stations were broadcasting across the United States, making it the most rapidly adopted technology in American history.",
+          "textEs": "Para 1929, había más de 600 estaciones de radio transmitiendo en los Estados Unidos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A single radio broadcast of a championship boxing match simultaneously reached millions of listeners, creating shared national experience across regional and class lines.",
+          "textEs": "Una sola transmisión de radio de un combate de boxeo de campeonato llegó a millones de oyentes simultáneamente, creando una experiencia nacional compartida más allá de las líneas regionales y de clase.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Religious and community leaders in many rural regions publicly condemned radio and film as serious threats to local cultural traditions and moral standards.",
+          "textEs": "Líderes religiosos y comunitarios en muchas regiones condenaron la radio y el cine como amenazas a las tradiciones culturales locales.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A single broadcast reaching millions simultaneously — and a single film creating nationally shared references — represents the mechanism by which a unified national culture emerged. This simultaneity and scale was unprecedented before electronic mass media. C directly supports the argument by showing the mechanism. A supports commercialization but not cultural unification. B shows reach but not the shared-culture effect. D describes a reaction against, rather than the creation of, national popular culture.",
+      "explanationEs": "Una sola transmisión que llega a millones simultáneamente, y una sola película creando referencias compartidas a nivel nacional, representa el mecanismo por el cual surgió una cultura nacional unificada. Esta simultaneidad y escala no tenían precedentes antes de los medios de comunicación electrónicos masivos. C apoya directamente el argumento al mostrar el mecanismo. A apoya la comercialización pero no la unificación cultural. B muestra el alcance pero no el efecto de cultura compartida. D describe una reacción en contra, en lugar de la creación, de la cultura popular nacional.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.83,
+        "b": 1.09,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u4-012",
+      "stem": "By 1930, Hollywood studios had consolidated into a small number of major companies that controlled production, distribution, and theater ownership — a system known as vertical integration. This structure allowed studios to dominate the film industry. What was the most significant consequence of this consolidation for American popular culture?",
+      "stemEs": "Para 1930, los estudios de Hollywood se habían consolidado en un pequeño número de grandes compañías que controlaban la producción, distribución y propiedad de los teatros, un sistema conocido como integración vertical. Esta estructura permitió a los estudios dominar la industria cinematográfica. ¿Cuál fue la consecuencia más significativa de esta consolidación para la cultura popular estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Studio consolidation encouraged independent filmmakers to produce more diverse content to compete with major studios.",
+          "textEs": "La consolidación de los estudios alentó a los cineastas independientes a producir contenido más diverso para competir con los grandes estudios.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The federal government nationalized film distribution to ensure that all regions of the country had equal access to popular films.",
+          "textEs": "El gobierno federal nacionalizó la distribución cinematográfica para garantizar que todas las regiones del país tuvieran igual acceso a las películas populares.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A small number of studios controlled what content reached mass audiences, concentrating cultural power and standardizing national popular entertainment.",
+          "textEs": "Un pequeño número de estudios controlaba qué contenido llegaba a las audiencias masivas, concentrando el poder cultural y estandarizando el entretenimiento popular nacional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Vertical integration improved film quality by allowing studios to invest profits from distribution back into expensive productions.",
+          "textEs": "La integración vertical mejoró la calidad del cine al permitir que los estudios reinvirtieran las ganancias de la distribución en producciones costosas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Vertical integration concentrated creative and distribution power in a few hands, meaning a small group of executives could determine what stories, values, and representations reached mass audiences — standardizing and homogenizing national culture. C correctly identifies this power dynamic. A is the opposite of what occurred; consolidation reduced independent production. B conflates consolidation with nationalization. D is partially true about quality investment but misses the more significant cultural power question.",
+      "explanationEs": "La integración vertical concentró el poder creativo y de distribución en pocas manos, lo que significaba que un pequeño grupo de ejecutivos podía determinar qué historias, valores y representaciones llegaban a las audiencias masivas, estandarizando y homogeneizando la cultura nacional. C identifica correctamente esta dinámica de poder. A es lo opuesto de lo que ocurrió; la consolidación redujo la producción independiente. B confunde la consolidación con la nacionalización. D es parcialmente verdadero sobre la inversión en calidad pero pasa por alto la pregunta más significativa sobre el poder cultural.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.16,
+        "b": 1.19,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u4-013",
+      "stem": "Radio broadcasting in the 1920s was initially unregulated, resulting in competing stations broadcasting on the same frequencies and jamming each other's signals. Congress passed the Radio Act of 1927 to address this problem. What does the government's intervention in radio regulation reveal about the tension between technological innovation and public interest in the 1920s?",
+      "stemEs": "La radiodifusión en la década de 1920 inicialmente no estaba regulada, lo que resultó en estaciones en competencia transmitiendo en las mismas frecuencias y bloqueando las señales de otras. El Congreso aprobó la Ley de Radio de 1927 para abordar este problema. ¿Qué revela la intervención del gobierno en la regulación de la radio sobre la tensión entre la innovación tecnológica y el interés público en la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Radio Act shows that the 1920s government was hostile to business interests and sought to limit corporate profit in the communications industry.",
+          "textEs": "La Ley de Radio muestra que el gobierno de la década de 1920 era hostil a los intereses empresariales y buscaba limitar las ganancias corporativas en la industria de las comunicaciones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress used the Radio Act primarily as a tool to control the content of broadcasts and silence political opposition.",
+          "textEs": "El Congreso utilizó la Ley de Radio principalmente como herramienta para controlar el contenido de las transmisiones y silenciar la oposición política.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Radio Act demonstrates that Americans in the 1920s preferred government-owned broadcasting over commercial radio.",
+          "textEs": "La Ley de Radio demuestra que los estadounidenses en la década de 1920 preferían la radiodifusión de propiedad gubernamental sobre la radio comercial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Unregulated technological development created market failures that required government intervention to protect the public's ability to use a shared resource effectively.",
+          "textEs": "El desarrollo tecnológico no regulado creó fallas de mercado que requirieron la intervención del gobierno para proteger la capacidad del público de usar un recurso compartido de manera efectiva.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Radio Act illustrates that market forces alone could not organize a shared public resource (the electromagnetic spectrum) — government intervention was required to make the medium functional and accessible. This reflects a broader pattern where new technologies generated market failures requiring regulatory solutions. D captures this tension accurately. A is factually inaccurate; the 1920s government generally favored business interests. B conflates regulation with content censorship. C draws an ideological conclusion not supported by the regulatory purpose.",
+      "explanationEs": "La Ley de Radio ilustra que las fuerzas del mercado por sí solas no podían organizar un recurso público compartido: se requería intervención gubernamental para hacer el medio funcional y accesible. Esto refleja un patrón más amplio donde las nuevas tecnologías generaban fallas de mercado que requerían soluciones regulatorias. D captura esta tensión con precisión. A es factualmente inexacto; el gobierno de la década de 1920 generalmente favorecía los intereses empresariales. B confunde la regulación con la censura de contenido. C saca una conclusión ideológica no respaldada por el propósito regulatorio.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.62,
+        "b": 1.52,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U4-DOK3-0010",
+      "stem": "The 1920s produced a sharp cultural divide between urban modernism — jazz, cinema, cosmopolitan consumer culture — and rural and small-town traditionalism represented by Prohibition enforcement, the KKK revival, and the Fundamentalist challenge to evolutionary science in public schools. What does the intensity of this conflict most reveal about the deeper sources of social anxiety in 1920s America?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The 1920s cultural conflict was fundamentally a class conflict in which the urban industrial working class embraced modernity while the rural middle class resisted it, making economic displacement the primary underlying source of social tension rather than genuine ideological differences.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The intensity of rural and small-town traditionalism reflected profound anxieties about the rapid erosion of a Protestant, Anglo-Saxon, agricultural social order by urbanization, immigration, mass media, and scientific rationalism — revealing that modernization produces groups who experience cultural transformation as existential threat rather than progress.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The urban-rural cultural divide of the 1920s was primarily a media construction rather than a genuine social division, as newspapers and entertainment industries exaggerated regional differences to sell content, with most Americans sharing more cultural common ground than the dramatic battles over Prohibition and evolution suggested.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The 1920s cultural conflicts had no lasting historical significance because the Depression and New Deal realignment of the 1930s reorganized American political and social life entirely around economic grievance, erasing the cultural fault lines that had seemed so foundational in the previous decade.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.31"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The specific content of 1920s cultural conflict reveals the underlying anxiety was about the displacement of a historically dominant Protestant, rural, Anglo-Saxon cultural order by pluralism, secularism, and urban cosmopolitanism — a conflict between groups experiencing modernity as gain and those experiencing it as loss.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.29"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.29->US.31: standard ADDED ['advertising', 'celebrities', 'entertainment'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "advertising",
+            "celebrities",
+            "entertainment"
+          ]
+        }
+      }
+    }
+  ]
+}

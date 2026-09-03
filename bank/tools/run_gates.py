@@ -29,6 +29,7 @@ GATES = [
     coverage.gate_serveability,
     coverage.gate_reporting_category,
     coverage.gate_teacher_side_isolation,
+    coverage.gate_release_readiness,
 ]
 
 

@@ -87,19 +87,30 @@ def gate_key_position(items, binding=None) -> Result:
         positions[len(ids)].update(ids)
 
     findings, notes = [], []
+    # Judge on EFFECT SIZE, not p-value alone. At n=3,844 a chi-square test
+    # flags a 27/25/24/24 split — statistically significant, practically
+    # unbeatable by a student. A gate that fails on that trains people to
+    # ignore the word FAIL. The defect this exists to catch is "60% of keys
+    # are C", so the bar is a share more than 7 points off uniform.
+    MAX_DEVIATION = 0.07
     for k, counts in sorted(cohorts.items()):
         n = sum(counts.values())
         if k < 2:
             continue
         expected = n / k
+        uniform = 1.0 / k
         chi2 = sum((counts.get(p, 0) - expected) ** 2 / expected for p in positions[k])
         crit = _CHI2_CRIT_01.get(k - 1)
-        share = {p: counts[p] / n for p in counts}
+        share = {p: counts.get(p, 0) / n for p in positions[k]}
         worst = max(share, key=share.get) if share else None
-        notes.append(f"{k}-choice n={n} worst={worst}@{share.get(worst, 0):.0%}")
-        if crit and chi2 > crit:
+        dev = max(abs(v - uniform) for v in share.values()) if share else 0.0
+        flag = "" if not (crit and chi2 > crit) else f" chi2={chi2:.1f}>{crit} (advisory)"
+        notes.append(f"{k}-choice n={n} worst={worst}@{share.get(worst, 0):.0%} "
+                     f"max-dev={dev:.1%}{flag}")
+        if dev > MAX_DEVIATION:
             findings.append(Finding(f"{k}-choice cohort",
-                f"key positions not uniform: chi2={chi2:.1f} > {crit} (p<0.01), n={n}, "
+                f"key position {worst!r} is {share[worst]:.0%} of keys, {dev:.1%} off the "
+                f"{uniform:.0%} uniform share (bar: {MAX_DEVIATION:.0%}); "
                 f"distribution {dict(sorted(counts.items()))}"))
     return Result(name, not findings, len(live), findings, note="; ".join(notes))
 
@@ -235,3 +246,60 @@ def gate_teacher_side_isolation(items, binding=None) -> Result:
                 it.get("_file", "")))
     return Result(name, not findings, len(items), findings,
                   note="measures rendered student surfaces; items at rest are teacher-side by default")
+
+
+# ------------------------------------------------------- release readiness
+def gate_release_readiness(items, binding=None) -> Result:
+    """Grade A only. One unresolved gap holds the whole artifact.
+
+    This gate exists because `reporting-category-provenance` reads GREEN when
+    every row is honestly UNMAPPED — consistency is all it can check. A green
+    column over 94 unsourced categories is the same trap as a gate green over
+    an empty set: it reads exactly like a clean pass. So the release decision
+    is measured separately and explicitly.
+    """
+    name = "release-readiness"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    with open(binding.reporting_category_file, encoding="utf-8") as fh:
+        rc = json.load(fh)
+    with open(binding.blueprint_file, encoding="utf-8") as fh:
+        bp = json.load(fh)
+
+    live = [i for i in items if itemio.servable(i)]
+    findings = []
+
+    unsourced = {c for i in live for c in (i.get("standardCodes") or [])
+                 if rc["standards"].get(c, {}).get("source") == "UNMAPPED"}
+    if unsourced:
+        findings.append(Finding("reportingCategory",
+            f"{len(unsourced)} standard(s) carry servable items with NO category source "
+            f"(mapping sourceOfRecord={rc.get('sourceOfRecord')!r}). TDOE has published no "
+            f"blueprint for {binding.standards_year}; until it does, this field cannot claim "
+            f"to be the state's own category."))
+
+    if str(bp.get("status", "")).lower().startswith(("draft", "operating")):
+        findings.append(Finding("blueprint",
+            f"blueprint status is {bp.get('status')!r} — not signed off by the course owner"))
+
+    prov = [i for i in live if i.get("status") == "provisional"]
+    if prov:
+        findings.append(Finding("alignment",
+            f"{len(prov)} item(s) are provisional: the standard's verb rose or elements were "
+            f"added. Each needs a human alignment decision before it is Grade A."))
+
+    debt = {
+        "distractors with no rationale": sum(
+            1 for i in live for c in itemio.choices(i)
+            if c.get("id") != i.get("correctAnswer") and not (c.get("explanation") or "").strip()),
+        "items with no dokRationale": sum(1 for i in live if not (i.get("dokRationale") or "").strip()),
+        "items missing a bilingual field": sum(
+            1 for i in live if not (i.get("stemEs") or "").strip()
+            or not (i.get("explanationEs") or "").strip()),
+    }
+    for k, v in debt.items():
+        if v:
+            findings.append(Finding("authoring-debt", f"{v} {k}"))
+
+    return Result(name, not findings, len(live), findings,
+                  note='Grade A requires zero findings here. "Close" is not "A."')

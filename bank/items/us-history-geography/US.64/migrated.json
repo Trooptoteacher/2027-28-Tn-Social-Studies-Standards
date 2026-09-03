@@ -1,0 +1,2957 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.64",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us71-dok1-1",
+      "stem": "How did the G.I. Bill benefit returning World War II veterans?",
+      "stemEs": "¿Cómo benefició la Ley G.I. a los veteranos que regresaban de la Segunda Guerra Mundial?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It required all veterans to serve additional years in military reserves",
+          "textEs": "Requirió que todos los veteranos sirvieran años adicionales en reservas militares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It gave veterans free land in Western territories to establish farms",
+          "textEs": "Dio a veteranos tierra gratuita en territorios del Oeste para establecer granjas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It provided education funding, home loans, and job training benefits",
+          "textEs": "Proporcionó financiamiento educativo, préstamos hipotecarios y capacitación laboral",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It provided lifetime government employment to all discharged soldiers",
+          "textEs": "Proporcionó empleo gubernamental de por vida a todos los soldados dados de baja",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 1944 G.I. Bill gave returning veterans money for college, job training, and low-interest home loans, which helped millions enter the middle class. A is wrong because the law did not require extra military service, and D is wrong because it did not promise lifetime government jobs. Those benefits helped drive postwar homeownership, higher education, and suburban growth.",
+      "explanationEs": "La Ley G.I. (1944) proporcionó a veteranos matrícula universitaria, préstamos hipotecarios de bajo interés y capacitación laboral. Ayudó a millones a asistir a la universidad y comprar casas, creando la clase media estadounidense e impulsando el crecimiento suburbano.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -0.85,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us71-add-2",
+      "stem": "What was the \"suburban ideal\" of the 1950s?",
+      "stemEs": "¿Cuál fue el \"ideal suburbano\" de los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Single-family homes, car ownership, and a stay-at-home mother in new developments like Levittown",
+          "textEs": "Casas unifamiliares, propiedad de automóviles y una madre ama de casa en desarrollos nuevos como Levittown",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Discriminatory implementation denied Black veterans equal access to housing and education",
+          "textEs": "Vivir en edificios de apartamentos de gran altura en centros de ciudades principales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The growing cultural divide between younger and older Americans over values and lifestyle",
+          "textEs": "Regresar a comunidades agrícolas rurales como el estilo de vida estadounidense principal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A youth movement rejecting mainstream values, promoting peace and personal freedom",
+          "textEs": "Arreglos de vida comunal donde múltiples familias compartían una vivienda",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The suburban ideal of the 1950s centered on owning a single-family house in a planned community like Levittown, with a car, modern appliances, and a nuclear family. B is wrong because it describes racial inequality in access to suburbia, not the ideal itself, and C is wrong because it refers to the generation gap of the 1960s. This image became a symbol of postwar prosperity even though many Americans were excluded from it.",
+      "explanationEs": "El ideal suburbano de los años 1950 presentaba viviendas en serie asequibles (como Levittown), garajes para dos autos, jardines cuidados y familias nucleares con un padre trabajador y una madre ama de casa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -1.54,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "retired",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "retired",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-71-x027",
+      "stem": "The color-coded Homeland Security Advisory System was —",
+      "stemEs": "The color-coded Homeland Security Advisory System was:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A public communication system rating terrorism threat level from green (low) to red (severe)",
+          "textEs": "A public communication system rating terrorism threat level from green (low) to red (severe)",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A classified system shared only with law enforcement to coordinate responses to threats",
+          "textEs": "A classified system shared only with law enforcement to coordinate responses to threats",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A UN-developed standard adopted by the U.S. for compatibility with allied threat warning systems",
+          "textEs": "A UN-developed standard adopted by the U.S. for compatibility with allied threat warning systems",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A sophisticated risk assessment tool based on specific intelligence about terrorist threats",
+          "textEs": "A sophisticated risk assessment tool based on specific intelligence about terrorist threats",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Homeland Security Advisory System used colors from green to red to tell the public the current terrorism threat level. D is wrong because it was not a highly precise tool based on detailed public intelligence. The system reflected the atmosphere of fear and readiness that followed 9/11.",
+      "explanationEs": "The Homeland Security Advisory System used colors from green to red to tell the public the current terrorism threat level. D is wrong because it was not a highly precise tool based on detailed public intelligence. The system reflected the atmosphere of fear and readiness that followed 9/11.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -1.13,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-71-x030",
+      "stem": "The term 'asymmetric warfare' describes conflict where —",
+      "stemEs": "The term 'asymmetric warfare' describes conflict where:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Combatants deliberately avoid direct confrontation, fighting indirectly through proxy forces",
+          "textEs": "Combatants deliberately avoid direct confrontation, fighting indirectly through proxy forces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wars are fought simultaneously on multiple fronts requiring coordination across geographic theaters",
+          "textEs": "Wars are fought simultaneously on multiple fronts requiring coordination across geographic theaters",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A weak non-state actor uses unconventional tactics to offset the conventional military superiority of a powerful nation-state",
+          "textEs": "A weak non-state actor uses unconventional tactics to offset the conventional military superiority of a powerful nation-state",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both sides have approximately equal military capabilities making the outcome uncertain",
+          "textEs": "Both sides have approximately equal military capabilities making the outcome uncertain",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Asymmetric warfare happens when a weaker non-state group uses unconventional tactics like terrorism or guerrilla attacks against a much stronger state military. D is wrong because the sides are not evenly matched, and A is wrong because proxy war is a different idea. This concept became central to understanding conflicts in Afghanistan and Iraq.",
+      "explanationEs": "Asymmetric warfare happens when a weaker non-state group uses unconventional tactics like terrorism or guerrilla attacks against a much stronger state military. D is wrong because the sides are not evenly matched, and A is wrong because proxy war is a different idea. This concept became central to understanding conflicts in Afghanistan and Iraq.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.85,
+        "b": -0.89,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-71-x041",
+      "stem": "NSC-68, the 1950 national security document, recommended which dramatic change in U.S. defense policy?",
+      "stemEs": "NSC-68, the 1950 national security document, recommended which dramatic change in U.S. defense policy?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A massive increase in defense spending to counter Soviet military power",
+          "textEs": "A massive increase in defense spending to counter Soviet military power",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Developing a nuclear deterrence strategy that eliminated the need for conventional forces",
+          "textEs": "Developing a nuclear deterrence strategy that eliminated the need for conventional forces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Relying primarily on diplomacy rather than military force to contain communism",
+          "textEs": "Relying primarily on diplomacia rather than military force to contain comunismo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Reducing military spending in favor of foreign economic aid",
+          "textEs": "Reducing military spending in favor of foreign economic aid",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "NSC-68 called for a massive increase in U.S. defense spending to contain Soviet power around the world. C is wrong because it did not recommend relying mostly on diplomacy, and D is wrong because it did not urge cutting military spending. The document helped militarize Cold War policy in the 1950s.",
+      "explanationEs": "NSC-68 called for a massive increase in U.S. defense spending to contain Soviet power around the world. C is wrong because it did not recommend relying mostly on diplomacia, and D is wrong because it did not urge cutting military spending. The document helped militarize Guerra Fría policy in the 1950s.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -0.05,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us64-dok1-1",
+      "stem": "What characterized American prosperity in the 1950s?",
+      "stemEs": "¿Qué caracterizó la prosperidad estadounidense en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Agricultural dominance, rural population expansion, and farm subsidies",
+          "textEs": "Dominio agrícola, expansión de población rural y subsidios agrícolas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Economic depression, rising unemployment rates, and widespread factory closures",
+          "textEs": "Depresión económica, tasas de desempleo en aumento y cierre generalizado de fábricas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Rising household incomes, mass consumption of goods, and rapid suburban growth",
+          "textEs": "Ingresos familiares en aumento, consumo masivo de bienes y rápido crecimiento suburbano",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Isolation from world trade, implementation of high tariffs, and protectionism",
+          "textEs": "Aislamiento del comercio mundial, implementación de altos aranceles y proteccionismo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "American prosperity in the 1950s featured rising family incomes, mass buying of cars and appliances, and fast suburban expansion. B is wrong because the decade was not an economic depression, and D is wrong because the United States was deeply involved in world trade after World War II. This prosperity helped define the image of postwar middle-class life.",
+      "explanationEs": "Los años 1950 vieron crecimiento económico sin precedentes con ingresos en aumento, consumo masivo de bienes como autos y TVs, expansión de clase media y explosivo crecimiento suburbano.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -1.44,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us71-dok1-2",
+      "stem": "What was the counterculture movement of the 1960s?",
+      "stemEs": "¿Qué fue el movimiento contracultural de los años 1960?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A youth movement rejecting mainstream values, promoting peace and personal freedom",
+          "textEs": "Un movimiento juvenil que rechazaba los valores convencionales, promoviendo la paz y la libertad personal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It symbolized the counterculture's ideals of peace, music, and communal spirit",
+          "textEs": "Un movimiento conservador que apoyaba los valores estadounidenses tradicionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Rising household incomes, mass consumption of goods, and rapid suburban growth",
+          "textEs": "Un movimiento económico enfocado en aumentar las ganancias corporativas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Discriminatory implementation denied Black veterans equal access to housing and education",
+          "textEs": "Un partido político que presentó candidatos en la elección presidencial de 1968",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The counterculture was a youth movement in the 1960s that rejected mainstream values, favored personal freedom, and often opposed the Vietnam War. B is wrong because Woodstock symbolized the movement but was not the movement itself, and C is wrong because it describes 1950s prosperity. The counterculture widened the generation gap and challenged older ideas about authority and conformity.",
+      "explanationEs": "La contracultura de los años 1960, centrada en los \"hippies,\" rechazaba el materialismo y el conformismo. Promovían la paz, el amor, la vida comunal y la oposición a la Guerra de Vietnam.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.09,
+        "b": -1.64,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us71-dok2-2",
+      "stem": "What was the \"suburban ideal\" of the 1950s?",
+      "stemEs": "¿Cuál era el \"ideal suburbano\" de la década de 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Living in high-rise apartment buildings in major downtown urban areas",
+          "textEs": "Vivir en edificios de apartamentos de gran altura en áreas urbanas centrales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Homeownership in planned communities with modern amenities and yards",
+          "textEs": "Propiedad de vivienda en comunidades planificadas con comodidades modernas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Returning to small-town rural life and traditional farming communities",
+          "textEs": "Regresar a la vida rural de pueblos pequeños y comunidades agrícolas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Sharing communal housing with extended family members in one dwelling",
+          "textEs": "Compartir vivienda comunal con familiares extendidos en una sola residencia",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The suburban ideal emphasized owning a home in a planned neighborhood with a yard, modern appliances, and access to schools and roads. A is wrong because high-rise urban living was the opposite of suburbia, and D is wrong because communal housing did not define the postwar middle-class dream. This ideal grew quickly because cheap housing, highways, and the G.I. Bill worked together.",
+      "explanationEs": "El ideal suburbano se centraba en ser propietario de una casa unifamiliar en una comunidad planificada como Levittown, con electrodomésticos modernos, un patio y acceso a buenas escuelas. Impulsados por la Ley G.I. y la construcción de autopistas, los suburbios se convirtieron en el símbolo de la prosperidad de los años 1950.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -0.03,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-71-x017",
+      "stem": "Bush's Authorization for Use of Military Force (AUMF), passed by Congress on September 18, 2001, authorized —",
+      "stemEs": "Bush's Authorization for Use of Military Force (AUMF), passed by Congreso on September 18, 2001, authorized:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Military operations in Afghanistan, Iraq, and any nation the president determined was connected to terrorism",
+          "textEs": "Military operations in Afghanistan, Iraq, and any nation the president determined was connected to terrorism",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The president to use nuclear weapons if necessary to prevent future terrorist attacks",
+          "textEs": "The president to use nuclear weapons if necessary to prevent future terrorist attacks",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The use of force against those responsible for the 9/11 attacks and nations harboring them",
+          "textEs": "The use of force against those responsible for the 9/11 attacks and nations harboring them",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "War specifically against Afghanistan's Taliban government for harboring al-Qaeda",
+          "textEs": "War specifically against Afghanistan's Taliban government for harboring al-Qaeda",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 2001 AUMF authorized force against the groups and nations responsible for 9/11 and those who harbored them. A is wrong because Iraq was not named in that authorization, and D is too narrow because the measure was not limited only to the Taliban. The AUMF became the legal basis for much of the War on Terror.",
+      "explanationEs": "The 2001 AUMF authorized force against the groups and nations responsible for 9/11 and those who harbored them. A is wrong because Iraq was not named in that authorization, and D is too narrow because the measure was not limited only to the Taliban. The AUMF became the legal basis for much of the Guerra contra el Terrorismo.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.84,
+        "b": -0.11,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-71-x025",
+      "stem": "The NSA's PRISM surveillance program, revealed by Snowden, collected data primarily from —",
+      "stemEs": "The NSA's PRISM surveillance program, revealed by Snowden, collected data primarily from:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Phone records of known terrorist suspects under individual FISA warrants",
+          "textEs": "Phone records of known terrorist suspects under individual FISA warrants",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Major internet and technology companies — including Google, Facebook, and Apple — without individual warrants",
+          "textEs": "Major internet and technology companies — including Google, Facebook, and Apple — without individual warrants",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Government employees suspected of espionage based on prior intelligence",
+          "textEs": "Government employees suspected of espionage based on prior intelligence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Foreign nationals traveling in the United States on student and tourist visas",
+          "textEs": "Foreign nationals traveling in the United States on student and tourist visas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "PRISM collected data from major internet companies such as Google, Facebook, and Apple under secret surveillance programs revealed by Snowden. B is wrong because the program was broader than targeted individual warrants. The revelation showed how far post-9/11 surveillance had expanded into digital life.",
+      "explanationEs": "PRISM collected data from major internet companies such as Google, Facebook, and Apple under secret surveillance programs revealed by Snowden. B is wrong because the program was broader than targeted individual warrants. The revelation showed how far post-9/11 surveillance had expanded into digital life.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.84,
+        "b": 0.12,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us71-dok2-3",
+      "stem": "What was the significance of the Woodstock music festival in 1969?",
+      "stemEs": "¿Cuál fue la importancia del festival de música Woodstock en 1969?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It symbolized the counterculture's ideals of peace, music, and communal spirit",
+          "textEs": "Simbolizó los ideales de la contracultura de paz, música y espíritu comunal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Rising household incomes, mass consumption of goods, and rapid suburban growth",
+          "textEs": "Fue un mitin político que eligió nuevos funcionarios gubernamentales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A youth movement rejecting mainstream values, promoting peace and personal freedom",
+          "textEs": "Fue una protesta violenta contra la Guerra de Vietnam",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It expanded the middle class and shifted workers from factories to offices",
+          "textEs": "Fue organizado por el gobierno para promover la unidad nacional",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Woodstock became important because it symbolized the counterculture's ideals of peace, music, anti-materialism, and communal spirit. C is wrong because it describes the wider counterculture rather than the specific event, and B is wrong because it refers to 1950s prosperity. The festival became one of the most famous cultural moments of the 1960s.",
+      "explanationEs": "Woodstock (agosto de 1969) atrajo a más de 400,000 personas a una granja en el norte del estado de Nueva York para tres días de música y paz. Se convirtió en el momento definitorio de la contracultura.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.9,
+        "b": 0.06,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK1-0007",
+      "stem": "Use the photograph to answer the question.\n\nThis aerial photograph shows rows of nearly identical houses in Levittown, Pennsylvania, one of the first mass-produced suburban developments in the United States. Built in the late 1940s and early 1950s, Levittown offered affordable single-family homes to returning World War II veterans and their families.\n\n(Aerial photograph, c. 1948-1952.)\n\nWhat federal legislation helped make the suburban development shown in this photograph possible?",
+      "stemEs": "¿Qué legislación federal ayudó a hacer posible el desarrollo suburbano mostrado en esta fotografía?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The GI Bill (Servicemen's Readjustment Act of 1944)",
+          "textEs": "La Ley del Soldado (Ley de Reajuste de los Veteranos de 1944)",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Social Security Act of 1935",
+          "textEs": "La Ley de Seguridad Social de 1935",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Civil Rights Act of 1964",
+          "textEs": "La Ley de Derechos Civiles de 1964",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The National Housing Act of 1934",
+          "textEs": "La Ley Nacional de Vivienda de 1934",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The GI Bill provided low-interest home loans to returning veterans, enabling millions of families to purchase homes in new suburban developments like Levittown.",
+      "explanationEs": "La Ley GI proporcionó préstamos hipotecarios de bajo interés a veteranos, permitiendo la compra de viviendas en desarrollos suburbanos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -0.9,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us71-dok2-1",
+      "stem": "How did the growth of white-collar jobs change American society in the 1950s?",
+      "stemEs": "¿Cómo cambió el crecimiento de empleos de oficina la sociedad estadounidense en la década de 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It provided veterans with education benefits, home loans, and job training",
+          "textEs": "Benefició principalmente a comunidades agrícolas rurales en las Grandes Llanuras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It symbolized the counterculture's ideals of peace, music, and communal spirit",
+          "textEs": "Eliminó todos los empleos de manufactura y cerró la mayoría de fábricas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It expanded the middle class and shifted workers from factories to offices",
+          "textEs": "Expandió la clase media y cambió a trabajadores de fábricas a oficinas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Rising household incomes, mass consumption of goods, and rapid suburban growth",
+          "textEs": "Disminuyó el nivel de vida para la mayoría de familias trabajadoras",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The growth of white-collar jobs in the 1950s expanded office and professional work, which helped enlarge the middle class. A is wrong because it describes the G.I. Bill, and D is wrong because it names overall prosperity rather than the specific job shift. This change moved many Americans away from factory labor and toward suburban, service-oriented lifestyles.",
+      "explanationEs": "La década de 1950 vio un cambio dramático de manufactura de cuello azul a trabajo de oficina de cuello blanco. Esta expansión de empleos profesionales, gerenciales y de oficina hizo crecer la clase media y apoyó el estilo de vida suburbano que definió la década.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.06,
+        "b": 0.58,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us73-add-4",
+      "stem": "How did postwar infrastructure spending affect suburban growth?",
+      "stemEs": "¿Cómo postwar infrastructure spending affect suburban growth?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease",
+          "textEs": "Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Expanded highways made daily commuting practical for more middle-class families",
+          "textEs": "Expanded highways made daily commuting practical for more middle-class families",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Improving civilian transportation while supporting national defense logistics",
+          "textEs": "Improving civilian transportation while supporting national defense logistics",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They paired infrastructure and health advances that increased productivity and mobility",
+          "textEs": "They paired infrastructure and health advances that increased productivity and mobility",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Postwar infrastructure spending expanded highways, which made daily suburban commuting possible for far more middle-class families. C is wrong because it states a broader purpose of the highways, not the direct effect on suburban growth. Federal spending on roads helped spread metropolitan areas outward.",
+      "explanationEs": "Postwar infrastructure spending expanded highways, which made daily suburban commuting possible for far more middle-class families. C is wrong because it states a broader purpose of the highways, not the direct effect on suburban growth. Federal spending on roads helped spread metropolitan areas outward.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.33,
+        "b": -0.25,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-71-x033",
+      "stem": "President Truman's decision to intervene in Korea in 1950 without a formal declaration of war was justified under which authority?",
+      "stemEs": "President Truman's decision to intervene in Korea in 1950 without a formal declaration of war was justified under which authority?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The War Powers Act of 1950, limiting presidential military action",
+          "textEs": "The War Powers Act of 1950",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A United Nations Security Council resolution authorizing the use of force",
+          "textEs": "A United Nations Security Council resolution authorizing military force",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The president's inherent authority as commander-in-chief",
+          "textEs": "The president's inherent constitucional authority as commander-in-chief",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Gulf of Tonkin Resolution passed by Congress",
+          "textEs": "The Gulf of Tonkin Resolution passed by Congreso",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Truman justified intervention in Korea as part of a United Nations Security Council action against aggression. C is tempting because presidents do claim commander-in-chief power, but the official basis for the conflict was the UN resolution. Korea set an important precedent for U.S. military action without a formal declaration of war.",
+      "explanationEs": "Truman justified intervention in Korea as part of a United Nations Security Council action against aggression. C is tempting because presidents do claim commander-in-chief power, but the official basis for the conflict was the UN resolution. Korea set an important precedent for U.S. military action without a formal declaration of war.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.01,
+        "b": 0.31,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-71-x034",
+      "stem": "General MacArthur's dismissal by President Truman in April 1951 illustrated which constitutional principle?",
+      "stemEs": "General MacArthur's dismissal by President Truman in April 1951 illustrated which constitucional principle?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "That Congress has sole constitutional authority to appoint and remove senior military commanders in wartime",
+          "textEs": "That Congreso has sole constitucional authority to appoint and remove senior military commanders in wartime",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "That military courts, not the president, have jurisdiction over the conduct and dismissal of senior officers",
+          "textEs": "That military courts, not the president, have jurisdiction over the conduct and dismissal of senior officers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "That military generals retain independent authority to conduct combat operations when civilian orders are unlawful",
+          "textEs": "That military generals retain independent authority to conduct combat operations when civilian orders are unlawful",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "That the president, as commander-in-chief, has the authority to remove military officers who publicly defy civilian authority",
+          "textEs": "That the president, as commander-in-chief, has the authority to remove military officers who publicly defy civilian authority",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "MacArthur's firing showed that elected civilian leaders, not generals, control U.S. military policy. C is wrong because military commanders cannot overrule the president in wartime. The episode became a classic example of civilian control of the armed forces.",
+      "explanationEs": "MacArthur's firing showed that elected civilian leaders, not generals, control U.S. military policy. C is wrong because military commanders cannot overrule the president in wartime. The episode became a classic example of civilian control of the armed forces.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.46,
+        "b": -0.48,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-72-x034",
+      "stem": "Levittown, New York, built in the late 1940s, represented which major postwar social trend?",
+      "stemEs": "Levittown, New York, built in the late 1940s, represented which major postwar social trend?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Racially integrated planned communities that became models for civil rights advocates",
+          "textEs": "Racially integrated planned communities that became models for derechos civiles advocates",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Government-built public housing for returning veterans who could not afford private homes",
+          "textEs": "Government-built public housing for returning veterans who could not afford private homes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Urban renewal that replaced slums with modern high-rise apartment buildings",
+          "textEs": "Urban renewal that replaced slums with modern high-rise apartment buildings",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Mass-produced suburban housing that enabled affordable homeownership for middle-class white families",
+          "textEs": "Mass-produced suburban housing that enabled affordable homeownership for middle-class white families",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Levittown represented mass-produced suburban housing that made homeownership affordable for many middle-class white families after World War II. A is wrong because Levittown was not racially integrated, and B is wrong because it was private suburban housing, not federal public housing. It became a model for postwar suburbia and its exclusions.",
+      "explanationEs": "Levittown represented mass-produced suburban housing that made homeownership affordable for many middle-class white families after Segunda Guerra Mundial. A is wrong because Levittown was not racially integrated, and B is wrong because it was private suburban housing, not federal public housing. It became a model for postwar suburbia and its exclusions.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.44,
+        "b": -0.57,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-72-x038",
+      "stem": "The conformity of 1950s suburban culture was criticized by thinkers like William Whyte and David Riesman, who argued that —",
+      "stemEs": "The conformity of 1950s suburban culture was criticized by thinkers like William Whyte and David Riesman, who argued that:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Suburban prosperity was built on the systematic underpayment and exploitation of industrial and service workers",
+          "textEs": "Suburban prosperity was built on the systematic underpayment and exploitation of industrial and service workers",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Suburban growth was eroding American religious traditions and the extended family structures of urban ethnic communities",
+          "textEs": "Suburban growth was eroding American religious traditions and the extended family structures of urban ethnic communities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television was exposing American children to violent and morally degrading content that undermined community values",
+          "textEs": "Television was exposing American children to violent and morally degrading content that undermined community values",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Mass consumer society produced social conformity and 'other-directed' personalities that lacked authentic individuality",
+          "textEs": "Mass consumer society produced social conformity and 'other-directed' personalities that lacked authentic individuality",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Critics such as William Whyte and David Riesman argued that suburban consumer society encouraged conformity and 'other-directed' people who followed group expectations. B is wrong because their main critique was not about religion, and C is wrong because they were not focused only on TV content. Their ideas captured anxieties beneath the surface of 1950s prosperity.",
+      "explanationEs": "Critics such as William Whyte and David Riesman argued that suburban consumer society encouraged conformity and 'other-directed' people who followed group expectations. B is wrong because their main critique was not about religion, and C is wrong because they were not focused only on TV content. Their ideas captured anxieties beneath the surface of 1950s prosperity.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.67,
+        "b": -0.32,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us64-dok3-1",
+      "stem": "How did the G.I. Bill create racial inequality despite its benefits?",
+      "stemEs": "¿Cómo creó la Ley G.I. desigualdad racial a pesar de sus beneficios?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The growing cultural divide between younger and older Americans over values and lifestyle",
+          "textEs": "Todos los veteranos recibieron beneficios completamente iguales sin importar su raza",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A youth movement rejecting mainstream values, promoting peace and personal freedom",
+          "textEs": "Veteranos negros recibieron beneficios más generosos que veteranos blancos bajo la ley",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Discriminatory implementation denied Black veterans equal access to housing and education",
+          "textEs": "Implementación discriminatoria negó a veteranos negros acceso igual a vivienda y educación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Single-family homes, car ownership, and a stay-at-home mother in new developments like Levittown",
+          "textEs": "La ley fue escrita para excluir específicamente a todos los veteranos no blancos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The G.I. Bill created racial inequality because Black veterans were often blocked from equal access to colleges, mortgages, and local benefits by segregation and discrimination. D is wrong because it describes the suburban ideal rather than the unequal reality behind it, and B is wrong because the generation gap was a later issue. This unequal access helped widen the racial wealth gap in postwar America.",
+      "explanationEs": "Aunque la Ley G.I. ayudó a millones de veteranos, prácticas discriminatorias por universidades, el VA y oficiales locales negaron a veteranos negros acceso igual a beneficios de educación y vivienda, creando una brecha de riqueza duradera.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.83,
+        "b": 0.95,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK2-0012",
+      "stem": "How did the GI Bill contribute to the economic prosperity and suburban growth of the United States after World War II?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It offered veterans low-interest home loans, college tuition benefits, and job training that expanded the middle class and fueled suburban development",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It provided government-funded factory jobs in urban areas that attracted veterans back to city centers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It required all veterans to relocate to rural areas to work in government-sponsored agricultural programs",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It gave veterans tax exemptions for purchasing imported goods, boosting foreign trade but limiting domestic manufacturing",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Servicemen's Readjustment Act (1944) enabled millions of veterans to attend college and purchase homes in developing suburbs, dramatically expanding the American middle class through the 1950s.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.4,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK2-0013",
+      "stem": "Which pattern best describes how 1950s prosperity affected American consumption habits?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Americans saved the majority of their income due to memories of the Great Depression, limiting consumer spending",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Rising wages and easy credit led Americans to purchase appliances, cars, and televisions at unprecedented rates, creating a consumer culture",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Government rationing programs from World War II continued throughout the 1950s, restricting consumer purchases",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Most American families relied on barter rather than cash purchases throughout the 1950s",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Postwar prosperity, easy installment credit, and rising wages drove unprecedented consumer spending on appliances, automobiles, and televisions, cementing a mass consumer culture.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK2-0014",
+      "stem": "How did U.S. dependence on foreign oil affect the American economy and suburban lifestyle of the 1950s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Foreign oil dependence had no impact on American daily life because the U.S. was entirely self-sufficient in oil production during the 1950s",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "High oil import costs caused widespread fuel shortages throughout the 1950s, limiting automobile ownership to wealthy Americans",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Cheap imported oil kept gasoline prices low, enabling the widespread automobile use and suburban sprawl that defined 1950s American life",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The United States banned all oil imports during the 1950s to protect the domestic petroleum industry",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Growing global oil production, including from Middle Eastern fields, kept gasoline inexpensive throughout the 1950s, making the automobile-centered suburban lifestyle economically feasible for the middle class.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK2-0015",
+      "stem": "How did the shift from blue-collar to white-collar employment in the 1950s reflect changes in the American economy?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The shift reflected a decline in overall employment as automation replaced both factory and office workers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The shift indicated that factory work had become illegal, forcing workers into service industries",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "White-collar growth resulted from the elimination of unions, which had previously protected all manufacturing jobs",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "White-collar job growth reflected expansion in service, management, and professional sectors as the economy shifted toward technology and office work",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The postwar economy's growth in corporations, government agencies, insurance, finance, and retail created millions of office and professional positions, shifting the workforce composition toward white-collar employment.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK2-0016",
+      "stem": "Which factor best explains why suburban communities expanded rapidly in the United States during the 1950s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The combination of GI Bill home loans, mass-produced housing developments, and automobile ownership made suburban living affordable for the middle class",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The federal government condemned all urban areas and required families to relocate to newly built suburbs",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Suburbs grew because city governments raised taxes so high that all residents were forced to leave",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The decline of American manufacturing caused workers to relocate to suburban areas where agricultural jobs were available",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Developers like William Levitt used mass-production techniques to build affordable homes; GI Bill loans, low interest rates, and the automobile made suburban homeownership accessible to millions of working families.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK2-0017",
+      "stem": "How did the ideal of the 'suburban home' reflect broader social values in 1950s American culture?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Suburban life was characterized by racial and economic diversity that challenged the segregation of the previous era",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The suburban home symbolized economic success, family stability, and conformity to middle-class norms, reinforcing traditional gender roles and the nuclear family ideal",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The suburban ideal rejected consumer culture and encouraged self-sufficient farming among middle-class families",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Suburban communities formed in opposition to the federal government, functioning as semi-independent political units",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Postwar suburban culture celebrated the breadwinner husband, homemaker wife, and 2.5 children as the ideal American family, embedding gender conformity and middle-class materialism into the dominant social norm.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK2-0042",
+      "stem": "Use the photograph to answer the question.\n\nThis aerial photograph shows Levittown, Pennsylvania, one of the first mass-produced suburban developments in the United States, built in the late 1940s and early 1950s.\n\n(Aerial photograph, c. 1948-1952.)\n\nWhich economic and social trend does the development shown in this photograph BEST represent?",
+      "stemEs": "¿Qué tendencia económica y social representa MEJOR el desarrollo mostrado en esta fotografía?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The decline of American manufacturing and the shift to a service economy",
+          "textEs": "El declive de la manufactura estadounidense y la transición hacia una economía de servicios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The migration of rural populations to industrial cities during the Great Depression",
+          "textEs": "La migración de poblaciones rurales a ciudades industriales durante la Gran Depresión",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The postwar suburban expansion driven by prosperity, automobile culture, and federal housing policies",
+          "textEs": "La expansión suburbana de la posguerra impulsada por la prosperidad, la cultura del automóvil y las políticas federales de vivienda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The construction of public housing projects to address urban poverty",
+          "textEs": "La construcción de proyectos de vivienda pública para combatir la pobreza urbana",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Levittown represents the massive postwar suburbanization fueled by economic prosperity, the GI Bill, highway construction, automobile ownership, and affordable mass-produced housing that transformed American society in the 1950s.",
+      "explanationEs": "Levittown representa la suburbanización masiva de posguerra impulsada por la prosperidad económica y las políticas federales de vivienda.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us64-dok2-4",
+      "stem": "What role did credit and installment buying play in 1950s consumerism?",
+      "stemEs": "¿Qué papel jugaron el crédito y las compras a plazos en el consumismo de los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An armistice divided Korea near the 38th parallel, with no formal peace treaty",
+          "textEs": "Solo gente adinerada usó crédito porque tasas de interés eran extremadamente altas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Government agency that insured mortgages, making homeownership more accessible",
+          "textEs": "Fue ilegal durante los años 1950 porque gobierno prohibió préstamos de consumo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Enabled families to purchase cars, appliances, and homes beyond immediate means",
+          "textEs": "Permitió a familias comprar autos, electrodomésticos y casas más allá de medios inmediatos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Owning homes, cars, and goods became markers of success and the American Dream",
+          "textEs": "Redujo gasto de consumo en general haciendo personas más cautelosas con dinero",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Enabled families to purchase cars, appliances, and homes beyond immediate means. Choice D is wrong because it describes owning homes, cars, and goods became markers of success and the American Dream, not enabled families to purchase cars, appliances, and homes beyond immediate means. Korea made containment a military commitment and showed how limited wars could become long, costly stalemates.",
+      "explanationEs": "El crédito y las compras a plazos se expandieron dramáticamente en los años 1950, permitiendo a familias de clase media comprar casas, autos y electrodomésticos pagando con el tiempo, impulsando cultura de consumo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.09,
+        "b": 0.41,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-72-x036",
+      "stem": "Postwar suburban growth in the 1950s contributed to racial inequality by —",
+      "stemEs": "Postwar suburban growth in the 1950s contribuyó a racial inigualdad by:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Directing all New Deal housing programs exclusively to suburban areas",
+          "textEs": "Directing all New Deal housing programs exclusively to suburban areas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Explicitly prohibiting Black Americans from purchasing any suburban property nationwide",
+          "textEs": "Explicitly prohibiting Black Americans from purchasing any suburban property nationwide",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Creating new Black-only suburban communities separate from white suburbs",
+          "textEs": "Creating new Black-only suburban communities separate from white suburbs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "FHA loan policies, restrictive covenants, and redlining that concentrated white wealth in suburbs while trapping",
+          "textEs": "FHA loan policies, restrictive covenants, and redlining that concentrated white wealth in suburbs while trapping",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Suburban growth increased racial inequality because FHA lending rules, redlining, and restrictive covenants helped white families build suburban wealth while many Black families were shut out. B is wrong because exclusion was not always written as one nationwide direct ban, but it was enforced through policy and practice. These housing patterns created wealth gaps that lasted for generations.",
+      "explanationEs": "Suburban growth increased racial inigualdad because FHA lending rules, redlining, and restrictive covenants helped white families build suburban wealth while many Black families were shut out. B is wrong because exclusion was not always written as one nationwide direct ban, but it was enforced through policy and practice. These housing patterns created wealth gaps that lasted for generations.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.26,
+        "b": 1.64,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-001",
+      "stem": "The G.I. Bill of 1944 provided veterans with low-interest home loans, college tuition, and unemployment benefits. Considering the long-term economic consequences of these provisions together, which conclusion is best supported?",
+      "stemEs": "La Ley G.I. de 1944 otorgó a los veteranos préstamos hipotecarios a bajo interés, matrícula universitaria y beneficios de desempleo. Considerando las consecuencias económicas a largo plazo de estas disposiciones en conjunto, ¿qué conclusión está mejor respaldada?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The G.I. Bill primarily benefited wealthy Americans by subsidizing property they already owned.",
+          "textEs": "La Ley G.I. benefició principalmente a los estadounidenses adinerados al subsidiar propiedades que ya poseían.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The G.I. Bill created an interlocking cycle of prosperity by simultaneously expanding education, home ownership, and consumer demand.",
+          "textEs": "La Ley G.I. creó un ciclo interconectado de prosperidad al ampliar simultáneamente la educación, la propiedad de vivienda y la demanda del consumidor.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The G.I. Bill made veterans economically dependent on government support for decades.",
+          "textEs": "La Ley G.I. hizo que los veteranos dependieran económicamente del apoyo gubernamental durante décadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The G.I. Bill's housing provisions directly caused the United States to increase its reliance on foreign oil.",
+          "textEs": "Las disposiciones de vivienda de la Ley G.I. causaron directamente que Estados Unidos aumentara su dependencia del petróleo extranjero.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The G.I. Bill simultaneously expanded educational attainment (creating a larger white-collar workforce), enabled mass home ownership (fueling suburban construction and consumer spending), and generated demand for automobiles and appliances — creating an interlocking cycle of prosperity. Option A is wrong because the bill broadened wealth access rather than concentrating it. Option C overstates dependency; veterans returned to civilian productivity. Option D confuses correlation with cause; foreign oil reliance stemmed from automobile culture, not directly from the bill's housing loans.",
+      "explanationEs": "La Ley G.I. amplió simultáneamente el nivel educativo (creando una mayor fuerza laboral de cuello blanco), facilitó la propiedad masiva de viviendas (impulsando la construcción suburbana y el gasto del consumidor) y generó demanda de automóviles y electrodomésticos, creando un ciclo interconectado de prosperidad. La opción A es incorrecta porque la ley amplió el acceso a la riqueza en vez de concentrarla. La opción C sobreestima la dependencia; los veteranos retomaron la productividad civil. La opción D confunde correlación con causa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.13,
+        "b": 1.58,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-002",
+      "stem": "In the 1950s, white-collar employment grew rapidly while blue-collar manufacturing jobs remained stable. Which of the following best explains the long-term social consequence of this shift?",
+      "stemEs": "En la década de 1950, el empleo de cuello blanco creció rápidamente mientras los empleos manufactureros de cuello azul se mantuvieron estables. ¿Cuál de las siguientes opciones explica mejor la consecuencia social a largo plazo de este cambio?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It produced a managerial middle class that drove suburban expansion and a conformist consumer culture.",
+          "textEs": "Produjo una clase media gerencial que impulsó la expansión suburbana y una cultura de consumo conformista.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It caused widespread unemployment among factory workers, increasing poverty in industrial cities.",
+          "textEs": "Causó un desempleo generalizado entre los trabajadores de fábrica, aumentando la pobreza en las ciudades industriales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It led developers to build suburban communities first, which then attracted white-collar workers to relocate.",
+          "textEs": "Llevó a los desarrolladores a construir comunidades suburbanas primero, lo que luego atrajo a trabajadores de cuello blanco a mudarse.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It increased civil defense spending because white-collar workers feared nuclear attack more than factory workers did.",
+          "textEs": "Aumentó el gasto en defensa civil porque los trabajadores de cuello blanco temían más el ataque nuclear que los trabajadores de fábrica.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Growth of white-collar jobs required higher education and produced a managerial middle class that could afford suburban living, fueling conformist consumer culture and reinforcing the 'organization man' ethos. Option B is incorrect because manufacturing remained strong in the 1950s. Option C reverses the relationship — suburban expansion followed white-collar growth, not the reverse. Option D misidentifies the cause; Cold War anxiety, not job-sector shifts, primarily drove civil defense concerns.",
+      "explanationEs": "El crecimiento de los empleos de cuello blanco requirió mayor educación y produjo una clase media gerencial que podía costear la vida suburbana, impulsando una cultura de consumo conformista. La opción B es incorrecta porque la manufactura siguió siendo sólida en los años 50. La opción C invierte la relación. La opción D identifica incorrectamente la causa; la ansiedad de la Guerra Fría, no los cambios de sector laboral, impulsó principalmente las preocupaciones de defensa civil.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.63,
+        "b": 1.17,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-003",
+      "stem": "By 1960, the United States imported a growing share of its petroleum from Middle Eastern nations. Analyzing the domestic economic conditions of the 1950s, which factor most directly created this dependence?",
+      "stemEs": "Para 1960, Estados Unidos importaba una proporción creciente de su petróleo de naciones de Oriente Medio. Analizando las condiciones económicas internas de la década de 1950, ¿qué factor creó más directamente esta dependencia?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Federal energy policy in the 1950s deliberately redirected domestic oil production to military reserves.",
+          "textEs": "La política energética federal en los años 50 redirigió deliberadamente la producción petrolera nacional hacia reservas militares.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Agricultural mechanization consumed so much domestic petroleum that civilian supplies were rationed.",
+          "textEs": "La mecanización agrícola consumió tanto petróleo nacional que los suministros civiles fueron racionados.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The mass adoption of automobiles and suburban commuting created petroleum demand that exceeded domestic production capacity.",
+          "textEs": "La adopción masiva de automóviles y los desplazamientos suburbanos crearon una demanda de petróleo que superó la capacidad de producción nacional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The rapid growth of the plastics manufacturing industry consumed the majority of domestically produced oil.",
+          "textEs": "El rápido crecimiento de la industria manufacturera de plásticos consumió la mayor parte del petróleo producido internamente.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The postwar surge in automobile ownership, suburban sprawl (requiring long commutes), and the interstate highway system together created insatiable domestic gasoline demand that U.S. oil fields could not fully supply, making foreign imports structurally necessary. Option A reverses causation — foreign oil dependency preceded any 1970s policy responses. Option B is plausible but secondary; agricultural mechanization was less significant than automotive culture in petroleum demand. Option D is incorrect; plastics manufacturing, while oil-dependent, was a smaller consumer than transportation.",
+      "explanationEs": "El auge de la propiedad de automóviles, la expansión suburbana (con largos desplazamientos) y el sistema de autopistas interestatales crearon una demanda insaciable de gasolina que los campos petroleros estadounidenses no podían satisfacer plenamente, haciendo estructuralmente necesarias las importaciones. La opción A invierte la causalidad. La opción B es plausible pero secundaria. La opción D es incorrecta; la manufactura de plásticos, aunque dependiente del petróleo, era un consumidor menor que el transporte.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 0.69,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-004",
+      "stem": "Levittown, New York, built in the late 1940s and 1950s, was one of the first large-scale planned suburban communities. A historian argues that Levittown simultaneously represented opportunity and exclusion. Which evidence best supports both sides of this argument?",
+      "stemEs": "Levittown, Nueva York, construida a fines de los años 40 y en los 50, fue una de las primeras comunidades suburbanas planificadas a gran escala. Un historiador sostiene que Levittown representó simultáneamente oportunidad y exclusión. ¿Qué evidencia respalda mejor ambos lados de este argumento?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Levittown offered affordable housing to veterans but required buyers to pay full price without financing options.",
+          "textEs": "Levittown ofreció viviendas accesibles a los veteranos, pero exigía a los compradores pagar el precio completo sin opciones de financiamiento.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Levittown received federal mortgage backing available to all veterans equally, yet local zoning kept lots unaffordably large.",
+          "textEs": "Levittown recibió respaldo hipotecario federal disponible para todos los veteranos por igual, pero la zonificación local mantuvo los lotes demasiado costosos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Levittown provided low-cost homes to thousands of working-class families but lacked schools and community spaces for a decade.",
+          "textEs": "Levittown proporcionó casas de bajo costo a miles de familias de clase trabajadora, pero careció de escuelas y espacios comunitarios durante una década.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Levittown offered affordable homeownership to white working-class families while using racially restrictive covenants to exclude Black Americans.",
+          "textEs": "Levittown ofreció la propiedad de vivienda accesible a familias blancas de clase trabajadora mientras usaba convenios racialmente restrictivos para excluir a los afroamericanos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Levittown's developer William Levitt used racially restrictive covenants that explicitly barred Black Americans from purchasing homes, while simultaneously providing affordable homes to hundreds of thousands of white working-class and middle-class families — representing real opportunity for those who qualified and systematic exclusion for those who did not. Option A is incomplete; affordability alone doesn't explain exclusion. Option B is historically inaccurate — federal backing was broadly available to qualifying white buyers. Option C is a minor point that doesn't capture the fundamental racial dimension.",
+      "explanationEs": "El desarrollador William Levitt utilizó convenios racialmente restrictivos que prohibían explícitamente a los afroamericanos comprar casas, mientras ofrecía viviendas accesibles a cientos de miles de familias blancas de clase trabajadora y media. La opción A es incompleta. La opción B es históricamente inexacta. La opción C es un punto menor que no capta la dimensión racial fundamental.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.91,
+        "b": 1.26,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-006",
+      "stem": "Critics of 1950s suburban prosperity, such as sociologist C. Wright Mills, argued that conformity, not freedom, defined suburban life. Which of the following best evaluates the strongest evidence for this critique?",
+      "stemEs": "Los críticos de la prosperidad suburbana de los años 50, como el sociólogo C. Wright Mills, argumentaban que la conformidad, no la libertad, definía la vida suburbana. ¿Cuál de las siguientes opciones evalúa mejor la evidencia más sólida de esta crítica?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Suburban communities were racially diverse, which pressured white residents to conform to new multicultural norms.",
+          "textEs": "Las comunidades suburbanas eran racialmente diversas, lo que presionaba a los residentes blancos a conformarse con nuevas normas multiculturales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Suburban residents had higher incomes than urban residents, proving that prosperity created genuine individual freedom.",
+          "textEs": "Los residentes suburbanos tenían ingresos más altos que los residentes urbanos, lo que demuestra que la prosperidad creó una libertad individual genuina.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Identical housing designs, rigid gender roles, racial exclusion, and social pressure to match neighbors' consumption all structured conformity into suburban life.",
+          "textEs": "Los diseños de vivienda idénticos, los roles de género rígidos, la exclusión racial y la presión social para igualar el consumo de los vecinos estructuraron la conformidad en la vida suburbana.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Veterans returning from war preferred rural farming communities but were incentivized by the G.I. Bill to settle in suburbs instead.",
+          "textEs": "Los veteranos que regresaban de la guerra preferían las comunidades agrícolas rurales, pero fueron incentivados por la Ley G.I. para establecerse en los suburbios.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The uniformity of housing design (identical floor plans, lots), social pressure to match neighbors' consumption patterns, rigid gender roles confining women to domestic spheres, and the racial homogeneity enforced by covenants collectively support the conformity critique. These were structural, not incidental, features of suburban design. Option A is factually wrong — suburbs were racially homogeneous. Option B supports prosperity, not conformity. Option D describes an unrelated postwar trend.",
+      "explanationEs": "La uniformidad del diseño de viviendas, la presión social para igualar los patrones de consumo de los vecinos, los roles de género rígidos y la homogeneidad racial impuesta por convenios respaldan colectivamente la crítica de conformidad. La opción A es factualmente incorrecta. La opción B respalda la prosperidad, no la conformidad. La opción D describe una tendencia de posguerra no relacionada.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.48,
+        "b": 1.47,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-007",
+      "stem": "Between 1945 and 1960, the United States experienced both unprecedented economic prosperity and growing Cold War anxiety. Which of the following best explains how these two forces reinforced each other?",
+      "stemEs": "Entre 1945 y 1960, Estados Unidos experimentó tanto una prosperidad económica sin precedentes como una creciente ansiedad de la Guerra Fría. ¿Cuál de las siguientes opciones explica mejor cómo estas dos fuerzas se reforzaron mutuamente?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cold War anxiety caused Americans to distrust corporations, pushing them toward government-provided goods and services.",
+          "textEs": "La ansiedad de la Guerra Fría llevó a los estadounidenses a desconfiar de las corporaciones, empujándolos hacia bienes y servicios provistos por el gobierno.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Cold War rhetoric made consumer prosperity a symbol of capitalist superiority, while military spending simultaneously fueled economic growth.",
+          "textEs": "La retórica de la Guerra Fría convirtió la prosperidad del consumidor en un símbolo de superioridad capitalista, mientras que el gasto militar impulsó simultáneamente el crecimiento económico.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Fear of nuclear war caused Americans to save rather than spend, creating a surplus of capital that funded corporate expansion.",
+          "textEs": "El miedo a la guerra nuclear llevó a los estadounidenses a ahorrar en lugar de gastar, creando un excedente de capital que financió la expansión corporativa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Suburban development was funded entirely by civil defense budgets, linking national security directly to residential construction.",
+          "textEs": "El desarrollo suburbano fue financiado enteramente por los presupuestos de defensa civil, vinculando directamente la seguridad nacional con la construcción residencial.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Cold War rhetoric framed American consumer prosperity as proof of capitalism's superiority over communism (the 'Kitchen Debate' of 1959 being a famous example), making consumption a patriotic act. Meanwhile, military-industrial spending fueled economic growth, linking national security to the booming economy. Option A is incorrect — Cold War anxiety reduced, not increased, public trust in some institutions. Option C is backwards; consumer spending increased despite anxiety. Option D conflates two separate dynamics — suburban growth preceded most civil defense spending.",
+      "explanationEs": "La retórica de la Guerra Fría enmarcó la prosperidad del consumidor estadounidense como prueba de la superioridad del capitalismo sobre el comunismo (el 'Debate de la Cocina' de 1959 es un ejemplo famoso), convirtiendo el consumo en un acto patriótico. Mientras tanto, el gasto militar-industrial impulsó el crecimiento económico. La opción A es incorrecta. La opción C es inversa. La opción D conflate dos dinámicas separadas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.48,
+        "b": 1.2,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-008",
+      "stem": "The expansion of white-collar jobs in the 1950s disproportionately benefited white men. Which of the following best explains why this expansion did not equally advance economic mobility for Black Americans and women during the same period?",
+      "stemEs": "La expansión de los empleos de cuello blanco en los años 50 benefició desproporcionadamente a los hombres blancos. ¿Cuál de las siguientes opciones explica mejor por qué esta expansión no promovió igualmente la movilidad económica de los afroamericanos y las mujeres durante el mismo período?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Black Americans and women chose not to participate in the postwar workforce, preferring community and domestic roles.",
+          "textEs": "Los afroamericanos y las mujeres optaron por no participar en la fuerza laboral de posguerra, prefiriendo roles comunitarios y domésticos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Black Americans and women lacked the educational qualifications required for white-collar work because of lower academic aptitude.",
+          "textEs": "Los afroamericanos y las mujeres carecían de las calificaciones educativas requeridas para el trabajo de cuello blanco debido a una menor aptitud académica.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Corporations in the 1950s were too small to hire large numbers of workers from any demographic group.",
+          "textEs": "Las corporaciones de los años 50 eran demasiado pequeñas para contratar grandes cantidades de trabajadores de cualquier grupo demográfico.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Discriminatory hiring, segregated education, racial covenants, and gendered domestic expectations structurally blocked equal access to postwar prosperity.",
+          "textEs": "La contratación discriminatoria, la educación segregada, los convenios raciales y las expectativas domésticas de género bloquearon estructuralmente el acceso igualitario a la prosperidad de posguerra.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Discriminatory hiring practices, lack of access to the GI Bill's educational benefits for many Black veterans (due to segregated universities), racial covenants blocking suburban homeownership, and gendered expectations confining women to domestic roles all structurally excluded these groups from the same pathways to prosperity. Option A is factually wrong — Black Americans and women did participate in the workforce. Option B misidentifies the barrier — educational attainment was blocked by discrimination, not aptitude. Option C is a minor point irrelevant to the structural exclusion.",
+      "explanationEs": "Las prácticas discriminatorias de contratación, la falta de acceso a los beneficios educativos de la Ley G.I. para muchos veteranos negros, los convenios raciales que bloqueaban la propiedad de vivienda suburbana y las expectativas de género que confinaban a las mujeres a roles domésticos excluyeron estructuralmente a estos grupos. La opción A es factualmente incorrecta. La opción B identifica mal la barrera. La opción C es un punto menor.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.92,
+        "b": 1.5,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-009",
+      "stem": "A student argues: 'The G.I. Bill was the single most important cause of 1950s prosperity.' Which of the following responses most effectively challenges this argument using causal reasoning?",
+      "stemEs": "Un estudiante argumenta: 'La Ley G.I. fue la causa más importante de la prosperidad de los años 50'. ¿Cuál de las siguientes respuestas desafía más eficazmente este argumento usando el razonamiento causal?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Postwar prosperity reflected multiple converging causes — pent-up consumer demand, defense spending, export markets, and favorable demographics — rather than any one policy",
+          "textEs": "La prosperidad resultó de múltiples causas convergentes —demanda reprimida de la guerra, gasto militar, mercados de exportación y demografía favorable— no de una sola política.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The G.I. Bill funded college educations and home purchases for millions of veterans, making it the decisive cause of postwar economic expansion",
+          "textEs": "La Ley G.I. benefició a millones de veteranos, lo que demuestra que fue el factor decisivo en la expansión económica.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The baby boom created so many new consumers that prosperity would have occurred even without any government program like the G.I. Bill",
+          "textEs": "El baby boom generó tantos nuevos consumidores que la prosperidad habría ocurrido sin ningún programa gubernamental.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The G.I. Bill failed to reach most veterans due to discriminatory implementation, so it could not have been the primary driver of national economic growth",
+          "textEs": "La Ley G.I. no llegó a la mayoría de los veteranos, por lo que no pudo haber sido el principal motor del crecimiento económico nacional.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "While the G.I. Bill was significant, 1950s prosperity resulted from multiple converging causes: pent-up wartime demand, postwar industrial reconversion, Marshall Plan export markets, Cold War military spending, favorable demographics, and rising corporate profitability. Attributing prosperity to a single cause ignores this causal complexity. Option B actually supports the student's argument. Option C makes a demographic claim irrelevant to causal analysis. Option D is historically inaccurate — the GI Bill did expand access for many, even if imperfectly.",
+      "explanationEs": "Si bien la Ley G.I. fue significativa, la prosperidad de los años 50 resultó de múltiples causas convergentes: la demanda reprimida de la guerra, la reconversión industrial de posguerra, los mercados de exportación del Plan Marshall, el gasto militar de la Guerra Fría, la demografía favorable y la rentabilidad corporativa creciente. La opción B en realidad respalda el argumento del estudiante. La opción C hace una afirmación demográfica irrelevante. La opción D es históricamente inexacta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.27,
+        "b": 1.34,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-010",
+      "stem": "By the late 1950s, the United States was simultaneously the world's largest consumer economy and increasingly dependent on imported oil. Which of the following conclusions is best supported by analyzing this paradox?",
+      "stemEs": "A finales de los años 50, Estados Unidos era simultáneamente la economía de consumo más grande del mundo y dependía cada vez más del petróleo importado. ¿Cuál de las siguientes conclusiones está mejor respaldada al analizar esta paradoja?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The United States' oil dependence was a temporary inconvenience that domestic production would soon eliminate.",
+          "textEs": "La dependencia petrolera de Estados Unidos fue una inconveniencia temporal que la producción nacional pronto eliminaría.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A nation cannot sustain a large consumer economy while importing any essential commodity.",
+          "textEs": "Una nación no puede sostener una gran economía de consumo mientras importa cualquier bien esencial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Consumer prosperity built on automobile culture created a structural economic vulnerability tied to foreign oil supplies.",
+          "textEs": "La prosperidad del consumidor basada en la cultura del automóvil creó una vulnerabilidad económica estructural ligada a los suministros de petróleo extranjero.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Americans willingly reduced consumption to conserve domestic oil, demonstrating that prosperity and conservation could coexist.",
+          "textEs": "Los estadounidenses redujeron voluntariamente el consumo para conservar el petróleo nacional, demostrando que la prosperidad y la conservación podían coexistir.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The consumer economy's dependence on automobiles (and thus petroleum) created a structural vulnerability: the very prosperity that defined American life was built on an imported resource, exposing the economy to foreign supply disruptions — as the 1973 oil embargo would later prove. Option A incorrectly dismisses the dependence as temporary. Option B is a non-sequitur — consumer economies can coexist with trade dependence. Option D is historically backwards — conservation was not a 1950s priority.",
+      "explanationEs": "La dependencia de la economía de consumo en los automóviles (y por tanto en el petróleo) creó una vulnerabilidad estructural: la misma prosperidad que definía la vida estadounidense estaba construida sobre un recurso importado, exponiendo la economía a interrupciones en el suministro extranjero. La opción A descarta incorrectamente la dependencia como temporal. La opción B es un no sequitur. La opción D es históricamente inversa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.04,
+        "b": 1.37,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u8-036",
+      "stem": "The automobile transformed gender dynamics in suburban America during the 1950s. Which of the following best explains one significant way this occurred?",
+      "stemEs": "El automóvil transformó la dinámica de género en la América suburbana de los años 50. ¿Cuál de las siguientes opciones explica mejor una forma significativa en que esto ocurrió?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Automobile culture expanded women's freedom because high female driving rates in the 1950s enabled them to take jobs far from home",
+          "textEs": "La cultura del automóvil amplió la libertad de las mujeres porque las altas tasas de conducción femenina en los años 50 les permitió tomar empleos lejos del hogar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Suburban women dominated the automobile sales industry, giving them economic power that challenged traditional domestic gender roles in postwar America",
+          "textEs": "La propiedad de automóviles estaba legalmente restringida a los hombres en la mayoría de los estados hasta los años 60, obligando a las mujeres a depender del transporte público.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Women owned cars more often than men in the 1950s because state laws restricted male driving during work commute hours",
+          "textEs": "Las mujeres dominaban la industria de ventas de automóviles, dándoles poder económico que desafiaba las jerarquías de género tradicionales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Wives in single-car homes were stranded while husbands drove to work, reinforcing domestic isolation in suburbs without walkable destinations or transit",
+          "textEs": "En los hogares suburbanos con un solo automóvil, las esposas a menudo quedaban varadas en casa cuando los maridos conducían al trabajo, reforzando el aislamiento doméstico en comunidades diseñadas sin destinos accesibles a pie ni transporte público.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "In suburban communities designed around single-car families, many women were effectively stranded at home during the day while husbands took the family car to work. Without public transportation and with destinations too distant to reach on foot, suburban wives were isolated in ways that reinforced domestic roles. Betty Friedan's 'The Feminine Mystique' (1963) documented this suburban isolation as a core grievance. Option A is historically inaccurate — women's driving rates were rising. Option B overstates the case; many suburban women did drive. Option C is a minor secondary point unrelated to the question's focus on gender dynamics.",
+      "explanationEs": "En las comunidades suburbanas diseñadas en torno a familias con un solo automóvil, muchas mujeres estaban efectivamente varadas en casa durante el día mientras los maridos llevaban el automóvil familiar al trabajo. Sin transporte público y con destinos demasiado lejanos para llegar a pie, las esposas suburbanas estaban aisladas de maneras que reforzaban los roles domésticos. La opción A es históricamente inexacta. La opción B sobreestima el caso. La opción C es un punto secundario menor.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.06,
+        "b": 1.26,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK3-0003",
+      "stem": "Which conclusion is best supported by the data?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Inflation peaked in 1973 and never exceeded 7% afterward",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Inflation declined steadily throughout the 1970s",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Inflation remained high throughout most of the 1970s and into the early 1980s",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Prices remained stable and never rose during this period",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bureau of Labor Statistics CPI data show that U.S. inflation remained elevated across much of the 1970s and into the early 1980s, contradicting any claim of price stability or steady decline during that era. Inflation hit approximately 11 percent in 1974 following the OPEC oil embargo and then surged again to approximately 13.3 percent in 1979 amid the Iranian Revolution and a second energy shock. Choice A is wrong because inflation exceeded 7 percent multiple times after 1973, reaching double digits in 1974 and again in 1979-1980. Choice B is wrong because CPI data show inflation spiking sharply upward in 1979, the opposite of a steady decline. This prolonged inflation, combined with high unemployment, produced the stagflation crisis that dominated policymakers' agendas through the early 1980s.",
+      "explanationEs": "Los datos del Índice de Precios al Consumidor (CPI) de la Oficina de Estadísticas Laborales muestran que la inflación en EE. UU. se mantuvo elevada durante gran parte de la década de 1970 y en los primeros años de la de 1980, lo que contradice cualquier afirmación de estabilidad de precios o disminución constante. La inflación alcanzó el 11 por ciento en 1974 tras el embargo petrolero de la OPEP y se disparó al 13,3 por ciento en 1979, impulsada por la Revolución iraní y un segundo choque energético. La opción A es incorrecta porque la inflación superó el 7 por ciento en múltiples ocasiones después de 1973, llegando a dos dígitos en 1974 y nuevamente en 1979-1980. La opción B es incorrecta porque los datos del CPI muestran que la inflación se disparó en 1979, lo contrario de una disminución constante. Esta inflación prolongada, combinada con el alto desempleo, produjo la crisis de estanflación que dominó las agendas de los responsables de políticas hasta los primeros años de la década de 1980.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK3-0013",
+      "stem": "Which best explains why President Bush built a broad international coalition before launching military operations to liberate Kuwait in 1991?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The United States military was too small to conduct the Gulf War without substantial direct military contributions from allied nations.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress required the president to secure allied commitments before it would authorize the use of military force in the Persian Gulf.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "President Bush believed that Arab intelligence services could provide better targeting information on Iraqi forces than American agencies.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The United States sought UN authorization to ensure military action would be perceived as a legitimate collective response to aggression, not unilateral American intervention.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Coalition-building — including Arab League states such as Saudi Arabia, Egypt, and Syria — gave the Gulf War international legitimacy and prevented it from being framed as Western imperialism in the Arab world, a critical strategic objective given the region's historical sensitivities.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U8-DOK3-0017",
+      "stem": "Use the photograph to answer the question.\n\nThis aerial photograph shows Levittown, Pennsylvania, one of the first mass-produced suburban developments.\n\n(Aerial photograph, c. 1948-1952.)\n\nHow did suburban developments like the one in this photograph contribute to BOTH economic growth and social inequality in postwar America?",
+      "stemEs": "¿Cómo contribuyeron los desarrollos suburbanos como este TANTO al crecimiento económico como a la desigualdad social?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Suburbs created jobs but had no impact on racial demographics because they were open to all buyers",
+          "textEs": "Los suburbios crearon empleos pero no tuvieron ningún impacto en la demografía racial porque estaban abiertos a todos los compradores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Suburbs fueled consumer spending and economic growth while reinforcing racial segregation through restrictive covenants and lending discrimination",
+          "textEs": "Los suburbios impulsaron el gasto del consumidor y el crecimiento económico al mismo tiempo que reforzaron la segregación racial a través de convenios restrictivos y discriminación crediticia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Suburbs reduced inequality by providing affordable housing equally to all American families",
+          "textEs": "Los suburbios redujeron la desigualdad al proporcionar vivienda asequible en igualdad de condiciones a todas las familias estadounidenses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Suburbs weakened the economy by drawing tax revenue away from productive urban centers",
+          "textEs": "Los suburbios debilitaron la economía al alejar los ingresos fiscales de los centros urbanos productivos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Suburban developments like Levittown drove economic growth through housing construction, consumer goods purchases, and highway building, but simultaneously deepened racial inequality through discriminatory covenants, redlining, and exclusionary practices that denied access to Black families.",
+      "explanationEs": "Los suburbios impulsaron el crecimiento económico pero profundizaron la desigualdad racial mediante prácticas discriminatorias.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 0.8,
+        "c": 0.18
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us64-dok3-2",
+      "stem": "How did consumerism define American identity in the 1950s?",
+      "stemEs": "¿Cómo definió el consumismo la identidad estadounidense en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An armistice divided Korea near the 38th parallel, with no formal peace treaty",
+          "textEs": "Un armisticio dividió Corea cerca del paralelo 38, sin un tratado de paz formal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Government agency that insured mortgages, making homeownership more accessible",
+          "textEs": "Agencia gubernamental que aseguró hipotecas, haciendo más accesible la propiedad de vivienda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Enabled families to purchase cars, appliances, and homes beyond immediate means",
+          "textEs": "Permitió a las familias comprar automóviles, electrodomésticos y viviendas más allá de sus posibilidades inmediatas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Owning homes, cars, and goods became markers of success and the American Dream",
+          "textEs": "Poseer casas, autos y bienes se convirtió en marcadores de éxito y Sueño Americano",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.64"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "consumerism define American identity in the 1950s because owning homes, cars, and goods became markers of success and the American Dream. Choice C is wrong because it describes enabled families to purchase cars, appliances, and homes beyond immediate means, not owning homes, cars, and goods became markers of success and the American Dream. Korea made containment a military commitment and showed how limited wars could become long, costly stalemates.",
+      "explanationEs": "El consumismo se volvió central a identidad estadounidense cuando poseer casas, autos, TVs y electrodomésticos simbolizaba participación en el Sueño Americano, distinguiendo prosperidad capitalista de austeridad comunista.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.11,
+        "b": 1.13,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us71-dok4-dbq-1",
+      "stem": "DOCUMENT-BASED QUESTION\n\nDirections: Analyze the following three primary sources. For each document, apply the HIPP framework (Historical context, Intended audience, Purpose, Point of view). Then construct a written argument that addresses the central question: To what extent did the legal dismantling of 'separate but equal' between 1954 and 1957 translate into actual desegregation on the ground?\n\n---\nDocument 1: Excerpt from Brown v. Board of Education, 347 U.S. 483 (1954). Source: National Archives, archives.gov.\n\n\"We conclude that, in the field of public education, the doctrine of 'separate but equal' has no place. Separate educational facilities are inherently unequal. Therefore, we hold that the plaintiffs... are deprived of the equal protection of the laws guaranteed by the Fourteenth Amendment... We have now announced that such segregation is a denial of the equal protection of the laws.\"\n\n---\nDocument 2: Excerpt from the 'Declaration of Constitutional Principles' (Southern Manifesto), signed by 101 members of Congress, March 12, 1956. Source: Congressional Record, 84th Congress, 2nd Session, Vol. 102, Part 4 (March 12, 1956), pp. 4459–4460; National Archives, archives.gov.\n\n\"We regard the decision of the Supreme Court in the school cases as a clear abuse of judicial power... The original Constitution does not mention education. Neither does the 14th Amendment nor any other amendment... This unwarranted exercise of power by the Court, contrary to the Constitution, is creating chaos and confusion in the States principally affected... We pledge ourselves to use all lawful means to bring about a reversal of this decision which is contrary to the Constitution and to prevent the use of force in its implementation.\"\n\n---\nDocument 3: Excerpt from President Dwight D. Eisenhower's Executive Order 10730, authorizing the use of federal troops to enforce school integration in Little Rock, Arkansas, September 24, 1957. Source: Executive Order 10730, Code of Federal Regulations, Title 3 (1957); National Archives, archives.gov.\n\n\"WHEREAS certain persons in the state of Arkansas... have wilfully obstructed the enforcement of orders of the United States District Court for the Eastern District of Arkansas with regard to matters relating to enrollment and attendance at public schools... NOW, THEREFORE, by virtue of the authority vested in me by the Constitution and Statutes of the United States... it is hereby ordered as follows: The Secretary of Defense is authorized and directed to use the armed forces of the United States as he may deem necessary to enforce any orders of the United States District Court.\"\n\n---\nUsing all three documents and your knowledge of the period, construct a multi-paragraph argument that analyzes: (1) the gap between legal authority (Document 1) and practical resistance (Document 2), (2) what the executive response (Document 3) reveals about the enforcement mechanisms available to translate legal principle into social reality, and (3) what these three documents together suggest about the relationship between judicial, legislative, and executive power in advancing or resisting civil rights.",
+      "stemEs": "PREGUNTA BASADA EN DOCUMENTOS\n\nInstrucciones: Analice los siguientes tres fuentes primarias. Para cada documento, aplique el marco HIPP (Contexto histórico, Audiencia prevista, Propósito, Punto de vista). Luego construya un argumento escrito que aborde la pregunta central: ¿En qué medida el desmantelamiento legal de 'separado pero igual' entre 1954 y 1957 se tradujo en una desegregación real sobre el terreno?\n\n---\nDocumento 1: Extracto de Brown v. Board of Education, 347 U.S. 483 (1954). Fuente: Archivos Nacionales, archives.gov.\n\n\"Concluimos que, en el campo de la educación pública, la doctrina de 'separado pero igual' no tiene lugar. Las instalaciones educativas separadas son intrínsecamente desiguales. Por lo tanto, sostenemos que los demandantes... están privados de la protección igualitaria de las leyes garantizada por la Decimocuarta Enmienda... Ahora hemos declarado que tal segregación es una denegación de la protección igualitaria de las leyes.\"\n\n---\nDocumento 2: Extracto de la 'Declaración de Principios Constitucionales' (Manifiesto del Sur), firmado por 101 miembros del Congreso, 12 de marzo de 1956. Fuente: Registro del Congreso, 84.º Congreso, 2.ª Sesión, Vol. 102, Parte 4 (12 de marzo de 1956), pp. 4459–4460; Archivos Nacionales, archives.gov.\n\n\"Consideramos la decisión de la Corte Suprema en los casos escolares como un claro abuso del poder judicial... La Constitución original no menciona la educación. Tampoco lo hace la 14.ª Enmienda ni ninguna otra enmienda... Este ejercicio injustificado del poder por parte de la Corte, contrario a la Constitución, está creando caos y confusión en los Estados principalmente afectados... Nos comprometemos a usar todos los medios legales para lograr la revocación de esta decisión que es contraria a la Constitución y para prevenir el uso de la fuerza en su implementación.\"\n\n---\nDocumento 3: Extracto de la Orden Ejecutiva 10730 del Presidente Dwight D. Eisenhower, que autoriza el uso de tropas federales para hacer cumplir la integración escolar en Little Rock, Arkansas, 24 de septiembre de 1957. Fuente: Orden Ejecutiva 10730, Código de Regulaciones Federales, Título 3 (1957); Archivos Nacionales, archives.gov.\n\n\"CONSIDERANDO que ciertas personas en el estado de Arkansas... han obstruido deliberadamente el cumplimiento de las órdenes del Tribunal de Distrito de los Estados Unidos para el Distrito Este de Arkansas con respecto a asuntos relacionados con la inscripción y asistencia a las escuelas públicas... AHORA, POR LO TANTO, en virtud de la autoridad que me confieren la Constitución y los Estatutos de los Estados Unidos... se ordena lo siguiente: El Secretario de Defensa está autorizado y dirigido a usar las fuerzas armadas de los Estados Unidos según lo considere necesario para hacer cumplir cualquier orden del Tribunal de Distrito de los Estados Unidos.\"\n\n---\nUsando los tres documentos y su conocimiento del período, construya un argumento de varios párrafos que analice: (1) la brecha entre la autoridad legal (Documento 1) y la resistencia práctica (Documento 2), (2) lo que la respuesta ejecutiva (Documento 3) revela sobre los mecanismos de aplicación disponibles para traducir el principio legal en realidad social, y (3) lo que estos tres documentos en conjunto sugieren sobre la relación entre el poder judicial, legislativo y ejecutivo para avanzar o resistir los derechos civiles.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-scoring (6/6) response would include: ARGUMENT: The three documents reveal that legal authority (judicial) was necessary but not sufficient to produce desegregation — it required executive enforcement against legislative resistance, demonstrating that civil rights progress depended on the alignment of all three branches. DOCUMENT 1 HIPP: Historical context: 1954, Cold War era, U.S. embarrassed by racial segregation in competing with USSR for allegiance of newly decolonized nations. Intended audience: Lower courts, school boards, state governments, and the American public. Purpose: To establish a constitutional ruling that 'separate but equal' (Plessy) violates the Equal Protection Clause. Point of view: The unanimous Court, drawing on sociological evidence (Kenneth Clark doll studies) as well as legal precedent — unusually relying on social science rather than purely legal argument. DOCUMENT 2 HIPP: Historical context: Post-Brown 'massive resistance' movement among Southern Democrats, most vocally after Brown II (1955) implementation decree. Intended audience: Southern state governments, other Southern members of Congress, and Southern voters — a political rallying document. Purpose: To provide political cover for continued resistance to desegregation under the guise of constitutional objection. Point of view: 101 members of Congress from 11 former Confederate states; represents the political power of Southern Democrats who controlled key Congressional committees. DOCUMENT 3 HIPP: Historical context: September 1957, Governor Faubus had used the Arkansas National Guard to block integration of Central High School. Mob violence on Sept. 23 made the federal government's authority appear powerless. Intended audience: The Arkansas governor, state officials, federal military commanders, and the American public (demonstrating federal resolve). Purpose: To use executive power to enforce the judicial order — bypassing state resistance by federalizing military authority. Point of view: Eisenhower, acting from institutional duty rather than personal enthusiasm for desegregation. SYNTHESIS: Students should argue that the three documents together illustrate a structural tension in American federalism: judicial decisions create rights but cannot self-enforce; legislative resistance (Document 2 signatories held committee power that would block civil rights legislation until 1964) created a governance gap; executive action (Document 3) was available only in crisis situations, not as a systematic enforcement tool. This gap explains why the Civil Rights Act (1964) and Voting Rights Act (1965) were essential — they created statutory enforcement mechanisms.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.71, US.73 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.64",
+        "US.66"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Student applies HIPP analysis accurately and insightfully to all three documents, identifying historical context, audience, purpose, and point of view with specific historical grounding. Constructs a sophisticated, evidence-based argument about the gap between legal authority and practical enforcement. Synthesizes across all three documents (does not treat each in isolation). Accurately explains the structural roles of judicial, legislative, and executive branches in the civil rights context. Uses outside historical knowledge (Brown II, Cold War context, massive resistance, Congressional committee power) to deepen the argument. Writing is analytical, cohesive, and advances a clear, defensible thesis.\n5 - Advanced: Student applies HIPP accurately to all three documents with most elements present and mostly accurate. Constructs a clear argument about the legal-enforcement gap with specific evidence from all three documents. Uses some outside knowledge. Synthesis is present but may not fully integrate all three documents into a single coherent argument.\n4 - Proficient: Student applies HIPP to all three documents with most elements present, though some may be vague or partially accurate. Argument addresses the central question with evidence from at least two documents. Some outside knowledge used. Synthesis is present but somewhat mechanical (documents analyzed separately rather than as a set).\n3 - Adequate: Student applies HIPP to two of three documents with reasonable accuracy. Argument addresses the central question but may rely primarily on one or two documents. Limited outside knowledge. Analysis is descriptive rather than interpretive in places.\n2 - Developing: Student attempts HIPP analysis but applies it to only one document or applies it inaccurately. Argument is present but underdeveloped or partially answers the central question. Little outside knowledge. Documents are summarized rather than analyzed.\n1 - Beginning: Student provides basic summaries of one or two documents without HIPP analysis. Argument is missing or too vague to address the central question. No meaningful synthesis across documents.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS (HIPP for all three): Doc 1 — Cold War context, unanimous Court, sociological evidence (Clark doll studies), 14th Amendment Equal Protection; Doc 2 — Massive resistance, 101 Southern congressmen, constitutional pretext, political audience, blocking enforcement; Doc 3 — Faubus crisis, Eisenhower's institutional (not ideological) motivation, executive enforcement power, military deployment.\nKEY EVIDENCE EXPECTED: Brown II implementation decree (1955); massive resistance movement; Governor Faubus and Arkansas National Guard; 101st Airborne deployment; Supremacy Clause; Cold War context of desegregation; Southern Democrats' committee power in Congress; gap leading to Civil Rights Act 1964 and VRA 1965.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: El estudiante aplica el análisis HIPP de manera precisa y perspicaz a los tres documentos, identificando el contexto histórico, la audiencia, el propósito y el punto de vista con fundamento histórico específico. Construye un argumento sofisticado y basado en evidencia sobre la brecha entre la autoridad legal y la aplicación práctica. Sintetiza los tres documentos (no los trata de forma aislada). Explica con precisión los roles estructurales de las ramas judicial, legislativa y ejecutiva en el contexto de los derechos civiles. Usa conocimiento histórico externo (Brown II, contexto de la Guerra Fría, resistencia masiva, poder de los comités del Congreso) para profundizar el argumento. La escritura es analítica, cohesiva y avanza una tesis clara y defendible.\n5 - Avanzado: El estudiante aplica HIPP con precisión a los tres documentos con la mayoría de los elementos presentes y mayormente precisos. Construye un argumento claro sobre la brecha legal-aplicación con evidencia específica de los tres documentos. Usa algo de conocimiento externo. La síntesis está presente pero puede no integrar completamente los tres documentos en un solo argumento coherente.\n4 - Competente: El estudiante aplica HIPP a los tres documentos con la mayoría de los elementos presentes, aunque algunos pueden ser vagos o parcialmente precisos. El argumento aborda la pregunta central con evidencia de al menos dos documentos. Se usa algo de conocimiento externo. La síntesis está presente pero algo mecánica (los documentos se analizan por separado en lugar de como un conjunto).\n3 - Adecuado: El estudiante aplica HIPP a dos de los tres documentos con razonable precisión. El argumento aborda la pregunta central pero puede depender principalmente de uno o dos documentos. Conocimiento externo limitado. El análisis es descriptivo en lugar de interpretativo en algunos lugares.\n2 - En desarrollo: El estudiante intenta el análisis HIPP pero lo aplica solo a un documento o lo aplica de manera incorrecta. El argumento está presente pero poco desarrollado o responde parcialmente la pregunta central. Poco conocimiento externo. Los documentos se resumen en lugar de analizarse.\n1 - Inicial: El estudiante proporciona resúmenes básicos de uno o dos documentos sin análisis HIPP. El argumento está ausente o es demasiado vago para abordar la pregunta central. No hay síntesis significativa entre documentos.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS DE DOCUMENTOS (HIPP para los tres): Doc 1 — Contexto de la Guerra Fría, Corte unánime, evidencia sociológica (estudios de muñecas de Clark), Protección Igualitaria de la 14.ª Enmienda; Doc 2 — Resistencia masiva, 101 congresistas sureños, pretexto constitucional, audiencia política, bloqueo de la aplicación; Doc 3 — Crisis de Faubus, motivación institucional (no ideológica) de Eisenhower, poder ejecutivo de aplicación, despliegue militar.\nEVIDENCIA CLAVE ESPERADA: Decreto de implementación de Brown II (1955); movimiento de resistencia masiva; gobernador Faubus y Guardia Nacional de Arkansas; despliegue de la 101.ª División Aerotransportada; Cláusula de Supremacía; contexto de la Guerra Fría de la desegregación; poder de los comités del Congreso de los Demócratas del Sur; brecha que llevó a la Ley de Derechos Civiles de 1964 y la LDV de 1965.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.66,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-8/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.71",
+          "US.73"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.71->US.64: checklist intact (3 element(s))",
+          "US.73->US.66: standard ADDED ['Polio vaccine', 'Growth of suburbia', 'Hotel chains', 'Fast food chains'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Polio vaccine",
+            "Growth of suburbia",
+            "Hotel chains",
+            "Fast food chains"
+          ]
+        }
+      }
+    }
+  ]
+}

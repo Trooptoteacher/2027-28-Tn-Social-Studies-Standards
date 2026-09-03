@@ -1,0 +1,2669 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.56",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us56-dok1-1",
+      "stem": "What were the three main Manhattan Project sites?",
+      "stemEs": "¿Cuáles fueron los tres principales sitios del Proyecto Manhattan?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Washington DC (design); Pittsburgh, PA (materials); Denver, CO (assembly)",
+          "textEs": "Washington DC (diseño); Pittsburgh, PA (materiales); Denver, CO (ensamblaje)",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Chicago, IL (research); Detroit, MI (production); Albuquerque, NM (testing)",
+          "textEs": "Chicago, IL (investigación); Detroit, MI (producción); Albuquerque, NM (pruebas)",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Oak Ridge, TN (uranium); Los Alamos, NM (design); Hanford, WA (plutonium)",
+          "textEs": "Oak Ridge, TN (uranio); Los Alamos, NM (diseño); Hanford, WA (plutonio)",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Boston, MA (research); Houston, TX (production); San Diego, CA (testing)",
+          "textEs": "Boston, MA (investigación); Houston, TX (producción); San Diego, CA (pruebas)",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The three main Manhattan Project sites were oak Ridge, TN (uranium); Los Alamos, NM (design); Hanford, WA (plutonium). The United States secretly developed nuclear weapons, which changed warfare and diplomacy after 1945. B is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "El Proyecto Manhattan operó en Oak Ridge, TN (enriquecimiento uranio), Los Alamos, NM (diseño bomba) y Hanford, WA (producción plutonio). Más de 130,000 trabajadores en Oak Ridge no sabían que construían bomba atómica.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.6,
+        "b": -1.12,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us56-dok1-2",
+      "stem": "Who was J. Robert Oppenheimer?",
+      "stemEs": "¿Quién fue J. Robert Oppenheimer?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Japanese military leader who ordered the surprise attack on the U.S. base at Pearl Harbor",
+          "textEs": "Líder militar japonés que ordenó ataque sorpresa a base de EE.UU. en Pearl Harbor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "U.S. President who authorized the use of atomic bombs against Japan in August 1945",
+          "textEs": "Presidente de EE.UU. que autorizó uso de bombas atómicas contra Japón en agosto de 1945",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "German nuclear physicist who led Nazi Germany's failed atomic weapons research program",
+          "textEs": "Físico nuclear alemán que lideró programa fallido de investigación de armas atómicas de Alemania Nazi",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Scientific director of the Manhattan Project, known as \"father of the atomic bomb\"",
+          "textEs": "Director científico del Proyecto Manhattan, conocido como \"padre de la bomba atómica\"",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "J. Robert Oppenheimer consisted of Scientific director of the Manhattan Project, known as \"father of the atomic bomb\". The United States secretly developed nuclear weapons, which changed warfare and diplomacy after 1945. B is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "J. Robert Oppenheimer fue director científico del Proyecto Manhattan en Los Alamos. Después de presenciar primera prueba atómica, citó escritura hindú: \"Ahora me he convertido en Muerte, destructor de mundos.\" Más tarde, se opuso a bomba de hidrógeno.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.09,
+        "b": -1.5,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us56-dok1-3",
+      "stem": "What was the name of the first atomic bomb test?",
+      "stemEs": "¿Cuál fue el nombre de la primera prueba de bomba atómica?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Little Boy Test, conducted at a secret facility in Nevada on June 1, 1945",
+          "textEs": "Prueba Little Boy, realizada en instalación secreta en Nevada el 1 de junio de 1945",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Trinity Test, detonated in the New Mexico desert on July 16, 1945",
+          "textEs": "Prueba Trinity, detonada en el desierto de Nuevo México el 16 de julio de 1945",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Fat Man Test, performed at the Hanford plutonium plant on July 4, 1945",
+          "textEs": "Prueba Fat Man, realizada en planta de plutonio de Hanford el 4 de julio de 1945",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Manhattan Test, carried out at the Los Alamos research lab on May 15, 1945",
+          "textEs": "Prueba Manhattan, realizada en laboratorio de investigación de Los Alamos el 15 de mayo de 1945",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The name of the first atomic bomb test consisted of Trinity Test, detonated in the New Mexico desert on July 16, 1945. The United States secretly developed nuclear weapons, which changed warfare and diplomacy after 1945. D is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "Prueba Trinity fue primera detonación de arma nuclear el 16 de julio de 1945, en desierto de Nuevo México. Explosión fue equivalente a aproximadamente 22 kilotones de TNT. Al presenciarla, Oppenheimer citó \"Ahora me he convertido en Muerte, destructor de mundos.\"",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.06,
+        "b": -0.68,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-q06",
+      "stem": "The Elementary and Secondary Education Act of 1965 (ESEA) was significant because —",
+      "stemEs": "The Elementary and Secondary Education Act of 1965 (ESEA) fue significativo/a porque —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It required most states to integrate schools within one year",
+          "textEs": "It required most states to integrate schools within one year",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It federalized all public education, eliminating local control",
+          "textEs": "It federalized all public education, eliminating local control",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It provided the first major federal funding for K-12 public education",
+          "textEs": "It provided the first major federal funding for K-12 public education",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It established the Department of Education",
+          "textEs": "It established the Department of Education",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It provided the first major federal funding for K-12 public education. B is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "explanationEs": "It provided the first major federal funding for K-12 public education. B is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -0.91,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-x013",
+      "stem": "The Economic Opportunity Act (1964) created —",
+      "stemEs": "The Economic Opportunity Act (1964) created —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Medicare for the elderly and a permanent federal food stamp program only",
+          "textEs": "Medicare for the elderly and a permanent federal food stamp program only",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Social Security expansion and a new federal unemployment insurance system",
+          "textEs": "Social Security expansion and a new federal desempleo insurance system",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A GI Bill for Vietnam-era veterans returning from Southeast Asia",
+          "textEs": "A GI Bill for Vietnam-era veterans returning from Southeast Asia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Job Corps for youth, VISTA volunteers, and Head Start preschool programs",
+          "textEs": "Job Corps for youth, VISTA volunteers, and Head Start preschool programs",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Job Corps for youth, VISTA volunteers, Head Start preschool, and community action programs empowering the poor to participate in their own development. B is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "explanationEs": "Job Corps for youth, VISTA volunteers, Head Start preschool, and community action programs empowering the poor to participate in their own development. B is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.66,
+        "b": -1.17,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-x020",
+      "stem": "The GI Bill (Servicemen's Readjustment Act, 1944) contributed to postwar middle-class prosperity by —",
+      "stemEs": "The GI Bill (Servicemen's Readjustment Act, 1944) contribuyó a postwar middle-class prosperity by —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Providing veterans with education benefits, low-cost mortgages, and job training that expanded the middle class",
+          "textEs": "Providing veterans with education benefits, low-cost mortgages, and job training that expanded the middle class",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Providing all veterans with cash bonuses equal to one year of military salary",
+          "textEs": "Providing all veterans with cash bonuses equal to one year of military salary",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Creating jobs through a massive highway construction program that employed returning veterans",
+          "textEs": "Creating jobs through a massive highway construction program that employed returning veterans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Expanding Social Security to cover veterans' families with survivor and disability benefits",
+          "textEs": "Expanding Social Security to cover veterans' families with survivor and disability benefits",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The GI Bill (Servicemen's Readjustment Act, 1944) contributed to postwar middle-class prosperity by: providing veterans with education benefits, low-cost mortgages, and job training that expanded the middle class. The law helped many veterans attend college and buy homes, but discrimination often limited those benefits for Black veterans. B is incorrect because it describes a different program, event, or idea than the topic in the question. It showed how World War II exposed contradictions between American ideals and daily life at home.",
+      "explanationEs": "The GI Bill (Servicemen's Readjustment Act, 1944) contribuyó a postwar middle-class prosperity by: providing veterans with education benefits, low-cost mortgages, and job training that expanded the middle class. The law helped many veterans attend college and buy homes, but discriminación often limited those benefits for Black veterans. B is incorrect because it describes a different program, event, or idea than the topic in the question. It showed how Segunda Guerra Mundial exposed contradictions between American ideals and daily life at home.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.07,
+        "b": -1.72,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-x022",
+      "stem": "Levittown, New York represented the postwar suburban ideal but was controversial because —",
+      "stemEs": "Levittown, New York represented the postwar suburban ideal but was controversial because —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Its mass-produced homes were of poor quality compared to custom-built city housing",
+          "textEs": "Its mass-produced homes were of poor quality compared to custom-built city housing",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Its planned community design required conformity that residents found oppressive",
+          "textEs": "Its planned community design required conformity that residents found oppressive",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Its deed restrictions excluded African Americans from purchasing homes",
+          "textEs": "Its deed restrictions excluded African Americans from purchasing homes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Its distance from employment centers required a second car, which many families could not afford",
+          "textEs": "Its distance from employment centers required a second car, which many families could not afford",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Its deed restrictions excluded African Americans from purchasing homes. Postwar prosperity helped many white middle-class families buy homes and move to growing suburbs. B is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Its deed restrictions excluded African Americans from purchasing homes. Postwar prosperity helped many white middle-class families buy homes and move to growing suburbs. B is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -1.75,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us56-dok2-2",
+      "stem": "What was the Manhattan Project?",
+      "stemEs": "¿Qué fue el Proyecto Manhattan?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Top-secret U.S. program to develop the atomic bomb during World War II",
+          "textEs": "Programa ultra secreto de EE.UU. para desarrollar bomba atómica durante Segunda Guerra Mundial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "U.S. economic aid program designed to rebuild war-devastated European cities",
+          "textEs": "Programa de ayuda económica de EE.UU. diseñado para reconstruir ciudades europeas devastadas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Military code name for the Allied invasion of Normandy on June 6, 1944",
+          "textEs": "Nombre código militar para invasión Aliada de Normandía el 6 de junio de 1944",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Coastal defense system protecting major American port cities from enemy attacks",
+          "textEs": "Sistema de defensa costera protegiendo principales ciudades portuarias americanas de ataques enemigos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Manhattan Project was a top-secret U.S. program to develop the atomic bomb during World War II. The United States secretly developed nuclear weapons, which changed warfare and diplomacy after 1945. B is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "Proyecto Manhattan fue programa ultra secreto de EE.UU. para desarrollar bomba atómica. Dirigido por J. Robert Oppenheimer, empleó 130,000 personas y costó $2 mil millones. Primera prueba (Trinity) ocurrió 16 de julio de 1945 en Nuevo México.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.73,
+        "b": -0.02,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us56-dok3-2",
+      "stem": "What were the long-term effects of the atomic bomb on survivors (hibakusha)?",
+      "stemEs": "¿Cuáles fueron los efectos a largo plazo de la bomba atómica en sobrevivientes (hibakusha)?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radiation sickness, dramatically increased cancer rates, genetic effects, and social stigma",
+          "textEs": "Enfermedad de radiación, tasas de cáncer dramáticamente aumentadas, efectos genéticos y estigma social",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "No lasting health effects since most survivors fully recovered within the first two years",
+          "textEs": "Sin efectos de salud duraderos ya que mayoría de sobrevivientes se recuperaron en primeros dos años",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Only immediate blast injuries occurred with no documented long-term radiation health problems",
+          "textEs": "Solo lesiones inmediatas de explosión ocurrieron sin problemas de salud por radiación a largo plazo documentados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Physical injuries healed completely within weeks and survivors returned to normal daily lives",
+          "textEs": "Lesiones físicas sanaron completamente en semanas y sobrevivientes regresaron a vidas diarias normales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The long-term effects of the atomic bomb on survivors (hibakusha) were radiation sickness, dramatically increased cancer rates, genetic effects, and social stigma. The United States secretly developed nuclear weapons, which changed warfare and diplomacy after 1945. C is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "Sobrevivientes de bomba atómica sufrieron problemas de salud de por vida: enfermedad de radiación, tasas de cáncer dramáticamente aumentadas, cataratas y posibles efectos genéticos. Muchos enfrentaron discriminación social en Japón. Consecuencias horrificas de bombardeos continúan informando debates sobre armas nucleares.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.52,
+        "b": 1.33,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us56-dok2-3",
+      "stem": "What alternative did some scientists propose instead of using atomic bombs on cities?",
+      "stemEs": "¿Qué alternativa propusieron algunos científicos en lugar de usar bombas atómicas en ciudades?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Oak Ridge, TN (uranium); Los Alamos, NM (design); Hanford, WA (plutonium)",
+          "textEs": "Lanzar bombas solo en bases militares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Demonstration explosion in unpopulated area to show Japan the weapon's power",
+          "textEs": "Explosión de demostración en área despoblada para mostrar a Japón poder del arma",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Over 200,000 people, mostly civilians, died immediately or from radiation effects",
+          "textEs": "Continuar bombardeo convencional indefinidamente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Scientific director of the Manhattan Project, known as \"father of the atomic bomb\"",
+          "textEs": "No se propusieron alternativas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Demonstration explosion in unpopulated area to show Japan the weapon's power. The United States secretly developed nuclear weapons, which changed warfare and diplomacy after 1945. D is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "Algunos científicos del Proyecto Manhattan, incluyendo Leo Szilard, firmaron Informe Franck proponiendo explosión de demostración en área despoblada para convencer a Japón de rendirse. Truman rechazó esto, temiendo que pudiera fallar o Japón movería prisioneros de guerra al objetivo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.42,
+        "b": -0.16,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-x028",
+      "stem": "The Black Panther Party's Ten-Point Program included demands for —",
+      "stemEs": "The Black Panther Party's Ten-Point Program included demands for —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Integration of schools and workplaces as the primary strategy for achieving racial equality",
+          "textEs": "integración of schools and workplaces as the primary strategy for achieving racial igualdad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Emigration to Africa as the only solution to American racism",
+          "textEs": "emigración to Africa as the only solution to American racism",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Armed self-defense, community control of schools and police, and reparations for slavery",
+          "textEs": "Armed self-defense, community control of schools and police, and reparations for slavery",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Voting rights enforcement, fair housing, and equal employment opportunities",
+          "textEs": "derechos de voto enforcement, fair housing, and equal employment opportunities",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Armed self-defense, community control of schools and police, and reparations for slavery. D is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "explanationEs": "Armed self-defense, community control of schools and police, and reparations for slavery. D is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.02,
+        "b": 0.07,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us56-dok2-1",
+      "stem": "How many people died from the atomic bombings of Hiroshima and Nagasaki?",
+      "stemEs": "¿Cuántas personas murieron por los bombardeos atómicos de Hiroshima y Nagasaki?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Approximately 10,000 military personnel were killed but civilian casualties were minimal",
+          "textEs": "Aproximadamente 10,000 personal militar fueron matados pero bajas civiles fueron mínimas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Over 200,000 people, mostly civilians, died immediately or from radiation effects",
+          "textEs": "Más de 200,000 personas, principalmente civiles, murieron inmediatamente o por efectos de radiación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Fewer than 5,000 people were harmed because most residents had already been evacuated",
+          "textEs": "Menos de 5,000 personas fueron afectadas porque mayoría de residentes ya habían sido evacuados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Between 20,000 and 30,000 people died primarily from the initial blast and fires",
+          "textEs": "Entre 20,000 y 30,000 personas murieron principalmente por la explosión inicial e incendios",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Over 200,000 people, mostly civilians, died immediately or from radiation effects. The United States secretly developed nuclear weapons, which changed warfare and diplomacy after 1945. D is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "Las bombas atómicas mataron más de 200,000 personas. Hiroshima (6 de agosto, 1945) mató aproximadamente 140,000, y Nagasaki (9 de agosto) mató aproximadamente 70,000. Mayoría de víctimas fueron civiles. Muchos murieron inmediatamente; otros murieron por enfermedad de radiación y lesiones.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.28,
+        "b": -0.52,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-q02",
+      "stem": "Urban riots erupted in cities across the United States in the mid-1960s, including the Watts riots in Los Angeles (1965) and Detroit riots (1967). The Kerner Commission, appointed by President Johnson to investigate the causes, concluded —",
+      "stemEs": "Urban riots erupted in cities across the United States in the mid-1960s, including the Watts riots in Los Angeles (1965) and Detroit riots (1967). The Kerner Commission, appointed by President Johnson to investigate the causes, concluded —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Communist agitators funded from abroad had deliberately organized and coordinated the urban riots to destabilize American society",
+          "textEs": "Communist agitators funded from abroad had deliberately organized and coordinated the urban riots to destabilize American society",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Urban riots were primarily caused by organized criminal elements who exploited existing racial tensions for personal financial gain",
+          "textEs": "Urban riots were primarily caused by organized criminal elements who exploited existing racial tensions for personal financial gain",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "'Our nation is moving toward two societies, one black, one white — separate and unequal,' driven by white racism and systemic discrimination",
+          "textEs": "'Our nation is moving toward two societies, one black, one white — separate and unequal,' driven by white racism and systemic discriminación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Civil rights leaders' inflammatory public rhetoric had directly provoked the violence and consequently damaged the broader cause of racial equality",
+          "textEs": "derechos civiles leaders' inflammatory public rhetoric had directly provoked the violence and consequently damaged the broader cause of racial igualdad",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "'Our nation is moving toward two societies, one black, one white — separate and unequal,' driven by white racism and systemic discrimination. B is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "explanationEs": "'Our nation is moving toward two societies, one black, one white — separate and unequal,' driven by white racism and systemic discriminación. B is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.76,
+        "b": 0.53,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-x014",
+      "stem": "The Immigration Act of 1965 was historically transformative because it —",
+      "stemEs": "The inmigración Act of 1965 was historically transformative because it —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Abolished the 1924 national origins quota system",
+          "textEs": "Abolished the 1924 national origins quota system",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Required English proficiency before permanent residency",
+          "textEs": "Required English proficiency before permanent residency",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Created a temporary worker program for Mexican agricultural labor",
+          "textEs": "Created a temporary worker program for Mexican agricultural labor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Increased immigration from Western Europe",
+          "textEs": "Increased inmigración from Western Europe",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Abolished the 1924 national origins quota system. D is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "explanationEs": "Abolished the 1924 national origins quota system. D is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.59,
+        "b": 0.53,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-x016",
+      "stem": "Community Action Programs were controversial because they —",
+      "stemEs": "Community Action Programs were controversial because they —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Required 'maximum feasible participation of the poor'",
+          "textEs": "Required 'maximum feasible participation of the poor'",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Were dominated by civil rights organizations prioritizing racial over economic issues",
+          "textEs": "Were dominated by derechos civiles organizations prioritizing racial over economic issues",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Required poor communities to accept federal administrators",
+          "textEs": "Required poor communities to accept federal administrators",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Failed to reach any rural communities outside Appalachia",
+          "textEs": "Faicondujo a reach any rural communities outside Appalachia",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Required 'maximum feasible participation of the poor'. B is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "explanationEs": "Required 'maximum feasible participation of the poor'. B is incorrect because it describes a different program, event, or idea than the topic in the question. It shows how postwar America balanced reform, protest, and global responsibility.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.68,
+        "b": 0.54,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-x021",
+      "stem": "Suburban development after WWII was promoted by all of the following **EXCEPT** —",
+      "stemEs": "Suburban development after WWII was promoted by all of the following **EXCEPT** —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Baby Boom that increased demand for larger homes with yards",
+          "textEs": "The baby boom that increased demand for larger homes with yards",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Government regulations requiring racial integration in new suburban developments",
+          "textEs": "Government regulations requiring racial integración in new suburban developments",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "FHA mortgage insurance that made home loans affordable for veterans",
+          "textEs": "FHA mortgage insurance that made home loans affordable for veterans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Interstate highway construction that connected suburbs to city jobs",
+          "textEs": "Interstate highway construction that connected suburbs to city jobs",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Government regulations requiring racial integration in new suburban developments. Postwar prosperity helped many white middle-class families buy homes and move to growing suburbs. A is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Government regulations requiring racial integración in new suburban developments. Postwar prosperity helped many white middle-class families buy homes and move to growing suburbs. A is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.08,
+        "b": 0.21,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-x027",
+      "stem": "SNCC's evolution from the Civil Rights Movement to Black Power reflected —",
+      "stemEs": "SNCC's evolution from the derechos civiles Movement to Black Power reflected —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The organization's growing frustration with nonviolence that seemed to require Black people to absorb unlimited violence",
+          "textEs": "The organization's growing frustration with nonviolence that seemed to require Black people to absorb unlimited violence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Carmichael's militant leadership, accumulated fury over absorbing violence, and Freedom Summer's lessons on legal reform's limits",
+          "textEs": "Carmichael's militant leadership, accumulated fury over absorbing violence, and Freedom Summer's lessons on legal reform's limits",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "New leadership under Stokely Carmichael that rejected white allies and integration as goals",
+          "textEs": "New leadership under Stokely Carmichael that rejected white allies and integración as goals",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The practical experience of the Mississippi Freedom Summer which convinced SNCC that legal equality was insufficient",
+          "textEs": "The practical experience of the Mississippi Freedom Summer which convinced SNCC that legal igualdad was insufficient",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SNCC's evolution toward Black Power reflected multiple converging influences: growing frustration with nonviolence that seemed to require Black activists to absorb unlimited violence, new leadership under Stokely Carmichael that rejected white allies and integration as goals, and the practical lessons of Mississippi Freedom Summer that legal equality alone was insufficient. These ideas reflected frustration with slow change and emphasized pride, self-determination, and community control. A is incorrect because it describes a different program, event, or idea than this civil rights development. It helped push the United States toward a broader definition of citizenship and equal rights.",
+      "explanationEs": "SNCC's evolution toward Black Power reflected multiple converging influences: growing frustration with nonviolence that seemed to require Black activists to absorb unlimited violence, new leadership under Stokely Carmichael that rejected white allies and integración as goals, and the practical lessons of Mississippi Freedom Summer that legal igualdad alone was insufficient. These ideas reflected frustration with slow change and emphasized pride, self-determination, and community control. A is incorrect because it describes a different program, event, or idea than this derechos civiles development. It helped push the United States toward a broader definition of ciudadanía and equal rights.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.4,
+        "b": -1.13,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U6-DOK2-0004",
+      "stem": "Which was a major effect of the G.I. Bill on postwar American society?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It dramatically expanded access to higher education and home ownership for veterans",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It required all veterans to enlist for an additional five years of service",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It eliminated federal funding for state colleges and universities",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It restricted veterans to manual labor jobs after the war",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Servicemen's Readjustment Act of 1944 (G.I. Bill) provided veterans with tuition assistance, low-interest home loans, and unemployment benefits — dramatically expanding higher-education enrollment and homeownership in the postwar decades. Distractors B, C, and D all contradict the actual provisions of the law.",
+      "explanationEs": "La Ley de Reajuste de los Militares de 1944 (Ley G.I.) proporcionó a los veteranos asistencia de matrícula, préstamos hipotecarios de bajo interés y prestaciones de desempleo, expandiendo drásticamente la matrícula universitaria y la propiedad de viviendas en las décadas de la posguerra. Los distractores B, C y D contradicen las disposiciones reales de la ley.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U6-DOK2-0015",
+      "stem": "Which factor most directly shaped President Truman's decision to use atomic bombs against Japan in August 1945?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Intelligence reports indicating that Japan was preparing to surrender without conditions within days",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congressional pressure to use the bomb before the Soviet Union could develop its own nuclear weapon",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Japan's use of chemical weapons against American forces, which American officials felt justified a devastating response",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Military projections estimating that a land invasion of Japan would cause massive casualties on both sides",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Military planners estimated that Operation Downfall — the planned Allied invasion of Japan — would cost hundreds of thousands of American lives and millions of Japanese casualties; Truman used this projected cost as the primary justification for using atomic weapons to force a quick surrender.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0075",
+      "stem": "Read the excerpt below.\n\n\"We have found evidence of the systematic murder of approximately six million Jews in occupied Europe. The camps at Auschwitz, Treblinka, and Sobibor were designed for one purpose: industrialized mass killing.\" — Nuremberg War Crimes Tribunal Evidence Summary, 1945\n\nWhich of the following best describes what the Nuremberg evidence revealed about the Holocaust?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Holocaust was a series of spontaneous massacres carried out by local populations, not directed by the Nazi government.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Holocaust was a deliberately planned, state-organized genocide that used industrialized methods to systematically murder millions.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Nazi death camps were designed primarily to eliminate political opponents of the Hitler regime, not targeted at ethnic or religious groups.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Nuremberg Tribunal found that evidence of the Holocaust had been exaggerated and that death camp estimates were unreliable.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Nuremberg Trials revealed the Holocaust was not a series of spontaneous atrocities but a deliberately planned, state-organized, industrialized genocide against Jews and others. The evidence documented the systematic nature of the killing — the construction of purpose-built death camps, the use of industrial methods (gas chambers, crematoria), and the bureaucratic organization of murder on a massive scale. Option A is incorrect because the evidence clearly attributed responsibility to the Nazi state, not random acts. Option C is incorrect because the killing was directed primarily at Jews, plus Roma, disabled people, Slavs, and others — not solely at political opponents. Option D is incorrect because the Nuremberg Trials established, not denied, the scale and systematic nature of the Holocaust.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0076",
+      "stem": "Read the excerpt below.\n\n\"First they came for the socialists, and I did not speak out — because I was not a socialist. Then they came for the trade unionists, and I did not speak out — because I was not a trade unionist. Then they came for the Jews, and I did not speak out — because I was not a Jew. Then they came for me — and there was no one left to speak for me.\" — Pastor Martin Niemöller, post-WWII\n\nWhich of the following lessons about the Holocaust does Niemöller's statement most directly express?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Niemöller is expressing pride that he eventually resisted the Nazis after understanding the full scope of their persecution.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He is describing how he actively collaborated with the Nazis because each targeted group deserved its persecution.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Holocaust was enabled by the silence and indifference of those who did not speak out when others were persecuted, creating a moral obligation to resist injustice.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He is arguing that only organized political opposition could have prevented the Holocaust, making individual moral choices irrelevant.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Niemöller's famous statement reflects on how the Holocaust was made possible because ordinary people and institutions remained silent or indifferent as the Nazis incrementally targeted one group after another. His point is that the failure to resist early persecution of others ultimately left no one to speak up when individuals themselves were targeted. It is a statement about the moral responsibility to resist injustice and the danger of silence in the face of persecution. Option A is incorrect because Niemöller is expressing regret and moral failure, not pride. Option B is incorrect because he is talking about passive complicity through silence, not active collaboration. Option D is incorrect because the statement is about moral responsibility, not political strategy.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0077",
+      "stem": "Read the excerpt below.\n\n\"The Nuremberg Laws of 1935 strip Jews of their German citizenship, prohibit marriage between Jews and non-Jews, and define who is a Jew by race. Jews are no longer citizens; they are subjects without rights.\" — Nazi Legal Decree Summary, 1935\n\nWhich of the following best describes the significance of the Nuremberg Laws in the escalation of the Holocaust?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They created a legal framework for stripping Jews of citizenship and rights, establishing a foundation for progressively harsher persecution.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They were passed immediately after Kristallnacht in response to international pressure to formalize existing anti-Jewish violence.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They extended Nazi racial laws to all occupied European territories, immediately applying them to millions of Jews outside Germany.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They were passed by the League of Nations at Germany's request to establish a clear legal definition of race.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Nuremberg Laws (1935) were a critical step in the escalating persecution of Jews in Germany. By legally stripping Jews of citizenship, prohibiting intermarriage, and defining Jewish identity by racial criteria, the laws created a legal foundation for progressively harsher persecution. This legalized exclusion made it easier to impose additional restrictions and, ultimately, genocidal policies. Option B is incorrect because the Nuremberg Laws preceded, rather than followed, Kristallnacht (1938) and the death camps. Option C is incorrect because the laws applied to Germany, not all of occupied Europe yet. Option D is incorrect because the laws were passed by the Nazi-controlled German government, not an international body.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us56-dok3-1",
+      "stem": "Evaluate President Truman's rationale for using the atomic bomb against Japan.",
+      "stemEs": "Evalúa el razonamiento del Presidente Truman para usar la bomba atómica contra Japón.",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Solely to punish Japan for the attack on Pearl Harbor and avenge American deaths",
+          "textEs": "Únicamente para castigar a Japón por el ataque a Pearl Harbor y vengar muertes estadounidenses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Multiple factors including saving lives, ending war quickly, and strategic advantage",
+          "textEs": "Múltiples factores incluyendo salvar vidas, terminar guerra rápidamente y ventaja estratégica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To test the new weapon on a civilian population for scientific research purposes",
+          "textEs": "Para probar la nueva arma en población civil con propósitos de investigación científica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Because conventional bombing had proven completely ineffective against Japanese cities",
+          "textEs": "Porque el bombardeo convencional había demostrado ser completamente ineficaz contra ciudades japonesas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Multiple factors including saving lives, ending war quickly, and strategic advantage. The United States secretly developed nuclear weapons, which changed warfare and diplomacy after 1945. A is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "La decisión de Truman involucró múltiples factores: salvar vidas estadounidenses al evitar invasión (estimado más de 1 millón de bajas), terminar guerra rápidamente, demostrar poder de EE.UU. y ganar ventaja estratégica sobre Unión Soviética. El debate moral continúa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.56,
+        "b": 0.68,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us56-passage-dok3-1",
+      "stem": "Analyze Truman's rhetoric in his Hiroshima statement. How did he justify the atomic bombing to the American public?",
+      "stemEs": "Analiza la retórica de Truman en su declaración sobre Hiroshima. ¿Cómo justificó el bombardeo atómico al público estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Multiple factors including saving lives, ending war quickly, and strategic advantage",
+          "textEs": "Afirmó que bomba fue solo prueba, sin intención de matar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Radiation sickness, dramatically increased cancer rates, genetic effects, and social stigma",
+          "textEs": "Expresó arrepentimiento y se disculpó por bajas civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Emphasized military necessity, threatened further destruction if Japan didn't surrender",
+          "textEs": "Enfatizó necesidad militar, amenazó mayor destrucción si Japón no se rendía",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Scientific director of the Manhattan Project, known as \"father of the atomic bomb\"",
+          "textEs": "No proporcionó justificación",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Emphasized military necessity, threatened further destruction if Japan didn't surrender. The United States secretly developed nuclear weapons, which changed warfare and diplomacy after 1945. D is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "Truman enmarcó bomba como arma militar necesaria para terminar guerra rápidamente. Declaró que \"utilidad de Japón para enemigo\" fue destruida y amenazó \"lluvia de ruina\" si no se rendían. Enfatizó poder estadounidense mientras desviaba preocupaciones morales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.57,
+        "b": 0.74,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-56-x026",
+      "stem": "The 1968 Democratic National Convention in Chicago was historically significant because —",
+      "stemEs": "The 1968 democrático National Convention in Chicago was historically significant because —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hubert Humphrey won the nomination despite not entering any primaries",
+          "textEs": "Hubert Humphrey won the nomination despite not entering any primaries",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Humphrey won by backroom bargaining while police beatings of protesters aired on television",
+          "textEs": "Humphrey won by backroom bargaining while police beatings of protesters aired on television",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It demonstrated that the Democratic coalition had fractured over Vietnam and civil rights",
+          "textEs": "It demonstrated that the democrático coalition had fractured over Vietnam and derechos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Police violence against antiwar protesters was broadcast on national television",
+          "textEs": "Police violence against antiwar protesters was broadcast on national television",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 1968 Democratic Convention was historically significant on multiple counts: Humphrey won the nomination without entering any primaries, the convention publicly exposed the fracturing of the Democratic coalition over Vietnam and civil rights, and police violence against antiwar protesters was broadcast on national television. The Vietnam War widened the credibility gap and made many Americans question U.S. foreign policy. D is incorrect because it describes a different program, event, or idea than this civil rights development. It revealed the limits of American power abroad and deepened conflict over democracy and dissent at home.",
+      "explanationEs": "The 1968 democrático Convention was historically significant on multiple counts: Humphrey won the nomination without entering any primaries, the convention publicly exposed the fracturing of the democrático coalition over Vietnam and derechos civiles, and police violence against antiwar protesters was broadcast on national television. The Guerra de Vietnam widened the credibility gap and made many Americans question U.S. política exterior. D is incorrect because it describes a different program, event, or idea than this derechos civiles development. It revealed the limits of American power abroad and deepened conflict over democracia and dissent at home.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.55,
+        "b": 1.39,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-100",
+      "stem": "The Manhattan Project cost approximately $2 billion (equivalent to roughly $30 billion today), employed over 130,000 people, and was kept entirely secret from the American public and most of Congress. Analyzing the organizational and political dimensions of this achievement, which of the following best explains what the Manhattan Project reveals about the exercise of executive power during wartime?",
+      "stemEs": "El Proyecto Manhattan costó aproximadamente $2 mil millones (equivalente a aproximadamente $30 mil millones de hoy), empleó a más de 130,000 personas y fue mantenido completamente en secreto del público estadounidense y de la mayor parte del Congreso. Analizando las dimensiones organizativas y políticas de este logro, ¿cuál de las siguientes opciones explica mejor lo que el Proyecto Manhattan revela sobre el ejercicio del poder ejecutivo durante la guerra?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Manhattan Project reveals that wartime emergency justifications can enable the executive to fund and conduct transformative programs of civilization-altering consequence without congressional oversight or democratic deliberation — establishing precedents for covert executive power that extended well beyond the wartime context.",
+          "textEs": "El Proyecto Manhattan revela que las justificaciones de emergencia bélica pueden permitir al ejecutivo financiar y llevar a cabo programas transformadores de consecuencias que alteran la civilización sin supervisión parlamentaria ni deliberación democrática —estableciendo precedentes para el poder ejecutivo encubierto que se extendieron mucho más allá del contexto bélico.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Manhattan Project demonstrates that democratic systems are incapable of producing technological innovation, and that the atomic bomb was only possible because wartime emergency allowed the suspension of all democratic constraints on scientific research.",
+          "textEs": "El Proyecto Manhattan demuestra que los sistemas democráticos son incapaces de producir innovación tecnológica, y que la bomba atómica solo fue posible porque la emergencia bélica permitió la suspensión de todas las restricciones democráticas a la investigación científica.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The secrecy of the Manhattan Project demonstrates that all major wartime decisions were made unconstitutionally, and that any actions taken under this program were legally invalid and should have been subject to post-war nullification.",
+          "textEs": "El secreto del Proyecto Manhattan demuestra que todas las principales decisiones en tiempo de guerra fueron tomadas inconstitucionalmente, y que cualquier acción tomada bajo este programa era legalmente inválida y debería haber estado sujeta a anulación de posguerra.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Manhattan Project's secrecy was fully compatible with democratic governance because FDR briefed Congress in detail and received their authorization for every expenditure throughout the project.",
+          "textEs": "El secreto del Proyecto Manhattan fue completamente compatible con la gobernanza democrática porque FDR informó al Congreso en detalle y recibió su autorización para cada gasto a lo largo del proyecto.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Manhattan Project illustrates the extraordinary expansion of executive power during WWII: a program of this scale and cost, funded through concealed budget transfers, was conducted without meaningful congressional oversight or public knowledge. This demonstrates that wartime emergencies can enable the executive to pursue programs of potentially civilization-altering consequence without democratic deliberation. The secrecy was justified on security grounds but created a precedent for large-scale covert executive action funded outside normal appropriations processes. The atomic bomb decision itself — made by Truman without congressional authorization — extended this executive autonomy to the most consequential military action in history. Options B, C, and D mischaracterize the constitutional and political significance.",
+      "explanationEs": "El Proyecto Manhattan ilustra la extraordinaria expansión del poder ejecutivo durante la Segunda Guerra Mundial: un programa de esta escala y costo, financiado a través de transferencias presupuestarias ocultas, fue realizado sin supervisión parlamentaria significativa ni conocimiento público. Esto demuestra que las emergencias bélicas pueden permitir al ejecutivo perseguir programas de consecuencias potencialmente transformadoras de la civilización sin deliberación democrática. El secreto fue justificado por razones de seguridad pero creó un precedente para la acción ejecutiva encubierta a gran escala financiada fuera de los procesos normales de apropiaciones. La propia decisión de la bomba atómica —tomada por Truman sin autorización parlamentaria— extendió esta autonomía ejecutiva a la acción militar más consecuente de la historia. Las opciones B, C y D tergiversan la importancia constitucional y política.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.78,
+        "b": 1.53,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-101",
+      "stem": "The decision to use atomic bombs against Hiroshima (August 6, 1945) and Nagasaki (August 9, 1945) has been debated by historians for decades. Proponents of the decision argue it ended the war quickly and prevented a costly invasion; critics argue alternatives existed and the bombs were disproportionately destructive. Evaluating the arguments on both sides, which of the following best characterizes the most defensible historical assessment?",
+      "stemEs": "La decisión de usar bombas atómicas contra Hiroshima (6 de agosto de 1945) y Nagasaki (9 de agosto de 1945) ha sido debatida por los historiadores durante décadas. Los defensores de la decisión argumentan que terminó la guerra rápidamente y previno una costosa invasión; los críticos argumentan que existían alternativas y que las bombas fueron desproporcionadamente destructivas. Evaluando los argumentos de ambos lados, ¿cuál de las siguientes opciones caracteriza mejor la evaluación histórica más defendible?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The atomic bomb decision was clearly and unambiguously justified because the only realistic alternative was a conventional land invasion of Japan that would have killed millions of both Americans and Japanese, making the bombs the more humane choice by any measure.",
+          "textEs": "La decisión de la bomba atómica fue claramente e inequívocamente justificada porque la única alternativa era una invasión terrestre que habría matado a millones de estadounidenses y japoneses, haciendo que las bombas fueran una elección humana en comparación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The atomic bomb decision was clearly and unambiguously unjustified because Japan was already on the verge of surrender and available alternatives like a demonstration bombing could have achieved the same result without inflicting mass civilian casualties.",
+          "textEs": "La decisión de la bomba atómica fue claramente e inequívocamente injustificada porque Japón estaba al borde de la rendición y las alternativas como el bombardeo de demostración habrían logrado el mismo resultado sin el asesinato masivo de civiles.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The decision involved genuine strategic considerations — invasion casualty projections, Japan's will to fight, Soviet entry — alongside inadequately explored alternatives and the moral weight of over 200,000 civilian deaths, making confident verdicts difficult and a nuanced assessment more defensible.",
+          "textEs": "La decisión involucró consideraciones estratégicas genuinas —proyecciones de bajas de invasión, la demostrada voluntad de Japón de luchar, la entrada soviética— al tiempo que involucró alternativas inadecuadamente exploradas y el peso moral de más de 200,000 muertes civiles, lo que hace que un veredicto confiado sea difícil y que una evaluación matizada de ambas dimensiones sea más históricamente defendible.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The atomic bomb decision was primarily motivated by the desire to intimidate the Soviet Union in the emerging Cold War rather than to end the war with Japan, making its military justification entirely retrospective rationalization rather than the actual motivation at the time.",
+          "textEs": "La decisión de la bomba atómica fue motivada principalmente por el deseo de intimidar a la Unión Soviética en lugar de terminar la guerra con Japón, lo que hace que su justificación militar sea en su totalidad racionalización retrospectiva en lugar de la motivación real.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The atomic bomb decision is one of the most genuinely contested questions in 20th-century history, and a DOK 3 response requires engaging with the complexity rather than declaring a winner. The strongest case for the decision: Okinawa projections suggested invasion casualties could be catastrophic; Japan had demonstrated willingness to fight to the death; the Soviet declaration of war against Japan (August 8) and the bomb's impact simultaneously appeared to force a surrender decision that Japan's government was struggling to reach. The strongest case against: Japan was near economic collapse; alternatives (demonstration bombing, modified surrender terms regarding the Emperor, waiting for Soviet entry) may not have been adequately explored; 200,000+ civilians died. A defensible assessment acknowledges both the genuine strategic considerations and the moral weight of mass civilian killing, concluding that the decision was made under significant uncertainty with arguable alternatives. Options A, B, and D are artificially certain in either direction.",
+      "explanationEs": "La decisión de la bomba atómica es una de las preguntas más genuinamente disputadas de la historia del siglo XX, y una respuesta de DOK 3 requiere involucrarse con la complejidad en lugar de declarar un ganador. El caso más sólido a favor de la decisión: las proyecciones de Okinawa sugerían que las bajas de la invasión podrían ser catastróficas; Japón había demostrado voluntad de luchar hasta la muerte; la declaración de guerra soviética contra Japón (8 de agosto) y el impacto de la bomba simultáneamente parecían forzar una decisión de rendición que el gobierno de Japón tenía dificultades para alcanzar. El caso más sólido en contra: Japón estaba cerca del colapso económico; es posible que no se hayan explorado adecuadamente las alternativas (bombardeo de demostración, términos de rendición modificados con respecto al Emperador, esperar la entrada soviética); murieron más de 200,000 civiles. Una evaluación defendible reconoce tanto las consideraciones estratégicas genuinas como el peso moral del asesinato masivo de civiles, concluyendo que la decisión fue tomada bajo una incertidumbre significativa con alternativas argumentables. Las opciones A, B y D son artificialmente ciertas en cualquier dirección.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.33,
+        "b": 0.7,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-102",
+      "stem": "Many scientists who worked on the Manhattan Project — including Leo Szilard, who circulated a petition against using the bomb on Japanese cities — opposed the use of atomic weapons against civilian populations. Their opposition was overruled. What does this episode reveal about the relationship between scientific expertise and political decision-making in democratic societies?",
+      "stemEs": "Muchos científicos que trabajaron en el Proyecto Manhattan —incluido Leo Szilard, quien circuló una petición contra el uso de la bomba en ciudades japonesas— se opusieron al uso de armas atómicas contra poblaciones civiles. Su oposición fue anulada. ¿Qué revela este episodio sobre la relación entre la experiencia científica y la toma de decisiones políticas en las sociedades democráticas?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The episode demonstrates that scientists should have ultimate decision-making authority over the use of technologies they create, because their technical expertise makes them uniquely qualified to assess the consequences of their use.",
+          "textEs": "El episodio demuestra que los científicos deberían tener autoridad última en la toma de decisiones sobre el uso de las tecnologías que crean, porque su expertise técnica los hace únicamente calificados para evaluar las consecuencias de su uso.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The episode illustrates that in democratic societies, technical experts possess legitimate expertise about the capabilities of their tools but political decisions about the use of those tools — including in war — appropriately remain with elected officials accountable to the public, who bear ultimate moral responsibility for those decisions.",
+          "textEs": "El episodio ilustra que en las sociedades democráticas, los expertos técnicos poseen una expertise legítima sobre las capacidades de sus herramientas, pero las decisiones políticas sobre el uso de esas herramientas —incluso en la guerra— permanecen apropiadamente con los funcionarios elegidos responsables ante el público, quienes tienen la responsabilidad moral última por esas decisiones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The scientists' opposition demonstrates that atomic weapons were developed in secret without the knowledge or consent of the people who built them, making the entire Manhattan Project an unauthorized project for which the federal government has never been held accountable.",
+          "textEs": "La oposición de los científicos demuestra que las armas atómicas fueron desarrolladas en secreto sin el conocimiento o consentimiento de las personas que las construyeron, haciendo que todo el Proyecto Manhattan fuera un proyecto no autorizado por el que el gobierno federal nunca ha sido responsabilizado.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The overruling of scientists proves that democratic governments are incapable of making ethical decisions about the use of powerful technologies, and that independent scientific ethics boards should have had veto power over the bombing decision.",
+          "textEs": "La anulación de los científicos demuestra que los gobiernos democráticos son incapaces de tomar decisiones éticas sobre el uso de tecnologías poderosas, y que los comités de ética científica independientes deberían haber tenido poder de veto sobre la decisión de bombardeo.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Manhattan Project scientists' overruled opposition illustrates a fundamental principle in democratic governance: scientists possess expertise in the technical dimensions of their work, but in democratic systems, decisions about the use of technology — particularly decisions about war and killing — are ultimately made by elected political leaders who are accountable to the public, not by technical experts. Scientists like Szilard had legitimate ethical expertise (their proximity to the bomb gave them particular understanding of its effects), but they lacked the strategic and political authority to override Truman's decision. This illustrates both the appropriate boundary of scientific authority in democratic governance and the moral responsibility that political leaders bear for decisions they make using scientific tools. Options A, C, and D mischaracterize this relationship.",
+      "explanationEs": "La oposición anulada de los científicos del Proyecto Manhattan ilustra un principio fundamental en la gobernanza democrática: los científicos poseen experiencia en las dimensiones técnicas de su trabajo, pero en los sistemas democráticos, las decisiones sobre el uso de la tecnología —particularmente las decisiones sobre la guerra y el asesinato— son tomadas en última instancia por líderes políticos elegidos que son responsables ante el público, no por expertos técnicos. Científicos como Szilard tenían una expertise ética legítima (su proximidad a la bomba les dio una comprensión particular de sus efectos), pero carecían de la autoridad estratégica y política para anular la decisión de Truman. Esto ilustra tanto el límite apropiado de la autoridad científica en la gobernanza democrática como la responsabilidad moral que los líderes políticos tienen por las decisiones que toman usando herramientas científicas. Las opciones A, C y D tergiversan esta relación.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.39,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-103",
+      "stem": "The atomic bombings of Hiroshima and Nagasaki killed between 130,000 and 226,000 people, the vast majority civilians. Under the laws of war and just war theory, targeting civilian populations is generally prohibited. How do defenders of the bombing decision typically address this principle, and what are the strongest objections to their arguments?",
+      "stemEs": "Los bombardeos atómicos de Hiroshima y Nagasaki mataron entre 130,000 y 226,000 personas, la gran mayoría civiles. Bajo las leyes de guerra y la teoría de la guerra justa, atacar poblaciones civiles generalmente está prohibido. ¿Cómo suelen abordar los defensores de la decisión del bombardeo este principio, y cuáles son las objeciones más sólidas a sus argumentos?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Defenders of the bombings have no valid arguments, and the atomic attacks are universally recognized as war crimes under international law with no legitimate military justification.",
+          "textEs": "Los defensores de los bombardeos no tienen argumentos válidos, y los ataques atómicos son universalmente reconocidos como crímenes de guerra bajo el derecho internacional sin ninguna justificación militar legítima.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The just war objection to bombing civilian populations is irrelevant because just war theory did not exist as a recognized framework in 1945 and therefore could not have been applicable to Truman's decision.",
+          "textEs": "La objeción de la guerra justa a bombardear poblaciones civiles es irrelevante porque la teoría de la guerra justa no existía como marco reconocido en 1945 y por lo tanto no podría haberse aplicado a la decisión de Truman.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The just war objection is fully resolved by the fact that Hiroshima and Nagasaki were industrial cities rather than purely civilian targets, which makes the civilian deaths legally equivalent to acceptable collateral damage under all recognized frameworks.",
+          "textEs": "La objeción de la guerra justa queda completamente resuelta por el hecho de que Hiroshima y Nagasaki eran ciudades industriales en lugar de objetivos puramente civiles, lo que hace que las muertes civiles sean legalmente equivalentes al daño colateral aceptable bajo todos los marcos reconocidos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Defenders typically invoke military necessity and invasion casualty comparisons to address the civilian harm principle; the strongest objections are that Japan's advanced economic collapse made alternatives viable, retrospective casualty comparisons involve speculative projections",
+          "textEs": "Los defensores típicamente invocan la necesidad militar y las comparaciones de bajas de invasión para abordar el principio del daño civil; las objeciones más sólidas son que el colapso económico avanzado de Japón hizo viables las alternativas, las comparaciones de bajas retrospectivas involucran proyecciones especulativas, y el precedente del uso nuclear contra civiles tuvo consecuencias duraderas más allá del conflicto inmediato.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The standard defense of the atomic bombings invokes military necessity and proportionality: the bombs were dropped on cities with significant military installations; Japan's continued resistance would have caused more total deaths (American and Japanese) than the bombs; and Hiroshima and Nagasaki were not 'civilian' targets in the pure sense but combined military-industrial centers. The strongest objections: (1) the scale of civilian deaths was unprecedented; (2) Japan was already in advanced economic collapse and alternatives were available; (3) retrospective casualty comparisons involve speculative projections; (4) the precedent — establishing that nuclear weapons could be used against civilian populations — had consequences beyond the immediate war. A DOK 3 response engages with the genuine arguments on both sides rather than dismissing either. Options A, B, and C fail to engage with this complexity.",
+      "explanationEs": "La defensa estándar de los bombardeos atómicos invoca la necesidad militar y la proporcionalidad: las bombas fueron lanzadas sobre ciudades con instalaciones militares significativas; la resistencia continua de Japón habría causado más muertes totales (estadounidenses y japonesas) que las bombas; e Hiroshima y Nagasaki no eran objetivos 'civiles' en el sentido puro sino centros militares-industriales combinados. Las objeciones más sólidas: (1) la escala de muertes civiles fue sin precedentes; (2) Japón ya estaba en un colapso económico avanzado y había alternativas disponibles; (3) las comparaciones de bajas retrospectivas involucran proyecciones especulativas; (4) el precedente —establecer que las armas nucleares podían usarse contra poblaciones civiles— tuvo consecuencias más allá de la guerra inmediata. Una respuesta de DOK 3 se involucra con los argumentos genuinos de ambos lados en lugar de desestimar ninguno. Las opciones A, B y C no logran involucrarse con esta complejidad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.9,
+        "b": 0.7,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-104",
+      "stem": "The Manhattan Project was initiated after Einstein's 1939 letter to FDR warned that Germany might be developing nuclear weapons. The bomb was completed after Germany's surrender and used only against Japan. Analyzing this sequence of events, which of the following best evaluates how the initial justification evolved and what questions this evolution raises?",
+      "stemEs": "El Proyecto Manhattan fue iniciado después de que la carta de Einstein de 1939 a FDR advirtiera que Alemania podría estar desarrollando armas nucleares. La bomba fue completada después de la rendición de Alemania y utilizada solo contra Japón. Analizando esta secuencia de eventos, ¿cuál de las siguientes opciones evalúa mejor cómo evolucionó la justificación inicial y qué preguntas plantea esta evolución?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Germany's defeat removed the original justification for the bomb's development, raising the question of whether its use against Japan required independent moral reconsideration — a question that some Manhattan Project scientists explicitly raised and that the administration's decision-making process did not adequately address.",
+          "textEs": "La derrota de Alemania eliminó la justificación original para el desarrollo de la bomba, planteando la pregunta de si su uso contra Japón requería una reconsideración moral independiente —una pregunta que algunos científicos del Proyecto Manhattan plantearon explícitamente y que el proceso de toma de decisiones de la administración no abordó adecuadamente.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The evolution from 'prevent German bomb' to 'use against Japan' justification is historically irrelevant because weapons developed for one military purpose are always available for use against any enemy, making the original justification a permanent authorization regardless of changed circumstances.",
+          "textEs": "La evolución de la justificación de 'prevenir la bomba alemana' a 'usar contra Japón' es históricamente irrelevante porque las armas desarrolladas para un propósito militar siempre están disponibles para su uso contra cualquier enemigo, haciendo que la justificación original sea una autorización permanente independientemente de las circunstancias cambiadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The evolution demonstrates that Germany's surrender proved that the Manhattan Project was a wasted investment that should have been abandoned in May 1945, and that use against Japan was motivated entirely by a desire to recoup the $2 billion investment.",
+          "textEs": "La evolución demuestra que la rendición de Alemania demostró que el Proyecto Manhattan fue una inversión desperdiciada que debería haberse abandonado en mayo de 1945, y que el uso contra Japón fue motivado enteramente por el deseo de recuperar la inversión de $2 mil millones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The shift from German to Japanese target demonstrates that the bomb was always intended for use against Japan, and the German nuclear threat was a pretext designed to generate political support for a program that Truman had already committed to using in the Pacific.",
+          "textEs": "El cambio del objetivo alemán al japonés demuestra que la bomba siempre estuvo destinada a ser usada contra Japón, y la amenaza nuclear alemana fue un pretexto diseñado para generar apoyo político para un programa que Truman ya había comprometido a usar en el Pacífico.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The evolution from 'German bomb program' justification to 'use against Japan' raises significant questions about whether adequate deliberation occurred at the transition point. The original justification (prevent Germany from having a weapon the U.S. did not) evaporated with Germany's defeat in May 1945. At that point, the bomb existed and Japan was the remaining enemy. Truman and his advisors made the decision to use it against Japan without extensive consideration of whether this use required a new and separate justification — the momentum of the project, military planning, and the imminent invasion threat combined to produce use. Some scientists (like Szilard) explicitly argued that Germany's defeat removed the original moral justification and that use against Japan required independent ethical reconsideration. This evolution is historically significant because it illustrates how weapons developed for one purpose can be used for others without adequate democratic reconsideration. Options B, C, and D mischaracterize or avoid this analytical question.",
+      "explanationEs": "La evolución de la justificación del 'programa de bomba alemán' al 'uso contra Japón' plantea preguntas significativas sobre si se produjo una deliberación adecuada en el punto de transición. La justificación original (evitar que Alemania tuviera un arma que los EE.UU. no tenía) se evaporó con la derrota de Alemania en mayo de 1945. En ese punto, la bomba existía y Japón era el enemigo restante. Truman y sus asesores tomaron la decisión de usarla contra Japón sin una consideración extensa de si este uso requería una justificación nueva e independiente —el impulso del proyecto, la planificación militar y la amenaza inminente de invasión se combinaron para producir el uso—. Algunos científicos (como Szilard) argumentaron explícitamente que la derrota de Alemania eliminó la justificación moral original y que el uso contra Japón requería una reconsideración ética independiente. Esta evolución es históricamente significativa porque ilustra cómo las armas desarrolladas para un propósito pueden usarse para otros sin una reconsideración democrática adecuada. Las opciones B, C y D tergiversan o evitan esta pregunta analítica.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.84,
+        "b": 1.55,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-105",
+      "stem": "The atomic bomb inaugurated the nuclear age and fundamentally changed the nature of warfare. Analyzing both the immediate military consequences and the long-term strategic legacy of the atomic bomb, which of the following best explains its broader significance in modern history?",
+      "stemEs": "La bomba atómica inauguró la era nuclear y cambió fundamentalmente la naturaleza de la guerra. Analizando tanto las consecuencias militares inmediatas como el legado estratégico a largo plazo de la bomba atómica, ¿cuál de las siguientes opciones explica mejor su importancia más amplia en la historia moderna?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The atomic bomb's historical significance is limited to its immediate military effect of ending World War II, and its long-term consequences have been overstated by historians seeking to find more profound meaning in a single military decision.",
+          "textEs": "El significado histórico de la bomba atómica se limita a su efecto militar inmediato de terminar la Segunda Guerra Mundial, y sus consecuencias a largo plazo han sido exageradas por los historiadores que buscan encontrar un significado más profundo en una sola decisión militar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The atomic bomb's primary significance was demonstrating American technological superiority over both Germany and Japan, establishing American industrial and scientific dominance as the defining feature of post-war American identity.",
+          "textEs": "La importancia principal de la bomba atómica fue demostrar la superioridad tecnológica estadounidense sobre Alemania y Japón, estableciendo la dominancia industrial y científica estadounidense como la característica definitoria de la identidad estadounidense de posguerra.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The atomic bomb's broader significance lies in fundamentally transforming the nature of interstate conflict — creating the permanent threat of civilizational destruction that structured Cold War deterrence, produced proxy wars rather than great power conflict, generated non-proliferation regimes, and continues to shape every major power relationship today.",
+          "textEs": "El significado más amplio de la bomba atómica radica en transformar fundamentalmente la naturaleza del conflicto interestatal —creando la amenaza permanente de destrucción civilizacional que estructuró la disuasión de la Guerra Fría, produjo guerras por delegación en lugar de conflictos entre grandes potencias, generó regímenes de no proliferación y continúa dando forma a cada relación entre grandes potencias hoy en día.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The atomic bomb's significance is primarily moral rather than strategic: its legacy is the ethical debate it generated about targeting civilians, which has been the defining contribution of WWII to subsequent international humanitarian law.",
+          "textEs": "El significado de la bomba atómica es principalmente moral en lugar de estratégico: su legado es el debate ético que generó sobre atacar a civiles, que ha sido la contribución definitoria de la Segunda Guerra Mundial al derecho humanitario internacional posterior.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The atomic bomb's broader historical significance extends far beyond WWII: it created the permanent threat of civilizational destruction that has structured international relations since 1945 (deterrence theory, the nuclear arms race, non-proliferation regimes, Cuban Missile Crisis). It transformed the nature of great power conflict — major powers could no longer fight full-scale wars against each other without risking nuclear escalation, producing 'cold' rather than 'hot' wars between nuclear powers. It also created a new form of political power: nuclear weapons became both a deterrent and a status symbol, shaping the post-war international order. The bomb's legacy is not just what it did in 1945 but what it has meant for every year since. Options A, B, and D isolate narrow dimensions and miss the transformative long-term significance.",
+      "explanationEs": "El significado histórico más amplio de la bomba atómica se extiende mucho más allá de la Segunda Guerra Mundial: creó la amenaza permanente de destrucción civilizacional que ha estructurado las relaciones internacionales desde 1945 (teoría de la disuasión, la carrera de armamentos nucleares, los regímenes de no proliferación, la Crisis de los Misiles de Cuba). Transformó la naturaleza del conflicto entre grandes potencias —las grandes potencias ya no podían librar guerras a gran escala entre sí sin arriesgar la escalada nuclear, produciendo guerras 'frías' en lugar de 'calientes' entre potencias nucleares—. También creó una nueva forma de poder político: las armas nucleares se convirtieron en un elemento de disuasión y en un símbolo de estatus, dando forma al orden internacional de posguerra. El legado de la bomba no es solo lo que hizo en 1945 sino lo que ha significado para cada año desde entonces. Las opciones A, B y D aíslan dimensiones estrechas y pierden la importancia transformadora a largo plazo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.03,
+        "b": 1.44,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-106",
+      "stem": "Oppenheimer, upon witnessing the first atomic test (Trinity, July 16, 1945), reportedly quoted the Bhagavad Gita: 'Now I am become Death, the destroyer of worlds.' Many Manhattan Project scientists experienced profound moral conflict about their work. What does the scientists' moral crisis reveal about the relationship between technological innovation and ethical responsibility?",
+      "stemEs": "Oppenheimer, al presenciar la primera prueba atómica (Trinity, 16 de julio de 1945), supuestamente citó el Bhagavad Gita: 'Ahora me he convertido en la Muerte, el destructor de mundos'. Muchos científicos del Proyecto Manhattan experimentaron un profundo conflicto moral sobre su trabajo. ¿Qué revela la crisis moral de los científicos sobre la relación entre la innovación tecnológica y la responsabilidad ética?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The scientists' moral crisis demonstrates that scientists should avoid working on any project that might have military applications, since technical expertise carries inherent moral responsibility for all potential uses of a created technology.",
+          "textEs": "La crisis moral de los científicos demuestra que los científicos deben evitar trabajar en cualquier proyecto que pueda tener aplicaciones militares, ya que la expertise técnica conlleva una responsabilidad moral inherente por todos los usos potenciales de una tecnología creada.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The scientists' moral crisis reveals a recurring dilemma: scientists possess unique knowledge of and moral responsibility for what they create, yet lack political authority to control its use",
+          "textEs": "La crisis moral de los científicos revela un dilema recurrente: los científicos poseen un conocimiento único y responsabilidad moral por lo que crean, sin embargo carecen de autoridad política para controlar su uso —una tensión entre la conciencia moral técnica y la autoridad política democrática que no puede resolverse completamente dentro de los marcos institucionales existentes.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The scientists' moral crisis was entirely personal and had no broader significance, since the ethical questions they faced were unique to the atomic bomb and cannot be generalized to other technological innovations.",
+          "textEs": "La crisis moral de los científicos fue enteramente personal y no tuvo ningún significado más amplio, ya que las preguntas éticas que enfrentaron fueron únicas para la bomba atómica y no pueden generalizarse a otras innovaciones tecnológicas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The scientists' moral crisis demonstrates that scientific progress should always be subject to prior ethical review boards that can prevent the development of potentially harmful technologies before their creation.",
+          "textEs": "La crisis moral de los científicos demuestra que el progreso científico siempre debe estar sujeto a comités de revisión ética previos que puedan prevenir el desarrollo de tecnologías potencialmente dañinas antes de su creación.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Manhattan Project scientists' moral crisis illustrates a recurring dilemma in the history of technology: scientists can produce innovations whose consequences — once the technical constraints are solved — belong to domains (politics, war, ethics) outside their technical expertise and beyond their individual control. The scientists experienced this as acute moral conflict because they possessed unique knowledge of what they had created but lacked the political authority to control its use. This reveals the limitation of the 'technical expert as neutral tool' model: scientists who create weapons of mass destruction cannot remain morally neutral about how their work is used, yet they have no democratic authority to override political decisions. Oppenheimer's later advocacy for nuclear arms control reflects his effort to translate scientific moral consciousness into political influence. Options A, C, and D mischaracterize the nature of the scientists' moral crisis.",
+      "explanationEs": "La crisis moral de los científicos del Proyecto Manhattan ilustra un dilema recurrente en la historia de la tecnología: los científicos pueden producir innovaciones cuyas consecuencias —una vez que se resuelven las restricciones técnicas— pertenecen a dominios (política, guerra, ética) fuera de su expertise técnica y más allá de su control individual. Los científicos experimentaron esto como un conflicto moral agudo porque poseían un conocimiento único de lo que habían creado pero carecían de la autoridad política para controlar su uso. Esto revela la limitación del modelo de 'experto técnico como herramienta neutral': los científicos que crean armas de destrucción masiva no pueden permanecer moralmente neutrales sobre cómo se usa su trabajo, sin embargo, no tienen autoridad democrática para anular las decisiones políticas. La posterior defensa de Oppenheimer por el control de armamentos nucleares refleja su esfuerzo por traducir la conciencia moral científica en influencia política. Las opciones A, C y D tergiversan la naturaleza de la crisis moral de los científicos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.67,
+        "b": 1.53,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-107",
+      "stem": "After the atomic bombings, Japan surrendered on August 15, 1945. Emperor Hirohito's surrender announcement cited 'a new and most cruel bomb' as a factor. Soviet historians and some American revisionists argue that Soviet entry into the Pacific War on August 8 was more decisive than the atomic bombs in forcing Japan's surrender. Evaluate the evidence for both arguments.",
+      "stemEs": "Después de los bombardeos atómicos, Japón se rindió el 15 de agosto de 1945. El anuncio de rendición del Emperador Hirohito citó 'una nueva y muy cruel bomba' como factor. Los historiadores soviéticos y algunos revisionistas estadounidenses argumentan que la entrada soviética en la Guerra del Pacífico el 8 de agosto fue más decisiva que las bombas atómicas para forzar la rendición de Japón. Evalúa la evidencia de ambos argumentos.",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The atomic bombs were unambiguously the decisive factor in Japan's surrender, and Soviet entry played no role since Japan was already preparing to surrender before August 8.",
+          "textEs": "Las bombas atómicas fueron inequívocamente el factor decisivo en la rendición de Japón, y la entrada soviética no jugó ningún papel ya que Japón ya se estaba preparando para rendirse antes del 8 de agosto.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Soviet entry was unambiguously the decisive factor since the atomic bombs had not shaken Japan's determination to continue fighting, as evidenced by Japan's non-surrender in the three days between Hiroshima and Nagasaki.",
+          "textEs": "La entrada soviética fue inequívocamente el factor decisivo ya que las bombas atómicas no habían quebrado la determinación de Japón de seguir luchando, como lo evidencia la no rendición de Japón en los tres días entre Hiroshima y Nagasaki.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both factors were equally irrelevant since Japan would have surrendered within weeks regardless of either the atomic bombs or Soviet entry due to the catastrophic naval blockade that was already causing mass starvation.",
+          "textEs": "Ambos factores fueron igualmente irrelevantes ya que Japón se habría rendido en cuestión de semanas independientemente de las bombas atómicas o la entrada soviética debido al catastrófico bloqueo naval que ya estaba causando hambre masiva.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Recent scholarship suggests both factors were critical components of Japan's surrender decision — Soviet entry destroyed Japan's remaining strategic hope for Asian mainland resistance while the atomic bombs demonstrated unlimited destructive capacity",
+          "textEs": "La beca reciente sugiere que ambos factores fueron componentes críticos de la decisión de rendición de Japón —la entrada soviética destruyó la esperanza estratégica restante de Japón de resistencia en el continente asiático mientras que las bombas atómicas demostraron una capacidad destructiva ilimitada— y la combinación en lugar de cualquiera de ellas sola explica mejor el momento y la forma de la rendición de Japón.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "This is a genuine historiographical debate with serious scholars on both sides. The case for Soviet entry as decisive: Japan's strategic position depended on maintaining the Asian mainland; Soviet entry destroyed that hope; the Japanese military feared Soviet advance more than continued American bombing; and declassified Japanese documents suggest Soviet entry was a 'decisive shock' to the Japanese Supreme Council. The case for the bombs as decisive: the Emperor specifically cited the new weapon; the bombs demonstrated a capacity for unlimited destruction without invasion; the Japanese government had been debating surrender terms before Soviet entry. Most recent scholarship (including Tsuyoshi Hasegawa's work) suggests Soviet entry was a critical factor alongside the bombs — the combination, not either alone, proved decisive. A DOK 3 response engages with the historiographical debate. Options A, B, and C assert single-factor conclusions prematurely.",
+      "explanationEs": "Este es un debate historiográfico genuino con académicos serios en ambos lados. El caso para la entrada soviética como decisiva: la posición estratégica de Japón dependía de mantener el continente asiático; la entrada soviética destruyó esa esperanza; el ejército japonés temía más el avance soviético que el continuo bombardeo estadounidense; y los documentos japoneses desclasificados sugieren que la entrada soviética fue un 'shock decisivo' para el Consejo Supremo japonés. El caso para las bombas como decisivas: el Emperador citó específicamente la nueva arma; las bombas demostraron una capacidad de destrucción ilimitada sin invasión; el gobierno japonés había estado debatiendo los términos de rendición antes de la entrada soviética. La beca más reciente (incluida la obra de Tsuyoshi Hasegawa) sugiere que la entrada soviética fue un factor crítico junto con las bombas —la combinación, no ninguna sola, resultó decisiva—. Una respuesta de DOK 3 se involucra con el debate historiográfico. Las opciones A, B y C afirman conclusiones de factor único prematuramente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.99,
+        "b": 0.59,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-108",
+      "stem": "The Manhattan Project recruited some of the world's most eminent scientists, many of whom were European Jewish refugees who had fled Nazi persecution — including Einstein, Fermi, Szilard, and Teller. Analyzing this coincidence, which of the following best explains the historical irony embedded in this fact?",
+      "stemEs": "El Proyecto Manhattan reclutó a algunos de los científicos más eminentes del mundo, muchos de los cuales eran refugiados judíos europeos que habían huido de la persecución nazi —incluidos Einstein, Fermi, Szilard y Teller—. Analizando esta coincidencia, ¿cuál de las siguientes opciones explica mejor la ironía histórica incorporada en este hecho?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The historical irony is simply that Jewish scientists who escaped Nazi persecution were willing to work for a country that also practiced racial discrimination, demonstrating the moral compromises that political refugees must make to survive.",
+          "textEs": "La ironía histórica es simplemente que los científicos judíos que escaparon de la persecución nazi estaban dispuestos a trabajar para un país que también practicaba la discriminación racial, demostrando los compromisos morales que los refugiados políticos deben hacer para sobrevivir.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "There is no historical irony because refugee scientists and American scientists collaborated equally throughout the Manhattan Project with no meaningful differences in their motivations or contributions.",
+          "textEs": "No hay ironía histórica porque los científicos refugiados y los científicos estadounidenses colaboraron igualmente a lo largo del Proyecto Manhattan sin diferencias significativas en sus motivaciones o contribuciones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The deepest irony is that Nazi racial ideology, by persecuting Jewish scientists, inadvertently exported the scientific talent that made the atomic bomb possible to the United States — meaning fascism's internal ideological contradictions directly contributed to producing the weapon that helped defeat it.",
+          "textEs": "La ironía más profunda es que la ideología racial nazi, al perseguir a los científicos judíos, inadvertidamente exportó el talento científico que hizo posible la bomba atómica a los Estados Unidos —lo que significa que las contradicciones ideológicas internas del fascismo contribuyeron directamente a producir el arma que ayudó a derrotarlo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The irony lies in the fact that refugee scientists who had experienced totalitarian persecution were uniquely willing to build a weapon of total destruction, demonstrating that victims of oppression are more capable of moral compromise than those raised in democratic societies.",
+          "textEs": "La ironía radica en el hecho de que los científicos refugiados que habían experimentado la persecución totalitaria estaban únicamente dispuestos a construir un arma de destrucción total, demostrando que las víctimas de la opresión son más capaces de compromiso moral que las criadas en sociedades democráticas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The historical irony is multi-layered: (1) Nazi racial ideology drove the persecution of Jewish scientists, inadvertently exporting the world's leading nuclear physicists to the United States; (2) These same persecuted scientists then developed the weapon that ended the war against the fascism that had persecuted them; (3) Germany lost its nuclear program precisely because of the antisemitic purge of its scientific institutions. This reveals that Nazi ideology undermined Nazi war-making capacity by its own internal contradictions — racial ideology eliminated the scientific talent needed for the very weapons program that could have won the war. It also reflects a larger pattern: persecution of minorities often damages the persecuting society as much as the persecuted. Options A, B, and D miss this multi-layered historical significance.",
+      "explanationEs": "La ironía histórica es de múltiples capas: (1) La ideología racial nazi impulsó la persecución de los científicos judíos, exportando inadvertidamente a los principales físicos nucleares del mundo a los Estados Unidos; (2) Estos mismos científicos perseguidos luego desarrollaron el arma que terminó la guerra contra el fascismo que los había perseguido; (3) Alemania perdió su programa nuclear precisamente por la purga antisemita de sus instituciones científicas. Esto revela que la ideología nazi socavó la capacidad bélica nazi por sus propias contradicciones internas —la ideología racial eliminó el talento científico necesario para el programa de armas que podría haber ganado la guerra—. También refleja un patrón más amplio: la persecución de las minorías a menudo daña a la sociedad perseguidora tanto como a la perseguida. Las opciones A, B y D pierden este significado histórico de múltiples capas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.91,
+        "b": 1.03,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0122",
+      "stem": "Read the excerpt below.\n\n\"The Wannsee Conference convened senior Nazi officials to coordinate the implementation of the 'Final Solution to the Jewish Question.' The meeting's minutes, discovered after the war, showed that the genocide was not the act of a few fanatics but a bureaucratically organized state policy.\" — Historian Raul Hilberg, The Destruction of the European Jews, 1961\n\nAnalyze what the Wannsee Protocol reveals about the nature of the Holocaust. Which of the following best evaluates the significance of the bureaucratic organization described?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The bureaucratic organization of the Holocaust means it was carried out by a small group of specialists with no broader German public involvement.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Holocaust's bureaucratic organization reveals that genocide can be perpetrated through ordinary institutions and ordinary people following orders within a system of dehumanization and state authority.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Wannsee Protocol's existence is disputed by historians, making any conclusions about the Holocaust's organization unreliable.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The bureaucratic organization shows that only Nazi Party members were directly involved in the Holocaust, exonerating ordinary German citizens.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.56"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Hilberg's observation that the Holocaust was 'bureaucratically organized state policy' is significant because it reveals that the genocide was not spontaneous or the work of a few fanatical individuals. It required the participation of ordinary bureaucrats, railroad officials, doctors, engineers, and administrators — ordinary people who processed paperwork, scheduled trains, and administered systems that led to mass murder. This 'banality of evil' (Hannah Arendt's phrase) raises profound questions about how ordinary institutions and normal people can become instruments of genocide when embedded in a system of dehumanization and obedience to authority. Option A is incorrect because the bureaucratic nature means the opposite — many ordinary people participated. Option C is incorrect because the historical consensus supports the conclusion that the Holocaust was state-organized genocide. Option D is incorrect because the bureaucratic organization makes direct complicity broader, not limited to party officials.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 0.9,
+        "c": 0.16
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.56"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.56->US.56: standard ADDED ['Oak Ridge', 'Los Alamos', 'Hanford', \"explain President Truman's rationale for using the atomic bomb to end the war\"] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Oak Ridge",
+            "Los Alamos",
+            "Hanford",
+            "explain President Truman's rationale for using the atomic bomb to end the war"
+          ]
+        }
+      }
+    }
+  ]
+}

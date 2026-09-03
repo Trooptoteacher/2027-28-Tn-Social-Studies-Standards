@@ -1,0 +1,2637 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.08",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "US.04-Q01",
+      "stem": "The spoils system refers to the practice of:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Requiring civil service examinations for many federal employees",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Limiting government employment to college graduates primarily",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Distributing government jobs based on merit and qualifications",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Awarding government positions to political supporters regardless of qualifications or merit",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Requires recall of a specific fact, term, or event — no analysis required.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires recall of a specific fact, term, or event — no analysis required.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-MS11",
+      "stem": "What was the most significant reform introduced by the Pendleton Civil Service Act of 1883?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It eliminated the entire spoils system by prohibiting political donations from all federal employees",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It created a constitutional amendment requiring Senate confirmation of every mid-level federal position",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It established the merit principle by requiring that many federal jobs be awarded based on competitive examinations rather than political connections",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It transferred control of lower-level federal appointments from the president to congressional committees",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Requires recall of the core reform enacted by a named statute — a DOK 1 identification task.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Pendleton Act (1883) established the merit principle by requiring competitive examinations for a growing share of federal jobs, ending the worst abuses of the spoils system. It did not abolish the spoils system entirely, was a statute (not a constitutional amendment), and did not transfer appointment power to Congress.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X012",
+      "stem": "The spoils system, which Pendleton Act reform targeted, referred to:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The distribution of war profits among military officers after successful campaigns",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congressional corruption through the acceptance of bribes from lobbyists",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The division of public land grants among railroad companies for construction",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The practice of rewarding political supporters with government jobs regardless of qualifications",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Requires recall of a specific fact — no analysis needed.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires recall of a specific fact — no analysis needed.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X020",
+      "stem": "The Interstate Commerce Commission (ICC), created in 1887, was the first federal regulatory agency because it:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Had authority to fine railroads for charging unfair rates, which courts consistently upheld",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Established the principle that the federal government could regulate private industry in the public interest, even though early ICC enforcement was weakened by courts",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Was created with unlimited regulatory authority over all forms of commerce",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Successfully ended railroad discrimination against farmers within its first year",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Requires recall of a specific fact — no analysis needed.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires recall of a specific fact — no analysis needed.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X022",
+      "stem": "The Populist (People's) Party's 1892 Omaha Platform demanded all of the following EXCEPT:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Restricting immigration from Asia and Southern Europe",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Direct election of senators",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Government ownership of railroads",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A graduated income tax",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Requires recall of a specific fact — no analysis needed.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires recall of a specific fact — no analysis needed.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X025",
+      "stem": "The Homestead Strike (1892) ended with workers defeated primarily because:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Pinkerton detective agency crushed the strike with armed force, killing several strikers and guards",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "An anarchist's assassination attempt on Carnegie's manager Henry Clay Frick turned public opinion against the union",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The union treasury ran out and strikers could not sustain their families through a prolonged stoppage",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "State militia intervened on behalf of Carnegie to restore operations using replacement workers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Requires recall of a specific fact — no analysis needed.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires recall of a specific fact — no analysis needed.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-F101",
+      "stem": "Sharecropping as an economic system in the post-Reconstruction South primarily kept Black farmers:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Trapped in debt dependency — landlords advanced seeds, tools, and credit at high rates, so sharecroppers' share of the harvest rarely covered what they owed, making true economic independence nearly impossible",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Protected from the worst economic exploitation by federal laws that set minimum standards for sharecropping contracts",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Better off economically than under slavery since they received a cash payment for their labor each harvest season",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Able to accumulate savings gradually since landlords provided housing and equipment that reduced startup costs",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "DOK 1: identify core dynamic of sharecropping",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "DOK 1: identify core dynamic of sharecropping",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-F106",
+      "stem": "The Freedmen's Bureau, established in 1865, was primarily responsible for:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Enforcing the 13th, 14th, and 15th Amendments throughout the South",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Providing military protection for freedpeople through a network of Bureau-controlled militias",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Assisting formerly enslaved people and poor white Southerners by providing food, medical care, education, and assistance negotiating labor contracts, while also establishing schools across the South",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Managing the redistribution of confiscated Confederate land to formerly enslaved people",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "DOK 1: identify Freedmen's Bureau's primary functions",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "DOK 1: identify Freedmen's Bureau's primary functions",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0076",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the Carnegie Steel Company's Homestead Works in Pennsylvania during the Homestead Strike of 1892. Workers at the plant went on strike after the company attempted to cut wages, leading to a violent confrontation between strikers and Pinkerton detectives hired by management.\n\n(Photograph, 1892. Public Domain.)\n\nWhat was the PRIMARY cause of the labor conflict shown in this photograph?",
+      "stemEs": "¿Cuál fue la causa PRINCIPAL del conflicto laboral mostrado en esta fotografía?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Workers demanded the right to vote in company elections",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The company attempted to reduce wages and break the steelworkers' union",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The federal government ordered the plant to close for safety violations",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Foreign competition forced the company to relocate its operations",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Homestead Strike of 1892 began when Carnegie Steel, managed by Henry Clay Frick, cut wages and refused to negotiate with the Amalgamated Association of Iron and Steel Workers. Frick hired Pinkerton agents to break the strike, leading to a violent battle that killed workers and agents.",
+      "explanationEs": "La huelga de Homestead de 1892 comenzó cuando Carnegie Steel recortó salarios y se negó a negociar con el sindicato.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1,
+        "b": -1,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-E01",
+      "stem": "During the Gilded Age, factories grew very fast. Big business owners like Andrew Carnegie became very rich. What was Carnegie's industry?",
+      "stemEs": "Durante la Era Dorada, las fábricas crecieron muy rápido. Dueños de grandes negocios como Andrew Carnegie se hicieron muy ricos. ¿Cuál era la industria de Carnegie?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Steel",
+          "textEs": "Acero",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Oil",
+          "textEs": "Petróleo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Banking",
+          "textEs": "Banca",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Railroads",
+          "textEs": "Ferrocarriles",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Simple industrialist-to-industry matching. Entry point item with name-anchored recall structure.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Andrew Carnegie built his fortune in the steel industry using the Bessemer process. Focus: match the person to their industry.",
+      "explanationEs": "Andrew Carnegie construyó su fortuna en la industria del acero usando el proceso Bessemer. Enfoque: asocia a la persona con su industria.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1,
+        "b": -1.7,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-Q02",
+      "stem": "Boss William M. Tweed's political machine in New York City was primarily able to maintain power through:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Providing services to immigrants and the poor in exchange for their political loyalty and votes",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Building coalitions with rural farmers and industrial workers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Winning elections through superior campaign strategies and debates",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Implementing progressive reforms that benefited most social classes",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-Q03",
+      "stem": "Thomas Nast's political cartoons were significant during the Gilded Age because they:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Supported the policies of political machines like Tammany Hall",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They exposed political corruption and influenced public opinion against the political machines",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Promoted the expansion of the spoils system in government hiring",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Encouraged immigrants to participate more actively in politics",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires understanding of cause, effect, or concept — beyond simple recall.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-Q04",
+      "stem": "How did President James Garfield's assassination in 1881 contribute to the passage of the Pendleton Civil Service Act of 1883?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Garfield had personally drafted the Pendleton Act before his death, and Congress passed it as a memorial tribute",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The assassination revealed corruption within the Treasury Department, prompting Congress to overhaul federal contracting practices",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Garfield's assassin was a disappointed office-seeker, and public outrage over the spoils system created political pressure for merit-based hiring reform",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "President Arthur used the assassination as justification to reorganize the entire executive branch under military command",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires explanation of a concept, cause/effect, or historical significance.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Charles Guiteau, who shot Garfield after being denied a consular appointment he believed he was owed for campaign work, became a symbol of the spoils system's dangers. Public anger over the assassination galvanized support for merit-based civil service reform, leading to the Pendleton Act in 1883. Option A is incorrect because Garfield did not write the legislation — Senator George Pendleton sponsored the bill.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X013",
+      "stem": "The assassination of President James Garfield in 1881 by a disappointed office-seeker accelerated:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The impeachment proceedings against Vice President Chester Arthur",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The creation of the Secret Service to protect future presidents",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Public demand for civil service reform that resulted in the Pendleton Act (1883)",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Congressional passage of constitutional amendments limiting presidential patronage",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires understanding of cause, effect, or concept.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires understanding of cause, effect, or concept.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X014",
+      "stem": "The Gilded Age political machines like Tammany Hall in New York provided immigrants with services because:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Providing jobs, housing assistance, and legal help to immigrants built loyalty that machine bosses converted into reliable votes",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Progressive reformers had forced machines to adopt welfare functions",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Machine bosses were genuinely committed to immigrant welfare and civic integration",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Federal law required machine politicians to assist new arrivals",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires understanding of cause, effect, or concept.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires understanding of cause, effect, or concept.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X016",
+      "stem": "What was the primary mechanism by which the Pendleton Civil Service Act of 1883 reformed the federal hiring process?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It required all federal employees to be members of the Republican Party to ensure loyalty to the administration",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It transferred appointment power for all federal officials from the president to Congress, removing executive patronage",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It established competitive examinations for classified federal positions, replacing the spoils system with merit-based hiring",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It abolished all federal government employment and required private contractors to perform government services",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires explanation of historical significance or cause/effect.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Pendleton Act created the Civil Service Commission and required applicants for classified federal jobs to pass competitive written examinations, replacing the spoils system — in which party loyalty determined employment — with a merit-based process. Option A is incorrect because the Act was designed to eliminate partisan criteria in hiring, not enforce them.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X019",
+      "stem": "Mugwumps — Republican reformers who voted for Democrat Grover Cleveland in 1884 — demonstrated that:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A significant faction of educated, professional Republicans prioritized civil service reform and honest government over party loyalty, reflecting the growing power of a reform-minded middle class",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Immigration had fundamentally changed the political composition of Northern cities",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Democratic Party had successfully adopted progressive economic policies",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Republican Party had abandoned its Reconstruction-era commitment to civil rights",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires understanding of cause, effect, or concept.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires understanding of cause, effect, or concept.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X023",
+      "stem": "William Jennings Bryan's 'Cross of Gold' speech advocated for free coinage of silver because:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Britain used the gold standard, and Bryan's nationalism demanded American monetary independence",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Gold was scarce and silver was more widely available, so a silver standard would expand the money supply and help debtors",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Silver mines provided jobs for Western workers who supported the Populist movement",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Free silver would reduce inflation that was hurting farmers' purchasing power",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires understanding of cause, effect, or concept.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires understanding of cause, effect, or concept.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X024",
+      "stem": "The defeat of William Jennings Bryan in 1896 marked the decline of Populism primarily because:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Republican money flooding into McKinley's campaign overwhelmed Democratic outreach",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Improving agricultural prices in the late 1890s reduced farmer discontent",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Bryan's economic message failed to attract urban workers who feared inflation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Multiple converging factors — Republican campaign spending advantages, improving farm prices that reduced rural discontent, and Bryan's failure to attract urban labor concerned about inflation — combined to defeat Populism in 1896",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires understanding of cause, effect, or concept.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires understanding of cause, effect, or concept.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X026",
+      "stem": "The Populist Party's demand for a 'subtreasury plan' was designed to help farmers by:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Requiring railroads to pay farmers fair prices for grain transported to market",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Creating a system of federal price supports that guaranteed farmers a minimum income",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Establishing rural postal banks that would give farmers access to affordable savings and credit",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Allowing farmers to borrow money from the federal government at low interest rates using stored crops as collateral",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires understanding of cause, effect, or concept.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires understanding of cause, effect, or concept.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X028",
+      "stem": "Which of the following correctly identifies a specific grievance that Gilded Age farmers organized around as part of the Populist movement?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Farmers demanded the abolition of all private banking and the nationalization of all commercial real estate in the country",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Farmers protested that the gold standard caused deflation, making it harder to repay debts as crop prices fell",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Farmers objected to protective tariffs because imported agricultural equipment was cheaper than what American factories produced",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Farmers supported the gold standard as a means of stabilizing crop prices and protecting their savings from inflation",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Requires explanation of historical significance or cause/effect.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Falling crop prices during the deflationary post-Civil War era meant that farmers owed more in real terms than they had borrowed, making debt repayment crushing — a problem they blamed on the gold standard. Populists demanded free coinage of silver to inflate the currency and ease the debt burden. Option D reverses the Populist position; farmers opposed the gold standard, they did not support it.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-F102",
+      "stem": "The crop-lien system that accompanied sharecropping was particularly exploitative because:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Merchants who provided credit charged extremely high interest rates and could claim the entire harvest if debts were not repaid, while sharecroppers had no legal recourse since Southern courts consistently ruled in favor of white landowners",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The system was regulated differently in each Southern state, creating confusion that merchants exploited by changing terms after contracts were signed",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Northern banks that financed crop liens extracted wealth from Southern agriculture while providing no agricultural expertise",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It required sharecroppers to grow only cotton regardless of market prices, preventing them from diversifying crops to reduce economic risk",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "DOK 2: explain mechanism of exploitation",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "DOK 2: explain mechanism of exploitation",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-F103",
+      "stem": "The convict leasing system in the post-Reconstruction South is historically significant as an example of:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Federal oversight of Southern prisons to ensure that newly freed Black Americans received fair treatment in the justice system",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "How Southern states used the criminal justice system to criminalize Black behavior through Black Codes and vagrancy laws, then leased convicted Black men to private companies as forced labor",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A legitimate penal reform that used prisoner labor to fund prison operations without taxpayer expense",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "An economic innovation that provided formerly enslaved people with vocational training and eventual employment",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "DOK 2: analyze historical significance of convict leasing",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "DOK 2: analyze historical significance of convict leasing",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-SF105",
+      "stem": "How did the crop-lien system keep many Black Southerners trapped in a cycle of poverty after the Civil War?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It allowed formerly enslaved people to own their land after five years of sharecropping, but few survived the required waiting period",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was a federal program that taxed Black farmers at higher rates than white farmers, preventing capital accumulation",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It forced Black farmers to sell their harvests to the federal government at fixed prices well below market value",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It required sharecroppers to borrow supplies on credit against their future harvest at inflated prices, and merchants kept accounts so that croppers rarely earned enough to clear their debt",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "DOK 2: constructed response",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Under the crop-lien system, sharecroppers borrowed seed, tools, and food from furnishing merchants on credit at high interest rates, pledging their crop as collateral. At harvest, merchants — who kept the accounts — charged inflated prices for goods and undervalued the crop, leaving most sharecroppers perpetually indebted and legally bound to remain on the land. Option A is incorrect because the crop-lien system never offered a path to land ownership.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0077",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the Carnegie Steel Company's Homestead Works during the Homestead Strike of 1892.\n\n(Photograph, 1892. Public Domain.)\n\nHow did events like the Homestead Strike reflect the broader tensions between labor and management during the Gilded Age?",
+      "stemEs": "¿Cómo reflejaron eventos como la huelga de Homestead las tensiones más amplias entre trabajo y gestión?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Workers and management generally cooperated because industrial growth benefited everyone equally",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The government consistently sided with labor unions against business owners",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Strikes were rare events that had no lasting impact on American industry",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Rapid industrialization created vast wealth for owners while workers faced low wages, long hours, and dangerous conditions, fueling labor organizing",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Homestead Strike exemplified Gilded Age labor tensions: enormous corporate profits alongside harsh working conditions. Workers organized unions to demand better treatment, while industrialists used private security, strikebreakers, and government intervention to suppress labor activism.",
+      "explanationEs": "La huelga ejemplificó las tensiones laborales de la Edad Dorada entre enormes ganancias corporativas y condiciones laborales duras.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-Q05",
+      "stem": "Which factor MOST directly explains why economic inequality between industrial capitalists and wage workers grew so dramatically during the Gilded Age?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Industrial capitalists accumulated disproportionate wealth because they controlled the means of production, set wages, and lobbied for government policies — tariffs, anti-strike injunctions, and land grants — that systematically favored capital over labor.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wage workers refused to accept technological innovations in factories, which limited their productivity and prevented them from sharing in industrial profits.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The primary cause of inequality was immigration, which flooded the labor market with desperate workers willing to accept wages that native-born Americans would not.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Economic inequality in the Gilded Age was a temporary phase that corrected itself through market competition, as new industries eventually raised wages across all sectors.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "Requires strategic thinking — constructing an argument or evaluating competing claims.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The structural power imbalance of Gilded Age capitalism — owners controlling capital, setting wages, and shaping government policy through lobbying and political patronage — is the most historically defensible explanation for widening inequality. By 1890, Andrew Carnegie's annual income exceeded $25 million while his steelworkers earned $400–$600 per year. Option B blames workers, contradicting the evidence that workers generally accepted and operated new machinery. Option C identifies immigration as a cause but overstates it; the structural advantages of capital ownership were the primary driver. Option D contradicts the historical record — inequality reached its Gilded Age peak just before Progressive Era intervention, not through self-correction.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.8,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-Q06",
+      "stem": "A historian analyzing Thomas Nast's 'The Tammany Tiger Loose' cartoon would MOST likely conclude that Nast's primary argument was which of the following?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Political machines like Tammany Hall, when unchecked, would devour democratic self-government just as a predator destroys its prey — with corrupt leaders watching passively from positions of safety.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Roman colosseum setting suggests that Nast believed American democracy had already failed and that the United States should return to a classical republican form of government.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Nast was arguing that immigrant voters, symbolized by the tiger, were the primary threat to American democracy and should be denied the right to vote.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Nast used the tiger image to celebrate the raw power and efficiency of political machines in delivering services to poor urban immigrants.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "Requires evaluating author purpose, point of view, or argument across context.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Nast's visual argument — a predatory machine devouring 'The Republic' while Tweed and allies watch safely from above — encodes the reformer's core critique: unchecked political corruption destroys democratic governance and ordinary citizens are its victims while bosses profit. The Roman colosseum historically evokes spectacle, bread-and-circuses, and the debasement of the public. Option B overreads the classical setting into a governmental philosophy Nast never expressed. Option C misidentifies the tiger's referent — 'Tammany' is labeled, making the machine the predator, not immigrants generally. Option D is the inverse of Nast's critical intent.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-Q09",
+      "stem": "Which interpretation MOST accurately captures the historical debate about whether Gilded Age political machines were primarily harmful or beneficial to American urban democracy?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Political machines were unambiguously harmful: they corrupted elections, extracted taxpayer money through graft, and produced no genuine benefits for the urban poor.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Political machines were fundamentally democratic institutions that represented the legitimate interests of working-class immigrants against the power of wealthy reformers who wanted to exclude them from politics.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Political machines were temporary phenomena that quickly gave way to merit-based civil service government once middle-class reformers educated immigrant voters about democratic participation.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Political machines served a dual function — providing essential social services and political incorporation for immigrants and the poor while simultaneously undermining democratic accountability through corruption.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "Requires synthesis — constructing a multi-part historical argument with evaluation.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The scholarly consensus, represented by historians like Robert Merton and Steven Erie, identifies political machines as inherently dual-natured: they functioned as informal welfare systems (providing jobs, coal, food, and legal assistance) and vehicles for immigrant political incorporation, while simultaneously rigging elections, extorting businesses, and draining municipal treasuries. This complexity is the defining interpretive framework for understanding machines. Option A is too one-sided; machines provided real services that middle-class reformers ignored. Option C romanticizes machines and ignores their corruption and exploitation of the very immigrants they claimed to serve. Option D is empirically false; Tammany Hall survived well into the 20th century.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.8,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-Q10",
+      "stem": "Which statement best explains the long-term significance of Gilded Age political reforms like the Pendleton Act?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They largely eliminated corruption from American politics",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They reduced the federal government's role in regulating business",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They established the foundation for modern merit-based civil service",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They strengthened the power of political machines by legitimizing",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "Requires strategic thinking — evaluating evidence, arguments, or competing interpretations.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires strategic thinking — evaluating evidence, arguments, or competing interpretations.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 1,
+        "c": 0.15
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X015",
+      "stem": "The Gilded Age political machine system is best understood as:",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pure corruption with no benefit to urban populations",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A pragmatic response to the failure of formal government to provide social services",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A system that benefited all urban residents equally regardless of political affiliation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A temporary phenomenon quickly eliminated by Progressive Era reforms",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "Requires strategic thinking — evaluating arguments or evidence.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires strategic thinking — evaluating arguments or evidence.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 1,
+        "c": 0.15
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X018",
+      "stem": "Which conclusion about Senator Pendleton's argument for civil service reform is BEST supported by this excerpt?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pendleton's primary concern was reducing government spending by replacing expensive career bureaucrats with cheaper political appointees drawn from party volunteers.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Pendleton argues that the spoils system — placing politically loyal but incompetent appointees in government positions — undermined government efficiency and imposed costs on all citizens who depended on effective governance.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Pendleton implies that civil service reform would primarily benefit wealthy taxpayers while making government less accessible to working-class Americans who relied on political patronage for employment.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Pendleton's argument rests on the assumption that the current government was operating effectively but could be improved by minor adjustments to hiring procedures.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "Requires evaluating author purpose, argument, or point of view.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Pendleton's core argument is that a government staffed by political loyalists who are 'ignorant and incompetent' — hired for electoral service rather than ability — produces expensive and dysfunctional governance that harms all citizens. This is a direct critique of the spoils system's effects on government performance. Option A inverts Pendleton's argument; he wants to replace cheap political hacks with competent professionals, not the reverse. Option C correctly identifies a tension (merit systems could reduce working-class access to government jobs) but projects this critique onto Pendleton's intent — he does not make this argument. Option D contradicts the urgency of his critique, which portrays the current system as actively harmful.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.7,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X027",
+      "stem": "Which of the following best explains why farmers were attracted to the free silver platform in the 1890s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Inflating the currency through silver coinage would raise crop prices and reduce the real burden of farmers' debts",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Silver was found primarily in Western states, and farmers supported the political interests of Western mining communities",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both B and C correctly explain farmers' support for free silver",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The gold standard benefited Eastern bankers at farmers' expense because gold was scarce and controlled by financial elites",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "Requires strategic thinking — evaluating arguments or evidence.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Requires strategic thinking — evaluating arguments or evidence.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 1,
+        "c": 0.15
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X029",
+      "stem": "Which argument MOST accurately characterizes whether the Populist movement was a radical departure from American political tradition or a defense of traditional values against the new industrial order?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Populism was a straightforwardly radical movement that sought to transform the United States into a socialist state by nationalizing all industries, abolishing private property, and establishing a one-party system.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Populism was entirely conservative — it simply tried to restore pre-Civil War agricultural conditions and had no interest in economic or political reform beyond protecting farmers' existing position.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Populism combined genuinely radical structural proposals — federal ownership of railroads, a sub-treasury system, direct election of senators — with an appeal to traditional Jeffersonian values of small-farmer democracy, making it simultaneously radical in method and traditional in aspiration.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Populism was a purely regional Southern movement that had no national agenda and was unconnected to the broader political traditions of Jeffersonian agrarianism or American democratic reform.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "Requires argument construction or evaluation.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Historians including Lawrence Goodwyn and Michael Kazin have characterized Populism as a movement that proposed structurally radical solutions — federal ownership of transportation infrastructure, a government credit system to break banker control, income taxation, direct democracy — while framing these proposals in deeply traditional American language: the language of Jeffersonian producers' democracy, the dignity of labor, and government of and for the people. This dual character — radical means, traditional ends — is the movement's defining historical feature. Option A overstates Populism into socialism; the platform never advocated abolishing private property. Option B understates the reform agenda as purely backward-looking. Option D is factually false — the Populist Party ran national presidential candidates and had significant Western strength.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-X030",
+      "stem": "Which conclusion about William Jennings Bryan's rhetorical strategy in the 'Cross of Gold' speech is BEST supported by this excerpt?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Bryan's use of crucifixion imagery was a deliberate rhetorical strategy to frame the gold standard as an act of religious persecution against the laboring majority, connecting economic grievances to his Protestant audience's moral framework.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Bryan's speech reveals that his primary audience was Catholic immigrants in Northern cities, whose religious imagery he was appropriating to build an urban coalition for free silver.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Bryan's crucifixion metaphor demonstrates that his central argument was theological rather than economic, revealing that the free silver debate was fundamentally about religious differences rather than monetary policy.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Bryan's use of religious imagery was strategically counterproductive because it alienated the secular workers and progressive reformers whose support the Democratic Party needed to win the 1896 election.",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "Requires evaluating author purpose, argument, or point of view.",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bryan's crucifixion imagery is a calculated rhetorical move: by framing the gold standard as an instrument of torture and death inflicted on 'labor' and 'mankind,' he elevates a monetary policy debate into a moral and almost sacred cause, activating the evangelical Protestant sensibilities of his core constituency — agrarian, small-town, Southern and Western Democrats for whom biblical imagery carried intense emotional power. The speech succeeded because it translated complex monetary economics into a simple moral binary. Option B misidentifies his audience; Bryan's Protestant imagery was less appealing to Catholic urban immigrants and he lost Northern cities in 1896. Option C mischaracterizes the speech as theological rather than economically motivated, ignoring the clear monetary policy argument beneath the imagery. Option D is contradicted by the speech's effectiveness in energizing Bryan's base, even if he ultimately lost.",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "US.04-F104",
+      "stem": "Compare the economic conditions of Black Southerners immediately after emancipation with their conditions by 1900. Which assessment BEST captures this comparison?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Conditions remained essentially unchanged from slavery through 1900 since emancipation had produced no meaningful legal or economic changes",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Conditions were worst immediately after emancipation and improved dramatically by 1900 as a result of Reconstruction-era constitutional amendments taking full effect",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The brief promise of Reconstruction",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Conditions improved steadily from 1865 to 1900 as the market economy gradually gave Black workers more options and economic power than they had under slavery",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": "DOK 3: comparative historical assessment",
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "DOK 3: comparative historical assessment",
+      "explanationEs": "",
+      "translationStatus": "pending",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 1,
+        "c": 0.15
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0078",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the Homestead Works during the 1892 strike.\n\n(Photograph, 1892. Public Domain.)\n\nTo what extent did major labor conflicts of the Gilded Age shape the development of workers' rights in the United States?",
+      "stemEs": "¿En qué medida los conflictos laborales de la Edad Dorada moldearon el desarrollo de los derechos de los trabajadores?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Although workers suffered defeats in the short term, these conflicts built public awareness that eventually led to Progressive Era labor reforms",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Labor conflicts had no lasting impact because unions were permanently destroyed in the 1890s",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Workers immediately won all their demands through strikes, making further reform unnecessary",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The conflicts were limited to the steel industry and did not affect workers in other sectors",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.08"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "While the Homestead Strike and similar conflicts (Pullman Strike, Haymarket) were immediate defeats for labor, they exposed the imbalance of power between workers and corporations, building public sympathy that fueled Progressive Era reforms including workplace safety laws, child labor restrictions, and eventually the right to organize under the New Deal.",
+      "explanationEs": "Aunque fueron derrotas inmediatas, estos conflictos construyeron conciencia pública que impulsó reformas laborales de la Era Progresista.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 0.9,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-1/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.04"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.04->US.08: standard ADDED ['President Garfield’s Assassination'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "President Garfield’s Assassination"
+          ]
+        }
+      }
+    }
+  ]
+}

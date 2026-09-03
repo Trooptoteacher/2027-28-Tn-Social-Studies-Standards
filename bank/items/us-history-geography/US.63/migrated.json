@@ -1,0 +1,3061 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.63",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us63-dok1-1",
+      "stem": "What was McCarthyism?",
+      "stemEs": "¿Qué fue el macartismo?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Committee to investigate suspected communists and disloyal activities",
+          "textEs": "Apoyar sindicatos y derechos de negociación colectiva de trabajadores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He publicly challenged Truman and wanted to expand the war into China directly",
+          "textEs": "Investigar espías extranjeros mediante procedimientos judiciales legales establecidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A successful amphibious assault led by MacArthur that turned the tide of battle",
+          "textEs": "Promover relaciones diplomáticas con líderes de la Unión Soviética en el exterior",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Accusing people of being communist without proper evidence or due process",
+          "textEs": "Acusar a personas de ser comunistas sin evidencia apropiada o debido proceso",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "McCarthyism was the practice of accusing people of communist ties without solid evidence, often ruining reputations and careers. Choice A is wrong because it describes committee to investigate suspected communists and disloyal activities, not accusing people of being communist without proper evidence or due process. Korea made containment a military commitment and showed how limited wars could become long, costly stalemates.",
+      "explanationEs": "El macartismo se refiere a hacer acusaciones de subversión o traición sin evidencia apropiada, nombrado por el Senador Joseph McCarthy quien lideró investigaciones agresivas de supuestos comunistas en los años 1950.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.51,
+        "b": -0.91,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "retired",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "retired",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us63-dok1-2",
+      "stem": "Who were Julius and Ethel Rosenberg?",
+      "stemEs": "¿Quiénes fueron Julius y Ethel Rosenberg?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hollywood actors blacklisted for their suspected political beliefs",
+          "textEs": "Actores de Hollywood puestos en lista negra por sus creencias políticas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Scientists who invented the hydrogen bomb for the American military",
+          "textEs": "Científicos que inventaron la bomba de hidrógeno para el militar estadounidense",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Americans executed for passing atomic secrets to the Soviet Union",
+          "textEs": "Estadounidenses ejecutados por pasar secretos atómicos a Unión Soviética",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Leaders of the anti-communist movement in the United States Senate",
+          "textEs": "Líderes del movimiento anticomunista en el Senado de Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Julius and Ethel Rosenberg were americans executed for passing atomic secrets to the Soviet Union. Choice A is wrong because it misidentifies who these people were and what role they played. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "Julius y Ethel Rosenberg fueron ciudadanos estadounidenses condenados por pasar secretos atómicos a la Unión Soviética y ejecutados en 1953, intensificando temores sobre infiltración comunista durante el Susto Rojo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.03,
+        "b": -1.73,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us63-dok1-3",
+      "stem": "What year did Senator McCarthy make his famous Wheeling speech claiming communists in the State Department?",
+      "stemEs": "¿En qué año hizo el Senador McCarthy su famoso discurso de Wheeling afirmando que había comunistas en el Departamento de Estado?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1960",
+          "textEs": "1960",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "1945",
+          "textEs": "1945",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "1955",
+          "textEs": "1955",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "1950",
+          "textEs": "1950",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Senator McCarthy delivered his famous Wheeling speech on February 9, 1950, at the Women's Republican Club of Wheeling, West Virginia, where he claimed to hold a list of communists in the State Department. Choice A is wrong because 1960 is too late — McCarthy had already been censured by the Senate in 1954 and died in 1957. Choices B and C are wrong because 1945 and 1955 fall outside the speech's documented date. The Wheeling speech ignited the Second Red Scare and made McCarthy the era's most prominent anti-communist crusader.",
+      "explanationEs": "El senador Joseph McCarthy entregó su famoso discurso de Wheeling el 9 de febrero de 1950 en el Club Republicano de Mujeres de Wheeling, Virginia Occidental, donde afirmó tener una lista de comunistas en el Departamento de Estado. La opción A es incorrecta porque 1960 es demasiado tarde — McCarthy ya había sido censurado por el Senado en 1954 y murió en 1957. Las opciones B y C son incorrectas porque 1945 y 1955 quedan fuera de la fecha documentada del discurso. El discurso de Wheeling encendió el Segundo Susto Rojo y convirtió a McCarthy en el cruzado anticomunista más prominente de la época.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.69,
+        "b": -0.95,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-61-x014",
+      "stem": "Title IX of the Education Amendments of 1972 prohibited —",
+      "stemEs": "El Título IX de las Enmiendas a la Ley de Educación de 1972 prohibió —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Sex discrimination in any educational program receiving federal financial assistance",
+          "textEs": "Sex discriminación in any educational program receiving federal financial assistance",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Age discrimination in college admissions at federally funded institutions",
+          "textEs": "Age discriminación in college admissions at federally funded institutions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Racial segregation in any school receiving federal funding",
+          "textEs": "Racial segregación in any school receiving federal funding",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Religious instruction in public schools funded by the federal government",
+          "textEs": "La instrucción religiosa en las escuelas públicas financiadas por el gobierno federal",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Sex discrimination in any educational program receiving federal financial assistance. Choice C is wrong because it describes racial segregation in any school receiving federal funding, not sex discrimination in any educational program receiving federal financial assistance. The 1970s brought new arguments about rights, energy, gender, and diplomacy that reshaped politics after the early Cold War.",
+      "explanationEs": "Sex discriminación in any educational program receiving federal financial assistance. Choice C is wrong because it describes racial segregación in any school receiving federal funding, not sex discriminación in any educational program receiving federal financial assistance. The 1970s brought new arguments about rights, energy, gender, and diplomacia that reshaped politics after the early Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.74,
+        "b": -1.52,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us63-dok2-1",
+      "stem": "What was HUAC and what was its purpose?",
+      "stemEs": "¿Qué fue HUAC y cuál fue su propósito?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Accusing people of being communist without proper evidence or due process",
+          "textEs": "Agencia para construir refugios nucleares y estructuras de defensa civil",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "China and the Soviet Union provided military and material support",
+          "textEs": "Organización para promover cultura estadounidense y tradiciones democráticas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Committee to investigate suspected communists and disloyal activities",
+          "textEs": "Comité para investigar supuestos comunistas y actividades desleales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He publicly challenged Truman and wanted to expand the war into China directly",
+          "textEs": "Departamento para gestionar procesos de inmigración y naturalización",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "HUAC and what was its purpose was Committee to investigate suspected communists and disloyal activities. Choice A is wrong because it describes accusing people of being communist without proper evidence or due process, not committee to investigate suspected communists and disloyal activities. The Red Scare showed how fear of communism could threaten civil liberties and damage democratic debate at home.",
+      "explanationEs": "HUAC (Comité de Actividades Antiamericanas) fue establecido para investigar supuesta deslealtad y actividades subversivas, volviéndose especialmente agresivo en investigar supuestos comunistas en los años 1940-1950.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -0.05,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U7-DOK1-0003",
+      "stem": "Senator Joseph McCarthy is best known for leading which broader phenomenon of the early Cold War?",
+      "stemEs": "¿El senador Joseph McCarthy es mejor conocido por liderar cuál fenómeno más amplio de los primeros años de la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Public investigations and accusations of communist infiltration in U.S. government and society",
+          "textEs": "Investigaciones públicas y acusaciones de infiltración comunista en el gobierno y la sociedad de EE. UU.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congressional opposition to U.S. involvement in NATO",
+          "textEs": "Oposición del Congreso a la participación de EE. UU. en la OTAN",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Investigations into corporate antitrust violations",
+          "textEs": "Investigaciones sobre violaciones antimonopolio corporativas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Hearings on civil rights legislation",
+          "textEs": "Audiencias sobre legislación de derechos civiles",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Senator Joseph McCarthy is best known for leading public investigations and accusations of communist infiltration in U.S. government and society. From his February 9, 1950, Wheeling speech through the 1954 Army-McCarthy hearings, he charged hundreds of officials, intellectuals, and entertainers with disloyalty using little or no evidence. Choice B is wrong because McCarthy supported, not opposed, U.S. NATO commitments. Choice D is wrong because civil-rights legislation came primarily through the Eisenhower, Kennedy, and Johnson administrations, not McCarthy's subcommittee. McCarthy's tactics defined the broader Second Red Scare phenomenon now called McCarthyism.",
+      "explanationEs": "El senador Joseph McCarthy es más conocido por liderar investigaciones públicas y acusaciones de infiltración comunista en el gobierno y la sociedad de EE. UU. Desde su discurso del 9 de febrero de 1950 en Wheeling hasta las audiencias Ejército-McCarthy de 1954, acusó a cientos de funcionarios, intelectuales y artistas de deslealtad con poca o ninguna evidencia. La opción B es incorrecta porque McCarthy apoyó, no se opuso, a los compromisos de EE. UU. con la OTAN. La opción D es incorrecta porque la legislación de derechos civiles llegó principalmente a través de los gobiernos de Eisenhower, Kennedy y Johnson, no del subcomité de McCarthy. Las tácticas de McCarthy definieron el fenómeno más amplio del Segundo Susto Rojo, hoy llamado macartismo.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 0.8,
+        "b": -1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-q01",
+      "stem": "Senator Joseph McCarthy rose to national prominence in 1950 by claiming that communist spies had infiltrated the U.S. government. The practice of making accusations of communist sympathy without proof became known as —",
+      "stemEs": "Senator Joseph McCarthy rose to national prominence in 1950 by claiming that communist spies had infiltrated the U.S. government. The practice of making accusations of communist sympathy without proof became known as —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "McCarthyism",
+          "textEs": "McCarthyism",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Red Scare",
+          "textEs": "The Temor Rojo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "HUAC investigations",
+          "textEs": "HUAC investigations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Hollywood Blacklist",
+          "textEs": "The Hollywood Blacklist",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "McCarthyism. The alliance tied the United States permanently to Western Europe's defense during the Cold War. B is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "McCarthyism. The alianza tied the United States permanently to Western Europe's defense during the Guerra Fría. B is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.14,
+        "b": -1.24,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-q04",
+      "stem": "The House Un-American Activities Committee (HUAC) is best known for —",
+      "stemEs": "The House Un-American Activities Committee (HUAC) is best known for —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Investigating suspected communist influence in Hollywood, labor unions, and government",
+          "textEs": "Investigating suspected communist influence in Hollywood, sindicatos, and government",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Conducting the espionage investigations that led to the arrest of Julius and Ethel Rosenberg",
+          "textEs": "Conducting the espionage investigations that condujo a the arrest of Julius and Ethel Rosenberg",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Drafting the legislation that became the McCarran Internal Security Act",
+          "textEs": "Drafting the legislación that became the McCarran Internal Security Act",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Investigating actual Soviet spy networks that had infiltrated the U.S. government",
+          "textEs": "Investigating actual Soviet spy networks that had infiltrated the U.S. government",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Investigating suspected communist influence in Hollywood, labor unions, and government. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Investigating suspected communist influence in Hollywood, sindicatos, and government. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.59,
+        "b": -1.33,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-q05",
+      "stem": "The term 'McCarthyism' entered the American political lexicon as a label for —",
+      "stemEs": "The term 'McCarthyism' entered the American political lexicon as a label for —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The practice of making reckless accusations of disloyalty or communist sympathies without adequate evidence",
+          "textEs": "The practice of making reckless accusations of disloyalty or communist sympathies without adequate evidence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Legitimate investigations of actual Soviet spy networks, which historians consider a secondary factor in this development",
+          "textEs": "Legitimate investigations of actual Soviet spy networks, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Bipartisan cooperation to combat Soviet espionage, which historians consider a secondary factor in this development",
+          "textEs": "Bipartisan cooperation to combat Soviet espionage, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Senate's use of investigations to expose corporate corruption, which historians consider a secondary factor in this development",
+          "textEs": "The Senado's use of investigations to expose corporate corruption, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The practice of making reckless accusations of disloyalty or communist sympathies without adequate evidence. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "The practice of making reckless accusations of disloyalty or communist sympathies without adequate evidence. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.62,
+        "b": -0.97,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-x012",
+      "stem": "Senator Joseph McCarthy's anti-communist campaign began with his 1950 speech in Wheeling, West Virginia, where he claimed —",
+      "stemEs": "Senator Joseph McCarthy's anti-communist campaign began with his 1950 speech in Wheeling, West Virginia, where he claimed —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He held a list of known communists in the State Department",
+          "textEs": "He held a list of known communists in the State Department",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He had evidence that the Soviet Union had infiltrated the American military command structure",
+          "textEs": "He had evidence that the Soviet Union had infiltrated the American military command structure",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "President Truman was a secret communist sympathizer",
+          "textEs": "President Truman was a secret communist sympathizer",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Manhattan Project scientists had deliberately given atomic secrets to the Soviets",
+          "textEs": "The Manhattan Project scientists had deliberately given atomic secrets to the Soviets",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "He held a list of known communists in the State Department. The alliance tied the United States permanently to Western Europe's defense during the Cold War. C is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "He held a list of known communists in the State Department. The alianza tied the United States permanently to Western Europe's defense during the Guerra Fría. C is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.73,
+        "b": -1.08,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-x018",
+      "stem": "The term 'blacklist' in Cold War America referred to —",
+      "stemEs": "The term 'blacklist' in Guerra Fría America referred to —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A criminal registry required under the Smith Act for all Communist Party members",
+          "textEs": "A criminal registry required under the Smith Act for all Communist Party members",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A list of entertainers, writers, and professionals barred from employment due to suspected communist ties",
+          "textEs": "A list of entertainers, writers, and professionals barred from employment due to suspected communist ties",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A State Department list of foreign nationals refused visas on national security grounds",
+          "textEs": "A State Department list of foreign nationals refused visas on national security grounds",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A classified government roster of confirmed Soviet intelligence agents operating in the United States",
+          "textEs": "A classified government roster of confirmed Soviet intelligence agents operating in the United States",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A list of entertainers, writers, and other professionals who could not find employment because they were accused of communist sympathies — often without evidence and with no legal process. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "A list of entertainers, writers, and other professionals who could not find employment because they were accused of communist sympathies — often without evidence and with no legal process. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.97,
+        "b": -1.71,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-55-x020",
+      "stem": "McCarthyism referred to the practice of —",
+      "stemEs": "McCarthyism referred to the practice of —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The State Department's loyalty review program for federal employees",
+          "textEs": "The State Department's loyalty review program for federal employees",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "FBI surveillance of civil rights leaders suspected of communist ties",
+          "textEs": "FBI surveillance of derechos civiles leaders suspected of communist ties",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congressional investigations of organized crime in American cities",
+          "textEs": "Congresoional investigations of organized crime in American cities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Making unfounded accusations of communist sympathies without adequate evidence",
+          "textEs": "Making unfounded accusations of communist sympathies without adequate evidence",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Making unfounded accusations of communist sympathies without adequate evidence. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Making unfounded accusations of communist sympathies without adequate evidence. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.92,
+        "b": -1.62,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-55-x022",
+      "stem": "Senator Joseph McCarthy's fall came after —",
+      "stemEs": "Senator Joseph McCarthy's fall came after —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Supreme Court ruled his investigative methods violated the First and Fifth Amendments",
+          "textEs": "The Corte Suprema ruled his investigative methods violated the First and Fifth enmiendas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Contributions of women and minorities to the wartime labor force",
+          "textEs": "Contributions of women and minorities to the wartime labor force",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Army-McCarthy hearings in 1954 that were televised nationally and allowed Americans to see his bullying tactics",
+          "textEs": "Army-McCarthy hearings in 1954 that were televised nationally and allowed Americans to see his bullying tactics",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Senate censured him for conduct unbecoming a senator in December 1954",
+          "textEs": "The Senado censured him for conduct unbecoming a senator in December 1954",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both B and C — the hearings damaged his image and the Senate censure formally ended his influence. The alliance tied the United States permanently to Western Europe's defense during the Cold War. D is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Both B and C — the hearings damaged his image and the Senado censure formally ended his influence. The alianza tied the United States permanently to Western Europe's defense during the Guerra Fría. D is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.16,
+        "b": -0.96,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-47-x021",
+      "stem": "In American political history, McCarthyism refers to —",
+      "stemEs": "In American political history, McCarthyism refers to —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The federal loyalty program that required all government employees to swear anti-communist oaths",
+          "textEs": "The federal loyalty program that required all government employees to swear anti-communist oaths",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The FBI's COINTELPRO program targeting radical organizations in the 1950s",
+          "textEs": "The FBI's COINTELPRO program targeting radical organizations in the 1950s",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The House Un-American Activities Committee's investigations of Hollywood for communist influence",
+          "textEs": "The House Un-American Activities Committee's investigations of Hollywood for communist influence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Senator Joseph McCarthy's campaign of making unsubstantiated accusations of communist infiltration in government",
+          "textEs": "Senator Joseph McCarthy's campaign of making unsubstantiated accusations of communist infiltration in government",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Senator Joseph McCarthy's campaign of making unsubstantiated accusations of communist infiltration in government. The alliance tied the United States permanently to Western Europe's defense during the Cold War. C is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Senator Joseph McCarthy's campaign of making unsubstantiated accusations of communist infiltration in government. The alianza tied the United States permanently to Western Europe's defense during the Guerra Fría. C is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.44,
+        "b": -1.64,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-x017",
+      "stem": "The Army-McCarthy hearings (1954) ended McCarthy's power primarily because —",
+      "stemEs": "The Army-McCarthy hearings (1954) ended McCarthy's power primarily because —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "President Eisenhower publicly called for McCarthy's resignation",
+          "textEs": "President Eisenhower publicly called for McCarthy's resignation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress voted to censure him based on evidence of communist infiltration of the Army",
+          "textEs": "Congreso voted to censure him based on evidence of communist infiltration of the Army",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "McCarthy admitted to fabricating his list of communist infiltrators",
+          "textEs": "McCarthy admitted to fabricating his list of communist infiltrators",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The televised hearings allowed the public to see McCarthy's tactics directly",
+          "textEs": "The televised hearings allowed the public to see McCarthy's tactics directly",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The televised hearings allowed the public to see McCarthy's tactics directly. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "The televised hearings allowed the public to see McCarthy's tactics directly. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.04,
+        "b": -0.22,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-55-x021",
+      "stem": "The House Un-American Activities Committee (HUAC) damaged American civil liberties by —",
+      "stemEs": "The House Un-American Activities Committee (HUAC) damaged American libertades civiles by —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Jailing witnesses who claimed their First Amendment rights and refused to answer committee questions about communist associations",
+          "textEs": "Jailing witnesses who claimed their First enmienda rights and refused to answer committee questions about communist associations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Jailing witnesses, blacklisting accused individuals, and compelling informants — damaging careers and chilling free expression through coordinated intimidation",
+          "textEs": "Jailing witnesses, blacklisting accused individuals, and compelling informants — damaging careers and chilling free expression through coordinated intimidation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Creating industry blacklists that permanently destroyed the careers of anyone accused of communist sympathies or associations",
+          "textEs": "Creating industry blacklists that permanently destroyed the careers of anyone accused of communist sympathies or associations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Compelling witnesses to name colleagues and associates, systematically turning American professionals into informants against one another",
+          "textEs": "Compelling witnesses to name colleagues and associates, systematically turning American professionals into informants against one another",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The House Un-American Activities Committee (HUAC) damaged American civil liberties by: HUAC violated civil liberties through multiple coordinated mechanisms including jailing recalcitrant witnesses, blacklisting accused individuals, and compelling testimony against associates and colleagues. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "The House Un-American Activities Committee (HUAC) damaged American libertades civiles by: HUAC violated libertades civiles through multiple coordinated mechanisms including jailing recalcitrant witnesses, blacklisting accused individuals, and compelling testimony against associates and colleagues. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.16,
+        "b": -0.23,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-47-x022",
+      "stem": "Senator Joseph McCarthy's downfall came when —",
+      "stemEs": "Senator Joseph McCarthy's downfall came when —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "His televised Army-McCarthy hearings exposed his reckless accusations before a national audience",
+          "textEs": "His televised Army-McCarthy hearings exposed his reckless accusations before a national audience",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Eisenhower privately pressured Republican leaders to distance themselves from McCarthy",
+          "textEs": "Eisenhower privately pressured repúblicaan leaders to distance themselves from McCarthy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Contributions of women and minorities to the wartime labor force",
+          "textEs": "Contributions of women and minorities to the wartime labor force",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Senate censured him for conduct unbecoming a senator after he produced no evidence for his accusations",
+          "textEs": "The Senado censured him for conduct unbecoming a senator after he produced no evidence for his accusations",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both B and C contributed to McCarthy's loss of influence. The alliance tied the United States permanently to Western Europe's defense during the Cold War. D is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Both B and C contribuyó a McCarthy's loss of influence. The alianza tied the United States permanently to Western Europe's defense during the Guerra Fría. D is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -0.66,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-x014",
+      "stem": "The Hollywood Ten were actors and writers who —",
+      "stemEs": "The Hollywood Ten were actors and writers who —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cooperated with HUAC by naming suspected communists in exchange for immunity",
+          "textEs": "Cooperated with HUAC by naming suspected communists in exchange for immunity",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Refused to answer HUAC's questions about Communist Party membership, citing First Amendment rights",
+          "textEs": "Refused to answer HUAC's questions about Communist Party membership, citing First enmienda rights",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Organized a boycott of HUAC hearings that drew national attention",
+          "textEs": "Organized a boycott of HUAC hearings that drew national attention",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Were proven Soviet agents who had infiltrated Hollywood studios",
+          "textEs": "Were proven Soviet agents who had infiltrated Hollywood studios",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Refused to answer HUAC's questions about Communist Party membership, citing First Amendment rights. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Refused to answer HUAC's questions about Communist Party membership, citing First enmienda rights. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.02,
+        "b": -1.75,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-47-x026",
+      "stem": "The Rosenbergs — Julius and Ethel — were executed in 1953 for —",
+      "stemEs": "The Rosenbergs — Julius and Ethel — were executed in 1953 for —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Organizing a communist cell in the U.S. Army that passed operational plans to the Soviet Union",
+          "textEs": "Organizing a communist cell in the U.S. Army that passed operational plans to the Soviet Union",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Recruiting American scientists to defect to the Soviet Union with sensitive research",
+          "textEs": "Recruiting American scientists to defect to the Soviet Union with sensitive research",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Passing classified information about nuclear weapons to Soviet agents",
+          "textEs": "Passing classified information about nuclear weapons to Soviet agents",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Coordinating a network of Communist Party operatives who infiltrated the State Department",
+          "textEs": "Coordinating a network of Communist Party operatives who infiltrated the State Department",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Passing classified information about nuclear weapons to Soviet agents. B is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how World War II and the early Cold War reshaped U.S. power at home and abroad.",
+      "explanationEs": "Passing classified information about nuclear weapons to Soviet agents. B is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how Segunda Guerra Mundial and the early Guerra Fría reshaped U.S. power at home and abroad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.02,
+        "b": -0.55,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x035",
+      "stem": "Senator McCarthy's downfall in 1954 resulted primarily from —",
+      "stemEs": "Senator McCarthy's downfall in 1954 resulted primarily from:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Supreme Court ruling his committee's procedures unconstitutional",
+          "textEs": "The Corte Suprema ruling his committee's procedures unconstitucional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "President Eisenhower personally denouncing McCarthy in a nationally televised address",
+          "textEs": "President Eisenhower personally denouncing McCarthy in a nationally televised address",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Voters in Wisconsin defeating him in a landslide reelection campaign",
+          "textEs": "Voters in Wisconsin defeating him in a landslide reelection campaign",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Televised Army-McCarthy hearings that exposed his reckless tactics to a national audience",
+          "textEs": "Televised Army-McCarthy hearings that exposed his reckless tactics to a national audience",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "McCarthy fell after the televised Army-McCarthy hearings let Americans watch his bullying and reckless methods for themselves. B is wrong because Eisenhower never made one dramatic televised takedown of McCarthy. Television helped turn public opinion against him and end his influence.",
+      "explanationEs": "McCarthy fell after the televised Army-McCarthy hearings let Americans watch his bullying and reckless methods for themselves. B is wrong because Eisenhower never made one dramatic televised takedown of McCarthy. Television helped turn public opinion against him and end his influence.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -0.46,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us63-dok2-3",
+      "stem": "What was the significance of the Army-McCarthy hearings?",
+      "stemEs": "¿Cuál fue la significancia de las audiencias Army-McCarthy?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Increased McCarthy's political power and strengthened his anticommunist crusade",
+          "textEs": "Aumentó poder político de McCarthy y fortaleció su cruzada anticomunista",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Televised hearings exposed McCarthy's tactics, leading to his censure and decline",
+          "textEs": "Audiencias televisadas expusieron tácticas de McCarthy, llevando a su censura y declive",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Proved all of his accusations about communist infiltration were completely correct",
+          "textEs": "Probó que todas sus acusaciones sobre infiltración comunista eran completamente correctas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Had no significant impact on public opinion about McCarthy or his methods",
+          "textEs": "No tuvo impacto significativo en opinión pública sobre McCarthy o sus métodos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "the Army-McCarthy hearings was significant because televised hearings exposed McCarthy's tactics, leading to his censure and decline. Choice D is wrong because it misses the main importance of the event and does not explain why it mattered in history. The Red Scare showed how fear of communism could threaten civil liberties and damage democratic debate at home.",
+      "explanationEs": "Las audiencias Army-McCarthy de 1954, transmitidas por televisión, expusieron tácticas de intimidación y acusaciones sin fundamento de McCarthy a millones, llevando a su censura por el Senado y el declive del macartismo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.23,
+        "b": 0.21,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us63-dok2-3-b",
+      "stem": "How did McCarthyism affect the entertainment industry?",
+      "stemEs": "¿Cómo afectó el macartismo a la industria del entretenimiento?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Hollywood studios hired more actors and writers than ever before",
+          "textEs": "Los estudios de Hollywood contrataron más actores y escritores que nunca",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Artists suspected of communist ties were blacklisted and unable to work",
+          "textEs": "Los artistas sospechosos de vínculos comunistas fueron puestos en lista negra e incapaces de trabajar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The government funded new film studios to promote American culture",
+          "textEs": "El gobierno financió nuevos estudios de cine para promover la cultura estadounidense",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television networks refused to air any political content during this era",
+          "textEs": "Las cadenas de televisión se negaron a emitir cualquier contenido político durante esta era",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "McCarthyism affect the entertainment industry because artists suspected of communist ties were blacklisted and unable to work. Choice A is wrong because it describes hollywood studios hired more actors and writers than ever before, not artists suspected of communist ties were blacklisted and unable to work. The Red Scare showed how fear of communism could threaten civil liberties and damage democratic debate at home.",
+      "explanationEs": "La lista negra de Hollywood impidió que escritores, actores y directores sospechosos de simpatías comunistas trabajaran. Los \"Diez de Hollywood\" fueron encarcelados por negarse a testificar ante HUAC.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.79,
+        "b": -0.31,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U7-DOK2-0007",
+      "stem": "How did Senator Joseph McCarthy's tactics during the Second Red Scare affect civil liberties in the United States?",
+      "stemEs": "¿Cómo afectaron las tácticas del senador Joseph McCarthy durante el Segundo Miedo Rojo a las libertades civiles en Estados Unidos?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "McCarthy's investigations were limited to military personnel and had little effect on the broader American public",
+          "textEs": "Las investigaciones de McCarthy se limitaron al personal militar y tuvieron poco efecto en el público estadounidense en general",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "McCarthy worked through the courts to overturn First Amendment protections for suspected communists",
+          "textEs": "McCarthy actuó a través de los tribunales para derogar las protecciones de la Primera Enmienda para presuntos comunistas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "McCarthy used congressional hearings and public accusations to create an atmosphere of fear that led to blacklisting and silenced political dissent",
+          "textEs": "McCarthy utilizó audiencias del Congreso y acusaciones públicas para crear una atmósfera de miedo que condujo a listas negras y silenció la disidencia política",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "McCarthy coordinated with the Supreme Court to permanently ban the Communist Party from participating in elections",
+          "textEs": "McCarthy coordinó con la Corte Suprema para prohibir permanentemente al Partido Comunista participar en elecciones",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "McCarthy's Senate hearings weaponized accusation without due process, producing widespread blacklisting in government and entertainment and chilling free speech across American society.",
+      "explanationEs": "Las audiencias en el Senado de McCarthy convirtieron las acusaciones sin debido proceso en un arma, produciendo listas negras generalizadas en el gobierno y el entretenimiento, e inhibiendo la libertad de expresión en toda la sociedad estadounidense.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x034",
+      "stem": "McCarthyism's impact on American political culture in the early 1950s demonstrated —",
+      "stemEs": "McCarthyism's impact on American political culture in the early 1950s demonstrated:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "That the Democratic Party leadership was fundamentally sympathetic to Soviet-style communism and subversive ideology",
+          "textEs": "That the democrático Party leadership was fundamentally sympathetic to Soviet-style comunismo and subversive ideology",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "That congressional investigations remain the most effective constitutional tool for detecting foreign espionage",
+          "textEs": "That Congresoional investigations remain the most effective constitucional tool for detecting foreign espionage",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "That communist infiltration of the State Department and military was actually as widespread as McCarthy claimed",
+          "textEs": "That communist infiltration of the State Department and military was actually as widespread as McCarthy claimed",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "How fear and political opportunism could be used to suppress dissent and damage careers with unsubstantiated accusations",
+          "textEs": "How fear and political opportunism could be used to suppress dissent and damage careers with unsubstantiated accusations",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "McCarthyism showed how fear of communism could be used to silence dissent and destroy careers through accusations that were often unsupported. C is wrong because communists were not actually widespread throughout the government as McCarthy claimed. The era left a lasting warning about panic and political opportunism.",
+      "explanationEs": "McCarthyism showed how fear of comunismo could be used to silence dissent and destroy careers through accusations that were often unsupported. C is wrong because communists were not actually widespread throughout the government as McCarthy claimed. The era left a lasting warning about panic and political opportunism.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.23,
+        "b": -0.46,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-q02",
+      "stem": "The House Un-American Activities Committee (HUAC) investigated suspected communist influence in American institutions, including Hollywood. Which of the following best explains why the 'Hollywood Ten' — writers and directors who refused to testify — were held in contempt of Congress?",
+      "stemEs": "The House Un-American Activities Committee (HUAC) investigated suspected communist influence in American institutions, including Hollywood. ¿Cuál de las siguientes opciones best explains why the 'Hollywood Ten' — writers and directors who refused to testify — were held in contempt of Congreso?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They were proven to be dues-paying members of the Communist Party of the United States",
+          "textEs": "They were proven to be dues-paying members of the Communist Party of the United States",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They had secretly passed classified film scripts and production documents to Soviet intelligence agents during the war",
+          "textEs": "They had secretly passed classified film scripts and production documents to Soviet intelligence agents during the war",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They had signed industry loyalty oaths that they later violated by attending Communist Party cell meetings",
+          "textEs": "They had signed industry loyalty oaths that they later violated by attending Communist Party cell meetings",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They invoked First Amendment rights to refuse to answer questions, but courts ruled that witnesses must still testify before Congress",
+          "textEs": "They invoked First enmienda rights to refuse to answer questions, but courts ruled that witnesses must still testify before Congreso",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "They invoked their First Amendment rights to refuse to answer questions, but courts ruled they still had to testify before Congress. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "They invoked their First enmienda rights to refuse to answer questions, but courts ruled they still had to testify before Congreso. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.37,
+        "b": -0.15,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-q06",
+      "stem": "Senator Joseph McCarthy's political downfall came primarily through —",
+      "stemEs": "Senator Joseph McCarthy's political downfall came primarily through —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congress voting to expel him from the Senate",
+          "textEs": "Congreso voting to expel him from the Senado",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A federal court ruling that McCarthy's methods violated the First Amendment",
+          "textEs": "A federal court ruling that McCarthy's methods violated the First enmienda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "President Eisenhower publicly denouncing McCarthy's false accusations in a major nationally televised address that turned public opinion against him",
+          "textEs": "President Eisenhower publicly denouncing McCarthy's false accusations in a major nationally televised address that turned public opinion against him",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The televised Army-McCarthy hearings , during which attorney Joseph Welch's famous question",
+          "textEs": "The televised Army-McCarthy hearings , during which attorney Joseph Welch's famous question",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The televised Army-McCarthy hearings (1954), during which attorney Joseph Welch's famous question. The alliance tied the United States permanently to Western Europe's defense during the Cold War. C is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "The televised Army-McCarthy hearings (1954), during which attorney Joseph Welch's famous question. The alianza tied the United States permanently to Western Europe's defense during the Guerra Fría. C is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.57,
+        "b": 0.08,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-x013",
+      "stem": "The House Un-American Activities Committee (HUAC) Hollywood hearings targeted the entertainment industry because —",
+      "stemEs": "The House Un-American Activities Committee (HUAC) Hollywood hearings targeted the entertainment industry because —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Soviet intelligence had confirmed that Hollywood was a primary recruitment target",
+          "textEs": "Soviet intelligence had confirmed that Hollywood was a primary recruitment target",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Several studio executives had admitted to being Communist Party members",
+          "textEs": "Several studio executives had admitted to being Communist Party members",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Hollywood's mass cultural influence made it a potent target",
+          "textEs": "Hollywood's mass cultural influence made it a potent target",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "There was strong evidence that Hollywood studios were producing Soviet propaganda",
+          "textEs": "There was strong evidence that Hollywood studios were producing Soviet propaganda",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Hollywood's mass cultural influence made it a potent target. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Hollywood's mass cultural influence made it a potent target. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.5,
+        "b": -0.15,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-x015",
+      "stem": "McCarthyism's political power depended primarily on —",
+      "stemEs": "McCarthyism's political power depended primarily on —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Documented evidence of widespread communist infiltration of American government",
+          "textEs": "Documented evidence of widespread communist infiltration of American government",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The climate of fear created by genuine Cold War anxieties",
+          "textEs": "The climate of fear created by genuine Guerra Fría anxieties",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Confessions by convicted Soviet agents who named hundreds of American communists",
+          "textEs": "Confessions by convicted Soviet agents who named hundreds of American communists",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The support of President Eisenhower who considered McCarthy a useful ally",
+          "textEs": "The support of President Eisenhower who considered McCarthy a useful ally",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The climate of fear created by genuine Cold War anxieties. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "The climate of fear created by genuine Guerra Fría anxieties. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. D is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.45,
+        "b": 0.3,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-47-x030",
+      "stem": "The post-WWII Red Scare was more intense than the 1919-20 Red Scare because —",
+      "stemEs": "The post-WWII Temor Rojo was more intense than the 1919-20 Temor Rojo because —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The experience of WWII made Americans more sensitive to ideological threats from totalitarian movements",
+          "textEs": "The experience of WWII made Americans more sensitive to ideological threats from totalitarian movements",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Actual Soviet espionage — including the theft of nuclear secrets — confirmed that some fears were justified",
+          "textEs": "Actual Soviet espionage — including the theft of nuclear secrets — confirmed that some fears were justified",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The post-WWII Red Scare was more intense for multiple reasons: WWII heightened American sensitivity to totalitarian ideological threats, actual Soviet espionage",
+          "textEs": "The post-WWII Temor Rojo was more intense for multiple reasons: WWII heightened American sensitivity to totalitarian ideological threats, actual Soviet espionage",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Soviet Union was a genuine great-power adversary with nuclear weapons rather than a marginal revolutionary movement",
+          "textEs": "The Soviet Union was a genuine great-power adversary with nuclear weapons rather than a marginal revolutionary movement",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The post-WWII Red Scare was more intense for multiple reasons: WWII heightened American sensitivity to totalitarian ideological threats, actual Soviet espionage including the theft of nuclear secrets validated some fears, and the Soviet Union was now a nuclear-armed great-power adversary. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how World War II and the early Cold War reshaped U.S. power at home and abroad.",
+      "explanationEs": "The post-WWII Temor Rojo was more intense for multiple reasons: WWII heightened American sensitivity to totalitarian ideological threats, actual Soviet espionage including the theft of nuclear secrets validated some fears, and the Soviet Union was now a nuclear-armed great-power adversary. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than the topic in the question. It helps explain how Segunda Guerra Mundial and the early Guerra Fría reshaped U.S. power at home and abroad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.83,
+        "b": 1.09,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us63-dok3-2",
+      "stem": "How did McCarthyism impact academic freedom and intellectual discourse?",
+      "stemEs": "¿Cómo impactó el macartismo la libertad académica y el discurso intelectual?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Many actors, writers, and directors lost their careers for suspected communist ties",
+          "textEs": "No tuvo efecto en educación o investigación académica en universidades estadounidenses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Televised hearings exposed McCarthy's tactics, leading to his censure and decline",
+          "textEs": "Expandió libertad académica en todas instituciones alentando debate político abierto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Created climate of fear causing self-censorship in universities and public discourse",
+          "textEs": "Creó clima de miedo causando autocensura en universidades y discurso público",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He exposed McCarthy's tactics on television, turning public opinion against him",
+          "textEs": "Alentó debate abierto sobre comunismo y sus méritos en aulas estadounidenses",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "McCarthyism impact academic freedom and intellectual discourse because created climate of fear causing self-censorship in universities and public discourse. Choice D is wrong because it describes he exposed McCarthy's tactics on television, turning public opinion against him, not created climate of fear causing self-censorship in universities and public discourse. The Red Scare showed how fear of communism could threaten civil liberties and damage democratic debate at home.",
+      "explanationEs": "El macartismo creó un efecto escalofriante en libertad académica, con profesores despedidos por opiniones políticas, bibliotecas eliminando libros y académicos autocensurándose para evitar acusación.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.97,
+        "b": 1.68,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-61-x020",
+      "stem": "How did the political and cultural turbulence of the late 1960s and 1970s contribute to the rise of modern political conservatism?",
+      "stemEs": "¿Cómo the political and cultural turbulence of the late 1960s and 1970s contribute to the rise of modern political conservadurismo?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Economic growth under Nixon demonstrated that conservative fiscal policies produced prosperity",
+          "textEs": "El crecimiento económico bajo Nixon demostró que las políticas fiscales conservadoras generaban prosperidad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Many Americans reacted against social upheaval, cultural liberalism, and government expansion by supporting conservative candidates and movements",
+          "textEs": "Muchos estadounidenses reaccionaron contra la agitación social, el liberalismo cultural y la expansión del gobierno apoyando a candidatos y movimientos conservadores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Supreme Court's conservative rulings in this period reflected a rightward shift in public opinion on civil rights",
+          "textEs": "Las decisiones conservadoras de la Corte Suprema en este período reflejaron un giro hacia la derecha en la opinión pública sobre los derechos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Democrats' support for the Vietnam War alienated their liberal base, leaving an opening for conservative Democrats",
+          "textEs": "El apoyo de los demócratas a la guerra de Vietnam alienó a su base liberal, dejando una apertura para los demócratas conservadores",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "the political and cultural turbulence of the late 1960s and 1970s contribute to the rise of modern political conservatism because many Americans reacted against social upheaval, cultural liberalism, and government expansion by supporting conservative candidates and movements. Choice A is wrong because it describes economic growth under Nixon demonstrated that conservative fiscal policies produced prosperity, not many Americans reacted against social upheaval, cultural liberalism, and government expansion by supporting conservative candidates and movements. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "La turbulencia política y cultural de finales de los años sesenta y setenta contribuyó al surgimiento del conservadurismo político moderno porque muchos estadounidenses reaccionaron contra la agitación social, el liberalismo cultural y la expansión del gobierno apoyando a candidatos y movimientos conservadores. La opción A es incorrecta porque describe que el crecimiento económico bajo Nixon demostró que las políticas fiscales conservadoras generaban prosperidad, no que muchos estadounidenses reaccionaron contra la agitación social, el liberalismo cultural y la expansión del gobierno apoyando a candidatos y movimientos conservadores. La era de Vietnam profundizó la brecha de credibilidad e hizo a los estadounidenses más escépticos respecto al uso de la guerra por parte del poder ejecutivo.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.42,
+        "b": 0.57,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u7-007",
+      "stem": "During the Second Red Scare, McCarthyism damaged the careers of thousands of Americans. A political scientist argues that McCarthyism was more a symptom of institutional failure than of individual demagoguery. Which of the following pieces of evidence BEST supports this structural argument?",
+      "stemEs": "Durante el Segundo Pánico Rojo, el macartismo arruinó las carreras de miles de estadounidenses. Un politólogo argumenta que el macartismo fue más un síntoma de fracaso institucional que de demagogia individual. ¿Cuál de las siguientes evidencias respalda MEJOR este argumento estructural?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "McCarthy's uniquely persuasive speaking style allowed him to intimidate even experienced politicians into public silence and cooperation",
+          "textEs": "El estilo oratorio personal de McCarthy era excepcionalmente persuasivo y le permitía intimidar incluso a políticos experimentados hasta el silencio.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "HUAC had generated anti-communist blacklists before McCarthy's rise, and Hoover's FBI supplied unverified accusations — showing multiple institutions enabled the Red Scare",
+          "textEs": "El HUAC ya realizaba audiencias anticomunistas y generaba listas negras antes del ascenso de McCarthy, y el FBI bajo Hoover le proporcionaba acusaciones no verificadas, demostrando que múltiples instituciones habilitaron el Pánico Rojo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Soviet espionage successes like the Rosenberg atomic spy case provided strong evidence that McCarthy's general concerns were entirely valid",
+          "textEs": "Los éxitos del espionaje soviético, incluido el robo de secretos nucleares por los Rosenberg, proporcionaron pruebas irrefutables de que las preocupaciones de McCarthy eran completamente válidas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "American fear of nuclear annihilation made the public uniquely vulnerable to McCarthy's demagoguery in ways not seen before in U.S. politics",
+          "textEs": "El miedo generalizado del público americano a la aniquilación nuclear los hizo especialmente vulnerables a la manipulación de McCarthy de maneras que no habrían ocurrido en tiempos de paz.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "McCarthyism was enabled by institutional failures: the House Un-American Activities Committee (HUAC) had been conducting hearings and blacklists before McCarthy emerged; the FBI under Hoover actively supplied McCarthy with unverified information; and Congress, the press, and the legal system failed to challenge him effectively for years. This institutional complicity—not just McCarthy's personal charisma—explains the scope and duration of the Red Scare. McCarthy's eventual censure in 1954 illustrates that when institutions finally acted, the movement collapsed quickly.",
+      "explanationEs": "El macartismo fue posibilitado por fallos institucionales: el Comité de Actividades Antiamericanas (HUAC) ya realizaba audiencias y listas negras antes de que McCarthy emergiera; el FBI bajo Hoover suministraba activamente a McCarthy información no verificada; y el Congreso, la prensa y el sistema legal no lograron desafiarlo eficazmente durante años. Esta complicidad institucional —no solo el carisma personal de McCarthy— explica el alcance y la duración del Pánico Rojo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.29,
+        "b": 1.38,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u7-008",
+      "stem": "Julius and Ethel Rosenberg were convicted of espionage and executed in 1953. Historians continue to debate whether their punishment was just. Considering the evidence available at the time of their trial versus evidence that emerged later, which conclusion is MOST defensible?",
+      "stemEs": "Julius y Ethel Rosenberg fueron condenados por espionaje y ejecutados en 1953. Los historiadores continúan debatiendo si su castigo fue justo. Considerando la evidencia disponible en el momento de su juicio frente a la que surgió después, ¿qué conclusión es MÁS defendible?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Both Rosenbergs were clearly innocent victims of anti-communist hysteria, as Soviet archives have since confirmed that no American passed nuclear secrets to the USSR.",
+          "textEs": "Ambos Rosenberg eran claramente víctimas inocentes de la histeria anticomunista, ya que los archivos soviéticos han confirmado desde entonces que ningún estadounidense pasó secretos nucleares a la URSS.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both Rosenbergs were unambiguously guilty, and their execution was a proportionate response given the strategic damage caused by Soviet acquisition of nuclear technology.",
+          "textEs": "Ambos Rosenberg eran inequívocamente culpables, y su ejecución fue una respuesta proporcionada dado el daño estratégico causado por la adquisición soviética de tecnología nuclear.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Later declassified evidence confirms Julius was a Soviet spy, but the case against Ethel relied on perjured testimony, suggesting her execution was disproportionate and shaped by Cold War political pressure.",
+          "textEs": "Evidencia desclasificada posterior confirma que Julius era un espía soviético, pero el caso contra Ethel se basó en testimonio perjuro, lo que sugiere que su ejecución fue desproporcionada y moldeada por la presión política de la Guerra Fría.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The trial was entirely fair by the legal standards of the time, and later revelations about Soviet espionage fully vindicate every aspect of the prosecution's case.",
+          "textEs": "El juicio fue completamente justo según los estándares legales de la época, y las revelaciones posteriores sobre el espionaje soviético vindicaron plenamente todos los aspectos del caso de la acusación.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Declassified VENONA intercepts released in the 1990s confirmed Julius Rosenberg's role as a Soviet spy. However, the evidence against Ethel was far weaker—based largely on the testimony of her brother, David Greenglass, who later admitted he lied to protect his own wife. Historians now largely agree Julius was guilty of espionage, but that Ethel's execution was disproportionate given the thin evidence against her specifically, and that the trial reflected Cold War hysteria as much as evidence-based justice.",
+      "explanationEs": "Los interceptos VENONA desclasificados en los años 90 confirmaron el papel de Julius Rosenberg como espía soviético. Sin embargo, la evidencia contra Ethel era mucho más débil, basada en gran medida en el testimonio de su hermano David Greenglass, quien posteriormente admitió haber mentido para proteger a su propia esposa. Los historiadores ahora coinciden en que Julius era culpable, pero que la ejecución de Ethel fue desproporcionada dada la escasa evidencia específica contra ella.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.07,
+        "b": 0.67,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u7-009",
+      "stem": "Blacklisting in Hollywood during the Red Scare reflected broader patterns of political repression. Which of the following BEST explains why entertainment industries were specifically targeted compared to other professional sectors?",
+      "stemEs": "Las listas negras en Hollywood durante el Pánico Rojo reflejaron patrones más amplios de represión política. ¿Cuál de las siguientes opciones explica MEJOR por qué las industrias del entretenimiento fueron específicamente atacadas en comparación con otros sectores profesionales?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Government investigators had conclusive evidence that the Soviet Union was directly funding major Hollywood studios to produce pro-communist films.",
+          "textEs": "Los investigadores gubernamentales tenían pruebas concluyentes de que la Unión Soviética financiaba directamente a los principales estudios de Hollywood para producir películas procomunistas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Hollywood unions had formally affiliated with the Communist Party of the United States, making their members official agents of a foreign power.",
+          "textEs": "Los sindicatos de Hollywood se habían afiliado formalmente al Partido Comunista de los Estados Unidos, convirtiendo a sus miembros en agentes oficiales de una potencia extranjera.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Entertainment workers were more likely than other professionals to travel to the Soviet Union and therefore had greater opportunities to pass classified information.",
+          "textEs": "Los trabajadores del entretenimiento tenían más probabilidades que otros profesionales de viajar a la Unión Soviética y, por lo tanto, tenían mayores oportunidades de transmitir información clasificada.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Film and television had massive reach into American households, making cultural workers uniquely capable of shaping public opinion, which anti-communist investigators viewed as a potential tool for Soviet ideological influence.",
+          "textEs": "El cine y la televisión tenían un alcance masivo en los hogares estadounidenses, lo que hacía de los trabajadores culturales instrumentos únicamente capaces de moldear la opinión pública, algo que los investigadores anticomunistas veían como una herramienta potencial para la influencia ideológica soviética.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Policymakers and anti-communist investigators specifically targeted Hollywood because film and television had unparalleled reach into American homes, making cultural workers potentially powerful instruments of ideological influence. Fears that communist screenwriters, directors, and actors could embed subversive messages into widely consumed entertainment justified the political attention. This 'soft power' concern explains the disproportionate focus on entertainment versus, say, manufacturing or academia during the early Red Scare hearings.",
+      "explanationEs": "Los responsables políticos e investigadores anticomunistas apuntaron específicamente a Hollywood porque el cine y la televisión tenían un alcance sin igual en los hogares estadounidenses, haciendo de los trabajadores culturales instrumentos potencialmente poderosos de influencia ideológica. El temor a que guionistas, directores y actores comunistas pudieran insertar mensajes subversivos en el entretenimiento ampliamente consumido justificó la atención política.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.52,
+        "b": 1.55,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us6-dok3-sa1",
+      "stem": "Explain how McCarthyism and the Red Scare of the 1950s both protected and threatened American democracy. Provide specific evidence for each side of this tension.",
+      "stemEs": "Explique cómo el macartismo y la Amenaza Roja de los 1950 tanto protegieron como amenazaron la democracia americana.",
+      "itemType": "short-answer",
+      "correctAnswer": "Protection argument: Some Soviet espionage was real (Alger Hiss, Rosenbergs); vigilance against infiltration had legitimate national security basis. Threat argument: McCarthy's tactics violated due process, destroyed careers based on accusation alone, chilled free speech and political dissent, targeted innocent people, and used fear to consolidate political power. The greater threat to democracy came from McCarthyism itself — it demonstrated that fear could be weaponized to suppress democratic freedoms.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Real Soviet espionage cases such as Alger Hiss and the Rosenbergs gave anti-communism some legitimate national security basis, so a strong response should acknowledge why many Americans feared communist infiltration. A strong answer must also explain that McCarthy's accusations, blacklists, and loyalty investigations often ignored due process, ruined careers, and chilled free speech. The best responses use specific evidence on both sides and then judge whether protecting the nation ever justified methods that weakened democratic rights.",
+      "explanationEs": "Los estudiantes deben analizar ambos lados de una tensión histórica con evidencia específica.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.0,
+        "b": 1.18,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-x016",
+      "stem": "Edward R. Murrow's CBS broadcast 'See It Now' (March 1954) that challenged McCarthy was historically significant because —",
+      "stemEs": "Edward R. Murrow's CBS broadcast 'See It Now' (March 1954) that challenged McCarthy was historically significant because —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was the first live television broadcast of congressional hearings in American history",
+          "textEs": "It was the first live television broadcast of Congresoional hearings in American history",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It presented secret government documents proving McCarthy was lying",
+          "textEs": "It presented secret government documents proving McCarthy was lying",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "By using McCarthy's own words and footage",
+          "textEs": "By using McCarthy's own words and footage",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It caused Congress to immediately vote to censure McCarthy",
+          "textEs": "It caused Congreso to immediately vote to censure McCarthy",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By using McCarthy's own words and footage. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "By using McCarthy's own words and footage. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.65,
+        "b": 1.67,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-47-x024",
+      "stem": "The Hollywood Blacklist demonstrated that McCarthyism's effects extended beyond government because —",
+      "stemEs": "The Hollywood Blacklist demonstrated that McCarthyism's effects extended beyond government because —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Supreme Court ruled HUAC investigations constitutional, enabling private employers to fire suspected communists",
+          "textEs": "The Corte Suprema ruled HUAC investigations constitucional, enabling private employers to fire suspected communists",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Private industries — including entertainment — fired employees accused of communist sympathies without due process",
+          "textEs": "Private industries — including entertainment — fired employees accused of communist sympathies without due process",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congress passed legislation requiring loyalty oaths for all professionals in regulated industries",
+          "textEs": "Congreso passed legislación requiring loyalty oaths for all professionals in regulated industries",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The FBI shared its files on suspected communists with private employers on request",
+          "textEs": "The FBI shared its files on suspected communists with private employers on request",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Private industries — including entertainment — fired employees accused of communist sympathies without due process. Fear of communism led to investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Private industries — including entertainment — fired employees accused of communist sympathies without due process. Fear of comunismo condujo a investigations, loyalty tests, and damaged careers in the late 1940s and 1950s. A is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 2.03,
+        "b": 1.48,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-50-q03",
+      "stem": "Television journalist Edward R. Murrow's 1954 broadcast directly criticized Senator McCarthy, contributing to McCarthy's downfall. What does McCarthy's rise and fall reveal about American democracy in the 1950s?",
+      "stemEs": "Television journalist Edward R. Murrow's 1954 broadcast directly criticized Senator McCarthy, contributing to McCarthy's downfall. What does McCarthy's rise and fall reveal about American democracia in the 1950s?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Democratic institutions — the press, the Senate, and public opinion — can eventually constrain demagogues who abuse their power",
+          "textEs": "democrático institutions — the press, the Senado, and public opinion — can eventually constrain demagogues who abuse their power",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The President has the power to end congressional investigations by executive order",
+          "textEs": "The President has the power to end Congresoional investigations by orden ejecutiva",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Cold War anxieties permanently changed American attitudes toward civil liberties and rarely recovered after McCarthy",
+          "textEs": "Guerra Fría anxieties permanently changed American attitudes toward libertades civiles and rarely recovered after McCarthy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Supreme Court must rule on whether congressional investigations violate civil liberties before investigations can end",
+          "textEs": "The Corte Suprema must rule on whether Congresoional investigations violate libertades civiles before investigations can end",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Democratic institutions — the press, the Senate, and public opinion — can eventually constrain demagogues who abuse their power. The alliance tied the United States permanently to Western Europe's defense during the Cold War. C is incorrect because it describes a different program, event, or idea than this Cold War development. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "democrático institutions — the press, the Senado, and public opinion — can eventually constrain demagogues who abuse their power. The alianza tied the United States permanently to Western Europe's defense during the Guerra Fría. C is incorrect because it describes a different program, event, or idea than this Guerra Fría development. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.95,
+        "b": 0.07,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U6-DOK3-0006",
+      "stem": "Senator Joseph McCarthy made his first public claim of communist infiltration in the State Department in February 1950 — just months after the Soviet atomic test and the Chinese Communist revolution — and his accusations quickly resulted in the firing of experienced East Asia specialists. What does the timing and political impact of McCarthy's charges reveal about the relationship between foreign policy setbacks and domestic political culture?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "McCarthy's success demonstrates that American democratic institutions were fundamentally unprepared to resist demagogy during Cold War anxieties, since the executive and legislative branches failed to challenge his accusations despite the absence of corroborating evidence for his most sweeping claims.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The timing of McCarthy's rise reveals that anticommunism served as a tool for political entrepreneurs to pursue partisan objectives under cover of national security, with the substance of his claims mattering less than their instrumental value for attacking the Truman administration's foreign policy record.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The McCarthyite period demonstrates that citizens in democratic societies will consistently sacrifice civil liberties during national security crises, as the broad public support for McCarthy's investigations showed that most Americans prioritized security over the constitutional protections they theoretically endorsed.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Foreign policy setbacks created an environment of public anxiety in which McCarthy's charges could gain political traction regardless of their evidentiary basis, illustrating how genuine external security threats can be exploited to generate domestic political power through the systematic manipulation of fear rather than through accurate threat assessment.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The direct temporal connection between the Soviet atomic test, the Chinese Communist victory, and McCarthy's first accusations illustrates the mechanism: genuine foreign policy reversals created authentic public anxiety that McCarthy could exploit by offering a simple explanation — domestic betrayal — that was emotionally satisfying even if factually unsupported.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U5-DOK3-0020",
+      "stem": "Which best explains the lasting impact of McCarthyism on American political culture during the 1950s?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "McCarthyism permanently strengthened the authority of congressional committees to conduct unrestricted investigations of the executive branch.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "McCarthyism demonstrated that public accusations of disloyalty, even without substantive evidence, could destroy careers and chill political dissent.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Army-McCarthy hearings ultimately produced public demand for stronger due process protections that were codified in federal law.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "McCarthyism led directly to legislation prohibiting political parties from advocating socialist or communist economic platforms.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The central legacy of McCarthyism was its demonstration that the political and social costs of being labeled disloyal — even falsely — were so severe that many Americans and institutions self-censored. This chilling effect on dissent is McCarthyism's most durable historical lesson.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us64-dok4-cr-4",
+      "stem": "Read the following excerpt from Senator Joseph McCarthy's speech to the Senate, June 14, 1951, Congressional Record — a U.S. government document available through the National Archives:\n\n\"How can we account for our present situation unless we believe that men high in this government are concerting to deliver us to disaster? This must be the product of a great conspiracy, a conspiracy on a scale so immense as to dwarf any previous such venture in the history of man... What is the objective of the great conspiracy? I think it is clear from what has occurred and is now occurring: to diminish the United States in world affairs, to weaken us militarily, to confuse our spirit with talk of surrender in the Far East and to impair our will to resist evil.\"\n\nUsing this excerpt and your knowledge of McCarthyism and the Second Red Scare (US.64), write a CER response that analyzes how McCarthy's tactics both reflected and intensified the ideological anxieties of the Cold War. Your response must assess the long-term damage McCarthyism inflicted on civil liberties and democratic institutions, and connect the Red Scare to the broader ideological conflict between the United States and the Soviet Union (US.59) that made such rhetoric politically powerful.",
+      "stemEs": "Lee el siguiente fragmento del discurso del Senador Joseph McCarthy ante el Senado, 14 de junio de 1951, Registro del Congreso — un documento del gobierno de EE. UU. disponible a través de los Archivos Nacionales:\n\n\"¿Cómo podemos explicar nuestra situación actual a menos que creamos que hombres con alto cargo en este gobierno están conspirando para entregarnos al desastre? Esto debe ser el producto de una gran conspiración, una conspiración de una escala tan inmensa que empequeñece cualquier empresa anterior de este tipo en la historia del hombre...\"\n\nUsando este fragmento y tu conocimiento del macartismo y la Segunda Caza de Brujas Roja (US.64), escribe una respuesta CER que analice cómo las tácticas de McCarthy reflejaron e intensificaron las ansiedades ideológicas de la Guerra Fría. Tu respuesta debe evaluar el daño a largo plazo que el macartismo infligió a las libertades civiles y las instituciones democráticas.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-scoring (4/4) response would include: CLAIM — McCarthyism exploited the genuine anxieties produced by Cold War ideological conflict to create a domestic culture of suspicion that systematically violated civil liberties, ultimately undermining the very democratic institutions the U.S. claimed to be defending against Soviet communism. EVIDENCE — (1) McCarthy's accusation of State Department Communist infiltration (February 1950, Wheeling, WV) with numbers that shifted from 205 to 57 to 81 — demonstrating evidence-free accusations as political weapon; (2) HUAC investigations and Hollywood blacklist (hundreds of careers destroyed without due process); (3) Army-McCarthy Hearings (1954) and Joseph Welch's 'Have you no sense of decency?' moment; (4) Federal Employee Loyalty Program (Truman, 1947) as institutionalization of political surveillance; (5) Smith Act convictions of Communist Party leaders; (6) Senate censure of McCarthy (December 1954) as institutional self-correction. REASONING — McCarthy's effectiveness was rooted in the Cold War's ideological binary: in a world divided between freedom and communism, any accusation of communist sympathy was existentially threatening. The student should reason that McCarthyism was paradoxically self-defeating — its suppression of dissent, due process violations, and guilt-by-association tactics replicated the very authoritarian methods the U.S. opposed in the Soviet Union, revealing the tension between security imperatives and constitutional values.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.59, US.64 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Claim identifies the paradox of McCarthyism (defending democracy through anti-democratic means). Evidence includes at least three specific examples (Wheeling speech, HUAC, Army-McCarthy hearings, loyalty programs, Hollywood blacklist). Reasoning develops the Cold War ideological context that made McCarthyism viable AND the long-term institutional damage. CER fully integrated.\n3 - Proficient: Clear claim about McCarthyism's damage to civil liberties. Two specific evidence points. Reasoning connects McCarthyism to Cold War anxiety but may not develop the paradox or institutional analysis.\n2 - Developing: General claim about McCarthyism being bad or unjust. One specific evidence point. Reasoning is mostly descriptive.\n1 - Beginning: Vague claim. Generic references to McCarthyism with no specific evidence. No analysis.\n0 - No response or off-topic.\n\nKEY EVIDENCE EXPECTED: Wheeling, WV speech (Feb. 1950); Federal Employee Loyalty Program (1947); HUAC and Hollywood blacklist; Smith Act prosecutions; Army-McCarthy Hearings (1954); Joseph Welch; Senate censure resolution (Dec. 1954); Rosenberg executions (1953) as context for spy-anxiety; Edward R. Murrow broadcast critique.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: La afirmación identifica la paradoja del macartismo (defender la democracia mediante medios antidemocráticos). La evidencia incluye al menos tres ejemplos específicos. El razonamiento desarrolla el contexto ideológico de la Guerra Fría que hizo viable el macartismo Y el daño institucional a largo plazo.\n3 - Competente: Afirmación clara sobre el daño del macartismo a las libertades civiles. Dos puntos de evidencia específica.\n2 - En desarrollo: Afirmación general sobre el macartismo. Un punto de evidencia específica. El razonamiento es principalmente descriptivo.\n1 - Inicial: Afirmación vaga. Referencias genéricas al macartismo sin evidencia específica.\n0 - Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Discurso de Wheeling, WV (febrero 1950); Programa de Lealtad de Empleados Federales (1947); HUAC y la lista negra de Hollywood; Audiencias Army-McCarthy (1954); Joseph Welch; resolución de censura del Senado (diciembre 1954).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.27,
+        "b": 0.71,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us64-dok4-er-4",
+      "stem": "Extended Response — No sources provided. Draw on your knowledge of Cold War history (US.59–US.70).\n\nThe Second Red Scare and McCarthyism (1947–1954) have been analyzed both as a rational response to genuine Cold War security threats and as a political hysteria that damaged American democracy. Using the CER framework, write an extended response that evaluates McCarthyism's causes, methods, and long-term consequences within the context of the broader Cold War. Your response should: (1) construct a thesis that takes a defensible position on whether McCarthyism was primarily a product of genuine security concerns, political opportunism, or systemic social anxieties; (2) analyze at least four specific cases, policies, or events that illustrate McCarthyism's methods and impact; and (3) evaluate the long-term consequences of McCarthyism for American civil liberties, political culture, and Cold War policy, synthesizing knowledge across US.59, US.60, US.63, and US.64.",
+      "stemEs": "Respuesta Extendida — No se proporcionan fuentes. Basa tu respuesta en tu conocimiento de la historia de la Guerra Fría (US.59–US.70).\n\nLa Segunda Caza de Brujas Roja y el macartismo (1947–1954) han sido analizados tanto como una respuesta racional a amenazas reales de seguridad de la Guerra Fría como una histeria política que dañó la democracia estadounidense. Usando el marco CER, escribe una respuesta extendida que evalúe las causas, los métodos y las consecuencias a largo plazo del macartismo dentro del contexto más amplio de la Guerra Fría. Tu respuesta debe: (1) construir una tesis que tome una posición defendible sobre si el macartismo fue principalmente un producto de preocupaciones de seguridad genuinas, oportunismo político o ansiedades sociales sistémicas; (2) analizar al menos cuatro casos, políticas o eventos específicos; y (3) evaluar las consecuencias a largo plazo del macartismo.",
+      "itemType": "extended-response",
+      "correctAnswer": "A top-scoring (4/4) extended response would include: CLAIM — A precise, defensible thesis that synthesizes all three causal factors (e.g., 'McCarthyism emerged from the convergence of genuine but exaggerated security threats, deliberate political opportunism by McCarthy and HUAC, and deep social anxieties about rapid postwar change — but its most significant consequence was not its effect on Communist infiltration (minimal) but its chilling effect on democratic discourse, which paradoxically made the U.S. less democratic in its methods of defending democracy'). EVIDENCE across four cases/policies: (1) The genuine security context: Soviet atomic test (1949), Communist victory in China (1949), Rosenberg espionage case (1950), and Korean War — all created real anxiety that Soviet intelligence was winning; (2) McCarthy's specific methods: the Wheeling speech (Feb. 1950) with shifting numbers; 'lists' of Communists that were never released; guilt by association as investigative method; exploiting HUAC as platform; (3) HUAC and the Hollywood Blacklist — approximately 320 entertainment industry professionals blacklisted without due process; the 'naming names' dynamic that turned accusation into a loyalty performance; (4) Institutional responses: Federal Employee Loyalty Program (Truman, 1947); Smith Act prosecutions; Army-McCarthy Hearings (1954) and Senate censure as the democratic self-correction mechanism. REASONING — The student should reason that the genuine security threats were real but did not justify the methods: actual Soviet agents (Hiss, Rosenbergs) were caught by legitimate intelligence work, not by McCarthy's lists. The political opportunism dimension is crucial — McCarthy personally rose from obscurity to national prominence through accusation alone, demonstrating the political incentives that sustained the hysteria beyond any rational security calculus. SYNTHESIS — The response should connect McCarthyism's domestic effects (chilling of foreign policy dissent, US.60 and US.63) to the strategic limitations it imposed: the inability to recognize the Sino-Soviet split, the rigid bipolarity of U.S. Cold War thinking, and the domestic political costs of any policy that appeared 'soft on communism.'",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.59, US.60, US.63, US.64 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Precise, defensible thesis identifying the multi-causal explanation (security, opportunism, social anxiety) with a clear position on which was primary. Analyzes at least four cases/policies with specific historical detail. Reasoning develops the paradox of anti-democratic methods defending democracy. Synthesis connects McCarthyism to Cold War policy constraints (US.59–US.64) and long-term political culture effects.\n3 - Proficient: Clear thesis. Analyzes three or four cases. Reasoning makes the civil liberties/democracy tension. Synthesis may not fully connect to Cold War strategic consequences.\n2 - Developing: General thesis. Analyzes two cases. Reasoning is mostly descriptive ('McCarthyism hurt people unfairly').\n1 - Beginning: Vague thesis. One case analyzed. Minimal reasoning.\n0 - No response or off-topic.\n\nKEY EVIDENCE EXPECTED: Soviet atomic test (Aug. 1949); Communist China (Oct. 1949); Korean War outbreak (June 1950); Alger Hiss conviction (Jan. 1950); Rosenberg execution (June 1953) — the real spy cases; Wheeling, WV speech (Feb. 1950); Federal Employee Loyalty Program (March 1947); HUAC Hollywood investigation (1947–1950); Hollywood Ten; Hollywood Blacklist (~320 professionals); Army-McCarthy Hearings (April–June 1954); Joseph Welch 'sense of decency'; Senate censure (Dec. 2, 1954); Edward R. Murrow 'See It Now' broadcast (March 9, 1954).\nSYNTHESIS EXPECTATIONS: McCarthyism → constrained U.S. China policy (unable to recognize PRC); McCarthyism → stifled NSC-68 debates; McCarthyism → domestic political cost of any 'soft' Cold War position visible in Kennedy's Cuba decisions (US.66); McCarthyism's legacy visible in the loyalty oath culture that persisted through the 1960s.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Tesis precisa y defendible que identifica la explicación multicausal con una posición clara sobre cuál fue primaria. Analiza al menos cuatro casos/políticas con detalle histórico específico. El razonamiento desarrolla la paradoja de los métodos antidemocráticos que defienden la democracia.\n3 - Competente: Tesis clara. Analiza tres o cuatro casos. El razonamiento hace la tensión libertades civiles/democracia.\n2 - En desarrollo: Tesis general. Analiza dos casos. El razonamiento es principalmente descriptivo.\n1 - Inicial: Tesis vaga. Un caso analizado.\n0 - Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Prueba atómica soviética (ago. 1949); China comunista (oct. 1949); discurso de Wheeling, WV (feb. 1950); Programa de Lealtad de Empleados Federales (marzo 1947); lista negra de Hollywood (~320 profesionales); Audiencias Army-McCarthy (abril–junio 1954); censura del Senado (2 de dic. de 1954).\nEXPECTATIVAS DE SÍNTESIS: El macartismo → restringió la política de EE. UU. hacia China; el macartismo → sofocó los debates del NSC-68; el legado del macartismo visible en las decisiones de Cuba de Kennedy (US.66).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.15,
+        "b": -0.08,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U9-DOK3-0019",
+      "stem": "The Civil Rights Act of 1964 prohibited racial discrimination in public accommodations, employment, and federally funded programs. Given that many Southern states had maintained legally enforced segregation for nearly a century after the Fourteenth Amendment's passage, what does the Act's eventual passage most reveal about the conditions required for transformative civil rights legislation?",
+      "stemEs": "La Ley de Derechos Civiles de 1964 prohibió la discriminación racial en los establecimientos públicos, el empleo y los programas financiados con fondos federales. Dado que muchos estados del Sur habían mantenido una segregación legalmente impuesta durante casi un siglo después de la aprobación de la Decimocuarta Enmienda, ¿qué revela más claramente la eventual aprobación de la Ley sobre las condiciones necesarias para la legislación transformadora en materia de derechos civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Act demonstrated that moral argument alone can overcome entrenched racial hierarchies, as the movement's nonviolent discipline and the moral clarity of its witness ultimately convinced a sufficient congressional majority to act despite fierce Southern opposition.",
+          "textEs": "La Ley demostró que el argumento moral por sí solo puede superar las jerarquías raciales arraigadas, ya que la disciplina no violenta del movimiento y la claridad moral de su testimonio finalmente convencieron a una mayoría suficiente del Congreso de actuar a pesar de la feroz oposición del Sur.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Act's passage shows that economic modernization in the South had eroded the material foundation of segregation by creating a business class that recognized international competitiveness required abandoning racial discrimination, making economic development the primary structural driver of civil rights legislation.",
+          "textEs": "La aprobación de la Ley muestra que la modernización económica del Sur había erosionado la base material de la segregación al crear una clase empresarial que reconoció que la competitividad internacional requería abandonar la discriminación racial, haciendo del desarrollo económico el principal motor estructural de la legislación de derechos civiles.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Civil Rights Act passed primarily because of Lyndon Johnson's legislative mastery and his exploitation of the national emotional response to Kennedy's assassination, suggesting that individual political leadership and historically contingent events were more decisive than structural conditions in producing the legislation.",
+          "textEs": "La Ley de Derechos Civiles se aprobó principalmente gracias al dominio legislativo de Lyndon Johnson y su explotación de la respuesta emocional nacional al asesinato de Kennedy, lo que sugiere que el liderazgo político individual y los eventos históricamente contingentes fueron más decisivos que las condiciones estructurales para producir la legislación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Act's passage required the convergence of sustained grassroots mobilization that disrupted segregation's daily functioning, television coverage that made white violence against nonviolent protesters politically costly to tolerate, and presidential leadership committed to legislative action — demonstrating that transformative civil rights legislation emerges from the alignment of movement pressure, public opinion shifts, and executive political",
+          "textEs": "La aprobación de la Ley requirió la convergencia de una movilización popular sostenida que perturbó el funcionamiento diario de la segregación, la cobertura televisiva que hizo políticamente costoso tolerar la violencia blanca contra los manifestantes no violentos, y el liderazgo presidencial comprometido con la acción legislativa —demostrando que la legislación transformadora de derechos civiles surge de la alineación de la presión del movimiento, los cambios en la opinión pública y la voluntad política ejecutiva.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Civil Rights Act required multiple conditions aligned simultaneously: the civil rights movement had disrupted segregation's stability; television had transformed local white violence into national political liabilities; Cold War ideology made racial discrimination internationally embarrassing; and Johnson provided the executive commitment and legislative strategy to convert movement pressure into law.",
+      "explanationEs": "La Ley de Derechos Civiles requirió que múltiples condiciones se alinearan simultáneamente: el movimiento de derechos civiles había perturbado la estabilidad de la segregación; la televisión había transformado la violencia blanca local en pasivos políticos nacionales; la ideología de la Guerra Fría hacía la discriminación racial internacionalmente vergonzosa; y Johnson aportó el compromiso ejecutivo y la estrategia legislativa para convertir la presión del movimiento en ley.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2355 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.32",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us30-dok1-1",
+      "stem": "What was the Great Migration?",
+      "stemEs": "¿Qué fue la Gran Migración?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Popularizing country music and establishing Nashville as a music center",
+          "textEs": "La reubicación de nativos americanos de reservas a centros urbanos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Powerful vocal style and influence on the development of blues music",
+          "textEs": "La inmigración de europeos a América buscando empleo en manufactura",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Chicago, Detroit, New York, Philadelphia, and Cleveland in the industrial North",
+          "textEs": "La migración de agricultores al oeste para reclamar nueva tierra agrícola",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The movement of African Americans from the rural South to Northern cities",
+          "textEs": "El movimiento de afroamericanos del Sur rural a ciudades del Norte",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Great Migration moved millions of African Americans from the rural South to Northern and Midwestern cities between the 1910s and 1970s as they sought jobs and escaped Jim Crow. Choice C points to a destination or effect rather than the main idea, not the specific person, law, or event asked for; choice A points to a related idea from the era, but not the best answer here, not the specific person, law, or event asked for. The movement reshaped Black politics, labor, and culture in modern America.",
+      "explanationEs": "La Gran Migración fue el movimiento de más de 6 millones de afroamericanos desde el Sur rural a áreas urbanas en el Norte y Medio Oeste entre 1916-1970, impulsado por oportunidades económicas y escape de la segregación Jim Crow.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.54,
+        "b": -1.25,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us32-dok1-1",
+      "stem": "What was the Grand Ole Opry?",
+      "stemEs": "¿Qué fue el Grand Ole Opry?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A Nashville radio program that helped popularize country music nationally",
+          "textEs": "Un programa de radio de Nashville que ayudó a popularizar la música country",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Provided community centers and important platforms for cultural expression",
+          "textEs": "Un club nocturno de blues de Memphis que presentaba artistas afroamericanos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Showcased African American talent and launched many famous musical careers",
+          "textEs": "Una casa de ópera de Nueva York que presentaba músicos clásicos europeos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A secret word or phrase needed to enter illegal bars during Prohibition",
+          "textEs": "Un festival de jazz de Nueva Orleans que celebraba tradiciones musicales criollas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Broadcast from Nashville starting in 1925, the Grand Ole Opry carried regional country performers to listeners across the country and made Nashville a music center. Choice B points to an effect or consequence rather than the item being identified, not the specific person, law, or event asked for; choice C points to the automobile industry, not the specific person, law, or event asked for. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "explanationEs": "El Grand Ole Opry comenzó en Nashville en 1925 como un programa de radio, convirtiéndose en la transmisión de radio de mayor duración en la historia de EE.UU. y estableciendo a Nashville como la capital de la música country.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.81,
+        "b": -0.67,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-30-q01",
+      "stem": "The Grand Ole Opry was significant in American music history because it:",
+      "stemEs": "The Grand Ole Opry was significant in American music history because it:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Had minimal cultural impact on American music",
+          "textEs": "Had minimal cultural impact on American music",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Was exclusively a concert venue for classical music",
+          "textEs": "Was exclusively a concert venue for classical music",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Opposed the development of blues and other musical genres",
+          "textEs": "Opposed the development of blues and other musical genres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Became the primary venue for popularizing country music on radio",
+          "textEs": "Became the primary venue for popularizing country music on radio",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "explanationEs": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to an effect or consequence rather than the item being identified, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.58,
+        "b": -1.6,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-32-x014",
+      "stem": "WSM radio in Nashville began broadcasting the Grand Ole Opry in:",
+      "stemEs": "WSM radio in Nashville began broadcasting the Grand Ole Opry in:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1918, as entertainment for soldiers returning from WWI",
+          "textEs": "1918, as entertainment for soldiers returning from WWI",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "1925, when announcer George D. Hay launched a barn dance program that evolved into the Grand Ole Opry",
+          "textEs": "1925, when announcer George D. Hay launched a barn dance program that evolved into the Grand Ole Opry",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "1933, when country music was incorporated into FDR's New Deal cultural programs",
+          "textEs": "1933, when country music was incorporated into FDR's New Deal cultural programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "1920, immediately after radio broadcasting became commercially available",
+          "textEs": "1920, immediately after radio broadcasting became commercially available",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice C refers to the Great Depression or New Deal, not the historical point being tested; choice D refers to radio or mass media, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "explanationEs": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice C refers to the Gran Depresión or New Deal, not the historical point being tested; choice D refers to radio or mass media, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.5,
+        "b": -0.89,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-30-x021",
+      "stem": "Louis Armstrong, Duke Ellington, and Bessie Smith were significant figures of which cultural movement?",
+      "stemEs": "Louis Armstrong, Duke Ellington, and Bessie Smith were significant figures of which cultural movement?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Jazz Age",
+          "textEs": "The Era del Jazz",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Harlem Renaissance",
+          "textEs": "The Renacimiento de Harlem",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The blues revival that preceded the Jazz Age",
+          "textEs": "The blues revival that preceded the Era del Jazz",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "These musicians were central figures",
+          "textEs": "These musicians were central figures",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Louis Armstrong, Duke Ellington, and Bessie Smith belonged to both the Jazz Age and the Harlem Renaissance because their music defined the sound of the 1920s while also expressing Black cultural creativity. Choice A is too narrow because it ignores the Harlem Renaissance, and choice B is incomplete because their influence reached far beyond Harlem's literary scene. Their careers show how African American music shaped the broader culture of the decade.",
+      "explanationEs": "Louis Armstrong, Duke Ellington, and Bessie Smith belonged to both the Era del Jazz and the Renacimiento de Harlem because their music defined the sound of the 1920s while also expressing Black cultural creativity. Choice A is too narrow because it ignores the Renacimiento de Harlem, and choice B is incomplete because their influence reached far beyond Harlem's literary scene. Their careers show how African American music shaped the broader culture of the decade.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -0.88,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-30-q02",
+      "stem": "W.C. Handy is credited with developing:",
+      "stemEs": "W.C. Handy is credited with developing:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The blues genre, particularly the \"Memphis Blues\"",
+          "textEs": "The blues genre, particularly the \"Memphis Blues\"",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Jazz exclusively, developing its improvisational structure in New Orleans",
+          "textEs": "Jazz exclusively, developing its improvisational structure in New Orleans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Country music and the Grand Ole Opry radio tradition in Nashville",
+          "textEs": "Country music and the Grand Ole Opry radio tradition in Nashville",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Classical orchestral compositions performed at Carnegie Hall",
+          "textEs": "Classical orchestral compositions performed at Carnegie Hall",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Country and blues music grew out of rural and working-class experiences, and performers such as W.C. Handy and Bessie Smith helped bring those traditions to national audiences. Choice B refers to Harlem culture or jazz, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. Their success showed that regional and Black musical traditions were reshaping American popular culture.",
+      "explanationEs": "Country and blues music grew out of rural and working-class experiences, and performers such as W.C. Handy and Bessie Smith helped bring those traditions to national audiences. Choice B refers to Harlem culture or jazz, not the historical point being tested; choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested. Their success showed that regional and Black musical traditions were reshaping American popular culture.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.52,
+        "b": -0.22,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-30-q03",
+      "stem": "Bessie Smith became famous during the 1920s as:",
+      "stemEs": "Bessie Smith became famous during the 1920s as:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A country music performer who recorded for Victor Records in Nashville",
+          "textEs": "A country music performer who recorded for Victor Records in Nashville",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A prominent blues singer with national recognition",
+          "textEs": "A prominent blues singer with national recognition",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A classical musician, conductor, and concert hall director",
+          "textEs": "A classical musician, conductor, and concert hall director",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A popular radio host, announcer, and variety show personality",
+          "textEs": "A popular radio host, announcer, and variety show personality",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bessie Smith became famous as a nationally recognized blues singer whose recordings and performances made her one of the biggest Black musical stars of the 1920s. Choice A refers to country music, and choice D describes broadcasting rather than singing. Her success helped bring African American blues traditions into mainstream popular culture.",
+      "explanationEs": "Bessie Smith became famous as a nationally recognized blues singer whose recordings and performances made her one of the biggest Black musical stars of the 1920s. Choice A refers to country music, and choice D describes broadcasting rather than singing. Her success helped bring African American blues traditions into mainstream popular culture.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.87,
+        "b": 0.32,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "PSTIM-0037",
+      "stem": "Use the poster to answer the question.\n\nThis World War I propaganda poster, produced by the U.S. government around 1918, features a menacing depiction of a German soldier with the text \"Beat back the HUN with LIBERTY BONDS.\" The poster uses dramatic imagery to encourage Americans to purchase war bonds.\n\n(Poster, c. 1918. National Archives, NARA 512638.)\n\nWhat was the PRIMARY purpose of the poster shown above?",
+      "stemEs": "¿Cuál era el propósito PRINCIPAL del póster mostrado arriba?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To encourage Americans to buy war bonds to finance the war effort",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To recruit soldiers for the American Expeditionary Forces in Europe",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To convince Congress to declare war on Germany and the Central Powers",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To promote rationing of food and resources on the home front",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Liberty Bond posters were a key part of the U.S. government's campaign to finance World War I by encouraging citizens to purchase war bonds.",
+      "explanationEs": "Los pósters de bonos de libertad fueron parte clave de la campaña del gobierno para financiar la Primera Guerra Mundial.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1,
+        "b": -1.3,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-77-x029",
+      "stem": "Tennessee's Loretta Lynn, Dolly Parton, and the Grand Ole Opry reflect the state's significance as —",
+      "stemEs": "Tennessee's Loretta Lynn, Dolly Parton, and the Grand Ole Opry reflect the state's significance as:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The home of the Southern gothic literary tradition exemplified by William Faulkner and Flannery O'Connor",
+          "textEs": "The home of the Southern gothic literary tradition exemplified by William Faulkner and Flannery O'Connor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The center of American country music culture, with Nashville as the industry's hub",
+          "textEs": "The center of American country music culture, with Nashville as the industry's hub",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The commercial center of the Southeastern United States, attracting entertainment industry investment",
+          "textEs": "The commercial center of the Southeastern United States, attracting entertainment industry investment",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The birthplace of rock and roll, which emerged from the Memphis blues tradition",
+          "textEs": "The birthplace of rock and roll, which emerged from the Memphis blues tradition",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Loretta Lynn, Dolly Parton, and the Grand Ole Opry point to Tennessee's role as the center of country music, especially through Nashville. D is wrong because the question is not mainly about rock and roll in Memphis. Country music became one of Tennessee's strongest cultural exports to the nation.",
+      "explanationEs": "Loretta Lynn, Dolly Parton, and the Grand Ole Opry point to Tennessee's role as the center of country music, especially through Nashville. D is wrong because the question is not mainly about rock and roll in Memphis. Country music became one of Tennessee's strongest cultural exports to the nation.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.89,
+        "b": -1.04,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us32-dok2-1",
+      "stem": "Why was Bessie Smith called the \"Empress of the Blues\"?",
+      "stemEs": "¿Por qué fue llamada Bessie Smith la \"Emperatriz del Blues\"?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "She was the most popular female blues singer whose recordings sold millions",
+          "textEs": "Era la cantante de blues femenina más popular cuyas grabaciones vendieron millones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "She founded and operated the largest Black-owned record company in America",
+          "textEs": "Fundó y operó la compañía discográfica más grande de propiedad negra en América",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "She was the first African American singer to perform in European concert halls",
+          "textEs": "Fue la primera cantante afroamericana en presentarse en salas de conciertos europeas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "She invented the blues genre by combining African and European musical traditions",
+          "textEs": "Inventó el género blues combinando tradiciones musicales africanas y europeas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bessie Smith was called the 'Empress of the Blues' because her powerful voice and emotionally rich recordings made her the best-known female blues singer of the 1920s. Choice B invents a record company she did not found, and choice D wrongly credits her with inventing the blues itself. Her fame helped blues music reach a much larger national audience.",
+      "explanationEs": "Bessie Smith fue la cantante de blues femenina más popular de los años 1920. Su poderosa voz y actuaciones emocionales vendieron millones de discos e influyeron en generaciones de músicos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.65,
+        "b": -0.27,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us30-dok2-168",
+      "stem": "Pull factors that attracted African Americans to Northern cities included:",
+      "stemEs": "Factores de atracción que atrajeron a afroamericanos a ciudades del Norte incluyeron:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Guaranteed equal treatment and complete elimination of racial discrimination",
+          "textEs": "Trato igual garantizado y eliminación completa de discriminación racial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Industrial jobs and relatively better wages than agricultural work",
+          "textEs": "Trabajos industriales y salarios relativamente mejores que trabajo agrícola",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Free housing and transportation provided by government programs",
+          "textEs": "Vivienda y transporte gratis proporcionados por programas gubernamentales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Automatic citizenship rights not available in the South",
+          "textEs": "Derechos de ciudadanía automáticos no disponibles en el Sur",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Pull factors included factory jobs created during World War I, higher wages, and greater political freedom in Northern and Midwestern cities. Choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. Those opportunities helped create large Black urban communities that changed American politics and culture.",
+      "explanationEs": "Las ciudades industriales del Norte ofrecieron trabajos de fábrica con salarios más altos que trabajo agrícola del Sur, junto con relativamente menos discriminación y más libertad personal, atrayendo a millones de afroamericanos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.97,
+        "b": -0.44,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us30-dok2-176",
+      "stem": "W.C. Handy is known as the \"Father of the Blues\" because he:",
+      "stemEs": "W.C. Handy es conocido como el \"Padre del Blues\" porque:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The rural South to industrial cities in the Northeast and Midwest",
+          "textEs": "Inventó todos los instrumentos usados en música blues",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Industrial jobs and relatively better wages than agricultural work",
+          "textEs": "Estableció la primera compañía discográfica de blues en Memphis",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Was the first person to write down and publish blues compositions",
+          "textEs": "Fue la primera persona en escribir y publicar composiciones de blues",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "War industries needed workers after European immigration stopped",
+          "textEs": "Creó el programa de radio Grand Ole Opry en Nashville",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Country and blues music grew out of rural and working-class experiences, and performers such as W.C. Handy and Bessie Smith helped bring those traditions to national audiences. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a related idea from the era, but not the best answer here, not the historical point being tested. Their success showed that regional and Black musical traditions were reshaping American popular culture.",
+      "explanationEs": "W.C. Handy ganó el título de \"Padre del Blues\" por ser el primero en escribir y publicar música blues, haciéndola accesible a una audiencia más amplia a través de partituras y grabaciones.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.81,
+        "b": -0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us30-dok2-177",
+      "stem": "Bessie Smith became known as the \"Empress of the Blues\" for her:",
+      "stemEs": "Bessie Smith se hizo conocida como la \"Emperatriz del Blues\" por su:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Powerful vocal style and influence on the development of blues music",
+          "textEs": "Estilo vocal poderoso e influencia en el desarrollo de la música blues",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Role in establishing the first blues music school in Tennessee",
+          "textEs": "Papel en establecer la primera escuela de música blues en Tennessee",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Invention of new musical instruments specifically for blues performances",
+          "textEs": "Invención de nuevos instrumentos musicales específicamente para presentaciones de blues",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Work as a radio broadcaster promoting blues artists nationwide",
+          "textEs": "Trabajo como locutora de radio promoviendo artistas de blues a nivel nacional",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bessie Smith earned the title 'Empress of the Blues' through her powerful singing style and major influence on the growth of blues music in the 1920s. Choice D points to radio promotion rather than performance, and choice B invents a music school that was not her legacy. Her recordings helped make blues one of the defining sounds of modern American culture.",
+      "explanationEs": "Bessie Smith fue la cantante de blues femenina más popular de los años 1920. Su voz poderosa y actuaciones emocionales vendieron millones de discos e influyeron en generaciones de músicos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.42,
+        "b": 0.21,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us32-dok2-7",
+      "stem": "Compare the impact of country music and blues on American culture:",
+      "stemEs": "Compara el impacto de la música country y blues en la cultura estadounidense:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "First distinctly American music form that crossed racial boundaries and influenced culture",
+          "textEs": "Ningún género tuvo importancia cultural duradera más allá de sus orígenes regionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "For: reduce crime and improve morality; Against: violated personal freedom and increased organized crime",
+          "textEs": "Fueron idénticas en estilo, contenido y atractivo para audiencia durante toda la década",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both gave voice to working-class experiences but emerged from different regional and racial communities",
+          "textEs": "Ambas dieron voz a experiencias de clase trabajadora pero surgieron de diferentes comunidades regionales y raciales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Technology enabled mass production and advertising, creating consumer demand and installment buying",
+          "textEs": "Solo música country influyó en cultura estadounidense más amplia mientras blues permaneció aislado",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "explanationEs": "Música country surgió de tradiciones rurales blancas de los Apalaches y del Sur, mientras blues se desarrolló de experiencias afroamericanas. Ambas expresaron auténticamente luchas y alegrías de clase trabajadora, eventualmente influyendo en rock and roll y música estadounidense moderna.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.31,
+        "b": 0.44,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-32-tn12",
+      "stem": "The emergence of Nashville as 'Music City' in the 1920s–1930s, centered on the Grand Ole Opry and WSM radio, reflects which broader cultural development of the era?",
+      "stemEs": "The emergence of Nashville as 'Music City' in the 1920s–1930s, centered on the Grand Ole Opry and WSM radio, reflects which broader cultural development of the era?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Radio technology's power to take regional musical traditions",
+          "textEs": "Radio technology's power to take regional musical traditions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The recording industry's deliberate decision to move from New York to Nashville to reduce production costs",
+          "textEs": "The recording industry's deliberate decision to move from New York to Nashville to reduce production costs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The migration of rural Southerners to Nashville who brought their musical traditions and found commercial opportunities",
+          "textEs": "The migration of rural Southerners to Nashville who brought their musical traditions and found commercial opportunities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The federal government's program to preserve traditional folk music before it disappeared",
+          "textEs": "The gobierno federal's program to preserve traditional folk music before it disappeared",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Broadcast from Nashville starting in 1925, the Grand Ole Opry carried regional country performers to listeners across the country and made Nashville a music center. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a destination or effect rather than the main idea, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "explanationEs": "Broadcast from Nashville starting in 1925, the Grand Ole Opry carried regional country performers to listeners across the country and made Nashville a music center. Choice C refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice B refers to a destination or effect rather than the main idea, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.42,
+        "b": -0.36,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-30-x023",
+      "stem": "The jazz age represented a cultural shift because jazz:",
+      "stemEs": "The Era del Jazz represented a cultural shift because jazz:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Promoted traditional values of community and family",
+          "textEs": "Promoted traditional values of community and family",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Was primarily a regional New Orleans phenomenon",
+          "textEs": "fue principalmente a regional New Orleans phenomenon",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Was created by African American musicians whose popularity across racial lines",
+          "textEs": "Was created by African American musicians whose popularity across racial lines",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Was rejected by young Americans preferring classical European music",
+          "textEs": "Was rejected by young Americans preferring classical European music",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Jazz became a symbol of the 1920s because its improvisation, syncopation, and African American origins challenged older ideas about what serious American music could be. Choice D refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. Its rise helped make Black musical forms central to modern American culture.",
+      "explanationEs": "Jazz became a symbol of the 1920s because its improvisation, syncopation, and African American origins challenged older ideas about what serious American music could be. Choice D refers to an effect or consequence rather than the item being identified, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. Its rise helped make Black musical forms central to modern American culture.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.45,
+        "b": 0.35,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-30-x030",
+      "stem": "The stock market of the late 1920s attracted millions of ordinary Americans who had previously NOT invested because:",
+      "stemEs": "The mercado de valores of the late 1920s attracted millions of ordinary Americans who had previously NOT invested because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FDR's New Deal created the Securities and Exchange Commission to protect investors from fraud",
+          "textEs": "FDR's New Deal created the Securities and Exchange Commission to protect investors from fraud",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The government guaranteed a minimum return on stock investments to attract retirement savings",
+          "textEs": "The government guaranteed a minimum return on stock investments to attract retirement savings",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "New investment products — mutual funds and investment trusts — made stock market participation accessible to small investors",
+          "textEs": "New investment products — mutual funds and investment fideicomisos — made mercado de valores participation accessible to small investors",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "FDR's New Deal created initially the Securities and Exchange Commission to protect investors from fraud",
+          "textEs": "FDR's New Deal created initially the Securities and Exchange Commission to protect investors from fraud",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Speculation in the 1920s encouraged people to buy stocks mainly because they expected prices to keep rising, not because businesses were necessarily earning more. Choice D fits the pattern described in the question, so it cannot be the exception; choice A fits the pattern described in the question, so it cannot be the exception. This speculative mindset made the economy far more fragile by 1929.",
+      "explanationEs": "Speculation in the 1920s encouraged people to buy stocks mainly because they expected prices to keep rising, not because businesses were necessarily earning more. Choice D fits the pattern described in the question, so it cannot be the exception; choice A fits the pattern described in the question, so it cannot be the exception. This speculative mindset made the economy far more fragile by 1929.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.45,
+        "b": -0.06,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us30-dok1-175",
+      "stem": "The Grand Ole Opry, which began in Nashville, Tennessee, was significant for:",
+      "stemEs": "El Grand Ole Opry, que comenzó en Nashville, Tennessee, fue significativo por:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The movement of African Americans from the rural South to Northern cities",
+          "textEs": "Promover música clásica europea a audiencias estadounidenses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Powerful vocal style and influence on the development of blues music",
+          "textEs": "Transmitir solo programación de música religiosa y espiritual",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Popularizing country music and establishing Nashville as a music center",
+          "textEs": "Popularizar música country y establecer Nashville como centro musical",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Industrial jobs and relatively better wages than agricultural work",
+          "textEs": "Servir como el primer lugar musical integrado en el Sur",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Broadcast from Nashville starting in 1925, the Grand Ole Opry carried regional country performers to listeners across the country and made Nashville a music center. Choice B refers to Harlem culture or jazz, not the historical point being tested; choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "explanationEs": "El Grand Ole Opry comenzó en Nashville en 1925 como un programa de radio que popularizó la música country y estableció a Nashville como \"Ciudad de la Música\". Se convirtió en la transmisión de radio de mayor duración en la historia de EE.UU.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.43,
+        "b": -0.69,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-32-tn11",
+      "stem": "The Grand Ole Opry, which began broadcasting from Nashville in 1925, was significant to American cultural history because:",
+      "stemEs": "The Grand Ole Opry, which began broadcasting from Nashville in 1925, was significant to American cultural history because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It helped define and nationalize country music as a distinctly American genre, making Nashville the recognized center of country music production and performance",
+          "textEs": "It helped define and nationalize country music as a distinctly American genre, making Nashville the recognized center of country music production and performance",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was the very first radio broadcast of any kind ever transmitted anywhere in the United States, predating all other commercial and public radio broadcasting by several years",
+          "textEs": "It was the very first radio broadcast of any kind ever transmitted anywhere in the United States, predating all other commercial and public radio broadcasting by several years",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It broadcast the first live jazz performance ever transmitted to a national radio audience, introducing the Harlem Renaissance sound to rural and small-town American communities",
+          "textEs": "It broadcast the first live jazz performance ever transmitted to a national radio audience, introducing the Renacimiento de Harlem sound to rural and small-town American communities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It was the first American radio program ever to feature racially integrated musical performances broadcast simultaneously to a national coast-to-coast audience",
+          "textEs": "It was the first American radio program ever to feature racially integrated musical performances broadcast simultaneously to a national coast-to-coast audience",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice B refers to radio or mass media, not the historical point being tested; choice D refers to radio or mass media, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "explanationEs": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice B refers to radio or mass media, not the historical point being tested; choice D refers to radio or mass media, not the historical point being tested. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.45,
+        "b": -1.28,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "q-us30-dok3-178",
+      "stem": "Analyze the cultural significance of country and blues music in the 1920s:",
+      "stemEs": "Analiza la significancia cultural de la música country y blues en los años 1920:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Published train schedules, job listings, and stories about Northern opportunities",
+          "textEs": "Estos géneros permanecieron aislados dentro de sus comunidades regionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Created economic independence and served the needs of segregated Black communities",
+          "textEs": "Fueron principalmente interpretados por artistas urbanos ricos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They reflected the experiences and struggles of rural and working-class Americans",
+          "textEs": "Reflejaron las experiencias y luchas de estadounidenses rurales y de clase trabajadora",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Jim Crow segregation, racial violence, and limited economic opportunity in farming",
+          "textEs": "No tuvieron influencia en otras formas de música popular estadounidense",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Country and blues music grew out of rural and working-class experiences, and performers such as W.C. Handy and Bessie Smith helped bring those traditions to national audiences. Choice B mentions an effect or consequence rather than the item being identified, but it does not match the main cause or significance in the question; choice A mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Their success showed that regional and Black musical traditions were reshaping American popular culture.",
+      "explanationEs": "La música country y blues surgió de las experiencias de estadounidenses rurales y de clase trabajadora—country de comunidades blancas de los Apalaches y del Sur, blues de comunidades afroamericanas. Ambos géneros expresaron auténticamente las luchas, alegrías y vidas cotidianas de gente común.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.19,
+        "b": 0.76,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "PSTIM-0038",
+      "stem": "Use the poster to answer the question.\n\nThis World War I propaganda poster features a menacing depiction of a German soldier with the text \"Beat back the HUN with LIBERTY BONDS.\"\n\n(Poster, c. 1918. National Archives, NARA 512638.)\n\nHow does this poster reflect the U.S. government's use of propaganda during World War I?",
+      "stemEs": "¿Cómo refleja este póster el uso de propaganda por parte del gobierno durante la Primera Guerra Mundial?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The government relied solely on factual reporting to inform citizens about the war's progress",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Private companies independently created anti-German advertisements without government involvement",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The government used emotional appeals and dehumanizing imagery to build public support and raise war funds",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The poster was created after the war ended to justify American involvement in the conflict",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Committee on Public Information (CPI) coordinated a massive propaganda campaign using posters, films, and speakers. This poster exemplifies how the government used dehumanizing imagery to create fear and motivate financial contributions.",
+      "explanationEs": "El Comité de Información Pública coordinó una campaña masiva de propaganda con imágenes deshumanizadoras.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-30-q07",
+      "stem": "The rise of country and blues music in the 1920s demonstrated that:",
+      "stemEs": "The rise of country and blues music in the 1920s demonstrated that:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "American music was dominated exclusively by classical and European concert traditions",
+          "textEs": "American music was dominated exclusively by classical and European concert traditions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Radio and recording technology had no impact on music's popularity",
+          "textEs": "Radio and recording technology had no impact on music's popularity",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "American popular music was becoming increasingly diverse and rooted in regional, racial",
+          "textEs": "American popular music was becoming increasingly diverse and rooted in regional, racial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "African American and Southern white cultures had no distinct musical",
+          "textEs": "African American and Southern white cultures had no distinct musical",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Country and blues music grew out of rural and working-class experiences, and performers such as W.C. Handy and Bessie Smith helped bring those traditions to national audiences. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. Their success showed that regional and Black musical traditions were reshaping American popular culture.",
+      "explanationEs": "Country and blues music grew out of rural and working-class experiences, and performers such as W.C. Handy and Bessie Smith helped bring those traditions to national audiences. Choice A refers to a related idea from the era, but not the best answer here, not the historical point being tested; choice D refers to a related idea from the era, but not the best answer here, not the historical point being tested. Their success showed that regional and Black musical traditions were reshaping American popular culture.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 2.15,
+        "b": 1.31,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-30-q10",
+      "stem": "The long-term significance of country and blues music's emergence in the 1920s was that they:",
+      "stemEs": "The long-term significance of country and blues music's emergence in the 1920s was that they:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Established regional American music traditions as important",
+          "textEs": "Established regional American music traditions as important",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Had minimal lasting impact on American music or culture",
+          "textEs": "Had minimal lasting impact on American music or culture",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Prevented the development of other American musical genres",
+          "textEs": "Prevented the development of other American musical genres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Became exclusively the music of rural and poor communities",
+          "textEs": "Became exclusively the music of rural and poor communities",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Country and blues music grew out of rural and working-class experiences, and performers such as W.C. Handy and Bessie Smith helped bring those traditions to national audiences. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Their success showed that regional and Black musical traditions were reshaping American popular culture.",
+      "explanationEs": "Country and blues music grew out of rural and working-class experiences, and performers such as W.C. Handy and Bessie Smith helped bring those traditions to national audiences. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. Their success showed that regional and Black musical traditions were reshaping American popular culture.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 2.13,
+        "b": 0.8,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-32-tn13",
+      "stem": "Historians analyzing the Grand Ole Opry's cultural significance argue that it represents which broader pattern in American cultural history?",
+      "stemEs": "Historians analyzing the Grand Ole Opry's cultural significance argue that it represents which broader pattern in American cultural history?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The way mass commercial media simultaneously preserved and transformed regional folk traditions",
+          "textEs": "The way mass commercial media simultaneously preserved and transformed regional folk traditions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The federal government's successful effort to use mass media to standardize American regional cultures",
+          "textEs": "The gobierno federal's successful effort to use mass media to standardize American regional cultures",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The music industry's exploitation of Southern musicians who received no economic benefit from Nashville's commercial success",
+          "textEs": "The music industry's exploitation of Southern musicians who received no economic benefit from Nashville's commercial success",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The inevitable decline of regional American cultures as national media created a uniform mass culture by 1940",
+          "textEs": "The inevitable decline of regional American cultures as national media created a uniform mass culture by 1940",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Broadcast from Nashville starting in 1925, the Grand Ole Opry carried regional country performers to listeners across the country and made Nashville a music center. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice D mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "explanationEs": "Broadcast from Nashville starting in 1925, the Grand Ole Opry carried regional country performers to listeners across the country and made Nashville a music center. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice D mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.79,
+        "b": 1.64,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-32-x016",
+      "stem": "The Grand Ole Opry's significance to American cultural history is that it:",
+      "stemEs": "The Grand Ole Opry's significance to American cultural history is that it:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Demonstrates the complex relationship between regional folk tradition and commercial mass media",
+          "textEs": "Demonstrates the complex relationship between regional folk tradition and commercial mass media",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Preserved traditional music without allowing any commercial influence to change it",
+          "textEs": "Preserved traditional music without allowing any commercial influence to change it",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Single-handedly prevented the displacement of rural music by jazz and blues",
+          "textEs": "Single-handedly prevented the displacement of rural music by jazz and blues",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Was primarily significant for its economic impact on Nashville's hospitality industry",
+          "textEs": "fue principalmente significant for its economic impact on Nashville's hospitality industry",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions Harlem culture or jazz, but it does not match the main cause or significance in the question. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "explanationEs": "The Grand Ole Opry began on WSM radio in Nashville in 1925 and helped turn country music into a national form of entertainment. Choice B mentions a related idea from the era, but not the best answer here, but it does not match the main cause or significance in the question; choice C mentions Harlem culture or jazz, but it does not match the main cause or significance in the question. It showed how radio could preserve regional traditions while also commercializing them for a national audience.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.48,
+        "b": 1.16,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "us-30-x025",
+      "stem": "'Buying on margin' created systemic risk in the stock market because:",
+      "stemEs": "'Buying on margin' created systemic risk in the mercado de valores because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "If prices fell, investors couldn't cover their borrowed amounts, forcing panic sales that drove prices lower in a cascading spiral",
+          "textEs": "If prices fell, investors couldn't cover their borrowed amounts, forcing panic sales that drove prices lower in a cascading spiral",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Margin requirements priced out small investors, concentrating market risk in a small number of large speculators",
+          "textEs": "Margin requirements priced out small investors, concentrating market risk in a small number of large speculators",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The federal government had no regulatory authority over margin lending practices until Congress acted after the 1929 crash",
+          "textEs": "The gobierno federal had no regulatory authority over margin lending practices until Congreso acted after the 1929 crash",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Brokers retained the contractual right to call in margin loans at any time, regardless of current market conditions",
+          "textEs": "Brokers retained the contractual right to call in margin loans at any time, regardless of current market conditions",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Buying stocks on margin created systemic risk because investors borrowed heavily, and falling prices could trigger margin calls that forced more selling and pushed prices down even faster. Choice D names margin calls but not the chain reaction they created, and choice B is wrong because margin buying actually widened participation. That leverage helped turn a market decline into a broader financial crisis.",
+      "explanationEs": "Buying stocks on margin created systemic risk because investors borrowed heavily, and falling prices could trigger margin calls that forced more selling and pushed prices down even faster. Choice D names margin calls but not the chain reaction they created, and choice B is wrong because margin buying actually widened participation. That leverage helped turn a market decline into a broader financial crisis.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.16,
+        "b": 1.5,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u4-014",
+      "stem": "The Grand Ole Opry, founded in Nashville, Tennessee, in 1925, began as a radio program broadcasting traditional Appalachian string-band music to rural Southern audiences. Within a few years it had a national following. What does the Opry's expansion reveal about the relationship between regional musical traditions and the new mass media of the 1920s?",
+      "stemEs": "El Grand Ole Opry, fundado en Nashville, Tennessee, en 1925, comenzó como un programa de radio que transmitía música tradicional de grupos de cuerdas de los Apalaches para audiencias rurales del Sur. En pocos años tenía un seguimiento nacional. ¿Qué revela la expansión del Opry sobre la relación entre las tradiciones musicales regionales y los nuevos medios masivos de la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mass media both preserved regional musical traditions by broadcasting them to wider audiences and transformed those traditions into national commercial products.",
+          "textEs": "Los medios masivos preservaron las tradiciones musicales regionales al transmitirlas a audiencias más amplias y al mismo tiempo transformaron esas tradiciones en productos comerciales nacionales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Radio broadcasting replaced traditional regional music with a standardized national sound, eliminating local musical traditions entirely.",
+          "textEs": "La radiodifusión reemplazó la música regional tradicional con un sonido nacional estandarizado, eliminando por completo las tradiciones musicales locales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Opry's national success demonstrated that radio confined regional music to local audiences, preventing it from crossing cultural boundaries.",
+          "textEs": "El éxito nacional del Opry demostró que la radio confinó la música regional a audiencias locales, impidiéndola cruzar fronteras culturales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Grand Ole Opry preserved traditional Appalachian music in its original form without any commercial or cultural transformation.",
+          "textEs": "El Grand Ole Opry preservó la música tradicional de los Apalaches en su forma original sin ninguna transformación comercial o cultural.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Opry illustrates how mass media could simultaneously preserve and commercialize regional cultural forms — transmitting traditional music to broader audiences while transforming it into a national commodity. A captures this dual dynamic. B is too simple and ignores the preservation dimension. C is the opposite of what occurred; radio spread regional music nationally. D misrepresents the relationship — the Opry's radio format changed the music's context and commercial nature.",
+      "explanationEs": "El Opry ilustra cómo los medios masivos podían simultáneamente preservar y comercializar formas culturales regionales, transmitiendo música tradicional a audiencias más amplias mientras la transformaba en un producto nacional. A captura esta dinámica dual. B es demasiado simple e ignora la dimensión de preservación. C es lo opuesto de lo que ocurrió; la radio difundió la música regional a nivel nacional. D malinterpreta la relación: el formato de radio del Opry cambió el contexto y la naturaleza comercial de la música.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.28,
+        "b": 1.47,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u4-015",
+      "stem": "W.C. Handy, often called the \"Father of the Blues,\" published compositions that drew on the oral folk traditions of African American communities in the Deep South, packaging them for sheet music sales and commercial audiences. His work helped transition blues from an oral, community-based tradition to a published, commercially distributed genre. What tension does Handy's career illustrate about the preservation of African American musical culture?",
+      "stemEs": "W.C. Handy, a menudo llamado el 'Padre del Blues', publicó composiciones que tomaban de las tradiciones folclóricas orales de las comunidades afroamericanas en el Profundo Sur, empaquetándolas para la venta de partituras y audiencias comerciales. Su trabajo ayudó a transformar el blues de una tradición oral y comunitaria a un género publicado y distribuido comercialmente. ¿Qué tensión ilustra la carrera de Handy sobre la preservación de la cultura musical afroamericana?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Handy's publications faithfully preserved the blues tradition by recording its original forms without any commercial alteration.",
+          "textEs": "Las publicaciones de Handy preservaron fielmente la tradición del blues al registrar sus formas originales sin ninguna alteración comercial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Handy's work transitioned blues into minstrel show entertainment, erasing its African American cultural origins.",
+          "textEs": "El trabajo de Handy transformó el blues en entretenimiento de espectáculos de minstrel, borrando sus orígenes culturales afroamericanos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Commercializing an oral tradition simultaneously spread and preserved it while potentially shifting cultural ownership and profits away from the communities that created it.",
+          "textEs": "La comercialización de una tradición oral simultáneamente la difundió y preservó, mientras potencialmente desplazaba la propiedad cultural y las ganancias lejos de las comunidades que la crearon.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Commercial publication of blues music prevented it from gaining national influence, confining it to regional African American audiences.",
+          "textEs": "La publicación comercial de la música blues impidió que ganara influencia nacional, confinándola a audiencias afroamericanas regionales.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Handy's commercialization of blues created a genuine tension: publication preserved and spread the tradition while simultaneously shifting authorship, profits, and cultural ownership away from anonymous community creators toward commercial publishers and named composers. C captures this preservation-vs.-appropriation tension. A oversimplifies by framing pure preservation. B is factually inaccurate about minstrel shows in this context. D misrepresents the outcome — the blues became enormously influential nationally.",
+      "explanationEs": "La comercialización del blues por parte de Handy creó una tensión genuina: la publicación preservó y difundió la tradición mientras simultáneamente desplazaba la autoría, las ganancias y la propiedad cultural lejos de los creadores comunitarios anónimos hacia las editoriales comerciales y los compositores nominales. C captura esta tensión entre preservación y apropiación. A simplifica en exceso al enmarcar la preservación pura. B es factualmente inexacto sobre los espectáculos de minstrel en este contexto. D malinterpreta el resultado: el blues se volvió enormemente influyente a nivel nacional.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.11,
+        "b": 1.44,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u4-016",
+      "stem": "Bessie Smith, known as the \"Empress of the Blues,\" became one of the best-selling recording artists of the 1920s. Her recordings sold predominantly in the Black community through a category the recording industry called \"race records.\" Yet white-owned record companies profited substantially from these sales. What does this arrangement reveal about the economics of African American cultural production in the 1920s?",
+      "stemEs": "Bessie Smith, conocida como la 'Emperatriz del Blues', se convirtió en una de las artistas con más ventas de discos de la década de 1920. Sus grabaciones se vendían predominantemente en la comunidad negra a través de una categoría que la industria discográfica llamaba 'discos de raza'. Sin embargo, las compañías discográficas de propiedad blanca se beneficiaban sustancialmente de estas ventas. ¿Qué revela este arreglo sobre la economía de la producción cultural afroamericana en la década de 1920?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Black artists like Bessie Smith gained complete creative and economic control over their work, demonstrating the music industry's racial equality in the 1920s.",
+          "textEs": "Artistas negros como Bessie Smith obtuvieron control creativo y económico completo sobre su trabajo, demostrando la igualdad racial de la industria musical en la década de 1920.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "African American artists created cultural value that white-owned companies largely captured financially, reflecting a broader pattern of racial economic inequality in the 1920s.",
+          "textEs": "Los artistas afroamericanos crearon valor cultural que las compañías de propiedad blanca capturaron en gran medida financieramente, reflejando un patrón más amplio de desigualdad económica racial en la década de 1920.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "White-owned record companies refused to profit from Black music, funding Black artists through charitable grants rather than commercial contracts.",
+          "textEs": "Las compañías discográficas de propiedad blanca se negaron a beneficiarse de la música negra, financiando a artistas negros a través de subvenciones benéficas en lugar de contratos comerciales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Race records were specifically marketed to white audiences who sought authentic African American cultural experiences.",
+          "textEs": "Los discos de raza se comercializaban específicamente para audiencias blancas que buscaban experiencias culturales afroamericanas auténticas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The race records system illustrates a structural pattern of economic extraction — Black artists created cultural value that white-owned industries captured most of the financial profit from, while Black communities consumed their own cultural products through a segregated market. B correctly identifies this exploitative economic structure. A describes Bessie Smith's personal success but misses the structural power imbalance. C is the opposite of what occurred; white-owned companies profited enormously. D misrepresents the market — race records reached a primarily Black audience in the 1920s.",
+      "explanationEs": "El sistema de 'discos de raza' ilustra un patrón estructural de extracción económica: los artistas negros creaban valor cultural del que las industrias de propiedad blanca capturaban la mayor parte de las ganancias financieras, mientras las comunidades negras consumían sus propios productos culturales a través de un mercado segregado. B identifica correctamente esta estructura económica explotadora. A describe el éxito personal de Bessie Smith pero pasa por alto el desequilibrio de poder estructural. C es lo opuesto de lo que ocurrió; las compañías de propiedad blanca obtuvieron enormes ganancias. D malinterpreta el mercado: los discos de raza llegaban principalmente a una audiencia negra en la década de 1920.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 0.96,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u4-017",
+      "stem": "Country music and blues developed simultaneously in the 1920s, both rooted in Southern folk traditions but emerging from different communities — blues primarily from African American experience and country from white rural Appalachian traditions. Yet the two genres share structural similarities in instrumentation, lyrical themes, and emotional expression. What conclusion can historians draw from these shared characteristics?",
+      "stemEs": "La música country y el blues se desarrollaron simultáneamente en la década de 1920, ambos enraizados en las tradiciones folclóricas del Sur pero surgiendo de comunidades diferentes: el blues principalmente de la experiencia afroamericana y el country de las tradiciones rurales blancas de los Apalaches. Sin embargo, los dos géneros comparten similitudes estructurales en instrumentación, temas líricos y expresión emocional. ¿Qué conclusión pueden sacar los historiadores de estas características compartidas?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Country and blues developed entirely independently with no cultural exchange between their respective communities.",
+          "textEs": "El country y el blues se desarrollaron de manera completamente independiente sin ningún intercambio cultural entre sus respectivas comunidades.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Country music was directly derived from blues, with white musicians adopting and commercializing an African American art form without acknowledgment.",
+          "textEs": "La música country se derivó directamente del blues, con músicos blancos adoptando y comercializando una forma de arte afroamericana sin reconocimiento.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The two genres merged into a single unified Southern musical tradition by the end of the 1920s.",
+          "textEs": "Los dos géneros se fusionaron en una única tradición musical sureña unificada para finales de la década de 1920.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Despite legal segregation, centuries of cultural exchange between Black and white Southerners produced shared musical foundations that crossed racial boundaries.",
+          "textEs": "A pesar de la segregación legal, siglos de intercambio cultural entre sureños negros y blancos produjeron fundamentos musicales compartidos que cruzaron las fronteras raciales.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The structural similarities between blues and country reflect centuries of cultural exchange between Black and white Southern communities who shared geographic space, work conditions, and musical influences despite legal segregation. D correctly identifies this cross-cultural exchange within a segregated society. A creates a false dichotomy by suggesting the genres were entirely separate. B oversimplifies by suggesting one genre derived purely from the other. C is inaccurate — the genres remained commercially and culturally distinct.",
+      "explanationEs": "Las similitudes estructurales entre el blues y el country reflejan siglos de intercambio cultural entre comunidades sureñas negras y blancas que compartían espacio geográfico, condiciones de trabajo e influencias musicales a pesar de la segregación legal. D identifica correctamente este intercambio intercultural dentro de una sociedad segregada. A crea una falsa dicotomía al sugerir que los géneros eran completamente separados. B simplifica en exceso al sugerir que un género derivó puramente del otro. C es inexacto: los géneros permanecieron distintos comercialmente y culturalmente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.67,
+        "b": 1.45,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u4-018",
+      "stem": "The introduction of commercial radio in the 1920s gave country music and blues artists access to audiences they could never have reached through live performance alone. However, critics from these communities sometimes argued that radio broadcast \"cleaned up\" or altered their music to appeal to broader commercial audiences. What does this tension reveal about the impact of mass media on folk music traditions?",
+      "stemEs": "La introducción de la radio comercial en la década de 1920 dio a los artistas de country y blues acceso a audiencias a las que nunca podrían haber llegado solo a través de actuaciones en vivo. Sin embargo, críticos de estas comunidades a veces argumentaban que la transmisión de radio suavizaba o alteraba su música para atraer a audiencias comerciales más amplias. ¿Qué revela esta tensión sobre el impacto de los medios masivos en las tradiciones musicales folclóricas?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mass media had purely positive effects on folk music, spreading authentic traditions to larger audiences without any cultural change.",
+          "textEs": "Los medios masivos tuvieron efectos puramente positivos en la música folclórica, difundiendo tradiciones auténticas a audiencias más grandes sin ningún cambio cultural.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Radio stations deliberately altered folk music to destroy its cultural significance and sell mainstream white audiences a sanitized product.",
+          "textEs": "Las estaciones de radio alteraron deliberadamente la música folclórica para destruir su significado cultural y vender a las audiencias blancas convencionales un producto esterilizado.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Broader commercial reach required cultural modification, creating a tension between wider distribution and authentic preservation of community-rooted musical traditions.",
+          "textEs": "El alcance comercial más amplio requería modificación cultural, creando una tensión entre la distribución más amplia y la preservación auténtica de las tradiciones musicales enraizadas en la comunidad.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Commercial radio broadcasts completely destroyed folk music traditions by the end of the 1920s, replacing them with standardized commercial entertainment.",
+          "textEs": "Las transmisiones de radio comerciales destruyeron completamente las tradiciones musicales folclóricas para finales de la década de 1920, reemplazándolas con entretenimiento comercial estandarizado.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Mass media created a paradox for folk music traditions: broader reach required commercial standardization, which altered the music's authentic characteristics and community-specific meaning. This expansion-through-transformation is a core tension of cultural commodification. C captures this paradox accurately. A is one-dimensional and ignores the alteration dimension. B presents an unfounded conspiratorial claim. D overstates the result — folk traditions were not destroyed but transformed.",
+      "explanationEs": "Los medios masivos crearon una paradoja para las tradiciones musicales folclóricas: el alcance más amplio requería estandarización comercial, que alteraba las características auténticas de la música y su significado específico para la comunidad. Esta expansión mediante la transformación es una tensión central de la mercantilización cultural. C captura esta paradoja con precisión. A es unidimensional e ignora la dimensión de alteración. B presenta una afirmación conspirativa sin fundamento. D exagera el resultado: las tradiciones folclóricas no fueron destruidas sino transformadas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.56,
+        "b": 0.71,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "dok3-gen-u4-061",
+      "stem": "Country music's commercial development in the 1920s was closely linked to the recording industry and radio broadcasting. Record companies like Victor sent talent scouts into the rural South and Appalachian regions to record local musicians, often under contracts that gave the company most of the royalties. This process is sometimes called the 'extraction' of folk culture. What economic relationship does this process most clearly illustrate?",
+      "stemEs": "El desarrollo comercial de la música country en la década de 1920 estaba estrechamente vinculado a la industria discográfica y la radiodifusión. Compañías discográficas como Victor enviaban cazatalentos al Sur rural y las regiones de los Apalaches para grabar a músicos locales, a menudo bajo contratos que daban a la compañía la mayor parte de las regalías. Este proceso a veces se llama la 'extracción' de la cultura folclórica. ¿Qué relación económica ilustra más claramente este proceso?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A mutually beneficial partnership where musicians received fair compensation while record companies profitably distributed their music to national audiences.",
+          "textEs": "Una asociación mutuamente beneficiosa donde los músicos recibían una compensación justa mientras las compañías discográficas distribuían rentablemente su música a audiencias nacionales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A free market transaction where rural musicians freely sold their labor at market rates to recording companies that competed vigorously for their talent.",
+          "textEs": "Una transacción de libre mercado donde los músicos rurales vendían libremente su trabajo a precios de mercado a compañías discográficas que competían vigorosamente por su talento.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "An extractive economic relationship where commercial enterprises captured cultural value from peripheral communities through asymmetric contracts, monetizing that value for national markets while returning little to the creators.",
+          "textEs": "Una relación económica extractiva donde las empresas comerciales capturaban el valor cultural de las comunidades periféricas a través de contratos asimétricos, monetizando ese valor para los mercados nacionales mientras devolvían poco a los creadores.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A charitable relationship where record companies preserved traditional music for posterity because rural musicians preferred to remain anonymous rather than receive commercial recognition.",
+          "textEs": "Una relación caritativa donde las compañías discográficas preservaban la música tradicional para la posteridad porque los músicos rurales preferían permanecer anónimos en lugar de recibir reconocimiento comercial.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The talent-scout recording process exemplifies cultural capital extraction — urban commercial enterprises identifying cultural value produced in peripheral communities, capturing it through asymmetric contracts, and monetizing it for national markets while returning little to the communities of origin. C correctly identifies this extractive economic relationship. A misrepresents the relationship as mutual benefit when the contract terms were structurally asymmetric. B describes a market relationship that existed but misses the power asymmetry and extraction dimension. D presents a false empirical claim about musicians' preference for anonymity.",
+      "explanationEs": "El proceso de grabación de cazatalentos ejemplifica la extracción de capital cultural: empresas comerciales urbanas que identifican el valor cultural producido en comunidades periféricas, lo capturan a través de contratos asimétricos y lo monetizan para los mercados nacionales mientras devuelven poco a las comunidades de origen. C identifica correctamente esta relación económica extractiva. A malinterpreta la relación como beneficio mutuo cuando los términos del contrato eran estructuralmente asimétricos. B describe una relación de mercado que existió pero pasa por alto la asimetría de poder y la dimensión de extracción. D presenta una afirmación empírica falsa sobre la preferencia de los músicos por el anonimato.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.72,
+        "b": 1.15,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "U4-DOK3-0013",
+      "stem": "Which conclusion about international law and accountability is best supported by the establishment of the Nuremberg Trials in 1945?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Allied powers established the trials primarily to recover financial assets and property that Nazi officials had stolen from Holocaust victims.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Allied powers believed that German military officers alone bore criminal responsibility for the Holocaust and should face individual punishment.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "International law had long established clear procedures for prosecuting genocide that the Nuremberg Trials were designed to apply.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The international community determined that individuals could be held criminally responsible for crimes against humanity, even when acting under official government orders.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Nuremberg Trials established the landmark legal principle that 'following orders' does not excuse crimes against humanity — a foundation of modern international humanitarian law.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    },
+    {
+      "id": "PSTIM-0039",
+      "stem": "Use the poster to answer the question.\n\nThis World War I propaganda poster features a menacing depiction of a German soldier with the text \"Beat back the HUN with LIBERTY BONDS.\"\n\n(Poster, c. 1918. National Archives, NARA 512638.)\n\nTo what extent did government propaganda like this poster affect both the war effort and civil liberties in the United States during World War I?",
+      "stemEs": "¿En qué medida la propaganda gubernamental afectó tanto el esfuerzo bélico como las libertades civiles?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Propaganda had little impact because most Americans already supported the war before seeing government posters",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Propaganda successfully mobilized financial support but also fueled anti-German sentiment that contributed to restrictions on free speech and civil liberties",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Propaganda was only effective in urban areas because rural Americans did not have access to printed materials",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Propaganda led directly to the United States' decision to enter World War I in 1917",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.32"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Government propaganda successfully mobilized public support and raised billions through Liberty Bonds, but also fueled anti-German hysteria that led to suppression of civil liberties through the Espionage Act (1917) and Sedition Act (1918).",
+      "explanationEs": "La propaganda movilizó apoyo público pero también alimentó histeria anti-alemana que llevó a restricciones de libertades civiles.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 1,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-4/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.30"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.30->US.32: checklist intact (3 element(s))"
+        ],
+        "alignmentReview": null
+      }
+    }
+  ]
+}

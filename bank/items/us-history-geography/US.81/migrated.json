@@ -1,0 +1,3248 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.81",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us68-dok1-1",
+      "stem": "What was rock 'n' roll?",
+      "stemEs": "¿Qué fue el rock 'n' roll?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A congressional resolution giving the president broad war powers in Vietnam",
+          "textEs": "Música folk que se enfocó principalmente en protesta política y temas sociales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Adult anxiety about youth rebellion, nonconformity, and changing social values",
+          "textEs": "Música jazz tradicional que era más popular con audiencias adultas mayores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It challenged racial segregation, sexual norms, and established adult authority",
+          "textEs": "Música swing de big band que dominó estaciones de radio estadounidenses en la década",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Music blending rhythm and blues with country that challenged racial barriers",
+          "textEs": "Música mezclando rhythm and blues con country que desafió barreras raciales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Rock 'n' roll was Music blending rhythm and blues with country that challenged racial barriers. Choice C is wrong because it describes it challenged racial segregation, sexual norms, and established adult authority, not music blending rhythm and blues with country that challenged racial barriers. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "El rock 'n' roll emergió en los años 1950 mezclando rhythm and blues afroamericano con música country blanca, desafiando segregación racial y convirtiéndose en la banda sonora de rebelión juvenil.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -1.74,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us68-dok1-4",
+      "stem": "What were napalm and Agent Orange used for in Vietnam?",
+      "stemEs": "¿Para qué se usaron el napalm y el Agente Naranja en Vietnam?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "One was a jellied-gasoline incendiary that incinerated cover and personnel; the other stripped foliage",
+          "textEs": "El napalm era un arma incendiaria y el Agente Naranja era un defoliante químico",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It shattered public confidence that the U.S. was winning the Vietnam War",
+          "textEs": "Eran suministros médicos usados para tratar soldados estadounidenses heridos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A congressional resolution giving the president broad war powers in Vietnam",
+          "textEs": "Eran suministros de comida lanzados a civiles vietnamitas en zonas de guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Music blending rhythm and blues with country that challenged racial barriers",
+          "textEs": "Eran nombres en clave para negociaciones diplomáticas con Vietnam del Norte",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Napalm was an incendiary weapon and Agent Orange was a chemical defoliant. Choice B is wrong because it describes it shattered public confidence that the U.S. was winning the Vietnam War, not napalm was an incendiary weapon and Agent Orange was a chemical defoliant. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "El napalm era gasolina gelificada lanzada desde aviones que quemaba todo lo que tocaba. El Agente Naranja era un herbicida químico usado para destruir la cobertura selvática. Ambos causaron daño devastador.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.58,
+        "b": -1.12,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-60-q01",
+      "stem": "The Paris Peace Accords (January 1973) established a ceasefire in Vietnam and called for the withdrawal of U.S. forces. Saigon, the capital of South Vietnam, fell to North Vietnamese forces on —",
+      "stemEs": "Los Acuerdos de Paz de París (enero de 1973) establecieron un alto el fuego en Vietnam y estipularon la retirada de las fuerzas de los EE.UU. Saigón, la capital de Vietnam del Sur, cayó ante las fuerzas de Vietnam del Norte el —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "April 30, 1975",
+          "textEs": "El 30 de abril de 1975",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "January 27, 1973",
+          "textEs": "El 27 de enero de 1973",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "December 31, 1975",
+          "textEs": "El 31 de diciembre de 1975",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "August 9, 1974",
+          "textEs": "El 9 de agosto de 1974",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "April 30, 1975. Choice B is wrong because january 27, 1973 is not the correct date or length for this event. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "El 30 de abril de 1975. La opción B es incorrecta porque el 27 de enero de 1973 no es la fecha ni la duración correcta para este evento. La era de Vietnam profundizó la brecha de credibilidad e hizo a los estadounidenses más escépticos respecto al uso de la guerra por parte del poder ejecutivo.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.74,
+        "b": -1.68,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-60-q06",
+      "stem": "The Fall of Saigon (April 30, 1975) occurred when —",
+      "stemEs": "La Caída de Saigón (30 de abril de 1975) ocurrió cuando —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "South Vietnamese forces repelled the North Vietnamese attack with U.S. air support, which historians consider a secondary factor in this development",
+          "textEs": "Las fuerzas survietnamitas repelieron el ataque norvietnamita con apoyo aéreo de los EE.UU., lo cual los historiadores consideran un factor secundario en este desarrollo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "U.S. forces withdrew in good order after completing their mission, which historians consider a secondary factor in this development",
+          "textEs": "Las fuerzas de los EE.UU. se retiraron en orden después de cumplir su misión, lo cual los historiadores consideran un factor secundario en este desarrollo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A negotiated peace allowed both governments to share power, which historians consider a secondary factor in this development",
+          "textEs": "Una paz negociada permitió a ambos gobiernos compartir el poder, lo cual los historiadores consideran un factor secundario en este desarrollo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "North Vietnamese forces captured Saigon two years after the U.S. withdrawal, completing their conquest of South Vietnam and unifying the country under communist rule",
+          "textEs": "Las fuerzas de Vietnam del Norte tomaron Saigón dos años después de la retirada de los EE.UU., completando su conquista de Vietnam del Sur",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "North Vietnamese forces captured Saigon two years after the U.S. withdrawal, completing their conquest of South Vietnam and unifying the country under communist rule — the final collapse of the South Vietnamese government. Choice A is wrong because it describes south Vietnamese forces repelled the North Vietnamese attack with U.S. air support, which historians consider a secondary factor in this development, not north Vietnamese forces captured Saigon two years after the U.S. withdrawal, completing their conquest of South Vietnam and unifying the country under communist rule — the final collapse of the South Vietnamese government. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "Las fuerzas de Vietnam del Norte tomaron Saigón dos años después de la retirada de los EE.UU., completando su conquista de Vietnam del Sur. La opción A es incorrecta porque describe que las fuerzas survietnamitas repelieron el ataque norvietnamita con apoyo aéreo de los EE.UU., lo cual los historiadores consideran un factor secundario en este desarrollo. La era de Vietnam profundizó la brecha de credibilidad e hizo a los estadounidenses más escépticos respecto al uso de la guerra por parte del poder ejecutivo.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.71,
+        "b": -1.43,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-61-q02",
+      "stem": "The 26th Amendment (1971) lowered the voting age from 21 to 18. The primary argument for this change was —",
+      "stemEs": "La 26.ª Enmienda (1971) redujo la edad para votar de 21 a 18 años. El argumento principal para este cambio fue —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Young Americans drafted to fight in Vietnam were old enough to vote for the leaders who sent them to war",
+          "textEs": "Los jóvenes estadounidenses reclutados para luchar en Vietnam tenían edad suficiente para votar por los líderes que los enviaban a combatir",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "All major Western democracies had already lowered their voting ages to 18 by the mid-1960s",
+          "textEs": "Todas las principales democracias occidentales ya habían reducido su edad para votar a 18 años a mediados de los sesenta",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "18-year-olds had demonstrated exceptional civic maturity and educational attainment compared to prior generations",
+          "textEs": "Los jóvenes de 18 años habían demostrado una madurez cívica y un nivel educativo excepcionales en comparación con generaciones anteriores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Supreme Court had ruled that the existing voting age was unconstitutional under the 26th Amendment",
+          "textEs": "La Corte Suprema había resuelto que la edad para votar vigente era inconstitucional bajo la 26.ª Enmienda",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Young Americans who were old enough to be drafted and die in Vietnam were old enough to vote for the leaders who sent them. Choice B is wrong because it describes all Western democracies had already lowered their voting ages to 18, not young Americans who were old enough to be drafted and die in Vietnam were old enough to vote for the leaders who sent them. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "Los jóvenes estadounidenses que tenían edad suficiente para ser reclutados y morir en Vietnam tenían edad suficiente para votar por los líderes que los enviaban a combatir. La opción B es incorrecta porque describe que todas las principales democracias occidentales ya habían reducido su edad para votar a 18 años a mediados de los sesenta, lo cual los historiadores consideran un factor secundario en este desarrollo. La 26.ª Enmienda representó la expansión más reciente del derecho al sufragio en la historia constitucional estadounidense.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.08,
+        "b": -1.53,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-q04",
+      "stem": "The 'Contract with America,' which Gingrich and House Republicans signed in 1994, pledged to —",
+      "stemEs": "The 'Contract with America,' which Gingrich and House repúblicaans signed in 1994, pledged to:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pass a specific list of legislation within the first 100 days of the new Congress",
+          "textEs": "Pass a specific list of legislación within the first 100 days of the new Congreso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Cut all government spending by 50% in the first year",
+          "textEs": "Recortar todo el gasto gubernamental en un 50% durante el primer año",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Impeach President Clinton regardless of the evidence",
+          "textEs": "Someter a juicio político al presidente Clinton independientemente de las pruebas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Withdraw the United States from all international organizations",
+          "textEs": "Retirar a los Estados Unidos de todas las organizaciones internacionales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Pass a specific list of legislation within the first 100 days of the new Congress. Choice B is wrong because it describes cut all government spending by 50% in the first year, not pass a specific list of legislation within the first 100 days of the new Congress. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "Pass a specific list of legislación within the first 100 days of the new Congreso. Choice B is wrong because it describes cut all government spending by 50% in the first year, not pass a specific list of legislación within the first 100 days of the new Congreso. These battles intensified partisan polarization and changed how Congreso and the presidency confronted each other.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.1,
+        "b": -1.52,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-60-x016",
+      "stem": "The Paris Peace Accords (1973) resulted in —",
+      "stemEs": "The Paris Peace Accords (1973) resultó en:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "International supervision of free elections throughout Vietnam",
+          "textEs": "La supervisión internacional de elecciones libres en todo Vietnam",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A ceasefire and the withdrawal of U.S. combat forces from Vietnam",
+          "textEs": "Un alto el fuego y la retirada de las fuerzas de combate de los EE.UU. de Vietnam",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "An immediate withdrawal of all North Vietnamese forces from South Vietnam",
+          "textEs": "Una retirada inmediata de todas las fuerzas de Vietnam del Norte de Vietnam del Sur",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "South Vietnam being partitioned into two independent nations permanently",
+          "textEs": "La división permanente de Vietnam del Sur en dos naciones independientes",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A ceasefire and the withdrawal of U.S. combat forces from Vietnam. Choice C is wrong because it describes immediate withdrawal of all North Vietnamese forces from South Vietnam, not ceasefire and the withdrawal of U.S. combat forces from Vietnam. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "Un alto el fuego y la retirada de las fuerzas de combate de los EE.UU. de Vietnam. La opción C es incorrecta porque describe la retirada inmediata de todas las fuerzas de Vietnam del Norte de Vietnam del Sur, no un alto el fuego y una retirada estadounidense. La era de Vietnam profundizó la brecha de credibilidad.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -0.6,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x013",
+      "stem": "The 'Contract with America,' championed by Newt Gingrich in 1994, was a —",
+      "stemEs": "El 'Contrato con América', impulsado por Newt Gingrich en 1994, fue un —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A constitutional amendment package requiring a balanced federal budget, congressional term limits, and a line-item veto",
+          "textEs": "Un paquete de enmiendas constitucionales que exigía un presupuesto federal equilibrado, límites de mandato para el Congreso y otras reformas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Republican legislative agenda promising specific bills to be voted on in the first 100 days of the new Congress",
+          "textEs": "repúblicaan legislative agenda promising specific bills to be voted on in the first 100 days of the new Congreso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A detailed federal budget proposal designed to eliminate the deficit within five years through spending caps",
+          "textEs": "Una propuesta detallada de presupuesto federal diseñada para eliminar el déficit en cinco años mediante recortes de gasto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A set of principles for reforming the federal welfare system by imposing work requirements and time limits",
+          "textEs": "Un conjunto de principios para reformar el sistema federal de bienestar imponiendo requisitos de trabajo y límites de tiempo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Republican legislative agenda promising specific bills to be voted on in the first 100 days of the new Congress. Choice A is wrong because it describes constitutional amendment package requiring a balanced budget and term limits, not republican legislative agenda promising specific bills to be voted on in the first 100 days of the new Congress. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "repúblicaan legislative agenda promising specific bills to be voted on in the first 100 days of the new Congreso. Choice A is wrong because it describes constitucional enmienda package requiring a balanced budget and term limits, not repúblicaan legislative agenda promising specific bills to be voted on in the first 100 days of the new Congreso. These battles intensified partisan polarization and changed how Congreso and the presidency confronted each other.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.73,
+        "b": -1.74,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x015",
+      "stem": "The government shutdowns during the Clinton-Gingrich confrontations of 1995-96 resulted primarily from disputes over —",
+      "stemEs": "Los cierres del gobierno durante las confrontaciones Clinton-Gingrich de 1995-96 resultaron principalmente de —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Foreign policy — specifically Republican opposition to Clinton's interventions in Haiti and Bosnia",
+          "textEs": "política exterior — specifically repúblicaan opposition to Clinton's interventions in Haiti and Bosnia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The federal budget — specifically Republican demands for deeper spending cuts than Clinton would accept",
+          "textEs": "The federal budget — specifically repúblicaan demands for deeper spending cuts than Clinton would accept",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Trade policy — specifically Republican opposition to NAFTA's implementation",
+          "textEs": "comercio policy — specifically repúblicaan opposition to NAFTA's implementation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Social policy — specifically the Republican push to ban abortion using the budget process",
+          "textEs": "Social policy — specifically the repúblicaan push to ban abortion using the budget process",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The federal budget — specifically Republican demands for deeper spending cuts than Clinton would accept. Choice D is wrong because it describes social policy — specifically the Republican push to ban abortion using the budget process, not federal budget — specifically Republican demands for deeper spending cuts than Clinton would accept. The NAFTA debate captured the larger 1990s argument over globalization, jobs, and the role of trade in the U.S. economy.",
+      "explanationEs": "The federal budget — specifically repúblicaan demands for deeper spending cuts than Clinton would accept. Choice D is wrong because it describes social policy — specifically the repúblicaan push to ban abortion using the budget process, not federal budget — specifically repúblicaan demands for deeper spending cuts than Clinton would accept. The NAFTA debate captured the larger 1990s argument over globalización, jobs, and the role of comercio in the U.S. economy.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.74,
+        "b": -0.55,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x018",
+      "stem": "The Supreme Court case Clinton v. Jones (1997) ruled that —",
+      "stemEs": "El caso de la Corte Suprema Clinton contra Jones (1997) resolvió que —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congressional subpoenas of a sitting president were an unconstitutional violation of separation of powers",
+          "textEs": "Las citaciones judiciales del Congreso a un presidente en ejercicio constituirían una violación inconstitucional de la separación de poderes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A sitting president could be required to respond to a civil lawsuit for private conduct predating his presidency",
+          "textEs": "Un presidente en ejercicio podría ser obligado a responder a una demanda civil por conducta privada anterior a su presidencia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The president's communications with White House lawyers were protected by executive privilege",
+          "textEs": "Las comunicaciones del presidente con los abogados de la Casa Blanca estaban protegidas por el privilegio ejecutivo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A sitting president could not be named in criminal proceedings while in office",
+          "textEs": "Un presidente en ejercicio no podía ser incluido en procedimientos penales mientras estuviera en el cargo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A sitting president could be required to respond to a civil lawsuit for private conduct predating his presidency. Choice D is wrong because it describes sitting president could not be named in criminal proceedings while in office, not sitting president could be required to respond to a civil lawsuit for private conduct predating his presidency. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "Un presidente en ejercicio podría ser obligado a responder a una demanda civil por conducta privada anterior a su presidencia. La opción A es incorrecta porque describe que las citaciones judiciales del Congreso a un presidente en ejercicio constituirían una violación inconstitucional de la separación de poderes, no la norma establecida. El fallo contribuyó a la eventual crisis del juicio político.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.5,
+        "b": -1.24,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x025",
+      "stem": "The House voted to impeach Clinton on charges of —",
+      "stemEs": "La Cámara votó para someter a juicio político a Clinton por cargos de —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Domestic anti-Communist investigations and loyalty programs",
+          "textEs": "Investigaciones anticomunistas domésticas y programas de lealtad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Perjury and obstruction of justice related to false statements in the Paula Jones sexual harassment lawsuit",
+          "textEs": "Perjurio y obstrucción de la justicia relacionados con declaraciones falsas en el juicio por acoso sexual de Paula Jones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Campaign finance fraud and obstruction of justice related to the Whitewater real estate investigation",
+          "textEs": "Fraude en la financiación de campaña y obstrucción de la justicia relacionados con la investigación del acuerdo inmobiliario de Whitewater",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Abuse of power and bribery related to his use of the White House for campaign fundraising",
+          "textEs": "Abuso de poder y soborno relacionados con el uso de la Casa Blanca para la recaudación de fondos de campaña",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Perjury and obstruction of justice related to false statements in the Paula Jones sexual harassment lawsuit. Choice A is wrong because the mixed option includes at least one claim that does not fit the historical evidence as well as the best answer does. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "Perjurio y obstrucción de la justicia relacionados con declaraciones falsas en el juicio por acoso sexual de Paula Jones. La opción A es incorrecta porque describe investigaciones anticomunistas domésticas y programas de lealtad, no los cargos reales del juicio político. El juicio político intensificó la guerra partidista.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -1.57,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us70-dok2-4",
+      "stem": "What was the anti-war movement's response to the Kent State shootings in 1970?",
+      "stemEs": "¿Cuál fue la respuesta del movimiento antibelicista a los disparos de Kent State en 1970?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Nationwide campus protests erupted and hundreds of universities shut down",
+          "textEs": "En todo el país estallaron protestas en los campus y cientos de universidades cerraron",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A period of easing tensions between the U.S. and Soviet Union in the 1970s",
+          "textEs": "Los estudiantes dejaron de protestar por miedo después de los disparos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Arms limitation agreements that capped nuclear weapons between superpowers",
+          "textEs": "El Congreso inmediatamente declaró la guerra a Vietnam del Norte",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It eliminated an entire class of nuclear missiles and built mutual trust",
+          "textEs": "El incidente recibió poca cobertura mediática o atención pública",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The anti-war movement's response to the Kent State shootings in 1970 was Nationwide campus protests erupted and hundreds of universities shut down. Choice B is wrong because it describes period of easing tensions between the U.S. and Soviet Union in the 1970s, not nationwide campus protests erupted and hundreds of universities shut down. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "Cuando las tropas de la Guardia Nacional mataron a cuatro estudiantes en la Universidad Kent State durante una protesta antibelicista, provocó indignación nacional. Más de 4 millones de estudiantes protestaron y cientos de campus cerraron.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.14,
+        "b": -0.53,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-q01",
+      "stem": "Newt Gingrich led House Republicans to their first majority in 40 years in the 1994 midterm elections, campaigning on the 'Contract with America.' This political shift is significant because it demonstrates —",
+      "stemEs": "Newt Gingrich led House repúblicaans to their first majority in 40 years in the 1994 midterm elections, campaigning on the 'Contract with America.' This political shift is significant because it demonstrates:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Republican Party successfully united economic conservatives, social conservatives",
+          "textEs": "The repúblicaan Party successfully united economic conservatives, social conservatives",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Democratic Party's support for NAFTA had permanently alienated organized labor from the party",
+          "textEs": "The democrático Party's support for NAFTA had permanently alienated organized labor from the party",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Voters were dissatisfied with the 1994 economy and wanted economic policy changes",
+          "textEs": "Los votantes estaban insatisfechos con la economía de 1994 y querían cambios en la política económica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Americans had rejected Clinton's economic policies after his first two years in office",
+          "textEs": "Los estadounidenses habían rechazado las políticas económicas de Clinton tras sus primeros dos años en el cargo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Republican Party successfully united economic conservatives, social conservatives. Choice C is wrong because it describes voters were dissatisfied with the 1994 economy and wanted economic policy changes, not republican Party successfully united economic conservatives, social conservatives. The NAFTA debate captured the larger 1990s argument over globalization, jobs, and the role of trade in the U.S. economy.",
+      "explanationEs": "The repúblicaan Party successfully united economic conservatives, social conservatives. Choice C is wrong because it describes voters were dissatisfied with the 1994 economy and wanted economic policy changes, not repúblicaan Party successfully united economic conservatives, social conservatives. The NAFTA debate captured the larger 1990s argument over globalización, jobs, and the role of comercio in the U.S. economy.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.83,
+        "b": 0.0,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-60-x028",
+      "stem": "The 'credibility gap' during Vietnam refers to —",
+      "stemEs": "La 'brecha de credibilidad' durante Vietnam se refiere a —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The difference in military capability between U.S. forces and North Vietnamese guerrillas",
+          "textEs": "La diferencia en capacidad militar entre las fuerzas de los EE.UU. y la guerrilla de Vietnam del Norte",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The gap between the number of troops requested by commanders and the number Congress authorized",
+          "textEs": "La diferencia entre el número de tropas solicitadas por los comandantes y el número autorizado por el Congreso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The growing disconnect between official optimistic statements about the war and the reality of the situation",
+          "textEs": "La creciente desconexión entre las declaraciones oficiales optimistas sobre la guerra y la realidad de la situación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Divisions between military and civilian leadership about strategy in Vietnam",
+          "textEs": "Las divisiones entre el liderazgo militar y civil sobre la estrategia en Vietnam",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The growing disconnect between official optimistic statements about the war and the reality of the situation. Choice D is wrong because it describes divisions between military and civilian leadership about strategy in Vietnam, not growing disconnect between official optimistic statements about the war and the reality of the situation. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "La creciente desconexión entre las declaraciones oficiales optimistas sobre la guerra y la realidad de la situación. La opción D es incorrecta porque describe las divisiones entre el liderazgo militar y civil sobre la estrategia en Vietnam, lo cual los historiadores consideran un factor secundario en este desarrollo. La era de Vietnam profundizó la brecha de credibilidad e hizo a los estadounidenses más escépticos respecto a las afirmaciones gubernamentales.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.12,
+        "b": 0.06,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x023",
+      "stem": "The Senate's acquittal of Clinton in 1999 rested primarily on the argument that —",
+      "stemEs": "La absolución de Clinton por parte del Senado en 1999 se basó principalmente en el argumento de que —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Clinton's conduct, while involving personal dishonesty, did not constitute 'high crimes and misdemeanors' in the constitutional sense",
+          "textEs": "La conducta de Clinton, aunque implicaba deshonestidad personal, no constituía 'delitos graves y faltas de conducta' en el sentido constitucional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Clinton's strong public approval ratings demonstrated that the impeachment lacked democratic legitimacy",
+          "textEs": "Clinton's strong public approval ratings demonstrated that the juicio político lacked democrático legitimacy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Independent Counsel Starr had exceeded his mandate and the evidence he obtained was inadmissible",
+          "textEs": "El fiscal independiente Starr había excedido su mandato y la evidencia que obtuvo era inadmisible",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The House failed to follow proper constitutional procedures in its articles of impeachment",
+          "textEs": "The House faicondujo a follow proper constitucional procedures in its articles of juicio político",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Clinton's conduct, while involving personal dishonesty, did not constitute 'high crimes and misdemeanors' in the constitutional sense. Choice B is wrong because it describes clinton's strong public approval ratings demonstrated that the impeachment lacked democratic legitimacy, not clinton's conduct, while involving personal dishonesty, did not constitute 'high crimes and misdemeanors' in the constitutional sense. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "Clinton's conduct, while involving personal dishonesty, did not constitute 'high crimes and misdemeanors' in the constitucional sense. Choice B is wrong because it describes clinton's strong public approval ratings demonstrated that the juicio político lacked democrático legitimacy, not clinton's conduct, while involving personal dishonesty, did not constitute 'high crimes and misdemeanors' in the constitucional sense. These battles intensified partisan polarization and changed how Congreso and the presidency confronted each other.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.48,
+        "b": 0.44,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x027",
+      "stem": "The Republican House managers who prosecuted Clinton's impeachment trial focused primarily on —",
+      "stemEs": "The repúblicaan House managers who prosecuted Clinton's juicio político trial focused primarily on:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Clinton's misuse of federal employees to provide cover for his relationship with Lewinsky",
+          "textEs": "El uso indebido de empleados federales por parte de Clinton para encubrir su relación con Lewinsky",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Clinton's abuse of presidential power to conceal his affair from a federal investigation",
+          "textEs": "El abuso del poder presidencial de Clinton para encubrir su relación de una investigación federal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The moral unfitness of Clinton to serve as president demonstrated by his personal conduct",
+          "textEs": "La incapacidad moral de Clinton para servir como presidente demostrada por su conducta personal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Whether Clinton's perjury and obstruction in a civil lawsuit constituted impeachable 'high crimes'",
+          "textEs": "Si el perjurio y la obstrucción de Clinton en una demanda civil constituían 'delitos graves y faltas de conducta' en el sentido constitucional",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Whether Clinton's perjury and obstruction in a civil lawsuit constituted impeachable 'high crimes'. Choice A is wrong because it describes clinton's misuse of federal employees to provide cover for his relationship with Lewinsky, not whether Clinton's perjury and obstruction in a civil lawsuit constituted impeachable 'high crimes'. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "Si el perjurio y la obstrucción de Clinton en una demanda civil constituían 'delitos graves y faltas de conducta' en el sentido constitucional. La opción A es incorrecta porque describe el uso indebido de empleados federales por parte de Clinton para encubrir su relación con Lewinsky, no la cuestión central del juicio político. El juicio político de Clinton estableció precedentes importantes sobre el alcance del proceso de destitución.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.94,
+        "b": 0.2,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-f102",
+      "stem": "The Reagan Doctrine committed the United States to —",
+      "stemEs": "La Doctrina Reagan comprometió a los Estados Unidos a —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Actively supporting anti-communist resistance movements ('freedom fighters') around the world",
+          "textEs": "Apoyar activamente a los movimientos de resistencia anticomunistas ('luchadores por la libertad') en todo el mundo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Maintaining strict neutrality in all Third World conflicts, learning from the lesson of Vietnam",
+          "textEs": "Mantener una estricta neutralidad en todos los conflictos del Tercer Mundo, aprendiendo de la lección de Vietnam",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Using economic sanctions rather than military aid to pressure communist regimes toward political reform",
+          "textEs": "Utilizar sanciones económicas en lugar de ayuda militar para presionar a los regímenes comunistas hacia la reforma política",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Increasing military aid only to democratic allies rather than any anti-communist movement regardless of its own character",
+          "textEs": "Increasing military aid only to democrático allies rather than any anti-communist movement regardless of its own character",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Actively supporting anti-communist resistance movements ('freedom fighters') around the world. Choice D is wrong because it describes increasing military aid only to democratic allies rather than any anti-communist movement regardless of its own character, not actively supporting anti-communist resistance movements ('freedom fighters') around the world. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "Actively supporting anti-communist resistance movements ('freedom fighters') around the world. Choice D is wrong because it describes increasing military aid only to democrático allies rather than any anti-communist movement regardless of its own character, not actively supporting anti-communist resistance movements ('freedom fighters') around the world. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -0.28,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "retired",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "retired",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0028",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph from October 21, 1967, shows anti-Vietnam War protesters confronting military police at the Pentagon during the March on the Pentagon. Young men and women face rows of armed soldiers wearing helmets and carrying rifles. The demonstrators appear to be civilians standing in close proximity to the military line, illustrating the dramatic domestic opposition to U.S. involvement in the Vietnam War that had grown by the late 1960s.\n\n(Photograph of anti-Vietnam War protest at the Pentagon, October 21, 1967. Library of Congress, Prints & Photographs Division.)\n\nWhat cause were the protesters shown in this photograph demonstrating against?",
+      "stemEs": "Observe la fotografía para responder la pregunta.\n\nEsta fotografía del 21 de octubre de 1967 muestra a manifestantes contra la Guerra de Vietnam enfrentándose a la policía militar frente al Pentágono durante la Marcha sobre el Pentágono. Jóvenes hombres y mujeres se encuentran frente a filas de soldados armados con cascos y rifles. Los manifestantes parecen ser civiles de pie muy cerca de la línea militar, lo que ilustra la dramática oposición interna a la participación de EE. UU. en la Guerra de Vietnam que había crecido a fines de la década de 1960.\n\n(Fotografía de la protesta antibelicista en el Pentágono, 21 de octubre de 1967. Biblioteca del Congreso, División de Impresas y Fotografías.)\n\n¿Contra qué causa protestaban los manifestantes mostrados en esta fotografía?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "U.S. military involvement in the Vietnam War",
+          "textEs": "La participación militar de EE. UU. en la Guerra de Vietnam",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Racial segregation in the U.S. military and defense industries",
+          "textEs": "La segregación racial en las fuerzas armadas de EE. UU. y las industrias de defensa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "U.S. nuclear weapons testing in the Pacific Ocean",
+          "textEs": "Las pruebas de armas nucleares de EE. UU. en el Océano Pacífico",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The military draft during World War II",
+          "textEs": "El servicio militar obligatorio durante la Segunda Guerra Mundial",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The March on the Pentagon in October 1967 was one of the largest antiwar demonstrations of the Vietnam War era, organized by the National Mobilization Committee to End the War in Vietnam. Approximately 100,000 people gathered at the Lincoln Memorial and 35,000 marched to the Pentagon to protest U.S. military involvement in Vietnam. The presence of armed military police and the Pentagon location make the context clear. Choices B, C, and D describe other historical protest movements unrelated to this event.",
+      "explanationEs": "La Marcha sobre el Pentágono en octubre de 1967 fue una de las manifestaciones antibelicistas más grandes de la era de la Guerra de Vietnam, organizada por el Comité Nacional de Movilización para Acabar con la Guerra en Vietnam. Aproximadamente 100 000 personas se reunieron en el Lincoln Memorial y 35 000 marcharon hacia el Pentágono para protestar contra la participación militar de EE. UU. en Vietnam. La presencia de policía militar armada y la ubicación en el Pentágono hacen el contexto evidente. Las opciones B, C y D describen otros movimientos de protesta históricos no relacionados con este evento.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -1.2,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "stimulus-based",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U8-DOK1-0006",
+      "stem": "What was the typical cost of a home in Levittown according to the advertisement?",
+      "stemEs": "¿Cuál fue el costo típico de una casa en Levittown según el anuncio?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$15,000",
+          "textEs": "$15.000",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "$7,990",
+          "textEs": "$7.990",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "$5,000",
+          "textEs": "$5.000",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "$20,000",
+          "textEs": "$20.000",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The typical cost of a home in Levittown according to the advertisement was $7,990. Choice A is wrong because it describes $15,000, not $7,990. Suburban growth reshaped race, class, and geography in postwar America for decades.",
+      "explanationEs": "Según el anuncio de Levittown, una casa rancho moderna de 3 dormitorios costaba $7,990 con bajo pago inicial para veteranos, haciendo propiedad de vivienda accesible a familias de clase media.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.54,
+        "b": -0.96,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us68-dok2-2",
+      "stem": "How did youth culture emerge as a distinct force in the 1950s?",
+      "stemEs": "¿Cómo emergió la cultura juvenil como fuerza distinta en los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Writers and artists who rejected conformity, consumerism, and traditional values",
+          "textEs": "Juventud no tuvo poder adquisitivo y dependió completamente de decisiones parentales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It challenged racial segregation, sexual norms, and established adult authority",
+          "textEs": "Gente joven abrazó completamente valores y expectativas culturales de sus padres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Adult anxiety about youth rebellion, nonconformity, and changing social values",
+          "textEs": "No hubo cultura adolescente distinta en los años 1950 que difiriera de adultos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Teenagers gained economic power, distinct music tastes, and rebelled against norms",
+          "textEs": "Adolescentes ganaron poder económico, gustos musicales distintos y se rebelaron contra normas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "youth culture emerge as a distinct force in the 1950s because teenagers gained economic power, distinct music tastes, and rebelled against norms. Choice C is wrong because it describes adult anxiety about youth rebellion, nonconformity, and changing social values, not teenagers gained economic power, distinct music tastes, and rebelled against norms. Youth culture exposed growing tensions over race, conformity, and generational change in the 1950s.",
+      "explanationEs": "La prosperidad de posguerra dio a adolescentes poder de gasto sin precedentes, creando mercados para música, películas y moda. El rock 'n' roll se convirtió en su himno, expresando rebelión contra conformidad adulta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.16,
+        "b": -0.03,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us68-dok2-3",
+      "stem": "What did the term \"juvenile delinquency\" represent in 1950s culture?",
+      "stemEs": "¿Qué representó el término \"delincuencia juvenil\" en la cultura de los años 1950?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Actual massive increase in youth crime rates verified by federal crime statistics",
+          "textEs": "Aumento masivo real en tasas de crimen juvenil verificado por estadísticas federales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Adult anxiety about youth rebellion, nonconformity, and changing social values",
+          "textEs": "Ansiedad adulta sobre rebelión juvenil, no conformidad y cambio de valores sociales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Government youth employment program designed to keep teenagers productively busy",
+          "textEs": "Programa gubernamental de empleo juvenil diseñado para mantener adolescentes ocupados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "New educational curriculum focused on teaching discipline and moral character",
+          "textEs": "Nuevo currículo educativo enfocado en enseñar disciplina y carácter moral",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Adult anxiety about youth rebellion, nonconformity, and changing social values. Choice A is wrong because it describes actual massive increase in youth crime rates verified by federal crime statistics, not adult anxiety about youth rebellion, nonconformity, and changing social values. Youth culture exposed growing tensions over race, conformity, and generational change in the 1950s.",
+      "explanationEs": "El pánico de \"delincuencia juvenil\" reflejó ansiedad adulta sobre rebelión juvenil simbolizada por rock 'n' roll, chaquetas de cuero y comportamiento no conformista.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.73,
+        "b": -0.09,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us68-dok2-3-b",
+      "stem": "What was the significance of the Tet Offensive in 1968?",
+      "stemEs": "¿Cuál fue la importancia de la Ofensiva del Tet en 1968?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Napalm was an incendiary weapon and Agent Orange was a chemical defoliant",
+          "textEs": "Demostró que EE.UU. estaba ganando la guerra como afirmaban los funcionarios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It shattered public confidence that the U.S. was winning the Vietnam War",
+          "textEs": "Destruyó la confianza pública de que EE.UU. estaba ganando la Guerra de Vietnam",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A congressional resolution giving the president broad war powers in Vietnam",
+          "textEs": "Terminó la guerra inmediatamente con la rendición de Vietnam del Norte",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Music blending rhythm and blues with country that challenged racial barriers",
+          "textEs": "Fue una escaramuza menor sin impacto en la opinión pública",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The significance of the Tet Offensive in 1968 was that it shattered public confidence that the U.S. was winning the Vietnam War. Choice C is wrong because it misses the main importance of the event and does not explain why it mattered in history. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "La Ofensiva del Tet (enero de 1968) fue un ataque sorpresa masivo de Vietnam del Norte durante el Año Nuevo vietnamita. Aunque fue un fracaso militar para el Norte, demostró que el enemigo estaba lejos de ser derrotado.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.38,
+        "b": -0.14,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us70-dok2-3",
+      "stem": "How did television change Americans' perception of the Vietnam War?",
+      "stemEs": "¿Cómo cambió la televisión la percepción de los estadounidenses sobre la Guerra de Vietnam?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Graphic footage of combat in living rooms turned public opinion against the war",
+          "textEs": "Las imágenes gráficas del combate en los hogares voltearon la opinión pública contra la guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A period of easing tensions between the U.S. and Soviet Union in the 1970s",
+          "textEs": "La cobertura televisiva fue censurada y solo mostró aspectos positivos de la guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Arms limitation agreements that capped nuclear weapons between superpowers",
+          "textEs": "La mayoría de los estadounidenses no tenían televisores durante los años 1960",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Nationwide campus protests erupted and hundreds of universities shut down",
+          "textEs": "Las cadenas de televisión se negaron a transmitir cualquier contenido relacionado con la guerra",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "television change Americans' perception of the Vietnam War because graphic footage of combat in living rooms turned public opinion against the war. Choice B is wrong because it describes period of easing tensions between the U.S. and Soviet Union in the 1970s, not graphic footage of combat in living rooms turned public opinion against the war. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "Vietnam fue la primera \"guerra del salón\" — los noticieros mostraban imágenes gráficas de combate, víctimas y destrucción. La famosa declaración de Walter Cronkite de que la guerra era inganable después del Tet influyó profundamente en la opinión pública.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.84,
+        "b": 0.41,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-60-q11",
+      "stem": "Tennessee's participation in the Vietnam War is significant because —",
+      "stemEs": "La participación de Tennessee en la Guerra de Vietnam es significativa porque —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tennessee sent thousands of men and women to serve in Vietnam, with between 1,289 and 1,295 killed",
+          "textEs": "Tennessee envió a miles de hombres y mujeres a servir en Vietnam, con entre 1.289 y 1.295 bajas mortales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Tennessee was the first state to organize Vietnam veterans' advocacy groups",
+          "textEs": "Tennessee fue el primer estado en organizar grupos de defensa de los veteranos de Vietnam",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Tennessee was the primarily Southern state to oppose the war",
+          "textEs": "Tennessee fue el principal estado del Sur en oponerse a la guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Tennessee National Guard units were exempt from Vietnam deployment",
+          "textEs": "Las unidades de la Guardia Nacional de Tennessee estaban exentas del despliegue en Vietnam",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Tennessee sent thousands of men and women to serve in Vietnam, with between 1,289 and 1,295 killed. Choice B is wrong because it describes tennessee was the first state to organize Vietnam veterans' advocacy groups, not tennessee sent approximately 58,000 men and women to serve in Vietnam, with 1,294 killed. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "Tennessee envió a miles de hombres y mujeres a servir en Vietnam, con entre 1.289 y 1.295 bajas mortales. La opción B es incorrecta porque describe que Tennessee fue el primer estado en organizar grupos de defensa de los veteranos de Vietnam, lo cual los historiadores consideran un factor secundario en este desarrollo. La participación de Tennessee en la Guerra de Vietnam refleja el amplio impacto del conflicto en todos los estados de la nación.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.6,
+        "b": -0.33,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-61-q04",
+      "stem": "The impact of the 26th Amendment on American politics has been characterized by —",
+      "stemEs": "El impacto de la 26.ª Enmienda en la política estadounidense ha sido caracterizado por —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Supreme Court overturning the amendment in the 1990s",
+          "textEs": "La Corte Suprema anuló la enmienda en los años noventa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "18-21 year olds consistently voting at the highest rates of any age group",
+          "textEs": "Los jóvenes de 18 a 21 años votaron consistentemente con las tasas más altas de cualquier grupo de edad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Young voters largely reshaping American politics in every election since 1972",
+          "textEs": "Los jóvenes votantes transformaron en gran medida la política estadounidense en cada elección desde 1972",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Lower-than-expected youth voter turnout in most elections",
+          "textEs": "Una participación electoral juvenil inferior a la esperada en la mayoría de las elecciones",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Lower-than-expected youth voter turnout in most elections. Choice A is wrong because it describes supreme Court overturning the amendment in the 1990s, not lower-than-expected youth voter turnout in most elections. The 1970s brought new arguments about rights, energy, gender, and diplomacy that reshaped politics after the early Cold War.",
+      "explanationEs": "Lower-than-expected youth voter turnout in most elections. Choice A is wrong because it describes Corte Suprema overturning the enmienda in the 1990s, not lower-than-expected youth voter turnout in most elections. The 1970s brought new arguments about rights, energy, gender, and diplomacia that reshaped politics after the early Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.19,
+        "b": 0.45,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-61-q08",
+      "stem": "The 26th Amendment is historically connected to the broader expansion of voting rights because —",
+      "stemEs": "La 26.ª Enmienda está históricamente conectada a la expansión más amplia del derecho al voto porque —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was passed at the same time as the Voting Rights Act",
+          "textEs": "Fue aprobada al mismo tiempo que la Ley del Derecho al Voto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was primarily designed to strengthen the Republican Party's electoral coalition",
+          "textEs": "It fue principalmente designed to strengthen the repúblicaan Party's electoral coalition",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It represents the most recent expansion of the franchise in the constitutional text",
+          "textEs": "Representa la expansión más reciente del sufragio en el texto constitucional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It was the first amendment to lower any age restriction in American law",
+          "textEs": "Fue la primera enmienda en reducir cualquier restricción de edad en la ley estadounidense",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It represents the most recent expansion of the franchise in the constitutional text. Choice A is wrong because it describes it was passed at the same time as the Voting Rights Act, not it represents the most recent expansion of the franchise in the constitutional text. The 1970s brought new arguments about rights, energy, gender, and diplomacy that reshaped politics after the early Cold War.",
+      "explanationEs": "It represents the most recent expansion of the franchise in the constitucional text. Choice A is wrong because it describes it was passed at the same time as the derechos de voto Act, not it represents the most recent expansion of the franchise in the constitucional text. The 1970s brought new arguments about rights, energy, gender, and diplomacia that reshaped politics after the early Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.61,
+        "b": -0.27,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-q05",
+      "stem": "The 1995–1996 government shutdowns, which occurred when Gingrich's Congress and Clinton could **NOT** agree on a budget, ultimately —",
+      "stemEs": "Los cierres del gobierno de 1995-1996, que ocurrieron cuando el Congreso de Gingrich y Clinton **NO** pudieron llegar a un acuerdo presupuestario, resultaron en —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Led to a constitutional amendment requiring balanced budgets",
+          "textEs": "Llevaron a una enmienda constitucional que exigía presupuestos equilibrados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It had no effect on either party's political standing in the next election cycle",
+          "textEs": "No tuvieron efecto alguno en la posición política de ninguno de los dos partidos en el siguiente ciclo electoral",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Resulted in a complete Republican victory forcing Clinton to accept their budget",
+          "textEs": "resultó en a complete repúblicaan victory forcing Clinton to accept their budget",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Backfired politically on Republicans",
+          "textEs": "Backfired politically on repúblicaans",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Backfired politically on Republicans. Choice C is wrong because it describes resulted in a complete Republican victory forcing Clinton to accept their budget, not backfired politically on Republicans. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "Backfired politically on repúblicaans. Choice C is wrong because it describes resultó en a complete repúblicaan victory forcing Clinton to accept their budget, not backfired politically on repúblicaans. These battles intensified partisan polarization and changed how Congreso and the presidency confronted each other.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.08,
+        "b": 0.43,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-q09",
+      "stem": "Gingrich's relationship with Clinton after the 1994 elections was characterized by —",
+      "stemEs": "Gingrich's relationship with Clinton after the 1994 elections se caracterizó por:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Intense partisan warfare punctuated by necessary compromises",
+          "textEs": "Intensa guerra partidista puntuada por compromisos necesarios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A personal friendship that transcended their political differences",
+          "textEs": "Una amistad personal que trascendió sus diferencias políticas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Complete gridlock with no significant legislation passed",
+          "textEs": "Complete gridlock with no significant legislación passed",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Bipartisan cooperation that produced landmark legislation",
+          "textEs": "Bipartisan cooperation that produced landmark legislación",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Intense partisan warfare punctuated by necessary compromises. Choice B is wrong because it describes personal friendship that transcended their political differences, not intense partisan warfare punctuated by necessary compromises. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "Intensa guerra partidista puntuada por compromisos necesarios. La opción B es incorrecta porque describe una amistad personal que trascendió sus diferencias políticas, lo cual los historiadores consideran un factor secundario en este desarrollo. La era Clinton-Gingrich marcó una intensificación de la polarización partidista en la política estadounidense.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.56,
+        "b": 0.07,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-60-x021",
+      "stem": "The antiwar movement's long-term impact on U.S. political culture included —",
+      "stemEs": "El impacto a largo plazo del movimiento antibelicista en la cultura política de los EE.UU. incluyó —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The elimination of the military draft and its replacement with a smaller professional army",
+          "textEs": "La eliminación del servicio militar obligatorio y su reemplazo por un ejército profesional más pequeño",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress passing a constitutional amendment prohibiting undeclared wars",
+          "textEs": "El Congreso aprobando una enmienda constitucional que prohibía las guerras no declaradas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Increased public skepticism about government claims and military interventions abroad",
+          "textEs": "Mayor escepticismo público hacia las afirmaciones gubernamentales y las intervenciones militares en el extranjero",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Permanently discrediting the Democratic Party, which lost the presidency for two decades",
+          "textEs": "Permanently discrediting the democrático Party, which lost the presidency for two decades",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Increased public skepticism about government claims and military interventions abroad. Choice A is wrong because it describes elimination of the military draft and its replacement with a smaller professional army, not increased public skepticism about government claims and military interventions abroad. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "Mayor escepticismo público hacia las afirmaciones gubernamentales y las intervenciones militares en el extranjero. La opción A es incorrecta porque describe la eliminación del servicio militar obligatorio y su reemplazo por un ejército profesional más pequeño, lo cual los historiadores consideran un factor secundario en este desarrollo. El movimiento antibelicista transformó la cultura política estadounidense de maneras que perduran hasta nuestros días.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.63,
+        "b": 0.5,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us70-dok1-3",
+      "stem": "Why was the Vietnam War draft controversial?",
+      "stemEs": "¿Por qué fue controvertido el reclutamiento de la Guerra de Vietnam?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "College deferments meant wealthier young men could avoid service while poorer men could not",
+          "textEs": "Los aplazamientos universitarios significaban que los jóvenes más ricos podían evitar el servicio mientras los más pobres no",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Arms limitation agreements that froze the number of nuclear weapons each side could have",
+          "textEs": "Todos los estadounidenses apoyaban igualmente el reclutamiento como deber patriótico",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A period of reduced tensions and increased diplomacy between the U.S. and Soviet Union",
+          "textEs": "Las mujeres fueron reclutadas en números iguales a los hombres por primera vez",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Graphic footage of combat in living rooms turned public opinion against the war",
+          "textEs": "El reclutamiento solo se aplicaba a estadounidenses mayores de 30 años",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "the Vietnam War draft controversial mattered because college deferments meant wealthier young men could avoid service while poorer men could not. Choice B is wrong because it describes arms limitation agreements that froze the number of nuclear weapons each side could have, not college deferments meant wealthier young men could avoid service while poorer men could not. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "El reclutamiento afectaba desproporcionadamente a jóvenes pobres y minoritarios. Los estudiantes universitarios podían obtener aplazamientos, lo que significaba que los estadounidenses más ricos podían evitar el servicio.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.14,
+        "b": 0.32,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-61-q03",
+      "stem": "The 26th Amendment was ratified in 1971 in only 100 days — the fastest ratification of any constitutional amendment — because —",
+      "stemEs": "La 26.ª Enmienda fue ratificada en 1971 en solo 100 días — la ratificación más rápida de cualquier enmienda constitucional. Esto ocurrió porque —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Nixon administration made ratification a top priority, which historians consider a secondary factor in this development",
+          "textEs": "La administración Nixon hizo de la ratificación una prioridad, lo cual los historiadores consideran un factor secundario en este desarrollo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress lowered the federal voting age and courts required states to match it for all elections, making standardization practical",
+          "textEs": "El Congreso redujo la edad para votar en las elecciones federales y los tribunales exigieron que los estados hicieran lo mismo en todas las elecciones, haciendo práctica la estandarización",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The amendment was broadly noncontroversial and won swift ratification from state legislatures across the country in record time",
+          "textEs": "La enmienda fue ampliamente no controvertida y ganó la ratificación rápida de las legislaturas estatales en todo el país en un tiempo récord",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Student protests forced governors to sign ratification papers, which historians consider a secondary factor in this development",
+          "textEs": "Las protestas estudiantiles obligaron a los gobernadores a firmar los documentos de ratificación, lo cual los historiadores consideran un factor secundario en este desarrollo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Congress had already lowered the voting age in federal elections and the Supreme Court ruled states must do the same for federal elections, creating a practical need to resolve the issue for all elections simultaneously. Choice C is wrong because it describes amendment was substantially noncontroversial and had universal support, which historians consider a secondary factor in this development, not congress had already lowered the voting age in federal elections and the Supreme Court ruled states must do the same for federal elections, creating a practical need to resolve the issue for all elections simultaneously. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "El Congreso ya había reducido la edad para votar en las elecciones federales y la Corte Suprema ordenó a los estados hacer lo mismo en todas las elecciones, haciendo práctica la estandarización. La opción A es incorrecta porque describe que la administración Nixon hizo de la ratificación una prioridad, lo cual los historiadores consideran un factor secundario en este desarrollo. La 26.ª Enmienda fue ratificada en un tiempo récord gracias a un amplio consenso bipartidista.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.68,
+        "b": -0.85,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-q03",
+      "stem": "The 1994 midterm elections, called the 'Republican Revolution,' were significant because —",
+      "stemEs": "The 1994 midterm elections, called the 'repúblicaan Revolution,' were significant because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Republicans won the presidency, House, and Senate simultaneously",
+          "textEs": "repúblicaans won the presidency, House, and Senado simultaneously",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Democrats maintained their majority by winning Southern seats",
+          "textEs": "Los demócratas mantuvieron su mayoría al ganar escaños en el Sur",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Republicans won control of the House of Representatives for the first time in 40 years",
+          "textEs": "repúblicaans won control of the Cámara de Representantes for the first time in 40 years",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The elections were invalidated by the Supreme Court due to gerrymandering",
+          "textEs": "Las elecciones fueron invalidadas por la Corte Suprema debido al gerrymandering",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Republicans won control of the House of Representatives for the first time in 40 years. Choice A is wrong because it describes republicans won the presidency, House, and Senate simultaneously, not republicans won control of the House of Representatives for the first time in 40 years. This issue helped shape the political, social, and foreign policy debates of modern U.S. history.",
+      "explanationEs": "repúblicaans won control of the Cámara de Representantes for the first time in 40 years. Choice A is wrong because it describes repúblicaans won the presidency, House, and Senado simultaneously, not repúblicaans won control of the Cámara de Representantes for the first time in 40 years. This issue helped shape the political, social, and política exterior debates of modern U.S. history.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.97,
+        "b": -0.86,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-61-x012",
+      "stem": "The 26th Amendment (1971) lowered the voting age from 21 to 18. This change was largely driven by —",
+      "stemEs": "La 26.ª Enmienda (1971) redujo la edad para votar de 21 a 18 años. Este cambio fue impulsado principalmente por —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Congress's desire to increase voter turnout in response to declining participation",
+          "textEs": "El deseo del Congreso de aumentar la participación electoral ante la disminución de la participación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Supreme Court rulings that the 14th Amendment required equal voting rights regardless of age",
+          "textEs": "Los fallos de la Corte Suprema de que la 14.ª Enmienda exigía igualdad de derechos al voto independientemente de la edad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The argument that young men being drafted to fight in Vietnam deserved the right to vote",
+          "textEs": "El argumento de que los jóvenes reclutados para luchar en Vietnam merecían el derecho a votar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Civil rights activists' argument that racial minorities were underrepresented in the electorate",
+          "textEs": "El argumento de los activistas de derechos civiles de que las minorías raciales estaban subrepresentadas en el electorado",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The argument that young men being drafted to fight in Vietnam deserved the right to vote. Choice B is wrong because it describes supreme Court rulings that the 14th Amendment required equal voting rights regardless of age, not argument that young men being drafted to fight in Vietnam deserved the right to vote. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "El argumento de que los jóvenes reclutados para luchar en Vietnam merecían el derecho a votar. La opción B es incorrecta porque describe los fallos de la Corte Suprema de que la 14.ª Enmienda exigía igualdad de derechos al voto independientemente de la edad, lo cual los historiadores consideran un factor secundario en este desarrollo. El argumento del reclutamiento fue el principal motor de la ratificación de la 26.ª Enmienda.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.94,
+        "b": -1.08,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0029",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph from October 21, 1967, shows anti-Vietnam War protesters confronting military police at the Pentagon during the March on the Pentagon. Young men and women face rows of armed soldiers wearing helmets and carrying rifles. The demonstrators appear to be civilians standing in close proximity to the military line, illustrating the dramatic domestic opposition to U.S. involvement in the Vietnam War that had grown by the late 1960s.\n\n(Photograph of anti-Vietnam War protest at the Pentagon, October 21, 1967. Library of Congress, Prints & Photographs Division.)\n\nWhy did opposition to the Vietnam War grow significantly among the American public during the late 1960s?",
+      "stemEs": "Observe la fotografía para responder la pregunta.\n\nEsta fotografía del 21 de octubre de 1967 muestra a manifestantes contra la Guerra de Vietnam enfrentándose a la policía militar frente al Pentágono durante la Marcha sobre el Pentágono. Jóvenes hombres y mujeres se encuentran frente a filas de soldados armados con cascos y rifles. Los manifestantes parecen ser civiles de pie muy cerca de la línea militar, lo que ilustra la dramática oposición interna a la participación de EE. UU. en la Guerra de Vietnam que había crecido a fines de la década de 1960.\n\n(Fotografía de la protesta antibelicista en el Pentágono, 21 de octubre de 1967. Biblioteca del Congreso, División de Impresas y Fotografías.)\n\n¿Por qué creció significativamente la oposición a la Guerra de Vietnam entre el público estadounidense durante la segunda mitad de la década de 1960?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Most Americans opposed the war from the beginning because Congress had never debated whether to enter the conflict",
+          "textEs": "La mayoría de los estadounidenses se opuso a la guerra desde el principio porque el Congreso nunca debatió si entrar en el conflicto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress formally declared war on Vietnam, which triggered a legal requirement that the public vote on the conflict",
+          "textEs": "El Congreso declaró formalmente la guerra a Vietnam, lo que desencadenó un requisito legal de que el público votara sobre el conflicto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Rising casualties, televised combat footage, the impact of the military draft, and revelations that official claims of progress were misleading eroded public support",
+          "textEs": "El aumento de las bajas, las imágenes televisivas de combate, el impacto del servicio militar obligatorio y las revelaciones de que las afirmaciones oficiales de progreso eran engañosas erosionaron el apoyo público",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Public opposition grew primarily after the war ended, as veterans returned home and described poor treatment by the military",
+          "textEs": "La oposición pública creció principalmente después de que terminara la guerra, cuando los veteranos regresaron a casa y describieron el mal trato por parte de los militares",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Opposition to the Vietnam War grew dramatically during the mid-to-late 1960s for several interconnected reasons: television coverage brought graphic images of combat casualties into American homes for the first time in a major war, eroding public confidence; mounting American casualties made the human cost tangible; the 1968 Tet Offensive demonstrated that military leaders' claims of progress were misleading; and the military draft threatened millions of young Americans directly. The gap between official optimism and battlefield reality — called the 'credibility gap' — fundamentally undermined public trust. Choice A incorrectly suggests opposition preceded public awareness of involvement. Choice B is factually wrong — there was no formal declaration of war by Congress for Vietnam. Choice D misidentifies the trigger — public opposition grew before the war's official end.",
+      "explanationEs": "La oposición a la Guerra de Vietnam creció drásticamente durante mediados y fines de la década de 1960 por varias razones interconectadas: la cobertura televisiva llevó a los hogares estadounidenses imágenes gráficas de bajas de combate por primera vez en una guerra importante, erosionando la confianza del público; el aumento de las bajas estadounidenses hizo tangible el costo humano; la Ofensiva del Tet de 1968 demostró que las afirmaciones de progreso de los líderes militares eran engañosas; y el servicio militar obligatorio amenazaba directamente a millones de jóvenes estadounidenses. La brecha entre el optimismo oficial y la realidad en el campo de batalla —denominada «brecha de credibilidad»— socavó fundamentalmente la confianza pública. La opción A sugiere incorrectamente que la oposición precedió al conocimiento público de la participación. La opción B es factualmente incorrecta: no hubo una declaración formal de guerra del Congreso para Vietnam. La opción D identifica erróneamente el desencadenante: la oposición pública creció antes del fin oficial de la guerra.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.19
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "stimulus-based",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U7-DOK2-0014",
+      "stem": "How did television coverage of the Vietnam War affect public opinion in the United States?",
+      "stemEs": "¿Cómo afectó la cobertura televisiva de la Guerra de Vietnam a la opinión pública en Estados Unidos?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television coverage consistently presented the war favorably, boosting public support throughout the conflict",
+          "textEs": "La cobertura televisiva presentó sistemáticamente la guerra de manera favorable, aumentando el apoyo público durante todo el conflicto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Graphic images of battlefield casualties and the Tet Offensive brought the realities of war into American living rooms and fueled growing anti-war sentiment",
+          "textEs": "Las imágenes gráficas de las bajas en el campo de batalla y la Ofensiva del Tet trajeron las realidades de la guerra a los salones de los hogares estadounidenses y avivaron el creciente sentimiento antibelicista",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Television coverage had little effect on public opinion because most Americans did not own televisions in the 1960s",
+          "textEs": "La cobertura televisiva tuvo poco efecto en la opinión pública porque la mayoría de los estadounidenses no tenían televisores en la década de 1960",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television coverage focused exclusively on diplomatic negotiations and avoided showing any combat footage",
+          "textEs": "La cobertura televisiva se centró exclusivamente en las negociaciones diplomáticas y evitó mostrar imágenes de combate",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Vietnam became known as 'the living room war.' Tet Offensive footage in 1968 undercut official optimism, and media coverage of casualties, protests, and atrocities directly contributed to the antiwar movement's growth.",
+      "explanationEs": "Vietnam fue conocida como «la guerra del salón de estar». Las imágenes de la Ofensiva del Tet de 1968 socavaron el optimismo oficial, y la cobertura mediática de las bajas, las protestas y las atrocidades contribuyó directamente al crecimiento del movimiento antibelicista.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-61-q11",
+      "stem": "The 26th Amendment's passage in 1971 is best understood as —",
+      "stemEs": "La aprobación de la 26.ª Enmienda en 1971 se entiende mejor como —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The most transformative electoral reform in American history",
+          "textEs": "La reforma electoral más transformadora de la historia estadounidense",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "An attempt by the Democratic Party to permanently shift the electoral map in their favor",
+          "textEs": "An attempt by the democrático Party to permanently shift the electoral map in their favor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A purely symbolic gesture with no meaningful impact on American elections",
+          "textEs": "Un gesto puramente simbólico sin un impacto significativo en las elecciones estadounidenses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A genuine expansion of democratic participation driven by the moral contradiction of Vietnam",
+          "textEs": "A genuine expansion of democrático participation driven by the moral contradiction of Vietnam",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A genuine expansion of democratic participation driven by the moral contradiction of Vietnam. Choice B is wrong because it describes attempt by the Democratic Party to permanently shift the electoral map in their favor, not genuine expansion of democratic participation driven by the moral contradiction of Vietnam. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "A genuine expansion of democrático participation driven by the moral contradiction of Vietnam. Choice B is wrong because it describes attempt by the democrático Party to permanently shift the electoral map in their favor, not genuine expansion of democrático participation driven by the moral contradiction of Vietnam. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.58,
+        "b": 0.7,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-q12",
+      "stem": "The most lasting impact of the 1994 Republican Revolution on American politics was —",
+      "stemEs": "The most lasting impact of the 1994 repúblicaan Revolution on American politics was:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The complete implementation of the Contract with America's agenda",
+          "textEs": "La implementación completa de la agenda del Contrato con América",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The permanent elimination of Democratic majority status in the House",
+          "textEs": "The permanent elimination of democrático majority status in the House",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The permanent shift of Southern voters to the Republican Party",
+          "textEs": "The permanent shift of Southern voters to the repúblicaan Party",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The nationalization and intensification of congressional partisan warfare",
+          "textEs": "La nacionalización e intensificación de la guerra partidista en el Congreso",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The nationalization and intensification of congressional partisan warfare. Choice C is wrong because it describes permanent shift of Southern voters to the Republican Party, not nationalization and intensification of congressional partisan warfare. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "The nationalization and intensification of Congresoional partisan warfare. Choice C is wrong because it describes permanent shift of Southern voters to the repúblicaan Party, not nationalization and intensification of Congresoional partisan warfare. These battles intensified partisan polarization and changed how Congreso and the presidency confronted each other.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.63,
+        "b": 1.47,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us7-dok4-cr3",
+      "stem": "Apply the lessons of the Vietnam War to a current or recent U.S. military engagement. What specific mistakes from Vietnam were repeated or avoided? What new challenges emerged that Vietnam-era policymakers did not face?",
+      "stemEs": "Aplique las lecciones de la Guerra de Vietnam a un compromiso militar estadounidense actual o reciente. ¿Qué errores específicos de Vietnam se repitieron o evitaron?",
+      "itemType": "constructed-response",
+      "correctAnswer": "Strong responses should identify specific Vietnam lessons (credibility gap, mission creep, underestimating local nationalism, domestic opposition, unclear exit strategy) and analyze whether they were applied in subsequent conflicts. New challenges might include terrorism vs. conventional warfare, media landscape changes, all-volunteer military implications.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A strong response should apply clear Vietnam lessons such as the danger of unclear war goals, weak public trust, overreliance on military force, and the challenge of fighting insurgencies in unfamiliar political settings. It should compare those lessons to a recent conflict with specific evidence, then explain which mistakes were repeated, which were avoided, and what newer issues such as cyberwarfare, terrorism, drones, or social media changed. The strongest answers balance continuity with change rather than forcing a simple one-to-one comparison.",
+      "explanationEs": "Este ítem DOK 4 requiere aplicar lecciones históricas a situaciones contemporáneas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.76,
+        "b": 1.6,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us7-dok3-mc3",
+      "stem": "The Tet Offensive (1968) was a military defeat for the Viet Cong but is widely considered a turning point that undermined American support for the war. How does this paradox illustrate the role of media in modern warfare?",
+      "stemEs": "La Ofensiva del Tet (1968) fue una derrota militar para el Viet Cong pero es ampliamente considerada un punto de inflexión. ¿Cómo ilustra esta paradoja el papel de los medios en la guerra moderna?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television coverage showed Americans that the war was not being won as officials claimed, shattering the credibility gap",
+          "textEs": "La cobertura televisiva mostró a los americanos que la guerra no se estaba ganando como afirmaban los funcionarios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The alleged second attack on U.S. ships likely never occurred, and Congress was given incomplete information",
+          "textEs": "Los medios suprimieron la cobertura de la Ofensiva del Tet para mantener el apoyo público",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Legal challenges changed law; direct action created moral crises that forced political action by making injustice visible to the nation",
+          "textEs": "Los americanos desconocían la ofensiva porque la televisión no estaba ampliamente disponible",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "1938 international conference that failed to help Jewish refugees; most countries refused to increase immigration quotas",
+          "textEs": "La cobertura mediática informó con precisión sobre la ofensiva como una victoria militar americana completa",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Television coverage showed Americans that the war was not being won as officials claimed, shattering the credibility gap. Choice B is wrong because it describes alleged second attack on U.S. ships likely never occurred, and Congress was given incomplete information, not television coverage showed Americans that the war was not being won as officials claimed, shattering the credibility gap. The Vietnam era deepened the credibility gap and made Americans more skeptical of presidential war-making.",
+      "explanationEs": "Vietnam fue la primera \"guerra televisada.\" La Ofensiva del Tet destruyó la credibilidad gubernamental al mostrar la realidad del combate.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.35,
+        "b": 1.42,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u7-030",
+      "stem": "The anti-war movement in the United States during the Vietnam era was divided between those who opposed the war on moral grounds and those who opposed it on strategic/practical grounds. Which division MOST explains why the movement struggled to achieve a unified political message?",
+      "stemEs": "El movimiento antibelicista en Estados Unidos durante la era de Vietnam estaba dividido entre quienes se oponían a la guerra por razones morales y quienes lo hacían por razones estratégicas/prácticas. ¿Qué división explica MÁS por qué el movimiento luchó por lograr un mensaje político unificado?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The movement was divided primarily along racial lines, with African American activists prioritizing civil rights while white protesters focused exclusively on opposing the draft.",
+          "textEs": "El movimiento estaba dividido principalmente a lo largo de líneas raciales, con activistas afroamericanos priorizando los derechos civiles mientras los manifestantes blancos se enfocaban exclusivamente en oponerse al reclutamiento.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The movement was fragmented because the federal government successfully infiltrated and disrupted anti-war organizations through COINTELPRO, preventing effective coordination.",
+          "textEs": "El movimiento estaba fragmentado porque el gobierno federal infiltró y perturbó exitosamente las organizaciones antibelicistas a través del COINTELPRO, impidiendo una coordinación efectiva.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Anti-war leaders could not agree on whether to endorse a specific presidential candidate in 1968, creating a political vacuum that the Nixon campaign exploited to win the election.",
+          "textEs": "Los líderes antibelicistas no pudieron acordar si respaldar a un candidato presidencial específico en 1968, creando un vacío político que la campaña de Nixon explotó para ganar las elecciones.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Moral opponents who wanted immediate unconditional withdrawal shared no common policy prescription with strategic critics who accepted anti-communist goals but disputed the war's tactics, making unified political demands impossible.",
+          "textEs": "Los opositores morales que querían una retirada inmediata e incondicional no compartían ninguna prescripción política común con los críticos estratégicos que aceptaban los objetivos anticomunistas pero disputaban las tácticas de la guerra, haciendo imposibles las demandas políticas unificadas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Moral opponents of the war (who viewed it as inherently unjust regardless of outcome) and strategic critics (who accepted the anti-communist goal but questioned the war's tactics, cost, or achievability) shared no common policy prescription. Moral opponents wanted immediate unconditional withdrawal; strategic critics often wanted a better-managed or more limited engagement. This fundamental difference in the source of opposition made coalition-building difficult and allowed proponents of the war to portray anti-war voices as either radical pacifists or defeatists, undermining the movement's political coherence. This internal tension was exacerbated by conflicts over tactics (civil disobedience vs. electoral politics) and constituency (students, veterans, civil rights leaders, establishment Democrats).",
+      "explanationEs": "Los opositores morales a la guerra (que la veían como inherentemente injusta independientemente del resultado) y los críticos estratégicos (que aceptaban el objetivo anticomunista pero cuestionaban las tácticas, el costo o la viabilidad de la guerra) no compartían ninguna prescripción política común. Los opositores morales querían una retirada inmediata e incondicional; los críticos estratégicos a menudo querían un compromiso mejor gestionado o más limitado. Esta diferencia fundamental en la fuente de la oposición dificultó la construcción de coaliciones.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.94,
+        "b": 1.63,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u7-031",
+      "stem": "Television coverage of the Vietnam War — including footage of combat deaths and the My Lai massacre — is often credited with turning American public opinion against the war. Which evaluation of the strength of this 'television war' thesis is best supported?",
+      "stemEs": "¿Cuál evaluación de la solidez de la tesis de la guerra televisada está mejor respaldada, dado que la cobertura televisiva de la Guerra de Vietnam —incluidas las imágenes de muertes en combate y la masacre de My Lai— suele considerarse determinante para inclinar la opinión pública estadounidense en contra de la guerra?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Television amplified the credibility gap between official optimism and battlefield reality, but anti-war opinion was more directly driven by rising casualty rates and personal draft exposure, suggesting television was a catalyst rather than the primary cause.",
+          "textEs": "La televisión amplificó la brecha de credibilidad entre el optimismo oficial y la realidad del campo de batalla, pero la opinión antibelicista fue impulsada más directamente por el aumento de las tasas de bajas y la exposición personal al reclutamiento, lo que sugiere que la televisión fue un catalizador más que la causa principal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The television war thesis is fully correct: public opinion on Vietnam was entirely shaped by television imagery, and Americans who did not watch the news remained supportive of the war throughout its duration.",
+          "textEs": "La tesis de la guerra televisiva es completamente correcta: la opinión pública sobre Vietnam fue moldeada enteramente por las imágenes televisivas, y los americanos que no veían las noticias permanecieron apoyando la guerra durante toda su duración.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The thesis is largely incorrect because American public support for Vietnam remained consistently high throughout the war, and the media's reporting was predominantly positive toward U.S. military efforts.",
+          "textEs": "La tesis es en gran medida incorrecta porque el apoyo público americano a Vietnam se mantuvo consistentemente alto durante toda la guerra, y los reportajes mediáticos fueron predominantemente positivos hacia los esfuerzos militares de EE.UU.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Television turned Americans against the war specifically because network anchors like Walter Cronkite editorially condemned the war, and their personal credibility was the decisive factor in shifting public opinion.",
+          "textEs": "La televisión alejó a los americanos de la guerra específicamente porque presentadores como Walter Cronkite condenaron editorialmente la guerra, y su credibilidad personal fue el factor decisivo para cambiar la opinión pública.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 'television war' thesis has significant merit but is also too simple: public opinion on Vietnam actually followed casualty rates more than specific media events, and many journalists were initially supportive of U.S. policy. The Tet Offensive was crucial not just because it was televised, but because it contradicted the administration's specific, verifiable claims of progress—the credibility gap was the mechanism, not television itself. Television amplified the credibility gap but did not create anti-war sentiment independently. Moreover, most Americans did not turn against the war until after Tet and the domestic unrest of 1968, suggesting the role of direct personal costs (drafts, casualties) alongside media coverage.",
+      "explanationEs": "La tesis de la 'guerra televisiva' tiene mérito significativo pero también es demasiado simple: la opinión pública sobre Vietnam siguió las tasas de bajas más que eventos mediáticos específicos, y muchos periodistas fueron inicialmente favorables a la política de EE.UU. La Ofensiva Tet fue crucial no solo porque se televisó, sino porque contradijo afirmaciones específicas y verificables del gobierno sobre el progreso —la brecha de credibilidad fue el mecanismo, no la televisión en sí.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.84,
+        "b": 1.24,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u7-032",
+      "stem": "The Vietnam-era draft created significant inequalities in military service across class and racial lines. Which analysis best explains how these inequalities affected the anti-war movement's political coalition?",
+      "stemEs": "¿Cuál análisis explica mejor cómo las desigualdades del reclutamiento militar de la era Vietnam —que afectaron de manera diferenciada a distintas clases sociales y grupos raciales— influyeron en la coalición política del movimiento contra la guerra?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Draft inequalities strengthened the anti-war coalition by giving all Americans—regardless of class or race—a personal stake in ending the war as quickly as possible",
+          "textEs": "Las desigualdades del reclutamiento fortalecieron la coalición antibelicista al dar a todos los americanos —independientemente de clase o raza— un interés personal en terminar la guerra lo más rápido posible.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "College deferments protected most anti-war protesters from service, so working-class communities had little incentive to join a movement they viewed as protecting the privileged",
+          "textEs": "Debido a que los aplazamientos universitarios protegían a la mayoría de los protestantes antibelicistas de ser reclutados, las comunidades de clase obrera y las minorías no tenían razón para unirse al movimiento antibelicista y apoyaron consistentemente la guerra.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "College deferments made protesters seem privileged to working-class veterans, while African American leaders connected the war to racial injustice — fracturing potential opposition into distinct constituencies",
+          "textEs": "Las desigualdades del reclutamiento fracturaron la potencial coalición antibelicista: los aplazamientos universitarios hacían que los protestantes parecieran a algunos veteranos de clase obrera como evasores privilegiados, mientras que los líderes afroamericanos conectaban la guerra con la injusticia racial, creando grupos con diferentes agravios y prioridades políticas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Draft inequalities were politically irrelevant because most anti-war protesters opposed the conflict on moral and ethical grounds unrelated to their personal draft status",
+          "textEs": "Las desigualdades del reclutamiento fueron políticamente irrelevantes para el movimiento antibelicista porque la mayoría de los protestantes estaban motivados por una oposición moral abstracta a la guerra en lugar de preocupaciones personales sobre el servicio militar.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Draft inequalities had a paradoxical effect on the anti-war movement: college students—who could obtain deferments—were among the most vocal and organized anti-war protesters, while working-class and minority men who bore a disproportionate burden in combat were sometimes split in their response. African American leaders like Martin Luther King Jr. connected the war to civil rights injustice, but some working-class white veterans felt the anti-war movement disrespected their service. This created a fractured coalition: college-educated protesters focusing on moral and policy objections, African American activists connecting race and war, and veterans who wanted recognition rather than protest. The class nature of draft exemptions created resentment that complicated building a unified, cross-class anti-war movement.",
+      "explanationEs": "Las desigualdades del reclutamiento tuvieron un efecto paradójico en el movimiento antibelicista: los estudiantes universitarios —que podían obtener aplazamientos— estaban entre los protestantes más vocales y organizados, mientras que los hombres de clase obrera y las minorías que soportaban una carga desproporcionada en combate a veces estaban divididos en su respuesta. El carácter clasista de las exenciones del reclutamiento creó resentimiento que complicó la construcción de un movimiento antibelicista unificado entre clases.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.74,
+        "b": 1.46,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0030",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph from October 21, 1967, shows anti-Vietnam War protesters confronting military police at the Pentagon during the March on the Pentagon.\n\n(U.S. Government photograph, 1967. Public Domain.)\n\nWhich statement best evaluates how antiwar protests like the one shown contributed to shifts in U.S. policy toward the Vietnam War?",
+      "stemEs": "Observe la fotografía para responder la pregunta.\n\nEsta fotografía del 21 de octubre de 1967 muestra a manifestantes contra la Guerra de Vietnam enfrentándose a la policía militar frente al Pentágono durante la Marcha sobre el Pentágono. Jóvenes hombres y mujeres se encuentran frente a filas de soldados armados con cascos y rifles. Los manifestantes parecen ser civiles de pie muy cerca de la línea militar, lo que ilustra la dramática oposición interna a la participación de EE. UU. en la Guerra de Vietnam que había crecido a fines de la década de 1960.\n\n(Fotografía de la protesta antibelicista en el Pentágono, 21 de octubre de 1967. Biblioteca del Congreso, División de Impresas y Fotografías.)\n\nAnalice cómo el movimiento de protesta antibelicista mostrado en esta fotografía influyó en la política del gobierno de EE. UU. con respecto a la Guerra de Vietnam.",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Antiwar protests directly and immediately caused President Johnson to withdraw all U.S. troops from Vietnam in 1967",
+          "textEs": "Las protestas antibelicistas causaron directa e inmediatamente que el presidente Johnson retirara todas las tropas de EE. UU. de Vietnam en 1967",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Antiwar protests had no measurable influence on government policy because elected officials consistently ignored public opinion on military matters",
+          "textEs": "Las protestas antibelicistas no tuvieron ninguna influencia medible en la política del gobierno porque los funcionarios electos ignoraron sistemáticamente la opinión pública en asuntos militares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Antiwar protests caused the government to escalate military operations in Vietnam to demonstrate strength and resolve to protesters",
+          "textEs": "Las protestas antibelicistas hicieron que el gobierno intensificara las operaciones militares en Vietnam para demostrar fortaleza y determinación ante los manifestantes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Antiwar protests contributed to a political climate that pressured President Johnson not to seek re-election, influenced the Nixon administration's Vietnamization strategy, and helped build Congressional opposition that eventually cut off war funding",
+          "textEs": "Las protestas antibelicistas contribuyeron a un clima político que presionó al presidente Johnson a no buscar la reelección, influyeron en la estrategia de vietnamización de la administración Nixon y ayudaron a construir la oposición del Congreso que eventualmente cortó el financiamiento de la guerra",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.81"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The antiwar movement had a complex, indirect influence on Vietnam policy. Protest activity contributed to the political climate in which President Johnson announced in March 1968 that he would not seek re-election and initiated peace talks, demonstrating that domestic opposition had real political consequences. The movement also influenced the Nixon administration's 'Vietnamization' strategy — transferring combat responsibility to South Vietnamese forces while withdrawing American troops — and contributed to Congress's eventual 1973 refusal to fund further military operations in Southeast Asia. However, the war continued for years after protests began, and some historians argue protests may have hardened some policymakers' positions. Choice A overstates direct causation. Choice B unduly minimizes effect. Choice C inverts the actual policy direction.",
+      "explanationEs": "El movimiento antibelicista tuvo una influencia compleja e indirecta en la política de Vietnam. La actividad de protesta contribuyó al clima político en que el presidente Johnson anunció en marzo de 1968 que no buscaría la reelección e inició conversaciones de paz, lo que demostró que la oposición interna tenía consecuencias políticas reales. El movimiento también influyó en la estrategia de «vietnamización» de la administración Nixon —transferir la responsabilidad del combate a las fuerzas survietnamitas mientras se retiraban las tropas estadounidenses— y contribuyó a la eventual negativa del Congreso en 1973 a financiar más operaciones militares en el Sudeste Asiático. Sin embargo, la guerra continuó durante años después de que comenzaran las protestas, y algunos historiadores argumentan que las protestas pueden haber endurecido las posiciones de algunos responsables de las políticas. La opción A sobreestima la causalidad directa. La opción B minimiza indebidamente el efecto. La opción C invierte la dirección real de la política.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 1.0,
+        "c": 0.15
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.68"
+        ],
+        "priorBankTier": "stimulus-based",
+        "crosswalkReasons": [
+          "US.68->US.81: verb changed evaluate->describe",
+          "US.68->US.81: standard ADDED ['Effects of Agent Orange', 'Post-Traumatic Stress Disorder'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "Effects of Agent Orange",
+            "Post-Traumatic Stress Disorder"
+          ]
+        }
+      }
+    }
+  ]
+}

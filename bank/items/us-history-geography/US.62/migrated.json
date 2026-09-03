@@ -1,0 +1,2801 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.62",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us62-dok1-1",
+      "stem": "What was brinksmanship?",
+      "stemEs": "¿Qué fue la política al borde del abismo?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Soviet shootdown of a U.S. spy plane, exposing surveillance and causing a crisis",
+          "textEs": "El derribo soviético de un avión espía de los EE.UU., lo que expuso la vigilancia y provocó una crisis",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A policy pledging U.S. aid to Middle Eastern countries resisting communist aggression",
+          "textEs": "Una política de hacer pequeñas concesiones económicas para evitar desacuerdos comerciales mayores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A strategy of pushing dangerous situations to the edge to force opponents to retreat",
+          "textEs": "Una estrategia de llevar situaciones peligrosas al borde para forzar a oponentes a retroceder",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A competition between the U.S. and USSR to build superior nuclear weapons arsenals",
+          "textEs": "Un plan para participar en conversaciones diplomáticas prolongadas para retrasar confrontación",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Brinksmanship was the Cold War strategy of pushing crises to the edge of war to force the other side to back down. Choice A is wrong because it describes soviet shootdown of a U.S. spy plane, exposing surveillance and causing a crisis, not strategy of pushing dangerous situations to the edge to force opponents to retreat. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "La política al borde del abismo fue la estrategia de la Guerra Fría de llevar situaciones peligrosas al borde del desastre para forzar a un oponente a retroceder, especialmente respecto a armas nucleares bajo el Presidente Eisenhower.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.78,
+        "b": -1.08,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us63-dok1-4",
+      "stem": "What was the loyalty oath program?",
+      "stemEs": "¿Qué fue el programa de juramento de lealtad?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Required federal employees to swear they were not communists or disloyal",
+          "textEs": "Requirió que empleados federales juraran que no eran comunistas o desleales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Oath required of all citizens before they could join the armed military forces",
+          "textEs": "Juramento requerido de todos los ciudadanos antes de unirse a fuerzas militares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Pledge to support labor unions and workers' rights in American workplaces",
+          "textEs": "Comprometerse a apoyar a los sindicatos y los derechos de los trabajadores en los centros de trabajo estadounidenses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Promise to vote in all local and national elections as a civic responsibility",
+          "textEs": "Promesa de votar en todas las elecciones locales y nacionales como deber cívico",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The loyalty oath program was Required federal employees to swear they were not communists or disloyal. Choice B is wrong because it describes oath required of all citizens before they could join the armed military forces, not required federal employees to swear they were not communists or disloyal. The Red Scare showed how fear of communism could threaten civil liberties and damage democratic debate at home.",
+      "explanationEs": "El programa de juramento de lealtad del Presidente Truman requirió que empleados federales juraran que no eran miembros de organizaciones comunistas, parte de esfuerzos para eliminar supuestos subversivos del gobierno.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.9,
+        "b": -1.2,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us65-dok1-3-b",
+      "stem": "What was Eisenhower's policy of \"brinkmanship\"?",
+      "stemEs": "¿Cuál fue la política de \"al borde del abismo\" de Eisenhower?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Threatening nuclear war to force the enemy to back down",
+          "textEs": "Amenazar con guerra nuclear para obligar al enemigo a retroceder",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Working father, stay-at-home mother, and children in a suburban home",
+          "textEs": "Construir alianzas diplomáticas con países comunistas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Neil Armstrong, commander of the Apollo 11 mission",
+          "textEs": "Retirar las tropas estadounidenses de todas las bases extranjeras",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A failed CIA-backed attempt to overthrow Fidel Castro in Cuba",
+          "textEs": "Usar sanciones económicas en lugar de fuerza militar",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower's policy of \"brinkmanship\" was Threatening nuclear war to force the enemy to back down. Choice B is wrong because it describes working father, stay-at-home mother, and children in a suburban home, not threatening nuclear war to force the enemy to back down. Nuclear weapons changed global strategy by making deterrence and crisis management central to superpower relations.",
+      "explanationEs": "La diplomacia al borde del abismo era la disposición a ir al borde de la guerra (incluyendo guerra nuclear) para obligar a la Unión Soviética a retroceder.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.05,
+        "b": -0.75,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-63-q04",
+      "stem": "Operation Eagle Claw (April 1980) was —",
+      "stemEs": "La Operación Eagle Claw (abril de 1980) fue —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A military airstrike on Iranian nuclear facilities, which historians consider a secondary factor in this development",
+          "textEs": "Un ataque aéreo contra instalaciones nucleares iraníes, lo cual los historiadores consideran un factor secundario en este desarrollo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A naval blockade of Iranian ports designed to force hostage release, which was not the primary driver of this historical change",
+          "textEs": "Un bloqueo naval de los puertos iraníes diseñado para forzar la liberación de los rehenes, lo cual no fue el principal motivo de este desarrollo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A failed military rescue attempt that ended when helicopters malfunctioned in the Iranian desert, killing eight U.S. servicemen and humiliating the Carter administration",
+          "textEs": "Un fallido intento de rescate militar que terminó cuando los helicópteros sufrieron fallas mecánicas en el desierto iraní, matando a ocho militares de los EE.UU.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A successful rescue mission that freed the American hostages, which was not the primary driver of this historical change",
+          "textEs": "Una exitosa misión de rescate que liberó a los rehenes estadounidenses, lo cual no fue el principal motivo de este desarrollo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A failed military rescue attempt that ended when helicopters malfunctioned in the Iranian desert, killing eight U.S. servicemen and humiliating the Carter administration. Choice A is wrong because it describes military airstrike on Iranian nuclear facilities, which historians consider a secondary factor in this development, not failed military rescue attempt that ended when helicopters malfunctioned in the Iranian desert, killing eight U.S. servicemen and humiliating the Carter administration. The hostage crisis fed the image of American weakness abroad and helped set the stage for Reagan's victory in 1980.",
+      "explanationEs": "Un fallido intento de rescate militar que terminó cuando los helicópteros sufrieron fallas mecánicas en el desierto iraní, matando a ocho militares de los EE.UU. La opción A es incorrecta porque describe un ataque aéreo contra instalaciones nucleares iraníes, lo cual los historiadores consideran un factor secundario en este desarrollo. El fracaso de la Operación Eagle Claw contribuyó a la percepción de debilidad de Carter.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.04,
+        "b": -1.28,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-66-x012",
+      "stem": "Iraq's justification for invading Kuwait in August 1990 included —",
+      "stemEs": "La justificación de Irak para invadir Kuwait en agosto de 1990 incluyó —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Iraq's claim that Kuwait was historically part of its territory under Ottoman rule",
+          "textEs": "La afirmación de Irak de que Kuwait era históricamente parte de su territorio bajo el dominio otomano",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Kuwait's alleged involvement in a terrorist attack that killed Iraqi soldiers near their shared border",
+          "textEs": "La supuesta participación de Kuwait en un ataque terrorista que mató a soldados iraquíes cerca de su frontera común",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Kuwait's formal military alliance with Iran, Iraq's enemy in the bloody 1980–1988 Iran-Iraq War",
+          "textEs": "La alianza militar formal de Kuwait con Irán, el enemigo de Irak en la sangrienta guerra Irán-Irak de 1980-1988",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Claims that Kuwait was slant-drilling into Iraqi oil fields and disputes over debt from the Iran-Iraq War",
+          "textEs": "Las alegaciones de que Kuwait perforaba diagonalmente hacia los yacimientos petrolíferos iraquíes y las disputas sobre la deuda de la guerra Irán-Irak",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Claims that Kuwait was stealing Iraqi oil through slant-drilling and disputes over debt from the Iran-Iraq War. Choice A is wrong because it describes iraq's claim that Kuwait was historically part of its territory under Ottoman rule, not claims that Kuwait was stealing Iraqi oil through slant-drilling and disputes over debt from the Iran-Iraq War. The Gulf War showed unmatched U.S. military power after the Cold War but also the limits of coalition war aims.",
+      "explanationEs": "Claims that Kuwait was stealing Iraqi oil through slant-drilling and disputes over debt from the Iran-Iraq War. Choice A is wrong because it describes iraq's claim that Kuwait was historically part of its territory under Ottoman rule, not claims that Kuwait was stealing Iraqi oil through slant-drilling and disputes over debt from the Iran-Iraq War. The Guerra del Golfo showed unmatched U.S. military power after the Guerra Fría but also the limits of coalition war aims.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -1.44,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us62-dok2-7",
+      "stem": "What was the purpose of civil defense drills during the Cold War?",
+      "stemEs": "¿Cuál fue el propósito de ejercicios de defensa civil durante la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To practice economic sanctions responses and wartime rationing of food supplies",
+          "textEs": "Practicar respuestas a sanciones económicas y racionamiento de alimentos en tiempos de guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To train citizens in conventional warfare techniques and basic combat field skills",
+          "textEs": "Entrenar ciudadanos en técnicas de guerra convencional y habilidades básicas de combate",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To prepare citizens for nuclear attack through \"duck and cover\" shelter procedures",
+          "textEs": "Preparar a los ciudadanos para un ataque nuclear mediante procedimientos de abrigo de 'agáchate y cúbrete'",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To prepare communities only for natural disasters such as tornadoes and earthquakes",
+          "textEs": "Preparar comunidades solo para desastres naturales como tornados y terremotos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The purpose of civil defense drills during the Cold War was to prepare citizens for nuclear attack through \"duck and cover\" shelter procedures. Choice B is wrong because it describes a different aim than to prepare citizens for nuclear attack through \"duck and cover\" shelter procedures. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "Ejercicios de defensa civil, incluyendo famosos ejercicios de \"agacharse y cubrirse\" en escuelas, intentaban preparar estadounidenses para ataque nuclear, aunque su efectividad real era cuestionable dado poder destructivo de armas nucleares.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.92,
+        "b": -0.65,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-63-x015",
+      "stem": "The American hostages in Iran were held in the U.S. Embassy for how long?",
+      "stemEs": "¿Los rehenes estadounidenses en Irán fueron retenidos en la Embajada de EE. UU. durante cuánto tiempo?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "180 days",
+          "textEs": "180 días",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "444 days",
+          "textEs": "444 días",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "266 days",
+          "textEs": "266 días",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "520 days",
+          "textEs": "520 días",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "444 days. Choice A is wrong because 180 days is not the correct date or length for this event. The hostage crisis fed the image of American weakness abroad and helped set the stage for Reagan's victory in 1980.",
+      "explanationEs": "444 días. La opción A es incorrecta porque 180 días no es la duración correcta de este evento. La crisis de los rehenes alimentó la percepción de debilidad e ineficacia de la administración Carter.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.42,
+        "b": -0.14,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-69-x022",
+      "stem": "The Monica Lewinsky investigation began as a separate inquiry but was connected to the Whitewater investigation by Independent Counsel Starr through —",
+      "stemEs": "La investigación sobre Mónica Lewinsky comenzó como una investigación separada pero se conectó con la investigación sobre Whitewater mediante —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Lewinsky's connection to a Whitewater figure who had advised her to lie in her deposition",
+          "textEs": "La conexión de Lewinsky con una figura de Whitewater que le había aconsejado mentir en su declaración",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congressional Republicans' pressure on Reno to expand the investigation's scope",
+          "textEs": "Congresoional repúblicaans' pressure on Reno to expand the investigation's scope",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The specific statutory language of the independent counsel law that authorized investigation of any Clinton wrongdoing",
+          "textEs": "El lenguaje estatutario específico de la ley del fiscal independiente que autorizaba la investigación de cualquier conducta indebida de Clinton",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Attorney General Reno's expansion of Starr's jurisdiction to include the Lewinsky matter",
+          "textEs": "La ampliación de la jurisdicción de Starr por parte de la Fiscal General Reno para incluir el asunto Lewinsky",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Attorney General Reno's expansion of Starr's jurisdiction to include the Lewinsky matter. Choice C is wrong because it describes specific statutory language of the independent counsel law that authorized investigation of any Clinton wrongdoing, not attorney General Reno's expansion of Starr's jurisdiction to include the Lewinsky matter. Reagan's Cold War strategy mixed military pressure with later diplomacy, helping shape the final phase of the Cold War.",
+      "explanationEs": "Attorney General Reno's expansion of Starr's jurisdiction to include the Lewinsky matter. Choice C is wrong because it describes specific statutory language of the independent counsel law that authorized investigation of any Clinton wrongdoing, not attorney General Reno's expansion of Starr's jurisdiction to include the Lewinsky matter. Reagan's Guerra Fría strategy mixed military pressure with later diplomacia, helping shape the final phase of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.56,
+        "b": -0.59,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-69-f105",
+      "stem": "The dissolution of the Soviet Union on December 25, 1991 marked —",
+      "stemEs": "La disolución de la Unión Soviética el 25 de diciembre de 1991 marcó —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The beginning of a new Cold War between the U.S. and Russia since the Soviet military and nuclear arsenal were transferred intact to Russia",
+          "textEs": "The beginning of a new Guerra Fría between the U.S. and Russia since the Soviet military and nuclear arsenal were transferred intact to Russia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The result of a CIA-organized coup by Russian reformers who wanted to implement democracy while Gorbachev resisted",
+          "textEs": "El resultado de un golpe organizado por la CIA por parte de reformistas rusos que querían implementar la democracia mientras Gorbachev se resistía",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The formal end of the Cold War and the collapse of the world's second superpower, producing the largest voluntary cession of territory and power in modern history",
+          "textEs": "The formal end of the Guerra Fría and the collapse of the world's second superpower, producing the largest voluntary cession of territory and power in modern history",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A planned transition that Gorbachev had negotiated with Soviet republic leaders over the preceding three years",
+          "textEs": "A planned transition that Gorbachev had negotiated with Soviet república leaders over the preceding three years",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The formal end of the Cold War and the collapse of the world's second superpower, producing the largest voluntary cession of territory and power in modern history. Choice A is wrong because it describes beginning of a new Cold War between the U.S. and Russia since the Soviet military and nuclear arsenal were transferred intact to Russia, not formal end of the Cold War and the collapse of the world's second superpower, producing the largest voluntary cession of territory and power in modern history. Reagan's Cold War strategy mixed military pressure with later diplomacy, helping shape the final phase of the Cold War.",
+      "explanationEs": "The formal end of the Guerra Fría and the collapse of the world's second superpower, producing the largest voluntary cession of territory and power in modern history. Choice A is wrong because it describes beginning of a new Guerra Fría between the U.S. and Russia since the Soviet military and nuclear arsenal were transferred intact to Russia, not formal end of the Guerra Fría and the collapse of the world's second superpower, producing the largest voluntary cession of territory and power in modern history. Reagan's Guerra Fría strategy mixed military pressure with later diplomacia, helping shape the final phase of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.58,
+        "b": -0.37,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us63-dok2-4",
+      "stem": "What was the impact of the blacklist on the entertainment industry?",
+      "stemEs": "¿Cuál fue el impacto de la lista negra en la industria del entretenimiento?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Created climate of fear causing self-censorship in universities and public discourse",
+          "textEs": "No tuvo efecto medible en prácticas de empleo en el campo del entretenimiento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Televised hearings exposed McCarthy's tactics, leading to his censure and decline",
+          "textEs": "Solo aumentó oportunidades en Hollywood removiendo competidores menos talentosos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Many actors, writers, and directors lost their careers for suspected communist ties",
+          "textEs": "Muchos actores, escritores y directores perdieron sus carreras por sus supuestos vínculos con el comunismo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He exposed McCarthy's tactics on television, turning public opinion against him",
+          "textEs": "Promovió libertad artística y expresión creativa en toda la industria cinematográfica",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The impact of the blacklist on the entertainment industry was Many actors, writers, and directors lost their careers for suspected communist ties. Choice A is wrong because it describes created climate of fear causing self-censorship in universities and public discourse, not many actors, writers, and directors lost their careers for suspected communist ties. The Red Scare showed how fear of communism could threaten civil liberties and damage democratic debate at home.",
+      "explanationEs": "La lista negra de Hollywood destruyó carreras de cientos de actores, escritores y directores sospechosos de simpatías comunistas, forzando a muchos a trabajar bajo seudónimos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.16,
+        "b": 0.45,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us65-dok2-3-b",
+      "stem": "How did Eisenhower's \"peaceful coexistence\" approach represent a shift in Cold War strategy?",
+      "stemEs": "¿Cómo representó el enfoque de \"coexistencia pacífica\" de Eisenhower un cambio en la estrategia de la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It accepted that the U.S. and USSR might coexist without direct military conflict",
+          "textEs": "Aceptaba que EE.UU. y la URSS podrían coexistir sin conflicto militar directo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Created huge demand for housing, schools, and goods, shaping culture for decades",
+          "textEs": "Significaba que EE.UU. entregaría sus armas nucleares a las Naciones Unidas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Reinforced traditional roles with mothers expected to stay home raising children",
+          "textEs": "Terminó la carrera armamentista y eliminó todas las armas nucleares",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Book by Betty Friedan critiquing the suburban housewife ideal and limited roles",
+          "textEs": "Requería que la Unión Soviética se convirtiera en una nación democrática",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It accepted that the U.S. and USSR might coexist without direct military conflict. Choice B is wrong because it describes created huge demand for housing, schools, and goods, shaping culture for decades, not it accepted that the U.S. and USSR might coexist without direct military conflict. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "Después de la muerte de Stalin en 1953, ambas partes exploraron la \"coexistencia pacífica\" — aceptando la existencia del otro mientras competían económica e ideológicamente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.01,
+        "b": 0.15,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us61-dok2-2-b",
+      "stem": "What role did NATO play during the Cold War?",
+      "stemEs": "¿Qué papel desempeñó la OTAN durante la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was a mutual defense alliance of Western democracies against Soviet aggression",
+          "textEs": "Fue una alianza de defensa mutua de democracias occidentales contra la agresión soviética",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A 1950-1953 conflict where North Korea invaded South Korea, prompting U.S. action",
+          "textEs": "Fue una organización económica enfocada únicamente en el comercio entre naciones europeas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The division line between North and South Korea before, during, and after the war",
+          "textEs": "Incluía a naciones de Europa Occidental y Oriental por igual",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A massive U.S. aid program to rebuild Europe and prevent the spread of communism",
+          "textEs": "Fue disuelta inmediatamente después de que la Guerra de Corea terminara en 1953",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It was a mutual defense alliance of Western democracies against Soviet aggression. Choice B is wrong because it describes 1950-1953 conflict where North Korea invaded South Korea, prompting U.S. action, not it was a mutual defense alliance of Western democracies against Soviet aggression. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "La OTAN (Organización del Tratado del Atlántico Norte) fue formada en 1949 como una alianza de defensa colectiva. Un ataque a un miembro era tratado como un ataque a todos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.81,
+        "b": -0.44,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-67-q02",
+      "stem": "The 1990s saw the longest peacetime economic expansion in American history. Which combination of factors drove this expansion?",
+      "stemEs": "¿La década de 1990 presenció la expansión económica en tiempos de paz más larga de la historia estadounidense. ¿Qué combinación de factores impulsó esta expansión?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NAFTA immediately created millions of high-paying American jobs that powered consumer spending",
+          "textEs": "El TLCAN creó de inmediato millones de empleos bien remunerados en Estados Unidos que impulsaron el gasto del consumidor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reagan's 1981 tax cuts finally produced economic results after a decade-long lag",
+          "textEs": "Los recortes fiscales de Reagan en 1981 finalmente produjeron resultados económicos después de un retraso de una década",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The technology boom (dot-com), post-Cold War 'peace dividend,' deficit reduction under Clinton",
+          "textEs": "El auge tecnológico (punto-com), el «dividendo de paz» de la posguerra fría y la reducción del déficit bajo Clinton",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Cold War defense spending reductions allowed massive increases in domestic infrastructure investment",
+          "textEs": "Las reducciones del gasto en defensa de la Guerra Fría permitieron aumentos masivos en la inversión en infraestructura interna",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The technology boom (dot-com), post-Cold War 'peace dividend,' deficit reduction under Clinton. Choice B is wrong because it describes reagan's 1981 tax cuts finally produced economic results after a decade-long lag, not technology boom (dot-com), post-Cold War 'peace dividend,' deficit reduction under Clinton. The NAFTA debate captured the larger 1990s argument over globalization, jobs, and the role of trade in the U.S. economy.",
+      "explanationEs": "The technology boom (dot-com), post-Guerra Fría 'peace dividend,' deficit reduction under Clinton. Choice B is wrong because it describes reagan's 1981 tax cuts finally produced economic results after a decade-long lag, not technology boom (dot-com), post-Guerra Fría 'peace dividend,' deficit reduction under Clinton. The NAFTA debate captured the larger 1990s argument over globalización, jobs, and the role of comercio in the U.S. economy.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.19,
+        "b": -0.06,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-63-q09",
+      "stem": "The hostage crisis's impact on U.S.-Iran relations was long-lasting because —",
+      "stemEs": "El impacto duradero de la crisis de los rehenes en las relaciones EE.UU.-Irán se debió a que —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Iran paid reparations to the hostages that settled all legal claims",
+          "textEs": "Irán pagó reparaciones a los rehenes que zanjaron todas las reclamaciones legales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The crisis established a pattern of deep mutual hostility",
+          "textEs": "La crisis estableció un patrón de profunda hostilidad mutua",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The CIA successfully overthrew the Iranian government in 1983",
+          "textEs": "La CIA derrocó exitosamente al gobierno iraní en 1983",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The two countries immediately reconciled after the hostages were released",
+          "textEs": "Los dos países se reconciliaron inmediatamente después de la liberación de los rehenes",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The crisis established a pattern of deep mutual hostility. Choice A is wrong because it describes iran paid reparations to the hostages that settled all legal claims, not crisis established a pattern of deep mutual hostility. The hostage crisis fed the image of American weakness abroad and helped set the stage for Reagan's victory in 1980.",
+      "explanationEs": "La crisis estableció un patrón de profunda hostilidad mutua. La opción A es incorrecta porque describe que Irán pagó reparaciones a los rehenes que zanjaron todas las reclamaciones legales, lo cual no fue el resultado de este evento. Las relaciones EE.UU.-Irán permanecieron tensas durante décadas como consecuencia directa de la crisis de los rehenes.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.65,
+        "b": -0.45,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-66-q04",
+      "stem": "Bush's decision **NOT** to march to Baghdad and remove Saddam Hussein from power was justified at the time because —",
+      "stemEs": "La decisión de Bush de **NO** marchar hacia Bagdad y retirar a Saddam Hussein del poder se justificó en ese momento con el argumento de que —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The UN mandate authorized only the liberation of Kuwait",
+          "textEs": "El mandato de la ONU solo autorizaba la liberación de Kuwait",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Saddam Hussein had agreed to peaceful disarmament",
+          "textEs": "Saddam Hussein había acordado el desarme pacífico",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "U.S. forces lacked the military capability to reach Baghdad",
+          "textEs": "Las fuerzas de los EE.UU. carecían de la capacidad militar para llegar a Bagdad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Congress had prohibited any military action inside Iraq proper",
+          "textEs": "El Congreso había prohibido cualquier acción militar dentro del propio Irak",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The UN mandate authorized only the liberation of Kuwait. Choice B is wrong because it describes saddam Hussein had agreed to peaceful disarmament, not uN mandate authorized only the liberation of Kuwait. The Gulf War showed unmatched U.S. military power after the Cold War but also the limits of coalition war aims.",
+      "explanationEs": "The UN mandate authorized only the liberation of Kuwait. Choice B is wrong because it describes saddam Hussein had agreed to peaceful disarmament, not uN mandate authorized only the liberation of Kuwait. The Guerra del Golfo showed unmatched U.S. military power after the Guerra Fría but also the limits of coalition war aims.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.77,
+        "b": 0.54,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-66-x013",
+      "stem": "The UN Security Council resolution authorizing force against Iraq was significant because —",
+      "stemEs": "The UN Security Council resolution authorizing force against Iraq fue significativo/a porque:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It set a precedent for humanitarian intervention that would be applied throughout the 1990s",
+          "textEs": "Estableció un precedente para la intervención humanitaria que se aplicaría a lo largo de los años noventa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "China and the Soviet Union both voted in favor, providing rare great-power unanimity",
+          "textEs": "China y la Unión Soviética votaron a favor, proporcionando una rara unanimidad entre las grandes potencias",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It demonstrated that the end of the Cold War had removed the Soviet veto as an obstacle to collective security",
+          "textEs": "It demonstrated that the end of the Guerra Fría had removed the Soviet veto as an obstacle to collective security",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It marked the first time the Security Council had authorized military force since the Korean War",
+          "textEs": "Marcó la primera vez que el Consejo de Seguridad autorizó el uso de la fuerza militar desde la Guerra de Corea",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It demonstrated that the end of the Cold War had removed the Soviet veto as an obstacle to collective security. Choice D is wrong because it describes it marked the first time the Security Council had authorized military force since the Korean War, not it demonstrated that the end of the Cold War had removed the Soviet veto as an obstacle to collective security. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "It demonstrated that the end of the Guerra Fría had removed the Soviet veto as an obstacle to collective security. Choice D is wrong because it describes it marked the first time the Security Council had authorized military force since the Guerra de Corea, not it demonstrated that the end of the Guerra Fría had removed the Soviet veto as an obstacle to collective security. These developments defined the Guerra Fría as a global struggle over power, ideology, and influence.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.85,
+        "b": -0.39,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x014",
+      "stem": "The Republican takeover of Congress in 1994 was historically significant because —",
+      "stemEs": "The repúblicaan takeover of Congreso in 1994 was historically significant because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It ended 40 years of Democratic control of the House of Representatives",
+          "textEs": "It ended 40 years of democrático control of the Cámara de Representantes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It gave Republicans a large enough majority to override Clinton's vetoes",
+          "textEs": "It gave repúblicaans a large enough majority to override Clinton's vetoes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Gingrich's election as Speaker represented the first time a Southerner had held that position",
+          "textEs": "La elección de Gingrich como Presidente de la Cámara representó la primera vez que un sureño ocupaba ese cargo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Republicans won both chambers of Congress for the first time since the Eisenhower administration",
+          "textEs": "repúblicaans won both chambers of Congreso for the first time since the Eisenhower administration",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It ended 40 years of Democratic control of the House of Representatives. Choice D is wrong because it describes republicans won both chambers of Congress for the first time since the Eisenhower administration, not it ended 40 years of Democratic control of the House of Representatives. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "It ended 40 years of democrático control of the Cámara de Representantes. Choice D is wrong because it describes repúblicaans won both chambers of Congreso for the first time since the Eisenhower administration, not it ended 40 years of democrático control of the Cámara de Representantes. These battles intensified partisan polarization and changed how Congreso and the presidency confronted each other.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.59,
+        "b": 0.04,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x019",
+      "stem": "The 1994 Rwandan genocide, during which 800,000 people were killed in 100 days, raised questions about —",
+      "stemEs": "El genocidio de Ruanda en 1994, durante el cual 800.000 personas fueron asesinadas en 100 días, planteó interrogantes sobre —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NATO's jurisdiction and authority beyond its traditional European theater of operations",
+          "textEs": "La jurisdicción y la autoridad de la OTAN más allá de su teatro europeo tradicional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Whether the United States and international community had an obligation to intervene to stop genocide",
+          "textEs": "Si los Estados Unidos y la comunidad internacional tenían la obligación de intervenir para detener el genocidio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The UN Security Council's ability to act decisively in humanitarian emergencies",
+          "textEs": "La capacidad del Consejo de Seguridad de la ONU para actuar con decisión en emergencias humanitarias",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Whether Clinton's foreign policy team had received adequate intelligence about growing violence in Rwanda",
+          "textEs": "Whether Clinton's política exterior team had received adequate intelligence about growing violence in Rwanda",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Whether the United States and international community had an obligation to intervene to stop genocide. Choice D is wrong because it describes whether Clinton's foreign policy team had received adequate intelligence about growing violence in Rwanda, not whether the United States and international community had an obligation to intervene to stop genocide. Reagan's Cold War strategy mixed military pressure with later diplomacy, helping shape the final phase of the Cold War.",
+      "explanationEs": "Whether the United States and international community had an obligation to intervene to stop genocidio. Choice D is wrong because it describes whether Clinton's política exterior team had received adequate intelligence about growing violence in Rwanda, not whether the United States and international community had an obligation to intervene to stop genocidio. Reagan's Guerra Fría strategy mixed military pressure with later diplomacia, helping shape the final phase of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.43,
+        "b": 0.38,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-63-x024",
+      "stem": "The Iran-Contra affair is historically significant because it revealed that —",
+      "stemEs": "El Caso Irán-Contra es históricamente significativo porque reveló que —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The national security apparatus had developed the capacity to conduct foreign policy outside legal constraints",
+          "textEs": "The national security apparatus had developed the capacity to conduct política exterior outside legal constraints",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Reagan had personally authorized illegal arms sales to Iran",
+          "textEs": "Reagan había autorizado personalmente la venta ilegal de armas a Irán",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The CIA had been conducting illegal operations without the president's knowledge",
+          "textEs": "La CIA había estado llevando a cabo operaciones ilegales sin el conocimiento del presidente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Senior administration officials had systematically circumvented the law and misled Congress",
+          "textEs": "Altos funcionarios de la administración habían eludido sistemáticamente la ley y engañado al Congreso",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The national security apparatus had developed the capacity to conduct foreign policy outside legal constraints. Choice B is wrong because it describes reagan had personally authorized illegal arms sales to Iran, not national security apparatus had developed the capacity to conduct foreign policy outside legal constraints. Reagan's Cold War strategy mixed military pressure with later diplomacy, helping shape the final phase of the Cold War.",
+      "explanationEs": "The national security apparatus had developed the capacity to conduct política exterior outside legal constraints. Choice B is wrong because it describes reagan had personally authorized illegal arms sales to Iran, not national security apparatus had developed the capacity to conduct política exterior outside legal constraints. Reagan's Guerra Fría strategy mixed military pressure with later diplomacia, helping shape the final phase of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.73,
+        "b": 0.44,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-63-x026",
+      "stem": "Reagan's Strategic Defense Initiative (SDI, 'Star Wars') was controversial because —",
+      "stemEs": "La Iniciativa de Defensa Estratégica (IDE, 'Guerra de las Galaxias') de Reagan fue polémica porque —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Critics argued it would violate the ABM Treaty and could rarely be technically feasible",
+          "textEs": "Los críticos argumentaban que violaría el Tratado ABM y que difícilmente sería técnicamente viable",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The $100 billion estimated cost would have crowded out conventional defense spending",
+          "textEs": "El costo estimado de 100.000 millones de dólares habría desplazado el gasto en defensa convencional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Soviet leaders feared it would give the U.S. a first-strike capability by neutralizing their retaliatory deterrent",
+          "textEs": "Los líderes soviéticos temían que le otorgara a los EE.UU. una capacidad de primer ataque al neutralizar su disuasivo de represalia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The $100 billion estimated cost would have crowded out conventional defense spending only in theory, not practice",
+          "textEs": "El costo estimado de 100.000 millones de dólares habría desplazado el gasto en defensa convencional solo en teoría, no en la práctica",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both A and B represent substantive criticisms of SDI. Choice B is wrong because it describes $100 billion estimated cost would have crowded out conventional defense spending, not both A and B represent substantive criticisms of SDI. Reagan's Cold War strategy mixed military pressure with later diplomacy, helping shape the final phase of the Cold War.",
+      "explanationEs": "Both A and B represent substantive criticisms of SDI. Choice B is wrong because it describes $100 billion estimated cost would have crowded out conventional defense spending, not both A and B represent substantive criticisms of SDI. Reagan's Guerra Fría strategy mixed military pressure with later diplomacia, helping shape the final phase of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.11,
+        "b": -0.51,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-63-x018",
+      "stem": "The hostage crisis had which of the following long-term effects on U.S.-Iranian relations?",
+      "stemEs": "The hostage crisis had ¿Cuál de las siguientes opciones long-term effects on U.S.-Iranian relations?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It produced a mutual defense agreement with Iraq, which the U.S. viewed as a counterweight to Iran",
+          "textEs": "Produjo un acuerdo de defensa mutua con Irak, al que los EE.UU. veían como contrapeso frente a Irán",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It hardened American public attitudes toward Iran, contributing to decades of hostility between the two nations",
+          "textEs": "Endureció las actitudes del público estadounidense hacia Irán, contribuyendo a décadas de hostilidad entre las dos naciones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It led the U.S. to impose an oil embargo on Iran that caused economic collapse",
+          "textEs": "Llevó a los EE.UU. a imponer un embargo petrolero a Irán que causó el colapso económico de ese país",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It permanently ended diplomatic relations between the U.S. and Iran, which were rarely fully restored",
+          "textEs": "Puso fin permanentemente a las relaciones diplomáticas entre los EE.UU. e Irán, que raramente se restauraron plenamente",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It hardened American public attitudes toward Iran, contributing to decades of hostility between the two nations. Choice D is wrong because it describes it permanently ended diplomatic relations between the U.S. and Iran, which were rarely fully restored, not it hardened American public attitudes toward Iran, contributing to decades of hostility between the two nations. The hostage crisis fed the image of American weakness abroad and helped set the stage for Reagan's victory in 1980.",
+      "explanationEs": "Endureció las actitudes públicas estadounidenses hacia Irán, contribuyendo a décadas de hostilidad entre las dos naciones. La opción A es incorrecta porque describe que produjo un acuerdo de defensa mutua con Irak, lo cual los historiadores consideran un factor secundario en este desarrollo. Las consecuencias de la crisis de los rehenes configuraron las relaciones EE.UU.-Irán durante décadas.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.24,
+        "b": 1.19,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U7-DOK2-0009",
+      "stem": "How did Eisenhower's policy of 'brinksmanship' differ from Truman's approach to containing Soviet expansion?",
+      "stemEs": "¿En qué se diferenciaba la política de «brinksmanship» (política al borde del abismo) de Eisenhower del enfoque de Truman para contener la expansión soviética?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Brinksmanship relied on massive nuclear retaliation threats rather than costly conventional military buildups, making deterrence cheaper",
+          "textEs": "El brinksmanship se basó en amenazas de represalia nuclear masiva en lugar de costosas acumulaciones militares convencionales, lo que hizo la disuasión más económica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Brinksmanship involved direct military confrontations with Soviet forces across Europe and Asia",
+          "textEs": "El brinksmanship implicó confrontaciones militares directas con las fuerzas soviéticas en toda Europa y Asia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eisenhower abandoned containment entirely and pursued a policy of rollback to liberate Soviet-controlled territories",
+          "textEs": "Eisenhower abandonó completamente la contención y aplicó una política de retroceso para liberar los territorios controlados por los soviéticos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Brinksmanship reduced defense spending by establishing a formal peace treaty with the Soviet Union",
+          "textEs": "El brinksmanship redujo el gasto en defensa al establecer un tratado de paz formal con la Unión Soviética",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower's 'New Look' defense policy paired brinksmanship — threatening massive nuclear retaliation — with cuts to expensive conventional forces, relying on nuclear deterrence as a cost-effective containment strategy.",
+      "explanationEs": "La política de «Nueva Mirada» de Eisenhower combinó el brinksmanship —amenazando con una represalia nuclear masiva— con recortes a las costosas fuerzas convencionales, apoyándose en la disuasión nuclear como estrategia de contención más rentable.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.5,
+        "b": 0.4,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0044",
+      "stem": "Use the image to answer the question.\n\nThis image shows Bert the Turtle from the 1951 civil defense film \"Duck and Cover,\" which instructed American schoolchildren to take cover under their desks in the event of a nuclear attack.\n\n(Still from \"Duck and Cover,\" 1951. U.S. Federal Civil Defense Administration.)\n\nWhat does this civil defense campaign reveal about American society during the early Cold War?",
+      "stemEs": "¿Qué revela esta campaña de defensa civil sobre la sociedad estadounidense durante la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Americans were unconcerned about nuclear weapons because they trusted government protection",
+          "textEs": "Los estadounidenses no se preocupaban por las armas nucleares porque confiaban en la protección del gobierno",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Fear of nuclear conflict permeated daily life, including the education of young children",
+          "textEs": "El miedo al conflicto nuclear permeó la vida cotidiana, incluida la educación de los niños pequeños",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The U.S. government believed nuclear war was impossible but created the film for entertainment",
+          "textEs": "El gobierno de EE. UU. creía que la guerra nuclear era imposible, pero creó el filme con fines de entretenimiento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Schools independently developed emergency plans without any government involvement",
+          "textEs": "Las escuelas desarrollaron planes de emergencia de manera independiente sin ninguna participación del gobierno",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 'Duck and Cover' campaign reflects how deeply nuclear anxiety penetrated American society, reaching into elementary school classrooms and shaping the daily experiences of Cold War-era children.",
+      "explanationEs": "La campaña refleja cómo la ansiedad nuclear penetró profundamente en la sociedad estadounidense.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U7-DOK2-0003",
+      "stem": "Eisenhower's warning in this excerpt addressed the dangers of —",
+      "stemEs": "La advertencia de Eisenhower en este fragmento abordó los peligros de —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Growing connections between the defense industry and government decision- making",
+          "textEs": "Los crecientes vínculos entre la industria de defensa y la toma de decisiones gubernamentales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Excessive consumer spending on luxury goods",
+          "textEs": "El gasto excesivo de los consumidores en bienes de lujo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Federal overspending on public education",
+          "textEs": "El exceso de gasto federal en educación pública",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Increasing immigration from Eastern Europe",
+          "textEs": "El aumento de la inmigración desde Europa del Este",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "President Eisenhower's January 17, 1961, Farewell Address warned of the growing connections between the defense industry and government decision-making — what he named the military-industrial complex. After eight years of Cold War defense buildup, Eisenhower cautioned that the combined influence of permanent armaments industries and military leadership could shape policy in ways that distorted democratic deliberation. Choice B is wrong because the address focused on national security policy, not consumer culture. Choice C is wrong because Eisenhower advocated federal investment in education through the National Defense Education Act of 1958. Choice D is wrong because the speech did not address immigration policy. The phrase military-industrial complex remains central to debates over defense spending.",
+      "explanationEs": "El Discurso de Despedida del presidente Eisenhower del 17 de enero de 1961 advirtió sobre las crecientes conexiones entre la industria de defensa y la toma de decisiones del gobierno — lo que llamó el complejo militar-industrial. Después de ocho años de acumulación de defensa de la Guerra Fría, Eisenhower advirtió que la influencia combinada de industrias armamentistas permanentes y el liderazgo militar podría dar forma a la política de maneras que distorsionaran la deliberación democrática. La opción B es incorrecta porque el discurso se centró en la política de seguridad nacional, no en la cultura del consumo. La opción C es incorrecta porque Eisenhower defendió la inversión federal en educación mediante la Ley de Educación de Defensa Nacional de 1958. La opción D es incorrecta porque el discurso no abordó la política de inmigración. La frase complejo militar-industrial sigue siendo central en los debates sobre el gasto en defensa.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-73-x033",
+      "stem": "The U-2 incident of 1960 damaged U.S.-Soviet relations because —",
+      "stemEs": "The U-2 incident of 1960 damaged U.S.-Soviet relations because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "An American spy plane was shot down over Soviet territory, exposing U.S. intelligence operations",
+          "textEs": "An American spy plane was shot down over Soviet territory, exposing U.S. intelligence operations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "American spies were discovered inside the Kremlin using a new surveillance technology",
+          "textEs": "American spies were discovered inside the Kremlin using a new surveillance technology",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A Soviet spy plane violated U.S. airspace and photographed nuclear weapon facilities",
+          "textEs": "A Soviet spy plane violated U.S. airspace and photographed nuclear weapon facilities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The U.S. and Soviet Union collided militarily over Berlin during a U-2 mission",
+          "textEs": "The U.S. and Soviet Union collided militarily over Berlin during a U-2 mission",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The U-2 incident hurt relations because a U.S. spy plane was shot down over Soviet territory, exposing American surveillance after the United States first tried to deny it. D is wrong because there was no direct military clash over Berlin in this event. The scandal wrecked hopes for improved relations between the superpowers.",
+      "explanationEs": "The U-2 incident hurt relations because a U.S. spy plane was shot down over Soviet territory, exposing American surveillance after the United States first tried to deny it. D is wrong because there was no direct military clash over Berlin in this event. The scandal wrecked hopes for improved relations between the superpowers.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.29,
+        "b": 0.17,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us65-dok3-2",
+      "stem": "How did the baby boom create generational conflict by the 1960s?",
+      "stemEs": "¿Cómo creó el baby boom conflicto generacional en los años 1960?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It accepted that the U.S. and USSR might coexist without direct military conflict",
+          "textEs": "Baby boomers se enfocaron completamente en éxito económico en lugar de cambio cultural",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Created huge demand for housing, schools, and goods, shaping culture for decades",
+          "textEs": "Generación más joven abrazó completamente valores de los años 1950 y estilo de vida de padres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Reinforced traditional roles with mothers expected to stay home raising children",
+          "textEs": "No hubo conflicto generacional significativo entre baby boomers y sus padres",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Large youth cohort questioned parents' conformity, consumerism, and Cold War policies",
+          "textEs": "Gran cohorte juvenil cuestionó conformidad, consumismo y políticas de Guerra Fría de padres",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "the baby boom create generational conflict by the 1960s because large youth cohort questioned parents' conformity, consumerism, and Cold War policies. Choice A is wrong because it describes it accepted that the U.S. and USSR might coexist without direct military conflict, not large youth cohort questioned parents' conformity, consumerism, and Cold War policies. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "Baby boomers cuestionaron valores de sus padres, creando \"brecha generacional\" que impulsó contracultura, movimientos contra la guerra, derechos civiles y liberación femenina de los años 1960.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.49,
+        "b": 1.09,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us8-dok3-sa1",
+      "stem": "Explain how Nixon's \"Southern Strategy\" fundamentally realigned American party politics. What was the strategy, and what were its long-term consequences for both the Democratic and Republican parties?",
+      "stemEs": "Explique cómo la \"Estrategia Sureña\" de Nixon realineó fundamentalmente la política de partidos americana.",
+      "itemType": "short-answer",
+      "correctAnswer": "Nixon's Southern Strategy appealed to white Southern voters' opposition to civil rights, using coded racial language (\"law and order,\" \"states' rights\") to win the formerly Democratic \"Solid South.\" Long-term consequences: the Republican Party became the dominant party in the South, the Democratic Party became more diverse but lost its Southern base, American politics became more polarized along racial lines, and racial resentment became a persistent factor in electoral politics.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62",
+        "US.69"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Nixon's Southern Strategy appealed to white Southern voters who felt alienated by the Democratic Party's support for civil rights and social change. A strong response should explain how Republicans gradually turned the South into a core base while Democrats became more dependent on Black voters, urban voters, and liberals in other regions. That realignment reshaped presidential elections and party coalitions for the rest of the twentieth century.",
+      "explanationEs": "Los estudiantes deben analizar una estrategia política y sus consecuencias estructurales a largo plazo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.04,
+        "b": 1.29,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63",
+          "US.64"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item",
+          "US.64->US.69: checklist intact (4 element(s))"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x016",
+      "stem": "Political scientists identify the 1990s as a period of intensifying partisan polarization in Congress. Which of the following best explains this trend?",
+      "stemEs": "Political scientists identify the 1990s as a period of intensifying partisan polarization in Congreso. ¿Cuál de las siguientes opciones best explains this trend?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Campaign finance reforms enabled super PACs and outside groups to fund increasingly extreme primary candidates",
+          "textEs": "Las reformas de financiamiento de campañas permitieron a los super PACs y a los grupos externos financiar a candidatos de primarias cada vez más extremos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Cold War's end removed the bipartisan foreign policy consensus that had moderated partisan conflict for decades",
+          "textEs": "The Guerra Fría's end removed the bipartisan política exterior consensus that had moderated partisan conflict for decades",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Increased immigration altered the demographic composition of key swing districts, intensifying cultural and electoral conflict",
+          "textEs": "Increased inmigración altered the demographic composition of key swing districts, intensifying cultural and electoral conflict",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Geographic political sorting, redistricting, and changing media landscapes reinforced partisan identity and reduced moderate representation",
+          "textEs": "La segregación geográfica política, la redistribución de distritos electorales y el cambio en los medios de comunicación reforzaron la identidad partidista y redujeron la representación moderada",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Geographic political sorting, redistricting, and changing media landscapes reinforced partisan identity and reduced moderate representation. Choice B is wrong because it describes end of the Cold War removed foreign policy consensus that had moderated partisan conflict, not geographic political sorting, redistricting, and changing media landscapes reinforced partisan identity and reduced moderate representation. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "Geographic political sorting, redistricting, and changing media landscapes reinforced partisan identity and reduced moderate representation. Choice B is wrong because it describes end of the Guerra Fría removed política exterior consensus that had moderated partisan conflict, not geographic political sorting, redistricting, and changing media landscapes reinforced partisan identity and reduced moderate representation. These developments defined the Guerra Fría as a global struggle over power, ideology, and influence.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.74,
+        "b": 0.91,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-68-x020",
+      "stem": "The debates about U.S. intervention in Somalia (1993), Rwanda (1994), Bosnia (1995), and Kosovo (1999) collectively reflected what broader foreign policy dilemma?",
+      "stemEs": "The debates about U.S. intervention in Somalia (1993), Rwanda (1994), Bosnia (1995), and Kosovo (1999) collectively reflected what broader política exterior dilemma?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Whether the United States should prioritize its relationship with the UN or act unilaterally",
+          "textEs": "Si los Estados Unidos debían priorizar su relación con la ONU o actuar de forma unilateral",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "How to balance military effectiveness with the need to maintain multinational coalition support",
+          "textEs": "Cómo equilibrar la eficacia militar con la necesidad de mantener el apoyo de la coalición multinacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Whether democracy promotion or humanitarian intervention should be the central goal of U.S. foreign policy",
+          "textEs": "Whether democracia promotion or humanitarian intervention should be the central goal of U.S. política exterior",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "How to define American national interest in a post-Cold War world lacking a clear adversary",
+          "textEs": "How to define American national interest in a post-Guerra Fría world lacking a clear adversary",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "How to define American national interest in a post-Cold War world lacking a clear adversary. Choice C is wrong because it describes whether democracy promotion or humanitarian intervention should be the central goal of U.S. foreign policy, not how to define American national interest in a post-Cold War world lacking a clear adversary. Post-Cold War events forced the United States to define how far its power and responsibilities should reach in a one-superpower world.",
+      "explanationEs": "How to define American national interest in a post-Guerra Fría world lacking a clear adversary. Choice C is wrong because it describes whether democracia promotion or humanitarian intervention should be the central goal of U.S. política exterior, not how to define American national interest in a post-Guerra Fría world lacking a clear adversary. Post-Guerra Fría events forced the United States to define how far its power and responsibilities should reach in a one-superpower world.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.19,
+        "b": 0.83,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-64-x026",
+      "stem": "Reagan's presidency fundamentally changed American politics by —",
+      "stemEs": "La presidencia de Reagan cambió fundamentalmente la política estadounidense al —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Making lower taxes, deregulation, and skepticism of government a durable Republican governing philosophy that reshaped both parties",
+          "textEs": "Making lower taxes, deregulation, and skepticism of government a durable repúblicaan governing philosophy that reshaped both parties",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Temporarily interrupting liberal Democratic dominance that resumed under Clinton and Obama",
+          "textEs": "Temporarily interrupting liberal democrático dominance that resumed under Clinton and Obama",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Restoring the Republican Party to dominance by winning the Cold War and fixing the economy",
+          "textEs": "Restoring the repúblicaan Party to dominance by winning the Guerra Fría and fixing the economy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Creating a permanent conservative majority that ended the New Deal coalition's political dominance",
+          "textEs": "La creación de una mayoría conservadora permanente que puso fin al dominio político de la coalición del New Deal",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Making lower taxes, deregulation, and skepticism of government a durable Republican governing philosophy that reshaped both parties. Choice C is wrong because it describes restoring the Republican Party to dominance by winning the Cold War and fixing the economy, not making lower taxes, deregulation, and skepticism of government a durable Republican governing philosophy that reshaped both parties. These battles intensified partisan polarization and changed how Congress and the presidency confronted each other.",
+      "explanationEs": "Making lower taxes, deregulation, and skepticism of government a durable repúblicaan governing philosophy that reshaped both parties. Choice C is wrong because it describes restoring the repúblicaan Party to dominance by winning the Guerra Fría and fixing the economy, not making lower taxes, deregulation, and skepticism of government a durable repúblicaan governing philosophy that reshaped both parties. These battles intensified partisan polarization and changed how Congreso and the presidency confronted each other.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.68,
+        "b": 1.21,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us59-dok3-1",
+      "stem": "How did the ideological differences between capitalism and communism contribute to the Cold War?",
+      "stemEs": "¿Cómo contribuyeron las diferencias ideológicas entre capitalismo y comunismo a la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Religious differences between the two nations primarily prevented any real cooperation",
+          "textEs": "Diferencias religiosas entre las dos naciones primariamente previnieron cualquier cooperación real",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The systems were too similar and both competed for the same limited natural resources",
+          "textEs": "Los sistemas eran demasiado similares y ambos competían por los mismos recursos naturales limitados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Each system viewed the other as a threat to its way of life, creating mutual distrust",
+          "textEs": "Cada sistema veía al otro como amenaza a su forma de vida, creando desconfianza mutua",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Language barriers between English and Russian speakers made communication impossible",
+          "textEs": "Barreras de idioma entre hablantes de inglés y ruso hicieron la comunicación imposible",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "the ideological differences between capitalism and communism contribute to the Cold War because each system viewed the other as a threat to its way of life, creating mutual distrust. Choice A is wrong because it describes religious differences between the two nations primarily prevented any real cooperation, not each system viewed the other as a threat to its way of life, creating mutual distrust. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "La oposición ideológica fundamental entre capitalismo (mercados libres, democracia) y comunismo (control estatal, gobierno de partido único) creó conflicto inherente ya que cada uno veía al otro como amenaza existencial.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 1.09,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us62-dok3-4",
+      "stem": "How did the concept of deterrence shape U.S. defense policy during the Cold War?",
+      "stemEs": "¿Cómo moldeó el concepto de disuasión la política de defensa de EE.UU. durante la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It rejected all forms of military preparedness in favor of diplomatic solutions exclusively",
+          "textEs": "Rechazó todas formas de preparación militar en favor de soluciones diplomáticas exclusivamente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It emphasized building only defensive weapons systems while eliminating offensive capabilities",
+          "textEs": "Enfatizó construir solo sistemas de armas defensivos mientras eliminaba capacidades ofensivas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It focused on maintaining a credible threat of devastating retaliation to prevent attack",
+          "textEs": "Se enfocó en mantener amenaza creíble de represalia devastadora para prevenir ataque",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It relied entirely on conventional ground forces without any nuclear weapons component",
+          "textEs": "Dependió completamente de fuerzas terrestres convencionales sin ningún componente de armas nucleares",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It focused on maintaining a credible threat of devastating retaliation to prevent attack. Choice A is wrong because it describes it rejected all forms of military preparedness in favor of diplomatic solutions exclusively, not it focused on maintaining a credible threat of devastating retaliation to prevent attack. These developments defined the Cold War as a global struggle over power, ideology, and influence.",
+      "explanationEs": "Teoría de disuasión significaba mantener arsenal nuclear y sistemas de entrega capaces de infligir daño inaceptable incluso después de absorber primer ataque, convenciendo adversarios de que ataque sería suicida.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.64,
+        "b": 0.95,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u7-014",
+      "stem": "President Eisenhower's 'New Look' defense policy prioritized nuclear deterrence over large conventional forces. Which of the following MOST accurately identifies the core strategic tension embedded in the policy of brinksmanship?",
+      "stemEs": "La política de defensa 'New Look' del presidente Eisenhower priorizaba la disuasión nuclear sobre las grandes fuerzas convencionales. ¿Cuál de las siguientes opciones identifica MÁS acertadamente la tensión estratégica central incrustada en la política de la diplomacia del borde del abismo?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "As Soviet nuclear capabilities grew, the threat of massive retaliation became less credible for limited conflicts, creating a deterrence gap that undermined the policy's effectiveness in proxy wars and small-scale aggressions.",
+          "textEs": "A medida que las capacidades nucleares soviéticas crecían, la amenaza de represalia masiva se volvió menos creíble para conflictos limitados, creando una brecha de disuasión que socavó la efectividad de la política en guerras por procuración y agresiones a pequeña escala.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Brinksmanship was too expensive because nuclear weapons cost more to produce than the conventional forces they replaced, negating the economic savings Eisenhower sought.",
+          "textEs": "La diplomacia del borde del abismo era demasiado costosa porque las armas nucleares costaban más producirlas que las fuerzas convencionales que reemplazaban, negando los ahorros económicos que Eisenhower buscaba.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congressional resistance to Eisenhower's defense budget prevented the U.S. from actually deploying the nuclear arsenal that brinksmanship required.",
+          "textEs": "La resistencia del Congreso al presupuesto de defensa de Eisenhower impidió que EE.UU. desplegara realmente el arsenal nuclear que la diplomacia del borde del abismo requería.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Soviet Union's rejection of 'peaceful coexistence' meant that brinksmanship provoked rather than deterred Soviet aggression throughout the 1950s.",
+          "textEs": "El rechazo soviético a la 'coexistencia pacífica' significó que la diplomacia del borde del abismo provocó en lugar de disuadir la agresión soviética durante la década de 1950.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Brinksmanship's core tension was its credibility problem: the policy was designed to deter Soviet aggression by threatening massive nuclear retaliation, but this threat was only effective if the Soviets believed the U.S. would actually use nuclear weapons over limited provocations. As the Soviets developed their own nuclear arsenal and the risk of mutual annihilation grew, the threat became less credible—would the U.S. really risk nuclear war over a small communist insurgency? This credibility gap meant brinksmanship could deter large-scale Soviet aggression but was less useful for the limited, proxy conflicts that actually characterized the Cold War.",
+      "explanationEs": "La tensión central de la diplomacia del borde del abismo era su problema de credibilidad: la política estaba diseñada para disuadir la agresión soviética amenazando con represalias nucleares masivas, pero esta amenaza solo era efectiva si los soviéticos creían que EE.UU. realmente usaría armas nucleares ante provocaciones limitadas. A medida que los soviéticos desarrollaron su propio arsenal nuclear, la amenaza se volvió menos creíble.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.23,
+        "b": 0.93,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u7-015",
+      "stem": "Nikita Khrushchev's concept of 'peaceful coexistence' appeared to signal a moderation of Soviet foreign policy after Stalin's death. However, historians debate whether it represented genuine change or a tactical adjustment. Which evidence MOST supports the view that peaceful coexistence was primarily tactical?",
+      "stemEs": "El concepto de 'coexistencia pacífica' de Nikita Jruschov parecía indicar una moderación de la política exterior soviética después de la muerte de Stalin. Sin embargo, los historiadores debaten si representó un cambio genuino o un ajuste táctico. ¿Qué evidencia respalda MÁS la visión de que la coexistencia pacífica fue principalmente táctica?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Khrushchev's public denunciation of Stalin's cult of personality in his 1956 'Secret Speech' showed that the USSR was genuinely reforming its political system.",
+          "textEs": "La denuncia pública de Jruschov del culto a la personalidad de Stalin en su 'Discurso Secreto' de 1956 mostró que la URSS estaba reformando genuinamente su sistema político.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Despite peaceful coexistence rhetoric, Khrushchev crushed Hungary's uprising, built the Berlin Wall, and deployed missiles to Cuba — showing expansionism continued",
+          "textEs": "A pesar de promover retóricamente la coexistencia pacífica, Jruschov autorizó la supresión militar del levantamiento húngaro de 1956, construyó el Muro de Berlín y desplegó misiles en Cuba, demostrando que el expansionismo soviético continuó dentro del bloque del Este.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Soviet military spending fell significantly during the Khrushchev era, indicating a genuine commitment to reducing Cold War military tensions",
+          "textEs": "El gasto militar soviético disminuyó significativamente durante la era Jruschov, lo que indica un compromiso genuino de reducir las tensiones de la Guerra Fría.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Soviet Union withdrew from all Eastern European countries it had occupied during World War II as a gesture of goodwill accompanying the peaceful coexistence policy.",
+          "textEs": "La Unión Soviética se retiró de todos los países de Europa del Este que había ocupado durante la Segunda Guerra Mundial como gesto de buena voluntad acompañando la política de coexistencia pacífica.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Khrushchev's rhetoric of peaceful coexistence did not prevent him from authorizing brutal suppression of the 1956 Hungarian uprising, deploying missiles to Cuba in 1962, or building the Berlin Wall in 1961. These actions demonstrated that peaceful coexistence meant competition short of direct superpower military confrontation—not a genuine abandonment of Soviet expansionism or willingness to tolerate independence within the Eastern Bloc. The gap between the rhetoric and these concrete actions supports the interpretation that peaceful coexistence was a tactical posture.",
+      "explanationEs": "La retórica de Jruschov sobre la coexistencia pacífica no le impidió autorizar la brutal represión del levantamiento húngaro de 1956, desplegar misiles en Cuba en 1962 o construir el Muro de Berlín en 1961. Estas acciones demostraron que la coexistencia pacífica significaba competencia sin confrontación militar directa entre superpotencias, no un abandono genuino del expansionismo soviético.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 1.28,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u7-016",
+      "stem": "Eisenhower's farewell address warned of the 'military-industrial complex.' Which of the following MOST accurately explains the internal tension between this warning and Eisenhower's own defense policies during his presidency?",
+      "stemEs": "El discurso de despedida de Eisenhower advirtió sobre el 'complejo militar-industrial'. ¿Cuál de las siguientes opciones explica MÁS acertadamente la tensión interna entre esta advertencia y las propias políticas de defensa de Eisenhower durante su presidencia?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eisenhower's farewell address was purely rhetorical because he never actually spent significant money on defense during his presidency.",
+          "textEs": "El discurso de despedida de Eisenhower fue puramente retórico porque nunca gastó sumas significativas en defensa durante su presidencia.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "There was no real tension because Eisenhower's 'New Look' policy reduced overall defense spending, making his warning about the military-industrial complex prophetic rather than self-contradictory.",
+          "textEs": "No hubo tensión real porque la política 'New Look' de Eisenhower redujo el gasto total en defensa, haciendo que su advertencia sobre el complejo militar-industrial fuera profética en lugar de autocontradictoria.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eisenhower's 'New Look' policy actually expanded the nuclear and aerospace defense industries, meaning he contributed to building the very military-industrial complex he warned against in his farewell address.",
+          "textEs": "La política 'New Look' de Eisenhower en realidad expandió las industrias de defensa nuclear y aeroespacial, lo que significa que contribuyó a construir el mismo complejo militar-industrial contra el que advirtió en su discurso de despedida.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Eisenhower directed his warning specifically at his successor Kennedy, whose proposed conventional military buildup he feared would enrich weapons manufacturers.",
+          "textEs": "Eisenhower dirigió su advertencia específicamente a su sucesor Kennedy, cuya propuesta de expansión militar convencional temía que enriqueciera a los fabricantes de armas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Eisenhower's warning was ironic because his own 'New Look' policy, which emphasized nuclear weapons and airpower over conventional forces, significantly expanded the defense industry and the influence of weapons contractors. By choosing massive retaliation over conventional defense, Eisenhower actually enlarged the aerospace and nuclear weapons sectors of the defense industry. His farewell warning acknowledged the systemic danger he had partly created—the warning reflected experience-based wisdom rather than hypocrisy, but it illustrates the tension between governing choices and prescient self-criticism.",
+      "explanationEs": "La advertencia de Eisenhower fue irónica porque su propia política 'New Look', que enfatizaba las armas nucleares y el poder aéreo sobre las fuerzas convencionales, expandió significativamente la industria de defensa y la influencia de los contratistas de armas. Al elegir la represalia masiva sobre la defensa convencional, Eisenhower en realidad agrandó los sectores aeroespacial y de armas nucleares de la industria de defensa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.16,
+        "b": 1.71,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0112",
+      "stem": "Read the excerpt below.\n\n\"MacArthur said, 'If we do not bomb the Manchurian bases, we can never win this war.' I told him: there are two choices — limited war in Korea, or world war with China and the Soviet Union. The United States will not start World War III.\" — President Harry Truman, Memoir, 1956\n\nAnalyze the disagreement between Truman and MacArthur. Which of the following best evaluates the constitutional principle at stake in Truman's decision to relieve MacArthur of command?",
+      "stemEs": "Lea el siguiente fragmento.\n\n\"MacArthur dijo: 'Si no bombardeamos las bases de Manchuria, nunca podremos ganar esta guerra.' Le dije: hay dos opciones —una guerra limitada en Corea o una guerra mundial con China y la Unión Soviética. Los Estados Unidos no iniciarán la Tercera Guerra Mundial.\" — Presidente Harry Truman, Memorias, 1956\n\nAnalice el desacuerdo entre Truman y MacArthur. ¿Cuál de los siguientes evalúa mejor el principio constitucional en juego en la decisión de Truman de relevar a MacArthur del mando?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The War Powers Act required Truman to seek congressional approval before relieving a theater commander during active combat.",
+          "textEs": "La Ley de Poderes de Guerra requería que Truman buscara la aprobación del Congreso antes de relevar a un comandante de teatro durante un combate activo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Truman's decision violated the Supreme Court's authority to review the dismissal of high-ranking military officers.",
+          "textEs": "La decisión de Truman violó la autoridad de la Corte Suprema para revisar el despido de oficiales militares de alto rango.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Civilian control of the military — the constitutional principle that the Commander-in-Chief sets military policy and generals implement it — required Truman to relieve MacArthur for publicly challenging presidential authority.",
+          "textEs": "El control civil de las fuerzas armadas —el principio constitucional de que el comandante en jefe establece la política militar y los generales la aplican— requería que Truman relevara a MacArthur por desafiar públicamente la autoridad presidencial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "MacArthur was constitutionally correct — military commanders have the authority to expand war aims when they believe it is strategically necessary.",
+          "textEs": "MacArthur tenía razón constitucionalmente —los comandantes militares tienen la autoridad de ampliar los objetivos de guerra cuando lo consideran estratégicamente necesario.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Truman's firing of MacArthur (April 1951) upheld a fundamental constitutional principle: civilian control of the military. MacArthur had publicly challenged the President's strategy and issued unauthorized ultimatums to the Chinese, directly undermining the Commander-in-Chief's authority to set military policy. Truman's decision, though unpopular at the time, was constitutionally essential — the military must operate under civilian authority in a democracy. The principle is that military commanders implement policy, not make it. Option A is incorrect because the constitutional issue was civilian control, not war powers specifically. Option B is incorrect because the Supreme Court's role was not at stake. Option D is incorrect because MacArthur wanted to expand the war, not end it — and he was wrong about the strategic consequences.",
+      "explanationEs": "El despido de MacArthur por parte de Truman (abril de 1951) defendió un principio constitucional fundamental: el control civil de las fuerzas armadas. MacArthur había desafiado públicamente la estrategia del presidente y emitido ultimátums no autorizados a los chinos, socavando directamente la autoridad del comandante en jefe para establecer la política militar. La decisión de Truman, aunque impopular en su momento, fue constitucionalmente esencial —los militares deben operar bajo autoridad civil en una democracia—. El principio es que los comandantes militares aplican la política, no la crean. La opción A es incorrecta porque el problema constitucional era el control civil, no los poderes de guerra específicamente. La opción B es incorrecta porque el papel de la Corte Suprema no estaba en juego. La opción D es incorrecta porque MacArthur quería expandir la guerra, no terminarla, y estaba equivocado sobre las consecuencias estratégicas.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.6,
+        "b": 0.7,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0138",
+      "stem": "Use the photograph to answer the question.\n\nThis reconnaissance photograph shows Soviet missile sites in Cuba, October 1962.\n\n(U.S. Department of Defense photograph, 1962. Public Domain.)\n\nWhich statement best analyzes how the Cuban Missile Crisis influenced the trajectory of U.S.-Soviet relations during the Cold War?",
+      "stemEs": "Utiliza la fotografía para responder la pregunta.\n\nEsta fotografía de reconocimiento aéreo muestra instalaciones soviéticas de misiles en Cuba, octubre de 1962.\n\n(Fotografía del Departamento de Defensa de los Estados Unidos, 1962. Dominio público.)\n\n¿Cuál enunciado analiza mejor cómo la Crisis de los Misiles en Cuba influyó en la trayectoria de las relaciones entre Estados Unidos y la Unión Soviética durante la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The crisis ended the Cold War immediately as both sides agreed to permanent disarmament",
+          "textEs": "La crisis puso fin inmediatamente a la Guerra Fría cuando ambas partes acordaron un desarme permanente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The crisis had no lasting impact because tensions returned to pre-crisis levels within weeks",
+          "textEs": "La crisis no tuvo un impacto duradero porque las tensiones volvieron a los niveles previos a la crisis en pocas semanas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The crisis led to a complete breakdown in communication between the two superpowers",
+          "textEs": "La crisis condujo a una ruptura total de la comunicación entre las dos superpotencias",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The near-catastrophe prompted both superpowers to establish communication channels and pursue arms control agreements, including the Nuclear Test Ban Treaty and the Moscow-Washington hotline",
+          "textEs": "El casi catastrófico evento llevó a ambas superpotencias a establecer canales de comunicación y a buscar acuerdos de control de armamentos, incluido el Tratado de Prohibición Parcial de Pruebas Nucleares y la línea directa Moscú-Washington",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Cuban Missile Crisis was a turning point in Cold War relations. The terrifying proximity to nuclear war motivated both sides to improve communication (Moscow-Washington hotline, 1963), pursue arms control (Partial Nuclear Test Ban Treaty, 1963), and eventually move toward détente. The crisis demonstrated that direct confrontation risked mutual destruction, pushing both superpowers toward diplomatic management of their rivalry.",
+      "explanationEs": "La crisis motivó a ambas superpotencias a mejorar la comunicación y buscar el control de armamentos, sentando las bases para la distensión.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 1.0,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us67-dok4-cr-6",
+      "stem": "Read the following excerpt from President Dwight D. Eisenhower's Farewell Address to the Nation, January 17, 1961 — a U.S. government document available through the Avalon Project, Yale Law School, and the National Archives:\n\n\"In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex. The potential for the disastrous rise of misplaced power exists and will persist. We must never let the weight of this combination endanger our liberties or democratic processes. We should take nothing for granted. Only an alert and knowledgeable citizenry can compel the proper meshing of the huge industrial and military machinery of defense with our peaceful methods and goals.\"\n\nUsing this excerpt and your knowledge of Cold War defense policy (US.67, US.60, US.65), write a CER response that evaluates the accuracy and long-term significance of Eisenhower's warning about the military-industrial complex. Your response must connect the growth of defense spending during the Cold War to specific Cold War events that drove it, and assess whether Eisenhower's warning was heeded or ignored in the decades that followed his presidency.",
+      "stemEs": "Lee el siguiente fragmento del Discurso de Despedida del Presidente Dwight D. Eisenhower a la Nación, 17 de enero de 1961 — un documento del gobierno de EE. UU. disponible a través del Proyecto Avalon de la Escuela de Derecho de Yale y los Archivos Nacionales:\n\n\"En los consejos del gobierno, debemos protegernos contra la adquisición de influencia inmerecida, buscada o no, por parte del complejo militar-industrial. El potencial para el auge desastroso del poder mal orientado existe y persistirá. Nunca debemos permitir que el peso de esta combinación ponga en peligro nuestras libertades o los procesos democráticos.\"\n\nUsando este fragmento y tu conocimiento de la política de defensa de la Guerra Fría (US.67, US.60, US.65), escribe una respuesta CER que evalúe la exactitud y la importancia a largo plazo de la advertencia de Eisenhower sobre el complejo militar-industrial.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-scoring (4/4) response would include: CLAIM — Eisenhower's warning about the military-industrial complex was prescient and largely unheeded: Cold War competition consistently elevated defense spending, fostered structural alliances between government, military, and private contractors, and created political incentives that made demilitarization difficult even after the Cold War ended. EVIDENCE — (1) NSC-68's recommendation to quadruple defense spending as a direct precursor to the complex Eisenhower warned against; (2) the Space Race (US.65) — NASA's creation (1958) and Apollo program's $25 billion cost — as an area where military research and civilian prestige intertwined; (3) defense contractor growth during Korea and Vietnam: McDonnell Douglas, Lockheed, Boeing, Grumman becoming major political stakeholders; (4) the defense budget's growth from ~$13 billion (1950) to over $400 billion (1980s peak during Reagan buildup, US.69); (5) Eisenhower's own 'New Look' defense strategy as context — massive retaliation and reliance on nuclear deterrence actually fueled the very complex he warned against. REASONING — The student should reason that Eisenhower's warning was paradoxical because his own presidency accelerated the MIC through the 'New Look' policy and the Space Race. The long-term significance is that the Cold War created a structural dependency between the U.S. economy, political system, and defense industry that persisted after 1991, suggesting the warning was accurate about the danger but underestimated how deeply embedded the complex would become.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.67, US.60, US.65 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Claim addresses both accuracy and long-term significance. Evidence includes at least three specific details connecting Cold War events to defense spending/MIC growth. Reasoning develops the paradox of Eisenhower's own role and the structural persistence of the MIC post-Cold War. CER fully integrated.\n3 - Proficient: Clear claim about the warning's significance. Two specific evidence points. Reasoning connects Cold War events to MIC growth but may miss the paradox or structural persistence.\n2 - Developing: General claim about defense spending during the Cold War. One specific evidence point. Reasoning is mostly narrative.\n1 - Beginning: Vague claim. Minimal evidence. No analytical reasoning.\n0 - No response or off-topic.\n\nKEY EVIDENCE EXPECTED: NSC-68 defense buildup; 'New Look' and massive retaliation policy; Sputnik (1957) and NASA creation (1958); Space Race costs; defense contractor growth during Korea/Vietnam; Reagan defense buildup (1980s); post-Cold War defense spending persistence; 'revolving door' between Pentagon and defense industry.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: La afirmación aborda tanto la exactitud como la importancia a largo plazo. La evidencia incluye al menos tres detalles específicos que conectan los eventos de la Guerra Fría con el crecimiento del gasto en defensa/MIC. El razonamiento desarrolla la paradoja del propio papel de Eisenhower.\n3 - Competente: Afirmación clara sobre la importancia de la advertencia. Dos puntos de evidencia específica.\n2 - En desarrollo: Afirmación general sobre el gasto en defensa durante la Guerra Fría. Un punto de evidencia específica.\n1 - Inicial: Afirmación vaga. Evidencia mínima.\n0 - Sin respuesta o fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Reconstrucción de defensa del NSC-68; política de 'Nueva Apariencia' y represalia masiva; Sputnik (1957) y creación de la NASA (1958); costos de la Carrera Espacial; crecimiento del contratista de defensa durante Corea/Vietnam; reconstrucción de defensa de Reagan (años 80).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.43,
+        "b": 0.19,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U9-DOK3-0020",
+      "stem": "The Voting Rights Act of 1965 outlawed literacy tests and provided for federal oversight of elections in jurisdictions with histories of discriminatory practices. Congress reauthorized the Act by large bipartisan majorities multiple times before the Supreme Court's 2013 Shelby County v. Holder decision struck down the coverage formula. How does this legislative history most clearly illustrate the contested nature of voting rights enforcement in American democracy?",
+      "stemEs": "La Ley de Derechos al Voto de 1965 prohibió las pruebas de alfabetización y estableció la supervisión federal de las elecciones en jurisdicciones con historial de prácticas discriminatorias. El Congreso reautorizó la Ley con grandes mayorías bipartidistas varias veces antes de que la decisión del Tribunal Supremo en Shelby County contra Holder (2013) invalidara la fórmula de cobertura. ¿Cómo ilustra esta historia legislativa de manera más clara la naturaleza disputada de la aplicación de los derechos de voto en la democracia estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The VRA's repeated reauthorization demonstrates that active federal enforcement mechanisms — not merely formal legal prohibitions — are necessary for voting rights to function in practice, because Congress reauthorized the preclearance requirement specifically because conditions justifying structural protection persisted, while Shelby County illustrates the risks of removing those mechanisms based on evidence of improvement rather than elimination",
+          "textEs": "Las repetidas reautorizaciones de la Ley demuestran que los mecanismos activos de aplicación federal —no solo las prohibiciones legales formales— son necesarios para que los derechos al voto funcionen en la práctica, porque el Congreso reautorizó el requisito de precalificación específicamente porque persistían las condiciones que justificaban la protección estructural, mientras que Shelby County ilustra los riesgos de eliminar esos mecanismos basándose en evidencia de mejora y no de eliminación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The repeated bipartisan reauthorizations demonstrate that genuine national consensus around racial equality in voting had emerged by the 1970s, making Shelby County an anomalous departure from American democracy's settled commitment to universal franchise rather than a continuation of contested historical patterns.",
+          "textEs": "Las repetidas reautorizaciones bipartidistas demuestran que surgió un genuino consenso nacional en torno a la igualdad racial en el voto para la década de 1970, haciendo de Shelby County una desviación anómala del compromiso establecido de la democracia estadounidense con el sufragio universal más que una continuación de patrones históricos en disputa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The VRA's history shows that once landmark legislation creates powerful political constituencies, those constituencies generate sufficient political pressure to sustain the legislation indefinitely, making democratic mobilization a more reliable protection for voting rights than constitutional litigation.",
+          "textEs": "La historia de la Ley muestra que una vez que la legislación histórica crea poderosas circunscripciones políticas, esas circunscripciones generan suficiente presión política para sostener la legislación indefinidamente, haciendo que la movilización democrática sea una protección más confiable de los derechos al voto que el litigio constitucional.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Shelby County decision correctly recognized that the VRA's geographic coverage formula had become outdated, since the dramatic documented improvements in Black voter registration in covered Southern states proved that the law had accomplished its intended purpose and that preclearance requirements were no longer proportionate to existing conditions.",
+          "textEs": "La decisión de Shelby County reconoció correctamente que la fórmula de cobertura geográfica de la Ley se había vuelto obsoleta, ya que las dramáticas mejoras documentadas en el registro de votantes negros en los estados del Sur cubiertos demostraron que la ley había cumplido su propósito previsto y que los requisitos de precalificación ya no eran proporcionales a las condiciones existentes.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.62"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The VRA's legislative history illustrates that voting rights protection is not self-sustaining once formally enacted: Congress's repeated findings in reauthorization proceedings that discriminatory conditions persisted demonstrated the need for ongoing structural enforcement, while Shelby County's removal of preclearance based on measurable improvement was followed by documented evidence of new restrictive measures in previously covered jurisdictions.",
+      "explanationEs": "La historia legislativa de la Ley ilustra que la protección de los derechos al voto no se sustenta por sí sola una vez promulgada formalmente: los repetidos hallazgos del Congreso en los procesos de reautorización de que persistían condiciones discriminatorias demostraron la necesidad de una aplicación estructural continua, mientras que la eliminación por Shelby County de la precalificación basada en una mejora mensurable fue seguida de evidencia documentada de nuevas medidas restrictivas en jurisdicciones que antes estaban cubiertas.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.63"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.63->US.62: standard ADDED ['issue of the military-industrial complex'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "issue of the military-industrial complex"
+          ]
+        }
+      }
+    }
+  ]
+}

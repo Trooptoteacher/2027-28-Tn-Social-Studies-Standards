@@ -1,0 +1,2825 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.48",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us46-dok1-2",
+      "stem": "What did the Fair Labor Standards Act establish?",
+      "stemEs": "¿Qué estableció la Ley de Normas Justas de Trabajo?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A program allowing the U.S. to supply war materials to Allied nations",
+          "textEs": "Solo seguro de desempleo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Freedom of speech, worship, from want, and from fear — defined war aims",
+          "textEs": "Derecho de trabajadores a formar sindicatos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It outlined principles of self-determination and international cooperation",
+          "textEs": "Pensiones de vejez de Seguridad Social",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Federal minimum wage, maximum workweek (44 hours initially, phased to 40 by 1940), and banned oppressive child labor",
+          "textEs": "Salario mínimo federal, semana laboral máxima (44 horas inicialmente, reducidas a 40 hacia 1940) y prohibición del trabajo infantil opresivo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Fair Labor Standards Act of 1938 (52 Stat. 1060) established the first federal minimum wage at 25¢/hour, set a maximum workweek of 44 hours (phased down to 40 hours by 1940 under Section 7), and banned oppressive child labor in interstate commerce. Distractor A describes Lend-Lease (a wartime aid program). Distractor B describes the Four Freedoms speech (war aims, not labor law). Distractor C describes the Atlantic Charter (international principles, not labor law).",
+      "explanationEs": "La Ley de Normas Justas de Trabajo de 1938 (52 Stat. 1060) estableció el primer salario mínimo federal de 25¢/hora, fijó una semana laboral máxima de 44 horas (reducida a 40 hacia 1940 bajo la Sección 7) y prohibió el trabajo infantil opresivo en el comercio interestatal. El distractor A describe Préstamo y Arriendo (programa de ayuda de guerra). El distractor B describe el discurso de las Cuatro Libertades (objetivos de guerra). El distractor C describe la Carta del Atlántico (principios internacionales, no derecho laboral).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.19,
+        "b": -1.35,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us46-dok1-u6-1",
+      "stem": "What was the Lend-Lease Act?",
+      "stemEs": "¿Qué fue la Ley de Préstamo y Arriendo?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Freedom of speech, worship, from want, and from fear — defined war aims",
+          "textEs": "Una ley que prohibía todo comercio con naciones involucradas en el conflicto",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It outlined principles of self-determination and international cooperation",
+          "textEs": "Un tratado que declaraba formalmente la neutralidad estadounidense durante la guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A program allowing the U.S. to supply war materials to Allied nations",
+          "textEs": "Un programa que permitía a EE.UU. suministrar materiales de guerra a naciones aliadas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "More aggressive reforms including Social Security, WPA, and the Wagner Act",
+          "textEs": "Un plan para reubicar fábricas estadounidenses a ubicaciones más seguras",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Lend-Lease Act was a program allowing the U.S. to supply war materials to allied nations. D is incorrect because it describes a different program, event, or idea than the topic in the question. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "explanationEs": "La Ley de Préstamo y Arriendo (1941) permitió a EE.UU. prestar o arrendar suministros militares a cualquier nación cuya defensa fuera vital para la seguridad estadounidense. Proporcionó ayuda masiva a Gran Bretaña, la Unión Soviética y China antes y durante la entrada de EE.UU. en la Segunda Guerra Mundial.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.03,
+        "b": -0.79,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-q01",
+      "stem": "Operation Overlord — the largest amphibious military operation in history — was launched on June 6, 1944. This date is known as —",
+      "stemEs": "Operation Overlord — the largest amphibious military operation in history — was launched on June 6, 1944. This date is known as —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Operation Torch",
+          "textEs": "Operation Torch",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "D-Day",
+          "textEs": "D-Day",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Battle of the Bulge",
+          "textEs": "Battle of the Bulge",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "V-E Day",
+          "textEs": "V-E Day",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "D-Day. The Allied invasion of France on June 6, 1944 opened a major Western Front against Nazi Germany. A is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "D-Day. The Allied invasion of France on June 6, 1944 opened a major Western Front against Nazi Germany. A is incorrect because it describes a different program, event, or idea than this Segunda Guerra Mundial event. This helps explain how Segunda Guerra Mundial became a global turning point in military strategy and international power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.07,
+        "b": -1.32,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-q07",
+      "stem": "The Battle of Midway (June 1942) was a turning point in the Pacific War because —",
+      "stemEs": "The Battle of Midway (June 1942) was a turning point in the Pacific War because —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Japan surrendered following the battle, which historians consider a secondary factor in this development",
+          "textEs": "Japan surrendered following the battle, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "American ground forces defeated the Japanese army on a major Pacific island, which was not the primary driver of this historical change",
+          "textEs": "American ground forces defeated the Japanese army on a major Pacific island, which was not the primary driver of this historical change",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "U.S. naval forces destroyed four Japanese aircraft carriers, permanently shifting naval superiority to the United States and ending Japan's offensive capability",
+          "textEs": "U.S. naval forces destroyed four Japanese aircraft carriers, permanently shifting naval superiority to the United States and ending Japan's offensive capability",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The U.S. captured the Japanese home islands, which historians consider a secondary factor in this development",
+          "textEs": "The U.S. captured the Japanese home islands, which historians consider a secondary factor in this development",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "U.S. naval forces destroyed four Japanese aircraft carriers, permanently shifting naval superiority to the United States and ending Japan's offensive capability. The June 1942 battle destroyed key Japanese carriers and shifted momentum in the Pacific. A is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "U.S. naval forces destroyed four Japanese aircraft carriers, permanently shifting naval superiority to the United States and ending Japan's offensive capability. The June 1942 battle destroyed key Japanese carriers and shifted momentum in the Pacific. A is incorrect because it describes a different program, event, or idea than this Segunda Guerra Mundial event. This helps explain how Segunda Guerra Mundial became a global turning point in military strategy and international power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.74,
+        "b": -0.58,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-x027",
+      "stem": "MacArthur's dismissal by Truman in April 1951 was significant constitutionally because it affirmed —",
+      "stemEs": "MacArthur's dismissal by Truman in April 1951 was significant constitucionally because it affirmed —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The principle that generals could not advocate for different policies publicly without presidential approval",
+          "textEs": "The principle that generals could not advocate for different policies publicly without presidential approval",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress's war powers over the conduct of military campaigns without any opposition",
+          "textEs": "Congreso's war powers over the conduct of military campaigns without any opposition",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congress's war powers over the conduct of military campaigns",
+          "textEs": "Congreso's war powers over the conduct of military campaigns",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The president's authority as commander-in-chief over military commanders in the field",
+          "textEs": "The president's authority as commander-in-chief over military commanders in the field",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both A and C reflect the constitutional principles at stake in MacArthur's dismissal. The war showed how Cold War tensions could turn into hot wars fought in divided countries. A is incorrect because it describes a different program, event, or idea than the topic in the question. It shaped the early Cold War and the postwar order the United States helped build after 1945.",
+      "explanationEs": "Both A and C reflect the constitucional principles at stake in MacArthur's dismissal. The war showed how Guerra Fría tensions could turn into hot wars fought in divided countries. A is incorrect because it describes a different program, event, or idea than the topic in the question. It shaped the early Guerra Fría and the postwar order the United States helped build after 1945.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.62,
+        "b": -1.7,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us46-dok2-7",
+      "stem": "What was the \"Roosevelt Recession\" of 1937-1938?",
+      "stemEs": "¿Qué fue la \"Recesión de Roosevelt\" de 1937-1938?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A period of rapid economic growth that proved all New Deal programs were highly effective",
+          "textEs": "Un período de crecimiento económico rápido que probó que todos programas del New Deal fueron efectivos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Economic downturn when FDR cut spending too soon, proving continued stimulus was needed",
+          "textEs": "Caída económica cuando FDR cortó gasto demasiado pronto, probando que estímulo continuo era necesario",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A political scandal involving corruption in several major New Deal relief agency programs",
+          "textEs": "Un escándalo político involucrando corrupción en varios programas importantes de agencias de alivio",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The brief time when unemployment reached nearly zero before rising again during wartime",
+          "textEs": "El breve momento cuando desempleo llegó a casi cero antes de subir otra vez durante guerra",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The \"Roosevelt Recession\" of 1937-1938 was an economic downturn when FDR cut spending too soon, proving continued stimulus was needed. D is incorrect because it describes a different program, event, or idea than this New Deal policy. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "explanationEs": "En 1937, creyendo que recuperación estaba en marcha, FDR cortó gasto gubernamental y Reserva Federal ajustó oferta de dinero. Economía inmediatamente colapsó: desempleo saltó de 14% a 19%, producción industrial cayó 30%. Esta \"Recesión de Roosevelt\" probó que estímulo gubernamental no podía retirarse prematuramente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 0.38,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us48-dok2-1",
+      "stem": "What was the Lend-Lease Act?",
+      "stemEs": "¿Qué fue la Ley de Préstamo y Arriendo?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Act prohibiting all trade with Japan and freezing Japanese assets held in U.S. banks",
+          "textEs": "Acto prohibiendo todo comercio con Japón y congelando activos japoneses en bancos de EE.UU.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Law requiring all eligible men to register for military service through selective draft",
+          "textEs": "Ley requiriendo que todos hombres elegibles se registraran para servicio militar mediante reclutamiento selectivo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Program allowing FDR to lend or lease war supplies to nations vital to U.S. defense",
+          "textEs": "Programa permitiendo a FDR prestar o arrendar suministros de guerra a naciones vitales para defensa de EE.UU.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Program funding secret scientific research to develop advanced weapons for the military",
+          "textEs": "Programa financiando investigación científica secreta para desarrollar armas avanzadas para militares",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Lend-Lease Act was a program allowing FDR to lend or lease war supplies to nations vital to U.S. defense. A is incorrect because it describes a different program, event, or idea than this New Deal policy. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "explanationEs": "La Ley de Préstamo y Arriendo (1941) permitió al Presidente prestar o arrendar suministros de guerra a cualquier nación vital para la defensa estadounidense, principalmente Gran Bretaña y la Unión Soviética. Proporcionó más de $50 mil millones en ayuda.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.16,
+        "b": -0.02,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "retired",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "retired",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-q05",
+      "stem": "The Holocaust was the systematic, state-sponsored murder of approximately six million Jews and millions of others by the Nazi regime. When did most American military commanders and political leaders gain their first direct knowledge of the full scale of the Holocaust?",
+      "stemEs": "The Holocausto was the systematic, state-sponsored murder of approximately six million Jews and millions of others by the Nazi regime. When did most American military commanders and political leaders gain their first direct knowledge of the full scale of the Holocausto?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "In 1944–1945, when Allied forces liberated concentration camps in Germany and Poland",
+          "textEs": "In 1944–1945, when Allied forces liberated concentration camps in Germany and Poland",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "In 1939, when Germany began passing anti-Jewish laws",
+          "textEs": "In 1939, when Germany began passing anti-Jewish laws",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "In 1942, when the Wannsee Conference planned the 'Final Solution'",
+          "textEs": "In 1942, when the Wannsee Conference planned the 'Final Solution'",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "In 1940, when the Nazi euthanasia program became public knowledge",
+          "textEs": "In 1940, when the Nazi euthanasia program became public knowledge",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "In 1944–1945, when Allied forces liberated concentration camps in Germany and Poland. Nazi antisemitism moved from discrimination to mass murder, killing about six million Jews and millions of other victims. D is incorrect because it describes a different program, event, or idea than this Holocaust term or Nazi policy. It remains central to understanding the dangers of racism, dictatorship, and unchecked state power.",
+      "explanationEs": "In 1944–1945, when Allied forces liberated concentration camps in Germany and Poland. Nazi antisemitism moved from discriminación to mass murder, killing about six million Jews and millions of other victims. D is incorrect because it describes a different program, event, or idea than this Holocausto term or Nazi policy. It remains central to understanding the dangers of racism, dictatorship, and unchecked state power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.69,
+        "b": -0.08,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us46-dok2-u6-1",
+      "stem": "What were FDR's \"Four Freedoms\" and why were they significant?",
+      "stemEs": "¿Cuáles eran las \"Cuatro Libertades\" de FDR y por qué fueron significativas?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Freedom of speech, worship, from want, and from fear — defined war aims",
+          "textEs": "Libertad de expresión, culto, de necesidad y de miedo — definieron objetivos de guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Freedom of press, assembly, petition, and religion from the Bill of Rights",
+          "textEs": "Libertad de prensa, reunión, petición y religión de la Carta de Derechos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Freedom to trade, travel, immigrate, and invest in any foreign nation",
+          "textEs": "Libertad de comerciar, viajar, inmigrar e invertir en cualquier nación extranjera",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Freedom from taxation, military service, government regulation, and debt",
+          "textEs": "Libertad de impuestos, servicio militar, regulación gubernamental y deuda",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "FDR's \"Four Freedoms\" and why were they significant were freedom of speech, worship, from want, and from fear — defined war aims. C is incorrect because it describes a different program, event, or idea than this New Deal policy. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "explanationEs": "En su discurso del Estado de la Unión de 1941, FDR delineó cuatro libertades esenciales: libertad de expresión, libertad de culto, libertad de necesidad y libertad de miedo. Estas se convirtieron en la base moral para la participación estadounidense en la Segunda Guerra Mundial y luego influyeron en la Declaración Universal de los Derechos Humanos.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.85,
+        "b": -0.64,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us46-dok2-u6-2",
+      "stem": "How did the Atlantic Charter shape the Allied vision for the postwar world?",
+      "stemEs": "¿Cómo moldeó la Carta del Atlántico la visión aliada para el mundo de posguerra?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "More aggressive reforms including Social Security, WPA, and the Wagner Act",
+          "textEs": "Dividió Europa en esferas de influencia política estadounidense y soviética",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wagner Act protection caused union membership to triple from 3 to 9 million",
+          "textEs": "Estableció bases militares estadounidenses permanentes en toda Europa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It outlined principles of self-determination and international cooperation",
+          "textEs": "Delineó principios de autodeterminación y cooperación internacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Freedom of speech, worship, from want, and from fear — defined war aims",
+          "textEs": "Requirió que todas las naciones adoptaran sistemas democráticos de gobierno",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It outlined principles of self-determination and international cooperation. B is incorrect because it describes a different program, event, or idea than the United Nations question here. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "explanationEs": "La Carta del Atlántico (1941), acordada por FDR y Churchill, delineó objetivos compartidos: sin ganancias territoriales, autodeterminación para todos los pueblos, libre comercio, libertad de los mares y un sistema de seguridad internacional de posguerra. Se convirtió en la base de las Naciones Unidas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.98,
+        "b": -0.59,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-x014",
+      "stem": "Island hopping in the Pacific was an American strategy designed to —",
+      "stemEs": "Island hopping in the Pacific was an American strategy designed to —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Capture every Japanese-held island in sequence from east to west",
+          "textEs": "Capture every Japanese-held island in sequence from east to west",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Establish supply lines to China through the Pacific island chain",
+          "textEs": "Establish supply lines to China through the Pacific island chain",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Bypass heavily fortified Japanese positions and seize strategically located islands that could",
+          "textEs": "Bypass heavily fortified Japanese positions and seize strategically located islands that could",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Prevent Japanese forces from escaping to the Japanese home islands",
+          "textEs": "Prevent Japanese forces from escaping to the Japanese home islands",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bypass heavily fortified Japanese positions and seize strategically located islands that could serve as bases for further advances — cutting off bypassed Japanese forces and avoiding costly direct assaults on every stronghold. American forces bypassed some strongholds to capture strategic islands and move closer to Japan. B is incorrect because it describes a different program, event, or idea than the topic in the question. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "Bypass heavily fortified Japanese positions and seize strategically located islands that could serve as bases for further advances — cutting off bypassed Japanese forces and avoiding costly direct assaults on every stronghold. American forces bypassed some strongholds to capture strategic islands and move closer to Japan. B is incorrect because it describes a different program, event, or idea than the topic in the question. This helps explain how Segunda Guerra Mundial became a global turning point in military strategy and international power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.01,
+        "b": -0.41,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-x018",
+      "stem": "The liberation of concentration camps by Allied forces in 1945 revealed to the world —",
+      "stemEs": "The liberation of concentration camps by Allied forces in 1945 reveacondujo a the world —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The existence of weapons of mass destruction that Germany had planned to deploy",
+          "textEs": "The existence of weapons of mass destruction that Germany had planned to deploy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The systematic industrial murder of six million Jews and millions of others",
+          "textEs": "The systematic industrial murder of six million Jews and millions of others",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "That more prisoners had survived than Allied intelligence had estimated",
+          "textEs": "That more prisoners had survived than Allied intelligence had estimated",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "That Germany had used concentration camps to imprison political opponents",
+          "textEs": "That Germany had used concentration camps to imprison political opponents",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The systematic industrial murder of six million Jews and millions of others. Nazi antisemitism moved from discrimination to mass murder, killing about six million Jews and millions of other victims. D is incorrect because it describes a different program, event, or idea than this Holocaust term or Nazi policy. It remains central to understanding the dangers of racism, dictatorship, and unchecked state power.",
+      "explanationEs": "The systematic industrial murder of six million Jews and millions of others. Nazi antisemitism moved from discriminación to mass murder, killing about six million Jews and millions of other victims. D is incorrect because it describes a different program, event, or idea than this Holocausto term or Nazi policy. It remains central to understanding the dangers of racism, dictatorship, and unchecked state power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.77,
+        "b": -0.67,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-x026",
+      "stem": "The People's Republic of China was established in 1949 when Mao Zedong's communist forces defeated —",
+      "stemEs": "The People's república of China was established in 1949 when Mao Zedong's communist forces defeated —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Japanese occupation forces that had rarely been fully expelled after WWII",
+          "textEs": "Japanese occupation forces that had rarely been fully expelled after WWII",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Soviet-backed Manchurian Republic that Stalin had established in Northern China",
+          "textEs": "The Soviet-backed Manchurian república that Stalin had established in Northern China",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A coalition of warlords that had resisted both the communists and the Nationalists",
+          "textEs": "A coalition of warlords that had resisted both the communists and the Nationalists",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Chiang Kai-shek's Nationalist government, which retreated to Taiwan",
+          "textEs": "Chiang Kai-shek's Nationalist government, which retreated to Taiwan",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Chiang Kai-shek's Nationalist government, which retreated to Taiwan. B is incorrect because it describes a different program, event, or idea than the topic in the question. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "explanationEs": "Chiang Kai-shek's Nationalist government, which retreated to Taiwan. B is incorrect because it describes a different program, event, or idea than the topic in the question. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.64,
+        "b": -0.17,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0088",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows American battleships burning at Pearl Harbor, Hawaii, during the surprise Japanese military attack on December 7, 1941. The attack destroyed or damaged much of the U.S. Pacific Fleet and killed over 2,400 Americans.\n\n(Photograph, December 7, 1941. U.S. Navy.)\n\nWhat was the immediate consequence of the attack shown in this photograph?",
+      "stemEs": "¿Cuál fue la consecuencia inmediata del ataque mostrado en esta fotografía?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The United States declared war on Japan and entered World War II",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The United States imposed economic sanctions but remained neutral in the war",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Japan surrendered to the United States after the attack failed",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Congress voted to increase military spending but refused to declare war",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "On December 8, 1941, President Roosevelt asked Congress for a declaration of war against Japan, calling December 7 'a date which will live in infamy.' Congress declared war with only one dissenting vote, formally bringing the United States into World War II.",
+      "explanationEs": "El 8 de diciembre de 1941, el Congreso declaró la guerra a Japón, trayendo formalmente a EE. UU. a la Segunda Guerra Mundial.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -1.3,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-q02",
+      "stem": "The Battle of Midway (June 1942) is considered a major turning point in the Pacific Theater of World War II. Why was this naval battle so significant?",
+      "stemEs": "The Battle of Midway (June 1942) is considered a major turning point in the Pacific Theater of Segunda Guerra Mundial. Why was this naval battle so significant?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It destroyed Japan's naval air power and shifted the strategic advantage to the United States",
+          "textEs": "It destroyed Japan's naval air power and shifted the strategic advantage to the United States",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It led directly to the liberation of the Philippines from Japanese occupation",
+          "textEs": "It led directly to the liberation of the Philippines from Japanese occupation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was the first time U.S. forces defeated Japanese ground troops in the Pacific",
+          "textEs": "It was the first time U.S. forces defeated Japanese ground troops in the Pacific",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It forced Japan to withdraw its forces from China and Southeast Asia",
+          "textEs": "It forced Japan to withdraw its forces from China and Southeast Asia",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It destroyed Japan's naval air power and shifted the strategic advantage to the United States. The June 1942 battle destroyed key Japanese carriers and shifted momentum in the Pacific. C is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "It destroyed Japan's naval air power and shifted the strategic advantage to the United States. The June 1942 battle destroyed key Japanese carriers and shifted momentum in the Pacific. C is incorrect because it describes a different program, event, or idea than this Segunda Guerra Mundial event. This helps explain how Segunda Guerra Mundial became a global turning point in military strategy and international power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.82,
+        "b": 0.11,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-q08",
+      "stem": "The Battle of the Bulge (December 1944–January 1945) was significant because —",
+      "stemEs": "The Battle of the Bulge (December 1944–January 1945) fue significativo/a porque —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It resulted in the liberation of Paris",
+          "textEs": "It resultó en the liberation of Paris",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was Germany's last major offensive",
+          "textEs": "It was Germany's last major offensive",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was the first use of American paratroopers in combat",
+          "textEs": "It was the first use of American paratroopers in combat",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It was the first major Allied defeat on the Western Front",
+          "textEs": "It was the first major Allied defeat on the Western Front",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "It was Germany's last major offensive. C is incorrect because it describes a different program, event, or idea than the topic in the question. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "explanationEs": "It was Germany's last major offensive. C is incorrect because it describes a different program, event, or idea than the topic in the question. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.54,
+        "b": -0.44,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-x015",
+      "stem": "The Battle of the Bulge (December 1944) was significant because —",
+      "stemEs": "The Battle of the Bulge (December 1944) fue significativo/a porque —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was Germany's very first major offensive military operation against Allied forces in the entire war",
+          "textEs": "It was Germany's very first major offensive military operation against Allied forces in the entire war",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It forced Allied commanders to postpone the D-Day invasion of Normandy by approximately six months",
+          "textEs": "It forced Allied commanders to postpone the D-Day invasion of Normandy by approximately six months",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "German forces captured Paris and reversed all Allied territorial gains made since D-Day",
+          "textEs": "German forces captured Paris and reversed all Allied territorial gains made since D-Day",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Hitler's last major western offensive initially surprised the Allies but was ultimately repelled and defeated",
+          "textEs": "Hitler's last major western offensive initially surprised the Allies but was ultimately repelled and defeated",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Hitler's last major offensive in the West initially caught the Allies off guard but was ultimately defeated. A is incorrect because it describes a different program, event, or idea than the topic in the question. These developments helped set the stage for World War II by weakening collective resistance to aggressive dictators.",
+      "explanationEs": "Hitler's last major offensive in the West initially caught the Allies off guard but was ultimately defeated. A is incorrect because it describes a different program, event, or idea than the topic in the question. These developments helped set the stage for Segunda Guerra Mundial by weakening collective resistance to aggressive dictators.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.21,
+        "b": 0.07,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-q03",
+      "stem": "The Tuskegee Airmen were a pioneering group of African American military pilots who served in World War II. Which of the following best describes their historical significance?",
+      "stemEs": "The Tuskegee Airmen were a pioneering group of African American military pilots who served in Segunda Guerra Mundial. ¿Cuál de las siguientes opciones best describes their historical significance?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They were selected to drop the atomic bombs on Japan because of their superior flying skills",
+          "textEs": "They were selected to drop the atomic bombs on Japan because of their superior flying skills",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They proved that African Americans could perform with distinction in combat roles, helping to build the case for military desegregation",
+          "textEs": "They proved that African Americans could perform with distinction in combat roles, helping to build the case for military desegregación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They were the first American pilots to fly combat missions in the European Theater",
+          "textEs": "They were the first American pilots to fly combat missions in the European Theater",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They were the only U.S. fighter escort group that rarely lost a bomber under their protection — a record no group achieved",
+          "textEs": "They were the only U.S. fighter escort group that rarely lost a bomber under their protection — a record no group achieved",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "They proved that African Americans could perform with distinction in combat roles, helping to build the case for military desegregation. The Supreme Court's 1954 ruling declared school segregation unconstitutional and energized the modern civil rights movement. D is incorrect because it describes a different program, event, or idea than the topic in the question. It showed how World War II exposed contradictions between American ideals and daily life at home.",
+      "explanationEs": "They proved that African Americans could perform with distinction in combat roles, helping to build the case for military desegregación. The Corte Suprema's 1954 ruling declared school segregación unconstitucional and energized the modern derechos civiles movement. D is incorrect because it describes a different program, event, or idea than the topic in the question. It showed how Segunda Guerra Mundial exposed contradictions between American ideals and daily life at home.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": -1.25,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-x012",
+      "stem": "Operation Overlord (D-Day, June 6, 1944) was significant because —",
+      "stemEs": "Operation Overlord (D-Day, June 6, 1944) fue significativo/a porque —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was the final military operation of WWII in Europe",
+          "textEs": "It was the final military operation of WWII in Europe",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was the first major Allied victory of WWII",
+          "textEs": "It was the first major Allied victory of WWII",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "General Eisenhower commanded the Pacific forces in this operation",
+          "textEs": "General Eisenhower commanded the Pacific forces in this operation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Allied landing on Normandy beaches opened a second front in Western Europe",
+          "textEs": "The Allied landing on Normandy beaches opened a second front in Western Europe",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Allied landing on Normandy beaches opened a second front in Western Europe. The Allied invasion of France on June 6, 1944 opened a major Western Front against Nazi Germany. A is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "The Allied landing on Normandy beaches opened a second front in Western Europe. The Allied invasion of France on June 6, 1944 opened a major Western Front against Nazi Germany. A is incorrect because it describes a different program, event, or idea than this Segunda Guerra Mundial event. This helps explain how Segunda Guerra Mundial became a global turning point in military strategy and international power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.55,
+        "b": -0.9,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-x013",
+      "stem": "The Battle of Midway (June 1942) was a turning point in the Pacific War because —",
+      "stemEs": "The Battle of Midway (June 1942) was a turning point in the Pacific War because —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was the first American naval victory of the Pacific War",
+          "textEs": "It was the first American naval victory of the Pacific War",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It resulted in Japan's withdrawal from all Pacific territories",
+          "textEs": "It resultó en Japan's withdrawal from all Pacific territories",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "General MacArthur's ground forces destroyed the Japanese Pacific army",
+          "textEs": "General MacArthur's ground forces destroyed the Japanese Pacific army",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "U.S. forces sank four Japanese aircraft carriers",
+          "textEs": "U.S. forces sank four Japanese aircraft carriers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "U.S. forces sank four Japanese aircraft carriers. The June 1942 battle destroyed key Japanese carriers and shifted momentum in the Pacific. A is incorrect because it describes a different program, event, or idea than this World War II event. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "U.S. forces sank four Japanese aircraft carriers. The June 1942 battle destroyed key Japanese carriers and shifted momentum in the Pacific. A is incorrect because it describes a different program, event, or idea than this Segunda Guerra Mundial event. This helps explain how Segunda Guerra Mundial became a global turning point in military strategy and international power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.32,
+        "b": -1.37,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "retired",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "retired",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-x016",
+      "stem": "The Doolittle Raid (April 1942) was significant primarily as —",
+      "stemEs": "The Doolittle Raid (April 1942) was significant primarily as —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A morale-boosting demonstration that Japan was vulnerable to American attack",
+          "textEs": "A morale-boosting demonstration that Japan was vulnerable to American attack",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A militarily decisive attack that destroyed Japan's aircraft production capacity",
+          "textEs": "A militarily decisive attack that destroyed Japan's aircraft production capacity",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The first American air raid on the Japanese home islands using Pacific island bases",
+          "textEs": "The first American air raid on the Japanese home islands using Pacific island bases",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "An attack that destroyed the Japanese Imperial Palace",
+          "textEs": "An attack that destroyed the Japanese Imperial Palace",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A morale-boosting demonstration that Japan was vulnerable to American attack. Although the physical damage was limited, it boosted American morale after Pearl Harbor and shook Japanese confidence. C is incorrect because it describes a different program, event, or idea than the topic in the question. This helps explain how World War II became a global turning point in military strategy and international power.",
+      "explanationEs": "A morale-boosting demonstration that Japan was vulnerable to American attack. Although the physical damage was limited, it boosted American morale after Pearl Harbor and shook Japanese confidence. C is incorrect because it describes a different program, event, or idea than the topic in the question. This helps explain how Segunda Guerra Mundial became a global turning point in military strategy and international power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.61,
+        "b": -0.6,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-x017",
+      "stem": "The Allied strategy of 'Europe First' — prioritizing Germany over Japan — was justified by —",
+      "stemEs": "The Allied strategy of 'Europe First' — prioritizing Germany over Japan — was justified by —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Soviet Union's demand for a second front in Western Europe before joining the Pacific war",
+          "textEs": "The Soviet Union's demand for a second front in Western Europe before joining the Pacific war",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Britain's refusal to fight in the Pacific unless Germany was defeated first",
+          "textEs": "Britain's refusal to fight in the Pacific unless Germany was defeated first",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "America's greater anger toward Germany after Pearl Harbor",
+          "textEs": "America's greater anger toward Germany after Pearl Harbor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Military planners' judgment that Germany was the more dangerous enemy with greater industrial capacity and the potential to develop advanced weapons",
+          "textEs": "Military planners' judgment that Germany was the more dangerous enemy with greater industrial capacity and the",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Allied strategy of 'Europe First' — prioritizing Germany over Japan — was justified by: military planners' judgment that Germany was the more dangerous enemy with greater industrial capacity and the potential to develop nuclear weapons. B is incorrect because it describes a different program, event, or idea than the topic in the question. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "explanationEs": "The Allied strategy of 'Europe First' — prioritizing Germany over Japan — was justified by: military planners' judgment that Germany was the more dangerous enemy with greater industrial capacity and the potential to develop nuclear weapons. B is incorrect because it describes a different program, event, or idea than the topic in the question. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.75,
+        "b": 1.18,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U6-DOK2-0001",
+      "stem": "The Lend-Lease Act enabled the United States to —",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Maintain strict neutrality by refusing all aid to belligerents",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Send military aid to Allied nations fighting the Axis powers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Declare war directly on Germany and Japan",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "End all trade with Great Britain and the Soviet Union",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Lend-Lease Act (March 11, 1941; Pub. L. 77-11) authorized the President to transfer arms and supplies to any nation whose defense was vital to U.S. security — used primarily to aid Britain and the Soviet Union before formal U.S. entry into the war. Distractor A contradicts the Act; C describes the December 1941 declarations of war; D contradicts wartime trade policy.",
+      "explanationEs": "La Ley de Préstamo y Arriendo (11 de marzo de 1941; Ley Pública 77-11) autorizó al presidente a transferir armas y suministros a cualquier nación cuya defensa fuera vital para la seguridad de EE. UU., usada principalmente para ayudar a Gran Bretaña y la Unión Soviética antes de la entrada formal de EE. UU. en la guerra. El distractor A contradice la Ley; C describe las declaraciones de guerra de diciembre de 1941; D contradice la política comercial bélica.",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U6-DOK2-0005",
+      "stem": "What was the primary significance of FDR's Quarantine Speech of 1937 in relation to American foreign policy?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It committed the United States to immediately entering the war against Nazi Germany",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It suggested that aggressive nations should be isolated, signaling a possible shift away from strict neutrality",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It announced the creation of the Lend-Lease program to supply weapons to Allied nations",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It declared that the U.S. would defend any nation attacked by a foreign aggressor",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "In the Quarantine Speech, FDR compared aggressive nations to a disease epidemic and suggested that the international community might need to 'quarantine' them — hinting at collective action against aggressor states and marking a cautious move away from strict neutrality, though public and congressional isolationism remained strong.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.6,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0089",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the attack on Pearl Harbor, December 7, 1941.\n\n(Photograph, December 7, 1941. U.S. Navy.)\n\nHow did the attack shown in this photograph change American public opinion about entering World War II?",
+      "stemEs": "¿Cómo cambió el ataque mostrado en esta fotografía la opinión pública estadounidense sobre entrar en la Segunda Guerra Mundial?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Americans remained deeply divided about entering the war even after the attack",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The attack united a previously divided public behind the war effort, virtually eliminating isolationist opposition overnight",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Public opinion had already strongly favored entering the war before the attack occurred",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The attack increased support for negotiating a peace settlement with Japan",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Before Pearl Harbor, strong isolationist sentiment opposed American entry into the war. The attack instantly transformed public opinion, unifying the nation behind the war effort. Enrollment offices were overwhelmed with volunteers, and industrial mobilization began immediately.",
+      "explanationEs": "El ataque unificó instantáneamente a una nación previamente dividida detrás del esfuerzo bélico.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-46-q04",
+      "stem": "Allied forces adopted a 'Europe First' strategy in World War II, prioritizing the defeat of Germany before focusing full resources on Japan. Which of the following best explains the strategic reasoning behind this decision?",
+      "stemEs": "Allied forces adopted a 'Europe First' strategy in Segunda Guerra Mundial, prioritizing the defeat of Germany before focusing full resources on Japan. ¿Cuál de las siguientes opciones best explains the strategic reasoning behind this decision?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Soviet Union had demanded that the United States prioritize Germany as a condition of their military alliance",
+          "textEs": "The Soviet Union had demanded that the United States prioritize Germany as a condition of their military alianza",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Pacific Ocean made supplying troops against Japan impractical, so Europe was a more accessible theater of operations",
+          "textEs": "The Pacific Ocean made supplying troops against Japan impractical, so Europe was a more accessible theater of operations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Military planners believed Germany posed a greater long-term threat to U.S. security and European allies were more immediately in danger of collapse",
+          "textEs": "Military planners believed Germany posed a greater long-term threat to U.S. security and European allies were more immediately in danger of collapse",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Germany had attacked the United States first, and public opinion demanded priority be given to the European war",
+          "textEs": "Germany had attacked the United States first, and public opinion demanded priority be given to the European war",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Military planners believed Germany posed a greater long-term threat to U.S. security and European allies were more immediately in danger of collapse. D is incorrect because it describes a different program, event, or idea than the topic in the question. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "explanationEs": "Military planners believed Germany posed a greater long-term threat to U.S. security and European allies were more immediately in danger of collapse. D is incorrect because it describes a different program, event, or idea than the topic in the question. It reflects how Americans responded to economic crisis and the growing dangers abroad in the 1930s and 1940s.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.51,
+        "b": 1.3,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-010",
+      "stem": "In his 1937 Quarantine Speech, FDR compared the spread of aggressor nations to a disease epidemic and called for the international community to 'quarantine' aggressors. Given the strong isolationist sentiment in the U.S. at the time, what was the most significant political consequence of this speech?",
+      "stemEs": "En su Discurso de Cuarentena de 1937, FDR comparó la expansión de las naciones agresoras con una epidemia de enfermedades y pidió a la comunidad internacional que pusiera en 'cuarentena' a los agresores. Dado el fuerte sentimiento aislacionista en los EE.UU. en ese momento, ¿cuál fue la consecuencia política más significativa de este discurso?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The speech immediately resulted in Congress repealing the Neutrality Acts and authorizing arms sales to nations resisting fascist aggression.",
+          "textEs": "El discurso resultó inmediatamente en que el Congreso derogara las Leyes de Neutralidad y autorizara la venta de armas a las naciones que resistían la agresión fascista.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The speech received bipartisan congressional endorsement, giving FDR a mandate to begin coordinating with Britain and France against Axis nations.",
+          "textEs": "El discurso recibió el respaldo bipartidista del Congreso, dando a FDR un mandato para comenzar a coordinar con Gran Bretaña y Francia contra las naciones del Eje.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Public backlash from isolationists forced FDR to retreat from the policy, revealing the significant domestic constraints on presidential power in foreign affairs during this era.",
+          "textEs": "La reacción pública de los aislacionistas obligó a FDR a retroceder en la política, revelando las significativas limitaciones domésticas al poder presidencial en asuntos exteriores durante esta era.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The speech was largely ignored by the American public because FDR had not yet established credibility as a foreign policy leader after years of focusing on domestic New Deal programs.",
+          "textEs": "El discurso fue ampliamente ignorado por el público estadounidense porque FDR aún no había establecido credibilidad como líder de política exterior tras años de enfocarse en los programas domésticos del New Deal.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Quarantine Speech was met with immediate public backlash from isolationists who feared FDR was laying the groundwork for military entanglement. The negative reaction forced FDR to retreat from the policy and demonstrated how powerfully isolationist sentiment constrained executive action in foreign policy during the late 1930s. However, historians also note the speech began a slow process of shifting public discourse toward internationalism. Option A overstates the speech's immediate legislative impact. Option B is historically inaccurate — Congress did not endorse the policy. Option D is incorrect: the speech was widely reported and debated.",
+      "explanationEs": "El Discurso de Cuarentena fue recibido con reacción pública inmediata de los aislacionistas que temían que FDR estuviera sentando las bases para un enredo militar. La reacción negativa obligó a FDR a retroceder en la política y demostró cuán poderosamente el sentimiento aislacionista restringía la acción ejecutiva en política exterior durante finales de la década de 1930. Sin embargo, los historiadores también señalan que el discurso inició un lento proceso de cambio del discurso público hacia el internacionalismo. La opción A sobreestima el impacto legislativo inmediato del discurso. La opción B es históricamente inexacta: el Congreso no respaldó la política. La opción D es incorrecta: el discurso fue ampliamente reportado y debatido.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.86,
+        "b": 1.15,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-011",
+      "stem": "FDR's Four Freedoms speech (January 1941) articulated freedom of speech, freedom of worship, freedom from want, and freedom from fear as universal human rights deserving protection. How did this framing strategically advance FDR's goal of increasing American involvement in the European war?",
+      "stemEs": "El discurso de las Cuatro Libertades de FDR (enero de 1941) articuló la libertad de expresión, la libertad de culto, la libertad de necesidad y la libertad del miedo como derechos humanos universales que merecen protección. ¿Cómo este enfoque avanzó estratégicamente el objetivo de FDR de aumentar la participación estadounidense en la guerra europea?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "By defining the war as a struggle for universal human rights rather than European national interests, FDR made American involvement a moral obligation, undermining isolationist arguments.",
+          "textEs": "Al definir la guerra como una lucha por los derechos humanos universales en lugar de los intereses nacionales europeos, FDR convirtió la participación estadounidense en una obligación moral, socavando los argumentos aislacionistas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The speech directly authorized military conscription by defining threats to the Four Freedoms as threats to national security requiring an immediate military response.",
+          "textEs": "El discurso autorizó directamente el reclutamiento militar al definir las amenazas a las Cuatro Libertades como amenazas a la seguridad nacional que requerían una respuesta militar inmediata.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Four Freedoms speech was primarily aimed at a domestic audience to justify New Deal economic policies, with international engagement as a secondary purpose.",
+          "textEs": "El discurso de las Cuatro Libertades estaba dirigido principalmente a una audiencia doméstica para justificar las políticas económicas del New Deal, con el compromiso internacional como propósito secundario.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The speech effectively ended the isolationist movement in the United States by demonstrating that neutrality was constitutionally incompatible with American values.",
+          "textEs": "El discurso puso fin efectivamente al movimiento aislacionista en los Estados Unidos al demostrar que la neutralidad era constitucionalmente incompatible con los valores estadounidenses.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By framing American values as universal human rights — not merely national interests — FDR transformed the debate from 'why should we fight Europe's wars' to 'should the U.S. stand for freedom everywhere.' This ideological framing made intervention a moral imperative rather than a geopolitical calculation, making it harder for isolationists to argue the war was irrelevant to American values. The speech also served as the ideological foundation for the Atlantic Charter later that year. Options B, C, and D mischaracterize the speech's strategic purpose or effect.",
+      "explanationEs": "Al enmarcar los valores estadounidenses como derechos humanos universales —no meramente como intereses nacionales— FDR transformó el debate de '¿por qué deberíamos pelear en las guerras de Europa?' a '¿debería EE.UU. defender la libertad en todas partes?'. Este encuadre ideológico convirtió la intervención en un imperativo moral en lugar de un cálculo geopolítico, dificultando que los aislacionistas argumentaran que la guerra era irrelevante para los valores estadounidenses. El discurso también sirvió como base ideológica para la Carta del Atlántico más tarde ese año. Las opciones B, C y D caracterizan incorrectamente el propósito estratégico o el efecto del discurso.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.59,
+        "b": 0.89,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-012",
+      "stem": "The Lend-Lease Act of 1941 allowed the United States to supply Allied nations with war materials in exchange for services and rental agreements, circumventing the earlier Neutrality Acts. Critics called it a backdoor to war; supporters called it 'the arsenal of democracy.' Which of the following best evaluates the long-term significance of Lend-Lease for the Allied war effort?",
+      "stemEs": "La Ley de Préstamo y Arriendo de 1941 permitió a los Estados Unidos suministrar a las naciones aliadas materiales de guerra a cambio de servicios y acuerdos de alquiler, eludiendo las anteriores Leyes de Neutralidad. Los críticos la llamaron una puerta trasera hacia la guerra; los partidarios la llamaron 'el arsenal de la democracia'. ¿Cuál de las siguientes opciones evalúa mejor el significado a largo plazo del Préstamo y Arriendo para el esfuerzo bélico aliado?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Lend-Lease had minimal impact on the Allied war effort because Britain and the Soviet Union had sufficient industrial capacity to produce their own war materials.",
+          "textEs": "El Préstamo y Arriendo tuvo un impacto mínimo en el esfuerzo bélico aliado porque Gran Bretaña y la Unión Soviética tenían capacidad industrial suficiente para producir sus propios materiales de guerra.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Lend-Lease was significant primarily as a symbolic gesture that demonstrated American moral support, rather than providing materially decisive assistance to Allied nations.",
+          "textEs": "El Préstamo y Arriendo fue significativo principalmente como gesto simbólico que demostró el apoyo moral estadounidense, en lugar de proporcionar asistencia materialmente decisiva a las naciones aliadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Lend-Lease weakened the Allied war effort by generating significant congressional opposition that delayed American military preparedness until well after Pearl Harbor.",
+          "textEs": "El Préstamo y Arriendo debilitó el esfuerzo bélico aliado al generar una oposición parlamentaria significativa que retrasó la preparación militar estadounidense hasta mucho después de Pearl Harbor.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Lend-Lease provided essential material support that sustained Allied resistance before U.S. entry, while also positioning the United States to influence Allied strategy and signaling an effective end to neutrality.",
+          "textEs": "El Préstamo y Arriendo proporcionó apoyo material esencial que sostuvo la resistencia aliada antes de la entrada de los EE.UU., al tiempo que posicionaba a los Estados Unidos para influir en la estrategia aliada y señalaba el fin efectivo de la neutralidad.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Lend-Lease was transformative for the Allied war effort: it supplied Britain with food, equipment, and weapons when it stood largely alone against Germany; it provided the Soviet Union with trucks, food, and materials that historians argue were critical to Soviet resilience on the Eastern Front; and it allowed the U.S. to shape Allied strategy before formally entering the war. It represented the clearest evidence of FDR's incremental strategy to move the U.S. from neutrality to active involvement. Options A and B understate its significance. Option C is factually incorrect about Congressional opposition.",
+      "explanationEs": "El Préstamo y Arriendo fue transformador para el esfuerzo bélico aliado: suministró a Gran Bretaña alimentos, equipos y armas cuando estaba prácticamente sola frente a Alemania; proporcionó a la Unión Soviética camiones, alimentos y materiales que los historiadores consideran críticos para la resiliencia soviética en el Frente Oriental; y permitió que los EE.UU. dieran forma a la estrategia aliada antes de entrar formalmente en la guerra. Representó la evidencia más clara de la estrategia incremental de FDR para mover a los EE.UU. de la neutralidad a la participación activa. Las opciones A y B subestiman su importancia. La opción C es factualmente incorrecta sobre la oposición del Congreso.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.57,
+        "b": 0.81,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-013",
+      "stem": "The Atlantic Charter (August 1941), signed by FDR and Churchill before the United States had formally entered World War II, outlined shared principles including national self-determination, freedom of the seas, and disarmament. Analyzing the Charter's significance, which of the following best explains its role in shaping post-war international order?",
+      "stemEs": "La Carta del Atlántico (agosto de 1941), firmada por FDR y Churchill antes de que los Estados Unidos hubieran entrado formalmente en la Segunda Guerra Mundial, esbozó principios compartidos que incluían la autodeterminación nacional, la libertad de los mares y el desarme. Al analizar la importancia de la Carta, ¿cuál de las siguientes opciones explica mejor su papel en la configuración del orden internacional de posguerra?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Atlantic Charter primarily served as a secret military alliance that committed the United States to enter the war immediately upon any German attack on British territory.",
+          "textEs": "La Carta del Atlántico sirvió principalmente como una alianza militar secreta que comprometía a los Estados Unidos a entrar en guerra inmediatamente ante cualquier ataque alemán en territorio británico.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Atlantic Charter's principles of self-determination, free trade, and collective security served as the ideological foundation for post-war institutions including the United Nations and Bretton Woods system.",
+          "textEs": "Los principios de autodeterminación, libre comercio y seguridad colectiva de la Carta del Atlántico sirvieron como base ideológica para las instituciones de posguerra, incluidas las Naciones Unidas y el sistema de Bretton Woods.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Atlantic Charter was rejected by Churchill because it implicitly endorsed decolonization, which threatened the British Empire's territorial holdings.",
+          "textEs": "La Carta del Atlántico fue rechazada por Churchill porque respaldaba implícitamente la descolonización, lo que amenazaba las posesiones territoriales del Imperio Británico.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Atlantic Charter was significant only as a wartime propaganda document and had no measurable influence on post-war international institutions or treaties.",
+          "textEs": "La Carta del Atlántico fue significativa solo como documento de propaganda en tiempo de guerra y no tuvo ninguna influencia mensurable en las instituciones o tratados internacionales de posguerra.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Atlantic Charter directly influenced the 1942 Declaration by the United Nations (the Allies), the 1944 Bretton Woods financial architecture, and most significantly the formation of the United Nations in 1945. Its principles of self-determination, free trade, and collective security became the ideological blueprint for the post-war liberal international order. FDR used the Charter to commit both nations to a vision of the peace before war's end. Options A and C misstate historical facts. Option D underestimates the Charter's long-term impact by focusing only on its immediate context.",
+      "explanationEs": "La Carta del Atlántico influyó directamente en la Declaración de las Naciones Unidas de 1942 (los Aliados), la arquitectura financiera de Bretton Woods de 1944 y, lo más significativo, en la formación de las Naciones Unidas en 1945. Sus principios de autodeterminación, libre comercio y seguridad colectiva se convirtieron en el plano ideológico para el orden internacional liberal de posguerra. FDR utilizó la Carta para comprometer a ambas naciones con una visión de la paz antes del fin de la guerra. Las opciones A y C afirman hechos históricos incorrectos. La opción D subestima el impacto a largo plazo de la Carta al centrarse solo en su contexto inmediato.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.02,
+        "b": 1.29,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-014",
+      "stem": "Between 1939 and 1941, FDR used a series of executive actions and legislative maneuvers — including the Cash and Carry policy, Destroyers-for-Bases Agreement, and Lend-Lease — to incrementally increase American support for the Allies. Critics accused FDR of deceiving the public about his true intentions. Which of the following best evaluates this critique?",
+      "stemEs": "Entre 1939 y 1941, FDR utilizó una serie de acciones ejecutivas y maniobras legislativas —incluidas la política de Pago y Transporte, el Acuerdo de Destructores por Bases y el Préstamo y Arriendo— para aumentar incrementalmente el apoyo estadounidense a los Aliados. Los críticos acusaron a FDR de engañar al público sobre sus verdaderas intenciones. ¿Cuál de las siguientes opciones evalúa mejor esta crítica?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FDR's actions were straightforwardly deceptive because he had a secret plan for direct military intervention that he deliberately concealed from Congress and the public throughout this period.",
+          "textEs": "Las acciones de FDR fueron directamente engañosas porque tenía un plan secreto para la intervención militar directa que deliberadamente ocultó al Congreso y al público durante todo este período.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "There is no valid basis for criticizing FDR's approach because every action he took was publicly debated, transparently explained, and fully endorsed by Congress.",
+          "textEs": "No hay base válida para criticar el enfoque de FDR porque cada acción que tomó fue debatida públicamente, explicada con transparencia y respaldada plenamente por el Congreso.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "FDR's strategy reflected a calculated judgment that public opinion would not support direct intervention, leading him to use incremental steps while making campaign promises of neutrality that he likely knew were untenable given world events.",
+          "textEs": "La estrategia de FDR reflejó un juicio calculado de que la opinión pública no apoyaría la intervención directa, lo que lo llevó a utilizar pasos incrementales mientras hacía promesas de campaña de neutralidad que probablemente sabía que eran insostenibles dados los eventos mundiales.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "FDR was ultimately not responsible for U.S. entry into the war because Pearl Harbor, an event he could not have anticipated or controlled, made neutrality impossible regardless of his earlier policies.",
+          "textEs": "FDR en última instancia no fue responsable de la entrada de los EE.UU. en la guerra porque Pearl Harbor, un evento que no podía haber anticipado o controlado, hizo que la neutralidad fuera imposible independientemente de sus políticas anteriores.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "This question requires students to weigh competing interpretations with evidence. FDR did repeatedly promise the American public he would keep the U.S. out of war (including his 1940 campaign pledge) while simultaneously taking steps that brought the U.S. closer to belligerency. Historians debate whether this was deceptive or whether FDR genuinely believed these steps could substitute for direct combat. The strongest assessment is that FDR's incremental strategy reflected a strategic judgment that the public would not support direct intervention but would accept each step as a reasonable response to immediate crises. Options A and B are too extreme. Option D is factually incorrect.",
+      "explanationEs": "Esta pregunta requiere que los estudiantes sopesen interpretaciones contrapuestas con evidencia. FDR prometió repetidamente al público estadounidense que mantendría a los EE.UU. fuera de la guerra (incluido su compromiso de campaña de 1940) mientras simultáneamente tomaba medidas que acercaban a los EE.UU. a la beligerancia. Los historiadores debaten si esto fue engañoso o si FDR genuinamente creía que estos pasos podían sustituir al combate directo. La evaluación más sólida es que la estrategia incremental de FDR reflejó un juicio estratégico de que el público no apoyaría la intervención directa, pero aceptaría cada paso como una respuesta razonable a las crisis inmediatas. Las opciones A y B son demasiado extremas. La opción D es factualmente incorrecta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.59,
+        "b": 0.73,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-015",
+      "stem": "FDR's foreign policy between 1937 and 1941 has been described as a gradual shift from neutrality to belligerency. Analyzing the Quarantine Speech, Four Freedoms, Atlantic Charter, and Lend-Lease Act together, which of the following best characterizes the cumulative strategy behind these actions?",
+      "stemEs": "La política exterior de FDR entre 1937 y 1941 ha sido descrita como un desplazamiento gradual de la neutralidad a la beligerancia. Analizando el Discurso de Cuarentena, las Cuatro Libertades, la Carta del Atlántico y la Ley de Préstamo y Arriendo en conjunto, ¿cuál de las siguientes opciones caracteriza mejor la estrategia acumulativa detrás de estas acciones?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FDR pursued a deliberate incremental strategy that used rhetoric, diplomacy, and material aid to progressively shift the United States from neutrality to de facto Allied partnership, building public support at each stage.",
+          "textEs": "FDR siguió una estrategia incremental deliberada que utilizó la retórica, la diplomacia y la ayuda material para desplazar progresivamente a los Estados Unidos de la neutralidad a una asociación aliada de facto, construyendo apoyo público en cada etapa.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "FDR's actions were reactive and uncoordinated, responding to each international crisis independently without an overarching strategic vision for American involvement.",
+          "textEs": "Las acciones de FDR fueron reactivas y descoordinadas, respondiendo a cada crisis internacional de forma independiente sin una visión estratégica general para la participación estadounidense.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "FDR prioritized economic recovery over foreign policy throughout this period, and these actions were primarily designed to stimulate American industrial production rather than support the Allies.",
+          "textEs": "FDR priorizó la recuperación económica sobre la política exterior durante todo este período, y estas acciones fueron diseñadas principalmente para estimular la producción industrial estadounidense en lugar de apoyar a los Aliados.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "FDR's foreign policy was driven primarily by personal relationships with Churchill and Stalin rather than by strategic calculations about American national interests.",
+          "textEs": "La política exterior de FDR estuvo impulsada principalmente por relaciones personales con Churchill y Stalin en lugar de por cálculos estratégicos sobre los intereses nacionales estadounidenses.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Viewed as a sequence, these actions represent FDR's deliberate strategy of using rhetoric to reshape public opinion (Quarantine Speech, Four Freedoms), then formal agreements (Atlantic Charter), and finally material commitment (Lend-Lease) to move the U.S. from isolationism to active partnership with the Allies — stopping just short of formal declaration of war until Pearl Harbor made that declaration unavoidable. Each step built public and political support for the next. This is classic incremental foreign policy maneuvering. Options B, C, and D mischaracterize the strategy's coherence or intent.",
+      "explanationEs": "Vistos como una secuencia, estas acciones representan la estrategia deliberada de FDR de usar la retórica para remodelar la opinión pública (Discurso de Cuarentena, Cuatro Libertades), luego acuerdos formales (Carta del Atlántico) y finalmente el compromiso material (Préstamo y Arriendo) para mover a los EE.UU. del aislacionismo a una asociación activa con los Aliados, deteniéndose justo antes de una declaración formal de guerra hasta que Pearl Harbor hizo que esa declaración fuera inevitable. Cada paso construyó apoyo público y político para el siguiente. Esta es la clásica maniobra incremental de política exterior. Las opciones B, C y D caracterizan incorrectamente la coherencia o intención de la estrategia.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.79,
+        "b": 0.88,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-016",
+      "stem": "The Destroyers-for-Bases Agreement of 1940, in which the U.S. transferred 50 naval destroyers to Britain in exchange for 99-year leases on British naval bases, was executed by FDR as an executive agreement rather than a treaty requiring Senate ratification. What does this decision reveal about FDR's approach to the constitutional limits of presidential power in foreign policy?",
+      "stemEs": "El Acuerdo de Destructores por Bases de 1940, en el que los EE.UU. transfirieron 50 destructores navales a Gran Bretaña a cambio de arrendamientos de 99 años sobre bases navales británicas, fue ejecutado por FDR como un acuerdo ejecutivo en lugar de un tratado que requería la ratificación del Senado. ¿Qué revela esta decisión sobre el enfoque de FDR hacia los límites constitucionales del poder presidencial en política exterior?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "FDR's use of an executive agreement demonstrated that he considered the Senate constitutionally irrelevant to foreign policy decisions involving military assets.",
+          "textEs": "El uso de un acuerdo ejecutivo por parte de FDR demostró que consideraba al Senado constitucionalmente irrelevante para las decisiones de política exterior que involucraban activos militares.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "FDR's use of an executive agreement revealed his willingness to stretch executive authority to circumvent Senate isolationists, setting a precedent for expanded presidential power in foreign affairs.",
+          "textEs": "El uso de un acuerdo ejecutivo por parte de FDR reveló su disposición a extender la autoridad ejecutiva para eludir a los aislacionistas del Senado, estableciendo un precedente para la expansión del poder presidencial en asuntos exteriores.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The agreement was unconstitutional because all transfers of military equipment to foreign nations require Senate approval under Article II of the Constitution.",
+          "textEs": "El acuerdo era inconstitucional porque todas las transferencias de equipo militar a naciones extranjeras requieren la aprobación del Senado según el Artículo II de la Constitución.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "FDR used an executive agreement because the Senate had previously given the president unlimited authority to engage in military exchanges with Allied nations.",
+          "textEs": "FDR utilizó un acuerdo ejecutivo porque el Senado había otorgado previamente al presidente autoridad ilimitada para participar en intercambios militares con naciones aliadas.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By using an executive agreement, FDR deliberately bypassed the Senate's treaty ratification power (which requires a two-thirds majority), knowing Senate isolationists would block it. This reveals FDR's willingness to stretch executive power in service of his foreign policy goals when legislative routes were blocked. This set a precedent for expanded presidential authority in foreign affairs. It is not simply unconstitutional (courts have upheld executive agreements), but it was a significant expansion of presidential prerogative. Options A, C, and D are either factually incorrect or misrepresent the constitutional significance.",
+      "explanationEs": "Al utilizar un acuerdo ejecutivo, FDR eludió deliberadamente el poder de ratificación de tratados del Senado (que requiere una mayoría de dos tercios), sabiendo que los aislacionistas del Senado lo bloquearían. Esto revela la disposición de FDR a extender el poder ejecutivo al servicio de sus objetivos de política exterior cuando las vías legislativas estaban bloqueadas. Esto estableció un precedente para la expansión de la autoridad presidencial en asuntos exteriores. No es simplemente inconstitucional (los tribunales han respaldado los acuerdos ejecutivos), pero fue una expansión significativa de la prerrogativa presidencial. Las opciones A, C y D son factualmente incorrectas o tergiversan la importancia constitucional.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 1.56,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-017",
+      "stem": "FDR described the United States as 'the great arsenal of democracy' in a fireside chat in December 1940. By framing American industrial production as a form of democratic participation in the war effort, what political objective was FDR most directly pursuing?",
+      "stemEs": "FDR describió a los Estados Unidos como 'el gran arsenal de la democracia' en una conversación junto al fuego en diciembre de 1940. Al enmarcar la producción industrial estadounidense como una forma de participación democrática en el esfuerzo bélico, ¿qué objetivo político perseguía FDR más directamente?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To justify military conscription by arguing that factory production alone was insufficient to defeat fascism and that American soldiers would need to fight alongside the Allies.",
+          "textEs": "Para justificar el reclutamiento militar argumentando que la producción fabril por sí sola era insuficiente para derrotar al fascismo y que los soldados estadounidenses tendrían que combatir junto a los Aliados.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To advocate for nationalization of American factories so the federal government could directly control war production without depending on private industry.",
+          "textEs": "Para abogar por la nacionalización de las fábricas estadounidenses para que el gobierno federal pudiera controlar directamente la producción bélica sin depender de la industria privada.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To persuade American workers to accept wage cuts and longer working hours in exchange for the honor of contributing to the defense of democracy abroad.",
+          "textEs": "Para persuadir a los trabajadores estadounidenses de aceptar recortes salariales y jornadas laborales más largas a cambio del honor de contribuir a la defensa de la democracia en el extranjero.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To reduce isolationist opposition by framing material support for the Allies as a form of patriotic participation that did not require direct military involvement.",
+          "textEs": "Para reducir la oposición aislacionista enmarcando el apoyo material a los Aliados como una forma de participación patriótica que no requería participación militar directa.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "FDR's 'arsenal of democracy' framing achieved two objectives simultaneously: it persuaded Americans they could support the Allied cause without directly fighting (making it politically viable to support Lend-Lease), and it invested American industrial workers and factory owners with a sense of patriotic mission. By positioning production as participation, FDR reduced isolationist objections — 'we're not going to war, we're just building things' — while still fundamentally committing American resources to the Allied cause. This was a masterful rhetorical move that opened the door to Lend-Lease passage. Options A, B, and C mischaracterize the framing's political purpose.",
+      "explanationEs": "El encuadre de 'arsenal de la democracia' de FDR logró dos objetivos simultáneamente: persuadió a los estadounidenses de que podían apoyar la causa aliada sin combatir directamente (haciendo políticamente viable apoyar el Préstamo y Arriendo), e invistió a los trabajadores y dueños de fábricas estadounidenses con un sentido de misión patriótica. Al posicionar la producción como participación, FDR redujo las objeciones aislacionistas —'no vamos a la guerra, solo estamos construyendo cosas'— mientras comprometía fundamentalmente los recursos estadounidenses a la causa aliada. Fue una hábil maniobra retórica que abrió la puerta a la aprobación del Préstamo y Arriendo. Las opciones A, B y C caracterizan incorrectamente el propósito político del encuadre.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.92,
+        "b": 1.61,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u6-018",
+      "stem": "Analyzing the sequence of FDR's foreign policy decisions from 1937 to 1941, which of the following best explains why the Lend-Lease Act represented a more significant departure from neutrality than earlier policies like Cash and Carry?",
+      "stemEs": "Al analizar la secuencia de las decisiones de política exterior de FDR desde 1937 hasta 1941, ¿cuál de las siguientes opciones explica mejor por qué la Ley de Préstamo y Arriendo representó una desviación más significativa de la neutralidad que políticas anteriores como Pago y Transporte?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Unlike Cash and Carry, Lend-Lease explicitly named Germany as an enemy nation and authorized the U.S. Navy to attack German ships on sight.",
+          "textEs": "A diferencia de Pago y Transporte, el Préstamo y Arriendo nombró explícitamente a Alemania como nación enemiga y autorizó a la Marina de los EE.UU. a atacar barcos alemanes a la vista.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Cash and Carry had been limited to agricultural products, while Lend-Lease for the first time allowed the transfer of military weapons and equipment to foreign nations.",
+          "textEs": "Pago y Transporte se había limitado a productos agrícolas, mientras que el Préstamo y Arriendo permitió por primera vez la transferencia de armas militares y equipos a naciones extranjeras.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Unlike Cash and Carry, which maintained a financial barrier by requiring immediate payment, Lend-Lease committed American economic resources directly to the Allied cause by eliminating the requirement for immediate repayment.",
+          "textEs": "A diferencia de Pago y Transporte, que mantenía una barrera financiera al exigir pago inmediato, el Préstamo y Arriendo comprometió los recursos económicos estadounidenses directamente a la causa aliada al eliminar el requisito de reembolso inmediato.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Lend-Lease was more significant because it required Congressional approval, whereas Cash and Carry had been implemented solely through presidential executive order without legislative oversight.",
+          "textEs": "El Préstamo y Arriendo fue más significativo porque requería la aprobación del Congreso, mientras que Pago y Transporte había sido implementado únicamente a través de una orden ejecutiva presidencial sin supervisión legislativa.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Cash and Carry (1939) technically allowed any nation to buy American goods as long as they paid cash and transported the goods themselves. In practice this favored the Allies who controlled the seas, but it maintained a financial barrier — buyers had to pay. Lend-Lease removed that financial barrier entirely, allowing the U.S. to provide materials on credit or as gifts, with repayment deferred or in kind. This committed American economic resources to the Allied cause without guaranteed repayment and without the pretense of equal access — it was explicitly designed to help the Allies. It was therefore a direct abandonment of financial neutrality. Options A, B, and D are inaccurate characterizations of the distinction.",
+      "explanationEs": "Pago y Transporte (1939) técnicamente permitía a cualquier nación comprar bienes estadounidenses siempre que pagaran en efectivo y transportaran los bienes ellos mismos. En la práctica esto favorecía a los Aliados que controlaban los mares, pero mantenía una barrera financiera: los compradores tenían que pagar. El Préstamo y Arriendo eliminó esa barrera financiera por completo, permitiendo a los EE.UU. proporcionar materiales a crédito o como donaciones, con reembolso diferido o en especie. Esto comprometió los recursos económicos estadounidenses a la causa aliada sin reembolso garantizado y sin la pretensión de acceso igual: fue diseñado explícitamente para ayudar a los Aliados. Por lo tanto, fue un abandono directo de la neutralidad financiera. Las opciones A, B y D son caracterizaciones inexactas de la distinción.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.22,
+        "b": 0.96,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0090",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows Pearl Harbor under attack, December 7, 1941.\n\n(Photograph, December 7, 1941. U.S. Navy.)\n\nHow did the United States' entry into World War II, prompted by the attack shown in this photograph, transform the nation's role in global affairs?",
+      "stemEs": "¿Cómo la entrada de EE. UU. en la Segunda Guerra Mundial transformó el papel de la nación en asuntos globales?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The U.S. returned to isolationism immediately after the war ended",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The war had no lasting effect on American foreign policy because the U.S. disbanded its military",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The U.S. participated only in the Pacific theater and played no role in defeating Germany",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The U.S. emerged as a global superpower, helping establish the United Nations, NATO, and a new international order that defined the postwar era",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.48"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "World War II transformed the United States from a reluctant international participant into the world's leading superpower. The U.S. helped create the United Nations, the Marshall Plan, NATO, and the Bretton Woods economic system, establishing an international order that shaped the remainder of the 20th century.",
+      "explanationEs": "La guerra transformó a EE. UU. en la superpotencia líder mundial, ayudando a crear la ONU, la OTAN y un nuevo orden internacional.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 1.0,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us46-dok4-cr-2",
+      "stem": "Read the following excerpt from the Neutrality Act of 1937, a U.S. government document (public domain, available through the Avalon Project, Yale Law School):\n\n\"Whenever the President shall find that there exists a state of war between, or among, two or more foreign states, the President shall proclaim such fact, and it shall thereafter be unlawful to export, or attempt to export, or cause to be exported, arms, ammunition, or implements of war from any place in the United States to any belligerent state... or to any neutral state for transshipment to, or for the use of, any such belligerent state.\"\n\nUsing this excerpt and your knowledge of American isolationism and foreign policy from 1935 to 1941, write a CER response that evaluates the effectiveness and ultimate limitations of U.S. neutrality policy. Your response must: (1) argue whether U.S. neutrality was a coherent policy response to global aggression or a strategic failure; (2) cite specific evidence including at least two of the following — the Neutrality Acts of 1935–1937, the Lend-Lease Act (1941), the America First movement, and the destroyers-for-bases agreement; (3) reason through how domestic political pressures shaped and ultimately undermined the neutrality framework. Connect U.S. isolationism to its consequences for Allied nations before Pearl Harbor.",
+      "stemEs": "Lee el siguiente fragmento de la Ley de Neutralidad de 1937, un documento del gobierno de los EE.UU. (dominio público, disponible a través del Proyecto Avalon, Escuela de Derecho de Yale):\n\n\"Cuando el Presidente considere que existe un estado de guerra entre dos o más estados extranjeros, proclamará tal hecho, y desde entonces será ilegal exportar, o intentar exportar, o hacer exportar, armas, municiones o implementos de guerra desde cualquier lugar de los Estados Unidos a cualquier estado beligerante... o a cualquier estado neutral para su reenvío a, o para uso de, dicho estado beligerante.\"\n\nUsando este fragmento y tu conocimiento del aislacionismo estadounidense y la política exterior de 1935 a 1941, escribe una respuesta CER que evalúe la efectividad y las limitaciones finales de la política de neutralidad de EE.UU. Tu respuesta debe: (1) argumentar si la neutralidad de EE.UU. fue una respuesta política coherente a la agresión global o un fracaso estratégico; (2) citar evidencia específica incluyendo al menos dos de los siguientes: las Leyes de Neutralidad de 1935–1937, la Ley de Préstamo y Arriendo (1941), el movimiento America First y el acuerdo de destructores por bases; (3) razonar cómo las presiones políticas internas moldearon y finalmente socavaron el marco de neutralidad. Conecta el aislacionismo de EE.UU. con sus consecuencias para las naciones aliadas antes de Pearl Harbor.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-score response will: (1) Argue a defensible claim — e.g., U.S. neutrality was politically motivated but strategically inconsistent, ultimately abandoned under the weight of strategic self-interest and ideological alignment with democracies. (2) Evidence: Neutrality Acts (1935, 1936, 1937) — cash-and-carry provisions, embargo on arms; America First Committee arguments (Lindbergh); Lend-Lease Act (March 1941) as a de facto abandonment of neutrality; destroyers-for-bases agreement (September 1940); Roosevelt's 'Arsenal of Democracy' fireside chat (December 1940). (3) Reasoning: U.S. neutrality reflected genuine public opposition to war (after WWI's casualties and disillusionment) but was progressively hollowed out as Nazi Germany's threat to Britain became clear. The economic and strategic calculus — Britain as bulwark against German domination of the Atlantic — overrode formal neutrality. The policy failed Allied nations (France fell in 1940 with minimal U.S. material support) but also protected Roosevelt's political coalition. Connect to US.47 (Pearl Harbor ultimately resolving the debate).",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.46, US.47 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.48",
+        "US.49"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Clear arguable claim on effectiveness/failure of neutrality policy. Three or more specific pieces of evidence (specific acts, dates, speeches, or events). Reasoning explains how domestic politics (WWI disillusionment, isolationist lobby, electoral concerns) shaped each policy decision. Explicitly connects U.S. inaction to consequences for Allies. Cross-standard synthesis to US.47 or US.45 present.\n3 - Proficient: Clear claim. Two pieces of specific evidence. Reasoning connects domestic politics to policy but one connection may lack depth. Some cross-standard synthesis.\n2 - Developing: Vague claim. One specific piece of evidence. Reasoning present but superficial. Little connection to broader context.\n1 - Beginning: No clear claim. General statements about neutrality. No specific evidence or reasoning.\n0 - No response or completely off-topic.\n\nKEY EVIDENCE EXPECTED: Neutrality Act of 1935 (arms embargo); Neutrality Act of 1937 (cash-and-carry); America First Committee / Charles Lindbergh; Destroyers-for-bases agreement (September 1940); Lend-Lease Act (March 1941); FDR 'Arsenal of Democracy' speech (December 29, 1940); Fall of France (June 1940) as policy turning point.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Afirmación argumentable y clara sobre la efectividad/fracaso de la política de neutralidad. Tres o más piezas específicas de evidencia (actos específicos, fechas, discursos o eventos). El razonamiento explica cómo la política interna moldeó cada decisión de política. Conecta explícitamente la inacción de EE.UU. con las consecuencias para los Aliados. Síntesis entre estándares con US.47 o US.45 presente.\n3 - Competente: Afirmación clara. Dos piezas de evidencia específica. El razonamiento conecta la política interna con la política pero una conexión puede carecer de profundidad. Alguna síntesis entre estándares.\n2 - En desarrollo: Afirmación vaga. Una pieza específica de evidencia. Razonamiento presente pero superficial. Poca conexión con el contexto más amplio.\n1 - Inicial: Sin afirmación clara. Declaraciones generales sobre neutralidad. Sin evidencia ni razonamiento específicos.\n0 - Sin respuesta o completamente fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Ley de Neutralidad de 1935 (embargo de armas); Ley de Neutralidad de 1937 (pago al contado y transporte propio); Comité America First / Charles Lindbergh; acuerdo de destructores por bases (septiembre de 1940); Ley de Préstamo y Arriendo (marzo de 1941); discurso de FDR 'Arsenal de la Democracia' (29 de diciembre de 1940); caída de Francia (junio de 1940) como punto de inflexión en la política.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.9,
+        "b": -0.25,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46",
+          "US.47"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item",
+          "US.47->US.49: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us54-dok4-cr-10",
+      "stem": "Read the following excerpt from Justice Robert Jackson's dissent in Korematsu v. United States, 323 U.S. 214 (1944) (Supreme Court of the United States, public domain):\n\n\"A military order, however unconstitutional, is not apt to last longer than the military emergency. Even during that period a succeeding commander may revoke it all. But once a judicial opinion rationalizes such an order to show that it conforms to the Constitution... the Court for all time has validated the principle of racial discrimination in criminal procedure and of transplanting American citizens. The principle then lies about like a loaded weapon ready for the hand of any authority that can bring forward a plausible claim of an urgent need.\"\n\nUsing this dissent and your knowledge of Japanese American internment, write a CER response that evaluates the constitutional and human rights implications of Executive Order 9066 and the Supreme Court's Korematsu ruling. Your response must: (1) analyze the specific conditions and government actions that led to internment; (2) evaluate Jackson's 'loaded weapon' argument and what it predicted about future civil liberties; (3) assess the legacy of internment, including the Civil Liberties Act of 1988 (reparations) and how Korematsu has been invoked in later civil liberties cases. Synthesize constitutional, human rights, and historical dimensions.",
+      "stemEs": "Lee el siguiente fragmento del voto disidente del Juez Robert Jackson en Korematsu v. Estados Unidos, 323 U.S. 214 (1944) (Tribunal Supremo de los Estados Unidos, dominio público):\n\n\"Una orden militar, aunque sea inconstitucional, no es probable que dure más que la emergencia militar. Incluso durante ese período, un comandante sucesor puede revocarla. Pero una vez que una opinión judicial racionaliza dicha orden para mostrar que se ajusta a la Constitución... el Tribunal ha validado para todos los tiempos el principio de la discriminación racial en el procedimiento penal y del trasplante de ciudadanos americanos. El principio entonces yace como un arma cargada lista para la mano de cualquier autoridad que pueda presentar una afirmación plausible de una necesidad urgente.\"\n\nUsando este voto disidente y tu conocimiento del internamiento de japoneses americanos, escribe una respuesta CER que evalúe las implicaciones constitucionales y de derechos humanos de la Orden Ejecutiva 9066 y el fallo Korematsu de la Corte Suprema. Tu respuesta debe: (1) analizar las condiciones específicas y las acciones gubernamentales que llevaron al internamiento; (2) evaluar el argumento del 'arma cargada' de Jackson y lo que predijo sobre futuras libertades civiles; (3) evaluar el legado del internamiento, incluida la Ley de Libertades Civiles de 1988 (reparaciones) y cómo Korematsu ha sido invocado en casos posteriores de libertades civiles. Sintetiza dimensiones constitucionales, de derechos humanos e históricas.",
+      "itemType": "constructed-response",
+      "correctAnswer": "A top-score response will: (1) Claim: Executive Order 9066 and the Supreme Court's Korematsu ruling represent a profound constitutional failure that validated racial discrimination under the guise of military necessity, and Jackson's dissent proved prophetic as the precedent has been cited in later civil liberties conflicts. (2) Evidence: EO 9066 (February 19, 1942) — authorized internment; 120,000 Japanese Americans (70,000 U.S. citizens) relocated; War Relocation Authority camps (Manzanar, Topaz, others); Korematsu decision (6-3, December 1944) — upheld internment; Murphy, Jackson, and Roberts dissents; Civil Liberties Act of 1988 — $20,000 reparations per surviving internee, government apology; Korematsu formally overruled in Trump v. Hawaii (2018) — but that case itself raised Jackson's 'loaded weapon' concern anew. (3) Reasoning: Jackson's dissent predicted that judicial validation of racial exclusion creates a constitutional precedent that can be revived by future governments. The Civil Liberties Act (1988) was the government's acknowledgment that the internment was a product of 'racial prejudice, wartime hysteria, and a failure of political leadership.' The Korematsu ruling's long shadow demonstrates how wartime emergency powers, once judicially approved, persist as threats to civil liberties.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.54, US.46 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.48",
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (4 points):\n4 - Exemplary: Precise claim about EO 9066's constitutional failure and long-term implications. Evidence covers specific internment data (120,000 people, specific camps), Korematsu ruling and dissent, AND Civil Liberties Act of 1988 or Trump v. Hawaii (2018). Jackson's 'loaded weapon' metaphor analyzed and connected to later events. Cross-era synthesis demonstrated.\n3 - Proficient: Clear claim. Evidence covers internment, Korematsu ruling, and one legacy element. Jackson's dissent analyzed but connection to later events less developed.\n2 - Developing: Describes internment conditions without constitutional analysis. Korematsu mentioned but not analyzed. No legacy element.\n1 - Beginning: General description of internment. No constitutional analysis, dissent analysis, or legacy.\n0 - No response or completely off-topic.\n\nKEY EVIDENCE EXPECTED: EO 9066 (February 19, 1942); 120,000 Japanese Americans interned (70,000 U.S. citizens); Manzanar/Topaz camps; Korematsu v. U.S. (1944) 6-3 decision; Jackson/Murphy/Roberts dissents; Civil Liberties Act of 1988 ($20,000 reparations); Trump v. Hawaii (2018) — formally overruled Korematsu.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (4 puntos):\n4 - Ejemplar: Afirmación precisa sobre el fracaso constitucional de la Orden Ejecutiva 9066 y sus implicaciones a largo plazo. La evidencia cubre datos específicos del internamiento (120.000 personas, campos específicos), el fallo Korematsu y los votos disidentes, Y la Ley de Libertades Civiles de 1988 o Trump v. Hawaii (2018). La metáfora del 'arma cargada' de Jackson analizada y conectada con eventos posteriores. Síntesis entre eras demostrada.\n3 - Competente: Afirmación clara. La evidencia cubre el internamiento, el fallo Korematsu y un elemento del legado. El voto disidente de Jackson analizado pero la conexión con eventos posteriores menos desarrollada.\n2 - En desarrollo: Describe las condiciones del internamiento sin análisis constitucional. Korematsu mencionado pero no analizado. Sin elemento de legado.\n1 - Inicial: Descripción general del internamiento. Sin análisis constitucional, análisis del voto disidente ni legado.\n0 - Sin respuesta o completamente fuera del tema.\n\nEVIDENCIA CLAVE ESPERADA: Orden Ejecutiva 9066 (19 de febrero de 1942); 120.000 japoneses americanos internados (70.000 ciudadanos de EE.UU.); campos de Manzanar/Topaz; Korematsu v. EE.UU. (1944) decisión 6-3; votos disidentes de Jackson/Murphy/Roberts; Ley de Libertades Civiles de 1988 ($20.000 en reparaciones); Trump v. Hawaii (2018) — revocó formalmente Korematsu.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.69,
+        "b": 0.22,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46",
+          "US.54"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item",
+          "US.54->US.54: checklist intact (1 element(s))"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us46-dok4-dbq-2",
+      "stem": "Using the following two primary sources, construct a document-based argument that analyzes how Pearl Harbor transformed American public opinion and government policy from isolationism to total war mobilization.\n\nDOCUMENT A: Excerpt from President Franklin D. Roosevelt's 'Day of Infamy' address to Congress, December 8, 1941 (National Archives, public domain):\n\"Yesterday, December 7th, 1941 — a date which will live in infamy — the United States of America was suddenly and deliberately attacked by naval and air forces of the Empire of Japan... No matter how long it may take us to overcome this premeditated invasion, the American people in their righteous might will win through to absolute victory.\"\n\nDOCUMENT B: Excerpt from FDR's 'Four Freedoms' speech, January 6, 1941, nearly one year before Pearl Harbor (National Archives, public domain):\n\"In the future days, which we seek to make secure, we look forward to a world founded upon four essential human freedoms... The fourth is freedom from fear — which, translated into world terms, means a world-wide reduction of armaments to such a point and in such a thorough fashion that no nation will be in a position to commit an act of physical aggression against any neighbor — anywhere in the world.\"\n\nUsing SOAPS (Speaker, Occasion, Audience, Purpose, Significance) analysis for each document and your knowledge of U.S. foreign policy, analyze how Roosevelt's rhetoric evolved from January 1941 to December 1941, and evaluate what that evolution reveals about the political and strategic factors shaping U.S. entry into World War II. Include at least two pieces of outside evidence. Address the relationship between FDR's pre-Pearl Harbor rhetoric (Document B) and the formal isolationist legal framework he was navigating.",
+      "stemEs": "Usando las siguientes dos fuentes primarias, construye un argumento basado en documentos que analice cómo Pearl Harbor transformó la opinión pública estadounidense y la política gubernamental del aislacionismo a la movilización de guerra total.\n\nDOCUMENTO A: Extracto del discurso del presidente Franklin D. Roosevelt al Congreso 'Día de la Infamia', 8 de diciembre de 1941 (Archivo Nacional, dominio público):\n\"Ayer, 7 de diciembre de 1941 — una fecha que vivirá en la infamia — los Estados Unidos de América fueron atacados súbita y deliberadamente por fuerzas navales y aéreas del Imperio del Japón... No importa cuánto tiempo nos lleve superar esta invasión premeditada, el pueblo estadounidense en su justa fuerza logrará la victoria absoluta.\"\n\nDOCUMENTO B: Extracto del discurso de FDR sobre las 'Cuatro Libertades', 6 de enero de 1941, casi un año antes de Pearl Harbor (Archivo Nacional, dominio público):\n\"En los días futuros que buscamos asegurar, esperamos un mundo fundado sobre cuatro libertades humanas esenciales... La cuarta es la libertad del miedo — que, traducida en términos mundiales, significa una reducción mundial de armamentos hasta tal punto y de manera tan completa que ninguna nación esté en posición de cometer un acto de agresión física contra ningún vecino — en ningún lugar del mundo.\"\n\nUsando el análisis SOAPS (Hablante, Ocasión, Audiencia, Propósito, Significado) para cada documento y tu conocimiento de la política exterior de EE.UU., analiza cómo evolucionó la retórica de Roosevelt de enero de 1941 a diciembre de 1941, y evalúa lo que esa evolución revela sobre los factores políticos y estratégicos que moldearon la entrada de EE.UU. en la Segunda Guerra Mundial. Incluye al menos dos piezas de evidencia externa. Aborda la relación entre la retórica de FDR antes de Pearl Harbor (Documento B) y el marco legal aislacionista formal que estaba navegando.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-score (6/6) response will: THESIS: A defensible claim — e.g., 'FDR's rhetoric from 1941 reveals a president who understood the strategic necessity of entering the war months before Pearl Harbor but was constrained by domestic isolationist politics; Pearl Harbor provided the political catalyst that formal legal constraints had prevented.' SOAPS ANALYSIS — Doc A ('Day of Infamy'): Speaker: FDR as commander-in-chief; Occasion: day after Pearl Harbor attack; Audience: Congress and American people via radio; Purpose: secure declaration of war and rally national resolve; Significance: transformed U.S. from formal neutrality to belligerent in 24 hours. Doc B ('Four Freedoms'): Speaker: FDR as president; Occasion: State of the Union, January 1941; Audience: Congress and public; Purpose: build ideological case for U.S. engagement without formally violating Neutrality Acts; Significance: established democratic idealism as war rationale months before U.S. entry. OUTSIDE EVIDENCE: Neutrality Acts (1935–1937); Lend-Lease Act (March 1941); America First Committee; destroyers-for-bases; 388-1 war vote (December 8); Germany/Italy declaring war on U.S. (December 11). SYNTHESIS: The two documents together show FDR's strategy — building ideological groundwork (Doc B) while waiting for an event that would collapse isolationist resistance (Doc A). Pearl Harbor was that event.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.46, US.47 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.48",
+        "US.49"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Sophisticated thesis about FDR's rhetorical strategy across both documents. SOAPS applied accurately and fully to both documents. Two or more pieces of outside evidence. Analysis of the political constraints FDR navigated present. Synthesis of both documents into a cohesive argument about how Pearl Harbor functioned as political catalyst.\n5 - Advanced: Clear thesis. Both documents analyzed with SOAPS (mostly complete). Two outside evidence pieces. Some synthesis present.\n4 - Proficient: Clear thesis. Both documents analyzed with at least three SOAPS elements each. One outside evidence piece. Argument present.\n3 - Adequate: Thesis present. One document fully analyzed, second partially. Some outside evidence. Argument partially developed.\n2 - Developing: Minimal thesis. Documents described but SOAPS not applied. Little outside evidence.\n1 - Beginning: No thesis. One document referenced. No analytical framework.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: Doc A SOAPS — Speaker as wartime leader, occasion as day after attack, purpose as securing war declaration, significance as nation-transforming moment. Doc B SOAPS — Speaker as politically constrained president, occasion as pre-Pearl Harbor State of Union, purpose as building ideological groundwork, significance as revealing FDR's pre-war strategic thinking.\nKEY EVIDENCE EXPECTED: Neutrality Acts (1935–1937); Lend-Lease Act (March 1941); destroyers-for-bases agreement; America First Committee; 388-1 Congressional vote; Germany/Italy declaration of war (December 11, 1941).",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: Tesis sofisticada sobre la estrategia retórica de FDR a través de ambos documentos. SOAPS aplicado con precisión y completamente a ambos documentos. Dos o más piezas de evidencia externa. Análisis de las restricciones políticas que FDR navegó presente. Síntesis de ambos documentos en un argumento cohesivo sobre cómo Pearl Harbor funcionó como catalizador político.\n5 - Avanzado: Tesis clara. Ambos documentos analizados con SOAPS (mayormente completo). Dos piezas de evidencia externa. Alguna síntesis presente.\n4 - Competente: Tesis clara. Ambos documentos analizados con al menos tres elementos SOAPS cada uno. Una pieza de evidencia externa. Argumento presente.\n3 - Adecuado: Tesis presente. Un documento completamente analizado, el segundo parcialmente. Alguna evidencia externa. Argumento parcialmente desarrollado.\n2 - En desarrollo: Tesis mínima. Documentos descritos pero SOAPS no aplicado. Poca evidencia externa.\n1 - Inicial: Sin tesis. Un documento referenciado. Sin marco analítico.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS DE DOCUMENTOS: SOAPS del Doc A — Hablante como líder de tiempos de guerra, ocasión como el día después del ataque, propósito como asegurar la declaración de guerra, significado como momento transformador de la nación. SOAPS del Doc B — Hablante como presidente políticamente restringido, ocasión como Estado de la Unión previo a Pearl Harbor, propósito como construir el fundamento ideológico, significado como revelador del pensamiento estratégico de FDR antes de la guerra.\nEVIDENCIA CLAVE ESPERADA: Leyes de Neutralidad (1935–1937); Ley de Préstamo y Arriendo (marzo de 1941); acuerdo de destructores por bases; Comité America First; voto del Congreso de 388-1; declaración de guerra de Alemania/Italia (11 de diciembre de 1941).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.75,
+        "b": 0.37,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46",
+          "US.47"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item",
+          "US.47->US.49: checklist intact (0 element(s))"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us54-dok4-dbq-6",
+      "stem": "Analyze the following two primary source excerpts and construct a document-based argument about the constitutional crisis created by Japanese American internment.\n\nDOCUMENT A: Excerpt from Executive Order 9066, issued by President Franklin D. Roosevelt, February 19, 1942 (Federal Register, 1942; National Archives, public domain):\n\"I hereby authorize and direct the Secretary of War, and the Military Commanders whom he may from time to time designate, whenever he or any designated Commander deems such action necessary or desirable, to prescribe military areas in such places and of such extent as he or the appropriate Military Commander may determine, from which any or all persons may be excluded...\"\n\nDOCUMENT B: Excerpt from Justice Robert Jackson's dissent in Korematsu v. United States, 323 U.S. 214 (1944) (Supreme Court of the United States, public domain):\n\"But once a judicial opinion rationalizes such an order to show that it conforms to the Constitution, or rather rationalizes the Constitution to show that the Constitution sanctions such an order, the Court for all time has validated the principle of racial discrimination in criminal procedure... The principle then lies about like a loaded weapon ready for the hand of any authority that can bring forward a plausible claim of an urgent need.\"\n\nUsing HIPP analysis for each document and your knowledge of Japanese American internment, construct an argument evaluating: (1) what EO 9066 reveals about the limits of civil liberties in wartime; (2) how Jackson's dissent predicted future abuses of emergency power; (3) the long-term legacy of the Korematsu ruling. Include at least two pieces of outside evidence, including one from after 1945.",
+      "stemEs": "Analiza los siguientes dos extractos de fuentes primarias y construye un argumento basado en documentos sobre la crisis constitucional creada por el internamiento de japoneses americanos.\n\nDOCUMENTO A: Extracto de la Orden Ejecutiva 9066, emitida por el presidente Franklin D. Roosevelt, 19 de febrero de 1942 (Registro Federal, 1942; Archivo Nacional, dominio público):\n\"Por la presente autorizo y dirijo al Secretario de Guerra, y a los Comandantes Militares que él pueda designar de vez en cuando, siempre que él o cualquier Comandante designado considere tal acción necesaria o deseable, a prescribir áreas militares en los lugares y de la extensión que él o el Comandante Militar apropiado puedan determinar, de las cuales cualquiera o todas las personas pueden ser excluidas...\"\n\nDOCUMENTO B: Extracto del voto disidente del Juez Robert Jackson en Korematsu v. Estados Unidos, 323 U.S. 214 (1944) (Tribunal Supremo de los Estados Unidos, dominio público):\n\"Pero una vez que una opinión judicial racionaliza dicha orden para mostrar que se ajusta a la Constitución, o más bien racionaliza la Constitución para mostrar que la Constitución sanciona dicha orden, el Tribunal ha validado para todos los tiempos el principio de la discriminación racial en el procedimiento penal... El principio entonces yace como un arma cargada lista para la mano de cualquier autoridad que pueda presentar una afirmación plausible de una necesidad urgente.\"\n\nUsando el análisis HIPP para cada documento y tu conocimiento del internamiento de japoneses americanos, construye un argumento que evalúe: (1) qué revela la Orden Ejecutiva 9066 sobre los límites de las libertades civiles en tiempos de guerra; (2) cómo el voto disidente de Jackson predijo futuros abusos del poder de emergencia; (3) el legado a largo plazo del fallo Korematsu. Incluye al menos dos piezas de evidencia externa, incluyendo una posterior a 1945.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-score (6/6) response will: THESIS: E.g., 'Executive Order 9066 and the Korematsu ruling represent one of the most consequential constitutional failures of the twentieth century: by validating racial exclusion under the guise of military necessity, the Supreme Court created a precedent that — as Jackson predicted — has repeatedly threatened civil liberties in subsequent national security crises, demonstrating that constitutional rights are most fragile precisely when they are most needed.' HIPP — Doc A: Context: weeks after Pearl Harbor, wartime fear and anti-Japanese racism; Audience: Secretary of War and military commanders; Purpose: grant executive authority for civilian exclusion from military areas (deliberately vague language avoids naming race); POV: FDR prioritizing military security over civil liberties, under pressure from West Coast politicians. HIPP — Doc B: Context: wartime Supreme Court, 1944, war still ongoing; Audience: legal community, future judges; Purpose: warn that judicial validation of racial discrimination creates permanent constitutional risk; POV: Jackson as dissenter — unusually prophetic about long-term constitutional consequences. OUTSIDE EVIDENCE: 120,000 Japanese Americans interned (70,000 U.S. citizens); Manzanar, Topaz camps; Civil Liberties Act of 1988 ($20,000 reparations, government apology); Trump v. Hawaii (2018) — formally overruled Korematsu but upheld travel ban — Jackson's 'loaded weapon' argument made newly relevant. SYNTHESIS: Doc A's deliberately vague language enabled Doc B's nightmare scenario — a court that had to rationalize racial exclusion rather than reject it. The 1988 Act and 2018 case together confirm that Jackson's dissent was historically vindicated.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.54, US.46 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.48",
+        "US.54"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Sophisticated thesis about constitutional failure and Jackson's prophecy. Both documents with full HIPP — including EO 9066's deliberately vague language as constitutional evasion. Two or more outside evidence pieces including one post-1945 source. Jackson's 'loaded weapon' metaphor explicitly analyzed and connected to post-1945 cases. Synthesis of how Doc A enabled Doc B's concern.\n5 - Advanced: Clear thesis. Both documents with mostly complete HIPP. Post-1945 evidence present. Jackson's prophecy connected to later cases.\n4 - Proficient: Clear thesis. Both documents with three+ HIPP elements. One post-1945 evidence piece. Constitutional analysis present.\n3 - Adequate: Thesis present. One document fully analyzed. Some outside evidence. Partial constitutional analysis.\n2 - Developing: Minimal thesis. Documents described without HIPP. Little outside evidence. No constitutional analysis.\n1 - Beginning: No thesis. One document without analysis.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: EO 9066 — deliberately avoids naming Japanese Americans; this racial evasion in legal language is historically significant. Jackson dissent — 'loaded weapon' metaphor should be analyzed as legal prophecy, not just protest.\nKEY EVIDENCE EXPECTED: EO 9066 (February 19, 1942); 120,000 internees (70,000 citizens); Manzanar; Korematsu 6-3 majority decision; Murphy, Jackson, Roberts dissents; Civil Liberties Act of 1988; Trump v. Hawaii (2018) — formally overruled Korematsu.",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: Tesis sofisticada sobre el fracaso constitucional y la profecía de Jackson. Ambos documentos con HIPP completo — incluyendo el lenguaje deliberadamente vago de la Orden Ejecutiva 9066 como evasión constitucional. Dos o más piezas de evidencia externa, incluyendo una fuente posterior a 1945. La metáfora del 'arma cargada' de Jackson analizada explícitamente y conectada con casos posteriores a 1945. Síntesis de cómo el Doc A habilitó la preocupación del Doc B.\n5 - Avanzado: Tesis clara. Ambos documentos con HIPP mayormente completo. Evidencia posterior a 1945 presente. La profecía de Jackson conectada con casos posteriores.\n4 - Competente: Tesis clara. Ambos documentos con tres o más elementos HIPP. Una pieza de evidencia posterior a 1945. Análisis constitucional presente.\n3 - Adecuado: Tesis presente. Un documento completamente analizado. Alguna evidencia externa. Análisis constitucional parcial.\n2 - En desarrollo: Tesis mínima. Documentos descritos sin HIPP. Poca evidencia externa. Sin análisis constitucional.\n1 - Inicial: Sin tesis. Un documento sin análisis.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS DE DOCUMENTOS: Orden Ejecutiva 9066 — evita deliberadamente nombrar a los japoneses americanos; esta evasión racial en el lenguaje legal es históricamente significativa. Voto disidente de Jackson — la metáfora del 'arma cargada' debe analizarse como profecía legal, no solo como protesta.\nEVIDENCIA CLAVE ESPERADA: Orden Ejecutiva 9066 (19 de febrero de 1942); 120.000 internados (70.000 ciudadanos); Manzanar; decisión mayoritaria 6-3 de Korematsu; votos disidentes de Murphy, Jackson, Roberts; Ley de Libertades Civiles de 1988; Trump v. Hawaii (2018) — revocó formalmente Korematsu.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.89,
+        "b": 0.55,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.46",
+          "US.54"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.46->US.48: standard ADDED ['Pearl Harbor'] — coverage gap at the standard, not a defect in this item",
+          "US.54->US.54: checklist intact (1 element(s))"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Pearl Harbor"
+          ]
+        }
+      }
+    }
+  ]
+}

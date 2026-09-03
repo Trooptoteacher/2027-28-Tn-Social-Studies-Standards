@@ -41,9 +41,14 @@
         ],
         "priorBankTier": "teacher",
         "crosswalkReasons": [
-          "US.84->US.82 unchanged",
-          "US.85->US.83 revised sim=0.77 BELOW floor 0.9"
-        ]
+          "US.84->US.82: checklist intact (3 element(s))",
+          "US.85->US.83: item tests element(s) dropped from the 2027-28 standard: ['his major foreign policy actions']"
+        ],
+        "alignmentReview": {
+          "droppedElementsTested": [
+            "his major foreign policy actions"
+          ]
+        }
       }
     }
   ]

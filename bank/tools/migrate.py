@@ -5,9 +5,16 @@ A code is NOT a stable identifier between the two years: 84 of the 94 US codes
 changed meaning. So nothing is carried forward BY CODE. Every item is routed
 through the published crosswalk and lands in one of three places:
 
-  migrated     the standard is `unchanged` — mechanical recode, high confidence
-  provisional  the standard is `revised` at similarity >= FLOOR — recoded, flagged
-  quarantined  `revised` below FLOOR, or `retired` — NOT servable, NOT coverage
+  migrated     the standard's content checklist is intact for this item
+  provisional  recoded, but something needs a human: the standard's verb rose,
+               or elements were added that this item does not yet cover
+  quarantined  the standard retired, or THIS ITEM tests an element the 2027-28
+               standard dropped — NOT servable, NOT coverage
+
+Routing is by ELEMENT, not by text similarity. Measurement showed the
+character ratio is anti-correlated with alignment: US.16->US.17 scores 0.79
+and is a pure bullet reorder, while US.12 scores 0.89 having deleted the
+Clayton Antitrust Act of 1914. See tools/alignment.py.
 
 Quarantine is the point. An item whose standard moved out from under it is not
 a coverage number, and calling it one is how a bank ends up testing the wrong
@@ -15,7 +22,7 @@ standards while every structural gate passes.
 
 The old code is never silently dropped: it moves to provenance.priorStandardCodes.
 
-Usage: python3 tools/migrate.py <source-bank-dir> [--floor 0.90] [--apply]
+Usage: python3 tools/migrate.py <source-bank-dir> [--apply]
 """
 from __future__ import annotations
 
@@ -29,6 +36,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import alignment
 import binding as binding_mod
 import itemio
 
@@ -53,36 +61,73 @@ def load_crosswalk(path):
     return by26
 
 
-def route(codes, by26, floor):
-    """Return (new_codes, disposition, reasons). Most conservative wins."""
-    new, reasons, worst = [], [], "migrated"
+def item_text(old):
+    """What the item ASKS and KEYS — stem, correct choice, key explanation.
+
+    Distractors are deliberately excluded. A wrong choice mentioning a dropped
+    element is not evidence the item tests it.
+    """
+    bits = [old.get("stem") or "", old.get("explanation") or ""]
+    key = old.get("correctAnswer")
+    for c in (old.get("choices") or []):
+        if isinstance(c, dict) and c.get("id") == key:
+            bits.append(c.get("text") or "")
+    return " ".join(bits)
+
+
+def route(old, by26):
+    """Return (new_codes, disposition, reasons, review).
+
+    Most conservative disposition wins. The old code is never dropped; it moves
+    to provenance.
+    """
+    codes = old.get("standardCodes") or []
+    text = item_text(old)
+    new, reasons, review = [], [], {}
     rank = {"migrated": 0, "provisional": 1, "quarantined": 2}
+    worst = "migrated"
+
+    def worsen(v):
+        nonlocal worst
+        if rank[v] > rank[worst]:
+            worst = v
+
     for c in codes:
         rows = by26.get(c)
         if not rows:
-            worst, _ = "quarantined", reasons.append(f"{c}: not in crosswalk")
-            continue
+            reasons.append(f"{c}: not in crosswalk"); worsen("quarantined"); continue
         for r in rows:
-            d, sim = r["disposition"], float(r["similarity"] or 0)
-            tgt = r["code_2027_28"]
-            if d == "unchanged" and tgt:
-                new.append(tgt); reasons.append(f"{c}->{tgt} unchanged")
-                verdict = "migrated"
-            elif d == "revised" and tgt and sim >= floor:
-                new.append(tgt); reasons.append(f"{c}->{tgt} revised sim={sim:.2f}")
-                verdict = "provisional"
-            elif d == "revised" and tgt:
-                reasons.append(f"{c}->{tgt} revised sim={sim:.2f} BELOW floor {floor}")
-                verdict = "quarantined"
-            else:
-                reasons.append(f"{c}: {d} — no 2027-28 home")
-                verdict = "quarantined"
-            if rank[verdict] > rank[worst]:
-                worst = verdict
-    return sorted(set(new)), worst, reasons
+            tgt, disp = r["code_2027_28"], r["disposition"]
+            if not tgt or disp == "retired":
+                reasons.append(f"{c}: {disp} — no 2027-28 home"); worsen("quarantined"); continue
+            d = alignment.delta(r["text_2026_27"], r["text_2027_28"])
+            hits = alignment.tests_dropped_element(text, d["dropped"])
+            if hits:
+                reasons.append(f"{c}->{tgt}: item tests element(s) dropped from the "
+                               f"2027-28 standard: {hits}")
+                review.setdefault("droppedElementsTested", []).extend(hits)
+                worsen("quarantined")
+                continue
+            new.append(tgt)
+            if d["verbChanged"]:
+                review["verbChange"] = f"{d['oldVerb']} -> {d['newVerb']}"
+                if d["verbRaised"]:
+                    review["dokReviewRequired"] = True
+                    reasons.append(f"{c}->{tgt}: standard verb RAISED "
+                                   f"{d['oldVerb']}->{d['newVerb']}; item may be under-levelled")
+                    worsen("provisional")
+                else:
+                    reasons.append(f"{c}->{tgt}: verb changed {d['oldVerb']}->{d['newVerb']}")
+            if d["added"]:
+                review.setdefault("elementsAddedToStandard", []).extend(d["added"])
+                reasons.append(f"{c}->{tgt}: standard ADDED {d['added']} — coverage gap "
+                               f"at the standard, not a defect in this item")
+            if not d["verbChanged"] and not d["added"]:
+                reasons.append(f"{c}->{tgt}: checklist intact ({len(d['retained'])} element(s))")
+    return sorted(set(new)), worst, reasons, review
 
 
-def convert(old, new_codes, disposition, reasons, b):
+def convert(old, new_codes, disposition, reasons, review, b):
     """Rebuild the record on the new schema. Absent fields stay absent and are
     reported — never invented."""
     ch = []
@@ -119,6 +164,7 @@ def convert(old, new_codes, disposition, reasons, b):
             "priorStandardCodes": old.get("standardCodes"),
             "priorBankTier": old.get("bankTier"),
             "crosswalkReasons": reasons,
+            "alignmentReview": review or None,
         },
     }
 
@@ -126,13 +172,13 @@ def convert(old, new_codes, disposition, reasons, b):
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("source")
-    ap.add_argument("--floor", type=float, default=0.90)
     ap.add_argument("--apply", action="store_true", help="write files (default: dry run)")
     a = ap.parse_args(argv)
 
     b = binding_mod.load()
     print(b.declaration())
-    print(f"Migration floor: revised similarity >= {a.floor} carries forward as provisional\n")
+    print("Routing by ELEMENT-level alignment, not text similarity "
+          "(see tools/alignment.py).\n")
 
     by26 = load_crosswalk(b.crosswalk_file)
     src = itemio.load_dir(a.source)
@@ -143,10 +189,10 @@ def main(argv=None):
 
     buckets = collections.defaultdict(list)
     for old in src:
-        new_codes, disp, reasons = route(old.get("standardCodes") or [], by26, a.floor)
+        new_codes, disp, reasons, review = route(old, by26)
         if disp != "quarantined" and not new_codes:
             disp = "quarantined"
-        buckets[disp].append(convert(old, new_codes, disp, reasons, b))
+        buckets[disp].append(convert(old, new_codes, disp, reasons, review, b))
 
     # THE ASSERTION. Every generator fails if a code outside the declared
     # prefix appears anywhere in the output — including quarantine.

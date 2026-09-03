@@ -1,0 +1,2944 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.88",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us90-1",
+      "stem": "What was the purpose of the Gulf War (Operation Desert Storm) in 1991?",
+      "stemEs": "¿Cuál fue el propósito de la Guerra del Golfo (Operación Tormenta del Desierto) en 1991?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A U.S.-led coalition liberated Kuwait after Iraq's military invasion",
+          "textEs": "Una coalición liderada por EE.UU. liberó Kuwait después de la invasión militar de Iraq",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A conflict between Iran and Iraq over control of regional oil resources",
+          "textEs": "Un conflicto entre Irán e Iraq sobre el control de recursos petroleros regionales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A U.S. military operation to remove Saddam Hussein from power",
+          "textEs": "Una operación militar de EE.UU. para remover a Saddam Hussein del poder",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A peacekeeping mission to resolve disputes over Persian Gulf islands",
+          "textEs": "Una misión de mantenimiento de paz para resolver disputas sobre islas del Golfo Pérsico",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Operation Desert Storm was launched to drive Iraqi forces out of Kuwait after Saddam Hussein’s 1990 invasion. Choice B is about a conflict between Iran and Iraq over control of regional oil resources and Choice C is about a U.S. military operation to remove Saddam Hussein from power; those options do not match a U.S.-led coalition liberated Kuwait after Iraq's military invasion. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+      "explanationEs": "Operation Desert Storm was launched to drive Iraqi forces out of Kuwait after Saddam Hussein’s 1990 invasion. Choice B is about a conflict between Iran and Iraq over control of regional oil resources and Choice C is about a U.S. military operation to remove Saddam Hussein from power; those options do not match a U.S.-led coalition liberated Kuwait after Iraq's military invasion. The event also fits the bigger story of how the United States adjusted to the end of the Guerra Fría.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.99,
+        "b": -1.73,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us90-3",
+      "stem": "What major international change occurred during President Bush's administration?",
+      "stemEs": "¿Qué cambio internacional importante ocurrió durante la administración del Presidente Bush?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The European Union was dissolved due to economic disagreements",
+          "textEs": "La Unión Europea fue disuelta debido a desacuerdos económicos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "China transitioned to a democratic form of government",
+          "textEs": "China hizo transición a una forma democrática de gobierno",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Soviet Union collapsed and the Cold War came to an end",
+          "textEs": "La Unión Soviética colapsó y la Guerra Fría llegó a su fin",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The United Nations was established as an international body",
+          "textEs": "Las Naciones Unidas fueron establecidas como un organismo internacional",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "During George H. W. Bush’s presidency, the Soviet Union collapsed, bringing the Cold War to an end. Choice A is about the European Union was dissolved due to economic disagreements and Choice D is about the United Nations was established as an international body; those options do not match the Soviet Union collapsed and the Cold War came to an end. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+      "explanationEs": "During George H. W. Bush’s presidency, the Soviet Union collapsed, bringing the Guerra Fría to an end. Choice A is about the European Union was dissolved due to economic disagreements and Choice D is about the United Nations was established as an international body; those options do not match the Soviet Union collapsed and the Guerra Fría came to an end. The event also fits the bigger story of how the United States adjusted to the end of the Guerra Fría.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.81,
+        "b": -1.57,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us90-add-2",
+      "stem": "What happened during the U.S. invasion of Panama in 1989?",
+      "stemEs": "¿Qué sucedió durante la invasión estadounidense de Panamá en 1989?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The U.S. returned the Panama Canal ahead of the scheduled 1999 handover",
+          "textEs": "The U.S. returned the Panama Canal ahead of the scheduled 1999 handover",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Panama invaded the U.S. Canal Zone, triggering military action",
+          "textEs": "Panama invaded the U.S. Canal Zone, triggering military action",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The U.S. overthrew dictator Manuel Noriega on drug trafficking charges",
+          "textEs": "The U.S. overthrew dictator Manuel Noriega on drug trafficking charges",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Panama voluntarily joined the United States as a territory",
+          "textEs": "Panama voluntarily joined the United States as a territory",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The United States invaded Panama in 1989 to remove Manuel Noriega, who had been indicted on drug-trafficking charges and had become a threat to U.S. interests. Choice B is about panama invaded the U.S. Canal Zone, triggering military action and Choice D is about panama voluntarily joined the United States as a territory; those options do not match the U.S. overthrew dictator Manuel Noriega on drug trafficking charges. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+      "explanationEs": "The United States invaded Panama in 1989 to remove Manuel Noriega, who had been indicted on drug-trafficking charges and had become a threat to U.S. interests. Choice B is about panama invaded the U.S. Canal Zone, triggering military action and Choice D is about panama voluntarily joined the United States as a territory; those options do not match the U.S. overthrew dictator Manuel Noriega on drug trafficking charges. The event also fits the bigger story of how the United States adjusted to the end of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.42,
+        "b": -0.58,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-q02",
+      "stem": "Operation Desert Storm (1991) was the U.S.-led military response to:",
+      "stemEs": "Operation Desert Storm (1991) was the U.S.-led military response to:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A coordinated terrorist attack on U.S. military personnel in Saudi Arabia",
+          "textEs": "A coordinated terrorist attack on U.S. military personnel in Saudi Arabia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Iraq's invasion and occupation of Kuwait in August 1990",
+          "textEs": "Iraq's invasion and occupation of Kuwait in August 1990",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Iraq's confirmed use of chemical weapons against Kurdish civilians in northern Iraq",
+          "textEs": "Iraq's confirmed use of chemical weapons against Kurdish civilians in northern Iraq",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Iran's active pursuit of nuclear weapons technology in defiance of UN inspections",
+          "textEs": "Iran's active pursuit of nuclear weapons technology in defiance of UN inspections",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Operation Desert Storm was launched to drive Iraqi forces out of Kuwait after Saddam Hussein’s 1990 invasion. Choice C is about iraq's development of chemical weapons; those options do not match iraq's invasion and occupation of Kuwait in August 1990. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+      "explanationEs": "Operation Desert Storm was launched to drive Iraqi forces out of Kuwait after Saddam Hussein’s 1990 invasion. Choice C is about iraq's development of chemical weapons; those options do not match iraq's invasion and occupation of Kuwait in August 1990. The event also fits the bigger story of how the United States adjusted to the end of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.91,
+        "b": -1.06,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-q03",
+      "stem": "The Berlin Wall fell in November 1989, symbolizing:",
+      "stemEs": "The Berlin Wall fell in November 1989, symbolizing:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The start of a new Cold War",
+          "textEs": "The start of a new Guerra Fría",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The collapse of communist control in East",
+          "textEs": "The collapse of communist control in East",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A military victory for NATO",
+          "textEs": "A military victory for NATO",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The end of U.S. involvement in Europe",
+          "textEs": "The end of U.S. involvement in Europe",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The fall of the Berlin Wall symbolized the collapse of communist control in Eastern Europe and opened the way to German reunification. Choice A is about the start of a new Cold War and Choice D is about the end of U.S. involvement in Europe; those options do not match the collapse of communist control in East Germany and the beginning of German reunification. This mattered because the post-Cold War years forced Americans to rethink foreign policy and federal power.",
+      "explanationEs": "The fall of the Berlin Wall symbolized the collapse of communist control in Eastern Europe and opened the way to German reunification. Choice A is about the start of a new Guerra Fría and Choice D is about the end of U.S. involvement in Europe; those options do not match the collapse of communist control in East Germany and the beginning of German reunification. This mattered because the post-Guerra Fría years forced Americans to rethink política exterior and federal power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.65,
+        "b": -0.65,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-q04",
+      "stem": "The dissolution of the Soviet Union in December 1991 meant that:",
+      "stemEs": "The dissolution of the Soviet Union in December 1991 meant that:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Russia adopted a new communist constitution and renamed itself the Russian Federation",
+          "textEs": "Russia adopted a new communist Constitución and renamed itself the Russian Federation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Warsaw Pact continued operating under direct Russian military leadership",
+          "textEs": "The Warsaw Pact continued operating under direct Russian military leadership",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The U.S. immediately withdrew its NATO forces from Western Europe to peacetime levels",
+          "textEs": "The U.S. immediately withdrew its NATO forces from Western Europe to peacetime levels",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Cold War ended and the United States emerged as the world's sole superpower",
+          "textEs": "The Guerra Fría ended and the United States emerged as the world's sole superpower",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The dissolution of the Soviet Union in 1991 effectively ended the Cold War and left the United States as the world’s only superpower. Choice A is about russia became a communist nation under a new name and Choice B is about the Warsaw Pact continued under Russian leadership; those options do not match the Cold War effectively ended as the United States became the world's sole remaining superpower. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+      "explanationEs": "The dissolution of the Soviet Union in 1991 effectively ended the Guerra Fría and left the United States as the world’s only superpower. Choice A is about russia became a communist nation under a new name and Choice B is about the Warsaw Pact continued under Russian leadership; those options do not match the Guerra Fría effectively ended as the United States became the world's sole remaining superpower. The event also fits the bigger story of how the United States adjusted to the end of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.81,
+        "b": -1.08,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-86-x024",
+      "stem": "A primary source differs from a secondary source in that a primary source:",
+      "stemEs": "A primary source differs from a secondary source in that a primary source:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Provides a first-person perspective on events, making it less biased than secondary sources",
+          "textEs": "Provides a first-person perspective on events, making it less biased than secondary sources",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Is more reliable because it was created by someone who witnessed the events described",
+          "textEs": "Is more reliable because it was created by someone who witnessed the events described",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Has been authenticated by professional historians as historically accurate",
+          "textEs": "Has been authenticated by professional historians as historically accurate",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Was created at the time of or by a participant in the events being studied",
+          "textEs": "Was created at the time of or by a participant in the events being studied",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A primary source comes from the time being studied or from someone directly involved, while a secondary source interprets those materials later. Choice A is about provides a first-person perspective on events, making it less biased than secondary sources and Choice B is about is more reliable because it was created by someone who witnessed the events described; those options do not match was created at the time of or by a participant in the events being studied. It also shows why constitutional checks matter when presidents try to expand their power.",
+      "explanationEs": "A primary source comes from the time being studied or from someone directly involved, while a secondary source interprets those materials later. Choice A is about provides a first-person perspective on events, making it less biased than secondary sources and Choice B is about is more reliable because it was created by someone who witnessed the events described; those options do not match was created at the time of or by a participant in the events being studied. It also shows why constitucional checks matter when presidents try to expand their power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.14,
+        "b": -1.05,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x024",
+      "stem": "The concept of 'American exceptionalism' holds that:",
+      "stemEs": "The concept of 'American exceptionalism' holds that:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The U.S. is exempt from historical decline, has a unique democratic mission, and is morally justified in its global leadership role",
+          "textEs": "The U.S. is exempt from historical decline, has a unique democrático mission, and is morally justified in its global leadership role",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The United States is exempt from the historical patterns of rise and fall that other great powers have experienced",
+          "textEs": "The United States is exempt from the historical patterns of rise and fall that other great powers have experienced",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "American military and economic power is morally legitimate because it advances universal democratic values",
+          "textEs": "American military and economic power is morally legitimate because it advances universal democrático values",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The United States has a unique obligation to promote democracy and freedom to nations worldwide",
+          "textEs": "The United States has a unique obligation to promote democracia and freedom to nations worldwide",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "American exceptionalism is the belief that the United States has a unique mission and moral role in world history, not just normal great-power interests. Choice B is about the United States is exempt from the patterns of history that have affected other great powers and Choice C is about american power is morally justified because it is used in the service of universal values; those options do not match american exceptionalism combines multiple cultural and political claims: that the United States is exempt from historical patterns that affected other great powers, that American power is morally justified because it serves universal values, and that the United States has a unique historical mission to promote democracy and freedom worldwide. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+      "explanationEs": "American exceptionalism is the belief that the United States has a unique mission and moral role in world history, not just normal great-power interests. Choice B is about the United States is exempt from the patterns of history that have affected other great powers and Choice C is about american power is morally justified because it is used in the service of universal values; those options do not match american exceptionalism combines multiple cultural and political claims: that the United States is exempt from historical patterns that affected other great powers, that American power is morally justified because it serves universal values, and that the United States has a unique historical mission to promote democracia and freedom worldwide. The event also fits the bigger story of how the United States adjusted to the end of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.72,
+        "b": -1.64,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x026",
+      "stem": "American exceptionalism holds that the United States:",
+      "stemEs": "American exceptionalism holds that the United States:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The U.S. is uniquely exempt from historical decline and has a special mission to spread democratic values globally",
+          "textEs": "The U.S. is uniquely exempt from historical decline and has a special mission to spread democrático values globally",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Uses its power in the service of universal democratic values, morally justifying its expansive global role",
+          "textEs": "Uses its power in the service of universal democrático values, morally justifying its expansive global role",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Has a uniquely ordained historical mission to promote freedom and democratic self-governance worldwide",
+          "textEs": "Has a uniquely ordained historical mission to promote freedom and democrático self-governance worldwide",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Is exempt from the patterns of rise and decline that have characterized other great powers",
+          "textEs": "Is exempt from the patterns of rise and decline that have characterized other great powers",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "American exceptionalism is the belief that the United States has a unique mission and moral role in world history, not just normal great-power interests. Choice B is about uses its power in the service of universal values justifying its global role and Choice C is about has a unique historical mission to promote democracy and freedom worldwide; those options do not match american exceptionalism integrates multiple cultural-political claims: that the United States uses its power in service of universal values, that it has a unique historical mission to promote democracy and freedom worldwide, and that it is exempt from the historical patterns affecting other great powers. This mattered because the post-Cold War years forced Americans to rethink foreign policy and federal power.",
+      "explanationEs": "American exceptionalism is the belief that the United States has a unique mission and moral role in world history, not just normal great-power interests. Choice B is about uses its power in the service of universal values justifying its global role and Choice C is about has a unique historical mission to promote democracia and freedom worldwide; those options do not match american exceptionalism integrates multiple cultural-political claims: that the United States uses its power in service of universal values, that it has a unique historical mission to promote democracia and freedom worldwide, and that it is exempt from the historical patterns affecting other great powers. This mattered because the post-Guerra Fría years forced Americans to rethink política exterior and federal power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.43,
+        "b": -1.31,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us90-4",
+      "stem": "What phrase did President Bush use to describe the post-Cold War international system?",
+      "stemEs": "¿Qué frase usó el Presidente Bush para describir el sistema internacional de posguerra fría?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A \"unipolar moment\" of unchallenged American global military power",
+          "textEs": "Un \"momento unipolar\" de poder militar global estadounidense sin desafío",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The \"end of history\" marking final victory of democracy worldwide",
+          "textEs": "El \"fin de la historia\" marcando la victoria final de la democracia mundialmente",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A \"new world order\" based on international cooperation and values",
+          "textEs": "Un \"nuevo orden mundial\" basado en cooperación internacional y valores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The \"peace dividend\" allowing massive reductions in defense spending",
+          "textEs": "El \"dividendo de paz\" permitiendo reducciones masivas en gasto de defensa",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bush described the post-Cold War world as a 'new world order' built on international cooperation, collective security, and shared rules. Choice A is about a \"unipolar moment\" of unchallenged American global military power and Choice D is about the \"peace dividend\" allowing massive reductions in defense spending; those options do not match a \"new world order\" based on international cooperation and values. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "explanationEs": "Bush described the post-Guerra Fría world as a 'new world order' built on international cooperation, collective security, and shared rules. Choice A is about a \"unipolar moment\" of unchallenged American global military power and Choice D is about the \"peace dividend\" allowing massive reductions in defense spending; those options do not match a \"new world order\" based on international cooperation and values. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -0.63,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-92-x018",
+      "stem": "Enhanced interrogation techniques — including waterboarding — were determined by the Bush administration's Justice Department to be legal because:",
+      "stemEs": "Enhanced interrogation techniques — including waterboarding — were determined by the Bush administration's Justice Department to be legal because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Military commissions had historically been allowed to use coercive interrogation without legal consequence",
+          "textEs": "Military commissions had historically been allowed to use coercive interrogation without legal consequence",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "International conventions did not apply to non-state actors like al-Qaeda detainees",
+          "textEs": "International conventions did not apply to non-state actors like al-Qaeda detainees",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The memo argued that only pain equivalent to organ failure or death constituted 'torture' under U.S. law",
+          "textEs": "The memo argued that only pain equivalent to organ failure or death constituted 'torture' under U.S. law",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Congress had not specifically prohibited the techniques in the War Powers Resolution",
+          "textEs": "Congreso had not specifically prohibited the techniques in the War Powers Resolution",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bush administration lawyers claimed harsh interrogation methods were legal by defining torture extremely narrowly, as pain comparable to organ failure or death. Choice A is about military commissions had historically been allowed to use coercive interrogation without legal consequence and Choice D is about congress had not specifically prohibited the techniques in the War Powers Resolution; those options do not match the memo argued that only pain equivalent to organ failure or death constituted 'torture' under U.S. law. The topic fits the post-9/11 era, when the United States expanded security policy while debating costs and limits.",
+      "explanationEs": "Bush administration lawyers claimed harsh interrogation methods were legal by defining torture extremely narrowly, as pain comparable to organ failure or death. Choice A is about military commissions had historically been allowed to use coercive interrogation without legal consequence and Choice D is about Congreso had not specifically prohibited the techniques in the War Powers Resolution; those options do not match the memo argued that only pain equivalent to organ failure or death constituted 'torture' under U.S. law. The topic fits the post-9/11 era, when the United States expanded security policy while debating costs and limits.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.87,
+        "b": -0.55,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0049",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows West and East German citizens gathered at the Brandenburg Gate in Berlin in November 1989, shortly after the opening of the Berlin Wall. People stand atop the wall, celebrating the end of the barrier that had divided the city since 1961.\n\n(Photograph, November 1989.)\n\nWhat event is depicted in this photograph?",
+      "stemEs": "¿Qué evento se representa en esta fotografía?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The signing of the Helsinki Accords in 1975",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The reunification of Germany under NATO in 1955",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The end of the Berlin Airlift in 1949",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The fall of the Berlin Wall in November 1989",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "On November 9, 1989, the East German government opened the Berlin Wall, allowing citizens to freely cross between East and West Berlin for the first time since 1961, symbolizing the end of the Cold War division of Europe.",
+      "explanationEs": "El 9 de noviembre de 1989, el gobierno de Alemania Oriental abrió el Muro de Berlín.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1,
+        "b": -1.3,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0103",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows U.S. military forces during Operation Desert Storm in 1991. The operation was a U.S.-led coalition military campaign to liberate Kuwait after Iraq, led by Saddam Hussein, invaded and occupied the small oil-rich nation in August 1990.\n\n(Photograph, 1991. U.S. Department of Defense.)\n\nWhat event triggered the military operation shown in this photograph?",
+      "stemEs": "¿Qué evento desencadenó la operación militar mostrada en esta fotografía?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A terrorist attack on American military bases in Saudi Arabia",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Iraq's development of nuclear weapons confirmed by United Nations inspectors",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A civil war within Iraq that threatened regional stability",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Iraq's invasion and occupation of Kuwait in August 1990",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "On August 2, 1990, Iraqi forces under Saddam Hussein invaded Kuwait. After failed diplomatic efforts, a U.S.-led coalition of 35 nations launched Operation Desert Storm on January 17, 1991, liberating Kuwait within six weeks.",
+      "explanationEs": "Las fuerzas iraquíes invadieron Kuwait el 2 de agosto de 1990, lo que llevó a la operación militar de coalición.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1,
+        "b": -1.1,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-66-x014",
+      "stem": "Operation Desert Storm began in January 1991 with —",
+      "stemEs": "La Operación Tormenta del Desierto comenzó en enero de 1991 con —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A naval blockade of Iraq that cut off its oil exports and war supplies",
+          "textEs": "Un bloqueo naval de Irak que cortó sus exportaciones de petróleo y suministros de guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Coalition special forces raids on Iraqi command-and-control centers in Baghdad",
+          "textEs": "Incursiones de fuerzas especiales de la coalición en los centros de mando y control iraquíes en Bagdad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A massive U.S. ground assault that quickly liberated Kuwait City",
+          "textEs": "Un masivo asalto terrestre de los EE.UU. que liberó rápidamente la ciudad de Kuwait",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "An extended air campaign lasting 38 days that targeted Iraqi military and infrastructure",
+          "textEs": "Una prolongada campaña aérea de 38 días que atacó la infraestructura y las fuerzas militares iraquíes",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "An extended air campaign lasting 38 days that targeted Iraqi military and infrastructure. Choice B is wrong because it describes coalition special forces raids on Iraqi command-and-control centers in Baghdad, not extended air campaign lasting 38 days that targeted Iraqi military and infrastructure. The Gulf War showed unmatched U.S. military power after the Cold War but also the limits of coalition war aims.",
+      "explanationEs": "An extended air campaign lasting 38 days that targeted Iraqi military and infrastructure. Choice B is wrong because it describes coalition special forces raids on Iraqi command-and-control centers in Baghdad, not extended air campaign lasting 38 days that targeted Iraqi military and infrastructure. The Guerra del Golfo showed unmatched U.S. military power after the Guerra Fría but also the limits of coalition war aims.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.83,
+        "b": -1.21,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us90-2",
+      "stem": "Why did President Bush order the invasion of Panama in Operation Just Cause (1989)?",
+      "stemEs": "¿Por qué ordenó el Presidente Bush la invasión de Panamá en la Operación Causa Justa (1989)?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The U.S. overthrew dictator Manuel Noriega on drug trafficking charges",
+          "textEs": "Para rescatar turistas estadounidenses que estaban siendo retenidos como rehenes por rebeldes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A U.S.-led coalition liberated Kuwait after Iraq's military invasion",
+          "textEs": "Para recuperar el control estadounidense del Canal de Panamá antes del plazo de transferencia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A \"new world order\" based on international cooperation and values",
+          "textEs": "Para prevenir que un movimiento revolucionario comunista tomara el poder allí",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To capture dictator Manuel Noriega who was indicted for drug trafficking",
+          "textEs": "Para capturar al dictador Manuel Noriega que fue acusado de narcotráfico",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The United States invaded Panama in 1989 to remove Manuel Noriega, who had been indicted on drug-trafficking charges and had become a threat to U.S. interests. Choice B is about a U.S.-led coalition liberated Kuwait after Iraq's military invasion; those options do not match capture dictator Manuel Noriega who was indicted for drug trafficking. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+      "explanationEs": "The United States invaded Panama in 1989 to remove Manuel Noriega, who had been indicted on drug-trafficking charges and had become a threat to U.S. interests. Choice B is about a U.S.-led coalition liberated Kuwait after Iraq's military invasion; those options do not match capture dictator Manuel Noriega who was indicted for drug trafficking. The event also fits the bigger story of how the United States adjusted to the end of the Guerra Fría.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.72,
+        "b": -0.46,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us90-add-1",
+      "stem": "Why did the United States launch Operation Desert Storm in 1991?",
+      "stemEs": "¿Por qué Estados Unidos lanzó la Operación Tormenta del Desierto en 1991?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To stop Iran from developing nuclear weapons technology",
+          "textEs": "To stop Iran from developing nuclear weapons technology",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To overthrow Saddam Hussein and install a democratic government in Iraq",
+          "textEs": "To overthrow Saddam Hussein and install a democrático government in Iraq",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To defend Israel from an imminent attack by neighboring Arab nations",
+          "textEs": "To defend Israel from an imminent attack by neighboring Arab nations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To liberate Kuwait after Iraq's invasion and protect oil supplies",
+          "textEs": "To liberate Kuwait after Iraq's invasion and protect oil supplies",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Operation Desert Storm was launched to drive Iraqi forces out of Kuwait after Saddam Hussein’s 1990 invasion. Choice B is about overthrow Saddam Hussein and install a democratic government in Iraq and Choice C is about defend Israel from an imminent attack by neighboring Arab nations; those options do not match liberate Kuwait after Iraq's invasion and protect oil supplies. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "explanationEs": "Operation Desert Storm was launched to drive Iraqi forces out of Kuwait after Saddam Hussein’s 1990 invasion. Choice B is about overthrow Saddam Hussein and install a democrático government in Iraq and Choice C is about defend Israel from an imminent attack by neighboring Arab nations; those options do not match liberate Kuwait after Iraq's invasion and protect oil supplies. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.3,
+        "b": -0.12,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-q08",
+      "stem": "The 101st Airborne Division based at Fort Campbell, Kentucky/Tennessee, was deployed during the Gulf War as part of the ground offensive. The 101st's 'air assault' tactics during Operation Desert Storm demonstrated:",
+      "stemEs": "The 101st Airborne Division based at Fort Campbell, Kentucky/Tennessee, was deployed during the Guerra del Golfo as part of the ground offensive. The 101st's 'air assault' tactics during Operation Desert Storm demonstrated:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The need for a larger ground invasion force",
+          "textEs": "The need for a larger ground invasion force",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The importance of naval power in desert warfare",
+          "textEs": "The importance of naval power in desert warfare",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The decisive role of highly mobile air assault forces",
+          "textEs": "The decisive role of highly mobile air assault forces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The ineffectiveness of airpower in desert warfare",
+          "textEs": "The ineffectiveness of airpower in desert warfare",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 101st Airborne showed how helicopter-based air assault could move troops quickly across desert battlefields and strike deep behind enemy positions. Choice A is about the need for a larger ground invasion force and Choice D is about the ineffectiveness of airpower in desert warfare; those options do not match the decisive role of highly mobile air assault forces. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "explanationEs": "The 101st Airborne showed how helicopter-based air assault could move troops quickly across desert battlefields and huelga deep behind enemy positions. Choice A is about the need for a larger ground invasion force and Choice D is about the ineffectiveness of airpower in desert warfare; those options do not match the decisive role of highly mobile air assault forces. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.16,
+        "b": 0.48,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x013",
+      "stem": "How did World War II shape the Civil Rights Movement of the 1950s and 1960s?",
+      "stemEs": "¿Cómo Segunda Guerra Mundial shape the derechos civiles Movement of the 1950s and 1960s?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "African American veterans who had fought for freedom abroad returned demanding equal rights at home",
+          "textEs": "African American veterans who had fought for freedom abroad returned demanding equal rights at home",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The experience of fighting Nazi racism made white Americans more receptive to civil rights arguments",
+          "textEs": "The experience of fighting Nazi racism made white Americans more receptive to derechos civiles arguments",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The labor shortages of wartime had integrated workplaces that remained integrated after the war",
+          "textEs": "The labor shortages of wartime had integrated workplaces that remained integrated after the war",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Expansion of executive authority in foreign policy decisions",
+          "textEs": "Expansion of executive authority in política exterior decisions",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "World War II helped fuel civil rights demands because Black veterans returned insisting on freedom at home, and fighting Nazi racism exposed hypocrisy in segregation. Choice B is about the experience of fighting Nazi racism made white Americans more receptive to civil rights arguments and Choice C is about the labor shortages of wartime had integrated workplaces that remained integrated after the war; those options do not match both A and B represent documented connections between WWII and the Civil Rights Movement. This mattered because the post-Cold War years forced Americans to rethink foreign policy and federal power.",
+      "explanationEs": "Segunda Guerra Mundial helped fuel derechos civiles demands because Black veterans returned insisting on freedom at home, and fighting Nazi racism exposed hypocrisy in segregación. Choice B is about the experience of fighting Nazi racism made white Americans more receptive to derechos civiles arguments and Choice C is about the labor shortages of wartime had integrated workplaces that remained integrated after the war; those options do not match both A and B represent documented connections between WWII and the derechos civiles Movement. This mattered because the post-Guerra Fría years forced Americans to rethink política exterior and federal power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.22,
+        "b": 0.2,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x019",
+      "stem": "A student is asked to compare the government's role in the economy during the Progressive Era, New Deal, and Great Society. Which generalization is best supported by the evidence?",
+      "stemEs": "A student is asked to compare the government's role in the economy during the Era Progresista, New Deal, and Gran Sociedad. Which generalization is best supported by the evidence?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Each period represented unprecedented expansion that reversed all previous limits on federal power",
+          "textEs": "Each period represented unprecedented expansion that reversed all previous limits on federal power",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Each period saw expansion of federal economic regulation in response to perceived market failures",
+          "textEs": "Each period saw expansion of federal economic regulation in response to perceived market failures",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Each period was caused by the same Democratic coalition winning power and implementing its agenda",
+          "textEs": "Each period was caused by the same democrático coalition winning power and implementing its agenda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Progressive Era and New Deal were similar, but the Great Society represented a fundamentally different approach",
+          "textEs": "The Era Progresista and New Deal were similar, but the Gran Sociedad represented a fundamentally different approach",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "All three periods expanded federal action because many Americans believed markets alone were not solving major social and economic problems. Choice A is about each period represented unprecedented expansion that reversed all previous limits on federal power and Choice D is about the Progressive Era and New Deal were similar, but the Great Society represented a fundamentally different approach; those options do not match each period saw expansion of federal economic regulation in response to perceived market failures. This mattered because the post-Cold War years forced Americans to rethink foreign policy and federal power.",
+      "explanationEs": "All three periods expanded federal action because many Americans believed markets alone were not solving major social and economic problems. Choice A is about each period represented unprecedented expansion that reversed all previous limits on federal power and Choice D is about the Era Progresista and New Deal were similar, but the Gran Sociedad represented a fundamentally different approach; those options do not match each period saw expansion of federal economic regulation in response to perceived market failures. This mattered because the post-Guerra Fría years forced Americans to rethink política exterior and federal power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.95,
+        "b": 0.58,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x025",
+      "stem": "The argument that the United States has 'path dependency' in its political development means:",
+      "stemEs": "The argument that the United States has 'path dependency' in its political development means:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The U.S. is following the same political path as other developed democracies with a historical lag",
+          "textEs": "The U.S. is following the same political path as other developed democracies with a historical lag",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "American political culture has rarely changed significantly and is unlikely to change in the future",
+          "textEs": "American political culture has rarely changed significantly and is unlikely to change in the future",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Elections determine the path of policy, making American political outcomes fundamentally unpredictable",
+          "textEs": "Elections determine the path of policy, making American political outcomes fundamentally unpredictable",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Earlier institutional choices constrain the range of policy options available in the present",
+          "textEs": "Earlier institutional choices constrain the range of policy options available in the present",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Path dependency means earlier political choices shape and limit what later governments can realistically do. Choice A is about the U.S. is following the same political path as other developed democracies with a historical lag and Choice C is about elections determine the path of policy, making American political outcomes fundamentally unpredictable; those options do not match earlier institutional choices constrain the range of policy options available in the present. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "explanationEs": "Path dependency means earlier political choices shape and limit what later governments can realistically do. Choice A is about the U.S. is following the same political path as other developed democracies with a historical lag and Choice C is about elections determine the path of policy, making American political outcomes fundamentally unpredictable; those options do not match earlier institutional choices constrain the range of policy options available in the present. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.65,
+        "b": 0.6,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x012",
+      "stem": "Which of the following represents a direct connection between the Progressive Era and the New Deal?",
+      "stemEs": "¿Cuál de las siguientes opciones represents a direct connection between the Era Progresista and the New Deal?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Both periods saw federal expansion into economic regulation based on similar philosophical foundations",
+          "textEs": "Both periods saw federal expansion into economic regulation based on similar philosophical foundations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The same coalition of voters supported both Theodore Roosevelt and Franklin Roosevelt",
+          "textEs": "The same coalition of voters supported both Theodore Roosevelt and Franklin Roosevelt",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both movements were primarily responses to the threat of socialism from immigrant populations",
+          "textEs": "Both movements were primarily responses to the threat of socialism from immigrant populations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Franklin Roosevelt modeled New Deal programs specifically on Theodore Roosevelt's Square Deal",
+          "textEs": "Franklin Roosevelt modeled New Deal programs specifically on Theodore Roosevelt's Square Deal",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both the Progressive Era and the New Deal expanded federal regulation because reformers in both periods believed unregulated markets produced serious abuses. Choice B is about the same coalition of voters supported both Theodore Roosevelt and Franklin Roosevelt and Choice C is about both movements were primarily responses to the threat of socialism from immigrant populations; those options do not match both periods saw federal expansion into economic regulation based on similar philosophical foundations. This mattered because the post-Cold War years forced Americans to rethink foreign policy and federal power.",
+      "explanationEs": "Both the Era Progresista and the New Deal expanded federal regulation because reformers in both periods believed unregulated markets produced serious abuses. Choice B is about the same coalition of voters supported both Theodore Roosevelt and Franklin Roosevelt and Choice C is about both movements were primarily responses to the threat of socialism from immigrant populations; those options do not match both periods saw federal expansion into economic regulation based on similar philosophical foundations. This mattered because the post-Guerra Fría years forced Americans to rethink política exterior and federal power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.75,
+        "b": -0.48,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x014",
+      "stem": "The theme of 'liberty vs. equality' runs through American history from Reconstruction to the present. An example from the Gilded Age would be:",
+      "stemEs": "The theme of 'liberty vs. igualdad' runs through American history from Reconstrucción to the present. An example from the Edad Dorada would be:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Farmers' liberty to sell crops freely vs. railroad operators' demand for equal treatment from regulators",
+          "textEs": "Farmers' liberty to sell crops freely vs. railroad operators' demand for equal treatment from regulators",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "States' rights to maintain segregation vs. African Americans' demand for equal citizenship",
+          "textEs": "States' rights to maintain segregación vs. African Americans' demand for equal ciudadanía",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Immigrants' freedom of movement vs. native-born workers' economic equality",
+          "textEs": "Immigrants' freedom of movement vs. native-born workers' economic igualdad",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Industrialists claiming liberty from government regulation vs. workers demanding equal protection under law",
+          "textEs": "Industrialists claiming liberty from government regulation vs. workers demanding equal protection under law",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "In the Gilded Age, many industrialists argued for freedom from regulation while workers demanded equal treatment and protection from exploitation. Choice A is about farmers' liberty to sell crops freely vs. railroad operators' demand for equal treatment from regulators and Choice C is about immigrants' freedom of movement vs. native-born workers' economic equality; those options do not match industrialists claiming liberty from government regulation vs. workers demanding equal protection under law. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "explanationEs": "In the Edad Dorada, many industrialists argued for freedom from regulation while workers demanded equal treatment and protection from exploitation. Choice A is about farmers' liberty to sell crops freely vs. railroad operators' demand for equal treatment from regulators and Choice C is about immigrants' freedom of movement vs. native-born workers' economic igualdad; those options do not match industrialists claiming liberty from government regulation vs. workers demanding equal protection under law. It connects to broader questions about American power, military strategy, and the country’s role in the world.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.47,
+        "b": -1.13,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x017",
+      "stem": "The Cold War's most lasting domestic legacy was probably:",
+      "stemEs": "The Guerra Fría's most lasting domestic legacy was probably:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The economic growth produced by defense spending that funded the post-war middle class",
+          "textEs": "The economic growth produced by defense spending that funded the post-war middle class",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The permanent suppression of radical political movements through FBI surveillance programs",
+          "textEs": "The permanent suppression of radical political movements through FBI surveillance programs",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The permanent expansion of the national security state, including intelligence agencies and defense spending",
+          "textEs": "The permanent expansion of the national security state, including intelligence agencies and defense spending",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The alliance system that remains the foundation of American foreign policy today",
+          "textEs": "The alianza system that remains the foundation of American política exterior today",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A major domestic legacy of the Cold War was the long-term expansion of defense institutions, intelligence agencies, and national-security spending. Choice A is about the economic growth produced by defense spending that funded the post-war middle class and Choice D is about the alliance system that remains the foundation of American foreign policy today; those options do not match the permanent expansion of the national security state, including intelligence agencies and defense spending. This mattered because the post-Cold War years forced Americans to rethink foreign policy and federal power.",
+      "explanationEs": "A major domestic legacy of the Guerra Fría was the long-term expansion of defense institutions, intelligence agencies, and national-security spending. Choice A is about the economic growth produced by defense spending that funded the post-war middle class and Choice D is about the alianza system that remains the foundation of American política exterior today; those options do not match the permanent expansion of the national security state, including intelligence agencies and defense spending. This mattered because the post-Guerra Fría years forced Americans to rethink política exterior and federal power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.95,
+        "b": -0.51,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-89-x025",
+      "stem": "The Geneva Conventions' protections for prisoners of war were contested by the Bush administration after 9/11 because:",
+      "stemEs": "The Geneva Conventions' protections for prisoners of war were contested by the Bush administration after 9/11 because:",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Supreme Court had ruled in 2001 that the Conventions did not apply to non-state terrorist organizations",
+          "textEs": "The Corte Suprema had ruled in 2001 that the Conventions did not apply to non-state terrorist organizations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The administration argued Taliban and al-Qaeda detainees were 'unlawful combatants' not protected by the Conventions",
+          "textEs": "The administration argued Taliban and al-Qaeda detainees were 'unlawful combatants' not protected by the Conventions",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congress passed legislation specifically exempting terrorism suspects from Geneva Convention protections",
+          "textEs": "Congreso passed legislación specifically exempting terrorism suspects from Geneva Convention protections",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Geneva Conventions had been amended after WWII to exclude non-state actors",
+          "textEs": "The Geneva Conventions had been amended after WWII to exclude non-state actors",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bush administration lawyers argued that Taliban and al-Qaeda detainees were unlawful combatants, which they said placed them outside normal Geneva protections. Choice A is about the Supreme Court had ruled in 2001 that the Conventions did not apply to non-state terrorist organizations and Choice D is about the Geneva Conventions had been amended after WWII to exclude non-state actors; those options do not match the administration argued Taliban and al-Qaeda detainees were 'unlawful combatants' not protected by the Conventions. It also helps explain how Reagan-era choices continued to shape debates about government power and American strength.",
+      "explanationEs": "Bush administration lawyers argued that Taliban and al-Qaeda detainees were unlawful combatants, which they said placed them outside normal Geneva protections. Choice A is about the Corte Suprema had ruled in 2001 that the Conventions did not apply to non-state terrorist organizations and Choice D is about the Geneva Conventions had been amended after WWII to exclude non-state actors; those options do not match the administration argued Taliban and al-Qaeda detainees were 'unlawful combatants' not protected by the Conventions. It also helps explain how Reagan-era choices continued to shape debates about government power and American strength.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.13,
+        "b": -1.07,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U10-DOK2-0009",
+      "stem": "How did the Gulf War of 1991 demonstrate the significance of the coalition-building strategy used by President George H.W. Bush?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Bush's coalition strategy demonstrated that the United States could fight major wars without significant financial cost by having coalition partners pay for the conflict",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "By assembling a broad international coalition that included Arab nations, Bush secured international legitimacy through the UN, shared military burdens, and demonstrated that collective security could work in the post-Cold War world",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The coalition strategy failed militarily because participating nations refused to commit ground troops, requiring the United States to fight the war alone",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Bush built the coalition specifically to prevent the Soviet Union from taking advantage of the Gulf crisis, making it primarily a Cold War strategy rather than a response to Iraq's invasion",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Operation Desert Storm's coalition (34 nations authorized by UN Security Council Resolution 678) liberated Kuwait in 100 hours of ground combat. Bush's multilateral approach established a model for collective security in the unipolar post-Cold War world.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0050",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows Germans gathered at the Brandenburg Gate in November 1989 after the opening of the Berlin Wall.\n\n(Photograph, November 1989.)\n\nHow did the event shown in this photograph reflect broader changes in Cold War geopolitics?",
+      "stemEs": "¿Cómo reflejó el evento mostrado en esta fotografía los cambios más amplios en la geopolítica de la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It signaled the collapse of Soviet influence in Eastern Europe and the approaching end of the Cold War",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It resulted from a U.S. military invasion that liberated East Germany from Soviet control",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was an isolated incident that had no impact on other communist nations in Europe",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It occurred because the Soviet Union voluntarily dissolved itself before the wall fell",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The fall of the Berlin Wall was part of a wave of democratic revolutions across Eastern Europe in 1989, reflecting the weakening of Soviet power and the failure of communist governments to maintain control, ultimately leading to the end of the Cold War and the dissolution of the Soviet Union in 1991.",
+      "explanationEs": "La caída del Muro fue parte de una ola de revoluciones democráticas que reflejaron el debilitamiento del poder soviético.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0104",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows U.S. forces during Operation Desert Storm, 1991.\n\n(Photograph, 1991. U.S. Department of Defense.)\n\nHow did the Gulf War represent a shift in American foreign policy after the Cold War?",
+      "stemEs": "¿Cómo representó la Guerra del Golfo un cambio en la política exterior estadounidense después de la Guerra Fría?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It demonstrated the U.S. willingness to lead multilateral military coalitions to maintain international order in the post-Cold War era",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It showed that the U.S. was retreating from global leadership and reducing its military commitments",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was a unilateral American action conducted without any international support or authorization",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It proved that military force was no longer necessary because diplomacy alone could resolve all conflicts",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Gulf War established a post-Cold War template: the U.S. assembled a broad international coalition, secured UN authorization, and used overwhelming military force to enforce international norms. It demonstrated America's role as the sole superpower willing to lead collective security operations.",
+      "explanationEs": "La Guerra del Golfo estableció una plantilla post-Guerra Fría de liderazgo estadounidense en coaliciones multilaterales.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PSTIM-0110",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows flooding in New Orleans after Hurricane Katrina, August 2005.\n\n(Photograph, August 2005. FEMA.)\n\nHow did Hurricane Katrina expose failures in government emergency response at multiple levels?",
+      "stemEs": "¿Cómo expuso el huracán Katrina las fallas en la respuesta de emergencia del gobierno?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The response was widely praised as an example of effective government coordination",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Slow federal response, poor coordination between local, state, and federal agencies, and inadequate infrastructure investment revealed systemic failures in disaster preparedness",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Only local government failed while the federal response was timely and effective",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The government responded quickly but citizens refused to evacuate despite adequate warning",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Katrina exposed failures at every level: FEMA's slow response, poor coordination between agencies, the Bush administration's delayed recognition of the crisis, and decades of underfunding levee maintenance. The disaster revealed how infrastructure neglect and bureaucratic dysfunction could turn a natural disaster into a humanitarian catastrophe.",
+      "explanationEs": "Katrina expuso fallas en todos los niveles de gobierno, desde la respuesta lenta de FEMA hasta décadas de subfinanciamiento de infraestructura.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-83-q11",
+      "stem": "The passage of the Americans with Disabilities Act (1990) is best understood as a legacy of the 1960s–70s social movements because:",
+      "stemEs": "The passage of the Americans with Disabilities Act (1990) is best understood as a legacy of the 1960s–70s social movements because:",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Disability rights activists applied the anti-discrimination and public accommodation frameworks the civil rights and women's movements had pioneered",
+          "textEs": "Disability rights activists applied the anti-discriminación and public accommodation frameworks the derechos civiles and women's movements had pioneered",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The disability rights movement was organizationally connected to and partly financed by the NAACP and the National Organization for Women",
+          "textEs": "The disability rights movement was organizationally connected to and partly financed by the NAACP and the National Organization for Women",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The ADA was principally drafted by veteran civil rights attorneys and leaders who had shifted their advocacy focus to disability after 1970",
+          "textEs": "The ADA was principally drafted by veteran derechos civiles attorneys and leaders who had shifted their advocacy focus to disability after 1970",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "President George H.W. Bush signed the ADA as a direct concession to civil rights constituencies that had mobilized for his 1988 campaign",
+          "textEs": "President George H.W. Bush signed the ADA as a direct concession to derechos civiles constituencies that had mobilized for his 1988 campaign",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The ADA borrowed ideas from earlier civil rights activism by treating disability discrimination as a rights issue and requiring equal access in public life. Choice B is about the disability rights movement was organizationally connected to and funded by the NAACP and NOW and Choice D is about president George H.W. Bush signed the ADA as a direct concession to civil rights organizations that had supported his election; those options do not match disability rights activists applied the same frameworks of anti-discrimination law and public accommodation requirements that civil rights and women's movements had established. The issue also reflects how debates over equality and the government’s role in the economy shaped modern America.",
+      "explanationEs": "The ADA borrowed ideas from earlier derechos civiles activism by treating disability discriminación as a rights issue and requiring equal access in public life. Choice B is about the disability rights movement was organizationally connected to and funded by the NAACP and NOW and Choice D is about president George H.W. Bush signed the ADA as a direct concession to derechos civiles organizations that had supported his election; those options do not match disability rights activists applied the same frameworks of anti-discriminación law and public accommodation requirements that derechos civiles and women's movements had established. The issue also reflects how debates over igualdad and the government’s role in the economy shaped modern America.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.98,
+        "b": 0.86,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-q11",
+      "stem": "The decision by Bush NOT to advance on Baghdad during the Gulf War is best understood as:",
+      "stemEs": "The decision by Bush NOT to advance on Baghdad during the Guerra del Golfo is best understood as:",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Evidence that the Gulf War coalition was too weak to continue",
+          "textEs": "Evidence that the Guerra del Golfo coalition was too weak to continue",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A political compromise forced by Congress",
+          "textEs": "A political compromise forced by Congreso",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A military failure caused by lack of resources",
+          "textEs": "A military failure caused by lack of resources",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A strategically calculated decision",
+          "textEs": "A strategically calculated decision",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bush stopped after liberating Kuwait because expanding the war to take Baghdad risked breaking the coalition and going beyond the UN-backed mission. Choice A is about evidence that the Gulf War coalition was too weak to continue and Choice C is about a military failure caused by lack of resources; those options do not match a strategically calculated decision. This mattered because the post-Cold War years forced Americans to rethink foreign policy and federal power.",
+      "explanationEs": "Bush stopped after liberating Kuwait because expanding the war to take Baghdad risked breaking the coalition and going beyond the UN-backed mission. Choice A is about evidence that the Guerra del Golfo coalition was too weak to continue and Choice C is about a military failure caused by lack of resources; those options do not match a strategically calculated decision. This mattered because the post-Guerra Fría years forced Americans to rethink política exterior and federal power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 2.05,
+        "b": 1.63,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x015",
+      "stem": "Which pattern best describes the role of the federal government in American life across the period from Reconstruction to the present?",
+      "stemEs": "Which pattern best describes the role of the gobierno federal in American life across the period from Reconstrucción to the present?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Consistent expansion driven by public demand for greater services and protections",
+          "textEs": "Consistent expansion driven by public demand for greater services and protections",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Limited growth until the New Deal followed by rapid and irreversible expansion of federal authority",
+          "textEs": "Limited growth until the New Deal followed by rapid and irreversible expansion of federal authority",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Cyclical expansion during periods of crisis — wars, depressions — followed by partial contraction",
+          "textEs": "Cyclical expansion during periods of crisis — wars, depresións — followed by partial contraction",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Steady expansion from the 1860s onward with occasional Republican reversals",
+          "textEs": "Steady expansion from the 1860s onward with occasional repúblicaan reversals",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Across modern U.S. history, federal power usually grows during major crises such as war or depression and then only partly contracts afterward. Choice A is about consistent expansion driven by public demand for greater services and protections and Choice D is about steady expansion from the 1860s onward with occasional Republican reversals; those options do not match cyclical expansion during periods of crisis — wars, depressions — followed by partial contraction. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+      "explanationEs": "Across modern U.S. history, federal power usually grows during major crises such as war or depresión and then only partly contracts afterward. Choice A is about consistent expansion driven by public demand for greater services and protections and Choice D is about steady expansion from the 1860s onward with occasional repúblicaan reversals; those options do not match cyclical expansion during periods of crisis — wars, depresións — followed by partial contraction. The event also fits the bigger story of how the United States adjusted to the end of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.74,
+        "b": 0.77,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x018",
+      "stem": "Which of the following statements about 'American exceptionalism' — the idea that the United States has a unique mission in the world — is most historically accurate?",
+      "stemEs": "¿Cuál de las siguientes opciones statements about 'American exceptionalism' — the idea that the United States has a unique mission in the world — is most historically accurate?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "American exceptionalism emerged only during the Cold War as a response to communist ideology",
+          "textEs": "American exceptionalism emerged only during the Guerra Fría as a response to communist ideology",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The concept has been used throughout U.S. history both to justify expansion and humanitarian intervention and to obscure contradictions between American ideals and practices",
+          "textEs": "The concept has been used throughout U.S. history both to justify expansion and humanitarian intervention and to obscure contradictions between American ideals and practices",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "American exceptionalism is a historical fact supported by the U.S. Constitution being the world's longest-serving democracy",
+          "textEs": "American exceptionalism is a historical fact supported by the U.S. Constitución being the world's longest-serving democracia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Historical evidence consistently supports the view that the U.S. has fulfilled its exceptional role as a model for democracy worldwide",
+          "textEs": "Historical evidence consistently supports the view that the U.S. has fulfilled its exceptional role as a model for democracia worldwide",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "American exceptionalism has been used throughout U.S. history both to justify intervention and expansion and to hide the gap between national ideals and actual behavior. Choice A is about american exceptionalism emerged only during the Cold War as a response to communist ideology and Choice D is about historical evidence consistently supports the view that the U.S. has fulfilled its exceptional role as a model for democracy worldwide; those options do not match the concept has been used throughout U.S. history both to justify expansion and humanitarian intervention and to obscure contradictions between American ideals and practices. The event also fits the bigger story of how the United States adjusted to the end of the Cold War.",
+      "explanationEs": "American exceptionalism has been used throughout U.S. history both to justify intervention and expansion and to hide the gap between national ideals and actual behavior. Choice A is about american exceptionalism emerged only during the Guerra Fría as a response to communist ideology and Choice D is about historical evidence consistently supports the view that the U.S. has fulfilled its exceptional role as a model for democracia worldwide; those options do not match the concept has been used throughout U.S. history both to justify expansion and humanitarian intervention and to obscure contradictions between American ideals and practices. The event also fits the bigger story of how the United States adjusted to the end of the Guerra Fría.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.48,
+        "b": 1.24,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-90-x030",
+      "stem": "Political scientists describe the United States as a 'weak state' compared to European democracies because:",
+      "stemEs": "Political scientists describe the United States as a 'weak state' compared to European democracies because:",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The U.S. lacks a European-style insulated civil service, leaving administration vulnerable to partisan turnover",
+          "textEs": "The U.S. lacks a European-style insulated civil service, leaving administration vulnerable to partisan turnover",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Globalization has integrated American markets into international networks that limit sovereign policy choices",
+          "textEs": "globalización has integrated American markets into international networks that limit sovereign policy choices",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Federalism, separation of powers, and checks and balances fragment authority and prevent coherent national policymaking",
+          "textEs": "Federalism, separation of powers, and checks and balances fragment authority and prevent coherent national policymaking",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Paradoxically, U.S. military dominance abroad coexists with limited state capacity to direct domestic economic policy",
+          "textEs": "Paradoxically, U.S. military dominance abroad coexists with limited state capacity to direct domestic economic policy",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Political scientists call the U.S. a “weak state” because federalism, separation of powers, and fragmented institutions make coordinated national action harder than in many parliamentary systems. Choice B is about the U.S. has no equivalent of a European-style professional civil service insulated from politics and Choice D is about the U.S. military is the world's most powerful, making the state the dominant actor in global affairs; those options do not match both B and C describe dimensions in which the U.S. is institutionally weaker than European democracies. This mattered because the post-Cold War years forced Americans to rethink foreign policy and federal power.",
+      "explanationEs": "Political scientists call the U.S. a “weak state” because federalism, separation of powers, and fragmented institutions make coordinated national action harder than in many parliamentary systems. Choice B is about the U.S. has no equivalent of a European-style professional civil service insulated from politics and Choice D is about the U.S. military is the world's most powerful, making the state the dominant actor in global affairs; those options do not match both B and C describe dimensions in which the U.S. is institutionally weaker than European democracies. This mattered because the post-Guerra Fría years forced Americans to rethink política exterior and federal power.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.83,
+        "b": 1.45,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u10-042",
+      "stem": "President George H.W. Bush assembled a broad international coalition to reverse Iraq's invasion of Kuwait in 1991. Which of the following best explains why building this coalition was strategically essential to Bush's approach?",
+      "stemEs": "El presidente George H.W. Bush reunió una amplia coalición internacional para revertir la invasión de Irak a Kuwait en 1991. ¿Cuál de las siguientes opciones explica mejor por qué construir esta coalición fue estratégicamente esencial para el enfoque de Bush?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The coalition was primarily needed because U.S. military forces were not strong enough to defeat Iraq without allied ground troops from NATO countries.",
+          "textEs": "La coalición era necesaria principalmente porque las fuerzas militares de EE. UU. no eran lo suficientemente fuertes para derrotar a Irak sin tropas terrestres aliadas de los países de la OTAN.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The coalition provided legal legitimacy, shared costs, regional basing rights, and Arab participation that prevented a West-versus-Islam framing — realizing Bush's 'New World Order' vision.",
+          "textEs": "La coalición proporcionó legitimidad legal internacional, costos compartidos, derechos de base regionales y participación árabe que impidió que el conflicto se convirtiera en una narrativa de Occidente contra el Islam, mientras realizaba la visión multilateral del 'Nuevo Orden Mundial' de Bush.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Coalition-building was primarily a domestic political strategy to ensure bipartisan congressional support for the use of military force in the Gulf.",
+          "textEs": "La construcción de la coalición fue principalmente una estrategia política doméstica para garantizar el apoyo bipartidista del Congreso para el uso de la fuerza militar en el Golfo.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Bush assembled the coalition to satisfy the War Powers Resolution's requirement that any military action be authorized by an international body before Congress could approve it.",
+          "textEs": "Bush reunió la coalición para satisfacer el requisito de la Resolución de Poderes de Guerra de que cualquier acción militar fuera autorizada por un organismo internacional antes de que el Congreso pudiera aprobarla.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Building the coalition was essential for several interconnected reasons: it provided international legitimacy through UN authorization (distinguishing U.S. action from unilateral aggression), shared military costs (Saudi Arabia and Gulf states contributed financially), allowed the use of regional bases, and maintained Arab participation critical to preventing the conflict from becoming a West-vs.-Islam narrative. The coalition also reflected Bush's 'New World Order' vision of post-Cold War multilateralism. A unilateral U.S. attack would have alienated Arab allies and undermined the UN framework Bush sought to establish. Options A, C, and D each capture one dimension but miss the strategic logic.",
+      "explanationEs": "Construir la coalición fue esencial por varias razones interrelacionadas: proporcionó legitimidad internacional a través de la autorización de la ONU (distinguiendo la acción de EE. UU. de la agresión unilateral), compartió costos militares (Arabia Saudita y los estados del Golfo contribuyeron financieramente), permitió el uso de bases regionales y mantuvo la participación árabe crítica para evitar que el conflicto se convirtiera en una narrativa de Occidente contra el Islam. La coalición también reflejó la visión del 'Nuevo Orden Mundial' de Bush sobre el multilateralismo post-Guerra Fría.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.14,
+        "b": 0.88,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u10-043",
+      "stem": "Bush's decision to halt the Gulf War after liberating Kuwait rather than marching to Baghdad has been debated by historians and policymakers. Which of the following best explains the strategic rationale for this decision?",
+      "stemEs": "La decisión de Bush de detener la Guerra del Golfo después de liberar Kuwait en lugar de marchar hacia Bagdad ha sido debatida por historiadores y responsables de políticas. ¿Cuál de las siguientes opciones explica mejor la justificación estratégica de esta decisión?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "U.S. forces had suffered unexpectedly high casualties during the ground campaign and lacked sufficient troops to safely occupy Baghdad.",
+          "textEs": "Las fuerzas de EE. UU. habían sufrido bajas inesperadamente altas durante la campaña terrestre y carecían de tropas suficientes para ocupar Bagdad de manera segura.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Bush received intelligence that Saddam Hussein planned to surrender voluntarily if given a face-saving exit, making a march to Baghdad strategically unnecessary.",
+          "textEs": "Bush recibió inteligencia de que Saddam Hussein planeaba rendirse voluntariamente si se le daba una salida que preservara las apariencias, haciendo que una marcha a Bagdad fuera estratégicamente innecesaria.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congress passed legislation prohibiting U.S. troops from crossing into Iraqi territory after Kuwait was liberated, limiting Bush's military options.",
+          "textEs": "El Congreso aprobó legislación que prohibía a las tropas de EE. UU. cruzar al territorio iraquí después de que Kuwait fuera liberado, limitando las opciones militares de Bush.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Advancing to Baghdad would have exceeded the UN mandate, shattered the Arab coalition, and required an open-ended occupation with no exit strategy — risks Bush judged unacceptable.",
+          "textEs": "El mandato de la ONU autorizaba solo la liberación de Kuwait; avanzar hacia Bagdad habría destrozado la coalición árabe, violado el derecho internacional y requerido una ocupación a largo plazo sin una estrategia clara, riesgos que Bush juzgó demasiado altos.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bush and his advisers (especially Brent Scowcroft and Colin Powell) decided against advancing to Baghdad because: (1) the UN mandate only authorized liberation of Kuwait, not regime change; (2) Arab coalition members (especially Saudi Arabia and Egypt) would have withdrawn if the war expanded; (3) occupying Iraq would require a long-term military presence with no clear exit; (4) Iraq's collapse might destabilize the region by empowering Iran. This strategic calculus proved prescient in light of the 2003 Iraq War's complications. Options A, B, and C misidentify or oversimplify the reasoning.",
+      "explanationEs": "Bush y sus asesores (especialmente Brent Scowcroft y Colin Powell) decidieron no avanzar hasta Bagdad porque: (1) el mandato de la ONU solo autorizaba la liberación de Kuwait, no el cambio de régimen; (2) los miembros árabes de la coalición se habrían retirado si la guerra se expandía; (3) ocupar Irak requeriría una presencia militar a largo plazo sin una salida clara; (4) el colapso de Irak podría desestabilizar la región al potenciar a Irán.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.04,
+        "b": 1.17,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u10-044",
+      "stem": "The U.S. invasion of Panama (1989) to remove Manuel Noriega raised significant questions about American foreign policy. Which of the following best explains the tension this operation created between U.S. stated values and actual behavior?",
+      "stemEs": "La invasión de Panamá por EE. UU. (1989) para deponer a Manuel Noriega planteó importantes preguntas sobre la política exterior estadounidense. ¿Cuál de las siguientes opciones explica mejor la tensión que esta operación creó entre los valores declarados de EE. UU. y su comportamiento real?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The invasion exposed the tension between the U.S.'s stated commitment to sovereignty and non-intervention and its actual practice of unilateral military action to remove foreign leaders it found inconvenient.",
+          "textEs": "La invasión expuso la tensión entre el compromiso declarado de EE. UU. con la soberanía y la no intervención y su práctica real de acción militar unilateral para deponer a líderes extranjeros que consideraba inconvenientes.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The invasion created tension between the Bush administration's anti-drug policy goals and its commitment to prosecuting drug traffickers through civilian courts rather than military action.",
+          "textEs": "La invasión creó tensión entre los objetivos de política antidroga de la administración Bush y su compromiso de procesar a los traficantes de drogas a través de tribunales civiles en lugar de acción militar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Panama's democratically elected government opposed the invasion, creating a conflict between U.S. democracy promotion goals and its decision to support an unelected military regime.",
+          "textEs": "El gobierno democráticamente elegido de Panamá se opuso a la invasión, creando un conflicto entre los objetivos de promoción de la democracia de EE. UU. y su decisión de apoyar a un régimen militar no elegido.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The invasion was necessary to protect the Panama Canal Treaty, but it violated the treaty's guarantee that the U.S. would not intervene in Panamanian internal affairs.",
+          "textEs": "La invasión era necesaria para proteger el Tratado del Canal de Panamá, pero violó la garantía del tratado de que EE. UU. no intervendría en los asuntos internos panameños.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Panama invasion illustrated a recurring tension: the U.S. championed sovereignty and international law while simultaneously reserving the right to intervene militarily in Latin American countries whose leaders it found objectionable. Noriega had previously been a CIA asset, and the U.S. had tolerated his drug trafficking for years when he was useful. The invasion was condemned by the UN General Assembly as a violation of international law even as it achieved its immediate objective. This hypocrisy undermined U.S. credibility on sovereignty issues. Options B, C, and D misidentify the primary tension.",
+      "explanationEs": "La invasión de Panamá ilustró una tensión recurrente: EE. UU. defendía la soberanía y el derecho internacional mientras simultáneamente se reservaba el derecho de intervenir militarmente en países latinoamericanos cuyos líderes consideraba objetables. Noriega había sido previamente un activo de la CIA, y EE. UU. había tolerado su tráfico de drogas durante años cuando era útil. La invasión fue condenada por la Asamblea General de la ONU como una violación del derecho internacional.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.69,
+        "b": 1.47,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u10-045",
+      "stem": "George H.W. Bush broke his 'no new taxes' pledge in 1990, agreeing to a deficit-reduction deal that included tax increases. Which of the following best explains the long-term political consequence of this decision?",
+      "stemEs": "George H.W. Bush rompió su promesa de 'no nuevos impuestos' en 1990, acordando un plan de reducción del déficit que incluía aumentos de impuestos. ¿Cuál de las siguientes opciones explica mejor la consecuencia política a largo plazo de esta decisión?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The broken pledge unified Democrats behind Clinton, who used it to argue that both parties were equally willing to raise taxes on the middle class.",
+          "textEs": "El rompimiento de la promesa unificó a los demócratas detrás de Clinton, quien lo usó para argumentar que ambos partidos estaban igualmente dispuestos a subir los impuestos a la clase media.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The tax increases were so effective at reducing the deficit that the economy recovered immediately, earning Bush sufficient goodwill to overcome the political damage.",
+          "textEs": "Los aumentos de impuestos fueron tan efectivos para reducir el déficit que la economía se recuperó de inmediato, ganándole a Bush suficiente buena voluntad para superar el daño político.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The broken pledge destroyed his credibility with the anti-tax Republican base, energizing primary and third-party challenges in 1992 and cementing anti-tax orthodoxy as a long-term litmus test for Republican candidates.",
+          "textEs": "El rompimiento de la promesa destruyó su credibilidad con la base republicana antifiscal, energizando desafíos primarios y de terceros partidos en 1992 y cementando la ortodoxia antifiscal como una prueba de fuego a largo plazo para los candidatos republicanos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The deficit-reduction deal actually lowered the national debt for the first time since WWII, making it the most fiscally responsible decision of any post-war presidency.",
+          "textEs": "El acuerdo de reducción del déficit en realidad redujo la deuda nacional por primera vez desde la Segunda Guerra Mundial, convirtiéndola en la decisión más responsable fiscalmente de cualquier presidencia de posguerra.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Bush's broken tax pledge fundamentally undermined his credibility with the Republican base that had made anti-tax politics a core identity. Combined with economic recession in 1991–1992, it energized both Pat Buchanan's primary challenge and Ross Perot's independent candidacy, splitting the center-right vote in 1992. More broadly, it established the 'no new taxes' pledge as a litmus test for Republican candidates for the next three decades. Options A and B misidentify the consequence or the mechanism. Option D describes a real fiscal effect but not the political consequence.",
+      "explanationEs": "El rompimiento de la promesa fiscal de Bush socavó fundamentalmente su credibilidad con la base republicana que había convertido la política antifiscal en una identidad central. Combinado con la recesión económica de 1991–1992, energizó tanto el desafío primario de Pat Buchanan como la candidatura independiente de Ross Perot, dividiendo el voto de centro-derecha en 1992. Más ampliamente, estableció la promesa de 'no nuevos impuestos' como una prueba de fuego para los candidatos republicanos durante las próximas tres décadas.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.98,
+        "b": 1.29,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u10-046",
+      "stem": "The Gulf War's rapid military success raised expectations about the nature of post-Cold War American military power. Which of the following best explains how the Gulf War contributed to later strategic miscalculations?",
+      "stemEs": "El rápido éxito militar de la Guerra del Golfo elevó las expectativas sobre la naturaleza del poder militar estadounidense post-Guerra Fría. ¿Cuál de las siguientes opciones explica mejor cómo la Guerra del Golfo contribuyó a posteriores errores de cálculo estratégico?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Gulf War's overwhelming success created a 'decisive victory' model that encouraged later policymakers to expect similar results from military interventions without adequately accounting for the war's unique strategic conditions.",
+          "textEs": "El éxito abrumador de la Guerra del Golfo creó un modelo de 'victoria decisiva' que animó a posteriores responsables de políticas a esperar resultados similares de las intervenciones militares sin tener suficientemente en cuenta las únicas condiciones estratégicas de la guerra.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Gulf War proved that the United States could defeat any conventional military force without allied support, reducing the perceived value of coalition-building in future conflicts.",
+          "textEs": "La Guerra del Golfo demostró que los Estados Unidos podían derrotar a cualquier fuerza militar convencional sin apoyo aliado, reduciendo el valor percibido de la construcción de coaliciones en futuros conflictos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Gulf War convinced military planners that air power alone was sufficient to achieve strategic objectives, leading to reduced investment in ground forces throughout the 1990s.",
+          "textEs": "La Guerra del Golfo convenció a los planificadores militares de que el poder aéreo por sí solo era suficiente para lograr objetivos estratégicos, lo que llevó a una reducción de la inversión en fuerzas terrestres durante la década de 1990.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Gulf War demonstrated that the United Nations could successfully manage international conflicts, leading the U.S. to over-rely on UN authorization in future crises where action without consensus was required.",
+          "textEs": "La Guerra del Golfo demostró que las Naciones Unidas podían gestionar con éxito los conflictos internacionales, llevando a EE. UU. a depender excesivamente de la autorización de la ONU en futuras crisis donde se requería acción sin consenso.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Gulf War's overwhelming success—100-hour ground campaign, minimal U.S. casualties, decisive victory—created an expectation that American military power could achieve rapid, clean victories at low cost. This 'Gulf War model' contributed to overconfidence in subsequent interventions, particularly the assumption in 2003 that toppling Saddam Hussein would produce a similar rapid success. The war's unique conditions (open desert, large conventional Iraqi army, broad coalition, clear objectives) were not replicable, but policymakers failed to adequately account for this. Options B, C, and D misidentify the strategic miscalculation that the war encouraged.",
+      "explanationEs": "El éxito abrumador de la Guerra del Golfo—campaña terrestre de 100 horas, bajas mínimas de EE. UU., victoria decisiva—creó la expectativa de que el poder militar estadounidense podía lograr victorias rápidas y limpias a bajo costo. Este 'modelo de la Guerra del Golfo' contribuyó a la sobreconfianza en intervenciones posteriores, particularmente la suposición en 2003 de que derrocar a Saddam Hussein produciría un éxito rápido similar. Las únicas condiciones de la guerra (desierto abierto, gran ejército convencional iraquí, amplia coalición, objetivos claros) no eran replicables, pero los responsables de políticas no lo tuvieron suficientemente en cuenta.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.11,
+        "b": 1.45,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us87-dok4-dbq-3",
+      "stem": "DOCUMENT-BASED QUESTION: The Persian Gulf War and the New World Order\n\nDirections: Read the following two primary source excerpts. Using the HIPP framework and your knowledge of US.87, write a response that analyzes both documents and constructs an argument about the Persian Gulf War's significance as a turning point in post-Cold War U.S. foreign policy.\n\n---\nDOCUMENT A\nSource: President George H. W. Bush, Address Before a Joint Session of the Congress on the State of the Union, January 29, 1991 (Public domain; Public Papers of the Presidents, National Archives)\n\n\"What is at stake is more than one small country, it is a big idea — a new world order, where diverse nations are drawn together in common cause to achieve the universal aspirations of mankind: peace and security, freedom, and the rule of law. Such is a world worthy of our struggle, and worthy of our children's future... The world can therefore seize this opportunity to fulfill the long-held promise of a new world order — where brutality will go unrewarded, and aggression will meet collective resistance.\"\n\n---\nDOCUMENT B\nSource: Joint Resolution of Congress, Authorization for Use of Military Force Against Iraq, Public Law 102-1, January 14, 1991 (Public domain; U.S. Government Publishing Office)\n\n\"The President is authorized, subject to subsection (b), to use United States Armed Forces pursuant to United Nations Security Council Resolution 678 (1990) in order to achieve implementation of Security Council Resolutions 660, 661, 662, 664, 665, 666, 667, 669, 670, 674, and 677... The President shall, at least once every 60 days, submit to the Congress a summary on the status of efforts to obtain compliance by Iraq with the resolutions adopted by the United Nations Security Council...\"\n\n---\nUsing both documents and your knowledge of US.87, write a response that: (1) applies HIPP to each document; (2) constructs an argument about what these documents reveal about how U.S. foreign policy authority was exercised during the Gulf War; and (3) evaluates how successfully the Gulf War achieved the 'new world order' Bush described, drawing on knowledge of subsequent events including US.91.",
+      "stemEs": "PREGUNTA BASADA EN DOCUMENTOS: La Guerra del Golfo Pérsico y el Nuevo Orden Mundial\n\nInstrucciones: Lea los siguientes dos fragmentos de fuentes primarias. Usando el marco HIPP y su conocimiento de US.87, escriba una respuesta que analice ambos documentos y construya un argumento sobre el significado de la Guerra del Golfo Pérsico como un punto de inflexión en la política exterior estadounidense posterior a la Guerra Fría.\n\n---\nDOCUMENTO A\nFuente: Presidente George H. W. Bush, Discurso ante una Sesión Conjunta del Congreso sobre el Estado de la Unión, 29 de enero de 1991 (Dominio público; Documentos Públicos de los Presidentes, Archivos Nacionales)\n\n\"Lo que está en juego es más que un pequeño país, es una gran idea — un nuevo orden mundial, donde naciones diversas se unen en una causa común para lograr las aspiraciones universales de la humanidad: paz y seguridad, libertad y el estado de derecho. Tal es un mundo digno de nuestra lucha, y digno del futuro de nuestros hijos... Por lo tanto, el mundo puede aprovechar esta oportunidad para cumplir la promesa largamente esperada de un nuevo orden mundial — donde la brutalidad no será recompensada, y la agresión encontrará resistencia colectiva.\"\n\n---\nDOCUMENTO B\nFuente: Resolución Conjunta del Congreso, Autorización para el Uso de la Fuerza Militar Contra Irak, Ley Pública 102-1, 14 de enero de 1991 (Dominio público; Oficina de Publicaciones del Gobierno de EE. UU.)\n\n\"El Presidente está autorizado, sujeto a la subsección (b), para usar las Fuerzas Armadas de los Estados Unidos de conformidad con la Resolución 678 (1990) del Consejo de Seguridad de las Naciones Unidas para lograr la implementación de las Resoluciones 660, 661, 662, 664, 665, 666, 667, 669, 670, 674 y 677 del Consejo de Seguridad... El Presidente deberá, al menos una vez cada 60 días, presentar al Congreso un resumen sobre el estado de los esfuerzos para obtener el cumplimiento por parte de Irak de las resoluciones adoptadas por el Consejo de Seguridad de las Naciones Unidas...\"\n\n---\nUsando ambos documentos y su conocimiento de US.87, escriba una respuesta que: (1) aplique HIPP a cada documento; (2) construya un argumento sobre lo que estos documentos revelan sobre cómo se ejerció la autoridad de política exterior de EE. UU. durante la Guerra del Golfo; y (3) evalúe qué tan exitosamente la Guerra del Golfo logró el 'nuevo orden mundial' que describió Bush, basándose en el conocimiento de eventos posteriores que incluyen US.91.",
+      "itemType": "document-based",
+      "correctAnswer": "A top-score response applies HIPP with precision: Document A — Historical context: the first major post-Cold War military conflict, with the Berlin Wall having fallen only 14 months earlier; Intended audience: Congress, the American public, and international allies; Purpose: to frame the Gulf War as a multilateral effort to establish a rules-based international order, not merely to defend U.S. oil interests; Point of view: Bush, a former UN Ambassador and CIA Director, with genuine belief in multilateral institutions but also aware that domestic support required idealistic framing. Document B — Historical context: Congress passing authorization one day before the UN deadline for Iraq to withdraw from Kuwait; Intended audience: the President, the military, and international observers watching whether U.S. constitutional requirements were followed; Purpose: to provide legal authorization for military force while maintaining congressional authority (contrast with the Gulf of Tonkin Resolution, US.78, which gave even broader authority with less specificity); Point of view: a Congress asserting its war powers role while accepting presidential foreign policy leadership. The argument about foreign policy authority: unlike Vietnam (US.78) where the Gulf of Tonkin Resolution gave a blank check, the Gulf War AUMF was tied specifically to UN resolutions, reflecting post-Vietnam War Powers Resolution constraints. The evaluation of the 'new world order': Bush's vision was partially realized — the Gulf War coalition successfully expelled Iraq from Kuwait and established the precedent of multilateral collective security — but the order proved fragile. Saddam Hussein remained in power, the U.S. maintained troops in Saudi Arabia (a grievance that Osama bin Laden cited as motivation for 9/11, US.90), and the 2003 invasion of Iraq (US.91) without UN authorization represented the collapse of the multilateral framework Bush had championed.",
+      "choices": [],
+      "dokLevel": 4,
+      "dokRationale": "Student must synthesize across multiple standards and sources, constructing an extended argument that connects US.87, US.91 through evidence-based reasoning requiring sustained analytical writing.",
+      "standardCodes": [
+        "US.88"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "SCORING GUIDE (6 points):\n6 - Exemplary: Full HIPP analysis of both documents with specific, historically accurate context, audience, purpose, and point-of-view analysis. Argument clearly identifies the constitutional significance of a specific AUMF (vs. Gulf of Tonkin blank check). Evaluates 'new world order' with specific reference to subsequent events (Saddam remaining in power, Saudi bases as bin Laden grievance, 2003 Iraq War unilateralism, US.91).\n5 - Advanced: HIPP applied to both documents with minor gaps. Argument addresses foreign policy authority comparison. Evaluation of 'new world order' references at least one subsequent event.\n4 - Proficient: HIPP applied to both documents but some elements superficial. Argument about foreign policy authority is present. Evaluation of 'new world order' is general.\n3 - Adequate: HIPP applied to one document fully. Argument about foreign policy is attempted. Some reference to subsequent events.\n2 - Developing: Partial HIPP for one document. Argument about Gulf War policy is vague. No evaluation of 'new world order' outcomes.\n1 - Beginning: Minimal document analysis. No coherent argument about foreign policy authority.\n0 - No response or completely off-topic.\n\nDOCUMENT ANALYSIS EXPECTATIONS: Doc A — Bush multilateral idealism post-Cold War; Doc B — specific AUMF tied to UN resolutions (contrast Gulf of Tonkin).\nKEY EVIDENCE EXPECTED: Operation Desert Storm (1991); 34-nation coalition; UN Security Council Resolution 678; Kuwait liberation; Saddam Hussein remaining in power; sanctions regime; Saudi troop presence; bin Laden's stated grievances; 2003 Iraq War comparison; War Powers Resolution (1973).",
+      "explanationEs": "GUÍA DE PUNTUACIÓN (6 puntos):\n6 - Ejemplar: Análisis HIPP completo de ambos documentos con contexto específico y históricamente preciso, audiencia, propósito y análisis de punto de vista. El argumento identifica claramente el significado constitucional de una AUMF específica (vs. cheque en blanco del Golfo de Tonkin). Evalúa el 'nuevo orden mundial' con referencia específica a eventos posteriores (Saddam permaneciendo en el poder, bases saudíes como agravio de bin Laden, unilateralismo de la Guerra de Irak de 2003, US.91).\n5 - Avanzado: HIPP aplicado a ambos documentos con lagunas menores. El argumento aborda la comparación de la autoridad de política exterior. La evaluación del 'nuevo orden mundial' hace referencia a al menos un evento posterior.\n4 - Competente: HIPP aplicado a ambos documentos pero algunos elementos superficiales. El argumento sobre la autoridad de política exterior está presente. La evaluación del 'nuevo orden mundial' es general.\n3 - Adecuado: HIPP aplicado completamente a un documento. Se intenta un argumento sobre política exterior. Alguna referencia a eventos posteriores.\n2 - En desarrollo: HIPP parcial para un documento. El argumento sobre la política del Golfo es vago. Sin evaluación de los resultados del 'nuevo orden mundial'.\n1 - Inicial: Análisis documental mínimo. Sin argumento coherente sobre la autoridad de política exterior.\n0 - Sin respuesta o completamente fuera del tema.\n\nEXPECTATIVAS DE ANÁLISIS DOCUMENTAL: Doc A — idealismo multilateral de Bush post-Guerra Fría; Doc B — AUMF específica vinculada a resoluciones de la ONU (contraste con el Golfo de Tonkin).\nEVIDENCIA CLAVE ESPERADA: Operación Tormenta del Desierto (1991); coalición de 34 naciones; Resolución 678 del Consejo de Seguridad de la ONU; liberación de Kuwait; Saddam Hussein permaneciendo en el poder; régimen de sanciones; presencia de tropas en Arabia Saudita; agravios declarados de bin Laden; comparación con la Guerra de Irak de 2003; Resolución de Poderes de Guerra (1973).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.84,
+        "b": 0.43,
+        "c": 0.0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-10/dok-4.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.90"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.90->US.88: verb changed describe->identify",
+          "US.90->US.88: standard ADDED ['Debates over the increasing budget', 'taxation'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "describe -> identify",
+          "elementsAddedToStandard": [
+            "Debates over the increasing budget",
+            "taxation"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3192 @@
+{
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.19",
+  "status": "migrated",
+  "disclosure": "classroom-formative · pre-field-test",
+  "items": [
+    {
+      "id": "q-us17-dok1-newfreedom",
+      "stem": "What was the main goal of Woodrow Wilson's \"New Freedom\" platform?",
+      "stemEs": "¿Cuál era el objetivo principal de la plataforma \"Nueva Libertad\" de Woodrow Wilson?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Financial panics, inflexible currency, and bank power",
+          "textEs": "Expandir el poder de las grandes corporaciones",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Regulate the nation's money supply and banking system",
+          "textEs": "Eliminar toda regulación gubernamental de los negocios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To break up monopolies and restore fair competition",
+          "textEs": "Disolver los monopolios y restaurar la competencia económica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Government should regulate banking to prevent financial crises",
+          "textEs": "Nacionalizar todas las industrias principales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wilson’s New Freedom aimed to restore economic competition by reducing the power of trusts, lowering tariffs, and reforming banking. A choice saying Wilson mainly wanted to conserve wilderness is wrong because New Freedom focused first on economic reform. It offered a different Progressive diagnosis of the problems created by big business.",
+      "explanationEs": "La Nueva Libertad de Wilson buscaba restaurar la competencia disolviendo monopolios, a diferencia del enfoque de Roosevelt de regular las grandes corporaciones. Wilson creía que los pequeños negocios necesitaban una oportunidad justa para competir.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.76,
+        "b": -1.21,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us17-dok1-1-u2",
+      "stem": "What was the Federal Reserve System created to do?",
+      "stemEs": "¿Para qué fue creado el Sistema de la Reserva Federal?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Store gold reserves for the United States Treasury",
+          "textEs": "Almacenar reservas de oro para el Tesoro de los Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Regulate the nation's money supply and banking system",
+          "textEs": "Regular la oferta monetaria y el sistema bancario de la nación",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Provide free banking services for all American citizens",
+          "textEs": "Proporcionar servicios bancarios gratuitos para todos los ciudadanos estadounidenses",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Eliminate all private banks in the United States",
+          "textEs": "Eliminar todos los bancos privados en los Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Federal Reserve System was created to stabilize banking, provide an elastic currency, and reduce the financial panics that had shaken the economy. A choice about direct election reforms is wrong because the Fed dealt with money and credit, not voting procedures. It remains a core institution of the modern American economy.",
+      "explanationEs": "La Ley de la Reserva Federal (1913) creó el Sistema de la Reserva Federal para regular la oferta monetaria, supervisar bancos y proporcionar estabilidad al sistema financiero—una reforma progresista importante bajo el Presidente Wilson.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.05,
+        "b": -1.21,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-q01",
+      "stem": "Woodrow Wilson's \"New Freedom\" platform was primarily designed to —",
+      "stemEs": "Woodrow Wilson's \"New Freedom\" platform fue principalmente designed to —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Restore economic competition by breaking up monopolies and reducing",
+          "textEs": "Restore economic competition by breaking up monopolies and reducing",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Expand American military involvement overseas",
+          "textEs": "Expand American military involvement overseas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Establish government ownership of major industries",
+          "textEs": "Establish government ownership of major industries",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Increase federal spending on social welfare programs",
+          "textEs": "Increase federal spending on social welfare programs",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wilson's New Freedom aimed to restore competition by breaking up monopolies, lowering tariffs, and helping small businesses compete more fairly. Choice B is wrong because the platform focused on domestic economic reform, not overseas expansion. Choice C is wrong because Wilson did not call for government ownership of major industries. New Freedom showed that many Progressives wanted to control corporate power by reviving competition.",
+      "explanationEs": "Wilson's New Freedom aimed to restore competition by breaking up monopolies, lowering arancels, and helping small businesses compete more fairly. Choice B is wrong because the platform focused on domestic economic reform, not overseas expansion. Choice C is wrong because Wilson did not call for government ownership of major industries. New Freedom showed that many Progressives wanted to control corporate power by reviving competition.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.58,
+        "b": -0.65,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x020",
+      "stem": "The Pure Food and Drug Act (1906) was passed primarily in response to —",
+      "stemEs": "The Pure Food and Drug Act (1906) was passed primarily in response to —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Scientific studies showing widespread adulteration of food sold in American markets",
+          "textEs": "Scientific studies showing widespread adulteration of food sold in American markets",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Pressure from the American Medical Association to regulate patent medicines",
+          "textEs": "Pressure from the American Medical Association to regulate patent medicines",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Upton Sinclair's The Jungle, which described horrific conditions in Chicago meatpacking plants",
+          "textEs": "Upton Sinclair's The Jungle, which described horrific conditions in Chicago meatpacking plants",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A food poisoning outbreak that sickened thousands of Americans in major cities",
+          "textEs": "A food poisoning outbreak that sickened thousands of Americans in major cities",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Pure Food and Drug Act of 1906 responded to public outrage over unsafe and mislabeled products by requiring more honest labeling and federal oversight. A choice about railroad rates is wrong because the law dealt with consumer protection, not transportation regulation. It marked a major step toward the modern regulatory state, with the clue centered on pure Food Drug Act 1906 passed.",
+      "explanationEs": "The Pure Food and Drug Act of 1906 responded to public outrage over unsafe and mislabeled products by requiring more honest labeling and federal oversight. A choice about railroad rates is wrong because the law dealt with consumer protection, not transportation regulation. It marked a major step toward the modern regulatory state, with the clue centered on pure Food Drug Act 1906 passed.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.76,
+        "b": -0.92,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x022",
+      "stem": "Gifford Pinchot's approach to conservation differed from John Muir's in that Pinchot believed —",
+      "stemEs": "Gifford Pinchot's approach to conservation differed from John Muir's in that Pinchot believed —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Natural resources should be managed scientifically for sustainable use rather than preserved untouched",
+          "textEs": "Natural resources should be managed scientifically for sustainable use rather than preserved untouched",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Private corporations should manage natural resources more efficiently than the government could through public ownership",
+          "textEs": "Private corporations should manage natural resources more efficiently than the government could through public ownership",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Conservation required international cooperation because natural resources crossed national boundaries",
+          "textEs": "Conservation required international cooperation because natural resources crossed national boundaries",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Wilderness should be preserved in its natural state for future generations to enjoy",
+          "textEs": "Wilderness should be preserved in its natural state for future generations to enjoy",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Gifford Pinchot believed conservation meant the wise, efficient use of natural resources for the long-term public good rather than locking all land away from development. A choice favoring complete preservation of every wilderness area is wrong because that position was closer to John Muir. The Pinchot-Muir disagreement shaped the direction of environmental policy, and this question specifically highlights gifford Pinchot s approach conservation differed.",
+      "explanationEs": "Gifford Pinchot believed conservation meant the wise, efficient use of natural resources for the long-term public good rather than locking all land away from development. A choice favoring complete preservation of every wilderness area is wrong because that position was closer to John Muir. The Pinchot-Muir disagreement shaped the direction of environmental policy, and this question specifically highlights gifford Pinchot s approach conservation differed.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.42,
+        "b": -1.52,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x026",
+      "stem": "John Muir founded the Sierra Club (1892) primarily to —",
+      "stemEs": "John Muir founded the Sierra Club (1892) primarily to —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Lobby for preservation of Yosemite and other wilderness areas",
+          "textEs": "Lobby for preservation of Yosemite and other wilderness areas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Advocate for scientific management of public forests",
+          "textEs": "Advocate for scientific management of public forests",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Provide outdoor recreation opportunities for urban Americans",
+          "textEs": "Provide outdoor recreation opportunities for urban Americans",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Oppose homesteading that was destroying western ecosystems",
+          "textEs": "Oppose homesteading that was destroying western ecosystems",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Hetch Hetchy fight showed a split between preservationists like John Muir, who wanted wilderness protected for its own sake, and conservationists like Pinchot, who supported managed use of resources. A choice saying both men wanted identical policies is wrong because their disagreement was fundamental. That debate still shapes environmental politics today.",
+      "explanationEs": "The Hetch Hetchy fight showed a split between preservationists like John Muir, who wanted wilderness protected for its own sake, and conservationists like Pinchot, who supported managed use of resources. A choice saying both men wanted identical policies is wrong because their disagreement was fundamental. That debate still shapes environmental politics today.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -1.58,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x028",
+      "stem": "Convict leasing — a practice widespread in the post-Reconstruction South — involved —",
+      "stemEs": "Convict leasing — a practice widespread in the post-Reconstrucción South — involved —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Transferring Black convicts to Northern prisons where conditions were supposedly better",
+          "textEs": "Transferring Black convicts to Northern prisons where conditions were supposedly better",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Leasing convicted prisoners — overwhelmingly Black — to private businesses as forced labor",
+          "textEs": "Leasing convicted prisoners — overwhelmingly Black — to private businesses as forced labor",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Using prison labor to break strikes by providing employers with workers who could not legally quit",
+          "textEs": "Using prison labor to break huelgas by providing employers with workers who could not legally quit",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Requiring convicted criminals to work without pay on public infrastructure projects",
+          "textEs": "Requiring convicted criminals to work without pay on public infrastructure projects",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Convict leasing involved states renting prisoners, often African American men, to private companies for labor under brutal conditions. A choice describing parole or rehabilitation is wrong because the system was built on profit and punishment, not reform. It linked Jim Crow justice to labor exploitation in the South.",
+      "explanationEs": "Convict leasing involved states renting prisoners, often African American men, to private companies for labor under brutal conditions. A choice describing parole or rehabilitation is wrong because the system was built on profit and punishment, not reform. It linked Jim Crow justice to labor exploitation in the South.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -1.65,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x033",
+      "stem": "'Grandfather clauses' — devices used to disenfranchise Black voters while exempting illiterate whites — were ruled unconstitutional in —",
+      "stemEs": "'Grandfather clauses' — devices used to disenfranchise Black voters while exempting illiterate whites — were ruled unconstitucional in —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Plessy v. Ferguson (1896) — when the Court invalidated race-based voting restrictions while upholding separation",
+          "textEs": "Plessy v. Ferguson (1896) — when the Court invalidated race-based voting restrictions while upholding separation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Guinn v. United States (1915) — the Supreme Court's first significant civil rights victory under the 15th Amendment",
+          "textEs": "Guinn v. United States (1915) — the Corte Suprema's first significant derechos civiles victory under the 15th enmienda",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "United States v. Classic (1941) — which addressed white primaries in Louisiana",
+          "textEs": "United States v. Classic (1941) — which addressed white primaries in Louisiana",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Buchanan v. Warley (1917) — which addressed property rather than voting rights",
+          "textEs": "Buchanan v. Warley (1917) — which addressed property rather than derechos de voto",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Grandfather clauses were voting rules that exempted many illiterate white men from restrictions if their ancestors had voted before the Civil War, effectively disfranchising Black citizens. A choice saying they expanded voting rights equally is wrong because their real purpose was racial exclusion. They became part of the legal system that sustained Jim Crow.",
+      "explanationEs": "Grandfather clauses were voting rules that exempted many illiterate white men from restrictions if their ancestors had voted before the Guerra Civil, effectively disfranchising Black citizens. A choice saying they expanded derechos de voto equally is wrong because their real purpose was racial exclusion. They became part of the legal system that sustained Jim Crow, with a focus here on grandfather clauses devices used disenfranchise Black.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.12,
+        "b": -1.14,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us17-dok2-2-u2",
+      "stem": "What was the Federal Trade Commission (FTC) created to do under Wilson?",
+      "stemEs": "¿Para qué fue creada la Comisión Federal de Comercio (FTC) bajo Wilson?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Monitor and prevent unfair business practices and deceptive advertising",
+          "textEs": "Supervisar y prevenir prácticas comerciales desleales y publicidad engañosa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Government should regulate banking to prevent financial crises",
+          "textEs": "Negociar tratados comerciales con países extranjeros en nombre de EE.UU.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A process allowing citizens to propose new legislation through petition",
+          "textEs": "Fijar precios para todos los bienes de consumo vendidos en Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Fighting unfair railroad rates and business practices that hurt farmers",
+          "textEs": "Gestionar el déficit comercial internacional del gobierno federal",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Federal Trade Commission was created in 1914 to investigate and prevent unfair business practices such as false advertising and other forms of unfair competition. Choice B is wrong because regulating banking crises was the job of the Federal Reserve, not the FTC. Choice D is wrong because railroad rate regulation belonged mainly to the Interstate Commerce Commission. The FTC became one of the most lasting Progressive agencies for regulating business behavior.",
+      "explanationEs": "La Comisión Federal de Comercio (1914) fue creada para investigar y prevenir prácticas comerciales desleales, comportamiento anticompetitivo y publicidad engañosa—dando al gobierno una agencia permanente para supervisar la conducta corporativa.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.12,
+        "b": -0.51,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-q02",
+      "stem": "The Federal Reserve System was created in 1913 to —",
+      "stemEs": "The Federal Reserve System was created in 1913 to —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Guarantee government backing for most private investments",
+          "textEs": "Guarantee government backing for most private investments",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Establish a single national bank controlled by the federal government",
+          "textEs": "Establish a single national bank controlled by the gobierno federal",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Eliminate all private banks and establish government banking as the only banking option in the country",
+          "textEs": "Eliminate all private banks and establish government banking as the only banking option in the country",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Provide a stable, flexible monetary system and regulate banking practices to prevent financial panics",
+          "textEs": "Provide a stable, flexible monetary system and regulate banking practices to prevent financial panics",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Federal Reserve System was created to provide a more stable and flexible money supply and to reduce the bank panics that had repeatedly shaken the economy. Choice B is wrong because the law did not create a single national bank like the old Bank of the United States. Choice C is wrong because it did not abolish private banks. The system became one of the most important lasting reforms of the Progressive Era.",
+      "explanationEs": "The Federal Reserve System was created to provide a more stable and flexible money supply and to reduce the bank panics that had repeatedly shaken the economy. Choice B is wrong because the law did not create a single national bank like the old Bank of the United States. Choice C is wrong because it did not abolish private banks. The system became one of the most important lasting reforms of the Era Progresista.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.96,
+        "b": -0.34,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-q03",
+      "stem": "The National Park Service was established in 1916 with the mission to —",
+      "stemEs": "The National Park Service was established in 1916 with the mission to —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Convert national parks into military training facilities",
+          "textEs": "Convert national parks into military training facilities",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Develop natural resources for economic profit",
+          "textEs": "Develop natural resources for economic profit",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Preserve natural landscapes and cultural heritage for future",
+          "textEs": "Preserve natural landscapes and cultural heritage for future",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Restrict all public access to federal lands",
+          "textEs": "Restrict all public access to federal lands",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The National Park Service, created in 1916, established the principle that national parks should be protected and managed by the federal government for public use and preservation. A choice saying it was created by Theodore Roosevelt is wrong because the agency itself came during Wilson’s presidency. It helped turn conservation into a permanent federal function.",
+      "explanationEs": "The National Park Service, created in 1916, established the principle that national parks should be protected and managed by the gobierno federal for public use and preservation. A choice saying it was created by Theodore Roosevelt is wrong because the agency itself came during Wilson’s presidency. It helped turn conservation into a permanent federal function, especially in this item's emphasis on national Park Service established 1916 mission.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.61,
+        "b": 0.16,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x011",
+      "stem": "Theodore Roosevelt's 'Square Deal' philosophy claimed that government should —",
+      "stemEs": "Theodore Roosevelt's 'Square Deal' philosophy claimed that government should —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Eliminate all large corporations and restore the small-scale economy of the early republic",
+          "textEs": "Eliminate all large corporations and restore the small-scale economy of the early república",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Ensure fair treatment for all parties",
+          "textEs": "Ensure fair treatment for all parties",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Guarantee equal economic outcomes for all Americans through wealth redistribution",
+          "textEs": "Guarantee equal economic outcomes for all Americans through wealth redistribution",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Defer largely to market forces except when national security was threatened",
+          "textEs": "Defer largely to market forces except when national security was threatened",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Roosevelt’s Square Deal promised a balance among consumers, workers, and businesses rather than allowing any one group to dominate public policy. A choice that says Roosevelt wanted to destroy all big business is wrong because he accepted “good trusts” that served the public interest. The Square Deal helped define a more active federal role in economic fairness, with the clue centered on theodore Roosevelt s Square Deal philosophy.",
+      "explanationEs": "Roosevelt’s Square Deal promised a balance among consumers, workers, and businesses rather than allowing any one group to dominate public policy. A choice that says Roosevelt wanted to destroy all big business is wrong because he accepted “good fideicomisos” that served the public interest. The Square Deal helped define a more active federal role in economic fairness, with the clue centered on theodore Roosevelt s Square Deal philosophy.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.86,
+        "b": 0.36,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x012",
+      "stem": "William Howard Taft's presidency (1909-1913) split the Progressive movement because —",
+      "stemEs": "William Howard Taft's presidency (1909-1913) split the Progressive movement because —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Taft continued Roosevelt's policies so faithfully that he left no agenda of his own for Progressive Republicans to rally around",
+          "textEs": "Taft continued Roosevelt's policies so faithfully that he left no agenda of his own for Progressive repúblicaans to rally around",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Taft's military interventions in Nicaragua and Honduras alienated Progressive Republicans who opposed dollar diplomacy as an extension of imperialism",
+          "textEs": "Taft's military interventions in Nicaragua and Honduras alienated Progressive repúblicaans who opposed dollar diplomacia as an extension of imperialismo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Taft refused to bring antitrust suits against the major industrial trusts, abandoning Roosevelt's trust-busting legacy entirely",
+          "textEs": "Taft refused to bring antifideicomiso suits against the major industrial fideicomisos, abandoning Roosevelt's fideicomiso-busting legacy entirely",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Taft dismissed Progressive conservationist Gifford Pinchot and backed the Payne-Aldrich Tariff, which Progressives condemned as a giveaway to Eastern manufacturing interests",
+          "textEs": "Taft dismissed Progressive conservationist Gifford Pinchot and backed the Payne-Aldrich arancel, which Progressives condemned as a giveaway to Eastern manufacturing interests",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Taft split the Progressive movement because many reformers felt betrayed by his support for the Payne-Aldrich Tariff and his firing of Gifford Pinchot in the Ballinger-Pinchot controversy. Choice C is wrong because Taft actually pursued many antitrust suits; the problem was political trust and reform leadership. The split set up the dramatic four-way election of 1912.",
+      "explanationEs": "Taft split the Progressive movement because many reformers felt betrayed by his support for the Payne-Aldrich arancel and his firing of Gifford Pinchot in the Ballinger-Pinchot controversy. Choice C is wrong because Taft actually pursued many antifideicomiso suits; the problem was political fideicomiso and reform leadership. The split set up the dramatic four-way election of 1912.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.44,
+        "b": -0.07,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x013",
+      "stem": "The 1912 presidential election was historically unusual because —",
+      "stemEs": "The 1912 presidential election was historically unusual because —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Supreme Court declared TR's Bull Moose Party campaign unconstitutional",
+          "textEs": "The Corte Suprema declared TR's Bull Moose Party campaign unconstitucional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It was the first election decided by the Electoral College rather than popular vote",
+          "textEs": "It was the first election decided by the Electoral College rather than popular vote",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congress refused to certify the electoral votes, requiring a new election",
+          "textEs": "Congreso refused to certify the electoral votes, requiring a new election",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Four candidates competed — Wilson, TR, Taft, and Debs",
+          "textEs": "Four candidates competed — Wilson, TR, Taft, and Debs",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The election of 1912 was unusual because four major candidates—Wilson, Roosevelt, Taft, and Debs—divided the vote, allowing Wilson to win with only about 42 percent of the popular vote. A choice about the Electoral College being suspended is wrong because the election followed the normal constitutional system. It showed how Progressive and Socialist challenges could break apart the old party system.",
+      "explanationEs": "The election of 1912 was unusual because four major candidates—Wilson, Roosevelt, Taft, and Debs—divided the vote, allowing Wilson to win with only about 42 percent of the popular vote. A choice about the Electoral College being suspended is wrong because the election followed the normal constitucional system. It showed how Progressive and Socialist challenges could break apart the old party system.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.78,
+        "b": 0.29,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x021",
+      "stem": "Theodore Roosevelt's conservation policy included all of the following EXCEPT —",
+      "stemEs": "Theodore Roosevelt's conservation policy included all of the following EXCEPT —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Creating the National Park Service to manage preserved wilderness areas",
+          "textEs": "Creating the National Park Service to manage preserved wilderness areas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Withdrawing millions of acres of public land from commercial development",
+          "textEs": "Withdrawing millions of acres of public land from commercial development",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Establishing the U.S. Forest Service under Gifford Pinchot",
+          "textEs": "Establishing the U.S. Forest Service under Gifford Pinchot",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Using the Antiquities Act to designate national monuments without congressional approval",
+          "textEs": "Using the Antiquities Act to designate national monuments without Congresoional approval",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Roosevelt greatly expanded forests, monuments, and federal land protection, but he did not create the National Park Service; that agency was established in 1916 under Wilson. Choices B, C, and D are all genuine parts of Roosevelt’s conservation record, so A is the exception. The question tests the difference between Roosevelt’s conservation activism and later institutional reforms.",
+      "explanationEs": "Roosevelt greatly expanded forests, monuments, and federal land protection, but he did not create the National Park Service; that agency was established in 1916 under Wilson. Choices B, C, and D are all genuine parts of Roosevelt’s conservation record, so A is the exception. The question tests the difference between Roosevelt’s conservation activism and later institutional reforms.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.53,
+        "b": 0.37,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x023",
+      "stem": "The Newlands Reclamation Act (1902) represented the federal government's commitment to —",
+      "stemEs": "The Newlands Reclamation Act (1902) represented the gobierno federal's commitment to —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Compensating Native Americans whose lands had been taken during westward expansion",
+          "textEs": "Compensating Native Americans whose lands had been taken during expansión hacia el oeste",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Restricting homesteading in fragile ecosystems to preserve them for future generations",
+          "textEs": "Restricting homesteading in fragile ecosystems to preserve them for future generations",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Building irrigation projects in the arid West to open land to agricultural settlement",
+          "textEs": "Building irrigation projects in the arid West to open land to agricultural settlement",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Restoring ecosystems damaged by overgrazing and mining in the American West",
+          "textEs": "Restoring ecosystems damaged by overgrazing and mining in the American West",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Newlands Reclamation Act of 1902 showed federal commitment to irrigation and planned development in the arid West by funding water projects on public land. A choice about preserving untouched wilderness alone is wrong because reclamation focused on productive use, not strict preservation. It reflected Progressive faith in large-scale government management of resources.",
+      "explanationEs": "The Newlands Reclamation Act of 1902 showed federal commitment to irrigation and planned development in the arid West by funding water projects on public land. A choice about preserving untouched wilderness alone is wrong because reclamation focused on productive use, not strict preservation. It reflected Progressive faith in large-scale government management of resources.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.72,
+        "b": -0.13,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x027",
+      "stem": "The Supreme Court's decision in Williams v. Mississippi (1898) was significant because it —",
+      "stemEs": "The Corte Suprema's decision in Williams v. Mississippi (1898) fue significativo/a porque it —",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Extended Plessy v. Ferguson's separate but equal doctrine from transportation to education",
+          "textEs": "Extended Plessy v. Ferguson's separate but equal doctrine from transportation to education",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Ruled that the 15th Amendment required states to provide equal ballot access regardless of race",
+          "textEs": "Ruled that the 15th enmienda required states to provide equal ballot access regardless of race",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Authorized federal prosecution of lynching as a civil rights violation under Reconstruction amendments",
+          "textEs": "Authorized federal prosecution of lynching as a derechos civiles violation under Reconstrucción enmiendas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Upheld Mississippi's literacy test and poll tax as race-neutral on their face, despite their discriminatory design",
+          "textEs": "Upheld Mississippi's literacy test and poll tax as race-neutral on their face, despite their discriminatory design",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Williams v. Mississippi (1898) was significant because the Supreme Court upheld voting restrictions such as poll taxes and literacy tests that Southern states used to disfranchise Black voters. A choice saying the Court struck down Jim Crow voting rules is wrong because the decision let them stand. The ruling helped legalize racial exclusion for decades.",
+      "explanationEs": "Williams v. Mississippi (1898) fue significativo/a porque the Corte Suprema upheld voting restrictions such as poll taxes and literacy tests that Southern states used to disfranchise Black voters. A choice saying the Court struck down Jim Crow voting rules is wrong because the decision let them stand. The ruling helped legalize racial exclusion for decades.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.13,
+        "b": 0.42,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x034",
+      "stem": "Southern states used 'grandfather clauses' to disenfranchise Black voters by —",
+      "stemEs": "Southern states used 'grandfather clauses' to disenfranchise Black voters by —",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Exempting from literacy tests anyone whose grandfather had been eligible to vote before 1867 — excluding all formerly enslaved men",
+          "textEs": "Exempting from literacy tests anyone whose grandfather had been eligible to vote before 1867 — excluding all formerly enslaved men",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Imposing poll taxes except on citizens who could show their grandfather had paid taxes",
+          "textEs": "Imposing poll taxes except on citizens who could show their grandfather had paid taxes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Requiring voters to prove three generations of residency in the state before registering",
+          "textEs": "Requiring voters to prove three generations of residency in the state before registering",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Restricting ballot access to the Republican Party, which was the party of Lincoln and slavery",
+          "textEs": "Restricting ballot access to the repúblicaan Party, which was the party of Lincoln and slavery",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Grandfather clauses were voting rules that exempted many illiterate white men from restrictions if their ancestors had voted before the Civil War, effectively disfranchising Black citizens. A choice saying they expanded voting rights equally is wrong because their real purpose was racial exclusion. They became part of the legal system that sustained Jim Crow.",
+      "explanationEs": "Grandfather clauses were voting rules that exempted many illiterate white men from restrictions if their ancestors had voted before the Guerra Civil, effectively disfranchising Black citizens. A choice saying they expanded derechos de voto equally is wrong because their real purpose was racial exclusion. They became part of the legal system that sustained Jim Crow, especially in this item's emphasis on southern states used grandfather clauses disenfranchise.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.17,
+        "b": -0.72,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us17-dok2-interpretation",
+      "stem": "Interpret: What did the creation of the Federal Reserve System reveal about Progressive Era attitudes toward government's role in the economy?",
+      "stemEs": "Interprete: ¿Qué reveló la creación del Sistema de Reserva Federal sobre las actitudes de la Era Progresista hacia el papel del gobierno en la economía?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Financial panics, inflexible currency, and bank power",
+          "textEs": "Los bancos deberían operar sin ninguna supervisión gubernamental",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Monitor and prevent unfair business practices and deceptive advertising",
+          "textEs": "El gobierno debería tomar control completo de todos los negocios privados",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Regulate the nation's money supply and banking system",
+          "textEs": "El gobierno debería evitar cualquier participación en asuntos económicos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Government should regulate banking to prevent financial crises",
+          "textEs": "El gobierno debería regular la banca para prevenir pánicos financieros",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Creating the Federal Reserve showed that Progressives believed the national government should actively manage the economy instead of waiting for the market to correct itself. A choice saying Progressives wanted no federal role in banking is wrong because the Fed represented a major expansion of that role. The reform showed how deeply faith in expertise and regulation shaped the era.",
+      "explanationEs": "La Ley de la Reserva Federal (1913) mostró que los progresistas creían que el gobierno debería jugar un papel activo en estabilizar la economía. Veían la regulación gubernamental como necesaria para prevenir pánicos financieros y proteger el interés público, representando un cambio de la economía laissez-faire.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.4,
+        "b": -0.05,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us17-dok2-fedreserve",
+      "stem": "What problems did the Federal Reserve System address?",
+      "stemEs": "¿Qué problemas abordó el Sistema de la Reserva Federal?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Excessive taxation and uncontrolled government spending",
+          "textEs": "Altos impuestos y gasto gubernamental",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Foreign trade imbalances and declining export revenue",
+          "textEs": "Desequilibrios de comercio exterior",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Ongoing labor disputes and rising union organization",
+          "textEs": "Disputas laborales y organización sindical",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Financial panics, inflexible currency, and bank power",
+          "textEs": "Pánicos financieros, moneda inflexible y poder bancario concentrado",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Federal Reserve System was created to stabilize banking, provide an elastic currency, and reduce the financial panics that had shaken the economy. A choice about direct election reforms is wrong because the Fed dealt with money and credit, not voting procedures. It remains a core institution of the modern American economy.",
+      "explanationEs": "La Ley de la Reserva Federal (1913) abordó problemas revelados por el Pánico de 1907: pánicos financieros recurrentes, una moneda inflexible que no podía expandirse durante crisis y poder bancario concentrado en pocas instituciones grandes.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.06,
+        "b": -0.23,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us17-dok2-1-u2",
+      "stem": "How did President Wilson's \"New Freedom\" program differ from Roosevelt's approach?",
+      "stemEs": "¿Cómo se diferenció el programa \"Nueva Libertad\" del Presidente Wilson del enfoque de Roosevelt?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wilson wanted to break up monopolies entirely, while Roosevelt preferred regulating them",
+          "textEs": "Wilson quería desmantelar los monopolios por completo, mientras Roosevelt prefería regularlos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He received a letter from his mother urging him to \"be a good boy\" and vote for suffrage",
+          "textEs": "Wilson se oponía a toda regulación gubernamental mientras Roosevelt la apoyaba",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It clarified illegal business practices and exempted labor unions from antitrust suits",
+          "textEs": "Wilson se enfocó exclusivamente en política exterior mientras Roosevelt se enfocó en doméstica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It provided a scientific-sounding justification for inequality and opposing regulation",
+          "textEs": "Wilson y Roosevelt tenían plataformas y políticas progresistas idénticas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wilson’s New Freedom originally sought to restore competition by breaking up concentrated power, while Roosevelt was more willing to regulate large corporations he considered useful. A choice saying Wilson opposed reform is wrong because he backed major legislation like the Federal Reserve Act and FTC. The difference shows that Progressives shared goals but not always methods.",
+      "explanationEs": "La Nueva Libertad de Wilson buscaba eliminar monopolios y restaurar la competencia, mientras el Nuevo Nacionalismo de Roosevelt aceptaba grandes corporaciones pero quería una fuerte regulación gubernamental.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.03,
+        "b": -0.3,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-q07",
+      "stem": "Wilson's approach to progressive reform differed from Theodore Roosevelt's primarily because Wilson —",
+      "stemEs": "Wilson's approach to progressive reform differed from Theodore Roosevelt's primarily because Wilson —",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Supported only environmental conservation, not economic reform",
+          "textEs": "Supported only environmental conservation, not economic reform",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Focused on restoring competition rather than regulating big business",
+          "textEs": "Focused on restoring competition rather than regulating big business",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Opposed most forms of government regulation of business",
+          "textEs": "Opposed most forms of government regulation of business",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Emphasized international affairs over domestic reform",
+          "textEs": "Emphasized international affairs over domestic reform",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wilson differed from Roosevelt because he focused more on restoring competition by breaking up concentrated power, while Roosevelt accepted many large corporations as long as they were regulated. Choice A is wrong because Wilson cared about economic reform as well as other Progressive issues. Choice C is wrong because Wilson supported strong federal action through measures like the Federal Reserve and FTC. The contrast shows two different Progressive answers to the problem of big business.",
+      "explanationEs": "Wilson differed from Roosevelt because he focused more on restoring competition by breaking up concentrated power, while Roosevelt accepted many large corporations as long as they were regulated. Choice A is wrong because Wilson cared about economic reform as well as other Progressive issues. Choice C is wrong because Wilson supported strong federal action through measures like the Federal Reserve and FTC. The contrast shows two different Progressive answers to the problem of big business.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.82,
+        "b": 0.53,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-q10",
+      "stem": "Which statement best explains the long-term significance of Wilson's progressive domestic achievements?",
+      "stemEs": "¿Qué afirmación describe mejor explains the long-term significance of Wilson's progressive domestic achievements?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They proved that federal government intervention was consistently harmful to long-term economic growth",
+          "textEs": "They proved that gobierno federal intervention was consistently harmful to long-term economic growth",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They permanently solved all economic and environmental problems facing the nation",
+          "textEs": "They permanently solved all economic and environmental problems facing the nation",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They established lasting institutional frameworks for federal economic regulation, antitrust enforcement, and fiscal policy",
+          "textEs": "They established lasting institutional frameworks for federal economic regulation, antifideicomiso enforcement, and fiscal policy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They were quickly reversed by subsequent administrations and had minimal long-term impact on American governance",
+          "textEs": "They were quickly reversed by subsequent administrations and had minimal long-term impact on American governance",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wilson's domestic reforms had lasting importance because they created institutions such as the Federal Reserve and FTC that still shape banking, business regulation, and federal policy. Choice A is wrong because those reforms were not generally seen as harmful across the long term. Choice D is wrong because many of Wilson's measures remained in place instead of disappearing quickly. His presidency helped build the modern regulatory state.",
+      "explanationEs": "Wilson's domestic reforms had lasting importance because they created institutions such as the Federal Reserve and FTC that still shape banking, business regulation, and federal policy. Choice A is wrong because those reforms were not generally seen as harmful across the long term. Choice D is wrong because many of Wilson's measures remained in place instead of disappearing quickly. His presidency helped build the modern regulatory state.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 0.55,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x024",
+      "stem": "The Progressive Era conservation movement and today's environmental movement share which characteristic?",
+      "stemEs": "The Era Progresista conservation movement and today's environmental movement share which characteristic?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Both have focused primarily on protecting wilderness areas rather than managing resources for human use",
+          "textEs": "Both have focused primarily on protecting wilderness areas rather than managing resources for human use",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Both have faced opposition from industrial and commercial interests that benefit from resource extraction",
+          "textEs": "Both have faced opposition from industrial and commercial interests that benefit from resource extraction",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both are primarily driven by scientific consensus about the need to protect specific ecosystems",
+          "textEs": "Both are primarily driven by scientific consensus about the need to protect specific ecosystems",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both use government regulation as the primary tool for protecting natural resources from commercial exploitation",
+          "textEs": "Both use government regulation as the primary tool for protecting natural resources from commercial exploitation",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Both Progressive conservationists and modern environmentalists have faced strong resistance from businesses that profit from extracting or developing natural resources. A choice saying both movements focused only on wilderness is wrong because each included debates over use, preservation, and regulation. Economic interests have remained one of the biggest obstacles to environmental reform.",
+      "explanationEs": "Both Progressive conservationists and modern environmentalists have faced strong resistance from businesses that profit from extracting or developing natural resources. A choice saying both movements focused only on wilderness is wrong because each included debates over use, preservation, and regulation. Economic interests have remained one of the biggest obstacles to environmental reform.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.91,
+        "b": 1.55,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-17-x029",
+      "stem": "The legal architecture of Jim Crow was dismantled gradually because —",
+      "stemEs": "The legal architecture of Jim Crow was dismantled gradually because —",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Federal civil rights enforcement agencies created by Congress in 1875 were reactivated after WWII",
+          "textEs": "Federal derechos civiles enforcement agencies created by Congreso in 1875 were reactivated after WWII",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Southern courts became increasingly willing to apply constitutional principles to racial cases after WWI",
+          "textEs": "Southern courts became increasingly willing to apply constitucional principles to racial cases after WWI",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The NAACP Legal Defense Fund pursued a careful strategy of incremental litigation over four decades",
+          "textEs": "The NAACP Legal Defense Fund pursued a careful strategy of incremental litigation over four decades",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "International pressure during the Cold War forced Southern states to voluntarily reform Jim Crow",
+          "textEs": "International pressure during the Guerra Fría forced Southern states to voluntarily reform Jim Crow",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Jim Crow was dismantled gradually because the NAACP Legal Defense Fund used a long, carefully planned series of court cases to weaken segregation step by step. A choice saying Southern states voluntarily gave up segregation is wrong because change usually came through sustained legal and political pressure. This strategy culminated in major civil rights victories in the mid-20th century.",
+      "explanationEs": "Jim Crow was dismantled gradually because the NAACP Legal Defense Fund used a long, carefully planned series of court cases to weaken segregación step by step. A choice saying Southern states voluntarily gave up segregación is wrong because change usually came through sustained legal and political pressure. This strategy culminated in major derechos civiles victories in the mid-20th century.",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.47,
+        "b": 0.75,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U2-DOK2-0014",
+      "stem": "The creation of the National Park System in the early twentieth century reflected which broader Progressive Era goal?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Limiting federal authority over public lands",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Conserving natural resources and public lands for future generations",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Promoting unrestricted commercial use of natural resources",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Privatizing federally owned western territories",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Setting aside national parks and creating a federal agency to run them expressed the Progressive conservation goal of managing natural resources and public lands in the long-term public interest rather than leaving them to unrestricted private exploitation. Choice A is wrong because the park system enlarged federal authority over public land. Choice C is wrong because conservation limited commercial use rather than promoting it without restriction. The period also revealed the split between conservationists like Gifford Pinchot, who favored managed use, and preservationists like John Muir, who favored leaving wilderness untouched.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1,
+        "b": 0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "U2-DOK2-0018",
+      "stem": "How did Woodrow Wilson's Federal Reserve Act of 1913 address the economic instability caused by the nation's banking system?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It nationalized all private banks and placed them under direct federal ownership and management to prevent financial panics",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It created a system of regional federal banks with a central board to regulate currency, interest rates, and banking practices",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It established a flat federal tax on all bank profits to fund a national emergency financial reserve available to all states",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It required all banks to back their loans with gold reserves equal to 100 percent of the money they lent to customers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Federal Reserve Act created twelve regional Federal Reserve Banks overseen by a Board of Governors, giving the federal government tools to stabilize the money supply, set interest rates, and serve as a lender of last resort during banking panics — addressing the instability exposed by the Panic of 1907.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0001",
+      "stem": "Read the excerpt below.\n\n\"The war has brought together nations of different races, creeds, and cultures, all fighting under one banner for one cause — the liberation of Europe from tyranny. The map of the world has been redrawn in blood.\" — Woodrow Wilson, Address to Congress, 1917\n\nWhich of the following best describes the geographic consequence of World War I referenced in this excerpt?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The United States gained new colonial territories in Europe following the war.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "European colonial empires expanded significantly into Africa and Asia after the war.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The war led to the dissolution of empires and the creation of new nations across Europe and the Middle East.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Germany was eliminated as a nation and its territory absorbed into France and Britain.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wilson's reference to the map of the world being 'redrawn' points to the major territorial reorganization that followed WWI, especially in Europe and the Middle East. The dissolution of empires (Ottoman, Austro-Hungarian, German, Russian) and the creation of new nations was one of the most significant geographic consequences of the war. Option A is incorrect because the U.S. did not acquire significant overseas territory from WWI. Option B is incorrect because colonialism persisted after WWI. Option D is incorrect because Germany retained its mainland territory, losing primarily overseas colonies.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0002",
+      "stem": "Read the excerpt below.\n\n\"The Treaty of Versailles has stripped Germany of its colonies, its merchant ships, its foreign investments, and has imposed upon it a burden of reparations which must crush its industry for generations.\" — John Maynard Keynes, The Economic Consequences of the Peace, 1919\n\nWhich of the following geographic changes imposed by the Treaty of Versailles does this excerpt most directly describe?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Germany lost its overseas colonial territories, which were redistributed as League of Nations mandates.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Germany was forced to return Alsace-Lorraine to the United States.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Germany was divided into four occupation zones controlled by the Allied powers.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Germany was required to cede the Rhineland to France as a permanent territory.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Keynes criticizes the Versailles settlement's economic and territorial terms, specifically the loss of colonies — a major geographic consequence. Germany lost all of its overseas colonies, which were redistributed as League of Nations mandates. Option B is incorrect because Alsace-Lorraine was a continental, not colonial, territory. Option C is incorrect as Germany was not partitioned after WWI (that happened after WWII). Option D is incorrect because the Rhineland was demilitarized but remained German territory.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0003",
+      "stem": "Read the excerpt below.\n\n\"Millions of men have left their villages, their farms, and their cities to fight in lands they have never seen. The trenches of France, the deserts of Mesopotamia, and the seas of the Pacific have become the new geography of this war.\" — British War Office Report, 1916\n\nBased on this excerpt, which of the following best describes a geographic impact of World War I on the soldiers who fought in it?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The war accelerated European immigration to the United States by opening new trade routes.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The war was fought across multiple distant geographic theaters, drawing soldiers far from their home regions.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The war immediately created dozens of new independent nations across Africa and Asia.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Industrial cities shrank as war production shifted from urban centers to rural factories.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The excerpt highlights how WWI was fought across multiple distant theaters of war — France, the Middle East (Mesopotamia), and the seas. This illustrates that the war's geographic scope pulled men from their home regions to fight in unfamiliar and distant territories across multiple continents. Option A is incorrect because immigration patterns were disrupted, not accelerated, during the war. Option C is incorrect because new nations were not yet created during the fighting itself. Option D is incorrect because industrial cities grew, not shrank, during the war.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1,
+        "b": -0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0004",
+      "stem": "Read the excerpt below.\n\n\"The Ottoman Empire's collapse has created a vacuum in the Middle East. The Sykes-Picot Agreement, drawn in secret, has divided Arab lands between Britain and France, drawing borders that bear no resemblance to the cultural or tribal boundaries of the people who live there.\" — T.E. Lawrence, 1919\n\nWhich of the following geographic consequences of WWI does this passage most directly address?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The collapse of Austria-Hungary led to the reorganization of Balkan states under Ottoman supervision.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The United States received the territories of Palestine and Iraq as compensation for its wartime contributions.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Britain and France directly annexed all former Ottoman territories, eliminating Arab political identity.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "European powers divided Middle Eastern lands according to their own interests rather than the cultural boundaries of local peoples.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "T.E. Lawrence criticizes the Sykes-Picot Agreement, which divided former Ottoman territories in the Middle East between Britain and France without regard for the existing ethnic, religious, or tribal boundaries of the local populations. This is a direct reference to the imposition of arbitrary colonial borders on the Middle East following WWI. Option A is incorrect because Austria-Hungary, not the Ottoman Empire, controlled the Balkans. Option B is incorrect because the U.S. did not receive Middle Eastern territories. Option C is incorrect because the League of Nations mandate system, not annexation, was used.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.5,
+        "c": 0.18
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0005",
+      "stem": "Read the excerpt below.\n\n\"The Austro-Hungarian Empire, once a great power stretching from the Alps to the Adriatic, no longer exists. In its place, Czechoslovakia, Yugoslavia, Hungary, and Austria have emerged — each struggling to define its borders and its people.\" — Paris Peace Conference Summary, 1919\n\nWhich of the following best summarizes the geographic impact described in this excerpt?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The collapse of the Austro-Hungarian Empire resulted in the creation of several new independent nations in Central Europe.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Germany was divided into smaller republics that replaced the dissolved Austro-Hungarian Empire.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The League of Nations took direct administrative control over the newly formed Central European states.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Austro-Hungarian Empire merged with Russia to form the Soviet Union after the war.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The excerpt describes the fragmentation of the Austro-Hungarian Empire following WWI and the creation of several new states in its place. This reflects the principle of national self-determination promoted at the Paris Peace Conference, which led to the geographic reorganization of Central Europe. Option B is incorrect because Germany was not absorbed into new states. Option C is incorrect because the League of Nations did not govern Central European states directly. Option D is incorrect because Russia, not Austria-Hungary, formed the Soviet Union.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.1,
+        "b": 0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PS-0006",
+      "stem": "Read the excerpt below.\n\n\"The great migration has begun. Hundreds of thousands of Black Americans are leaving the fields of Mississippi and Alabama for the factories of Chicago and Detroit, drawn by wages and the promise of freedom from Jim Crow.\" — Chicago Defender, 1917\n\nWhich of the following best describes the geographic change referenced in this excerpt as a consequence of World War I?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "European immigrants flooded into Southern cities to fill agricultural jobs vacated by Black farmers.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The federal government relocated Black Americans to Northern cities as part of a wartime labor mandate.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Large numbers of Black Americans migrated from the rural South to Northern industrial cities in search of economic opportunity and greater freedom.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The war caused Black Americans to leave Northern cities and return to Southern farms to meet increased agricultural demand.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The excerpt from the Chicago Defender describes the Great Migration — the massive movement of Black Americans from the rural South to Northern industrial cities, accelerated by WWI's demand for factory labor. This was one of the most significant internal geographic shifts in U.S. history during the WWI era. Option A is incorrect because this describes foreign immigration, not internal migration. Option B is incorrect because the military did not mandate relocation. Option D is incorrect because Black Americans moved toward, not away from, cities.",
+      "explanationEs": "",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "primary-source",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q-us2-dok4-cr4",
+      "stem": "A student argues: \"World War I marked the end of American isolationism.\" Write a well-supported response that either agrees, disagrees, or modifies this claim, using evidence from U.S. entry into WWI, wartime domestic policy, and postwar foreign policy decisions.",
+      "stemEs": "Un estudiante argumenta: \"La Primera Guerra Mundial marcó el fin del aislacionismo americano.\" Escriba una respuesta bien fundamentada que esté de acuerdo, en desacuerdo o modifique esta afirmación.",
+      "itemType": "constructed-response",
+      "correctAnswer": "The strongest response modifies the claim: WWI temporarily ended isolationism but the Senate's rejection of the Treaty of Versailles and the return to \"normalcy\" in the 1920s showed that isolationist sentiment remained powerful. Evidence should include: Wilson's shift from neutrality to war, the Espionage and Sedition Acts domestically, Senate rejection of the League, and 1920s immigration restrictions and tariffs.",
+      "choices": [],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The strongest response will probably modify the claim by showing that World War I pushed the United States into world affairs but did not fully end isolationist thinking. A strong answer should use evidence such as Wilson’s move from neutrality to war, wartime laws like the Espionage and Sedition Acts, the Senate’s rejection of the Treaty of Versailles and League of Nations, and the return to restrictionist policies in the 1920s. This issue matters because it shows that US foreign policy often shifts between international involvement and withdrawal rather than moving in a straight line.",
+      "explanationEs": "Este ítem DOK 4 requiere que los estudiantes evalúen una afirmación histórica y construyan una tesis matizada.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.45,
+        "b": 1,
+        "c": 0
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "teacher",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-038",
+      "stem": "Woodrow Wilson's 'New Freedom' philosophy differed from Theodore Roosevelt's 'New Nationalism' in its approach to the relationship between government and business. Which of the following best explains the fundamental philosophical difference between these two Progressive visions?",
+      "stemEs": "La filosofía de la 'Nueva Libertad' de Woodrow Wilson difería del 'Nuevo Nacionalismo' de Theodore Roosevelt en su enfoque de la relación entre el gobierno y los negocios. ¿Cuál de las siguientes opciones explica mejor la diferencia filosófica fundamental entre estas dos visiones progresistas?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Roosevelt accepted large corporations as efficient and proposed government regulation of them; Wilson distrusted all concentrated power and preferred breaking up trusts to restore market competition rather than managing regulated monopoly.",
+          "textEs": "Roosevelt aceptaba a las grandes corporaciones como eficientes y propuso la regulación gubernamental de ellas; Wilson desconfiaba de todo poder concentrado y prefería desmantelar los fideicomisos para restaurar la competencia de mercado en lugar de gestionar el monopolio regulado.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Roosevelt wanted federal regulation of corporations while Wilson wanted state governments to have primary regulatory authority over businesses operating within their borders.",
+          "textEs": "Roosevelt quería la regulación federal de las corporaciones mientras Wilson quería que los gobiernos estatales tuvieran autoridad regulatoria principal sobre las empresas que operaban dentro de sus fronteras.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Roosevelt's New Nationalism was more conservative because it preserved existing corporate structures; Wilson's New Freedom was more radical because it called for nationalizing major industries.",
+          "textEs": "El Nuevo Nacionalismo de Roosevelt era más conservador porque preservaba las estructuras corporativas existentes; la Nueva Libertad de Wilson era más radical porque pedía la nacionalización de las principales industrias.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The fundamental difference was religious: Roosevelt's Protestant nationalism supported government intervention in the economy while Wilson's Calvinist theology led him to prefer individual economic liberty over collective regulation.",
+          "textEs": "La diferencia fundamental era religiosa: el nacionalismo protestante de Roosevelt apoyaba la intervención gubernamental en la economía mientras que la teología calvinista de Wilson lo llevaba a preferir la libertad económica individual sobre la regulación colectiva.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Roosevelt's New Nationalism accepted that large corporations were efficient and inevitable; the task of government was to regulate them in the public interest through a powerful federal administrative state. Wilson's New Freedom distrusted concentrated power in both corporations AND government; he preferred to restore competitive markets by breaking up large trusts rather than regulating them, arguing that regulated monopolies were still monopolies. Wilson's fear was that a government powerful enough to control big business would itself become an instrument of that business. This was fundamentally a debate about whether the cure for concentrated private power was concentrated public power (TR) or decentralized market competition (Wilson).",
+      "explanationEs": "El Nuevo Nacionalismo de Roosevelt aceptaba que las grandes corporaciones eran eficientes e inevitables; la tarea del gobierno era regularlas en beneficio público a través de un poderoso estado administrativo federal. La Nueva Libertad de Wilson desconfiaba del poder concentrado tanto en las corporaciones como en el gobierno; prefería restaurar los mercados competitivos desmantelando los grandes fideicomisos en lugar de regularlos, argumentando que los monopolios regulados seguían siendo monopolios. El temor de Wilson era que un gobierno lo suficientemente poderoso como para controlar a los grandes negocios se convertiría en un instrumento de esos mismos negocios. Este era fundamentalmente un debate sobre si la cura para el poder privado concentrado era el poder público concentrado (TR) o la competencia de mercado descentralizada (Wilson).",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.06,
+        "b": 1.29,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-039",
+      "stem": "The Federal Reserve Act of 1913 created a centralized banking system with both public and private elements. Which of the following best explains why this hybrid structure represented a political compromise that satisfied neither pure free-market advocates nor populist banking reformers?",
+      "stemEs": "La Ley de la Reserva Federal de 1913 creó un sistema bancario centralizado con elementos tanto públicos como privados. ¿Cuál de las siguientes opciones explica mejor por qué esta estructura híbrida representó un compromiso político que no satisfizo ni a los defensores del libre mercado puro ni a los reformistas bancarios populistas?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Free-market advocates accepted the Federal Reserve but populists rejected it because the Act included a provision allowing only farmers to borrow directly from reserve banks at subsidized rates.",
+          "textEs": "Los defensores del libre mercado aceptaron la Reserva Federal pero los populistas la rechazaron porque la Ley incluía una disposición que permitía solo a los agricultores pedir prestado directamente a los bancos de reserva a tasas subsidiadas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The hybrid structure satisfied neither group primarily because the Federal Reserve's interest rate decisions were made in secret, making it impossible for either market advocates or democratic reformers to hold it accountable.",
+          "textEs": "La estructura híbrida no satisfizo a ninguno de los grupos principalmente porque las decisiones de tasas de interés de la Reserva Federal se tomaban en secreto, lo que hacía imposible que los defensores del mercado o los reformistas democráticos la responsabilizaran.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Free-market advocates opposed any government oversight of banking, while populists wanted government-owned banks providing cheap credit; the hybrid gave private bankers operational control of reserve banks while adding only nominal public supervision.",
+          "textEs": "Los defensores del libre mercado se oponían a cualquier supervisión gubernamental de la banca, mientras los populistas querían bancos de propiedad gubernamental que proporcionaran crédito barato; el híbrido dio a los banqueros privados el control operativo de los bancos de reserva mientras añadía solo supervisión pública nominal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The hybrid structure failed because the twelve regional reserve banks could not coordinate monetary policy effectively, causing the banking panics of the 1920s that neither reformers nor market advocates had predicted.",
+          "textEs": "La estructura híbrida fracasó porque los doce bancos de reserva regionales no podían coordinar eficazmente la política monetaria, causando los pánicos bancarios de la década de 1920 que ni los reformistas ni los defensores del mercado habían predicho.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Federal Reserve's structure — twelve regional reserve banks owned by member banks (private) but overseen by a presidentially appointed Federal Reserve Board (public) — was a deliberate compromise. Pure free-market advocates opposed any government role in banking, arguing that the market should determine credit availability and interest rates. Populist banking reformers (building on the Granger/Populist tradition) wanted a government-owned bank that would provide cheap credit to farmers and working people without the intermediation of private bankers. The compromise preserved private bankers' control over the actual reserve banks while adding public oversight — an outcome that left private banking power largely intact while giving reformers the appearance of control.",
+      "explanationEs": "La estructura de la Reserva Federal —doce bancos de reserva regionales de propiedad de los bancos miembros (privados) pero supervisados por una Junta de la Reserva Federal nombrada presidencialmente (pública)— fue un compromiso deliberado. Los defensores del libre mercado puro se oponían a cualquier papel gubernamental en la banca, argumentando que el mercado debería determinar la disponibilidad de crédito y las tasas de interés. Los reformistas bancarios populistas (basándose en la tradición Granger/Populista) querían un banco de propiedad gubernamental que proporcionara crédito barato a los agricultores y trabajadores sin la intermediación de banqueros privados. El compromiso preservó el control de los banqueros privados sobre los bancos de reserva reales mientras añadía supervisión pública, un resultado que dejó el poder bancario privado en gran medida intacto mientras daba a los reformistas la apariencia de control.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.35,
+        "b": 1.55,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-040",
+      "stem": "Wilson's establishment of the National Park Service in 1916 built on Roosevelt's conservation policies but institutionalized them differently. Which of the following best explains the significance of creating a permanent bureaucratic agency to manage public lands?",
+      "stemEs": "El establecimiento del Servicio Nacional de Parques por Wilson en 1916 se basó en las políticas de conservación de Roosevelt pero las institucionalizó de manera diferente. ¿Cuál de las siguientes opciones explica mejor el significado de crear una agencia burocrática permanente para gestionar las tierras públicas?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The NPS was significant primarily because it provided federal employment for thousands of workers in Western states, expanding the political coalition supporting conservation policy.",
+          "textEs": "El NPS fue significativo principalmente porque proporcionó empleo federal a miles de trabajadores en los estados occidentales, expandiendo la coalición política que apoyaba la política de conservación.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Creating the NPS was significant because it resolved the philosophical conflict between Pinchot's utilitarian conservation and Muir's preservationism by adopting a clear policy of strict preservation for all public lands.",
+          "textEs": "Crear el NPS fue significativo porque resolvió el conflicto filosófico entre la conservación utilitaria de Pinchot y el preservacionismo de Muir al adoptar una política clara de preservación estricta para todas las tierras públicas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The NPS was constitutionally significant because it was the first federal agency whose authority was based entirely on the property clause of the Constitution rather than the Commerce Clause.",
+          "textEs": "El NPS fue constitucionalmente significativo porque fue la primera agencia federal cuya autoridad se basó enteramente en la cláusula de propiedad de la Constitución en lugar de la Cláusula de Comercio.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A permanent statutory agency was more durable than executive conservation orders, institutionalizing reform in ways that could survive changes in presidential administration and resist reversal by less conservation-minded successors.",
+          "textEs": "Una agencia estatutaria permanente era más duradera que las órdenes ejecutivas de conservación, institucionalizando la reforma de maneras que podían sobrevivir a los cambios en la administración presidencial y resistir la reversión por parte de sucesores menos comprometidos con la conservación.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Creating the NPS institutionalized conservation policy by making it independent of presidential personality and party control. Roosevelt's conservation relied heavily on executive discretion and could be reversed by a less conservation-minded president — as William Howard Taft demonstrated when he opened previously protected areas to development. A permanent agency with statutory authority, professional staff, and a specific mission is far more resistant to reversal than executive orders or informal presidential policy. The NPS represented the Progressive Era's broader insight that durable reform required creating bureaucratic institutions, not simply electing reform presidents, a lesson that shaped New Deal and Great Society institutional design.",
+      "explanationEs": "La creación del NPS institucionalizó la política de conservación haciéndola independiente de la personalidad presidencial y el control partidista. La conservación de Roosevelt dependía en gran medida de la discreción ejecutiva y podía revertirse con un presidente menos comprometido con la conservación, como lo demostró William Howard Taft cuando abrió áreas previamente protegidas al desarrollo. Una agencia permanente con autoridad estatutaria, personal profesional y una misión específica es mucho más resistente a la reversión que las órdenes ejecutivas o la política presidencial informal. El NPS representó la visión más amplia de la Era Progresista de que la reforma duradera requería crear instituciones burocráticas, no simplemente elegir presidentes reformistas, una lección que moldeó el diseño institucional del New Deal y la Gran Sociedad.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.22,
+        "b": 0.57,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-063",
+      "stem": "Theodore Roosevelt and Woodrow Wilson both portrayed their Progressive programs as defending 'the people' against concentrated power. Yet their programs differed in important ways. Which of the following best explains what 'the people' meant in each president's political philosophy?",
+      "stemEs": "Theodore Roosevelt y Woodrow Wilson ambos presentaron sus programas progresistas como la defensa de 'el pueblo' contra el poder concentrado. Sin embargo, sus programas diferían de maneras importantes. ¿Cuál de las siguientes opciones explica mejor qué significaba 'el pueblo' en la filosofía política de cada presidente?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "For both Roosevelt and Wilson, 'the people' meant the same thing: the rural agricultural population that had been dispossessed by industrial capitalism and needed government protection against urban financial interests.",
+          "textEs": "Para Roosevelt y Wilson, 'el pueblo' significaba lo mismo: la población agrícola rural que había sido desposeída por el capitalismo industrial y necesitaba protección gubernamental contra los intereses financieros urbanos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Roosevelt meant working-class Americans who needed government to redistribute wealth downward, while Wilson meant middle-class Americans who needed government to reduce taxes and limit federal spending.",
+          "textEs": "Roosevelt se refería a los estadounidenses de clase trabajadora que necesitaban que el gobierno redistribuyera la riqueza hacia abajo, mientras que Wilson se refería a los estadounidenses de clase media que necesitaban que el gobierno redujera los impuestos y limitara el gasto federal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Roosevelt's 'people' were a cross-class national community whose collective interests required government management of the economy; Wilson's 'people' were individual producers and entrepreneurs who needed government to restore competitive market conditions so they could succeed on their own.",
+          "textEs": "El 'pueblo' de Roosevelt era una comunidad nacional transclasista cuyos intereses colectivos requerían la gestión gubernamental de la economía; el 'pueblo' de Wilson eran productores individuales y empresarios que necesitaban que el gobierno restaurara condiciones de mercado competitivas para que pudieran tener éxito por sí solos.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both presidents used 'the people' primarily as rhetorical language with no specific content, and neither actually intended to redistribute power from wealthy elites to ordinary citizens in any meaningful way.",
+          "textEs": "Ambos presidentes usaban 'el pueblo' principalmente como lenguaje retórico sin contenido específico, y ninguno de los dos pretendía realmente redistribuir el poder de las élites ricas a los ciudadanos ordinarios de ninguna manera significativa.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Roosevelt's 'the people' had a nationalist, cross-class character: the national community whose collective interests the government should serve by regulating both big business and big labor in the public interest — a community that included some place for corporations as long as they served national purposes. Wilson's 'the people' had a more libertarian, individualist character: small producers, entrepreneurs, and independent workers who needed government to break monopoly power so that free individual competition could operate, not government to manage the economy on their behalf. Roosevelt wanted a strong national government managing the modern industrial economy for collective benefit; Wilson wanted government to restore competitive conditions so individuals could compete freely without government direction. Both claimed to defend 'the people' but meant fundamentally different things by the term.",
+      "explanationEs": "El 'pueblo' de Roosevelt tenía un carácter nacionalista y transclasista: la comunidad nacional cuyos intereses colectivos el gobierno debía servir regulando tanto a las grandes empresas como a los grandes sindicatos laborales en beneficio público, una comunidad que incluía algún lugar para las corporaciones siempre que sirvieran a propósitos nacionales. El 'pueblo' de Wilson tenía un carácter más libertario e individualista: pequeños productores, empresarios y trabajadores independientes que necesitaban que el gobierno rompiera el poder del monopolio para que la competencia individual libre pudiera operar, no que el gobierno administrara la economía en su nombre. Roosevelt quería un gobierno nacional fuerte que administrara la moderna economía industrial para el beneficio colectivo; Wilson quería que el gobierno restaurara condiciones competitivas para que los individuos pudieran competir libremente sin dirección gubernamental. Ambos afirmaban defender 'al pueblo' pero significaban cosas fundamentalmente diferentes por el término.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.09,
+        "b": 0.78,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-074",
+      "stem": "The Adamson Act of 1916 established an eight-hour workday for interstate railroad workers — the first federal law regulating hours for workers in private industry. Which of the following best evaluates the significance of this law beyond its immediate practical effect on railroad workers?",
+      "stemEs": "La Ley Adamson de 1916 estableció una jornada laboral de ocho horas para los trabajadores ferroviarios interestatales, la primera ley federal que regulaba las horas para los trabajadores en la industria privada. ¿Cuál de las siguientes opciones evalúa mejor el significado de esta ley más allá de su efecto práctico inmediato en los trabajadores ferroviarios?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Adamson Act established federal Commerce Clause authority to regulate private industry working conditions — a constitutional precedent that the New Deal would later expand dramatically — while demonstrating organized labor's political power.",
+          "textEs": "La Ley Adamson estableció la autoridad de la Cláusula de Comercio federal para regular las condiciones de trabajo de la industria privada, un precedente constitucional que el New Deal ampliaría dramáticamente más tarde, mientras demostraba el poder político del trabajo organizado.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Adamson Act was significant primarily as a pre-election political gesture that Wilson used to secure railroad union support without any intention of enforcing the law or extending its principles to other industries.",
+          "textEs": "La Ley Adamson fue significativa principalmente como un gesto político pre-electoral que Wilson usó para asegurar el apoyo del sindicato ferroviario sin ninguna intención de hacer cumplir la ley o extender sus principios a otras industrias.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Act's significance was primarily symbolic: because the Supreme Court immediately struck it down as an unconstitutional interference with private contracts, it served only to energize the Progressive labor coalition for subsequent reform efforts.",
+          "textEs": "El significado de la Ley fue principalmente simbólico: debido a que la Corte Suprema la anuló inmediatamente como una interferencia inconstitucional con los contratos privados, solo sirvió para energizar a la coalición laboral progresista para esfuerzos de reforma posteriores.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Adamson Act demonstrated that Progressive Era labor reform was ultimately driven by corporate interests rather than worker advocacy, as railroad companies supported the eight-hour day because it would allow them to standardize shift schedules and reduce overtime costs.",
+          "textEs": "La Ley Adamson demostró que la reforma laboral de la Era Progresista fue impulsada en última instancia por los intereses corporativos más que por la defensa de los trabajadores, ya que las compañías ferroviarias apoyaban la jornada de ocho horas porque les permitiría estandarizar los horarios de turno y reducir los costos de horas extra.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Adamson Act was constitutionally and politically significant because it established the principle that the federal government had authority — under the Commerce Clause — to regulate working conditions in private industry engaged in interstate commerce, not merely the wages and hours of government workers or the conditions of their employment. Previous court interpretations had held that labor conditions were private contractual matters beyond federal authority. The Supreme Court's narrow 5-4 upholding of the Adamson Act in Wilson v. New (1917) accepted the Commerce Clause rationale, setting a precedent that the New Deal would dramatically expand in the 1930s. It also demonstrated the political power of organized labor in the railroad brotherhoods, whose threatened strike gave Congress sufficient incentive to act.",
+      "explanationEs": "La Ley Adamson fue constitucional y políticamente significativa porque estableció el principio de que el gobierno federal tenía autoridad, bajo la Cláusula de Comercio, para regular las condiciones de trabajo en la industria privada dedicada al comercio interestatal, no solo los salarios y las horas de los trabajadores gubernamentales o las condiciones de su empleo. Las interpretaciones judiciales anteriores habían sostenido que las condiciones laborales eran asuntos contractuales privados más allá de la autoridad federal. La confirmación por 5-4 de la Corte Suprema de la Ley Adamson en Wilson v. New (1917) aceptó el fundamento de la Cláusula de Comercio, estableciendo un precedente que el New Deal ampliaría dramáticamente en la década de 1930. También demostró el poder político del trabajo organizado en las hermandades ferroviarias, cuya huelga amenazada dio al Congreso suficiente incentivo para actuar.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.62,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-078",
+      "stem": "The Federal Trade Commission Act of 1914 created the FTC to prevent 'unfair methods of competition.' Which of the following best evaluates why the FTC's use of 'unfairness' as its regulatory standard was both an advantage and a disadvantage compared to the Sherman Act's specific prohibitions?",
+      "stemEs": "La Ley de la Comisión Federal de Comercio de 1914 creó la FTC para prevenir 'métodos desleales de competencia'. ¿Cuál de las siguientes opciones evalúa mejor por qué el uso de la 'deslealtad' por parte de la FTC como su estándar regulatorio fue tanto una ventaja como una desventaja en comparación con las prohibiciones específicas de la Ley Sherman?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The 'unfairness' standard's advantage was flexibility to address novel anti-competitive practices; its disadvantage was legal vagueness that created uncertainty for businesses and opportunities for courts to expand or narrow the FTC's mandate unpredictably.",
+          "textEs": "La ventaja del estándar de 'deslealtad' era la flexibilidad para abordar prácticas anticompetitivas novedosas; su desventaja era la vaguedad legal que creaba incertidumbre para las empresas y oportunidades para que los tribunales expandieran o redujeran el mandato de la FTC de manera impredecible.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The 'unfairness' standard was purely advantageous because it was broad enough to cover all possible anti-competitive conduct while remaining narrow enough to avoid capturing legitimate competitive practices that harmed weaker competitors.",
+          "textEs": "El estándar de 'deslealtad' fue puramente ventajoso porque era lo suficientemente amplio para cubrir toda posible conducta anticompetitiva mientras permanecía lo suficientemente estrecho para evitar capturar prácticas competitivas legítimas que dañaban a los competidores más débiles.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The 'unfairness' standard was purely disadvantageous compared to the Sherman Act's specific prohibitions because it gave the FTC no enforcement authority and relied entirely on voluntary compliance by businesses that chose to participate in FTC proceedings.",
+          "textEs": "El estándar de 'deslealtad' fue puramente desventajoso en comparación con las prohibiciones específicas de la Ley Sherman porque no le dio a la FTC ninguna autoridad de aplicación y dependía enteramente del cumplimiento voluntario de las empresas que elegían participar en los procedimientos de la FTC.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The FTC's 'unfairness' standard was both an advantage and disadvantage exclusively in international contexts, where it created flexibility for addressing foreign competition practices that domestic Sherman Act cases could not reach.",
+          "textEs": "El estándar de 'deslealtad' de la FTC fue tanto una ventaja como una desventaja exclusivamente en contextos internacionales, donde creaba flexibilidad para abordar prácticas de competencia extranjeras que los casos domésticos de la Ley Sherman no podían alcanzar.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The 'unfairness' standard gave the FTC flexibility to address new anti-competitive practices as they emerged — businesses are creative in developing new ways to suppress competition, and a flexible standard could adapt to innovations that specific prohibitions would miss. However, that same vagueness meant businesses could not know in advance what conduct would be found 'unfair,' creating legal uncertainty. Courts would also struggle to apply such an open-ended standard consistently, inevitably creating opportunities for the FTC's mandate to be either expanded or narrowed through judicial interpretation. The Sherman Act's specific prohibitions (conspiracies in restraint of trade, attempts to monopolize) were clearer but could be evaded through novel arrangements the drafters did not anticipate. The FTC's flexibility traded legal certainty for adaptive reach.",
+      "explanationEs": "El estándar de 'deslealtad' le dio a la FTC flexibilidad para abordar nuevas prácticas anticompetitivas a medida que surgían: las empresas son creativas para desarrollar nuevas formas de suprimir la competencia, y un estándar flexible podría adaptarse a innovaciones que las prohibiciones específicas perderían. Sin embargo, esa misma vaguedad significaba que las empresas no podían saber de antemano qué conducta sería considerada 'desleal', creando incertidumbre legal. Los tribunales también tendrían dificultades para aplicar un estándar tan abierto de manera consistente, creando inevitablemente oportunidades para que el mandato de la FTC se expandiera o se redujera a través de la interpretación judicial. Las prohibiciones específicas de la Ley Sherman (conspiraciones en restricción del comercio, intentos de monopolizar) eran más claras pero podían eludirse a través de arreglos novedosos que los redactores no anticiparon. La flexibilidad de la FTC intercambió certeza legal por alcance adaptativo.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 2.13,
+        "b": 1.65,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-080",
+      "stem": "The Federal Reserve System created in 1913 established a 'lender of last resort' function for the American banking system. Which of the following best evaluates why this function was considered essential after the financial panics of 1893 and 1907?",
+      "stemEs": "El Sistema de la Reserva Federal creado en 1913 estableció una función de 'prestamista de última instancia' para el sistema bancario estadounidense. ¿Cuál de las siguientes opciones evalúa mejor por qué esta función se consideraba esencial después de los pánicos financieros de 1893 y 1907?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Without a lender of last resort, solvent banks facing liquidity crises were forced to call in loans and trigger economic cascades; the panics of 1893 and 1907 demonstrated that private crisis coordination was insufficient and unpredictable.",
+          "textEs": "Sin un prestamista de última instancia, los bancos solventes que enfrentaban crisis de liquidez se veían obligados a cobrar préstamos y desencadenar cascadas económicas; los pánicos de 1893 y 1907 demostraron que la coordinación privada de crisis era insuficiente e impredecible.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The lender of last resort function was essential because it gave the federal government direct control over the money supply, allowing it to expand credit during recessions and contract it during inflationary periods as needed.",
+          "textEs": "La función de prestamista de última instancia era esencial porque le daba al gobierno federal control directo sobre la oferta monetaria, permitiéndole expandir el crédito durante las recesiones y contraerlo durante los períodos inflacionarios según fuera necesario.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The lender of last resort function was primarily needed to provide low-cost credit directly to farmers and small businesses that commercial banks refused to serve, rather than to stabilize the banking system as a whole.",
+          "textEs": "La función de prestamista de última instancia era necesaria principalmente para proporcionar crédito de bajo costo directamente a agricultores y pequeñas empresas que los bancos comerciales se negaban a atender, en lugar de para estabilizar el sistema bancario en su conjunto.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The lender of last resort function was essential because the panics of 1893 and 1907 had been caused by bank fraud rather than liquidity crises, and a central bank could detect and prevent fraud more effectively than state banking regulators.",
+          "textEs": "La función de prestamista de última instancia era esencial porque los pánicos de 1893 y 1907 habían sido causados por fraude bancario en lugar de crisis de liquidez, y un banco central podría detectar y prevenir el fraude de manera más efectiva que los reguladores bancarios estatales.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Financial panics in the pre-Federal Reserve era operated through a self-reinforcing cycle: doubts about bank solvency triggered deposit withdrawals, which forced banks to call in loans to raise cash, which caused businesses to fail, which reduced the value of bank assets, which increased doubts about bank solvency, triggering more withdrawals. A lender of last resort — an institution that would lend to solvent banks facing temporary liquidity crises — could break this cycle by ensuring that solvent banks had access to cash and did not need to call in loans, stabilizing the credit system. Without a lender of last resort, the banking system was inherently vulnerable to panic cascades regardless of the underlying soundness of individual banks. The 1907 panic demonstrated that private coordination (through J.P. Morgan) was insufficient and unpredictable, making a permanent institutional mechanism essential.",
+      "explanationEs": "Los pánicos financieros en la era previa a la Reserva Federal operaban a través de un ciclo autorreforzante: las dudas sobre la solvencia bancaria desencadenaban retiros de depósitos, que obligaban a los bancos a cobrar préstamos para recaudar efectivo, lo que causaba quiebras empresariales, lo que reducía el valor de los activos bancarios, lo que aumentaba las dudas sobre la solvencia bancaria, desencadenando más retiros. Un prestamista de última instancia, una institución que prestaría a bancos solventes que enfrentaban crisis de liquidez temporales, podía romper este ciclo asegurando que los bancos solventes tuvieran acceso al efectivo y no necesitaran cobrar préstamos, estabilizando el sistema de crédito. Sin un prestamista de última instancia, el sistema bancario era inherentemente vulnerable a las cascadas de pánico independientemente de la solidez subyacente de los bancos individuales. El pánico de 1907 demostró que la coordinación privada (a través de J.P. Morgan) era insuficiente e impredecible, haciendo esencial un mecanismo institucional permanente.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.23,
+        "b": 1.31,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-083",
+      "stem": "The Clayton Antitrust Act (1914) and the Federal Trade Commission Act (1914) were passed under Wilson and claimed to improve on Roosevelt's antitrust approach. Which of the following best evaluates whether the Wilson administration's antitrust framework actually represented an improvement over Roosevelt's approach?",
+      "stemEs": "La Ley Clayton Antimonopolio (1914) y la Ley de la Comisión Federal de Comercio (1914) fueron aprobadas bajo Wilson y afirmaban mejorar el enfoque antimonopolio de Roosevelt. ¿Cuál de las siguientes opciones evalúa mejor si el marco antimonopolio de la administración Wilson representaba realmente una mejora sobre el enfoque de Roosevelt?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wilson's approach was clearly superior because the FTC's expert regulatory model was more efficient and less expensive than Roosevelt's case-by-case judicial prosecution strategy under the Sherman Act.",
+          "textEs": "El enfoque de Wilson fue claramente superior porque el modelo regulatorio experto de la FTC era más eficiente y menos costoso que la estrategia de enjuiciamiento judicial caso por caso de Roosevelt bajo la Ley Sherman.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wilson's approach was clearly inferior because his administration directly colluded with major corporations to exempt them from FTC oversight, undermining the entire New Freedom legislative program from the beginning.",
+          "textEs": "El enfoque de Wilson fue claramente inferior porque su administración colludió directamente con las principales corporaciones para eximirlas de la supervisión de la FTC, socavando todo el programa legislativo de la Nueva Libertad desde el principio.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The institutional framework (FTC as permanent agency, clearer rules) was a genuine improvement, but implementation was disappointing — the FTC was captured by business interests, courts neutered Clayton Act labor provisions, and Wilson prosecuted fewer trusts than Roosevelt.",
+          "textEs": "El marco institucional (FTC como agencia permanente, reglas más claras) fue una mejora genuina, pero la implementación fue decepcionante: la FTC fue capturada por intereses empresariales, los tribunales neutralizaron las disposiciones laborales de la Ley Clayton, y Wilson procesó menos fideicomisos que Roosevelt.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Neither approach was an improvement because neither the TR nor Wilson administration addressed the fundamental problem: corporate concentration was driven by technological economies of scale that neither antitrust prosecution nor regulation could effectively reverse.",
+          "textEs": "Ninguno de los enfoques fue una mejora porque ni la administración de TR ni la de Wilson abordaron el problema fundamental: la concentración corporativa estaba impulsada por economías de escala tecnológicas que ningún enjuiciamiento antimonopolio ni regulación podía revertir efectivamente.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Whether Wilson's framework was an improvement depends on what criterion one applies. Wilson claimed his New Freedom approach would restore competition by breaking up trusts and establishing clear rules rather than relying on Roosevelt's case-by-case executive discretion. The FTC's creation of a permanent expert agency was an institutional improvement over relying on ad-hoc Justice Department prosecutions. However, the FTC was quickly captured by business-friendly commissioners, and the Clayton Act's labor provisions were neutered by courts. The fundamental question — should government regulate big business (TR) or break it up (Wilson) — was never definitively resolved, and Wilson's administration ultimately prosecuted fewer trusts than Roosevelt's. The 'improvement' depended heavily on implementation, which proved disappointing.",
+      "explanationEs": "Si el marco de Wilson fue una mejora depende del criterio que se aplique. Wilson afirmaba que su enfoque de la Nueva Libertad restauraría la competencia desmantelando los fideicomisos y estableciendo reglas claras en lugar de depender de la discreción ejecutiva caso por caso de Roosevelt. La creación de la FTC como agencia experta permanente fue una mejora institucional sobre depender de enjuiciamientos ad hoc del Departamento de Justicia. Sin embargo, la FTC fue rápidamente capturada por comisionados favorables a los negocios, y las disposiciones laborales de la Ley Clayton fueron neutralizadas por los tribunales. La pregunta fundamental —¿debería el gobierno regular a las grandes empresas (TR) o desmantelarlas (Wilson)?— nunca se resolvió definitivamente, y la administración de Wilson procesó finalmente menos fideicomisos que la de Roosevelt. La 'mejora' dependía en gran medida de la implementación, que resultó ser decepcionante.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.41,
+        "b": 1.65,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-091",
+      "stem": "Woodrow Wilson's 'New Freedom' program was announced during the 1912 presidential campaign. By 1916, Wilson had signed legislation (Adamson Act, Keating-Owen Child Labor Act, Federal Farm Loan Act) that looked more like Roosevelt's 'New Nationalism.' Which of the following best evaluates what this shift reveals about Wilson's governance?",
+      "stemEs": "El programa de la 'Nueva Libertad' de Woodrow Wilson fue anunciado durante la campaña presidencial de 1912. Para 1916, Wilson había firmado legislación (Ley Adamson, Ley Keating-Owen sobre Trabajo Infantil, Ley Federal de Préstamos Agrícolas) que se parecía más al 'Nuevo Nacionalismo' de Roosevelt. ¿Cuál de las siguientes opciones evalúa mejor qué revela este cambio sobre la gobernanza de Wilson?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wilson's shift reveals that the New Freedom was always insincere campaign rhetoric, and Wilson's personal beliefs were always aligned with Roosevelt's New Nationalism — he simply used different language to win the 1912 election.",
+          "textEs": "El cambio de Wilson revela que la Nueva Libertad siempre fue retórica de campaña insincera, y las creencias personales de Wilson siempre estaban alineadas con el Nuevo Nacionalismo de Roosevelt; simplemente usó un lenguaje diferente para ganar las elecciones de 1912.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wilson's shift reveals that governing requires pragmatic responses to political pressures and governing realities that campaign philosophy cannot fully anticipate — the industrial society's complexity demanded active federal protection beyond what antitrust restoration of competition could provide.",
+          "textEs": "El cambio de Wilson revela que gobernar requiere respuestas pragmáticas a las presiones políticas y las realidades de gobierno que la filosofía de campaña no puede anticipar completamente: la complejidad de la sociedad industrial exigía protección federal activa más allá de lo que la restauración de la competencia antimonopolio podía proporcionar.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Wilson's shift toward New Nationalism reveals that Theodore Roosevelt had been correct all along and that the New Freedom's preference for antitrust over regulation was philosophically incoherent from the beginning.",
+          "textEs": "El cambio de Wilson hacia el Nuevo Nacionalismo revela que Theodore Roosevelt había tenido razón todo el tiempo y que la preferencia de la Nueva Libertad por el antimonopolio sobre la regulación era filosóficamente incoherente desde el principio.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Wilson's legislative shift toward New Nationalism programs was forced by a Democratic Congress that controlled the legislative agenda and overrode Wilson's New Freedom preferences without his consent.",
+          "textEs": "El cambio legislativo de Wilson hacia los programas del Nuevo Nacionalismo fue forzado por un Congreso Demócrata que controlaba la agenda legislativa y anuló las preferencias de la Nueva Libertad de Wilson sin su consentimiento.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wilson's ideological shift from New Freedom to legislative programs resembling New Nationalism reveals that governing required responding to political realities and electoral calculations in ways that campaign philosophy could not fully anticipate. The 1916 election was extremely close, and Wilson needed progressive and labor voters who preferred TR's more interventionist approach. The practical demands of governing a complex industrial society also revealed that Wilson's preferred approach of restoring competition through antitrust was insufficient on its own — workers, farmers, and consumers needed active federal protection that only direct regulation could provide. This reveals a broader pattern: American presidents often campaign on one ideological framework but govern by pragmatic responses to political pressures and governing realities.",
+      "explanationEs": "El cambio ideológico de Wilson de la Nueva Libertad a programas legislativos que se asemejaban al Nuevo Nacionalismo revela que gobernar requería responder a realidades políticas y cálculos electorales de maneras que la filosofía de campaña no podía anticipar completamente. La elección de 1916 fue extremadamente reñida, y Wilson necesitaba votantes progresistas y laborales que preferían el enfoque más intervencionista de TR. Las demandas prácticas de gobernar una sociedad industrial compleja también revelaron que el enfoque preferido de Wilson de restaurar la competencia a través del antimonopolio era insuficiente por sí solo: los trabajadores, los agricultores y los consumidores necesitaban protección federal activa que solo la regulación directa podía proporcionar. Esto revela un patrón más amplio: los presidentes estadounidenses a menudo hacen campaña con un marco ideológico pero gobiernan con respuestas pragmáticas a las presiones políticas y las realidades de gobierno.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.31,
+        "b": 0.61,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dok3-gen-u2-098",
+      "stem": "The Progressive Era saw the rise of what historians call the 'administrative state' — permanent executive agencies with regulatory authority. Which of the following best evaluates the long-term implications of this development for American constitutional governance?",
+      "stemEs": "La Era Progresista vio el surgimiento de lo que los historiadores llaman el 'estado administrativo', agencias ejecutivas permanentes con autoridad regulatoria. ¿Cuál de las siguientes opciones evalúa mejor las implicaciones a largo plazo de este desarrollo para la gobernanza constitucional estadounidense?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The administrative state had minimal constitutional implications because it was explicitly authorized by the Progressive Era's constitutional amendments, which provided clear legal foundations for all subsequent regulatory agencies.",
+          "textEs": "El estado administrativo tuvo mínimas implicaciones constitucionales porque fue explícitamente autorizado por las enmiendas constitucionales de la Era Progresista, que proporcionaron bases legales claras para todas las agencias reguladoras subsiguientes.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The administrative state had positive constitutional implications by creating institutional mechanisms that finally gave Congress the capacity to exercise its Commerce Clause powers effectively after decades of judicial obstruction.",
+          "textEs": "El estado administrativo tuvo implicaciones constitucionales positivas al crear mecanismos institucionales que finalmente le dieron al Congreso la capacidad de ejercer sus poderes de la Cláusula de Comercio de manera efectiva después de décadas de obstrucción judicial.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The administrative state's long-term constitutional implication was primarily practical: it eliminated the need for frequent constitutional amendments by allowing existing authority to be applied to new problems through administrative rule-making.",
+          "textEs": "La implicación constitucional a largo plazo del estado administrativo fue principalmente práctica: eliminó la necesidad de enmiendas constitucionales frecuentes al permitir que la autoridad existente se aplicara a nuevos problemas a través de la elaboración de reglas administrativas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Administrative agencies combined legislative, executive, and judicial functions in a single institution, raising lasting constitutional questions about separation of powers and democratic accountability that remain active in American law and political debate.",
+          "textEs": "Las agencias administrativas combinaron funciones legislativas, ejecutivas y judiciales en una sola institución, planteando preguntas constitucionales duraderas sobre la separación de poderes y la responsabilidad democrática que permanecen activas en el derecho y el debate político estadounidense.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "dokRationale": null,
+      "standardCodes": [
+        "US.19"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The administrative state created significant constitutional questions that the Founders had not anticipated. The Constitution established three branches — legislative (makes laws), executive (enforces laws), and judicial (interprets laws) — with clear separation of powers. Administrative agencies combine all three functions: they make rules (legislative), enforce them (executive), and adjudicate violations (judicial) — a combination that critics argue violates the constitutional separation of powers. The Supreme Court has generally upheld administrative agencies through the 'nondelegation doctrine' allowing Congress to delegate rule-making authority with an 'intelligible principle,' but has periodically challenged this framework. The administrative state also created accountability problems: agencies are staffed by unelected bureaucrats who are difficult to remove, yet they make decisions affecting millions of Americans. These constitutional tensions remain active in American law and political debate.",
+      "explanationEs": "El estado administrativo creó importantes preguntas constitucionales que los Fundadores no habían anticipado. La Constitución estableció tres ramas, legislativa (hace leyes), ejecutiva (hace cumplir las leyes) y judicial (interpreta las leyes), con clara separación de poderes. Las agencias administrativas combinan las tres funciones: hacen reglas (legislativa), las hacen cumplir (ejecutiva) y adjudican violaciones (judicial), una combinación que los críticos argumentan viola la separación constitucional de poderes. La Corte Suprema ha confirmado generalmente las agencias administrativas a través de la 'doctrina de no delegación' que permite al Congreso delegar la autoridad de elaboración de reglas con un 'principio inteligible', pero periódicamente ha desafiado este marco. El estado administrativo también creó problemas de responsabilidad: las agencias están formadas por burócratas no electos que son difíciles de remover, pero toman decisiones que afectan a millones de estadounidenses. Estas tensiones constitucionales permanecen activas en el derecho y el debate político estadounidense.",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.04,
+        "b": 1.12,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-2/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.17"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.17->US.19: standard ADDED ['Clayton Antitrust Act of 1914'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Clayton Antitrust Act of 1914"
+          ]
+        }
+      }
+    }
+  ]
+}

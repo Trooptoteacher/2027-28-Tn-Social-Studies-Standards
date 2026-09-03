@@ -15,7 +15,8 @@
       "dokLevel": 3,
       "dokRationale": null,
       "standardCodes": [
-        "US.73"
+        "US.73",
+        "US.90"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
@@ -42,10 +43,16 @@
         ],
         "priorBankTier": "teacher",
         "crosswalkReasons": [
-          "US.83->US.73 revised sim=0.92",
-          "US.92->US.90 revised sim=0.80 BELOW floor 0.9",
+          "US.83->US.73: verb changed evaluate->describe",
+          "US.92->US.90: standard ADDED ['USA PATRIOT Act'] — coverage gap at the standard, not a defect in this item",
           "US.95: retired — no 2027-28 home"
-        ]
+        ],
+        "alignmentReview": {
+          "verbChange": "evaluate -> describe",
+          "elementsAddedToStandard": [
+            "USA PATRIOT Act"
+          ]
+        }
       }
     }
   ]
