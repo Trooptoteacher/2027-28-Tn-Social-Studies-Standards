@@ -155,6 +155,22 @@ bank6[0]["status"] = "quarantined"
 check("bank: a quarantined item is NOT counted as coverage",
       not coverage.gate_blueprint(bank6, B).passed)
 
+#      the blueprint must be ACHIEVABLE by the bank that exists
+reach = fixtures.clean_bank(CODES)
+r = coverage.gate_blueprint_achievability(reach, B)
+check("achievability: a bank holding the required mix PASSES", r.passed,
+      "; ".join(str(f) for f in r.findings[:2]))
+mcq_only = [dict(i, itemType="mcq", choices=i["choices"] or fixtures.BASE["choices"],
+                 correctAnswer=i["correctAnswer"] or "B")
+            for i in fixtures.clean_bank(CODES)]
+r = coverage.gate_blueprint_achievability(mcq_only, B)
+check("achievability: an all-multiple-choice bank FAILS", not r.passed)
+check("the finding names the shortfall and both remedies",
+      any("Short by" in str(f) and "change the blueprint" in str(f) for f in r.findings),
+      f"got {[str(f)[:110] for f in r.findings[:1]]}")
+check("achievability: EMPTY scan FAILS",
+      not coverage.gate_blueprint_achievability([], B).passed)
+
 # 7 ── answer-position de-bias: a bank a student can beat without reading
 bank = fixtures.clean_bank(CODES * 6)
 for it in bank:

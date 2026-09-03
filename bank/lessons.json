@@ -538,6 +538,81 @@
           "contains": "all-gates-measured still fails unexplained vacuity"
         }
       ]
+    },
+    {
+      "id": "L36",
+      "mistake": "The relevance gate used alignment.signals(), which falls back to bare content words when an element has no proper noun. 'Support for conservation' yielded 'Support', and a constructed response about the 19th Amendment and W.E.B. Du Bois claimed Theodore Roosevelt's standard on that one word. This is L10 reappearing in a SECOND matcher — fixing a rule in one place is not fixing the rule.",
+      "caughtBy": "attempting a second form and reading what its slots had been filled with",
+      "guards": [
+        {
+          "file": "tools/alignment.py",
+          "contains": "def identifying_signals"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "is NOT an identifying signal"
+        }
+      ]
+    },
+    {
+      "id": "L37",
+      "mistake": "An item is 'aligned' if it matches ANY of its standard codes, but a form prints it under ONE. A constructed response carrying US.17, US.18 and US.19 would have printed under a Theodore Roosevelt heading while being about women's suffrage. A form heading is a claim, and nothing was checking it.",
+      "caughtBy": "the same second-form attempt",
+      "guards": [
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "def gate_form_standard_relevance"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "an item printed under a standard it does not name FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L38",
+      "mistake": "Relevance was judged on the key explanation as well as the stem and choices — and explanations are AUTHORED, including by this system. A rationale written here for a Hoover-era RFC item mentioned 'the New Deal's direct relief' in passing, and that alone made the item look aligned to the New Deal standard it was mis-filed under. Content written to EXPLAIN an item must never be what proves the item belongs somewhere.",
+      "caughtBy": "the new form-standard-relevance gate failing a form already declared green",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "STUDENT-VISIBLE text only"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "the key explanation is excluded from the relevance haystack"
+        }
+      ]
+    },
+    {
+      "id": "L39",
+      "mistake": "Standards write '19th Amendment'; items commonly write 'Nineteenth Amendment'. Literal substring matching read 92 occurrences of word-spelled ordinals in student-visible text as naming nothing, so correctly filed amendment questions would have been flagged off-standard.",
+      "caughtBy": "a regression test failing on a fixture that was itself correct",
+      "guards": [
+        {
+          "file": "tools/alignment.py",
+          "contains": "def normalize_ordinals"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "a WORD-spelled ordinal matches a numeral-written standard"
+        }
+      ]
+    },
+    {
+      "id": "L40",
+      "mistake": "form_readiness.py computed which standards could build a form using its own placement rule while forms.py used another, so readiness reported 35 buildable standards when the builder could reach 17. L22 for the third time: two implementations of one rule always diverge.",
+      "caughtBy": "readiness and the builder disagreeing after the placement rule tightened",
+      "guards": [
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "Same placement rule the FORM BUILDER uses"
+        },
+        {
+          "file": "tests/test_rehome.py",
+          "contains": "share one placement rule"
+        }
+      ]
     }
   ]
 }

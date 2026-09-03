@@ -2,36 +2,36 @@
   "formId": "FORM-A",
   "items": [
     {
-      "id": "q-us44-dok1-2",
-      "stem": "What did the Reconstruction Finance Corporation (RFC) do under Hoover?",
-      "stemEs": "¿Qué hizo la Corporación de Finanzas de Reconstrucción (RFC) bajo Hoover?",
+      "id": "q-us45-dok1-1",
+      "stem": "What were the \"Three Rs\" of the New Deal?",
+      "stemEs": "¿Cuáles fueron las \"Tres Rs\" del New Deal?",
       "itemType": "mcq",
       "choices": [
         {
           "id": "A",
-          "text": "Raised tariffs to the highest levels in U.S. history, worsening the global Depression",
-          "textEs": "Proporcionó pagos en efectivo directos a trabajadores desempleados y familias en dificultades",
+          "text": "Regulate, Restrict, and Reorganize",
+          "textEs": "Regular, Restringir y Reorganizar",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "B",
-          "text": "Loaned government money to banks, railroads, and large businesses to prevent failures",
-          "textEs": "Prestó dinero del gobierno a bancos, ferrocarriles y grandes empresas para prevenir quiebras",
+          "text": "Relief, Recovery, and Reform",
+          "textEs": "Alivio, Recuperación y Reforma",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "C",
-          "text": "Businesses cut wages and jobs anyway to survive; voluntary measures had no enforcement",
-          "textEs": "Construyó proyectos de vivienda pública asequible para familias sin hogar y de bajos ingresos",
+          "text": "Reduce, Reuse, and Recycle",
+          "textEs": "Reducir, Reutilizar y Reciclar",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "D",
-          "text": "WWI veterans demanding early bonus payment; Hoover ordered military to disperse them",
-          "textEs": "Distribuyó cupones de alimentos y productos agrícolas excedentes a ciudadanos hambrientos",
+          "text": "Repair, Rebuild, and Restore",
+          "textEs": "Reparar, Reconstruir y Restaurar",
           "explanation": null,
           "misconception": null
         }
@@ -43,87 +43,10 @@
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "complete",
+      "translationStatus": "needs-review",
       "irtParameters": {
-        "a": 0.85,
-        "b": -1.61,
-        "c": 0.23
-      },
-      "calibrationStatus": "pre-field-test",
-      "bankTier": "student",
-      "status": "authored",
-      "image": null,
-      "provenance": {
-        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
-        "priorStandardsYear": "2026-27",
-        "priorStandardCodes": [
-          "US.44"
-        ],
-        "priorBankTier": "student",
-        "crosswalkReasons": [
-          "US.44->US.46: checklist intact (2 element(s))"
-        ],
-        "alignmentReview": null,
-        "authoring": {
-          "record": "form-a.json",
-          "note": "rationales explain misconceptions and remain historical claims"
-        }
-      },
-      "alignmentStatus": "evidenced",
-      "requiresHistorianReview": true,
-      "correctAnswer": null,
-      "explanation": "",
-      "explanationEs": "",
-      "dokRationale": "",
-      "_surface": "student-form",
-      "_formKeyLetter": "B"
-    },
-    {
-      "id": "q-us44-dok2-1",
-      "stem": "What was the Bonus Army and how did Hoover respond?",
-      "stemEs": "¿Qué fue el Ejército del Bono y cómo respondió Hoover?",
-      "itemType": "mcq",
-      "choices": [
-        {
-          "id": "A",
-          "text": "Businesses cut wages and jobs anyway to survive; voluntary measures had no enforcement",
-          "textEs": "Trabajadores industriales en huelga por salarios más altos; Hoover medió un acuerdo pacífico",
-          "explanation": null,
-          "misconception": null
-        },
-        {
-          "id": "B",
-          "text": "Raised tariffs to the highest levels in U.S. history, worsening the global Depression",
-          "textEs": "Soldados en servicio activo solicitando mejores condiciones; Hoover negoció aumentos de pago",
-          "explanation": null,
-          "misconception": null
-        },
-        {
-          "id": "C",
-          "text": "WWI veterans demanding early bonus payment; Hoover ordered military to disperse them",
-          "textEs": "Veteranos de Primera Guerra Mundial exigiendo pago anticipado de bonos; Hoover ordenó al ejército dispersarlos",
-          "explanation": null,
-          "misconception": null
-        },
-        {
-          "id": "D",
-          "text": "Loaned government money to banks, railroads, and large businesses to prevent failures",
-          "textEs": "Agricultores protestando precios bajos de cultivos; Hoover aprobó subsidios agrícolas de emergencia",
-          "explanation": null,
-          "misconception": null
-        }
-      ],
-      "dokLevel": 1,
-      "standardCodes": [
-        "US.46"
-      ],
-      "standardsYear": "2027-28",
-      "reportingCategory": null,
-      "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "complete",
-      "irtParameters": {
-        "a": 0.68,
-        "b": 0.36,
+        "a": 0.71,
+        "b": -1.03,
         "c": 0.22
       },
       "calibrationStatus": "pre-field-test",
@@ -134,19 +57,126 @@
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
         "priorStandardsYear": "2026-27",
         "priorStandardCodes": [
-          "US.44"
+          "US.43"
         ],
         "priorBankTier": "student",
         "crosswalkReasons": [
-          "US.44->US.46: checklist intact (2 element(s))"
+          "US.43->US.45: checklist intact (9 element(s))"
         ],
         "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.45"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "translationClaimCorrected": {
+          "was": "complete",
+          "now": "needs-review",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        },
         "authoring": {
-          "record": "form-a.json",
+          "record": "form-a-v2.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced",
+      "alignmentStatus": "rehomed",
+      "requiresHistorianReview": true,
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "q-us45-dok2-8",
+      "stem": "How did the New Deal change the relationship between workers and employers?",
+      "stemEs": "¿Cómo cambió el New Deal la relación entre trabajadores y empleadores?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fascism promoted extreme nationalism; communism promoted class revolution",
+          "textEs": "No tuvo efecto en relaciones laborales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Desperate populations supported strong leaders who promised stability",
+          "textEs": "Dio empleadores poder ilimitado sobre trabajadores",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Gave workers legal rights to unionize, bargain collectively, and strike",
+          "textEs": "Dio a trabajadores derechos legales a sindicalizarse, negociar colectivamente y hacer huelga",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Refinanced mortgages to prevent foreclosures and keep families in homes",
+          "textEs": "Hizo huelgas ilegales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 0.51,
+        "b": -0.48,
+        "c": 0.21
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.43"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.43->US.45: checklist intact (9 element(s))"
+        ],
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.45"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "translationClaimCorrected": {
+          "was": "complete",
+          "now": "needs-review",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        },
+        "authoring": {
+          "record": "form-a-v3.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "rehomed",
       "requiresHistorianReview": true,
       "correctAnswer": null,
       "explanation": "",
@@ -439,86 +469,6 @@
       "_formKeyLetter": null
     },
     {
-      "id": "PSTIM-0130",
-      "stem": "Use the photograph to answer the question.\n\nThis photograph shows American soldiers during the Korean War, c. 1950. U.S. forces were deployed to South Korea as part of a United Nations coalition after North Korean forces invaded South Korea in June 1950.\n\n(U.S. Army photograph, c. 1950. Public Domain.)\n\nThe deployment of American troops shown in this photograph was part of the U.S. strategy of what?",
-      "stemEs": "¿De qué estrategia estadounidense formó parte el despliegue de tropas mostrado?",
-      "itemType": "mcq",
-      "choices": [
-        {
-          "id": "A",
-          "text": "Imperialism",
-          "textEs": "Imperialismo",
-          "explanation": null,
-          "misconception": null
-        },
-        {
-          "id": "B",
-          "text": "Containment",
-          "textEs": "Contención",
-          "explanation": null,
-          "misconception": null
-        },
-        {
-          "id": "C",
-          "text": "Détente",
-          "textEs": "Distensión",
-          "explanation": null,
-          "misconception": null
-        },
-        {
-          "id": "D",
-          "text": "Isolationism",
-          "textEs": "Aislacionismo",
-          "explanation": null,
-          "misconception": null
-        }
-      ],
-      "dokLevel": 1,
-      "standardCodes": [
-        "US.60"
-      ],
-      "standardsYear": "2027-28",
-      "reportingCategory": null,
-      "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "complete",
-      "irtParameters": {
-        "a": 1.0,
-        "b": -1.2,
-        "c": 0.22
-      },
-      "calibrationStatus": "pre-field-test",
-      "bankTier": "student",
-      "status": "authored",
-      "image": null,
-      "provenance": {
-        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
-        "priorStandardsYear": "2026-27",
-        "priorStandardCodes": [
-          "US.60"
-        ],
-        "priorBankTier": "standard",
-        "crosswalkReasons": [
-          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
-        ],
-        "alignmentReview": {
-          "verbChange": "explain -> analyze",
-          "dokReviewRequired": true
-        },
-        "authoring": {
-          "record": "form-a.json",
-          "note": "rationales explain misconceptions and remain historical claims"
-        }
-      },
-      "alignmentStatus": "evidenced",
-      "requiresHistorianReview": true,
-      "correctAnswer": null,
-      "explanation": "",
-      "explanationEs": "",
-      "dokRationale": "",
-      "_surface": "student-form",
-      "_formKeyLetter": "B"
-    },
-    {
       "id": "U7-DOK1-0002",
       "stem": "Marshall's speech announced what became known as which initiative?",
       "stemEs": "¿El discurso de Marshall anunció lo que se conoció como cuál iniciativa?",
@@ -533,22 +483,22 @@
         },
         {
           "id": "B",
-          "text": "The Eisenhower Doctrine for the Middle East",
-          "textEs": "La Doctrina Eisenhower",
-          "explanation": null,
-          "misconception": null
-        },
-        {
-          "id": "C",
           "text": "The Marshall Plan for European recovery",
           "textEs": "El Plan Marshall para la recuperación económica europea",
           "explanation": null,
           "misconception": null
         },
         {
-          "id": "D",
+          "id": "C",
           "text": "The North Atlantic Treaty Organization",
           "textEs": "La Organización del Tratado del Atlántico Norte",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Eisenhower Doctrine for the Middle East",
+          "textEs": "La Doctrina Eisenhower",
           "explanation": null,
           "misconception": null
         }
@@ -596,67 +546,67 @@
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "C"
+      "_formKeyLetter": "B"
     },
     {
-      "id": "PS-0090",
-      "stem": "Read the excerpt below.\n\n\"The Grand Alliance between the United States, Great Britain, and the Soviet Union rests upon one thing only — our common enemy. When Hitler is defeated, I wonder what will hold us together.\" — Diplomat George Kennan, Private Memo, 1944\n\nWhich of the following best describes the fragility of the World War II Allied alliance referenced in this excerpt?",
-      "stemEs": "Lea el extracto a continuación y responda la pregunta. El extracto describe la Gran Alianza entre Estados Unidos, Gran Bretaña y la Unión Soviética.",
+      "id": "q-us57-dok1-3",
+      "stem": "What was the primary goal of the Truman Doctrine?",
+      "stemEs": "¿Cuál fue el objetivo principal de la Doctrina Truman?",
       "itemType": "mcq",
       "choices": [
         {
           "id": "A",
-          "text": "Personal conflicts between Roosevelt, Churchill, and Stalin made sustained military cooperation nearly impossible.",
-          "textEs": "",
+          "text": "Form a permanent military and economic alliance with the Soviet Union against Asian nations",
+          "textEs": "Formar alianza militar y económica permanente con Unión Soviética contra naciones asiáticas",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "B",
-          "text": "The creation of the United Nations divided the Allies into competing blocs before the war even ended.",
-          "textEs": "",
+          "text": "Expand United States colonial territories across Asia and the Pacific Island regions",
+          "textEs": "Expandir territorios coloniales de Estados Unidos a través de Asia y regiones de islas del Pacífico",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "C",
-          "text": "The three Allies had agreed to share all military technology, creating economic competition that strained relations.",
-          "textEs": "",
+          "text": "Contain the spread of communism by supporting free nations resisting Soviet subjugation",
+          "textEs": "Contener propagación del comunismo apoyando naciones libres resistiendo subyugación soviética",
           "explanation": null,
           "misconception": null
         },
         {
           "id": "D",
-          "text": "The Alliance was held together only by a common enemy, masking ideological differences that surfaced once Germany was defeated",
-          "textEs": "",
+          "text": "Return the United States to a policy of isolationism and avoid all foreign entanglements",
+          "textEs": "Regresar Estados Unidos a política de aislacionismo y evitar todos compromisos extranjeros",
           "explanation": null,
           "misconception": null
         }
       ],
-      "dokLevel": 2,
+      "dokLevel": 1,
       "standardCodes": [
         "US.60"
       ],
       "standardsYear": "2027-28",
       "reportingCategory": null,
       "reportingCategorySource": "UNMAPPED",
-      "translationStatus": "needs-review",
+      "translationStatus": "complete",
       "irtParameters": {
-        "a": 1.3,
-        "b": 0.3,
-        "c": 0.2
+        "a": 0.93,
+        "b": -0.71,
+        "c": 0.23
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
       "status": "authored",
       "image": null,
       "provenance": {
-        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
         "priorStandardsYear": "2026-27",
         "priorStandardCodes": [
           "US.60"
         ],
-        "priorBankTier": "primary-source",
+        "priorBankTier": "student",
         "crosswalkReasons": [
           "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
         ],
@@ -665,7 +615,7 @@
           "dokReviewRequired": true
         },
         "authoring": {
-          "record": "form-a-rebalance.json",
+          "record": "form-a-v2.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -676,7 +626,7 @@
       "explanationEs": "",
       "dokRationale": "",
       "_surface": "student-form",
-      "_formKeyLetter": "D"
+      "_formKeyLetter": "C"
     },
     {
       "id": "PSTIM-0041",
@@ -686,8 +636,8 @@
       "choices": [
         {
           "id": "A",
-          "text": "The U.S. showed resolve against Soviet expansion without direct force",
-          "textEs": "EE. UU. demostró su determinación de impedir la expansión soviética sin una confrontación militar directa",
+          "text": "The U.S. imposed economic sanctions that forced the Soviet Union to end communism",
+          "textEs": "EE. UU. impuso sanciones económicas que obligaron a la Unión Soviética a poner fin al comunismo",
           "explanation": null,
           "misconception": null
         },
@@ -707,8 +657,8 @@
         },
         {
           "id": "D",
-          "text": "The U.S. imposed economic sanctions that forced the Soviet Union to end communism",
-          "textEs": "EE. UU. impuso sanciones económicas que obligaron a la Unión Soviética a poner fin al comunismo",
+          "text": "The U.S. showed resolve against Soviet expansion without direct force",
+          "textEs": "EE. UU. demostró su determinación de impedir la expansión soviética sin una confrontación militar directa",
           "explanation": null,
           "misconception": null
         }
@@ -746,6 +696,86 @@
         },
         "authoring": {
           "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "U7-DOK2-0001",
+      "stem": "The Truman Doctrine established what new direction for U.S. foreign policy?",
+      "stemEs": "¿La Doctrina Truman estableció qué nueva dirección para la política exterior de EE. UU.?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A commitment to support nations resisting communist expansion",
+          "textEs": "Un compromiso de apoyar a las naciones que resistían la expansión comunista",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A return to isolationism after World War II",
+          "textEs": "Un regreso al aislacionismo después de la Segunda Guerra Mundial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Recognition of the Soviet Union as an ally",
+          "textEs": "El reconocimiento de la Unión Soviética como aliada",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Withdrawal from the United Nations",
+          "textEs": "La retirada de las Naciones Unidas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-v2.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },

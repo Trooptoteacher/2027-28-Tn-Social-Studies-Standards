@@ -25,6 +25,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import alignment
 import binding as binding_mod
 import itemio
 
@@ -153,12 +154,21 @@ def select(items, standards, blueprint):
     for slot, lvl in zip(slots, dok_pool):
         slot[1] = lvl
 
+    # An item is "aligned" if it matches ANY of its codes, but a form files it
+    # under ONE. A constructed response on the 19th Amendment carried US.17,
+    # US.18 and US.19 and would have printed under a Theodore Roosevelt heading.
+    # Placement requires relevance to the standard whose slot it fills.
+    stds = binding_mod.load().standards()
     by_std = collections.defaultdict(list)
     for it in items:
         if not itemio.aligned(it):
             continue
+        hay = " ".join([it.get("stem") or ""]
+                       + [c.get("text") or "" for c in itemio.choices(it)])
         for c in (it.get("standardCodes") or []):
-            by_std[c].append(it)
+            s_txt = stds.get(c, {}).get("text")
+            if s_txt and alignment.relevant_to(hay, s_txt):
+                by_std[c].append(it)
 
     picked, short = [], {}
     for code in standards:

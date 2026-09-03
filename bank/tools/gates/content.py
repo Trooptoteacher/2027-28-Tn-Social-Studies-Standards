@@ -42,7 +42,15 @@ def _allowed():
 
 
 def _haystack(item):
-    return " ".join([item.get("stem") or "", item.get("explanation") or ""]
+    """STUDENT-VISIBLE text only: the stem and the choices.
+
+    The key explanation is teacher-side and is AUTHORED — including by this
+    system. A rationale written for a Hoover-era RFC item mentioned "the New
+    Deal's direct relief" in passing, and that alone made the item look aligned
+    to the New Deal standard it was mis-filed under. Content written to explain
+    an item must never be what proves the item belongs somewhere.
+    """
+    return " ".join([item.get("stem") or ""]
                     + [c.get("text") or "" for c in itemio.choices(item)]).lower()
 
 
@@ -58,14 +66,19 @@ def relevance_scan(items, binding):
         if not itemio.servable(it):
             continue
         codes = [c for c in (it.get("standardCodes") or []) if c in stds]
-        sigsets = {c: alignment.standard_signals(stds[c]["text"]) for c in codes}
+        # IDENTIFYING signals only. standard_signals() falls back to bare content
+        # words, and "Support for conservation" yielded "Support" — enough for a
+        # constructed response on the 19th Amendment to claim Theodore
+        # Roosevelt's standard. L10, reappearing in a second matcher.
+        sigsets = {c: alignment.identifying_signals(stds[c]["text"]) for c in codes}
         if not any(sigsets.values()):
             continue
         judged += 1
         if it.get("id") in allow:
             continue
-        hay = _haystack(it)
-        if not any(sig.lower() in hay for sigs in sigsets.values() for sig in sigs):
+        hay = alignment.normalize_ordinals(_haystack(it))
+        if not any(alignment.normalize_ordinals(sig).lower() in hay
+                   for sigs in sigsets.values() for sig in sigs):
             flagged.append((it, codes, sigsets))
     return judged, flagged
 

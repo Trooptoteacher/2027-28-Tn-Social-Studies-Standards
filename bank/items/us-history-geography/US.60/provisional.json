@@ -441,7 +441,7 @@
           "dokReviewRequired": true
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "q-us60-dok2-1",
@@ -891,7 +891,7 @@
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced",
+      "alignmentStatus": "unverified",
       "requiresHistorianReview": true
     },
     {
@@ -905,15 +905,15 @@
           "id": "A",
           "text": "Form a permanent military and economic alliance with the Soviet Union against Asian nations",
           "textEs": "Formar alianza militar y económica permanente con Unión Soviética contra naciones asiáticas",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The Truman Doctrine was directed AGAINST Soviet expansion; an alliance with the Soviet Union is its opposite.",
+          "misconception": "reverses which power the doctrine was aimed at"
         },
         {
           "id": "B",
           "text": "Return the United States to a policy of isolationism and avoid all foreign entanglements",
           "textEs": "Regresar Estados Unidos a política de aislacionismo y evitar todos compromisos extranjeros",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The doctrine ended the possibility of postwar isolationism by committing the United States to intervene abroad in peacetime.",
+          "misconception": "confuses the doctrine with the isolationism it replaced"
         },
         {
           "id": "C",
@@ -926,12 +926,12 @@
           "id": "D",
           "text": "Expand United States colonial territories across Asia and the Pacific Island regions",
           "textEs": "Expandir territorios coloniales de Estados Unidos a través de Asia y regiones de islas del Pacífico",
-          "explanation": null,
-          "misconception": null
+          "explanation": "No territory was claimed. Aid to Greece and Turkey was support for existing governments, not colonial acquisition.",
+          "misconception": "confuses supporting a government with acquiring territory"
         }
       ],
       "dokLevel": 1,
-      "dokRationale": null,
+      "dokRationale": "The student recalls the stated aim of a named doctrine. A single retrieved fact, which is DOK-1; weighing whether containment succeeded would be DOK-3.",
       "standardCodes": [
         "US.60"
       ],
@@ -948,7 +948,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-1.json",
@@ -963,9 +963,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-v2.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "us-48-q07",
@@ -1735,7 +1740,7 @@
           "dokReviewRequired": true
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "q-us60-dok2-6",
@@ -1881,7 +1886,7 @@
           "dokReviewRequired": true
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "us-60-x017",
@@ -2100,7 +2105,7 @@
           "dokReviewRequired": true
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "us-62-f102",
@@ -2246,7 +2251,7 @@
           "dokReviewRequired": true
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "unverified"
     },
     {
       "id": "q-us59-dok2-7",
@@ -2631,26 +2636,26 @@
           "id": "B",
           "text": "A return to isolationism after World War II",
           "textEs": "Un regreso al aislacionismo después de la Segunda Guerra Mundial",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The doctrine did the reverse: it committed the United States to peacetime intervention abroad and ended the interwar isolationist position.",
+          "misconception": "reverses the direction of the postwar policy shift"
         },
         {
           "id": "C",
           "text": "Recognition of the Soviet Union as an ally",
           "textEs": "El reconocimiento de la Unión Soviética como aliada",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The Soviet Union had been a wartime ally, and the doctrine marks the point at which that relationship was publicly abandoned.",
+          "misconception": "keeps the wartime alliance the doctrine was written to end"
         },
         {
           "id": "D",
           "text": "Withdrawal from the United Nations",
           "textEs": "La retirada de las Naciones Unidas",
-          "explanation": null,
-          "misconception": null
+          "explanation": "The United States remained in the United Nations and used it during the Cold War, including in Korea.",
+          "misconception": "invents a withdrawal that did not happen"
         }
       ],
       "dokLevel": 2,
-      "dokRationale": null,
+      "dokRationale": "The student must characterise a shift in policy direction rather than recall the doctrine's name — connecting a specific commitment to a broader change, which is DOK-2.",
       "standardCodes": [
         "US.60"
       ],
@@ -2667,7 +2672,7 @@
       },
       "calibrationStatus": "pre-field-test",
       "bankTier": "student",
-      "status": "provisional",
+      "status": "authored",
       "image": null,
       "provenance": {
         "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
@@ -2682,9 +2687,14 @@
         "alignmentReview": {
           "verbChange": "explain -> analyze",
           "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-v2.json",
+          "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced"
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true
     },
     {
       "id": "U7-DOK2-0006",
@@ -3534,7 +3544,7 @@
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
-      "alignmentStatus": "evidenced",
+      "alignmentStatus": "unverified",
       "requiresHistorianReview": true
     },
     {

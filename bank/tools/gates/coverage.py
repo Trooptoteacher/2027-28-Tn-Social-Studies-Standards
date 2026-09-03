@@ -419,3 +419,72 @@ def gate_form_key_position(rendered_items, binding=None) -> Result:
             f"distribution {dict(sorted(counts.items()))}"))
     return Result(name, not findings, len(rendered_items), findings, judged=n,
                   note=f"{k}-position n={n} worst={worst}@{share[worst]:.0%} max-dev={dev:.1%}")
+
+
+def gate_blueprint_achievability(items, binding=None) -> Result:
+    """Can the committed blueprint be met by the bank that exists?
+
+    59 of 94 standards could not fill a form, and the readiness report showed
+    why only when someone ran it: the blueprint asks every standard for one
+    document-based and one constructed-response item, so 94 of each, while the
+    aligned bank holds 30 and 52 against 2,401 multiple-choice.
+
+    A blueprint that two-thirds of standards structurally cannot meet is a
+    permanent red light, not a target. It is either an authoring commission
+    (write the missing items) or a blueprint decision (stop requiring them per
+    standard), and both are the owner's call — but it must be a decision, not a
+    silent backlog discovered one form at a time.
+    """
+    name = "blueprint-achievability"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    with open(binding.blueprint_file, encoding="utf-8") as fh:
+        bp = json.load(fh)
+    want = bp.get("form") or bp["defaults"]
+    n_std = len(bp["perStandard"])
+    live = [i for i in items if itemio.aligned(i)]
+    if not live:
+        return Result(name, False, len(items),
+                      [Finding("(none)", "no aligned items to measure against")],
+                      note="EMPTY SCAN after alignment filter")
+    have = collections.Counter(i.get("itemType") for i in live)
+    findings = []
+    for typ, per in sorted(want["itemType"].items()):
+        need = per * n_std
+        if have.get(typ, 0) < need:
+            findings.append(Finding(typ,
+                f"the blueprint requires {per} per standard = {need} across {n_std} standards; "
+                f"the aligned bank holds {have.get(typ, 0)}. Short by "
+                f"{need - have.get(typ, 0)} — either commission them or change the blueprint"))
+    return Result(name, not findings, len(live), findings, judged=len(live),
+                  note="; ".join(f"{t}={have.get(t, 0)}" for t in sorted(want["itemType"])))
+
+
+def gate_form_standard_relevance(rendered_items, binding=None, standards=None) -> Result:
+    """Every item on a form is about the standard it is PRINTED under.
+
+    A form heading is a claim. An item carrying three standard codes is aligned
+    if it matches any one of them, but printing it under the other two claims
+    something the item does not support.
+    """
+    import alignment
+    name = "form-standard-relevance"
+    if (r := empty_scan_guard(name, rendered_items)):
+        return r
+    stds = binding.standards()
+    declared = set(standards) if standards else None
+    findings, judged = [], 0
+    for it in rendered_items:
+        codes = [c for c in (it.get("standardCodes") or [])
+                 if c in stds and (declared is None or c in declared)]
+        if not codes:
+            continue
+        hay = " ".join([it.get("stem") or ""]
+                       + [c.get("text") or "" for c in itemio.choices(it)])
+        for c in codes:
+            judged += 1
+            if not alignment.relevant_to(hay, stds[c]["text"]):
+                findings.append(Finding(it.get("id", "?"),
+                    f"printed under {c} but names nothing that identifies it — the heading "
+                    f"claims more than the item supports", it.get("_file", "")))
+    return Result(name, not findings, len(rendered_items), findings, judged=judged)

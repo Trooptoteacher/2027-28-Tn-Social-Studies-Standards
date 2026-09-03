@@ -251,7 +251,7 @@ It has already earned its place: it caught a refactor that silently deleted an
 invariant comment `run_gates.py` was cited for, and three ledger entries pointing at
 strings that did not exist.
 
-**35 lessons, 71 guards** — among them:
+**40 lessons, 81 guards** — among them:
 
 | | |
 |---|---|
@@ -267,6 +267,8 @@ strings that did not exist.
 | `L32` | a de-bias gate existed for commits that the **builder could not satisfy** |
 | `L33` | fixing the length cue **over-corrected to 0%**, which a one-sided gate passed |
 | `L34` | a bank gate run over a form measured a distribution **no student ever sees** |
+| `L37` | an item aligned to *one* of its codes was printed under **another** of them |
+| `L38` | a rationale **this system authored** became the evidence an item was aligned |
 
 A lesson written down but not enforced is a promise. A lesson with a guard is a fact
 about the code.
@@ -295,6 +297,24 @@ record before writing anything, because a partial content write is worse than no
 
 Every authored item carries `requiresHistorianReview: true`. A rationale explaining a
 misconception is still a historical claim.
+
+## Scoping the work before doing it
+
+`python3 tools/form_readiness.py --csv reports/form-readiness.csv`
+
+For every standard: whether it can fill a form at all, and exactly how many distractor
+rationales, DOK notes, translations and rebalances greening it would cost. The pilot
+discovered its cost item by item; this measures it in advance.
+
+**17 of 94 standards can currently fill a form**, at **350 authoring units** total. The
+other 77 are short — and `blueprint-achievability` says why in one line rather than
+leaving it to be discovered one form at a time:
+
+> the blueprint requires 1 document-based per standard = 94; the aligned bank holds **30**.
+> Short by 64 — either commission them or change the blueprint.
+
+The bank is 2,401 multiple-choice against 52 constructed-response and 30 document-based.
+That is a decision, not a backlog.
 
 ## Run everything
 

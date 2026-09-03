@@ -234,3 +234,55 @@ def standard_signals(text: str) -> list:
     """Everything that identifies a standard: checklist elements + named entities."""
     sigs = [s for el in elements(text) for s in signals(el)]
     return sigs + named_entities(text)
+
+
+def identifying_signals(text: str) -> list:
+    """Signals strong enough to say an item is ABOUT this standard.
+
+    signals() falls back to bare content words when an element has no proper
+    noun, which is right for comparing two revisions of a standard but wrong for
+    deciding what an item is about: "Support for conservation" yields "Support",
+    and a constructed response on the 19th Amendment matched Theodore
+    Roosevelt's standard on that one word.
+
+    Same rule the re-home matcher already used (L20): a multi-word name, or a
+    single capitalised word that does not merely open its phrase.
+    """
+    out = []
+    for el in elements(text):
+        for sig in signals(el):
+            if not re.search(r"[A-Z]", sig):
+                continue
+            if len(sig.split()) >= 2 or not el.strip().lower().startswith(sig.lower()):
+                out.append(sig)
+    return out + named_entities(text)
+
+
+_ORDINAL_WORDS = {
+    "first": "1st", "second": "2nd", "third": "3rd", "fourth": "4th", "fifth": "5th",
+    "sixth": "6th", "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th",
+    "eleventh": "11th", "twelfth": "12th", "thirteenth": "13th", "fourteenth": "14th",
+    "fifteenth": "15th", "sixteenth": "16th", "seventeenth": "17th", "eighteenth": "18th",
+    "nineteenth": "19th", "twentieth": "20th", "twenty-first": "21st",
+    "twenty-second": "22nd", "twenty-fourth": "24th", "twenty-sixth": "26th",
+}
+_ORDINAL_RX = re.compile(r"\b(" + "|".join(sorted(_ORDINAL_WORDS, key=len, reverse=True)) + r")\b",
+                         re.I)
+
+
+def normalize_ordinals(text: str) -> str:
+    """"Nineteenth Amendment" and "19th Amendment" are the same thing.
+
+    Standards write the numeral; items commonly spell the word — 92 occurrences
+    of a word-spelled ordinal sit in student-visible text. Literal substring
+    matching read those items as naming nothing, which would flag a correctly
+    filed 19th Amendment question as off-standard.
+    """
+    return _ORDINAL_RX.sub(lambda m: _ORDINAL_WORDS[m.group(1).lower()], text or "")
+
+
+def relevant_to(haystack: str, standard_text: str) -> list:
+    """Which identifying signals of ONE standard this text carries."""
+    hay = normalize_ordinals(haystack or "").lower()
+    return [s for s in identifying_signals(standard_text)
+            if normalize_ordinals(s).lower() in hay]

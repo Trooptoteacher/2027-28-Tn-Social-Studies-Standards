@@ -27,6 +27,7 @@ GATES = [
     record.gate_distractor_coverage,
     record.gate_truncation,
     coverage.gate_blueprint,
+    coverage.gate_blueprint_achievability,
     coverage.gate_key_position,
     coverage.gate_serveability,
     coverage.gate_reporting_category,
@@ -88,7 +89,8 @@ def collect(b, target=None):
 # depth across all 94 standards, and release-readiness is a whole-artifact call.
 # key-position-debias reads each item's STORED correctAnswer id; a form
 # re-derives positions at render time, so the form uses gate_form_key_position.
-_BANK_ONLY = {"gate_blueprint", "gate_release_readiness", "gate_key_position"}
+_BANK_ONLY = {"gate_blueprint", "gate_blueprint_achievability",
+              "gate_release_readiness", "gate_key_position"}
 ITEM_GATES = [g for g in GATES if g.__name__ not in _BANK_ONLY]
 
 
@@ -117,6 +119,7 @@ def collect_form(b, form_id):
             if os.path.exists(man) else None)
     results.append(coverage.gate_form_blueprint(rendered, b, standards=decl))
     results.append(coverage.gate_form_key_position(rendered, b))
+    results.append(coverage.gate_form_standard_relevance(rendered, b, standards=decl))
     results.append(coverage.unmeasured_gates(results))
     return sel, results
 

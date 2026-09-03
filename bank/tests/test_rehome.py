@@ -117,6 +117,75 @@ check("the same item marked unverified produces none — kept, not a defect",
 check("relevance_scan on an empty bank flags nothing and judges nothing",
       content.relevance_scan([], REAL) == (0, []))
 
+# ── identifying signals: strong enough to say what an item is ABOUT ─────
+print("\n  identifying_signals — the relevance gate needs the same strictness as re-home")
+us17 = STDS["US.17"]["text"]
+check("'Support' (from 'Support for conservation') is NOT an identifying signal",
+      "Support" not in alignment.identifying_signals(us17),
+      f"got {alignment.identifying_signals(us17)}")
+check("the standard's real names ARE identifying signals",
+      all(any(n in s for s in alignment.identifying_signals(us17))
+          for n in ("Square Deal", "Meat Inspection Act")),
+      f"got {alignment.identifying_signals(us17)}")
+check("a 19th-Amendment text is NOT relevant to Theodore Roosevelt's standard",
+      alignment.relevant_to("The Nineteenth Amendment guaranteed women the vote in 1920.",
+                            us17) == [],
+      f"got {alignment.relevant_to('The Nineteenth Amendment...', us17)}")
+check("a Square Deal text IS relevant to it",
+      bool(alignment.relevant_to("Roosevelt's Square Deal promised fairness.", us17)))
+# Standards write "19th Amendment"; items commonly spell "Nineteenth Amendment".
+# Literal matching read those items as naming nothing.
+us20 = STDS["US.20"]["text"]
+check("a WORD-spelled ordinal matches a numeral-written standard",
+      bool(alignment.relevant_to("What did the Nineteenth Amendment guarantee?", us20)))
+check("and the numeral form still matches",
+      bool(alignment.relevant_to("What did the 19th Amendment guarantee?", us20)))
+check("normalisation does not invent a match",
+      alignment.relevant_to("What did the Fourth Amendment protect?", us20) == [],
+      f"got {alignment.relevant_to('What did the Fourth Amendment protect?', us20)}")
+
+# ── an item aligned to ONE of its codes is not aligned to all of them ───
+print("\n  per-standard placement — a form heading is a claim")
+from gates import coverage as cov2
+multi = dict(fixtures.item(id="M-1"),
+             standardCodes=["US.17", "US.20"],
+             stem="What did the Nineteenth Amendment guarantee?",
+             choices=[{"id": "A", "text": "The vote regardless of sex", "textEs": None,
+                       "explanation": None, "misconception": None}])
+r = cov2.gate_form_standard_relevance([multi], REAL, standards=["US.17"])
+check("an item printed under a standard it does not name FAILS", not r.passed)
+check("the finding says the heading claims more than the item supports",
+      any("claims more than the item supports" in str(f) for f in r.findings))
+r = cov2.gate_form_standard_relevance([multi], REAL, standards=["US.20"])
+check("the same item under the standard it IS about passes", r.passed,
+      "; ".join(str(f) for f in r.findings[:1]))
+check("EMPTY scan FAILS", not cov2.gate_form_standard_relevance([], REAL).passed)
+
+# ── authored teacher text must not prove alignment ──────────────────────
+print("\n  relevance reads STUDENT-VISIBLE text only")
+hoover = fixtures.item(id="H-9", standardCodes=["US.46"],
+                       stem="What did the Reconstruction Finance Corporation do under Hoover?",
+                       explanation="This is the standard contrast with the New Deal's relief.")
+hoover["choices"] = [{"id": "A", "text": "It lent federal money to banks and railroads",
+                      "textEs": None, "explanation": None, "misconception": None}]
+hoover["correctAnswer"] = "A"
+hay = content._haystack(hoover)
+check("the key explanation is excluded from the relevance haystack",
+      "New Deal" not in hay, f"haystack was {hay[:120]!r}")
+check("so a Hoover item does not claim the New Deal standard on authored prose",
+      alignment.relevant_to(hay, STDS["US.46"]["text"]) == [],
+      f"got {alignment.relevant_to(hay, STDS['US.46']['text'])}")
+
+# ── one placement rule, shared ──────────────────────────────────────────
+print("\n  readiness and the builder share one placement rule")
+import form_readiness, forms as fb, inspect
+for mod in (form_readiness, fb):
+    src = inspect.getsource(mod)
+    check(f"{mod.__name__} places via alignment.relevant_to",
+          "alignment.relevant_to" in src)
+    check(f"{mod.__name__} excludes the explanation from its haystack",
+          'it.get("explanation")' not in src.split("relevant_to")[0][-400:])
+
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
 for f in FAILED:
