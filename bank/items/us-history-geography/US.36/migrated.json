@@ -3208,6 +3208,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Coolidge's 'limitation' (no foreknowledge of crash); Senate Committee's retrospective position; both documents produced in very different political contexts. KEY EVIDENCE EXPECTED: Installment buying, radio/advertising, margin buying, Black Tuesday, Mellon tax policy, Smoot-Hawley, Hoover's response, connection to US.39 Great Depression.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

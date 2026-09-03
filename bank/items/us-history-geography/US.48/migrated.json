@@ -439,7 +439,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key A declares A incorrect"
+      "heldReason": "the explanation for key A declares A incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is A. Its explanation says: \"A is incorrect because it describes a different program, event, or idea than the topic in the question.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'A'; key text is 'The principle that generals could not advocate for different policies publicly w'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-us46-dok2-7",
@@ -3136,6 +3161,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Neutrality Act of 1935 (arms embargo); Neutrality Act of 1937 (cash-and-carry); America First Committee / Charles Lindbergh; Destroyers-for-bases agreement (September 1940); Lend-Lease Act (March 1941); FDR 'Arsenal of Democracy' speech (December 29, 1940); Fall of France (June 1940) as policy turning point.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -3226,6 +3269,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: EO 9066 (February 19, 1942); 120,000 Japanese Americans interned (70,000 U.S. citizens); Manzanar/Topaz camps; Korematsu v. U.S. (1944) 6-3 decision; Jackson/Murphy/Roberts dissents; Civil Liberties Act of 1988 ($20,000 reparations); Trump v. Hawaii (2018) — formally overruled Korematsu.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -3326,6 +3387,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Doc A SOAPS — Speaker as wartime leader, occasion as day after attack, purpose as securing war declaration, significance as nation-transforming moment. Doc B SOAPS — Speaker as politically constrained president, occasion as pre-Pearl Harbor State of Union, purpose as building ideological groundwork, significance as revealing FDR's pre-war strategic thinking. KEY EVIDENCE EXPECTED: Neutrality Acts (1935–1937); Lend-Lease Act (March 1941); destroyers-for-bases agreement; America First Committee; 388-1 Congressional vote; Germany/Italy declaration of war (December 11, 1941).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -3426,6 +3505,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: EO 9066 — deliberately avoids naming Japanese Americans; this racial evasion in legal language is historically significant. Jackson dissent — 'loaded weapon' metaphor should be analyzed as legal prophecy, not just protest. KEY EVIDENCE EXPECTED: EO 9066 (February 19, 1942); 120,000 internees (70,000 citizens); Manzanar; Korematsu 6-3 majority decision; Murphy, Jackson, Roberts dissents; Civil Liberties Act of 1988; Trump v. Hawaii (2018) — formally overruled Korematsu.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

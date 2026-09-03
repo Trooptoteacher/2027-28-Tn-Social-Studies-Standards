@@ -5684,6 +5684,49 @@
         ],
         "status": "authored",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-descriptor",
+            "verdict": "escalate",
+            "question": "Do these bands describe what you would actually accept at each score?",
+            "evidence": [
+              "scale is well-formed: 0-4, every band has a descriptor"
+            ],
+            "cannotVerify": [
+              "what a strong answer contains is a pedagogical AND historical claim — policy alwaysEscalates any rubric descriptor"
+            ],
+            "draft": {
+              "scorePoints": 4,
+              "criteria": [
+                {
+                  "points": 4,
+                  "descriptor": "Identifies specific principles behind the Marshall Plan's success — its scale, its requirement that recipients cooperate and plan jointly, and the alignment of American economic self-interest with European recovery — and applies them to a NAMED contemporary aid context rather than to foreign aid in general. The limitations are historically grounded: post-war Europe had industrial capacity and institutions to rebuild, the aid ran through a bipartisan Cold War consensus, and the recipients were states that wanted it. Comparison runs in both directions; it does not simply recommend repeating the Plan."
+                },
+                {
+                  "points": 3,
+                  "descriptor": "Names at least two real principles and applies them to a contemporary context with reasonable specificity. Limitations are identified and plausible, if not fully developed."
+                },
+                {
+                  "points": 2,
+                  "descriptor": "Describes the Marshall Plan accurately but the modern comparison stays generic (\"we should help other countries more\"). Limitations are asserted rather than explained."
+                },
+                {
+                  "points": 1,
+                  "descriptor": "Marshall Plan described inaccurately or only by name. No usable comparison or limitation."
+                },
+                {
+                  "points": 0,
+                  "descriptor": "No response, or off-topic."
+                }
+              ]
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -6104,6 +6147,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Greek Civil War (1946–1949); Soviet pressure on Turkey (Dardanelles); British withdrawal from the region; $400 million aid appropriation; Marshall Plan as economic companion; Korean War (1950) as first major precedential application; 'police action' justification in Korea; later Vietnam War application; NSC-68 escalation.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -6196,6 +6257,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: NSC-68 defense spending recommendation; Truman's June 1950 intervention decision; UN Security Council authorization (Soviet boycott); General MacArthur and Yalu River advance; Chinese People's Volunteer Army intervention (Oct. 1950); MacArthur dismissal (April 1951); July 1953 armistice; 38th parallel as final boundary — containment achieved but not rollback.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -6292,6 +6371,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: For Document A — HIPP should identify Kennan's diplomatic vantage point, State Dept. audience, warning purpose, and his trained diplomat's point of view that shaped his perception. For Document B — HIPP should note Churchill's political status, the American audience (Truman present), the galvanizing purpose, and Churchill's imperial Great Power point of view. For Document C — HIPP should identify the immediate Greece/Turkey crisis, the congressional audience, the funding request purpose, and Truman's Manichean framing as a political strategy. KEY EVIDENCE EXPECTED: Yalta and Potsdam tensions; Soviet satellite states (1945–1948); Soviet rejection of Marshall Plan; Berlin Blockade (1948–1949); Soviet atomic test (1949); Chinese Communist victory (1949); NSC-68 (1950) as ideological escalation.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -6388,6 +6485,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Document A HIPP — Truman's 'structure of resistance' language as containment framework extended to Berlin; legal rights argument as foundation for airlift legitimacy. Document B HIPP — Article 5's collective defense principle as revolutionary shift in U.S. foreign policy away from isolationism; the specific reference to 'Europe or North America' as deliberately inclusive. Document C HIPP — Kennedy's use of the Wall as rhetorical evidence of comparative system failure; audience includes East Berliners watching from across the Wall. KEY EVIDENCE EXPECTED: Berlin Blockade (June 1948–May 1949) logistics; 11-month airlift success; NATO founding (April 1949); Berlin Wall construction (August 13, 1961); 3.5 million East German refugees (1945–1961); Checkpoint Charlie crisis (Oct. 1961); Berlin as divided city until 1989 (US.70).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

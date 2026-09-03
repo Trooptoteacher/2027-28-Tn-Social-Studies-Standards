@@ -1,0 +1,36 @@
+{
+  "$comment": "What an AI first-pass review may and may not do. Sean Reynolds, 2026-09-03: 'Create an AI review with guardrails to review that and clear it ... I'll review everything at the end.' The queue is the bottleneck and this is meant to shrink it. The BOUNDARY below is what keeps shrinking it from also destroying the thing that makes the bank credible.",
+  "policyVersion": 1,
+  "sourceOfRecord": "Sean Reynolds, 2026-09-03",
+  "theBoundary": {
+    "why": "This repo's entire trust model is that AI never affirms its own work. tcapFormat has no automatic path to true. review-provenance refuses to let authored content be silently settled. historianReview exists because a rationale explaining a misconception is still a claim about history. An AI reviewer that writes approvals would satisfy the queue and destroy the reason a district could trust the bank — and it would do it invisibly, because an approval record looks the same whoever wrote it.",
+    "neverWrites": ["historianReview", "biasReview.reviewer", "alignmentStatus:human-verified",
+                    "requiresHistorianReview:false", "tcapFormat:true", "tcapFormatAffirmedBy"],
+    "writesOnlyTo": "aiReview",
+    "clearanceMeaning": "An aiReview verdict is a RECOMMENDATION with its evidence attached. It never counts toward Grade A, never satisfies review-provenance, and never lets an item ship."
+  },
+  "verdicts": {
+    "clear-recommended": "Every claim needed to settle this was checked against a source of truth already in the repo. Recommended for a fast confirm.",
+    "fix-drafted": "A specific, bounded correction is proposed and shown in full. The correction is NOT applied.",
+    "escalate": "Settling this requires a judgement no machine can make — a claim about history, a Spanish reading, a pedagogical call. Routed to a person with the question stated."
+  },
+  "clearableClasses": {
+    "$comment": "The ONLY defect classes an AI pass may recommend clearing. Each is deterministic and its evidence is in-repo. Anything not on this list escalates, including anything that looks easy.",
+    "rubric-scale-integrity": "Bands are 0..N with a descriptor each — checkable against the rubric itself.",
+    "rubric-extraction-fidelity": "An extracted rubric's bands appear verbatim in the item's own explanation text.",
+    "record-structural": "A missing or malformed field, checkable against schema/tn-assessment-item.schema.json.",
+    "letter-reference-consistency": "A choice-letter reference resolves correctly against the item's own choices."
+  },
+  "alwaysEscalates": [
+    "any assertion about what happened in history, when, or to whom",
+    "any citation, publication, date or holding institution",
+    "any Spanish text (no Spanish reader has looked at this bank)",
+    "any bias or sensitivity judgement",
+    "any rubric DESCRIPTOR (what a strong answer contains is a pedagogical and historical claim)",
+    "any rewrite of student-facing text"
+  ],
+  "everyRecommendationMustCarry": {
+    "evidence": "What was checked and where the source of truth was. A verdict with no evidence is an opinion.",
+    "cannotVerify": "What this pass could NOT establish. A reviewer that never says 'I don't know' is not reviewing, and an empty list is permitted only for a clearableClasses finding."
+  }
+}

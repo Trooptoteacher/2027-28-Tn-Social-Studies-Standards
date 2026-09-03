@@ -1087,6 +1087,49 @@
           "contains": "CITATION QUOTING A TITLE"
         }
       ]
+    },
+    {
+      "id": "L63",
+      "mistake": "The review queue became one person's bottleneck — two sessions put 10 items, 83 rubrics, 30 held records and 7 citations on the only reviewer this project has — and the obvious fix is the one that would have destroyed the bank. An AI pass that writes approvals empties the queue and removes the reason a district could trust any of it, INVISIBLY, because an approval record looks identical whoever wrote it: every gate would still read green and nothing on the page would say a machine had signed off on machine work. So the first pass triages and drafts and never approves. It writes only into an `aiReview` namespace that counts toward no gate, satisfies no provenance and lets nothing ship; every verdict carries its EVIDENCE and its CANNOT-VERIFY list, because a verdict with no evidence is an opinion and a reviewer that never says 'I don't know' is not reviewing; and `clear-recommended` is permitted only on the four deterministic classes the policy declares, so anything touching history, a citation, Spanish, bias or a rubric descriptor escalates even when it looks easy. Enforced on the RECORDS, not on the reviewer's source, because a tool can be rewritten and a policy file is prose until something reads it. Proved on all eight ways across the line. The gate then failed a FORM for judging nothing — no item on it carried an AI review — which is the alarm-on-the-harmless pattern a fourth time (L49, L59, L62). 'Nothing here claims review' is true and safe; 'this was not measured' is a different statement. It is N/A with a stated reason now, and the population is any review claim of either kind.",
+      "caughtBy": "asking what the queue fix would cost before building it",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_ai_review_boundary"
+        },
+        {
+          "file": "policy/ai-review.json",
+          "contains": "theBoundary"
+        },
+        {
+          "file": "policy/ai-review.json",
+          "contains": "alwaysEscalates"
+        },
+        {
+          "file": "tools/ai_review.py",
+          "contains": "It triages; it never approves"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "gate_ai_review_boundary"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "AI naming ITSELF as the historian reviewer FAILS"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "clearing a HISTORICAL claim FAILS"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "never assigns"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "is N/A with a reason, not NOT MEASURED"
+        }
+      ]
     }
   ]
 }

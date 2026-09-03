@@ -3245,6 +3245,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Naval Act of 1890 / fleet expansion; USS Maine / USS Oregon; Commodore Dewey at Manila Bay (May 1, 1898); Hawaii annexation as coaling station; Treaty of Paris (1898) — Philippines, Guam, Puerto Rico; concept of 'blue-water navy'; distinction between Mahan's thesis and Social Darwinism/missionary imperialism.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -3518,6 +3536,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: — Doc 1 (Monroe): Note 'not interfered and shall not interfere' as a promise of non-intervention in existing colonies; the purpose is deterrence of European return, not assertion of U.S. control; the audience is primarily European powers. — Doc 2 (Roosevelt): Note 'chronic wrongdoing,' 'civilized nation,' 'international police power' as the operative phrases; Roosevelt's Point of View assumes Latin American inferiority; the audience includes both the U.S. Congress and Latin American governments; the Occasion is the Venezuela/Dominican fiscal crises. KEY EVIDENCE EXPECTED: Venezuela Boundary Crisis (1902–03); Dominican Republic customs control (1905); Cuba Platt Amendment; Panama Canal acquisition; U.S. in Haiti (1915–34); U.S. in Nicaragua (1912–33); Good Neighbor Policy (1933); Latin American nationalist movements; dollar diplomacy as successor policy under Taft.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

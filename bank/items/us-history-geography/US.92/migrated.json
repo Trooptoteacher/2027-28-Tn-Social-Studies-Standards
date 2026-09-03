@@ -178,7 +178,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key C declares C incorrect"
+      "heldReason": "the explanation for key C declares C incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is C. Its explanation says: \"B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'C'; key text is 'She became the first woman to serve as Speaker of the House'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-us93-4",
@@ -435,7 +460,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key C declares C incorrect"
+      "heldReason": "the explanation for key C declares C incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is C. Its explanation says: \"B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'C'; key text is 'She became the first woman to serve as Speaker of the House in 2007'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "us-93-q02",
@@ -2407,7 +2457,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key D declares D incorrect"
+      "heldReason": "the explanation for key D declares D incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is D. Its explanation says: \"B is incorrect because it names a different institution or power than the one the item asks about; D is incorrect because it names a different institution or power than the one the item asks about.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'D'; key text is 'Changing political priorities of presidents who recognized the symbolic and prac'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "us-93-x021",
@@ -3012,7 +3087,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key B declares B incorrect"
+      "heldReason": "the explanation for key B declares B incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is B. Its explanation says: \"B is wrong because banks still had legal disclosure obligations, and C is wrong because the lesson was not that all financial innovation is inherently bad.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'B'; key text is 'Deregulation of the financial industry in the 1990s and 2000s had removed safegu'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "us-73-x027",
@@ -3274,7 +3374,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key D declares D incorrect"
+      "heldReason": "the explanation for key D declares D incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is D. Its explanation says: \"D is wrong because the speech did not persuade France and Russia to support the invasion.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'D'; key text is \"Powell later called it a 'blot' on his record after the WMD claims proved false\"",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-us93-perspective-1",

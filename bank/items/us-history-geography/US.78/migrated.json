@@ -7899,6 +7899,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Title IX's language mirroring Civil Rights Act Title VI; NOW founded 1966 by Betty Friedan and others; ERA passed Congress 1972, failed state ratification by 1982; Bella Abzug and Shirley Chisholm as legislative advocates; NCAA resistance to Title IX athletics provisions; delayed federal regulations (finalized 1975); women's athletic participation growth post-1972; ACLU Women's Rights Project litigation strategy.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

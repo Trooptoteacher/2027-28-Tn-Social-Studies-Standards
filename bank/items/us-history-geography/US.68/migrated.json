@@ -1445,7 +1445,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key B declares B incorrect"
+      "heldReason": "the explanation for key B declares B incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is B. Its explanation says: \"B is wrong because B.B.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'B'; key text is 'Studios in Memphis and Nashville popularized crossover sounds that reached natio'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "us-76-q01",
@@ -3951,6 +3976,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Doc 1 — 1964 filibuster limits; individual litigation model; federal elections only; no literacy test ban. Doc 2 — Bloody Sunday catalyst; LBJ's 'We Shall Overcome'; preclearance as federalism revolution; covered jurisdictions (7 Southern states); literacy test suspension as structural fix. KEY EVIDENCE EXPECTED: Selma to Montgomery marches; Bloody Sunday (March 7, 1965); Edmund Pettus Bridge; ABC television broadcast of troopers' attack; LBJ's 'We Shall Overcome' address (March 15, 1965); Section 5 preclearance as 10th Amendment challenge; covered jurisdiction formula; VRA passage August 6, 1965; Black voter registration increase in covered states post-1965.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

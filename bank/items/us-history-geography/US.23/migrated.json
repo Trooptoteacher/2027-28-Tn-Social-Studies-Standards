@@ -4373,6 +4373,49 @@
         ],
         "status": "authored",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-descriptor",
+            "verdict": "escalate",
+            "question": "Do these bands describe what you would actually accept at each score?",
+            "evidence": [
+              "scale is well-formed: 0-4, every band has a descriptor"
+            ],
+            "cannotVerify": [
+              "what a strong answer contains is a pedagogical AND historical claim — policy alwaysEscalates any rubric descriptor"
+            ],
+            "draft": {
+              "scorePoints": 4,
+              "criteria": [
+                {
+                  "points": 4,
+                  "descriptor": "Grades THREE named New Deal programs on BOTH criteria separately, and the two grades come apart for at least one program — the response shows it understands that immediate relief and long-term structural change are different achievements (the CCC put men to work quickly and left little institutional legacy; Social Security did comparatively little in 1935 and reshaped the federal government permanently). Every grade is justified with specific evidence: enrollment or spending figures, dates, what the programme actually did, what a court or Congress did to it."
+                },
+                {
+                  "points": 3,
+                  "descriptor": "Three named programs graded on both criteria with accurate supporting evidence. Grades are defended. The short-term/long-term distinction is present but the two grades largely track each other."
+                },
+                {
+                  "points": 2,
+                  "descriptor": "Three programs named but one is described inaccurately, or only two are graded on both criteria. Justification leans on general characterisation (\"it helped people\") rather than specific evidence."
+                },
+                {
+                  "points": 1,
+                  "descriptor": "Fewer than three programs, or programs misidentified as New Deal. Grades assigned with no historical justification."
+                },
+                {
+                  "points": 0,
+                  "descriptor": "No response, or off-topic."
+                }
+              ]
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

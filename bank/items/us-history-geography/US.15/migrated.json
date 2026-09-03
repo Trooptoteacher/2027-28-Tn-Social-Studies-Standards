@@ -669,7 +669,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key D declares D incorrect"
+      "heldReason": "the explanation for key D declares D incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is D. Its explanation says: \"Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'D'; key text is 'Pittsburgh'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-new-us09-dok1-bessemer",
@@ -846,7 +871,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key D declares D incorrect"
+      "heldReason": "the explanation for key D declares D incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is D. Its explanation says: \"Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'D'; key text is 'Steel production and manufacturing for construction purposes'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-us09-dok1-tuskegee",
@@ -1175,7 +1225,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key B declares B incorrect"
+      "heldReason": "the explanation for key B declares B incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'B'; key text is 'Documented through meticulous research how Rockefeller had used secret railroad '",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "us-09-x015",
@@ -1447,7 +1522,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key B declares B incorrect"
+      "heldReason": "the explanation for key B declares B incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'B'; key text is 'Public records, court documents, and interviews that Standard Oil believed were '",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-us09-dok2-3-u2",
@@ -2627,7 +2727,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key B declares B incorrect"
+      "heldReason": "the explanation for key B declares B incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'B'; key text is 'Horizontal integration - buying out competing oil refineries'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-us09-dok2-7",
@@ -2981,7 +3106,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key B declares B incorrect"
+      "heldReason": "the explanation for key B declares B incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'B'; key text is 'A monopoly that controlled oil refining and distribution'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-new-us09-dok2-madam-walker",

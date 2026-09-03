@@ -1292,7 +1292,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key D declares D incorrect"
+      "heldReason": "the explanation for key D declares D incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is D. Its explanation says: \"D is wrong because advertising shaped buying habits more than shared culture, and C is wrong because it focuses on campaigns.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'D'; key text is 'Families across regions watched the same news, sports, and entertainment program'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-us75-add-4",
@@ -3847,6 +3872,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Students should identify the H (historical context of 1963 march vs. 1964 DNC challenge), I (mass public audience vs. party committee), P (demand for immediate systemic change vs. exposure of racial violence), P (young militant organizer vs. grassroots sharecropper activist). KEY EVIDENCE EXPECTED: Lewis's criticism of the civil rights bill as \"too little and too late,\" his call for revolution, the \"scorched earth\" metaphor (moderated version still radical); Hamer's personal testimony of beating in Winona jail, her challenge to American ideals, MFDP challenge to Mississippi's all-white delegation.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

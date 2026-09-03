@@ -4262,6 +4262,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: — Doc 1 (Espionage Act): Note the 'nonmailable' provision as a censorship mechanism; note the breadth of 'willfully make or convey' — it covers intent broadly; historical context = Committee on Public Information (CPI) and propaganda campaign running simultaneously. — Doc 2 (Schenck): Note Holmes's theatre analogy is technically about a false statement causing panic, not about political opinion — but the ruling applied the test to political leaflets; note 'clear and present danger' became the dominant First Amendment test until Brandenburg. KEY EVIDENCE EXPECTED: Espionage Act (1917) provisions; Sedition Act (1918) — extended to any 'disloyal, profane, scurrilous' language about the government; Postmaster Burleson's postal bans; Eugene V. Debs conviction (June 1918); IWW (Wobblies) prosecutions; Committee on Public Information (George Creel); Liberty Bonds / four-minute men; Abrams v. United States (1919, Holmes dissent); Brandenburg v. Ohio (1969) replacing 'clear and present danger' with 'imminent lawless action.'",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

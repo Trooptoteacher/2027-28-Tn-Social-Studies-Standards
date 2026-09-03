@@ -1,0 +1,2658 @@
+{
+  "$comment": "AI FIRST PASS. Every verdict here is a RECOMMENDATION carrying its evidence and its cannot-verify list. Nothing here approves anything: aiReview counts toward no gate, satisfies no provenance and lets nothing ship. Set humanVerdict on a row to record your decision.",
+  "policyVersion": 1,
+  "reviewedBy": "ai-first-pass",
+  "boundary": {
+    "why": "This repo's entire trust model is that AI never affirms its own work. tcapFormat has no automatic path to true. review-provenance refuses to let authored content be silently settled. historianReview exists because a rationale explaining a misconception is still a claim about history. An AI reviewer that writes approvals would satisfy the queue and destroy the reason a district could trust the bank — and it would do it invisibly, because an approval record looks the same whoever wrote it.",
+    "neverWrites": [
+      "historianReview",
+      "biasReview.reviewer",
+      "alignmentStatus:human-verified",
+      "requiresHistorianReview:false",
+      "tcapFormat:true",
+      "tcapFormatAffirmedBy"
+    ],
+    "writesOnlyTo": "aiReview",
+    "clearanceMeaning": "An aiReview verdict is a RECOMMENDATION with its evidence attached. It never counts toward Grade A, never satisfies review-provenance, and never lets an item ship."
+  },
+  "findings": [
+    {
+      "id": "US.01-X020",
+      "file": "items/us-history-geography/US.04/migrated.json",
+      "standardCodes": [
+        "US.04"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is D. Its explanation says: \"Option D is incorrect because this ideology directly shaped federal land and military policy throughout the 19th century.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'D'; key text is 'It provided ideological justification for westward territorial expansion and the'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "US.01-X021",
+      "file": "items/us-history-geography/US.04/migrated.json",
+      "standardCodes": [
+        "US.04"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is A. Its explanation says: \"Option A is incorrect because the Great Plains suffer from insufficient rainfall and drought, not flooding.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'A'; key text is 'Insufficient timber for construction, scarce water, periodic droughts, and hard '",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us01-dok4-cr-1",
+      "file": "items/us-history-geography/US.04/migrated.json",
+      "standardCodes": [
+        "US.04",
+        "US.05",
+        "US.08"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "US.05-GEN-01",
+      "file": "items/us-history-geography/US.05/generated.json",
+      "standardCodes": [
+        "US.05"
+      ],
+      "itemType": "mcq",
+      "class": "authored-content",
+      "verdict": "escalate",
+      "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+      "evidence": [
+        "structural gates pass on this item (record, key, distractors, relevance)"
+      ],
+      "cannotVerify": [
+        "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+      ],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "US.05-GEN-02",
+      "file": "items/us-history-geography/US.05/generated.json",
+      "standardCodes": [
+        "US.05"
+      ],
+      "itemType": "mcq",
+      "class": "authored-content",
+      "verdict": "escalate",
+      "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+      "evidence": [
+        "structural gates pass on this item (record, key, distractors, relevance)"
+      ],
+      "cannotVerify": [
+        "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+      ],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us09-dok4-cr-2",
+      "file": "items/us-history-geography/US.06/migrated.json",
+      "standardCodes": [
+        "US.16"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us10-dok4-cr-8",
+      "file": "items/us-history-geography/US.06/migrated.json",
+      "standardCodes": [
+        "US.06",
+        "US.14"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us09-dok4-dbq-2",
+      "file": "items/us-history-geography/US.06/migrated.json",
+      "standardCodes": [
+        "US.06",
+        "US.15",
+        "US.18"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us08-dok4-cr-1",
+      "file": "items/us-history-geography/US.11/provisional.json",
+      "standardCodes": [
+        "US.11",
+        "US.12"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us11-dok4-dbq-6",
+      "file": "items/us-history-geography/US.11/provisional.json",
+      "standardCodes": [
+        "US.11",
+        "US.13",
+        "US.14"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us11-dok4-cr-3",
+      "file": "items/us-history-geography/US.13/migrated.json",
+      "standardCodes": [
+        "US.13",
+        "US.14"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us18-dok4-cr-7",
+      "file": "items/us-history-geography/US.13/migrated.json",
+      "standardCodes": [
+        "US.13",
+        "US.20"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-tcap-us09-urbanization-1",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "standardCodes": [
+        "US.15"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is D. Its explanation says: \"Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'D'; key text is 'Pittsburgh'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-new-us09-dok1-carnegie",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "standardCodes": [
+        "US.09"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is D. Its explanation says: \"Choice D is wrong if it names oil, because that was Rockefeller’s field, not Carnegie’s.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'D'; key text is 'Steel production and manufacturing for construction purposes'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-09-x012",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "standardCodes": [
+        "US.16"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'Documented through meticulous research how Rockefeller had used secret railroad '",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-09-x025",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "standardCodes": [
+        "US.16"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'Public records, court documents, and interviews that Standard Oil believed were '",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us09-dok2-6",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "standardCodes": [
+        "US.09"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'Horizontal integration - buying out competing oil refineries'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-new-us09-dok2-rockefeller",
+      "file": "items/us-history-geography/US.15/migrated.json",
+      "standardCodes": [
+        "US.09"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'A monopoly that controlled oil refining and distribution'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us14-dok1-tarbell",
+      "file": "items/us-history-geography/US.16/migrated.json",
+      "standardCodes": [
+        "US.16"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'Standard Oil'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us14-dok1-2-u2",
+      "file": "items/us-history-geography/US.16/migrated.json",
+      "standardCodes": [
+        "US.16"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"Choice B is wrong if it points to the Clayton Act or another later law, because Tarbell’s work is most directly linked to the attack on Standard Oil that ended in the 1911 breakup.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'The monopolistic practices of Standard Oil Company'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us14-dok4-cr-4",
+      "file": "items/us-history-geography/US.16/migrated.json",
+      "standardCodes": [
+        "US.16",
+        "US.18"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us14-dok4-dbq-4",
+      "file": "items/us-history-geography/US.16/migrated.json",
+      "standardCodes": [
+        "US.16",
+        "US.18",
+        "US.20"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us2-dok4-cr2",
+      "file": "items/us-history-geography/US.17/migrated.json",
+      "standardCodes": [
+        "US.23"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-descriptor",
+      "verdict": "escalate",
+      "question": "Do these bands describe what you would actually accept at each score?",
+      "evidence": [
+        "scale is well-formed: 0-4, every band has a descriptor"
+      ],
+      "cannotVerify": [
+        "what a strong answer contains is a pedagogical AND historical claim — policy alwaysEscalates any rubric descriptor"
+      ],
+      "draft": {
+        "scorePoints": 4,
+        "criteria": [
+          {
+            "points": 4,
+            "descriptor": "Names THREE specific events or policies (e.g. the Spanish-American War, the annexation of Hawaii, the Open Door Policy, the Panama Canal, the Philippine-American War) and shows each carrying BOTH an idealistic justification and a self-interested motive — not three examples of one and none of the other. Quotes or closely paraphrases the era's own language (\"civilization\", \"duty\", \"markets\", \"coaling stations\") rather than asserting motive. The evaluation takes a clear position on whether imperialism strengthened or weakened American democratic ideals and defends it against the strongest objection to it, most often the Philippines."
+          },
+          {
+            "points": 3,
+            "descriptor": "Three specific examples, accurate, with both motive types present across the response even if one example carries only one. Evidence is concrete. The evaluation states a position and supports it, but does not engage a counterargument."
+          },
+          {
+            "points": 2,
+            "descriptor": "Two or three examples, at least one imprecise or misdated. Idealism and self-interest are both named but treated as labels rather than shown in the evidence. The evaluation is asserted without support."
+          },
+          {
+            "points": 1,
+            "descriptor": "Fewer than two usable examples, or examples outside the period. Motives are described generally (\"America wanted power\") with no specific policy attached. No evaluation, or an evaluation that restates the prompt."
+          },
+          {
+            "points": 0,
+            "descriptor": "No response, or off-topic."
+          }
+        ]
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us16-dok4-cr-5",
+      "file": "items/us-history-geography/US.17/migrated.json",
+      "standardCodes": [
+        "US.17",
+        "US.18"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us16-dok4-dbq-5",
+      "file": "items/us-history-geography/US.17/migrated.json",
+      "standardCodes": [
+        "US.17",
+        "US.18",
+        "US.19"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us19-dok4-cr-1",
+      "file": "items/us-history-geography/US.21/migrated.json",
+      "standardCodes": [
+        "US.21",
+        "US.22"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us23-dok4-dbq-3",
+      "file": "items/us-history-geography/US.21/migrated.json",
+      "standardCodes": [
+        "US.21",
+        "US.25"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us20-dok4-cr-2",
+      "file": "items/us-history-geography/US.22/migrated.json",
+      "standardCodes": [
+        "US.22",
+        "US.23"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us20-dok4-dbq-2",
+      "file": "items/us-history-geography/US.22/migrated.json",
+      "standardCodes": [
+        "US.22",
+        "US.23"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us3-dok4-cr3",
+      "file": "items/us-history-geography/US.23/migrated.json",
+      "standardCodes": [
+        "US.46"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-descriptor",
+      "verdict": "escalate",
+      "question": "Do these bands describe what you would actually accept at each score?",
+      "evidence": [
+        "scale is well-formed: 0-4, every band has a descriptor"
+      ],
+      "cannotVerify": [
+        "what a strong answer contains is a pedagogical AND historical claim — policy alwaysEscalates any rubric descriptor"
+      ],
+      "draft": {
+        "scorePoints": 4,
+        "criteria": [
+          {
+            "points": 4,
+            "descriptor": "Grades THREE named New Deal programs on BOTH criteria separately, and the two grades come apart for at least one program — the response shows it understands that immediate relief and long-term structural change are different achievements (the CCC put men to work quickly and left little institutional legacy; Social Security did comparatively little in 1935 and reshaped the federal government permanently). Every grade is justified with specific evidence: enrollment or spending figures, dates, what the programme actually did, what a court or Congress did to it."
+          },
+          {
+            "points": 3,
+            "descriptor": "Three named programs graded on both criteria with accurate supporting evidence. Grades are defended. The short-term/long-term distinction is present but the two grades largely track each other."
+          },
+          {
+            "points": 2,
+            "descriptor": "Three programs named but one is described inaccurately, or only two are graded on both criteria. Justification leans on general characterisation (\"it helped people\") rather than specific evidence."
+          },
+          {
+            "points": 1,
+            "descriptor": "Fewer than three programs, or programs misidentified as New Deal. Grades assigned with no historical justification."
+          },
+          {
+            "points": 0,
+            "descriptor": "No response, or off-topic."
+          }
+        ]
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us22-dok4-cr-4",
+      "file": "items/us-history-geography/US.24/migrated.json",
+      "standardCodes": [
+        "US.23"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us24-dok4-cr-5",
+      "file": "items/us-history-geography/US.26/migrated.json",
+      "standardCodes": [
+        "US.26",
+        "US.27"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us26-dok4-cr-6",
+      "file": "items/us-history-geography/US.26/migrated.json",
+      "standardCodes": [
+        "US.26",
+        "US.28"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us27-dok4-cr-7",
+      "file": "items/us-history-geography/US.26/migrated.json",
+      "standardCodes": [
+        "US.26",
+        "US.29"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us25-dok4-dbq-4",
+      "file": "items/us-history-geography/US.26/migrated.json",
+      "standardCodes": [
+        "US.26",
+        "US.27"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us27-dok4-dbq-6",
+      "file": "items/us-history-geography/US.26/migrated.json",
+      "standardCodes": [
+        "US.26",
+        "US.29"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us26-dok4-dbq-5",
+      "file": "items/us-history-geography/US.27/migrated.json",
+      "standardCodes": [
+        "US.27",
+        "US.28"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us35-dok4-cr-6",
+      "file": "items/us-history-geography/US.30/migrated.json",
+      "standardCodes": [
+        "US.30",
+        "US.31",
+        "US.37",
+        "US.38"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us33-dok4-cr-5",
+      "file": "items/us-history-geography/US.35/provisional.json",
+      "standardCodes": [
+        "US.35"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us34-dok4-dbq-6",
+      "file": "items/us-history-geography/US.36/migrated.json",
+      "standardCodes": [
+        "US.36",
+        "US.37",
+        "US.38"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us28-dok4-cr-1",
+      "file": "items/us-history-geography/US.37/migrated.json",
+      "standardCodes": [
+        "US.37"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us38-dok4-cr-9",
+      "file": "items/us-history-geography/US.37/migrated.json",
+      "standardCodes": [
+        "US.37"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us28-dok4-dbq-1",
+      "file": "items/us-history-geography/US.37/migrated.json",
+      "standardCodes": [
+        "US.37"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us29-dok4-dbq-2",
+      "file": "items/us-history-geography/US.37/migrated.json",
+      "standardCodes": [
+        "US.37"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us35-dok4-dbq-7",
+      "file": "items/us-history-geography/US.37/migrated.json",
+      "standardCodes": [
+        "US.37"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us39-dok4-cr-6",
+      "file": "items/us-history-geography/US.37/migrated.json",
+      "standardCodes": [
+        "US.37",
+        "US.38",
+        "US.41"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us31-dok4-cr-3",
+      "file": "items/us-history-geography/US.38/migrated.json",
+      "standardCodes": [
+        "US.38"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us31-dok4-dbq-3",
+      "file": "items/us-history-geography/US.38/migrated.json",
+      "standardCodes": [
+        "US.38"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us31-dok4-dbq-8",
+      "file": "items/us-history-geography/US.38/migrated.json",
+      "standardCodes": [
+        "US.38"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us30-dok4-cr-2",
+      "file": "items/us-history-geography/US.39/migrated.json",
+      "standardCodes": [
+        "US.39"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us39-dok4-cr-1",
+      "file": "items/us-history-geography/US.41/migrated.json",
+      "standardCodes": [
+        "US.41",
+        "US.42"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us40-dok4-cr-2",
+      "file": "items/us-history-geography/US.41/migrated.json",
+      "standardCodes": [
+        "US.41",
+        "US.42"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us39-dok4-dbq-1",
+      "file": "items/us-history-geography/US.41/migrated.json",
+      "standardCodes": [
+        "US.41",
+        "US.42",
+        "US.43"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us41-dok4-cr-3",
+      "file": "items/us-history-geography/US.43/migrated.json",
+      "standardCodes": [
+        "US.43",
+        "US.46"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us42-dok4-cr-4",
+      "file": "items/us-history-geography/US.43/migrated.json",
+      "standardCodes": [
+        "US.43",
+        "US.44"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us43-dok4-cr-5",
+      "file": "items/us-history-geography/US.43/migrated.json",
+      "standardCodes": [
+        "US.43",
+        "US.45"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us42-dok4-dbq-2",
+      "file": "items/us-history-geography/US.43/migrated.json",
+      "standardCodes": [
+        "US.43",
+        "US.44",
+        "US.45"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us44-dok4-dbq-3",
+      "file": "items/us-history-geography/US.43/migrated.json",
+      "standardCodes": [
+        "US.43",
+        "US.46"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us41-dok4-dbq-4",
+      "file": "items/us-history-geography/US.43/migrated.json",
+      "standardCodes": [
+        "US.43",
+        "US.45",
+        "US.46"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us45-dok4-cr-1",
+      "file": "items/us-history-geography/US.47/migrated.json",
+      "standardCodes": [
+        "US.47",
+        "US.48"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us45-dok4-dbq-1",
+      "file": "items/us-history-geography/US.47/migrated.json",
+      "standardCodes": [
+        "US.47",
+        "US.48"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-46-x027",
+      "file": "items/us-history-geography/US.48/migrated.json",
+      "standardCodes": [
+        "US.48"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is A. Its explanation says: \"A is incorrect because it describes a different program, event, or idea than the topic in the question.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'A'; key text is 'The principle that generals could not advocate for different policies publicly w'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us46-dok4-cr-2",
+      "file": "items/us-history-geography/US.48/migrated.json",
+      "standardCodes": [
+        "US.48",
+        "US.49"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us54-dok4-cr-10",
+      "file": "items/us-history-geography/US.48/migrated.json",
+      "standardCodes": [
+        "US.48",
+        "US.54"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us46-dok4-dbq-2",
+      "file": "items/us-history-geography/US.48/migrated.json",
+      "standardCodes": [
+        "US.48",
+        "US.49"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us54-dok4-dbq-6",
+      "file": "items/us-history-geography/US.48/migrated.json",
+      "standardCodes": [
+        "US.48",
+        "US.54"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us53-dok4-cr-9",
+      "file": "items/us-history-geography/US.51/migrated.json",
+      "standardCodes": [
+        "US.51",
+        "US.52"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us53-dok4-dbq-5",
+      "file": "items/us-history-geography/US.51/migrated.json",
+      "standardCodes": [
+        "US.51",
+        "US.52"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-54-x026",
+      "file": "items/us-history-geography/US.54/migrated.json",
+      "standardCodes": [
+        "US.54"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is C. Its explanation says: \"C is incorrect because it describes a different program, event, or idea than this civil rights development.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'C'; key text is 'The Kennedy administration refused to intervene, leaving protesters without fede'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-58-x025",
+      "file": "items/us-history-geography/US.58/migrated.json",
+      "standardCodes": [
+        "US.58"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is A. Its explanation says: \"A is incorrect because it describes a different program, event, or idea than the topic in the question.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'A'; key text is 'Demonstrating that the promise of American democracy had not been extended equal'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us59-dok1-4",
+      "file": "items/us-history-geography/US.59/migrated.json",
+      "standardCodes": [
+        "US.59"
+      ],
+      "itemType": "mcq",
+      "class": "authored-content",
+      "verdict": "escalate",
+      "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+      "evidence": [
+        "structural gates pass on this item (record, key, distractors, relevance)"
+      ],
+      "cannotVerify": [
+        "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+      ],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-46-x022",
+      "file": "items/us-history-geography/US.59/migrated.json",
+      "standardCodes": [
+        "US.59"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is C. Its explanation says: \"C is incorrect because it describes a different program, event, or idea than this Cold War development.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'C'; key text is 'The first peacetime military alliance in American history, entangling the U.S. i'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "PSTIM-0166",
+      "file": "items/us-history-geography/US.59/migrated.json",
+      "standardCodes": [
+        "US.59"
+      ],
+      "itemType": "mcq",
+      "class": "authored-content",
+      "verdict": "escalate",
+      "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+      "evidence": [
+        "structural gates pass on this item (record, key, distractors, relevance)"
+      ],
+      "cannotVerify": [
+        "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+      ],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "U7-DOK2-0005",
+      "file": "items/us-history-geography/US.59/migrated.json",
+      "standardCodes": [
+        "US.59"
+      ],
+      "itemType": "mcq",
+      "class": "authored-content",
+      "verdict": "escalate",
+      "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+      "evidence": [
+        "structural gates pass on this item (record, key, distractors, relevance)"
+      ],
+      "cannotVerify": [
+        "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+      ],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "PSTIM-0167",
+      "file": "items/us-history-geography/US.59/migrated.json",
+      "standardCodes": [
+        "US.59"
+      ],
+      "itemType": "mcq",
+      "class": "authored-content",
+      "verdict": "escalate",
+      "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+      "evidence": [
+        "structural gates pass on this item (record, key, distractors, relevance)"
+      ],
+      "cannotVerify": [
+        "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+      ],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us6-dok4-cr1",
+      "file": "items/us-history-geography/US.59/migrated.json",
+      "standardCodes": [
+        "US.59"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-descriptor",
+      "verdict": "escalate",
+      "question": "Do these bands describe what you would actually accept at each score?",
+      "evidence": [
+        "scale is well-formed: 0-4, every band has a descriptor"
+      ],
+      "cannotVerify": [
+        "what a strong answer contains is a pedagogical AND historical claim — policy alwaysEscalates any rubric descriptor"
+      ],
+      "draft": {
+        "scorePoints": 4,
+        "criteria": [
+          {
+            "points": 4,
+            "descriptor": "Analyses THREE distinct factors that kept the superpowers from direct conflict — nuclear deterrence and the logic of mutual assured destruction, the alliance and bloc structure that made escalation collective, and the diplomatic channels and norms that developed for managing crises — and explains the MECHANISM of each, not just its name. The evaluation confronts the real difficulty: the \"cold\" form avoided a great-power war while producing enormous casualties in Korea, Vietnam and elsewhere, so \"less dangerous\" and \"more dangerous\" depend on who is counted. A position is taken and defended."
+          },
+          {
+            "points": 3,
+            "descriptor": "Three factors, accurately identified, with at least two explained mechanically. The evaluation takes a position and offers support, but treats the proxy-war cost briefly."
+          },
+          {
+            "points": 2,
+            "descriptor": "Two or three factors named but explained as labels. The evaluation restates that the Cold War was dangerous without weighing the comparison."
+          },
+          {
+            "points": 1,
+            "descriptor": "Fewer than two usable factors, or factors that are consequences rather than causes. No evaluation."
+          },
+          {
+            "points": 0,
+            "descriptor": "No response, or off-topic."
+          }
+        ]
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us61-dok4-dbq-2",
+      "file": "items/us-history-geography/US.59/migrated.json",
+      "standardCodes": [
+        "US.59",
+        "US.63"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us59-dok4-cr-1",
+      "file": "items/us-history-geography/US.59/provisional.json",
+      "standardCodes": [
+        "US.59",
+        "US.60"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us6-dok4-cr3",
+      "file": "items/us-history-geography/US.60/provisional.json",
+      "standardCodes": [
+        "US.60"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-descriptor",
+      "verdict": "escalate",
+      "question": "Do these bands describe what you would actually accept at each score?",
+      "evidence": [
+        "scale is well-formed: 0-4, every band has a descriptor"
+      ],
+      "cannotVerify": [
+        "what a strong answer contains is a pedagogical AND historical claim — policy alwaysEscalates any rubric descriptor"
+      ],
+      "draft": {
+        "scorePoints": 4,
+        "criteria": [
+          {
+            "points": 4,
+            "descriptor": "Identifies specific principles behind the Marshall Plan's success — its scale, its requirement that recipients cooperate and plan jointly, and the alignment of American economic self-interest with European recovery — and applies them to a NAMED contemporary aid context rather than to foreign aid in general. The limitations are historically grounded: post-war Europe had industrial capacity and institutions to rebuild, the aid ran through a bipartisan Cold War consensus, and the recipients were states that wanted it. Comparison runs in both directions; it does not simply recommend repeating the Plan."
+          },
+          {
+            "points": 3,
+            "descriptor": "Names at least two real principles and applies them to a contemporary context with reasonable specificity. Limitations are identified and plausible, if not fully developed."
+          },
+          {
+            "points": 2,
+            "descriptor": "Describes the Marshall Plan accurately but the modern comparison stays generic (\"we should help other countries more\"). Limitations are asserted rather than explained."
+          },
+          {
+            "points": 1,
+            "descriptor": "Marshall Plan described inaccurately or only by name. No usable comparison or limitation."
+          },
+          {
+            "points": 0,
+            "descriptor": "No response, or off-topic."
+          }
+        ]
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us60-dok4-cr-2",
+      "file": "items/us-history-geography/US.60/provisional.json",
+      "standardCodes": [
+        "US.60",
+        "US.61"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us63-dok4-cr-3",
+      "file": "items/us-history-geography/US.60/provisional.json",
+      "standardCodes": [
+        "US.60",
+        "US.62"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us59-dok4-dbq-1",
+      "file": "items/us-history-geography/US.60/provisional.json",
+      "standardCodes": [
+        "US.60"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us62-dok4-dbq-3",
+      "file": "items/us-history-geography/US.60/provisional.json",
+      "standardCodes": [
+        "US.60"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us67-dok4-cr-6",
+      "file": "items/us-history-geography/US.62/migrated.json",
+      "standardCodes": [
+        "US.62"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us64-dok4-cr-4",
+      "file": "items/us-history-geography/US.63/migrated.json",
+      "standardCodes": [
+        "US.63"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-71-x025",
+      "file": "items/us-history-geography/US.64/migrated.json",
+      "standardCodes": [
+        "US.64"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"B is wrong because the program was broader than targeted individual warrants.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'Major internet and technology companies — including Google, Facebook, and Apple '",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us71-dok4-dbq-1",
+      "file": "items/us-history-geography/US.64/migrated.json",
+      "standardCodes": [
+        "US.64",
+        "US.66"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us73-add-2",
+      "file": "items/us-history-geography/US.66/migrated.json",
+      "standardCodes": [
+        "US.66"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is D. Its explanation says: \"B is wrong because highways were a transportation change, not a medical advance, and D is wrong because it describes a broad result rather than the specific breakthrough.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'D'; key text is \"Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease\"",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us73-add-3",
+      "file": "items/us-history-geography/US.66/migrated.json",
+      "standardCodes": [
+        "US.66"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"B is wrong because the polio vaccine had nothing to do with highway policy.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'Improving civilian transportation while supporting national defense logistics'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-73-x023",
+      "file": "items/us-history-geography/US.66/migrated.json",
+      "standardCodes": [
+        "US.66"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is A. Its explanation says: \"A is wrong because Congress did not need to vote before FEMA could spend major disaster funds.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'A'; key text is 'The Act required a congressional vote before FEMA could deploy resources exceedi'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us75-add-3",
+      "file": "items/us-history-geography/US.67/migrated.json",
+      "standardCodes": [
+        "US.67"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is D. Its explanation says: \"D is wrong because advertising shaped buying habits more than shared culture, and C is wrong because it focuses on campaigns.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'D'; key text is 'Families across regions watched the same news, sports, and entertainment program'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us75-dok4-dbq-4",
+      "file": "items/us-history-geography/US.67/migrated.json",
+      "standardCodes": [
+        "US.76"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us76-add-5",
+      "file": "items/us-history-geography/US.68/migrated.json",
+      "standardCodes": [
+        "US.68"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"B is wrong because B.B.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'Studios in Memphis and Nashville popularized crossover sounds that reached natio'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us77-dok4-dbq-5",
+      "file": "items/us-history-geography/US.68/migrated.json",
+      "standardCodes": [
+        "US.78"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us66-dok4-cr-5",
+      "file": "items/us-history-geography/US.70/migrated.json",
+      "standardCodes": [
+        "US.70"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us66-dok4-dbq-5",
+      "file": "items/us-history-geography/US.70/migrated.json",
+      "standardCodes": [
+        "US.70"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us77-add-2",
+      "file": "items/us-history-geography/US.72/migrated.json",
+      "standardCodes": [
+        "US.72"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is D. Its explanation says: \"D is wrong because it describes the New Frontier itself, not the effect of Kennedy's death.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'D'; key text is 'It traumatized the nation and created sympathy that helped pass his legislative '",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us77-add-5",
+      "file": "items/us-history-geography/US.72/migrated.json",
+      "standardCodes": [
+        "US.72"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"B is wrong because the Peace Corps was only one program, not the broader legacy.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'They provided legislative foundations that Johnson advanced through Great Societ'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us83-dok4-cr-1",
+      "file": "items/us-history-geography/US.73/migrated.json",
+      "standardCodes": [
+        "US.73",
+        "US.82"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us78-dok4-cr-1",
+      "file": "items/us-history-geography/US.74/migrated.json",
+      "standardCodes": [
+        "US.80"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us71-dok4-cr-1",
+      "file": "items/us-history-geography/US.74/migrated.json",
+      "standardCodes": [
+        "US.74"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us72-dok4-cr-2",
+      "file": "items/us-history-geography/US.74/migrated.json",
+      "standardCodes": [
+        "US.77"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us74-dok4-cr-4",
+      "file": "items/us-history-geography/US.74/migrated.json",
+      "standardCodes": [
+        "US.76"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us72-dok4-dbq-2",
+      "file": "items/us-history-geography/US.74/migrated.json",
+      "standardCodes": [
+        "US.78"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-56-x024",
+      "file": "items/us-history-geography/US.76/migrated.json",
+      "standardCodes": [
+        "US.76"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"B is incorrect because it describes a different program, event, or idea than this civil rights development.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'Congressional passage of the Civil Rights Act of 1968 (Fair Housing Act) within '",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us79-dok4-dbq-2",
+      "file": "items/us-history-geography/US.76/migrated.json",
+      "standardCodes": [
+        "US.76",
+        "US.79"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us73-dok4-cr-3",
+      "file": "items/us-history-geography/US.76/migrated.json",
+      "standardCodes": [
+        "US.50"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us76-dok4-cr-5",
+      "file": "items/us-history-geography/US.76/migrated.json",
+      "standardCodes": [
+        "US.76"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us81-dok4-cr-3",
+      "file": "items/us-history-geography/US.78/migrated.json",
+      "standardCodes": [
+        "US.78",
+        "US.79"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us86-add-1",
+      "file": "items/us-history-geography/US.84/migrated.json",
+      "standardCodes": [
+        "US.84"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is A. Its explanation says: \"A is incorrect because that refers to Watergate rather than the concept asked about here; D is incorrect because it names a different institution or power than the one the item asks about.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'A'; key text is \"A break-in at Democratic headquarters and Nixon's cover-up that led to his resig\"",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us87-dok4-dbq-3",
+      "file": "items/us-history-geography/US.88/migrated.json",
+      "standardCodes": [
+        "US.88"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-91-x028",
+      "file": "items/us-history-geography/US.90/migrated.json",
+      "standardCodes": [
+        "US.90"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"B is incorrect because it points to a different Cold War policy or country; D is incorrect because it points to a different Cold War policy or country.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'A massive transfer of American technology to China that accelerated its military'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us92-dok4-cr-7",
+      "file": "items/us-history-geography/US.90/migrated.json",
+      "standardCodes": [
+        "US.90"
+      ],
+      "itemType": "constructed-response",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us92-dok4-dbq-6",
+      "file": "items/us-history-geography/US.90/migrated.json",
+      "standardCodes": [
+        "US.90"
+      ],
+      "itemType": "document-based",
+      "class": "rubric-extraction-fidelity",
+      "verdict": "clear-recommended",
+      "question": "Confirm this scoring guide is the one you want used.",
+      "evidence": [
+        "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+        "scale is complete and every band carries a descriptor"
+      ],
+      "cannotVerify": [],
+      "draft": null,
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us93-3",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "standardCodes": [
+        "US.92"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is C. Its explanation says: \"B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'C'; key text is 'She became the first woman to serve as Speaker of the House'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "q-us93-add-3",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "standardCodes": [
+        "US.92"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is C. Its explanation says: \"B is incorrect because it identifies a different historic barrier-breaking achievement; C is incorrect because it identifies a different historic barrier-breaking achievement.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'C'; key text is 'She became the first woman to serve as Speaker of the House in 2007'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-93-x015",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "standardCodes": [
+        "US.92"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is D. Its explanation says: \"B is incorrect because it names a different institution or power than the one the item asks about; D is incorrect because it names a different institution or power than the one the item asks about.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'D'; key text is 'Changing political priorities of presidents who recognized the symbolic and prac'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-74-q02",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "standardCodes": [
+        "US.92"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is B. Its explanation says: \"B is wrong because banks still had legal disclosure obligations, and C is wrong because the lesson was not that all financial innovation is inherently bad.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'B'; key text is 'Deregulation of the financial industry in the 1990s and 2000s had removed safegu'",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    },
+    {
+      "id": "us-72-x015",
+      "file": "items/us-history-geography/US.92/migrated.json",
+      "standardCodes": [
+        "US.92"
+      ],
+      "itemType": "mcq",
+      "class": "key-contradiction",
+      "verdict": "fix-drafted",
+      "question": "The key is D. Its explanation says: \"D is wrong because the speech did not persuade France and Russia to support the invasion.\" — is the KEY still right, and if so what should this sentence say instead?",
+      "evidence": [
+        "key is 'D'; key text is \"Powell later called it a 'blot' on his record after the WMD claims proved false\"",
+        "the sentence is a distractor rationale left pointing at the old key letter",
+        "the RENDERED form is already correct — forms.remap_letters fixes the page"
+      ],
+      "cannotVerify": [
+        "whether the key itself is correct — that is a claim about history",
+        "what the replacement sentence should assert"
+      ],
+      "draft": {
+        "action": "delete the sentence and replace it with one saying why the key is right",
+        "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+      },
+      "reviewedBy": "ai-first-pass",
+      "humanVerdict": null
+    }
+  ]
+}

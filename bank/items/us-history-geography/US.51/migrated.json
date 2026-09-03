@@ -3147,6 +3147,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Tuskegee Airmen (332nd, 996 pilots); 761st Tank Battalion; 1.2 million Black Americans served; A. Philip Randolph / March on Washington Movement; Executive Order 8802 (1941); CORE founded (1942); NAACP growth (50K→500K); Executive Order 9981 (1948).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -3243,6 +3261,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Doc A — Executive Order 8802 / Fair Employment Practices Committee records (National Archives) as political advocacy; 'enemies from within' framing of Jim Crow as equivalent enemy to Axis powers. Doc B — Truman's Cold War motivation should be noted (U.S. could not credibly oppose Soviet oppression while maintaining racial segregation in its military). KEY EVIDENCE EXPECTED: Tuskegee Airmen; 761st Tank Battalion; A. Philip Randolph / EO 8802 (1941); NAACP growth (50K→500K, 1940–1946); EO 9981 (1948) desegregating military; Korean War; Brown v. Board (1954); Montgomery Bus Boycott (1955).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

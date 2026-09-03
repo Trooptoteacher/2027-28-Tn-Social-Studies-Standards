@@ -819,7 +819,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key B declares B incorrect"
+      "heldReason": "the explanation for key B declares B incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is B. Its explanation says: \"B is wrong because the program was broader than targeted individual warrants.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'B'; key text is 'Major internet and technology companies — including Google, Facebook, and Apple '",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "q-us71-dok2-3",
@@ -3454,6 +3479,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS (HIPP for all three): Doc 1 — Cold War context, unanimous Court, sociological evidence (Clark doll studies), 14th Amendment Equal Protection; Doc 2 — Massive resistance, 101 Southern congressmen, constitutional pretext, political audience, blocking enforcement; Doc 3 — Faubus crisis, Eisenhower's institutional (not ideological) motivation, executive enforcement power, military deployment. KEY EVIDENCE EXPECTED: Brown II implementation decree (1955); massive resistance movement; Governor Faubus and Arkansas National Guard; 101st Airborne deployment; Supremacy Clause; Cold War context of desegregation; Southern Democrats' committee power in Congress; gap leading to Civil Rights Act 1964 and VRA 1965.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

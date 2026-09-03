@@ -174,7 +174,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key D declares D incorrect"
+      "heldReason": "the explanation for key D declares D incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is D. Its explanation says: \"B is wrong because highways were a transportation change, not a medical advance, and D is wrong because it describes a broad result rather than the specific breakthrough.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'D'; key text is \"Jonas Salk's polio vaccine, which nearly eliminated a feared childhood disease\"",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "us-73-x015",
@@ -1155,7 +1180,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key B declares B incorrect"
+      "heldReason": "the explanation for key B declares B incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is B. Its explanation says: \"B is wrong because the polio vaccine had nothing to do with highway policy.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'B'; key text is 'Improving civilian transportation while supporting national defense logistics'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "us-73-q04",
@@ -1506,7 +1556,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key A declares A incorrect"
+      "heldReason": "the explanation for key A declares A incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is A. Its explanation says: \"A is wrong because Congress did not need to vote before FEMA could spend major disaster funds.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'A'; key text is 'The Act required a congressional vote before FEMA could deploy resources exceedi'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "us-72-x033",

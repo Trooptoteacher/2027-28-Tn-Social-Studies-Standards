@@ -2839,6 +2839,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Triangle Shirtwaist Factory fire (March 25, 1911) — 146 deaths; ILGWU and the \"Uprising of the 20,000\" (1909); American Federation of Labor (AFL) under Samuel Gompers; New York Factory Acts (1911-1913); Sherman Antitrust Act (1890) and Clayton Antitrust Act (1914); Frances Perkins's role as a witness to the fire and later labor reformer; the political coalition between labor unions and Progressive reformers that produced workplace safety legislation.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -2929,6 +2947,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Northern Securities Company dissolution (1902) — first major trust bust; Hepburn Act (1906) — ICC regulation of railroads; Pure Food and Drug Act and Meat Inspection Act (1906); Bureau of Corporations; 150 million acres of national forest reserved; the \"Square Deal\" domestic program; Roosevelt's \"stewardship theory\" of executive power; the 1912 Progressive (\"Bull Moose\") Party campaign and its loss to Wilson; Taft's more restrained approach as Roosevelt's successor.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

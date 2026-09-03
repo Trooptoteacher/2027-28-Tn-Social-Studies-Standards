@@ -4468,6 +4468,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: McKinley's economic framing in the excerpt; De Lôme Letter (February 1898); USS Maine explosion (February 15, 1898); yellow press (Hearst / Pulitzer); Treaty of Paris (1898) — territories acquired; Teller Amendment (no annexation of Cuba) vs. Platt Amendment (1901) protectorate status; Foraker Act (1900) for Puerto Rico; shift from Monroe Doctrine passivity to active intervention.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -4724,6 +4742,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: — Doc 1: McKinley's economic/commercial framing; distinguish from humanitarian yellow-press justification; note 'enforcing American interests' as the operative phrase. — Doc 2: Teller's explicit anti-annexation intent; note its unanimous passage alongside the war authorization; significance = set up later contradiction with Platt. — Doc 3: Platt's intervention rights and naval basing provisions; note this was imposed as a condition of U.S. military withdrawal; Cuba had no real choice; significance = established protectorate in all but name. KEY EVIDENCE EXPECTED: Mahan's influence; De Lôme Letter; USS Maine (Feb. 15, 1898); Commodore Dewey Manila Bay (May 1, 1898); Battle of San Juan Hill; Treaty of Paris (1898); Philippine acquisition; Teller-to-Platt contradiction; Guantanamo Bay lease (still in force); Cuba as protectorate 1901–1934.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

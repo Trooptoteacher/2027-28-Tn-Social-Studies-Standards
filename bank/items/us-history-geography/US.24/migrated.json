@@ -4925,6 +4925,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Colombian rejection of Hay-Herrán Treaty (1903); U.S.-backed Panamanian revolution (November 1903); Hay-Bunau-Varilla Treaty (1903); 10-mile Canal Zone in perpetuity; strategic distance reduction (Cape Horn vs. canal route); connection to Mahan's sea-power thesis; Roosevelt Corollary (1904) as follow-on policy; Colombian apology payment (1921).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

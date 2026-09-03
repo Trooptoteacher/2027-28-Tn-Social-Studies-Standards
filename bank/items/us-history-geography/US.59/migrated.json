@@ -172,6 +172,25 @@
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "authored-content",
+            "verdict": "escalate",
+            "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+            "evidence": [
+              "structural gates pass on this item (record, key, distractors, relevance)"
+            ],
+            "cannotVerify": [
+              "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+            ],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -1490,7 +1509,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key C declares C incorrect"
+      "heldReason": "the explanation for key C declares C incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is C. Its explanation says: \"C is incorrect because it describes a different program, event, or idea than this Cold War development.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'C'; key text is 'The first peacetime military alliance in American history, entangling the U.S. i'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "us-48-x018",
@@ -1659,6 +1703,25 @@
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "authored-content",
+            "verdict": "escalate",
+            "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+            "evidence": [
+              "structural gates pass on this item (record, key, distractors, relevance)"
+            ],
+            "cannotVerify": [
+              "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+            ],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -2818,6 +2881,25 @@
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "authored-content",
+            "verdict": "escalate",
+            "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+            "evidence": [
+              "structural gates pass on this item (record, key, distractors, relevance)"
+            ],
+            "cannotVerify": [
+              "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+            ],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -3071,6 +3153,25 @@
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "authored-content",
+            "verdict": "escalate",
+            "question": "Is the history in this item and its rationales correct, and would you give it to your students?",
+            "evidence": [
+              "structural gates pass on this item (record, key, distractors, relevance)"
+            ],
+            "cannotVerify": [
+              "every historical assertion in the stem, the key explanation and each distractor rationale — no gate can check any of them"
+            ],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -4150,6 +4251,49 @@
         ],
         "status": "authored",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-descriptor",
+            "verdict": "escalate",
+            "question": "Do these bands describe what you would actually accept at each score?",
+            "evidence": [
+              "scale is well-formed: 0-4, every band has a descriptor"
+            ],
+            "cannotVerify": [
+              "what a strong answer contains is a pedagogical AND historical claim — policy alwaysEscalates any rubric descriptor"
+            ],
+            "draft": {
+              "scorePoints": 4,
+              "criteria": [
+                {
+                  "points": 4,
+                  "descriptor": "Analyses THREE distinct factors that kept the superpowers from direct conflict — nuclear deterrence and the logic of mutual assured destruction, the alliance and bloc structure that made escalation collective, and the diplomatic channels and norms that developed for managing crises — and explains the MECHANISM of each, not just its name. The evaluation confronts the real difficulty: the \"cold\" form avoided a great-power war while producing enormous casualties in Korea, Vietnam and elsewhere, so \"less dangerous\" and \"more dangerous\" depend on who is counted. A position is taken and defended."
+                },
+                {
+                  "points": 3,
+                  "descriptor": "Three factors, accurately identified, with at least two explained mechanically. The evaluation takes a position and offers support, but treats the proxy-war cost briefly."
+                },
+                {
+                  "points": 2,
+                  "descriptor": "Two or three factors named but explained as labels. The evaluation restates that the Cold War was dangerous without weighing the comparison."
+                },
+                {
+                  "points": 1,
+                  "descriptor": "Fewer than two usable factors, or factors that are consequences rather than causes. No evaluation."
+                },
+                {
+                  "points": 0,
+                  "descriptor": "No response, or off-topic."
+                }
+              ]
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -4251,6 +4395,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Document A SOAPS — the universalist framing as strategic choice; the commencement setting as public communication platform; the invitation to all nations as a calculated gamble. Document B SOAPS — Molotov's 'sovereignty' argument as proxy for Soviet hegemony concerns; the Paris conference as the turning point that crystallized European division; the accusation of U.S. interference as revealing of Soviet satellite-state model. KEY EVIDENCE EXPECTED: $13.3 billion in aid; Western European GDP recovery (1948–1952); OEEC creation; Molotov Plan and COMECON; Czech coup (February 1948) occurring simultaneously; Berlin Blockade (June 1948) as Soviet counter-pressure.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

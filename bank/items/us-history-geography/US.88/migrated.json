@@ -3475,6 +3475,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Doc A — Bush multilateral idealism post-Cold War; Doc B — specific AUMF tied to UN resolutions (contrast Gulf of Tonkin). KEY EVIDENCE EXPECTED: Operation Desert Storm (1991); 34-nation coalition; UN Security Council Resolution 678; Kuwait liberation; Saddam Hussein remaining in power; sanctions regime; Saudi troop presence; bin Laden's stated grievances; 2003 Iraq War comparison; War Powers Resolution (1973).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

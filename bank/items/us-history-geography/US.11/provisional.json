@@ -4753,6 +4753,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Carnegie's vertical integration of the steel industry; the Homestead Strike of 1892; 12-hour workdays and child labor in Carnegie Steel mills; Carnegie's use of Pinkerton agents; the Sherman Antitrust Act (1890) as a congressional response to monopoly power; the gap between Carnegie's philanthropic rhetoric and his suppression of union organizing; the \"Gospel of Wealth\" doctrine that the wealthy are stewards for society.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -4855,6 +4873,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Pullman Strike (1894) and government use of Sherman Act injunction against Debs/ARU; AFL membership growth from 140,000 (1886) to 1.5M (1904) to 4M (1920); Triangle Shirtwaist fire (1911) and NY Factory Acts (1911-1913); Clayton Act (1914) and its subsequent interpretation by courts in Duplex Printing Press Co. v. Deering (1921); the absence of a federal minimum wage until the Fair Labor Standards Act (1938); the exclusion of agricultural and domestic workers from most Progressive labor protections; women's hours legislation upheld in Muller v. Oregon (1908) — paternalistic progress.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

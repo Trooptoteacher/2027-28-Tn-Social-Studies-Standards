@@ -770,3 +770,105 @@ def gate_key_contradiction(items, binding=None) -> Result:
                     f"teacher key contradicts the answer key", it.get("_file", "")))
                 break
     return Result(name, not findings, len(items), findings, judged=judged)
+
+
+AI_REVIEW_POLICY = os.path.join(itemio.BANK_ROOT, "policy", "ai-review.json")
+_AI_MARKERS = re.compile(r"\b(ai|claude|gpt|llm|machine|automated|auto|bot|model)\b", re.I)
+
+
+def gate_ai_review_boundary(items, binding=None) -> Result:
+    """An AI review pass may recommend. It may never approve.
+
+    Sean asked for an AI first pass so the review queue stops being one person's
+    bottleneck. This is the gate that keeps that from quietly becoming an AI
+    signing off on AI work — and it is enforced on the RECORDS rather than on
+    the reviewer's source, because a tool can be rewritten and a policy file is
+    prose until something reads it.
+
+    Four things fail here:
+      1. An aiReview that wrote into a human-review field.
+      2. A human review stamp whose reviewer name reads as a machine.
+      3. A recommendation with no evidence — that is an opinion, not a review.
+      4. A `clear-recommended` verdict on a class the policy never declared
+         clearable. The clearable list is short on purpose: the classes where
+         the evidence is deterministic and already in the repo. Anything about
+         history, a citation, Spanish, bias, or a rubric descriptor escalates,
+         including when it looks easy.
+
+    The reason this matters more than the queue: an approval record looks
+    identical whoever wrote it. If AI clearance ever reached historianReview,
+    the bank would still pass every gate and the reason a district could trust
+    it would be gone, with nothing on the page to say so.
+    """
+    name = "ai-review-boundary"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    with open(AI_REVIEW_POLICY, encoding="utf-8") as fh:
+        pol = json.load(fh)
+    clearable = set(pol["clearableClasses"]) - {"$comment"}
+    findings, judged, verdicts = [], 0, collections.Counter()
+    for it in items:
+        if not itemio.servable(it) and it.get("status") != "held":
+            continue
+        # The population is items carrying a review claim of EITHER kind. A set
+        # with none — a form whose items nobody has reviewed yet — is N/A with a
+        # reason, not NOT MEASURED: this gate scoped to a form judged zero and
+        # failed all-gates-measured, which is an alarm firing on the harmless
+        # for the fourth time (L49, L59, L62). "Nothing here claims review" is a
+        # true and safe statement; "this was not measured" is not the same thing.
+        if it.get("aiReview") or it.get("historianReview") or (
+                it.get("biasReview") or {}).get("reviewer"):
+            judged += 1
+        # 2 — a human stamp that names a machine.
+        hr = it.get("historianReview") or {}
+        who = str(hr.get("reviewer") or "")
+        if who and _AI_MARKERS.search(who):
+            findings.append(Finding(it.get("id", "?"),
+                f"historianReview names {who!r} as the reviewer — a human review record may "
+                f"not name a machine", it.get("_file", "")))
+        br = (it.get("biasReview") or {}).get("reviewer")
+        if br and _AI_MARKERS.search(str(br)):
+            findings.append(Finding(it.get("id", "?"),
+                f"biasReview names {br!r} as the reviewer", it.get("_file", "")))
+
+        ai = it.get("aiReview")
+        if not ai:
+            continue
+        # 1 — the AI pass must have written nowhere but its own namespace.
+        if ai.get("pass") and it.get("requiresHistorianReview") is False and hr:
+            pass  # a human may have settled it later; that is fine and expected.
+        for forbidden in ("historianReview", "tcapFormatAffirmedBy"):
+            if forbidden in ai:
+                findings.append(Finding(it.get("id", "?"),
+                    f"aiReview carries {forbidden!r} — the AI pass wrote into a human-review "
+                    f"field", it.get("_file", "")))
+        if not str(ai.get("isNotAnApproval") or "").strip():
+            findings.append(Finding(it.get("id", "?"),
+                "aiReview does not state that it is not an approval — a review block that "
+                "does not disclaim itself reads as one", it.get("_file", "")))
+        for f in ai.get("findings") or []:
+            v = f.get("verdict")
+            verdicts[v] += 1
+            # 3 — no evidence, no verdict.
+            if not (f.get("evidence") or []):
+                findings.append(Finding(it.get("id", "?"),
+                    f"aiReview verdict {v!r} carries no evidence — a verdict with no evidence "
+                    f"is an opinion", it.get("_file", "")))
+            if v == "escalate" and not (f.get("cannotVerify") or []):
+                findings.append(Finding(it.get("id", "?"),
+                    "an escalation states nothing it could not verify — a reviewer that never "
+                    "says 'I don't know' is not reviewing", it.get("_file", "")))
+            # 4 — clearing only what the policy declared clearable.
+            if v == "clear-recommended" and f.get("class") not in clearable:
+                findings.append(Finding(it.get("id", "?"),
+                    f"aiReview recommends clearing class {f.get('class')!r}, which the policy "
+                    f"never declared clearable ({', '.join(sorted(clearable))})",
+                    it.get("_file", "")))
+    if not judged:
+        return Result(name, True, len(items), [], judged=0,
+                      inapplicable="no item in this set carries a review claim of either "
+                                   "kind, so there is no review boundary to cross here")
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note=("; ".join(f"{v} {k}" for k, v in verdicts.most_common())
+                        + " — recommendations only; none of this counts toward Grade A"
+                        if verdicts else f"{judged} human review claim(s), no AI pass stamped"))

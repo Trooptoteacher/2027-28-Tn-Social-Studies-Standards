@@ -1920,6 +1920,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: DEFCON 2 status; Kennedy-Khrushchev correspondence (Oct. 26–27, 1962); secret Jupiter missile removal from Turkey; Robert Kennedy–Dobrynin back channel; Moscow-Washington hotline (June 1963); Limited Nuclear Test Ban Treaty (Aug. 1963); SALT I (1972); ABM Treaty (1972); link to détente (US.68).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -2013,6 +2031,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Document A HIPP — 'quarantine' vs. 'blockade' terminology as legal/political calculation; the simultaneous public/Soviet audience. Document B HIPP — Khrushchev's 'moles' metaphor as emotional authenticity contrasting with his public bluster; the Oct. 26 letter as the opening of the resolution path. Document C HIPP — Kennedy's conditional language as coercive bargaining; 'permanent solution to the Cuban problem' as face-saving vagueness. KEY EVIDENCE EXPECTED: ExComm (13 members, 13 days); quarantine announced Oct. 22; Khrushchev Oct. 26 and Oct. 27 letters (two different letters on Oct. 27 complicating resolution); U-2 shootdown Oct. 27; B-59 submarine incident; secret Turkey missile deal; hotline (June 1963); Limited Test Ban Treaty (Aug. 1963); SALT I (1972).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

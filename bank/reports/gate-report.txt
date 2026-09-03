@@ -111,6 +111,7 @@ Scanning items/us-history-geography — 3988 item(s)
           … and 9 more
 [PASS] bias-review — scanned 3988, judged 3928 — 3928 not-started
 [PASS] key-contradiction — scanned 3988, judged 3928
+[PASS] ai-review-boundary — scanned 3988, judged 135 — 79 clear-recommended; 30 fix-drafted; 10 escalate — recommendations only; none of this counts toward Grade A
 [FAIL] release-readiness — scanned 3928 — Grade A requires zero findings here. "Close" is not "A."
         6 finding(s):
           - reportingCategory: 86 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
@@ -147,8 +148,8 @@ Scanning items/us-history-geography — 3988 item(s)
 [PASS] dbq-activities/form-type-size — scanned 68, judged 370166 — 370166 glyph(s) measured
 [PASS] dbq-activities/activity-sourcing — scanned 68, judged 172 — 172 document card(s) checked on the rendered sheet
 [PASS] dbq-activities/activity-teacher-isolation — scanned 34, judged 220 — 220 student page(s) checked
-[PASS] all-gates-measured — scanned 46 — 46/46 gates actually measured something
+[PASS] all-gates-measured — scanned 47 — 47/47 gates actually measured something
 
-34/47 applicable gates pass (0 not measured).
+35/48 applicable gates pass (0 not measured).
 HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, blueprint-achievability, serveability, choice-length-cue, explanation-quality, review-provenance, rubric, release-readiness, FORM-A/form-blueprint, FORM-B/form-blueprint
 Grade A requires ALL gates pass. "Close" is not "A."

@@ -79,7 +79,7 @@ can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **62 lessons, 161 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **63 lessons, 170 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -299,3 +299,42 @@ items — the old DOK-3/4 slots were the CR and DBQ. The new items carry the usu
 (6 items on FORM-A need DOK rationales, distractor misconceptions and Spanish; the key-longest
 cue sits at 50%). **Neither form is green right now.** That is the honest cost of the change and
 it is one authoring pass, not a redesign.
+
+## 14. The AI first pass — it triages, it never approves (2026-09-03)
+
+You are the only reviewer this project has, and two sessions put 10 items, 83 rubrics, 30 held
+records and 7 citations on your desk. You asked for an AI review with guardrails to shrink that.
+
+**The obvious version of this would have destroyed the bank.** An AI pass that writes approvals
+empties the queue *and* removes the reason a district could trust any of it — invisibly, because
+an approval record looks identical whoever wrote it. Every gate would still read green and
+nothing on the page would say a machine had signed off on machine work. That is the same class
+of failure as a form that renders perfectly while testing the wrong standards.
+
+So: `tools/ai_review.py` reads the queue, checks what is checkable against sources of truth
+already in the repo, drafts the bounded corrections, and sorts the rest by **the question you
+actually have to answer**. It writes only into an `aiReview` namespace that **counts toward no
+gate, satisfies no provenance, and lets nothing ship**.
+
+**Your queue, triaged** — `reports/REVIEW-WORKSHEET.md`:
+
+| | | what it is |
+|---|---|---|
+| **79** | fast confirm | rubrics whose every band was verified to appear **verbatim** in the item's own text — extracted, not authored |
+| **30** | fix drafted | the key-contradiction sentences, each with the exact sentence and what the replacement must assert. **Not applied** |
+| **10** | needs you | authored content and the four rubrics I wrote — historical and pedagogical claims |
+
+**Every recommendation carries its evidence and its cannot-verify list.** A verdict with no
+evidence is an opinion; a reviewer that never says "I don't know" is not reviewing.
+
+**`clear-recommended` is permitted on four declared classes only** (`policy/ai-review.json`),
+all deterministic with in-repo evidence. Anything touching history, a citation, Spanish, bias or
+a rubric *descriptor* escalates — including when it looks easy.
+
+**`ai-review-boundary` enforces it on the RECORDS**, not on the reviewer's source, because a
+tool can be rewritten and a policy file is prose until something reads it. Proved on all eight
+ways across the line: AI naming itself as historian or bias reviewer, an `aiReview` block
+writing into `historianReview`, a block that fails to disclaim itself, a verdict with no
+evidence, an escalation admitting no uncertainty, and clearing a citation or a historical claim.
+
+**Nothing has been cleared.** 119 items carry a recommendation; zero carry an approval.

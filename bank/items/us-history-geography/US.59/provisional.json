@@ -95,6 +95,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Kennan's 'X Article' (1947); Truman Doctrine speech (March 1947); Churchill's 'Iron Curtain' speech (Fulton, MO, March 1946); Soviet satellite governments in Eastern Europe (1945–1948); Yalta Conference tensions (1945); NSC-68 (1950) as escalation of containment; distinction between Kennan's political containment and later militarized containment.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

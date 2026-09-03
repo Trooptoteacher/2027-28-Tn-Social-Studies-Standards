@@ -1913,7 +1913,32 @@
         "reviewedAt": null,
         "notes": null
       },
-      "heldReason": "the explanation for key A declares A incorrect"
+      "heldReason": "the explanation for key A declares A incorrect",
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "key-contradiction",
+            "verdict": "fix-drafted",
+            "question": "The key is A. Its explanation says: \"A is incorrect because it describes a different program, event, or idea than the topic in the question.\" — is the KEY still right, and if so what should this sentence say instead?",
+            "evidence": [
+              "key is 'A'; key text is 'Demonstrating that the promise of American democracy had not been extended equal'",
+              "the sentence is a distractor rationale left pointing at the old key letter",
+              "the RENDERED form is already correct — forms.remap_letters fixes the page"
+            ],
+            "cannotVerify": [
+              "whether the key itself is correct — that is a claim about history",
+              "what the replacement sentence should assert"
+            ],
+            "draft": {
+              "action": "delete the sentence and replace it with one saying why the key is right",
+              "doNotDo": "deleting it outright leaves the rationale stopping mid-argument, which is the next defect"
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
+      }
     },
     {
       "id": "U6-DOK2-0020",

@@ -3411,6 +3411,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Wheeling, WV speech (Feb. 1950); Federal Employee Loyalty Program (1947); HUAC and Hollywood blacklist; Smith Act prosecutions; Army-McCarthy Hearings (1954); Joseph Welch; Senate censure resolution (Dec. 1954); Rosenberg executions (1953) as context for spy-anxiety; Edward R. Murrow broadcast critique.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {

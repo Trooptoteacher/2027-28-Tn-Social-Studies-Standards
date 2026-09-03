@@ -2970,6 +2970,49 @@
         ],
         "status": "authored",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-descriptor",
+            "verdict": "escalate",
+            "question": "Do these bands describe what you would actually accept at each score?",
+            "evidence": [
+              "scale is well-formed: 0-4, every band has a descriptor"
+            ],
+            "cannotVerify": [
+              "what a strong answer contains is a pedagogical AND historical claim — policy alwaysEscalates any rubric descriptor"
+            ],
+            "draft": {
+              "scorePoints": 4,
+              "criteria": [
+                {
+                  "points": 4,
+                  "descriptor": "Names THREE specific events or policies (e.g. the Spanish-American War, the annexation of Hawaii, the Open Door Policy, the Panama Canal, the Philippine-American War) and shows each carrying BOTH an idealistic justification and a self-interested motive — not three examples of one and none of the other. Quotes or closely paraphrases the era's own language (\"civilization\", \"duty\", \"markets\", \"coaling stations\") rather than asserting motive. The evaluation takes a clear position on whether imperialism strengthened or weakened American democratic ideals and defends it against the strongest objection to it, most often the Philippines."
+                },
+                {
+                  "points": 3,
+                  "descriptor": "Three specific examples, accurate, with both motive types present across the response even if one example carries only one. Evidence is concrete. The evaluation states a position and supports it, but does not engage a counterargument."
+                },
+                {
+                  "points": 2,
+                  "descriptor": "Two or three examples, at least one imprecise or misdated. Idealism and self-interest are both named but treated as labels rather than shown in the evidence. The evaluation is asserted without support."
+                },
+                {
+                  "points": 1,
+                  "descriptor": "Fewer than two usable examples, or examples outside the period. Motives are described generally (\"America wanted power\") with no specific policy attached. No evaluation, or an evaluation that restates the prompt."
+                },
+                {
+                  "points": 0,
+                  "descriptor": "No response, or off-topic."
+                }
+              ]
+            }
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -4017,6 +4060,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Seneca Falls Convention and Declaration of Sentiments (1848) as the movement's origin; NAWSA vs. NWP strategies; Alice Paul's militant tactics; state-level suffrage victories before 1920 (Wyoming 1869, Western states); continued disenfranchisement of Black women through Jim Crow poll taxes and literacy tests; NAACP's warnings during suffrage debates; Ida B. Wells's exclusion from the 1913 suffrage parade; the 17th Amendment (direct Senate election, 1913) as a parallel Progressive democratic expansion.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -4120,6 +4181,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS (SOAPS): Doc 1 — Du Bois: the \"double-consciousness\" concept as direct evidence of the psychological cost of political exclusion; the occasion (post-Plessy) as context for why formal Progressive reforms were insufficient for Black Americans. Doc 2 — 19th Amendment: the significance of what the amendment's language does NOT say — it addresses sex discrimination but not racial discrimination, leaving Black women doubly excluded. Doc 3 — Addams: the significance of Addams's parallel between gender and class exclusion without addressing racial exclusion — revealing the racial limits of white Progressive reform thought. KEY EVIDENCE EXPECTED: NAWSA's exclusion of Black women from the 1913 suffrage parade and Alice Paul's response to Ida B. Wells; continued disenfranchisement of Black women (and men) in Southern states 1920-1965; founding of NAACP (1909) as a response to Progressive Era racial exclusion; Plessy v. Ferguson (1896) as constitutional backdrop; Wilson's segregation of the federal civil service (1913) despite his Progressive credentials; the 17th Amendment (direct Senate election) and 16th Amendment (income tax) as structural reforms that largely bypassed racial inequality; Ida B. Wells's anti-lynching campaign and its exclusion from mainstream Progressive organizations.",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

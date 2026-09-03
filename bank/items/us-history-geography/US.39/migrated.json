@@ -5282,6 +5282,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: 18th Amendment ratification (1919), Volstead Act enforcement mechanism, speakeasies, bootlegging networks, Al Capone, organized crime revenues, class disparities in enforcement, Catholic/Jewish/immigrant opposition, rural-urban cultural divide, eventual repeal via 21st Amendment (1933).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]

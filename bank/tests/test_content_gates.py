@@ -11,6 +11,7 @@ from __future__ import annotations
 import copy
 import inspect
 import json
+import re
 import os
 import sys
 
@@ -507,6 +508,73 @@ _bad = {"X": {"scorePoints": 2, "criteria": [
     {"points": 1, "descriptor": "short"}, {"points": 2, "descriptor": "d" * 60}]}}
 check("and still refuses a short SCORING band",
       _ar.validate(_bad, {"X": {"itemType": "constructed-response"}}))
+
+
+# ── the AI review may recommend; it may never approve ───────────────────
+print("\n  ai-review-boundary — the guardrail on the guardrail")
+AI_OK = A(on_std(ON, id="AI-1"), "evidenced")
+AI_OK["aiReview"] = {
+    "pass": "ai-first-pass", "isNotAnApproval": "counts toward no gate",
+    "findings": [{"class": "rubric-extraction-fidelity", "verdict": "clear-recommended",
+                  "evidence": ["bands appear verbatim in the item's own explanation"],
+                  "cannotVerify": []}]}
+check("a well-formed AI recommendation PASSES",
+      content.gate_ai_review_boundary([AI_OK], REAL_B).passed)
+
+
+def _ai(mut):
+    it = copy.deepcopy(AI_OK)
+    mut(it)
+    return content.gate_ai_review_boundary([it], REAL_B)
+
+
+check("AI naming ITSELF as the historian reviewer FAILS",
+      not _ai(lambda i: i.update(
+          historianReview={"reviewer": "Claude AI first pass", "record": "x"})).passed)
+check("AI naming itself as the BIAS reviewer FAILS",
+      not _ai(lambda i: i.update(
+          biasReview={"status": "approved", "reviewer": "automated review"})).passed)
+check("an aiReview block writing into historianReview FAILS",
+      not _ai(lambda i: i["aiReview"].update(historianReview={"reviewer": "x"})).passed)
+check("an aiReview that does not disclaim itself FAILS — it reads as an approval",
+      not _ai(lambda i: i["aiReview"].pop("isNotAnApproval")).passed)
+check("a verdict with NO evidence FAILS — that is an opinion, not a review",
+      not _ai(lambda i: i["aiReview"]["findings"][0].update(evidence=[])).passed)
+check("an escalation naming nothing it could not verify FAILS",
+      not _ai(lambda i: i["aiReview"]["findings"][0].update(
+          verdict="escalate", cannotVerify=[])).passed)
+check("clearing a CITATION FAILS — the policy never declared it clearable",
+      not _ai(lambda i: i["aiReview"]["findings"][0].update({"class": "citation"})).passed)
+check("clearing a HISTORICAL claim FAILS",
+      not _ai(lambda i: i["aiReview"]["findings"][0].update(
+          {"class": "authored-content"})).passed)
+check("EMPTY scan FAILS", not content.gate_ai_review_boundary([], REAL_B).passed)
+_none = content.gate_ai_review_boundary([A(on_std(ON, id="AI-N"), "evidenced")], REAL_B)
+check("a set where NOTHING claims review is N/A with a reason, not NOT MEASURED",
+      _none.inapplicable and _none.judged == 0, f"{_none.status!r}")
+check("a human review claim IS judged even with no AI pass",
+      content.gate_ai_review_boundary(
+          [dict(A(on_std(ON, id="AI-H"), "evidenced"),
+                historianReview={"reviewer": "Sean Reynolds", "record": "r"})],
+          REAL_B).judged == 1)
+
+print("\n  the reviewer tool itself never writes a human field")
+import ai_review as _air
+_src = inspect.getsource(_air)
+_pol = _air.policy()
+for _f in _pol["theBoundary"]["neverWrites"]:
+    _field = _f.split(":")[0]
+    check(f"ai_review.py never assigns {_field!r}",
+          not re.search(rf'\[\s*["\']{re.escape(_field)}["\']\s*\]\s*=', _src)
+          and f'"{_field}":' not in _src.split("POLICY")[-1].split("def main")[0],
+          f"the tool writes {_field}, which the policy forbids")
+check("the tool writes only into the aiReview namespace",
+      '"aiReview"] =' in _src or 'rec["aiReview"]' in _src)
+check("every clearable class in the policy is narrow and declared",
+      set(_pol["clearableClasses"]) - {"$comment"} and
+      all("citation" not in c and "bias" not in c and "descriptor" not in c
+          for c in _pol["clearableClasses"] if c != "$comment"),
+      "a clearable class touching history, citation or bias is the boundary breaking")
 
 
 print("\n" + "=" * 74)

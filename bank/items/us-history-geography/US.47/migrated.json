@@ -4969,6 +4969,24 @@
         "extractedFrom": "explanation",
         "notes": "KEY EVIDENCE EXPECTED: Treaty of Versailles (1919) war guilt clause / reparations; Great Depression unemployment in Germany (>30% by 1932); Enabling Act (March 1933) granting Hitler dictatorial power; Nuremberg Laws (1935); Munich Agreement (1938) appeasement; Roosevelt's speech as a counter-narrative to European fascism; Japan's imperial expansion in Manchuria (1931) and China (1937).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 5 bands (0-4) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     },
     {
@@ -5074,6 +5092,24 @@
         "extractedFrom": "explanation",
         "notes": "DOCUMENT ANALYSIS EXPECTATIONS: Doc A — HIPP reveals FDR's ideological commitment to democratic principles before formal war entry; Doc B — HIPP reveals domestic political constraints on executive action; Doc C — HIPP reveals FDR's rhetorical strategy of strategic self-interest argument (not idealism) to shift isolationist public. KEY EVIDENCE EXPECTED: Munich Agreement (September 1938); Molotov-Ribbentrop Pact (August 1939); German invasion of Poland (September 1939); Fall of France (June 1940); Lend-Lease Act (March 1941); America First Committee; Pearl Harbor (December 1941).",
         "reviewStatus": "needs-review"
+      },
+      "aiReview": {
+        "pass": "ai-first-pass",
+        "policyVersion": 1,
+        "findings": [
+          {
+            "class": "rubric-extraction-fidelity",
+            "verdict": "clear-recommended",
+            "question": "Confirm this scoring guide is the one you want used.",
+            "evidence": [
+              "all 7 bands (0-6) appear verbatim in the item's own explanation text — extracted, not authored",
+              "scale is complete and every band carries a descriptor"
+            ],
+            "cannotVerify": [],
+            "draft": null
+          }
+        ],
+        "isNotAnApproval": "counts toward no gate; does not satisfy review-provenance; nothing ships on this"
       }
     }
   ]
