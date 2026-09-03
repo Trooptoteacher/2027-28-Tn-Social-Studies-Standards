@@ -98,6 +98,9 @@ confirms its proofs go red. A test that has never failed is worth nothing.
 `python3 tests/test_alignment.py` — pins migration routing against real standard
 pairs, each one a case the similarity floor got wrong.
 
+`python3 tests/test_regressions.py` — one pin per defect found in this build, named in
+the words the defect was found in, so a future failure reads as "you reintroduced X".
+
 Fixtures reproduce the real record's structure — all 17 required fields, bilingual
 twins, per-distractor rationales, IRT block. A simplified fixture proves only that the
 gate can read a simplified fixture.
@@ -181,6 +184,44 @@ page** — the total is right and the counter is stuck. That is why
 `form-pagination` reads the rendered PDF rather than the template.
 
 Rendered with WeasyPrint; measured with pdfminer, glyph by glyph.
+
+## Every mistake gets a guard
+
+Standing rule: when a mistake is made or found, it is fixed, **pinned**, and recorded
+in [`lessons.json`](lessons.json) with the guard that prevents its return.
+
+`python3 tools/check_lessons.py` **fails the build** if a lesson has no guard, if a
+named guard no longer exists in the code, if a guard lives in a suite nothing runs, or
+if a test file exists that is not registered. It fails on an empty ledger too — the
+same defect it exists to prevent.
+
+It has already earned its place: it caught a refactor that silently deleted an
+invariant comment `run_gates.py` was cited for, and three ledger entries pointing at
+strings that did not exist.
+
+**16 lessons, 28 guards** — among them:
+
+| | |
+|---|---|
+| `L06` | migration routed on a similarity metric that is anti-correlated with alignment |
+| `L07` | element matching read the item's *distractors*, quarantining a 17th Amendment question for the 18th |
+| `L11` | a gate reported **PASS over 3,986 items while judging zero** |
+| `L13` | a PDF scan's zero hits treated as evidence, when the extractor was simply broken |
+| `L14` | a gate designed that would have **passed the very defect it existed to catch** |
+| `L15` | a pass tally reported that included a vacuous pass |
+
+A lesson written down but not enforced is a promise. A lesson with a guard is a fact
+about the code.
+
+## Run everything
+
+```
+bash tools/run_all.sh
+```
+
+Ledger first — if a guard has gone missing, nothing below it can be trusted — then the
+gate proofs, the mutation check, alignment routing, regression pins, print-gate proofs,
+and finally the gates against the built artifact.
 
 ## Release gate — Grade A only
 

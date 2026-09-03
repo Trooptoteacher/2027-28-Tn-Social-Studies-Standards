@@ -77,6 +77,8 @@ def main(argv):
     print(f"Scanning {os.path.relpath(target, itemio.BANK_ROOT)} — {len(items)} item(s)\n")
     for r in results:
         print(r.report())
+    # NOT MEASURED is not a pass. Counting it as one is how a vacuous gate
+    # inflates the tally and reads exactly like a clean result.
     failed = [r for r in results if not (r.passed and r.measured)]
     print()
     print(f"{len(results) - len(failed)}/{len(results)} gates pass "

@@ -1,0 +1,236 @@
+{
+  "$comment": "The ledger. Every mistake made or found in this build names a GUARD that prevents its return, and tools/check_lessons.py fails the build if a lesson has no guard, if a named guard does not exist, or if a test suite is not registered to run. A lesson written down but not enforced is a promise; a lesson with a guard is a fact about the code.",
+  "registeredSuites": [
+    "tests/test_gates.py",
+    "tests/test_mutation.py",
+    "tests/test_alignment.py",
+    "tests/test_form_gates.py",
+    "tests/test_regressions.py"
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "mistake": "A fixture factory stranded a distractor with no rationale whenever the key moved position — the answer-position de-bias defect, reproduced inside the test fixtures themselves.",
+      "caughtBy": "the clean fixture failed its own distractor-coverage proof",
+      "guards": [
+        {
+          "file": "tests/test_gates.py",
+          "contains": "clean fixture PASSES"
+        },
+        {
+          "file": "tests/fixtures.py",
+          "contains": "def _sync_key"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "mistake": "A proof blanked the KEY's explanation instead of a distractor's, so it asserted a defect the gate correctly ignores.",
+      "caughtBy": "the gate stayed green and the test went red",
+      "guards": [
+        {
+          "file": "tests/test_gates.py",
+          "contains": "c[\"id\"] != bank3[0][\"correctAnswer\"]"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "mistake": "The truncation gate stripped trailing DIGITS, turning a complete stem ending '...the Homestead Act of 1862?' into '...Act of' and flagging a dangling preposition.",
+      "caughtBy": "reading the 484 findings instead of trusting the count",
+      "guards": [
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "a complete stem ending in a year + '?' is NOT truncation"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "mistake": "The truncation gate flagged TCAP-style completion stems that legitimately end on a colon or dash.",
+      "caughtBy": "reading the findings",
+      "guards": [
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "a TCAP completion stem ending in a colon is NOT truncation"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "mistake": "Answer-position de-bias failed on a 27/25/24/24 split — statistically significant at n=3,844, practically unexploitable. An alarm that fires on the harmless trains people to ignore it.",
+      "caughtBy": "the gate went red on a bank that was fine",
+      "guards": [
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "a 27/25/24/24 split at large n PASSES"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "mistake": "Migration was routed on difflib character similarity, which is ANTI-correlated with alignment: 0.79 was a pure bullet reorder, 0.89 had deleted the Clayton Antitrust Act, 0.94 had changed its verb.",
+      "caughtBy": "reading real standard pairs before choosing a threshold",
+      "guards": [
+        {
+          "file": "tools/alignment.py",
+          "contains": "def delta"
+        },
+        {
+          "file": "tests/test_alignment.py",
+          "contains": "a PURE BULLET REORDER"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "mistake": "Element matching read the item's DISTRACTORS, so a question about the 17th Amendment was quarantined because a wrong choice mentioned the 18th.",
+      "caughtBy": "sampling quarantined items and reading them",
+      "guards": [
+        {
+          "file": "tests/test_alignment.py",
+          "contains": "item testing the 17th Amendment does not match dropped '18th Amendment'"
+        },
+        {
+          "file": "tools/migrate.py",
+          "contains": "Distractors are deliberately excluded"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "mistake": "'United States v. Nixon' vs 'United States vs. Nixon' read as a deletion — 49 items wrongly quarantined by punctuation.",
+      "caughtBy": "sampling quarantined items",
+      "guards": [
+        {
+          "file": "tests/test_alignment.py",
+          "contains": "v. / vs. punctuation not read as a deletion"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "mistake": "Rewording read as deletion: Tennessee's role appeared 'dropped' when only the nickname 'Perfect 36' had gone, and 'suffragettes'->'suffragists' read as a removal.",
+      "caughtBy": "checking the highest-stakes quarantine by hand",
+      "guards": [
+        {
+          "file": "tests/test_alignment.py",
+          "contains": "Tennessee's role NOT dropped"
+        },
+        {
+          "file": "tools/alignment.py",
+          "contains": "def retained_in"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "mistake": "Signals were too generic to identify anything: '18th Amendment' reduced to 'Amendment', and 'American' matched almost every item in a US History bank.",
+      "caughtBy": "a pinned test going red",
+      "guards": [
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "'American' is not a usable signal"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "'Amendment' alone is not a usable signal"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "mistake": "teacher-side-isolation reported PASS over 3,986 items while judging ZERO of them. The empty-scan guard watched the outer scan; the gate's own filter removed everything.",
+      "caughtBy": "checking what the gate actually inspected, not what it scanned",
+      "guards": [
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "no student surfaces present -> NOT MEASURED, not PASS"
+        },
+        {
+          "file": "tools/gates/__init__.py",
+          "contains": "def measured"
+        },
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "def unmeasured_gates"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "mistake": "distractor-coverage carried the same latent vacuity: it would have passed a bank containing no selected-response items at all.",
+      "caughtBy": "auditing every gate for the L11 pattern",
+      "guards": [
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "distractor-coverage over a bank with no selected-response is NOT MEASURED"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "mistake": "A PDF scan returned zero hits for 'reporting category' — and zero for 'Compromise of 1877', which is certainly in that document. A broken extractor's zero is indistinguishable from a real zero and reads like an answer.",
+      "caughtBy": "sanity-checking the extractor against a string known to be present",
+      "guards": [
+        {
+          "file": "tools/extraction.py",
+          "contains": "class UnprovenExtractor"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "a broken extraction REFUSES to report an absence"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "mistake": "A reporting-category PLAUSIBILITY gate was designed that PASSED the very defect it existed to catch — a Bessemer-process item filed under Government and Civics, whose standard carries strands C and P.",
+      "caughtBy": "measuring the proposed gate against the known-bad item before shipping it",
+      "guards": [
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "Provenance, not plausibility"
+        },
+        {
+          "file": "tests/test_gates.py",
+          "contains": "reportingCategory=\"Government and Civics\""
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "mistake": "A pass tally was reported to the owner that INCLUDED a vacuous pass ('4/11'), because the runner counted a NOT-MEASURED gate as passing.",
+      "caughtBy": "the L11 investigation",
+      "guards": [
+        {
+          "file": "tools/run_gates.py",
+          "contains": "NOT MEASURED is not a pass"
+        },
+        {
+          "file": "tools/status_report.py",
+          "contains": "run_gates.collect"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "the runner does not count NOT MEASURED as a pass"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "mistake": "A gate green against an empty set reads exactly like a clean pass.",
+      "caughtBy": "stated by the owner up front; built in from the start",
+      "guards": [
+        {
+          "file": "tools/gates/__init__.py",
+          "contains": "def empty_scan_guard"
+        },
+        {
+          "file": "tests/test_gates.py",
+          "contains": "EMPTY scan FAILS"
+        }
+      ]
+    }
+  ]
+}
