@@ -93,6 +93,27 @@ def main():
                 phantom += 1
     print(f"\nstimulus: {carried} item(s) carry one; {phantom} instruct the student to use a "
           f"stimulus that is not there")
+
+    # The remediation layer's load-bearing field. Reported here because the
+    # checklist claims it is the differentiator, and a differentiator nobody
+    # measures is a differentiator that is empty (it is 0.6% full).
+    d_tot = d_named = 0
+    texts = set()
+    for items in banks.values():
+        for i in items:
+            if not itemio.servable(i) or i.get("itemType") != "mcq":
+                continue
+            for c in itemio.choices(i):
+                if isinstance(c, dict) and c.get("id") != i.get("correctAnswer"):
+                    d_tot += 1
+                    m = (c.get("misconception") or "").strip()
+                    if m:
+                        d_named += 1
+                        texts.add(m)
+    if d_tot:
+        print(f"misconceptions: {d_named}/{d_tot} distractor(s) named "
+              f"({d_named / d_tot * 100:.1f}%); {len(texts)} distinct statement(s), "
+              f"{'all free text — cannot aggregate' if len(texts) == d_named else 'some reused'}")
     return 0
 
 

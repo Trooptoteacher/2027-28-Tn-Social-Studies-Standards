@@ -5,8 +5,7 @@
 this repo has already been bitten by that twice.
 
 **The ask:** enough MCQ items to build a minimum of **5 parallel forms** per course, equal in
-rigor, testing the same content, with **every single standard assessed**. DBQs and LEQs stay
-separate. Primary sources permitted as appropriately-short excerpts. Images, political cartoons,
+rigor, testing the same content, with **every single standard assessed**. DBQs stay separate; **LEQs are out of scope**. Primary sources permitted as appropriately-short excerpts. Images, political cartoons,
 charts and graphs included.
 
 ---
@@ -140,7 +139,7 @@ Parallelism is a claim nothing currently measures.
 
 ---
 
-## 6. DBQ / LEQ — separate, already built for U.S.
+## 6. DBQ — separate, already built for U.S.
 
 The architecture is done and holds for the new courses:
 
@@ -148,7 +147,7 @@ The architecture is done and holds for the new courses:
 - [x] 34 U.S. DBQs build as standalone branded activities with source cards, citations, HIPP
       scaffolds and teacher scoring guides
 - [ ] Extend `dbq_activity.py` to the other five courses
-- [ ] **LEQs do not exist yet** in any course — no item type, no rubric shape, no builder
+- [x] ~~LEQs~~ — **out of scope** (Sean, 2026-09-05)
 
 ---
 
@@ -181,3 +180,97 @@ pre-field-test`, and no item in this bank has ever met a student.**
 - [ ] Historian review on authored content — no gate can check whether the history is right
 
 **Nothing ships until all three release gates read A.** "Close" is not "A."
+
+---
+
+## 9. The data bank — what the whole thing is actually for
+
+**Sean, 2026-09-05:** *the best test data bank for all of these courses, better than Performance
+Matters, with the ability to analyse the data, drive remediation, and create parallel tests.*
+
+That is a different product from an item bank. An item bank is a substrate; this is
+**administration → response data → diagnosis → reteach**. Two of those four do not exist in any
+form.
+
+### The differentiator, and the measurement that hurts
+
+A district platform reports *"62% mastery on US.04."* A teacher cannot teach from that. What
+they can teach from is *"17 of your 24 students chose B, which conflates the Homestead Act with
+railroad land grants — here is the reteach."*
+
+The item record already has the field for that: every distractor carries a `misconception`.
+**That field is the entire differentiator, and it is empty.**
+
+| | |
+|---|---|
+| MCQ items | 3,793 |
+| items where **every** distractor names a misconception | **22** |
+| items where **none** do | **3,771** |
+| distractors carrying a named misconception | **66 of 11,379 — 0.6%** |
+
+This is the L50 pattern in its most expensive form yet: *a parameter present in a field is
+indistinguishable from a parameter that means something.* The architecture is right and 99.4% of
+it is unbuilt.
+
+### Free text cannot aggregate — the taxonomy is the real deliverable
+
+All 66 existing misconceptions are distinct free-text sentences: *"assumes excavation was
+manual"*, *"assigns the canal to the preceding administration"*. Two items teaching the **same**
+confusion carry two different sentences, and nothing can count them together.
+
+So the load-bearing artifact is not the item bank. It is a **controlled misconception taxonomy**
+— stable IDs, reusable across items, standards and courses — because only an ID recurs, and only
+a recurring thing can be counted, trended, or routed to a resource.
+
+- [ ] Build the misconception taxonomy: stable ID, canonical statement, the standards it appears
+      under, the correct conception it displaces, and its reteach hook
+- [ ] `gate_misconception_taxonomy` — a distractor's misconception must resolve to a taxonomy ID.
+      **Free text stops being acceptable**, or the analytics layer is decorative
+- [ ] Backfill 11,313 distractor misconceptions against the taxonomy *(this is larger than the
+      item authoring itself — see §0)*
+- [ ] Every taxonomy entry links to a reteach resource. The lecture packs, Frayer models and
+      DBQ activities already exist in `history-hack-web-app` and are the obvious targets
+
+### The response layer — none of this exists
+
+- [ ] **Administration model**: form family, form ID, roster, date, setting
+- [ ] **Response model**: student × item × chosen option × time. **The chosen option, not just
+      right/wrong** — a bank that records only scores throws away every diagnosis it was built
+      to make
+- [ ] **Item analytics**: p-value, point-biserial, distractor pull per option, flag any item
+      where a distractor outperforms the key
+- [ ] **Real IRT calibration.** 3,926 items carry IRT parameters and **all 3,928 are
+      `pre-field-test`** — estimated, never met a student. They are placeholders and must be
+      disclosed as such until responses replace them
+- [ ] **Mastery reporting**: student / class / standard, and **misconception-level**, which is
+      the part a competitor's standard-level rollup does not give a teacher
+- [ ] **Privacy before any of it**: student response data is FERPA-regulated. Data model,
+      retention, and who can see what — decided *before* the first row is written, not after.
+      **Flag for legal review.**
+
+### On "better than Performance Matters"
+
+I can say what would differentiate this: **misconception-level diagnosis with reteach routing**,
+built on a taxonomy, from items that were written to diagnose rather than merely to be wrong.
+That is a real architectural advantage and it is achievable.
+
+I cannot say it is better than a shipping product, and neither should any deck. That is a
+competitive claim requiring evidence this project does not have — no item here has met a student,
+no parameter is calibrated, and there is no response data at all. **Build the capability, prove
+it in your own classroom, then make the claim with data behind it.**
+
+### Revised sequence
+
+| phase | work |
+|---|---|
+| **1** | Scope + the 1×/2× decision (§0) |
+| **2** | **Misconception taxonomy v1** — from the standards, before mass authoring |
+| **3** | Stimulus repair + `gate_stimulus_integrity` (§3) |
+| **4** | Parallelism gates, against the existing US bank (§5) |
+| **5** | US to DOK-match, **authoring misconception IDs as items are written** |
+| **6** | Response + analytics layer; first real administration in your own classes |
+| **7** | Grades 8, 6, 7, World, Tennessee |
+
+**Phase 2 moved ahead of authoring deliberately.** Every item authored without a taxonomy ID is
+an item that has to be revisited to be useful — and at 3,764 items that is the difference
+between a data bank and a pile of questions.
