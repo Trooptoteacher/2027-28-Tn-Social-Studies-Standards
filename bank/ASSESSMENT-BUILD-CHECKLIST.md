@@ -16,8 +16,19 @@ charts and graphs included.
 
 | | depth needed per standard | standards ready today | **MCQ items still to author** |
 |---|---|---|---|
-| **1 item / standard / form** | 5 DOK-matched | 65 / 438 | **1,819** |
-| **2 items / standard / form** (recommended) | 10 DOK-matched | 38 / 438 | **3,764** |
+| 1 item / standard / form | 5 DOK-matched | 65 / 438 | 1,819 |
+| **2 items / standard / form — TAKEN** | 10 DOK-matched | 38 / 438 | **3,764** |
+
+**Decided 2026-09-05: 2×.** A misconception detected once is noise; detected twice, on two
+independently authored items, is a diagnosis. The whole product is misconception-level
+remediation, so 1× is not a cheaper version of it — it is a version that does not work. Two
+supporting reasons: a single 4-option MCQ against 25% guessing makes a borderline student's
+standard score close to a coin flip, and you would be routing reteach off noise; and after field
+testing you WILL retire items, which at 1× leaves a hole with no substitute.
+
+**Depth is hard to add later; form count is easy.** If the volume has to come down, the fallback
+is 2× deep and three forms wide (6 per standard, 2,628 items), never 1× deep and five wide.
+Going 1× → 2× means revisiting all 438 standards and re-checking DOK-match on every one.
 
 One item per standard makes the whole score for that standard a coin-flip on a single question —
 a student who misreads one stem reads as not having mastered the standard. Two gives you a
@@ -263,14 +274,59 @@ it in your own classroom, then make the claim with data behind it.**
 
 | phase | work |
 |---|---|
-| **1** | Scope + the 1×/2× decision (§0) |
-| **2** | **Misconception taxonomy v1** — from the standards, before mass authoring |
-| **3** | Stimulus repair + `gate_stimulus_integrity` (§3) |
-| **4** | Parallelism gates, against the existing US bank (§5) |
-| **5** | US to DOK-match, **authoring misconception IDs as items are written** |
-| **6** | Response + analytics layer; first real administration in your own classes |
-| **7** | Grades 8, 6, 7, World, Tennessee |
+| **1** | Six course bindings + committed blueprints. **Walled courses, declared before generation** |
+| **2** | **Misconception taxonomy v1**, from the standards — before mass authoring |
+| **3** | Stimulus programme: repair the 111, source assets, `gate_stimulus_integrity` (§3) |
+| **4** | Parallelism gates, built against the existing US bank (§5) |
+| **5** | Generate → gate → regenerate, course by course, taxonomy IDs from the first item |
+| **6** | Response + analytics layer, ready before first administration |
+| **7** | First administration, next school year → real calibration |
 
 **Phase 2 moved ahead of authoring deliberately.** Every item authored without a taxonomy ID is
 an item that has to be revisited to be useful — and at 3,764 items that is the difference
 between a data bank and a pile of questions.
+
+---
+
+## 10. Building now, students next year (Sean, 2026-09-05)
+
+*"I don't want a pilot era. What I'm doing right now is creating all of the data banks. This
+will not see students until next year."*
+
+That reorders what is urgent, and the line is clean:
+
+**Must be right NOW — it lives inside the item record and costs a full pass to change later:**
+misconception taxonomy ID per distractor · DOK level and its written rationale · standard codes
+and alignment evidence · stimulus asset with rights and citation · bilingual twins · reporting
+category provenance.
+
+**Can wait — it is an assembly decision that touches no item:** form length, unit vs whole-course
+packaging, how many parallel forms, which standards sit on which form, print layout. The bank
+does not change when you change your mind about any of these.
+
+So the §9 form-architecture note (whole-course forms run 94–188 items; era grouping gives ~18)
+is **recorded and deferred**. It is a next-year decision.
+
+**No pilot.** The earlier recommendation to prove one era in class first was right for a
+validation phase and wrong for this one. The consequence to hold onto: nothing in these banks
+will be calibrated until administration next year, so **every IRT parameter stays
+`pre-field-test` and every surface keeps saying so.** 3,928 items already carry estimates that
+have never met a student.
+
+### The foundation question, re-measured
+
+Earlier the call was to save the migrated bank — the content was sound and only alignment was
+uncertain. **That was right then and the requirements have changed.** The bank now has to carry
+a named misconception on every distractor, and it does not.
+
+| | authoring units | on what foundation |
+|---|---|---|
+| **A — retrofit the existing bank** | 5,625 distractor fields + 3,440 fresh items + 324 = **9,389** | items that also carry the 53% key-longest cue and unverified alignment |
+| **B — generate fresh through the gated loop** | **4,358 items** | clean by construction; misconceptions and taxonomy IDs written with the item |
+
+**Path B is less than half the work and produces the better bank.** Retrofit is per-DISTRACTOR
+authoring; fresh is per-ITEM, and the item arrives with its misconceptions already in it.
+
+- [ ] Adopt Path B for all six courses
+- [ ] **Nothing is deleted.** The existing 3,928 items stay as content reference, as a fallback
+      where generation struggles, and as the source of the DBQ activities already built
