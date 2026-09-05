@@ -124,6 +124,17 @@ Scanning items/us-history-geography — 3988 item(s)
           - STIM-0019 [items/us-history-geography/US.17/migrated.json]: distractor B names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
           - STIM-0019 [items/us-history-geography/US.17/migrated.json]: distractor C names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
           … and 58 more
+[FAIL] stimulus-integrity — scanned 3988, judged 111 — 0 item(s) carry a stimulus; 111 reference one they do not have
+        111 finding(s):
+          - PSTIM-0079 [items/us-history-geography/US.04/migrated.json]: the stem tells the student to use a stimulus and the item carries none — as printed this tests reading a caption, not reading a source
+          - PSTIM-0080 [items/us-history-geography/US.04/migrated.json]: the stem tells the student to use a stimulus and the item carries none — as printed this tests reading a caption, not reading a source
+          - PSTIM-0081 [items/us-history-geography/US.04/migrated.json]: the stem tells the student to use a stimulus and the item carries none — as printed this tests reading a caption, not reading a source
+          - PSTIM-0031 [items/us-history-geography/US.06/migrated.json]: the stem tells the student to use a stimulus and the item carries none — as printed this tests reading a caption, not reading a source
+          - PSTIM-0032 [items/us-history-geography/US.06/migrated.json]: the stem tells the student to use a stimulus and the item carries none — as printed this tests reading a caption, not reading a source
+          - PSTIM-0033 [items/us-history-geography/US.06/migrated.json]: the stem tells the student to use a stimulus and the item carries none — as printed this tests reading a caption, not reading a source
+          - PSTIM-0076 [items/us-history-geography/US.08/migrated.json]: the stem tells the student to use a stimulus and the item carries none — as printed this tests reading a caption, not reading a source
+          - PSTIM-0077 [items/us-history-geography/US.08/migrated.json]: the stem tells the student to use a stimulus and the item carries none — as printed this tests reading a caption, not reading a source
+          … and 103 more
 [FAIL] release-readiness — scanned 3928 — Grade A requires zero findings here. "Close" is not "A."
         6 finding(s):
           - reportingCategory: 86 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
@@ -206,8 +217,8 @@ Scanning items/us-history-geography — 3988 item(s)
 [PASS] dbq-activities/activity-teacher-isolation — scanned 34, judged 220 — 220 student page(s) checked
 [PASS] US-CORE/form-parallelism — scanned 5 — 5 form(s), 10 items each, 5 standard(s), 50 distinct items
 [PASS] US-CORE/family-coverage — scanned 5 — 5 standard(s) on every form; 5/94 of the course, 0 dropped for depth — partial by declaration, not a full-course family
-[PASS] all-gates-measured — scanned 96 — 96/96 gates actually measured something
+[PASS] all-gates-measured — scanned 97 — 97/97 gates actually measured something
 
-80/92 applicable gates pass (0 not measured, 5 N/A).
-HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, blueprint-achievability, serveability, choice-length-cue, explanation-quality, review-provenance, rubric, misconception-taxonomy, release-readiness
+80/93 applicable gates pass (0 not measured, 5 N/A).
+HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, blueprint-achievability, serveability, choice-length-cue, explanation-quality, review-provenance, rubric, misconception-taxonomy, stimulus-integrity, release-readiness
 Grade A requires ALL gates pass. "Close" is not "A."

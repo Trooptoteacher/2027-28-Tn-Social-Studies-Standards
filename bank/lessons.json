@@ -1276,6 +1276,56 @@
           "contains": "A FAMILY MEMBER has no tier"
         }
       ]
+    },
+    {
+      "id": "L70",
+      "mistake": "111 servable items instruct the student to 'use the photograph to answer the question' and carry no photograph — the stimulus is a PROSE DESCRIPTION of one. As printed the item does not test source analysis; it tests reading a caption, and on a form claiming to assess visual-source skills that is a false statement about what was measured. No structural gate could see it: the stem is well-formed and the choices are fine. gate_stimulus_integrity fails a stimulus reference with no stimulus, and fails a stimulus arriving without its citation, rights statement verbatim, holding institution or bilingual alt text — an unsourced primary source is worse than a missing one, and a stimulus a screen reader cannot describe is one a student cannot use. Commercial-use clearance is checked too because this bank is sold.",
+      "caughtBy": "reading what a student would actually be handed, rather than what the record contains",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_stimulus_integrity"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "reading a caption, not reading a source"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "gate_stimulus_integrity"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "a stem referencing a stimulus with none attached FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L71",
+      "mistake": "The image matcher scored an item describing the bombing of HIROSHIMA, August 6 1945 against a photograph of NAGASAKI, August 9 1945 — and proposed it confidently, 7 points clear of the runner-up. Same war, same month, same vocabulary; different city, different date, different bomb. A similarity score counts AGREEMENTS and is structurally unable to see a DISAGREEMENT, which is the whole failure mode for attaching a source to an assessment item: the student analyses the wrong thing and the item still looks complete. conflicts() now demotes any match where each side names something the other never does, and a full date present on both sides that disagrees is decisive on its own. It reads the TITLE, not the caption — the Nagasaki caption says 'three days after Hiroshima', which made the contradiction read as agreement. Deliberately over-cautious: 90 of 111 land on a human read, because the cost of one more row on a review sheet is not comparable to the cost of a student assessed on a source they were never shown. Also: the image bank's standardIds are 2026-27 codes and were never used for matching — 84 of 94 US codes changed meaning between years, so a shared code there is evidence of nothing.",
+      "caughtBy": "sampling eight proposals by hand instead of trusting the score distribution",
+      "guards": [
+        {
+          "file": "tools/match_stimulus.py",
+          "contains": "def conflicts"
+        },
+        {
+          "file": "tools/match_stimulus.py",
+          "contains": "cannot see a DISAGREEMENT"
+        },
+        {
+          "file": "tools/match_stimulus.py",
+          "contains": "MATCHING IS ON CONTENT ONLY"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "Hiroshima described vs Nagasaki proposed is a CONFLICT"
+        },
+        {
+          "file": "tests/test_content_gates.py",
+          "contains": "does not launder it — title only"
+        }
+      ]
     }
   ]
 }

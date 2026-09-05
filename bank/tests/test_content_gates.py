@@ -609,6 +609,56 @@ check("a set with NO rubric is N/A with a reason, not NOT MEASURED",
       _nr.inapplicable and _nr.judged == 0, f"{_nr.status!r}")
 
 
+# ── a stimulus reference implies a stimulus ─────────────────────────────
+print("\n  stimulus-integrity — 111 items told students to read a picture that was not there")
+GOOD_IMG = {"src": "/images/x.jpg", "alt": "A photograph of X", "altEs": "Una fotografía de X",
+            "citationChicago": "Russell, Andrew J. *Golden Spike*, 1869.",
+            "rightsLabel": "Public Domain", "rightsStatementVerbatim": "No known restrictions.",
+            "hostingInstitution": "Library of Congress", "commercialUse": "permitted"}
+SB = A(on_std(ON, id="ST-1"), "evidenced")
+NOIMG = dict(SB, stem="Use the photograph to answer the question. " + ON)
+
+check("an item with no stimulus and no reference is not judged",
+      content.gate_stimulus_integrity([SB], REAL_B).judged == 0)
+r = content.gate_stimulus_integrity([NOIMG], REAL_B)
+check("a stem referencing a stimulus with none attached FAILS", not r.passed)
+check("the finding says it tests reading a caption",
+      any("reading a caption" in str(f) for f in r.findings))
+check("the same stem WITH a complete stimulus PASSES",
+      content.gate_stimulus_integrity([dict(NOIMG, image=GOOD_IMG)], REAL_B).passed)
+for field in ("citationChicago", "rightsStatementVerbatim", "hostingInstitution", "altEs"):
+    bad = dict(GOOD_IMG); bad[field] = ""
+    check(f"a stimulus with no {field} FAILS",
+          not content.gate_stimulus_integrity([dict(NOIMG, image=bad)], REAL_B).passed)
+check("a stimulus not cleared for commercial use FAILS",
+      not content.gate_stimulus_integrity(
+          [dict(NOIMG, image=dict(GOOD_IMG, commercialUse="non-commercial only"))],
+          REAL_B).passed)
+check("an image that is a bare string, not a record, FAILS",
+      not content.gate_stimulus_integrity([dict(NOIMG, image="/images/x.jpg")], REAL_B).passed)
+check("EMPTY scan FAILS", not content.gate_stimulus_integrity([], REAL_B).passed)
+
+print("\n  match_stimulus — a score counts agreements and cannot see a disagreement")
+import match_stimulus as _ms
+_hiro = "This photograph shows the atomic bombing of Hiroshima, August 6, 1945."
+_naga = {"title": "Mushroom Cloud above Nagasaki after Atomic Bombing, August 9, 1945",
+         "caption": "Three days after Hiroshima.", "creator": "Charles Levy", "year": "1945"}
+_only_item, _only_img = _ms.conflicts(_hiro, _naga)
+check("Hiroshima described vs Nagasaki proposed is a CONFLICT",
+      bool(_only_item and _only_img), f"{_only_item} / {_only_img}")
+check("the differing full DATE is part of the conflict",
+      any("August 6, 1945" in x for x in _only_item)
+      and any("August 9, 1945" in x for x in _only_img))
+check("the caption mentioning the other city does not launder it — title only",
+      "Hiroshima" in " ".join(_only_item))
+_same = {"title": "Freedom Riders' Greyhound Bus Burning Near Anniston, Alabama",
+         "caption": "", "creator": "", "year": "May 14, 1961"}
+check("a genuine match on the same subject is NOT a conflict on both sides",
+      not all(_ms.conflicts(
+          "This photograph shows a burning Greyhound bus near Anniston, Alabama, May 14, 1961.",
+          _same)))
+
+
 print("\n" + "=" * 74)
 print(f"{'ALL PASS' if not FAILED else str(len(FAILED)) + ' FAILED'}")
 for f in FAILED:

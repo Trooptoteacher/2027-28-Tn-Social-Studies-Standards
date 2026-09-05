@@ -1001,3 +1001,62 @@ def gate_misconception_taxonomy(items, binding=None) -> Result:
                   note=(f"{len(cited)}/{len(fams)} family(ies) cited; "
                         f"{sum(cited.values())} distractor(s) resolve to one"
                         if cited else f"{len(fams)} family(ies) defined, none cited yet"))
+
+
+STIM_REF = re.compile(r"use the (image|photograph|cartoon|chart|graph|map|table)", re.I)
+STIM_REQUIRED = ("src", "alt", "altEs", "citationChicago", "rightsLabel",
+                 "rightsStatementVerbatim", "hostingInstitution")
+
+
+def gate_stimulus_integrity(items, binding=None) -> Result:
+    """A stimulus reference implies a stimulus, and a stimulus implies its rights.
+
+    111 servable items instruct the student to "use the photograph to answer the
+    question" and carry no photograph — the stimulus is a PROSE DESCRIPTION of
+    one. As printed, the student is told to read an image that was never there,
+    so the item does not test source analysis; it tests reading a caption. On a
+    form claiming to assess visual-source skills that is a false statement about
+    what was measured, and no structural gate could see it because the stem is
+    well-formed and the choices are fine.
+
+    The second half matters as much: an image that arrives without its citation,
+    rights statement and holding institution is an unsourced primary source, and
+    an unsourced primary source is worse than a missing one. Bilingual alt text
+    is required because a stimulus a screen reader cannot describe is a stimulus
+    a student cannot use.
+    """
+    name = "stimulus-integrity"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    findings, judged, carried = [], 0, 0
+    for it in items:
+        if not itemio.servable(it):
+            continue
+        img = it.get("image")
+        refs = bool(STIM_REF.search(it.get("stem") or ""))
+        if not img and not refs:
+            continue
+        judged += 1
+        if refs and not img:
+            findings.append(Finding(it.get("id", "?"),
+                "the stem tells the student to use a stimulus and the item carries none — as "
+                "printed this tests reading a caption, not reading a source",
+                it.get("_file", "")))
+            continue
+        carried += 1
+        if not isinstance(img, dict):
+            findings.append(Finding(it.get("id", "?"),
+                f"image is {type(img).__name__}, not a record with its rights and citation",
+                it.get("_file", "")))
+            continue
+        if missing := [f for f in STIM_REQUIRED if not (img.get(f) or "")]:
+            findings.append(Finding(it.get("id", "?"),
+                f"stimulus carries no {', '.join(missing)} — an unsourced primary source is "
+                f"worse than a missing one", it.get("_file", "")))
+        if img.get("commercialUse") not in ("permitted", True):
+            findings.append(Finding(it.get("id", "?"),
+                f"stimulus commercialUse is {img.get('commercialUse')!r} — this bank is sold, "
+                f"so anything not cleared for commercial use may not ship", it.get("_file", "")))
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note=f"{carried} item(s) carry a stimulus; {judged - carried} reference one "
+                       f"they do not have")
