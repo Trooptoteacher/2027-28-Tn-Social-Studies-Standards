@@ -233,10 +233,14 @@ So the load-bearing artifact is not the item bank. It is a **controlled misconce
 — stable IDs, reusable across items, standards and courses — because only an ID recurs, and only
 a recurring thing can be counted, trended, or routed to a resource.
 
-- [ ] Build the misconception taxonomy: stable ID, canonical statement, the standards it appears
-      under, the correct conception it displaces, and its reteach hook
-- [ ] `gate_misconception_taxonomy` — a distractor's misconception must resolve to a taxonomy ID.
-      **Free text stops being acceptable**, or the analytics layer is decorative
+- [x] **14 structural families built** — `taxonomy/misconception-families.json`. A family is a
+      REASONING ERROR (chronological displacement, agent substitution, causation reversal, source
+      purpose confusion…), course-independent, so a student showing the same family across US and
+      World is a transferable finding rather than two content gaps. **DRAFT — needs your read
+      before mass authoring cites them.**
+- [x] **`gate_misconception_taxonomy` built and wired.** Free text without a family ID now fails.
+      It currently names its own backlog: the 66 legacy free-text misconceptions need family IDs
+- [ ] Author content-level misconceptions per item, each citing a family, as items are written
 - [ ] Backfill 11,313 distractor misconceptions against the taxonomy *(this is larger than the
       item authoring itself — see §0)*
 - [ ] Every taxonomy entry links to a reteach resource. The lecture packs, Frayer models and
@@ -274,8 +278,8 @@ it in your own classroom, then make the claim with data behind it.**
 
 | phase | work |
 |---|---|
-| **1** | Six course bindings + committed blueprints. **Walled courses, declared before generation** |
-| **2** | **Misconception taxonomy v1**, from the standards — before mass authoring |
+| ~~**1**~~ | ~~Six course bindings + committed blueprints~~ — **DONE 2026-09-05**, `tools/scaffold_course.py` |
+| ~~**2**~~ | ~~Misconception taxonomy v1~~ — **families DONE**, `taxonomy/misconception-families.json` (DRAFT, needs your read) |
 | **3** | Stimulus programme: repair the 111, source assets, `gate_stimulus_integrity` (§3) |
 | **4** | Parallelism gates, built against the existing US bank (§5) |
 | **5** | Generate → gate → regenerate, course by course, taxonomy IDs from the first item |

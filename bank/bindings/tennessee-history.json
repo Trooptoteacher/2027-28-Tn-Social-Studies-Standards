@@ -1,0 +1,46 @@
+{
+  "$comment": "THE BINDING. Every generator and every gate loads this file and asserts against it. One shared toolchain, many walled courses. A generator that will happily emit another course's prefix will eventually do it.",
+  "bindingVersion": 1,
+  "course": "tennessee-history",
+  "courseTitle": "Tennessee History",
+  "standardsPrefix": "TN",
+  "standardsYear": "2027-28",
+  "standardsFile": "../standards/tennessee-history.json",
+  "standardsSourceDocument": "TN-Social-Studies-Standards-2027-28.pdf",
+  "crosswalkFile": "../crosswalk/tennessee-history.csv",
+  "outputDir": "items/tennessee-history",
+  "quarantineDir": "quarantine/tennessee-history",
+  "blueprintFile": "blueprints/tennessee-history.blueprint.json",
+  "reportingCategoryFile": "reporting-categories/tennessee-history.json",
+  "forbiddenPrefixes": {
+    "$comment": "Every OTHER TN course prefix. Listed explicitly rather than inferred, so adding a course is a deliberate edit and a typo cannot silently widen the wall.",
+    "prefixes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "AAH",
+      "AH",
+      "CI",
+      "E",
+      "GC",
+      "K",
+      "P",
+      "S",
+      "US",
+      "W",
+      "WG"
+    ]
+  },
+  "forbiddenStandardsYears": {
+    "$comment": "A standard code is not a stable identifier across years — 84 of the 94 US codes changed meaning between 2026-27 and 2027-28. Any item still claiming the prior year is a hard failure, not a warning.",
+    "years": [
+      "2026-27"
+    ]
+  },
+  "disclosureLine": "classroom-formative · pre-field-test"
+}

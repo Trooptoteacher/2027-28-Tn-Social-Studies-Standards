@@ -1,8 +1,8 @@
 {
   "$comment": "BACKWARD DESIGN. Committed before a single item is written; the bank is measured against it per standard, per DOK, per item type, and drift fails in EITHER direction. Depth is 2 items per standard per form x 5 parallel forms = 10 DOK-MATCHED items. Five items at DOK 1,2,2,3,3 do not build five equal forms — they build one form and four different ones — so the target is depth AT A LEVEL, never raw count.",
   "blueprintVersion": 1,
-  "course": "us-history-geography",
-  "standardsPrefix": "US",
+  "course": "grade-07",
+  "standardsPrefix": "7",
   "standardsYear": "2027-28",
   "status": "SCAFFOLDED 2026-09-05 — 2x depth locked by Sean Reynolds; per-standard DOK derived from each standard's verb, not set flat",
   "parallelForms": 5,
@@ -145,28 +145,288 @@
     "$comment": "How the BANK is measured, as opposed to a form. A form must match its tier exactly and fails in either direction; a bank of thousands measured against an exact target could only ever fail, and 'too many items' is depth, not drift. So: a minimum depth per standard plus the DOK proportion. The proportion is this blueprint's OWN computed distribution, so the target and the design cannot drift apart — the previous default was a hard-coded 33/33/17/17 that reserved 17% for DOK-4, which a selected-response bank can never contain.",
     "minPerStandard": 10,
     "dokProportion": {
-      "1": 0.3191,
+      "1": 0.2538,
       "2": 0.5,
-      "3": 0.1809
+      "3": 0.2462
     },
     "proportionTolerance": 0.1
   },
   "dokDistribution": {
     "$comment": "The aggregate this course's per-standard pairs produce. Stated so it is a measured fact rather than an emergent surprise — a bank that drifts to recall is the failure mode this blueprint exists to catch, and it is invisible one standard at a time.",
-    "items": 940,
+    "items": 650,
     "byLevel": {
-      "1": 300,
-      "2": 470,
-      "3": 170
+      "1": 165,
+      "2": 325,
+      "3": 160
     },
     "share": {
-      "1": 31.9,
+      "1": 25.4,
       "2": 50.0,
-      "3": 18.1
+      "3": 24.6
     }
   },
   "perStandard": {
-    "US.01": {
+    "7.01": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "identify",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.02": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.03": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.04": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "identify",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.05": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.06": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.07": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "summarize",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.08": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.09": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.10": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "identify",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.11": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.12": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.13": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.14": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.15": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.16": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "identify",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.17": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.18": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.19": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.20": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "examine",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.21": {
       "itemCount": 10,
       "dok": {
         "1": 5,
@@ -179,85 +439,7 @@
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.02": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "identify",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.03": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "summarize",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.04": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.05": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "examine",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.06": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.07": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.08": {
+    "7.22": {
       "itemCount": 10,
       "dok": {
         "2": 5,
@@ -270,7 +452,7 @@
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.09": {
+    "7.23": {
       "itemCount": 10,
       "dok": {
         "2": 5,
@@ -283,7 +465,7 @@
       "namesContent": false,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.10": {
+    "7.24": {
       "itemCount": 10,
       "dok": {
         "1": 5,
@@ -292,11 +474,349 @@
       "itemType": {
         "mcq": 10
       },
-      "verb": "determine",
+      "verb": "explain",
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.11": {
+    "7.25": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.26": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.27": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "identify",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.28": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.29": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.30": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.31": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.32": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.33": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.34": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.35": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.36": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.37": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.38": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.39": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.40": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.41": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.42": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "identify",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.43": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "define",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.44": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.45": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.46": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.47": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.48": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.49": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "examine",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.50": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.51": {
       "itemCount": 10,
       "dok": {
         "2": 5,
@@ -306,270 +826,10 @@
         "mcq": 10
       },
       "verb": "compare",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.12": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.13": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.14": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.15": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "compare",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.16": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.17": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.18": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.19": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.20": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.21": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "assess",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.22": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "compare",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.23": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.24": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "compare",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.25": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.26": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.27": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "identify",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.28": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.29": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.30": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.31": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.32": {
+    "7.52": {
       "itemCount": 10,
       "dok": {
         "1": 5,
@@ -582,124 +842,7 @@
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.33": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.34": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.35": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.36": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.37": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "examine",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.38": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.39": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.40": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.41": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.42": {
+    "7.53": {
       "itemCount": 10,
       "dok": {
         "2": 5,
@@ -712,111 +855,7 @@
       "namesContent": false,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.43": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.44": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.45": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.46": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.47": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.48": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.49": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.50": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.51": {
+    "7.54": {
       "itemCount": 10,
       "dok": {
         "1": 5,
@@ -829,72 +868,7 @@
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.52": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "examine",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.53": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explore",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.54": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.55": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.56": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.57": {
+    "7.55": {
       "itemCount": 10,
       "dok": {
         "1": 5,
@@ -907,20 +881,7 @@
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.58": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "identify",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.59": {
+    "7.56": {
       "itemCount": 10,
       "dok": {
         "1": 5,
@@ -933,72 +894,7 @@
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.60": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.61": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.62": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.63": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.64": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.65": {
+    "7.57": {
       "itemCount": 10,
       "dok": {
         "2": 5,
@@ -1011,7 +907,7 @@
       "namesContent": false,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.66": {
+    "7.58": {
       "itemCount": 10,
       "dok": {
         "1": 5,
@@ -1024,7 +920,20 @@
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.67": {
+    "7.59": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "describe",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.60": {
       "itemCount": 10,
       "dok": {
         "2": 5,
@@ -1034,10 +943,49 @@
         "mcq": 10
       },
       "verb": "analyze",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.61": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
       "namesContent": false,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.68": {
+    "7.62": {
+      "itemCount": 10,
+      "dok": {
+        "1": 5,
+        "2": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "identify",
+      "namesContent": true,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.63": {
+      "itemCount": 10,
+      "dok": {
+        "2": 5,
+        "3": 5
+      },
+      "itemType": {
+        "mcq": 10
+      },
+      "verb": "explain",
+      "namesContent": false,
+      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
+    },
+    "7.64": {
       "itemCount": 10,
       "dok": {
         "1": 5,
@@ -1050,7 +998,7 @@
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     },
-    "US.69": {
+    "7.65": {
       "itemCount": 10,
       "dok": {
         "1": 5,
@@ -1060,331 +1008,6 @@
         "mcq": 10
       },
       "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.70": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.71": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.72": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.73": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.74": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "examine",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.75": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.76": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "examine",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.77": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.78": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.79": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": false,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.80": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.81": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.82": {
-      "itemCount": 10,
-      "dok": {
-        "2": 5,
-        "3": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "analyze",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.83": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.84": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "examine",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.85": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.86": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "identify",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.87": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "identify",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.88": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "identify",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.89": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "identify",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.90": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.91": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "identify",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.92": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "describe",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.93": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "explain",
-      "namesContent": true,
-      "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
-    },
-    "US.94": {
-      "itemCount": 10,
-      "dok": {
-        "1": 5,
-        "2": 5
-      },
-      "itemType": {
-        "mcq": 10
-      },
-      "verb": "identify",
       "namesContent": true,
       "dokReason": "verb tier and whether the standard names a checklist; capped at 3 because a four-option item cannot ask a student to construct and defend an argument"
     }

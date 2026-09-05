@@ -1180,6 +1180,48 @@
           "contains": "a set with NO rubric is N/A with a reason"
         }
       ]
+    },
+    {
+      "id": "L66",
+      "mistake": "scaffold_course.py --all --apply overwrote blueprints/us-history-geography.blueprint.json, which was not a placeholder — it was carrying the form ladder (three tiers), the DOK-ceiling disclosure text and the bank measurement target that the form builder and five gates read. The new blueprint was correct about everything it knew and silent about everything it did not, so the damage surfaced one KeyError at a time: form['tiers'], then bp['defaults'], then bank['proportionTolerance']. Nothing said 'you are about to replace a live file'. A scaffolder is for standing a course UP; pointed at one already carrying work it is a deletion tool with a helpful name. Two guards: the tool now REFUSES to overwrite an existing binding or blueprint without --force and names what would be lost, and the course-independent form ladder is carried INTO every scaffold so a new course cannot be born without the tiers its gates resolve against. Related: the bank measurement target is now the blueprint's OWN computed DOK distribution rather than an inherited hard-coded 33/33/17/17 that reserved 17% for DOK-4 — a level a selected-response bank can never contain.",
+      "caughtBy": "running the form gates immediately after the scaffold, on the suspicion that --all --apply had touched more than it should",
+      "guards": [
+        {
+          "file": "tools/scaffold_course.py",
+          "contains": "REFUSED — already exists"
+        },
+        {
+          "file": "tools/scaffold_course.py",
+          "contains": "FORM_LADDER"
+        },
+        {
+          "file": "tools/scaffold_course.py",
+          "contains": "proportionTolerance"
+        }
+      ]
+    },
+    {
+      "id": "L67",
+      "mistake": "The misconception taxonomy nearly got built bottom-up. The plan was to mine it from the 11,379 distractors already in the bank, on the reasoning that a distractor written to be wrong implies the misconception it targets. Measured first: only 66 of 11,379 carry any explanation of WHY they are wrong, and all 66 are ones authored in this session. There was nothing to mine. Inferring 11,313 misconceptions from bare distractor TEXT would have been AI reading intent into content whose author never stated one, at scale, into the field the entire analytics layer depends on. The taxonomy is built top-down from the standards instead, and the structural families are a design artifact marked DRAFT pending a human read.",
+      "caughtBy": "measuring the source before building the tool that would have consumed it",
+      "guards": [
+        {
+          "file": "taxonomy/misconception-families.json",
+          "contains": "A family ID recurs across items"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_misconception_taxonomy"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "free text cannot aggregate"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "gate_misconception_taxonomy"
+        }
+      ]
     }
   ]
 }

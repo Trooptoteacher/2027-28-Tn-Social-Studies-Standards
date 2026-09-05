@@ -927,3 +927,77 @@ def gate_review_debt(items, binding=None) -> Result:
                                    "is selected response, so there is no relocation to check")
     return Result(name, not findings, len(items), findings, judged=judged,
                   note="; ".join(f"{v} {k}" for k, v in tally.most_common()))
+
+
+TAXONOMY = os.path.join(itemio.BANK_ROOT, "taxonomy", "misconception-families.json")
+
+
+def _families():
+    if not os.path.exists(TAXONOMY):
+        return {}
+    with open(TAXONOMY, encoding="utf-8") as fh:
+        return {f["id"]: f for f in json.load(fh).get("families", [])}
+
+
+def gate_misconception_taxonomy(items, binding=None) -> Result:
+    """A distractor's misconception must resolve to a taxonomy ID.
+
+    This is the gate the whole analytics layer rests on. 66 misconceptions
+    existed in this bank and all 66 were DISTINCT FREE-TEXT SENTENCES — "assumes
+    excavation was manual", "assigns the canal to the preceding administration".
+    Two items teaching the same confusion carried two different sentences, so
+    nothing could count them together, and a remediation report that cannot
+    aggregate is a list of anecdotes.
+
+    A family ID recurs across items, standards AND courses. That is what lets a
+    report say "this student reverses cause and effect" — a transferable finding
+    — instead of "this student missed US.34". Free text stays as the human-
+    readable statement; the ID is what the analytics read.
+
+    Legacy items are NOT failed for lacking a misconception: 3,771 of them were
+    migrated before this existed and that is a stated gap, not a defect in the
+    gate. What fails is a misconception that CLAIMS a family the taxonomy does
+    not define, or an item authored after the taxonomy that names none.
+    """
+    name = "misconception-taxonomy"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    fams = _families()
+    if not fams:
+        return Result(name, False, len(items), [Finding("(taxonomy)",
+            "no misconception families defined — the analytics layer has nothing to aggregate "
+            "on and every misconception is an anecdote", TAXONOMY)], judged=0)
+    findings, judged, cited = [], 0, collections.Counter()
+    for it in items:
+        if not itemio.servable(it) or it.get("itemType") not in ("mcq", "multiple-select"):
+            continue
+        authored = (it.get("provenance") or {}).get("authoring") or it.get("aiGenerated")
+        for ch in itemio.choices(it):
+            if not isinstance(ch, dict) or ch.get("id") == it.get("correctAnswer"):
+                continue
+            fam, txt = ch.get("misconceptionFamily"), (ch.get("misconception") or "").strip()
+            if not fam and not txt:
+                if authored:
+                    judged += 1
+                    findings.append(Finding(it.get("id", "?"),
+                        f"distractor {ch.get('id')} was authored with no misconception — a "
+                        f"distractor written to be merely wrong is noise, not diagnosis",
+                        it.get("_file", "")))
+                continue
+            judged += 1
+            if not fam:
+                findings.append(Finding(it.get("id", "?"),
+                    f"distractor {ch.get('id')} names a misconception in free text but cites no "
+                    f"family — free text cannot aggregate, so this diagnoses one student on one "
+                    f"item and nothing else", it.get("_file", "")))
+                continue
+            if fam not in fams:
+                findings.append(Finding(it.get("id", "?"),
+                    f"distractor {ch.get('id')} cites family {fam!r}, which the taxonomy does "
+                    f"not define ({len(fams)} defined)", it.get("_file", "")))
+                continue
+            cited[fam] += 1
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note=(f"{len(cited)}/{len(fams)} family(ies) cited; "
+                        f"{sum(cited.values())} distractor(s) resolve to one"
+                        if cited else f"{len(fams)} family(ies) defined, none cited yet"))
