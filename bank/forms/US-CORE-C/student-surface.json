@@ -1,0 +1,846 @@
+{
+  "formId": "US-CORE-C",
+  "items": [
+    {
+      "id": "U5-DOK2-0028",
+      "stem": "What was President Roosevelt's primary motivation for attempting to add justices to the Supreme Court in 1937?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To fulfill a campaign promise he had made to expand the Court to include more diverse justices",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To reduce the workload on existing justices who were overwhelmed by the volume of Depression-era cases",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To add justices who would be more likely to uphold New Deal programs that the Court had been striking down",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To ensure that justices who had served beyond the constitutional age limit would be replaced",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.5,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.44"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.44->US.46: checklist intact (2 element(s))"
+        ],
+        "alignmentReview": null
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "dok3-gen-u5-022",
+      "stem": "Critics of the New Deal charged that Roosevelt's programs represented a dangerous move toward socialism. Defenders argued the New Deal actually saved capitalism. Which reasoning provides the strongest defense of the argument that the New Deal PRESERVED rather than threatened the capitalist system?",
+      "stemEs": "Los críticos del New Deal acusaron que los programas de Roosevelt representaban un peligroso avance hacia el socialismo. Los defensores argumentaban que el New Deal en realidad salvó al capitalismo. ¿Qué razonamiento proporciona la defensa más sólida del argumento de que el New Deal PRESERVÓ en lugar de amenazar el sistema capitalista?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The New Deal preserved capitalism because it was funded entirely through taxation and borrowing rather than government ownership of businesses, ensuring that private enterprise remained the foundation of the American economy.",
+          "textEs": "El New Deal preservó el capitalismo porque se financió enteramente a través de impuestos y préstamos en lugar de la propiedad gubernamental de empresas, asegurando que la empresa privada siguiera siendo el fundamento de la economía estadounidense.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The New Deal preserved capitalism because FDR's willingness to accept deficit spending demonstrated that a capitalist democracy could respond to crises more flexibly than socialist command economies.",
+          "textEs": "El New Deal preservó el capitalismo porque la disposición de FDR a aceptar el gasto deficitario demostró que una democracia capitalista podía responder a las crisis con más flexibilidad que las economías de mando socialistas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The New Deal preserved capitalism because Roosevelt explicitly rejected socialist proposals such as nationalizing the banking system, choosing instead to restore private banks to profitability through the FDIC.",
+          "textEs": "El New Deal preservó el capitalismo porque Roosevelt rechazó explícitamente propuestas socialistas como la nacionalización del sistema bancario, eligiendo en cambio restaurar la rentabilidad de los bancos privados a través del FDIC.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The New Deal preserved capitalism by using government power to restore the conditions market economies require — consumer purchasing power, banking stability, and honest financial markets — preventing the complete collapse that was fueling calls for genuinely radical alternatives.",
+          "textEs": "El New Deal preservó el capitalismo utilizando el poder gubernamental para restaurar las condiciones que las economías de mercado requieren: poder adquisitivo del consumidor, estabilidad bancaria y mercados financieros honestos, evitando el colapso total que estaba alimentando los llamados a alternativas genuinamente radicales.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.79,
+        "b": 0.86,
+        "c": 0.23
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.44"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.44->US.46: checklist intact (2 element(s))"
+        ],
+        "alignmentReview": null
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "U7-DOK2-0006",
+      "stem": "How did the Truman Doctrine and the Marshall Plan work together to advance the U.S. policy of containment in Europe after World War II?",
+      "stemEs": "¿Cómo trabajaron juntos la Doctrina Truman y el Plan Marshall para avanzar en la política de contención de EE. UU. en Europa después de la Segunda Guerra Mundial?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Truman Doctrine offered military and political support to countries resisting communist takeover, while the Marshall Plan provided economic aid to rebuild war-devastated nations",
+          "textEs": "La Doctrina Truman ofreció apoyo militar y político a los países que resistían la toma comunista, mientras que el Plan Marshall proporcionó ayuda económica para reconstruir a las naciones devastadas por la guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Truman Doctrine provided military aid to rebuild European industries, while the Marshall Plan trained European armies",
+          "textEs": "La Doctrina Truman proporcionó ayuda militar para reconstruir las industrias europeas, mientras que el Plan Marshall entrenó a los ejércitos europeos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Truman Doctrine and Marshall Plan replaced the United Nations as the primary international peacekeeping organization",
+          "textEs": "La Doctrina Truman y el Plan Marshall reemplazaron a las Naciones Unidas como la principal organización internacional de mantenimiento de la paz",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Both programs were designed solely to counter the Soviet Union in Asia rather than in Europe",
+          "textEs": "Ambos programas fueron diseñados exclusivamente para contrarrestar a la Unión Soviética en Asia y no en Europa",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": -0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "U5-DOK3-0018",
+      "stem": "Which conclusion about the Marshall Plan is best supported by the fact that it offered economic reconstruction aid to all European nations, including those within the Soviet sphere of influence?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The offer to Soviet-aligned nations demonstrated that the United States did not yet view the Soviet Union as a long-term strategic adversary.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "American policymakers believed that economic recovery would reduce the appeal of communist political movements in war-devastated European nations.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Marshall Plan was designed primarily as a humanitarian relief program to prevent civilian starvation in postwar Europe.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "American policymakers genuinely expected the Soviet Union to participate in the Marshall Plan and integrate its economy into Western trade networks.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.40"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.40->US.42: verb changed analyze->explain"
+        ],
+        "alignmentReview": {
+          "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.60",
+          "matchedElements": [
+            "Marshall Plan"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
+      },
+      "alignmentStatus": "rehomed",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "q-us78-11",
+      "stem": "What happened to Prince Edward County, Virginia schools after Brown v. Board?",
+      "stemEs": "¿Qué pasó con las escuelas del Condado Prince Edward, Virginia después de Brown v. Board?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They immediately integrated without any resistance from local officials",
+          "textEs": "Se integraron inmediatamente sin resistencia de funcionarios locales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They successfully maintained segregation through legal loopholes",
+          "textEs": "Mantuvieron exitosamente la segregación mediante lagunas legales",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "They closed public schools for five years rather than integrate",
+          "textEs": "Cerraron las escuelas públicas por cinco años en lugar de integrar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "They became a model for peaceful integration in the South",
+          "textEs": "Se convirtieron en modelo de integración pacífica en el Sur",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.02,
+        "b": -0.71,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "U9-DOK2-0021",
+      "stem": "Why did many Southern states resist implementing the Brown v. Board of Education ruling even years after the 1954 decision?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Supreme Court's ruling lacked enforcement authority, so states could legally ignore federal court orders without consequence",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress had passed legislation blocking the enforcement of the ruling in states that had voted against integration",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The ruling only applied to schools in states where segregation had been challenged in court, leaving most Southern schools unaffected",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Court's instruction to desegregate 'with all deliberate speed' allowed states to delay implementation, and local officials used political and social pressure to resist change",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "q-us79-12",
+      "stem": "What organization did Martin Luther King Jr. help found after the Montgomery Bus Boycott?",
+      "stemEs": "¿Qué organización ayudó a fundar Martin Luther King Jr. después del Boicot de Autobuses de Montgomery?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Southern Christian Leadership Conference to coordinate civil rights efforts",
+          "textEs": "La Conferencia de Liderazgo Cristiano del Sur para coordinar esfuerzos de derechos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Using peaceful protests to create tension that forces negotiation and change",
+          "textEs": "El Comité Coordinador Estudiantil No Violento para activismo juvenil",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "He became the first African American student at the University of Mississippi",
+          "textEs": "La Asociación Nacional para el Progreso de las Personas de Color",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He was a Birmingham civil rights leader who helped organize the 1963 campaign",
+          "textEs": "El Congreso de Igualdad Racial para organizar viajes de la libertad",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.12,
+        "b": -1.72,
+        "c": 0.24
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "U9-DOK2-0031",
+      "stem": "How did Orval Faubus's actions during the Little Rock Crisis of 1957 reflect the broader pattern of Southern resistance to civil rights?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Faubus refused to enforce segregation laws after the Supreme Court's ruling, making Little Rock a model of voluntary compliance",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Faubus used the Arkansas National Guard to block Black students from entering Central High School, directly defying federal authority and forcing President Eisenhower to respond with federal troops",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Faubus supported the federal government's desegregation orders and called on the National Guard to protect Black students entering Central High School",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Faubus appealed to Congress to pass legislation overturning the Brown decision, making Little Rock a political rather than a military confrontation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "U9-DOK2-0048",
+      "stem": "How did the Civil Rights Act of 1964 build upon and go beyond earlier civil rights legislation?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The 1964 Act required immediate desegregation of all schools within one year, accelerating the timeline set by Brown v. Board",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The 1964 Act was the first federal law to address racial discrimination since Reconstruction, as Congress had not passed any civil rights legislation in the twentieth century before 1964",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The 1964 Act prohibited discrimination in public accommodations, employment, and federally assisted programs, addressing areas of daily life that earlier, weaker civil rights acts had not protected",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The 1964 Act focused exclusively on voting rights, extending protections that earlier acts had established for school integration",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.78"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.81"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.81->US.78: checklist intact (5 element(s))"
+        ],
+        "alignmentReview": null
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "U9-DOK3-0002",
+      "stem": "African American voter registration in the southern states covered by the Voting Rights Act of 1965 rose from approximately 29% in 1965 to over 60% by 1969. Which conclusion is best supported by this trend?",
+      "stemEs": "El registro de votantes afroamericanos en los estados del sur cubiertos por la Ley de Derechos Electorales de 1965 aumentó de aproximadamente 29% en 1965 a más del 60% en 1969. ¿Cuál conclusión está mejor respaldada por esta tendencia?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "African American voter registration declined sharply between 1965 and 1968",
+          "textEs": "El registro de votantes afroamericanos disminuyó drásticamente entre 1965 y 1968",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Mississippi had the highest African American voter registration rate in 1965",
+          "textEs": "Mississippi tenía la tasa más alta de registro de votantes afroamericanos en 1965",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Voter registration rates remained constant in the South during this period",
+          "textEs": "Las tasas de registro de votantes se mantuvieron constantes en el Sur durante este período",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "African American voter registration in the South increased dramatically after the Voting Rights Act",
+          "textEs": "El registro de votantes afroamericanos en el Sur aumentó drásticamente después de la Ley de Derechos Electorales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.78"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.81"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.81->US.78: checklist intact (5 element(s))"
+        ],
+        "alignmentReview": null
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    }
+  ]
+}

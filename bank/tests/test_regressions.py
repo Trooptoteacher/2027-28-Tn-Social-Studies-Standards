@@ -24,6 +24,7 @@ from gates import Result, record, coverage, content
 
 B = binding_mod.load(os.path.join(HERE, "fixtures", "testbinding", "binding.json"))
 CODES = ["US.04", "US.05"]
+B_REAL = binding_mod.load()
 FAILED = []
 
 
@@ -445,6 +446,80 @@ check("the readiness total comes from the TOOL, not a copy of its rule",
       "the copy pooled by standardCodes and reported 1,763 against the tool's 1,867")
 _ra = open(os.path.join(BANK, "tools", "run_all.sh"), encoding="utf-8").read()
 check("it runs in the pipeline", "check_handoff_numbers.py" in _ra)
+
+
+# ── a FAMILY is parallel, or it is N different tests ────────────────────
+print("\n  form-parallelism / family-coverage — the claim no single-form gate can see")
+import copy as _copy, json as _fj, shutil as _sh, tempfile as _tf
+from gates import coverage as _cov
+
+_FAM = os.path.join(BANK, "forms", "families", "US-CORE.json")
+if not os.path.exists(_FAM):
+    check("US-CORE family exists to prove against", False, "run tools/form_family.py first")
+else:
+    _fam = _fj.load(open(_FAM, encoding="utf-8"))
+    r = _cov.gate_form_parallelism(_fam, B_REAL)
+    check("a real 5-form family PASSES parallelism", r.passed,
+          "; ".join(str(f) for f in r.findings[:2]))
+    check("...and judged every member", r.judged == len(_fam["forms"]))
+
+    # Every defect is injected by MUTATING A RENDERED MEMBER, not a stub: the
+    # gate reads manifests and student surfaces off disk, so a hand-built dict
+    # would prove only that it can read a hand-built dict.
+    _mem = _fam["forms"][1]
+    _dir = os.path.join(BANK, "forms", _mem)
+    _bak = _tf.mkdtemp()
+    _sh.copytree(_dir, os.path.join(_bak, _mem))
+
+    def _mutate(fn):
+        sp = os.path.join(_dir, "student-surface.json")
+        mp = os.path.join(_dir, "manifest.json")
+        surf, man = _fj.load(open(sp, encoding="utf-8")), _fj.load(open(mp, encoding="utf-8"))
+        fn(surf, man)
+        _fj.dump(surf, open(sp, "w", encoding="utf-8"))
+        _fj.dump(man, open(mp, "w", encoding="utf-8"))
+        return _cov.gate_form_parallelism(_fam, B_REAL)
+
+    def _restore():
+        _sh.rmtree(_dir); _sh.copytree(os.path.join(_bak, _mem), _dir)
+
+    r = _mutate(lambda s, m: s["items"].pop())
+    check("one form SHORT an item FAILS", not r.passed)
+    check("the finding says the forms are not parallel",
+          any("not parallel" in str(f) for f in r.findings)); _restore()
+
+    r = _mutate(lambda s, m: s["items"][0].update(dokLevel=9))
+    check("a form with a different DOK profile FAILS", not r.passed); _restore()
+
+    r = _mutate(lambda s, m: m.__setitem__("standards", m["standards"][:-1]))
+    check("a form covering different standards FAILS", not r.passed); _restore()
+
+    _other = _fj.load(open(os.path.join(BANK, "forms", _fam["forms"][0],
+                                        "student-surface.json"), encoding="utf-8"))["items"][0]
+    r = _mutate(lambda s, m: s["items"].__setitem__(0, _copy.deepcopy(_other)))
+    check("an item SHARED between two forms FAILS", not r.passed)
+    check("the finding says a retake would measure memory",
+          any("measures memory" in str(f) for f in r.findings)); _restore()
+
+    check("a family naming an unrendered member FAILS",
+          not _cov.gate_form_parallelism(dict(_fam, forms=_fam["forms"] + ["NOPE"]),
+                                         B_REAL).passed)
+    check("an EMPTY family FAILS", not _cov.gate_form_parallelism({}, B_REAL).passed)
+    check("a family declaring no forms FAILS",
+          not _cov.gate_form_parallelism({"familyId": "X", "forms": []}, B_REAL).passed)
+
+    r = _cov.gate_family_coverage(_fam, B_REAL)
+    check("a PARTIAL family passes when it does not claim full coverage", r.passed, str(r.note))
+    check("...and the note states how much of the course it covers", "of the course" in r.note)
+    r = _cov.gate_family_coverage(dict(_fam, claimsFullCourseCoverage=True), B_REAL)
+    check("CLAIMING full-course coverage without it FAILS", not r.passed)
+    check("the finding counts what is actually assessed",
+          any("of 94" in str(f) for f in r.findings))
+    check("a family claiming NO standards FAILS",
+          not _cov.gate_family_coverage(dict(_fam, standards=[]), B_REAL).passed)
+    check("an EMPTY family FAILS coverage too",
+          not _cov.gate_family_coverage({}, B_REAL).passed)
+    _sh.rmtree(_bak)
 
 
 print("\n" + "=" * 74)

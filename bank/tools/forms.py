@@ -373,6 +373,26 @@ def build(form_id, standards, b=None):
     b.assert_codes([c for i in picked for c in i["standardCodes"]],
                    where=f"form {form_id} contents")
 
+    return render_selection(form_id, picked, standards, b, blueprint, tiers, short)
+
+
+def render_selection(form_id, picked, standards, b, blueprint, tiers=None, short=None,
+                     family=None):
+    """Render an ALREADY-SELECTED item list as a form.
+
+    Split out of build() so a form family can do its own allocation — dealing
+    DOK-matched items across N forms — and still render through exactly one
+    code path. Two renderers would be two sets of pagination, disclosure and
+    key-position behaviour, and the family's whole claim is that its members are
+    identical in everything but content.
+    """
+    # A FAMILY MEMBER has no tier. Its shape comes from the family allocation —
+    # 2 items per standard across N forms — not from the tier ladder, so
+    # form-blueprint does not apply to it and must say so rather than failing a
+    # correctly-built form for not being something it never claimed to be.
+    tiers = tiers if tiers is not None else ({} if family else
+                                             {c: "tcap-standard" for c in standards})
+    short = short if short is not None else {}
     out = os.path.join(FORMS_DIR, form_id)
     os.makedirs(out, exist_ok=True)
     from weasyprint import HTML as WHTML
@@ -380,7 +400,8 @@ def build(form_id, standards, b=None):
     by_id = {t["id"]: t for t in form["tiers"]}
     ceilings = {by_id[t]["dokCeiling"] for t in tiers.values()} or {3}
     tier_note = form["disclosureByCeiling"][str(min(ceilings))]
-    manifest = {"formId": form_id, "course": b.course, "standardsYear": b.standards_year,
+    manifest = {"formId": form_id, "family": family,
+                "course": b.course, "standardsYear": b.standards_year,
                 "standards": standards, "itemCount": len(picked),
                 "tierByStandard": tiers, "dokCeiling": min(ceilings),
                 "tierDisclosure": tier_note,

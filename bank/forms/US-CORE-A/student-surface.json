@@ -1,0 +1,918 @@
+{
+  "formId": "US-CORE-A",
+  "items": [
+    {
+      "id": "PSTIM-0149",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows a TVA dam completed during the New Deal era.\n\n(Photograph, c. 1936. Public Domain.)\n\nHow did New Deal programs like the TVA, shown in this photograph, represent a change in the role of the federal government?",
+      "stemEs": "¿Cómo representaron los programas del New Deal como la TVA un cambio en el papel del gobierno federal?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The government reduced its involvement in the economy and allowed private industry to manage recovery",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The TVA was a private utility corporation that operated without any federal funding or oversight",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The federal government took direct responsibility for economic development and public welfare",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The federal government's role remained unchanged from the policies of the 1920s",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.40"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.40->US.42: verb changed analyze->explain"
+        ],
+        "alignmentReview": {
+          "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "rehomed",
+      "requiresHistorianReview": false,
+      "historianReview": {
+        "status": "approved",
+        "record": "form-a-authoring-2026-09-03",
+        "reviewer": "Sean Reynolds",
+        "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "PSTIM-0150",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows a TVA dam, c. 1936.\n\n(Photograph, c. 1936. Public Domain.)\n\nEvaluate the extent to which the TVA and similar New Deal programs achieved their goals of economic recovery and reform.",
+      "stemEs": "Evalúe en qué medida la TVA y programas similares del New Deal lograron sus objetivos de recuperación y reforma económica.",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "New Deal programs completely ended the Great Depression and eliminated poverty in the United States",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "New Deal programs had no positive effects and actually worsened economic conditions",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The TVA only benefited wealthy landowners and provided no assistance to ordinary citizens",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The TVA brought electricity, jobs, and flood control to a poor region, but full economic recovery required the industrial mobilization of World War II",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 0.9,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.40"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.40->US.42: verb changed analyze->explain"
+        ],
+        "alignmentReview": {
+          "verbChange": "analyze -> explain"
+        },
+        "rehomed": {
+          "from": [
+            "US.42"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
+      },
+      "alignmentStatus": "rehomed",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "PSTIM-0041",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows a U.S. Air Force C-54 Skymaster cargo plane flying low over a crowd of German civilians as it approaches Tempelhof Airport in Berlin during the summer of 1948.\n\n(Photograph, 1948. U.S. Air Force.)\n\nHow did the Berlin Airlift shown in this photograph reflect the U.S. policy of containment during the early Cold War?",
+      "stemEs": "¿Cómo reflejó el Puente Aéreo de Berlín la política de contención de EE. UU.?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The U.S. showed resolve against Soviet expansion without direct force",
+          "textEs": "EE. UU. demostró su determinación de impedir la expansión soviética sin una confrontación militar directa",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The U.S. used military force to drive Soviet troops out of the eastern sector of Berlin",
+          "textEs": "EE. UU. utilizó la fuerza militar para expulsar las tropas soviéticas de Berlín Oriental",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The U.S. imposed economic sanctions that forced the Soviet Union to end communism",
+          "textEs": "EE. UU. impuso sanciones económicas que obligaron a la Unión Soviética a poner fin al comunismo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The U.S. negotiated a peace treaty that divided Germany into permanent zones",
+          "textEs": "EE. UU. negoció un tratado de paz que dividió a Alemania en zonas permanentes",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-balance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": false,
+      "historianReview": {
+        "status": "approved",
+        "record": "form-a-authoring-2026-09-03",
+        "reviewer": "Sean Reynolds",
+        "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "PSTIM-0132",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows American soldiers during the Korean War, c. 1950.\n\n(U.S. Army photograph, c. 1950. Public Domain.)\n\nWhich statement best analyzes the long-term consequences of the Korean War for U.S. foreign policy and military strategy?",
+      "stemEs": "Utiliza la fotografía para responder la pregunta.\n\nEsta fotografía muestra a soldados estadounidenses durante la Guerra de Corea, c. 1950.\n\n(Fotografía del Ejército de los Estados Unidos, c. 1950. Dominio público.)\n\n¿Cuál enunciado analiza mejor las consecuencias a largo plazo de la Guerra de Corea para la política exterior y la estrategia militar de Estados Unidos?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The war had no lasting consequences because it ended in a stalemate",
+          "textEs": "La guerra no tuvo consecuencias duraderas porque terminó en un empate",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The war established a precedent for limited wars to contain communism, expanded the permanent military establishment, and deepened Cold War alliances in Asia",
+          "textEs": "La guerra estableció un precedente para las guerras limitadas destinadas a contener el comunismo, amplió el establecimiento militar permanente y profundizó las alianzas de la Guerra Fría en Asia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The war resulted in the reunification of Korea and permanent peace in the region",
+          "textEs": "La guerra resultó en la reunificación de Corea y la paz permanente en la región",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Korean War convinced the United States to abandon the containment policy in favor of isolationism",
+          "textEs": "La Guerra de Corea convenció a Estados Unidos de abandonar la política de contención a favor del aislacionismo",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 1.0,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "U9-DOK1-0001",
+      "stem": "Which earlier Supreme Court doctrine did Brown v. Board of Education overturn in public education?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The exclusionary rule established in Mapp v. Ohio",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Judicial review established in Marbury v. Madison",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The 'separate but equal' doctrine established in Plessy v. Ferguson",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The 'clear and present danger' test established in Schenck v. United States",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 0.8,
+        "b": -1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "U9-DOK2-0019",
+      "stem": "How did the Supreme Court's ruling in Brown v. Board of Education (1954) differ from its earlier ruling in Plessy v. Ferguson (1896)?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Brown required the immediate integration of all public facilities, while Plessy had only applied to railroad cars",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Brown extended voting rights to African Americans, while Plessy had restricted their access to public accommodations",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Brown applied only to Southern states, while Plessy had established a national standard for racial equality",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Brown rejected the 'separate but equal' doctrine by ruling that racially segregated schools were inherently unequal, while Plessy had upheld racial separation as constitutional",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": -0.3,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "PSTIM-0067",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows soldiers of the U.S. Army's 101st Airborne Division escorting African American students into Little Rock Central High School in Arkansas in September 1957. President Eisenhower deployed federal troops after Arkansas Governor Orval Faubus used the state National Guard to block the students' entry.\n\n(Photograph, September 1957. U.S. Army.)\n\nWhy did President Eisenhower send federal troops to Little Rock, Arkansas, as shown in this photograph?",
+      "stemEs": "¿Por qué el presidente Eisenhower envió tropas federales a Little Rock?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To enforce the Brown v. Board ruling and ensure the desegregation of Central High School",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "To suppress a labor strike that had shut down the city's schools",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "To implement the Civil Rights Act of 1957, which required integrated schools",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "To protect the school from a foreign military threat during the Cold War",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.0,
+        "b": -1.1,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "U9-DOK2-0029",
+      "stem": "How did Thurgood Marshall and Malcolm X differ in their approaches to achieving racial equality in the United States?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Marshall focused on economic empowerment for African Americans, while Malcolm X concentrated on legal strategies to dismantle segregation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Marshall pursued racial equality through legal challenges within the existing system, while Malcolm X initially advocated for Black self-determination and separation from white-dominated institutions",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Marshall supported armed resistance against racial injustice, while Malcolm X argued exclusively for legal challenges through the court system",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Marshall worked to integrate African Americans into mainstream American society, while Malcolm X rejected any form of civic participation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": -0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "PSTIM-0074",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the Selma to Montgomery marches in Alabama, March 1965.\n\n(Photograph, March 1965.)\n\nWhy were the Selma marches necessary despite the passage of the Civil Rights Act of 1964?",
+      "stemEs": "¿Por qué fueron necesarias las marchas de Selma a pesar de la aprobación de la Ley de Derechos Civiles de 1964?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Civil Rights Act of 1964 was declared unconstitutional by the Supreme Court",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Selma marches were unrelated to voting and focused only on desegregating schools",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The 1964 Act addressed public accommodations and employment but did not effectively address voter suppression",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "African Americans in the South were not aware that they had the right to vote",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.78"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        },
+        "rehomed": {
+          "from": [
+            "US.74"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Civil Rights Act of 1964",
+            "Civil Rights Act of 1968",
+            "Civil Rights Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
+      },
+      "alignmentStatus": "rehomed",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "PSTIM-0075",
+      "stem": "Use the photograph to answer the question.\n\nThis photograph shows the Selma to Montgomery marches, Alabama, March 1965.\n\n(Photograph, March 1965.)\n\nHow did the Voting Rights Act of 1965, prompted by the events shown in this photograph, transform political participation in the American South?",
+      "stemEs": "¿Cómo transformó la Ley de Derechos Electorales de 1965 la participación política en el Sur?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It granted voting rights only to African Americans who owned property in southern states",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It had little effect because southern states found legal ways to continue preventing African Americans from voting",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was enforced only in Alabama and did not extend to voter registration in other Southern states",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It eliminated literacy tests and authorized federal oversight of voter registration, leading to large increases in Black voter registration",
+          "textEs": null,
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.78"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.7,
+        "b": 0.9,
+        "c": 0.17
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "standard",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        },
+        "rehomed": {
+          "from": [
+            "US.74"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Voting Rights Act of 1965",
+            "Voting Rights Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
+      },
+      "alignmentStatus": "rehomed",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    }
+  ]
+}

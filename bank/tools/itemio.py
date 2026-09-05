@@ -29,6 +29,18 @@ def required_choice_fields() -> list:
     return schema()["properties"]["choices"]["items"]["required"]
 
 
+def form_dirs() -> list:
+    """Every rendered FORM directory — the one definition.
+
+    `forms/families/` holds family manifests, not a form, and both the gate
+    runner and the status report treated it as one because each globbed
+    `forms/*` for itself. One rule, one implementation: a copy of a listing rule
+    is a listing rule that will disagree with the original.
+    """
+    return sorted(d for d in glob.glob(os.path.join(BANK_ROOT, "forms", "*"))
+                  if os.path.isdir(d) and os.path.basename(d) != "families")
+
+
 def load_dir(path: str) -> list:
     """Every item under `path`, each tagged with the file it came from."""
     items = []

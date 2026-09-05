@@ -15,7 +15,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `key-integrity` | **PASS** | 3988 | — | 0 |
 | `distractor-coverage` | **FAIL** | 3988 | 3846 | 22944 |
 | `truncation` | **FAIL** | 3988 | — | 91 |
-| `blueprint-conformance` | **FAIL** | 1989 | — | 24 |
+| `blueprint-conformance` | **FAIL** | 1989 | — | 28 |
 | `blueprint-achievability` | **FAIL** | 1989 | 94 | 21 |
 | `key-position-debias` | **PASS** | 3793 | — | 0 |
 | `serveability` | **FAIL** | 3928 | — | 994 |
@@ -35,6 +35,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `key-contradiction` | **PASS** | 3988 | 3928 | 0 |
 | `ai-review-boundary` | **PASS** | 3988 | 135 | 0 |
 | `review-debt` | **PASS** | 3988 | 106 | 0 |
+| `misconception-taxonomy` | **FAIL** | 3988 | 66 | 66 |
 | `release-readiness` | **FAIL** | 3928 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 27 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 53240 | 0 |
@@ -44,7 +45,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `FORM-A/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
 | `FORM-A/teacher-side-isolation` | **PASS** | 18 | 18 | 0 |
 | `FORM-A/form-surface` | **PASS** | 18 | 18 | 0 |
-| `FORM-A/form-blueprint` | **FAIL** | 18 | 3 | 3 |
+| `FORM-A/form-blueprint` | **PASS** | 18 | 3 | 0 |
 | `FORM-B/form-pagination` | **PASS** | 2 | 11 | 0 |
 | `FORM-B/form-type-size` | **PASS** | 2 | 17767 | 0 |
 | `FORM-B/form-key-leakage` | **PASS** | 1 | 2 | 0 |
@@ -53,14 +54,61 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `FORM-B/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
 | `FORM-B/teacher-side-isolation` | **PASS** | 6 | 6 | 0 |
 | `FORM-B/form-surface` | **PASS** | 6 | 6 | 0 |
-| `FORM-B/form-blueprint` | **FAIL** | 6 | 1 | 1 |
+| `FORM-B/form-blueprint` | **PASS** | 6 | 1 | 0 |
+| `US-CORE-A/form-pagination` | **PASS** | 2 | 14 | 0 |
+| `US-CORE-A/form-type-size` | **PASS** | 2 | 26782 | 0 |
+| `US-CORE-A/form-key-leakage` | **PASS** | 1 | 3 | 0 |
+| `US-CORE-A/form-disclosure` | **PASS** | 2 | 2 | 0 |
+| `US-CORE-A/form-key-contradiction` | **PASS** | 1 | 10 | 0 |
+| `US-CORE-A/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
+| `US-CORE-A/teacher-side-isolation` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-A/form-surface` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-A/form-blueprint` | **N/A** | 10 | 0 | 0 |
+| `US-CORE-B/form-pagination` | **PASS** | 2 | 16 | 0 |
+| `US-CORE-B/form-type-size` | **PASS** | 2 | 26772 | 0 |
+| `US-CORE-B/form-key-leakage` | **PASS** | 1 | 3 | 0 |
+| `US-CORE-B/form-disclosure` | **PASS** | 2 | 2 | 0 |
+| `US-CORE-B/form-key-contradiction` | **PASS** | 1 | 10 | 0 |
+| `US-CORE-B/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
+| `US-CORE-B/teacher-side-isolation` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-B/form-surface` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-B/form-blueprint` | **N/A** | 10 | 0 | 0 |
+| `US-CORE-C/form-pagination` | **PASS** | 2 | 14 | 0 |
+| `US-CORE-C/form-type-size` | **PASS** | 2 | 25944 | 0 |
+| `US-CORE-C/form-key-leakage` | **PASS** | 1 | 3 | 0 |
+| `US-CORE-C/form-disclosure` | **PASS** | 2 | 2 | 0 |
+| `US-CORE-C/form-key-contradiction` | **PASS** | 1 | 10 | 0 |
+| `US-CORE-C/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
+| `US-CORE-C/teacher-side-isolation` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-C/form-surface` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-C/form-blueprint` | **N/A** | 10 | 0 | 0 |
+| `US-CORE-D/form-pagination` | **PASS** | 2 | 16 | 0 |
+| `US-CORE-D/form-type-size` | **PASS** | 2 | 29914 | 0 |
+| `US-CORE-D/form-key-leakage` | **PASS** | 1 | 4 | 0 |
+| `US-CORE-D/form-disclosure` | **PASS** | 2 | 2 | 0 |
+| `US-CORE-D/form-key-contradiction` | **PASS** | 1 | 10 | 0 |
+| `US-CORE-D/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
+| `US-CORE-D/teacher-side-isolation` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-D/form-surface` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-D/form-blueprint` | **N/A** | 10 | 0 | 0 |
+| `US-CORE-E/form-pagination` | **PASS** | 2 | 16 | 0 |
+| `US-CORE-E/form-type-size` | **PASS** | 2 | 28687 | 0 |
+| `US-CORE-E/form-key-leakage` | **PASS** | 1 | 4 | 0 |
+| `US-CORE-E/form-disclosure` | **PASS** | 2 | 2 | 0 |
+| `US-CORE-E/form-key-contradiction` | **PASS** | 1 | 10 | 0 |
+| `US-CORE-E/form-teacher-metadata` | **PASS** | 1 | 9 | 0 |
+| `US-CORE-E/teacher-side-isolation` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-E/form-surface` | **PASS** | 10 | 10 | 0 |
+| `US-CORE-E/form-blueprint` | **N/A** | 10 | 0 | 0 |
 | `dbq-activities/form-pagination` | **PASS** | 68 | 459 | 0 |
 | `dbq-activities/form-type-size` | **PASS** | 68 | 370166 | 0 |
 | `dbq-activities/activity-sourcing` | **PASS** | 68 | 172 | 0 |
 | `dbq-activities/activity-teacher-isolation` | **PASS** | 34 | 220 | 0 |
-| `all-gates-measured` | **PASS** | 48 | — | 0 |
+| `US-CORE/form-parallelism` | **PASS** | 5 | 5 | 0 |
+| `US-CORE/family-coverage` | **PASS** | 5 | 5 | 0 |
+| `all-gates-measured` | **PASS** | 96 | — | 0 |
 
-**36/49 pass.** Grade A requires all of them. "Close" is not "A."
+**80/97 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
@@ -76,6 +124,11 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 - **FORM-A** — 18 items across 3 standard(s): US.46, US.60, US.23
 - **FORM-B** — 6 items across 1 standard(s): US.59
+- **US-CORE-A** — 10 items across 5 standard(s): US.46, US.60, US.74, US.76, US.78
+- **US-CORE-B** — 10 items across 5 standard(s): US.46, US.60, US.74, US.76, US.78
+- **US-CORE-C** — 10 items across 5 standard(s): US.46, US.60, US.74, US.76, US.78
+- **US-CORE-D** — 10 items across 5 standard(s): US.46, US.60, US.74, US.76, US.78
+- **US-CORE-E** — 10 items across 5 standard(s): US.46, US.60, US.74, US.76, US.78
 
 ## Authoring debt
 

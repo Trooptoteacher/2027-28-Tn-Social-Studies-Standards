@@ -1,0 +1,46 @@
+{
+  "$comment": "A FAMILY is N versions of the same test. Parallel means same standards, same count, same DOK profile, same stimulus mix and ZERO shared items — a property of the SET, which no single-form gate can see.",
+  "familyId": "US-CORE",
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "forms": [
+    "US-CORE-A",
+    "US-CORE-B",
+    "US-CORE-C",
+    "US-CORE-D",
+    "US-CORE-E"
+  ],
+  "standards": [
+    "US.46",
+    "US.60",
+    "US.74",
+    "US.76",
+    "US.78"
+  ],
+  "dokProfilePerStandard": {
+    "US.46": {
+      "2": 1,
+      "3": 1
+    },
+    "US.60": {
+      "2": 1,
+      "3": 1
+    },
+    "US.74": {
+      "1": 1,
+      "2": 1
+    },
+    "US.76": {
+      "1": 1,
+      "2": 1
+    },
+    "US.78": {
+      "2": 1,
+      "3": 1
+    }
+  },
+  "droppedStandards": {},
+  "declaredParallel": true,
+  "claimsFullCourseCoverage": false,
+  "$coverageNote": "Set claimsFullCourseCoverage true only when this family carries every standard in the course. A partial family is legitimate; claiming full coverage without it is not."
+}

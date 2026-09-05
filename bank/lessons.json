@@ -1222,6 +1222,60 @@
           "contains": "gate_misconception_taxonomy"
         }
       ]
+    },
+    {
+      "id": "L68",
+      "mistake": "Every gate in this repo judged ONE form, and 'five parallel tests, equal in rigor, testing the same content' is a claim about a SET. Five forms could each pass all 31 gates and still be five different tests — differing item count, DOK profile, or which standards they touched — because the divergence is invisible one form at a time. gate_form_parallelism compares every member against the first on count, standards, DOK distribution, item types and stimulus mix, and fails ANY shared item: a student retaking Form C after Form A must not meet the same question twice or the retake measures memory. gate_family_coverage fails a family that CLAIMS full-course coverage without having it, while a partial family passes and states its share — a unit test is not the whole course and must not be failed for it. Proved by mutating a RENDERED member on disk, not a stub, because the gates read manifests and student surfaces and a hand-built dict would prove only that they can read one.",
+      "caughtBy": "asking what measures 'parallel' before generating 4,380 items against the word",
+      "guards": [
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "def gate_form_parallelism"
+        },
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "def gate_family_coverage"
+        },
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "measures memory"
+        },
+        {
+          "file": "tools/form_family.py",
+          "contains": "claimsFullCourseCoverage"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "collect_families"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "an item SHARED between two forms FAILS"
+        },
+        {
+          "file": "tests/test_regressions.py",
+          "contains": "CLAIMING full-course coverage without it FAILS"
+        }
+      ]
+    },
+    {
+      "id": "L69",
+      "mistake": "forms/families/ holds family manifests, not a form, and BOTH the gate runner and the status report treated it as a rendered form because each globbed forms/* for itself. The runner emitted six phantom 'families/...' gate results; the status report crashed on a missing manifest.json. One rule with two implementations, which is this repo's most repeated defect — itemio.form_dirs() is now the single definition and both call it. Separately: a family MEMBER has no tier, because its shape comes from the family allocation rather than the tier ladder, so form-blueprint returns N/A with that reason instead of failing a correctly-built form for not being something it never claimed to be.",
+      "caughtBy": "check-reports-fresh, which caught the status report crashing on the same bad assumption",
+      "guards": [
+        {
+          "file": "tools/itemio.py",
+          "contains": "def form_dirs"
+        },
+        {
+          "file": "tools/gates/coverage.py",
+          "contains": "its shape is set by the "
+        },
+        {
+          "file": "tools/forms.py",
+          "contains": "A FAMILY MEMBER has no tier"
+        }
+      ]
     }
   ]
 }

@@ -71,8 +71,7 @@ def collect(b, target=None):
     items = itemio.load_dir(target)
     results = run(items, b)
 
-    for fd in sorted(d for d in glob.glob(os.path.join(itemio.BANK_ROOT, "forms", "*"))
-                     if os.path.isdir(d)):
+    for fd in itemio.form_dirs():
         fid = os.path.basename(fd)
         pdfs = sorted(glob.glob(os.path.join(fd, "*.pdf")))
         for g in (formgates.gate_form_pagination, formgates.gate_form_type_size,
@@ -89,13 +88,16 @@ def collect(b, target=None):
             r.gate = f"{fid}/form-surface"
             results.append(r)
             man = os.path.join(fd, "manifest.json")
-            decl = (json.load(open(man, encoding="utf-8")).get("standards")
-                    if os.path.exists(man) else None)
-            r = coverage.gate_form_blueprint(surface, b, standards=decl)
+            _m = json.load(open(man, encoding="utf-8")) if os.path.exists(man) else {}
+            decl = _m.get("standards")
+            r = coverage.gate_form_blueprint(surface, b, standards=decl,
+                                             tiers=_m.get("tierByStandard"),
+                                             family=_m.get("family"))
             r.gate = f"{fid}/form-blueprint"
             results.append(r)
 
     results.extend(collect_activities(b))
+    results.extend(collect_families(b))
     results.append(coverage.unmeasured_gates(results))
     return items, results
 
@@ -107,6 +109,21 @@ def collect(b, target=None):
 _BANK_ONLY = {"gate_blueprint", "gate_blueprint_achievability",
               "gate_release_readiness", "gate_key_position"}
 ITEM_GATES = [g for g in GATES if g.__name__ not in _BANK_ONLY]
+
+
+def collect_families(b):
+    """Gates that judge a SET of forms. A family is the unit "five parallel
+    tests" is a claim about; every other gate here judges one form."""
+    import glob
+    out = []
+    for fp in sorted(glob.glob(os.path.join(itemio.BANK_ROOT, "forms", "families", "*.json"))):
+        with open(fp, encoding="utf-8") as fh:
+            fam = json.load(fh)
+        for g in (coverage.gate_form_parallelism, coverage.gate_family_coverage):
+            r = g(fam, b)
+            r.gate = f"{fam.get('familyId', os.path.basename(fp))}/{r.gate}"
+            out.append(r)
+    return out
 
 
 def collect_activities(b):
@@ -155,11 +172,10 @@ def collect_form(b, form_id):
     rendered = itemio.load_dir(fd)
     results.append(coverage.gate_teacher_side_isolation(rendered, b))
     man = os.path.join(fd, "manifest.json")
-    decl = (json.load(open(man, encoding="utf-8")).get("standards")
-            if os.path.exists(man) else None)
-    tiers = (json.load(open(man, encoding="utf-8")).get("tierByStandard")
-             if os.path.exists(man) else None)
-    results.append(coverage.gate_form_blueprint(rendered, b, standards=decl, tiers=tiers))
+    _m = json.load(open(man, encoding="utf-8")) if os.path.exists(man) else {}
+    decl, tiers = _m.get("standards"), _m.get("tierByStandard")
+    results.append(coverage.gate_form_blueprint(rendered, b, standards=decl, tiers=tiers,
+                                                family=_m.get("family")))
     results.append(coverage.gate_form_key_position(rendered, b))
     results.append(coverage.gate_form_surface(rendered, b))
     # Measured on the SOURCE items, not the rendered student surface. That

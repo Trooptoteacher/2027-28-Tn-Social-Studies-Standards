@@ -37,17 +37,17 @@ Scanning items/us-history-geography — 3988 item(s)
           - US.04-F102 [items/us-history-geography/US.08/migrated.json]: dokRationale no terminal punctuation: …'DOK 2: explain mechanism of exploitation'
           - US.04-F103 [items/us-history-geography/US.08/migrated.json]: explanation no terminal punctuation: …'ze historical significance of convict leasing'
           … and 83 more
-[FAIL] blueprint-conformance — scanned 1989 — 85/94 standards have >=1 aligned item; 22 below minimum depth; 1939 servable items kept but not counted
-        24 finding(s):
-          - US.01: 0 aligned item(s), below the bank minimum of 6
-          - US.02: 4 aligned item(s), below the bank minimum of 6
-          - US.03: 0 aligned item(s), below the bank minimum of 6
-          - US.07: 4 aligned item(s), below the bank minimum of 6
-          - US.10: 3 aligned item(s), below the bank minimum of 6
-          - US.22: 5 aligned item(s), below the bank minimum of 6
-          - US.24: 2 aligned item(s), below the bank minimum of 6
-          - US.33: 3 aligned item(s), below the bank minimum of 6
-          … and 16 more
+[FAIL] blueprint-conformance — scanned 1989 — 85/94 standards have >=1 aligned item; 26 below minimum depth; 1939 servable items kept but not counted
+        28 finding(s):
+          - US.01: 0 aligned item(s), below the bank minimum of 10
+          - US.02: 4 aligned item(s), below the bank minimum of 10
+          - US.03: 0 aligned item(s), below the bank minimum of 10
+          - US.07: 4 aligned item(s), below the bank minimum of 10
+          - US.10: 3 aligned item(s), below the bank minimum of 10
+          - US.22: 5 aligned item(s), below the bank minimum of 10
+          - US.24: 2 aligned item(s), below the bank minimum of 10
+          - US.31: 7 aligned item(s), below the bank minimum of 10
+          … and 20 more
 [FAIL] blueprint-achievability — scanned 1989, judged 94 — tcap-standard=66; none=21; tcap-short=5; tcap-floor=2
         21 finding(s):
           - US.01: cannot fill even the lowest tier 'tcap-floor' (0 relevant aligned item(s))
@@ -113,6 +113,17 @@ Scanning items/us-history-geography — 3988 item(s)
 [PASS] key-contradiction — scanned 3988, judged 3928
 [PASS] ai-review-boundary — scanned 3988, judged 135 — 79 clear-recommended; 30 fix-drafted; 10 escalate — recommendations only; none of this counts toward Grade A
 [PASS] review-debt — scanned 3988, judged 106 — 79 extracted/inherits-item; 23 not-written/None; 4 authored/needs-review
+[FAIL] misconception-taxonomy — scanned 3988, judged 66 — 14 family(ies) defined, none cited yet
+        66 finding(s):
+          - US.05-GEN-01 [items/us-history-geography/US.05/generated.json]: distractor A names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
+          - US.05-GEN-01 [items/us-history-geography/US.05/generated.json]: distractor B names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
+          - US.05-GEN-01 [items/us-history-geography/US.05/generated.json]: distractor D names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
+          - US.05-GEN-02 [items/us-history-geography/US.05/generated.json]: distractor A names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
+          - US.05-GEN-02 [items/us-history-geography/US.05/generated.json]: distractor C names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
+          - US.05-GEN-02 [items/us-history-geography/US.05/generated.json]: distractor D names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
+          - STIM-0019 [items/us-history-geography/US.17/migrated.json]: distractor B names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
+          - STIM-0019 [items/us-history-geography/US.17/migrated.json]: distractor C names a misconception in free text but cites no family — free text cannot aggregate, so this diagnoses one student on one item and nothing else
+          … and 58 more
 [FAIL] release-readiness — scanned 3928 — Grade A requires zero findings here. "Close" is not "A."
         6 finding(s):
           - reportingCategory: 86 standard(s) carry servable items with NO category source (mapping sourceOfRecord='UNMAPPED'). TDOE has published no blueprint for 2027-28; until it does, this field cannot claim to be the state's own category.
@@ -129,11 +140,7 @@ Scanning items/us-history-geography — 3988 item(s)
 [PASS] FORM-A/form-teacher-metadata — scanned 1, judged 9 — 9 required row(s) checked per teacher PDF
 [PASS] FORM-A/teacher-side-isolation — scanned 18 — measures rendered student surfaces; items at rest are teacher-side by default
 [PASS] FORM-A/form-surface — scanned 18 — surface: assessment; allowed: mcq, multiple-select
-[FAIL] FORM-A/form-blueprint — scanned 18, judged 3 — 3 standard(s); tiers US.23=?, US.46=?, US.60=?
-        3 finding(s):
-          - US.23: the form declares no tier for this standard — a form that does not say what it is cannot be checked
-          - US.46: the form declares no tier for this standard — a form that does not say what it is cannot be checked
-          - US.60: the form declares no tier for this standard — a form that does not say what it is cannot be checked
+[PASS] FORM-A/form-blueprint — scanned 18, judged 3 — 3 standard(s); tiers US.23=tcap-standard, US.46=tcap-standard, US.60=tcap-standard
 [PASS] FORM-B/form-pagination — scanned 2, judged 11 — 11 rendered page(s) checked
 [PASS] FORM-B/form-type-size — scanned 2, judged 17767 — 17767 glyph(s) measured
 [PASS] FORM-B/form-key-leakage — scanned 1, judged 2 — 2 student page(s) checked
@@ -142,15 +149,65 @@ Scanning items/us-history-geography — 3988 item(s)
 [PASS] FORM-B/form-teacher-metadata — scanned 1, judged 9 — 9 required row(s) checked per teacher PDF
 [PASS] FORM-B/teacher-side-isolation — scanned 6 — measures rendered student surfaces; items at rest are teacher-side by default
 [PASS] FORM-B/form-surface — scanned 6 — surface: assessment; allowed: mcq, multiple-select
-[FAIL] FORM-B/form-blueprint — scanned 6, judged 1 — 1 standard(s); tiers US.59=?
-        1 finding(s):
-          - US.59: the form declares no tier for this standard — a form that does not say what it is cannot be checked
+[PASS] FORM-B/form-blueprint — scanned 6, judged 1 — 1 standard(s); tiers US.59=tcap-standard
+[PASS] US-CORE-A/form-pagination — scanned 2, judged 14 — 14 rendered page(s) checked
+[PASS] US-CORE-A/form-type-size — scanned 2, judged 26782 — 26782 glyph(s) measured
+[PASS] US-CORE-A/form-key-leakage — scanned 1, judged 3 — 3 student page(s) checked
+[PASS] US-CORE-A/form-disclosure — scanned 2
+[PASS] US-CORE-A/form-key-contradiction — scanned 1, judged 10 — 10 keyed item block(s) read on the rendered teacher PDF
+[PASS] US-CORE-A/form-teacher-metadata — scanned 1, judged 9 — 9 required row(s) checked per teacher PDF
+[PASS] US-CORE-A/teacher-side-isolation — scanned 10 — measures rendered student surfaces; items at rest are teacher-side by default
+[PASS] US-CORE-A/form-surface — scanned 10 — surface: assessment; allowed: mcq, multiple-select
+[N/A] US-CORE-A/form-blueprint — scanned 10, judged 0
+        N/A — member of family 'US-CORE' — its shape is set by the family allocation, not a tier; form-parallelism measures it
+[PASS] US-CORE-B/form-pagination — scanned 2, judged 16 — 16 rendered page(s) checked
+[PASS] US-CORE-B/form-type-size — scanned 2, judged 26772 — 26772 glyph(s) measured
+[PASS] US-CORE-B/form-key-leakage — scanned 1, judged 3 — 3 student page(s) checked
+[PASS] US-CORE-B/form-disclosure — scanned 2
+[PASS] US-CORE-B/form-key-contradiction — scanned 1, judged 10 — 10 keyed item block(s) read on the rendered teacher PDF
+[PASS] US-CORE-B/form-teacher-metadata — scanned 1, judged 9 — 9 required row(s) checked per teacher PDF
+[PASS] US-CORE-B/teacher-side-isolation — scanned 10 — measures rendered student surfaces; items at rest are teacher-side by default
+[PASS] US-CORE-B/form-surface — scanned 10 — surface: assessment; allowed: mcq, multiple-select
+[N/A] US-CORE-B/form-blueprint — scanned 10, judged 0
+        N/A — member of family 'US-CORE' — its shape is set by the family allocation, not a tier; form-parallelism measures it
+[PASS] US-CORE-C/form-pagination — scanned 2, judged 14 — 14 rendered page(s) checked
+[PASS] US-CORE-C/form-type-size — scanned 2, judged 25944 — 25944 glyph(s) measured
+[PASS] US-CORE-C/form-key-leakage — scanned 1, judged 3 — 3 student page(s) checked
+[PASS] US-CORE-C/form-disclosure — scanned 2
+[PASS] US-CORE-C/form-key-contradiction — scanned 1, judged 10 — 10 keyed item block(s) read on the rendered teacher PDF
+[PASS] US-CORE-C/form-teacher-metadata — scanned 1, judged 9 — 9 required row(s) checked per teacher PDF
+[PASS] US-CORE-C/teacher-side-isolation — scanned 10 — measures rendered student surfaces; items at rest are teacher-side by default
+[PASS] US-CORE-C/form-surface — scanned 10 — surface: assessment; allowed: mcq, multiple-select
+[N/A] US-CORE-C/form-blueprint — scanned 10, judged 0
+        N/A — member of family 'US-CORE' — its shape is set by the family allocation, not a tier; form-parallelism measures it
+[PASS] US-CORE-D/form-pagination — scanned 2, judged 16 — 16 rendered page(s) checked
+[PASS] US-CORE-D/form-type-size — scanned 2, judged 29914 — 29914 glyph(s) measured
+[PASS] US-CORE-D/form-key-leakage — scanned 1, judged 4 — 4 student page(s) checked
+[PASS] US-CORE-D/form-disclosure — scanned 2
+[PASS] US-CORE-D/form-key-contradiction — scanned 1, judged 10 — 10 keyed item block(s) read on the rendered teacher PDF
+[PASS] US-CORE-D/form-teacher-metadata — scanned 1, judged 9 — 9 required row(s) checked per teacher PDF
+[PASS] US-CORE-D/teacher-side-isolation — scanned 10 — measures rendered student surfaces; items at rest are teacher-side by default
+[PASS] US-CORE-D/form-surface — scanned 10 — surface: assessment; allowed: mcq, multiple-select
+[N/A] US-CORE-D/form-blueprint — scanned 10, judged 0
+        N/A — member of family 'US-CORE' — its shape is set by the family allocation, not a tier; form-parallelism measures it
+[PASS] US-CORE-E/form-pagination — scanned 2, judged 16 — 16 rendered page(s) checked
+[PASS] US-CORE-E/form-type-size — scanned 2, judged 28687 — 28687 glyph(s) measured
+[PASS] US-CORE-E/form-key-leakage — scanned 1, judged 4 — 4 student page(s) checked
+[PASS] US-CORE-E/form-disclosure — scanned 2
+[PASS] US-CORE-E/form-key-contradiction — scanned 1, judged 10 — 10 keyed item block(s) read on the rendered teacher PDF
+[PASS] US-CORE-E/form-teacher-metadata — scanned 1, judged 9 — 9 required row(s) checked per teacher PDF
+[PASS] US-CORE-E/teacher-side-isolation — scanned 10 — measures rendered student surfaces; items at rest are teacher-side by default
+[PASS] US-CORE-E/form-surface — scanned 10 — surface: assessment; allowed: mcq, multiple-select
+[N/A] US-CORE-E/form-blueprint — scanned 10, judged 0
+        N/A — member of family 'US-CORE' — its shape is set by the family allocation, not a tier; form-parallelism measures it
 [PASS] dbq-activities/form-pagination — scanned 68, judged 459 — 459 rendered page(s) checked
 [PASS] dbq-activities/form-type-size — scanned 68, judged 370166 — 370166 glyph(s) measured
 [PASS] dbq-activities/activity-sourcing — scanned 68, judged 172 — 172 document card(s) checked on the rendered sheet
 [PASS] dbq-activities/activity-teacher-isolation — scanned 34, judged 220 — 220 student page(s) checked
-[PASS] all-gates-measured — scanned 48 — 48/48 gates actually measured something
+[PASS] US-CORE/form-parallelism — scanned 5 — 5 form(s), 10 items each, 5 standard(s), 50 distinct items
+[PASS] US-CORE/family-coverage — scanned 5 — 5 standard(s) on every form; 5/94 of the course, 0 dropped for depth — partial by declaration, not a full-course family
+[PASS] all-gates-measured — scanned 96 — 96/96 gates actually measured something
 
-36/49 applicable gates pass (0 not measured).
-HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, blueprint-achievability, serveability, choice-length-cue, explanation-quality, review-provenance, rubric, release-readiness, FORM-A/form-blueprint, FORM-B/form-blueprint
+80/92 applicable gates pass (0 not measured, 5 N/A).
+HELD — record-complete, distractor-coverage, truncation, blueprint-conformance, blueprint-achievability, serveability, choice-length-cue, explanation-quality, review-provenance, rubric, misconception-taxonomy, release-readiness
 Grade A requires ALL gates pass. "Close" is not "A."

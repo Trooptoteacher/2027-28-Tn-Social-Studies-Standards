@@ -1,0 +1,907 @@
+{
+  "formId": "US-CORE-B",
+  "items": [
+    {
+      "id": "U5-DOK2-0027",
+      "stem": "Why did critics of the New Deal charge that FDR's programs represented socialism?",
+      "stemEs": "¿Por qué los críticos del New Deal afirmaban que los programas de FDR representaban socialismo?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Because the New Deal greatly expanded federal regulation of the economy and created public employment and Social Security",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Because New Deal programs abolished all private and religious charities in favor of state services",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Because FDR eliminated private property rights by redistributing land from wealthy Americans to the poor",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Because FDR called for nationalizing all major American industries and placing them under government ownership",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.4,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.44"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.44->US.46: checklist intact (2 element(s))"
+        ],
+        "alignmentReview": null,
+        "authoring": {
+          "record": "form-a-rebalance.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": false,
+      "historianReview": {
+        "status": "approved",
+        "record": "form-a-authoring-2026-09-03",
+        "reviewer": "Sean Reynolds",
+        "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "U4-DOK3-0018",
+      "stem": "Critics of the New Deal from the left, including Huey Long and socialist intellectuals, argued it preserved capitalism without genuine structural transformation, while critics from the right argued it represented dangerous federal overreach. What does the existence of this two-sided criticism most reveal about the New Deal's actual ideological character and historical significance?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Roosevelt's political genius lay in synthesizing elements of both left and right criticism into a coherent program, borrowing regulatory ideas from progressives and efficiency principles from business conservatives to create pragmatic policies that maintained political viability by satisfying neither extreme.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The New Deal occupied a reform-without-revolution position — it stabilized the capitalist system by addressing its most destabilizing failures without fundamentally redistributing wealth or restructuring ownership — making it an ideologically moderate but historically unprecedented response to economic catastrophe that satisfied neither ideological extreme.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The two-sided criticism demonstrates that the New Deal was an incoherent collection of experimental programs lacking a unifying reform philosophy, which is why historians continue to debate whether it extended or shortened the Depression's duration rather than agreeing on a definitive assessment.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The New Deal's primary significance was its expansion of the permanent federal bureaucratic apparatus and the precedent it established for government economic intervention, regardless of whether its specific programs effectively accelerated economic recovery from the Depression.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.43"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.43->US.45: checklist intact (9 element(s))"
+        ],
+        "alignmentReview": null,
+        "rehomed": {
+          "from": [
+            "US.45"
+          ],
+          "to": "US.46",
+          "matchedElements": [
+            "New Deal"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
+      },
+      "alignmentStatus": "rehomed",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "U7-DOK2-0001",
+      "stem": "The Truman Doctrine established what new direction for U.S. foreign policy?",
+      "stemEs": "¿La Doctrina Truman estableció qué nueva dirección para la política exterior de EE. UU.?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Recognition of the Soviet Union as an ally",
+          "textEs": "El reconocimiento de la Unión Soviética como aliada",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A return to isolationism after World War II",
+          "textEs": "Un regreso al aislacionismo después de la Segunda Guerra Mundial",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "A commitment to support nations resisting communist expansion",
+          "textEs": "Un compromiso de apoyar a las naciones que resistían la expansión comunista",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Withdrawal from the United Nations",
+          "textEs": "La retirada de las Naciones Unidas",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "authored",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true
+        },
+        "authoring": {
+          "record": "form-a-v2.json",
+          "note": "rationales explain misconceptions and remain historical claims"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": false,
+      "historianReview": {
+        "status": "approved",
+        "record": "form-a-authoring-2026-09-03",
+        "reviewer": "Sean Reynolds",
+        "date": "2026-09-03"
+      },
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "U5-DOK3-0017",
+      "stem": "Which best explains why the Truman Doctrine of 1947 represented a significant departure from traditional American foreign policy?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It established the United Nations as the primary institution through which the United States would respond to Soviet expansion.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It replaced the Monroe Doctrine by formally extending American security commitments from the Western Hemisphere to the entire world.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It authorized the United States military to conduct offensive operations against Soviet-backed governments in Eastern Europe.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It committed the United States to supporting free peoples resisting subjugation by outside pressures, abandoning the prewar tradition of non-intervention in foreign conflicts.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true
+        },
+        "stemRepair": {
+          "was": "Which best explains why the Truman Doctrine of 1947 represented a significant departure from traditional American foreign policy? H It committed the United States to supporting free peoples resisting subjugation by outside pressures, abandoning the prewar tradition of non-intervention in foreign conflicts. B. It authorized the United States military to conduct offensive operations against Soviet-backed governments in Eastern Europe. C. It replaced the Monroe Doctrine by formally extending American security commitments from the Western Hemisphere to the entire world. D. It established the United Nations as the primary institution through which the United States would respond to Soviet expansion. CORRECT ANSWER",
+          "reason": "stem had swallowed its own choice list"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "q-us78-1",
+      "stem": "What did the Brown v. Board of Education decision accomplish?",
+      "stemEs": "¿Qué logró la decisión Brown v. Board of Education?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Declared school segregation unconstitutional and overturned Plessy",
+          "textEs": "Declaró la segregación escolar inconstitucional y anuló Plessy",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The separate but equal doctrine established in Plessy v. Ferguson",
+          "textEs": "Requirió integración inmediata de todas las escuelas públicas del Sur",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Plessy v. Ferguson (1896), which established \"separate but equal\"",
+          "textEs": "Mantuvo la doctrina de separados pero iguales para escuelas públicas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Being too vague and allowing Southern states to delay integration",
+          "textEs": "Otorgó fondos federales solo a distritos escolares integrados",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.87,
+        "b": 0.05,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "U9-DOK2-0020",
+      "stem": "Which argument did the NAACP's legal team most effectively use to persuade the Supreme Court to rule in Brown v. Board of Education?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Fifteenth Amendment guaranteed African Americans the right to attend any public institution regardless of race",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Segregated schools violated the Fourteenth Amendment's equal protection clause because separate facilities produced unequal educational and psychological outcomes",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Segregation was economically inefficient because maintaining duplicate school systems wasted public tax revenue",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The federal government had a constitutional obligation to fund integrated schools under the commerce clause",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "q-us78-2",
+      "stem": "Who was the chief counsel for the NAACP who argued Brown v. Board before the Supreme Court?",
+      "stemEs": "¿Quién fue el abogado principal de la NAACP que argumentó Brown v. Board ante la Corte Suprema?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Earl Warren, who served as Chief Justice of the Supreme Court",
+          "textEs": "Earl Warren, quien sirvió como Presidente de la Corte Suprema",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A. Philip Randolph, who was a prominent labor and civil rights leader",
+          "textEs": "A. Philip Randolph, quien fue un prominente líder laboral y de derechos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Thurgood Marshall, who led the NAACP Legal Defense Fund team",
+          "textEs": "Thurgood Marshall, quien lideró el equipo del Fondo de Defensa Legal de la NAACP",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Robert F. Kennedy, who served as Attorney General under JFK",
+          "textEs": "Robert F. Kennedy, quien sirvió como Fiscal General bajo JFK",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.74",
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "needs-review",
+      "irtParameters": {
+        "a": 1.18,
+        "b": -0.7,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78",
+          "US.79"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item",
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9",
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        },
+        "translationClaimCorrected": {
+          "was": "complete",
+          "now": "needs-review",
+          "basis": "Spanish fields measured; no Spanish text was written or altered"
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "U9-DOK2-0030",
+      "stem": "Why did Rosa Parks' arrest in Montgomery, Alabama in 1955 become a catalyst for the civil rights movement rather than just another isolated incident of racial injustice?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Parks was the first African American woman to be arrested for violating bus segregation laws in Alabama",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Parks' arrest immediately prompted President Eisenhower to send federal troops to Montgomery to enforce desegregation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Montgomery bus company publicly apologized for Parks' arrest, sparking a broader national debate about segregation laws",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Parks was a trained civil rights activist and NAACP secretary whose arrest was seen as a strategic moment to launch an organized community boycott",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": 0.2,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "U9-DOK2-0003",
+      "stem": "Title II of the Civil Rights Act of 1964 prohibited discrimination on the basis of race, color, religion, or national origin in which of the following?",
+      "stemEs": "El Título II de la Ley de Derechos Civiles de 1964 prohibió la discriminación basada en raza, color, religión u origen nacional en ¿cuál de los siguientes?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Public accommodations including hotels, restaurants, and theaters",
+          "textEs": "Lugares de alojamiento público, incluidos hoteles, restaurantes y teatros",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Federal income tax assessments and IRS audit procedures",
+          "textEs": "Evaluaciones del impuesto federal sobre la renta y procedimientos de auditoría del IRS",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Housing transactions and real estate sales",
+          "textEs": "Transacciones de vivienda y ventas de bienes raíces",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Voter registration in federal elections only",
+          "textEs": "Registro de votantes únicamente en elecciones federales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.78"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        },
+        "rehomed": {
+          "from": [
+            "US.76"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Civil Rights Act of 1964",
+            "Voting Rights Act of 1965",
+            "Civil Rights Act of 1968",
+            "Fair Housing Act",
+            "Civil Rights Act",
+            "Voting Rights Act",
+            "Fair Housing Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
+      },
+      "alignmentStatus": "rehomed",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "U6-DOK3-0009",
+      "stem": "Which best explains the significance of the Civil Rights Act of 1964 in the broader history of federal civil rights enforcement?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It granted federal courts the authority to automatically overturn any state law the executive branch identified as racially discriminatory.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It established federal enforcement mechanisms for prohibiting racial discrimination in public accommodations, employment, and federally funded programs.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was the first federal law to prohibit racial discrimination in any domain of American life, replacing the ineffective Reconstruction-era civil rights acts.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It permanently resolved the constitutional question of whether the federal government could regulate private discrimination using the commerce clause.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.78"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.81"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.81->US.78: checklist intact (5 element(s))"
+        ],
+        "alignmentReview": null
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    }
+  ]
+}

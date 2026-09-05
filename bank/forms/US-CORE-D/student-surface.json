@@ -1,0 +1,862 @@
+{
+  "formId": "US-CORE-D",
+  "items": [
+    {
+      "id": "U5-DOK2-0029",
+      "stem": "How did FDR's court-packing plan affect the political climate surrounding the New Deal?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It immediately caused the Supreme Court to reverse all rulings against New Deal programs",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It unified Democrats and Republicans in support of a bipartisan expansion of New Deal programs",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It had no significant political effect because Congress quickly approved the plan within weeks",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It galvanized opposition from both parties and undermined public support for FDR's broader agenda",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.7,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.44"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.44->US.46: checklist intact (2 element(s))"
+        ],
+        "alignmentReview": null
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "dok3-gen-u5-023",
+      "stem": "In 1937, when the Supreme Court struck down several key New Deal programs as unconstitutional, FDR proposed his 'court-packing' plan to add up to six new justices. The plan was ultimately rejected — even by many congressional Democrats. Which analysis BEST explains why even FDR's political allies opposed the court-packing plan?",
+      "stemEs": "En 1937, cuando la Corte Suprema anuló varios programas clave del New Deal como inconstitucionales, FDR propuso su plan de 'empaquetamiento del tribunal' para agregar hasta seis nuevos jueces. El plan fue finalmente rechazado, incluso por muchos demócratas del Congreso. ¿Qué análisis explica MEJOR por qué incluso los aliados políticos de FDR se opusieron al plan de empaquetamiento del tribunal?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Even New Deal supporters recognized that manipulating court composition to ensure favorable rulings would undermine judicial independence as a structural protection for all future governments — a precedent they were unwilling to set regardless of their policy preferences.",
+          "textEs": "Incluso los partidarios del New Deal reconocieron que manipular la composición del tribunal para garantizar fallos favorables socavaría la independencia judicial como protección estructural para todos los gobiernos futuros, un precedente que no estaban dispuestos a establecer independientemente de sus preferencias políticas.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Democrats opposed the plan because they feared that adding justices would increase the federal judiciary's workload, requiring additional funding that would undermine New Deal spending priorities.",
+          "textEs": "Los demócratas se opusieron al plan porque temían que agregar jueces aumentaría la carga de trabajo de la judicatura federal, requiriendo fondos adicionales que socavarían las prioridades de gasto del New Deal.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Congressional Democrats opposed the plan because they believed the Supreme Court's rulings against New Deal programs were correct on constitutional grounds, and that FDR should instead write legislation that complied with the Constitution.",
+          "textEs": "Los demócratas del Congreso se opusieron al plan porque creían que los fallos de la Corte Suprema contra los programas del New Deal eran correctos desde el punto de vista constitucional, y que FDR debería en cambio redactar legislación que cumpliera con la Constitución.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Democrats in Congress opposed court-packing because FDR had not consulted them before announcing the plan, and the lack of consultation was seen as an executive overreach that threatened the independence of the legislative branch.",
+          "textEs": "Los demócratas en el Congreso se opusieron al empaquetamiento del tribunal porque FDR no los había consultado antes de anunciar el plan, y la falta de consulta fue vista como un exceso ejecutivo que amenazaba la independencia del poder legislativo.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.46"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.41,
+        "b": 1.06,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-5/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.44"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.44->US.46: checklist intact (2 element(s))"
+        ],
+        "alignmentReview": null
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "q-us58-60-summary-1",
+      "stem": "Summarize the main ways the United States responded to post-WWII global challenges between 1945-1950.",
+      "stemEs": "Resuma las principales formas en que Estados Unidos respondió a desafíos globales post-Segunda Guerra Mundial entre 1945-1950.",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "As president, he had authority to commit U.S. resources and set foreign policy direction",
+          "textEs": "Negoció tratados aceptando control comunista tanto de Europa Occidental como Oriental",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Created the UN, provided Marshall Plan aid, formed NATO alliance, and intervened in Korea",
+          "textEs": "Creó la ONU, proporcionó ayuda del Plan Marshall, formó alianza OTAN e intervino en Corea",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Economic stability would make nations less vulnerable to communist pressure and influence",
+          "textEs": "Se enfocó exclusivamente en intervención militar sin proporcionar ninguna ayuda económica",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It committed the U.S. to actively intervening globally to support threatened free nations",
+          "textEs": "Regresó a aislacionismo de preguerra evitando todo involucramiento en asuntos internacionales",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.58",
+        "US.60",
+        "US.63"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 1.26,
+        "b": 1.52,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-6/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.58",
+          "US.60",
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.58->US.58: checklist intact (1 element(s))",
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled",
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true,
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "U6-DOK3-0004",
+      "stem": "The Truman Doctrine (1947) pledged American support for free peoples resisting subjugation, while the Marshall Plan (1947) committed roughly $13 billion to European economic reconstruction. How do these two initiatives together reflect a coherent and unified strategic logic for containing Soviet influence in postwar Europe?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Truman Doctrine and Marshall Plan were complementary primarily through their combined military and security dimensions — both relied on American military guarantees to deter Soviet armed aggression, with economic aid functioning as a secondary incentive to maintain Western-aligned governments.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Truman Doctrine established a global ideological framework for containment, but the Marshall Plan was primarily motivated by American economic self-interest in creating prosperous European export markets — suggesting that strategic and commercial interests happened to align in this case rather than reflecting a single coherent anti-Soviet vision.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The two initiatives reflected the strategic insight that communism thrived in conditions of economic desperation and political instability — military containment alone would be insufficient if poverty created conditions in which Soviet-backed political movements could gain genuine popular support, making economic reconstruction a strategic necessity rather than purely humanitarian charity.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Truman and Marshall designed their respective programs as deliberate provocations intended to force the Soviet Union into an unsustainable military competition, representing early applications of the rollback strategy later associated with Eisenhower's New Look defense policy.",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.60"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-7/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.60"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.60->US.60: standard verb RAISED explain->analyze; item may be under-levelled"
+        ],
+        "alignmentReview": {
+          "verbChange": "explain -> analyze",
+          "dokReviewRequired": true
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "q-us78-12",
+      "stem": "What was interposition as a response to Brown v. Board?",
+      "stemEs": "¿Qué fue la interposición como respuesta a Brown v. Board?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It ordered desegregation to proceed with \"all deliberate speed\"",
+          "textEs": "Una estrategia legal usada por la NAACP para hacer cumplir la integración",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They closed public schools for five years rather than integrate",
+          "textEs": "Un programa federal para acelerar la desegregación escolar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Southern states' policy of defying Brown through school closures",
+          "textEs": "Un plan de compromiso para integrar gradualmente las escuelas del Sur",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "A theory that states could nullify federal rulings they opposed",
+          "textEs": "Una teoría de que los estados podían anular fallos federales que oponían",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.95,
+        "b": 1.14,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "U9-DOK2-0022",
+      "stem": "How did Brown v. Board of Education affect the broader civil rights movement in the United States?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It demonstrated that legal strategies could successfully challenge racial inequality and inspired activists to pursue further civil rights litigation and legislation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "It shifted the civil rights movement away from legal strategies toward direct political action as the only effective approach",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It caused Congress to pass the Civil Rights Act within a year of the ruling, ending decades of segregation",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "It immediately ended all forms of legal segregation by striking down Jim Crow laws across every sector of public life",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.74"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.3,
+        "b": 0.0,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.78"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.78->US.74: standard ADDED ['Scarboro 85', 'Clinton 12', 'Little Rock 9'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Scarboro 85",
+            "Clinton 12",
+            "Little Rock 9"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    },
+    {
+      "id": "q-us79-6",
+      "stem": "What was Strom Thurmond's stance on civil rights legislation?",
+      "stemEs": "¿Cuál fue la postura de Strom Thurmond sobre la legislación de derechos civiles?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He publicly supported it as a moderate bipartisan Southern Democrat",
+          "textEs": "La apoyó públicamente como demócrata moderado bipartidista del Sur",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "He fiercely opposed it and conducted a record 24-hour filibuster",
+          "textEs": "Se opuso ferozmente y realizó un filibusterismo récord de 24 horas",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "He drafted and proposed compromise versions of civil rights bills",
+          "textEs": "Redactó y propuso versiones de compromiso de proyectos de derechos civiles",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "He strategically abstained from voting on all civil rights measures",
+          "textEs": "Se abstuvo estratégicamente de votar en todas las medidas de derechos civiles",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "complete",
+      "irtParameters": {
+        "a": 0.92,
+        "b": 0.26,
+        "c": 0.22
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-1.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "B"
+    },
+    {
+      "id": "U9-DOK2-0032",
+      "stem": "How did Bull Connor's response to civil rights demonstrations in Birmingham, Alabama in 1963 affect the national civil rights movement?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Connor's actions in Birmingham caused the civil rights movement to abandon nonviolent tactics and adopt more confrontational methods",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Connor's policing of Birmingham demonstrations prompted Southern moderates to join the civil rights movement in large numbers",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Connor's use of fire hoses and police dogs against peaceful demonstrators was televised nationally, generating public outrage that increased pressure on the Kennedy administration to act on civil rights",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Connor's restrained policing of demonstrations in Birmingham helped maintain order and prevented the movement from gaining national attention",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.76"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.4,
+        "b": -0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.79"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.79->US.76: standard ADDED ['Dr. Martin Luther King', 'John Lewis', 'Diane Nash', 'George Wallace'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "Dr. Martin Luther King",
+            "John Lewis",
+            "Diane Nash",
+            "George Wallace"
+          ]
+        }
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "C"
+    },
+    {
+      "id": "U9-DOK2-0049",
+      "stem": "Why was the Voting Rights Act of 1965 considered necessary even after the Civil Rights Act of 1964 had already been passed?",
+      "stemEs": "",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Voting Rights Act was necessary because the 1964 Act had accidentally removed protections for African American voters that had existed under the Fifteenth Amendment",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Congress passed the Voting Rights Act to satisfy demands from Northern Democrats who felt the 1964 Act had been too focused on Southern voting rights",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Civil Rights Act of 1964 had been struck down by the Supreme Court before it could take effect, making new legislation necessary",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Civil Rights Act did not directly address voting rights, and Southern states continued using literacy tests, poll taxes, and intimidation to prevent African Americans from voting",
+          "textEs": "",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "standardCodes": [
+        "US.78"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": -0.1,
+        "c": 0.2
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "migrated",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-2.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.81"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.81->US.78: checklist intact (5 element(s))"
+        ],
+        "alignmentReview": null
+      },
+      "alignmentStatus": "evidenced",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "D"
+    },
+    {
+      "id": "U9-DOK3-0019",
+      "stem": "The Civil Rights Act of 1964 prohibited racial discrimination in public accommodations, employment, and federally funded programs. Given that many Southern states had maintained legally enforced segregation for nearly a century after the Fourteenth Amendment's passage, what does the Act's eventual passage most reveal about the conditions required for transformative civil rights legislation?",
+      "stemEs": "La Ley de Derechos Civiles de 1964 prohibió la discriminación racial en los establecimientos públicos, el empleo y los programas financiados con fondos federales. Dado que muchos estados del Sur habían mantenido una segregación legalmente impuesta durante casi un siglo después de la aprobación de la Decimocuarta Enmienda, ¿qué revela más claramente la eventual aprobación de la Ley sobre las condiciones necesarias para la legislación transformadora en materia de derechos civiles?",
+      "itemType": "mcq",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Act's passage required the convergence of sustained grassroots mobilization that disrupted segregation's daily functioning, television coverage that made white violence against nonviolent protesters politically costly to tolerate, and presidential leadership committed to legislative action — demonstrating that transformative civil rights legislation emerges from the alignment of movement pressure, public opinion shifts, and executive political",
+          "textEs": "La aprobación de la Ley requirió la convergencia de una movilización popular sostenida que perturbó el funcionamiento diario de la segregación, la cobertura televisiva que hizo políticamente costoso tolerar la violencia blanca contra los manifestantes no violentos, y el liderazgo presidencial comprometido con la acción legislativa —demostrando que la legislación transformadora de derechos civiles surge de la alineación de la presión del movimiento, los cambios en la opinión pública y la voluntad política ejecutiva.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Act's passage shows that economic modernization in the South had eroded the material foundation of segregation by creating a business class that recognized international competitiveness required abandoning racial discrimination, making economic development the primary structural driver of civil rights legislation.",
+          "textEs": "La aprobación de la Ley muestra que la modernización económica del Sur había erosionado la base material de la segregación al crear una clase empresarial que reconoció que la competitividad internacional requería abandonar la discriminación racial, haciendo del desarrollo económico el principal motor estructural de la legislación de derechos civiles.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Act demonstrated that moral argument alone can overcome entrenched racial hierarchies, as the movement's nonviolent discipline and the moral clarity of its witness ultimately convinced a sufficient congressional majority to act despite fierce Southern opposition.",
+          "textEs": "La Ley demostró que el argumento moral por sí solo puede superar las jerarquías raciales arraigadas, ya que la disciplina no violenta del movimiento y la claridad moral de su testimonio finalmente convencieron a una mayoría suficiente del Congreso de actuar a pesar de la feroz oposición del Sur.",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The Civil Rights Act passed primarily because of Lyndon Johnson's legislative mastery and his exploitation of the national emotional response to Kennedy's assassination, suggesting that individual political leadership and historically contingent events were more decisive than structural conditions in producing the legislation.",
+          "textEs": "La Ley de Derechos Civiles se aprobó principalmente gracias al dominio legislativo de Lyndon Johnson y su explotación de la respuesta emocional nacional al asesinato de Kennedy, lo que sugiere que el liderazgo político individual y los eventos históricamente contingentes fueron más decisivos que las condiciones estructurales para producir la legislación.",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 3,
+      "standardCodes": [
+        "US.78"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "translationStatus": "not-started",
+      "irtParameters": {
+        "a": 1.2,
+        "b": 1.0,
+        "c": 0.25
+      },
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "student",
+      "status": "provisional",
+      "image": null,
+      "provenance": {
+        "migratedFrom": "../../history-hack-web-app/public/data/us-history/questions/unit-9/dok-3.json",
+        "priorStandardsYear": "2026-27",
+        "priorStandardCodes": [
+          "US.61"
+        ],
+        "priorBankTier": "student",
+        "crosswalkReasons": [
+          "US.61->US.63: standard ADDED ['House Un-American Activities Committee'] — coverage gap at the standard, not a defect in this item"
+        ],
+        "alignmentReview": {
+          "elementsAddedToStandard": [
+            "House Un-American Activities Committee"
+          ]
+        },
+        "rehomed": {
+          "from": [
+            "US.63"
+          ],
+          "to": "US.78",
+          "matchedElements": [
+            "Civil Rights Act of 1964",
+            "Civil Rights Act of 1968",
+            "Civil Rights Act"
+          ],
+          "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
+        }
+      },
+      "alignmentStatus": "rehomed",
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "biasReview": {
+        "status": "not-started",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": null
+      },
+      "correctAnswer": null,
+      "explanation": "",
+      "explanationEs": "",
+      "dokRationale": "",
+      "_surface": "student-form",
+      "_formKeyLetter": "A"
+    }
+  ]
+}

@@ -61,8 +61,7 @@ def main():
     L.append(f"- Standards receiving nothing: **{len(allc - covered)}** — "
              + ", ".join(sorted(allc - covered)) + "\n")
 
-    forms = sorted(d for d in glob.glob(os.path.join(itemio.BANK_ROOT, "forms", "*"))
-                   if os.path.isdir(d))
+    forms = itemio.form_dirs()
     L.append("## Forms\n")
     if not forms:
         L.append("None built.\n")

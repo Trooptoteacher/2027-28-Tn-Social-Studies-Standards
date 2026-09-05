@@ -72,7 +72,8 @@ def gate_blueprint(items, binding=None) -> Result:
                        f"servable items kept but not counted")
 
 
-def gate_form_blueprint(form_items, binding=None, standards=None, tiers=None) -> Result:
+def gate_form_blueprint(form_items, binding=None, standards=None, tiers=None,
+                        family=None) -> Result:
     """A rendered FORM matches the tier it DECLARES, exactly, in either direction.
 
     Tiering is not a loosening. Within its declared tier a form must match slot
@@ -84,6 +85,15 @@ def gate_form_blueprint(form_items, binding=None, standards=None, tiers=None) ->
     name = "form-blueprint"
     if (r := empty_scan_guard(name, form_items)):
         return r
+    # A FAMILY MEMBER has no tier and never claimed one: its shape comes from
+    # the family allocation — 2 items per standard across N forms — and
+    # form-parallelism is what measures it. Failing it here for not being a
+    # tiered form would fail a correctly-built form for not being something
+    # else.
+    if family:
+        return Result(name, True, len(form_items), [], judged=0,
+                      inapplicable=f"member of family {family!r} — its shape is set by the "
+                                   f"family allocation, not a tier; form-parallelism measures it")
     with open(binding.blueprint_file, encoding="utf-8") as fh:
         form = json.load(fh)["form"]
     by_tier = {t["id"]: t for t in form["tiers"]}
@@ -562,3 +572,133 @@ def gate_form_surface(items, binding=None, blueprint=None) -> Result:
     return Result(name, not findings, len(items), findings, judged=judged,
                   note=f"surface: {blueprint.get('surface', 'unstated')}; "
                        f"allowed: {', '.join(sorted(allowed))}")
+
+
+FAMILY_DIR = os.path.join(itemio.BANK_ROOT, "forms", "families")
+
+
+def _family_members(family):
+    """[(form_id, manifest, student_records)] for a declared family."""
+    out = []
+    for fid in family.get("forms") or []:
+        fd = os.path.join(itemio.BANK_ROOT, "forms", fid)
+        man = os.path.join(fd, "manifest.json")
+        surf = os.path.join(fd, "student-surface.json")
+        if not (os.path.exists(man) and os.path.exists(surf)):
+            out.append((fid, None, None))
+            continue
+        with open(man, encoding="utf-8") as fh:
+            m = json.load(fh)
+        with open(surf, encoding="utf-8") as fh:
+            recs = json.load(fh)["items"]
+        out.append((fid, m, recs))
+    return out
+
+
+def gate_form_parallelism(family, binding=None) -> Result:
+    """N forms are PARALLEL, or they are N different tests.
+
+    "Five parallel tests, equal in rigor, testing the same content" is a claim
+    about a SET, and every gate before this one judged a single form. Each
+    member could pass all of them and still differ from its siblings in item
+    count, DOK profile, or which standards it touched — the divergence is
+    invisible one form at a time, which is exactly the shape of defect this
+    repo keeps finding.
+
+    Parallel means, exactly: same standards, same item count, same DOK
+    distribution, same stimulus mix, and ZERO shared items. Overlap is failed
+    outright — a student who sits Form A and retakes Form C must not meet the
+    same question twice, or the retake measures memory.
+    """
+    name = "form-parallelism"
+    if not family or not family.get("forms"):
+        return Result(name, False, 0, [Finding("(empty)",
+            "no family declared — a parallelism gate that scans zero forms proves nothing", "")],
+            judged=0)
+    members = _family_members(family)
+    findings, judged = [], 0
+    missing = [fid for fid, m, _ in members if m is None]
+    if missing:
+        for fid in missing:
+            findings.append(Finding(fid, "declared in the family but not rendered — a family "
+                                         "with an absent member cannot be compared"))
+        return Result(name, False, len(members), findings, judged=0)
+
+    ref_id, ref_m, ref_r = members[0]
+    ref = {
+        "count": len(ref_r),
+        "standards": tuple(sorted(ref_m.get("standards") or [])),
+        "dok": tuple(sorted(collections.Counter(r.get("dokLevel") for r in ref_r).items())),
+        "types": tuple(sorted(collections.Counter(r.get("itemType") for r in ref_r).items())),
+        "stimulus": sum(1 for r in ref_r if r.get("image")),
+    }
+    seen_ids = {}
+    for fid, m, recs in members:
+        judged += 1
+        got = {
+            "count": len(recs),
+            "standards": tuple(sorted(m.get("standards") or [])),
+            "dok": tuple(sorted(collections.Counter(r.get("dokLevel") for r in recs).items())),
+            "types": tuple(sorted(collections.Counter(r.get("itemType") for r in recs).items())),
+            "stimulus": sum(1 for r in recs if r.get("image")),
+        }
+        for k in ref:
+            if got[k] != ref[k]:
+                findings.append(Finding(fid,
+                    f"{k} differs from {ref_id}: {got[k]} vs {ref[k]} — the forms are not "
+                    f"parallel, so a score on one does not mean the same as a score on another"))
+        for r in recs:
+            if (prev := seen_ids.get(r["id"])) and prev != fid:
+                findings.append(Finding(fid,
+                    f"item {r['id']} also appears on {prev} — a student retaking meets the same "
+                    f"question twice and the retake measures memory"))
+            seen_ids[r["id"]] = fid
+    return Result(name, not findings, len(members), findings, judged=judged,
+                  note=(f"{len(members)} form(s), {ref['count']} items each, "
+                        f"{len(ref['standards'])} standard(s), {len(seen_ids)} distinct items"))
+
+
+def gate_family_coverage(family, binding=None) -> Result:
+    """Every standard the family CLAIMS is on every form, and the gaps are named.
+
+    "Every single standard must be assessed" is otherwise unverified prose. A
+    family that quietly carries 60 of a course's 94 standards is not wrong —
+    but it must say so, and a course whose standards were dropped for lack of
+    depth must not read as covered.
+    """
+    name = "family-coverage"
+    if not family or not family.get("forms"):
+        return Result(name, False, 0, [Finding("(empty)",
+            "no family declared — nothing to measure coverage against", "")], judged=0)
+    members = _family_members(family)
+    claimed = set(family.get("standards") or [])
+    if not claimed:
+        return Result(name, False, len(members), [Finding(family.get("familyId", "?"),
+            "the family claims no standards — a form family that does not say what it "
+            "assesses cannot be checked", "")], judged=0)
+    findings, judged = [], 0
+    for fid, m, recs in members:
+        if recs is None:
+            continue
+        judged += 1
+        on_form = {c for r in recs for c in (r.get("standardCodes") or [])} & claimed
+        if missing := claimed - on_form:
+            findings.append(Finding(fid,
+                f"claims {len(claimed)} standard(s) but {len(missing)} are absent: "
+                f"{', '.join(sorted(missing))}"))
+    note = f"{len(claimed)} standard(s) on every form"
+    if binding is not None:
+        total = len(binding.standards())
+        dropped = family.get("droppedStandards") or {}
+        note += (f"; {len(claimed)}/{total} of the course, {len(dropped)} dropped for depth"
+                 if total else "")
+        # Partial coverage is a legitimate family — a unit test is not the whole
+        # course. What fails is CLAIMING full coverage without having it, which
+        # is the claim "every single standard must be assessed" turns into.
+        if family.get("claimsFullCourseCoverage") and len(claimed) < total:
+            findings.append(Finding(family.get("familyId", "?"),
+                f"claims full-course coverage but assesses {len(claimed)} of {total} "
+                f"standard(s); {len(dropped)} were dropped for insufficient depth"))
+        elif len(claimed) < total:
+            note += " — partial by declaration, not a full-course family"
+    return Result(name, not findings, len(members), findings, judged=judged, note=note)
