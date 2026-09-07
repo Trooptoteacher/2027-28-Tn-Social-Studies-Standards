@@ -88,10 +88,21 @@ To reuse an existing asset for a 2027-28 standard:
 History, Contemporary Issues, Economics, Psychology, Sociology, World Geography. For those, step 1
 has no row and the answer is always "build it".
 
-In `history-hack-web-app` this is mechanised and enforced: `scripts/carry-forward.mjs` does the
-stripping and refuses when a code is embedded in prose, and `npm run check:carry-forward` fails a
-stray old code in a file or filename, a match made by code, a missing or unknown content category,
-an unrecorded carry, and a `retired`/`new` disposition.
+In `history-hack-web-app` this is mechanised: **`scripts/curriculum/carry_forward.py`**
+(`npm run curriculum:carry`) reads the crosswalk disposition, refuses a `retired`/`new` disposition,
+refuses a content category that is not one of that course's own era/cluster headings, refuses an old
+code that sits **inside a sentence** rather than in a structured field, and records the carry in a
+ledger under `docs/migration/` — outside the content tree, so no build can join the two years on
+`code`. The `check:curriculum` gate independently fails a stray 2026-27 code or path anywhere in the
+2027-28 namespace (`cross-year-leak`) and a bare code printed in prose without its year
+(`bare-code-ref`).
+
+> **Correction, 2026-09-07.** This paragraph previously described the mechanism as already
+> "mechanised and enforced" and named `scripts/carry-forward.mjs` and `npm run check:carry-forward`.
+> **Neither existed.** The claim was written alongside the rule and read, for as long as nobody
+> checked, exactly like a claim that was true — which is the failure this whole document is about, in
+> the one rule whose entire job is to stop a mislabelled asset from shipping. Names above are the
+> implementation that now exists; re-check them against the repo rather than trusting this sentence.
 
 ## 4. Namespace isolation in the web app
 
