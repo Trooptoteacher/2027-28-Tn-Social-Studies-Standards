@@ -244,16 +244,27 @@ def parse_course(doc, pfx, start, end):
         cur, cur_kind = None, None
 
     def apply_heads():
-        nonlocal era, topic, overview
+        """Assign the pending headings. It must NOT touch `overview`.
+
+        The overview is printed BETWEEN the era heading and the first standard
+        code, so by the time this runs the overview for THIS era has already been
+        read. Clearing it here discarded it: every era heading carrying a date
+        range took one of the two clearing branches, which is every heading in
+        U.S. History, Grade 8, World History and Tennessee History -- 354
+        standards whose eraOverview came out empty while the PDF plainly carries
+        one. A new era clears the previous overview where the era heading is
+        recognised, above.
+        """
+        nonlocal era, topic
         if not heads:
             return
         if len(heads) == 1:
             if ERA_RE.search(heads[0]):
-                era, topic, overview = heads[0], "", ""
+                era, topic = heads[0], ""
             else:
                 topic = heads[0]
         else:
-            era, topic, overview = heads[0], heads[-1], ""
+            era, topic = heads[0], heads[-1]
         heads.clear()
 
     for pno in range(start, end):
@@ -271,6 +282,11 @@ def parse_course(doc, pfx, start, end):
             if ln["bold"] and ln["size"] >= HEADING_MIN_PT:
                 flush()
                 in_overview = in_desc = False
+                if ERA_RE.search(t):
+                    # A new era begins here. Drop the previous era's overview so
+                    # it cannot leak forward; the overview printed just below
+                    # this heading is then read into the cleared slot.
+                    overview = ""
                 heads.append(t)
                 continue
             if t.lower().startswith("course description:"):

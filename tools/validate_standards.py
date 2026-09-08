@@ -99,6 +99,21 @@ def check_course(path, c):
             block(f"{name} {code}: tca flag disagrees with strand")
         if c.get("hasContentStrand") and not s.get("strand"):
             warn(f"{name} {code}: no Content Strand printed in the source document")
+        # The document prints an "Overview:" paragraph under every era/topic
+        # heading, so an empty one means the parse dropped it rather than that
+        # the state omitted it. It was dropped for 491 of 1012 standards --
+        # every date-ranged era in U.S. History, Grade 8, World History and
+        # Tennessee History -- because the heading handler cleared the overview
+        # AFTER it had already been read. Nothing failed: the field was simply
+        # empty, which reads as "the state didn't write one".
+        #
+        # The overview is the state's own framing of the era and it is a source
+        # an objective is allowed to trace to, so losing it silently narrows
+        # what a lesson may legitimately cover. Blocking on it means the next
+        # regression stops the parse instead of shipping 491 empty strings.
+        if not (s.get("eraOverview") or "").strip():
+            block(f"{name} {code}: empty eraOverview — the source document prints "
+                  f"an Overview under every heading, so this is a dropped parse")
 
     nums.sort()
     gaps = [n for n in range(1, nums[-1] + 1) if n not in nums]
