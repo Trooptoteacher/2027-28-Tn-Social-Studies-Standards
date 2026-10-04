@@ -43,7 +43,40 @@ def reachable_tier(pool, form):
 
 
 def cost(items, want=None):
-    """Authoring needed to bring this selection to Grade A."""
+    """Authoring needed to bring this selection to Grade A.
+
+    EVERY line that a gate owns is charged BY CALLING THAT GATE. The first
+    version re-implemented three of them and was wrong on all three, in both
+    directions at once — which is worse than a wrong total, because the plan
+    that reads it picks the next standard by this number:
+
+      * `choiceRebalance` had its own length-cue rule: a flat 25% chance for
+        every item whatever its option count, no cohort split, no MIN_COHORT
+        floor, and `len(mcq)` units whenever it fired. It charged US.33 three
+        units for a rebalance `choice-length-cue` DECLINES to ask for, and it
+        charged a whole 6-item form to move two distractors.
+      * `explanationRewrite` reproduced one of `explanation-quality`'s two
+        defects. Across the bank the gate finds 918; the copy found 93. The
+        825 it could not see are explanations that OPEN BY RESTATING THE KEY —
+        the commoner defect of the two, missing from every estimate.
+      * nothing at all was charged for the misconception taxonomy, and that is
+        not an omission of a nice-to-have. `apply_authoring.py` stamps
+        `provenance.authoring`, which is exactly what makes
+        `misconception-taxonomy` start judging an item. So paying the
+        `distractorRationale` line CREATES the taxonomy obligation: 66
+        distractors across 22 items already carry free text with no family and
+        fail the gate today, 20 of those 22 written by the repair path itself.
+        An invoice that bills the rationale and not the family describes a
+        state the gates reject.
+      * choice Spanish was never charged either. `translation` covered
+        `stemEs` and `explanationEs` only, while 2,432 choices in the bank
+        carry a blank `textEs` — a form whose options are half English.
+
+    `dokRationale` stays a PRESENCE count, and there is deliberately no
+    `dokRationaleQuality` line: no gate judges the quality of a DOK rationale,
+    and a column computed here with no gate behind it would be this same
+    mistake in a new place.
+    """
     c = collections.Counter()
     for it in items:
         if not (it.get("dokRationale") or "").strip():
@@ -54,18 +87,23 @@ def cost(items, want=None):
         if content.worst_translation_defect(it):
             c["translation"] += 1
         for ch in itemio.choices(it):
-            if isinstance(ch, dict) and ch.get("id") != it.get("correctAnswer"):
-                if not (ch.get("explanation") or "").strip():
-                    c["distractorRationale"] += 1
-        exp = (it.get("explanation") or "").strip()
-        if exp and exp == (it.get("dokRationale") or "").strip():
-            c["explanationRewrite"] += 1
-    mcq = [i for i in items if i.get("itemType") == "mcq" and itemio.choices(i)]
-    longest = sum(1 for i in mcq
-                  if max(itemio.choices(i), key=lambda c: len(c.get("text") or ""))
-                  .get("id") == i.get("correctAnswer"))
-    if mcq and abs(longest / len(mcq) - 0.25) > 0.10:
-        c["choiceRebalance"] = len(mcq)
+            if not isinstance(ch, dict):
+                continue
+            if not (ch.get("textEs") or "").strip():
+                c["choiceTranslation"] += 1
+            if ch.get("id") == it.get("correctAnswer"):
+                continue
+            if not (ch.get("explanation") or "").strip():
+                c["distractorRationale"] += 1
+            # One unit per distractor, not one per missing field: the
+            # misconception and its family are a single editorial act, and the
+            # gate reports one finding per distractor too.
+            if not ch.get("misconceptionFamily"):
+                c["distractorTaxonomy"] += 1
+
+    # Charged from the gates that own these rules — never re-derived here.
+    c["explanationRewrite"] = len(content.gate_explanation_quality(items).findings)
+    c["choiceRebalance"] = content.length_cue_rebalance_units(items)
     return c
 
 
@@ -108,7 +146,9 @@ def rows(b):
                      "weaklyIdentifiable": alignment.identifiability(stds[code]["text"]) < 2,
                      "dokCeiling": tier["dokCeiling"] if tier else None,
                      "distractorRationale": c["distractorRationale"],
+                     "distractorTaxonomy": c["distractorTaxonomy"],
                      "dokRationale": c["dokRationale"], "translation": c["translation"],
+                     "choiceTranslation": c["choiceTranslation"],
                      "explanationRewrite": c["explanationRewrite"],
                      "choiceRebalance": c["choiceRebalance"],
                      "totalAuthoringUnits": sum(c.values())})
@@ -126,12 +166,14 @@ def main():
     ok = [r for r in rws if r["buildable"]]
     print(f"\n{len(ok)}/{len(rws)} standards can fill a form from aligned items.\n")
     ok.sort(key=lambda r: r["totalAuthoringUnits"])
-    print(f"{'standard':<9}{'tier':<18}{'aligned':>8}{'distract':>9}{'dok':>5}"
-          f"{'transl':>8}{'rebal':>7}{'TOTAL':>7}")
+    print(f"{'standard':<9}{'tier':<16}{'aligned':>8}{'distract':>9}{'taxon':>7}"
+          f"{'dok':>5}{'transl':>7}{'chEs':>6}{'rewrite':>8}{'rebal':>7}{'TOTAL':>7}")
     for r in ok[:a.top]:
-        print(f"{r['standard']:<9}{r['tier']:<18}{r['aligned']:>8}"
-              f"{r['distractorRationale']:>9}{r['dokRationale']:>5}{r['translation']:>8}"
-              f"{r['choiceRebalance']:>7}{r['totalAuthoringUnits']:>7}")
+        print(f"{r['standard']:<9}{r['tier']:<16}{r['aligned']:>8}"
+              f"{r['distractorRationale']:>9}{r['distractorTaxonomy']:>7}"
+              f"{r['dokRationale']:>5}{r['translation']:>7}{r['choiceTranslation']:>6}"
+              f"{r['explanationRewrite']:>8}{r['choiceRebalance']:>7}"
+              f"{r['totalAuthoringUnits']:>7}")
     tiers = collections.Counter(r["tier"] for r in rws)
     print("\ntier reached: " + ", ".join(f"{k}={v}" for k, v in tiers.most_common()))
     tot = sum(r["totalAuthoringUnits"] for r in ok)

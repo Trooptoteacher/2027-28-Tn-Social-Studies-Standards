@@ -5,6 +5,7 @@
     "tests/test_content_gates.py",
     "tests/test_form_gates.py",
     "tests/test_gates.py",
+    "tests/test_invoice.py",
     "tests/test_mutation.py",
     "tests/test_regressions.py",
     "tests/test_rehome.py"
@@ -1324,6 +1325,49 @@
         {
           "file": "tests/test_content_gates.py",
           "contains": "does not launder it — title only"
+        }
+      ]
+    },
+    {
+      "id": "L72",
+      "mistake": "The authoring invoice carried PRIVATE COPIES of three rules that gates already owned, and was wrong on all three — in both directions at once. It is not a report: `form_readiness.cost()` is what chooses the next standard to work, so a wrong total is a wrong plan. (1) `choiceRebalance` re-implemented the length-cue rule with a flat 25% chance whatever the option count, no cohort split and no MIN_COHORT floor — so it billed US.33 three units for a rebalance `choice-length-cue` DECLINES to ask for (a 3-item tcap-floor draft cannot land inside the band, so there is nothing to fix), and it billed every MCQ in a cohort when the minimum that must change is four of six. (2) `explanationRewrite` reproduced one of `explanation-quality`'s two defects: the gate finds 918 across the bank, the copy found 93, and the 825 it could not see are explanations that OPEN BY RESTATING THE KEY — the commoner defect of the two, absent from every estimate. (3) The misconception taxonomy was not billed at all, and that is not a missing nice-to-have: `apply_authoring.py` stamps `provenance.authoring`, which is precisely what makes `misconception-taxonomy` begin judging an item. Paying the `distractorRationale` line CREATES the taxonomy obligation, so an invoice that bills the rationale and not the family describes a state the gates reject — 66 distractors across 22 items fail it today, 20 of those 22 written by the repair path itself. Choice Spanish was unbilled too (2,432 blank `textEs`). Corrected, the bill for one green form per buildable standard is 4,102 units, not 2,281. The fix is not a better copy: the length-cue MEASUREMENT is now one function both the gate and the invoice call, and every other line is charged by calling its gate. L22 — two implementations of one rule — with the invoice as the second one.",
+      "caughtBy": "Re-deriving the bill after a container loss and finding US.33 charged for a rebalance the gate declines to request.",
+      "guards": [
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def length_cue_cohorts"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def length_cue_rebalance_units"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "Two implementations of one rule is L22; the invoice was the second one."
+        },
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "EVERY line that a gate owns is charged BY CALLING THAT GATE"
+        },
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "CREATES the taxonomy obligation"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "ONE IMPLEMENTATION OF ONE RULE"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "this is the US.33 defect"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "writing one creates the obligation for the other"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "THE LENGTH-CUE REFACTOR LEFT THE VERDICT ALONE"
         }
       ]
     }

@@ -15,6 +15,7 @@ the same question appears twice.
 """
 from __future__ import annotations
 
+import math
 import collections
 import json
 import os
@@ -188,18 +189,24 @@ def gate_signal_coverage(items, binding=None) -> Result:
                         f"{', '.join(weak)}" if weak else "every standard carries 2+ signals"))
 
 
-def gate_choice_length_cue(items, binding=None) -> Result:
-    """The key must not be the longest choice far more often than chance.
+# ------------------------------------------------------- choice length cue
+# TOLERANCE and MIN_COHORT are module constants, and the cohort tally is its
+# own function, because `form_readiness.cost()` needs the SAME numbers to price
+# a rebalance. It had its own copy: a flat 25% chance for every item regardless
+# of option count, no cohort split, and no MIN_COHORT floor. That charged US.33
+# three authoring units for a rebalance this gate DECLINES to ask for (a
+# 3-item tcap-floor draft cannot land inside the band, so there is nothing to
+# fix), and it would have priced a 3-option item against the wrong chance.
+# Two implementations of one rule is L22; the invoice was the second one.
+LENGTH_CUE_TOLERANCE = 0.10   # points over chance before it is exploitable
+LENGTH_CUE_MIN_COHORT = 4     # below this the tolerance band is unreachable
 
-    A student who knows no history can beat a bank where the key is reliably
-    the longest option — the same defect as a bank where 60% of keys are C,
-    and equally invisible to every structural gate. Measured at 53.3% against
-    ~25% chance on the migrated bank.
+
+def length_cue_cohorts(items):
+    """{option-count: [key-is-longest, total]} plus how many items were judged.
+
+    THE measurement. Both the gate and the authoring invoice read it.
     """
-    name = "choice-length-cue"
-    if (r := empty_scan_guard(name, items)):
-        return r
-    TOLERANCE = 0.10                       # points over chance before it is exploitable
     cohorts = collections.defaultdict(lambda: [0, 0])
     judged = 0
     for it in items:
@@ -214,18 +221,57 @@ def gate_choice_length_cue(items, binding=None) -> Result:
         longest = max(ch, key=lambda c: len(c["text"]))
         if longest.get("id") == it["correctAnswer"]:
             cohorts[k][0] += 1
+    return cohorts, judged
+
+
+def length_cue_rebalance_units(items):
+    """How many items must change to bring every cohort inside the band.
+
+    The MINIMUM, not the cohort size. The old invoice charged every MCQ in the
+    selection whenever the share was out of band — six units to move a 6-item
+    form that needs two distractors lengthened. And it is TWO-SIDED like the
+    gate: a cohort balanced down to 0% is cued too, and the work there is to
+    make some keys longest, not fewer.
+    """
+    cohorts, _ = length_cue_cohorts(items)
+    if all(total < LENGTH_CUE_MIN_COHORT for _, total in cohorts.values()):
+        return 0
+    units = 0
+    for k, (hits, total) in cohorts.items():
+        if total < LENGTH_CUE_MIN_COHORT:
+            continue
+        chance = 1.0 / k
+        hi = math.floor((chance + LENGTH_CUE_TOLERANCE) * total)  # most hits still in band
+        lo = math.ceil((chance - LENGTH_CUE_TOLERANCE) * total)   # fewest still in band
+        units += max(0, hits - hi) + max(0, lo - hits)
+    return units
+
+
+def gate_choice_length_cue(items, binding=None) -> Result:
+    """The key must not be the longest choice far more often than chance.
+
+    A student who knows no history can beat a bank where the key is reliably
+    the longest option — the same defect as a bank where 60% of keys are C,
+    and equally invisible to every structural gate. Measured at 53.3% against
+    ~25% chance on the migrated bank.
+    """
+    name = "choice-length-cue"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    cohorts, judged = length_cue_cohorts(items)
     # Below four items the tolerance band is UNREACHABLE: with n=2 the only
     # possible shares are 0%, 50% and 100%, so a two-item draft could never
     # pass no matter how it was written. A gate that cannot be satisfied is
     # worse than no gate — it is the "alarm that fires on the harmless" again,
     # in the one shape that blocks work entirely.
-    MIN_COHORT = 4
+    MIN_COHORT = LENGTH_CUE_MIN_COHORT
     if all(total < MIN_COHORT for _, total in cohorts.values()):
         n = sum(t for _, t in cohorts.values())
         return Result(name, True, len(items), [], judged=judged,
                       inapplicable=f"only {n} selected-response item(s) — below {MIN_COHORT} "
                                    f"the proportion cannot land inside the tolerance band, so "
                                    f"there is no distribution to judge")
+    TOLERANCE = LENGTH_CUE_TOLERANCE
     findings, notes = [], []
     for k, (hits, total) in sorted(cohorts.items()):
         if total < MIN_COHORT:
