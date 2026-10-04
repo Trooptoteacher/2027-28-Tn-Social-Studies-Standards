@@ -10,7 +10,7 @@ Usage: python3 tools/form_readiness.py [--top N] [--csv path]
 """
 from __future__ import annotations
 
-import argparse, collections, csv, json, os, sys
+import argparse, collections, copy, csv, json, os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -40,6 +40,22 @@ def reachable_tier(pool, form):
         if got:
             return tier, got
     return None, []
+
+
+def _as_authored(items):
+    """The selection as it will be once a repair touches it.
+
+    `apply_authoring.py` stamps `provenance.authoring` unconditionally — even a
+    repair writing nothing but Spanish — and several gates only begin judging
+    an item once it carries that stamp. An invoice priced against the untouched
+    item therefore bills nothing for the obligations the repair creates.
+    """
+    out = []
+    for it in items:
+        c = copy.deepcopy(it)
+        c.setdefault("provenance", {})["authoring"] = {"record": "(invoice estimate)"}
+        out.append(c)
+    return out
 
 
 def cost(items, want=None):
@@ -102,13 +118,25 @@ def cost(items, want=None):
                 continue
             if not (ch.get("explanation") or "").strip():
                 c["distractorRationale"] += 1
-            # One unit per distractor, not one per missing field: the
-            # misconception and its family are a single editorial act, and the
-            # gate reports one finding per distractor too.
-            if not ch.get("misconceptionFamily"):
-                c["distractorTaxonomy"] += 1
 
     # Charged from the gates that own these rules — never re-derived here.
+    #
+    # `distractorTaxonomy` is priced against the selection AS IF ALREADY
+    # AUTHORED, which is what the invoice is for: `apply_authoring.py` stamps
+    # `provenance.authoring`, and that stamp is what makes
+    # `misconception-taxonomy` begin judging the item. Pricing the untouched
+    # item would bill nothing for work the repair itself creates.
+    #
+    # It was a direct read of `misconceptionFamily` until taxonomyVersion 2
+    # split the field in two, and then it billed 3 units FOREVER on any
+    # distractor correctly tagged `partial-truth` — a complete option with no
+    # family by design, charged as if the family were missing. A bill that can
+    # never be paid. That is L72 recurring in this same function three commits
+    # later: every other line here is charged by calling its gate, and this was
+    # the one left reading a field. Changing a gate's contract means
+    # re-deriving the invoice FROM it, not editing the invoice to match.
+    c["distractorTaxonomy"] = len(
+        content.gate_misconception_taxonomy(_as_authored(items)).findings)
     c["explanationRewrite"] = len(content.gate_explanation_quality(items).findings)
     c["choiceRebalance"] = content.length_cue_rebalance_units(items)
 

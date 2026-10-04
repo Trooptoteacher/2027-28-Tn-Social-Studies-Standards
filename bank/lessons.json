@@ -1569,6 +1569,37 @@
           "contains": "proof follows it rather than being dropped"
         }
       ]
+    },
+    {
+      "id": "L77",
+      "mistake": "CHANGING A GATE'S CONTRACT MEANS RE-DERIVING THE INVOICE FROM IT, AND I EDITED THE INVOICE TO MATCH INSTEAD — which is L72 recurring in the same function three commits after it was fixed. taxonomyVersion 2 split one field into two axes, and six of the seven distractor functions take NO family by design. `cost()`'s `distractorTaxonomy` line was the one line in that function still READING A FIELD (`if not ch.get('misconceptionFamily')`) rather than calling its gate, so a distractor correctly and completely tagged `partial-truth` was billed 3 units FOREVER: a bill that can never be paid, which is the US.33 over-charge in a new disguise. It is now charged from `gate_misconception_taxonomy` against the selection AS IF ALREADY AUTHORED, because `apply_authoring.py` stamps `provenance.authoring` and that stamp is what makes the gate begin judging the item — pricing the untouched item bills nothing for the obligations the repair creates. THE DEFECT WAS LATENT AND THE TOTAL DID NOT MOVE: 4,163 before and after, because nothing in the bank is tagged yet. It would have surfaced on the exact day the 66 proposed tags were applied, on the 7 of them that take no family, and the invoice would have gone on billing work that was already done. A number that is right today and wrong the moment the thing it measures changes is the hardest kind to catch, and the only reason this one was caught is that a PROOF failed. HOW IT REACHED ORIGIN: I selected 'the suites that touch the changed gate' by hand after the taxonomy change and ran six of them — and `tests/test_invoice.py` was not on my list, although it calls `gate_misconception_taxonomy` directly. I then told Sean the affected suites passed and pushed. The full `run_all.sh` was running at the time and caught it minutes later, which is the system working and is not a substitute for running it before the push. There is no judgement call about WHICH suites are affected: the suite is the suite, and hand-picking a subset of it is how a failing stage gets pushed with a clean report attached.",
+      "caughtBy": "tests/test_invoice.py, in the full suite, after the commit had already been pushed.",
+      "guards": [
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "def _as_authored"
+        },
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "billed 3 units FOREVER"
+        },
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "re-deriving the invoice FROM it"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "charged NOTHING — it is complete"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "can never be paid"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "because the repair is"
+        }
+      ]
     }
   ]
 }

@@ -170,10 +170,49 @@ check("they fail misconception-taxonomy today, which is what the charge is for",
 placed = copy.deepcopy(one)
 for c in placed[0]["choices"]:
     if c["id"] != placed[0]["correctAnswer"]:
+        c["distractorFunction"] = "common-misconception"
         c["misconceptionFamily"] = "MC-F-01"
-check("resolve the families and the charge goes to 0",
+check("tag both axes and the charge goes to 0",
       fr.cost(placed)["distractorTaxonomy"] == 0)
 check("…and the gate passes", content.gate_misconception_taxonomy(placed).passed)
+
+# THE DEFECT THIS BLOCK EXISTS FOR, since taxonomyVersion 2. Six of the seven
+# distractor functions take NO family, by design. `distractorTaxonomy` was a
+# direct read of `misconceptionFamily`, so a distractor correctly and
+# completely tagged `partial-truth` was billed 3 units FOREVER — a bill that
+# can never be paid, which is the US.33 over-charge again in the same function,
+# three commits after it was fixed. Every line of this invoice is charged by
+# calling its gate; this was the one left reading a field.
+done = copy.deepcopy(one)
+for c in done[0]["choices"]:
+    if c["id"] != done[0]["correctAnswer"]:
+        c["distractorFunction"] = "partial-truth"
+        c.pop("misconceptionFamily", None)
+check("a distractor correctly tagged with a function that takes NO family is "
+      "charged NOTHING — it is complete",
+      fr.cost(done)["distractorTaxonomy"] == 0,
+      f"charged {fr.cost(done)['distractorTaxonomy']}")
+check("…and the gate agrees it is complete",
+      content.gate_misconception_taxonomy(done).passed)
+
+half = copy.deepcopy(one)
+for c in half[0]["choices"]:
+    if c["id"] != half[0]["correctAnswer"]:
+        c["distractorFunction"] = "common-misconception"
+        c.pop("misconceptionFamily", None)
+check("a common-misconception missing its family IS still charged",
+      fr.cost(half)["distractorTaxonomy"] == 3,
+      f"charged {fr.cost(half)['distractorTaxonomy']}")
+
+# The invoice prices the POST-REPAIR state, because applying a record is what
+# makes the gate start judging the item.
+check("the taxonomy line is charged from the gate, against the selection AS IF "
+      "AUTHORED — not from a field read",
+      "gate_misconception_taxonomy" in src_new() and "_as_authored" in src_new())
+check("…and an UNAUTHORED legacy item is charged anyway, because the repair is "
+      "what creates the obligation",
+      fr.cost(one)["distractorTaxonomy"] == 3
+      and content.gate_misconception_taxonomy(one).passed is False)
 
 # A distractor with NO misconception is charged too: paying the rationale line
 # stamps provenance.authoring, which is what makes the gate start judging it.
