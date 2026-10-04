@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import alignment
 import binding as binding_mod
 import itemio
-from gates import content
+from gates import content, record
 
 
 def reachable_tier(pool, form):
@@ -76,6 +76,13 @@ def cost(items, want=None):
     `dokRationaleQuality` line: no gate judges the quality of a DOK rationale,
     and a column computed here with no gate behind it would be this same
     mistake in a new place.
+
+    `stimulusDebt` is the ONE LINE AUTHORING CANNOT DISCHARGE. An item whose
+    stem says "use the photograph" and carries none needs a rights-cleared
+    image or a rewritten stem; both are decisions, not units of writing, and
+    the image half waits on Sean (see HANDOFF §6). It is counted here anyway,
+    because an invoice that omits the work it cannot do reads as a smaller
+    invoice rather than a blocked one.
     """
     c = collections.Counter()
     for it in items:
@@ -104,6 +111,23 @@ def cost(items, want=None):
     # Charged from the gates that own these rules — never re-derived here.
     c["explanationRewrite"] = len(content.gate_explanation_quality(items).findings)
     c["choiceRebalance"] = content.length_cue_rebalance_units(items)
+
+    # Two item-level gates the invoice did not price at all, and forms SELECT
+    # the items that fail them: 28 buildable standards draw 60 such items.
+    # The invoice would say a standard costs N units, and the form would then
+    # carry an item that cannot reach Grade A for any N — no amount of
+    # rationale-writing attaches a photograph that is not there, and no
+    # rationale finishes a stem that stops mid-sentence.
+    #
+    # Measured honestly, this is SMALL: 175 items bank-wide (111 stimulus, 64
+    # truncation), and skipping them would cost exactly one standard its
+    # buildability (US.50). The first version of this measurement swept ALL
+    # item-level gates and reported buildability collapsing 73 -> 1, which was
+    # `distractor-coverage` and `explanation-quality` — the debt this invoice
+    # already prices — restated as a discovery. Decomposing is what made the
+    # number mean anything.
+    c["stimulusDebt"] = len(content.gate_stimulus_integrity(items).findings)
+    c["truncationDebt"] = len(record.gate_truncation(items).findings)
     return c
 
 
@@ -151,6 +175,8 @@ def rows(b):
                      "choiceTranslation": c["choiceTranslation"],
                      "explanationRewrite": c["explanationRewrite"],
                      "choiceRebalance": c["choiceRebalance"],
+                     "stimulusDebt": c["stimulusDebt"],
+                     "truncationDebt": c["truncationDebt"],
                      "totalAuthoringUnits": sum(c.values())})
     return out
 
@@ -167,12 +193,14 @@ def main():
     print(f"\n{len(ok)}/{len(rws)} standards can fill a form from aligned items.\n")
     ok.sort(key=lambda r: r["totalAuthoringUnits"])
     print(f"{'standard':<9}{'tier':<16}{'aligned':>8}{'distract':>9}{'taxon':>7}"
-          f"{'dok':>5}{'transl':>7}{'chEs':>6}{'rewrite':>8}{'rebal':>7}{'TOTAL':>7}")
+          f"{'dok':>5}{'transl':>7}{'chEs':>6}{'rewrite':>8}{'rebal':>7}{'stim':>6}"
+          f"{'trunc':>7}{'TOTAL':>7}")
     for r in ok[:a.top]:
         print(f"{r['standard']:<9}{r['tier']:<16}{r['aligned']:>8}"
               f"{r['distractorRationale']:>9}{r['distractorTaxonomy']:>7}"
               f"{r['dokRationale']:>5}{r['translation']:>7}{r['choiceTranslation']:>6}"
               f"{r['explanationRewrite']:>8}{r['choiceRebalance']:>7}"
+              f"{r['stimulusDebt']:>6}{r['truncationDebt']:>7}"
               f"{r['totalAuthoringUnits']:>7}")
     tiers = collections.Counter(r["tier"] for r in rws)
     print("\ntier reached: " + ", ".join(f"{k}={v}" for k, v in tiers.most_common()))

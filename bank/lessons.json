@@ -1478,6 +1478,41 @@
           "contains": "wrong mechanism passes for the wrong reason"
         }
       ]
+    },
+    {
+      "id": "L75",
+      "mistake": "I ALMOST REPORTED A 73 -> 1 COLLAPSE IN BUILDABILITY THAT WAS THE AUTHORING DEBT RESTATED. Asking whether form selection draws on items that fail item-level gates, a sweep of six such gates said 3,831 of ~3,988 items fail at least one, that all 73 buildable standards select one, and that skipping them would leave ONE standard buildable. Every number was arithmetically correct and the conclusion would have been false: 3,824 of the 3,831 come from `distractor-coverage` and 918 from `explanation-quality`, which are the two lines `form_readiness.cost()` ALREADY prices. The sweep was measuring the invoice's own contents and presenting them as a discovery about forms. '3,831 of 3,988' is close enough to 'everything' that it should have read as a measurement error before it read as a finding — a defect rate approaching 100% almost always means the population is wrong. Decomposing by gate is what made the number mean anything, and the real finding is one-thirtieth the size: 175 items fail a gate the invoice does NOT price (111 `stimulus-integrity`, 64 `truncation`), 28 buildable standards select 60 of them, and skipping them would cost exactly ONE standard (US.50) its buildability. Those two lines are now on the invoice, which moved it 4,102 -> 4,163 — a +61, the honest size. `stimulusDebt` is flagged as the one line authoring cannot discharge: a stem saying 'use the photograph' with no photograph needs a rights-cleared image or a rewritten stem, both decisions rather than units of writing. It is counted anyway, because an invoice that omits the work it cannot do reads as a smaller invoice rather than a blocked one. This is the cry-wolf failure from the other direction: not a gate that fires on the harmless, but a measurement whose population silently included the thing being measured.",
+      "caughtBy": "The size of the number. 3,831 of 3,988 is not a defect rate, it is a sign the filter is selecting everything.",
+      "guards": [
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "restated as a discovery"
+        },
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "restated as a discovery. Decomposing is what made the"
+        },
+        {
+          "file": "tools/form_readiness.py",
+          "contains": "ONE LINE AUTHORING CANNOT DISCHARGE"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "THE UNPRICED GATES ARE PRICED"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "double-counting priced debt again"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "a cost is not a disqualifier"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "silently left out of it"
+        }
+      ]
     }
   ]
 }

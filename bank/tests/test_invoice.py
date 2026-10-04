@@ -32,6 +32,11 @@ from gates import content
 
 FAILED = []
 
+def src_new():
+    return inspect.getsource(fr.cost)
+
+
+
 
 def check(label, cond, detail=""):
     print(f"    [{'ok  ' if cond else 'FAIL'}] {label}"
@@ -193,6 +198,46 @@ check("4 blank option translations are charged 4 — the KEY included, because a
       fr.cost(es)["choiceTranslation"] == 4,
       f"charged {fr.cost(es)['choiceTranslation']}")
 
+# ------------------------------------------- the two gates the invoice did not price
+print("\n  THE UNPRICED GATES ARE PRICED, AND THE NUMBER IS THE HONEST ONE")
+
+stim = mcq(1)
+stim[0]["stem"] = ("Use the photograph to answer the question. What did the Homestead "
+                   "Act change about settlement in the West?")
+stim[0]["image"] = None
+check("an item ordering a source it does not carry is charged",
+      fr.cost(stim)["stimulusDebt"] == 1, f"{fr.cost(stim)['stimulusDebt']}")
+check("…and it equals the gate", fr.cost(stim)["stimulusDebt"]
+      == len(content.gate_stimulus_integrity(stim).findings))
+check("a text-only item is charged nothing — the gate is N/A there, not failing",
+      fr.cost(mcq(1))["stimulusDebt"] == 0)
+
+from gates import record as _record
+trunc = mcq(1)
+trunc[0]["explanation"] = ("The Act made land nearly free to anyone who improved it, and "
+                           "settlement therefore spread in dispersed family farms and")
+check("an explanation ending mid-sentence is charged",
+      fr.cost(trunc)["truncationDebt"] == 1, f"{fr.cost(trunc)['truncationDebt']}")
+check("…and it equals the gate", fr.cost(trunc)["truncationDebt"]
+      == len(_record.gate_truncation(trunc).findings))
+check("a complete item is charged nothing", fr.cost(mcq(1))["truncationDebt"] == 0)
+
+# The guard against the mistake that produced this line: the FIRST version of
+# the measurement swept every item-level gate and reported buildability falling
+# 73 -> 1, which was distractor-coverage and explanation-quality — debt the
+# invoice ALREADY prices — restated as a discovery.
+rows_all = fr.rows(B)
+sd = sum(r["stimulusDebt"] for r in rows_all if r["buildable"])
+td = sum(r["truncationDebt"] for r in rows_all if r["buildable"])
+check("the two new lines are a SMALL correction, not a collapse — if they were "
+      "large, the measurement is double-counting priced debt again",
+      0 < sd + td < 200, f"stimulus={sd} truncation={td}")
+check("buildability is unchanged by pricing them — a cost is not a disqualifier",
+      sum(1 for r in rows_all if r["buildable"]) == 73,
+      f"{sum(1 for r in rows_all if r['buildable'])}")
+check("cost() still charges nothing the gates do not — no third copy crept in",
+      "stimulusDebt" in src_new() and "gate_stimulus_integrity" in src_new())
+
 # --------------------------------------------------------------- total is a sum
 print("\n  THE TOTAL IS THE SUM OF ITS LINES")
 
@@ -200,11 +245,19 @@ rows = fr.rows(B)
 bad = [r for r in rows if r["buildable"] and r["totalAuthoringUnits"] != sum(
     r[k] for k in ("distractorRationale", "distractorTaxonomy", "dokRationale",
                    "translation", "choiceTranslation", "explanationRewrite",
-                   "choiceRebalance"))]
+                   "choiceRebalance", "stimulusDebt", "truncationDebt"))]
 check("every buildable row's TOTAL equals its own columns", not bad,
       f"{len(bad)} row(s) disagree: {[r['standard'] for r in bad[:5]]}")
-check("the two new columns reach the CSV", all(
-      k in rows[0] for k in ("distractorTaxonomy", "choiceTranslation")))
+check("every line reaches the CSV", all(
+      k in rows[0] for k in ("distractorTaxonomy", "choiceTranslation",
+                             "stimulusDebt", "truncationDebt")))
+# This proof is deliberately written against a HARD-CODED column list rather
+# than `rows[0].keys()`, so adding a line to the invoice and forgetting to add
+# it to the total FAILS here. It did exactly that when stimulusDebt and
+# truncationDebt went in, which is the only reason to write it this way.
+check("the total is the sum of the NAMED lines, so a new line cannot be "
+      "silently left out of it",
+      "stimulusDebt" in open(__file__, encoding="utf-8").read())
 
 print(f"\n  {'FAILED: ' + ', '.join(FAILED) if FAILED else 'all invoice proofs pass'}")
 sys.exit(1 if FAILED else 0)

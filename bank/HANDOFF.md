@@ -116,7 +116,7 @@ below it can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **74 lessons, 237 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **75 lessons, 244 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -262,13 +262,24 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**73 of 94 standards can build a form. 4,102 authoring units to green them all.**
+**73 of 94 standards can build a form. 4,163 authoring units to green them all.**
 Cheapest next: US.33 (22) · US.31 (32) · US.60 (33) · US.02 (35) · US.59 (38).
 
-*That total was **2,281** until 2026-10-04, and the difference is not a re-estimate — the
-invoice was carrying private copies of three rules the gates already owned (L72). It is
-the number that picks the next standard, so it had made the cheap work look cheaper than
-it is: every line a gate owns is now charged by calling that gate.*
+*That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither
+move was a re-estimate. The invoice had been carrying private copies of three rules the
+gates already owned (**L72**) — it is the number that picks the next standard, so it made
+the cheap work look cheaper than it is; every line a gate owns is now charged by calling
+that gate. The second move, +61, added the two gates it priced at nothing at all while
+forms went on selecting the items that fail them: `stimulusDebt` and `truncationDebt`
+(**L75**). That second measurement first came back saying buildability collapsed from 73
+to 1, which was `distractor-coverage` and `explanation-quality` — debt this invoice
+already prices — counted twice and read as a discovery. A defect rate near 100% is a sign
+the population is wrong, not a finding.*
+
+*`stimulusDebt` is the one line authoring cannot discharge: a stem saying "use the
+photograph" with no photograph needs a rights-cleared image or a rewritten stem, and both
+are decisions rather than units of writing (§6b, §6). It is counted anyway — an invoice
+that omits the work it cannot do reads as a smaller invoice rather than a blocked one.*
 
 Per form, the recipe that produced both forms:
 
