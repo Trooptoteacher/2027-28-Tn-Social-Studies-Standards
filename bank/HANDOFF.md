@@ -90,10 +90,10 @@ python3 tools/run_gates.py --form FORM-A    # one form, scoped
 python3 tools/form_readiness.py --csv reports/form-readiness.csv
 ```
 
-**Seventeen stages** (`grep -c '^stage ' tools/run_all.sh` — this line read "Twelve"
-until 2026-10-04, having been typed once and never re-counted). The ledger runs
-**first**: if a guard has gone missing, nothing below it
-can be trusted.
+**18 stages** (`grep -c '^stage ' tools/run_all.sh` — pinned by
+`check_handoff_numbers.py`, because this line read "Twelve" until 2026-10-04 and was then
+mis-corrected twice). The ledger runs **first**: if a guard has gone missing, nothing
+below it can be trusted.
 
 ## 4. The rules that matter
 
@@ -107,7 +107,7 @@ can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **72 lessons, 214 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **73 lessons, 225 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -141,6 +141,39 @@ edit had replaced publication titles with repository names — Langston Hughes's
 Speaks of Rivers"* read *"first published in Library of Congress, NAACP Records
 (loc.gov)"* when it was published in ***The Crisis***. The items are held out of service.
 Proposals are there; I could not reach loc.gov to verify, so nothing was rewritten.
+
+**d. Read the misconception family taxonomy — it is blocking every repair.**
+`taxonomy/misconception-families.json` carries `status: "DRAFT — families are a design
+artifact and need Sean's read before mass authoring cites them"`, and that line is now
+load-bearing. `apply_authoring.py` stamps `provenance.authoring`, which is what makes
+`misconception-taxonomy` begin judging an item — so **paying a distractor rationale
+creates a taxonomy obligation**, and until families can be cited, every repair adds
+findings. 66 distractors across 22 items fail that gate today and **20 of those 22 were
+written by the repair path itself.**
+
+The tool can now carry a family (`{"explanation":…, "misconception":…,
+"misconceptionFamily":"MC-F-06"}`, validated against the taxonomy). What it is waiting on
+is permission to cite. `reviewed/misconception-family-proposal.json` is the evidence for
+your read: all 66 drafted, each with a **fit**, nothing applied.
+
+**Drafting them found the defect, and it is in the taxonomy, not the items. Only 33 of 66
+resolve cleanly.**
+- **12 of the 13 that do not are ONE missing family — polarity reversal.** The student has
+  a policy's or an alliance's *direction* backwards: *"reverses which bloc the satellite
+  states belonged to"*, *"imposed control read as voluntary partnership"*, *"an arms
+  build-up read as an agreement to disarm"*. MC-F-04 is **causation** reversal and filing
+  these there would make one family mean two things in one report — the aggregation
+  failure the taxonomy exists to end. A 15th family is proposed, with wording.
+- **6 are not families at all.** *"contradicts the source"*, *"invents a time limit the
+  treaty does not contain"*, *"answers a question that was not asked"* describe what the
+  **option does**, not what the **student believes**. One field is holding two axes; a
+  second (`distractorFunction`) is proposed, with a family required only when the function
+  is `common-misconception`.
+- 13 more are approximate and 1 needs two families at once.
+
+**Forcing all 66 would record 33 diagnoses and 33 guesses in the one field the analytics
+layer is built to trust, and nothing downstream could tell them apart.** That is why they
+are drafted and not applied.
 
 **c. Spanish.** Everything I wrote sits at `translationStatus: needs-review`. 1,563 items
 across the bank are `not-started` because their "Spanish" was English, and 594 need review

@@ -26,9 +26,59 @@ class AuthoringError(Exception):
     pass
 
 
+TAXONOMY = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "taxonomy", "misconception-families.json")
+
+
+def _families():
+    """The family ids the taxonomy defines. Empty if the file is gone, and an
+    empty set makes `validate` refuse every family rather than accept any —
+    a missing taxonomy must re-raise the hold, not wave records through."""
+    if not os.path.exists(TAXONOMY):
+        return set()
+    with open(TAXONOMY, encoding="utf-8") as fh:
+        return {f["id"] for f in json.load(fh).get("families", [])}
+
+
+def normalise(payload):
+    """One internal shape for a distractor payload, from either authored form.
+
+    The record format was a bare 2-list `[explanation, misconception]` with no
+    slot for a family — and `misconception-taxonomy` fails a distractor that
+    names a misconception in free text and cites no family. Applying a record
+    therefore CREATED a finding: stamping `provenance.authoring` is exactly
+    what makes that gate start judging an item, so 20 of the 22 items failing
+    it today were written by this tool. The 2-list is still accepted, because
+    eight committed records use it and a committed record is data a reviewer
+    reads, not something to rewrite under them — but a record that uses it is
+    told what it is leaving behind.
+
+    Returns (explanation, misconception, family_or_None).
+    """
+    if isinstance(payload, list):
+        if len(payload) != 2 or not all(payload):
+            raise AuthoringError("needs [explanation, misconception], both non-empty")
+        return payload[0], payload[1], None
+    if isinstance(payload, dict):
+        expl = payload.get("explanation")
+        mis = payload.get("misconception")
+        fam = payload.get("misconceptionFamily")
+        if not expl or not mis:
+            raise AuthoringError("needs explanation and misconception, both non-empty")
+        return expl, mis, fam
+    raise AuthoringError("must be [explanation, misconception] or an object with "
+                         "explanation / misconception / misconceptionFamily")
+
+
 def validate(record, items_by_id):
-    """Fail before writing anything. A partial content write is worse than none."""
-    problems = []
+    """Fail before writing anything. A partial content write is worse than none.
+
+    Returns the distractors that will land with NO misconception family. They
+    are not an error — the 2-list form is still legal — but they are a cost,
+    and the caller prints it, because the gate they will fail is invisible
+    until the next full run.
+    """
+    problems, unfamilied, fams = [], [], _families()
     for iid, spec in record["items"].items():
         it = items_by_id.get(iid)
         if not it:
@@ -46,14 +96,28 @@ def validate(record, items_by_id):
             if cid == key:
                 problems.append(f"{iid}: {cid!r} is the KEY — a distractor rationale must never "
                                 f"be written onto the correct answer")
-            if not isinstance(payload, list) or len(payload) != 2 or not all(payload):
-                problems.append(f"{iid}/{cid}: needs [explanation, misconception], both non-empty")
-        mis = [p[1].strip().lower() for p in (spec.get("distractors") or {}).values()
-               if isinstance(p, list) and len(p) == 2]
+            try:
+                _, _, fam = normalise(payload)
+            except AuthoringError as e:
+                problems.append(f"{iid}/{cid}: {e}")
+                continue
+            if fam is None:
+                unfamilied.append(f"{iid}/{cid}")
+            elif fam not in fams:
+                problems.append(f"{iid}/{cid}: cites misconception family {fam!r}, which "
+                                f"taxonomy/misconception-families.json does not define "
+                                f"({len(fams)} defined)")
+        mis = []
+        for payload in (spec.get("distractors") or {}).values():
+            try:
+                mis.append(normalise(payload)[1].strip().lower())
+            except AuthoringError:
+                pass
         if len(mis) != len(set(mis)):
             problems.append(f"{iid}: two distractors name the same misconception")
     if problems:
         raise AuthoringError("authoring record rejected:\n  - " + "\n  - ".join(problems))
+    return unfamilied
 
 
 def main():
@@ -65,9 +129,16 @@ def main():
         rec = json.load(fh)
     items = itemio.load_dir(b.output_dir)
     by_id = {i["id"]: i for i in items}
-    validate(rec, by_id)
+    unfamilied = validate(rec, by_id)
     print(f"\nrecord validated: {len(rec['items'])} item(s), no key overwrites, "
           f"no invented choices, no duplicate misconceptions")
+    if unfamilied:
+        print(f"\n  ⚠ {len(unfamilied)} distractor(s) carry no misconceptionFamily and will "
+              f"FAIL `misconception-taxonomy`\n    once this record is applied — a free-text "
+              f"misconception cannot aggregate. Applying a\n    record is what makes that gate "
+              f"start judging the item, so this is a cost the\n    record incurs, not a "
+              f"pre-existing one: {', '.join(unfamilied[:6])}"
+              + (" …" if len(unfamilied) > 6 else ""))
 
     if not a.apply:
         print("DRY RUN — nothing written. Re-run with --apply."); return 0
@@ -89,10 +160,13 @@ def main():
                     if c.get("id") == cid:
                         c.setdefault("_wasText", c.get("text"))
                         c["text"] = txt
-            for cid, (expl, mis) in (spec.get("distractors") or {}).items():
+            for cid, payload in (spec.get("distractors") or {}).items():
+                expl, mis, fam = normalise(payload)
                 for c in r.get("choices") or []:
                     if c.get("id") == cid:
                         c["explanation"], c["misconception"] = expl, mis
+                        if fam:
+                            c["misconceptionFamily"] = fam
             if spec.get("stemEs"):
                 # Authored here, not by a certified translator.
                 r["translationStatus"] = "needs-review"

@@ -73,6 +73,16 @@ def live():
                          r"lessons,\s*([\d,]+) guards\*\*"),
         "buildable":    (_n(buildable), r"\*\*([\d,]+) of 94 standards can build a form"),
         "authoringUnits": (_n(units), r"can build a form\.\s*([\d,]+) authoring units"),
+        # Pinned because prose got it wrong three times in one sitting: the line
+        # read "Twelve stages" against seventeen, was "corrected" to thirteen by
+        # adding one to a stale figure, and then to nineteen. It was the only
+        # headline number in this file that nothing measured, which is the whole
+        # reason it kept rotting. Spelled in DIGITS so a regex can hold it — a
+        # number written as a word is a number no gate can read.
+        "suiteStages":  (_n(sum(1 for ln in open(
+                            os.path.join(itemio.BANK_ROOT, "tools", "run_all.sh"),
+                            encoding="utf-8") if ln.startswith("stage "))),
+                         r"\*\*([\d,]+) stages\*\*"),
     }
 
 

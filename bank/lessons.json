@@ -2,6 +2,7 @@
   "$comment": "The ledger. Every mistake made or found in this build names a GUARD that prevents its return, and tools/check_lessons.py fails the build if a lesson has no guard, if a named guard does not exist, or if a test suite is not registered to run. A lesson written down but not enforced is a promise; a lesson with a guard is a fact about the code.",
   "registeredSuites": [
     "tests/test_alignment.py",
+    "tests/test_apply_authoring.py",
     "tests/test_content_gates.py",
     "tests/test_form_gates.py",
     "tests/test_gates.py",
@@ -1368,6 +1369,57 @@
         {
           "file": "tests/test_invoice.py",
           "contains": "THE LENGTH-CUE REFACTOR LEFT THE VERDICT ALONE"
+        }
+      ]
+    },
+    {
+      "id": "L73",
+      "mistake": "THE GOVERNED REPAIR PATH WAS MANUFACTURING THE FINDINGS IT EXISTS TO CLEAR. `apply_authoring.py` wrote a distractor as `[explanation, misconception]` and had no slot for a `misconceptionFamily`, while `misconception-taxonomy` FAILS a distractor that names a misconception in free text and cites no family. The two facts only meet because applying a record also stamps `provenance.authoring` — which is exactly what makes that gate start judging the item. So every repair created findings: 66 distractors across 22 items fail the gate today and 20 of those 22 were written by this tool, including items in both forms the suite called 'proven green'. Nothing connected the two, because each half was correct on its own — the record format matched its own validator, and the gate matched its own docstring. The tool now accepts an object form carrying a family, validates it against `taxonomy/misconception-families.json` (refusing an id the taxonomy does not define, and refusing every id if the file is gone, so a missing taxonomy re-raises the hold rather than waving records through), never writes a family onto the KEY, and still accepts the legacy 2-list — but a run that uses it now PRINTS which distractors will fail the gate once applied, because a cost that only appears on the next full suite run is a cost nobody attributes to the record that caused it. Separately: the 66 were NOT then assigned. The taxonomy's own status line reads 'DRAFT — families are a design artifact and need Sean's read before mass authoring cites them', and assigning all 66 is that mass citation. They are DRAFTED in `reviewed/misconception-family-proposal.json` with a per-row fit, and drafting them is what found the real defect: only 33 of 66 resolve cleanly. 12 of the 13 that do not are ONE missing family — polarity reversal, the student holding a policy or alliance's direction backwards, which MC-F-04 (causation reversal) does not cover — and 6 more are not families at all but distractor FUNCTIONS (contradicts-stimulus, plausible-fabrication, right-answer-wrong-question), which is what the option DOES rather than what the student BELIEVES. One field is holding two axes. Forcing 66 assignments would have recorded 33 diagnoses and 33 guesses in the one field the analytics layer is built to trust, indistinguishably.",
+      "caughtBy": "Re-deriving the authoring invoice and asking why the misconception taxonomy was not on it; the answer was that paying the rationale line creates the taxonomy obligation.",
+      "guards": [
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "def normalise"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "def _families"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "a missing taxonomy must re-raise the hold"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "once this record is applied"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "BOTH AUTHORED SHAPES NORMALISE TO ONE"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "THE APPLY PATH, RUN FOR REAL IN A COPY OF THE REPO"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "a distractor's diagnosis is never written onto"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "THE FAMILY PROPOSAL CANNOT READ AS AN APPROVAL"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "which is the honest state while the taxonomy is DRAFT"
+        },
+        {
+          "file": "reviewed/misconception-family-proposal.json",
+          "contains": "Polarity reversal"
+        },
+        {
+          "file": "reviewed/misconception-family-proposal.json",
+          "contains": "distractorFunction"
         }
       ]
     }
