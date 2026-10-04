@@ -99,7 +99,7 @@ python3 tools/run_gates.py --form FORM-A    # one form, scoped
 python3 tools/form_readiness.py --csv reports/form-readiness.csv
 ```
 
-**19 stages** (`grep -c '^stage ' tools/run_all.sh` — pinned by
+**20 stages** (`grep -c '^stage ' tools/run_all.sh` — pinned by
 `check_handoff_numbers.py`, because this line read "Twelve" until 2026-10-04 and was then
 mis-corrected twice). The ledger runs **first**: if a guard has gone missing, nothing
 below it can be trusted.
@@ -116,7 +116,7 @@ below it can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **75 lessons, 244 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **76 lessons, 256 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -151,65 +151,42 @@ Speaks of Rivers"* read *"first published in Library of Congress, NAACP Records
 (loc.gov)"* when it was published in ***The Crisis***. The items are held out of service.
 Proposals are there; I could not reach loc.gov to verify, so nothing was rewritten.
 
-**d. Read the misconception family taxonomy — it is blocking every repair.**
-`taxonomy/misconception-families.json` carries `status: "DRAFT — families are a design
-artifact and need Sean's read before mass authoring cites them"`, and that line is now
-load-bearing. `apply_authoring.py` stamps `provenance.authoring`, which is what makes
-`misconception-taxonomy` begin judging an item — so **paying a distractor rationale
-creates a taxonomy obligation**, and until families can be cited, every repair adds
-findings. 66 distractors across 22 items fail that gate today and **20 of those 22 were
-written by the repair path itself.**
+**d. Authorise the WRITE of 66 misconception tags — the taxonomy itself is settled.**
+You read `reviewed/misconception-family-proposal.json` and directed both additions it argued
+for, so `taxonomy/misconception-families.json` is **taxonomyVersion 2, APPROVED for
+citation** (2026-10-04). What is left is the write, which is a separate act: nothing has been
+applied, and `misconception-taxonomy` still reports all 66.
 
-**MEASURED 2026-10-04 — this is the critical path, and the number is not small.**
-Repairing the **ten cheapest** standards would take `misconception-taxonomy` from **24
-findings to 144**. Every repair makes the bank worse on that gate until families can be
-cited, so the cheapest work available is currently the work that moves the release gate
-backwards.
+**What the two additions bought, measured:**
 
-| standard | invoice | taxonomy findings now | after a repair |
-|---|---|---|---|
-| US.33 | 22 | 0 | **9** |
-| US.31 | 32 | 0 | **12** |
-| US.60 | 33 | 12 | **18** |
-| US.02 | 35 | 0 | **9** |
-| US.59 | 38 | 12 | **18** |
-| US.36 | 42 | 0 | **18** |
-| US.32 | 44 | 0 | **18** |
-| US.49 | 45 | 0 | **12** |
-| US.52 | 45 | 0 | **12** |
-| US.62 | 45 | 0 | **18** |
-| **total** | | **24** | **144** |
+| | v1 (one axis) | v2 (two axes) |
+|---|---|---|
+| resolve cleanly | 33 / 66 | **52 / 66** |
+| approximate fit | 13 | 13 |
+| need two families | 1 | 1 |
+| **unresolved** | **13** | **0** |
+| **not a family at all** | **6** | **0** |
 
-**And it is not only distractor work that trips it.** `apply_authoring.py` stamps
-`provenance.authoring` on every item it touches, *unconditionally* — a repair that writes
-nothing but Spanish still flips the item to `authored`, and the gate then wants a family on
-each of its distractors. So this blocks the `translation`, `choiceTranslation`,
-`dokRationale` and `explanationRewrite` lines of the invoice too, not just
-`distractorRationale`. There is no cheap corner of stream 3 that routes around it.
+`MC-F-15 Polarity reversal` absorbed 12 of the 13 unresolved and is now the **second
+most-cited family in the bank**. The `distractorFunction` axis absorbed all 6 that were
+never families, plus the 13th unresolved case. **The 13 approximate fits were not forced
+clean by the new options** — that is pinned by a proof, because new options are exactly what
+tempts a re-classification.
 
-The tool can now carry a family (`{"explanation":…, "misconception":…,
-"misconceptionFamily":"MC-F-06"}`, validated against the taxonomy). What it is waiting on
-is permission to cite. `reviewed/misconception-family-proposal.json` is the evidence for
-your read: all 66 drafted, each with a **fit**, nothing applied.
+**Still open, and none of it blocks the write:** the means-for-ends shape (3 cases, no family
+fits — F4); MC-F-07 written in one direction only (F5); one distractor needing two families
+(F6); and **⚠ `plausible-fabrication` is flagged, not settled (F7)** — the CCR line in
+`history-hack-web-app` reached the opposite conclusion for its own items, that a distractor
+must never assert history that never happened. That rule was written for passage-based items
+where wrongness must be provable from the passage; these are standalone content items, and
+all four cases here *negate* a real fact rather than inventing an event. If you apply the CCR
+rule to this bank, the function becomes `itemFlaw: true` and those four get rewritten.
 
-**Drafting them found the defect, and it is in the taxonomy, not the items. Only 33 of 66
-resolve cleanly.**
-- **12 of the 13 that do not are ONE missing family — polarity reversal.** The student has
-  a policy's or an alliance's *direction* backwards: *"reverses which bloc the satellite
-  states belonged to"*, *"imposed control read as voluntary partnership"*, *"an arms
-  build-up read as an agreement to disarm"*. MC-F-04 is **causation** reversal and filing
-  these there would make one family mean two things in one report — the aggregation
-  failure the taxonomy exists to end. A 15th family is proposed, with wording.
-- **6 are not families at all.** *"contradicts the source"*, *"invents a time limit the
-  treaty does not contain"*, *"answers a question that was not asked"* describe what the
-  **option does**, not what the **student believes**. One field is holding two axes; a
-  second (`distractorFunction`) is proposed, with a family required only when the function
-  is `common-misconception`.
-- 13 more are approximate and 1 needs two families at once.
-
-**Forcing all 66 would record 33 diagnoses and 33 guesses in the one field the analytics
-layer is built to trust, and nothing downstream could tell them apart.** That is why they
-are drafted and not applied.
+**One retirement came with the axis.** `MC-F-11 Surface term match` was never a family — its
+own statement describes the *option* and its own reteach note said *"this is a test-taking
+error, not a content gap."* It is now the `surface-cue` **function**, flagged `itemFlaw`.
+Retired rather than deleted, and it cost no data only because nothing in the bank cited any
+family yet. **That window is now closed.**
 
 **c. Spanish.** Everything I wrote sits at `translationStatus: needs-review`. 1,563 items
 across the bank are `not-started` because their "Spanish" was English, and 594 need review

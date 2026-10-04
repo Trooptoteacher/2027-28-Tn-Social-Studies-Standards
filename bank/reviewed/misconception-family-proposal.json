@@ -1,60 +1,60 @@
 {
-  "$comment": "A PROPOSAL, NOT A WRITE. `taxonomy/misconception-families.json` carries status 'DRAFT — families are a design artifact and need Sean's read before mass authoring cites them', and assigning all 66 of the bank's free-text misconceptions to those 14 families is exactly the mass citation that line holds. So this file is the evidence for that read. Nothing here has been applied to any item; the misconception-taxonomy gate still FAILS on all 66, which is the honest state.",
-  "status": "DRAFT — awaiting Sean's read of the family taxonomy, then historian review",
-  "drafted": "2026-10-04",
-  "draftedBy": "Claude. An authoring agent may not approve its own work, and a family assignment is a claim about what a student believes.",
-  "appliesTo": "the 66 distractors that fail `misconception-taxonomy` today — every one of them carrying a free-text misconception with no family",
-  "whyItMatters": "`apply_authoring.py` stamps `provenance.authoring`, which is what makes `misconception-taxonomy` begin judging an item. So the governed repair path CREATES this failure: 20 of the 22 affected items were written by it. Until a family can be written alongside the rationale, every repair adds findings. The tool now accepts a family (see `tools/apply_authoring.py`); what it is waiting on is permission to cite.",
+  "$comment": "A PROPOSAL, NOT A WRITE. Nothing here has been applied to any item; misconception-taxonomy still FAILS on all 66, which is the honest state. What CHANGED on 2026-10-04 is that the taxonomy it proposes against is no longer DRAFT: Sean read the v1 version of this file, and directed the two additions that v1's own measurements argued for. This is the re-measurement against v2.",
+  "status": "READY TO APPLY — awaiting Sean's go-ahead on the write, which is a separate act from approving the taxonomy. Each applied assignment carries requiresHistorianReview, because a family is a claim about what a student believes.",
+  "drafted": "2026-10-04 (v1), re-measured against taxonomyVersion 2 the same day",
+  "draftedBy": "Claude. An authoring agent may not approve its own work.",
+  "taxonomyVersion": 2,
+  "whatSeansDecisionBought": "v1 measured 33 of 66 clean, 13 approximate, 13 UNRESOLVED and 6 NOT CLASSIFIABLE AT ALL. v2 measures 52 of 66 clean, 13 approximate, 1 needing two families, and ZERO of either failing category. The polarity-reversal family (MC-F-15) absorbed 12 of the 13 unresolved and is now the second-most-cited family in the bank; the distractorFunction axis absorbed all 6 that were not families, plus the 13th unresolved case (PS-0090/B, which turned out to be a partial-truth). Nothing was forced: the 13 approximate fits are unchanged and still say so.",
   "fitDistribution": {
-    "unresolved": 13,
-    "clear": 33,
+    "clear": 52,
     "approximate": 13,
-    "function-not-family": 6,
     "two-families": 1
   },
-  "findings": [
-    {
-      "id": "F1",
-      "severity": "high",
-      "finding": "ONLY 33 OF 66 RESOLVE CLEANLY. 13 are approximate, 1 needs two families at once, 6 are not families at all, and 13 do not resolve. A taxonomy that half-fits is not a taxonomy that needs more careful mapping — it is a taxonomy with a gap, and forcing 66 assignments would record 33 real diagnoses and 33 guesses in a field the analytics layer is built to trust. Nothing downstream could tell them apart."
-    },
-    {
-      "id": "F2",
-      "severity": "high",
-      "finding": "THE MISSING FAMILY IS POLARITY REVERSAL, and it is the single biggest cluster: 12 of the 13 unresolved distractors are one error — the student has the DIRECTION of a policy, relationship or alliance backwards. 'reverses which bloc the satellite states belonged to'; 'imposed control read as voluntary partnership'; 'an arms build-up read as an agreement to disarm'; 'the direction of federal involvement under the New Deal'. MC-F-04 (Causation reversal) is about cause and effect and does not cover it, and filing these there would make 'reverses cause and effect' mean two different things in one report — which is the aggregation failure the taxonomy exists to end. Proposed: a 15th family, 'Polarity reversal' — the student has the direction of a relationship, policy or alignment inverted; reteach shape is sorting statements into for/against, imposed/voluntary, toward/away.",
-      "proposedAddition": {
-        "id": "MC-F-15",
-        "name": "Polarity reversal",
-        "statement": "The student has the DIRECTION of a policy, relationship or alignment inverted — imposed read as voluntary, restriction as expansion, one bloc for its opposite.",
-        "diagnostic": "The chosen option is the accurate statement with its direction turned around.",
-        "reteachShape": "sorting statements into for/against, imposed/voluntary, toward/away — direction cards, not re-teaching the content"
-      }
-    },
-    {
-      "id": "F3",
-      "severity": "high",
-      "finding": "SIX OF THE 66 ARE NOT BELIEFS AT ALL, AND THE TAXONOMY HAS NOWHERE TO PUT THEM. 'contradicts the source, which documents abundant recruited labour' and 'invents a time limit the treaty does not contain' and 'answers a comparative-ideology question that was not asked' describe what the OPTION DOES, not what the student BELIEVES. A family is a reasoning error a student carries between items; 'this option contradicts the stimulus' is a property of the item. They are two axes and one field is holding both, so an analytics report aggregating on family would mix 'students who reverse causation' with 'distractors we wrote to contradict the passage'. Proposed: a SECOND axis, `distractorFunction` — what the option does (common-misconception · partial-truth · right-answer-wrong-question · plausible-fabrication · contradicts-stimulus) — with a family REQUIRED only when the function is `common-misconception`. Two of the five candidate functions (surface-cue, implausible) would be item FLAWS rather than legitimate functions."
-    },
+  "functionsUsed": {
+    "common-misconception": 59,
+    "contradicts-stimulus": 1,
+    "plausible-fabrication": 4,
+    "right-answer-wrong-question": 1,
+    "partial-truth": 1
+  },
+  "familiesUsed": {
+    "MC-F-15": 12,
+    "MC-F-06": 11,
+    "MC-F-02": 5,
+    "MC-F-04": 1,
+    "MC-F-01": 8,
+    "MC-F-13": 13,
+    "MC-F-03": 4,
+    "MC-F-07": 2,
+    "MC-F-14": 2,
+    "MC-F-08": 1
+  },
+  "whatIsStillOpen": [
     {
       "id": "F4",
       "severity": "medium",
-      "finding": "A RECURRING SHAPE THE 14 ALSO MISS: MEANS TAKEN FOR ENDS. 'mistakes a method of assimilation for its purpose' and 'mistakes an instrument of the New Deal for one of its three aims' are the same error and are currently filed to MC-F-04 and MC-F-13 respectively — two families for one confusion, which is the aggregation failure again, quieter. Three occurrences is thin evidence for a 16th family; noted so the next round can count rather than re-derive."
+      "finding": "MEANS TAKEN FOR ENDS — three cases, still no family that fits. US.05-GEN-02/C ('mistakes a method of assimilation for its purpose') and q-us45-dok1-1/D ('mistakes an instrument of the New Deal for one of its three aims') are the SAME error and are filed to MC-F-04 and MC-F-13 respectively, which is the aggregation failure in miniature. Three occurrences is thin evidence for a 16th family; recorded so the next round counts rather than re-derives. Unchanged from v1."
     },
     {
       "id": "F5",
       "severity": "low",
-      "finding": "MC-F-07 (Presentism) IS WRITTEN IN ONE DIRECTION ONLY — 'applies present-day values... to historical actors'. PS-0067's 'assumes excavation was manual' is the reverse: the student assumes the past was LESS capable than it was (the Culebra Cut was dug with steam shovels). Filed MC-F-07/approximate. Widening that statement to cover both directions costs nothing and would make one assignment clean."
+      "finding": "MC-F-07 (Presentism) IS WRITTEN IN ONE DIRECTION ONLY — 'applies present-day values to historical actors'. PS-0067/C is the reverse: the student assumes the past was LESS capable than it was (the Culebra Cut was dug with steam shovels). Widening that statement to cover both directions costs nothing and makes one assignment clean."
     },
     {
       "id": "F6",
       "severity": "low",
-      "finding": "ONE DISTRACTOR NEEDS TWO FAMILIES. PSTIM-0124/C — 'credits the president in office at completion rather than construction' — is a wrong ACTOR (MC-F-02) caused by wrong TIMING (MC-F-01). The schema takes one. Either is defensible and the choice changes what a report says the student needs. Flagged rather than decided."
+      "finding": "ONE DISTRACTOR NEEDS TWO FAMILIES. PSTIM-0124/C is a wrong ACTOR (MC-F-02) caused by wrong TIMING (MC-F-01). The schema takes one; either is defensible and the choice changes what a report says the student needs. Flagged rather than decided."
+    },
+    {
+      "id": "F7",
+      "severity": "medium",
+      "finding": "⚠ `plausible-fabrication` IS FLAGGED IN THE TAXONOMY AND NOT SETTLED. Four of these 66 use it. The CCR close-reading line in history-hack-web-app reached the OPPOSITE conclusion for its own items — a distractor must not assert history that never happened, because the distractor outlives the item. That rule was written for passage-based items where wrongness must be provable FROM the passage; these are standalone content items. All four here NEGATE a real fact (the treaty has no time limit; no withdrawal happened) rather than inventing a whole event. If Sean applies the CCR rule to this bank, the function becomes itemFlaw: true and those four distractors get rewritten rather than tagged."
     }
   ],
   "whatIsNotProposedHere": [
-    "No item is modified. The 66 findings stand.",
-    "No family is added to taxonomy/misconception-families.json — F2 and F3 are proposals for Sean's read, and a model adding a family to a taxonomy it was asked to apply would be approving its own work.",
-    "No IRT or calibration claim. Family assignment says nothing about item difficulty."
+    "No item is modified. The 66 findings stand until the write is authorised.",
+    "No further family or function is added. F4 and F5 are proposals for a later read; a model adding to a taxonomy it was asked to apply would be approving its own work.",
+    "No IRT or calibration claim. A family says nothing about item difficulty."
   ],
   "assignments": [
     {
@@ -65,10 +65,11 @@
       ],
       "authoringRecord": null,
       "misconceptionVerbatim": "reverses the direction of federal land policy in this period",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
-      "reviewerNote": "polarity: the student has the policy's DIRECTION backwards (restored land rather than divided it). Not MC-F-04, which is cause/effect."
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
+      "reviewerNote": "polarity: the Act DIVIDED tribal land; this option restores it. Right actor, right date, sign flipped."
     },
     {
       "itemId": "US.05-GEN-01",
@@ -78,6 +79,7 @@
       ],
       "authoringRecord": null,
       "misconceptionVerbatim": "confuses allotment policy with federal conservation",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -91,6 +93,7 @@
       ],
       "authoringRecord": null,
       "misconceptionVerbatim": "attributes federal action to tribal decision-making",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "clear",
@@ -104,10 +107,11 @@
       ],
       "authoringRecord": null,
       "misconceptionVerbatim": "reverses the schools' stated purpose",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
-      "reviewerNote": "polarity: the schools' stated purpose read backwards."
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
+      "reviewerNote": "polarity: the schools' stated purpose inverted."
     },
     {
       "itemId": "US.05-GEN-02",
@@ -117,10 +121,11 @@
       ],
       "authoringRecord": null,
       "misconceptionVerbatim": "mistakes a method of assimilation for its purpose",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-04",
       "proposedFamilyName": "Causation reversal",
       "fit": "approximate",
-      "reviewerNote": "a MEANS taken for an END. MC-F-04's 'outcome as the motive' is the nearest clause and it is not the same error."
+      "reviewerNote": "a MEANS taken for an END. See finding F4 — three cases, no family fits cleanly."
     },
     {
       "itemId": "US.05-GEN-02",
@@ -130,6 +135,7 @@
       ],
       "authoringRecord": null,
       "misconceptionVerbatim": "assumes treaty-making continued through the boarding-school era",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",
@@ -143,10 +149,11 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "reverses what the menu imagery represents",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
-      "reviewerNote": "polarity, in a VISUAL source: the menu imagery read backwards."
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
+      "reviewerNote": "polarity in a VISUAL source: the menu imagery read backwards."
     },
     {
       "itemId": "STIM-0019",
@@ -156,6 +163,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "recasts annexation as trade negotiation",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
@@ -169,6 +177,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "places the cartoon before the war rather than after",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",
@@ -182,6 +191,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "substitutes France for Colombia as the aggrieved party",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "clear",
@@ -195,6 +205,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "assumes the canal was contracted out to other nations",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "approximate",
@@ -208,6 +219,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "confuses Colombia with Spain as the colonial power",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -221,6 +233,7 @@
       ],
       "authoringRecord": "form-a-rebalance.json",
       "misconceptionVerbatim": "overstates the hydrological problem and its scale",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-03",
       "proposedFamilyName": "Scale or scope error",
       "fit": "clear",
@@ -234,10 +247,11 @@
       ],
       "authoringRecord": "form-a-rebalance.json",
       "misconceptionVerbatim": "contradicts the source, which documents abundant recruited labour",
+      "proposedDistractorFunction": "contradicts-stimulus",
       "proposedFamily": null,
       "proposedFamilyName": null,
-      "fit": "function-not-family",
-      "reviewerNote": "this option CONTRADICTS THE SOURCE. That is what the option DOES, not what the student believes — see the finding below."
+      "fit": "clear",
+      "reviewerNote": "RESOLVED BY THE AXIS. The excerpt documents abundant recruited labour; this option is refuted by the source the item supplies. v1 had nowhere to put it."
     },
     {
       "itemId": "PS-0067",
@@ -247,10 +261,11 @@
       ],
       "authoringRecord": "form-a-rebalance.json",
       "misconceptionVerbatim": "assumes excavation was manual",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-07",
       "proposedFamilyName": "Presentism",
       "fit": "approximate",
-      "reviewerNote": "assumes the past was less mechanised than it was. Presentism inverted; MC-F-07 is written for the forward direction only."
+      "reviewerNote": "assumes the past was less mechanised than it was — the Culebra Cut was dug with steam shovels. Presentism inverted; see F5."
     },
     {
       "itemId": "PSTIM-0124",
@@ -260,6 +275,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "assigns the canal to the preceding administration",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "clear",
@@ -273,10 +289,11 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "credits the president in office at completion rather than construction",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "two-families",
-      "reviewerNote": "wrong actor BECAUSE of wrong timing — MC-F-01 and MC-F-02 both apply and the schema takes one."
+      "reviewerNote": "wrong actor BECAUSE of wrong timing — MC-F-01 and MC-F-02 both apply and the schema takes one. See F6."
     },
     {
       "itemId": "PSTIM-0124",
@@ -286,6 +303,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "credits Roosevelt's successor with the decision",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "clear",
@@ -299,10 +317,11 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "reverses the direction of federal involvement under the New Deal",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
-      "reviewerNote": "polarity: the direction of federal involvement reversed."
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
+      "reviewerNote": "polarity: the direction of federal involvement under the New Deal, reversed."
     },
     {
       "itemId": "PSTIM-0149",
@@ -312,6 +331,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "mistakes a federally owned corporation for a private company",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
@@ -325,10 +345,11 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "treats the New Deal as continuous with 1920s policy",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "approximate",
-      "reviewerNote": "a PERIODISATION error — the New Deal read as continuous with the 1920s — rather than a displaced event."
+      "reviewerNote": "a PERIODISATION error rather than a displaced event."
     },
     {
       "itemId": "q-us45-dok1-1",
@@ -338,6 +359,7 @@
       ],
       "authoringRecord": "form-a-v2.json",
       "misconceptionVerbatim": "substitutes the modern recycling slogan for the New Deal's Three Rs",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-07",
       "proposedFamilyName": "Presentism",
       "fit": "clear",
@@ -351,10 +373,11 @@
       ],
       "authoringRecord": "form-a-v2.json",
       "misconceptionVerbatim": "guesses plausible-sounding R words without the programme's actual aims",
+      "proposedDistractorFunction": "plausible-fabrication",
       "proposedFamily": null,
       "proposedFamilyName": null,
-      "fit": "function-not-family",
-      "reviewerNote": "PLAUSIBLE FABRICATION — invented R-words. A property of the option, not a belief the student holds."
+      "fit": "clear",
+      "reviewerNote": "RESOLVED BY THE AXIS — invented R-words. See the reviewNote on this function; it is flagged, not settled."
     },
     {
       "itemId": "q-us45-dok1-1",
@@ -364,10 +387,11 @@
       ],
       "authoringRecord": "form-a-v2.json",
       "misconceptionVerbatim": "mistakes an instrument of the New Deal for one of its three aims",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "approximate",
-      "reviewerNote": "an instrument taken for an aim. Means-for-ends again, not a domain mismatch."
+      "reviewerNote": "an instrument taken for an aim. Means-for-ends again, see F4."
     },
     {
       "itemId": "q-us45-dok2-8",
@@ -377,6 +401,7 @@
       ],
       "authoringRecord": "form-a-v3.json",
       "misconceptionVerbatim": "confuses New Deal housing relief with New Deal labour policy",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -390,6 +415,7 @@
       ],
       "authoringRecord": "form-a-v3.json",
       "misconceptionVerbatim": "answers with European political conditions rather than U.S. labour law",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
@@ -403,10 +429,11 @@
       ],
       "authoringRecord": "form-a-v3.json",
       "misconceptionVerbatim": "answers a comparative-ideology question that was not asked",
+      "proposedDistractorFunction": "right-answer-wrong-question",
       "proposedFamily": null,
       "proposedFamilyName": null,
-      "fit": "function-not-family",
-      "reviewerNote": "RIGHT ANSWER, WRONG QUESTION — a true comparative-ideology statement that was not asked for."
+      "fit": "clear",
+      "reviewerNote": "RESOLVED BY THE AXIS — a true comparative-ideology statement answering a question that was not asked."
     },
     {
       "itemId": "q-us44-dok1-2",
@@ -416,6 +443,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "confuses the RFC with the Hawley-Smoot Tariff",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -429,6 +457,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "confuses the RFC with Hoover's voluntary cooperation policy",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -442,6 +471,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "confuses the RFC with the Bonus Army episode",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -455,6 +485,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "confuses the Bonus Army with the RFC",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -468,6 +499,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "confuses the Bonus Army with the Hawley-Smoot Tariff",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -481,6 +513,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "confuses the Bonus Army with Hoover's voluntary cooperation policy",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -494,6 +527,7 @@
       ],
       "authoringRecord": "form-a-rebalance.json",
       "misconceptionVerbatim": "overstates the charge as nationalisation of industry",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-03",
       "proposedFamilyName": "Scale or scope error",
       "fit": "clear",
@@ -507,6 +541,7 @@
       ],
       "authoringRecord": "form-a-rebalance.json",
       "misconceptionVerbatim": "confuses regulation and subsidy with land redistribution",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "approximate",
@@ -520,6 +555,7 @@
       ],
       "authoringRecord": "form-a-rebalance.json",
       "misconceptionVerbatim": "assumes federal relief replaced private charity",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-03",
       "proposedFamilyName": "Scale or scope error",
       "fit": "approximate",
@@ -533,6 +569,7 @@
       ],
       "authoringRecord": "form-b.json",
       "misconceptionVerbatim": "reads 'satellite state' as a reference to spaceflight",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-14",
       "proposedFamilyName": "Definition gap",
       "fit": "clear",
@@ -546,9 +583,10 @@
       ],
       "authoringRecord": "form-b.json",
       "misconceptionVerbatim": "mistakes imposed control for voluntary partnership",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
       "reviewerNote": "polarity: imposed control read as voluntary partnership."
     },
     {
@@ -559,9 +597,10 @@
       ],
       "authoringRecord": "form-b.json",
       "misconceptionVerbatim": "reverses which bloc the satellite states belonged to",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
       "reviewerNote": "polarity: which bloc the satellite states belonged to, reversed."
     },
     {
@@ -572,6 +611,7 @@
       ],
       "authoringRecord": "form-b.json",
       "misconceptionVerbatim": "confuses NATO's military purpose with postwar economic cooperation",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
@@ -585,10 +625,11 @@
       ],
       "authoringRecord": "form-b.json",
       "misconceptionVerbatim": "reads a defensive alliance as a step toward European political union",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "approximate",
-      "reviewerNote": "a defensive alliance read as political union — adjacent domain, not a clean mismatch."
+      "reviewerNote": "a defensive alliance read as political union — adjacent domain."
     },
     {
       "itemId": "PSTIM-0166",
@@ -598,6 +639,7 @@
       ],
       "authoringRecord": "form-b.json",
       "misconceptionVerbatim": "attributes decolonisation aims to an alliance of colonial powers",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "approximate",
@@ -611,6 +653,7 @@
       ],
       "authoringRecord": "form-b-balance.json",
       "misconceptionVerbatim": "confuses the military alliances with the parallel economic blocs",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
@@ -624,9 +667,10 @@
       ],
       "authoringRecord": "form-b-balance.json",
       "misconceptionVerbatim": "treats two opposing alliances as a cooperative project",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
       "reviewerNote": "polarity: two opposing alliances read as a cooperative project."
     },
     {
@@ -637,9 +681,10 @@
       ],
       "authoringRecord": "form-b-balance.json",
       "misconceptionVerbatim": "reads an arms build-up as an agreement to disarm",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
       "reviewerNote": "polarity: an arms build-up read as an agreement to disarm."
     },
     {
@@ -650,9 +695,10 @@
       ],
       "authoringRecord": "form-b-balance.json",
       "misconceptionVerbatim": "reverses the American tradition NATO broke with",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
       "reviewerNote": "polarity: the American tradition NATO broke with, reversed."
     },
     {
@@ -663,10 +709,11 @@
       ],
       "authoringRecord": "form-b-balance.json",
       "misconceptionVerbatim": "invents a time limit the treaty does not contain",
+      "proposedDistractorFunction": "plausible-fabrication",
       "proposedFamily": null,
       "proposedFamilyName": null,
-      "fit": "function-not-family",
-      "reviewerNote": "PLAUSIBLE FABRICATION — a time limit the treaty does not contain."
+      "fit": "clear",
+      "reviewerNote": "RESOLVED BY THE AXIS — a time limit the treaty does not contain."
     },
     {
       "itemId": "PSTIM-0167",
@@ -676,6 +723,7 @@
       ],
       "authoringRecord": "form-b-balance.json",
       "misconceptionVerbatim": "empties the alliance of the mutual-defence obligation that defines it",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-14",
       "proposedFamilyName": "Definition gap",
       "fit": "approximate",
@@ -689,6 +737,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "confuses the Marshall Plan with the Eisenhower Doctrine",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
@@ -702,6 +751,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "confuses economic aid with the military alliance",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
@@ -715,6 +765,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "confuses a single-city operation with a continental aid programme",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-03",
       "proposedFamilyName": "Scale or scope error",
       "fit": "clear",
@@ -728,6 +779,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "places a 1970s policy in a 1950 context",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",
@@ -741,9 +793,10 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "reverses the policy the deployment demonstrates",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
       "reviewerNote": "polarity: the policy the deployment demonstrates, reversed."
     },
     {
@@ -754,6 +807,7 @@
       ],
       "authoringRecord": "form-a.json",
       "misconceptionVerbatim": "confuses containing an opponent with acquiring territory",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
@@ -767,9 +821,10 @@
       ],
       "authoringRecord": "form-a-v2.json",
       "misconceptionVerbatim": "reverses which power the doctrine was aimed at",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
       "reviewerNote": "polarity: which power the doctrine was aimed at, reversed."
     },
     {
@@ -780,6 +835,7 @@
       ],
       "authoringRecord": "form-a-v2.json",
       "misconceptionVerbatim": "confuses the doctrine with the isolationism it replaced",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "approximate",
@@ -793,6 +849,7 @@
       ],
       "authoringRecord": "form-a-v2.json",
       "misconceptionVerbatim": "confuses supporting a government with acquiring territory",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
@@ -806,9 +863,10 @@
       ],
       "authoringRecord": "form-a-v2.json",
       "misconceptionVerbatim": "reverses the direction of the postwar policy shift",
-      "proposedFamily": null,
-      "proposedFamilyName": null,
-      "fit": "unresolved",
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-15",
+      "proposedFamilyName": "Polarity reversal",
+      "fit": "clear",
       "reviewerNote": "polarity: the direction of the postwar policy shift, reversed."
     },
     {
@@ -819,6 +877,7 @@
       ],
       "authoringRecord": "form-a-v2.json",
       "misconceptionVerbatim": "keeps the wartime alliance the doctrine was written to end",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "approximate",
@@ -832,10 +891,11 @@
       ],
       "authoringRecord": "form-a-v2.json",
       "misconceptionVerbatim": "invents a withdrawal that did not happen",
+      "proposedDistractorFunction": "plausible-fabrication",
       "proposedFamily": null,
       "proposedFamilyName": null,
-      "fit": "function-not-family",
-      "reviewerNote": "PLAUSIBLE FABRICATION — a withdrawal that did not happen."
+      "fit": "clear",
+      "reviewerNote": "RESOLVED BY THE AXIS — a withdrawal that did not happen."
     },
     {
       "itemId": "PSTIM-0041",
@@ -845,6 +905,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "reads a non-military response as a military one",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
@@ -858,10 +919,11 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "invents a negotiated settlement for the blockade",
+      "proposedDistractorFunction": "plausible-fabrication",
       "proposedFamily": null,
       "proposedFamilyName": null,
-      "fit": "function-not-family",
-      "reviewerNote": "PLAUSIBLE FABRICATION — a negotiated settlement for the blockade."
+      "fit": "clear",
+      "reviewerNote": "RESOLVED BY THE AXIS — a negotiated settlement for the blockade."
     },
     {
       "itemId": "PSTIM-0041",
@@ -871,6 +933,7 @@
       ],
       "authoringRecord": "form-a-balance.json",
       "misconceptionVerbatim": "attributes the end of Soviet communism to a 1948 operation",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",
@@ -884,6 +947,7 @@
       ],
       "authoringRecord": "form-a-rebalance.json",
       "misconceptionVerbatim": "substitutes personal friction for the structural cause the source names",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-08",
       "proposedFamilyName": "Single-cause reduction",
       "fit": "approximate",
@@ -897,10 +961,11 @@
       ],
       "authoringRecord": "form-a-rebalance.json",
       "misconceptionVerbatim": "assumes full technology sharing among the Allies",
+      "proposedDistractorFunction": "partial-truth",
       "proposedFamily": null,
       "proposedFamilyName": null,
-      "fit": "unresolved",
-      "reviewerNote": "a bare factual assumption (full Allied technology sharing) with no reasoning shape in the 14."
+      "fit": "clear",
+      "reviewerNote": "RESOLVED BY THE AXIS — a bare factual assumption (full Allied technology sharing) that neither answers the question nor encodes a reasoning error. v1 had nowhere to put it."
     },
     {
       "itemId": "PS-0090",
@@ -910,6 +975,7 @@
       ],
       "authoringRecord": "form-a-rebalance.json",
       "misconceptionVerbatim": "reverses the chronology of the UN and the Cold War blocs",
+      "proposedDistractorFunction": "common-misconception",
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",

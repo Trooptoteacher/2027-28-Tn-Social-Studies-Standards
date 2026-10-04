@@ -978,75 +978,172 @@ def gate_review_debt(items, binding=None) -> Result:
 TAXONOMY = os.path.join(itemio.BANK_ROOT, "taxonomy", "misconception-families.json")
 
 
-def _families():
+# A source may arrive as an `image` record or INLINE IN THE STEM, and in this
+# bank it is always the second: ZERO items carry an `image` record or a
+# `stimuli` list, while 178 supply a quotation or an excerpt in the stem. The
+# first version of the `contradicts-stimulus` check read `it.get("image")` and
+# would therefore have failed that function on EVERY item in the bank —
+# including all 178 it exists for. A gate that fires on the one case it was
+# written for is worse than no gate, and this one was caught by measuring
+# instead of by reading the field name.
+#
+# Deliberately EXCLUDED: the 108 items whose stem orders a visual and carries
+# no quotation (`gate_stimulus_integrity`'s population). A
+# `contradicts-stimulus` tag on one of those is genuinely a mis-tag — there is
+# nothing there to contradict — so the separation is the point, not an
+# accident of the pattern. Measured: 3,702 items supply nothing, 108 order a
+# visual they lack, 178 supply a source.
+_QUOTED_SPAN = re.compile(r'[\u201c\u201d"]([^\u201c\u201d"]{40,})[\u201c\u201d"]')
+_INLINE_SOURCE = re.compile(r"read the (excerpt|quotation|passage|document)|the excerpt below",
+                            re.I)
+
+
+def supplies_a_source(item) -> bool:
+    """Does this item put a source in front of the student at all?"""
+    if item.get("image") or item.get("stimuli"):
+        return True
+    stem = item.get("stem") or ""
+    return bool(_QUOTED_SPAN.search(stem) or _INLINE_SOURCE.search(stem))
+
+
+def _taxonomy():
     if not os.path.exists(TAXONOMY):
-        return {}
+        return {}, {}
     with open(TAXONOMY, encoding="utf-8") as fh:
-        return {f["id"]: f for f in json.load(fh).get("families", [])}
+        d = json.load(fh)
+    return ({f["id"]: f for f in d.get("families", [])},
+            {x["id"]: x for x in d.get("distractorFunctions", [])})
+
+
+def _families():
+    """Kept because callers outside this module read it. LIVE families only —
+    a retired id is not something new content may cite."""
+    fams, _ = _taxonomy()
+    return {k: v for k, v in fams.items() if not v.get("retired")}
 
 
 def gate_misconception_taxonomy(items, binding=None) -> Result:
-    """A distractor's misconception must resolve to a taxonomy ID.
+    """A distractor declares WHAT IT DOES, and if that is a misconception, WHICH one.
 
     This is the gate the whole analytics layer rests on. 66 misconceptions
-    existed in this bank and all 66 were DISTINCT FREE-TEXT SENTENCES — "assumes
-    excavation was manual", "assigns the canal to the preceding administration".
-    Two items teaching the same confusion carried two different sentences, so
-    nothing could count them together, and a remediation report that cannot
-    aggregate is a list of anecdotes.
+    existed in this bank and all 66 were DISTINCT FREE-TEXT SENTENCES —
+    "assumes excavation was manual", "assigns the canal to the preceding
+    administration". Two items teaching the same confusion carried two
+    different sentences, so nothing could count them together, and a
+    remediation report that cannot aggregate is a list of anecdotes.
 
-    A family ID recurs across items, standards AND courses. That is what lets a
-    report say "this student reverses cause and effect" — a transferable finding
-    — instead of "this student missed US.34". Free text stays as the human-
-    readable statement; the ID is what the analytics read.
+    TWO AXES since 2026-10-04 (taxonomyVersion 2, directed by Sean). One field
+    was holding both, and that is why 6 of those 66 could not be classified at
+    all: "contradicts the source", "invents a time limit the treaty does not
+    contain" and "answers a question that was not asked" describe the OPTION,
+    not the student. A `misconceptionFamily` is a reasoning error a student
+    carries BETWEEN items; a `distractorFunction` is a property of the item.
+    Aggregating both on one field would have mixed "students who reverse
+    causation" with "distractors we wrote to contradict the passage".
+
+    So: an authored distractor names a function. A family is required only when
+    that function is `common-misconception` — the one function with diagnostic
+    value between items. Two functions are ITEM FLAWS (`surface-cue`,
+    `implausible`) and are reported as findings rather than accepted, because
+    they are not things a writer may choose: a surface cue makes the item
+    beatable without reading, and a dead option narrows a four-choice item to
+    three while the IRT parameters go on assuming four.
 
     Legacy items are NOT failed for lacking a misconception: 3,771 of them were
     migrated before this existed and that is a stated gap, not a defect in the
-    gate. What fails is a misconception that CLAIMS a family the taxonomy does
-    not define, or an item authored after the taxonomy that names none.
+    gate. What fails is a distractor that CLAIMS a function or family the
+    taxonomy does not define, an authored distractor that names none, and an
+    authored `common-misconception` with no family.
     """
     name = "misconception-taxonomy"
     if (r := empty_scan_guard(name, items)):
         return r
-    fams = _families()
-    if not fams:
+    fams, funcs = _taxonomy()
+    live = {k for k, v in fams.items() if not v.get("retired")}
+    if not fams or not funcs:
         return Result(name, False, len(items), [Finding("(taxonomy)",
-            "no misconception families defined — the analytics layer has nothing to aggregate "
-            "on and every misconception is an anecdote", TAXONOMY)], judged=0)
-    findings, judged, cited = [], 0, collections.Counter()
+            "the taxonomy defines no families or no distractor functions — the analytics layer "
+            "has nothing to aggregate on and every misconception is an anecdote", TAXONOMY)],
+            judged=0)
+    needs_family = {k for k, v in funcs.items() if v.get("requiresFamily")}
+    flaws = {k for k, v in funcs.items() if v.get("itemFlaw")}
+
+    findings, judged = [], 0
+    cited_f, cited_fn = collections.Counter(), collections.Counter()
     for it in items:
         if not itemio.servable(it) or it.get("itemType") not in ("mcq", "multiple-select"):
             continue
         authored = (it.get("provenance") or {}).get("authoring") or it.get("aiGenerated")
+        has_stim = supplies_a_source(it)
         for ch in itemio.choices(it):
             if not isinstance(ch, dict) or ch.get("id") == it.get("correctAnswer"):
                 continue
-            fam, txt = ch.get("misconceptionFamily"), (ch.get("misconception") or "").strip()
-            if not fam and not txt:
+            fam = ch.get("misconceptionFamily")
+            fn = ch.get("distractorFunction")
+            txt = (ch.get("misconception") or "").strip()
+            cid = ch.get("id")
+            if not fn and not fam and not txt:
                 if authored:
                     judged += 1
                     findings.append(Finding(it.get("id", "?"),
-                        f"distractor {ch.get('id')} was authored with no misconception — a "
-                        f"distractor written to be merely wrong is noise, not diagnosis",
+                        f"distractor {cid} was authored with no distractorFunction — a distractor "
+                        f"written to be merely wrong is noise, not diagnosis",
                         it.get("_file", "")))
                 continue
             judged += 1
-            if not fam:
+            if fn and fn not in funcs:
                 findings.append(Finding(it.get("id", "?"),
-                    f"distractor {ch.get('id')} names a misconception in free text but cites no "
-                    f"family — free text cannot aggregate, so this diagnoses one student on one "
-                    f"item and nothing else", it.get("_file", "")))
+                    f"distractor {cid} claims function {fn!r}, which the taxonomy does not define "
+                    f"({', '.join(sorted(funcs))})", it.get("_file", "")))
                 continue
-            if fam not in fams:
+            if not fn:
                 findings.append(Finding(it.get("id", "?"),
-                    f"distractor {ch.get('id')} cites family {fam!r}, which the taxonomy does "
-                    f"not define ({len(fams)} defined)", it.get("_file", "")))
+                    f"distractor {cid} carries a misconception but names no distractorFunction — "
+                    f"until it says what the option DOES, nothing can tell a diagnosis from a "
+                    f"deliberately-wrong option", it.get("_file", "")))
                 continue
-            cited[fam] += 1
-    return Result(name, not findings, len(items), findings, judged=judged,
-                  note=(f"{len(cited)}/{len(fams)} family(ies) cited; "
-                        f"{sum(cited.values())} distractor(s) resolve to one"
-                        if cited else f"{len(fams)} family(ies) defined, none cited yet"))
+            cited_fn[fn] += 1
+            if fn in flaws:
+                findings.append(Finding(it.get("id", "?"),
+                    f"distractor {cid} is {fn!r}, which is an ITEM FLAW and not a function a "
+                    f"writer may choose — {funcs[fn]['statement']} Rewrite the option",
+                    it.get("_file", "")))
+                continue
+            if fn == "contradicts-stimulus" and not has_stim:
+                findings.append(Finding(it.get("id", "?"),
+                    f"distractor {cid} is 'contradicts-stimulus' on an item that puts no source "
+                    f"in front of the student — there is nothing for it to contradict",
+                    it.get("_file", "")))
+                continue
+            if fn in needs_family:
+                if not fam:
+                    findings.append(Finding(it.get("id", "?"),
+                        f"distractor {cid} is a common-misconception and cites no family. "
+                        f"free text cannot aggregate, so this diagnoses one student on one "
+                        f"item and nothing else", it.get("_file", "")))
+                    continue
+                if fam not in fams:
+                    findings.append(Finding(it.get("id", "?"),
+                        f"distractor {cid} cites family {fam!r}, which the taxonomy does not "
+                        f"define ({len(live)} live)", it.get("_file", "")))
+                    continue
+                if fam not in live:
+                    findings.append(Finding(it.get("id", "?"),
+                        f"distractor {cid} cites RETIRED family {fam!r} — "
+                        f"{fams[fam].get('supersededBy') or 'superseded'}", it.get("_file", "")))
+                    continue
+                cited_f[fam] += 1
+            elif fam:
+                findings.append(Finding(it.get("id", "?"),
+                    f"distractor {cid} is {fn!r} and also cites family {fam!r}. Only "
+                    f"common-misconception carries a family; a family on any other function is a "
+                    f"diagnosis the option does not support", it.get("_file", "")))
+    note = (f"{len(cited_f)}/{len(live)} live family(ies) cited; "
+            f"{sum(cited_f.values())} distractor(s) resolve to one; "
+            f"functions used: {dict(cited_fn) or 'none'}"
+            if cited_fn else f"{len(live)} live family(ies) and {len(funcs)} function(s) "
+                             f"defined, none cited yet")
+    return Result(name, not findings, len(items), findings, judged=judged, note=note)
 
 
 STIM_REF = re.compile(r"use the (image|photograph|cartoon|chart|graph|map|table)", re.I)

@@ -30,18 +30,32 @@ TAXONOMY = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__
                         "taxonomy", "misconception-families.json")
 
 
-def _families():
-    """The family ids the taxonomy defines. Empty if the file is gone, and an
-    empty set makes `validate` refuse every family rather than accept any —
-    a missing taxonomy must re-raise the hold, not wave records through."""
+def _taxonomy():
+    """Live families and the distractor functions, from the committed taxonomy.
+
+    Empty if the file is gone, and empty makes `validate` refuse every family
+    and every function rather than accept any:
+    a missing taxonomy must re-raise the hold, not wave records through.
+    """
     if not os.path.exists(TAXONOMY):
-        return set()
+        return set(), {}
     with open(TAXONOMY, encoding="utf-8") as fh:
-        return {f["id"] for f in json.load(fh).get("families", [])}
+        d = json.load(fh)
+    live = {f["id"] for f in d.get("families", []) if not f.get("retired")}
+    return live, {x["id"]: x for x in d.get("distractorFunctions", [])}
+
+
+def _families():
+    return _taxonomy()[0]
 
 
 def normalise(payload):
     """One internal shape for a distractor payload, from either authored form.
+
+    Returns (explanation, misconception, family, function). Since
+    taxonomyVersion 2 a distractor says WHAT IT DOES as well as which
+    misconception it encodes, and a family is required only when the function
+    is `common-misconception`.
 
     The record format was a bare 2-list `[explanation, misconception]` with no
     slot for a family — and `misconception-taxonomy` fails a distractor that
@@ -58,27 +72,29 @@ def normalise(payload):
     if isinstance(payload, list):
         if len(payload) != 2 or not all(payload):
             raise AuthoringError("needs [explanation, misconception], both non-empty")
-        return payload[0], payload[1], None
+        return payload[0], payload[1], None, None
     if isinstance(payload, dict):
         expl = payload.get("explanation")
         mis = payload.get("misconception")
         fam = payload.get("misconceptionFamily")
+        fn = payload.get("distractorFunction")
         if not expl or not mis:
             raise AuthoringError("needs explanation and misconception, both non-empty")
-        return expl, mis, fam
-    raise AuthoringError("must be [explanation, misconception] or an object with "
-                         "explanation / misconception / misconceptionFamily")
+        return expl, mis, fam, fn
+    raise AuthoringError("must be [explanation, misconception] or an object with explanation / "
+                         "misconception / distractorFunction / misconceptionFamily")
 
 
 def validate(record, items_by_id):
     """Fail before writing anything. A partial content write is worse than none.
 
-    Returns the distractors that will land with NO misconception family. They
-    are not an error — the 2-list form is still legal — but they are a cost,
-    and the caller prints it, because the gate they will fail is invisible
-    until the next full run.
+    Returns the distractors that will land with NO distractorFunction. They are
+    not an error — the 2-list form is still legal — but they are a cost, and
+    the caller prints it, because the gate they will fail is invisible until
+    the next full run.
     """
-    problems, unfamilied, fams = [], [], _families()
+    problems, untagged = [], []
+    fams, funcs = _taxonomy()
     for iid, spec in record["items"].items():
         it = items_by_id.get(iid)
         if not it:
@@ -97,16 +113,38 @@ def validate(record, items_by_id):
                 problems.append(f"{iid}: {cid!r} is the KEY — a distractor rationale must never "
                                 f"be written onto the correct answer")
             try:
-                _, _, fam = normalise(payload)
+                _, _, fam, fn = normalise(payload)
             except AuthoringError as e:
                 problems.append(f"{iid}/{cid}: {e}")
                 continue
-            if fam is None:
-                unfamilied.append(f"{iid}/{cid}")
-            elif fam not in fams:
-                problems.append(f"{iid}/{cid}: cites misconception family {fam!r}, which "
-                                f"taxonomy/misconception-families.json does not define "
-                                f"({len(fams)} defined)")
+            if fn is None and fam is None:
+                untagged.append(f"{iid}/{cid}")
+                continue
+            if fn is None:
+                problems.append(f"{iid}/{cid}: cites a family but names no distractorFunction. "
+                                f"Since taxonomyVersion 2 a family is only meaningful under "
+                                f"'common-misconception'")
+                continue
+            if fn not in funcs:
+                problems.append(f"{iid}/{cid}: claims distractorFunction {fn!r}, which the "
+                                f"taxonomy does not define ({', '.join(sorted(funcs))})")
+                continue
+            if funcs[fn].get("itemFlaw"):
+                problems.append(f"{iid}/{cid}: {fn!r} is an ITEM FLAW, not a function to write "
+                                f"down — {funcs[fn]['statement']} Rewrite the option instead of "
+                                f"labelling it")
+                continue
+            if funcs[fn].get("requiresFamily"):
+                if not fam:
+                    problems.append(f"{iid}/{cid}: is 'common-misconception' and cites no "
+                                    f"misconceptionFamily — free text cannot aggregate")
+                elif fam not in fams:
+                    problems.append(f"{iid}/{cid}: cites misconception family {fam!r}, which "
+                                    f"taxonomy/misconception-families.json does not define as "
+                                    f"live ({len(fams)} live)")
+            elif fam:
+                problems.append(f"{iid}/{cid}: is {fn!r} and also cites family {fam!r}. Only "
+                                f"'common-misconception' carries a family")
         mis = []
         for payload in (spec.get("distractors") or {}).values():
             try:
@@ -117,7 +155,7 @@ def validate(record, items_by_id):
             problems.append(f"{iid}: two distractors name the same misconception")
     if problems:
         raise AuthoringError("authoring record rejected:\n  - " + "\n  - ".join(problems))
-    return unfamilied
+    return untagged
 
 
 def main():
@@ -129,16 +167,16 @@ def main():
         rec = json.load(fh)
     items = itemio.load_dir(b.output_dir)
     by_id = {i["id"]: i for i in items}
-    unfamilied = validate(rec, by_id)
+    untagged = validate(rec, by_id)
     print(f"\nrecord validated: {len(rec['items'])} item(s), no key overwrites, "
           f"no invented choices, no duplicate misconceptions")
-    if unfamilied:
-        print(f"\n  ⚠ {len(unfamilied)} distractor(s) carry no misconceptionFamily and will "
-              f"FAIL `misconception-taxonomy`\n    once this record is applied — a free-text "
-              f"misconception cannot aggregate. Applying a\n    record is what makes that gate "
-              f"start judging the item, so this is a cost the\n    record incurs, not a "
-              f"pre-existing one: {', '.join(unfamilied[:6])}"
-              + (" …" if len(unfamilied) > 6 else ""))
+    if untagged:
+        print(f"\n  ⚠ {len(untagged)} distractor(s) carry no distractorFunction and will "
+              f"FAIL `misconception-taxonomy`\n    once this record is applied — until an option "
+              f"says what it DOES, nothing can tell a\n    diagnosis from a deliberately-wrong "
+              f"option. Applying a record is what makes that\n    gate start judging the item, so "
+              f"this is a cost the record incurs, not a\n    pre-existing one: "
+              f"{', '.join(untagged[:6])}" + (" …" if len(untagged) > 6 else ""))
 
     if not a.apply:
         print("DRY RUN — nothing written. Re-run with --apply."); return 0
@@ -161,10 +199,12 @@ def main():
                         c.setdefault("_wasText", c.get("text"))
                         c["text"] = txt
             for cid, payload in (spec.get("distractors") or {}).items():
-                expl, mis, fam = normalise(payload)
+                expl, mis, fam, fn = normalise(payload)
                 for c in r.get("choices") or []:
                     if c.get("id") == cid:
                         c["explanation"], c["misconception"] = expl, mis
+                        if fn:
+                            c["distractorFunction"] = fn
                         if fam:
                             c["misconceptionFamily"] = fam
             if spec.get("stemEs"):

@@ -42,14 +42,20 @@ print("\n  BOTH AUTHORED SHAPES NORMALISE TO ONE")
 
 import apply_authoring as aa
 
-check("the legacy 2-list still parses, with no family",
+# Four values since taxonomyVersion 2 (explanation, misconception, family,
+# function). The legacy 2-list carries NEITHER axis, which is the point: it is
+# still legal and still tells you what it leaves undone.
+check("the legacy 2-list still parses, with neither axis",
       aa.normalise(["why it is wrong", "what the student believes"])
-      == ("why it is wrong", "what the student believes", None))
+      == ("why it is wrong", "what the student believes", None, None))
 check("the object form carries a family",
       aa.normalise({"explanation": "x" * 12, "misconception": "y" * 12,
                     "misconceptionFamily": "MC-F-04"})[2] == "MC-F-04")
-check("the object form without a family is legal and reports None",
-      aa.normalise({"explanation": "x" * 12, "misconception": "y" * 12})[2] is None)
+check("…and a distractorFunction",
+      aa.normalise({"explanation": "x" * 12, "misconception": "y" * 12,
+                    "distractorFunction": "partial-truth"})[3] == "partial-truth")
+check("the object form without either axis is legal and reports None for both",
+      aa.normalise({"explanation": "x" * 12, "misconception": "y" * 12})[2:] == (None, None))
 
 for bad, why in [(["only one"], "a 1-list"), (["a", ""], "an empty half"),
                  ("a string", "a bare string"), ({"explanation": "x"}, "no misconception")]:
@@ -59,8 +65,10 @@ for bad, why in [(["only one"], "a 1-list"), (["a", ""], "an empty half"),
     except aa.AuthoringError:
         check(f"{why} is refused", True)
 
-check("the taxonomy's 14 families are what a family is checked against",
-      len(aa._families()) == 14, f"found {len(aa._families())}")
+check("14 LIVE families are what a family is checked against (MC-F-11 retired, "
+      "MC-F-15 added)",
+      len(aa._families()) == 14 and "MC-F-11" not in aa._families(),
+      f"found {sorted(aa._families())}")
 
 # --------------------------------------------------- end to end, in a sandbox
 print("\n  THE APPLY PATH, RUN FOR REAL IN A COPY OF THE REPO")
@@ -99,14 +107,15 @@ rec = {"$comment": "proof fixture", "items": {TARGET: {"distractors": {
     cid: {"explanation": f"This option names a real New Deal-era body, but not the "
                          f"one the stem asks about ({cid}).",
           "misconception": f"merges the RFC with another Hoover-era measure ({cid})",
+          "distractorFunction": "common-misconception",
           "misconceptionFamily": "MC-F-06"} for cid in cids}}}}
 recp = os.path.join(SB, "authoring", "proof-family.json")
 json.dump(rec, open(recp, "w", encoding="utf-8"), indent=2)
 
 r = run("authoring/proof-family.json")
-check("a record carrying families validates", r.returncode == 0, r.stdout + r.stderr)
-check("…and the no-family warning is NOT printed for it",
-      "carry no misconceptionFamily" not in r.stdout, r.stdout)
+check("a record carrying both axes validates", r.returncode == 0, r.stdout + r.stderr)
+check("…and the untagged warning is NOT printed for it",
+      "carry no distractorFunction" not in r.stdout, r.stdout)
 _, mid = find_item(TARGET)
 check("the dry run wrote nothing",
       [c.get("misconceptionFamily") for c in mid["choices"]] == [None] * len(mid["choices"]))
@@ -115,11 +124,15 @@ r = run("authoring/proof-family.json", "--apply")
 check("--apply exits 0", r.returncode == 0, r.stdout + r.stderr)
 _, after = find_item(TARGET)
 got = {c["id"]: c.get("misconceptionFamily") for c in after["choices"]}
+fn = {c["id"]: c.get("distractorFunction") for c in after["choices"]}
 check("every distractor named now carries its family",
       all(got[c] == "MC-F-06" for c in cids), f"{got}")
-check("the KEY carries no family — a distractor's diagnosis is never written onto "
+check("…and its distractorFunction",
+      all(fn[c] == "common-misconception" for c in cids), f"{fn}")
+check("the KEY carries neither — a distractor's diagnosis is never written onto "
       "the correct answer",
-      got[after["correctAnswer"]] is None, f"{got}")
+      got[after["correctAnswer"]] is None and fn[after["correctAnswer"]] is None,
+      f"{got} {fn}")
 check("the item is marked authored + requiresHistorianReview — a family is a claim "
       "about what a student believes",
       after.get("status") == "authored" and after.get("requiresHistorianReview") is True)
@@ -144,8 +157,8 @@ badp = os.path.join(SB, "authoring", "proof-bad-family.json")
 json.dump(bad, open(badp, "w", encoding="utf-8"), indent=2)
 r = run("authoring/proof-bad-family.json", "--apply")
 check("a family the taxonomy does not define is REFUSED", r.returncode != 0)
-check("…and the refusal names it and says how many are defined",
-      "MC-F-99" in (r.stdout + r.stderr) and "14 defined" in (r.stdout + r.stderr),
+check("…and the refusal names it and says how many are LIVE",
+      "MC-F-99" in (r.stdout + r.stderr) and "14 live" in (r.stdout + r.stderr),
       r.stdout + r.stderr)
 
 # The legacy shape still works, and still says what it costs.
@@ -158,7 +171,7 @@ r = run("authoring/proof-legacy.json")
 check("the legacy 2-list record still validates — eight committed records use it",
       r.returncode == 0, r.stdout + r.stderr)
 check("…and the run SAYS it will fail misconception-taxonomy, naming the distractor",
-      "carry no misconceptionFamily" in r.stdout and "q-us44-dok2-1/A" in r.stdout,
+      "carry no distractorFunction" in r.stdout and "q-us44-dok2-1/A" in r.stdout,
       r.stdout)
 
 shutil.rmtree(tmp, ignore_errors=True)
@@ -168,13 +181,20 @@ print("\n  THE FAMILY PROPOSAL CANNOT READ AS AN APPROVAL")
 
 PROP = os.path.join(BANK, "reviewed", "misconception-family-proposal.json")
 prop = json.load(open(PROP, encoding="utf-8"))
-check("it declares itself DRAFT", prop["status"].startswith("DRAFT"))
+# The purpose of this block is unchanged — a draft a model wrote must never
+# read as a signature. What changed is that the TAXONOMY is approved while the
+# ASSIGNMENTS are not, so the status moved from DRAFT to READY TO APPLY and the
+# proof follows it rather than being dropped.
+check("it declares itself not-yet-applied", prop["status"].startswith("READY TO APPLY"))
+check("…and says the write is a SEPARATE act from approving the taxonomy",
+      "separate act" in prop["status"])
 check("it covers exactly the 66 distractors that fail the gate",
       len(prop["assignments"]) == 66, f"{len(prop['assignments'])}")
 check("every assignment carries a FIT, so a guess cannot be read as a diagnosis",
       all(a.get("fit") for a in prop["assignments"]))
-check("only half resolve cleanly, and the file says so",
-      prop["fitDistribution"]["clear"] == 33, prop["fitDistribution"])
+check("52 of 66 resolve cleanly against taxonomyVersion 2, and the file says so "
+      "(it was 33 against v1)",
+      prop["fitDistribution"]["clear"] == 52, prop["fitDistribution"])
 check("the misconception text is quoted VERBATIM from the item, never paraphrased",
       all(a["misconceptionVerbatim"] for a in prop["assignments"]))
 

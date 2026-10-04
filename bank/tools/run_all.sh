@@ -22,6 +22,7 @@ stage "content gate proofs"   python3 tests/test_content_gates.py
 stage "re-home triage pins"   python3 tests/test_rehome.py
 stage "authoring invoice"     python3 tests/test_invoice.py
 stage "repair path"           python3 tests/test_apply_authoring.py
+stage "misconception axes"    python3 tests/test_taxonomy.py
 stage "admission refusal"     python3 tests/test_admission.py
 stage "print gate proofs"     python3 tests/test_form_gates.py
 # Reporting tools are code too. form_readiness.py broke silently when the

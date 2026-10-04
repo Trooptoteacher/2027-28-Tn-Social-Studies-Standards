@@ -1,68 +1,176 @@
 {
-  "$comment": "THE STRUCTURAL LAYER of the misconception taxonomy. A family is a REASONING ERROR, not a fact a student got wrong — and it is the reason this taxonomy is worth building at all. Free-text misconceptions cannot aggregate: 66 existed in this bank and all 66 were distinct sentences, so two items teaching the same confusion could never be counted together. A family ID recurs across items, standards AND COURSES, which is what lets the system say 'this student reverses cause and effect' rather than 'this student missed US.34'. Content-level misconceptions are authored per item and each one cites a family here.",
-  "taxonomyVersion": 1,
-  "status": "DRAFT — families are a design artifact and need Sean's read before mass authoring cites them",
-  "sourceOfRecord": "Claude, drafted 2026-09-05 for review. NOT a published framework; these are the recurring error shapes in history assessment, named so they can be counted.",
+  "$comment": "TWO AXES. A distractor says what it DOES (`distractorFunction`) and, when what it does is encode a real reasoning error, WHICH error (`misconceptionFamily`). They were one field until 2026-10-04, and one field holding two axes is why 6 of the bank's 66 real misconceptions could not be classified at all: 'contradicts the source', 'invents a time limit the treaty does not contain' and 'answers a question that was not asked' describe the OPTION, not the student. A family is a REASONING ERROR a student carries BETWEEN items. A family ID recurs across items, standards AND COURSES, which is what lets a report say 'this student reverses direction' rather than 'this student missed US.34'. A function is a property of the item. Aggregating on one field would have mixed 'students who reverse causation' with 'distractors we wrote to contradict the passage'.",
+  "taxonomyVersion": 2,
+  "status": "APPROVED for citation — Sean Reynolds, 2026-10-04, who directed the two additions in this version (the polarity-reversal family and the distractorFunction axis). Citing a family is now permitted; each individual assignment remains a claim about what a student believes and still carries requiresHistorianReview.",
+  "sourceOfRecord": "Claude, drafted 2026-09-05; v2 additions directed by Sean Reynolds 2026-10-04 after reading reviewed/misconception-family-proposal.json, which measured that only 33 of the bank's 66 real cases fitted v1. NOT a published framework; these are the recurring error shapes in history assessment, named so they can be counted.",
   "idFormat": {
     "families": "MC-F-nn — structural, course-independent",
-    "content": "MC-<PREFIX>-nnnn — one course's content misconception, cites a family"
+    "content": "MC-<PREFIX>-nnnn — one course's content misconception, cites a family",
+    "functions": "a fixed vocabulary, not an id series — the set is small and closed on purpose, because an open list cannot aggregate either"
   },
   "families": [
-    {"id": "MC-F-01", "name": "Chronological displacement",
-     "statement": "The student places a real event, policy or figure in the wrong period or the wrong order relative to another.",
-     "diagnostic": "Names something real but from the wrong decade or after the fact it supposedly caused.",
-     "reteachShape": "timeline placement and before/after sequencing, not re-teaching the content"},
-    {"id": "MC-F-02", "name": "Agent substitution",
-     "statement": "The student attributes a real action to the wrong actor, agency or level of government.",
-     "diagnostic": "Right action, wrong person, party, branch or agency.",
-     "reteachShape": "who-did-what sorting; actor cards against actions"},
-    {"id": "MC-F-03", "name": "Scale or scope error",
-     "statement": "The student treats a local or partial phenomenon as national or total, or the reverse.",
-     "diagnostic": "Generalises one state, city or group to the whole country, or shrinks a national policy to one place.",
-     "reteachShape": "map and magnitude work; who was actually affected"},
-    {"id": "MC-F-04", "name": "Causation reversal",
-     "statement": "The student takes an effect as the cause, or an outcome as the motive.",
-     "diagnostic": "The chosen option is downstream of the thing being explained.",
-     "reteachShape": "cause-and-effect chains, arrows drawn in one direction"},
-    {"id": "MC-F-05", "name": "Correlation read as causation",
-     "statement": "The student treats two things that happened together as one having produced the other.",
-     "diagnostic": "Picks a contemporaneous event with no causal mechanism.",
-     "reteachShape": "naming the mechanism, not the coincidence"},
-    {"id": "MC-F-06", "name": "Conflation of similar names",
-     "statement": "The student merges two acts, amendments, movements, wars or figures with similar names or purposes.",
-     "diagnostic": "Names a real thing adjacent to the right one — the Clayton for the Sherman, the 17th for the 18th.",
-     "reteachShape": "side-by-side compare of the two things being merged"},
-    {"id": "MC-F-07", "name": "Presentism",
-     "statement": "The student applies present-day values, categories or knowledge to historical actors.",
-     "diagnostic": "Attributes a modern motive or assumes actors knew what we know now.",
-     "reteachShape": "contextualisation; what the actor could actually have known"},
-    {"id": "MC-F-08", "name": "Single-cause reduction",
-     "statement": "The student explains a multi-causal event by one cause.",
-     "diagnostic": "Picks a real contributing cause and treats it as sufficient.",
-     "reteachShape": "weighting several causes rather than choosing one"},
-    {"id": "MC-F-09", "name": "Source purpose confusion",
-     "statement": "The student reads a persuasive, official or commercial source as neutral description.",
-     "diagnostic": "Takes a speech, advertisement or propaganda piece at face value as evidence of fact.",
-     "reteachShape": "HIPPO on the source; who made it and to move whom"},
-    {"id": "MC-F-10", "name": "Outcome determinism",
-     "statement": "The student assumes what happened was the only thing that could have happened.",
-     "diagnostic": "Rejects a real contemporary alternative as impossible because it did not occur.",
-     "reteachShape": "contingency; what else was genuinely on the table"},
-    {"id": "MC-F-11", "name": "Surface term match",
-     "statement": "The student selects the option that repeats vocabulary from the stem rather than the one that answers it.",
-     "diagnostic": "Chosen option shares a distinctive word with the stem and is otherwise unrelated.",
-     "reteachShape": "close reading of what the question asks; this is a test-taking error, not a content gap"},
-    {"id": "MC-F-12", "name": "Overgeneralisation from one case",
-     "statement": "The student takes a single well-known example as representative of a whole group or period.",
-     "diagnostic": "Applies the famous case's features to everyone in the category.",
-     "reteachShape": "counter-example work; how typical was the case"},
-    {"id": "MC-F-13", "name": "Category error",
-     "statement": "The student answers with the right KIND of thing from the wrong domain — an economic cause where a political one was asked.",
-     "diagnostic": "Domain mismatch between what was asked and what was chosen.",
-     "reteachShape": "sorting causes by domain before answering"},
-    {"id": "MC-F-14", "name": "Definition gap",
-     "statement": "The student does not hold the term's meaning and answers from its everyday sense.",
-     "diagnostic": "Chosen option matches the ordinary-language reading of a technical term.",
-     "reteachShape": "Frayer model on the term"}
+    {
+      "id": "MC-F-01",
+      "name": "Chronological displacement",
+      "statement": "The student places a real event, policy or figure in the wrong period or the wrong order relative to another.",
+      "diagnostic": "Names something real but from the wrong decade or after the fact it supposedly caused.",
+      "reteachShape": "timeline placement and before/after sequencing, not re-teaching the content"
+    },
+    {
+      "id": "MC-F-02",
+      "name": "Agent substitution",
+      "statement": "The student attributes a real action to the wrong actor, agency or level of government.",
+      "diagnostic": "Right action, wrong person, party, branch or agency.",
+      "reteachShape": "who-did-what sorting; actor cards against actions"
+    },
+    {
+      "id": "MC-F-03",
+      "name": "Scale or scope error",
+      "statement": "The student treats a local or partial phenomenon as national or total, or the reverse.",
+      "diagnostic": "Generalises one state, city or group to the whole country, or shrinks a national policy to one place.",
+      "reteachShape": "map and magnitude work; who was actually affected"
+    },
+    {
+      "id": "MC-F-04",
+      "name": "Causation reversal",
+      "statement": "The student takes an effect as the cause, or an outcome as the motive.",
+      "diagnostic": "The chosen option is downstream of the thing being explained.",
+      "reteachShape": "cause-and-effect chains, arrows drawn in one direction"
+    },
+    {
+      "id": "MC-F-05",
+      "name": "Correlation read as causation",
+      "statement": "The student treats two things that happened together as one having produced the other.",
+      "diagnostic": "Picks a contemporaneous event with no causal mechanism.",
+      "reteachShape": "naming the mechanism, not the coincidence"
+    },
+    {
+      "id": "MC-F-06",
+      "name": "Conflation of similar names",
+      "statement": "The student merges two acts, amendments, movements, wars or figures with similar names or purposes.",
+      "diagnostic": "Names a real thing adjacent to the right one — the Clayton for the Sherman, the 17th for the 18th.",
+      "reteachShape": "side-by-side compare of the two things being merged"
+    },
+    {
+      "id": "MC-F-07",
+      "name": "Presentism",
+      "statement": "The student applies present-day values, categories or knowledge to historical actors.",
+      "diagnostic": "Attributes a modern motive or assumes actors knew what we know now.",
+      "reteachShape": "contextualisation; what the actor could actually have known"
+    },
+    {
+      "id": "MC-F-08",
+      "name": "Single-cause reduction",
+      "statement": "The student explains a multi-causal event by one cause.",
+      "diagnostic": "Picks a real contributing cause and treats it as sufficient.",
+      "reteachShape": "weighting several causes rather than choosing one"
+    },
+    {
+      "id": "MC-F-09",
+      "name": "Source purpose confusion",
+      "statement": "The student reads a persuasive, official or commercial source as neutral description.",
+      "diagnostic": "Takes a speech, advertisement or propaganda piece at face value as evidence of fact.",
+      "reteachShape": "HIPPO on the source; who made it and to move whom"
+    },
+    {
+      "id": "MC-F-10",
+      "name": "Outcome determinism",
+      "statement": "The student assumes what happened was the only thing that could have happened.",
+      "diagnostic": "Rejects a real contemporary alternative as impossible because it did not occur.",
+      "reteachShape": "contingency; what else was genuinely on the table"
+    },
+    {
+      "id": "MC-F-11",
+      "name": "Surface term match",
+      "statement": "The student selects the option that repeats vocabulary from the stem rather than the one that answers it.",
+      "diagnostic": "Chosen option shares a distinctive word with the stem and is otherwise unrelated.",
+      "reteachShape": "n/a — retired. Fix the ITEM; there is nothing to reteach a student who was cued by a badly written option.",
+      "retired": true,
+      "supersededBy": "distractorFunction: surface-cue",
+      "retiredReason": "Never was a family. Its own statement describes the OPTION ('repeats vocabulary from the stem') and its own reteachShape said so outright — 'this is a test-taking error, not a content gap'. With the function axis in place the same error would be nameable two ways, which is precisely the aggregation failure this taxonomy exists to prevent. Retired rather than deleted, because deleting it erases the reasoning and the next person re-adds it. NO DATA MOVED: no item in the bank cited any family when this changed, so the cost was zero and the window for making it free has now closed."
+    },
+    {
+      "id": "MC-F-12",
+      "name": "Overgeneralisation from one case",
+      "statement": "The student takes a single well-known example as representative of a whole group or period.",
+      "diagnostic": "Applies the famous case's features to everyone in the category.",
+      "reteachShape": "counter-example work; how typical was the case"
+    },
+    {
+      "id": "MC-F-13",
+      "name": "Category error",
+      "statement": "The student answers with the right KIND of thing from the wrong domain — an economic cause where a political one was asked.",
+      "diagnostic": "Domain mismatch between what was asked and what was chosen.",
+      "reteachShape": "sorting causes by domain before answering"
+    },
+    {
+      "id": "MC-F-14",
+      "name": "Definition gap",
+      "statement": "The student does not hold the term's meaning and answers from its everyday sense.",
+      "diagnostic": "Chosen option matches the ordinary-language reading of a technical term.",
+      "reteachShape": "Frayer model on the term"
+    },
+    {
+      "id": "MC-F-15",
+      "name": "Polarity reversal",
+      "statement": "The student has the DIRECTION of a policy, relationship or alignment inverted — imposed read as voluntary, restriction as expansion, one bloc for its opposite.",
+      "diagnostic": "The chosen option is the accurate statement with its direction turned around. The student holds the content and has the sign wrong.",
+      "reteachShape": "sorting statements into for/against, imposed/voluntary, toward/away — direction cards, not re-teaching the content",
+      "notToBeConfusedWith": {
+        "MC-F-04": "Causation reversal is about causal ORDER — an effect taken for its cause. This is about VALENCE. 'The Dawes Act restored tribal land' has the right actor, the right date and the right subject, and the sign flipped; nothing about it is a cause mistaken for an effect. Filing these under MC-F-04 would make one family mean two things in one report."
+      },
+      "added": "2026-10-04, directed by Sean Reynolds. It is the largest single gap v1 had: 12 of the 13 unclassifiable cases in reviewed/misconception-family-proposal.json were this one error — 'reverses which bloc the satellite states belonged to', 'imposed control read as voluntary partnership', 'an arms build-up read as an agreement to disarm'."
+    }
+  ],
+  "distractorFunctions": [
+    {
+      "id": "common-misconception",
+      "statement": "The option encodes a real reasoning error a student actually makes.",
+      "requiresFamily": true,
+      "itemFlaw": false,
+      "note": "The only function that carries diagnostic value between items, and therefore the only one that must name a family. This is what the whole analytics layer reads."
+    },
+    {
+      "id": "partial-truth",
+      "statement": "The option is true but does not answer the question asked, or answers only part of it.",
+      "requiresFamily": false,
+      "itemFlaw": false,
+      "note": "Legitimate and often the hardest distractor in a set. It has no family because the student's error is in reading the question, not in holding a belief about the past."
+    },
+    {
+      "id": "right-answer-wrong-question",
+      "statement": "The option is true and on-topic, and answers a question that was not asked.",
+      "requiresFamily": false,
+      "itemFlaw": false,
+      "note": "Distinct from partial-truth: this one fully answers a DIFFERENT question."
+    },
+    {
+      "id": "contradicts-stimulus",
+      "statement": "The option is refuted by the source or data the item supplies.",
+      "requiresFamily": false,
+      "itemFlaw": false,
+      "note": "Only available to an item that CARRIES a stimulus. On a stimulus-free item this function is a mis-tag, and gate_stimulus_integrity is what makes that checkable."
+    },
+    {
+      "id": "plausible-fabrication",
+      "statement": "The option asserts something that sounds right and did not happen — a term the treaty does not contain, a withdrawal that never occurred.",
+      "requiresFamily": false,
+      "itemFlaw": false,
+      "reviewNote": "⚠ FLAGGED FOR SEAN, NOT SETTLED HERE. The CCR close-reading line in history-hack-web-app reached the OPPOSITE conclusion for its own items — 'a distractor must not assert history that never happened', because the distractor outlives the item and a student may remember the false claim rather than the correction. That rule was written for passage-based items where wrongness must be provable FROM the passage; these are standalone content items, where wrongness is established by the history. Four of this bank's 66 real cases use this function and all four NEGATE a real fact (the treaty has no time limit; no withdrawal happened) rather than inventing a whole event, which is the milder form. It is included because the 66 cannot be classified without it. If Sean applies the CCR rule here, this becomes itemFlaw: true and those four distractors get rewritten."
+    },
+    {
+      "id": "surface-cue",
+      "statement": "The option repeats a distinctive word from the stem and is otherwise unrelated.",
+      "requiresFamily": false,
+      "itemFlaw": true,
+      "note": "AN ITEM FLAW, NOT A FUNCTION A WRITER MAY CHOOSE. It makes the item beatable without reading, which is `choice-length-cue` in a different register. The gate reports it as a finding. It SUPERSEDES family MC-F-11 — see that entry."
+    },
+    {
+      "id": "implausible",
+      "statement": "The option is one no student who had attended the lesson would consider.",
+      "requiresFamily": false,
+      "itemFlaw": true,
+      "note": "AN ITEM FLAW. A dead option narrows a four-choice item to three and inflates the guessing rate the IRT parameters assume. The gate reports it as a finding."
+    }
   ]
 }

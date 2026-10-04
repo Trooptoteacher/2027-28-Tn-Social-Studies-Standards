@@ -10,7 +10,8 @@
     "tests/test_invoice.py",
     "tests/test_mutation.py",
     "tests/test_regressions.py",
-    "tests/test_rehome.py"
+    "tests/test_rehome.py",
+    "tests/test_taxonomy.py"
   ],
   "lessons": [
     {
@@ -1511,6 +1512,61 @@
         {
           "file": "tests/test_invoice.py",
           "contains": "silently left out of it"
+        }
+      ]
+    },
+    {
+      "id": "L76",
+      "mistake": "ONE FIELD WAS HOLDING TWO AXES, and the proof is that 6 of the bank's 66 real misconceptions could not be classified at all. 'contradicts the source', 'invents a time limit the treaty does not contain' and 'answers a question that was not asked' describe what the OPTION DOES, not what the STUDENT BELIEVES — and a report aggregating on one field would have mixed 'students who reverse causation' with 'distractors we wrote to contradict the passage'. taxonomyVersion 2 (directed by Sean 2026-10-04) splits them: `distractorFunction` is what the option does, `misconceptionFamily` is which reasoning error it encodes, and a family is required only under `common-misconception` — the one function with diagnostic value between items. Two functions (`surface-cue`, `implausible`) are ITEM FLAWS and are reported as findings rather than accepted, because they are not things a writer may choose. The second addition, family MC-F-15 Polarity reversal, closed the largest single gap: 12 of the 13 unclassifiable cases were one error — the student holding a policy's or alliance's DIRECTION backwards — which MC-F-04 (causation reversal) does not cover, and filing them there would have made one family mean two things in one report. Measured: clean fits went 33/66 to 52/66, both failing categories went to zero, and the 13 approximate fits were NOT forced clean by the new options. THREE THINGS THE CHANGE ITSELF TAUGHT. (1) ADDING THE AXIS RETIRED A FAMILY. MC-F-11 'Surface term match' was never a family: its own statement describes the option ('repeats vocabulary from the stem') and its own reteachShape said 'this is a test-taking error, not a content gap'. With the axis in place the same error was nameable two ways. Retired rather than deleted — deleting erases the reasoning and the next person re-adds it — and it cost NO data only because nothing in the bank cited any family yet. That window is now closed. (2) THE `contradicts-stimulus` CHECK NEARLY SHIPPED BROKEN. I wrote `has_stim = bool(it.get('image'))`, and ZERO items in this bank carry an `image` record: all 178 source-bearing items supply the source INLINE IN THE STEM. The check would have failed that function on EVERY item in the bank, including all 178 it exists for — a gate firing on the one case it was written for, which is worse than no gate. `supplies_a_source()` now measures a quoted span or an excerpt phrase, and it DELIBERATELY excludes the 108 items whose stem orders a visual they do not carry, because a contradicts-stimulus tag on one of those really is a mis-tag. Measured separation: 3,702 supply nothing, 108 order a visual they lack, 178 supply a source. Caught by measuring the field instead of trusting its name. (3) A CONTRACT CHANGE BREAKS THE PROOFS THAT PINNED THE OLD ONE, and that is not a reason to relax them. Eleven assertions in tests/test_apply_authoring.py failed; every one was re-pointed at the NEW and STRICTER contract (a function is required as well as a family) rather than loosened, and the proposal proof kept its purpose — a draft a model wrote must never read as a signature — while its status moved DRAFT to READY TO APPLY.",
+      "caughtBy": "Sean, reading reviewed/misconception-family-proposal.json v1, which measured that only 33 of 66 real cases fitted the one-axis taxonomy.",
+      "guards": [
+        {
+          "file": "taxonomy/misconception-families.json",
+          "contains": "TWO AXES"
+        },
+        {
+          "file": "taxonomy/misconception-families.json",
+          "contains": "Polarity reversal"
+        },
+        {
+          "file": "taxonomy/misconception-families.json",
+          "contains": "Never was a family"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def supplies_a_source"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "including all 178 it exists for"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "an ITEM FLAW and not a function a"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "is an ITEM FLAW, not a function to write"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "MC-F-11 WAS NEVER A FAMILY, AND CANNOT COME BACK AS ONE"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "contradicts-stimulus IS ACCEPTED ON THE ITEMS IT EXISTS FOR"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "A FAMILY IS REQUIRED ONLY WHERE IT MEANS SOMETHING"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "were NOT forced clean by the new options"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "proof follows it rather than being dropped"
         }
       ]
     }
