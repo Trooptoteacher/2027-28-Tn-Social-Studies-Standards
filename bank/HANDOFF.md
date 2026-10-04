@@ -160,6 +160,33 @@ creates a taxonomy obligation**, and until families can be cited, every repair a
 findings. 66 distractors across 22 items fail that gate today and **20 of those 22 were
 written by the repair path itself.**
 
+**MEASURED 2026-10-04 — this is the critical path, and the number is not small.**
+Repairing the **ten cheapest** standards would take `misconception-taxonomy` from **24
+findings to 144**. Every repair makes the bank worse on that gate until families can be
+cited, so the cheapest work available is currently the work that moves the release gate
+backwards.
+
+| standard | invoice | taxonomy findings now | after a repair |
+|---|---|---|---|
+| US.33 | 22 | 0 | **9** |
+| US.31 | 32 | 0 | **12** |
+| US.60 | 33 | 12 | **18** |
+| US.02 | 35 | 0 | **9** |
+| US.59 | 38 | 12 | **18** |
+| US.36 | 42 | 0 | **18** |
+| US.32 | 44 | 0 | **18** |
+| US.49 | 45 | 0 | **12** |
+| US.52 | 45 | 0 | **12** |
+| US.62 | 45 | 0 | **18** |
+| **total** | | **24** | **144** |
+
+**And it is not only distractor work that trips it.** `apply_authoring.py` stamps
+`provenance.authoring` on every item it touches, *unconditionally* — a repair that writes
+nothing but Spanish still flips the item to `authored`, and the gate then wants a family on
+each of its distractors. So this blocks the `translation`, `choiceTranslation`,
+`dokRationale` and `explanationRewrite` lines of the invoice too, not just
+`distractorRationale`. There is no cheap corner of stream 3 that routes around it.
+
 The tool can now carry a family (`{"explanation":…, "misconception":…,
 "misconceptionFamily":"MC-F-06"}`, validated against the taxonomy). What it is waiting on
 is permission to cite. `reviewed/misconception-family-proposal.json` is the evidence for
