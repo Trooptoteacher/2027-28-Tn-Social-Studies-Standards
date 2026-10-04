@@ -79,6 +79,12 @@ def live():
         # headline number in this file that nothing measured, which is the whole
         # reason it kept rotting. Spelled in DIGITS so a regex can hold it — a
         # number written as a word is a number no gate can read.
+        # Pinned for the same reason as suiteStages: §8 said "twelve item-level
+        # gates" for however long it had been twelve, and a count of the gates
+        # standing between a draft and the bank is the last number in this file
+        # that should be taken on trust.
+        "admissionGates": (_n(len(__import__("submit_items").ADMISSION_GATES)),
+                           r"\*\*([\d,]+) admission gates\*\*"),
         "suiteStages":  (_n(sum(1 for ln in open(
                             os.path.join(itemio.BANK_ROOT, "tools", "run_all.sh"),
                             encoding="utf-8") if ln.startswith("stage "))),

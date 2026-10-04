@@ -101,6 +101,15 @@ def main():
   `translationStatus` must match what the fields actually contain.
 - **Calibration** — `calibrationStatus: "pre-field-test"`. Parameters that have never met a
   student are estimates.
+- **Field-testability** — `tcapFormat: false`. Every item must SAY whether it is
+  field-testable; a form built from an item that does not say cannot state what it is. These
+  are classroom-formative and pre-field-test, so `false` is the honest value — and saying
+  nothing is not the same as saying false.
+- **A stimulus you reference, you carry.** If the stem says "use the photograph", the item
+  needs an `image` record with `src`, `alt`, `altEs`, `citationChicago`, `rightsLabel`,
+  `rightsStatementVerbatim`, `hostingInstitution` and `commercialUse: "permitted"`. 111
+  items in the migrated bank tell a student to read an image that is not there. Do not
+  write the 112th: either attach the source or write a text-only stem.
 """)
     L.append(f"## Existing items for {a.standard}\n")
     L.append(f"{len(have)} aligned item(s) already exist. Generate to FILL THE SLOTS above, "
@@ -130,6 +139,12 @@ def main():
         "irtParameters": None, "calibrationStatus": "pre-field-test",
         "bankTier": "teacher", "status": "authored",
         "alignmentStatus": "evidenced", "requiresHistorianReview": True,
+        # Required at ADMISSION since 2026-10-04. It was absent from this
+        # skeleton and backfilled into the bank afterwards by
+        # backfill_assessment_metadata.py — a post-admission batch fix, which
+        # is the one pattern the mandate names outright. An item that does not
+        # say whether it is field-testable is an item a form cannot describe.
+        "tcapFormat": False,
     }, indent=2) + "\n```\n")
     L.append("Then: `python3 tools/submit_items.py generation/" + a.standard +
              ".draft.json` — it refuses anything that fails a gate and names what to fix.\n")

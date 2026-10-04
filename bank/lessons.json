@@ -1,6 +1,7 @@
 {
   "$comment": "The ledger. Every mistake made or found in this build names a GUARD that prevents its return, and tools/check_lessons.py fails the build if a lesson has no guard, if a named guard does not exist, or if a test suite is not registered to run. A lesson written down but not enforced is a promise; a lesson with a guard is a fact about the code.",
   "registeredSuites": [
+    "tests/test_admission.py",
     "tests/test_alignment.py",
     "tests/test_apply_authoring.py",
     "tests/test_content_gates.py",
@@ -1420,6 +1421,61 @@
         {
           "file": "reviewed/misconception-family-proposal.json",
           "contains": "distractorFunction"
+        }
+      ]
+    },
+    {
+      "id": "L74",
+      "mistake": "TWELVE ITEM-LEVEL GATES RAN ON THE BANK AND NOT AT ADMISSION, which is the one shape the mandate names outright: 'a post-admission batch gate is not an acceptable substitute'. An item could be ADMITTED and immediately fail them, and the only thing that noticed was a whole-bank run nobody could attribute to the draft that caused it. The exclusion was a BLANKET — one comment saying bank-level gates are 'not applicable to a draft in isolation' — and a blanket is what let six genuine admission gates hide behind six legitimate ones. Measured against a real draft, eleven of the twelve passed or were honestly N/A, so this was never a hard problem; it was an unexamined comment. Six now run at admission (serveability, reporting-category-provenance, key-contradiction, tcap-format, rubric, stimulus-integrity), taking the list from 12 to 18, and the other six are excluded BY NAME with their own reason: `signal-coverage` measures the standards FILE and judged 94 standards whatever was submitted, so at admission it is a corpus check wearing an admission badge; `bias-review`, `review-provenance`, `review-debt` and `ai-review-boundary` are review-STATE gates and a fresh draft has no review state by definition, so each would pass vacuously on every submission — a gate that cannot fail where it runs is worse than no gate, and adding them to make a count look better would be breaking this bank's own rule; and `misconception-taxonomy` is HELD rather than excluded, because it fails every authored distractor citing no family and the taxonomy's own status is DRAFT pending Sean's read (L73). MOVING THEM FOUND TWO THINGS IMMEDIATELY. (1) `tcapFormat` was absent from the generation skeleton and backfilled into the bank afterwards by `backfill_assessment_metadata.py` — the forbidden pattern itself, found by the change that forbids it. The brief now requires it, and the committed US.05 draft genuinely fails today's admission, which is the honest record of how it got in. (2) `stimulus-integrity` returned NOT MEASURED on any text-only draft, because on the whole bank something always references a stimulus so `judged` was never 0 — it would have refused every text-only draft ever submitted, with the vacuous-pass guard firing in the wrong direction. Its empty population is now a reasoned N/A, and N/A remains UNREACHABLE while the population exists (111 items on the bank), which is what stops `inapplicable` becoming the loophole it could be. One proof of mine also asserted the wrong mechanism: an undefined standard code is refused by `binding.assert_codes()` BEFORE any gate runs, harder than serveability would have caught it. Corrected to assert what happens, because a proof naming the wrong mechanism passes for the wrong reason the day the mechanism moves.",
+      "caughtBy": "Asking, after the taxonomy finding, which other gates a newly admitted item could immediately fail.",
+      "guards": [
+        {
+          "file": "tools/submit_items.py",
+          "contains": "post-admission batch gate is not an acceptable"
+        },
+        {
+          "file": "tools/submit_items.py",
+          "contains": "HELD, not excluded"
+        },
+        {
+          "file": "tools/submit_items.py",
+          "contains": "passes vacuously on every submission"
+        },
+        {
+          "file": "tools/submit_items.py",
+          "contains": "corpus check wearing an"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "is N/A, with the"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "keeps it from becoming the loophole"
+        },
+        {
+          "file": "tools/generation_brief.py",
+          "contains": "Field-testability"
+        },
+        {
+          "file": "tools/generation_brief.py",
+          "contains": "write the 112th: either attach the source"
+        },
+        {
+          "file": "tests/test_admission.py",
+          "contains": "A CLEAN DRAFT PASSES ALL 18"
+        },
+        {
+          "file": "tests/test_admission.py",
+          "contains": "excluded BY NAME with a reason, not by a blanket"
+        },
+        {
+          "file": "tests/test_admission.py",
+          "contains": "N/A is UNREACHABLE on the bank"
+        },
+        {
+          "file": "tests/test_admission.py",
+          "contains": "wrong mechanism passes for the wrong reason"
         }
       ]
     }

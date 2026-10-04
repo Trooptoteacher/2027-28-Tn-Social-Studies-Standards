@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import alignment
 import binding as binding_mod
 import itemio
-from gates import content, record
+from gates import content, coverage, record
 
 # Item-level gates a draft must clear before admission. Bank- and form-level
 # gates are not applicable to a draft in isolation.
@@ -39,10 +39,40 @@ ADMISSION_GATES = [
     content.gate_citation_integrity,
     content.gate_duplicate_stems,
     content.gate_choice_length_cue,
-    # review-provenance is deliberately NOT here: a draft has no authoring
-    # provenance until it is admitted, and submit_items sets
-    # requiresHistorianReview on everything it admits. It runs on the bank.
+    # --- added 2026-10-04. Six gates that judge a DRAFT'S OWN CONTENT and ran
+    # only on the bank, which is the one shape the mandate names outright: "a
+    # post-admission batch gate is not an acceptable substitute". An item could
+    # be ADMITTED and immediately fail them, and the only thing that noticed was
+    # a whole-bank run nobody could attribute to the draft that caused it.
+    coverage.gate_serveability,           # routes to a real standard; carries its bilingual twins
+    coverage.gate_reporting_category,     # category matches the committed mapping, source declared
+    content.gate_key_contradiction,       # the explanation must not call the key wrong
+    content.gate_tcap_format,             # must not claim a field-testability it has not earned
+    content.gate_rubric,                  # a constructed-response draft carries its rubric
+    content.gate_stimulus_integrity,      # must not tell a student to use a source it lacks
 ]
+
+# The other six stay on the bank, and each for its own reason — "it is a bank
+# gate" was the blanket that hid the six above.
+#
+#   misconception-taxonomy  WOULD BELONG HERE and is HELD, not excluded. It
+#       fails every authored distractor that cites no family, and
+#       `taxonomy/misconception-families.json` carries status "DRAFT — families
+#       are a design artifact and need Sean's read before mass authoring cites
+#       them". Adding it today would halt all authoring on an unread taxonomy,
+#       which is Sean's call and not a build's. See HANDOFF §6d and
+#       `reviewed/misconception-family-proposal.json`.
+#
+#   signal-coverage         measures the STANDARDS FILE, not the draft: it
+#       judged 94 standards whatever was submitted. At admission it would be a
+#       corpus check wearing an admission badge.
+#
+#   bias-review, review-provenance, review-debt, ai-review-boundary
+#       are review-STATE gates, and a fresh draft has no review state by
+#       definition — every one of them passes vacuously on every submission.
+#       A gate that cannot fail where it runs is worse than no gate; that is
+#       this bank's own rule, and adding these would be breaking it to make a
+#       count look better. They run on the bank, where the state exists.
 
 
 def dedupe_against_bank(draft, bank):

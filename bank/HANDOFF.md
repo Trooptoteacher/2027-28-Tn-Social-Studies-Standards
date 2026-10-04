@@ -99,7 +99,7 @@ python3 tools/run_gates.py --form FORM-A    # one form, scoped
 python3 tools/form_readiness.py --csv reports/form-readiness.csv
 ```
 
-**18 stages** (`grep -c '^stage ' tools/run_all.sh` — pinned by
+**19 stages** (`grep -c '^stage ' tools/run_all.sh` — pinned by
 `check_handoff_numbers.py`, because this line read "Twelve" until 2026-10-04 and was then
 mis-corrected twice). The ledger runs **first**: if a guard has gone missing, nothing
 below it can be trusted.
@@ -116,7 +116,7 @@ below it can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **73 lessons, 225 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **74 lessons, 237 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -211,9 +211,17 @@ python3 tools/generation_brief.py US.05          # the brief: standard, signals,
 python3 tools/submit_items.py generation/US.05.draft.json --apply
 ```
 
-**Generation is gated BEFORE admission, not reviewed after.** `submit_items.py` runs twelve
-item-level gates plus an id/stem collision check against the whole bank, and a draft that
-fails any of them **does not enter**. It names what to fix and you regenerate.
+**Generation is gated BEFORE admission, not reviewed after.** `submit_items.py` runs
+**18 admission gates** plus an id/stem collision check against the whole bank, and a draft
+that fails any of them **does not enter**. It names what to fix and you regenerate.
+
+*It ran 12 until 2026-10-04. Six item-level gates — serveability,
+reporting-category-provenance, key-contradiction, tcap-format, rubric,
+stimulus-integrity — judged a draft's own content and ran only on the BANK, so an item
+could be admitted and immediately fail them. That is the shape the mandate names
+outright: a post-admission batch gate is not an acceptable substitute. The six that
+remain bank-only are each excluded by name with a reason in `submit_items.py`, and
+`misconception-taxonomy` among them is **HELD, not excluded** — see §6d.*
 
 This matters because the migrated bank *was* built to a real specification — IRT parameters
 on 100% of 5,045 items, DOK levels on 100%, blueprint structure, item-writing conventions —

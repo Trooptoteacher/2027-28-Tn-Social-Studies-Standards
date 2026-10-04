@@ -1103,6 +1103,22 @@ def gate_stimulus_integrity(items, binding=None) -> Result:
             findings.append(Finding(it.get("id", "?"),
                 f"stimulus commercialUse is {img.get('commercialUse')!r} — this bank is sold, "
                 f"so anything not cleared for commercial use may not ship", it.get("_file", "")))
+    # A set in which nothing carries OR references a stimulus is N/A, with the
+    # reason stated — not NOT MEASURED. The distinction only surfaced when this
+    # gate moved to ADMISSION (2026-10-04): on the whole bank something always
+    # references a stimulus, so `judged` was never 0. On an ordinary text-only
+    # draft it was, and `judged == 0 and not inapplicable` is reported as "a
+    # gate that formed no opinion is not a pass" — correctly, by the rule that
+    # exists because teacher-side-isolation once passed 3,986 items judging
+    # none. Which would have refused every text-only draft ever submitted.
+    # The population this gate judges is items carrying or referencing a
+    # stimulus; when that population is empty, N/A is the honest answer and the
+    # reason says so. When it is NOT empty this branch cannot be reached, which
+    # is what keeps it from becoming the loophole `inapplicable` could be.
+    if not judged:
+        return Result(name, True, len(items), [], judged=0,
+                      inapplicable="no item in this set carries a stimulus or tells the "
+                                   "student to use one, so there is no stimulus to check")
     return Result(name, not findings, len(items), findings, judged=judged,
                   note=f"{carried} item(s) carry a stimulus; {judged - carried} reference one "
                        f"they do not have")
