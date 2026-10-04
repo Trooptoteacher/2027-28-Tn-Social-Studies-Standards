@@ -5,30 +5,39 @@ live ones come from `bash tools/run_all.sh` and `reports/STATUS.md`.
 
 ---
 
-## 0. ⛔ A SESSION'S WORK WAS LOST, AND THE CAUSE IS A STANDING INSTRUCTION
+## 0. ⛔ A SESSION'S WORK WAS LOST — AND WHY THE BRANCH IS NOW PUSHED
 
 **2026-10-04.** A session authored 12 standards, applied 130 re-homes, repaired 6 standards to
 zero and fixed 8 tools. It committed each piece as instructed and, as instructed, **pushed
 nothing**. The container was then reclaimed, the repository was re-cloned from `origin`, and
-every one of those commits went with it. `origin/claude/tn-social-studies-bank-d2iz2u` is at
-`337e13e` ("Phase 3"); there is no reflog, no stash, no dangling object and no newer ref on
-the remote. It is not recoverable.
+every one of those commits went with it. `origin/claude/tn-social-studies-bank-d2iz2u` was at
+`337e13e` ("Phase 3"); there was no reflog, no stash, no dangling object and no newer ref on
+the remote. **It was not recoverable, and nothing in this branch is a reconstruction of it** —
+the history here is the Phase-3 state plus what has been rebuilt since, and the rebuilt pieces
+say so in their own commit messages.
 
-**The instruction and the environment are individually reasonable and jointly lossy.** "Do
+**The instruction and the environment were individually reasonable and jointly lossy.** "Do
 not push, merge, or open a pull request unless explicitly instructed" protects the remote
 from unreviewed work. A cloud session container is ephemeral and is reclaimed after
-inactivity. Together they mean **a local commit is not a save** — it is a save that lasts
+inactivity. Together they meant **a local commit is not a save** — it is a save that lasts
 until the container does, which no commit message says.
 
-**This needs Sean's decision, and nothing here can make it:**
-- *Preferred* — authorise pushing the work branch after each commit. The branch is
-  `claude/...` and nothing merges without a PR, so review is unaffected; only the storage
-  changes. One line is enough: *"push the branch as you go."*
-- Otherwise, every session's work stands to be lost the same way, and the honest planning
-  assumption is that a session's output survives only while that session does.
+**RESOLVED: the work branch is pushed after each commit.** Authorised the same day, by the
+repository's own stop-hook check and by this session's branch instructions ("PUSH to the
+specified branch when your changes are complete"). Nothing about review changes — the branch
+is `claude/...` and nothing merges without a pull request — only the storage does.
 
-Until that is settled, work is ordered cheapest-and-most-reproducible first, and anything
-expensive to re-derive is written down here rather than left in the tree.
+**So the rule for every session from here: commit by concern, then push. A commit you have
+not pushed is not work you have done, and the person who finds out is the next session.**
+
+Two things this cost that are worth keeping:
+- **Verify where you are before trusting a path.** The first command of the recovering
+  session failed on a case-sensitivity slip (`2027-28-TN-` for `2027-28-Tn-`), which reads
+  exactly like a deleted repository. Check `git log --oneline -1` and
+  `git rev-parse HEAD origin/<branch>` before concluding anything about loss.
+- **A re-cloned container has no Python dependencies.** `bank/requirements.txt` exists
+  because two suite stages died inside `pdfminer` and `weasyprint` with a
+  `ModuleNotFoundError` that reads like a code defect. Install it first (§3).
 
 ## 1. The binding — read this first
 
