@@ -35,9 +35,12 @@ either fails:
 Courses whose tables carry no Content Strand column (K, 1, 2, Psychology) yield
 empty strand lists. That is the document's own shape, not a parse failure.
 """
+import hashlib
 import json
+import os
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import pymupdf
@@ -213,6 +216,7 @@ def parse_course(doc, pfx, start, end):
     code_re = re.compile(r"^" + re.escape(pfx) + r"\.(\d{2,3})$")
     practices, standards = [], []
     era = topic = overview = description = ""
+    overview_page = 0
     heads = []
     cur = cur_kind = None
     in_overview = in_desc = False
@@ -238,23 +242,13 @@ def parse_course(doc, pfx, start, end):
                 "tca": "TCA" in strands,
                 "era": cur["era"],
                 "eraOverview": cur["overview"],
+                "eraOverviewSourcePage": cur["overviewPage"],
                 "cluster": cur["topic"] or cur["era"],
                 "sourcePage": cur["page"],
             })
         cur, cur_kind = None, None
 
     def apply_heads():
-        """Assign the pending headings. It must NOT touch `overview`.
-
-        The overview is printed BETWEEN the era heading and the first standard
-        code, so by the time this runs the overview for THIS era has already been
-        read. Clearing it here discarded it: every era heading carrying a date
-        range took one of the two clearing branches, which is every heading in
-        U.S. History, Grade 8, World History and Tennessee History -- 354
-        standards whose eraOverview came out empty while the PDF plainly carries
-        one. A new era clears the previous overview where the era heading is
-        recognised, above.
-        """
         nonlocal era, topic
         if not heads:
             return
@@ -282,11 +276,37 @@ def parse_course(doc, pfx, start, end):
             if ln["bold"] and ln["size"] >= HEADING_MIN_PT:
                 flush()
                 in_overview = in_desc = False
+                # An era's Overview paragraph is read AFTER its heading and
+                # BEFORE that era's first standard code, so it must survive
+                # until the code captures it -- apply_heads() used to clear it
+                # at exactly that moment, which is why five courses carried an
+                # empty eraOverview on every standard and five more were
+                # partial: 491 of 1,012.
+                #
+                # Only an ERA heading supersedes an era's Overview. Clearing on
+                # ANY bold >=14pt heading instead costs 24 standards across
+                # grade-07 and us-history-geography, because a topic heading
+                # sits between the paragraph and the first code -- measured by
+                # re-parsing the whole document without this test.
+                #
+                # Two further conditions were written here and REMOVED after
+                # measurement: `t != era` (a running head repeating the current
+                # era) and `t not in heads` (an era heading already pending
+                # while its paragraph wraps across a leaf). Both produce output
+                # BYTE-IDENTICAL to this, on all 1,012 standards -- neither
+                # shape occurs between the paragraph and the code in this
+                # document, and either one failing would leave the overview
+                # EMPTY, which validate_standards.py blocks loudly. A guard
+                # nobody has watched do work is worse than no guard.
+                #
+                # What this line itself defends against is the one shape no
+                # other check could see: an era whose Overview the parser
+                # missed INHERITING the previous era's. That is non-empty,
+                # cites a page where the text really is, and agrees with its own
+                # heading. It is now caught -- no (overview, page) may serve two
+                # different eras.
                 if ERA_RE.search(t):
-                    # A new era begins here. Drop the previous era's overview so
-                    # it cannot leak forward; the overview printed just below
-                    # this heading is then read into the cleared slot.
-                    overview = ""
+                    overview, overview_page = "", 0
                 heads.append(t)
                 continue
             if t.lower().startswith("course description:"):
@@ -297,6 +317,7 @@ def parse_course(doc, pfx, start, end):
             if ln["bold"] and t.lower().startswith("overview:"):
                 flush()
                 overview = t.split(":", 1)[1].strip()
+                overview_page = pno + 1
                 in_overview, in_desc = True, False
                 continue
 
@@ -307,7 +328,8 @@ def parse_course(doc, pfx, start, end):
                 apply_heads()
                 cur_kind = "ssp" if m_ssp else "std"
                 cur = {"code": t, "lines": [], "strand": "", "era": era,
-                       "overview": overview, "topic": topic, "page": pno + 1}
+                       "overview": overview, "overviewPage": overview_page,
+                       "topic": topic, "page": pno + 1}
                 continue
 
             # A strand cell can wrap across two lines ("C, G, H, P, T," / "TCA").
@@ -360,6 +382,15 @@ def main():
         return 2
     pdf, outdir = Path(sys.argv[1]), Path(sys.argv[2])
     doc = pymupdf.open(pdf)
+    # The document's own fingerprint travels with every value derived from it.
+    # A page number or an era heading is correct only ABOUT A PARTICULAR
+    # DOCUMENT; recorded without the hash it is a claim that rots the moment
+    # TDOE re-issues the PDF.
+    sha256 = hashlib.sha256(pdf.read_bytes()).hexdigest()
+    epoch = os.environ.get("SOURCE_DATE_EPOCH")
+    extracted_at = datetime.fromtimestamp(
+        int(epoch) if epoch else datetime.now(timezone.utc).timestamp(), timezone.utc
+    ).replace(microsecond=0).isoformat()
     outdir.mkdir(parents=True, exist_ok=True)
 
     courses, failures = {}, []
@@ -418,6 +449,48 @@ def main():
                              f"{s['strandRaw']!r}",
                 })
 
+        # One row per era, carrying the Overview paragraph with the heading it
+        # sits under, the page it is printed on, and the codes it governs --
+        # so a reader can check a derived value against the document without
+        # re-deriving it.
+        # Keyed on the PAGE as well as the text: TDOE prints the same Overview
+        # paragraph under two different headings in Sociology (p194 "Self and
+        # Socialization", p195 "Functions and Structures of Social
+        # Institutions"). Keyed on text alone the second printing gets no row,
+        # and the thirteen standards citing p195 then point at a triple the
+        # table does not carry.
+        era_overviews, seen_eras = [], {}
+        for s in c["standards"]:
+            key = (s["era"], s["eraOverview"], s["eraOverviewSourcePage"])
+            if key not in seen_eras:
+                seen_eras[key] = {
+                    "era": s["era"],
+                    "overview": s["eraOverview"],
+                    "sourcePage": s["eraOverviewSourcePage"],
+                    "cluster": s["cluster"],
+                    "standards": {"first": s["code"], "last": s["code"], "count": 0},
+                }
+                era_overviews.append(seen_eras[key])
+            seen_eras[key]["standards"]["last"] = s["code"]
+            seen_eras[key]["standards"]["count"] += 1
+
+        # The document's own editorial duplication: one Overview paragraph
+        # printed verbatim under two different headings. Recorded, not
+        # "resolved" -- it is what TDOE published.
+        pages_of = {}
+        for s in c["standards"]:
+            pages_of.setdefault(s["eraOverview"], set()).add(s["eraOverviewSourcePage"])
+        for ov, pp in pages_of.items():
+            if len(pp) > 1:
+                heads = sorted({s["cluster"] for s in c["standards"]
+                                if s["eraOverview"] == ov})
+                anomalies.append({
+                    "course": slug, "code": "", "page": min(pp),
+                    "issue": "the same Overview paragraph is printed under more than "
+                             f"one heading in the source PDF: pages {sorted(pp)}, "
+                             f"headings {heads}",
+                })
+
         payload = {
             "course": slug,
             "title": title,
@@ -429,9 +502,11 @@ def main():
             "source": {
                 "document": "Tennessee Social Studies Standards",
                 "file": pdf.name,
+                "sha256": sha256,
                 "pages": c["pageRange"],
             },
             "provenance": "Official TDOE PDF — verbatim",
+            "eraOverviews": era_overviews,
             "practices": c["practices"],
             "standardCount": len(c["standards"]),
             "geoCount": sum(1 for s in c["standards"] if s["geo"]),
@@ -455,6 +530,19 @@ def main():
         "standardsYear": "2027-28",
         "document": "Tennessee Social Studies Standards",
         "sourceFile": f"source/{pdf.name}",
+        "sourceSha256": sha256,
+        # The extraction event's own timestamp. It is recorded ONCE, here,
+        # rather than on each of the 1,012 standards: the documented re-parse
+        # workflow reads `git diff standards/` as the difference between two
+        # DOCUMENTS, and a wall-clock field repeated per course would put a
+        # line of churn in every file on every run and bury that signal.
+        #
+        # It is also the ONLY field in the whole output that a re-run can move,
+        # so it honours $SOURCE_DATE_EPOCH: with it set the parse is
+        # byte-identical end to end, which is what makes "re-parse and read the
+        # diff" a measurement rather than a guess.
+        "extractedAt": extracted_at,
+        "extractedBy": "tools/parse_standards.py",
         "courseCount": len(index),
         "standardCount": sum(x["standardCount"] for x in index),
         "courses": index,

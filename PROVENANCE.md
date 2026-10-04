@@ -84,7 +84,7 @@ order:
 | plain 12pt | standard text, or a course-description / overview continuation |
 | plain 11–12pt, strand letters only | the Content Strand cell |
 
-Four details are load-bearing, each one a bug that was found and fixed rather than a precaution:
+Five details are load-bearing, each one a bug that was found and fixed rather than a precaution:
 
 - **Lines are read in the PDF's own order and are never re-sorted by y-coordinate.** A code cell is
   vertically centred against a wrapped text cell, so a y-sort detaches the first line of every
@@ -96,6 +96,56 @@ Four details are load-bearing, each one a bug that was found and fixed rather th
   strand column's left edge moves with the cell's width.
 - **A strand cell can wrap** (`C, G, H, P, T,` / `TCA`). Consuming only the first line drops the TCA
   flag from the standard and leaves `TCA` sitting at the end of the standard's text.
+- **The era Overview must survive from its heading to the first standard code beneath it.** The
+  document prints the heading, then `Overview:`, then the table — so the paragraph is read *before*
+  the first code that has to carry it. `apply_heads()`, which installs the pending heading, also
+  cleared `overview`, and it runs at exactly that code. **491 of the 1,012 standards shipped with an
+  empty `eraOverview`**, every standard of grade-04, grade-08, tennessee-history,
+  us-history-geography and world-history-geography among them, with five further courses partial.
+  Nothing was red: the key was *present*, so the required-field check passed, and an empty string is
+  verbatim by construction, so `--verbatim` passed too. The Overview is now cleared only when a
+  genuinely **new** era heading appears — not by a heading already pending and not by a running head
+  repeating the current era, both of which sit between the paragraph and the code it belongs to.
+
+## Era overviews, and the provenance that travels with them
+
+Each standard carries `eraOverview` (the state's own paragraph, verbatim) and
+`eraOverviewSourcePage` (the page it is printed on — normally *not* the standard's own
+`sourcePage`, because the paragraph is printed once at the head of an era and the standards run for
+pages after it). Each course file carries an `eraOverviews` table: one row per distinct
+`(era, overview, page)`, with the heading it sits under and the span of codes it governs, so a
+reader can check a value against the document without re-deriving it.
+
+The document's identity travels with every derived value: `source.sha256` on every course file and
+`sourceSha256` in `index.json`, both the hash of the exact PDF the values were read from. A page
+number is only correct *about a particular document*; recorded without the hash it is a claim that
+rots the moment TDOE re-issues the file. The extraction event's own timestamp is `extractedAt` in
+`index.json`, recorded **once** rather than on each of the 1,012 standards — the re-parse workflow
+above reads `git diff standards/` as the difference between two *documents*, and a wall-clock field
+repeated per course would put a line of churn in every file on every run and bury that signal.
+
+`tools/validate_standards.py` blocks on: an empty overview, an overview with no cited page, two
+different overviews under one heading, a non-contiguous run of standards sharing one overview, a
+standard whose `(era, overview, page)` is absent from its course's table, a table row no standard
+uses, a wrong row count, a missing or malformed hash, and a course hash disagreeing with
+`index.json`. Under `--verbatim` it additionally requires each overview to appear character for
+character **on the page it cites** — deliberately not anywhere in the document, because a paragraph
+found on some other page is a wrong page reference — and re-hashes the PDF on disk.
+
+`tools/validate_standards_selftest.py` proves each of those fires. **Seven of its thirty cases are
+negative controls**, because a blocker that rejects legitimate work looks identical to one that
+works, and two of the document's own shapes are exactly the kind that get wrongly rejected:
+
+- **TDOE prints one Overview paragraph verbatim under two different headings** — Sociology p194
+  *"Self and Socialization"* and p195 *"Functions and Structures of Social Institutions"*. Keyed on
+  the text alone the second printing gets no table row, and all thirteen standards citing p195 then
+  point at a triple their table does not carry. The duplication is recorded as a
+  `documentAnomalies` entry, not resolved: it is what TDOE published.
+- **Where the era heading is only a course banner** (`S | SOCIOLOGY`, `WG | WORLD GEOGRAPHY`) or a
+  Domain, the document prints an Overview per **topic** heading beneath it. The first version of the
+  agreement check was scoped to the era and blocked **12 of the 20 courses**. The scope is the
+  cluster — a refinement of the era, and the weaker claim that is true of all twenty courses
+  (measured: 0 disagreements across 1,012 standards).
 
 Two independent checks run on every course, and the parser exits non-zero on either:
 

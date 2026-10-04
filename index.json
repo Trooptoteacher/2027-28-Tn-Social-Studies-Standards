@@ -2,6 +2,9 @@
   "standardsYear": "2027-28",
   "document": "Tennessee Social Studies Standards",
   "sourceFile": "source/TN-Social-Studies-Standards-2027-28.pdf",
+  "sourceSha256": "f62fd21f6a1854e48d9dc3b07c90b4607a95a23efeaa7edfb53595c19e297100",
+  "extractedAt": "2026-10-04T17:25:20+00:00",
+  "extractedBy": "tools/parse_standards.py",
   "courseCount": 20,
   "standardCount": 1012,
   "courses": [
@@ -412,6 +415,12 @@
       "code": "5.18",
       "page": 72,
       "issue": "Content Strand punctuation typo in the source PDF: 'C. H.P, T'"
+    },
+    {
+      "course": "sociology",
+      "code": "",
+      "page": 194,
+      "issue": "the same Overview paragraph is printed under more than one heading in the source PDF: pages [194, 195], headings ['Functions and Structures of Social Institutions', 'Self and Socialization']"
     },
     {
       "course": "tennessee-history",

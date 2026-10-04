@@ -13,9 +13,27 @@ Checks
  3  strand letters come only from the published set (C/E/G/H/P/T/TCA)
  4  the geo/tca/standardCount flags agree with the standards themselves
  5  index.json agrees with the files on disk -- no course listed twice, none missing
- 6  --verbatim: every standard's text still appears, character for character, in
-    the source PDF. This is the anti-fabrication gate. A standard that has been
-    reworded, truncated, or invented cannot pass it.
+ 6  every standard carries a non-empty eraOverview with a cited page; standards
+    sharing one HEADING carry the SAME overview (the scope is the cluster, not
+    the era -- see check_era_overviews); the standards sharing one overview are
+    a contiguous run of codes; and every (era, overview, page) triple is present
+    in the course's own eraOverviews table, in both directions
+ 7  the source PDF's sha256 is recorded and agrees across index.json and every
+    course file
+ 8  --verbatim: every standard's text, AND every era overview, still appears
+    character for character in the source PDF -- the overview on the page it
+    cites. This is the anti-fabrication gate. A standard or an overview that has
+    been reworded, truncated, or invented cannot pass it.
+ 9  --verbatim: the source PDF on disk still hashes to the recorded sha256
+
+Why 6 exists
+------------
+eraOverview shipped EMPTY on every standard of five courses -- 491 of 1,012 --
+because the parser cleared it at the first standard code after reading it.
+Nothing was red: the field was present, so a required-field check passed, and
+an empty string is verbatim by construction, so --verbatim passed too. A green
+gate on a measure that is not the claim being made. These checks measure the
+value, its page, and its agreement across the era it belongs to.
 """
 import json
 import re
@@ -28,10 +46,12 @@ INDEX = ROOT / "index.json"
 
 LEGAL_STRANDS = {"C", "E", "G", "H", "P", "T", "TCA"}
 REQUIRED_COURSE_FIELDS = ["course", "title", "level", "standardsPrefix", "standardsYear",
-                          "description", "source", "provenance", "practices",
-                          "standardCount", "hasContentStrand", "standards"]
+                          "description", "source", "provenance", "eraOverviews",
+                          "practices", "standardCount", "hasContentStrand",
+                          "standards"]
 REQUIRED_STANDARD_FIELDS = ["code", "text", "strand", "strandRaw", "geo", "tca",
-                            "era", "eraOverview", "cluster", "sourcePage"]
+                            "era", "eraOverview", "eraOverviewSourcePage",
+                            "cluster", "sourcePage"]
 
 blockers, warnings = [], []
 
@@ -99,21 +119,6 @@ def check_course(path, c):
             block(f"{name} {code}: tca flag disagrees with strand")
         if c.get("hasContentStrand") and not s.get("strand"):
             warn(f"{name} {code}: no Content Strand printed in the source document")
-        # The document prints an "Overview:" paragraph under every era/topic
-        # heading, so an empty one means the parse dropped it rather than that
-        # the state omitted it. It was dropped for 491 of 1012 standards --
-        # every date-ranged era in U.S. History, Grade 8, World History and
-        # Tennessee History -- because the heading handler cleared the overview
-        # AFTER it had already been read. Nothing failed: the field was simply
-        # empty, which reads as "the state didn't write one".
-        #
-        # The overview is the state's own framing of the era and it is a source
-        # an objective is allowed to trace to, so losing it silently narrows
-        # what a lesson may legitimately cover. Blocking on it means the next
-        # regression stops the parse instead of shipping 491 empty strings.
-        if not (s.get("eraOverview") or "").strip():
-            block(f"{name} {code}: empty eraOverview — the source document prints "
-                  f"an Overview under every heading, so this is a dropped parse")
 
     nums.sort()
     gaps = [n for n in range(1, nums[-1] + 1) if n not in nums]
@@ -133,6 +138,110 @@ def check_course(path, c):
     for p in practices:
         if not p.get("text", "").strip():
             block(f"{name} {p['code']}: empty practice text")
+
+
+def check_era_overviews(path, c):
+    """Checks 6 and 7 -- see the module docstring for why they exist."""
+    name = path.name
+    stds = c.get("standards") or []
+    table = c.get("eraOverviews")
+    if table is None:
+        return                      # already blocked as a missing required field
+
+    # 6a -- a value at all, and a page to check it against
+    for s in stds:
+        code = s.get("code", "?")
+        ov = (s.get("eraOverview") or "").strip()
+        if not ov:
+            block(f"{name} {code}: eraOverview is empty -- the source document "
+                  f"prints an Overview paragraph for every era")
+            continue
+        pg = s.get("eraOverviewSourcePage")
+        if not isinstance(pg, int) or pg <= 0:
+            block(f"{name} {code}: eraOverview carries no source page "
+                  f"({pg!r}) -- a derived value with no page cannot be checked")
+
+    # 6b -- one heading, one overview. The scope is the CLUSTER, not the era.
+    # Written against the era first, this blocked 12 legitimate courses: where
+    # the era heading is only a course banner ("WG | WORLD GEOGRAPHY", "S |
+    # SOCIOLOGY") or a Domain, the document prints an Overview per TOPIC
+    # heading beneath it, and the cluster is that heading. Cluster is a
+    # refinement of era, so this is the weaker claim that is true of all 20
+    # courses -- measured, 0 disagreements across 1,012 standards.
+    by_cluster = {}
+    for s in stds:
+        key = (s.get("era", ""), s.get("cluster", ""))
+        by_cluster.setdefault(key, set()).add(
+            ((s.get("eraOverview") or "").strip(), s.get("eraOverviewSourcePage")))
+    for (era, cluster), vals in sorted(by_cluster.items(), key=lambda kv: str(kv[0])):
+        if len(vals) > 1:
+            block(f"{name}: heading {cluster!r} (era {era!r}) carries {len(vals)} "
+                  f"different eraOverview values across its standards -- one "
+                  f"heading has one Overview")
+
+    # 6b(ii) -- an Overview governs the standards printed under it, so the
+    # standards sharing one (overview, page) are a CONTIGUOUS run of codes.
+    # This is what catches a single stale or blank value interleaved into a run
+    # that otherwise agrees -- the shape cluster-agreement can miss when the
+    # odd standard also sits in its own cluster.
+    runs = {}
+    for i, s in enumerate(stds):
+        runs.setdefault(((s.get("eraOverview") or "").strip(),
+                         s.get("eraOverviewSourcePage")), []).append(i)
+    for (ov, pg), ix in runs.items():
+        if ix != list(range(ix[0], ix[-1] + 1)):
+            gap = [stds[i].get("code") for i in range(ix[0], ix[-1] + 1) if i not in ix]
+            block(f"{name}: the overview printed on page {pg} is carried by a "
+                  f"non-contiguous run of standards -- {gap} sit inside it and "
+                  f"carry a different one")
+
+    # 6b(iii) -- NO (overview, page) PAIR MAY SERVE TWO DIFFERENT ERAS.
+    # This is the one failure mode nothing else here can see. If an era whose
+    # Overview the parser missed INHERITS the previous era's, the value is
+    # non-empty (6a passes), its cited page is the previous era's page where
+    # that text genuinely is (check 8 passes), the run is contiguous (6b(ii)
+    # passes) and every standard agrees with its heading (6b(i) passes). The
+    # result is a silently WRONG paragraph, which is worse than a missing one.
+    # It also makes the parser's "clear on a new era heading" line WATCHED:
+    # that line has no measured effect on this document (removing it is
+    # value-identical on all 1,012 standards), so without something that fires
+    # when it stops working it would be a guard nobody has seen do work.
+    # TDOE's own duplicate passes: Sociology p194/p195 print one paragraph under
+    # two CLUSTER headings inside one banner era, so the era is the same.
+    shared = {}
+    for r in table:
+        shared.setdefault(((r.get("overview") or "").strip(), r.get("sourcePage")),
+                          set()).add(r.get("era"))
+    for (ov, pg), eras in shared.items():
+        if ov and len(eras) > 1:
+            block(f"{name}: the overview on page {pg} is carried by {len(eras)} "
+                  f"different eras {sorted(eras)} -- an era that inherited the "
+                  f"previous era's Overview looks exactly like this, and no other "
+                  f"check here can see it")
+
+    # 6c -- the table and the standards must say the same thing, in both
+    # directions: a table row nothing points at is as wrong as a standard the
+    # table does not cover.
+    rows = {(r.get("era"), (r.get("overview") or "").strip(), r.get("sourcePage")) for r in table}
+    used = set()
+    for s in stds:
+        key = (s.get("era"), (s.get("eraOverview") or "").strip(), s.get("eraOverviewSourcePage"))
+        if key not in rows:
+            block(f"{name} {s.get('code','?')}: its (era, overview, page) is absent "
+                  f"from the course's eraOverviews table")
+        used.add(key)
+    for key in sorted(rows - used, key=lambda k: str(k)):
+        block(f"{name}: eraOverviews lists {key[0]!r} (p{key[2]}) but no standard uses it")
+    counted = sum(r.get("standards", {}).get("count", 0) for r in table)
+    if stds and counted != len(stds):
+        block(f"{name}: eraOverviews rows account for {counted} standards, "
+              f"the file carries {len(stds)}")
+
+    # 7 -- the document's fingerprint
+    sha = (c.get("source") or {}).get("sha256")
+    if not isinstance(sha, str) or not re.fullmatch(r"[0-9a-f]{64}", sha or ""):
+        block(f"{name}: source.sha256 is missing or malformed ({sha!r}) -- a page "
+              f"number is only correct about a particular document")
 
 
 def check_index(courses):
@@ -159,6 +268,17 @@ def check_index(courses):
     if idx.get("standardCount") != total:
         block(f"index.json standardCount {idx.get('standardCount')} != {total}")
 
+    sha = idx.get("sourceSha256")
+    if not isinstance(sha, str) or not re.fullmatch(r"[0-9a-f]{64}", sha or ""):
+        block(f"index.json sourceSha256 is missing or malformed ({sha!r})")
+    else:
+        for _, c in courses:
+            if (c.get("source") or {}).get("sha256") != sha:
+                block(f"{c.get('course')}: source.sha256 disagrees with "
+                      f"index.json sourceSha256 -- two files describing two documents")
+    if not idx.get("extractedAt"):
+        block("index.json records no extractedAt -- the extraction event has no date")
+
 
 def check_verbatim(courses):
     try:
@@ -172,6 +292,17 @@ def check_verbatim(courses):
         block(f"--verbatim: source PDF not found at {pdf}")
         return
     doc = pymupdf.open(pdf)
+
+    # 9 -- the document itself. Every page number and era heading below is a
+    # claim ABOUT THIS FILE; if the file moved, they are claims about a
+    # document nobody has.
+    import hashlib
+    on_disk = hashlib.sha256(pdf.read_bytes()).hexdigest()
+    if idx.get("sourceSha256") and on_disk != idx["sourceSha256"]:
+        block(f"--verbatim: {pdf.name} on disk hashes to {on_disk}, index.json "
+              f"records {idx['sourceSha256']} -- the document moved underneath "
+              f"every derived page reference")
+
     # The Content Strand cell is laid out BETWEEN a standard's stem and its
     # bullet list, so raw page text interleaves strand letters into the middle
     # of the standard. Drop strand-only lines before comparing; they are the one
@@ -193,6 +324,28 @@ def check_verbatim(courses):
             if not any(squash(pr["text"]) in t for t in page_text):
                 block(f"{c['course']} {pr['code']}: practice text not found in the source PDF")
 
+        # 8 -- every era overview, ON THE PAGE IT CITES. Checked once per
+        # distinct row rather than once per standard, because the row is what
+        # carries the page. (The row count is not written here: it moves with
+        # the document, and a number in prose is a claim that rots.)
+        for r in c.get("eraOverviews") or []:
+            ov = (r.get("overview") or "").strip()
+            if not ov:
+                continue
+            pg = r.get("sourcePage") or 0
+            if not 1 <= pg <= len(page_text):
+                block(f"{c['course']} era {r.get('era')!r}: eraOverview cites page "
+                      f"{pg}, which is outside the {len(page_text)}-page document")
+                continue
+            # An Overview paragraph can wrap across a leaf, so the window is the
+            # cited page and the one after it -- deliberately NOT the whole
+            # document: a paragraph found on some other page is a wrong page
+            # reference, which is the defect this check exists to catch.
+            window = "".join(page_text[pg - 1:min(len(page_text), pg + 1)])
+            if squash(ov) not in window:
+                block(f"{c['course']} era {r.get('era')!r}: eraOverview does not "
+                      f"appear verbatim on page {pg} of the source PDF")
+
 
 def main():
     courses = load_courses()
@@ -200,6 +353,7 @@ def main():
         block("no course files found in standards/")
     for path, c in courses:
         check_course(path, c)
+        check_era_overviews(path, c)
     check_index(courses)
     if "--verbatim" in sys.argv:
         check_verbatim(courses)

@@ -9,12 +9,147 @@
   "source": {
     "document": "Tennessee Social Studies Standards",
     "file": "TN-Social-Studies-Standards-2027-28.pdf",
+    "sha256": "f62fd21f6a1854e48d9dc3b07c90b4607a95a23efeaa7edfb53595c19e297100",
     "pages": [
       222,
       242
     ]
   },
   "provenance": "Official TDOE PDF — verbatim",
+  "eraOverviews": [
+    {
+      "era": "The Rise of Industrialization (1877-1900)",
+      "overview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "sourcePage": 225,
+      "cluster": "Reconstruction",
+      "standards": {
+        "first": "US.01",
+        "last": "US.10",
+        "count": 10
+      }
+    },
+    {
+      "era": "The Progressive Era (1890-1920)",
+      "overview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "sourcePage": 227,
+      "cluster": "The Progressive Era (1890-1920)",
+      "standards": {
+        "first": "US.11",
+        "last": "US.20",
+        "count": 10
+      }
+    },
+    {
+      "era": "Imperialism and World War I (1890-1920)",
+      "overview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "sourcePage": 229,
+      "cluster": "Imperialism and World War I (1890-1920)",
+      "standards": {
+        "first": "US.21",
+        "last": "US.29",
+        "count": 9
+      }
+    },
+    {
+      "era": "The 1920s (1920-1929)",
+      "overview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "sourcePage": 231,
+      "cluster": "The 1920s (1920-1929)",
+      "standards": {
+        "first": "US.30",
+        "last": "US.40",
+        "count": 11
+      }
+    },
+    {
+      "era": "The Great Depression and New Deal (1929-1941)",
+      "overview": "Students will analyze the causes and effects of the Great Depression and how the New Deal fundamentally changed the role of the U.S. government.",
+      "sourcePage": 233,
+      "cluster": "The Great Depression and New Deal (1929-1941)",
+      "standards": {
+        "first": "US.41",
+        "last": "US.46",
+        "count": 6
+      }
+    },
+    {
+      "era": "World War II (1936-1945)",
+      "overview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "sourcePage": 234,
+      "cluster": "World War II (1936-1945)",
+      "standards": {
+        "first": "US.47",
+        "last": "US.57",
+        "count": 11
+      }
+    },
+    {
+      "era": "Cold War (1947-1991)",
+      "overview": "Students will analyze the response of the United States to communism after World War II.",
+      "sourcePage": 236,
+      "cluster": "Cold War (1947-1991)",
+      "standards": {
+        "first": "US.58",
+        "last": "US.62",
+        "count": 5
+      }
+    },
+    {
+      "era": "1950s at Home (1950s-1963)",
+      "overview": "Students will examine American cultural, economic, political, and societal developments following World War II at home.",
+      "sourcePage": 237,
+      "cluster": "1950s at Home (1950s-1963)",
+      "standards": {
+        "first": "US.63",
+        "last": "US.69",
+        "count": 7
+      }
+    },
+    {
+      "era": "Kennedy and Johnson Years (1961-1969)",
+      "overview": "Students will examine American cultural, economic, political, and societal developments during the administrations of President John F. Kennedy and President Lyndon B. Johnson.",
+      "sourcePage": 238,
+      "cluster": "Kennedy and Johnson Years (1961-1969)",
+      "standards": {
+        "first": "US.70",
+        "last": "US.73",
+        "count": 4
+      }
+    },
+    {
+      "era": "Civil Rights Movement (1950s-1960s)",
+      "overview": "Students will examine the origins, goals, key events, and accomplishments of the Civil Rights Movement in the United States. (T.C.A. § 49-6-1006)",
+      "sourcePage": 239,
+      "cluster": "Civil Rights Movement (1950s-1960s)",
+      "standards": {
+        "first": "US.74",
+        "last": "US.79",
+        "count": 6
+      }
+    },
+    {
+      "era": "The Vietnam War (1950s-1970s)",
+      "overview": "Students will analyze the path of the United States participation in the Vietnam War and examine the implications for the nation at home and abroad.",
+      "sourcePage": 240,
+      "cluster": "The Vietnam War (1950s-1970s)",
+      "standards": {
+        "first": "US.80",
+        "last": "US.82",
+        "count": 3
+      }
+    },
+    {
+      "era": "The Modern United States (1970s-present)",
+      "overview": "Students will examine important events and trends from the 1970s to the present.",
+      "sourcePage": 241,
+      "cluster": "The Modern United States (1970s-present)",
+      "standards": {
+        "first": "US.83",
+        "last": "US.94",
+        "count": 12
+      }
+    }
+  ],
   "practices": [
     {
       "code": "SSP.01",
@@ -62,6 +197,7 @@
       "tca": true,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Reconstruction",
       "sourcePage": 225
     },
@@ -78,6 +214,7 @@
       "tca": true,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Reconstruction",
       "sourcePage": 225
     },
@@ -97,6 +234,7 @@
       "tca": true,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Reconstruction",
       "sourcePage": 225
     },
@@ -115,6 +253,7 @@
       "tca": false,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Westward Expansion",
       "sourcePage": 225
     },
@@ -133,6 +272,7 @@
       "tca": false,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Westward Expansion",
       "sourcePage": 225
     },
@@ -151,6 +291,7 @@
       "tca": false,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Westward Expansion",
       "sourcePage": 225
     },
@@ -169,6 +310,7 @@
       "tca": false,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Gilded Age",
       "sourcePage": 226
     },
@@ -187,6 +329,7 @@
       "tca": false,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Gilded Age",
       "sourcePage": 226
     },
@@ -203,6 +346,7 @@
       "tca": false,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Gilded Age",
       "sourcePage": 226
     },
@@ -220,6 +364,7 @@
       "tca": false,
       "era": "The Rise of Industrialization (1877-1900)",
       "eraOverview": "Students will analyze the transformation of the American economy and the changing social and political conditions in the United States in response to the rise of industrialization, large scale rural-to-urban migration, and mass immigration from Southern and Eastern Europe and Asia.",
+      "eraOverviewSourcePage": 225,
       "cluster": "Gilded Age",
       "sourcePage": 226
     },
@@ -236,6 +381,7 @@
       "tca": false,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 227
     },
@@ -252,6 +398,7 @@
       "tca": false,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 227
     },
@@ -268,6 +415,7 @@
       "tca": false,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 227
     },
@@ -285,6 +433,7 @@
       "tca": false,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 227
     },
@@ -303,6 +452,7 @@
       "tca": true,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 227
     },
@@ -321,6 +471,7 @@
       "tca": false,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 227
     },
@@ -338,6 +489,7 @@
       "tca": false,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 227
     },
@@ -354,6 +506,7 @@
       "tca": false,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 228
     },
@@ -372,6 +525,7 @@
       "tca": false,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 228
     },
@@ -389,6 +543,7 @@
       "tca": false,
       "era": "The Progressive Era (1890-1920)",
       "eraOverview": "Students will analyze the changing national landscape, including the growth of cities and the demand for political, economic, and social reforms, during the early 20th century.",
+      "eraOverviewSourcePage": 227,
       "cluster": "The Progressive Era (1890-1920)",
       "sourcePage": 228
     },
@@ -406,6 +561,7 @@
       "tca": false,
       "era": "Imperialism and World War I (1890-1920)",
       "eraOverview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "eraOverviewSourcePage": 229,
       "cluster": "Imperialism and World War I (1890-1920)",
       "sourcePage": 229
     },
@@ -422,6 +578,7 @@
       "tca": false,
       "era": "Imperialism and World War I (1890-1920)",
       "eraOverview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "eraOverviewSourcePage": 229,
       "cluster": "Imperialism and World War I (1890-1920)",
       "sourcePage": 229
     },
@@ -439,6 +596,7 @@
       "tca": false,
       "era": "Imperialism and World War I (1890-1920)",
       "eraOverview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "eraOverviewSourcePage": 229,
       "cluster": "Imperialism and World War I (1890-1920)",
       "sourcePage": 229
     },
@@ -457,6 +615,7 @@
       "tca": false,
       "era": "Imperialism and World War I (1890-1920)",
       "eraOverview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "eraOverviewSourcePage": 229,
       "cluster": "Imperialism and World War I (1890-1920)",
       "sourcePage": 229
     },
@@ -475,6 +634,7 @@
       "tca": false,
       "era": "Imperialism and World War I (1890-1920)",
       "eraOverview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "eraOverviewSourcePage": 229,
       "cluster": "Imperialism and World War I (1890-1920)",
       "sourcePage": 229
     },
@@ -492,6 +652,7 @@
       "tca": false,
       "era": "Imperialism and World War I (1890-1920)",
       "eraOverview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "eraOverviewSourcePage": 229,
       "cluster": "Imperialism and World War I (1890-1920)",
       "sourcePage": 229
     },
@@ -511,6 +672,7 @@
       "tca": true,
       "era": "Imperialism and World War I (1890-1920)",
       "eraOverview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "eraOverviewSourcePage": 229,
       "cluster": "Imperialism and World War I (1890-1920)",
       "sourcePage": 229
     },
@@ -528,6 +690,7 @@
       "tca": false,
       "era": "Imperialism and World War I (1890-1920)",
       "eraOverview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "eraOverviewSourcePage": 229,
       "cluster": "Imperialism and World War I (1890-1920)",
       "sourcePage": 230
     },
@@ -543,6 +706,7 @@
       "tca": false,
       "era": "Imperialism and World War I (1890-1920)",
       "eraOverview": "Students will trace the rise of the United States as a world power during the 20th century and examine the country’s role in World War I.",
+      "eraOverviewSourcePage": 229,
       "cluster": "Imperialism and World War I (1890-1920)",
       "sourcePage": 230
     },
@@ -562,6 +726,7 @@
       "tca": true,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 231
     },
@@ -579,6 +744,7 @@
       "tca": false,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 231
     },
@@ -596,6 +762,7 @@
       "tca": true,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 231
     },
@@ -613,6 +780,7 @@
       "tca": false,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 231
     },
@@ -629,6 +797,7 @@
       "tca": false,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 231
     },
@@ -645,6 +814,7 @@
       "tca": true,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 231
     },
@@ -661,6 +831,7 @@
       "tca": false,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 231
     },
@@ -681,6 +852,7 @@
       "tca": true,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 232
     },
@@ -698,6 +870,7 @@
       "tca": false,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 232
     },
@@ -715,6 +888,7 @@
       "tca": false,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 232
     },
@@ -732,6 +906,7 @@
       "tca": false,
       "era": "The 1920s (1920-1929)",
       "eraOverview": "Students will describe how the battle between traditionalism and modernism manifested in the major historical trends and events post-World War I.",
+      "eraOverviewSourcePage": 231,
       "cluster": "The 1920s (1920-1929)",
       "sourcePage": 232
     },
@@ -749,6 +924,7 @@
       "tca": false,
       "era": "The Great Depression and New Deal (1929-1941)",
       "eraOverview": "Students will analyze the causes and effects of the Great Depression and how the New Deal fundamentally changed the role of the U.S. government.",
+      "eraOverviewSourcePage": 233,
       "cluster": "The Great Depression and New Deal (1929-1941)",
       "sourcePage": 233
     },
@@ -766,6 +942,7 @@
       "tca": false,
       "era": "The Great Depression and New Deal (1929-1941)",
       "eraOverview": "Students will analyze the causes and effects of the Great Depression and how the New Deal fundamentally changed the role of the U.S. government.",
+      "eraOverviewSourcePage": 233,
       "cluster": "The Great Depression and New Deal (1929-1941)",
       "sourcePage": 233
     },
@@ -783,6 +960,7 @@
       "tca": false,
       "era": "The Great Depression and New Deal (1929-1941)",
       "eraOverview": "Students will analyze the causes and effects of the Great Depression and how the New Deal fundamentally changed the role of the U.S. government.",
+      "eraOverviewSourcePage": 233,
       "cluster": "The Great Depression and New Deal (1929-1941)",
       "sourcePage": 233
     },
@@ -801,6 +979,7 @@
       "tca": false,
       "era": "The Great Depression and New Deal (1929-1941)",
       "eraOverview": "Students will analyze the causes and effects of the Great Depression and how the New Deal fundamentally changed the role of the U.S. government.",
+      "eraOverviewSourcePage": 233,
       "cluster": "The Great Depression and New Deal (1929-1941)",
       "sourcePage": 233
     },
@@ -820,6 +999,7 @@
       "tca": false,
       "era": "The Great Depression and New Deal (1929-1941)",
       "eraOverview": "Students will analyze the causes and effects of the Great Depression and how the New Deal fundamentally changed the role of the U.S. government.",
+      "eraOverviewSourcePage": 233,
       "cluster": "The Great Depression and New Deal (1929-1941)",
       "sourcePage": 233
     },
@@ -837,6 +1017,7 @@
       "tca": false,
       "era": "The Great Depression and New Deal (1929-1941)",
       "eraOverview": "Students will analyze the causes and effects of the Great Depression and how the New Deal fundamentally changed the role of the U.S. government.",
+      "eraOverviewSourcePage": 233,
       "cluster": "The Great Depression and New Deal (1929-1941)",
       "sourcePage": 233
     },
@@ -856,6 +1037,7 @@
       "tca": true,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 234
     },
@@ -874,6 +1056,7 @@
       "tca": false,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 234
     },
@@ -892,6 +1075,7 @@
       "tca": false,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 234
     },
@@ -909,6 +1093,7 @@
       "tca": false,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 234
     },
@@ -925,6 +1110,7 @@
       "tca": false,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 234
     },
@@ -943,6 +1129,7 @@
       "tca": true,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 235
     },
@@ -960,6 +1147,7 @@
       "tca": false,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 235
     },
@@ -978,6 +1166,7 @@
       "tca": false,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 235
     },
@@ -996,6 +1185,7 @@
       "tca": false,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 235
     },
@@ -1015,6 +1205,7 @@
       "tca": false,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 235
     },
@@ -1033,6 +1224,7 @@
       "tca": false,
       "era": "World War II (1936-1945)",
       "eraOverview": "Students will analyze the United States’ path to and participation in World War II and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 234,
       "cluster": "World War II (1936-1945)",
       "sourcePage": 235
     },
@@ -1050,6 +1242,7 @@
       "tca": false,
       "era": "Cold War (1947-1991)",
       "eraOverview": "Students will analyze the response of the United States to communism after World War II.",
+      "eraOverviewSourcePage": 236,
       "cluster": "Cold War (1947-1991)",
       "sourcePage": 236
     },
@@ -1067,6 +1260,7 @@
       "tca": false,
       "era": "Cold War (1947-1991)",
       "eraOverview": "Students will analyze the response of the United States to communism after World War II.",
+      "eraOverviewSourcePage": 236,
       "cluster": "Cold War (1947-1991)",
       "sourcePage": 236
     },
@@ -1084,6 +1278,7 @@
       "tca": false,
       "era": "Cold War (1947-1991)",
       "eraOverview": "Students will analyze the response of the United States to communism after World War II.",
+      "eraOverviewSourcePage": 236,
       "cluster": "Cold War (1947-1991)",
       "sourcePage": 236
     },
@@ -1101,6 +1296,7 @@
       "tca": false,
       "era": "Cold War (1947-1991)",
       "eraOverview": "Students will analyze the response of the United States to communism after World War II.",
+      "eraOverviewSourcePage": 236,
       "cluster": "Cold War (1947-1991)",
       "sourcePage": 236
     },
@@ -1118,6 +1314,7 @@
       "tca": false,
       "era": "Cold War (1947-1991)",
       "eraOverview": "Students will analyze the response of the United States to communism after World War II.",
+      "eraOverviewSourcePage": 236,
       "cluster": "Cold War (1947-1991)",
       "sourcePage": 236
     },
@@ -1135,6 +1332,7 @@
       "tca": false,
       "era": "1950s at Home (1950s-1963)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments following World War II at home.",
+      "eraOverviewSourcePage": 237,
       "cluster": "1950s at Home (1950s-1963)",
       "sourcePage": 237
     },
@@ -1153,6 +1351,7 @@
       "tca": false,
       "era": "1950s at Home (1950s-1963)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments following World War II at home.",
+      "eraOverviewSourcePage": 237,
       "cluster": "1950s at Home (1950s-1963)",
       "sourcePage": 237
     },
@@ -1172,6 +1371,7 @@
       "tca": false,
       "era": "1950s at Home (1950s-1963)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments following World War II at home.",
+      "eraOverviewSourcePage": 237,
       "cluster": "1950s at Home (1950s-1963)",
       "sourcePage": 237
     },
@@ -1190,6 +1390,7 @@
       "tca": false,
       "era": "1950s at Home (1950s-1963)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments following World War II at home.",
+      "eraOverviewSourcePage": 237,
       "cluster": "1950s at Home (1950s-1963)",
       "sourcePage": 237
     },
@@ -1207,6 +1408,7 @@
       "tca": false,
       "era": "1950s at Home (1950s-1963)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments following World War II at home.",
+      "eraOverviewSourcePage": 237,
       "cluster": "1950s at Home (1950s-1963)",
       "sourcePage": 237
     },
@@ -1225,6 +1427,7 @@
       "tca": true,
       "era": "1950s at Home (1950s-1963)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments following World War II at home.",
+      "eraOverviewSourcePage": 237,
       "cluster": "1950s at Home (1950s-1963)",
       "sourcePage": 237
     },
@@ -1242,6 +1445,7 @@
       "tca": false,
       "era": "1950s at Home (1950s-1963)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments following World War II at home.",
+      "eraOverviewSourcePage": 237,
       "cluster": "1950s at Home (1950s-1963)",
       "sourcePage": 237
     },
@@ -1259,6 +1463,7 @@
       "tca": false,
       "era": "Kennedy and Johnson Years (1961-1969)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments during the administrations of President John F. Kennedy and President Lyndon B. Johnson.",
+      "eraOverviewSourcePage": 238,
       "cluster": "Kennedy and Johnson Years (1961-1969)",
       "sourcePage": 238
     },
@@ -1277,6 +1482,7 @@
       "tca": false,
       "era": "Kennedy and Johnson Years (1961-1969)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments during the administrations of President John F. Kennedy and President Lyndon B. Johnson.",
+      "eraOverviewSourcePage": 238,
       "cluster": "Kennedy and Johnson Years (1961-1969)",
       "sourcePage": 238
     },
@@ -1295,6 +1501,7 @@
       "tca": false,
       "era": "Kennedy and Johnson Years (1961-1969)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments during the administrations of President John F. Kennedy and President Lyndon B. Johnson.",
+      "eraOverviewSourcePage": 238,
       "cluster": "Kennedy and Johnson Years (1961-1969)",
       "sourcePage": 238
     },
@@ -1313,6 +1520,7 @@
       "tca": false,
       "era": "Kennedy and Johnson Years (1961-1969)",
       "eraOverview": "Students will examine American cultural, economic, political, and societal developments during the administrations of President John F. Kennedy and President Lyndon B. Johnson.",
+      "eraOverviewSourcePage": 238,
       "cluster": "Kennedy and Johnson Years (1961-1969)",
       "sourcePage": 238
     },
@@ -1333,6 +1541,7 @@
       "tca": true,
       "era": "Civil Rights Movement (1950s-1960s)",
       "eraOverview": "Students will examine the origins, goals, key events, and accomplishments of the Civil Rights Movement in the United States. (T.C.A. § 49-6-1006)",
+      "eraOverviewSourcePage": 239,
       "cluster": "Civil Rights Movement (1950s-1960s)",
       "sourcePage": 239
     },
@@ -1349,6 +1558,7 @@
       "tca": false,
       "era": "Civil Rights Movement (1950s-1960s)",
       "eraOverview": "Students will examine the origins, goals, key events, and accomplishments of the Civil Rights Movement in the United States. (T.C.A. § 49-6-1006)",
+      "eraOverviewSourcePage": 239,
       "cluster": "Civil Rights Movement (1950s-1960s)",
       "sourcePage": 239
     },
@@ -1369,6 +1579,7 @@
       "tca": true,
       "era": "Civil Rights Movement (1950s-1960s)",
       "eraOverview": "Students will examine the origins, goals, key events, and accomplishments of the Civil Rights Movement in the United States. (T.C.A. § 49-6-1006)",
+      "eraOverviewSourcePage": 239,
       "cluster": "Civil Rights Movement (1950s-1960s)",
       "sourcePage": 239
     },
@@ -1387,6 +1598,7 @@
       "tca": true,
       "era": "Civil Rights Movement (1950s-1960s)",
       "eraOverview": "Students will examine the origins, goals, key events, and accomplishments of the Civil Rights Movement in the United States. (T.C.A. § 49-6-1006)",
+      "eraOverviewSourcePage": 239,
       "cluster": "Civil Rights Movement (1950s-1960s)",
       "sourcePage": 239
     },
@@ -1405,6 +1617,7 @@
       "tca": true,
       "era": "Civil Rights Movement (1950s-1960s)",
       "eraOverview": "Students will examine the origins, goals, key events, and accomplishments of the Civil Rights Movement in the United States. (T.C.A. § 49-6-1006)",
+      "eraOverviewSourcePage": 239,
       "cluster": "Civil Rights Movement (1950s-1960s)",
       "sourcePage": 239
     },
@@ -1422,6 +1635,7 @@
       "tca": false,
       "era": "Civil Rights Movement (1950s-1960s)",
       "eraOverview": "Students will examine the origins, goals, key events, and accomplishments of the Civil Rights Movement in the United States. (T.C.A. § 49-6-1006)",
+      "eraOverviewSourcePage": 239,
       "cluster": "Civil Rights Movement (1950s-1960s)",
       "sourcePage": 239
     },
@@ -1440,6 +1654,7 @@
       "tca": false,
       "era": "The Vietnam War (1950s-1970s)",
       "eraOverview": "Students will analyze the path of the United States participation in the Vietnam War and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 240,
       "cluster": "The Vietnam War (1950s-1970s)",
       "sourcePage": 240
     },
@@ -1456,6 +1671,7 @@
       "tca": false,
       "era": "The Vietnam War (1950s-1970s)",
       "eraOverview": "Students will analyze the path of the United States participation in the Vietnam War and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 240,
       "cluster": "The Vietnam War (1950s-1970s)",
       "sourcePage": 240
     },
@@ -1474,6 +1690,7 @@
       "tca": false,
       "era": "The Vietnam War (1950s-1970s)",
       "eraOverview": "Students will analyze the path of the United States participation in the Vietnam War and examine the implications for the nation at home and abroad.",
+      "eraOverviewSourcePage": 240,
       "cluster": "The Vietnam War (1950s-1970s)",
       "sourcePage": 240
     },
@@ -1492,6 +1709,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 241
     },
@@ -1508,6 +1726,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 241
     },
@@ -1525,6 +1744,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 241
     },
@@ -1543,6 +1763,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 241
     },
@@ -1561,6 +1782,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 241
     },
@@ -1579,6 +1801,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 241
     },
@@ -1597,6 +1820,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 242
     },
@@ -1614,6 +1838,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 242
     },
@@ -1632,6 +1857,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 242
     },
@@ -1650,6 +1876,7 @@
       "tca": true,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 242
     },
@@ -1668,6 +1895,7 @@
       "tca": true,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 242
     },
@@ -1685,6 +1913,7 @@
       "tca": false,
       "era": "The Modern United States (1970s-present)",
       "eraOverview": "Students will examine important events and trends from the 1970s to the present.",
+      "eraOverviewSourcePage": 241,
       "cluster": "The Modern United States (1970s-present)",
       "sourcePage": 242
     }

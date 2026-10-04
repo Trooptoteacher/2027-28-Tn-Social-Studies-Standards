@@ -9,12 +9,81 @@
   "source": {
     "document": "Tennessee Social Studies Standards",
     "file": "TN-Social-Studies-Standards-2027-28.pdf",
+    "sha256": "f62fd21f6a1854e48d9dc3b07c90b4607a95a23efeaa7edfb53595c19e297100",
     "pages": [
       54,
       66
     ]
   },
   "provenance": "Official TDOE PDF — verbatim",
+  "eraOverviews": [
+    {
+      "era": "The United States Prior the Civil War (1820s-1861)",
+      "overview": "Students will explore the events that led to the Civil War, focusing on the impact of slavery, the abolition movement, and the major differences of the states.",
+      "sourcePage": 57,
+      "cluster": "The United States Prior the Civil War (1820s-1861)",
+      "standards": {
+        "first": "4.01",
+        "last": "4.05",
+        "count": 5
+      }
+    },
+    {
+      "era": "The Civil War and Reconstruction (1861-1870s)",
+      "overview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "sourcePage": 59,
+      "cluster": "The Civil War and Reconstruction (1861-1870s)",
+      "standards": {
+        "first": "4.06",
+        "last": "4.18",
+        "count": 13
+      }
+    },
+    {
+      "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
+      "overview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "sourcePage": 61,
+      "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
+      "standards": {
+        "first": "4.19",
+        "last": "4.27",
+        "count": 9
+      }
+    },
+    {
+      "era": "World War I and Between the Wars (1920s-1940s)",
+      "overview": "Students will summarize and describe U.S. involvement during World War I as well as the cultural, economic, and political developments of the 1920s.",
+      "sourcePage": 63,
+      "cluster": "World War I and Between the Wars (1920s-1940s)",
+      "standards": {
+        "first": "4.28",
+        "last": "4.35",
+        "count": 8
+      }
+    },
+    {
+      "era": "World War II (1930s-1940s)",
+      "overview": "Students will examine and analyze U.S. involvement during World War II as well as the impact of the war at home.",
+      "sourcePage": 65,
+      "cluster": "World War II (1930s-1940s)",
+      "standards": {
+        "first": "4.36",
+        "last": "4.40",
+        "count": 5
+      }
+    },
+    {
+      "era": "Post-World War II and the Civil Rights Movement (1940s-1960s)",
+      "overview": "Students will examine the cultural and political developments in the U.S. after World War II and during the Civil Rights Movement.",
+      "sourcePage": 66,
+      "cluster": "Post-World War II and the Civil Rights Movement (1940s-1960s)",
+      "standards": {
+        "first": "4.41",
+        "last": "4.43",
+        "count": 3
+      }
+    }
+  ],
   "practices": [
     {
       "code": "SSP.01",
@@ -61,6 +130,7 @@
       "tca": false,
       "era": "The United States Prior the Civil War (1820s-1861)",
       "eraOverview": "Students will explore the events that led to the Civil War, focusing on the impact of slavery, the abolition movement, and the major differences of the states.",
+      "eraOverviewSourcePage": 57,
       "cluster": "The United States Prior the Civil War (1820s-1861)",
       "sourcePage": 57
     },
@@ -79,6 +149,7 @@
       "tca": false,
       "era": "The United States Prior the Civil War (1820s-1861)",
       "eraOverview": "Students will explore the events that led to the Civil War, focusing on the impact of slavery, the abolition movement, and the major differences of the states.",
+      "eraOverviewSourcePage": 57,
       "cluster": "The United States Prior the Civil War (1820s-1861)",
       "sourcePage": 57
     },
@@ -97,6 +168,7 @@
       "tca": false,
       "era": "The United States Prior the Civil War (1820s-1861)",
       "eraOverview": "Students will explore the events that led to the Civil War, focusing on the impact of slavery, the abolition movement, and the major differences of the states.",
+      "eraOverviewSourcePage": 57,
       "cluster": "The United States Prior the Civil War (1820s-1861)",
       "sourcePage": 57
     },
@@ -115,6 +187,7 @@
       "tca": false,
       "era": "The United States Prior the Civil War (1820s-1861)",
       "eraOverview": "Students will explore the events that led to the Civil War, focusing on the impact of slavery, the abolition movement, and the major differences of the states.",
+      "eraOverviewSourcePage": 57,
       "cluster": "The United States Prior the Civil War (1820s-1861)",
       "sourcePage": 58
     },
@@ -133,6 +206,7 @@
       "tca": false,
       "era": "The United States Prior the Civil War (1820s-1861)",
       "eraOverview": "Students will explore the events that led to the Civil War, focusing on the impact of slavery, the abolition movement, and the major differences of the states.",
+      "eraOverviewSourcePage": 57,
       "cluster": "The United States Prior the Civil War (1820s-1861)",
       "sourcePage": 58
     },
@@ -150,6 +224,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 59
     },
@@ -168,6 +243,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 59
     },
@@ -185,6 +261,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 59
     },
@@ -202,6 +279,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 59
     },
@@ -217,6 +295,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 59
     },
@@ -234,6 +313,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 59
     },
@@ -252,6 +332,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 59
     },
@@ -268,6 +349,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 59
     },
@@ -287,6 +369,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 60
     },
@@ -303,6 +386,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 60
     },
@@ -321,6 +405,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 60
     },
@@ -339,6 +424,7 @@
       "tca": false,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 60
     },
@@ -359,6 +445,7 @@
       "tca": true,
       "era": "The Civil War and Reconstruction (1861-1870s)",
       "eraOverview": "Students will understand the causes and course of the Civil War and the successes and failures of Reconstruction.",
+      "eraOverviewSourcePage": 59,
       "cluster": "The Civil War and Reconstruction (1861-1870s)",
       "sourcePage": 60
     },
@@ -376,6 +463,7 @@
       "tca": false,
       "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "eraOverview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "eraOverviewSourcePage": 61,
       "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "sourcePage": 61
     },
@@ -394,6 +482,7 @@
       "tca": false,
       "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "eraOverview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "eraOverviewSourcePage": 61,
       "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "sourcePage": 61
     },
@@ -411,6 +500,7 @@
       "tca": false,
       "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "eraOverview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "eraOverviewSourcePage": 61,
       "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "sourcePage": 61
     },
@@ -428,6 +518,7 @@
       "tca": false,
       "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "eraOverview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "eraOverviewSourcePage": 61,
       "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "sourcePage": 61
     },
@@ -445,6 +536,7 @@
       "tca": false,
       "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "eraOverview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "eraOverviewSourcePage": 61,
       "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "sourcePage": 61
     },
@@ -461,6 +553,7 @@
       "tca": false,
       "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "eraOverview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "eraOverviewSourcePage": 61,
       "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "sourcePage": 61
     },
@@ -478,6 +571,7 @@
       "tca": false,
       "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "eraOverview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "eraOverviewSourcePage": 61,
       "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "sourcePage": 61
     },
@@ -497,6 +591,7 @@
       "tca": true,
       "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "eraOverview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "eraOverviewSourcePage": 61,
       "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "sourcePage": 62
     },
@@ -515,6 +610,7 @@
       "tca": false,
       "era": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "eraOverview": "Students will explain the key shifts in the United States during the late 19th and early 20th centuries, including immigration, industrialization, the nation’s role in world affairs, and the Progressive Era.",
+      "eraOverviewSourcePage": 61,
       "cluster": "Industrialization, the Gilded Age, and the Progressive Era (1870s-1910s)",
       "sourcePage": 62
     },
@@ -532,6 +628,7 @@
       "tca": false,
       "era": "World War I and Between the Wars (1920s-1940s)",
       "eraOverview": "Students will summarize and describe U.S. involvement during World War I as well as the cultural, economic, and political developments of the 1920s.",
+      "eraOverviewSourcePage": 63,
       "cluster": "World War I and Between the Wars (1920s-1940s)",
       "sourcePage": 63
     },
@@ -548,6 +645,7 @@
       "tca": false,
       "era": "World War I and Between the Wars (1920s-1940s)",
       "eraOverview": "Students will summarize and describe U.S. involvement during World War I as well as the cultural, economic, and political developments of the 1920s.",
+      "eraOverviewSourcePage": 63,
       "cluster": "World War I and Between the Wars (1920s-1940s)",
       "sourcePage": 63
     },
@@ -564,6 +662,7 @@
       "tca": false,
       "era": "World War I and Between the Wars (1920s-1940s)",
       "eraOverview": "Students will summarize and describe U.S. involvement during World War I as well as the cultural, economic, and political developments of the 1920s.",
+      "eraOverviewSourcePage": 63,
       "cluster": "World War I and Between the Wars (1920s-1940s)",
       "sourcePage": 63
     },
@@ -582,6 +681,7 @@
       "tca": false,
       "era": "World War I and Between the Wars (1920s-1940s)",
       "eraOverview": "Students will summarize and describe U.S. involvement during World War I as well as the cultural, economic, and political developments of the 1920s.",
+      "eraOverviewSourcePage": 63,
       "cluster": "World War I and Between the Wars (1920s-1940s)",
       "sourcePage": 63
     },
@@ -599,6 +699,7 @@
       "tca": true,
       "era": "World War I and Between the Wars (1920s-1940s)",
       "eraOverview": "Students will summarize and describe U.S. involvement during World War I as well as the cultural, economic, and political developments of the 1920s.",
+      "eraOverviewSourcePage": 63,
       "cluster": "World War I and Between the Wars (1920s-1940s)",
       "sourcePage": 63
     },
@@ -613,6 +714,7 @@
       "tca": false,
       "era": "World War I and Between the Wars (1920s-1940s)",
       "eraOverview": "Students will summarize and describe U.S. involvement during World War I as well as the cultural, economic, and political developments of the 1920s.",
+      "eraOverviewSourcePage": 63,
       "cluster": "World War I and Between the Wars (1920s-1940s)",
       "sourcePage": 64
     },
@@ -631,6 +733,7 @@
       "tca": false,
       "era": "World War I and Between the Wars (1920s-1940s)",
       "eraOverview": "Students will summarize and describe U.S. involvement during World War I as well as the cultural, economic, and political developments of the 1920s.",
+      "eraOverviewSourcePage": 63,
       "cluster": "World War I and Between the Wars (1920s-1940s)",
       "sourcePage": 64
     },
@@ -648,6 +751,7 @@
       "tca": true,
       "era": "World War I and Between the Wars (1920s-1940s)",
       "eraOverview": "Students will summarize and describe U.S. involvement during World War I as well as the cultural, economic, and political developments of the 1920s.",
+      "eraOverviewSourcePage": 63,
       "cluster": "World War I and Between the Wars (1920s-1940s)",
       "sourcePage": 64
     },
@@ -665,6 +769,7 @@
       "tca": false,
       "era": "World War II (1930s-1940s)",
       "eraOverview": "Students will examine and analyze U.S. involvement during World War II as well as the impact of the war at home.",
+      "eraOverviewSourcePage": 65,
       "cluster": "World War II (1930s-1940s)",
       "sourcePage": 65
     },
@@ -680,6 +785,7 @@
       "tca": false,
       "era": "World War II (1930s-1940s)",
       "eraOverview": "Students will examine and analyze U.S. involvement during World War II as well as the impact of the war at home.",
+      "eraOverviewSourcePage": 65,
       "cluster": "World War II (1930s-1940s)",
       "sourcePage": 65
     },
@@ -697,6 +803,7 @@
       "tca": false,
       "era": "World War II (1930s-1940s)",
       "eraOverview": "Students will examine and analyze U.S. involvement during World War II as well as the impact of the war at home.",
+      "eraOverviewSourcePage": 65,
       "cluster": "World War II (1930s-1940s)",
       "sourcePage": 65
     },
@@ -714,6 +821,7 @@
       "tca": false,
       "era": "World War II (1930s-1940s)",
       "eraOverview": "Students will examine and analyze U.S. involvement during World War II as well as the impact of the war at home.",
+      "eraOverviewSourcePage": 65,
       "cluster": "World War II (1930s-1940s)",
       "sourcePage": 65
     },
@@ -731,6 +839,7 @@
       "tca": false,
       "era": "World War II (1930s-1940s)",
       "eraOverview": "Students will examine and analyze U.S. involvement during World War II as well as the impact of the war at home.",
+      "eraOverviewSourcePage": 65,
       "cluster": "World War II (1930s-1940s)",
       "sourcePage": 65
     },
@@ -750,6 +859,7 @@
       "tca": false,
       "era": "Post-World War II and the Civil Rights Movement (1940s-1960s)",
       "eraOverview": "Students will examine the cultural and political developments in the U.S. after World War II and during the Civil Rights Movement.",
+      "eraOverviewSourcePage": 66,
       "cluster": "Post-World War II and the Civil Rights Movement (1940s-1960s)",
       "sourcePage": 66
     },
@@ -769,6 +879,7 @@
       "tca": true,
       "era": "Post-World War II and the Civil Rights Movement (1940s-1960s)",
       "eraOverview": "Students will examine the cultural and political developments in the U.S. after World War II and during the Civil Rights Movement.",
+      "eraOverviewSourcePage": 66,
       "cluster": "Post-World War II and the Civil Rights Movement (1940s-1960s)",
       "sourcePage": 66
     },
@@ -785,6 +896,7 @@
       "tca": false,
       "era": "Post-World War II and the Civil Rights Movement (1940s-1960s)",
       "eraOverview": "Students will examine the cultural and political developments in the U.S. after World War II and during the Civil Rights Movement.",
+      "eraOverviewSourcePage": 66,
       "cluster": "Post-World War II and the Civil Rights Movement (1940s-1960s)",
       "sourcePage": 66
     }
