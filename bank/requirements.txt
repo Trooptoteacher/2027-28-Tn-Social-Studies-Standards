@@ -1,0 +1,14 @@
+# Python packages the suite needs. A fresh cloud container has none of them,
+# and two stages fail with a ModuleNotFoundError that reads like a code defect:
+# `print gate proofs` cannot import weasyprint, and every form stage dies inside
+# pdfminer. Both passed once installed, which is the tell — but only after the
+# time had been spent. Written down on 2026-10-04, after a container was
+# reclaimed and the repository re-cloned from scratch.
+#
+#   python3 -m pip install -r bank/requirements.txt
+#
+# Versions are the ones this suite has actually been run against; they are a
+# record, not a ceiling. Nothing here is pinned hard, because a pin that nobody
+# re-measures is the same rotting claim as a number typed into prose.
+pdfminer.six>=20221105   # gates/forms.py — reads glyph size and position from rendered PDFs
+weasyprint>=60           # tests/test_form_gates.py and the form/DBQ renderers

@@ -5,6 +5,31 @@ live ones come from `bash tools/run_all.sh` and `reports/STATUS.md`.
 
 ---
 
+## 0. ⛔ A SESSION'S WORK WAS LOST, AND THE CAUSE IS A STANDING INSTRUCTION
+
+**2026-10-04.** A session authored 12 standards, applied 130 re-homes, repaired 6 standards to
+zero and fixed 8 tools. It committed each piece as instructed and, as instructed, **pushed
+nothing**. The container was then reclaimed, the repository was re-cloned from `origin`, and
+every one of those commits went with it. `origin/claude/tn-social-studies-bank-d2iz2u` is at
+`337e13e` ("Phase 3"); there is no reflog, no stash, no dangling object and no newer ref on
+the remote. It is not recoverable.
+
+**The instruction and the environment are individually reasonable and jointly lossy.** "Do
+not push, merge, or open a pull request unless explicitly instructed" protects the remote
+from unreviewed work. A cloud session container is ephemeral and is reclaimed after
+inactivity. Together they mean **a local commit is not a save** — it is a save that lasts
+until the container does, which no commit message says.
+
+**This needs Sean's decision, and nothing here can make it:**
+- *Preferred* — authorise pushing the work branch after each commit. The branch is
+  `claude/...` and nothing merges without a PR, so review is unaffected; only the storage
+  changes. One line is enough: *"push the branch as you go."*
+- Otherwise, every session's work stands to be lost the same way, and the honest planning
+  assumption is that a session's output survives only while that session does.
+
+Until that is settled, work is ordered cheapest-and-most-reproducible first, and anything
+expensive to re-derive is written down here rather than left in the tree.
+
 ## 1. The binding — read this first
 
 ```
@@ -58,13 +83,16 @@ by `python3 tools/dbq_activity.py --all`. See §13.
 ## 3. How to run it
 
 ```bash
+python3 -m pip install -r bank/requirements.txt   # FIRST, in a fresh container
 bash tools/run_all.sh                       # everything, ledger first
 python3 tools/run_gates.py                  # gates against the bank
 python3 tools/run_gates.py --form FORM-A    # one form, scoped
 python3 tools/form_readiness.py --csv reports/form-readiness.csv
 ```
 
-Twelve stages. The ledger runs **first**: if a guard has gone missing, nothing below it
+**Seventeen stages** (`grep -c '^stage ' tools/run_all.sh` — this line read "Twelve"
+until 2026-10-04, having been typed once and never re-counted). The ledger runs
+**first**: if a guard has gone missing, nothing below it
 can be trusted.
 
 ## 4. The rules that matter
@@ -165,7 +193,16 @@ invoice was carrying private copies of three rules the gates already owned (L72)
 the number that picks the next standard, so it had made the cheap work look cheaper than
 it is: every line a gate owns is now charged by calling that gate.*
 
-Per form, the recipe that produced both green ones:
+Per form, the recipe that produced both forms:
+
+> **⚠️ Neither FORM-A nor FORM-B is green today, and this section used to call them
+> "both green ones".** Measured 2026-10-04, `run_gates.py --form FORM-A` is **HELD on six
+> gates** — record-complete, distractor-coverage, serveability, choice-length-cue,
+> misconception-taxonomy, stimulus-integrity. This is not a regression in the forms: both
+> were authored before `misconception-taxonomy` (Phase 1+2) and `stimulus-integrity`
+> (Phase 3) existed, and a form cannot have been built to a gate that had not been
+> written. It IS the current release state, and the release gate is Grade A only, so
+> neither form may be described as shipped or shippable. Re-measure before quoting this.
 
 1. `python3 tools/form_readiness.py` — pick a standard, read its cost
 2. Read the items the builder would select. **Read them before authoring** — every round,

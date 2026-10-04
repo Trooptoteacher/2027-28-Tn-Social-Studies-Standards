@@ -31,8 +31,12 @@ stage "status report"         python3 tools/status_report.py
 stage "gates vs artifact"     python3 tools/run_gates.py
 # The pilot form is GREEN. Enforce it: a regression here means something that
 # was proven achievable stopped being achievable.
-stage "FORM-A (proven green)"  python3 tools/run_gates.py --form FORM-A
-stage "FORM-B (proven green)"  python3 tools/run_gates.py --form FORM-B
+# NOT "proven green". Both forms were authored before misconception-taxonomy
+# (Phase 1+2) and stimulus-integrity (Phase 3) existed, and a form cannot have
+# been built to a gate that had not been written. They are HELD, and a stage
+# label asserting the opposite is the one line of this suite nothing measures.
+stage "FORM-A (HELD)"         python3 tools/run_gates.py --form FORM-A
+stage "FORM-B (HELD)"         python3 tools/run_gates.py --form FORM-B
 
 printf '\n'
 if [ "$FAIL" -eq 0 ]; then
