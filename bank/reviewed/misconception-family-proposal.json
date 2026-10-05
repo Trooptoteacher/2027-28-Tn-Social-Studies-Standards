@@ -1,6 +1,6 @@
 {
   "$comment": "A PROPOSAL, NOT A WRITE. Nothing here has been applied to any item; misconception-taxonomy still FAILS on all 66, which is the honest state. What CHANGED on 2026-10-04 is that the taxonomy it proposes against is no longer DRAFT: Sean read the v1 version of this file, and directed the two additions that v1's own measurements argued for. This is the re-measurement against v2.",
-  "status": "READY TO APPLY — awaiting Sean's go-ahead on the write, which is a separate act from approving the taxonomy. Each applied assignment carries requiresHistorianReview, because a family is a claim about what a student believes.",
+  "status": "PARTLY APPLIED 2026-10-04 on Sean's authorisation — the 48 clean fits are in the bank (authoring/misconception-tags-batch-1.json). 14 are HELD because the fit is approximate or needs two families; writing a family on a near-fit records a guess in the one field the analytics layer trusts. 4 are for REWRITE, not tagging.",
   "drafted": "2026-10-04 (v1), re-measured against taxonomyVersion 2 the same day",
   "draftedBy": "Claude. An authoring agent may not approve its own work.",
   "taxonomyVersion": 2,
@@ -47,8 +47,8 @@
     },
     {
       "id": "F7",
-      "severity": "medium",
-      "finding": "⚠ `plausible-fabrication` IS FLAGGED IN THE TAXONOMY AND NOT SETTLED. Four of these 66 use it. The CCR close-reading line in history-hack-web-app reached the OPPOSITE conclusion for its own items — a distractor must not assert history that never happened, because the distractor outlives the item. That rule was written for passage-based items where wrongness must be provable FROM the passage; these are standalone content items. All four here NEGATE a real fact (the treaty has no time limit; no withdrawal happened) rather than inventing a whole event. If Sean applies the CCR rule to this bank, the function becomes itemFlaw: true and those four distractors get rewritten rather than tagged."
+      "severity": "resolved",
+      "finding": "RESOLVED 2026-10-04: Sean applied the CCR rule to this bank. `plausible-fabrication` is now `itemFlaw: true`, so the 4 distractors using it are REWRITTEN rather than tagged — anchored in something that really happened and is wrong for THIS stem, never a different invented claim. ⚠ One of the four exposes bad history in its OWN misconception label: PSTIM-0041/B is recorded as 'invents a negotiated settlement for the blockade', but the Berlin Blockade WAS ended by negotiation — the Jessup-Malik talks at the UN and the New York Agreement of May 1949. The false parts of that option are 'peace treaty' and 'permanent zones', not the existence of a settlement. The label is corrected with the rewrite."
     }
   ],
   "whatIsNotProposedHere": [
@@ -69,7 +69,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: the Act DIVIDED tribal land; this option restores it. Right actor, right date, sign flipped."
+      "reviewerNote": "polarity: the Act DIVIDED tribal land; this option restores it. Right actor, right date, sign flipped.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "US.05-GEN-01",
@@ -83,7 +84,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "two federal land policies of the same era merged."
+      "reviewerNote": "two federal land policies of the same era merged.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "US.05-GEN-01",
@@ -97,7 +99,8 @@
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "clear",
-      "reviewerNote": "federal action attributed to tribal decision-making."
+      "reviewerNote": "federal action attributed to tribal decision-making.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "US.05-GEN-02",
@@ -111,7 +114,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: the schools' stated purpose inverted."
+      "reviewerNote": "polarity: the schools' stated purpose inverted.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "US.05-GEN-02",
@@ -125,7 +129,8 @@
       "proposedFamily": "MC-F-04",
       "proposedFamilyName": "Causation reversal",
       "fit": "approximate",
-      "reviewerNote": "a MEANS taken for an END. See finding F4 — three cases, no family fits cleanly."
+      "reviewerNote": "a MEANS taken for an END. See finding F4 — three cases, no family fits cleanly.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "US.05-GEN-02",
@@ -139,7 +144,8 @@
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",
-      "reviewerNote": "treaty-making placed in the wrong era."
+      "reviewerNote": "treaty-making placed in the wrong era.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "STIM-0019",
@@ -153,7 +159,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity in a VISUAL source: the menu imagery read backwards."
+      "reviewerNote": "polarity in a VISUAL source: the menu imagery read backwards.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "STIM-0019",
@@ -167,7 +174,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
-      "reviewerNote": "annexation (political) recast as trade (economic)."
+      "reviewerNote": "annexation (political) recast as trade (economic).",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "STIM-0019",
@@ -181,7 +189,8 @@
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",
-      "reviewerNote": "cartoon placed before the war rather than after."
+      "reviewerNote": "cartoon placed before the war rather than after.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PS-0065",
@@ -195,7 +204,8 @@
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "clear",
-      "reviewerNote": "France substituted for Colombia as the aggrieved party."
+      "reviewerNote": "France substituted for Colombia as the aggrieved party.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PS-0065",
@@ -209,7 +219,8 @@
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "approximate",
-      "reviewerNote": "the canal's builder displaced onto other nations; actor error with no named substitute."
+      "reviewerNote": "the canal's builder displaced onto other nations; actor error with no named substitute.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "PS-0065",
@@ -223,7 +234,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "Colombia merged with Spain as the colonial power."
+      "reviewerNote": "Colombia merged with Spain as the colonial power.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PS-0067",
@@ -237,7 +249,8 @@
       "proposedFamily": "MC-F-03",
       "proposedFamilyName": "Scale or scope error",
       "fit": "clear",
-      "reviewerNote": "the hydrological problem overstated in scale."
+      "reviewerNote": "the hydrological problem overstated in scale.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PS-0067",
@@ -251,7 +264,8 @@
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS. The excerpt documents abundant recruited labour; this option is refuted by the source the item supplies. v1 had nowhere to put it."
+      "reviewerNote": "RESOLVED BY THE AXIS. The excerpt documents abundant recruited labour; this option is refuted by the source the item supplies. v1 had nowhere to put it.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PS-0067",
@@ -265,7 +279,8 @@
       "proposedFamily": "MC-F-07",
       "proposedFamilyName": "Presentism",
       "fit": "approximate",
-      "reviewerNote": "assumes the past was less mechanised than it was — the Culebra Cut was dug with steam shovels. Presentism inverted; see F5."
+      "reviewerNote": "assumes the past was less mechanised than it was — the Culebra Cut was dug with steam shovels. Presentism inverted; see F5.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "PSTIM-0124",
@@ -279,7 +294,8 @@
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "clear",
-      "reviewerNote": "the canal assigned to the preceding administration."
+      "reviewerNote": "the canal assigned to the preceding administration.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0124",
@@ -293,7 +309,8 @@
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "two-families",
-      "reviewerNote": "wrong actor BECAUSE of wrong timing — MC-F-01 and MC-F-02 both apply and the schema takes one. See F6."
+      "reviewerNote": "wrong actor BECAUSE of wrong timing — MC-F-01 and MC-F-02 both apply and the schema takes one. See F6.",
+      "disposition": "HELD — fit is 'two-families', awaiting Sean"
     },
     {
       "itemId": "PSTIM-0124",
@@ -307,7 +324,8 @@
       "proposedFamily": "MC-F-02",
       "proposedFamilyName": "Agent substitution",
       "fit": "clear",
-      "reviewerNote": "Roosevelt's successor credited with the decision."
+      "reviewerNote": "Roosevelt's successor credited with the decision.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0149",
@@ -321,7 +339,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: the direction of federal involvement under the New Deal, reversed."
+      "reviewerNote": "polarity: the direction of federal involvement under the New Deal, reversed.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0149",
@@ -335,7 +354,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
-      "reviewerNote": "a federally owned corporation taken for a private company."
+      "reviewerNote": "a federally owned corporation taken for a private company.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0149",
@@ -349,7 +369,8 @@
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "approximate",
-      "reviewerNote": "a PERIODISATION error rather than a displaced event."
+      "reviewerNote": "a PERIODISATION error rather than a displaced event.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "q-us45-dok1-1",
@@ -363,7 +384,8 @@
       "proposedFamily": "MC-F-07",
       "proposedFamilyName": "Presentism",
       "fit": "clear",
-      "reviewerNote": "the modern recycling slogan applied to 1933."
+      "reviewerNote": "the modern recycling slogan applied to 1933.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us45-dok1-1",
@@ -377,7 +399,8 @@
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — invented R-words. See the reviewNote on this function; it is flagged, not settled."
+      "reviewerNote": "RESOLVED BY THE AXIS — invented R-words. See the reviewNote on this function; it is flagged, not settled.",
+      "disposition": "REWRITE — plausible-fabrication is an item flaw as of 2026-10-04"
     },
     {
       "itemId": "q-us45-dok1-1",
@@ -391,7 +414,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "approximate",
-      "reviewerNote": "an instrument taken for an aim. Means-for-ends again, see F4."
+      "reviewerNote": "an instrument taken for an aim. Means-for-ends again, see F4.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "q-us45-dok2-8",
@@ -405,7 +429,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "New Deal housing relief merged with New Deal labour policy."
+      "reviewerNote": "New Deal housing relief merged with New Deal labour policy.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us45-dok2-8",
@@ -419,7 +444,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
-      "reviewerNote": "European political conditions answering a U.S. labour-law question."
+      "reviewerNote": "European political conditions answering a U.S. labour-law question.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us45-dok2-8",
@@ -433,7 +459,8 @@
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — a true comparative-ideology statement answering a question that was not asked."
+      "reviewerNote": "RESOLVED BY THE AXIS — a true comparative-ideology statement answering a question that was not asked.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us44-dok1-2",
@@ -447,7 +474,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "RFC merged with the Hawley-Smoot Tariff."
+      "reviewerNote": "RFC merged with the Hawley-Smoot Tariff.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us44-dok1-2",
@@ -461,7 +489,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "RFC merged with the voluntary-cooperation policy."
+      "reviewerNote": "RFC merged with the voluntary-cooperation policy.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us44-dok1-2",
@@ -475,7 +504,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "RFC merged with the Bonus Army episode."
+      "reviewerNote": "RFC merged with the Bonus Army episode.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us44-dok2-1",
@@ -489,7 +519,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "Bonus Army merged with the RFC."
+      "reviewerNote": "Bonus Army merged with the RFC.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us44-dok2-1",
@@ -503,7 +534,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "Bonus Army merged with the Hawley-Smoot Tariff."
+      "reviewerNote": "Bonus Army merged with the Hawley-Smoot Tariff.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us44-dok2-1",
@@ -517,7 +549,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "Bonus Army merged with the voluntary-cooperation policy."
+      "reviewerNote": "Bonus Army merged with the voluntary-cooperation policy.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "U5-DOK2-0027",
@@ -531,7 +564,8 @@
       "proposedFamily": "MC-F-03",
       "proposedFamilyName": "Scale or scope error",
       "fit": "clear",
-      "reviewerNote": "the charge overstated to nationalisation of industry."
+      "reviewerNote": "the charge overstated to nationalisation of industry.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "U5-DOK2-0027",
@@ -545,7 +579,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "approximate",
-      "reviewerNote": "regulation and subsidy taken for land redistribution; a degree error as much as a domain one."
+      "reviewerNote": "regulation and subsidy taken for land redistribution; a degree error as much as a domain one.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "U5-DOK2-0027",
@@ -559,7 +594,8 @@
       "proposedFamily": "MC-F-03",
       "proposedFamilyName": "Scale or scope error",
       "fit": "approximate",
-      "reviewerNote": "federal relief read as having REPLACED private charity — a totality error."
+      "reviewerNote": "federal relief read as having REPLACED private charity — a totality error.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "q-us59-dok1-4",
@@ -573,7 +609,8 @@
       "proposedFamily": "MC-F-14",
       "proposedFamilyName": "Definition gap",
       "fit": "clear",
-      "reviewerNote": "'satellite' read in its everyday spaceflight sense. The textbook case for this family."
+      "reviewerNote": "'satellite' read in its everyday spaceflight sense. The textbook case for this family.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us59-dok1-4",
@@ -587,7 +624,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: imposed control read as voluntary partnership."
+      "reviewerNote": "polarity: imposed control read as voluntary partnership.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us59-dok1-4",
@@ -601,7 +639,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: which bloc the satellite states belonged to, reversed."
+      "reviewerNote": "polarity: which bloc the satellite states belonged to, reversed.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0166",
@@ -615,7 +654,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
-      "reviewerNote": "NATO's military purpose answered with economic cooperation."
+      "reviewerNote": "NATO's military purpose answered with economic cooperation.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0166",
@@ -629,7 +669,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "approximate",
-      "reviewerNote": "a defensive alliance read as political union — adjacent domain."
+      "reviewerNote": "a defensive alliance read as political union — adjacent domain.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "PSTIM-0166",
@@ -643,7 +684,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "approximate",
-      "reviewerNote": "decolonisation aims attributed to an alliance of colonial powers."
+      "reviewerNote": "decolonisation aims attributed to an alliance of colonial powers.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "U7-DOK2-0005",
@@ -657,7 +699,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
-      "reviewerNote": "the military alliances answered with the parallel economic blocs."
+      "reviewerNote": "the military alliances answered with the parallel economic blocs.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "U7-DOK2-0005",
@@ -671,7 +714,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: two opposing alliances read as a cooperative project."
+      "reviewerNote": "polarity: two opposing alliances read as a cooperative project.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "U7-DOK2-0005",
@@ -685,7 +729,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: an arms build-up read as an agreement to disarm."
+      "reviewerNote": "polarity: an arms build-up read as an agreement to disarm.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0167",
@@ -699,7 +744,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: the American tradition NATO broke with, reversed."
+      "reviewerNote": "polarity: the American tradition NATO broke with, reversed.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0167",
@@ -713,7 +759,8 @@
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — a time limit the treaty does not contain."
+      "reviewerNote": "RESOLVED BY THE AXIS — a time limit the treaty does not contain.",
+      "disposition": "REWRITE — plausible-fabrication is an item flaw as of 2026-10-04"
     },
     {
       "itemId": "PSTIM-0167",
@@ -727,7 +774,8 @@
       "proposedFamily": "MC-F-14",
       "proposedFamilyName": "Definition gap",
       "fit": "approximate",
-      "reviewerNote": "the mutual-defence obligation that DEFINES the alliance, absent. A definition gap by omission."
+      "reviewerNote": "the mutual-defence obligation that DEFINES the alliance, absent. A definition gap by omission.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "U7-DOK1-0002",
@@ -741,7 +789,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "clear",
-      "reviewerNote": "Marshall Plan merged with the Eisenhower Doctrine."
+      "reviewerNote": "Marshall Plan merged with the Eisenhower Doctrine.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "U7-DOK1-0002",
@@ -755,7 +804,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
-      "reviewerNote": "economic aid answered with the military alliance."
+      "reviewerNote": "economic aid answered with the military alliance.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "U7-DOK1-0002",
@@ -769,7 +819,8 @@
       "proposedFamily": "MC-F-03",
       "proposedFamilyName": "Scale or scope error",
       "fit": "clear",
-      "reviewerNote": "a single-city operation for a continental programme. Scope, exactly."
+      "reviewerNote": "a single-city operation for a continental programme. Scope, exactly.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0130",
@@ -783,7 +834,8 @@
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",
-      "reviewerNote": "a 1970s policy placed in a 1950 context."
+      "reviewerNote": "a 1970s policy placed in a 1950 context.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0130",
@@ -797,7 +849,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: the policy the deployment demonstrates, reversed."
+      "reviewerNote": "polarity: the policy the deployment demonstrates, reversed.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0130",
@@ -811,7 +864,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
-      "reviewerNote": "containment answered with territorial acquisition."
+      "reviewerNote": "containment answered with territorial acquisition.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us57-dok1-3",
@@ -825,7 +879,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: which power the doctrine was aimed at, reversed."
+      "reviewerNote": "polarity: which power the doctrine was aimed at, reversed.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "q-us57-dok1-3",
@@ -839,7 +894,8 @@
       "proposedFamily": "MC-F-06",
       "proposedFamilyName": "Conflation of similar names",
       "fit": "approximate",
-      "reviewerNote": "the doctrine merged with the isolationism it REPLACED — adjacency in time, not in name."
+      "reviewerNote": "the doctrine merged with the isolationism it REPLACED — adjacency in time, not in name.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "q-us57-dok1-3",
@@ -853,7 +909,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
-      "reviewerNote": "supporting a government answered with acquiring territory."
+      "reviewerNote": "supporting a government answered with acquiring territory.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "U7-DOK2-0001",
@@ -867,7 +924,8 @@
       "proposedFamily": "MC-F-15",
       "proposedFamilyName": "Polarity reversal",
       "fit": "clear",
-      "reviewerNote": "polarity: the direction of the postwar policy shift, reversed."
+      "reviewerNote": "polarity: the direction of the postwar policy shift, reversed.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "U7-DOK2-0001",
@@ -881,7 +939,8 @@
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "approximate",
-      "reviewerNote": "the wartime alliance kept past the point the doctrine ended it."
+      "reviewerNote": "the wartime alliance kept past the point the doctrine ended it.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "U7-DOK2-0001",
@@ -895,7 +954,8 @@
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — a withdrawal that did not happen."
+      "reviewerNote": "RESOLVED BY THE AXIS — a withdrawal that did not happen.",
+      "disposition": "REWRITE — plausible-fabrication is an item flaw as of 2026-10-04"
     },
     {
       "itemId": "PSTIM-0041",
@@ -909,7 +969,8 @@
       "proposedFamily": "MC-F-13",
       "proposedFamilyName": "Category error",
       "fit": "clear",
-      "reviewerNote": "a non-military response read as a military one."
+      "reviewerNote": "a non-military response read as a military one.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PSTIM-0041",
@@ -923,7 +984,8 @@
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — a negotiated settlement for the blockade."
+      "reviewerNote": "RESOLVED BY THE AXIS — a negotiated settlement for the blockade.",
+      "disposition": "REWRITE — plausible-fabrication is an item flaw as of 2026-10-04"
     },
     {
       "itemId": "PSTIM-0041",
@@ -937,7 +999,8 @@
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",
-      "reviewerNote": "the end of Soviet communism attributed to a 1948 operation."
+      "reviewerNote": "the end of Soviet communism attributed to a 1948 operation.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PS-0090",
@@ -951,7 +1014,8 @@
       "proposedFamily": "MC-F-08",
       "proposedFamilyName": "Single-cause reduction",
       "fit": "approximate",
-      "reviewerNote": "personal friction substituted for the structural cause the source names. Nearer a WRONG cause than a single one."
+      "reviewerNote": "personal friction substituted for the structural cause the source names. Nearer a WRONG cause than a single one.",
+      "disposition": "HELD — fit is 'approximate', awaiting Sean"
     },
     {
       "itemId": "PS-0090",
@@ -965,7 +1029,8 @@
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — a bare factual assumption (full Allied technology sharing) that neither answers the question nor encodes a reasoning error. v1 had nowhere to put it."
+      "reviewerNote": "RESOLVED BY THE AXIS — a bare factual assumption (full Allied technology sharing) that neither answers the question nor encodes a reasoning error. v1 had nowhere to put it.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     },
     {
       "itemId": "PS-0090",
@@ -979,7 +1044,22 @@
       "proposedFamily": "MC-F-01",
       "proposedFamilyName": "Chronological displacement",
       "fit": "clear",
-      "reviewerNote": "the chronology of the UN and the Cold War blocs reversed."
+      "reviewerNote": "the chronology of the UN and the Cold War blocs reversed.",
+      "disposition": "APPLIED 2026-10-04 (authoring/misconception-tags-batch-1.json)"
     }
-  ]
+  ],
+  "dispositions": {
+    "APPLIED 2026-10-04": 48,
+    "HELD": 14,
+    "REWRITE": 4
+  },
+  "applied": {
+    "record": "authoring/misconception-tags-batch-1.json",
+    "authorisedBy": "Sean Reynolds, 2026-10-04",
+    "distractors": 48,
+    "items": 22,
+    "gateBefore": 66,
+    "gateAfter": 18,
+    "verified": "Every applied item's existing explanation and misconception text was compared against HEAD across all 2,148 choices in the touched files: ZERO changed. This record added the two taxonomy axes and nothing else. No item's lifecycle status moved (all 22 were already `authored`), so no ledger transition is owed."
+  }
 }

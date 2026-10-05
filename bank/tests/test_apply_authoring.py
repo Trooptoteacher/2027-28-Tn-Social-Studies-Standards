@@ -101,6 +101,7 @@ def find_item(iid):
 TARGET = "q-us44-dok1-2"          # three familyless distractors, from form-a.json
 path, before = find_item(TARGET)
 check("the sandbox holds the target item", before is not None)
+_before_bytes = open(path, "rb").read()
 cids = [c["id"] for c in before["choices"] if c["id"] != before["correctAnswer"]]
 
 rec = {"$comment": "proof fixture", "items": {TARGET: {"distractors": {
@@ -117,8 +118,13 @@ check("a record carrying both axes validates", r.returncode == 0, r.stdout + r.s
 check("…and the untagged warning is NOT printed for it",
       "carry no distractorFunction" not in r.stdout, r.stdout)
 _, mid = find_item(TARGET)
-check("the dry run wrote nothing",
-      [c.get("misconceptionFamily") for c in mid["choices"]] == [None] * len(mid["choices"]))
+# Measured as "unchanged", not as "empty". The first version asserted the
+# target carried no family at all, which was true only while nothing in the
+# bank was tagged; the 48-tag write of 2026-10-04 broke the premise and the
+# proof read as a dry-run leak. What it always meant to say is that the file on
+# disk did not move.
+check("the dry run wrote nothing — the file is byte-identical",
+      open(path, "rb").read() == _before_bytes, "the dry run modified the file")
 
 r = run("authoring/proof-family.json", "--apply")
 check("--apply exits 0", r.returncode == 0, r.stdout + r.stderr)
@@ -176,6 +182,59 @@ check("…and the run SAYS it will fail misconception-taxonomy, naming the distr
 
 shutil.rmtree(tmp, ignore_errors=True)
 
+# ------------------------------- the review state moves only on a real change
+print("\n  A TAXONOMY TAG DOES NOT UN-APPROVE A REVIEWED ITEM")
+
+# The tool set requiresHistorianReview unconditionally and left
+# `historianReview` alone, so an approved item came out BOTH approved and
+# flagged — 19 of them. The first fix superseded every approval the tool
+# touched: it passed the gate and DISCARDED 16 of Sean's recorded judgements on
+# a technicality. A distractorFunction classifies how an option goes wrong; the
+# historian approved the HISTORY. So the question is measured, not assumed.
+
+check("_claims() covers the fields an approval is about",
+      set(aa.CLAIM_FIELDS) == {"stem", "stemEs", "explanation", "explanationEs",
+                               "dokRationale"}, aa.CLAIM_FIELDS)
+check("…and the two taxonomy axes are NOT among them — including them would "
+      "un-approve every item a tagging pass touched",
+      "distractorFunction" not in aa.CLAIM_CHOICE_FIELDS
+      and "misconceptionFamily" not in aa.CLAIM_CHOICE_FIELDS, aa.CLAIM_CHOICE_FIELDS)
+
+probe = {"id": "X", "stem": "s", "explanation": "e", "dokRationale": "d",
+         "choices": [{"id": "A", "text": "t", "misconception": "m"}]}
+tagged_only = json.loads(json.dumps(probe))
+tagged_only["choices"][0]["distractorFunction"] = "partial-truth"
+tagged_only["choices"][0]["misconceptionFamily"] = "MC-F-01"
+check("adding both tags leaves the claim fingerprint UNCHANGED",
+      aa._claims(probe) == aa._claims(tagged_only))
+reworded = json.loads(json.dumps(probe))
+reworded["choices"][0]["text"] = "a different option"
+check("…but rewording a choice CHANGES it", aa._claims(probe) != aa._claims(reworded))
+for f in ("stem", "explanation", "dokRationale"):
+    moved = json.loads(json.dumps(probe)); moved[f] = "moved"
+    check(f"…and so does changing {f}", aa._claims(probe) != aa._claims(moved))
+mis = json.loads(json.dumps(probe))
+mis["choices"][0]["misconception"] = "a different confusion"
+check("…and so does rewriting a free-text misconception, which IS a claim",
+      aa._claims(probe) != aa._claims(mis))
+
+# Measured on the real bank, after the 48-tag write.
+import binding as _bm, itemio as _io
+bank = _io.load_dir(_bm.load().output_dir)
+approved_now = [i for i in bank if i.get("historianReview")]
+check("all 19 standing approvals SURVIVED the tagging pass",
+      len(approved_now) == 19, len(approved_now))
+check("…and none was moved to the superseded list",
+      not any(i.get("historianReviewSuperseded") for i in bank))
+check("no approved item is ALSO flagged, except the 3 that were already "
+      "contradictory before any of this — those are a promotion to make, "
+      "which is Sean's call and not a build's",
+      sorted(i["id"] for i in bank
+             if i.get("historianReview") and i.get("requiresHistorianReview"))
+      == ["q-us2-dok4-cr2", "q-us3-dok4-cr3", "q-us6-dok4-cr3"],
+      sorted(i["id"] for i in bank
+             if i.get("historianReview") and i.get("requiresHistorianReview")))
+
 # ------------------------------------------- the proposal is a draft, not a write
 print("\n  THE FAMILY PROPOSAL CANNOT READ AS AN APPROVAL")
 
@@ -185,9 +244,17 @@ prop = json.load(open(PROP, encoding="utf-8"))
 # read as a signature. What changed is that the TAXONOMY is approved while the
 # ASSIGNMENTS are not, so the status moved from DRAFT to READY TO APPLY and the
 # proof follows it rather than being dropped.
-check("it declares itself not-yet-applied", prop["status"].startswith("READY TO APPLY"))
-check("…and says the write is a SEPARATE act from approving the taxonomy",
-      "separate act" in prop["status"])
+check("it declares what was and was not written",
+      prop["status"].startswith("PARTLY APPLIED"), prop["status"][:60])
+check("…and every row carries a disposition, so nothing is ambiguous about "
+      "whether it reached the bank",
+      all(a.get("disposition") for a in prop["assignments"]))
+check("…48 applied, 14 held, 4 for rewrite",
+      prop["dispositions"] == {"APPLIED 2026-10-04": 48, "HELD": 14, "REWRITE": 4},
+      prop["dispositions"])
+check("the applied record is NAMED, so a reviewer can read what was written",
+      prop["applied"]["record"] == "authoring/misconception-tags-batch-1.json")
+check("…and who authorised it", "Sean Reynolds" in prop["applied"]["authorisedBy"])
 check("it covers exactly the 66 distractors that fail the gate",
       len(prop["assignments"]) == 66, f"{len(prop['assignments'])}")
 check("every assignment carries a FIT, so a guess cannot be read as a diagnosis",
@@ -210,14 +277,25 @@ check("…and still matches the bank — a proposal quoting text that has since 
       "sends a reviewer to the wrong distractor",
       not drift, f"{len(drift)} row(s) stale: {[(a['itemId'], a['choiceId']) for a in drift[:4]]}")
 
-# The whole point: nothing was applied.
+# The whole point, restated for a partly-applied record: what is in the bank is
+# exactly what was authorised, and the held rows are still held. The
+# applied-state measurements live in tests/test_taxonomy.py; this asserts the
+# RECORD agrees with the bank, which is the half this suite owns.
 live = content.gate_misconception_taxonomy(items)
-check("NOTHING from the proposal is in the bank — the gate still fails all 66, "
-      "which is the honest state while the taxonomy is DRAFT",
-      len(live.findings) == 66, f"{len(live.findings)} finding(s)")
-check("no bank item cites a family yet",
-      not any(c.get("misconceptionFamily") for i in items for c in itemio.choices(i)
-              if isinstance(c, dict)))
+check("the gate's remaining findings equal the rows still held",
+      len(live.findings) == 14 + 4, f"{len(live.findings)} finding(s)")
+held = {(a["itemId"], a["choiceId"]) for a in prop["assignments"]
+        if not a["disposition"].startswith("APPLIED")}
+tagged = {(i["id"], c["id"]) for i in items for c in itemio.choices(i)
+          if isinstance(c, dict) and c.get("distractorFunction")}
+check("…and NO held row was written anyway", not (held & tagged),
+      f"{sorted(held & tagged)[:4]}")
+applied = {(a["itemId"], a["choiceId"]) for a in prop["assignments"]
+           if a["disposition"].startswith("APPLIED")}
+check("…and every applied row IS in the bank — the record is not ahead of the data",
+      applied <= tagged, f"{sorted(applied - tagged)[:4]}")
+check("…and the bank carries nothing the record does not name",
+      tagged <= applied, f"{sorted(tagged - applied)[:4]}")
 # A draft must not be mistakable for the signed thing.
 check("the draft is NOT keyed `tnMaterialsReview`-style as a settled review — the "
       "key names it a proposal",

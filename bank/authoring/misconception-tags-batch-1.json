@@ -1,0 +1,380 @@
+{
+  "$comment": "The 48 CLEAN misconception tags from reviewed/misconception-family-proposal.json, authorised by Sean 2026-10-04. Each distractor's EXISTING explanation and misconception are carried through unchanged — this record adds the two taxonomy axes and nothing else, so a reviewer comparing it against the bank sees only the tags. NOT included, deliberately: the 13 approximate fits and the 1 needing two families (held for Sean — writing a family on a near-fit records a guess in the one field the analytics layer trusts), and the 4 tagged `plausible-fabrication`, which is now an ITEM FLAW and means those options are REWRITTEN rather than labelled.",
+  "authorisedBy": "Sean Reynolds, 2026-10-04",
+  "source": "reviewed/misconception-family-proposal.json (taxonomyVersion 2)",
+  "items": {
+    "US.05-GEN-01": {
+      "distractors": {
+        "A": {
+          "explanation": "Federal policy moved the other way in this period. No general restoration of treaty land occurred until the 1934 Indian Reorganization Act.",
+          "misconception": "reverses the direction of federal land policy in this period",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        "B": {
+          "explanation": "Conservation reserves were a separate policy under Theodore Roosevelt, two decades later and unrelated to allotment.",
+          "misconception": "confuses allotment policy with federal conservation",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        "D": {
+          "explanation": "Allotment was imposed by federal statute, not delegated to tribal councils; the surplus was sold by the government.",
+          "misconception": "attributes federal action to tribal decision-making",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        }
+      }
+    },
+    "US.05-GEN-02": {
+      "distractors": {
+        "A": {
+          "explanation": "Students were punished for speaking their languages. Preservation is the opposite of the schools' stated aim.",
+          "misconception": "reverses the schools' stated purpose",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        "D": {
+          "explanation": "Treaty-making with tribes had ended by statute in 1871, before the boarding-school system expanded.",
+          "misconception": "assumes treaty-making continued through the boarding-school era",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      }
+    },
+    "STIM-0019": {
+      "distractors": {
+        "B": {
+          "explanation": "A refusal would be shown by pushing the menu away. Reading the menu is the act of choosing.",
+          "misconception": "reverses what the menu imagery represents",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        "C": {
+          "explanation": "The territories on the menu were annexed or occupied, not treated as independent trading partners.",
+          "misconception": "recasts annexation as trade negotiation",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        },
+        "D": {
+          "explanation": "The cartoon is dated after the fighting, and the menu lists territories rather than military options.",
+          "misconception": "places the cartoon before the war rather than after",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      }
+    },
+    "PS-0065": {
+      "distractors": {
+        "A": {
+          "explanation": "The French company sold its concession and equipment; the sovereignty dispute was with Colombia, not France.",
+          "misconception": "substitutes France for Colombia as the aggrieved party",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        },
+        "D": {
+          "explanation": "Panama declared independence from Colombia, not Spain; Spain had lost its mainland American colonies eighty years earlier.",
+          "misconception": "confuses Colombia with Spain as the colonial power",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        }
+      }
+    },
+    "PS-0067": {
+      "distractors": {
+        "A": {
+          "explanation": "The Chagres River was dammed rather than redirected, and it was one river, not four.",
+          "misconception": "overstates the hydrological problem and its scale",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-03"
+        },
+        "B": {
+          "explanation": "There was no labour shortage: tens of thousands of Caribbean and European workers were recruited, which is what the source describes.",
+          "misconception": "contradicts the source, which documents abundant recruited labour",
+          "distractorFunction": "contradicts-stimulus"
+        }
+      }
+    },
+    "PSTIM-0124": {
+      "distractors": {
+        "A": {
+          "explanation": "McKinley was president during the Spanish-American War and was assassinated in 1901, before canal construction began.",
+          "misconception": "assigns the canal to the preceding administration",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        },
+        "D": {
+          "explanation": "Taft succeeded Roosevelt and oversaw later construction, but the acquisition and decision were Roosevelt's.",
+          "misconception": "credits Roosevelt's successor with the decision",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        }
+      }
+    },
+    "PSTIM-0149": {
+      "distractors": {
+        "B": {
+          "explanation": "The TVA is the clearest case of the opposite: the federal government built and ran dams and sold the power itself.",
+          "misconception": "reverses the direction of federal involvement under the New Deal",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        "C": {
+          "explanation": "The TVA was created by Congress in 1933 as a federally owned corporation. Reading it as private misses why critics called it socialism.",
+          "misconception": "mistakes a federally owned corporation for a private company",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        }
+      }
+    },
+    "q-us45-dok1-1": {
+      "distractors": {
+        "A": {
+          "explanation": "This is the modern environmental slogan, not a New Deal term. The overlap is the letter R, not the history.",
+          "misconception": "substitutes the modern recycling slogan for the New Deal's Three Rs",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-07"
+        }
+      }
+    },
+    "q-us45-dok2-8": {
+      "distractors": {
+        "A": {
+          "explanation": "This is the Home Owners' Loan Corporation's work on mortgages. It helped families keep houses; it changed nothing about bargaining at work.",
+          "misconception": "confuses New Deal housing relief with New Deal labour policy",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        "C": {
+          "explanation": "This describes why authoritarian movements gained support in Depression-era Europe, not what changed for American workers.",
+          "misconception": "answers with European political conditions rather than U.S. labour law",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        },
+        "D": {
+          "explanation": "This contrasts two European ideologies and has no bearing on the rights American workers gained under the Wagner Act.",
+          "misconception": "answers a comparative-ideology question that was not asked",
+          "distractorFunction": "right-answer-wrong-question"
+        }
+      }
+    },
+    "q-us44-dok1-2": {
+      "distractors": {
+        "A": {
+          "explanation": "Raising tariffs was the Hawley-Smoot Tariff of 1930, a separate Hoover-era policy that restricted trade rather than lending money.",
+          "misconception": "confuses the RFC with the Hawley-Smoot Tariff",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        "C": {
+          "explanation": "This describes the failure of Hoover's voluntary-cooperation approach, in which he asked business to hold wages. The RFC was the opposite: a funded federal lender.",
+          "misconception": "confuses the RFC with Hoover's voluntary cooperation policy",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        "D": {
+          "explanation": "This is the Bonus Army episode of 1932, a protest by WWI veterans. It is an event, not an agency, and had no lending function.",
+          "misconception": "confuses the RFC with the Bonus Army episode",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        }
+      }
+    },
+    "q-us44-dok2-1": {
+      "distractors": {
+        "A": {
+          "explanation": "This is the Reconstruction Finance Corporation, a lending agency, not a protest.",
+          "misconception": "confuses the Bonus Army with the RFC",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        "B": {
+          "explanation": "This is the Hawley-Smoot Tariff, a trade policy unrelated to the veterans' march.",
+          "misconception": "confuses the Bonus Army with the Hawley-Smoot Tariff",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        "C": {
+          "explanation": "This describes why Hoover's voluntary wage-maintenance appeals failed, not the veterans' bonus demand.",
+          "misconception": "confuses the Bonus Army with Hoover's voluntary cooperation policy",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        }
+      }
+    },
+    "U5-DOK2-0027": {
+      "distractors": {
+        "B": {
+          "explanation": "FDR never proposed nationalising major industries. The charge rested on regulation and public employment, not government ownership.",
+          "misconception": "overstates the charge as nationalisation of industry",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-03"
+        }
+      }
+    },
+    "q-us59-dok1-4": {
+      "distractors": {
+        "A": {
+          "explanation": "The word 'satellite' here is political, not orbital — it describes a state held in another's orbit of control, and predates the space programme.",
+          "misconception": "reads 'satellite state' as a reference to spaceflight",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-14"
+        },
+        "B": {
+          "explanation": "Participation was not voluntary. Soviet troops remained after 1945 and coalition governments were replaced by communist ones, as in Czechoslovakia in 1948.",
+          "misconception": "mistakes imposed control for voluntary partnership",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        "C": {
+          "explanation": "Nations receiving American aid were the Marshall Plan recipients in Western Europe — the opposite bloc.",
+          "misconception": "reverses which bloc the satellite states belonged to",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        }
+      }
+    },
+    "PSTIM-0166": {
+      "distractors": {
+        "B": {
+          "explanation": "Free trade among Western nations came through separate economic instruments — the Marshall Plan and later the OEEC. NATO's founding treaty is a mutual-defence pact.",
+          "misconception": "confuses NATO's military purpose with postwar economic cooperation",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        }
+      }
+    },
+    "U7-DOK2-0005": {
+      "distractors": {
+        "B": {
+          "explanation": "Both were defence pacts. The economic instruments of the period were separate: the Marshall Plan on one side, COMECON on the other.",
+          "misconception": "confuses the military alliances with the parallel economic blocs",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        },
+        "C": {
+          "explanation": "They were not created jointly and not at the same time. NATO came in 1949 and the Warsaw Pact in 1955, formed in response to it.",
+          "misconception": "treats two opposing alliances as a cooperative project",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        "D": {
+          "explanation": "Disarmament is the reverse of what followed. Both blocs expanded conventional and nuclear forces through the 1950s and 1960s.",
+          "misconception": "reads an arms build-up as an agreement to disarm",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        }
+      }
+    },
+    "PSTIM-0167": {
+      "distractors": {
+        "A": {
+          "explanation": "The opposite: Washington's Farewell Address warned against permanent alliances, and the United States had avoided them in peacetime for over 150 years.",
+          "misconception": "reverses the American tradition NATO broke with",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        }
+      }
+    },
+    "U7-DOK1-0002": {
+      "distractors": {
+        "A": {
+          "explanation": "The Eisenhower Doctrine came a decade later, in 1957, and addressed the Middle East.",
+          "misconception": "confuses the Marshall Plan with the Eisenhower Doctrine",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        "B": {
+          "explanation": "NATO was a 1949 military alliance. The Marshall Plan was economic aid and came first.",
+          "misconception": "confuses economic aid with the military alliance",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        },
+        "C": {
+          "explanation": "The Berlin Airlift was a 1948-49 supply operation for one city, not a Europe-wide recovery programme.",
+          "misconception": "confuses a single-city operation with a continental aid programme",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-03"
+        }
+      }
+    },
+    "PSTIM-0130": {
+      "distractors": {
+        "A": {
+          "explanation": "Détente was the 1970s easing of tensions under Nixon, two decades after Korea and opposite in posture.",
+          "misconception": "places a 1970s policy in a 1950 context",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        },
+        "B": {
+          "explanation": "Isolationism is the refusal to intervene abroad. Sending troops to Korea is its contradiction.",
+          "misconception": "reverses the policy the deployment demonstrates",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        "D": {
+          "explanation": "Imperialism means acquiring territory. The stated aim in Korea was to hold a line, not to annex it.",
+          "misconception": "confuses containing an opponent with acquiring territory",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        }
+      }
+    },
+    "q-us57-dok1-3": {
+      "distractors": {
+        "A": {
+          "explanation": "The Truman Doctrine was directed AGAINST Soviet expansion; an alliance with the Soviet Union is its opposite.",
+          "misconception": "reverses which power the doctrine was aimed at",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        "D": {
+          "explanation": "No territory was claimed. Aid to Greece and Turkey was support for existing governments, not colonial acquisition.",
+          "misconception": "confuses supporting a government with acquiring territory",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        }
+      }
+    },
+    "U7-DOK2-0001": {
+      "distractors": {
+        "B": {
+          "explanation": "The doctrine did the reverse: it committed the United States to peacetime intervention abroad and ended the interwar isolationist position.",
+          "misconception": "reverses the direction of the postwar policy shift",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        }
+      }
+    },
+    "PSTIM-0041": {
+      "distractors": {
+        "A": {
+          "explanation": "No Soviet troops were driven out. The airlift deliberately avoided force by flying over the blockade instead of breaking it.",
+          "misconception": "reads a non-military response as a military one",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        },
+        "C": {
+          "explanation": "Sanctions were not the instrument, and Soviet communism continued for four more decades.",
+          "misconception": "attributes the end of Soviet communism to a 1948 operation",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      }
+    },
+    "PS-0090": {
+      "distractors": {
+        "B": {
+          "explanation": "The Allies did not share all military technology — the United States withheld the atomic programme from the Soviets entirely.",
+          "misconception": "assumes full technology sharing among the Allies",
+          "distractorFunction": "partial-truth"
+        },
+        "C": {
+          "explanation": "The United Nations was designed to keep the Allies cooperating after 1945, and the blocs hardened afterward rather than before the war ended.",
+          "misconception": "reverses the chronology of the UN and the Cold War blocs",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      }
+    }
+  }
+}

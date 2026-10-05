@@ -14,7 +14,9 @@ Usage: python3 tools/apply_authoring.py authoring/form-a.json [--apply]
 """
 from __future__ import annotations
 
-import argparse, json, os, sys
+import argparse, datetime, json, os, sys
+
+TODAY = datetime.date.today().isoformat()
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -83,6 +85,23 @@ def normalise(payload):
         return expl, mis, fam, fn
     raise AuthoringError("must be [explanation, misconception] or an object with explanation / "
                          "misconception / distractorFunction / misconceptionFamily")
+
+
+CLAIM_FIELDS = ("stem", "stemEs", "explanation", "explanationEs", "dokRationale")
+CLAIM_CHOICE_FIELDS = ("text", "textEs", "explanation", "misconception")
+
+
+def _claims(item):
+    """Everything on an item that a historian's approval is ABOUT.
+
+    Deliberately EXCLUDES `distractorFunction` and `misconceptionFamily`: those
+    classify how an option goes wrong, which is a pedagogical judgement, not a
+    statement about the past. Including them would make a tagging pass
+    un-approve every item it touched.
+    """
+    return (tuple(item.get(f) for f in CLAIM_FIELDS),
+            tuple((c.get("id"), tuple(c.get(f) for f in CLAIM_CHOICE_FIELDS))
+                  for c in (item.get("choices") or []) if isinstance(c, dict)))
 
 
 def validate(record, items_by_id):
@@ -181,7 +200,7 @@ def main():
     if not a.apply:
         print("DRY RUN — nothing written. Re-run with --apply."); return 0
 
-    touched = 0
+    touched, superseded, untouched_review = 0, [], []
     for path in sorted({by_id[i]["_file"] for i in rec["items"] if i in by_id}):
         full = os.path.join(itemio.BANK_ROOT, path)
         with open(full, encoding="utf-8") as fh:
@@ -190,6 +209,10 @@ def main():
             spec = rec["items"].get(r.get("id"))
             if not spec:
                 continue
+            # A snapshot of every field a historian's approval is ABOUT, taken
+            # before this record writes, so "did a claim move" is measured
+            # rather than inferred from which keys the record happens to carry.
+            before_claims = _claims(r)
             for f in ("dokRationale", "explanation", "stemEs", "explanationEs"):
                 if spec.get(f):
                     r[f] = spec[f]
@@ -207,11 +230,55 @@ def main():
                             c["distractorFunction"] = fn
                         if fam:
                             c["misconceptionFamily"] = fam
+            changed_claims = _claims(r) != before_claims
             if spec.get("stemEs"):
                 # Authored here, not by a certified translator.
                 r["translationStatus"] = "needs-review"
             r["status"] = "authored"
-            r["requiresHistorianReview"] = True
+            # THE REVIEW STATE MOVES ONLY IF A CLAIM A HISTORIAN APPROVED MOVED.
+            #
+            # This tool used to set requiresHistorianReview unconditionally and
+            # leave `historianReview` alone, so an item a historian had
+            # approved came out BOTH approved and flagged — a contradiction
+            # `review-provenance` is written to catch, and it caught 19.
+            #
+            # The first fix superseded every standing approval the tool touched,
+            # which passed the gate and was WRONG: it discarded 19 of Sean's
+            # recorded judgements on a technicality. A `distractorFunction` or
+            # a `misconceptionFamily` is a PEDAGOGICAL CLASSIFICATION of how an
+            # option goes wrong; the historian approved the HISTORY. Adding a
+            # taxonomy tag does not make a reviewed item unreviewed.
+            #
+            # So the question is measured, not assumed: did this write change a
+            # field the approval was ABOUT? Stems, explanations, choice text
+            # and the free-text misconception are historical claims. The two
+            # taxonomy axes are not. Only a real change supersedes — and then
+            # the approval is MOVED, never deleted, because the record in
+            # reviewed/historian-approvals.json is append-only evidence that a
+            # person approved a prior version. What changes is the ITEM's
+            # claim, which may no longer say it is reviewed. Expressing it that
+            # way needs no change to the gate, and a gate relaxed to let a
+            # write pass is not a gate.
+            if changed_claims:
+                prior = r.pop("historianReview", None)
+                if prior:
+                    hist = r.setdefault("historianReviewSuperseded", [])
+                    stamp = {**prior, "supersededBy": os.path.basename(a.record),
+                             "supersededOn": TODAY,
+                             "reason": "a historical claim on this item changed after this "
+                                       "approval, so it no longer covers what the item says; "
+                                       "the approval record stands as evidence for the version "
+                                       "that was reviewed"}
+                    if stamp not in hist:
+                        hist.append(stamp)
+                    superseded.append(r.get("id"))
+                r["requiresHistorianReview"] = True
+            elif not r.get("historianReview"):
+                # Never reviewed, and only tags were written: it still needs a
+                # historian, because the content it carries was authored.
+                r["requiresHistorianReview"] = True
+            else:
+                untouched_review.append(r.get("id"))
             r.setdefault("provenance", {})["authoring"] = {
                 "record": os.path.basename(a.record),
                 "note": "rationales explain misconceptions and remain historical claims",
@@ -220,6 +287,17 @@ def main():
         with open(full, "w", encoding="utf-8") as fh:
             json.dump(doc, fh, indent=2, ensure_ascii=False)
     print(f"applied to {touched} item(s); each marked authored + requiresHistorianReview")
+    if untouched_review:
+        print(f"\n  {len(untouched_review)} standing historian approval(s) LEFT INTACT: this "
+              f"record changed\n    only taxonomy tags on them, and a tag classifies how an "
+              f"option goes wrong rather\n    than asserting anything about the past. An "
+              f"approval of the history still holds.")
+    if superseded:
+        print(f"\n  {len(superseded)} standing historian approval(s) SUPERSEDED, because "
+              f"a historical claim on them\n    changed and an approval cannot cover text it "
+              f"never saw. The approval records\n    stand; the items no longer claim review:\n"
+              f"    {', '.join(sorted(superseded)[:8])}"
+              + (" …" if len(superseded) > 8 else ""))
     return 0
 
 

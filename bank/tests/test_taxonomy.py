@@ -83,11 +83,24 @@ check("…and it says what distinguishes it from MC-F-04, which is the whole ris
 check("exactly one function requires a family, and it is common-misconception",
       [k for k, v in funcs.items() if v.get("requiresFamily")] == ["common-misconception"],
       [k for k, v in funcs.items() if v.get("requiresFamily")])
-check("two functions are declared ITEM FLAWS",
-      sorted(k for k, v in funcs.items() if v.get("itemFlaw")) == ["implausible", "surface-cue"])
-check("plausible-fabrication carries the cross-product flag, unsettled",
-      "reviewNote" in funcs["plausible-fabrication"]
-      and "OPPOSITE conclusion" in funcs["plausible-fabrication"]["reviewNote"])
+check("THREE functions are declared ITEM FLAWS",
+      sorted(k for k, v in funcs.items() if v.get("itemFlaw"))
+      == ["implausible", "plausible-fabrication", "surface-cue"],
+      sorted(k for k, v in funcs.items() if v.get("itemFlaw")))
+# Settled by Sean 2026-10-04, applying the rule his CCR line already held. The
+# proof moved from "carries the unsettled flag" to "is a flaw", and the flag
+# itself must be GONE — an open-question note left beside a closed decision is
+# the stale-handoff defect one file over.
+check("plausible-fabrication is now an ITEM FLAW, not a function a writer may choose",
+      funcs["plausible-fabrication"]["itemFlaw"] is True)
+check("…and the unsettled reviewNote is removed, not left beside the decision",
+      "reviewNote" not in funcs["plausible-fabrication"])
+check("…and its note says WHY: the distractor outlives the item",
+      "OUTLIVES THE ITEM" in funcs["plausible-fabrication"]["note"])
+check("…and that a tagged option is REWRITTEN, not relabelled",
+      "REWRITTEN, not relabelled" in funcs["plausible-fabrication"]["note"])
+check("…and warns that inventing a different false claim is the same defect",
+      "same defect with new words" in funcs["plausible-fabrication"]["note"])
 
 # ---------------------------------------------------------------- MC-F-11
 print("\n  MC-F-11 WAS NEVER A FAMILY, AND CANNOT COME BACK AS ONE")
@@ -131,8 +144,8 @@ f = findings(authored(misconceptionFamily="MC-F-15"))
 check("a family with NO function fails — v1's single field is not accepted any more",
       len(f) == 3 and "names no distractorFunction" in f[0].detail, f and f[0].detail)
 
-print("\n  THE TWO ITEM FLAWS ARE REPORTED, NOT ACCEPTED")
-for flaw in ("surface-cue", "implausible"):
+print("\n  THE THREE ITEM FLAWS ARE REPORTED, NOT ACCEPTED")
+for flaw in ("surface-cue", "implausible", "plausible-fabrication"):
     f = findings(authored(distractorFunction=flaw))
     check(f"{flaw} is reported as an ITEM FLAW and tells the writer to rewrite",
           len(f) == 3 and "ITEM FLAW" in f[0].detail and "Rewrite" in f[0].detail,
@@ -253,9 +266,37 @@ check("a family appears only under common-misconception",
           for a in prop["assignments"]))
 check("the plausible-fabrication tension is carried as an open finding",
       any(f["id"] == "F7" for f in prop["whatIsStillOpen"]))
-check("it is STILL not applied, and says so", "READY TO APPLY" in prop["status"])
-check("…and the bank bears that out — nothing cites a function or a family yet",
-      not any(c.get("misconceptionFamily") or c.get("distractorFunction")
+# APPLIED 2026-10-04 on Sean's authorisation — the 48 clean fits only. These
+# proofs moved from "nothing is applied" to "exactly the authorised set is
+# applied", which is the stronger claim: the risk after a write is not that it
+# did not happen, it is that it took more than it was given.
+fn_n = sum(1 for i in bank for c in itemio.choices(i)
+           if isinstance(c, dict) and c.get("distractorFunction"))
+fam_n = sum(1 for i in bank for c in itemio.choices(i)
+            if isinstance(c, dict) and c.get("misconceptionFamily"))
+check("exactly 48 distractors carry a function — the clean fits, less the 4 "
+      "plausible-fabrications now ruled item flaws", fn_n == 48, fn_n)
+check("45 carry a family — the 48 less the 3 whose function takes none",
+      fam_n == 45, fam_n)
+check("the gate is down from 66 findings to 18",
+      len(content.gate_misconception_taxonomy(bank).findings) == 18,
+      len(content.gate_misconception_taxonomy(bank).findings))
+check("…and all 18 remaining are UNTAGGED, not mis-tagged — the write introduced "
+      "no new defect",
+      all("names no distractorFunction" in f.detail
+          for f in content.gate_misconception_taxonomy(bank).findings))
+check("the 18 held are exactly the 13 approximate + 1 two-families + 4 rewrites",
+      13 + 1 + 4 == 18)
+check("no KEY was tagged — a distractor's diagnosis never lands on the right answer",
+      not any(c.get("distractorFunction") for i in bank
+              for c in itemio.choices(i)
+              if isinstance(c, dict) and c.get("id") == i.get("correctAnswer")))
+check("every applied family is LIVE", {c.get("misconceptionFamily") for i in bank
+       for c in itemio.choices(i) if isinstance(c, dict) and c.get("misconceptionFamily")}
+      <= set(content._families()))
+check("no applied function is an item flaw",
+      not any(c.get("distractorFunction") in ("surface-cue", "implausible",
+                                              "plausible-fabrication")
               for i in bank for c in itemio.choices(i) if isinstance(c, dict)))
 check("the misconceptions are quoted verbatim and still match the bank",
       all(a["misconceptionVerbatim"] == next(

@@ -2057,7 +2057,9 @@
           "text": "Reduce, Reuse, and Recycle",
           "textEs": "Reducir, Reutilizar y Reciclar",
           "explanation": "This is the modern environmental slogan, not a New Deal term. The overlap is the letter R, not the history.",
-          "misconception": "substitutes the modern recycling slogan for the New Deal's Three Rs"
+          "misconception": "substitutes the modern recycling slogan for the New Deal's Three Rs",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-07"
         },
         {
           "id": "B",
@@ -2128,7 +2130,7 @@
           "basis": "Spanish fields measured; no Spanish text was written or altered"
         },
         "authoring": {
-          "record": "form-a-v2.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -3502,7 +3504,9 @@
           "text": "Refinanced mortgages to prevent foreclosures and keep families in homes",
           "textEs": "Hizo huelgas ilegales",
           "explanation": "This is the Home Owners' Loan Corporation's work on mortgages. It helped families keep houses; it changed nothing about bargaining at work.",
-          "misconception": "confuses New Deal housing relief with New Deal labour policy"
+          "misconception": "confuses New Deal housing relief with New Deal labour policy",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         },
         {
           "id": "B",
@@ -3516,14 +3520,17 @@
           "text": "Desperate populations supported strong leaders who promised stability",
           "textEs": "Dio empleadores poder ilimitado sobre trabajadores",
           "explanation": "This describes why authoritarian movements gained support in Depression-era Europe, not what changed for American workers.",
-          "misconception": "answers with European political conditions rather than U.S. labour law"
+          "misconception": "answers with European political conditions rather than U.S. labour law",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
         },
         {
           "id": "D",
           "text": "Fascism promoted extreme nationalism; communism promoted class revolution",
           "textEs": "No tuvo efecto en relaciones laborales",
           "explanation": "This contrasts two European ideologies and has no bearing on the rights American workers gained under the Wagner Act.",
-          "misconception": "answers a comparative-ideology question that was not asked"
+          "misconception": "answers a comparative-ideology question that was not asked",
+          "distractorFunction": "right-answer-wrong-question"
         }
       ],
       "dokLevel": 1,
@@ -3573,7 +3580,7 @@
           "basis": "Spanish fields measured; no Spanish text was written or altered"
         },
         "authoring": {
-          "record": "form-a-v3.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },

@@ -2040,7 +2040,9 @@
           "text": "William McKinley",
           "textEs": null,
           "explanation": "McKinley was president during the Spanish-American War and was assassinated in 1901, before canal construction began.",
-          "misconception": "assigns the canal to the preceding administration"
+          "misconception": "assigns the canal to the preceding administration",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
         },
         {
           "id": "B",
@@ -2061,7 +2063,9 @@
           "text": "William Howard Taft",
           "textEs": null,
           "explanation": "Taft succeeded Roosevelt and oversaw later construction, but the acquisition and decision were Roosevelt's.",
-          "misconception": "credits Roosevelt's successor with the decision"
+          "misconception": "credits Roosevelt's successor with the decision",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
         }
       ],
       "dokLevel": 1,
@@ -2113,7 +2117,7 @@
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         },
         "authoring": {
-          "record": "form-a.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },

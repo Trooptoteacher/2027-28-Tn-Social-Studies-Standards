@@ -107,7 +107,9 @@
           "text": "Raised tariffs to the highest levels in U.S. history, worsening the global Depression",
           "textEs": "Proporcionó pagos en efectivo directos a trabajadores desempleados y familias en dificultades",
           "explanation": "Raising tariffs was the Hawley-Smoot Tariff of 1930, a separate Hoover-era policy that restricted trade rather than lending money.",
-          "misconception": "confuses the RFC with the Hawley-Smoot Tariff"
+          "misconception": "confuses the RFC with the Hawley-Smoot Tariff",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         },
         {
           "id": "B",
@@ -121,14 +123,18 @@
           "text": "Businesses cut wages and jobs anyway to survive; voluntary measures had no enforcement",
           "textEs": "Construyó proyectos de vivienda pública asequible para familias sin hogar y de bajos ingresos",
           "explanation": "This describes the failure of Hoover's voluntary-cooperation approach, in which he asked business to hold wages. The RFC was the opposite: a funded federal lender.",
-          "misconception": "confuses the RFC with Hoover's voluntary cooperation policy"
+          "misconception": "confuses the RFC with Hoover's voluntary cooperation policy",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         },
         {
           "id": "D",
           "text": "WWI veterans demanding early bonus payment; Hoover ordered military to disperse them",
           "textEs": "Distribuyó cupones de alimentos y productos agrícolas excedentes a ciudadanos hambrientos",
           "explanation": "This is the Bonus Army episode of 1932, a protest by WWI veterans. It is an event, not an agency, and had no lending function.",
-          "misconception": "confuses the RFC with the Bonus Army episode"
+          "misconception": "confuses the RFC with the Bonus Army episode",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         }
       ],
       "dokLevel": 1,
@@ -163,7 +169,7 @@
         ],
         "alignmentReview": null,
         "authoring": {
-          "record": "form-a.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -1125,21 +1131,27 @@
           "text": "Loaned government money to banks, railroads, and large businesses to prevent failures",
           "textEs": "Agricultores protestando precios bajos de cultivos; Hoover aprobó subsidios agrícolas de emergencia",
           "explanation": "This is the Reconstruction Finance Corporation, a lending agency, not a protest.",
-          "misconception": "confuses the Bonus Army with the RFC"
+          "misconception": "confuses the Bonus Army with the RFC",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         },
         {
           "id": "B",
           "text": "Raised tariffs to the highest levels in U.S. history, worsening the global Depression",
           "textEs": "Soldados en servicio activo solicitando mejores condiciones; Hoover negoció aumentos de pago",
           "explanation": "This is the Hawley-Smoot Tariff, a trade policy unrelated to the veterans' march.",
-          "misconception": "confuses the Bonus Army with the Hawley-Smoot Tariff"
+          "misconception": "confuses the Bonus Army with the Hawley-Smoot Tariff",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         },
         {
           "id": "C",
           "text": "Businesses cut wages and jobs anyway to survive; voluntary measures had no enforcement",
           "textEs": "Trabajadores industriales en huelga por salarios más altos; Hoover medió un acuerdo pacífico",
           "explanation": "This describes why Hoover's voluntary wage-maintenance appeals failed, not the veterans' bonus demand.",
-          "misconception": "confuses the Bonus Army with Hoover's voluntary cooperation policy"
+          "misconception": "confuses the Bonus Army with Hoover's voluntary cooperation policy",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         },
         {
           "id": "D",
@@ -1181,7 +1193,7 @@
         ],
         "alignmentReview": null,
         "authoring": {
-          "record": "form-a.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -3318,7 +3330,9 @@
           "text": "Because FDR called for nationalizing all major American industries and placing them under government ownership",
           "textEs": "",
           "explanation": "FDR never proposed nationalising major industries. The charge rested on regulation and public employment, not government ownership.",
-          "misconception": "overstates the charge as nationalisation of industry"
+          "misconception": "overstates the charge as nationalisation of industry",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-03"
         },
         {
           "id": "C",
@@ -3368,7 +3382,7 @@
         ],
         "alignmentReview": null,
         "authoring": {
-          "record": "form-a-rebalance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },

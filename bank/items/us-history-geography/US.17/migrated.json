@@ -1429,7 +1429,9 @@
           "text": "The United States refusing to accept any new territorial responsibilities after defeating Spain",
           "textEs": "",
           "explanation": "A refusal would be shown by pushing the menu away. Reading the menu is the act of choosing.",
-          "misconception": "reverses what the menu imagery represents"
+          "misconception": "reverses what the menu imagery represents",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         },
         {
           "id": "C",
@@ -1437,14 +1439,18 @@
           "textEs": "",
           "explanation": "The territories on the menu were annexed or occupied, not treated as independent trading partners.",
           "misconception": "recasts annexation as trade negotiation",
-          "_wasText": "American diplomats negotiating trade agreements with newly independent Caribbean nations"
+          "_wasText": "American diplomats negotiating trade agreements with newly independent Caribbean nations",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
         },
         {
           "id": "D",
           "text": "President McKinley choosing between military options for fighting the Spanish-American War",
           "textEs": "",
           "explanation": "The cartoon is dated after the fighting, and the menu lists territories rather than military options.",
-          "misconception": "places the cartoon before the war rather than after"
+          "misconception": "places the cartoon before the war rather than after",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
         }
       ],
       "dokLevel": 1,
@@ -1493,7 +1499,7 @@
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         },
         "authoring": {
-          "record": "form-a-balance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },

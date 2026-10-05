@@ -3810,7 +3810,9 @@
           "text": "The government reduced its involvement in the economy and allowed private industry to manage recovery",
           "textEs": null,
           "explanation": "The TVA is the clearest case of the opposite: the federal government built and ran dams and sold the power itself.",
-          "misconception": "reverses the direction of federal involvement under the New Deal"
+          "misconception": "reverses the direction of federal involvement under the New Deal",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         },
         {
           "id": "C",
@@ -3818,7 +3820,9 @@
           "textEs": null,
           "explanation": "The TVA was created by Congress in 1933 as a federally owned corporation. Reading it as private misses why critics called it socialism.",
           "misconception": "mistakes a federally owned corporation for a private company",
-          "_wasText": "The TVA was a private corporation that received no government funding"
+          "_wasText": "The TVA was a private corporation that received no government funding",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
         },
         {
           "id": "D",
@@ -3872,7 +3876,7 @@
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         },
         "authoring": {
-          "record": "form-a-balance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },

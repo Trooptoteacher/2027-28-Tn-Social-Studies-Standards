@@ -828,14 +828,18 @@
           "textEs": "La Doctrina Eisenhower",
           "explanation": "The Eisenhower Doctrine came a decade later, in 1957, and addressed the Middle East.",
           "misconception": "confuses the Marshall Plan with the Eisenhower Doctrine",
-          "_wasText": "The Eisenhower Doctrine"
+          "_wasText": "The Eisenhower Doctrine",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         },
         {
           "id": "B",
           "text": "The North Atlantic Treaty Organization",
           "textEs": "La Organización del Tratado del Atlántico Norte",
           "explanation": "NATO was a 1949 military alliance. The Marshall Plan was economic aid and came first.",
-          "misconception": "confuses economic aid with the military alliance"
+          "misconception": "confuses economic aid with the military alliance",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
         },
         {
           "id": "C",
@@ -843,7 +847,9 @@
           "textEs": "El Puente Aéreo de Berlín",
           "explanation": "The Berlin Airlift was a 1948-49 supply operation for one city, not a Europe-wide recovery programme.",
           "misconception": "confuses a single-city operation with a continental aid programme",
-          "_wasText": "The Berlin Airlift"
+          "_wasText": "The Berlin Airlift",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-03"
         },
         {
           "id": "D",
@@ -889,7 +895,7 @@
           "dokReviewRequired": true
         },
         "authoring": {
-          "record": "form-a-balance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -922,14 +928,18 @@
           "text": "Détente",
           "textEs": "Distensión",
           "explanation": "Détente was the 1970s easing of tensions under Nixon, two decades after Korea and opposite in posture.",
-          "misconception": "places a 1970s policy in a 1950 context"
+          "misconception": "places a 1970s policy in a 1950 context",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
         },
         {
           "id": "B",
           "text": "Isolationism",
           "textEs": "Aislacionismo",
           "explanation": "Isolationism is the refusal to intervene abroad. Sending troops to Korea is its contradiction.",
-          "misconception": "reverses the policy the deployment demonstrates"
+          "misconception": "reverses the policy the deployment demonstrates",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         },
         {
           "id": "C",
@@ -943,7 +953,9 @@
           "text": "Imperialism",
           "textEs": "Imperialismo",
           "explanation": "Imperialism means acquiring territory. The stated aim in Korea was to hold a line, not to annex it.",
-          "misconception": "confuses containing an opponent with acquiring territory"
+          "misconception": "confuses containing an opponent with acquiring territory",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
         }
       ],
       "dokLevel": 1,
@@ -981,7 +993,7 @@
           "dokReviewRequired": true
         },
         "authoring": {
-          "record": "form-a.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -1014,7 +1026,9 @@
           "text": "Form a permanent military and economic alliance with the Soviet Union against Asian nations",
           "textEs": "Formar alianza militar y económica permanente con Unión Soviética contra naciones asiáticas",
           "explanation": "The Truman Doctrine was directed AGAINST Soviet expansion; an alliance with the Soviet Union is its opposite.",
-          "misconception": "reverses which power the doctrine was aimed at"
+          "misconception": "reverses which power the doctrine was aimed at",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         },
         {
           "id": "B",
@@ -1035,7 +1049,9 @@
           "text": "Expand United States colonial territories across Asia and the Pacific Island regions",
           "textEs": "Expandir territorios coloniales de Estados Unidos a través de Asia y regiones de islas del Pacífico",
           "explanation": "No territory was claimed. Aid to Greece and Turkey was support for existing governments, not colonial acquisition.",
-          "misconception": "confuses supporting a government with acquiring territory"
+          "misconception": "confuses supporting a government with acquiring territory",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
         }
       ],
       "dokLevel": 1,
@@ -1073,7 +1089,7 @@
           "dokReviewRequired": true
         },
         "authoring": {
-          "record": "form-a-v2.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -2935,7 +2951,9 @@
           "text": "A return to isolationism after World War II",
           "textEs": "Un regreso al aislacionismo después de la Segunda Guerra Mundial",
           "explanation": "The doctrine did the reverse: it committed the United States to peacetime intervention abroad and ended the interwar isolationist position.",
-          "misconception": "reverses the direction of the postwar policy shift"
+          "misconception": "reverses the direction of the postwar policy shift",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         },
         {
           "id": "C",
@@ -2987,7 +3005,7 @@
           "dokReviewRequired": true
         },
         "authoring": {
-          "record": "form-a-v2.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -3102,7 +3120,9 @@
           "textEs": "EE. UU. utilizó la fuerza militar para expulsar las tropas soviéticas de Berlín Oriental",
           "explanation": "No Soviet troops were driven out. The airlift deliberately avoided force by flying over the blockade instead of breaking it.",
           "misconception": "reads a non-military response as a military one",
-          "_wasText": "The U.S. used military force to drive Soviet troops out of East Berlin"
+          "_wasText": "The U.S. used military force to drive Soviet troops out of East Berlin",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
         },
         {
           "id": "B",
@@ -3116,7 +3136,9 @@
           "text": "The U.S. imposed economic sanctions that forced the Soviet Union to end communism",
           "textEs": "EE. UU. impuso sanciones económicas que obligaron a la Unión Soviética a poner fin al comunismo",
           "explanation": "Sanctions were not the instrument, and Soviet communism continued for four more decades.",
-          "misconception": "attributes the end of Soviet communism to a 1948 operation"
+          "misconception": "attributes the end of Soviet communism to a 1948 operation",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
         },
         {
           "id": "D",
@@ -3162,7 +3184,7 @@
           "dokReviewRequired": true
         },
         "authoring": {
-          "record": "form-a-balance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -3885,14 +3907,17 @@
           "text": "The three Allies had agreed to share all military technology, creating economic competition that strained relations.",
           "textEs": "",
           "explanation": "The Allies did not share all military technology — the United States withheld the atomic programme from the Soviets entirely.",
-          "misconception": "assumes full technology sharing among the Allies"
+          "misconception": "assumes full technology sharing among the Allies",
+          "distractorFunction": "partial-truth"
         },
         {
           "id": "C",
           "text": "The creation of the United Nations divided the Allies into competing blocs before the war even ended.",
           "textEs": "",
           "explanation": "The United Nations was designed to keep the Allies cooperating after 1945, and the blocs hardened afterward rather than before the war ended.",
-          "misconception": "reverses the chronology of the UN and the Cold War blocs"
+          "misconception": "reverses the chronology of the UN and the Cold War blocs",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
         },
         {
           "id": "D",
@@ -3938,7 +3963,7 @@
           "dokReviewRequired": true
         },
         "authoring": {
-          "record": "form-a-rebalance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },

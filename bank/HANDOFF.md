@@ -116,7 +116,7 @@ below it can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **77 lessons, 262 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **79 lessons, 279 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -151,42 +151,69 @@ Speaks of Rivers"* read *"first published in Library of Congress, NAACP Records
 (loc.gov)"* when it was published in ***The Crisis***. The items are held out of service.
 Proposals are there; I could not reach loc.gov to verify, so nothing was rewritten.
 
-**d. Authorise the WRITE of 66 misconception tags — the taxonomy itself is settled.**
-You read `reviewed/misconception-family-proposal.json` and directed both additions it argued
-for, so `taxonomy/misconception-families.json` is **taxonomyVersion 2, APPROVED for
-citation** (2026-10-04). What is left is the write, which is a separate act: nothing has been
-applied, and `misconception-taxonomy` still reports all 66.
+**d. 48 of the 66 misconception tags are APPLIED. 18 remain, and 4 of those are mine.**
+Sean authorised the write on 2026-10-04 and settled the open question with it. `misconception-
+taxonomy` is down from **66 findings to 18**, and every one of the 18 is *untagged* rather
+than mis-tagged — the write introduced no new defect. 48 distractors across 22 items now
+carry a `distractorFunction`; 45 of those carry a family; 8 of the 14 live families are cited.
 
-**What the two additions bought, measured:**
+| | |
+|---|---|
+| applied | **48** (`authoring/misconception-tags-batch-1.json`) |
+| held — fit approximate or needs two families | **14** |
+| held — for REWRITE, not tagging | **4** |
 
-| | v1 (one axis) | v2 (two axes) |
-|---|---|---|
-| resolve cleanly | 33 / 66 | **52 / 66** |
-| approximate fit | 13 | 13 |
-| need two families | 1 | 1 |
-| **unresolved** | **13** | **0** |
-| **not a family at all** | **6** | **0** |
+**What the integrity check after a bulk write should ask is not "did it happen" but "did it
+take more than it was given".** Measured across 552 items: **zero** historical claims
+changed, **zero** historian approvals changed, **zero** review flags changed. No lifecycle
+status moved either — all 22 items were already `authored`, so no ledger transition is owed.
 
-`MC-F-15 Polarity reversal` absorbed 12 of the 13 unresolved and is now the **second
-most-cited family in the bank**. The `distractorFunction` axis absorbed all 6 that were
-never families, plus the 13th unresolved case. **The 13 approximate fits were not forced
-clean by the new options** — that is pinned by a proof, because new options are exactly what
-tempts a re-classification.
+**⚠ A tag does not un-approve an item, and getting that wrong nearly cost 16 of your
+approvals.** `apply_authoring.py` used to flag everything it touched while leaving
+`historianReview` in place, so 19 items read as *both* approved and awaiting review. My
+first fix superseded every approval the tool touched — the gate went green and 16 of your
+2026-09-03 judgements were gone. A `distractorFunction` classifies how an option goes
+wrong; you approved the **history**. The rule is now measured: `_claims()` fingerprints the
+fields an approval is about and excludes the two taxonomy axes, so a tag-only write leaves
+the review state alone and says so, while a real change to a stem, explanation or
+misconception supersedes the approval into `historianReviewSuperseded` — moved, never
+deleted. **All 19 approvals stand.** (L79)
 
-**Still open, and none of it blocks the write:** the means-for-ends shape (3 cases, no family
-fits — F4); MC-F-07 written in one direction only (F5); one distractor needing two families
-(F6); and **⚠ `plausible-fabrication` is flagged, not settled (F7)** — the CCR line in
-`history-hack-web-app` reached the opposite conclusion for its own items, that a distractor
-must never assert history that never happened. That rule was written for passage-based items
-where wrongness must be provable from the passage; these are standalone content items, and
-all four cases here *negate* a real fact rather than inventing an event. If you apply the CCR
-rule to this bank, the function becomes `itemFlaw: true` and those four get rewritten.
+**3 items still read as both approved and flagged, and they are yours to settle:**
+`q-us2-dok4-cr2`, `q-us3-dok4-cr3`, `q-us6-dok4-cr3`. They were already contradictory
+before any of this, from the original form-a apply. The honest repair is to **clear the
+flag** — `form-a-authoring-2026-09-03` names all three and the approval is contemporaneous
+with the content — but that is a *promotion*, and a build does not promote items to make a
+report read cleaner.
+
+**⛔ `plausible-fabrication` IS NOW AN ITEM FLAW (Sean, 2026-10-04), applying this product's
+CCR rule to the bank: a distractor must not assert history that never happened.** Wrong means
+wrong BY THE HISTORY. The reason is that **the distractor outlives the item** — a student may
+carry away the false claim rather than the correction, and a rationale on a teacher key never
+reaches the student who simply remembers reading the option. The function keeps its name
+because the gate needs one to report the defect; what changes is that a tagged option is
+**rewritten**, anchored in something that really happened and is wrong for *this* stem, never
+swapped for a different invented claim.
+
+**⚠ And one of those four exposed bad history in its own misconception label.** `PSTIM-0041/B`
+is recorded as *"invents a negotiated settlement for the blockade"* — but the Berlin Blockade
+**was** ended by negotiation: the Jessup–Malik talks at the UN produced the New York Agreement
+of May 1949. The false parts of that option are *"peace treaty"* and *"permanent zones"*, not
+the existence of a settlement. **The label written to describe a fabrication was itself a
+fabrication**, and no gate could have caught it — nothing reads a misconception for historical
+truth. That is what `requiresHistorianReview` is for, and why it cannot be automated away.
+
+**Still open on the taxonomy, none of it blocking:** the means-for-ends shape (3 cases, no
+family fits — F4); MC-F-07 written in one direction only (F5); one distractor needing two
+families (F6). And **the function list is provisional**: three of the seven functions rest on
+a single case each, drawn from 22 items across 5 standards. The axis is sound; its membership
+should be re-measured after the first real authoring batch rather than treated as closed.
 
 **One retirement came with the axis.** `MC-F-11 Surface term match` was never a family — its
 own statement describes the *option* and its own reteach note said *"this is a test-taking
 error, not a content gap."* It is now the `surface-cue` **function**, flagged `itemFlaw`.
-Retired rather than deleted, and it cost no data only because nothing in the bank cited any
-family yet. **That window is now closed.**
+Retired rather than deleted, and it cost no data only because nothing cited any family yet.
+**That window is now closed.**
 
 **c. Spanish.** Everything I wrote sits at `translationStatus: needs-review`. 1,563 items
 across the bank are `not-started` because their "Spanish" was English, and 594 need review
@@ -239,14 +266,14 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**73 of 94 standards can build a form. 4,163 authoring units to green them all.**
+**73 of 94 standards can build a form. 4,131 authoring units to green them all.**
 Cheapest next: US.33 (22) · US.31 (32) · US.60 (33) · US.02 (35) · US.59 (38).
 
 *That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither
 move was a re-estimate. The invoice had been carrying private copies of three rules the
 gates already owned (**L72**) — it is the number that picks the next standard, so it made
 the cheap work look cheaper than it is; every line a gate owns is now charged by calling
-that gate. The second move, +61, added the two gates it priced at nothing at all while
+that gate. The third figure, 4,131, is the first DECREASE: 32 units discharged by the 48 misconception tags applied on 2026-10-04 (§6d). The second move, +61, added the two gates it priced at nothing at all while
 forms went on selecting the items that fail them: `stimulusDebt` and `truncationDebt`
 (**L75**). That second measurement first came back saying buildability collapsed from 73
 to 1, which was `distractor-coverage` and `explanation-quality` — debt this invoice

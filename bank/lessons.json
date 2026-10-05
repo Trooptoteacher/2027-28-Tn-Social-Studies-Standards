@@ -1376,7 +1376,7 @@
     },
     {
       "id": "L73",
-      "mistake": "THE GOVERNED REPAIR PATH WAS MANUFACTURING THE FINDINGS IT EXISTS TO CLEAR. `apply_authoring.py` wrote a distractor as `[explanation, misconception]` and had no slot for a `misconceptionFamily`, while `misconception-taxonomy` FAILS a distractor that names a misconception in free text and cites no family. The two facts only meet because applying a record also stamps `provenance.authoring` — which is exactly what makes that gate start judging the item. So every repair created findings: 66 distractors across 22 items fail the gate today and 20 of those 22 were written by this tool, including items in both forms the suite called 'proven green'. Nothing connected the two, because each half was correct on its own — the record format matched its own validator, and the gate matched its own docstring. The tool now accepts an object form carrying a family, validates it against `taxonomy/misconception-families.json` (refusing an id the taxonomy does not define, and refusing every id if the file is gone, so a missing taxonomy re-raises the hold rather than waving records through), never writes a family onto the KEY, and still accepts the legacy 2-list — but a run that uses it now PRINTS which distractors will fail the gate once applied, because a cost that only appears on the next full suite run is a cost nobody attributes to the record that caused it. Separately: the 66 were NOT then assigned. The taxonomy's own status line reads 'DRAFT — families are a design artifact and need Sean's read before mass authoring cites them', and assigning all 66 is that mass citation. They are DRAFTED in `reviewed/misconception-family-proposal.json` with a per-row fit, and drafting them is what found the real defect: only 33 of 66 resolve cleanly. 12 of the 13 that do not are ONE missing family — polarity reversal, the student holding a policy or alliance's direction backwards, which MC-F-04 (causation reversal) does not cover — and 6 more are not families at all but distractor FUNCTIONS (contradicts-stimulus, plausible-fabrication, right-answer-wrong-question), which is what the option DOES rather than what the student BELIEVES. One field is holding two axes. Forcing 66 assignments would have recorded 33 diagnoses and 33 guesses in the one field the analytics layer is built to trust, indistinguishably.",
+      "mistake": "THE GOVERNED REPAIR PATH WAS MANUFACTURING THE FINDINGS IT EXISTS TO CLEAR. `apply_authoring.py` wrote a distractor as `[explanation, misconception]` and had no slot for a `misconceptionFamily`, while `misconception-taxonomy` FAILS a distractor that names a misconception in free text and cites no family. The two facts only meet because applying a record also stamps `provenance.authoring` — which is exactly what makes that gate start judging the item. So every repair created findings: 66 distractors across 22 items fail the gate today and 20 of those 22 were written by this tool, including items in both forms the suite called 'proven green'. Nothing connected the two, because each half was correct on its own — the record format matched its own validator, and the gate matched its own docstring. The tool now accepts an object form carrying a family, validates it against `taxonomy/misconception-families.json` (refusing an id the taxonomy does not define, and refusing every id if the file is gone, so a missing taxonomy re-raises the hold rather than waving records through), never writes a family onto the KEY, and still accepts the legacy 2-list — but a run that uses it now PRINTS which distractors will fail the gate once applied, because a cost that only appears on the next full suite run is a cost nobody attributes to the record that caused it. Separately: the 66 were NOT then assigned. The taxonomy's own status line reads 'DRAFT — families are a design artifact and need Sean's read before mass authoring cites them', and assigning all 66 is that mass citation. They are DRAFTED in `reviewed/misconception-family-proposal.json` with a per-row fit, and drafting them is what found the real defect: only 33 of 66 resolve cleanly. 12 of the 13 that do not are ONE missing family — polarity reversal, the student holding a policy or alliance's direction backwards, which MC-F-04 (causation reversal) does not cover — and 6 more are not families at all but distractor FUNCTIONS (contradicts-stimulus, plausible-fabrication, right-answer-wrong-question), which is what the option DOES rather than what the student BELIEVES. One field is holding two axes. Forcing 66 assignments would have recorded 33 diagnoses and 33 guesses in the one field the analytics layer is built to trust, indistinguishably. UPDATE 2026-10-04: Sean authorised the write, so 48 of the 66 are applied and 18 held. The guard that asserted 'nothing is applied' was therefore retired — it had become a historical fact rather than an enforceable claim — and replaced with the two that enforce the same substance on a PARTLY applied record: no held row was written anyway, and the bank carries exactly what the record names, in both directions. After a partial write the risk is not that it failed to happen, it is that it took more than it was given.",
       "caughtBy": "Re-deriving the authoring invoice and asking why the misconception taxonomy was not on it; the answer was that paying the rationale line creates the taxonomy obligation.",
       "guards": [
         {
@@ -1413,7 +1413,7 @@
         },
         {
           "file": "tests/test_apply_authoring.py",
-          "contains": "which is the honest state while the taxonomy is DRAFT"
+          "contains": "NO held row was written anyway"
         },
         {
           "file": "reviewed/misconception-family-proposal.json",
@@ -1422,6 +1422,10 @@
         {
           "file": "reviewed/misconception-family-proposal.json",
           "contains": "distractorFunction"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "the record is not ahead of the data"
         }
       ]
     },
@@ -1598,6 +1602,84 @@
         {
           "file": "tests/test_invoice.py",
           "contains": "because the repair is"
+        }
+      ]
+    },
+    {
+      "id": "L78",
+      "mistake": "A DISTRACTOR MUST NOT ASSERT HISTORY THAT NEVER HAPPENED, and this bank had no rule against it until Sean applied his CCR line's rule here on 2026-10-04. `plausible-fabrication` is now `itemFlaw: true`: wrong means wrong BY THE HISTORY. The reason is that THE DISTRACTOR OUTLIVES THE ITEM — a student may carry away the false claim rather than the correction, and a rationale printed on a teacher key never reaches the student who simply remembers reading the option. The function keeps its NAME, because the gate needs a name to report the defect; what changes is that a tagged option is REWRITTEN, anchored in something that really happened and is wrong for THIS stem, never swapped for a different invented claim — the CCR line already recorded a reviewer whose own replacement carried the same flaw. ⚠ AND ONE OF THE FOUR EXPOSED BAD HISTORY IN ITS OWN MISCONCEPTION LABEL. PSTIM-0041/B is recorded as 'invents a negotiated settlement for the blockade' — but the Berlin Blockade WAS ended by negotiation: the Jessup-Malik talks at the UN produced the New York Agreement of May 1949. The false parts of that option are 'peace treaty' and 'permanent zones', not the existence of a settlement. So the label written to describe a fabrication was itself a fabrication, and nothing could have caught it: no gate reads a misconception for historical truth, which is exactly what `requiresHistorianReview` exists for and exactly why it cannot be automated away. ALSO, ON THE WRITE ITSELF: 48 of the 66 proposed tags were applied and 18 held — the 13 approximate fits, the 1 needing two families, and these 4. The gate went 66 -> 18 and every one of the 18 is UNTAGGED rather than mis-tagged, so the write introduced no new defect. The integrity check that matters after a bulk content write is not 'did it happen' but 'did it take more than it was given': all 2,148 choices in the touched files were compared against HEAD and ZERO explanation or misconception text changed. The 42 lines git showed as added were key reordering.",
+      "caughtBy": "Sean, applying his CCR line's rule to this bank; the bad history by reading the four options the rule condemned.",
+      "guards": [
+        {
+          "file": "taxonomy/misconception-families.json",
+          "contains": "OUTLIVES THE ITEM"
+        },
+        {
+          "file": "taxonomy/misconception-families.json",
+          "contains": "REWRITTEN, not relabelled"
+        },
+        {
+          "file": "taxonomy/misconception-families.json",
+          "contains": "same defect with new words"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "THREE functions are declared ITEM FLAWS"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "it took more than it was given"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "the write introduced"
+        },
+        {
+          "file": "reviewed/misconception-family-proposal.json",
+          "contains": "Jessup-Malik"
+        }
+      ]
+    },
+    {
+      "id": "L79",
+      "mistake": "MY FIRST FIX FOR A CONTRADICTION PASSED THE GATE AND DISCARDED 16 OF SEAN'S RECORDED JUDGEMENTS. `apply_authoring.py` set `requiresHistorianReview = True` unconditionally and left `historianReview` alone, so every item a historian had approved came out BOTH approved and flagged — `review-provenance` caught 19, and the 48-tag write of 2026-10-04 created 16 of them. My fix superseded every standing approval the tool touched. The gate went green. It was WRONG: a `distractorFunction` classifies how an option goes wrong, and a `misconceptionFamily` names the reasoning error behind it — PEDAGOGICAL classifications. The historian approved the HISTORY. Adding a taxonomy tag does not make a reviewed item unreviewed, and un-approving 16 items to satisfy a consistency check is destroying human work to make a machine happy. THE RULE IS NOW MEASURED RATHER THAN ASSUMED. `_claims()` fingerprints every field an approval is ABOUT — stem, stemEs, explanation, explanationEs, dokRationale, and each choice's text, textEs, explanation and free-text misconception — and DELIBERATELY excludes the two taxonomy axes. The write compares the fingerprint before and after: a real change supersedes the approval (moved to `historianReviewSuperseded`, never deleted, because the record in reviewed/historian-approvals.json is append-only evidence that a person approved a prior version) and flags the item; a tag-only change leaves the review state untouched and SAYS SO on the run. Re-measured: all 19 approvals survive, zero historical claims moved across 552 items, zero review flags moved. WHAT IS LEFT IS NOT MINE TO FIX. Three items — q-us2-dok4-cr2, q-us3-dok4-cr3, q-us6-dok4-cr3 — were already both approved and flagged at HEAD, from the original form-a apply. The honest repair is to CLEAR the flag, since `form-a-authoring-2026-09-03` names all three and the approval is contemporaneous with the content. That is a PROMOTION, and the mandate forbids changing lifecycle values to make a report read cleaner. Three items, reported, not touched. THE SHAPE TO REMEMBER: a gate turning green is evidence the gate is satisfied, not evidence the fix was right. This one was satisfied by deleting the thing it was protecting.",
+      "caughtBy": "review-provenance, in the full suite, on a contradiction the write had just created — then by asking what the approval had actually been given for.",
+      "guards": [
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "def _claims"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "THE REVIEW STATE MOVES ONLY IF A CLAIM A HISTORIAN APPROVED MOVED"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "which passed the gate and was WRONG"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "a gate relaxed to let a"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "LEFT INTACT"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "A TAXONOMY TAG DOES NOT UN-APPROVE A REVIEWED ITEM"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "un-approve every item a tagging pass touched"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "all 19 standing approvals SURVIVED"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "which is Sean's call and not a build's"
         }
       ]
     }

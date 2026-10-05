@@ -99,21 +99,27 @@
           "text": "Asian countries that cooperated on space technology with the Soviet program",
           "textEs": "Países asiáticos que cooperaron en tecnología espacial con el programa soviético",
           "explanation": "The word 'satellite' here is political, not orbital — it describes a state held in another's orbit of control, and predates the space programme.",
-          "misconception": "reads 'satellite state' as a reference to spaceflight"
+          "misconception": "reads 'satellite state' as a reference to spaceflight",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-14"
         },
         {
           "id": "B",
           "text": "Independent nations that voluntarily formed economic partnerships with the USSR",
           "textEs": "Naciones independientes que voluntariamente formaron asociaciones económicas con la URSS",
           "explanation": "Participation was not voluntary. Soviet troops remained after 1945 and coalition governments were replaced by communist ones, as in Czechoslovakia in 1948.",
-          "misconception": "mistakes imposed control for voluntary partnership"
+          "misconception": "mistakes imposed control for voluntary partnership",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         },
         {
           "id": "C",
           "text": "Western European nations that received economic aid from the United States",
           "textEs": "Naciones de Europa Occidental que recibieron ayuda económica de Estados Unidos",
           "explanation": "Nations receiving American aid were the Marshall Plan recipients in Western Europe — the opposite bloc.",
-          "misconception": "reverses which bloc the satellite states belonged to"
+          "misconception": "reverses which bloc the satellite states belonged to",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         },
         {
           "id": "D",
@@ -159,7 +165,7 @@
           ]
         },
         "authoring": {
-          "record": "form-b.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -1641,7 +1647,9 @@
           "text": "To establish free trade among Western nations",
           "textEs": null,
           "explanation": "Free trade among Western nations came through separate economic instruments — the Marshall Plan and later the OEEC. NATO's founding treaty is a mutual-defence pact.",
-          "misconception": "confuses NATO's military purpose with postwar economic cooperation"
+          "misconception": "confuses NATO's military purpose with postwar economic cooperation",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
         },
         {
           "id": "C",
@@ -1694,7 +1702,7 @@
           ]
         },
         "authoring": {
-          "record": "form-b.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -2819,21 +2827,27 @@
           "text": "Both alliances were formed primarily for economic cooperation rather than military defense",
           "textEs": "Ambas alianzas se formaron principalmente para la cooperación económica y no para la defensa militar",
           "explanation": "Both were defence pacts. The economic instruments of the period were separate: the Marshall Plan on one side, COMECON on the other.",
-          "misconception": "confuses the military alliances with the parallel economic blocs"
+          "misconception": "confuses the military alliances with the parallel economic blocs",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
         },
         {
           "id": "C",
           "text": "NATO and the Warsaw Pact were created jointly to prevent a third world war between smaller nations",
           "textEs": "La OTAN y el Pacto de Varsovia fueron creados conjuntamente para evitar una tercera guerra mundial entre naciones más pequeñas",
           "explanation": "They were not created jointly and not at the same time. NATO came in 1949 and the Warsaw Pact in 1955, formed in response to it.",
-          "misconception": "treats two opposing alliances as a cooperative project"
+          "misconception": "treats two opposing alliances as a cooperative project",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         },
         {
           "id": "D",
           "text": "The alliances reflected agreement between superpowers on the need for collective disarmament",
           "textEs": "Las alianzas reflejaron el acuerdo entre las superpotencias sobre la necesidad del desarme colectivo",
           "explanation": "Disarmament is the reverse of what followed. Both blocs expanded conventional and nuclear forces through the 1950s and 1960s.",
-          "misconception": "reads an arms build-up as an agreement to disarm"
+          "misconception": "reads an arms build-up as an agreement to disarm",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         }
       ],
       "dokLevel": 2,
@@ -2872,7 +2886,7 @@
           ]
         },
         "authoring": {
-          "record": "form-b-balance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -3083,7 +3097,9 @@
           "textEs": null,
           "explanation": "The opposite: Washington's Farewell Address warned against permanent alliances, and the United States had avoided them in peacetime for over 150 years.",
           "misconception": "reverses the American tradition NATO broke with",
-          "_wasText": "The United States had always maintained military alliances with European nations"
+          "_wasText": "The United States had always maintained military alliances with European nations",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
         },
         {
           "id": "B",
@@ -3144,7 +3160,7 @@
           ]
         },
         "authoring": {
-          "record": "form-b-balance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },

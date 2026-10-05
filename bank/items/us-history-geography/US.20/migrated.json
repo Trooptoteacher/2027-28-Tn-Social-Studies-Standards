@@ -2822,7 +2822,9 @@
           "text": "Roosevelt seized the Canal Zone from France, which had originally agreed to sell it to the United States but then backed out.",
           "textEs": "",
           "explanation": "The French company sold its concession and equipment; the sovereignty dispute was with Colombia, not France.",
-          "misconception": "substitutes France for Colombia as the aggrieved party"
+          "misconception": "substitutes France for Colombia as the aggrieved party",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
         },
         {
           "id": "B",
@@ -2844,7 +2846,9 @@
           "text": "Panama declared independence from Spain with U.S. support specifically to gain the economic benefits of the canal.",
           "textEs": "",
           "explanation": "Panama declared independence from Colombia, not Spain; Spain had lost its mainland American colonies eighty years earlier.",
-          "misconception": "confuses Colombia with Spain as the colonial power"
+          "misconception": "confuses Colombia with Spain as the colonial power",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         }
       ],
       "dokLevel": 2,
@@ -2894,7 +2898,7 @@
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         },
         "authoring": {
-          "record": "form-a-balance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
@@ -3009,14 +3013,17 @@
           "text": "The engineers had to redirect four major rivers that flooded the construction site annually.",
           "textEs": "",
           "explanation": "The Chagres River was dammed rather than redirected, and it was one river, not four.",
-          "misconception": "overstates the hydrological problem and its scale"
+          "misconception": "overstates the hydrological problem and its scale",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-03"
         },
         {
           "id": "B",
           "text": "The project faced a severe labor shortage because American workers refused to work in tropical conditions.",
           "textEs": "",
           "explanation": "There was no labour shortage: tens of thousands of Caribbean and European workers were recruited, which is what the source describes.",
-          "misconception": "contradicts the source, which documents abundant recruited labour"
+          "misconception": "contradicts the source, which documents abundant recruited labour",
+          "distractorFunction": "contradicts-stimulus"
         },
         {
           "id": "C",
@@ -3081,7 +3088,7 @@
           "basis": "stem + key + key explanation named these elements of the target standard and none of the previous standard's"
         },
         "authoring": {
-          "record": "form-a-rebalance.json",
+          "record": "misconception-tags-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
