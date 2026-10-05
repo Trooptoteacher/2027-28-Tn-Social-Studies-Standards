@@ -1756,6 +1756,41 @@
           "contains": "the live bank/generation/ is untouched"
         }
       ]
+    },
+    {
+      "id": "L82",
+      "mistake": "I PINNED ABSOLUTE COUNTS OF A GROWING BANK IN FIVE PROOFS, AND EVERY ONE OF THEM FAILED LATER FOR BEING OUT OF DATE RATHER THAN FOR ANYTHING BEING WRONG. The length-cue tally frozen at {4: [2020, 3793]}; buildable standards at 73; source-supplying items at 178; the taxonomy counts at 48/45/18. Each was a real measurement when written and a time bomb the moment the bank changed — rewriting one distractor moved the first, authoring US.01 moved the second and the fourth. A pin that breaks on every legitimate edit trains the next person to bump the number without reading it, which is the cry-wolf failure in test clothing: five noisy false alarms teach you to stop believing the sixth, which will be real. THE RULE: a proof about a bank that GROWS asserts a RELATIONSHIP, not a total. Buildability is now 'decided by the tier a standard can fill, never by what its repair would cost' — which is the actual claim and is true at 73 or 740. The source partition asserts that the visual-only group and the sourced group do not overlap, not that there are 178. The taxonomy findings are DERIVED from the proposal's own HELD count, so a standard-first item cannot move them. An absolute is still right for a property of a committed FILE — 14 live families, 66 proposal rows — because those change only when someone edits the file. AND THE 'DERIVE IT' FIX HAD A DESIGN GAP I had not seen: it derived the tagged distractors from the authoring records alone, and THERE ARE TWO LEGITIMATE SOURCES OF A TAG. The repair path writes them from a record; standard-first generation writes them in the draft and they arrive through `submit_items`. So the proof reported US.01's five tagged distractors as unaccounted for — a correct write failing a check that only knew about one of the two ways content legitimately enters this bank. One of my replacement proofs was then wrong in its own right: it asserted that no `-GEN-` item has a taxonomy finding, and US.05-GEN-01/02 predate the taxonomy entirely and sit among the held rows. Restated as 'every finding IS a held row', which is both durable and stronger, with a narrow second check that the standards authored under the rule contribute nothing.",
+      "caughtBy": "The full suite, four times running, on proofs I had written hours earlier.",
+      "guards": [
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "a property of a bank that GROWS"
+        },
+        {
+          "file": "tests/test_invoice.py",
+          "contains": "its repair would cost"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "Measured as a PARTITION rather than a total"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "TWO legitimate sources of a tag, not one"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "every remaining finding IS a held row"
+        },
+        {
+          "file": "tests/test_taxonomy.py",
+          "contains": "so the proof was"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "SECOND legitimate source of a tag"
+        }
+      ]
     }
   ]
 }

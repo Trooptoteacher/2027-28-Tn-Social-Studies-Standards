@@ -162,9 +162,17 @@ bank = itemio.load_dir(B.output_dir)
 check("no item in the bank carries an `image` record, which is why the first "
       "version of this check was wrong",
       not any(i.get("image") for i in bank))
-check("178 items DO supply a source, inline",
-      sum(1 for i in bank if content.supplies_a_source(i)) == 178,
-      sum(1 for i in bank if content.supplies_a_source(i)))
+# Measured as a PARTITION rather than a total: the count grows as items are
+# authored, and the claim that matters is which group each item lands in.
+_vis = [i for i in bank if content.STIM_REF.search(i.get("stem") or "")
+        and not content.supplies_a_source(i)]
+_src = [i for i in bank if content.supplies_a_source(i)]
+check("items DO supply a source, inline, and more than a handful of them",
+      len(_src) > 100, len(_src))
+check("…and the items that merely ORDER a visual they lack are a separate group, "
+      "excluded on purpose — a contradicts-stimulus tag on one of those is a mis-tag",
+      _vis and not (set(i["id"] for i in _vis) & set(i["id"] for i in _src)),
+      f"{len(_vis)} visual-only, {len(_src)} sourced")
 
 byid = {i["id"]: i for i in bank}
 
@@ -288,24 +296,57 @@ for _p in ("authoring/misconception-tags-batch-1.json",
         for iid, spec in json.load(fh)["items"].items():
             for cid in (spec.get("distractors") or {}):
                 expected.add((iid, cid))
+# TWO legitimate sources of a tag, not one. The repair path writes them from
+# an authoring record; standard-first generation writes them in the draft and
+# they arrive through submit_items. Deriving only from the records said US.01's
+# five tagged distractors were unaccounted for.
+_gen = {(i["id"], c["id"]) for i in bank for c in itemio.choices(i)
+        if isinstance(c, dict) and c.get("distractorFunction")
+        and (i.get("provenance") or {}).get("generated")}
+expected |= _gen
 in_bank = {(i["id"], c["id"]) for i in bank for c in itemio.choices(i)
            if isinstance(c, dict) and c.get("distractorFunction")}
 check(f"every distractor the records name carries a function ({len(expected)} of them)",
       expected <= in_bank, sorted(expected - in_bank)[:5])
 check("…and the bank carries no function the records do not name",
       in_bank <= expected, sorted(in_bank - expected)[:5])
-check("a family appears exactly where the records give one",
+_fam_rec = {(iid, cid) for _p in ("authoring/misconception-tags-batch-1.json",
+                                  "authoring/rewrite-fabrications-batch-1.json")
+            for iid, spec in json.load(open(os.path.join(BANK, _p), encoding="utf-8"))["items"].items()
+            for cid, d in (spec.get("distractors") or {}).items()
+            if d.get("misconceptionFamily")}
+_fam_gen = {(i["id"], c["id"]) for i in bank for c in itemio.choices(i)
+            if isinstance(c, dict) and c.get("misconceptionFamily")
+            and (i.get("provenance") or {}).get("generated")}
+check("a family appears exactly where a record or a generated draft gives one",
       {(i["id"], c["id"]) for i in bank for c in itemio.choices(i)
-       if isinstance(c, dict) and c.get("misconceptionFamily")}
-      == {(iid, cid) for _p in ("authoring/misconception-tags-batch-1.json",
-                                "authoring/rewrite-fabrications-batch-1.json")
-          for iid, spec in json.load(open(os.path.join(BANK, _p), encoding="utf-8"))["items"].items()
-          for cid, d in (spec.get("distractors") or {}).items()
-          if d.get("misconceptionFamily")})
+       if isinstance(c, dict) and c.get("misconceptionFamily")} == _fam_rec | _fam_gen)
+# DERIVED from the proposal's own HELD count, so authoring a new standard
+# cannot move it: a standard-first item arrives fully tagged and adds no
+# finding, which is itself the thing worth asserting.
+_prop = json.load(open(os.path.join(BANK, "reviewed",
+                                    "misconception-family-proposal.json"), encoding="utf-8"))
+_held = sum(1 for a in _prop["assignments"] if a["disposition"].startswith("HELD"))
 remaining = len(content.gate_misconception_taxonomy(bank).findings)
-check("the gate's remaining findings are the HELD rows only — 14, the 13 "
-      "approximate fits and the 1 needing two families",
-      remaining == 14, remaining)
+check(f"the gate's remaining findings are the HELD rows and nothing else ({_held})",
+      remaining == _held, f"{remaining} findings vs {_held} held")
+# Stated as "every finding IS a held row", which is the durable form. My first
+# version asserted that no `-GEN-` item has a finding, and US.05-GEN-01/02
+# predate the taxonomy entirely and sit among the held rows — so the proof was
+# wrong, not the code. The point it was reaching for survives as the second
+# check: the standards authored UNDER the rule contribute nothing.
+_held_rows = {(a["itemId"], a["choiceId"]) for a in _prop["assignments"]
+              if a["disposition"].startswith("HELD")}
+_finding_rows = {(f.item_id, f.detail.split()[1])
+                 for f in content.gate_misconception_taxonomy(bank).findings}
+check("every remaining finding IS a held row — the gate and the record agree on "
+      "what is outstanding",
+      _finding_rows == _held_rows,
+      f"gate-only {sorted(_finding_rows - _held_rows)[:3]} / "
+      f"record-only {sorted(_held_rows - _finding_rows)[:3]}")
+check("…and US.01, authored under the no-fabrication rule, contributes none",
+      not [f for f in content.gate_misconception_taxonomy(bank).findings
+           if f.item_id.startswith("US.01-")])
 check("…and all 18 remaining are UNTAGGED, not mis-tagged — the write introduced "
       "no new defect",
       all("names no distractorFunction" in f.detail

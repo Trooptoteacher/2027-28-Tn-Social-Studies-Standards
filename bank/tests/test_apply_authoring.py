@@ -393,8 +393,16 @@ applied = {(a["itemId"], a["choiceId"]) for a in prop["assignments"]
            if not a["disposition"].startswith("HELD")}
 check("…and every applied row IS in the bank — the record is not ahead of the data",
       applied <= tagged, f"{sorted(applied - tagged)[:4]}")
-check("…and the bank carries nothing the record does not name",
-      tagged <= applied, f"{sorted(tagged - applied)[:4]}")
+# Standard-first generation is the SECOND legitimate source of a tag: an
+# authored draft carries its own, and they arrive through submit_items rather
+# than through a record here. US.01's five were read as unaccounted for until
+# this allowed for them.
+gen = {(i["id"], c["id"]) for i in items for c in itemio.choices(i)
+       if isinstance(c, dict) and c.get("distractorFunction")
+       and (i.get("provenance") or {}).get("generated")}
+check("…and the bank carries nothing that neither a record nor a generated "
+      "draft names",
+      tagged <= applied | gen, f"{sorted(tagged - applied - gen)[:4]}")
 # A draft must not be mistakable for the signed thing.
 check("the draft is NOT keyed `tnMaterialsReview`-style as a settled review — the "
       "key names it a proposal",
