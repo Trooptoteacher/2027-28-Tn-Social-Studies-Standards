@@ -1682,6 +1682,37 @@
           "contains": "which is Sean's call and not a build's"
         }
       ]
+    },
+    {
+      "id": "L80",
+      "mistake": "`check-reports-fresh` DID NOT CHECK FRESHNESS, AND IT DESTROYED THE EVIDENCE THAT IT DIDN'T. Its name says freshness and its pass message said 'every committed report can still be produced by its generator'. What it did was run each generator and fail only on a TRACEBACK — which proves the generator does not crash, a different claim entirely. Nothing compared the committed report to the generated one. The second half is worse than the omission. Every generator writes to the committed path, so running the gate OVERWROTE the stale file; the only surviving trace was a dirty working tree, which after a suite run reads as noise. A freshness check that silently refreshes is not a check, it launders the thing it exists to find — and the laundering is why this survived: there was never a red result for anyone to see. I shipped a stale STATUS.md straight through it in 2b544ba. It recorded `review-provenance` at 19 findings when the code produced 3 — and that number was the headline evidence for the approval fix in the same commit, so the committed report contradicted the commit message. It now COMPARES and fails on a difference, naming the line and both values, and leaves the regenerated file in place because that is the version the author wants to commit; the difference from before is that it says so out loud. Self-tested three ways plus a WORKING NEGATIVE CONTROL that is the real defect rather than a fixture: run against the actual stale file it named line 31 and both numbers. COMPARISON NORMALISES THE REPOSITORY ROOT, because STATUS.md embeds `binding.declaration()` and that carries an ABSOLUTE output path. A byte comparison would fail on any other checkout for a portability reason rather than a staleness one — the same trap as a deck HTML carrying the absolute path of the machine that rendered it. ⚠ REPORTED AND NOT FIXED: a committed report should not carry a machine-specific absolute path at all. Changing what `binding.declaration()` prints reaches every tool that prints it, so it is named here rather than done quietly in a commit about something else.",
+      "caughtBy": "A dirty working tree after the suite, and asking why the freshness gate had passed over a report it had just rewritten.",
+      "guards": [
+        {
+          "file": "tools/check_reports_fresh.py",
+          "contains": "DID NOT CHECK THAT"
+        },
+        {
+          "file": "tools/check_reports_fresh.py",
+          "contains": "DESTROYED THE EVIDENCE"
+        },
+        {
+          "file": "tools/check_reports_fresh.py",
+          "contains": "silently refreshes is not a check"
+        },
+        {
+          "file": "tools/check_reports_fresh.py",
+          "contains": "def _norm"
+        },
+        {
+          "file": "tools/check_reports_fresh.py",
+          "contains": "does NOT match what its generator produces"
+        },
+        {
+          "file": "tools/check_reports_fresh.py",
+          "contains": "MATCHES what its generator"
+        }
+      ]
     }
   ]
 }

@@ -28,7 +28,7 @@ BINDING â€” course: United States History and Geography (us-history-geography) Â
 | `translation-claim` | **PASS** | 3988 | 3445 | 0 |
 | `explanation-quality` | **FAIL** | 3988 | 3928 | 918 |
 | `embedded-answer-key` | **PASS** | 3988 | 3928 | 0 |
-| `review-provenance` | **FAIL** | 3988 | 26 | 19 |
+| `review-provenance` | **FAIL** | 3988 | 26 | 3 |
 | `tcap-format` | **PASS** | 3988 | 3928 | 0 |
 | `rubric` | **FAIL** | 3988 | 100 | 17 |
 | `bias-review` | **PASS** | 3988 | 3928 | 0 |
