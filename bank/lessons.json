@@ -1675,7 +1675,7 @@
         },
         {
           "file": "tests/test_apply_authoring.py",
-          "contains": "all 19 standing approvals SURVIVED"
+          "contains": "19 survived the TAG pass"
         },
         {
           "file": "tests/test_apply_authoring.py",
@@ -1711,6 +1711,49 @@
         {
           "file": "tools/check_reports_fresh.py",
           "contains": "MATCHES what its generator"
+        }
+      ]
+    },
+    {
+      "id": "L81",
+      "mistake": "REPLACING AN OPTION'S ENGLISH WITHOUT REPLACING ITS SPANISH LEAVES THE OLD CLAIM ALIVE IN THE LANGUAGE FEWER REVIEWERS READ. `apply_authoring.py` accepted `choiceText` and had no `choiceTextEs`, so the four plausible-fabrication rewrites would have corrected the English while 'EE. UU. negoció un tratado de paz que dividió a Alemania en zonas permanentes' sat on the very same option — a fabrication surviving the commit that removed it, on three of the four. A bilingual field is a second place for a defect to live, and this bank has already paid for that once (nine Unit 4 Spanish standard codes offset by +2). The guard is DIRECTIONAL and that is the point: replacing the English of a choice that HAS Spanish is REFUSED without the Spanish; a choice with no Spanish at all needs none, because PSTIM-0167 carries no choice Spanish and requiring it would have blocked the rewrite entirely. Replacement Spanish is run through the same `translation_defect` heuristic as everything else, so an untranslated copy and a pseudo-translation are both refused, and the item drops to `translationStatus: needs-review` because a model wrote it. Self-tested five ways before anything was applied. TWO THINGS THE REWRITE PASS THEN PROVED ABOUT L79'S RULE. The tagging pass left all 19 approvals standing; this pass superseded exactly 3 — the approved items whose choice TEXT it changed. Both numbers come from the same `_claims()` fingerprint, and either moving the other way would mean the rule was wrong in one direction. AND MY OWN PROOF CAUGHT A STALE RECORD I HAD NOT THOUGHT ABOUT: reviewed/misconception-family-proposal.json still quoted the misconception labels the rewrite had replaced, so it would have sent a reviewer to text that no longer existed. The superseded option text and the superseded label are now preserved on the row — which matters here beyond tidiness, because one of those labels was itself false history.",
+      "caughtBy": "tests/test_apply_authoring.py, on the proof that the proposal still matches the bank.",
+      "guards": [
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "ALIVE\n        # IN SPANISH"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "without replacing the Spanish"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "_wasTextEs"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "LEAVES THE OLD CLAIM ALIVE"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "requiring it would block the rewrite"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "3 were superseded by the"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "one of those labels was itself false history"
+        },
+        {
+          "file": "tests/test_admission.py",
+          "contains": "two concurrent runs collide on the same filenames"
+        },
+        {
+          "file": "tests/test_admission.py",
+          "contains": "the live bank/generation/ is untouched"
         }
       ]
     }

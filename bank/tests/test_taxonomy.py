@@ -274,13 +274,38 @@ fn_n = sum(1 for i in bank for c in itemio.choices(i)
            if isinstance(c, dict) and c.get("distractorFunction"))
 fam_n = sum(1 for i in bank for c in itemio.choices(i)
             if isinstance(c, dict) and c.get("misconceptionFamily"))
-check("exactly 48 distractors carry a function — the clean fits, less the 4 "
-      "plausible-fabrications now ruled item flaws", fn_n == 48, fn_n)
-check("45 carry a family — the 48 less the 3 whose function takes none",
-      fam_n == 45, fam_n)
-check("the gate is down from 66 findings to 18",
-      len(content.gate_misconception_taxonomy(bank).findings) == 18,
-      len(content.gate_misconception_taxonomy(bank).findings))
+# DERIVED from the committed authoring records rather than typed. These were
+# absolutes (48 / 45 / 18) and the rewrite pass moved all three, which made the
+# proofs fail for being out of date rather than for anything being wrong. The
+# durable claim is that the bank carries exactly what the records say and
+# nothing else — and deriving it also catches a record that was never applied,
+# which a typed number cannot.
+import glob as _glob
+expected = set()
+for _p in ("authoring/misconception-tags-batch-1.json",
+           "authoring/rewrite-fabrications-batch-1.json"):
+    with open(os.path.join(BANK, _p), encoding="utf-8") as fh:
+        for iid, spec in json.load(fh)["items"].items():
+            for cid in (spec.get("distractors") or {}):
+                expected.add((iid, cid))
+in_bank = {(i["id"], c["id"]) for i in bank for c in itemio.choices(i)
+           if isinstance(c, dict) and c.get("distractorFunction")}
+check(f"every distractor the records name carries a function ({len(expected)} of them)",
+      expected <= in_bank, sorted(expected - in_bank)[:5])
+check("…and the bank carries no function the records do not name",
+      in_bank <= expected, sorted(in_bank - expected)[:5])
+check("a family appears exactly where the records give one",
+      {(i["id"], c["id"]) for i in bank for c in itemio.choices(i)
+       if isinstance(c, dict) and c.get("misconceptionFamily")}
+      == {(iid, cid) for _p in ("authoring/misconception-tags-batch-1.json",
+                                "authoring/rewrite-fabrications-batch-1.json")
+          for iid, spec in json.load(open(os.path.join(BANK, _p), encoding="utf-8"))["items"].items()
+          for cid, d in (spec.get("distractors") or {}).items()
+          if d.get("misconceptionFamily")})
+remaining = len(content.gate_misconception_taxonomy(bank).findings)
+check("the gate's remaining findings are the HELD rows only — 14, the 13 "
+      "approximate fits and the 1 needing two families",
+      remaining == 14, remaining)
 check("…and all 18 remaining are UNTAGGED, not mis-tagged — the write introduced "
       "no new defect",
       all("names no distractorFunction" in f.detail

@@ -22,6 +22,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import binding as binding_mod
 import itemio
+from gates import content
 
 
 class AuthoringError(Exception):
@@ -125,6 +126,36 @@ def validate(record, items_by_id):
                 problems.append(f"{iid}: choiceText for {cid!r} which does not exist")
             elif not isinstance(txt, str) or len(txt.strip()) < 10:
                 problems.append(f"{iid}/{cid}: replacement choice text is too short to be real")
+        # REPLACING ENGLISH WITHOUT REPLACING SPANISH LEAVES THE OLD CLAIM ALIVE
+        # IN SPANISH. The four plausible-fabrication rewrites of 2026-10-05
+        # would have left "EE. UU. negoció un tratado de paz..." on the same
+        # item the English rewrite was removing, on three of the four — a
+        # fabrication surviving in the language fewer reviewers read. So a
+        # choiceText replacement must either carry its Spanish or be on a
+        # choice that has none.
+        for cid, txt in (spec.get("choiceTextEs") or {}).items():
+            if cid not in ids:
+                problems.append(f"{iid}: choiceTextEs for {cid!r} which does not exist")
+                continue
+            if cid not in (spec.get("choiceText") or {}):
+                problems.append(f"{iid}/{cid}: choiceTextEs without choiceText — a translation "
+                                f"of text this record does not write")
+                continue
+            if not isinstance(txt, str) or len(txt.strip()) < 10:
+                problems.append(f"{iid}/{cid}: replacement Spanish is too short to be real")
+                continue
+            en = spec["choiceText"][cid]
+            if (defect := content.translation_defect(en, txt)):
+                problems.append(f"{iid}/{cid}: replacement Spanish reads as {defect} — "
+                                f"{'identical to the English' if defect == 'untranslated-copy' else 'English with Spanish word endings'}")
+        for cid in (spec.get("choiceText") or {}):
+            had_es = next((bool((c.get("textEs") or "").strip())
+                           for c in itemio.choices(it) if isinstance(c, dict)
+                           and c.get("id") == cid), False)
+            if had_es and cid not in (spec.get("choiceTextEs") or {}):
+                problems.append(f"{iid}/{cid}: replaces the English of a choice that HAS "
+                                f"Spanish, without replacing the Spanish — the old claim would "
+                                f"survive in Spanish on the same option")
         for cid, payload in (spec.get("distractors") or {}).items():
             if cid not in ids:
                 problems.append(f"{iid}: choice {cid!r} does not exist (have {sorted(ids)})")
@@ -221,6 +252,13 @@ def main():
                     if c.get("id") == cid:
                         c.setdefault("_wasText", c.get("text"))
                         c["text"] = txt
+            for cid, txt in (spec.get("choiceTextEs") or {}).items():
+                for c in r.get("choices") or []:
+                    if c.get("id") == cid:
+                        c.setdefault("_wasTextEs", c.get("textEs"))
+                        c["textEs"] = txt
+                        # Authored here, not by a certified translator.
+                        r["translationStatus"] = "needs-review"
             for cid, payload in (spec.get("distractors") or {}).items():
                 expl, mis, fam, fn = normalise(payload)
                 for c in r.get("choices") or []:

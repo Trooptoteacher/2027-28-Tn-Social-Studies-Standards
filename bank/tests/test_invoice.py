@@ -99,12 +99,31 @@ B = binding_mod.load()
 bank = itemio.load_dir(B.output_dir)
 coh, judged = content.length_cue_cohorts(bank)
 r = content.gate_choice_length_cue(bank)
-check("cohort tally pinned: 4-choice n=3793, key-is-longest 2020",
-      dict(coh) == {4: [2020, 3793]}, f"got {dict(coh)}")
-check("gate judged 3793 and reports exactly one cohort finding",
-      (r.judged, len(r.findings), r.passed) == (3793, 1, False),
-      f"judged={r.judged} findings={len(r.findings)} passed={r.passed}")
+# This block pinned the tally as a frozen absolute — {4: [2020, 3793]} — to
+# prove the refactor that extracted `length_cue_cohorts` had not changed the
+# gate's verdict. That refactor is long committed, and the absolute then broke
+# on the first content change that touched an option's length: rewriting one
+# fabricated distractor moved key-is-longest 2020 -> 2019, and the proof failed
+# for a reason that had nothing to do with what it was protecting.
+#
+# A pin that fails on every legitimate edit teaches the next person to bump the
+# number without reading it, which is the cry-wolf failure in test clothing. So
+# the ABSOLUTE is replaced by the INVARIANT it was standing in for: the gate and
+# the helper must be reading the same thing, and the gate's own note must be
+# derived from the helper's numbers rather than computed twice.
 check("gate and helper agree on who was judged", judged == r.judged)
+check("…and on the cohort totals, which is what one-implementation means",
+      sum(t for _, t in coh.values()) == r.judged, f"{dict(coh)} vs {r.judged}")
+check("the gate's note is the helper's numbers, not a second count",
+      all(f"n={t}" in r.note for _, t in coh.values()), r.note)
+check("exactly one cohort finding on the bank, and it still fails",
+      (len(r.findings), r.passed) == (1, False),
+      f"findings={len(r.findings)} passed={r.passed}")
+# The documented defect is ~53% against 25% chance. A loose band still catches a
+# wild swing without breaking on a single rewritten option.
+hits, total = coh[4]
+check("the 4-choice cohort is still the measured defect, near 53%",
+      0.50 < hits / total < 0.56, f"{hits}/{total} = {hits / total:.1%}")
 
 # ------------------------------------------------------- rebalance: the minimum
 print("\n  REBALANCE IS CHARGED AS THE MINIMUM, AND ONLY WHEN THE GATE ASKS")

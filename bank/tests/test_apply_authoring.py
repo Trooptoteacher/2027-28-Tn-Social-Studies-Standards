@@ -30,6 +30,11 @@ sys.path.insert(0, os.path.join(BANK, "tools"))
 FAILED = []
 
 
+def _by_all():
+    import binding as _b, itemio as _i
+    return {x["id"]: x for x in _i.load_dir(_b.load().output_dir)}
+
+
 def check(label, cond, detail=""):
     print(f"    [{'ok  ' if cond else 'FAIL'}] {label}"
           + (f"\n           {detail}" if detail and not cond else ""))
@@ -182,6 +187,72 @@ check("…and the run SAYS it will fail misconception-taxonomy, naming the distr
 
 shutil.rmtree(tmp, ignore_errors=True)
 
+# ------------------------------ replacing English must replace the Spanish
+print("\n  A REWRITE THAT LEAVES THE SPANISH BEHIND LEAVES THE OLD CLAIM ALIVE")
+
+# The four plausible-fabrication rewrites replace option TEXT. Three of those
+# options carry Spanish, so replacing only the English would have left
+# "EE. UU. negoció un tratado de paz que dividió a Alemania en zonas
+# permanentes" on the very item whose English was being corrected — a
+# fabrication surviving in the language fewer reviewers read.
+import binding as _b2, itemio as _io2
+_bank = _io2.load_dir(_b2.load().output_dir)
+_by = {i["id"]: i for i in _bank}
+EN = "The blockade ended in May 1949 after four-power talks at the United Nations"
+ES = ("El bloqueo terminó en mayo de 1949 tras conversaciones de las cuatro potencias "
+      "en las Naciones Unidas")
+
+
+def rec_es(**over):
+    spec = {"choiceText": {"B": EN}, "choiceTextEs": {"B": ES}}
+    spec.update(over)
+    return {"items": {"PSTIM-0041": spec}}
+
+
+def refused(rec):
+    try:
+        aa.validate(rec, _by)
+        return None
+    except aa.AuthoringError as e:
+        return str(e)
+
+
+check("English + Spanish together is accepted", refused(rec_es()) is None)
+got = refused({"items": {"PSTIM-0041": {"choiceText": {"B": EN}}}})
+check("English ALONE on a choice that HAS Spanish is REFUSED",
+      got and "would \nsurvive in Spanish" in got.replace("survive", "\nsurvive", 1)
+      or (got and "survive in Spanish" in got), got)
+got = refused(rec_es(choiceTextEs={"B": EN}))
+check("Spanish identical to the English is REFUSED as untranslated-copy",
+      got and "untranslated-copy" in got, got)
+got = refused(rec_es(choiceTextEs={
+    "B": "The blockade finishd in May 1949 after four power talks at United Nations"}))
+check("English with Spanish word endings is REFUSED as pseudo-translation",
+      got and "pseudo-translation" in got, got)
+got = refused({"items": {"PSTIM-0041": {"choiceText": {"B": EN},
+                                        "choiceTextEs": {"B": ES, "A": ES}}}})
+check("Spanish for a choice this record does not rewrite is REFUSED",
+      got and "without choiceText" in got, got)
+check("…but a choice with NO Spanish at all needs none — PSTIM-0167 carries no "
+      "choice Spanish, and requiring it would block the rewrite entirely",
+      refused({"items": {"PSTIM-0167": {"choiceText": {
+          "B": "The treaty let any member withdraw once it had been in force for twenty years"}}}})
+      is None)
+
+# What actually landed.
+for iid, cid in (("PSTIM-0041", "B"), ("U7-DOK2-0001", "D"), ("q-us45-dok1-1", "B")):
+    c = next(x for x in _by[iid]["choices"] if x["id"] == cid)
+    check(f"{iid}/{cid}: the superseded English is preserved in _wasText",
+          bool(c.get("_wasText")))
+    check(f"{iid}/{cid}: the Spanish moved with it", bool((c.get("textEs") or "").strip())
+          and c.get("_wasTextEs") != c.get("textEs"))
+    check(f"{iid}/{cid}: translationStatus says needs-review, because I wrote the Spanish",
+          _by[iid].get("translationStatus") == "needs-review",
+          _by[iid].get("translationStatus"))
+check("no rewritten option still carries plausible-fabrication",
+      not any(c.get("distractorFunction") == "plausible-fabrication"
+              for i in _bank for c in _io2.choices(i) if isinstance(c, dict)))
+
 # ------------------------------- the review state moves only on a real change
 print("\n  A TAXONOMY TAG DOES NOT UN-APPROVE A REVIEWED ITEM")
 
@@ -218,14 +289,29 @@ mis["choices"][0]["misconception"] = "a different confusion"
 check("…and so does rewriting a free-text misconception, which IS a claim",
       aa._claims(probe) != aa._claims(mis))
 
-# Measured on the real bank, after the 48-tag write.
+# Measured on the real bank, after the 48-tag write AND the 4 rewrites. The two
+# passes are the proof that the rule discriminates: tags left every approval
+# standing, and the rewrites superseded exactly the three approved items whose
+# choice TEXT they changed. If either number moved the other way the rule would
+# be wrong in one direction or the other.
 import binding as _bm, itemio as _io
 bank = _io.load_dir(_bm.load().output_dir)
 approved_now = [i for i in bank if i.get("historianReview")]
-check("all 19 standing approvals SURVIVED the tagging pass",
-      len(approved_now) == 19, len(approved_now))
-check("…and none was moved to the superseded list",
-      not any(i.get("historianReviewSuperseded") for i in bank))
+sup = sorted(i["id"] for i in bank if i.get("historianReviewSuperseded"))
+check("16 approvals stand: 19 survived the TAG pass, 3 were superseded by the "
+      "REWRITE pass that changed choice text",
+      len(approved_now) == 16, len(approved_now))
+check("…and the 3 superseded are exactly the approved items whose text was rewritten",
+      sup == ["PSTIM-0041", "U7-DOK2-0001", "q-us45-dok1-1"], sup)
+check("…each keeping its prior approval as history rather than losing it",
+      all(i["historianReviewSuperseded"][0].get("reviewer") == "Sean Reynolds"
+          and i["historianReviewSuperseded"][0].get("date") == "2026-09-03"
+          for i in bank if i.get("historianReviewSuperseded")))
+check("…and naming what caused it",
+      all("rewrite-fabrications" in i["historianReviewSuperseded"][0].get("supersededBy", "")
+          for i in bank if i.get("historianReviewSuperseded")))
+check("PSTIM-0167 was never approved, so nothing was superseded there",
+      not _by_all()["PSTIM-0167"].get("historianReviewSuperseded"))
 check("no approved item is ALSO flagged, except the 3 that were already "
       "contradictory before any of this — those are a promotion to make, "
       "which is Sean's call and not a build's",
@@ -249,8 +335,9 @@ check("it declares what was and was not written",
 check("…and every row carries a disposition, so nothing is ambiguous about "
       "whether it reached the bank",
       all(a.get("disposition") for a in prop["assignments"]))
-check("…48 applied, 14 held, 4 for rewrite",
-      prop["dispositions"] == {"APPLIED 2026-10-04": 48, "HELD": 14, "REWRITE": 4},
+check("…48 tagged, 4 rewritten, 14 held",
+      prop["dispositions"] == {"APPLIED 2026-10-04": 48, "HELD": 14,
+                               "REWRITTEN 2026-10-05": 4},
       prop["dispositions"])
 check("the applied record is NAMED, so a reviewer can read what was written",
       prop["applied"]["record"] == "authoring/misconception-tags-batch-1.json")
@@ -276,22 +363,34 @@ drift = [a for a in prop["assignments"]
 check("…and still matches the bank — a proposal quoting text that has since moved "
       "sends a reviewer to the wrong distractor",
       not drift, f"{len(drift)} row(s) stale: {[(a['itemId'], a['choiceId']) for a in drift[:4]]}")
+# The rewritten rows are the case that made this proof earn its keep: it caught
+# the proposal still quoting the misconception labels the rewrite had replaced.
+rw_rows = [a for a in prop["assignments"] if a["disposition"].startswith("REWRITTEN")]
+check("the 4 rewritten rows preserve the superseded option text AND the superseded "
+      "label — one of those labels was itself false history",
+      len(rw_rows) == 4 and all(a.get("supersededOptionText")
+                                and a.get("supersededMisconception") for a in rw_rows),
+      len(rw_rows))
+check("…and the Jessup-Malik correction is recorded against the right row",
+      any("Jessup-Malik" in a["reviewerNote"] for a in rw_rows
+          if a["itemId"] == "PSTIM-0041"))
 
 # The whole point, restated for a partly-applied record: what is in the bank is
 # exactly what was authorised, and the held rows are still held. The
 # applied-state measurements live in tests/test_taxonomy.py; this asserts the
 # RECORD agrees with the bank, which is the half this suite owns.
 live = content.gate_misconception_taxonomy(items)
-check("the gate's remaining findings equal the rows still held",
-      len(live.findings) == 14 + 4, f"{len(live.findings)} finding(s)")
+check("the gate's remaining findings equal the rows still held — 14 now, because "
+      "the 4 rewrites carry functions",
+      len(live.findings) == 14, f"{len(live.findings)} finding(s)")
 held = {(a["itemId"], a["choiceId"]) for a in prop["assignments"]
-        if not a["disposition"].startswith("APPLIED")}
+        if a["disposition"].startswith("HELD")}
 tagged = {(i["id"], c["id"]) for i in items for c in itemio.choices(i)
           if isinstance(c, dict) and c.get("distractorFunction")}
 check("…and NO held row was written anyway", not (held & tagged),
       f"{sorted(held & tagged)[:4]}")
 applied = {(a["itemId"], a["choiceId"]) for a in prop["assignments"]
-           if a["disposition"].startswith("APPLIED")}
+           if not a["disposition"].startswith("HELD")}
 check("…and every applied row IS in the bank — the record is not ahead of the data",
       applied <= tagged, f"{sorted(applied - tagged)[:4]}")
 check("…and the bank carries nothing the record does not name",

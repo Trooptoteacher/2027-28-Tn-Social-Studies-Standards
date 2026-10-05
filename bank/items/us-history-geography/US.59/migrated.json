@@ -3103,10 +3103,12 @@
         },
         {
           "id": "B",
-          "text": "NATO was a temporary agreement that expired after five years",
+          "text": "The treaty let any member withdraw once it had been in force for twenty years",
           "textEs": null,
-          "explanation": "The treaty carried no expiry. It has been in continuous force since 1949 and has expanded well beyond its original members.",
-          "misconception": "invents a time limit the treaty does not contain"
+          "explanation": "This is true: Article 13 of the North Atlantic Treaty lets a party give notice of withdrawal after the treaty has been in force for twenty years. But the question asks what made NATO a departure from American tradition, and a withdrawal clause describes the treaty's terms rather than the break it represented.",
+          "misconception": "finds a true provision of the treaty and stops there, rather than answering what made NATO a departure",
+          "_wasText": "NATO was a temporary agreement that expired after five years",
+          "distractorFunction": "partial-truth"
         },
         {
           "id": "C",
@@ -3160,7 +3162,7 @@
           ]
         },
         "authoring": {
-          "record": "misconception-tags-batch-1.json",
+          "record": "rewrite-fabrications-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },

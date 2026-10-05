@@ -116,7 +116,7 @@ below it can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **80 lessons, 285 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **81 lessons, 294 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -153,15 +153,15 @@ Proposals are there; I could not reach loc.gov to verify, so nothing was rewritt
 
 **d. 48 of the 66 misconception tags are APPLIED. 18 remain, and 4 of those are mine.**
 Sean authorised the write on 2026-10-04 and settled the open question with it. `misconception-
-taxonomy` is down from **66 findings to 18**, and every one of the 18 is *untagged* rather
+taxonomy` is down from **66 findings to 14**, and every one of the 18 is *untagged* rather
 than mis-tagged — the write introduced no new defect. 48 distractors across 22 items now
 carry a `distractorFunction`; 45 of those carry a family; 8 of the 14 live families are cited.
 
 | | |
 |---|---|
-| applied | **48** (`authoring/misconception-tags-batch-1.json`) |
+| tagged | **48** (`authoring/misconception-tags-batch-1.json`) |
 | held — fit approximate or needs two families | **14** |
-| held — for REWRITE, not tagging | **4** |
+| **rewritten** (`authoring/rewrite-fabrications-batch-1.json`) | **4** |
 
 **What the integrity check after a bulk write should ask is not "did it happen" but "did it
 take more than it was given".** Measured across 552 items: **zero** historical claims
@@ -266,14 +266,14 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**73 of 94 standards can build a form. 4,131 authoring units to green them all.**
+**73 of 94 standards can build a form. 4,126 authoring units to green them all.**
 Cheapest next: US.33 (22) · US.31 (32) · US.60 (33) · US.02 (35) · US.59 (38).
 
 *That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither
 move was a re-estimate. The invoice had been carrying private copies of three rules the
 gates already owned (**L72**) — it is the number that picks the next standard, so it made
 the cheap work look cheaper than it is; every line a gate owns is now charged by calling
-that gate. The third figure, 4,131, is the first DECREASE: 32 units discharged by the 48 misconception tags applied on 2026-10-04 (§6d). The second move, +61, added the two gates it priced at nothing at all while
+that gate. The third figure, 4,126, is the first DECREASE: 37 units discharged by the 48 misconception tags and the 4 rewrites of 2026-10-04/05 (§6d). The second move, +61, added the two gates it priced at nothing at all while
 forms went on selecting the items that fail them: `stimulusDebt` and `truncationDebt`
 (**L75**). That second measurement first came back saying buildability collapsed from 73
 to 1, which was `distractor-coverage` and `explanation-quality` — debt this invoice

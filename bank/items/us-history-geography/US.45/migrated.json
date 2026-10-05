@@ -2063,10 +2063,14 @@
         },
         {
           "id": "B",
-          "text": "Repair, Rebuild, and Restore",
-          "textEs": "Reparar, Reconstruir y Restaurar",
-          "explanation": "These words describe repair generally but name none of the New Deal's three aims: immediate relief, economic recovery, and structural reform.",
-          "misconception": "guesses plausible-sounding R words without the programme's actual aims"
+          "text": "Relief, Recovery, and Repeal",
+          "textEs": "Alivio, Recuperación y Derogación",
+          "explanation": "Relief and Recovery are two of the three, but the third was Reform. Repeal names a real measure of the same moment — the end of Prohibition under the Twenty-first Amendment in December 1933 — and it was never one of the programme's three aims.",
+          "misconception": "recalls two of the three Rs and completes the set with a different real 1933 measure",
+          "_wasText": "Repair, Rebuild, and Restore",
+          "_wasTextEs": "Reparar, Reconstruir y Restaurar",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
         },
         {
           "id": "C",
@@ -2130,18 +2134,12 @@
           "basis": "Spanish fields measured; no Spanish text was written or altered"
         },
         "authoring": {
-          "record": "misconception-tags-batch-1.json",
+          "record": "rewrite-fabrications-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "rehomed",
-      "requiresHistorianReview": false,
-      "historianReview": {
-        "status": "approved",
-        "record": "form-a-authoring-2026-09-03",
-        "reviewer": "Sean Reynolds",
-        "date": "2026-09-03"
-      },
+      "requiresHistorianReview": true,
       "tcapFormat": false,
       "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
       "biasReview": {
@@ -2149,7 +2147,18 @@
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
-      }
+      },
+      "historianReviewSuperseded": [
+        {
+          "status": "approved",
+          "record": "form-a-authoring-2026-09-03",
+          "reviewer": "Sean Reynolds",
+          "date": "2026-09-03",
+          "supersededBy": "rewrite-fabrications-batch-1.json",
+          "supersededOn": "2026-10-05",
+          "reason": "a historical claim on this item changed after this approval, so it no longer covers what the item says; the approval record stands as evidence for the version that was reviewed"
+        }
+      ]
     },
     {
       "id": "q-us45-dok1-2",

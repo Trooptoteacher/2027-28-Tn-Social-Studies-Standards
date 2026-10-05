@@ -23,7 +23,9 @@ from __future__ import annotations
 import copy
 import json
 import os
+import shutil
 import subprocess
+import tempfile
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -90,17 +92,24 @@ def clean_draft():
     return {"items": [it]}
 
 
+# Proof drafts go to a TEMP DIRECTORY, not into bank/generation/. The first
+# version wrote them into the live tree and deleted them afterwards, which made
+# the suite non-reentrant — two concurrent runs collide on the same filenames
+# and either can fail for a reason that has nothing to do with the code — and
+# left litter whenever a run was interrupted. I did exactly that: launched these
+# proofs alongside a running suite and had to kill it. tests/test_apply_authoring.py
+# already copies the repo to a sandbox; a test that writes into the artifact it
+# is measuring has no business doing so by default.
+_TMP = tempfile.mkdtemp(prefix="admission-proof-")
+
+
 def submit(draft, tmpname):
-    p = os.path.join(BANK, "generation", tmpname)
+    p = os.path.join(_TMP, tmpname)
     with open(p, "w", encoding="utf-8") as fh:
         json.dump(draft, fh, indent=2, ensure_ascii=False)
-    try:
-        r = subprocess.run([sys.executable, "tools/submit_items.py",
-                            f"generation/{tmpname}"],
-                           cwd=BANK, capture_output=True, text=True)
-        return r.returncode, r.stdout + r.stderr
-    finally:
-        os.remove(p)
+    r = subprocess.run([sys.executable, "tools/submit_items.py", p],
+                       cwd=BANK, capture_output=True, text=True)
+    return r.returncode, r.stdout + r.stderr
 
 
 rc, out = submit(clean_draft(), "_proof_clean.draft.json")
@@ -204,6 +213,13 @@ r = content.gate_stimulus_integrity(itemio.load_dir(B.output_dir), B)
 check("N/A is UNREACHABLE on the bank, where 111 items reference a stimulus they lack",
       not r.inapplicable and not r.passed and r.judged == 111,
       f"inapplicable={r.inapplicable!r} judged={r.judged}")
+
+shutil.rmtree(_TMP, ignore_errors=True)
+check("the live bank/generation/ is untouched — no proof draft was written into "
+      "the artifact under test",
+      not [f for f in os.listdir(os.path.join(BANK, "generation"))
+           if f.startswith("_proof")],
+      [f for f in os.listdir(os.path.join(BANK, "generation")) if f.startswith("_proof")])
 
 print(f"\n  {'FAILED: ' + ', '.join(FAILED) if FAILED else 'all admission proofs pass'}")
 sys.exit(1 if FAILED else 0)

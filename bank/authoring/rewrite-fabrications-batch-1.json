@@ -1,0 +1,50 @@
+{
+  "$comment": "The 4 distractors that `plausible-fabrication` condemned, REWRITTEN rather than relabelled (Sean, 2026-10-04). Each replacement is anchored in something that really happened and is wrong for THIS stem — never a different invented claim, which is the same defect with new words. Three become true-but-wrong-question options, which is the strongest form available here: the student must read what was asked, not hunt for a true sentence. Every item carries requiresHistorianReview; these are historical claims and no gate can check one.",
+  "authorisedBy": "Sean Reynolds, 2026-10-04",
+  "items": {
+    "q-us45-dok1-1": {
+      "choiceText": {"B": "Relief, Recovery, and Repeal"},
+      "choiceTextEs": {"B": "Alivio, Recuperación y Derogación"},
+      "distractors": {
+        "B": {
+          "explanation": "Relief and Recovery are two of the three, but the third was Reform. Repeal names a real measure of the same moment — the end of Prohibition under the Twenty-first Amendment in December 1933 — and it was never one of the programme's three aims.",
+          "misconception": "recalls two of the three Rs and completes the set with a different real 1933 measure",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        }
+      }
+    },
+    "PSTIM-0167": {
+      "choiceText": {"B": "The treaty let any member withdraw once it had been in force for twenty years"},
+      "distractors": {
+        "B": {
+          "explanation": "This is true: Article 13 of the North Atlantic Treaty lets a party give notice of withdrawal after the treaty has been in force for twenty years. But the question asks what made NATO a departure from American tradition, and a withdrawal clause describes the treaty's terms rather than the break it represented.",
+          "misconception": "finds a true provision of the treaty and stops there, rather than answering what made NATO a departure",
+          "distractorFunction": "partial-truth"
+        }
+      }
+    },
+    "U7-DOK2-0001": {
+      "choiceText": {"D": "Economic and military aid of $400 million for Greece and Turkey"},
+      "choiceTextEs": {"D": "Ayuda económica y militar de 400 millones de dólares para Grecia y Turquía"},
+      "distractors": {
+        "D": {
+          "explanation": "This is true: Truman's address to Congress on March 12, 1947 asked for $400 million in aid to Greece and Turkey. But that is the doctrine's first appropriation, not the new direction it set. The question asks what changed in American policy, which was the commitment to support nations resisting communist expansion.",
+          "misconception": "answers with the doctrine's first appropriation rather than the direction it established",
+          "distractorFunction": "right-answer-wrong-question"
+        }
+      }
+    },
+    "PSTIM-0041": {
+      "choiceText": {"B": "The blockade ended in May 1949 after four-power talks at the United Nations"},
+      "choiceTextEs": {"B": "El bloqueo terminó en mayo de 1949 tras conversaciones de las cuatro potencias en las Naciones Unidas"},
+      "distractors": {
+        "B": {
+          "explanation": "This is true: the blockade was lifted on May 12, 1949, following the Jessup-Malik talks at the United Nations and the New York Agreement that came out of them. But the question asks what the AIRLIFT demonstrated about containment, and how the crisis was settled is a different question from what the American response showed.",
+          "misconception": "answers how the crisis ended rather than what the airlift demonstrated",
+          "distractorFunction": "right-answer-wrong-question"
+        }
+      }
+    }
+  }
+}

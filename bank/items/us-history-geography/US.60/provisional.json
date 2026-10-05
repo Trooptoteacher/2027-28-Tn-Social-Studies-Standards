@@ -2964,10 +2964,13 @@
         },
         {
           "id": "D",
-          "text": "Withdrawal from the United Nations",
-          "textEs": "La retirada de las Naciones Unidas",
-          "explanation": "The United States remained in the United Nations and used it during the Cold War, including in Korea.",
-          "misconception": "invents a withdrawal that did not happen"
+          "text": "Economic and military aid of $400 million for Greece and Turkey",
+          "textEs": "Ayuda económica y militar de 400 millones de dólares para Grecia y Turquía",
+          "explanation": "This is true: Truman's address to Congress on March 12, 1947 asked for $400 million in aid to Greece and Turkey. But that is the doctrine's first appropriation, not the new direction it set. The question asks what changed in American policy, which was the commitment to support nations resisting communist expansion.",
+          "misconception": "answers with the doctrine's first appropriation rather than the direction it established",
+          "_wasText": "Withdrawal from the United Nations",
+          "_wasTextEs": "La retirada de las Naciones Unidas",
+          "distractorFunction": "right-answer-wrong-question"
         }
       ],
       "dokLevel": 2,
@@ -2980,7 +2983,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "The Truman Doctrine, articulated in President Truman's March 12, 1947, address to Congress requesting $400 million in aid for Greece and Turkey, established U.S. commitment to support nations resisting communist expansion. The doctrine reframed U.S. foreign policy from regional intervention to a global containment strategy and provided the rationale for subsequent Cold War commitments including the Marshall Plan, NATO, and Korean War involvement. Choice B is wrong because the doctrine explicitly rejected isolationism. Choice C is wrong because Truman cast the Soviet Union as the principal adversary the doctrine was designed to counter. Choice D is wrong because the United States was a founding member and host of the United Nations.",
       "explanationEs": "La Doctrina Truman, articulada en el discurso del presidente Truman ante el Congreso del 12 de marzo de 1947 que solicitaba 400 millones de dólares en ayuda para Grecia y Turquía, estableció el compromiso de EE. UU. de apoyar a las naciones que resistían la expansión comunista. La doctrina reformuló la política exterior de EE. UU., pasando de la intervención regional a una estrategia global de contención y proporcionó la justificación para los compromisos posteriores de la Guerra Fría, incluidos el Plan Marshall, la OTAN y la participación en la Guerra de Corea. La opción B es incorrecta porque la doctrina rechazó explícitamente el aislacionismo. La opción C es incorrecta porque Truman presentó a la Unión Soviética como el principal adversario que la doctrina pretendía contrarrestar. La opción D es incorrecta porque Estados Unidos era miembro fundador y país anfitrión de las Naciones Unidas.",
-      "translationStatus": "not-started",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.0,
         "b": 0.0,
@@ -3005,18 +3008,12 @@
           "dokReviewRequired": true
         },
         "authoring": {
-          "record": "misconception-tags-batch-1.json",
+          "record": "rewrite-fabrications-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "evidenced",
-      "requiresHistorianReview": false,
-      "historianReview": {
-        "status": "approved",
-        "record": "form-a-authoring-2026-09-03",
-        "reviewer": "Sean Reynolds",
-        "date": "2026-09-03"
-      },
+      "requiresHistorianReview": true,
       "tcapFormat": false,
       "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
       "biasReview": {
@@ -3024,7 +3021,18 @@
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
-      }
+      },
+      "historianReviewSuperseded": [
+        {
+          "status": "approved",
+          "record": "form-a-authoring-2026-09-03",
+          "reviewer": "Sean Reynolds",
+          "date": "2026-09-03",
+          "supersededBy": "rewrite-fabrications-batch-1.json",
+          "supersededOn": "2026-10-05",
+          "reason": "a historical claim on this item changed after this approval, so it no longer covers what the item says; the approval record stands as evidence for the version that was reviewed"
+        }
+      ]
     },
     {
       "id": "U7-DOK2-0006",
@@ -3126,10 +3134,13 @@
         },
         {
           "id": "B",
-          "text": "The U.S. negotiated a peace treaty that divided Germany into permanent zones",
-          "textEs": "EE. UU. negoció un tratado de paz que dividió a Alemania en zonas permanentes",
-          "explanation": "Germany's division was not settled by a treaty during the airlift; the blockade ended in 1949 without one.",
-          "misconception": "invents a negotiated settlement for the blockade"
+          "text": "The blockade ended in May 1949 after four-power talks at the United Nations",
+          "textEs": "El bloqueo terminó en mayo de 1949 tras conversaciones de las cuatro potencias en las Naciones Unidas",
+          "explanation": "This is true: the blockade was lifted on May 12, 1949, following the Jessup-Malik talks at the United Nations and the New York Agreement that came out of them. But the question asks what the AIRLIFT demonstrated about containment, and how the crisis was settled is a different question from what the American response showed.",
+          "misconception": "answers how the crisis ended rather than what the airlift demonstrated",
+          "_wasText": "The U.S. negotiated a peace treaty that divided Germany into permanent zones",
+          "_wasTextEs": "EE. UU. negoció un tratado de paz que dividió a Alemania en zonas permanentes",
+          "distractorFunction": "right-answer-wrong-question"
         },
         {
           "id": "C",
@@ -3159,7 +3170,7 @@
       "reportingCategorySource": "UNMAPPED",
       "explanation": "The Berlin Airlift exemplified containment by resisting Soviet pressure over West Berlin through non-military means, demonstrating American commitment to opposing communist expansion without triggering direct armed conflict.",
       "explanationEs": "El Puente Aéreo ejemplificó la contención al resistir la presión soviética sin confrontación militar directa.",
-      "translationStatus": "complete",
+      "translationStatus": "needs-review",
       "irtParameters": {
         "a": 1.3,
         "b": 0.1,
@@ -3184,18 +3195,12 @@
           "dokReviewRequired": true
         },
         "authoring": {
-          "record": "misconception-tags-batch-1.json",
+          "record": "rewrite-fabrications-batch-1.json",
           "note": "rationales explain misconceptions and remain historical claims"
         }
       },
       "alignmentStatus": "evidenced",
-      "requiresHistorianReview": false,
-      "historianReview": {
-        "status": "approved",
-        "record": "form-a-authoring-2026-09-03",
-        "reviewer": "Sean Reynolds",
-        "date": "2026-09-03"
-      },
+      "requiresHistorianReview": true,
       "tcapFormat": false,
       "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
       "biasReview": {
@@ -3203,7 +3208,18 @@
         "reviewer": null,
         "reviewedAt": null,
         "notes": null
-      }
+      },
+      "historianReviewSuperseded": [
+        {
+          "status": "approved",
+          "record": "form-a-authoring-2026-09-03",
+          "reviewer": "Sean Reynolds",
+          "date": "2026-09-03",
+          "supersededBy": "rewrite-fabrications-batch-1.json",
+          "supersededOn": "2026-10-05",
+          "reason": "a historical claim on this item changed after this approval, so it no longer covers what the item says; the approval record stands as evidence for the version that was reviewed"
+        }
+      ]
     },
     {
       "id": "us-48-q04",

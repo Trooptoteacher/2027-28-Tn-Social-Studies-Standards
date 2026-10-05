@@ -33,9 +33,9 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `rubric` | **FAIL** | 3988 | 100 | 17 |
 | `bias-review` | **PASS** | 3988 | 3928 | 0 |
 | `key-contradiction` | **PASS** | 3988 | 3928 | 0 |
-| `ai-review-boundary` | **PASS** | 3988 | 135 | 0 |
+| `ai-review-boundary` | **PASS** | 3988 | 132 | 0 |
 | `review-debt` | **PASS** | 3988 | 106 | 0 |
-| `misconception-taxonomy` | **FAIL** | 3988 | 66 | 18 |
+| `misconception-taxonomy` | **FAIL** | 3988 | 66 | 14 |
 | `stimulus-integrity` | **FAIL** | 3988 | 111 | 111 |
 | `release-readiness` | **FAIL** | 3928 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 27 | 0 |

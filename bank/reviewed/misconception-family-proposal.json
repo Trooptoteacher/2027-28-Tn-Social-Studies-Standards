@@ -1,6 +1,6 @@
 {
   "$comment": "A PROPOSAL, NOT A WRITE. Nothing here has been applied to any item; misconception-taxonomy still FAILS on all 66, which is the honest state. What CHANGED on 2026-10-04 is that the taxonomy it proposes against is no longer DRAFT: Sean read the v1 version of this file, and directed the two additions that v1's own measurements argued for. This is the re-measurement against v2.",
-  "status": "PARTLY APPLIED 2026-10-04 on Sean's authorisation — the 48 clean fits are in the bank (authoring/misconception-tags-batch-1.json). 14 are HELD because the fit is approximate or needs two families; writing a family on a near-fit records a guess in the one field the analytics layer trusts. 4 are for REWRITE, not tagging.",
+  "status": "PARTLY APPLIED 2026-10-04/05 on Sean's authorisation — 48 clean fits tagged, 4 options REWRITTEN because plausible-fabrication is an item flaw, 14 HELD because the fit is approximate or needs two families; writing a family on a near-fit records a guess in the one field the analytics layer trusts.",
   "drafted": "2026-10-04 (v1), re-measured against taxonomyVersion 2 the same day",
   "draftedBy": "Claude. An authoring agent may not approve its own work.",
   "taxonomyVersion": 2,
@@ -394,13 +394,16 @@
         "US.46"
       ],
       "authoringRecord": "form-a-v2.json",
-      "misconceptionVerbatim": "guesses plausible-sounding R words without the programme's actual aims",
-      "proposedDistractorFunction": "plausible-fabrication",
-      "proposedFamily": null,
+      "misconceptionVerbatim": "recalls two of the three Rs and completes the set with a different real 1933 measure",
+      "proposedDistractorFunction": "common-misconception",
+      "proposedFamily": "MC-F-06",
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — invented R-words. See the reviewNote on this function; it is flagged, not settled.",
-      "disposition": "REWRITE — plausible-fabrication is an item flaw as of 2026-10-04"
+      "reviewerNote": "The original option asserted history that never happened, which `plausible-fabrication` now rules an ITEM FLAW. Replaced with something that really happened and is wrong for THIS stem. A historical claim, so the item carries requiresHistorianReview.",
+      "disposition": "REWRITTEN 2026-10-05 (authoring/rewrite-fabrications-batch-1.json)",
+      "supersededOptionText": "Repair, Rebuild, and Restore",
+      "supersededMisconception": "guesses plausible-sounding R words without the programme's actual aims",
+      "rewrittenOptionText": "Relief, Recovery, and Repeal"
     },
     {
       "itemId": "q-us45-dok1-1",
@@ -754,13 +757,16 @@
         "US.59"
       ],
       "authoringRecord": "form-b-balance.json",
-      "misconceptionVerbatim": "invents a time limit the treaty does not contain",
-      "proposedDistractorFunction": "plausible-fabrication",
+      "misconceptionVerbatim": "finds a true provision of the treaty and stops there, rather than answering what made NATO a departure",
+      "proposedDistractorFunction": "partial-truth",
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — a time limit the treaty does not contain.",
-      "disposition": "REWRITE — plausible-fabrication is an item flaw as of 2026-10-04"
+      "reviewerNote": "The original option asserted history that never happened, which `plausible-fabrication` now rules an ITEM FLAW. Replaced with something that really happened and is wrong for THIS stem. A historical claim, so the item carries requiresHistorianReview.",
+      "disposition": "REWRITTEN 2026-10-05 (authoring/rewrite-fabrications-batch-1.json)",
+      "supersededOptionText": "NATO was a temporary agreement that expired after five years",
+      "supersededMisconception": "invents a time limit the treaty does not contain",
+      "rewrittenOptionText": "The treaty let any member withdraw once it had been in force for twenty years"
     },
     {
       "itemId": "PSTIM-0167",
@@ -949,13 +955,16 @@
         "US.60"
       ],
       "authoringRecord": "form-a-v2.json",
-      "misconceptionVerbatim": "invents a withdrawal that did not happen",
-      "proposedDistractorFunction": "plausible-fabrication",
+      "misconceptionVerbatim": "answers with the doctrine's first appropriation rather than the direction it established",
+      "proposedDistractorFunction": "right-answer-wrong-question",
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — a withdrawal that did not happen.",
-      "disposition": "REWRITE — plausible-fabrication is an item flaw as of 2026-10-04"
+      "reviewerNote": "The original option asserted history that never happened, which `plausible-fabrication` now rules an ITEM FLAW. Replaced with something that really happened and is wrong for THIS stem. A historical claim, so the item carries requiresHistorianReview.",
+      "disposition": "REWRITTEN 2026-10-05 (authoring/rewrite-fabrications-batch-1.json)",
+      "supersededOptionText": "Withdrawal from the United Nations",
+      "supersededMisconception": "invents a withdrawal that did not happen",
+      "rewrittenOptionText": "Economic and military aid of $400 million for Greece and Turkey"
     },
     {
       "itemId": "PSTIM-0041",
@@ -979,13 +988,16 @@
         "US.60"
       ],
       "authoringRecord": "form-a-balance.json",
-      "misconceptionVerbatim": "invents a negotiated settlement for the blockade",
-      "proposedDistractorFunction": "plausible-fabrication",
+      "misconceptionVerbatim": "answers how the crisis ended rather than what the airlift demonstrated",
+      "proposedDistractorFunction": "right-answer-wrong-question",
       "proposedFamily": null,
       "proposedFamilyName": null,
       "fit": "clear",
-      "reviewerNote": "RESOLVED BY THE AXIS — a negotiated settlement for the blockade.",
-      "disposition": "REWRITE — plausible-fabrication is an item flaw as of 2026-10-04"
+      "reviewerNote": "The original option asserted history that never happened, which `plausible-fabrication` now rules an ITEM FLAW. Replaced with something that really happened and is wrong for THIS stem. ⚠ The superseded MISCONCEPTION LABEL was itself bad history: the Berlin Blockade WAS ended by negotiation (the Jessup-Malik talks and the New York Agreement of May 1949). The false parts of the old option were 'peace treaty' and 'permanent zones', not the existence of a settlement. A historical claim, so the item carries requiresHistorianReview.",
+      "disposition": "REWRITTEN 2026-10-05 (authoring/rewrite-fabrications-batch-1.json)",
+      "supersededOptionText": "The U.S. negotiated a peace treaty that divided Germany into permanent zones",
+      "supersededMisconception": "invents a negotiated settlement for the blockade",
+      "rewrittenOptionText": "The blockade ended in May 1949 after four-power talks at the United Nations"
     },
     {
       "itemId": "PSTIM-0041",
@@ -1051,7 +1063,7 @@
   "dispositions": {
     "APPLIED 2026-10-04": 48,
     "HELD": 14,
-    "REWRITE": 4
+    "REWRITTEN 2026-10-05": 4
   },
   "applied": {
     "record": "authoring/misconception-tags-batch-1.json",
@@ -1061,5 +1073,11 @@
     "gateBefore": 66,
     "gateAfter": 18,
     "verified": "Every applied item's existing explanation and misconception text was compared against HEAD across all 2,148 choices in the touched files: ZERO changed. This record added the two taxonomy axes and nothing else. No item's lifecycle status moved (all 22 were already `authored`), so no ledger transition is owed."
+  },
+  "rewritten": {
+    "record": "authoring/rewrite-fabrications-batch-1.json",
+    "authorisedBy": "Sean Reynolds, 2026-10-04",
+    "options": 4,
+    "note": "Each replacement is anchored in something that really happened and is wrong for its own stem; three are true-but-wrong-question, the strongest form available here. The superseded English is preserved on the choice as `_wasText` and the superseded misconception label is preserved here, because one of them was itself false history. Three standing approvals were superseded by these rewrites — correctly, because the choice TEXT changed, where the tagging pass changed only tags and left all 19 intact."
   }
 }
