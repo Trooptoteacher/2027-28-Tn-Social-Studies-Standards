@@ -101,10 +101,22 @@ def main():
   `translationStatus` must match what the fields actually contain.
 - **Calibration** — `calibrationStatus: "pre-field-test"`. Parameters that have never met a
   student are estimates.
-- **Field-testability** — `tcapFormat: false`. Every item must SAY whether it is
-  field-testable; a form built from an item that does not say cannot state what it is. These
-  are classroom-formative and pre-field-test, so `false` is the honest value — and saying
-  nothing is not the same as saying false.
+- **Field-testability** — `tcapFormat: false` AND `tcapFormatReason`. Every item must SAY
+  whether it is field-testable; a form built from an item that does not say cannot state what
+  it is. These are classroom-formative and pre-field-test, so `false` is the honest value —
+  and saying nothing is not the same as saying false. The REASON is required too: "no"
+  without one is indistinguishable from "nobody looked".
+- **Dangling words** — the truncation gate holds a closed list of words an explanation may
+  not end on (`that`, `for`, `and`, `in`, `by`, …). It cannot tell a stranded preposition
+  from a real truncation, so a complete sentence ending "…is what the practice was for." is
+  refused. Rewrite the sentence; do not argue with the gate. US.01 lost two explanations
+  to this and both read better afterwards.
+- **A distractor may not assert history that never happened** (`plausible-fabrication` is an
+  ITEM FLAW). Wrong means wrong BY THE HISTORY, because the distractor outlives the item.
+  Anchor every wrong option in something real that does not answer THIS stem: a true fact
+  about a different question (`partial-truth`, `right-answer-wrong-question`), or a real
+  event in the wrong period or attributed to the wrong actor (`common-misconception` with a
+  family). "Forty acres and a mule as federal policy" is the kind of option this forbids.
 - **A stimulus you reference, you carry.** If the stem says "use the photograph", the item
   needs an `image` record with `src`, `alt`, `altEs`, `citationChicago`, `rightsLabel`,
   `rightsStatementVerbatim`, `hostingInstitution` and `commercialUse: "permitted"`. 111
@@ -145,6 +157,11 @@ def main():
         # is the one pattern the mandate names outright. An item that does not
         # say whether it is field-testable is an item a form cannot describe.
         "tcapFormat": False,
+        # REQUIRED whenever tcapFormat is not True, and this skeleton omitted it
+        # until US.01 was refused for it: "no" without a reason is
+        # indistinguishable from "nobody looked". The bank's own wording for an
+        # unaffirmed item is the one below.
+        "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
     }, indent=2) + "\n```\n")
     L.append("Then: `python3 tools/submit_items.py generation/" + a.standard +
              ".draft.json` — it refuses anything that fails a gate and names what to fix.\n")

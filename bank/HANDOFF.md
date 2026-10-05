@@ -63,14 +63,14 @@ deleted; `quarantine/` is retention, not a bin.
 
 | | |
 |---|---|
-| servable | 3,928 |
-| aligned (counts toward coverage) | 1,989 |
+| servable | 3,931 |
+| aligned (counts toward coverage) | 1,992 |
 | quarantined, with stated reasons | 1,059 |
-| authored by Claude | 24 |
+| authored by Claude | 27 |
 | reviewed and approved by you | 19 |
 | **awaiting your review** | **5** |
 
-Alignment: 1,693 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
+Alignment: 1,696 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
 empty: every standard is judgeable — see §11.) **30 items are `held`** because their key
 explanation calls the key wrong — see §12.
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
@@ -232,6 +232,14 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
 
 ## 8. Standard-first generation — the answer to "repair or rebuild"
 
+**US.01 is the proof, measured 2026-10-05: it arrived BUILDABLE AT ZERO AUTHORING DEBT.**
+Every line of the invoice — distractor rationales, the two taxonomy axes, DOK rationales,
+both translations, explanation quality, choice balance — reads 0, because standard-first
+authoring satisfies them on the way in rather than being repaired into them afterwards.
+The bank total did not move (4,126): the work was never owed. Compare the cheapest
+*repair* standard at 22 units.
+
+
 The old bank was written **item-first** and filed against standards afterward. That is why
 42% of it names nothing that identifies its standard. Authoring **from** the standard makes
 alignment true by construction, and removes that entire class of defect.
@@ -266,7 +274,7 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**73 of 94 standards can build a form. 4,126 authoring units to green them all.**
+**74 of 94 standards can build a form. 4,126 authoring units to green them all.**
 Cheapest next: US.33 (22) · US.31 (32) · US.60 (33) · US.02 (35) · US.59 (38).
 
 *That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither

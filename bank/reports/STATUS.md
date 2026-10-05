@@ -10,34 +10,34 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 | Gate | Result | Scanned | Judged | Findings |
 |---|---|---|---|---|
-| `record-complete` | **FAIL** | 3988 | — | 3844 |
-| `binding` | **PASS** | 3988 | — | 0 |
-| `key-integrity` | **PASS** | 3988 | — | 0 |
-| `distractor-coverage` | **FAIL** | 3988 | 3846 | 22944 |
-| `truncation` | **FAIL** | 3988 | — | 91 |
-| `blueprint-conformance` | **FAIL** | 1989 | — | 28 |
-| `blueprint-achievability` | **FAIL** | 1989 | 94 | 21 |
-| `key-position-debias` | **PASS** | 3793 | — | 0 |
-| `serveability` | **FAIL** | 3928 | — | 994 |
-| `reporting-category-provenance` | **PASS** | 3988 | — | 0 |
+| `record-complete` | **FAIL** | 3991 | — | 3844 |
+| `binding` | **PASS** | 3991 | — | 0 |
+| `key-integrity` | **PASS** | 3991 | — | 0 |
+| `distractor-coverage` | **FAIL** | 3991 | 3849 | 22944 |
+| `truncation` | **FAIL** | 3991 | — | 91 |
+| `blueprint-conformance` | **FAIL** | 1992 | — | 28 |
+| `blueprint-achievability` | **FAIL** | 1992 | 94 | 20 |
+| `key-position-debias` | **PASS** | 3796 | — | 0 |
+| `serveability` | **FAIL** | 3931 | — | 994 |
+| `reporting-category-provenance` | **PASS** | 3991 | — | 0 |
 | `signal-coverage` | **PASS** | 94 | 94 | 0 |
-| `alignment-claim` | **PASS** | 3988 | 3928 | 0 |
-| `choice-length-cue` | **FAIL** | 3988 | 3793 | 1 |
-| `duplicate-stems` | **PASS** | 3988 | 3928 | 0 |
-| `citation-integrity` | **PASS** | 3988 | 35 | 0 |
-| `translation-claim` | **PASS** | 3988 | 3445 | 0 |
-| `explanation-quality` | **FAIL** | 3988 | 3928 | 918 |
-| `embedded-answer-key` | **PASS** | 3988 | 3928 | 0 |
-| `review-provenance` | **FAIL** | 3988 | 26 | 3 |
-| `tcap-format` | **PASS** | 3988 | 3928 | 0 |
-| `rubric` | **FAIL** | 3988 | 100 | 17 |
-| `bias-review` | **PASS** | 3988 | 3928 | 0 |
-| `key-contradiction` | **PASS** | 3988 | 3928 | 0 |
-| `ai-review-boundary` | **PASS** | 3988 | 132 | 0 |
-| `review-debt` | **PASS** | 3988 | 106 | 0 |
-| `misconception-taxonomy` | **FAIL** | 3988 | 66 | 14 |
-| `stimulus-integrity` | **FAIL** | 3988 | 111 | 111 |
-| `release-readiness` | **FAIL** | 3928 | — | 6 |
+| `alignment-claim` | **PASS** | 3991 | 3931 | 0 |
+| `choice-length-cue` | **FAIL** | 3991 | 3796 | 1 |
+| `duplicate-stems` | **PASS** | 3991 | 3931 | 0 |
+| `citation-integrity` | **PASS** | 3991 | 35 | 0 |
+| `translation-claim` | **PASS** | 3991 | 3448 | 0 |
+| `explanation-quality` | **FAIL** | 3991 | 3931 | 918 |
+| `embedded-answer-key` | **PASS** | 3991 | 3931 | 0 |
+| `review-provenance` | **FAIL** | 3991 | 26 | 3 |
+| `tcap-format` | **PASS** | 3991 | 3931 | 0 |
+| `rubric` | **FAIL** | 3991 | 100 | 17 |
+| `bias-review` | **FAIL** | 3991 | 3931 | 3 |
+| `key-contradiction` | **PASS** | 3991 | 3931 | 0 |
+| `ai-review-boundary` | **PASS** | 3991 | 132 | 0 |
+| `review-debt` | **PASS** | 3991 | 106 | 0 |
+| `misconception-taxonomy` | **FAIL** | 3991 | 75 | 14 |
+| `stimulus-integrity` | **FAIL** | 3991 | 111 | 111 |
+| `release-readiness` | **FAIL** | 3931 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 27 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 53240 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 5 | 0 |
@@ -109,17 +109,17 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `US-CORE/family-coverage` | **PASS** | 5 | 5 | 0 |
 | `all-gates-measured` | **PASS** | 97 | — | 0 |
 
-**80/98 pass.** Grade A requires all of them. "Close" is not "A."
+**79/98 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
 - Source: **5,045** items from the 2026-27 `history-hack-web-app` bank
-- Servable: **3928** (3391 migrated, 511 provisional)
+- Servable: **3931** (3391 migrated, 511 provisional)
 - Quarantined (not servable, not coverage): **1059**
   - 929 — standard retired / no 2027-28 home
   - 130 — tests an element the 2027-28 standard dropped
-- Standards with a servable item: **86/94**
-- Standards receiving nothing: **8** — US.01, US.03, US.40, US.57, US.71, US.75, US.89, US.93
+- Standards with a servable item: **87/94**
+- Standards receiving nothing: **7** — US.03, US.40, US.57, US.71, US.75, US.89, US.93
 
 ## Forms
 
