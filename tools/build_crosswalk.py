@@ -2,6 +2,15 @@
 """Build the 2026-27 -> 2027-28 standards crosswalk.
 
     python3 tools/build_crosswalk.py <path-to-2026-27-standards-repo>
+    python3 tools/build_crosswalk.py <path-to-2026-27-standards-repo> --check
+
+--check rebuilds into a scratch directory and compares it with crosswalk/,
+writing nothing. Exit 1 if any file differs: the committed crosswalk is not
+what this tool produces from these standards.
+
+Every run also checks a REGRESSION ANCHOR: a pair whose true similarity is
+known. If the scorer is ever changed back to difflib's default autojunk, the
+anchor collapses (0.93 -> 0.44) and the run fails before anything is written.
 
 Why this exists
 ---------------
@@ -25,15 +34,23 @@ Matching is one-to-one and greedy by text similarity, so a standard cannot be
 claimed as the origin of two different successors.
 """
 import csv
+import filecmp
 import json
 import re
 import sys
+import tempfile
 from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 NEW_DIR = ROOT / "standards"
 OUT_DIR = ROOT / "crosswalk"
+
+# (2026-27 file stem, 2026-27 code, 2027-28 course, 2027-28 code, minimum score).
+# 2027-28 US.09 keeps 2026-27 US.05's sentence word for word and adds Lewis
+# Latimer: the same standard, revised. Scored with autojunk on it read 0.44 and
+# was labelled retired, which blocked every asset hanging on it.
+ANCHORS = [("hs-us-history", "US.05", "us-history-geography", "US.09", 0.90)]
 
 # 2026-27 file stem -> 2027-28 course slug. Both sets use the same prefix.
 COURSE_MAP = {
@@ -83,21 +100,74 @@ def match_course(old_stds, new_stds):
     return matched, o_taken, n_taken
 
 
+def check_anchors(old_root):
+    """Fail if a pair of known similarity no longer scores as the same standard."""
+    failures = []
+    for old_stem, old_code, new_slug, new_code, floor in ANCHORS:
+        try:
+            old = {x["code"]: x["text"] for x in
+                   json.loads((old_root / f"{old_stem}.json").read_text())["standards"]}
+            new = {x["code"]: x["text"] for x in
+                   json.loads((NEW_DIR / f"{new_slug}.json").read_text())["standards"]}
+            r = ratio(old[old_code], new[new_code])
+        except (OSError, KeyError) as err:
+            failures.append(f"anchor {old_code} -> {new_code}: cannot be read ({err})")
+            continue
+        if r < floor:
+            failures.append(f"anchor 2026-27 {old_code} -> 2027-28 {new_code} scored {r:.2f}, "
+                            f"below {floor:.2f}. The similarity scorer is broken (is "
+                            f"autojunk back on?). Nothing written.")
+    return failures
+
+
+def compare_dirs(built, committed):
+    """Names of files that differ between a fresh build and crosswalk/."""
+    names = sorted({p.name for p in built.iterdir()} | {p.name for p in committed.iterdir()})
+    return [n for n in names
+            if not (built / n).exists() or not (committed / n).exists()
+            or not filecmp.cmp(built / n, committed / n, shallow=False)]
+
+
 def main():
-    if len(sys.argv) != 2:
+    args = [a for a in sys.argv[1:] if a != "--check"]
+    check = "--check" in sys.argv[1:]
+    if len(args) != 1:
         print(__doc__)
         return 2
-    old_root = Path(sys.argv[1]) / "standards"
+    old_root = Path(args[0]) / "standards"
     if not old_root.is_dir():
         print(f"2026-27 standards not found at {old_root}")
         return 2
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    failures = check_anchors(old_root)
+    if failures:
+        for f in failures:
+            print(f"  BLOCKER  {f}")
+        return 1
+    if check:
+        with tempfile.TemporaryDirectory() as tmp:
+            code = build(old_root, Path(tmp), quiet=True)
+            if code:
+                return code
+            diffs = compare_dirs(Path(tmp), OUT_DIR)
+        if diffs:
+            for n in diffs:
+                print(f"  BLOCKER  crosswalk/{n} differs from a fresh build")
+            print(f"\n{len(diffs)} file(s) stale. Re-run without --check and commit the result.")
+            return 1
+        print("crosswalk: fresh build matches crosswalk/ exactly; anchors hold. PASS")
+        return 0
+    return build(old_root, OUT_DIR, quiet=False)
+
+
+def build(old_root, out_dir, quiet):
+    say = (lambda *a, **k: None) if quiet else print
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     collisions, summary = [], []
     for old_stem, new_slug in COURSE_MAP.items():
         old_path, new_path = old_root / f"{old_stem}.json", NEW_DIR / f"{new_slug}.json"
         if not old_path.exists() or not new_path.exists():
-            print(f"  skip {old_stem}: missing file")
+            say(f"  skip {old_stem}: missing file")
             continue
         old = json.loads(old_path.read_text())
         new = json.loads(new_path.read_text())
@@ -134,7 +204,7 @@ def main():
                 })
 
         rows.sort(key=lambda r: (r["code_2027_28"] or "zzz", r["code_2026_27"]))
-        out = OUT_DIR / f"{new_slug}.csv"
+        out = out_dir / f"{new_slug}.csv"
         with out.open("w", newline="") as fh:
             w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
             w.writeheader()
@@ -154,17 +224,17 @@ def main():
                   for d in ("unchanged", "revised", "retired", "new")}
         moved = sum(1 for r in rows if r["code_moved"] == "yes")
         summary.append((new_slug, len(o_stds), len(n_stds), counts, moved))
-        print(f"{new_slug:<26} 2026-27={len(o_stds):>3} 2027-28={len(n_stds):>3}  "
+        say(f"{new_slug:<26} 2026-27={len(o_stds):>3} 2027-28={len(n_stds):>3}  "
               f"unchanged={counts['unchanged']:>3} revised={counts['revised']:>3} "
               f"retired={counts['retired']:>3} new={counts['new']:>3}  code-moved={moved:>3}")
 
-    with (OUT_DIR / "collisions.csv").open("w", newline="") as fh:
+    with (out_dir / "collisions.csv").open("w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=["course", "code", "meaning_2026_27",
                                            "meaning_2027_28"])
         w.writeheader()
         w.writerows(collisions)
 
-    (OUT_DIR / "summary.json").write_text(json.dumps({
+    (out_dir / "summary.json").write_text(json.dumps({
         "note": "A standard code is NOT stable between 2026-27 and 2027-28. "
                 "Never carry an asset forward by code alone.",
         "courses": [{"course": c, "count_2026_27": a, "count_2027_28": b,
@@ -172,8 +242,8 @@ def main():
         "codeCollisions": len(collisions),
     }, indent=2, ensure_ascii=False) + "\n")
 
-    print(f"\n{len(collisions)} code collisions -> crosswalk/collisions.csv")
-    print("Courses with no 2026-27 counterpart are new builds; see README.")
+    say(f"\n{len(collisions)} code collisions -> crosswalk/collisions.csv")
+    say("Courses with no 2026-27 counterpart are new builds; see README.")
     return 0
 
 

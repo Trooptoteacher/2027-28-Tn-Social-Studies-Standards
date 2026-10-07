@@ -111,6 +111,10 @@ python3 tools/validate_standards.py --verbatim      # exit 0 only at zero blocke
 
 # rebuild the 2026-27 -> 2027-28 crosswalk
 python3 tools/build_crosswalk.py ../2026-27-Tn.-Social-Studies-Standards
+
+# gate: the committed crosswalk is exactly what the tool builds, and the
+# regression anchor (2026-27 US.05 -> 2027-28 US.09 >= 0.90) holds
+python3 tools/build_crosswalk.py ../2026-27-Tn.-Social-Studies-Standards --check
 ```
 
 `--verbatim` re-opens the source PDF and requires every standard's text to still appear in it,
