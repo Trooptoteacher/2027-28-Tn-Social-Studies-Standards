@@ -57,7 +57,11 @@ def normalize(s):
 
 
 def ratio(a, b):
-    return SequenceMatcher(None, normalize(a), normalize(b)).ratio()
+    # autojunk=False is load-bearing. difflib's default autojunk treats any character
+    # in more than 1% of a 200+ character string as junk, so long bulleted standards
+    # lost their spaces and vowels and scored far too low: 2026-27 US.05 vs its own
+    # successor 2027-28 US.09 read 0.44 (retired) instead of 0.93 (revised).
+    return SequenceMatcher(None, normalize(a), normalize(b), autojunk=False).ratio()
 
 
 def match_course(old_stds, new_stds):

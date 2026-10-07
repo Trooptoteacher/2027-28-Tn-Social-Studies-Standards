@@ -10,7 +10,7 @@ and are **not** superseded there. The two years run side by side: 2026-27 stays 
 school year's teaching, 2027-28 is what all new course building targets.
 
 > **Read [`GOVERNANCE.md`](GOVERNANCE.md) before building anything from this repo.** A standard code
-> is **not** a stable identifier across the two years — 84 of the 94 U.S. History codes now mean
+> is **not** a stable identifier across the two years — 82 of the 94 U.S. History codes now mean
 > something different — and reusing an asset by code is the one mistake that silently ships the
 > wrong lesson under the right-looking label.
 
@@ -125,23 +125,25 @@ codes must be gapless, or it exits non-zero.
 
 | File | Contents |
 |---|---|
-| `collisions.csv` | **416 codes that exist in both years and mean different things.** Start here. |
+| `collisions.csv` | **413 codes that exist in both years and mean different things.** Start here. |
 | `<course>.csv` | Every 2026-27 standard → its 2027-28 counterpart, plus every new standard |
 | `summary.json` | Per-course counts |
 
 | Course | 2026-27 | 2027-28 | unchanged | revised | retired | new | code moved |
 |---|---|---|---|---|---|---|---|
-| U.S. History | 95 | 94 | 23 | 53 | 19 | 18 | **68** |
-| World History | 89 | 76 | 27 | 24 | 38 | 25 | 48 |
-| Government & Civics | 35 | 47 | 9 | 14 | 12 | 24 | 23 |
-| Tennessee History | 64 | 67 | 37 | 21 | 6 | 9 | 58 |
-| Grade 6 | 62 | 62 | 22 | 33 | 7 | 7 | 34 |
-| Grade 7 | 65 | 65 | 30 | 27 | 8 | 8 | 43 |
-| Grade 8 | 75 | 74 | 12 | 27 | 36 | 35 | 37 |
+| U.S. History | 95 | 94 | 23 | 62 | 10 | 9 | **75** |
+| World History | 89 | 76 | 27 | 28 | 34 | 21 | 52 |
+| Government & Civics | 35 | 47 | 9 | 16 | 10 | 22 | 25 |
+| Tennessee History | 64 | 67 | 37 | 25 | 2 | 5 | 62 |
+| Grade 6 | 62 | 62 | 22 | 35 | 5 | 5 | 35 |
+| Grade 7 | 65 | 65 | 30 | 29 | 6 | 6 | 45 |
+| Grade 8 | 75 | 74 | 12 | 34 | 29 | 28 | 44 |
 
 `unchanged` means the text is the same standard, **which does not mean the code is the same** —
 that is what the `code_moved` column is for. Matching is one-to-one and greedy by text similarity, so
-no 2026-27 standard is claimed as the origin of two successors.
+no 2026-27 standard is claimed as the origin of two successors. Similarity is computed with
+`difflib` autojunk OFF: with it on, any sentence over 200 characters lost its common characters and
+scored far too low, so 2026-27 US.05 read as 0.44 against its own successor, 2027-28 US.09 (0.93).
 
 ## Document anomalies
 

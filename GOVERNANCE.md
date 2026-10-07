@@ -34,7 +34,7 @@ This is the rule everything else hangs off.
 > In 2027-28, `US.01` is Reconstruction and the Compromise of 1877.
 > The Homestead Act standard still exists — it is now `US.04`.
 
-**416 codes exist in both years and mean different things**, including **84 of the 94** U.S. History
+**413 codes exist in both years and mean different things**, including **82 of the 94** U.S. History
 codes and **72 of the 74** Grade 8 codes. They are enumerated in `crosswalk/collisions.csv`.
 
 Consequences, all mandatory:
@@ -44,7 +44,7 @@ Consequences, all mandatory:
 - **Never carry an asset forward by code.** Not a primary source, not a question, not an image, not a
   Cornell packet, not a biography card. Matching codes are the *least* reliable signal available.
 - **Never write a gate, script, or query that joins the two years on `code`.** It will match, it will
-  look right, and it will be wrong 416 times.
+  look right, and it will be wrong 413 times.
 
 ## 3. Reuse goes through the crosswalk, by content — and the code is stripped
 
