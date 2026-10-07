@@ -99,7 +99,7 @@ python3 tools/run_gates.py --form FORM-A    # one form, scoped
 python3 tools/form_readiness.py --csv reports/form-readiness.csv
 ```
 
-**20 stages** (`grep -c '^stage ' tools/run_all.sh` — pinned by
+**21 stages** (`grep -c '^stage ' tools/run_all.sh` — pinned by
 `check_handoff_numbers.py`, because this line read "Twelve" until 2026-10-04 and was then
 mis-corrected twice). The ledger runs **first**: if a guard has gone missing, nothing
 below it can be trusted.
@@ -116,7 +116,7 @@ below it can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **82 lessons, 301 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **83 lessons, 308 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -228,7 +228,20 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
   *This line used to read "19 standards below two signals; 9 by none" — see §11.*
 - **28 standards can fill no tier.** They need new items authored, not repairs.
 - **No gate can check historical accuracy.** Every authored rationale is a claim. That is
-  what `requiresHistorianReview` is for.
+  what `requiresHistorianReview` is for — and until 2026-10-07 nothing listed WHAT to check.
+  `tools/historian_qc.py` now turns "review this item" into "confirm these assertions":
+  it extracts every confirmable claim, orders them **worst-first** (negative-existence,
+  then precise dates, quantities, superlatives, causal claims, named entities), and
+  cross-checks the two things this repo CAN check — years against the standard's own
+  declared era, and a content hash so a review of text since edited cannot read as
+  current. **It verifies no history and affirms nothing.** The `historian-qc` gate checks
+  the QUEUE, never the history: every queued item has a record, no record is stale. A
+  non-empty queue is not a finding; an EMPTY one is, because the flag has stopped being
+  set. Current: **16 items, 188 claims, 5 outside-declared-era, 1 negative claim** (in my
+  own writing, confirmed true on inspection).
+  *Why it was missing: the plumbing for a review was so visible that the absence of the
+  review's SUBJECT was invisible. `ai_review.py` triages rubric shape, key contradiction,
+  translation and citation form — not one reads a date, an actor or an attribution. L83.*
 
 ## 8. Standard-first generation — the answer to "repair or rebuild"
 

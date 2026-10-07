@@ -36,6 +36,7 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `ai-review-boundary` | **PASS** | 3991 | 132 | 0 |
 | `review-debt` | **PASS** | 3991 | 106 | 0 |
 | `misconception-taxonomy` | **FAIL** | 3991 | 75 | 14 |
+| `historian-qc` | **PASS** | 3991 | 16 | 0 |
 | `stimulus-integrity` | **FAIL** | 3991 | 111 | 111 |
 | `release-readiness` | **FAIL** | 3931 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 27 | 0 |
@@ -107,9 +108,9 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `dbq-activities/activity-teacher-isolation` | **PASS** | 34 | 220 | 0 |
 | `US-CORE/form-parallelism` | **PASS** | 5 | 5 | 0 |
 | `US-CORE/family-coverage` | **PASS** | 5 | 5 | 0 |
-| `all-gates-measured` | **PASS** | 97 | — | 0 |
+| `all-gates-measured` | **PASS** | 98 | — | 0 |
 
-**79/98 pass.** Grade A requires all of them. "Close" is not "A."
+**80/99 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 

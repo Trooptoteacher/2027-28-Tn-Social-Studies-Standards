@@ -30,6 +30,7 @@ stage "print gate proofs"     python3 tests/test_form_gates.py
 # suppressed and nobody read the exit code. Anything that writes a committed
 # report runs here, where a failure is loud.
 stage "readiness report"      python3 tools/form_readiness.py --csv reports/form-readiness.csv
+stage "historian QC queue"    python3 tools/historian_qc.py --apply
 stage "status report"         python3 tools/status_report.py
 stage "gates vs artifact"     python3 tools/run_gates.py
 # The pilot form is GREEN. Enforce it: a regression here means something that

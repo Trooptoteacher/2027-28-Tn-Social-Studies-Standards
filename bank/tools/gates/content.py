@@ -1146,6 +1146,78 @@ def gate_misconception_taxonomy(items, binding=None) -> Result:
     return Result(name, not findings, len(items), findings, judged=judged, note=note)
 
 
+HISTORIAN_QC = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "..", "reviewed",
+    "historian-qc.json")
+
+
+def gate_historian_qc(items, binding=None) -> Result:
+    """Authored history must be QUEUED for a person, against the text it has now.
+
+    The review state machine was built long before anything looked at the
+    HISTORY. `ai_review.py` triages rubric shape, key contradiction, translation
+    defects and citation form — not one of them reads a date, an actor, a
+    sequence or an attribution. The cost is on the record: PSTIM-0041's
+    misconception label asserted the Berlin Blockade was never ended by
+    negotiation, which is false, in a teacher-facing field no gate reads, and
+    every gate was green.
+
+    This gate does NOT check history — nothing here can, and a verdict from
+    recollection on a district-facing item is worse than none. It checks the two
+    things that ARE machine-checkable about the review:
+
+      1. every item awaiting a historian has a QC record naming what to confirm;
+      2. no record is STALE — the content hash must still match, because a
+         review of text that has since been edited is not a review of this item.
+
+    A non-empty queue is NOT a finding. Authored content always needs a person,
+    and reporting the queue as a defect would push toward emptying it.
+    """
+    name = "historian-qc"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    queued = [it for it in items if itemio.servable(it)
+              and (it.get("requiresHistorianReview")
+                   or (it.get("provenance") or {}).get("generated"))]
+    if not queued:
+        return Result(name, False, len(items), [Finding("(queue)",
+            "no item awaits historian review. Authored content always needs a person, so an "
+            "empty queue means the flag is not being set, not that the history is settled",
+            "")], judged=0)
+    if not os.path.exists(HISTORIAN_QC):
+        return Result(name, False, len(items), [Finding("(record)",
+            f"{len(queued)} item(s) await a historian and reviewed/historian-qc.json does not "
+            f"exist — run tools/historian_qc.py --apply. A queue with no worksheet is a "
+            f"reviewer asked to find the claims as well as judge them", "")], judged=0)
+    with open(HISTORIAN_QC, encoding="utf-8") as fh:
+        rec = {r["itemId"]: r for r in json.load(fh).get("items", [])}
+
+    import hashlib
+    findings, judged = [], 0
+    for it in queued:
+        judged += 1
+        r = rec.get(it["id"])
+        if not r:
+            findings.append(Finding(it["id"],
+                "awaits a historian and has no QC record — the claims in it have never been "
+                "listed for anyone to confirm", it.get("_file", "")))
+            continue
+        payload = [it.get(f) for f in ("stem", "explanation", "dokRationale")] + [
+            [c.get(f) for f in ("text", "explanation", "misconception")]
+            for c in itemio.choices(it) if isinstance(c, dict)]
+        live = hashlib.sha256(json.dumps(payload, ensure_ascii=False,
+                                         sort_keys=True).encode()).hexdigest()[:16]
+        if live != r.get("contentHash"):
+            findings.append(Finding(it["id"],
+                f"its QC record is STALE: computed against {r.get('contentHash')}, the item now "
+                f"hashes {live}. A review of text that has since been edited is not a review of "
+                f"this item", it.get("_file", "")))
+    return Result(name, not findings, len(items), findings, judged=judged,
+                  note=f"{len(queued)} item(s) queued for a historian, "
+                       f"{sum(r.get('claimCount', 0) for r in rec.values())} claim(s) listed; "
+                       f"this gate verifies the QUEUE, never the history")
+
+
 STIM_REF = re.compile(r"use the (image|photograph|cartoon|chart|graph|map|table)", re.I)
 STIM_REQUIRED = ("src", "alt", "altEs", "citationChicago", "rightsLabel",
                  "rightsStatementVerbatim", "hostingInstitution")

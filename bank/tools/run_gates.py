@@ -48,6 +48,7 @@ GATES = [
     content.gate_ai_review_boundary,
     content.gate_review_debt,
     content.gate_misconception_taxonomy,
+    content.gate_historian_qc,
     content.gate_stimulus_integrity,
     # teacher-side-isolation is a FORM gate, not a bank gate: items at rest
     # carry no surface, so running it here could only ever be vacuous. It runs
@@ -108,7 +109,10 @@ def collect(b, target=None):
 # key-position-debias reads each item's STORED correctAnswer id; a form
 # re-derives positions at render time, so the form uses gate_form_key_position.
 _BANK_ONLY = {"gate_blueprint", "gate_blueprint_achievability",
-              "gate_release_readiness", "gate_key_position"}
+              "gate_release_readiness", "gate_key_position",
+              # historian-qc reads a bank-wide queue and a bank-wide record; a
+              # form is not the unit that queue is kept for.
+              "gate_historian_qc"}
 ITEM_GATES = [g for g in GATES if g.__name__ not in _BANK_ONLY]
 
 

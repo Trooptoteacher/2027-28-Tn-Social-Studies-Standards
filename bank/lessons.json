@@ -1791,6 +1791,41 @@
           "contains": "SECOND legitimate source of a tag"
         }
       ]
+    },
+    {
+      "id": "L83",
+      "mistake": "THE REVIEW STATE MACHINE WAS BUILT AND THE HISTORIAN CONTENT CHECK WAS NOT, and for weeks that read as the same thing. `requiresHistorianReview`, `historianReview`, `review-provenance` and `ai_review.py` all existed, so 'historian review' looked covered. It was not: `ai_review.py` triages FOUR things — rubric shape, key contradiction, translation defects, citation form — and not one of them reads a date, an actor, a sequence or an attribution. Sean asked whether a historian verification QC existed because he believed it was in the builder, which is exactly how a gap this shaped survives: the plumbing for a review is so visible that the absence of the review's SUBJECT is invisible. The cost is on the record. PSTIM-0041's misconception label asserted the Berlin Blockade was never ended by negotiation — false; the Jessup-Malik talks at the UN produced the New York Agreement of May 1949 — in a teacher-facing field no gate reads, with every gate green. A person reading the option found it. `tools/historian_qc.py` does NOT verify history and says so in its first line: there is no library reachable from here, and a verdict from recollection on a district-facing item is worse than none because it looks checked. What it does is turn 'review this item' into 'confirm these assertions' — it extracts every confirmable claim, orders them worst-first, and cross-checks the two things the repo CAN check: years against the standard's own declared era, and a content hash so a review of text that has since been edited cannot read as current. It affirms nothing, in a `historianQc` namespace counting toward nothing, the same guardrail `ai_review.py` keeps. NEGATIVE-EXISTENCE CLAIMS LEAD THE ORDER, and that ordering is the whole design. 'Invents X', 'never happened', 'did not occur' is the cheapest sentence to write and the costliest to check, and it is the exact shape that shipped. The WORKING NEGATIVE CONTROL is the real defect rather than a fixture: run against PSTIM-0041's shipped label it flags it, it flags the other three fabrications the item-flaw rule removed, and it stays quiet on correct prose. First run over the whole queue: 16 items, 188 confirmable claims, 5 outside-declared-era, and 1 unreviewed negative claim — in MY OWN rewrite of two days ago, 'it was never one of the programme's three aims'. That negative is TRUE (Repeal was never one of the Three Rs), so it is a prompt confirmed rather than a defect found. A flag that aims itself at the newest unreviewed writing in the bank is aimed the right way. The gate checks the QUEUE, never the history: every queued item has a record, no record is stale. A NON-EMPTY QUEUE IS NOT A FINDING — authored content always needs a person, and reporting the queue as a defect would push toward emptying it. An EMPTY queue IS a finding, because it means the flag has stopped being set. Self-tested six ways.",
+      "caughtBy": "Sean asking whether a historian verification QC existed, having assumed it was built into the assessment builder.",
+      "guards": [
+        {
+          "file": "tools/historian_qc.py",
+          "contains": "WHAT THIS IS NOT"
+        },
+        {
+          "file": "tools/historian_qc.py",
+          "contains": "Jessup-Malik"
+        },
+        {
+          "file": "tools/historian_qc.py",
+          "contains": "NEGATIVE_EXISTENCE"
+        },
+        {
+          "file": "tools/historian_qc.py",
+          "contains": "affirms nothing"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "def gate_historian_qc"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "A non-empty queue is NOT a finding"
+        },
+        {
+          "file": "tools/gates/content.py",
+          "contains": "never the history"
+        }
+      ]
     }
   ]
 }
