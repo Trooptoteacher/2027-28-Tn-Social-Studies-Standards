@@ -3832,6 +3832,1497 @@
       ]
     },
     {
+      "itemId": "US.55-GEN-01",
+      "standard": "US.55",
+      "contentHash": "2facab1bfc9ae667",
+      "claimCount": 10,
+      "byKind": {
+        "named-entity": 5,
+        "causal": 2,
+        "quantity": 3
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1942-1942; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1942
+          ],
+          "era": [
+            1936,
+            1945
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "World War II",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…is the one that had to ration demand as well, which is why both jobs sat in the same office.",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "1942",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "War Production Board",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "1942",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "Office of War Information",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Office of Price Administration",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "1942",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "National War Labor Board",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "…orrectly described. The board held wages down so that war industries would not bid workers away fro…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        }
+      ]
+    },
+    {
+      "itemId": "US.55-GEN-02",
+      "standard": "US.55",
+      "contentHash": "9a59e285c5d84d3f",
+      "claimCount": 24,
+      "byKind": {
+        "quantity": 4,
+        "named-entity": 17,
+        "causal": 2,
+        "superlative": 1
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1942-1943; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1942,
+            1943
+          ],
+          "era": [
+            1936,
+            1945
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1943",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Mexican American",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Los Angeles",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Zoot Suit Riots",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1942",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "United States",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Mexican American",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Los Angeles",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "The two were unconnected, because the Bracero program operated in agriculture a…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "United States",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "choice A.misconception",
+          "audience": "teacher",
+          "quote": "treats two facts as unrelated because they happened in different industries",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "Mexican Americans",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Mexican Americans",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Japanese Americans",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "West Coast",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "9066",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1942",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "West Coast",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "Executive Order",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "Mexican Americans",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "Mexican Americans",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice C.misconception",
+          "audience": "teacher",
+          "quote": "…apanese American removal to a second group it never covered",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.misconception",
+          "audience": "teacher",
+          "quote": "Japanese American",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Los Angeles",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.55-GEN-03",
+      "standard": "US.55",
+      "contentHash": "8d3a973368448e37",
+      "claimCount": 16,
+      "byKind": {
+        "quantity": 5,
+        "superlative": 2,
+        "named-entity": 6,
+        "causal": 3
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1941-1945; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1941,
+            1942,
+            1945
+          ],
+          "era": [
+            1936,
+            1945
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1941",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1942",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "75,000",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "stem",
+          "audience": "student",
+          "quote": "…y 75,000 people, making it one of the state's largest communities. Which feature of wartime migrati…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Oak Ridge",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1942",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "causal",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "… with the plants — so the destination existed because the war work did, which is the reverse of how…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "dokRationale",
+          "audience": "teacher",
+          "quote": "Oak Ridge",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "Los Angeles",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "…Los Angeles did take enormous numbers, so the first half is sound. This case is the exception tha…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "Los Angeles",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "Oak Ridge",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "The town grew because the Tennessee Valley Authority's dams had alr…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Tennessee Valley Authority's",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "…district and the town was fenced and guarded, which is why this sounds right. The workforce was overwhel…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        }
+      ]
+    },
+    {
+      "itemId": "US.57-GEN-01",
+      "standard": "US.57",
+      "contentHash": "3fc3ec9ee8f3b253",
+      "claimCount": 23,
+      "byKind": {
+        "named-entity": 13,
+        "quantity": 6,
+        "superlative": 2,
+        "causal": 2
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1945-1949; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1945,
+            1949
+          ],
+          "era": [
+            1936,
+            1945
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Potsdam Conferences",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1949",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "… negotiated. The zones hardened into a border only when that negotiation failed, which is why th…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "causal",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…o a border only when that negotiation failed, which is why the division of 1945 and the two German state…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Allied Control Council",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "United Nations",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "United Nations",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "San Francisco",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "United Nations",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "West Germany",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "East Germany",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1949",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "1949",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Red Army",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "…e the Soviet zone and why the city became the first flashpoint of the Cold War.",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "causal",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "…ivided among the four powers notwithstanding, which is why an American sector sat inside the Soviet zone…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "Cold War",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "United States",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.57-GEN-02",
+      "standard": "US.57",
+      "contentHash": "bcd9ec7feaf7f6f9",
+      "claimCount": 17,
+      "byKind": {
+        "quantity": 5,
+        "named-entity": 11,
+        "superlative": 1
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1945-1945; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1945
+          ],
+          "era": [
+            1936,
+            1945
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…ons and governments broadly representative of all democratic elements; in Poland the Soviet-spo…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Liberated Europe",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Poland the Soviet-sponsored",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "dokRationale",
+          "audience": "teacher",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "Potsdam the Americans",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "United Nations",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "San Francisco",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "Security Council",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Allied Control Council",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.misconception",
+          "audience": "teacher",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        }
+      ]
+    },
+    {
+      "itemId": "US.57-GEN-03",
+      "standard": "US.57",
+      "contentHash": "effff2f2d5fd98b8",
+      "claimCount": 16,
+      "byKind": {
+        "named-entity": 8,
+        "quantity": 4,
+        "causal": 1,
+        "superlative": 3
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1945-1946; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1945,
+            1946
+          ],
+          "era": [
+            1936,
+            1945
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Potsdam Conferences",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Soviet Union. What",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "causal",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…g at either table transferred that territory, because it was already occupied, and reversing it wou…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "Red Army",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "Western Allied armies had reached Berlin first, so the region was conceded from a position o…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "… made the year before — so the western Allies never held the ground this answer assumes.",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Iron Curtain",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1946",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "Westminster College",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.misconception",
+          "audience": "teacher",
+          "quote": "1946",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "…es, so on paper no territory changed hands at all",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Liberated Europe",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.65-GEN-01",
+      "standard": "US.65",
+      "contentHash": "e97966b9736923f8",
+      "claimCount": 5,
+      "byKind": {
+        "quantity": 3,
+        "superlative": 1,
+        "named-entity": 1
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1946-2008. Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1946,
+            2008
+          ],
+          "era": null
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1946",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "dokRationale",
+          "audience": "teacher",
+          "quote": "Recall of where a demographic surge landed first. The student matches a generation to an insti…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1946",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "2008",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "Second World War. The",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.65-GEN-02",
+      "standard": "US.65",
+      "contentHash": "cad884136ac7a103",
+      "claimCount": 13,
+      "byKind": {
+        "quantity": 6,
+        "named-entity": 4,
+        "superlative": 3
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1947-1956. Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1947,
+            1956
+          ],
+          "era": null
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "17,400",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1947",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Long Island",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…y — so the generation's economic mark appears first as a changed landscape rather than as a chang…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "dokRationale",
+          "audience": "teacher",
+          "quote": "…me part of the story. Naming Levittown as the first mass suburb is the DOK 1 version of this cont…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1947",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "…s were guaranteed under the G.I. Bill, so the first clause is right. The two were simultaneous, n…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "Interstate Highway Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1956",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "1956",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "1947",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Federal Housing Administration",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "Veterans Administration",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.65-GEN-03",
+      "standard": "US.65",
+      "contentHash": "24cd82357ea5d263",
+      "claimCount": 13,
+      "byKind": {
+        "quantity": 5,
+        "superlative": 4,
+        "named-entity": 2,
+        "causal": 1,
+        "negative-existence": 1
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1938-1959. Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1938,
+            1941,
+            1946,
+            1954,
+            1959
+          ],
+          "era": null
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1946",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1959",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…rts behind them were larger still, so for the first time there were enough teenagers with money i…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "1954",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "…oll created the market, since Elvis Presley's first recordings appeared in 1954 and reached a nat…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "Elvis Presley's",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "…han producing it: a record sells to teenagers because there are a great many of them with money, an…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "negative-existence",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Television had only just been invented, so there had been no way to reach a young au…",
+          "why": "asserts something did NOT happen. The cheapest claim to write and the costliest to check — this is the shape that produced the Jessup-Malik error. Confirm the negative, not just the positive around it."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Television had only just been invented, so there had been no way …",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1941",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "…ich gave teenagers wages of their own for the first time",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1938",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "Fair Labor Standards Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.67-GEN-01",
+      "standard": "US.67",
+      "contentHash": "49a46e6c8edea8e2",
+      "claimCount": 14,
+      "byKind": {
+        "quantity": 5,
+        "named-entity": 4,
+        "superlative": 5
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1952-1960. Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1952,
+            1954,
+            1960
+          ],
+          "era": null
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1952",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Richard Nixon",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…tively taken out of the managers' hands — the first clear case of a broadcast overruling a party …",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "…ecide an election, and this broadcast was the first debate of that kind to be carried",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1960",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "The first televised presidential debates came in Septem…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "John F. Kennedy. The Checkers",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "turns a single candidate's broadcast into the first televised presidential debate",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "… had arrived in campaigns, since this was the first political commercial ever bought on televisio…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1952",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "Eisenhower Answers America",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Joseph McCarthy",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1954",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1952",
+          "why": "a figure is either right or wrong."
+        }
+      ]
+    },
+    {
+      "itemId": "US.67-GEN-02",
+      "standard": "US.67",
+      "contentHash": "1bd3a69ffb200354",
+      "claimCount": 8,
+      "byKind": {
+        "quantity": 5,
+        "named-entity": 1,
+        "negative-existence": 1,
+        "causal": 1
+      },
+      "flags": [
+        {
+          "kind": "unreviewed-negative-claim",
+          "detail": "choice C.misconception asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.",
+          "quote": "invents a cost pressure from a technology that spread…"
+        }
+      ],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1948-1959. Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1948,
+            1952,
+            1958,
+            1959
+          ],
+          "era": null
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "1952",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "Federal Communications Commission's",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1948",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1952",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "negative-existence",
+          "where": "choice C.misconception",
+          "audience": "teacher",
+          "quote": "invents a cost pressure from a technology that spread…",
+          "why": "asserts something did NOT happen. The cheapest claim to write and the costliest to check — this is the shape that produced the Jessup-Malik error. Confirm the negative, not just the positive around it."
+        },
+        {
+          "kind": "causal",
+          "where": "choice C.misconception",
+          "audience": "teacher",
+          "quote": "…at spread after the change it is said to have caused",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "1958",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "1959",
+          "why": "a figure is either right or wrong."
+        }
+      ]
+    },
+    {
+      "itemId": "US.67-GEN-03",
+      "standard": "US.67",
+      "contentHash": "4444a1dac7ac9c7d",
+      "claimCount": 6,
+      "byKind": {
+        "quantity": 2,
+        "causal": 2,
+        "superlative": 2
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1950-1960. Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1950,
+            1960
+          ],
+          "era": null
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1950",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1960",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "causal",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "…amilies spent more of their evenings reading, because the broadcast day ended early and left the la…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "causal",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "…evening audience grew alongside television's, because the two media served different hours of the d…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Households acquired their first refrigerators and washing machines in the sam…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "… and 1930s, so the 1950s were not households' first encounter with either.",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        }
+      ]
+    },
+    {
       "itemId": "q-us2-dok4-cr2",
       "standard": "US.23",
       "contentHash": "de5dc1dc6d1b8caa",

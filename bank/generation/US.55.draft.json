@@ -1,0 +1,186 @@
+{
+  "items": [
+    {
+      "id": "US.55-GEN-01",
+      "stem": "On the American home front during World War II, which federal agency issued the ration books that limited how much sugar, coffee, meat and gasoline a household could buy?",
+      "stemEs": "En el frente interno estadounidense durante la Segunda Guerra Mundial, ¿qué organismo federal expedía las cartillas de racionamiento que limitaban cuánto azúcar, café, carne y gasolina podía comprar un hogar?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The War Production Board, created in January 1942 to direct industry toward war output",
+          "textEs": "La Junta de Producción de Guerra, creada en enero de 1942 para dirigir la industria hacia la producción militar",
+          "explanation": "Real, and correctly described. The board allocated steel, rubber and aluminium among manufacturers and ordered factories converted; it did not deal with what a family could buy at the grocer's.",
+          "misconception": "assigns the household ration book to the agency that rationed raw materials to industry",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        },
+        {
+          "id": "B",
+          "text": "The Office of War Information, created in June 1942 to coordinate the government's wartime message",
+          "textEs": "La Oficina de Información de Guerra, creada en junio de 1942 para coordinar el mensaje del gobierno en la guerra",
+          "explanation": "Real, and correctly described. This office produced the posters, films and radio material that urged Americans to accept rationing — it advertised the programme and did not administer it.",
+          "misconception": "takes the office that publicised a programme for the office that ran it",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        },
+        {
+          "id": "C",
+          "text": "The Office of Price Administration",
+          "textEs": "La Oficina de Administración de Precios",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The National War Labor Board, created in January 1942 to settle disputes between unions and employers",
+          "textEs": "La Junta Nacional de Trabajo de Guerra, creada en enero de 1942 para resolver disputas entre sindicatos y empleadores",
+          "explanation": "Real, and correctly described. The board held wages down so that war industries would not bid workers away from one another; the goods those wages chased were someone else's responsibility.",
+          "misconception": "confuses the agency that capped wages with the one that capped purchases",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Recall of which agency held one function. The student matches a task to an office; no reasoning about how home-front measures interacted is required, and that is what a DOK 2 item on this standard examines.",
+      "standardCodes": [
+        "US.55"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Rationing was a price-control problem before it was a supply problem: with civilian goods scarce and wartime wages rising, the agency that set ceiling prices is the one that had to ration demand as well, which is why both jobs sat in the same office.",
+      "explanationEs": "El racionamiento fue un problema de control de precios antes que de abastecimiento: con bienes civiles escasos y salarios de guerra en alza, el organismo que fijaba los precios máximos era el que también tenía que racionar la demanda, y por eso ambas tareas estaban en la misma oficina.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable"
+    },
+    {
+      "id": "US.55-GEN-02",
+      "stem": "In the same years that the Bracero program recruited Mexican workers onto American farms and railroads, Mexican American youths in Los Angeles were beaten in the Zoot Suit Riots of June 1943. What does holding those two facts together show about the home front?",
+      "stemEs": "En los mismos años en que el Programa Bracero reclutaba trabajadores mexicanos para granjas y ferrocarriles estadounidenses, jóvenes mexicoamericanos en Los Ángeles fueron golpeados en los Disturbios de los Zoot Suit de junio de 1943. ¿Qué muestra la consideración conjunta de esos dos hechos sobre el frente interno?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The two were unconnected, because the Bracero program operated in agriculture and the riots happened in a city",
+          "textEs": "Los dos hechos no estaban conectados, porque el Programa Bracero operaba en la agricultura y los disturbios ocurrieron en una ciudad",
+          "explanation": "The sectors really were different, so the sentence is true as far as it goes. It stops exactly where the question begins: both facts are about how the wartime United States treated people of Mexican descent, and that is what the pairing asks about.",
+          "misconception": "treats two facts as unrelated because they happened in different industries",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "B",
+          "text": "The country recruited Mexican labour at the same time it treated Mexican Americans as outsiders — needing workers did not mean accepting them",
+          "textEs": "El país reclutaba mano de obra mexicana al mismo tiempo que trataba a los mexicoamericanos como forasteros: necesitar trabajadores no significaba aceptarlos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "Both followed from a federal policy of moving Mexican Americans away from the defence areas where the war plants were built, as was done to Japanese Americans living on the West Coast",
+          "textEs": "Ambos se derivaban de una política federal de alejar a los mexicoamericanos de las zonas de defensa donde se construían las fábricas de guerra, como se hizo con los japoneses estadounidenses que vivían en la costa oeste",
+          "explanation": "The forced removal is real and it is one of the war's defining home-front facts. It applied to people of Japanese ancestry on the West Coast under Executive Order 9066 of February 1942. No wartime removal policy of that kind was directed at Mexican Americans, who were being recruited into those same defence areas — the mass repatriations of Mexicans and Mexican Americans had come earlier, in the 1930s, and were not a defence measure.",
+          "misconception": "extends the Japanese American removal to a second group it never covered",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        {
+          "id": "D",
+          "text": "The Los Angeles city council responded by passing a resolution against wearing zoot suits, which quieted the streets",
+          "textEs": "El concejo municipal de Los Ángeles respondió aprobando una resolución contra el uso de los zoot suits, lo que calmó las calles",
+          "explanation": "The council did pass such a resolution, days after the attacks. It answers what the city did next, not what the two facts in the question show when read together — though the choice of what to prohibit is part of the answer.",
+          "misconception": "reports the city's response when asked what the pairing of the two facts reveals",
+          "distractorFunction": "right-answer-wrong-question"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student must put two separately taught facts side by side and draw a conclusion neither states on its own. Recalling what the Bracero program did, or what the riots were, is the DOK 1 version of this content.",
+      "standardCodes": [
+        "US.55"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The war created a labour shortage urgent enough for the United States to negotiate for Mexican workers by executive agreement in 1942, and the same months saw servicemen attacking Mexican American teenagers in the streets of Los Angeles while the city council responded by banning the suit rather than the beatings. Needing a people's labour and accepting them as neighbours turned out to be separate questions.",
+      "explanationEs": "La guerra creó una escasez de mano de obra tan urgente que Estados Unidos negoció por acuerdo ejecutivo en 1942 la llegada de trabajadores mexicanos, y en esos mismos meses militares atacaron a adolescentes mexicoamericanos en las calles de Los Ángeles mientras el concejo municipal respondía prohibiendo el traje y no las agresiones. Necesitar el trabajo de un pueblo y aceptarlo como vecino resultaron ser cuestiones distintas.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable"
+    },
+    {
+      "id": "US.55-GEN-03",
+      "stem": "The war's impact on the home front included movement to cities and industrial areas. The land that became Oak Ridge, Tennessee held farms and a few small rural communities in 1941; the government condemned it in 1942, and by 1945 the new town held roughly 75,000 people, making it one of the state's largest communities. Which feature of wartime migration does that best illustrate?",
+      "stemEs": "El impacto de la guerra en el frente interno incluyó el desplazamiento hacia las ciudades y las zonas industriales. La tierra que se convirtió en Oak Ridge, Tennessee, tenía granjas y unas pocas pequeñas comunidades rurales en 1941; el gobierno la expropió en 1942, y en 1945 la nueva ciudad albergaba a unas 75.000 personas, lo que la convirtió en una de las comunidades más grandes del estado. ¿Qué característica de la migración de guerra ilustra mejor ese hecho?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Federal war work could create an entire town on rural land, so migration followed government contracts rather than established industry",
+          "textEs": "El trabajo de guerra federal podía crear una ciudad entera sobre tierras rurales, de modo que la migración seguía a los contratos del gobierno y no a la industria establecida",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Wartime migrants moved chiefly to the established industrial cities of the North and the Pacific coast, such as Detroit and Los Angeles, and this case confirms that pattern",
+          "textEs": "Los migrantes de guerra se mudaron principalmente a las ciudades industriales consolidadas del norte y de la costa del Pacífico, como Detroit y Los Ángeles, y este caso confirma ese patrón",
+          "explanation": "Detroit, Chicago, Mobile and Los Angeles did take enormous numbers, so the first half is sound. This case is the exception that the sentence then claims as support: Oak Ridge was neither established nor northern.",
+          "misconception": "cites a correct general pattern as confirmed by the one case that departs from it",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "C",
+          "text": "The town grew because the Tennessee Valley Authority's dams had already drawn workers into east Tennessee during the 1930s",
+          "textEs": "La ciudad creció porque las represas de la Autoridad del Valle de Tennessee ya habían atraído trabajadores al este de Tennessee durante los años treinta",
+          "explanation": "The authority's dams are real and its electricity is a large part of why the site was chosen. That explains where the plants were put; the people came on federal hiring from across the country, not from a 1930s dam workforce.",
+          "misconception": "mistakes the reason a site was selected for the reason its population arrived",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "D",
+          "text": "Its population consisted mainly of soldiers garrisoned at a secret military installation rather than civilian workers",
+          "textEs": "Su población consistía principalmente en soldados acuartelados en una instalación militar secreta y no en trabajadores civiles",
+          "explanation": "The project was run by an Army engineer district and the town was fenced and guarded, which is why this sounds right. The workforce was overwhelmingly civilian — construction crews, plant operators, chemists and their families, recruited nationally.",
+          "misconception": "reads military secrecy and military administration as a military population",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student is given one town's figures and must generalise from them to a pattern, then reject three statements that are true of the period but not supported by this case. The DOK 1 version would ask where Oak Ridge is or what was built there.",
+      "standardCodes": [
+        "US.55"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Wartime migration followed federal contracts, and a contract can be placed where nothing stands. The site was chosen in 1942 for its isolation and its access to electric power, about a thousand families were removed from the land, and the government then built the town along with the plants — so the destination existed because the war work did, which is the reverse of how people had moved for work before.",
+      "explanationEs": "La migración de guerra seguía a los contratos federales, y un contrato puede colocarse donde casi no hay nada. El sitio fue elegido en 1942 por su aislamiento y su acceso a energía eléctrica, unas mil familias fueron desalojadas de esas tierras, y el gobierno construyó entonces la ciudad junto con las plantas: el destino existía porque existía el trabajo de guerra, lo contrario de cómo la gente se había mudado por trabajo antes.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable"
+    }
+  ]
+}

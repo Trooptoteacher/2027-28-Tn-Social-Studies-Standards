@@ -63,14 +63,14 @@ deleted; `quarantine/` is retention, not a bin.
 
 | | |
 |---|---|
-| servable | 3,952 |
-| aligned (counts toward coverage) | 2,013 |
+| servable | 3,964 |
+| aligned (counts toward coverage) | 2,025 |
 | quarantined, with stated reasons | 1,059 |
 | authored by Claude | 33 |
 | reviewed and approved by you | 19 |
 | **awaiting your review** | **5** |
 
-Alignment: 1,717 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
+Alignment: 1,729 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
 empty: every standard is judgeable — see §11.) **30 items are `held`** because their key
 explanation calls the key wrong — see §12.
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
@@ -237,14 +237,25 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
   current. **It verifies no history and affirms nothing.** The `historian-qc` gate checks
   the QUEUE, never the history: every queued item has a record, no record is stale. A
   non-empty queue is not a finding; an EMPTY one is, because the flag has stopped being
-  set. Current: **37 items, 480 claims, 4 flags**, every flag a negative claim in my own
-  writing. **The heading has now earned its place once.** Of the four, three were true as
-  written; one was not — a US.40 distractor said *"deposit insurance did not exist in the
-  1920s"*, and eight states ran deposit guaranty funds from 1908, all of them failed or
-  wound up before 1930. FEDERAL deposit insurance is the claim the distractor was entitled
-  to, and `authoring/precision-corrections-batch-1.json` is the correction. The lesson is
-  the one the heading was built on: an unqualified negative reads as authoritative and is
-  the cheapest kind of sentence to get wrong. An `outside-declared-era` check sat beside it until its
+  set. Current: **49 items, 645 claims, 5 flags**, every flag a negative claim in my own
+  writing. **The heading has now earned its place three times**, and every finding was an
+  UNQUALIFIED negative rather than a false one — which is the shape worth recognising,
+  because each sentence was true of the thing it was about and wrong about everything
+  beside it. (1) A US.40 distractor said *"deposit insurance did not exist in the 1920s"*;
+  eight states ran deposit guaranty funds from 1908, all failed or wound up before 1930,
+  and FEDERAL deposit insurance is the claim it was entitled to. Corrected by
+  `authoring/precision-corrections-batch-1.json`, which says in its own text that it is not
+  an approval. (2) A US.55 rationale said *"no such policy was directed at Mexican
+  Americans"* of the Japanese American removal — true of the war, and it invites exactly
+  the wrong inference about the repatriations of the 1930s, which were real. (3) A US.55
+  STEM, student-facing, said *"Oak Ridge, Tennessee did not exist in 1941"*. The TOWN did
+  not; the land held farms and small communities, the government condemned it in 1942, and
+  about a thousand families were removed. A sentence that erases them to make a point about
+  migration is the worst of the three and was the one on a student's page. Both US.55 fixes
+  are in the draft and the item was re-admitted, because nothing had been committed yet.
+  The lesson the heading was built on holds and is now specific: an unqualified negative
+  reads as authoritative, costs one word to write and is the cheapest kind of sentence to
+  get wrong. An `outside-declared-era` check sat beside it until its
   first run flagged five items and **all five were correct history**: a standard's `era`
   is where TDOE PLACES it in the course, not a boundary on its content (US.01 reads
   1877-1900 and its cluster is 'Reconstruction'; the Klan it names was founded 1866).
@@ -315,7 +326,7 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**81 of 94 standards can build a form. 4,163 authoring units to green them all.**
+**85 of 94 standards can build a form. 4,163 authoring units to green them all.**
 Cheapest next: US.33 (22) · US.31 (32) · US.59 (33) · US.02 (35) · US.07 (37).
 
 *That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither

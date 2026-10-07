@@ -1,0 +1,211 @@
+{
+  "items": [
+    {
+      "id": "US.57-GEN-01",
+      "stem": "The Yalta and Potsdam Conferences settled how Germany would be governed immediately after its surrender. What did they agree?",
+      "stemEs": "Las Conferencias de Yalta y Potsdam decidieron cómo se gobernaría Alemania inmediatamente después de su rendición. ¿Qué acordaron?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "That Germany would be reunited at once under a single elected government, supervised by the new United Nations until a peace treaty was signed",
+          "textEs": "Que Alemania se reunificaría de inmediato bajo un único gobierno electo, supervisado por las nuevas Naciones Unidas hasta la firma de un tratado de paz",
+          "explanation": "The United Nations was agreed at Yalta and founded at San Francisco in 1945, so the institution is real. Neither conference proposed an immediate German election or a United Nations trusteeship over Germany; the direction of the agreement was toward joint occupation.",
+          "misconception": "inverts occupation into unification and hands the job to the wrong institution",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        {
+          "id": "B",
+          "text": "That Germany would be permanently partitioned into the two separate states of West Germany and East Germany",
+          "textEs": "Que Alemania quedaría dividida permanentemente en los dos estados separados de Alemania Occidental y Alemania Oriental",
+          "explanation": "Those two states are real and they came out of these zones, but they were founded in 1949, four years later and after the Berlin blockade. Neither conference intended a permanent partition.",
+          "misconception": "moves the creation of the two German states back from 1949 into the wartime conferences",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        },
+        {
+          "id": "C",
+          "text": "That Germany would be administered by the Soviet Union alone, since the Red Army had captured Berlin",
+          "textEs": "Que Alemania sería administrada únicamente por la Unión Soviética, ya que el Ejército Rojo había capturado Berlín",
+          "explanation": "Soviet forces did take Berlin in May 1945, so the reason given is true. Berlin and Germany were both divided among the four powers notwithstanding, which is why an American sector sat inside the Soviet zone and why the city became the first flashpoint of the Cold War.",
+          "misconception": "reads which army captured a capital as which power would administer the country",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "D",
+          "text": "That Germany would be divided into four occupation zones, administered by the United States, Britain, France and the Soviet Union",
+          "textEs": "Que Alemania se dividiría en cuatro zonas de ocupación, administradas por Estados Unidos, Gran Bretaña, Francia y la Unión Soviética",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Recall of one conference outcome. The student retrieves an arrangement; no reasoning about why the alliance's tone changed between the two meetings is required. A DOK 2 item on this standard requires that reasoning.",
+      "standardCodes": [
+        "US.57"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Occupation zones were meant to be temporary administration, not partition: the four powers were to govern together through an Allied Control Council while a single German settlement was negotiated. The zones hardened into a border only when that negotiation failed, which is why the division of 1945 and the two German states of 1949 are different events.",
+      "explanationEs": "Las zonas de ocupación se concibieron como administración temporal, no como partición: las cuatro potencias gobernarían juntas mediante un Consejo de Control Aliado mientras se negociaba un único arreglo alemán. Las zonas se endurecieron en frontera solo cuando esa negociación fracasó, y por eso la división de 1945 y los dos estados alemanes de 1949 son acontecimientos distintos.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.57.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.57-GEN-02",
+      "stem": "At Potsdam in July 1945 the American and British delegations pressed the Soviet Union hardest on one Yalta commitment it was not carrying out. Which commitment?",
+      "stemEs": "En Potsdam, en julio de 1945, las delegaciones estadounidense y británica presionaron a la Unión Soviética con más fuerza sobre un compromiso de Yalta que no estaba cumpliendo. ¿Cuál compromiso?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The pledge to enter the war against Japan within three months of Germany's surrender",
+          "textEs": "El compromiso de entrar en la guerra contra Japón dentro de los tres meses siguientes a la rendición de Alemania",
+          "explanation": "A genuine Yalta commitment, and it was kept: Germany surrendered on 8 May and the Soviet Union declared war on Japan on 8 August, inside the three months. At Potsdam the Americans were still counting on it.",
+          "misconception": "picks a Yalta commitment that was on schedule rather than the one in default",
+          "distractorFunction": "right-answer-wrong-question"
+        },
+        {
+          "id": "B",
+          "text": "The agreement to send a delegation to the United Nations founding conference at San Francisco",
+          "textEs": "El acuerdo de enviar una delegación a la conferencia fundacional de las Naciones Unidas en San Francisco",
+          "explanation": "A genuine Yalta commitment, and it was kept: the Soviet foreign minister attended the conference that opened in April 1945 and the Soviet Union signed the Charter. The hard bargaining over Security Council voting had already been settled at Yalta.",
+          "misconception": "offers a commitment the Soviet Union honoured in full as the one it defaulted on",
+          "distractorFunction": "right-answer-wrong-question"
+        },
+        {
+          "id": "C",
+          "text": "The promise of free and unfettered elections in the liberated countries of eastern Europe, beginning with Poland",
+          "textEs": "La promesa de elecciones libres y sin trabas en los países liberados de Europa oriental, empezando por Polonia",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The arrangement for Germany to be divided into four occupation zones governed together through a joint Allied Control Council",
+          "textEs": "El arreglo para que Alemania se dividiera en cuatro zonas de ocupación gobernadas en conjunto mediante un Consejo de Control Aliado",
+          "explanation": "A genuine Yalta and Potsdam arrangement, and it was being carried out — the zones were occupied and the control council met from mid-1945. Its collapse came later, over reparations and currency, not at this conference.",
+          "misconception": "names an agreement that was in force in July 1945 as the one not being carried out",
+          "distractorFunction": "right-answer-wrong-question"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Four real Yalta commitments are offered and the student must know which ones were being honoured in July 1945 and which was not. Recalling what Yalta agreed is not enough; the item turns on the state of each agreement five months later.",
+      "standardCodes": [
+        "US.57"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Three of these were being kept on schedule, which is what makes the fourth the quarrel. The Declaration on Liberated Europe promised free and unfettered elections and governments broadly representative of all democratic elements; in Poland the Soviet-sponsored administration had been installed instead, and the gap between the pledge and the ground is where the rising tension between the two powers began.",
+      "explanationEs": "Tres de estos compromisos se estaban cumpliendo en plazo, y eso es lo que convierte al cuarto en la disputa. La Declaración sobre la Europa Liberada prometía elecciones libres y sin trabas y gobiernos ampliamente representativos de todos los elementos democráticos; en Polonia se había instalado en su lugar la administración patrocinada por los soviéticos, y esa distancia entre la promesa y el terreno es donde comenzó la tensión creciente entre las dos potencias.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.57.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.57-GEN-03",
+      "stem": "It is often said that the Yalta and Potsdam Conferences handed eastern Europe to the Soviet Union. What does the military situation at the time of the conferences show about that claim?",
+      "stemEs": "Se dice a menudo que las Conferencias de Yalta y Potsdam entregaron Europa oriental a la Unión Soviética. ¿Qué muestra la situación militar en el momento de las conferencias sobre esa afirmación?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Red Army already occupied most of the region, so the conferences recorded a position the western Allies could not have reversed except by war",
+          "textEs": "El Ejército Rojo ya ocupaba la mayor parte de la región, de modo que las conferencias registraron una situación que los Aliados occidentales no habrían podido revertir salvo por la guerra",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Western Allied armies had reached Berlin first, so the region was conceded from a position of strength rather than weakness",
+          "textEs": "Los ejércitos aliados occidentales habían llegado primero a Berlín, de modo que la región se concedió desde una posición de fuerza y no de debilidad",
+          "explanation": "Soviet forces took Berlin at the beginning of May 1945. American and British armies halted at the Elbe, roughly a hundred miles short, under an agreement on zones made the year before — so the western Allies never held the ground this answer assumes.",
+          "misconception": "credits the western Allies with the capture of Berlin",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        },
+        {
+          "id": "C",
+          "text": "The conferences created the Iron Curtain, which Churchill announced to the world in his speech at Yalta",
+          "textEs": "Las conferencias crearon la Cortina de Hierro, que Churchill anunció al mundo en su discurso en Yalta",
+          "explanation": "Churchill did make the phrase famous, at Westminster College in Fulton, Missouri, in March 1946 — more than a year after Yalta and eight months after Potsdam, and as a private citizen out of office. He described a division that had already formed rather than creating one.",
+          "misconception": "moves a 1946 speech into the conference it was describing in hindsight",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        },
+        {
+          "id": "D",
+          "text": "The Declaration on Liberated Europe bound the Soviet Union to hold free and unfettered elections in the liberated countries, so on paper no territory changed hands at all",
+          "textEs": "La Declaración sobre la Europa Liberada obligaba a la Unión Soviética a celebrar elecciones libres y sin trabas en los países liberados, de modo que sobre el papel ningún territorio cambió de manos",
+          "explanation": "Both halves are true: the declaration did contain that pledge and no territory was formally transferred. The question asks what the military situation shows, and the answer stops at what the paper said — which is the distance the claim it is testing turns on.",
+          "misconception": "answers from the text of an agreement when asked about the facts on the ground",
+          "distractorFunction": "partial-truth"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student must test a familiar claim against where the armies actually were, which requires reasoning about what a conference can and cannot decide. Recalling who attended Yalta is the DOK 1 version of this content.",
+      "standardCodes": [
+        "US.57"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "By February 1945 Soviet forces held Poland, most of Hungary and Romania and were approaching the Oder; by July they held Berlin. Nothing at either table transferred that territory, because it was already occupied, and reversing it would have meant the western Allies fighting the Soviet Union while the war with Japan was still running. The conferences recorded a position on the ground; what they failed to do was make the Soviet pledges on that territory binding.",
+      "explanationEs": "En febrero de 1945 las fuerzas soviéticas ocupaban Polonia, la mayor parte de Hungría y Rumania y se acercaban al Oder; en julio tenían Berlín. Nada en ninguna de las dos mesas transfirió ese territorio, porque ya estaba ocupado, y revertirlo habría significado que los Aliados occidentales lucharan contra la Unión Soviética mientras seguía la guerra con Japón. Las conferencias registraron una situación en el terreno; lo que no lograron fue hacer vinculantes las promesas soviéticas sobre ese territorio.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.57.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    }
+  ],
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.57",
+  "status": "authored",
+  "disclosure": "classroom-formative · pre-field-test"
+}

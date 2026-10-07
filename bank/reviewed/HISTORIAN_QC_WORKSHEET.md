@@ -20,6 +20,10 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - **unreviewed-negative-claim** — choice A.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > …s nothing to do with her: she was a pilot and was never in the auxiliary or the corps that replaced i…
 
+### `US.67-GEN-02` (US.67)
+- **unreviewed-negative-claim** — choice C.misconception asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
+  - > invents a cost pressure from a technology that spread…
+
 ### `q-us45-dok1-1` (US.46)
 - **unreviewed-negative-claim** — choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > …nty-first Amendment in December 1933 — and it was never one of the programme's three aims.
@@ -770,6 +774,305 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - [ ] `choice D.text` · *student-facing* — Rose Will Monroe
 - [ ] `choice D.explanation` · *teacher-facing* — Will Monroe
 - [ ] `choice D.explanation` · *teacher-facing* — Willow Run
+
+### `US.55-GEN-01` (US.55) — 10 claim(s)
+*content hash* `2facab1bfc9ae667` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1942-1942; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (3)
+- [ ] `choice A.text` · *student-facing* — 1942
+- [ ] `choice B.text` · *student-facing* — 1942
+- [ ] `choice D.text` · *student-facing* — 1942
+
+**causal** (2)
+- [ ] `explanation` · *student-facing* — …is the one that had to ration demand as well, which is why both jobs sat in the same office.
+- [ ] `choice D.explanation` · *teacher-facing* — …orrectly described. The board held wages down so that war industries would not bid workers away fro…
+
+**named-entity** (5)
+- [ ] `stem` · *student-facing* — World War II
+- [ ] `choice A.text` · *student-facing* — War Production Board
+- [ ] `choice B.text` · *student-facing* — Office of War Information
+- [ ] `choice C.text` · *student-facing* — Office of Price Administration
+- [ ] `choice D.text` · *student-facing* — National War Labor Board
+
+### `US.55-GEN-02` (US.55) — 24 claim(s)
+*content hash* `9a59e285c5d84d3f` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1942-1943; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (4)
+- [ ] `stem` · *student-facing* — 1943
+- [ ] `explanation` · *student-facing* — 1942
+- [ ] `choice C.explanation` · *teacher-facing* — 9066
+- [ ] `choice C.explanation` · *teacher-facing* — 1942
+
+**superlative** (1)
+- [ ] `choice C.misconception` · *teacher-facing* — …apanese American removal to a second group it never covered
+
+**causal** (2)
+- [ ] `choice A.text` · *student-facing* — The two were unconnected, because the Bracero program operated in agriculture a…
+- [ ] `choice A.misconception` · *teacher-facing* — treats two facts as unrelated because they happened in different industries
+
+**named-entity** (17)
+- [ ] `stem` · *student-facing* — Mexican American
+- [ ] `stem` · *student-facing* — Los Angeles
+- [ ] `stem` · *student-facing* — Zoot Suit Riots
+- [ ] `explanation` · *student-facing* — United States
+- [ ] `explanation` · *student-facing* — Mexican American
+- [ ] `explanation` · *student-facing* — Los Angeles
+- [ ] `choice A.explanation` · *teacher-facing* — United States
+- [ ] `choice B.text` · *student-facing* — Mexican Americans
+- [ ] `choice C.text` · *student-facing* — Mexican Americans
+- [ ] `choice C.text` · *student-facing* — Japanese Americans
+- [ ] `choice C.text` · *student-facing* — West Coast
+- [ ] `choice C.explanation` · *teacher-facing* — West Coast
+- [ ] `choice C.explanation` · *teacher-facing* — Executive Order
+- [ ] `choice C.explanation` · *teacher-facing* — Mexican Americans
+- [ ] `choice C.explanation` · *teacher-facing* — Mexican Americans
+- [ ] `choice C.misconception` · *teacher-facing* — Japanese American
+- [ ] `choice D.text` · *student-facing* — Los Angeles
+
+### `US.55-GEN-03` (US.55) — 16 claim(s)
+*content hash* `8d3a973368448e37` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1941-1945; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (5)
+- [ ] `stem` · *student-facing* — 1941
+- [ ] `stem` · *student-facing* — 1942
+- [ ] `stem` · *student-facing* — 1945
+- [ ] `stem` · *student-facing* — 75,000
+- [ ] `explanation` · *student-facing* — 1942
+
+**superlative** (2)
+- [ ] `stem` · *student-facing* — …y 75,000 people, making it one of the state's largest communities. Which feature of wartime migrati…
+- [ ] `choice B.explanation` · *teacher-facing* — …Los Angeles did take enormous numbers, so the first half is sound. This case is the exception tha…
+
+**causal** (3)
+- [ ] `explanation` · *student-facing* — … with the plants — so the destination existed because the war work did, which is the reverse of how…
+- [ ] `choice C.text` · *student-facing* — The town grew because the Tennessee Valley Authority's dams had alr…
+- [ ] `choice D.explanation` · *teacher-facing* — …district and the town was fenced and guarded, which is why this sounds right. The workforce was overwhel…
+
+**named-entity** (6)
+- [ ] `stem` · *student-facing* — Oak Ridge
+- [ ] `dokRationale` · *teacher-facing* — Oak Ridge
+- [ ] `choice B.text` · *student-facing* — Los Angeles
+- [ ] `choice B.explanation` · *teacher-facing* — Los Angeles
+- [ ] `choice B.explanation` · *teacher-facing* — Oak Ridge
+- [ ] `choice C.text` · *student-facing* — Tennessee Valley Authority's
+
+### `US.57-GEN-01` (US.57) — 23 claim(s)
+*content hash* `3fc3ec9ee8f3b253` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1945-1949; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (6)
+- [ ] `explanation` · *student-facing* — 1945
+- [ ] `explanation` · *student-facing* — 1949
+- [ ] `choice A.explanation` · *teacher-facing* — 1945
+- [ ] `choice B.explanation` · *teacher-facing* — 1949
+- [ ] `choice B.misconception` · *teacher-facing* — 1949
+- [ ] `choice C.explanation` · *teacher-facing* — 1945
+
+**superlative** (2)
+- [ ] `explanation` · *student-facing* — … negotiated. The zones hardened into a border only when that negotiation failed, which is why th…
+- [ ] `choice C.explanation` · *teacher-facing* — …e the Soviet zone and why the city became the first flashpoint of the Cold War.
+
+**causal** (2)
+- [ ] `explanation` · *student-facing* — …o a border only when that negotiation failed, which is why the division of 1945 and the two German state…
+- [ ] `choice C.explanation` · *teacher-facing* — …ivided among the four powers notwithstanding, which is why an American sector sat inside the Soviet zone…
+
+**named-entity** (13)
+- [ ] `stem` · *student-facing* — Potsdam Conferences
+- [ ] `explanation` · *student-facing* — Allied Control Council
+- [ ] `choice A.text` · *student-facing* — United Nations
+- [ ] `choice A.explanation` · *teacher-facing* — United Nations
+- [ ] `choice A.explanation` · *teacher-facing* — San Francisco
+- [ ] `choice A.explanation` · *teacher-facing* — United Nations
+- [ ] `choice B.text` · *student-facing* — West Germany
+- [ ] `choice B.text` · *student-facing* — East Germany
+- [ ] `choice C.text` · *student-facing* — Soviet Union
+- [ ] `choice C.text` · *student-facing* — Red Army
+- [ ] `choice C.explanation` · *teacher-facing* — Cold War
+- [ ] `choice D.text` · *student-facing* — United States
+- [ ] `choice D.text` · *student-facing* — Soviet Union
+
+### `US.57-GEN-02` (US.57) — 17 claim(s)
+*content hash* `bcd9ec7feaf7f6f9` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1945-1945; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (5)
+- [ ] `stem` · *student-facing* — 1945
+- [ ] `dokRationale` · *teacher-facing* — 1945
+- [ ] `choice B.explanation` · *teacher-facing* — 1945
+- [ ] `choice D.explanation` · *teacher-facing* — 1945
+- [ ] `choice D.misconception` · *teacher-facing* — 1945
+
+**superlative** (1)
+- [ ] `explanation` · *student-facing* — …ons and governments broadly representative of all democratic elements; in Poland the Soviet-spo…
+
+**named-entity** (11)
+- [ ] `stem` · *student-facing* — Soviet Union
+- [ ] `explanation` · *student-facing* — Liberated Europe
+- [ ] `explanation` · *student-facing* — Poland the Soviet-sponsored
+- [ ] `choice A.explanation` · *teacher-facing* — Soviet Union
+- [ ] `choice A.explanation` · *teacher-facing* — Potsdam the Americans
+- [ ] `choice B.text` · *student-facing* — United Nations
+- [ ] `choice B.text` · *student-facing* — San Francisco
+- [ ] `choice B.explanation` · *teacher-facing* — Soviet Union
+- [ ] `choice B.explanation` · *teacher-facing* — Security Council
+- [ ] `choice B.misconception` · *teacher-facing* — Soviet Union
+- [ ] `choice D.text` · *student-facing* — Allied Control Council
+
+### `US.57-GEN-03` (US.57) — 16 claim(s)
+*content hash* `effff2f2d5fd98b8` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1945-1946; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (4)
+- [ ] `explanation` · *student-facing* — 1945
+- [ ] `choice B.explanation` · *teacher-facing* — 1945
+- [ ] `choice C.explanation` · *teacher-facing* — 1946
+- [ ] `choice C.misconception` · *teacher-facing* — 1946
+
+**superlative** (3)
+- [ ] `choice B.text` · *student-facing* — Western Allied armies had reached Berlin first, so the region was conceded from a position o…
+- [ ] `choice B.explanation` · *teacher-facing* — … made the year before — so the western Allies never held the ground this answer assumes.
+- [ ] `choice D.text` · *student-facing* — …es, so on paper no territory changed hands at all
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …g at either table transferred that territory, because it was already occupied, and reversing it wou…
+
+**named-entity** (8)
+- [ ] `stem` · *student-facing* — Potsdam Conferences
+- [ ] `stem` · *student-facing* — Soviet Union. What
+- [ ] `explanation` · *student-facing* — Soviet Union
+- [ ] `choice A.text` · *student-facing* — Red Army
+- [ ] `choice C.text` · *student-facing* — Iron Curtain
+- [ ] `choice C.explanation` · *teacher-facing* — Westminster College
+- [ ] `choice D.text` · *student-facing* — Liberated Europe
+- [ ] `choice D.text` · *student-facing* — Soviet Union
+
+### `US.65-GEN-01` (US.65) — 5 claim(s)
+*content hash* `e97966b9736923f8` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1946-2008. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (3)
+- [ ] `explanation` · *student-facing* — 1946
+- [ ] `choice A.explanation` · *teacher-facing* — 1946
+- [ ] `choice C.explanation` · *teacher-facing* — 2008
+
+**superlative** (1)
+- [ ] `dokRationale` · *teacher-facing* — Recall of where a demographic surge landed first. The student matches a generation to an insti…
+
+**named-entity** (1)
+- [ ] `choice D.explanation` · *teacher-facing* — Second World War. The
+
+### `US.65-GEN-02` (US.65) — 13 claim(s)
+*content hash* `cad884136ac7a103` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1947-1956. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (6)
+- [ ] `stem` · *student-facing* — 17,400
+- [ ] `stem` · *student-facing* — 1947
+- [ ] `choice A.explanation` · *teacher-facing* — 1947
+- [ ] `choice B.explanation` · *teacher-facing* — 1956
+- [ ] `choice B.misconception` · *teacher-facing* — 1956
+- [ ] `choice B.misconception` · *teacher-facing* — 1947
+
+**superlative** (3)
+- [ ] `explanation` · *student-facing* — …y — so the generation's economic mark appears first as a changed landscape rather than as a chang…
+- [ ] `dokRationale` · *teacher-facing* — …me part of the story. Naming Levittown as the first mass suburb is the DOK 1 version of this cont…
+- [ ] `choice A.explanation` · *teacher-facing* — …s were guaranteed under the G.I. Bill, so the first clause is right. The two were simultaneous, n…
+
+**named-entity** (4)
+- [ ] `stem` · *student-facing* — Long Island
+- [ ] `choice B.text` · *student-facing* — Interstate Highway Act
+- [ ] `choice D.text` · *student-facing* — Federal Housing Administration
+- [ ] `choice D.explanation` · *teacher-facing* — Veterans Administration
+
+### `US.65-GEN-03` (US.65) — 13 claim(s)
+*content hash* `24cd82357ea5d263` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1938-1959. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `choice C.text` · *student-facing* — Television had only just been invented, so there had been no way to reach a young au…
+
+**quantity** (5)
+- [ ] `explanation` · *student-facing* — 1946
+- [ ] `explanation` · *student-facing* — 1959
+- [ ] `choice B.text` · *student-facing* — 1954
+- [ ] `choice C.explanation` · *teacher-facing* — 1941
+- [ ] `choice D.explanation` · *teacher-facing* — 1938
+
+**superlative** (4)
+- [ ] `explanation` · *student-facing* — …rts behind them were larger still, so for the first time there were enough teenagers with money i…
+- [ ] `choice B.text` · *student-facing* — …oll created the market, since Elvis Presley's first recordings appeared in 1954 and reached a nat…
+- [ ] `choice C.text` · *student-facing* — Television had only just been invented, so there had been no way …
+- [ ] `choice D.text` · *student-facing* — …ich gave teenagers wages of their own for the first time
+
+**causal** (1)
+- [ ] `choice B.explanation` · *teacher-facing* — …han producing it: a record sells to teenagers because there are a great many of them with money, an…
+
+**named-entity** (2)
+- [ ] `choice B.text` · *student-facing* — Elvis Presley's
+- [ ] `choice D.explanation` · *teacher-facing* — Fair Labor Standards Act
+
+### `US.67-GEN-01` (US.67) — 14 claim(s)
+*content hash* `49a46e6c8edea8e2` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1952-1960. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (5)
+- [ ] `stem` · *student-facing* — 1952
+- [ ] `choice B.explanation` · *teacher-facing* — 1960
+- [ ] `choice C.explanation` · *teacher-facing* — 1952
+- [ ] `choice D.explanation` · *teacher-facing* — 1954
+- [ ] `choice D.explanation` · *teacher-facing* — 1952
+
+**superlative** (5)
+- [ ] `explanation` · *student-facing* — …tively taken out of the managers' hands — the first clear case of a broadcast overruling a party …
+- [ ] `choice B.text` · *student-facing* — …ecide an election, and this broadcast was the first debate of that kind to be carried
+- [ ] `choice B.explanation` · *teacher-facing* — The first televised presidential debates came in Septem…
+- [ ] `choice B.misconception` · *teacher-facing* — turns a single candidate's broadcast into the first televised presidential debate
+- [ ] `choice C.text` · *student-facing* — … had arrived in campaigns, since this was the first political commercial ever bought on televisio…
+
+**named-entity** (4)
+- [ ] `stem` · *student-facing* — Richard Nixon
+- [ ] `choice B.explanation` · *teacher-facing* — John F. Kennedy. The Checkers
+- [ ] `choice C.explanation` · *teacher-facing* — Eisenhower Answers America
+- [ ] `choice D.text` · *student-facing* — Joseph McCarthy
+
+### `US.67-GEN-02` (US.67) — 8 claim(s)
+*content hash* `1bd3a69ffb200354` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1948-1959. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `choice C.misconception` · *teacher-facing* — invents a cost pressure from a technology that spread…
+
+**quantity** (5)
+- [ ] `choice A.text` · *student-facing* — 1952
+- [ ] `choice A.explanation` · *teacher-facing* — 1948
+- [ ] `choice A.explanation` · *teacher-facing* — 1952
+- [ ] `choice D.text` · *student-facing* — 1958
+- [ ] `choice D.text` · *student-facing* — 1959
+
+**causal** (1)
+- [ ] `choice C.misconception` · *teacher-facing* — …at spread after the change it is said to have caused
+
+**named-entity** (1)
+- [ ] `choice A.text` · *student-facing* — Federal Communications Commission's
+
+### `US.67-GEN-03` (US.67) — 6 claim(s)
+*content hash* `4444a1dac7ac9c7d` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1950-1960. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (2)
+- [ ] `stem` · *student-facing* — 1950
+- [ ] `stem` · *student-facing* — 1960
+
+**superlative** (2)
+- [ ] `choice D.text` · *student-facing* — Households acquired their first refrigerators and washing machines in the sam…
+- [ ] `choice D.explanation` · *teacher-facing* — … and 1930s, so the 1950s were not households' first encounter with either.
+
+**causal** (2)
+- [ ] `choice A.text` · *student-facing* — …amilies spent more of their evenings reading, because the broadcast day ended early and left the la…
+- [ ] `choice C.text` · *student-facing* — …evening audience grew alongside television's, because the two media served different hours of the d…
 
 ### `q-us2-dok4-cr2` (US.23) — 9 claim(s)
 *content hash* `de5dc1dc6d1b8caa` — if the item is edited after you sign, this changes and the review is stale.
