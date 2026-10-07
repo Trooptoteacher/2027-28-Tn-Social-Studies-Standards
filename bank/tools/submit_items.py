@@ -50,6 +50,14 @@ ADMISSION_GATES = [
     content.gate_tcap_format,             # must not claim a field-testability it has not earned
     content.gate_rubric,                  # a constructed-response draft carries its rubric
     content.gate_stimulus_integrity,      # must not tell a student to use a source it lacks
+    # --- added 2026-10-07. A GENERATION-TIME hazard, and the only kind of
+    # defect found so far that every other gate reads as correct content: an
+    # authored US.71 Spanish explanation carried U+0430 CYRILLIC SMALL LETTER A
+    # inside "creía". It renders identically to the Latin letter, so no reader
+    # catches it and no gate was looking. All 4,027 bank items are clean, which
+    # is the argument for putting it HERE rather than on the bank: the exposure
+    # is in what gets written next, not in what was migrated.
+    record.gate_homoglyphs,
 ]
 
 # The other six stay on the bank, and each for its own reason — "it is a bank

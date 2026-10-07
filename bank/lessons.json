@@ -1853,6 +1853,49 @@
           "contains": "kept SHORT on purpose"
         }
       ]
+    },
+    {
+      "id": "L85",
+      "mistake": "I WROTE A CYRILLIC LETTER INTO A STUDENT-FACING SPANISH FIELD AND ALL EIGHTEEN ADMISSION GATES PASSED IT. The US.71 key explanation read \"un país que se creía atrasado\", and the 'a' in \"creía\" was U+0430 CYRILLIC SMALL LETTER A, not U+0061. It renders identically to the Latin letter at every size and in every font this bank's artifacts use, so proofreading cannot find it: I only found it because I ran an ad hoc scan for non-Latin characters, and I only ran that scan because I happened to notice the character in a shell transcript where the font differed. Nothing in the pipeline was looking. What it would have cost: every string comparison, search, sort, diff and screen reader touching that field behaves differently from what a reader sees, which means a teacher searching the bank for the Spanish word would not find the item, a reviewer diffing two versions would see a change where the text looks the same, and a Spanish-language screen reader would mispronounce the word to the one student who most needs it read aloud. THE SHAPE IS THE ONE THIS REPO KEEPS PAYING FOR: a defect that every measure reads as correct content. It is the deck-image `file://` path that resolved on one machine, the `trap` field spelled a way the builder does not read, the entity whitelist that let `&rarr;` through to a projected slide. Each was invisible to the gate that should have owned it because the gate was measuring something adjacent. TWO THINGS ABOUT THE FIX MATTER MORE THAN THE GATE. First, I swept all 4,027 bank items before writing anything and they are CLEAN, so this is a generation-time hazard and not a migrated defect — which is the argument for putting the gate on the WRITE PATHS rather than on the bank, and a bank audit alone would have measured a population with nothing in it and reported green forever. Second, it measures the CAUSE — a character whose Unicode name belongs to another script — rather than a list of known confusables, because a whitelist passes what it does not know, which is exactly how the entity whitelist failed. The gate runs at submission, on the bank, AND inside `apply_authoring.validate`, because an authoring record reaches the bank through none of the first two and the mandate says a post-admission batch gate is not an acceptable substitute. It is proven to FAIL four ways and proven NOT to fire on á é í ó ú ñ ü ¿ ¡, because a gate that cried wolf on every accented Spanish word would be reverted within the hour and the real defect would go back to being invisible (L84).",
+      "caughtBy": "An ad hoc sweep for non-Latin characters, run on a hunch after the glyph looked wrong in a shell transcript. Nothing in the pipeline was looking, which is the lesson.",
+      "guards": [
+        {
+          "file": "tools/gates/record.py",
+          "contains": "_FOREIGN_SCRIPTS"
+        },
+        {
+          "file": "tools/gates/record.py",
+          "contains": "looks like a Latin letter and is not one"
+        },
+        {
+          "file": "tools/gates/record.py",
+          "contains": "a whitelist of confusables passes what it does"
+        },
+        {
+          "file": "tools/submit_items.py",
+          "contains": "record.gate_homoglyphs"
+        },
+        {
+          "file": "tools/run_gates.py",
+          "contains": "record.gate_homoglyphs"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "_written_strings"
+        },
+        {
+          "file": "tools/apply_authoring.py",
+          "contains": "A LETTER FROM ANOTHER SCRIPT IS INVISIBLE"
+        },
+        {
+          "file": "tests/test_gates.py",
+          "contains": "homoglyphs: Latin-1 Spanish accents"
+        },
+        {
+          "file": "tests/test_apply_authoring.py",
+          "contains": "a CYRILLIC letter in a distractor EXPLANATION is REFUSED"
+        }
+      ]
     }
   ]
 }

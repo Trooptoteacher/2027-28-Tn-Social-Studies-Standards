@@ -63,14 +63,14 @@ deleted; `quarantine/` is retention, not a bin.
 
 | | |
 |---|---|
-| servable | 3,964 |
-| aligned (counts toward coverage) | 2,025 |
+| servable | 3,967 |
+| aligned (counts toward coverage) | 2,028 |
 | quarantined, with stated reasons | 1,059 |
 | authored by Claude | 33 |
 | reviewed and approved by you | 19 |
 | **awaiting your review** | **5** |
 
-Alignment: 1,729 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
+Alignment: 1,732 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
 empty: every standard is judgeable — see §11.) **30 items are `held`** because their key
 explanation calls the key wrong — see §12.
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
@@ -116,7 +116,7 @@ below it can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **84 lessons, 313 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **85 lessons, 322 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -237,7 +237,7 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
   current. **It verifies no history and affirms nothing.** The `historian-qc` gate checks
   the QUEUE, never the history: every queued item has a record, no record is stale. A
   non-empty queue is not a finding; an EMPTY one is, because the flag has stopped being
-  set. Current: **49 items, 645 claims, 5 flags**, every flag a negative claim in my own
+  set. Current: **52 items, 689 claims, 6 flags**, every flag a negative claim in my own
   writing. **The heading has now earned its place three times**, and every finding was an
   UNQUALIFIED negative rather than a false one — which is the shape worth recognising,
   because each sentence was true of the thing it was about and wrong about everything
@@ -303,7 +303,7 @@ python3 tools/submit_items.py generation/US.05.draft.json --apply
 ```
 
 **Generation is gated BEFORE admission, not reviewed after.** `submit_items.py` runs
-**18 admission gates** plus an id/stem collision check against the whole bank, and a draft
+**19 admission gates** plus an id/stem collision check against the whole bank, and a draft
 that fails any of them **does not enter**. It names what to fix and you regenerate.
 
 *It ran 12 until 2026-10-04. Six item-level gates — serveability,
@@ -313,6 +313,17 @@ could be admitted and immediately fail them. That is the shape the mandate names
 outright: a post-admission batch gate is not an acceptable substitute. The six that
 remain bank-only are each excluded by name with a reason in `submit_items.py`, and
 `misconception-taxonomy` among them is **HELD, not excluded** — see §6d.*
+
+*The nineteenth arrived 2026-10-07 and is the only gate here added for a defect found in
+MY OWN authored output: `homoglyphs`. A US.71 Spanish explanation carried
+**U+0430 CYRILLIC SMALL LETTER A** inside "creía" and the other eighteen passed it, because
+it renders identically to the Latin letter and no gate was reading the script a character
+belongs to. A sweep of all 4,027 bank items came back CLEAN, which is why it is on the
+**write paths** — `submit_items`, the bank runner, and `apply_authoring.validate`, since an
+authoring record reaches the bank through neither of the first two. It measures the CAUSE
+(a letter from another script) rather than a list of lookalikes, and it is proven not to
+fire on á é í ó ú ñ ü ¿ ¡ — a gate that cried wolf on accented Spanish would be reverted
+within the hour and the real defect would go back to being invisible. **L85.***
 
 This matters because the migrated bank *was* built to a real specification — IRT parameters
 on 100% of 5,045 items, DOK levels on 100%, blueprint structure, item-writing conventions —
@@ -326,7 +337,7 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**85 of 94 standards can build a form. 4,163 authoring units to green them all.**
+**86 of 94 standards can build a form. 4,163 authoring units to green them all.**
 Cheapest next: US.33 (22) · US.31 (32) · US.59 (33) · US.02 (35) · US.07 (37).
 
 *That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither

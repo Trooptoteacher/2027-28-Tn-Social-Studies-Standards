@@ -403,6 +403,33 @@ gen = {(i["id"], c["id"]) for i in items for c in itemio.choices(i)
 check("…and the bank carries nothing that neither a record nor a generated "
       "draft names",
       tagged <= applied | gen, f"{sorted(tagged - applied - gen)[:4]}")
+# ── the authoring path REFUSES a letter from another script ──────────────────
+# This path never passes through admission, so `record.gate_homoglyphs` at
+# submission does not cover it and the bank gate would only catch it after the
+# write. The real case: U+0430 CYRILLIC SMALL LETTER A inside the Spanish
+# "creía", in text that passed eighteen gates and renders identically to the
+# Latin letter at any size.
+_CYR = "El bloqueo termin\u00f3 en m\u00e1yo de 1949 tr\u0430s conversaciones de las cuatro potencias"
+got = refused(rec_es(choiceTextEs={"B": _CYR}))
+check("a CYRILLIC letter in replacement Spanish is REFUSED",
+      got and "CYRILLIC" in got and "U+0430" in got, got)
+check("...and the finding says which field it is in",
+      got and "choiceTextEs[B]" in got, got)
+got = refused({"items": {"PSTIM-0041": {"distractors": {"B": {
+    "explanation": "The treaty was signed in M\u0430rch and no one objected to it at the time.",
+    "misconception": "reads a later agreement back into the year of the crisis"}}}}})
+check("a CYRILLIC letter in a distractor EXPLANATION is REFUSED",
+      got and "CYRILLIC" in got and "distractors[B].explanation" in got, got)
+# And it must NOT cry wolf on the Spanish the bank is full of: a gate that
+# failed every accented word would be reverted within the hour and the real
+# defect would go back to being invisible.
+check("Latin-1 Spanish accents in replacement text are still ACCEPTED",
+      refused(rec_es()) is None)
+check("...including inverted marks, tildes and dieresis",
+      refused(rec_es(choiceTextEs={"B": "\u00bfTermin\u00f3 el bloqueo en 1949? "
+                                        "El ni\u00f1o pregunt\u00f3 qu\u00e9 era la "
+                                        "ambig\u00fcedad. \u00a1S\u00ed!"})) is None)
+
 # A draft must not be mistakable for the signed thing.
 check("the draft is NOT keyed `tnMaterialsReview`-style as a settled review — the "
       "key names it a proposal",

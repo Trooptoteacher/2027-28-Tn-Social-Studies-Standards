@@ -5323,6 +5323,410 @@
       ]
     },
     {
+      "itemId": "US.71-GEN-01",
+      "standard": "US.71",
+      "contentHash": "d08e99559584ce76",
+      "claimCount": 20,
+      "byKind": {
+        "quantity": 6,
+        "named-entity": 11,
+        "causal": 2,
+        "superlative": 1
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1862-1965; the standard is placed in the era 1961-1969 (cluster 'Kennedy and Johnson Years (1961-1969)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1862,
+            1957,
+            1958,
+            1965
+          ],
+          "era": [
+            1961,
+            1969
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1957",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "National Aeronautics",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "Space Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1958",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "causal",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "…from the same year — 1958 produced both laws, which is why they are easily swapped. This one created NAS…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.misconception",
+          "audience": "teacher",
+          "quote": "1958",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.misconception",
+          "audience": "teacher",
+          "quote": "1958",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "National Defense Education Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "…e Elementary and Secondary Education Act, the largest federal commitment to schools in American his…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Secondary Education Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1965",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "Great Society",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.misconception",
+          "audience": "teacher",
+          "quote": "Great Society",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Morrill Land-Grant Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1862",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "causal",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "…ducation through a national-purpose argument, which is why it reads as plausible here.",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "Civil War. It",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.misconception",
+          "audience": "teacher",
+          "quote": "Civil War",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.misconception",
+          "audience": "teacher",
+          "quote": "Cold War",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.71-GEN-02",
+      "standard": "US.71",
+      "contentHash": "e237cf3499550307",
+      "claimCount": 15,
+      "byKind": {
+        "quantity": 6,
+        "named-entity": 5,
+        "superlative": 2,
+        "causal": 1,
+        "negative-existence": 1
+      },
+      "flags": [
+        {
+          "kind": "unreviewed-negative-claim",
+          "detail": "choice D.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.",
+          "quote": "…ary intelligence and the War Department; NASA did not exist until 1958, thirteen years later, and was cre…"
+        }
+      ],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1945-1958; the standard is placed in the era 1961-1969 (cluster 'Kennedy and Johnson Years (1961-1969)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1945,
+            1946,
+            1958
+          ],
+          "era": [
+            1961,
+            1969
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1,600",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "United States",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Wernher von Braun",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1946",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "…its were put to work on Army missiles for the first decade rather than on civilian spaceflight, w…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1958",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "They did work on Army missiles first — von Braun's team at Redstone Arsenal built …",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "Redstone Arsenal",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "… programme was run by NASA, which was created in order to take charge of the German specialists",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "negative-existence",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "…ary intelligence and the War Department; NASA did not exist until 1958, thirteen years later, and was cre…",
+          "why": "asserts something did NOT happen. The cheapest claim to write and the costliest to check — this is the shape that produced the Jessup-Malik error. Confirm the negative, not just the positive around it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1945",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1958",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "War Department",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.71-GEN-03",
+      "standard": "US.71",
+      "contentHash": "d60894f25fe286d8",
+      "claimCount": 9,
+      "byKind": {
+        "quantity": 1,
+        "named-entity": 4,
+        "causal": 2,
+        "superlative": 2
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1958-1958; the standard is placed in the era 1961-1969 (cluster 'Kennedy and Johnson Years (1961-1969)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1958
+          ],
+          "era": [
+            1961,
+            1969
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1958",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "National Defense Education Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "United States",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Soviet Union",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "…ught the gap was in rocket engineering alone, which is why the act funded aerospace training and nothing…",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "…not aerospace training, and a law that funded only rockets would not have reached a high school …",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "…ckets would not have reached a high school at all.",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "causal",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "…stry rather than government to close the gap, which is why the money went to company training programmes",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "National Science Foundation",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
       "itemId": "q-us2-dok4-cr2",
       "standard": "US.23",
       "contentHash": "de5dc1dc6d1b8caa",

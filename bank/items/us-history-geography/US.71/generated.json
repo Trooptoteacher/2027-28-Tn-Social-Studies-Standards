@@ -1,0 +1,213 @@
+{
+  "items": [
+    {
+      "id": "US.71-GEN-01",
+      "stem": "After the Soviet Union launched Sputnik in October 1957, Congress passed a law the following year that paid for instruction in science, mathematics and foreign languages and lent money to college students. What was that law called?",
+      "stemEs": "Después de que la Unión Soviética lanzara el Sputnik en octubre de 1957, el Congreso aprobó al año siguiente una ley que financiaba la enseñanza de ciencias, matemáticas e idiomas extranjeros y prestaba dinero a estudiantes universitarios. ¿Cómo se llamó esa ley?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The National Aeronautics and Space Act, which created a civilian agency to run the American space programme",
+          "textEs": "La Ley Nacional de Aeronáutica y del Espacio, que creó una agencia civil para dirigir el programa espacial estadounidense",
+          "explanation": "Real, and from the same year — 1958 produced both laws, which is why they are easily swapped. This one created NASA out of the old aeronautics committee; it funded no schools and no students.",
+          "misconception": "swaps the 1958 law that built the space agency for the 1958 law that funded schools",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        {
+          "id": "B",
+          "text": "The National Defense Education Act",
+          "textEs": "La Ley de Educación para la Defensa Nacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Elementary and Secondary Education Act, the largest federal commitment to schools in American history to that point",
+          "textEs": "La Ley de Educación Primaria y Secundaria, el mayor compromiso federal con las escuelas en la historia estadounidense hasta ese momento",
+          "explanation": "Real, and correctly described — in 1965, as part of the Great Society, and argued as an anti-poverty measure rather than a defence one. Seven years separate it from the satellite in the question.",
+          "misconception": "credits the satellite with a school law that belongs to the Great Society",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        },
+        {
+          "id": "D",
+          "text": "The Morrill Land-Grant Act, which paid for colleges teaching agriculture and the mechanic arts",
+          "textEs": "La Ley Morrill de Concesión de Tierras, que financió universidades que enseñaban agricultura y artes mecánicas",
+          "explanation": "Real, and correctly described — and signed in 1862, during the Civil War. It is the earlier precedent for federal money reaching education through a national-purpose argument, which is why it reads as plausible here.",
+          "misconception": "reaches for a Civil War era land-grant law for a Cold War appropriation",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Recall of one statute by name and purpose. The student matches a law to what it funded; no reasoning about what the funding reveals about American assumptions is involved. A DOK 2 item on this standard requires that reasoning.",
+      "standardCodes": [
+        "US.71"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The name is the argument. Calling a school-funding bill a defence measure is how its sponsors got it past a Congress that had refused general federal aid to education for years — the satellite did not change what anyone thought about classrooms, it changed what could be said about them on the floor of the Senate.",
+      "explanationEs": "El nombre es el argumento. Llamar medida de defensa a una ley de financiación escolar fue la manera en que sus promotores la sacaron adelante en un Congreso que llevaba años rechazando la ayuda federal general a la educación: el satélite no cambió lo que nadie pensaba de las aulas, cambió lo que podía decirse sobre ellas en el Senado.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.71.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.71-GEN-02",
+      "stem": "Operation Paperclip brought roughly 1,600 German scientists, engineers and technicians to the United States after 1945, Wernher von Braun among them. Why do historians treat the programme as a troubling episode as well as a productive one?",
+      "stemEs": "La Operación Paperclip trajo a Estados Unidos a unos 1.600 científicos, ingenieros y técnicos alemanes después de 1945, entre ellos Wernher von Braun. ¿Por qué los historiadores consideran el programa un episodio inquietante además de productivo?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Soviet Union ran a comparable operation of its own and removed German specialists to work on its rockets",
+          "textEs": "La Unión Soviética dirigió una operación comparable y trasladó a especialistas alemanes para trabajar en sus cohetes",
+          "explanation": "True — Soviet forces moved thousands of German specialists east in 1946, and the two programmes are usually taught together. It tells you both sides did it, which is not an answer about why ours is troubling.",
+          "misconception": "answers that the other side did the same when asked what is troubling about this one",
+          "distractorFunction": "right-answer-wrong-question"
+        },
+        {
+          "id": "B",
+          "text": "The recruits were put to work on Army missiles for the first decade rather than on civilian spaceflight, which wasted the training they brought",
+          "textEs": "Los reclutados fueron puestos a trabajar en misiles del Ejército durante la primera década y no en vuelos espaciales civiles, lo que desperdició la formación que traían",
+          "explanation": "They did work on Army missiles first — von Braun's team at Redstone Arsenal built the Jupiter-C that launched Explorer 1 in 1958. Nothing was wasted: that rocket work is what the space programme was then built on.",
+          "misconception": "treats military work as a detour when it was the route to the space programme",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "C",
+          "text": "Many of those recruited had served the Nazi regime, and American agencies altered their records so they could be admitted",
+          "textEs": "Muchos de los reclutados habían servido al régimen nazi, y organismos estadounidenses alteraron sus expedientes para que pudieran ser admitidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The programme was run by NASA, which was created in order to take charge of the German specialists",
+          "textEs": "El programa fue dirigido por la NASA, creada para hacerse cargo de los especialistas alemanes",
+          "explanation": "NASA is real and the specialists ended up working for it. The programme began in 1945 under military intelligence and the War Department; NASA did not exist until 1958, thirteen years later, and was created in answer to Sputnik.",
+          "misconception": "puts an agency in charge of a programme that ran for thirteen years before it existed",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student must weigh a programme's results against the terms on which it was conducted, and distinguish that judgement from three true statements about it. Recalling that Paperclip recruited German rocket engineers is the DOK 1 version.",
+      "standardCodes": [
+        "US.71"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Many of the recruits had worked for the Nazi regime, and some of the rockets they designed were built by concentration camp labour at Mittelwerk. American immigration rules barred former party members, so the intelligence agency running the programme rewrote the files. The programme worked — the same team's Saturn V carried Apollo 11 — and what it cost was the honesty of the record.",
+      "explanationEs": "Muchos de los reclutados habían trabajado para el régimen nazi, y algunos de los cohetes que diseñaron se construyeron con mano de obra de campos de concentración en Mittelwerk. Las normas migratorias estadounidenses excluían a los antiguos miembros del partido, de modo que la agencia de inteligencia que dirigía el programa reescribió los expedientes. El programa funcionó — el Saturno V del mismo equipo llevó al Apolo 11 — y lo que costó fue la honradez del expediente.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.71.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.71-GEN-03",
+      "stem": "The National Defense Education Act of 1958 paid for science and mathematics teaching, and also for foreign-language instruction, testing and school guidance counsellors. What does that range show about how Americans understood the competition between the United States and Soviet Union?",
+      "stemEs": "La Ley de Educación para la Defensa Nacional de 1958 financió la enseñanza de ciencias y matemáticas, y también la enseñanza de idiomas extranjeros, las pruebas y los orientadores escolares. ¿Qué muestra ese alcance sobre cómo entendían los estadounidenses la competencia entre Estados Unidos y la Unión Soviética?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They read the gap as a shortage of trained people, so schooling itself became a matter of national security",
+          "textEs": "Interpretaron la brecha como una escasez de personas formadas, de modo que la escolarización misma se convirtió en un asunto de seguridad nacional",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "They thought the gap was in rocket engineering alone, which is why the act funded aerospace training and nothing else",
+          "textEs": "Pensaban que la brecha estaba solo en la ingeniería de cohetes, por lo que la ley financió únicamente la formación aeroespacial",
+          "explanation": "Rocketry was the visible gap and it drove the politics. The act's own list is wider than that: foreign languages, guidance and testing are not aerospace training, and a law that funded only rockets would not have reached a high school at all.",
+          "misconception": "narrows a law's purposes to the single gap that prompted it",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-03"
+        },
+        {
+          "id": "C",
+          "text": "They expected private industry rather than government to close the gap, which is why the money went to company training programmes",
+          "textEs": "Esperaban que la industria privada y no el gobierno cerrara la brecha, por lo que el dinero fue a programas de formación de las empresas",
+          "explanation": "The movement ran the other way. This is federal money going directly to school districts, state education departments and individual students at a time when federal aid to education had been blocked for a decade; the aerospace industry grew on contracts, not on this act's training grants.",
+          "misconception": "inverts the source of the funding this law provided",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        {
+          "id": "D",
+          "text": "They saw the problem as a failure of the universities, so the act's money went to graduate research rather than to schools",
+          "textEs": "Veían el problema como un fracaso de las universidades, por lo que el dinero de la ley fue a la investigación de posgrado y no a las escuelas",
+          "explanation": "Federal money did pour into university research in these years, through the National Science Foundation and the defence agencies. This particular act worked lower down: loans for undergraduates, laboratory equipment for high schools and training for the teachers already in them.",
+          "misconception": "assigns this act the role that research funding agencies were filling beside it",
+          "distractorFunction": "partial-truth"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student must infer a view of the contest from what a law chose to fund, which means reading the list rather than recalling the law's name. Three options are true of parts of the period and do not follow from this list.",
+      "standardCodes": [
+        "US.71"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A country that thought it was behind on one rocket would have bought rockets. This law bought classrooms, aptitude tests and counsellors to steer able students toward science — which says the gap was understood as a shortage of trained people, and the contest as one that would be decided over a generation rather than a launch window.",
+      "explanationEs": "Un país que se creía atrasado en un cohete habría comprado cohetes. Esta ley compró aulas, pruebas de aptitud y orientadores para encaminar a los estudiantes capaces hacia las ciencias: eso dice que la brecha se entendía como una escasez de personas formadas, y la competencia como algo que se decidiría a lo largo de una generación y no en una ventana de lanzamiento.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.71.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    }
+  ],
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.71",
+  "status": "authored",
+  "disclosure": "classroom-formative · pre-field-test"
+}

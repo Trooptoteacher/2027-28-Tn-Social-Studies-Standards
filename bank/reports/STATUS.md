@@ -10,35 +10,36 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 | Gate | Result | Scanned | Judged | Findings |
 |---|---|---|---|---|
-| `record-complete` | **FAIL** | 4024 | — | 3844 |
-| `binding` | **PASS** | 4024 | — | 0 |
-| `key-integrity` | **PASS** | 4024 | — | 0 |
-| `distractor-coverage` | **FAIL** | 4024 | 3882 | 22944 |
-| `truncation` | **FAIL** | 4024 | — | 91 |
-| `blueprint-conformance` | **FAIL** | 2025 | — | 28 |
-| `blueprint-achievability` | **FAIL** | 2025 | 94 | 9 |
-| `key-position-debias` | **PASS** | 3829 | — | 0 |
-| `serveability` | **FAIL** | 3964 | — | 994 |
-| `reporting-category-provenance` | **PASS** | 4024 | — | 0 |
+| `record-complete` | **FAIL** | 4027 | — | 3844 |
+| `binding` | **PASS** | 4027 | — | 0 |
+| `key-integrity` | **PASS** | 4027 | — | 0 |
+| `distractor-coverage` | **FAIL** | 4027 | 3885 | 22944 |
+| `truncation` | **FAIL** | 4027 | — | 91 |
+| `homoglyphs` | **PASS** | 4027 | — | 0 |
+| `blueprint-conformance` | **FAIL** | 2028 | — | 28 |
+| `blueprint-achievability` | **FAIL** | 2028 | 94 | 8 |
+| `key-position-debias` | **PASS** | 3832 | — | 0 |
+| `serveability` | **FAIL** | 3967 | — | 994 |
+| `reporting-category-provenance` | **PASS** | 4027 | — | 0 |
 | `signal-coverage` | **PASS** | 94 | 94 | 0 |
-| `alignment-claim` | **PASS** | 4024 | 3964 | 0 |
-| `choice-length-cue` | **FAIL** | 4024 | 3829 | 1 |
-| `duplicate-stems` | **PASS** | 4024 | 3964 | 0 |
-| `citation-integrity` | **PASS** | 4024 | 36 | 0 |
-| `translation-claim` | **PASS** | 4024 | 3481 | 0 |
-| `explanation-quality` | **FAIL** | 4024 | 3964 | 918 |
-| `embedded-answer-key` | **PASS** | 4024 | 3964 | 0 |
-| `review-provenance` | **FAIL** | 4024 | 27 | 3 |
-| `tcap-format` | **PASS** | 4024 | 3964 | 0 |
-| `rubric` | **FAIL** | 4024 | 100 | 17 |
-| `bias-review` | **FAIL** | 4024 | 3964 | 36 |
-| `key-contradiction` | **PASS** | 4024 | 3964 | 0 |
-| `ai-review-boundary` | **PASS** | 4024 | 132 | 0 |
-| `review-debt` | **PASS** | 4024 | 106 | 0 |
-| `misconception-taxonomy` | **FAIL** | 4024 | 174 | 14 |
-| `historian-qc` | **PASS** | 4024 | 49 | 0 |
-| `stimulus-integrity` | **FAIL** | 4024 | 111 | 111 |
-| `release-readiness` | **FAIL** | 3964 | — | 6 |
+| `alignment-claim` | **PASS** | 4027 | 3967 | 0 |
+| `choice-length-cue` | **FAIL** | 4027 | 3832 | 1 |
+| `duplicate-stems` | **PASS** | 4027 | 3967 | 0 |
+| `citation-integrity` | **PASS** | 4027 | 36 | 0 |
+| `translation-claim` | **PASS** | 4027 | 3484 | 0 |
+| `explanation-quality` | **FAIL** | 4027 | 3967 | 918 |
+| `embedded-answer-key` | **PASS** | 4027 | 3967 | 0 |
+| `review-provenance` | **FAIL** | 4027 | 27 | 3 |
+| `tcap-format` | **PASS** | 4027 | 3967 | 0 |
+| `rubric` | **FAIL** | 4027 | 100 | 17 |
+| `bias-review` | **FAIL** | 4027 | 3967 | 39 |
+| `key-contradiction` | **PASS** | 4027 | 3967 | 0 |
+| `ai-review-boundary` | **PASS** | 4027 | 132 | 0 |
+| `review-debt` | **PASS** | 4027 | 106 | 0 |
+| `misconception-taxonomy` | **FAIL** | 4027 | 183 | 14 |
+| `historian-qc` | **PASS** | 4027 | 52 | 0 |
+| `stimulus-integrity` | **FAIL** | 4027 | 111 | 111 |
+| `release-readiness` | **FAIL** | 3967 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 27 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 53240 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 5 | 0 |
@@ -108,19 +109,19 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `dbq-activities/activity-teacher-isolation` | **PASS** | 34 | 220 | 0 |
 | `US-CORE/form-parallelism` | **PASS** | 5 | 5 | 0 |
 | `US-CORE/family-coverage` | **PASS** | 5 | 5 | 0 |
-| `all-gates-measured` | **PASS** | 98 | — | 0 |
+| `all-gates-measured` | **PASS** | 99 | — | 0 |
 
-**80/99 pass.** Grade A requires all of them. "Close" is not "A."
+**81/100 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
 - Source: **5,045** items from the 2026-27 `history-hack-web-app` bank
-- Servable: **3964** (3391 migrated, 511 provisional)
+- Servable: **3967** (3391 migrated, 511 provisional)
 - Quarantined (not servable, not coverage): **1059**
   - 929 — standard retired / no 2027-28 home
   - 130 — tests an element the 2027-28 standard dropped
-- Standards with a servable item: **90/94**
-- Standards receiving nothing: **4** — US.71, US.75, US.89, US.93
+- Standards with a servable item: **91/94**
+- Standards receiving nothing: **3** — US.75, US.89, US.93
 
 ## Forms
 

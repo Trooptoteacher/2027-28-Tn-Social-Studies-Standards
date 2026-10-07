@@ -204,3 +204,74 @@ def gate_truncation(items, binding=None) -> Result:
                     findings.append(Finding(it.get("id", "?"),
                         f"choice {c.get('id')!r} {field} {why}: …{t[-40:]!r}", it.get("_file", "")))
     return Result(name, not findings, len(items), findings)
+
+
+# ----------------------------------------------------------- homoglyphs
+# Characters that LOOK like a Latin letter and are not one. The Latin-1
+# accented letters Spanish needs (á é í ó ú ñ ü ¿ ¡) are ordinary content and
+# are untouched; what this names is a letter from another script sitting
+# inside a Latin word, where it is invisible to a reader and breaks every
+# string comparison, search, sort and screen reader that touches the field.
+#
+# Why this gate exists: an authored US.71 Spanish explanation carried
+# U+0430 CYRILLIC SMALL LETTER A inside the word "creía". It passed all 18
+# admission gates, renders identically to the Latin letter at any size, and
+# would have reached a Spanish-speaking student on a printed page. A sweep of
+# all 4,027 bank items found no other occurrence, so this is a
+# GENERATION-TIME hazard rather than a migrated defect — which is exactly the
+# population a pre-admission gate covers and a bank audit would not.
+#
+# It measures the CAUSE (a character from the wrong script) rather than a list
+# of known lookalikes, because a whitelist of confusables passes what it does
+# not know. L-plain(): an entity whitelist is how `&rarr;` reached a slide.
+_FOREIGN_SCRIPTS = ("CYRILLIC", "GREEK", "ARMENIAN", "HEBREW", "ARABIC",
+                    "CHEROKEE", "FULLWIDTH", "COPTIC", "GEORGIAN")
+
+# Fields a student or a teacher reads. Every one of them is compared,
+# searched or printed somewhere.
+_TEXT_FIELDS = ("stem", "stemEs", "explanation", "explanationEs", "dokRationale",
+                "reportingCategory")
+_CHOICE_TEXT_FIELDS = ("text", "textEs", "explanation", "misconception")
+
+
+def _foreign_letters(val):
+    """Which foreign-script characters this string carries, with context."""
+    import unicodedata
+    out = []
+    for i, ch in enumerate(str(val)):
+        if ord(ch) < 128:
+            continue
+        n = unicodedata.name(ch, "")
+        if any(s in n for s in _FOREIGN_SCRIPTS):
+            out.append((ch, n, str(val)[max(0, i - 20):i + 20]))
+    return out
+
+
+def gate_homoglyphs(items, binding=None) -> Result:
+    """No field carries a letter from a non-Latin script.
+
+    Fails the character, not a guess about intent: a Cyrillic or Greek letter
+    inside an English or Spanish field is a defect however it arrived, and
+    there is no legitimate use for one in this bank's content.
+    """
+    name = "homoglyphs"
+    if (r := empty_scan_guard(name, items)):
+        return r
+    findings = []
+    for it in items:
+        for field in _TEXT_FIELDS:
+            for ch, n, ctx in _foreign_letters(it.get(field) or ""):
+                findings.append(Finding(it.get("id", "?"),
+                    f"{field} carries {n} (U+{ord(ch):04X}), which looks like a Latin letter "
+                    f"and is not one: …{ctx!r}", it.get("_file", "")))
+        for c in itemio.choices(it):
+            if not isinstance(c, dict):
+                continue
+            for field in _CHOICE_TEXT_FIELDS:
+                for ch, n, ctx in _foreign_letters(c.get(field) or ""):
+                    findings.append(Finding(it.get("id", "?"),
+                        f"choice {c.get('id')!r} {field} carries {n} (U+{ord(ch):04X}), which "
+                        f"looks like a Latin letter and is not one: …{ctx!r}",
+                        it.get("_file", "")))
+    return Result(name, not findings, len(items), findings,
+                  note=f"{len(items)} item(s) read for non-Latin letters in Latin text")

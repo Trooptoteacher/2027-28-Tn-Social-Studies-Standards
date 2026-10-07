@@ -24,6 +24,10 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - **unreviewed-negative-claim** — choice C.misconception asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > invents a cost pressure from a technology that spread…
 
+### `US.71-GEN-02` (US.71)
+- **unreviewed-negative-claim** — choice D.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
+  - > …ary intelligence and the War Department; NASA did not exist until 1958, thirteen years later, and was cre…
+
 ### `q-us45-dok1-1` (US.46)
 - **unreviewed-negative-claim** — choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > …nty-first Amendment in December 1933 — and it was never one of the programme's three aims.
@@ -1073,6 +1077,88 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 **causal** (2)
 - [ ] `choice A.text` · *student-facing* — …amilies spent more of their evenings reading, because the broadcast day ended early and left the la…
 - [ ] `choice C.text` · *student-facing* — …evening audience grew alongside television's, because the two media served different hours of the d…
+
+### `US.71-GEN-01` (US.71) — 20 claim(s)
+*content hash* `d08e99559584ce76` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1862-1965; the standard is placed in the era 1961-1969 (cluster 'Kennedy and Johnson Years (1961-1969)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (6)
+- [ ] `stem` · *student-facing* — 1957
+- [ ] `choice A.explanation` · *teacher-facing* — 1958
+- [ ] `choice A.misconception` · *teacher-facing* — 1958
+- [ ] `choice A.misconception` · *teacher-facing* — 1958
+- [ ] `choice C.explanation` · *teacher-facing* — 1965
+- [ ] `choice D.explanation` · *teacher-facing* — 1862
+
+**superlative** (1)
+- [ ] `choice C.text` · *student-facing* — …e Elementary and Secondary Education Act, the largest federal commitment to schools in American his…
+
+**causal** (2)
+- [ ] `choice A.explanation` · *teacher-facing* — …from the same year — 1958 produced both laws, which is why they are easily swapped. This one created NAS…
+- [ ] `choice D.explanation` · *teacher-facing* — …ducation through a national-purpose argument, which is why it reads as plausible here.
+
+**named-entity** (11)
+- [ ] `stem` · *student-facing* — Soviet Union
+- [ ] `choice A.text` · *student-facing* — National Aeronautics
+- [ ] `choice A.text` · *student-facing* — Space Act
+- [ ] `choice B.text` · *student-facing* — National Defense Education Act
+- [ ] `choice C.text` · *student-facing* — Secondary Education Act
+- [ ] `choice C.explanation` · *teacher-facing* — Great Society
+- [ ] `choice C.misconception` · *teacher-facing* — Great Society
+- [ ] `choice D.text` · *student-facing* — Morrill Land-Grant Act
+- [ ] `choice D.explanation` · *teacher-facing* — Civil War. It
+- [ ] `choice D.misconception` · *teacher-facing* — Civil War
+- [ ] `choice D.misconception` · *teacher-facing* — Cold War
+
+### `US.71-GEN-02` (US.71) — 15 claim(s)
+*content hash* `e237cf3499550307` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1945-1958; the standard is placed in the era 1961-1969 (cluster 'Kennedy and Johnson Years (1961-1969)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `choice D.explanation` · *teacher-facing* — …ary intelligence and the War Department; NASA did not exist until 1958, thirteen years later, and was cre…
+
+**quantity** (6)
+- [ ] `stem` · *student-facing* — 1,600
+- [ ] `stem` · *student-facing* — 1945
+- [ ] `choice A.explanation` · *teacher-facing* — 1946
+- [ ] `choice B.explanation` · *teacher-facing* — 1958
+- [ ] `choice D.explanation` · *teacher-facing* — 1945
+- [ ] `choice D.explanation` · *teacher-facing* — 1958
+
+**superlative** (2)
+- [ ] `choice B.text` · *student-facing* — …its were put to work on Army missiles for the first decade rather than on civilian spaceflight, w…
+- [ ] `choice B.explanation` · *teacher-facing* — They did work on Army missiles first — von Braun's team at Redstone Arsenal built …
+
+**causal** (1)
+- [ ] `choice D.text` · *student-facing* — … programme was run by NASA, which was created in order to take charge of the German specialists
+
+**named-entity** (5)
+- [ ] `stem` · *student-facing* — United States
+- [ ] `stem` · *student-facing* — Wernher von Braun
+- [ ] `choice A.text` · *student-facing* — Soviet Union
+- [ ] `choice B.explanation` · *teacher-facing* — Redstone Arsenal
+- [ ] `choice D.explanation` · *teacher-facing* — War Department
+
+### `US.71-GEN-03` (US.71) — 9 claim(s)
+*content hash* `d60894f25fe286d8` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1958-1958; the standard is placed in the era 1961-1969 (cluster 'Kennedy and Johnson Years (1961-1969)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (1)
+- [ ] `stem` · *student-facing* — 1958
+
+**superlative** (2)
+- [ ] `choice B.explanation` · *teacher-facing* — …not aerospace training, and a law that funded only rockets would not have reached a high school …
+- [ ] `choice B.explanation` · *teacher-facing* — …ckets would not have reached a high school at all.
+
+**causal** (2)
+- [ ] `choice B.text` · *student-facing* — …ught the gap was in rocket engineering alone, which is why the act funded aerospace training and nothing…
+- [ ] `choice C.text` · *student-facing* — …stry rather than government to close the gap, which is why the money went to company training programmes
+
+**named-entity** (4)
+- [ ] `stem` · *student-facing* — National Defense Education Act
+- [ ] `stem` · *student-facing* — United States
+- [ ] `stem` · *student-facing* — Soviet Union
+- [ ] `choice D.explanation` · *teacher-facing* — National Science Foundation
 
 ### `q-us2-dok4-cr2` (US.23) — 9 claim(s)
 *content hash* `de5dc1dc6d1b8caa` — if the item is edited after you sign, this changes and the review is stale.

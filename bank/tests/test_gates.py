@@ -119,6 +119,40 @@ r = record.gate_truncation(bank4, B)
 check("truncation: em-dash completion stem is NOT flagged", r.passed,
       "; ".join(str(f) for f in r.findings[:2]))
 
+# 5b ── homoglyphs: a letter from another script inside a Latin word
+#       The real case: U+0430 CYRILLIC SMALL LETTER A inside the Spanish
+#       "creía", in an authored explanation that passed all 18 other gates.
+bank, bid = mutate(0, explanationEs="El Congreso se cre\u00ed\u0430 obligado a responder.")
+prove(record.gate_homoglyphs, bank, bid)
+#      it FAILS on the character, not on a list of known lookalikes
+r = record.gate_homoglyphs(bank, B)
+check("homoglyphs: the finding NAMES the character and its codepoint",
+      any("CYRILLIC" in str(f) and "U+0430" in str(f) for f in r.findings),
+      f"got {[str(f)[:90] for f in r.findings[:2]]}")
+#      Spanish's own accented letters are CONTENT and must not be flagged —
+#      a gate that cries wolf on á é í ó ú ñ ü ¿ ¡ would fail every bilingual
+#      item in the bank, which is worse than no gate at all
+bank5 = fixtures.clean_bank(CODES)
+bank5[0]["explanationEs"] = ("\u00bfPor qu\u00e9 la ley se aprob\u00f3 en 1958? La raz\u00f3n "
+                             "ten\u00eda que ver con la educaci\u00f3n, los ni\u00f1os y la "
+                             "ingenier\u00eda a\u00e9rea. \u00a1Mellon no estaba!")
+r = record.gate_homoglyphs(bank5, B)
+check("homoglyphs: Latin-1 Spanish accents, tildes and inverted marks PASS", r.passed,
+      "; ".join(str(f) for f in r.findings[:2]))
+#      and it reads CHOICES too, where half the authored text lives
+bank6 = fixtures.clean_bank(CODES)
+wrong = next(c for c in bank6[0]["choices"] if c["id"] != bank6[0]["correctAnswer"])
+wrong["text"] = "The \u0391nti-Imperialist League"      # U+0391 GREEK CAPITAL ALPHA
+r = record.gate_homoglyphs(bank6, B)
+check("homoglyphs: a foreign letter in a CHOICE text FAILS", not r.passed)
+check("...and the finding says which choice", any(repr(wrong["id"]) in str(f) for f in r.findings),
+      f"got {[str(f)[:70] for f in r.findings[:2]]}")
+#      it is wired into ADMISSION, which is the population it exists for:
+#      every bank item is clean, so a bank-only placement would measure nothing
+import submit_items as _si_h
+check("homoglyphs: it is an ADMISSION gate, not a bank-only one",
+      record.gate_homoglyphs in _si_h.ADMISSION_GATES)
+
 # 6 ── blueprint: the BANK is measured on depth + proportion, the FORM exactly
 bank = fixtures.clean_bank(CODES)[:-1]                      # one standard short of minimum
 r = coverage.gate_blueprint(bank, B)

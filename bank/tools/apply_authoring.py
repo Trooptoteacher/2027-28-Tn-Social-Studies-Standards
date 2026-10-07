@@ -23,6 +23,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import binding as binding_mod
 import itemio
 from gates import content
+from gates import record as record_gates
 
 
 class AuthoringError(Exception):
@@ -103,6 +104,30 @@ def _claims(item):
     return (tuple(item.get(f) for f in CLAIM_FIELDS),
             tuple((c.get("id"), tuple(c.get(f) for f in CLAIM_CHOICE_FIELDS))
                   for c in (item.get("choices") or []) if isinstance(c, dict)))
+
+
+def _written_strings(spec):
+    """Every string an authoring record would put into the bank, with its path.
+
+    Named rather than walked blindly so a reader can see what is covered: the
+    replacement option text in both languages, and each distractor's
+    explanation and misconception. The taxonomy ids are excluded because they
+    are checked against the taxonomy itself by name.
+    """
+    for key in ("choiceText", "choiceTextEs"):
+        for cid, txt in (spec.get(key) or {}).items():
+            if isinstance(txt, str):
+                yield f"{key}[{cid}]", txt
+    for cid, payload in (spec.get("distractors") or {}).items():
+        if isinstance(payload, dict):
+            for f in ("explanation", "misconception"):
+                v = payload.get(f)
+                if isinstance(v, str):
+                    yield f"distractors[{cid}].{f}", v
+        elif isinstance(payload, (list, tuple)):
+            for i, v in enumerate(payload):
+                if isinstance(v, str):
+                    yield f"distractors[{cid}][{i}]", v
 
 
 def validate(record, items_by_id):
@@ -203,6 +228,17 @@ def validate(record, items_by_id):
                 pass
         if len(mis) != len(set(mis)):
             problems.append(f"{iid}: two distractors name the same misconception")
+        # A LETTER FROM ANOTHER SCRIPT IS INVISIBLE AND THIS PATH SKIPS ADMISSION.
+        # `record.gate_homoglyphs` runs at submission and on the bank; an
+        # authoring record reaches the bank through neither, and the mandate is
+        # explicit that a post-admission batch gate is not an acceptable
+        # substitute. So every string this record would WRITE is read here,
+        # before anything is written. The real case was U+0430 CYRILLIC SMALL
+        # LETTER A inside the Spanish "creía", which passed eighteen gates.
+        for field, val in _written_strings(spec):
+            for ch, nm, ctx in record_gates._foreign_letters(val):
+                problems.append(f"{iid}/{field}: carries {nm} (U+{ord(ch):04X}), which looks "
+                                f"like a Latin letter and is not one: ...{ctx!r}")
     if problems:
         raise AuthoringError("authoring record rejected:\n  - " + "\n  - ".join(problems))
     return untagged

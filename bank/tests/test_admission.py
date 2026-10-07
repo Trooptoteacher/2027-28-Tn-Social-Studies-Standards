@@ -115,8 +115,19 @@ def submit(draft, tmpname):
 rc, out = submit(clean_draft(), "_proof_clean.draft.json")
 check("the clean draft clears every admission gate", rc == 0 and "REFUSED" not in out,
       out[-1500:])
-check("…and all 18 are reported, not 12",
-      "All 18 admission gates pass." in out, [l for l in out.splitlines() if "admission gates" in l])
+# The count is DERIVED from the list, not pinned at a number. Pinned at 12 this
+# proof would have passed over the six content gates added on 2026-10-04 and
+# the homoglyph gate added on 2026-10-07; pinned at 18 it FAILED the day the
+# nineteenth arrived, for being out of date rather than for anything being
+# wrong. L82: assert the relationship. What matters is that the report names
+# the gates that actually ran, so a gate silently dropped from the list is
+# visible in the one line a submitter reads.
+import submit_items as _si_n
+_n = len(_si_n.ADMISSION_GATES)
+check(f"…and the report names every gate that ran, all {_n} of them",
+      f"All {_n} admission gates pass." in out,
+      [l for l in out.splitlines() if "admission gates" in l])
+check("…and that is more than the 12 it ran before 2026-10-04", _n > 12)
 check("it was a DRY RUN — nothing entered the bank",
       "DRY RUN" in out and len(itemio.load_dir(B.output_dir)) == len(bank))
 

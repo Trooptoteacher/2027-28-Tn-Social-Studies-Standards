@@ -26,6 +26,12 @@ GATES = [
     record.gate_key_integrity,
     record.gate_distractor_coverage,
     record.gate_truncation,
+    # Added 2026-10-07 alongside its admission twin. It is on BOTH paths on
+    # purpose: `submit_items` covers what a generation draft writes, and this
+    # covers what `apply_authoring` writes, which never passes through
+    # admission at all. The bank reads clean today (4,027 items), so this
+    # placement measures the bank's FUTURE rather than its past.
+    record.gate_homoglyphs,
     coverage.gate_blueprint,
     coverage.gate_blueprint_achievability,
     coverage.gate_key_position,
