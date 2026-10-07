@@ -1,0 +1,213 @@
+{
+  "items": [
+    {
+      "id": "US.91-GEN-01",
+      "stem": "No Child Left Behind, signed in January 2002 during President George W. Bush’s first year, changed what federal law required of states that accepted federal education funds?",
+      "stemEs": "La ley No Child Left Behind, firmada en enero de 2002 durante el primer año del presidente George W. Bush, cambió ¿qué exigía la ley federal a los estados que aceptaban fondos federales para educación?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Annual testing in reading and mathematics, with results reported separately for groups of students",
+          "textEs": "Evaluación anual en lectura y matemáticas, con resultados informados por separado para grupos de estudiantes",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "A single national curriculum in reading and mathematics that every state receiving the funds was required to adopt and teach",
+          "textEs": "Un único plan de estudios nacional de lectura y matemáticas que todo estado que recibiera los fondos estaba obligado a adoptar y enseñar",
+          "explanation": "Federal law has long forbidden the Department of Education from prescribing a curriculum, and this act did not change that. Standards and curriculum remained the states' to write, which is why a proficient score meant different things in different states under the same law.",
+          "misconception": "moves curriculum-setting from the states to the federal government",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        },
+        {
+          "id": "C",
+          "text": "Federal funding for vouchers that families at struggling schools could spend at private schools",
+          "textEs": "Financiación federal para vales que las familias de escuelas con bajo rendimiento pudieran usar en escuelas privadas",
+          "explanation": "Vouchers were part of the administration's original proposal and Congress removed them from the bill. What survived was the right to transfer to another PUBLIC school in the same district and to receive tutoring, so this names something that was proposed and not enacted.",
+          "misconception": "treats a provision that was proposed and dropped as part of the law that passed",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "D",
+          "text": "That every state adopt the Common Core State Standards in English and mathematics",
+          "textEs": "Que todos los estados adoptaran los Estándares Estatales Comunes en inglés y matemáticas",
+          "explanation": "The Common Core standards are real and most states did adopt them — beginning in 2010, eight years later, through an effort led by the governors' and school officers' associations rather than by Congress. No federal statute required them.",
+          "misconception": "attaches a later, state-led standards effort to this federal statute",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Recall of what one statute required. The student retrieves the terms of a law; no reasoning about why two authorisations of force drew different margins, or how losses spread through a financial system, is involved. A DOK 2 item on this standard requires reasoning of that kind.",
+      "standardCodes": [
+        "US.91"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The law's mechanism was measurement rather than content. States kept the power to write their own standards and choose their own tests; what became mandatory was testing every year in two subjects and publishing the results broken out by race, income, disability and English proficiency — which is how gaps that district averages had hidden became public facts.",
+      "explanationEs": "El mecanismo de la ley era la medición y no el contenido. Los estados conservaron la facultad de redactar sus propios estándares y elegir sus propias pruebas; lo que pasó a ser obligatorio fue evaluar cada año en dos materias y publicar los resultados desglosados por raza, ingreso, discapacidad y dominio del inglés, y así brechas que los promedios de distrito habían ocultado se convirtieron en hechos públicos.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.91.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.91-GEN-02",
+      "stem": "Congress authorised the use of force in Afghanistan in September 2001 by 98 to 0 in the Senate and 420 to 1 in the House, and against Iraq in October 2002 by 77 to 23 and 297 to 133. What does the difference between those margins most directly reflect?",
+      "stemEs": "El Congreso autorizó el uso de la fuerza en Afganistán en septiembre de 2001 por 98 votos contra 0 en el Senado y 420 contra 1 en la Cámara, y contra Irak en octubre de 2002 por 77 contra 23 y 297 contra 133. ¿Qué refleja más directamente la diferencia entre esos márgenes?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Afghanistan measure was a formal declaration of war and the Iraq measure was not, which is why the second drew opposition",
+          "textEs": "La medida sobre Afganistán fue una declaración formal de guerra y la de Irak no, y por eso la segunda suscitó oposición",
+          "explanation": "Neither was a declaration of war. Congress has not declared war since 1942; both of these were authorisations for the use of military force, which is a different instrument and has been the practice for every American war since Korea.",
+          "misconception": "reads an authorisation for the use of force as a declaration of war",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-14"
+        },
+        {
+          "id": "B",
+          "text": "The first answered an attack already suffered, while the second rested on a judgement about a future threat that was contested at the time",
+          "textEs": "La primera respondía a un ataque ya sufrido, mientras que la segunda se basaba en un juicio sobre una amenaza futura que fue discutido en su momento",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The Iraq measure required a two-thirds majority in each chamber and the Afghanistan measure required only a simple majority",
+          "textEs": "La medida sobre Irak exigía una mayoría de dos tercios en cada cámara y la de Afganistán solo una mayoría simple",
+          "explanation": "Both passed by simple majority, which is all either needed; the two-thirds threshold belongs to treaty ratification in the Senate and to overriding a veto. The Iraq measure cleared a simple majority comfortably.",
+          "misconception": "applies a treaty or veto threshold to an ordinary joint resolution",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        },
+        {
+          "id": "D",
+          "text": "Fighting in Iraq had already begun by the time the vote was taken, so members of Congress were only recording a decision that had been made without them",
+          "textEs": "Los combates en Irak ya habían comenzado cuando se tomó la votación, de modo que los legisladores solo registraban una decisión que se había tomado sin ellos",
+          "explanation": "The order is reversed: the resolution passed in October 2002 and the invasion began in March 2003, five months later. The vote came first, and the months between it and the war were spent on weapons inspections and at the United Nations.",
+          "misconception": "places the invasion before the vote that authorised it",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student must compare two roll calls and infer what changed between them, which requires reasoning about the grounds each authorisation rested on. Recalling either vote or either war's start date is the DOK 1 version of this content.",
+      "standardCodes": [
+        "US.91"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The first vote followed an attack on the United States eleven days earlier and the identification of a specific adversary; a near-unanimous Congress is what a settled factual question produces. The second rested on a judgement about a threat that had not yet materialised, and judgements of that kind were contested at the time inside both parties — which is what a hundred and fifty-six dissenting votes record.",
+      "explanationEs": "La primera votación siguió a un ataque contra Estados Unidos once días antes y a la identificación de un adversario concreto; un Congreso casi unánime es lo que produce una cuestión de hecho ya resuelta. La segunda se basaba en un juicio sobre una amenaza que aún no se había materializado, y los juicios de ese tipo fueron discutidos en su momento dentro de ambos partidos: eso es lo que registran ciento cincuenta y seis votos en contra.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.91.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.91-GEN-03",
+      "stem": "American housing prices peaked in 2006 and the financial system came close to collapse in September 2008, in the economic recession of George W. Bush's second term. Which mechanism most directly carried losses on home mortgages into the banking system as a whole?",
+      "stemEs": "Los precios de la vivienda en Estados Unidos alcanzaron su punto máximo en 2006 y el sistema financiero estuvo cerca del colapso en septiembre de 2008, en la recesión económica del segundo mandato de George W. Bush. ¿Qué mecanismo llevó más directamente las pérdidas de las hipotecas de vivienda al sistema bancario en su conjunto?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Lehman Brothers filed for bankruptcy in September 2008, the largest such filing in American history",
+          "textEs": "Lehman Brothers se declaró en quiebra en septiembre de 2008, la mayor solicitud de ese tipo en la historia estadounidense",
+          "explanation": "True, and it is the moment the crisis is usually dated from. It is an event in the chain rather than the mechanism that built the chain: the question asks how the losses got into the banking system, not which institution failed most visibly.",
+          "misconception": "names the episode's defining event when asked for the mechanism behind it",
+          "distractorFunction": "right-answer-wrong-question"
+        },
+        {
+          "id": "B",
+          "text": "Banks that made the loans held on to them until maturity, so each lender absorbed the losses on exactly the mortgages it had written itself",
+          "textEs": "Los bancos que concedieron los préstamos los conservaron hasta su vencimiento, de modo que cada prestamista absorbió las pérdidas exactamente de las hipotecas que había escrito él mismo",
+          "explanation": "This describes the older arrangement that the decade's lending replaced, and if it had still held the crisis would have been contained to the lenders. Loans were originated to be sold, which is what spread the exposure.",
+          "misconception": "inverts the lending model, describing the one that would have contained the losses",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        },
+        {
+          "id": "C",
+          "text": "Mortgages had been pooled into securities and sold on, so institutions that never lent to a homeowner were holding the risk",
+          "textEs": "Las hipotecas se habían agrupado en valores y se habían vendido, de modo que instituciones que nunca prestaron a un propietario cargaban con el riesgo",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "Congress authorised 700 billion dollars in October 2008 to purchase distressed assets from financial institutions",
+          "textEs": "El Congreso autorizó 700.000 millones de dólares en octubre de 2008 para comprar activos en dificultades de instituciones financieras",
+          "explanation": "True, and correctly described — the programme passed at the start of October 2008 after an initial House rejection. It is the government's response to the crisis, which is the opposite end of the sequence from the mechanism that produced it.",
+          "misconception": "answers with the policy response when asked how the losses spread",
+          "distractorFunction": "right-answer-wrong-question"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The stem asks for a mechanism, so the student must distinguish how risk travelled from the events and responses that mark the same episode. Recalling that a housing crisis caused the recession is the DOK 1 version of this content.",
+      "standardCodes": [
+        "US.91"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "A mortgage used to stay with the bank that wrote it. By the middle of the decade mortgages were pooled by the thousand and sold on as securities, and those securities were bought by banks, insurers, pension funds and money market funds worldwide — so when American homeowners defaulted, the losses turned up in institutions that had never lent to a homeowner and could not say with confidence how much they held.",
+      "explanationEs": "Antes, una hipoteca se quedaba en el banco que la concedía. Hacia mediados de la década las hipotecas se agrupaban por millares y se vendían como valores, y esos valores los compraban bancos, aseguradoras, fondos de pensiones y fondos monetarios de todo el mundo: así que cuando los propietarios estadounidenses dejaron de pagar, las pérdidas aparecieron en instituciones que nunca habían prestado a un propietario y que no podían decir con seguridad cuánto tenían.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.91.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    }
+  ],
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.91",
+  "status": "authored",
+  "disclosure": "classroom-formative · pre-field-test"
+}

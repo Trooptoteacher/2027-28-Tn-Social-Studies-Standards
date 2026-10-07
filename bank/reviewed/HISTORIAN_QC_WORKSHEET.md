@@ -32,6 +32,18 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - **unreviewed-negative-claim** — choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > …und four hundred thousand arrived, the fences were never finished and it became a free festival; the c…
 
+### `US.87-GEN-02` (US.87)
+- **unreviewed-negative-claim** — choice C.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
+  - > The first half is true — no such shield was ever built. The announcement itsel…
+
+### `US.93-GEN-03` (US.93)
+- **unreviewed-negative-claim** — choice D.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
+  - > No such act passed in 2015; this was a court decision…
+
+### `US.94-GEN-01` (US.94)
+- **unreviewed-negative-claim** — choice C.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
+  - > Standards were never federal to give back. States wrote their own …
+
 ### `q-us45-dok1-1` (US.46)
 - **unreviewed-negative-claim** — choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > …nty-first Amendment in December 1933 — and it was never one of the programme's three aims.
@@ -1395,6 +1407,425 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - [ ] `choice A.text` · *student-facing* — Golden Gate Park
 - [ ] `choice B.text` · *student-facing* — Hard Hat Riot
 - [ ] `choice B.text` · *student-facing* — New York
+
+### `US.87-GEN-01` (US.87) — 28 claim(s)
+*content hash* `1cf59d5ebe617078` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1933-1981. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (5)
+- [ ] `stem` · *student-facing* — 1981
+- [ ] `choice A.explanation` · *teacher-facing* — 1933
+- [ ] `choice A.misconception` · *teacher-facing* — 1933
+- [ ] `choice A.misconception` · *teacher-facing* — 1981
+- [ ] `choice B.explanation` · *teacher-facing* — 1934
+
+**superlative** (11)
+- [ ] `stem` · *student-facing* — …y the Senate 99 to 0 in September 1981, was a first in American history. What was it?
+- [ ] `explanation` · *student-facing* — The vote is part of the answer. A unanimous confirmation of a first-ever appointment reco…
+- [ ] `explanation` · *student-facing* — … of the answer. A unanimous confirmation of a first-ever appointment records how little oppositio…
+- [ ] `dokRationale` · *teacher-facing* — Recall of what one appointment was the first instance of. The student retrieves a fact; no…
+- [ ] `choice A.text` · *student-facing* — She was the first woman to hold a seat in a president's cabinet
+- [ ] `choice A.misconception` · *teacher-facing* — assigns a 1933 first to a 1981 appointment
+- [ ] `choice B.text` · *student-facing* — She was the first woman to serve as a judge on a federal court …
+- [ ] `choice B.misconception` · *teacher-facing* — mistakes the Supreme Court first for the federal appellate first that preceded…
+- [ ] `choice B.misconception` · *teacher-facing* — …Supreme Court first for the federal appellate first that preceded it
+- [ ] `choice C.text` · *student-facing* — She was the first woman to serve on the Supreme Court of the Un…
+- [ ] `choice D.text` · *student-facing* — She was the first woman nominated to the Supreme Court whom the…
+
+**named-entity** (12)
+- [ ] `stem` · *student-facing* — Ronald Reagan’s
+- [ ] `stem` · *student-facing* — Sandra Day O'Connor
+- [ ] `explanation` · *student-facing* — Supreme Court
+- [ ] `choice A.explanation` · *teacher-facing* — Frances Perkins
+- [ ] `choice A.explanation` · *teacher-facing* — Secretary of Labor
+- [ ] `choice A.explanation` · *teacher-facing* — Franklin Roosevelt
+- [ ] `choice B.explanation` · *teacher-facing* — Florence Allen
+- [ ] `choice B.explanation` · *teacher-facing* — Sixth Circuit
+- [ ] `choice B.misconception` · *teacher-facing* — Supreme Court
+- [ ] `choice C.text` · *student-facing* — Supreme Court
+- [ ] `choice C.text` · *student-facing* — United States
+- [ ] `choice D.text` · *student-facing* — Supreme Court
+
+### `US.87-GEN-02` (US.87) — 21 claim(s)
+*content hash* `335f0ac976c1035a` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1963-1983. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (3)
+- [ ] `explanation` · *student-facing* — …ystem was funded and researched for years and was never deployed as described.
+- [ ] `choice C.text` · *student-facing* — Its technology was never deployed, so the announcement could have had …
+- [ ] `choice C.explanation` · *teacher-facing* — The first half is true — no such shield was ever built. The announcement itsel…
+
+**quantity** (4)
+- [ ] `stem` · *student-facing* — 1983
+- [ ] `choice A.text` · *student-facing* — 1968
+- [ ] `choice A.explanation` · *teacher-facing* — 1972
+- [ ] `choice B.text` · *student-facing* — 1963
+
+**superlative** (7)
+- [ ] `explanation` · *student-facing* — …remaining open to retaliation: whoever struck first would still be destroyed. A shield that worke…
+- [ ] `explanation` · *student-facing* — …hat had it, which critics argued would make a first strike thinkable and would push the other sid…
+- [ ] `explanation` · *student-facing* — …m was funded and researched for years and was never deployed as described.
+- [ ] `choice C.text` · *student-facing* — Its technology was never deployed, so the announcement could have had …
+- [ ] `choice C.explanation` · *teacher-facing* — The first half is true — no such shield was ever built.…
+- [ ] `choice C.explanation` · *teacher-facing* — …is why the debate in the question happened at all.
+- [ ] `choice D.text` · *student-facing* — …shield would remove the restraint on striking first
+
+**causal** (1)
+- [ ] `choice C.explanation` · *teacher-facing* — …the arms negotiations of the following years, which is why the debate in the question happened at all.
+
+**named-entity** (6)
+- [ ] `stem` · *student-facing* — Strategic Defense Initiative
+- [ ] `stem` · *student-facing* — United States. Critics
+- [ ] `choice A.text` · *student-facing* — Nuclear Non-Proliferation Treaty
+- [ ] `choice A.explanation` · *teacher-facing* — United States
+- [ ] `choice A.explanation` · *teacher-facing* — Ballistic Missile Treaty
+- [ ] `choice B.text` · *student-facing* — Limited Test Ban Treaty
+
+### `US.87-GEN-03` (US.87) — 29 claim(s)
+*content hash* `ac3d50f1d770f285` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1978-1986. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (20)
+- [ ] `stem` · *student-facing* — 13 percent
+- [ ] `stem` · *student-facing* — 1980
+- [ ] `stem` · *student-facing* — 4 percent
+- [ ] `stem` · *student-facing* — 1983
+- [ ] `explanation` · *student-facing* — 8 percent
+- [ ] `explanation` · *student-facing* — 1982
+- [ ] `explanation` · *student-facing* — 1983
+- [ ] `choice A.text` · *student-facing* — 1981
+- [ ] `choice A.text` · *student-facing* — 1982
+- [ ] `choice B.text` · *student-facing* — 1981
+- [ ] `choice B.text` · *student-facing* — 70 percent
+- [ ] `choice B.text` · *student-facing* — 50 percent
+- [ ] `choice B.explanation` · *teacher-facing* — 1983
+- [ ] `choice C.explanation` · *teacher-facing* — 1978
+- [ ] `choice C.explanation` · *teacher-facing* — 1980
+- [ ] `choice D.text` · *student-facing* — 1986
+- [ ] `choice D.text` · *student-facing* — 28 percent
+- [ ] `choice D.explanation` · *teacher-facing* — 1986
+- [ ] `choice D.misconception` · *teacher-facing* — 1986
+- [ ] `choice D.misconception` · *teacher-facing* — 1983
+
+**superlative** (1)
+- [ ] `stem` · *student-facing* — …res associated with President Ronald Reagan’s first years, which do economists most directly cred…
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …prices down, and the two are routinely merged because they happened at the same time.
+
+**named-entity** (7)
+- [ ] `stem` · *student-facing* — United States
+- [ ] `stem` · *student-facing* — President Ronald Reagan’s
+- [ ] `explanation` · *student-facing* — Federal Reserve
+- [ ] `choice A.text` · *student-facing* — Federal Reserve's
+- [ ] `choice B.text` · *student-facing* — Economic Recovery Tax Act
+- [ ] `choice C.explanation` · *teacher-facing* — President Carter
+- [ ] `choice D.text` · *student-facing* — Tax Reform Act
+
+### `US.89-GEN-01` (US.89) — 11 claim(s)
+*content hash* `0b45bbb74e73a32e` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1985-1996. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (3)
+- [ ] `stem` · *student-facing* — 1993
+- [ ] `choice C.explanation` · *teacher-facing* — 1985
+- [ ] `choice C.explanation` · *teacher-facing* — 1996
+
+**superlative** (5)
+- [ ] `stem` · *student-facing* — The Family Medical Leave Act, the first bill President Bill Clinton’s administration …
+- [ ] `explanation` · *student-facing* — …ind was ready to sign in the administration's first month.
+- [ ] `choice D.text` · *student-facing* — Twelve weeks of leave from employers of every size, including the smallest businesses
+- [ ] `choice D.text` · *student-facing* — …e from employers of every size, including the smallest businesses
+- [ ] `choice D.misconception` · *teacher-facing* — …e with an employer-size threshold as covering every workplace
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …ns had passed Congress twice and been vetoed, which is why a bill of this kind was ready to sign in the …
+
+**named-entity** (2)
+- [ ] `stem` · *student-facing* — Family Medical Leave Act
+- [ ] `stem` · *student-facing* — President Bill Clinton’s
+
+### `US.89-GEN-02` (US.89) — 16 claim(s)
+*content hash* `484efeb0c96101ef` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1992-1994. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (7)
+- [ ] `stem` · *student-facing* — 1993
+- [ ] `stem` · *student-facing* — 234
+- [ ] `stem` · *student-facing* — 200
+- [ ] `dokRationale` · *teacher-facing* — 1994
+- [ ] `choice D.explanation` · *teacher-facing* — 1992
+- [ ] `choice D.explanation` · *teacher-facing* — 234
+- [ ] `choice D.explanation` · *teacher-facing* — 200
+
+**superlative** (1)
+- [ ] `choice D.explanation` · *teacher-facing* — The first half is correct: it was negotiated under Pres…
+
+**causal** (4)
+- [ ] `explanation` · *student-facing* — … had been among his party's core supporters — which is why the fight was conducted inside each party's c…
+- [ ] `choice A.text` · *student-facing* — … ratified by a two-thirds vote of the Senate, which is why support from the other party was necessary to…
+- [ ] `choice B.text` · *student-facing* — Organized labour supported the agreement because it opened Mexican markets to goods made in Am…
+- [ ] `choice D.misconception` · *teacher-facing* — …ats a contested ratifying vote as a formality because the text predated it
+
+**named-entity** (4)
+- [ ] `stem` · *student-facing* — House of Representatives
+- [ ] `stem` · *student-facing* — North American Free Trade Agreement
+- [ ] `stem` · *student-facing* — President Bill Clinton’s
+- [ ] `choice D.explanation` · *teacher-facing* — President George H. W. Bush
+
+### `US.89-GEN-03` (US.89) — 8 claim(s)
+*content hash* `f27ee462fd2111e1` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1868-1999. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (5)
+- [ ] `stem` · *student-facing* — 1998
+- [ ] `stem` · *student-facing* — 1999
+- [ ] `explanation` · *student-facing* — 1868
+- [ ] `choice D.explanation` · *teacher-facing* — 1868
+- [ ] `choice D.explanation` · *teacher-facing* — 1999
+
+**superlative** (2)
+- [ ] `choice D.text` · *student-facing* — He was the first president in American history to be impeached…
+- [ ] `choice D.misconception` · *teacher-facing* — …eats the better-remembered impeachment as the first one
+
+**named-entity** (1)
+- [ ] `stem` · *student-facing* — President Bill Clinton’s
+
+### `US.91-GEN-01` (US.91) — 12 claim(s)
+*content hash* `76b0582bd5efd912` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 2002-2010. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (2)
+- [ ] `stem` · *student-facing* — 2002
+- [ ] `choice D.explanation` · *teacher-facing* — 2010
+
+**superlative** (4)
+- [ ] `stem` · *student-facing* — …anuary 2002 during President George W. Bush’s first year, changed what federal law required of st…
+- [ ] `explanation` · *student-facing* — … own tests; what became mandatory was testing every year in two subjects and publishing the resul…
+- [ ] `choice B.text` · *student-facing* — …al curriculum in reading and mathematics that every state receiving the funds was required to ado…
+- [ ] `choice D.text` · *student-facing* — That every state adopt the Common Core State Standards i…
+
+**causal** (1)
+- [ ] `choice B.explanation` · *teacher-facing* — …and curriculum remained the states' to write, which is why a proficient score meant different things in …
+
+**named-entity** (5)
+- [ ] `stem` · *student-facing* — Child Left Behind
+- [ ] `stem` · *student-facing* — President George W. Bush’s
+- [ ] `choice B.explanation` · *teacher-facing* — Department of Education
+- [ ] `choice D.text` · *student-facing* — Common Core State Standards
+- [ ] `choice D.explanation` · *teacher-facing* — Common Core
+
+### `US.91-GEN-02` (US.91) — 19 claim(s)
+*content hash* `a02c7e40ef27473b` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1942-2003. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (8)
+- [ ] `stem` · *student-facing* — 2001
+- [ ] `stem` · *student-facing* — 420
+- [ ] `stem` · *student-facing* — 2002
+- [ ] `stem` · *student-facing* — 297
+- [ ] `stem` · *student-facing* — 133
+- [ ] `choice A.explanation` · *teacher-facing* — 1942
+- [ ] `choice D.explanation` · *teacher-facing* — 2002
+- [ ] `choice D.explanation` · *teacher-facing* — 2003
+
+**superlative** (8)
+- [ ] `explanation` · *student-facing* — The first vote followed an attack on the United States …
+- [ ] `explanation` · *student-facing* — …dentification of a specific adversary; a near-unanimous Congress is what a settled factual question p…
+- [ ] `choice A.explanation` · *teacher-facing* — …rent instrument and has been the practice for every American war since Korea.
+- [ ] `choice B.text` · *student-facing* — The first answered an attack already suffered, while th…
+- [ ] `choice C.text` · *student-facing* — … chamber and the Afghanistan measure required only a simple majority
+- [ ] `choice C.explanation` · *teacher-facing* — Both passed by simple majority, which is all either needed; the two-thirds threshold belon…
+- [ ] `choice D.text` · *student-facing* — …e vote was taken, so members of Congress were only recording a decision that had been made witho…
+- [ ] `choice D.explanation` · *teacher-facing* — … March 2003, five months later. The vote came first, and the months between it and the war were s…
+
+**causal** (1)
+- [ ] `choice A.text` · *student-facing* — …laration of war and the Iraq measure was not, which is why the second drew opposition
+
+**named-entity** (2)
+- [ ] `explanation` · *student-facing* — United States
+- [ ] `choice D.explanation` · *teacher-facing* — United Nations
+
+### `US.91-GEN-03` (US.91) — 12 claim(s)
+*content hash* `57b90320a5ac3e44` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 2006-2008. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `explanation` · *student-facing* — …ed, the losses turned up in institutions that had never lent to a homeowner and could not say with co…
+
+**quantity** (6)
+- [ ] `stem` · *student-facing* — 2006
+- [ ] `stem` · *student-facing* — 2008
+- [ ] `choice A.text` · *student-facing* — 2008
+- [ ] `choice D.text` · *student-facing* — 700
+- [ ] `choice D.text` · *student-facing* — 2008
+- [ ] `choice D.explanation` · *teacher-facing* — 2008
+
+**superlative** (3)
+- [ ] `explanation` · *student-facing* — …the losses turned up in institutions that had never lent to a homeowner and could not say with co…
+- [ ] `choice A.text` · *student-facing* — …s filed for bankruptcy in September 2008, the largest such filing in American history
+- [ ] `choice C.text` · *student-facing* — … securities and sold on, so institutions that never lent to a homeowner were holding the risk
+
+**causal** (1)
+- [ ] `dokRationale` · *teacher-facing* — …same episode. Recalling that a housing crisis caused the recession is the DOK 1 version of this co…
+
+**named-entity** (1)
+- [ ] `stem` · *student-facing* — George W. Bush's
+
+### `US.93-GEN-01` (US.93) — 7 claim(s)
+*content hash* `3b57419df5ee1b25` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1990-1990. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (1)
+- [ ] `stem` · *student-facing* — 1990
+
+**superlative** (2)
+- [ ] `choice A.explanation` · *teacher-facing* — …e regulations treat a separate programme as a last resort rather than as compliance.
+- [ ] `choice C.text` · *student-facing* — That every public school write and review an individuali…
+
+**causal** (1)
+- [ ] `choice C.explanation` · *teacher-facing* — …routinely merged, and the distinction matters because one governs schooling and the other governs w…
+
+**named-entity** (3)
+- [ ] `stem` · *student-facing* — Disabilities Act
+- [ ] `choice B.explanation` · *teacher-facing* — Social Security
+- [ ] `choice C.explanation` · *teacher-facing* — Disabilities Education Act. The
+
+### `US.93-GEN-02` (US.93) — 17 claim(s)
+*content hash* `758ec4f6f7038cf5` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1964-1973. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (5)
+- [ ] `stem` · *student-facing* — 1972
+- [ ] `explanation` · *student-facing* — 1972
+- [ ] `choice D.text` · *student-facing* — 1964
+- [ ] `choice D.explanation` · *teacher-facing* — 504
+- [ ] `choice D.explanation` · *teacher-facing* — 1973
+
+**superlative** (1)
+- [ ] `explanation` · *student-facing* — …uence the standard is about: the courts moved first and Congress followed. Both 1972 decisions he…
+
+**causal** (2)
+- [ ] `explanation` · *student-facing* — …then wrote those two holdings into a statute, which is why the law reads as it does: a right to an educa…
+- [ ] `choice C.explanation` · *teacher-facing* — …ivate businesses required the commerce power, because the Fourteenth Amendment restrains states rat…
+
+**named-entity** (9)
+- [ ] `stem` · *student-facing* — Disabilities Education Act
+- [ ] `choice A.text` · *student-facing* — Fourteenth Amendment's
+- [ ] `choice B.text` · *student-facing* — Tenth Amendment
+- [ ] `choice C.text` · *student-facing* — Commerce Clause
+- [ ] `choice C.text` · *student-facing* — Disabilities Act
+- [ ] `choice C.explanation` · *teacher-facing* — Fourteenth Amendment
+- [ ] `choice C.explanation` · *teacher-facing* — Fourteenth Amendment
+- [ ] `choice D.text` · *student-facing* — Civil Rights Act
+- [ ] `choice D.explanation` · *teacher-facing* — Rehabilitation Act
+
+### `US.93-GEN-03` (US.93) — 18 claim(s)
+*content hash* `a37dda633a2083fe` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1920-2022. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `choice D.explanation` · *teacher-facing* — No such act passed in 2015; this was a court decision…
+
+**quantity** (5)
+- [ ] `stem` · *student-facing* — 2015
+- [ ] `choice C.explanation` · *teacher-facing* — 1920
+- [ ] `choice D.text` · *student-facing* — 2015
+- [ ] `choice D.explanation` · *teacher-facing* — 2015
+- [ ] `choice D.explanation` · *teacher-facing* — 2022
+
+**superlative** (2)
+- [ ] `explanation` · *student-facing* — …eached the licensing of marriages rather than only their recognition across state lines — which …
+- [ ] `choice C.explanation` · *teacher-facing* — A real amendment, ratified in 1920, and the only one that mentions sex. It governs voting and …
+
+**named-entity** (10)
+- [ ] `stem` · *student-facing* — Supreme Court
+- [ ] `explanation` · *student-facing* — Fourteenth Amendment
+- [ ] `choice A.text` · *student-facing* — Full Faith
+- [ ] `choice A.text` · *student-facing* — Credit Clause
+- [ ] `choice A.text` · *student-facing* — Article IV
+- [ ] `choice B.text` · *student-facing* — Fourteenth Amendment
+- [ ] `choice B.text` · *student-facing* — Due Process Clause
+- [ ] `choice B.text` · *student-facing* — Equal Protection Clause
+- [ ] `choice C.text` · *student-facing* — Nineteenth Amendment
+- [ ] `choice D.text` · *student-facing* — United States
+
+### `US.94-GEN-01` (US.94) — 13 claim(s)
+*content hash* `b29215bbafbfa4b1` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1965-2015. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `choice C.explanation` · *teacher-facing* — Standards were never federal to give back. States wrote their own …
+
+**quantity** (2)
+- [ ] `stem` · *student-facing* — 2015
+- [ ] `choice D.explanation` · *teacher-facing* — 1965
+
+**superlative** (6)
+- [ ] `stem` · *student-facing* — The Every Student Succeeds Act, signed in December 2015…
+- [ ] `choice B.text` · *student-facing* — …o test students in reading and mathematics at all
+- [ ] `choice B.explanation` · *teacher-facing* — …eported by student group — the newer law kept all of that and changed what is done with the res…
+- [ ] `choice C.text` · *student-facing* — …the earlier law had prescribed nationally for every state that took the funds
+- [ ] `choice C.explanation` · *teacher-facing* — Standards were never federal to give back. States wrote their own …
+- [ ] `choice C.misconception` · *teacher-facing* — …ity to the states that the federal government never held
+
+**causal** (1)
+- [ ] `choice C.explanation` · *teacher-facing* — …rote their own under the earlier law as well, which is why a proficient score meant different things in …
+
+**named-entity** (3)
+- [ ] `stem` · *student-facing* — Every Student Succeeds Act
+- [ ] `stem` · *student-facing* — No Child Left Behind
+- [ ] `explanation` · *student-facing* — Secretary of Education
+
+### `US.94-GEN-02` (US.94) — 12 claim(s)
+*content hash* `1517e9895cbfdf6e` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 2012-2017. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (4)
+- [ ] `stem` · *student-facing* — 2012
+- [ ] `choice A.explanation` · *teacher-facing* — 2017
+- [ ] `choice D.misconception` · *teacher-facing* — 2012
+- [ ] `choice D.misconception` · *teacher-facing* — 2015
+
+**superlative** (1)
+- [ ] `explanation` · *student-facing* — … stretch that far — but as a tax, because the only consequence of not complying was a payment co…
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — … declined to stretch that far — but as a tax, because the only consequence of not complying was a p…
+
+**named-entity** (6)
+- [ ] `stem` · *student-facing* — National Federation
+- [ ] `stem` · *student-facing* — Independent Business
+- [ ] `stem` · *student-facing* — Supreme Court
+- [ ] `stem` · *student-facing* — Affordable Care Act
+- [ ] `explanation` · *student-facing* — Chief Justice's
+- [ ] `choice B.text` · *student-facing* — Commerce Clause
+
+### `US.94-GEN-03` (US.94) — 16 claim(s)
+*content hash* `63c58ab90bdc8b65` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 2001-2015. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (8)
+- [ ] `stem` · *student-facing* — 2011
+- [ ] `stem` · *student-facing* — 2014
+- [ ] `explanation` · *student-facing* — 2014
+- [ ] `explanation` · *student-facing* — 2001
+- [ ] `explanation` · *student-facing* — 2002
+- [ ] `choice A.text` · *student-facing* — 2011
+- [ ] `choice A.explanation` · *teacher-facing* — 2014
+- [ ] `choice C.explanation` · *teacher-facing* — 2015
+
+**causal** (3)
+- [ ] `explanation` · *student-facing* — …that had run on ending the war returned to it because the state it had left behind could not hold t…
+- [ ] `choice A.misconception` · *teacher-facing* — … events three years apart as cause and effect because one preceded the other
+- [ ] `choice C.misconception` · *teacher-facing* — …ent signed after the event it is said to have caused
+
+**named-entity** (5)
+- [ ] `stem` · *student-facing* — Barack Obama’s
+- [ ] `stem` · *student-facing* — Middle East
+- [ ] `explanation` · *student-facing* — Islamic State
+- [ ] `choice B.text` · *student-facing* — Islamic State
+- [ ] `choice C.explanation` · *teacher-facing* — International Atomic Energy Agency
 
 ### `q-us2-dok4-cr2` (US.23) — 9 claim(s)
 *content hash* `de5dc1dc6d1b8caa` — if the item is edited after you sign, this changes and the review is stale.

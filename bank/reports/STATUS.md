@@ -10,36 +10,36 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 | Gate | Result | Scanned | Judged | Findings |
 |---|---|---|---|---|
-| `record-complete` | **FAIL** | 4036 | — | 3844 |
-| `binding` | **PASS** | 4036 | — | 0 |
-| `key-integrity` | **PASS** | 4036 | — | 0 |
-| `distractor-coverage` | **FAIL** | 4036 | 3894 | 22944 |
-| `truncation` | **FAIL** | 4036 | — | 91 |
-| `homoglyphs` | **PASS** | 4036 | — | 0 |
-| `blueprint-conformance` | **FAIL** | 2037 | — | 27 |
-| `blueprint-achievability` | **FAIL** | 2037 | 94 | 5 |
-| `key-position-debias` | **PASS** | 3841 | — | 0 |
-| `serveability` | **FAIL** | 3976 | — | 994 |
-| `reporting-category-provenance` | **PASS** | 4036 | — | 0 |
+| `record-complete` | **FAIL** | 4051 | — | 3844 |
+| `binding` | **PASS** | 4051 | — | 0 |
+| `key-integrity` | **PASS** | 4051 | — | 0 |
+| `distractor-coverage` | **FAIL** | 4051 | 3909 | 22944 |
+| `truncation` | **FAIL** | 4051 | — | 91 |
+| `homoglyphs` | **PASS** | 4051 | — | 0 |
+| `blueprint-conformance` | **FAIL** | 2052 | — | 27 |
+| `blueprint-achievability` | **PASS** | 2052 | 94 | 0 |
+| `key-position-debias` | **PASS** | 3856 | — | 0 |
+| `serveability` | **FAIL** | 3991 | — | 994 |
+| `reporting-category-provenance` | **PASS** | 4051 | — | 0 |
 | `signal-coverage` | **PASS** | 94 | 94 | 0 |
-| `alignment-claim` | **PASS** | 4036 | 3976 | 0 |
-| `choice-length-cue` | **FAIL** | 4036 | 3841 | 1 |
-| `duplicate-stems` | **PASS** | 4036 | 3976 | 0 |
-| `citation-integrity` | **PASS** | 4036 | 37 | 0 |
-| `translation-claim` | **PASS** | 4036 | 3493 | 0 |
-| `explanation-quality` | **FAIL** | 4036 | 3976 | 918 |
-| `embedded-answer-key` | **PASS** | 4036 | 3976 | 0 |
-| `review-provenance` | **FAIL** | 4036 | 27 | 3 |
-| `tcap-format` | **PASS** | 4036 | 3976 | 0 |
-| `rubric` | **FAIL** | 4036 | 100 | 17 |
-| `bias-review` | **FAIL** | 4036 | 3976 | 48 |
-| `key-contradiction` | **PASS** | 4036 | 3976 | 0 |
-| `ai-review-boundary` | **PASS** | 4036 | 132 | 0 |
-| `review-debt` | **PASS** | 4036 | 106 | 0 |
-| `misconception-taxonomy` | **FAIL** | 4036 | 210 | 14 |
-| `historian-qc` | **PASS** | 4036 | 61 | 0 |
-| `stimulus-integrity` | **FAIL** | 4036 | 111 | 111 |
-| `release-readiness` | **FAIL** | 3976 | — | 6 |
+| `alignment-claim` | **PASS** | 4051 | 3991 | 0 |
+| `choice-length-cue` | **FAIL** | 4051 | 3856 | 1 |
+| `duplicate-stems` | **PASS** | 4051 | 3991 | 0 |
+| `citation-integrity` | **PASS** | 4051 | 37 | 0 |
+| `translation-claim` | **PASS** | 4051 | 3508 | 0 |
+| `explanation-quality` | **FAIL** | 4051 | 3991 | 918 |
+| `embedded-answer-key` | **PASS** | 4051 | 3991 | 0 |
+| `review-provenance` | **FAIL** | 4051 | 27 | 3 |
+| `tcap-format` | **PASS** | 4051 | 3991 | 0 |
+| `rubric` | **FAIL** | 4051 | 100 | 17 |
+| `bias-review` | **FAIL** | 4051 | 3991 | 63 |
+| `key-contradiction` | **PASS** | 4051 | 3991 | 0 |
+| `ai-review-boundary` | **PASS** | 4051 | 132 | 0 |
+| `review-debt` | **PASS** | 4051 | 106 | 0 |
+| `misconception-taxonomy` | **FAIL** | 4051 | 255 | 14 |
+| `historian-qc` | **PASS** | 4051 | 76 | 0 |
+| `stimulus-integrity` | **FAIL** | 4051 | 111 | 111 |
+| `release-readiness` | **FAIL** | 3991 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 27 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 53240 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 5 | 0 |
@@ -111,17 +111,17 @@ BINDING — course: United States History and Geography (us-history-geography) �
 | `US-CORE/family-coverage` | **PASS** | 5 | 5 | 0 |
 | `all-gates-measured` | **PASS** | 99 | — | 0 |
 
-**81/100 pass.** Grade A requires all of them. "Close" is not "A."
+**82/100 pass.** Grade A requires all of them. "Close" is not "A."
 
 ## Bank
 
 - Source: **5,045** items from the 2026-27 `history-hack-web-app` bank
-- Servable: **3976** (3391 migrated, 511 provisional)
+- Servable: **3991** (3391 migrated, 511 provisional)
 - Quarantined (not servable, not coverage): **1059**
   - 929 — standard retired / no 2027-28 home
   - 130 — tests an element the 2027-28 standard dropped
-- Standards with a servable item: **92/94**
-- Standards receiving nothing: **2** — US.89, US.93
+- Standards with a servable item: **94/94**
+- Standards receiving nothing: **0** — 
 
 ## Forms
 

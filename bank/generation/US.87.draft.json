@@ -1,0 +1,187 @@
+{
+  "items": [
+    {
+      "id": "US.87-GEN-01",
+      "stem": "President Ronald Reagan’s appointment of Sandra Day O'Connor, confirmed by the Senate 99 to 0 in September 1981, was a first in American history. What was it?",
+      "stemEs": "El nombramiento de Sandra Day O'Connor por el presidente Ronald Reagan, confirmado por el Senado por 99 votos contra 0 en septiembre de 1981, fue un hecho sin precedentes en la historia estadounidense. ¿Cuál fue?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "She was the first woman to hold a seat in a president's cabinet",
+          "textEs": "Fue la primera mujer en ocupar un puesto en el gabinete de un presidente",
+          "explanation": "That was Frances Perkins, appointed Secretary of Labor by Franklin Roosevelt in 1933 and in office for twelve years. The cabinet barrier had fallen almost fifty years earlier.",
+          "misconception": "assigns a 1933 first to a 1981 appointment",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        },
+        {
+          "id": "B",
+          "text": "She was the first woman to serve as a judge on a federal court of appeals",
+          "textEs": "Fue la primera mujer en ejercer como jueza en un tribunal federal de apelaciones",
+          "explanation": "That was Florence Allen, appointed to the Sixth Circuit in 1934. O'Connor had been a state legislator and an Arizona state judge before her appointment, not a federal appellate one.",
+          "misconception": "mistakes the Supreme Court first for the federal appellate first that preceded it",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        },
+        {
+          "id": "C",
+          "text": "She was the first woman to serve on the Supreme Court of the United States",
+          "textEs": "Fue la primera mujer en integrar la Corte Suprema de Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "She was the first woman nominated to the Supreme Court whom the Senate declined to confirm",
+          "textEs": "Fue la primera mujer nominada a la Corte Suprema a quien el Senado se negó a confirmar",
+          "explanation": "The outcome was the opposite: the Senate confirmed her without a single vote against, and she sat for twenty-four years. The question's own figures say so.",
+          "misconception": "inverts the outcome of a vote the question states",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-15"
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Recall of what one appointment was the first instance of. The student retrieves a fact; no reasoning about how an administration's policies worked is involved. A DOK 2 item on this standard requires that reasoning.",
+      "standardCodes": [
+        "US.87"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The vote is part of the answer. A unanimous confirmation of a first-ever appointment records how little opposition the nomination itself drew, which is worth noticing beside the far closer Supreme Court votes of later decades.",
+      "explanationEs": "La votación es parte de la respuesta. Una confirmación unánime de un nombramiento sin precedentes registra la poca oposición que suscitó la designación en sí, algo que vale la pena advertir junto a las votaciones mucho más ajustadas de la Corte Suprema en décadas posteriores.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable"
+    },
+    {
+      "id": "US.87-GEN-02",
+      "stem": "The Strategic Defense Initiative, announced in March 1983, proposed a system to destroy ballistic missiles before they reached the United States. Critics argued it would weaken rather than strengthen deterrence. What was their reasoning?",
+      "stemEs": "La Iniciativa de Defensa Estratégica, anunciada en marzo de 1983, proponía un sistema para destruir misiles balísticos antes de que alcanzaran Estados Unidos. Los críticos sostenían que debilitaría la disuasión en lugar de reforzarla. ¿Cuál era su razonamiento?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It violated the Nuclear Non-Proliferation Treaty of 1968, which forbids its signatories from building defences against ballistic missiles of any kind",
+          "textEs": "Violaba el Tratado de No Proliferación Nuclear de 1968, que prohíbe a sus signatarios construir defensas de ningún tipo contra misiles balísticos",
+          "explanation": "The treaty is real and the United States is a party to it. It governs the spread of nuclear weapons to states that do not have them and says nothing about defences; the treaty that limited missile defences was the Anti-Ballistic Missile Treaty of 1972, and that objection was raised.",
+          "misconception": "names the wrong one of two real treaties, so the legal objection lands on nothing",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        {
+          "id": "B",
+          "text": "It required testing nuclear warheads in the atmosphere, which the Limited Test Ban Treaty of 1963 prohibited",
+          "textEs": "Exigía probar cabezas nucleares en la atmósfera, lo que el Tratado de Prohibición Parcial de Ensayos de 1963 prohíbía",
+          "explanation": "The treaty is real and does prohibit atmospheric testing. The initiative's research was in sensors, lasers and interceptors, and the objection in the question was about strategy rather than about any test the programme needed.",
+          "misconception": "answers with a real arms-control limit the programme did not run up against",
+          "distractorFunction": "right-answer-wrong-question"
+        },
+        {
+          "id": "C",
+          "text": "Its technology was never deployed, so the announcement could have had no effect on how either side planned",
+          "textEs": "Su tecnología nunca se desplegó, de modo que el anuncio no pudo tener ningún efecto en la planificación de ninguna de las dos partes",
+          "explanation": "The first half is true — no such shield was ever built. The announcement itself entered Soviet planning and the arms negotiations of the following years, which is why the debate in the question happened at all.",
+          "misconception": "reasons from a programme's outcome to the conclusion that its announcement did nothing",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "D",
+          "text": "Deterrence rested on each side remaining vulnerable to retaliation, so a working shield would remove the restraint on striking first",
+          "textEs": "La disuasión se basaba en que cada parte siguiera siendo vulnerable a la represalia, de modo que un escudo eficaz eliminaría el freno a atacar primero",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student must reason about how deterrence was understood to work and then see what a defensive system does to that logic. Recalling what the initiative proposed, or its nickname, is the DOK 1 version of this content.",
+      "standardCodes": [
+        "US.87"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Deterrence as both sides had built it rested on each remaining open to retaliation: whoever struck first would still be destroyed. A shield that worked would remove that certainty for the side that had it, which critics argued would make a first strike thinkable and would push the other side to build more warheads than any shield could stop. The system was funded and researched for years and was never deployed as described.",
+      "explanationEs": "La disuasión tal como ambas partes la habían construido se basaba en que cada una permaneciera expuesta a la represalia: quien atacara primero sería destruido igualmente. Un escudo que funcionara eliminaría esa certeza para quien lo tuviera, lo que, según los críticos, haría pensable un primer ataque y empujaría a la otra parte a construir más cabezas nucleares de las que cualquier escudo pudiera detener. El sistema se financió e investigó durante años y nunca se desplegó tal como se describió.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable"
+    },
+    {
+      "id": "US.87-GEN-03",
+      "stem": "Inflation in the United States fell from about 13 percent in 1980 to about 4 percent by 1983. Of the economic measures associated with President Ronald Reagan’s first years, which do economists most directly credit with that fall?",
+      "stemEs": "La inflación en Estados Unidos cayó de alrededor del 13 por ciento en 1980 a cerca del 4 por ciento en 1983. De las medidas económicas asociadas a los primeros años del presidente Ronald Reagan, ¿cuál consideran los economistas la causa más directa de esa caída?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Federal Reserve's very high interest rates, which brought on the recession of 1981 and 1982",
+          "textEs": "Las tasas de interés muy altas de la Reserva Federal, que provocaron la recesión de 1981 y 1982",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Economic Recovery Tax Act of 1981, which cut the top marginal income tax rate from 70 percent to 50 percent",
+          "textEs": "La Ley de Recuperación Económica Fiscal de 1981, que redujo la tasa marginal máxima del impuesto sobre la renta del 70 al 50 por ciento",
+          "explanation": "Real, correctly described, and the central measure of the administration's economic programme. It is credited with the expansion that began in 1983 and with the deficits that grew alongside it; bringing prices down was monetary policy's work.",
+          "misconception": "credits the period's signature tax law with an outcome monetary policy produced",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "C",
+          "text": "The deregulation of the airline and trucking industries, which lowered transport prices across the economy",
+          "textEs": "La desregulación de las industrias aerocomercial y del transporte por carretera, que redujo los precios del transporte en toda la economía",
+          "explanation": "Both industries were deregulated and prices did fall, which makes this a real contribution to the price level. Both laws were signed under President Carter, in 1978 and 1980, and their effect was too narrow to account for a nine-point fall in the general rate.",
+          "misconception": "attributes a predecessor's deregulation to this administration and overstates its reach",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        },
+        {
+          "id": "D",
+          "text": "The Tax Reform Act of 1986, which cut the top marginal rate again, to 28 percent, and broadened the tax base",
+          "textEs": "La Ley de Reforma Fiscal de 1986, que volvió a recortar la tasa marginal máxima, al 28 por ciento, y amplió la base tributaria",
+          "explanation": "Real and correctly described — and signed in 1986, three years after the inflation in the question had already come down. A measure cannot explain a change that preceded it.",
+          "misconception": "offers a 1986 law as the cause of a fall completed by 1983",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "Four real measures of the period are offered and the student must attach one outcome to the one that produced it, rather than to the one the period is named after. Recalling that inflation fell in the early 1980s is the DOK 1 version of this content.",
+      "standardCodes": [
+        "US.87"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The Federal Reserve raised interest rates to levels not seen before or since, which choked off borrowing and brought unemployment to 10.8 percent by late 1982 — the deliberate cost of ending the inflation. The tax cuts are credited with the expansion that followed from 1983, which is a different question from what brought prices down, and the two are routinely merged because they happened at the same time.",
+      "explanationEs": "La Reserva Federal elevó las tasas de interés a niveles no vistos antes ni después, lo que ahogó el crédito y llevó el desempleo al 10,8 por ciento a finales de 1982: el costo deliberado de acabar con la inflación. A los recortes de impuestos se les atribuye la expansión que siguió desde 1983, que es una pregunta distinta de qué hizo bajar los precios, y las dos se mezclan a menudo porque ocurrieron al mismo tiempo.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable"
+    }
+  ]
+}

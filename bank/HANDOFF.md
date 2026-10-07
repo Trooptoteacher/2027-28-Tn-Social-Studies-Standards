@@ -63,14 +63,14 @@ deleted; `quarantine/` is retention, not a bin.
 
 | | |
 |---|---|
-| servable | 3,976 |
-| aligned (counts toward coverage) | 2,037 |
+| servable | 3,991 |
+| aligned (counts toward coverage) | 2,052 |
 | quarantined, with stated reasons | 1,059 |
 | authored by Claude | 33 |
 | reviewed and approved by you | 19 |
 | **awaiting your review** | **5** |
 
-Alignment: 1,741 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
+Alignment: 1,756 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
 empty: every standard is judgeable — see §11.) **30 items are `held`** because their key
 explanation calls the key wrong — see §12.
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
@@ -226,7 +226,11 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
   `signal-coverage` gate discloses it on every run; `reports/form-readiness.csv` carries
   `identifyingSignals` and `weaklyIdentifiable` per standard.
   *This line used to read "19 standards below two signals; 9 by none" — see §11.*
-- **28 standards can fill no tier.** They need new items authored, not repairs.
+- **CLOSED 2026-10-07: every standard can now fill a tier.** This line read "28 standards
+  can fill no tier — they need new items authored, not repairs", and that was true when it
+  was written. 21 remained when the authoring runs began; 63 items were authored across
+  them and all 21 now reach at least `tcap-floor`. See §9 for what "buildable" does and
+  does not mean — it is a statement about SELECTION, not about passing a gate.
 - **No gate can check historical accuracy.** Every authored rationale is a claim. That is
   what `requiresHistorianReview` is for — and until 2026-10-07 nothing listed WHAT to check.
   `tools/historian_qc.py` now turns "review this item" into "confirm these assertions":
@@ -237,7 +241,7 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
   current. **It verifies no history and affirms nothing.** The `historian-qc` gate checks
   the QUEUE, never the history: every queued item has a record, no record is stale. A
   non-empty queue is not a finding; an EMPTY one is, because the flag has stopped being
-  set. Current: **61 items, 819 claims, 7 flags**, every flag a negative claim in my own
+  set. Current: **76 items, 1,058 claims, 10 flags**, every flag a negative claim in my own
   writing. **The heading has now earned its place three times**, and every finding was an
   UNQUALIFIED negative rather than a false one — which is the shape worth recognising,
   because each sentence was true of the thing it was about and wrong about everything
@@ -337,17 +341,29 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**89 of 94 standards can build a form. 4,196 authoring units to green them all.**
-Cheapest next: US.77 (12) · US.82 (21) · US.33 (22) · US.31 (32) · US.59 (33).
+**94 of 94 standards can build a form. 4,236 authoring units to green them all.**
+The gap is closed — every standard in the course can now have a form selected for it.
+Cheapest next: US.91 (13) · US.82 (21) · US.33 (22) · US.94 (27) · US.31 (32).
 
-*The total ROSE by 33 on 2026-10-07, and that is the invoice working rather than a
-regression. US.77 and US.82 had six and seven pre-existing aligned items between them,
-carrying migrated debt no invoice line could see while neither standard could fill a form:
-a standard with no selection has no cost. Authoring three items each made both buildable,
-their selections now reach those migrated items, and the debt became visible — US.82 at
-**21** (nine distractor rationales, nine taxonomy tags, three DOK rationales) and US.77 at
-**12**, which includes one `stimulusDebt` unit that authoring cannot discharge. The twelve
-items authored today cost nothing; what they did was stop hiding something.*
+*Closed 2026-10-07. It stood at **73** when the authoring runs began and the 21 standards
+that could not fill a form needed items written, not repairs. **Twenty-one standards × three
+items** — 63 authored items, every one of them through the full admission gate set, none
+admitted on a second attempt without the finding being fixed in the draft.*
+
+*⚠️ "Buildable" means a form can be SELECTED, not that it would pass. The three HELD stages
+of `run_all.sh` are unchanged and the release gate is Grade A only: no form may be described
+as shippable, and nothing here has been field-tested. What closed is the gap that made a
+standard impossible to assess at all.*
+
+*The total ROSE as this closed — 4,163 → 4,196 → 4,236 — and that is the invoice working
+rather than a regression. US.77, US.82, US.91 and US.94 carried pre-existing aligned items
+whose migrated debt no invoice line could see while those standards could not fill a form:
+**a standard with no selection has no cost.** Authoring three items each made them
+buildable, their selections now reach those migrated items, and the debt became visible —
+US.94 at **27**, US.82 at **21**, US.91 at **13**, US.77 at **12** (including one
+`stimulusDebt` unit authoring cannot discharge). The 63 authored items cost **zero** between
+them; the +73 is entirely debt that was always there. Seventeen of the 21 standards had no
+pre-existing aligned items to inherit, and all seventeen read 0.*
 
 *That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither
 move was a re-estimate. The invoice had been carrying private copies of three rules the
