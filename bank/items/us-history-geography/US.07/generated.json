@@ -1,0 +1,213 @@
+{
+  "items": [
+    {
+      "id": "US.07-GEN-01",
+      "stem": "Which station processed most European immigrants arriving in New York after 1892?",
+      "stemEs": "¿Qué estación procesaba a la mayoría de los inmigrantes europeos que llegaban a Nueva York después de 1892?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ellis Island, in New York Harbor",
+          "textEs": "Ellis Island, en el puerto de Nueva York",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "Castle Garden, the earlier station at the tip of Manhattan",
+          "textEs": "Castle Garden, la estación anterior en la punta de Manhattan",
+          "explanation": "Castle Garden was the real station before this one, handling arrivals from 1855 until Ellis Island replaced it in 1892. The date in the question is the dividing line between them.",
+          "misconception": "keeps the earlier New York station working past the year Ellis Island replaced it",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        },
+        {
+          "id": "C",
+          "text": "Angel Island, the station in San Francisco Bay",
+          "textEs": "Angel Island, la estación en la bahía de San Francisco",
+          "explanation": "Angel Island was a real immigration station, on the Pacific coast, and it opened in 1910 to receive arrivals from Asia. Two stations are easy to merge; the ocean between them is the difference.",
+          "misconception": "merges the two immigration stations and puts European arrivals on the Pacific coast",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        {
+          "id": "D",
+          "text": "The port of New Orleans on the Gulf coast",
+          "textEs": "El puerto de Nueva Orleans en la costa del Golfo",
+          "explanation": "New Orleans did receive immigrants, including a sizeable Italian arrival, but in numbers that were small beside New York's. A real port of entry is being treated as the main one.",
+          "misconception": "scales a secondary port of entry up into the principal one",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-03"
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "The student retrieves which station served New York after 1892. No comparison or inference is required, so this is recall.",
+      "standardCodes": [
+        "US.07"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Ellis Island opened in 1892 and became the main federal entry point on the Atlantic, taking over from Castle Garden. Roughly twelve million people were inspected there before it closed, and most of them were the southern and eastern Europeans the period called the \"new\" immigrants.",
+      "explanationEs": "Ellis Island abrió en 1892 y se convirtió en el principal punto federal de entrada en el Atlántico, sustituyendo a Castle Garden. Allí fueron inspeccionados unos doce millones de personas antes de su cierre, y la mayoría eran los europeos del sur y del este a quienes la época llamaba los \"nuevos\" inmigrantes.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.07.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.07-GEN-02",
+      "stem": "Why were Chinese arrivals at Angel Island often held for weeks or months when most Europeans at Ellis Island passed through in hours?",
+      "stemEs": "¿Por qué los llegados chinos a Angel Island solían ser retenidos semanas o meses cuando la mayoría de los europeos en Ellis Island pasaban en pocas horas?",
+      "itemType": "mcq",
+      "correctAnswer": "C",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Angel Island opened in 1910, eighteen years after Ellis Island",
+          "textEs": "Angel Island abrió en 1910, dieciocho años después de Ellis Island",
+          "explanation": "Both dates are right. A later opening does not explain why the people who passed through were treated differently, and the question asks about the treatment.",
+          "misconception": "answers with a true date rather than with the reason for the difference",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "B",
+          "text": "First- and second-class passengers were inspected aboard ship rather than on shore",
+          "textEs": "Los pasajeros de primera y segunda clase eran inspeccionados a bordo del barco y no en tierra",
+          "explanation": "True, and it explains why many better-off Europeans never set foot in the station at all. It answers who skipped inspection, not why those who were inspected faced different rules.",
+          "misconception": "answers who avoided the station rather than why the inspections differed",
+          "distractorFunction": "right-answer-wrong-question"
+        },
+        {
+          "id": "C",
+          "text": "Exclusion laws required proof of a right Europeans never had to show",
+          "textEs": "Las leyes de exclusión exigían probar un derecho que los europeos nunca tuvieron que demostrar",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "D",
+          "text": "The national-origins quotas of 1924 set a low ceiling on Chinese entry",
+          "textEs": "Las cuotas de orígenes nacionales de 1924 fijaron un límite bajo a la entrada china",
+          "explanation": "The 1924 quotas were real and severe, and they came fourteen years after Angel Island opened. They cannot account for detentions that were already routine in 1910.",
+          "misconception": "explains a practice with a law passed well after the practice began",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student has to connect a legal regime to a difference in experience at two stations. Naming Angel Island as a place of detention would be recall; explaining why the detention fell on one group is a relationship.",
+      "standardCodes": [
+        "US.07"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "Under the Chinese Exclusion Act and the laws that followed it, a Chinese arrival had to establish a right to enter — usually by proving a family relationship — and officials tested those claims with long interrogations about villages and households. A European arrival faced a medical check and a short set of questions, because no law required the same proof.",
+      "explanationEs": "Bajo la Ley de Exclusión China y las leyes posteriores, quien llegaba desde China debía demostrar un derecho a entrar, por lo general probando un parentesco, y los funcionarios ponían a prueba esas afirmaciones con largos interrogatorios sobre aldeas y hogares. Un europeo que llegaba se enfrentaba a un examen médico y a unas pocas preguntas, porque ninguna ley le exigía esa prueba.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.07.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.07-GEN-03",
+      "stem": "After passing through Ellis Island, why did so many \"new\" immigrants settle in ethnic clusters in the same few cities?",
+      "stemEs": "Tras pasar por Ellis Island, ¿por qué tantos \"nuevos\" inmigrantes se asentaron en barrios étnicos de unas pocas ciudades?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They were following Chinese arrivals who had settled in Chinatowns",
+          "textEs": "Seguían a los llegados chinos que se habían asentado en los barrios chinos",
+          "explanation": "Chinatowns were real and were established earlier, mostly on the Pacific coast. They are a separate migration with its own causes, not the reason Italian or Polish arrivals gathered in Eastern cities.",
+          "misconception": "merges two distinct migrations and makes one the cause of the other",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        {
+          "id": "B",
+          "text": "Countrymen already there offered lodging, work and a shared language",
+          "textEs": "Los paisanos que ya estaban allí ofrecían alojamiento, trabajo y una lengua común",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "The best Homestead Act land had largely been claimed by 1900",
+          "textEs": "Las mejores tierras de la Ley de Asentamientos Rurales ya estaban reclamadas hacia 1900",
+          "explanation": "Largely true, and it helps explain why fewer arrivals went west than in earlier decades. It accounts for where they did not go rather than for why they gathered together where they did.",
+          "misconception": "explains why they avoided the West rather than why they clustered",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "D",
+          "text": "The Great Migration had already filled Northern cities with new workers",
+          "textEs": "La Gran Migración ya había llenado las ciudades del Norte de nuevos trabajadores",
+          "explanation": "The Great Migration of Black Southerners northward gathered pace after 1916, while this European arrival peaked before the First World War. The two movements overlapped later; this one came first.",
+          "misconception": "places the Great Migration ahead of the immigration wave it followed",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student has to weigh several real conditions and pick the one that explains clustering rather than merely accompanying it. Naming an ethnic neighbourhood would be recall; explaining why it forms is a relationship.",
+      "standardCodes": [
+        "US.07"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "An arrival with little money and no English needed a room the first night and work the first week, and the people who could supply both were the ones who had come from the same town or province. Each wave of arrivals made the next one easier, which is why the clusters grew where they did rather than spreading evenly.",
+      "explanationEs": "Quien llegaba con poco dinero y sin inglés necesitaba una habitación la primera noche y trabajo la primera semana, y quienes podían proporcionar ambas cosas eran los que habían venido del mismo pueblo o de la misma provincia. Cada oleada de llegadas facilitaba la siguiente, y por eso los barrios crecieron donde lo hicieron en lugar de repartirse de manera uniforme.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.07.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    }
+  ],
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.07",
+  "status": "authored",
+  "disclosure": "classroom-formative · pre-field-test"
+}

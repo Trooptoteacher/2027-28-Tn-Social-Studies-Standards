@@ -286,6 +286,83 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - [ ] `choice C.text` · *student-facing* — Indian Service
 - [ ] `choice D.text` · *student-facing* — United States
 
+### `US.07-GEN-01` (US.07) — 16 claim(s)
+*content hash* `a20637d0ceab0e56` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1855-1910; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (6)
+- [ ] `stem` · *student-facing* — 1892
+- [ ] `explanation` · *student-facing* — 1892
+- [ ] `dokRationale` · *teacher-facing* — 1892
+- [ ] `choice B.explanation` · *teacher-facing* — 1855
+- [ ] `choice B.explanation` · *teacher-facing* — 1892
+- [ ] `choice C.explanation` · *teacher-facing* — 1910
+
+**named-entity** (10)
+- [ ] `stem` · *student-facing* — New York
+- [ ] `explanation` · *student-facing* — Castle Garden. Roughly
+- [ ] `dokRationale` · *teacher-facing* — New York
+- [ ] `choice A.text` · *student-facing* — New York Harbor
+- [ ] `choice B.explanation` · *teacher-facing* — Ellis Island
+- [ ] `choice B.misconception` · *teacher-facing* — New York
+- [ ] `choice B.misconception` · *teacher-facing* — Ellis Island
+- [ ] `choice C.text` · *student-facing* — San Francisco Bay
+- [ ] `choice D.text` · *student-facing* — New Orleans
+- [ ] `choice D.explanation` · *teacher-facing* — New York's
+
+### `US.07-GEN-02` (US.07) — 15 claim(s)
+*content hash* `79ded98d1824c485` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1910-1924; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (4)
+- [ ] `choice A.text` · *student-facing* — 1910
+- [ ] `choice D.text` · *student-facing* — 1924
+- [ ] `choice D.explanation` · *teacher-facing* — 1924
+- [ ] `choice D.explanation` · *teacher-facing* — 1910
+
+**superlative** (4)
+- [ ] `choice B.text` · *student-facing* — First- and second-class passengers were inspected a…
+- [ ] `choice B.explanation` · *teacher-facing* — …and it explains why many better-off Europeans never set foot in the station at all. It answers wh…
+- [ ] `choice B.explanation` · *teacher-facing* — …ff Europeans never set foot in the station at all. It answers who skipped inspection, not why t…
+- [ ] `choice C.text` · *student-facing* — …sion laws required proof of a right Europeans never had to show
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …a medical check and a short set of questions, because no law required the same proof.
+
+**named-entity** (6)
+- [ ] `stem` · *student-facing* — Angel Island
+- [ ] `stem` · *student-facing* — Ellis Island
+- [ ] `explanation` · *student-facing* — Chinese Exclusion Act
+- [ ] `dokRationale` · *teacher-facing* — Angel Island
+- [ ] `choice A.text` · *student-facing* — Ellis Island
+- [ ] `choice D.explanation` · *teacher-facing* — Angel Island
+
+### `US.07-GEN-03` (US.07) — 14 claim(s)
+*content hash* `a02fac29f51d0af6` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1900-1916; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (2)
+- [ ] `choice C.text` · *student-facing* — 1900
+- [ ] `choice D.explanation` · *teacher-facing* — 1916
+
+**superlative** (4)
+- [ ] `explanation` · *student-facing* — …little money and no English needed a room the first night and work the first week, and the people…
+- [ ] `explanation` · *student-facing* — …sh needed a room the first night and work the first week, and the people who could supply both we…
+- [ ] `choice D.explanation` · *teacher-facing* — …while this European arrival peaked before the First World War. The two movements overlapped later…
+- [ ] `choice D.explanation` · *teacher-facing* — …two movements overlapped later; this one came first.
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …ch wave of arrivals made the next one easier, which is why the clusters grew where they did rather than …
+
+**named-entity** (7)
+- [ ] `stem` · *student-facing* — Ellis Island
+- [ ] `choice C.text` · *student-facing* — Homestead Act
+- [ ] `choice D.text` · *student-facing* — Great Migration
+- [ ] `choice D.explanation` · *teacher-facing* — Great Migration
+- [ ] `choice D.explanation` · *teacher-facing* — Black Southerners
+- [ ] `choice D.explanation` · *teacher-facing* — First World War. The
+- [ ] `choice D.misconception` · *teacher-facing* — Great Migration
+
 ### `q-us2-dok4-cr2` (US.23) — 9 claim(s)
 *content hash* `de5dc1dc6d1b8caa` — if the item is edited after you sign, this changes and the review is stale.
 

@@ -63,14 +63,14 @@ deleted; `quarantine/` is retention, not a bin.
 
 | | |
 |---|---|
-| servable | 3,934 |
-| aligned (counts toward coverage) | 1,995 |
+| servable | 3,937 |
+| aligned (counts toward coverage) | 1,998 |
 | quarantined, with stated reasons | 1,059 |
-| authored by Claude | 30 |
+| authored by Claude | 33 |
 | reviewed and approved by you | 19 |
 | **awaiting your review** | **5** |
 
-Alignment: 1,699 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
+Alignment: 1,702 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
 empty: every standard is judgeable — see §11.) **30 items are `held`** because their key
 explanation calls the key wrong — see §12.
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
@@ -250,13 +250,29 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
 
 ## 8. Standard-first generation — the answer to "repair or rebuild"
 
-**US.01 and US.03 are the proof, measured 2026-10-05/07: each arrived BUILDABLE AT ZERO
-AUTHORING DEBT.**
-Every line of the invoice — distractor rationales, the two taxonomy axes, DOK rationales,
-both translations, explanation quality, choice balance — reads 0, because standard-first
-authoring satisfies them on the way in rather than being repaired into them afterwards.
-The bank total did not move (4,126): the work was never owed. Compare the cheapest
-*repair* standard at 22 units.
+**STANDARD-FIRST ITEMS ARRIVE AT ZERO AUTHORING DEBT. STANDARD-FIRST *STANDARDS* DO NOT,
+AND US.07 IS WHY THE DISTINCTION MATTERS.**
+
+Measured 2026-10-05/07. Every item authored from the standard reads 0 on every line of the
+invoice — distractor rationales, both taxonomy axes, DOK rationales, both translations,
+explanation quality, choice balance — because the work is satisfied on the way in rather
+than repaired into place afterwards. That held for all nine items across US.01, US.03 and
+US.07.
+
+| standard | aligned before | tier | units | why |
+|---|---|---|---|---|
+| US.01 | 0 | tcap-floor | **0** | the whole selection is authored |
+| US.03 | 0 | tcap-floor | **0** | the whole selection is authored |
+| US.07 | **4** | tcap-short | **37** | selection is 3 migrated items at 12 each + 1 of mine at 0 |
+
+**And authoring can RAISE a standard's bill.** US.07 had four migrated items and could not
+fill a tier, so it was excluded from the invoice altogether. Three authored items took it to
+seven aligned, which reaches the four-slot `tcap-short` — and the extra slots pulled in three
+debt-carrying migrated items. The bank total went **4,126 → 4,163**. Nothing got worse; a
+debt that was already there became visible and payable, which is the invoice doing its job.
+
+So: **compare an authored item against the cheapest repair standard (22 units), never an
+authored STANDARD against zero.** The gain is real and it is per item, not per standard.
 
 
 The old bank was written **item-first** and filed against standards afterward. That is why
@@ -293,7 +309,7 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**75 of 94 standards can build a form. 4,126 authoring units to green them all.**
+**76 of 94 standards can build a form. 4,163 authoring units to green them all.**
 Cheapest next: US.33 (22) · US.31 (32) · US.60 (33) · US.02 (35) · US.59 (38).
 
 *That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither

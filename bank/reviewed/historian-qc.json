@@ -1375,6 +1375,407 @@
       ]
     },
     {
+      "itemId": "US.07-GEN-01",
+      "standard": "US.07",
+      "contentHash": "a20637d0ceab0e56",
+      "claimCount": 16,
+      "byKind": {
+        "quantity": 6,
+        "named-entity": 10
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1855-1910; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1855,
+            1892,
+            1910
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1892",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "New York",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1892",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Castle Garden. Roughly",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "dokRationale",
+          "audience": "teacher",
+          "quote": "1892",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "dokRationale",
+          "audience": "teacher",
+          "quote": "New York",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "New York Harbor",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1855",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1892",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "Ellis Island",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "New York",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "Ellis Island",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "San Francisco Bay",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1910",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "New Orleans",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "New York's",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.07-GEN-02",
+      "standard": "US.07",
+      "contentHash": "79ded98d1824c485",
+      "claimCount": 15,
+      "byKind": {
+        "named-entity": 6,
+        "causal": 1,
+        "quantity": 4,
+        "superlative": 4
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1910-1924; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1910,
+            1924
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Angel Island",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Ellis Island",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "causal",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…a medical check and a short set of questions, because no law required the same proof.",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Chinese Exclusion Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "dokRationale",
+          "audience": "teacher",
+          "quote": "Angel Island",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "1910",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "Ellis Island",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "First- and second-class passengers were inspected a…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "…and it explains why many better-off Europeans never set foot in the station at all. It answers wh…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "…ff Europeans never set foot in the station at all. It answers who skipped inspection, not why t…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "…sion laws required proof of a right Europeans never had to show",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "1924",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1924",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1910",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "Angel Island",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.07-GEN-03",
+      "standard": "US.07",
+      "contentHash": "a02fac29f51d0af6",
+      "claimCount": 14,
+      "byKind": {
+        "named-entity": 7,
+        "superlative": 4,
+        "causal": 1,
+        "quantity": 2
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1900-1916; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1900,
+            1916
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Ellis Island",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "superlative",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…little money and no English needed a room the first night and work the first week, and the people…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…sh needed a room the first night and work the first week, and the people who could supply both we…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "causal",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "…ch wave of arrivals made the next one easier, which is why the clusters grew where they did rather than …",
+          "why": "a causal claim can be wrong while every fact in it is right."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "1900",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "Homestead Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Great Migration",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1916",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "…while this European arrival peaked before the First World War. The two movements overlapped later…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "…two movements overlapped later; this one came first.",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "Great Migration",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "Black Southerners",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "First World War. The",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.misconception",
+          "audience": "teacher",
+          "quote": "Great Migration",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
       "itemId": "q-us2-dok4-cr2",
       "standard": "US.23",
       "contentHash": "de5dc1dc6d1b8caa",
