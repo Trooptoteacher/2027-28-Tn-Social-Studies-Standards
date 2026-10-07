@@ -6,7 +6,7 @@
 Why this exists
 ---------------
 Every file in this repository is derived from one PDF, and every downstream
-claim — 1,012 standards parsed verbatim, a crosswalk naming 416 colliding
+claim — 1,012 standards parsed verbatim, a crosswalk naming 413 colliding
 codes, the standards synced into the web app under a sha256 pin — rests on that
 PDF being the document Sean supplied on 2026-08-28.
 
