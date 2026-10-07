@@ -363,6 +363,69 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - [ ] `choice D.explanation` · *teacher-facing* — First World War. The
 - [ ] `choice D.misconception` · *teacher-facing* — Great Migration
 
+### `US.10-GEN-01` (US.10) — 8 claim(s)
+*content hash* `6f0767bcc2b40f5b` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1907-1924; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (4)
+- [ ] `stem` · *student-facing* — 1907
+- [ ] `choice A.explanation` · *teacher-facing* — 1924
+- [ ] `choice A.explanation` · *teacher-facing* — 1907
+- [ ] `choice C.explanation` · *teacher-facing* — 1917
+
+**superlative** (1)
+- [ ] `explanation` · *student-facing* — The arrangement was informal and never went to the Senate, which is what distinguish…
+
+**named-entity** (3)
+- [ ] `choice A.explanation` · *teacher-facing* — Immigration Act
+- [ ] `choice D.explanation` · *teacher-facing* — United States
+- [ ] `choice D.misconception` · *teacher-facing* — United States
+
+### `US.10-GEN-02` (US.10) — 14 claim(s)
+*content hash* `534a9d5b803aa575` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1882-1907; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (7)
+- [ ] `explanation` · *student-facing* — 1882
+- [ ] `explanation` · *student-facing* — 1907
+- [ ] `choice B.text` · *student-facing* — 1889
+- [ ] `choice B.explanation` · *teacher-facing* — 1889
+- [ ] `choice B.misconception` · *teacher-facing* — 1889
+- [ ] `choice D.text` · *student-facing* — 1882
+- [ ] `choice D.explanation` · *teacher-facing* — 1882
+
+**superlative** (3)
+- [ ] `choice D.text` · *student-facing* — Congress had already barred all Asian immigration in the 1882 Act
+- [ ] `choice D.explanation` · *teacher-facing* — The 1882 Act reached Chinese labourers, not all Asians, and it left merchants, students and d…
+- [ ] `choice D.misconception` · *teacher-facing* — … law aimed at Chinese labourers into a bar on all Asian immigration
+
+**named-entity** (4)
+- [ ] `stem` · *student-facing* — United States
+- [ ] `stem` · *student-facing* — Chinese Exclusion Act
+- [ ] `choice B.text` · *student-facing* — Supreme Court
+- [ ] `choice B.text` · *student-facing* — Chinese Exclusion Act
+
+### `US.10-GEN-03` (US.10) — 11 claim(s)
+*content hash* `6d3b151e7552d63c` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1887-1924; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (7)
+- [ ] `stem` · *student-facing* — 1917
+- [ ] `explanation` · *student-facing* — 1917
+- [ ] `choice A.explanation` · *teacher-facing* — 1921
+- [ ] `choice A.explanation` · *teacher-facing* — 1924
+- [ ] `choice B.explanation` · *teacher-facing* — 1887
+- [ ] `choice C.explanation` · *teacher-facing* — 1913
+- [ ] `choice D.text` · *student-facing* — 1917
+
+**superlative** (1)
+- [ ] `choice A.explanation` · *teacher-facing* — …24 — a generation after the 1890s. Before the First World War no quota system existed.
+
+**named-entity** (3)
+- [ ] `stem` · *student-facing* — Chinese Exclusion Act
+- [ ] `choice A.explanation` · *teacher-facing* — First World War
+- [ ] `choice B.text` · *student-facing* — American Protective Association's
+
 ### `q-us2-dok4-cr2` (US.23) — 9 claim(s)
 *content hash* `de5dc1dc6d1b8caa` — if the item is edited after you sign, this changes and the review is stale.
 

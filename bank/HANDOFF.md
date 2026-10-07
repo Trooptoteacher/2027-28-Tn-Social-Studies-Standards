@@ -63,14 +63,14 @@ deleted; `quarantine/` is retention, not a bin.
 
 | | |
 |---|---|
-| servable | 3,937 |
-| aligned (counts toward coverage) | 1,998 |
+| servable | 3,940 |
+| aligned (counts toward coverage) | 2,001 |
 | quarantined, with stated reasons | 1,059 |
 | authored by Claude | 33 |
 | reviewed and approved by you | 19 |
 | **awaiting your review** | **5** |
 
-Alignment: 1,702 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
+Alignment: 1,705 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
 empty: every standard is judgeable — see §11.) **30 items are `held`** because their key
 explanation calls the key wrong — see §12.
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
@@ -237,7 +237,7 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
   current. **It verifies no history and affirms nothing.** The `historian-qc` gate checks
   the QUEUE, never the history: every queued item has a record, no record is stale. A
   non-empty queue is not a finding; an EMPTY one is, because the flag has stopped being
-  set. Current: **16 items, 188 claims, 1 flag** — a negative claim in my own writing,
+  set. Current: **25 items, 287 claims, 1 flag** — a negative claim in my own writing,
   confirmed true on inspection. An `outside-declared-era` check sat beside it until its
   first run flagged five items and **all five were correct history**: a standard's `era`
   is where TDOE PLACES it in the course, not a boundary on its content (US.01 reads
@@ -309,8 +309,8 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**76 of 94 standards can build a form. 4,163 authoring units to green them all.**
-Cheapest next: US.33 (22) · US.31 (32) · US.60 (33) · US.02 (35) · US.59 (38).
+**77 of 94 standards can build a form. 4,163 authoring units to green them all.**
+Cheapest next: US.33 (22) · US.31 (32) · US.59 (33) · US.02 (35) · US.07 (37).
 
 *That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither
 move was a re-estimate. The invoice had been carrying private copies of three rules the

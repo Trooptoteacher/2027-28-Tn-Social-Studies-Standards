@@ -1776,6 +1776,326 @@
       ]
     },
     {
+      "itemId": "US.10-GEN-01",
+      "standard": "US.10",
+      "contentHash": "6f0767bcc2b40f5b",
+      "claimCount": 8,
+      "byKind": {
+        "quantity": 4,
+        "superlative": 1,
+        "named-entity": 3
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1907-1924; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1907,
+            1917,
+            1924
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1907",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "The arrangement was informal and never went to the Senate, which is what distinguish…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1924",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1907",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "Immigration Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1917",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "United States",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice D.misconception",
+          "audience": "teacher",
+          "quote": "United States",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.10-GEN-02",
+      "standard": "US.10",
+      "contentHash": "534a9d5b803aa575",
+      "claimCount": 14,
+      "byKind": {
+        "named-entity": 4,
+        "quantity": 7,
+        "superlative": 3
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1882-1907; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1882,
+            1889,
+            1907
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "United States",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Chinese Exclusion Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1882",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1907",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "1889",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "Supreme Court",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "Chinese Exclusion Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1889",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "1889",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "1882",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "Congress had already barred all Asian immigration in the 1882 Act",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1882",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "The 1882 Act reached Chinese labourers, not all Asians, and it left merchants, students and d…",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice D.misconception",
+          "audience": "teacher",
+          "quote": "… law aimed at Chinese labourers into a bar on all Asian immigration",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        }
+      ]
+    },
+    {
+      "itemId": "US.10-GEN-03",
+      "standard": "US.10",
+      "contentHash": "6d3b151e7552d63c",
+      "claimCount": 11,
+      "byKind": {
+        "quantity": 7,
+        "named-entity": 3,
+        "superlative": 1
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1887-1924; the standard is placed in the era 1877-1900 (cluster 'Gilded Age'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1887,
+            1913,
+            1917,
+            1921,
+            1924
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1917",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "Chinese Exclusion Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "1917",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1921",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1924",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "superlative",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "…24 — a generation after the 1890s. Before the First World War no quota system existed.",
+          "why": "one counterexample falsifies it. 'first', 'only' and 'never' are the words most often wrong in an otherwise sound sentence."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "First World War",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.text",
+          "audience": "student",
+          "quote": "American Protective Association's",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1887",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1913",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.text",
+          "audience": "student",
+          "quote": "1917",
+          "why": "a figure is either right or wrong."
+        }
+      ]
+    },
+    {
       "itemId": "q-us2-dok4-cr2",
       "standard": "US.23",
       "contentHash": "de5dc1dc6d1b8caa",
