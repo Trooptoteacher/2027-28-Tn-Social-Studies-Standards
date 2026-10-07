@@ -28,6 +28,10 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - **unreviewed-negative-claim** — choice D.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > …ary intelligence and the War Department; NASA did not exist until 1958, thirteen years later, and was cre…
 
+### `US.82-GEN-02` (US.82)
+- **unreviewed-negative-claim** — choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
+  - > …und four hundred thousand arrived, the fences were never finished and it became a free festival; the c…
+
 ### `q-us45-dok1-1` (US.46)
 - **unreviewed-negative-claim** — choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > …nty-first Amendment in December 1933 — and it was never one of the programme's three aims.
@@ -1159,6 +1163,238 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - [ ] `stem` · *student-facing* — United States
 - [ ] `stem` · *student-facing* — Soviet Union
 - [ ] `choice D.explanation` · *teacher-facing* — National Science Foundation
+
+### `US.75-GEN-01` (US.75) — 9 claim(s)
+*content hash* `f5f2d1c1e8d8c234` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1955-1955. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (2)
+- [ ] `stem` · *student-facing* — 1955
+- [ ] `choice A.explanation` · *teacher-facing* — 1955
+
+**causal** (2)
+- [ ] `choice C.text` · *student-facing* — She insisted on an open casket, so that the condition of the body could be seen and p…
+- [ ] `choice D.text` · *student-facing* — She had the funeral held in Mississippi, so that local people would be made to confront what h…
+
+**named-entity** (5)
+- [ ] `stem` · *student-facing* — Mamie Till-Mobley
+- [ ] `stem` · *student-facing* — Civil Rights Movement. What
+- [ ] `explanation` · *student-facing* — Chicago Defender
+- [ ] `choice B.text` · *student-facing* — National Association
+- [ ] `choice B.text` · *student-facing* — Advancement of Colored People
+
+### `US.75-GEN-02` (US.75) — 10 claim(s)
+*content hash* `041aae92841c6e85` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1955-1956. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (2)
+- [ ] `stem` · *student-facing* — 1955
+- [ ] `choice C.text` · *student-facing* — 1956
+
+**superlative** (4)
+- [ ] `stem` · *student-facing* — … Emmett Till's body in September 1955, and an all-white jury in Sumner, Mississippi acquitted t…
+- [ ] `explanation` · *student-facing* — …otograph is neither. The acquittal closed the only forum that could have punished the killers, a…
+- [ ] `dokRationale` · *teacher-facing* — …ence and a local acquittal — and say what the first could do that the second could not undo. Reca…
+- [ ] `choice A.text` · *student-facing* — …thern newspapers did not report the trial, so only the Northern press carried the story to the p…
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — … opened one the county had no authority over, which is why the case kept working after the law had finis…
+
+**named-entity** (3)
+- [ ] `stem` · *student-facing* — Emmett Till's
+- [ ] `stem` · *student-facing* — Civil Rights Movement
+- [ ] `choice B.text` · *student-facing* — Emmett Till
+
+### `US.75-GEN-03` (US.75) — 15 claim(s)
+*content hash* `f1a485c6ea46662a` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1954-2022. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (6)
+- [ ] `choice A.explanation` · *teacher-facing* — 1954
+- [ ] `choice C.text` · *student-facing* — 1957
+- [ ] `choice C.explanation` · *teacher-facing* — 1957
+- [ ] `choice C.explanation` · *teacher-facing* — 2022
+- [ ] `choice C.misconception` · *teacher-facing* — 1957
+- [ ] `choice D.explanation` · *teacher-facing* — 1986
+
+**superlative** (4)
+- [ ] `dokRationale` · *teacher-facing* — … explain why the second can be large when the first is nothing. Three options name real events of…
+- [ ] `choice C.text` · *student-facing* — It produced the first federal anti-lynching statute, which Congress…
+- [ ] `choice C.explanation` · *teacher-facing* — …ress did pass a civil rights act in 1957, the first since Reconstruction, and Southern senators f…
+- [ ] `choice D.text` · *student-facing* — It ended the practice of seating all-white juries in Mississippi murder trials, wh…
+
+**named-entity** (5)
+- [ ] `stem` · *student-facing* — Emmett Till's
+- [ ] `stem` · *student-facing* — Civil Rights Movement
+- [ ] `choice A.text` · *student-facing* — Supreme Court
+- [ ] `choice C.explanation` · *teacher-facing* — Civil Rights Division
+- [ ] `choice D.explanation` · *teacher-facing* — Supreme Court
+
+### `US.77-GEN-01` (US.77) — 18 claim(s)
+*content hash* `1a9558db84ed699c` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1932-1961. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (7)
+- [ ] `stem` · *student-facing* — 1955
+- [ ] `explanation` · *student-facing* — 1932
+- [ ] `explanation` · *student-facing* — 1953
+- [ ] `explanation` · *student-facing* — 1961
+- [ ] `choice A.explanation` · *teacher-facing* — 1960
+- [ ] `choice A.explanation` · *teacher-facing* — 1955
+- [ ] `choice C.explanation` · *teacher-facing* — 1955
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …om 1953 it turned them toward desegregation — which is why a great many of the people who led the next d…
+
+**named-entity** (10)
+- [ ] `stem` · *student-facing* — Rosa Parks
+- [ ] `stem` · *student-facing* — African Americans. Which
+- [ ] `explanation` · *student-facing* — New Market
+- [ ] `choice A.explanation` · *teacher-facing* — James Lawson
+- [ ] `choice B.text` · *student-facing* — Highlander Folk School
+- [ ] `choice C.text` · *student-facing* — Industrial State University
+- [ ] `choice C.text` · *student-facing* — Freedom Rides
+- [ ] `choice C.explanation` · *teacher-facing* — Tennessee State
+- [ ] `choice C.explanation` · *teacher-facing* — Freedom Rides. It
+- [ ] `choice D.text` · *student-facing* — Rosa Parks
+
+### `US.77-GEN-02` (US.77) — 27 claim(s)
+*content hash* `75a953de6f01ac1b` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1951-1965. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (11)
+- [ ] `stem` · *student-facing* — 1959
+- [ ] `stem` · *student-facing* — 1962
+- [ ] `explanation` · *student-facing* — 1960
+- [ ] `explanation` · *student-facing* — 1957
+- [ ] `explanation` · *student-facing* — 1962
+- [ ] `choice B.text` · *student-facing* — 1964
+- [ ] `choice B.explanation` · *teacher-facing* — 1951
+- [ ] `choice C.text` · *student-facing* — 1965
+- [ ] `choice C.explanation` · *teacher-facing* — 1965
+- [ ] `choice C.explanation` · *teacher-facing* — 1957
+- [ ] `choice C.explanation` · *teacher-facing* — 1960
+
+**superlative** (1)
+- [ ] `choice C.misconception` · *teacher-facing* — treats the strongest later statute as the first one available
+
+**causal** (2)
+- [ ] `choice A.text` · *student-facing* — …ppress voting where the law on paper did not, because a landlord and a merchant need no statute to …
+- [ ] `choice D.explanation` · *teacher-facing* — … It cannot be the whole of it in this county, because the people in the tents were those who had go…
+
+**named-entity** (13)
+- [ ] `stem` · *student-facing* — Fayette County
+- [ ] `stem` · *student-facing* — African Americans
+- [ ] `stem` · *student-facing* — Tent City. What
+- [ ] `explanation` · *student-facing* — Justice Department
+- [ ] `explanation` · *student-facing* — Fayette County
+- [ ] `explanation` · *student-facing* — Civil Rights Act
+- [ ] `dokRationale` · *teacher-facing* — Tent City
+- [ ] `choice B.explanation` · *teacher-facing* — Tent City
+- [ ] `choice C.text` · *student-facing* — Voting Rights Act
+- [ ] `choice C.explanation` · *teacher-facing* — Civil Rights Act
+- [ ] `choice C.explanation` · *teacher-facing* — Civil Rights Division
+- [ ] `choice C.explanation` · *teacher-facing* — Fayette County
+- [ ] `choice D.text` · *student-facing* — Fayette County
+
+### `US.77-GEN-03` (US.77) — 15 claim(s)
+*content hash* `297c36bfe0e134e7` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1959-1960. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (5)
+- [ ] `stem` · *student-facing* — 1960
+- [ ] `explanation` · *student-facing* — 1959
+- [ ] `dokRationale` · *teacher-facing* — 1960
+- [ ] `choice A.text` · *student-facing* — 1960
+- [ ] `choice B.explanation` · *teacher-facing* — 1960
+
+**superlative** (5)
+- [ ] `explanation` · *student-facing* — The workshops came first. James Lawson had been training students in n…
+- [ ] `choice A.text` · *student-facing* — …nt began at Greensboro, North Carolina on the first of February 1960, and students in Nashville t…
+- [ ] `choice A.explanation` · *teacher-facing* — The dates are right — Greensboro on the first of February, Nashville's first full sit-in on…
+- [ ] `choice A.explanation` · *teacher-facing* — …ensboro on the first of February, Nashville's first full sit-in on the thirteenth. It describes t…
+- [ ] `choice C.text` · *student-facing* — …discipline in workshops for months before the first sit-in, so they knew how to respond when they…
+
+**causal** (1)
+- [ ] `choice B.text` · *student-facing* — …le's mayor ordered the lunch counters opened, which is why the campaign there took less time than compar…
+
+**named-entity** (4)
+- [ ] `choice A.text` · *student-facing* — North Carolina
+- [ ] `choice B.explanation` · *teacher-facing* — Ben West
+- [ ] `choice B.explanation` · *teacher-facing* — Diane Nash
+- [ ] `choice B.explanation` · *teacher-facing* — City Hall
+
+### `US.82-GEN-01` (US.82) — 17 claim(s)
+*content hash* `56634df16986099b` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1967-1969. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `explanation` · *student-facing* — …so the festival's own name records a place it was never held.
+
+**quantity** (4)
+- [ ] `stem` · *student-facing* — 1969
+- [ ] `choice B.explanation` · *teacher-facing* — 1969
+- [ ] `choice C.explanation` · *teacher-facing* — 1967
+- [ ] `choice C.explanation` · *teacher-facing* — 1969
+
+**superlative** (1)
+- [ ] `explanation` · *student-facing* — …he festival's own name records a place it was never held.
+
+**causal** (1)
+- [ ] `choice A.explanation` · *teacher-facing* — … grown up. The town board refused the permit, which is why the festival had to be moved before a ticket …
+
+**named-entity** (10)
+- [ ] `explanation` · *student-facing* — Woodstock Ventures
+- [ ] `choice A.text` · *student-facing* — New York
+- [ ] `choice B.text` · *student-facing* — Altamont Speedway
+- [ ] `choice C.text` · *student-facing* — Golden Gate Park
+- [ ] `choice C.text` · *student-facing* — San Francisco
+- [ ] `choice C.text` · *student-facing* — Human Be-In
+- [ ] `choice C.explanation` · *teacher-facing* — Human Be-In
+- [ ] `choice C.explanation` · *teacher-facing* — San Francisco
+- [ ] `choice C.explanation` · *teacher-facing* — New York
+- [ ] `choice D.text` · *student-facing* — New York
+
+### `US.82-GEN-02` (US.82) — 8 claim(s)
+*content hash* `234c23cb18892a40` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1969-1969. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `choice B.explanation` · *teacher-facing* — …und four hundred thousand arrived, the fences were never finished and it became a free festival; the c…
+
+**quantity** (4)
+- [ ] `stem` · *student-facing* — 1969
+- [ ] `explanation` · *student-facing* — 1969
+- [ ] `choice C.explanation` · *teacher-facing* — 1969
+- [ ] `choice D.text` · *student-facing* — 1969
+
+**superlative** (2)
+- [ ] `explanation` · *student-facing* — …t divisions ran within the generation and not only across it.
+- [ ] `choice B.explanation` · *teacher-facing* — …our hundred thousand arrived, the fences were never finished and it became a free festival; the c…
+
+**causal** (1)
+- [ ] `choice B.explanation` · *teacher-facing* — …nd is roughly what the promoters planned for, which is why the figure sounds plausible. Somewhere around…
+
+### `US.82-GEN-03` (US.82) — 11 claim(s)
+*content hash* `978df57f8bc4246f` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1967-1971. Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (5)
+- [ ] `explanation` · *student-facing* — 1970
+- [ ] `choice A.text` · *student-facing* — 1967
+- [ ] `choice B.text` · *student-facing* — 1970
+- [ ] `choice C.text` · *student-facing* — 1969
+- [ ] `choice D.text` · *student-facing* — 1971
+
+**superlative** (1)
+- [ ] `explanation` · *student-facing* — …young-against-old frame cannot describe it at all; what divided them was class, work and who wa…
+
+**named-entity** (5)
+- [ ] `explanation` · *student-facing* — Kent State
+- [ ] `choice A.text` · *student-facing* — Human Be-In
+- [ ] `choice A.text` · *student-facing* — Golden Gate Park
+- [ ] `choice B.text` · *student-facing* — Hard Hat Riot
+- [ ] `choice B.text` · *student-facing* — New York
 
 ### `q-us2-dok4-cr2` (US.23) — 9 claim(s)
 *content hash* `de5dc1dc6d1b8caa` — if the item is edited after you sign, this changes and the review is stale.

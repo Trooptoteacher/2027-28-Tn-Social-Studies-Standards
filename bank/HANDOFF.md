@@ -63,14 +63,14 @@ deleted; `quarantine/` is retention, not a bin.
 
 | | |
 |---|---|
-| servable | 3,967 |
-| aligned (counts toward coverage) | 2,028 |
+| servable | 3,976 |
+| aligned (counts toward coverage) | 2,037 |
 | quarantined, with stated reasons | 1,059 |
 | authored by Claude | 33 |
 | reviewed and approved by you | 19 |
 | **awaiting your review** | **5** |
 
-Alignment: 1,732 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
+Alignment: 1,741 `evidenced` · 343 `rehomed` · 1,952 `unverified`. (`not-applicable` is now
 empty: every standard is judgeable — see §11.) **30 items are `held`** because their key
 explanation calls the key wrong — see §12.
 `unverified` means **kept and usable**, alignment simply not established — it is excluded
@@ -237,7 +237,7 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
   current. **It verifies no history and affirms nothing.** The `historian-qc` gate checks
   the QUEUE, never the history: every queued item has a record, no record is stale. A
   non-empty queue is not a finding; an EMPTY one is, because the flag has stopped being
-  set. Current: **52 items, 689 claims, 6 flags**, every flag a negative claim in my own
+  set. Current: **61 items, 819 claims, 7 flags**, every flag a negative claim in my own
   writing. **The heading has now earned its place three times**, and every finding was an
   UNQUALIFIED negative rather than a false one — which is the shape worth recognising,
   because each sentence was true of the thing it was about and wrong about everything
@@ -337,8 +337,17 @@ this a question you would give your students?** Everything else is enforced.
 
 ## 9. To continue the loop
 
-**86 of 94 standards can build a form. 4,163 authoring units to green them all.**
-Cheapest next: US.33 (22) · US.31 (32) · US.59 (33) · US.02 (35) · US.07 (37).
+**89 of 94 standards can build a form. 4,196 authoring units to green them all.**
+Cheapest next: US.77 (12) · US.82 (21) · US.33 (22) · US.31 (32) · US.59 (33).
+
+*The total ROSE by 33 on 2026-10-07, and that is the invoice working rather than a
+regression. US.77 and US.82 had six and seven pre-existing aligned items between them,
+carrying migrated debt no invoice line could see while neither standard could fill a form:
+a standard with no selection has no cost. Authoring three items each made both buildable,
+their selections now reach those migrated items, and the debt became visible — US.82 at
+**21** (nine distractor rationales, nine taxonomy tags, three DOK rationales) and US.77 at
+**12**, which includes one `stimulusDebt` unit that authoring cannot discharge. The twelve
+items authored today cost nothing; what they did was stop hiding something.*
 
 *That total was **2,281** until 2026-10-04, and **4,102** for part of that day. Neither
 move was a re-estimate. The invoice had been carrying private copies of three rules the
