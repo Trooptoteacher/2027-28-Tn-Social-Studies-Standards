@@ -1,0 +1,215 @@
+{
+  "items": [
+    {
+      "id": "US.53-GEN-01",
+      "stem": "Cornelia Fort, a flight instructor from Nashville, Tennessee, was giving a lesson over Oahu on the morning of December 7, 1941 and saw the attack on Pearl Harbor begin. Which organization did she join the following year?",
+      "stemEs": "Cornelia Fort, instructora de vuelo de Nashville, Tennessee, daba una lección sobre Oahu la mañana del 7 de diciembre de 1941 y vio comenzar el ataque a Pearl Harbor. ¿A qué organización se unió al año siguiente?",
+      "itemType": "mcq",
+      "correctAnswer": "A",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Women's Auxiliary Ferrying Squadron, which moved military aircraft between points inside the United States",
+          "textEs": "El Escuadrón Auxiliar Femenino de Traslado, que movía aviones militares entre puntos dentro de Estados Unidos",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "B",
+          "text": "The Women's Army Corps, which in 1943 replaced an auxiliary body and gave its members the pay, rank and protections of regular Army service",
+          "textEs": "El Cuerpo Femenino del Ejército, que en 1943 reemplazó a un cuerpo auxiliar y dio a sus integrantes la paga, el rango y las protecciones del servicio regular",
+          "explanation": "A real organization, correctly described, and it is the one the standard names. It was an Army ground organization; Fort was a pilot, and the women who flew were never brought under it.",
+          "misconception": "assigns a woman who flew to the women's ground organization because both served the Army",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        {
+          "id": "C",
+          "text": "The WAVES, the women's reserve of the United States Navy established in July 1942",
+          "textEs": "Las WAVES, la reserva femenina de la Marina de Estados Unidos establecida en julio de 1942",
+          "explanation": "The WAVES are real and the date is right. They were a Navy organization, and the aircraft Fort ferried were the Army's.",
+          "misconception": "picks the right kind of wartime organization from the wrong service",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        },
+        {
+          "id": "D",
+          "text": "The Army Nurse Corps, the branch through which the largest number of American women served overseas",
+          "textEs": "El Cuerpo de Enfermeras del Ejército, la rama por la que sirvió en el extranjero el mayor número de mujeres estadounidenses",
+          "explanation": "The Nurse Corps is real and it did send tens of thousands of women overseas. It is a medical service; nothing in it involved flying, which was the whole of Fort's qualification.",
+          "misconception": "answers with the period's largest women's service when asked about a pilot's assignment",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-13"
+        }
+      ],
+      "dokLevel": 1,
+      "dokRationale": "Recall of which organization one named woman joined. The student matches a person to a programme; no reasoning about why the programmes differed in status is required, and that distinction is what a DOK 2 item on this standard examines.",
+      "standardCodes": [
+        "US.53"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The ferrying squadron put experienced civilian pilots to work moving new aircraft from the factory to the airfield, which released male pilots for combat flying. That is why a woman who had never been in the armed forces was flying Army aircraft on Army orders within months of Pearl Harbor.",
+      "explanationEs": "El escuadrón de traslado puso a pilotos civiles con experiencia a mover aviones nuevos de la fábrica al aeródromo, lo que liberaba a los pilotos varones para el combate. Por eso una mujer que nunca había estado en las fuerzas armadas volaba aviones del Ejército por órdenes del Ejército pocos meses después de Pearl Harbor.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.53.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.53-GEN-02",
+      "stem": "Cornelia Fort was killed on March 21, 1943 while ferrying an Army training aircraft, and her family received no military honours or burial benefits. What best explains why?",
+      "stemEs": "Cornelia Fort murió el 21 de marzo de 1943 mientras trasladaba un avión de entrenamiento del Ejército, y su familia no recibió honores militares ni prestaciones funerarias. ¿Qué lo explica mejor?",
+      "itemType": "mcq",
+      "correctAnswer": "D",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The Women's Army Corps had not yet been converted from an auxiliary body into a full part of the Army, so its members' benefits were still pending",
+          "textEs": "El Cuerpo Femenino del Ejército aún no había pasado de cuerpo auxiliar a parte plena del Ejército, por lo que las prestaciones de sus integrantes seguían pendientes",
+          "explanation": "The conversion is real and it happened in July 1943, four months after Fort was killed. It has nothing to do with her: she was a pilot and was never in the auxiliary or the corps that replaced it.",
+          "misconception": "explains a pilot's case with the status of the separate women's ground organization",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        {
+          "id": "B",
+          "text": "She died before the Women Airforce Service Pilots were organized in August 1943, so no programme existed to cover her",
+          "textEs": "Murió antes de que se organizaran las Mujeres Piloto del Servicio Aéreo en agosto de 1943, de modo que no existía ningún programa que la cubriera",
+          "explanation": "She did die before that merger, which makes the first half true. It explains nothing: the squadron she flew with was civilian too, and the pilots of the later programme were denied the same benefits for the same reason.",
+          "misconception": "treats a programme's founding date as the reason benefits were refused",
+          "distractorFunction": "partial-truth"
+        },
+        {
+          "id": "C",
+          "text": "Congress had already voted down a bill to militarise the women pilots, which settled their status before she flew",
+          "textEs": "El Congreso ya había rechazado un proyecto de ley para militarizar a las mujeres piloto, lo que fijó su condición antes de que ella volara",
+          "explanation": "A militarisation bill was defeated, in June 1944 — fifteen months after her death. Their civilian status in 1943 came from how the programme was set up, not from a vote that had not yet been taken.",
+          "misconception": "moves a 1944 congressional vote back to before a 1943 death",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        },
+        {
+          "id": "D",
+          "text": "The women who ferried military aircraft served as civilians, and Congress did not grant them veteran status until 1977",
+          "textEs": "Las mujeres que trasladaban aviones militares servían como civiles, y el Congreso no les concedió la condición de veteranas hasta 1977",
+          "explanation": null,
+          "misconception": null
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student must connect an employment classification to a consequence for a family, choosing among four true statements about the period only one of which produces the outcome described. Recalling the date of Fort's death would not distinguish them.",
+      "standardCodes": [
+        "US.53"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The women who flew military aircraft did so as civilian employees. Congress declined to militarise them during the war, so a pilot killed on an Army mission was legally a civilian contractor's death — no flag, no escort, no benefit — and the women were not recognised as veterans until a law of 1977, more than thirty years afterward.",
+      "explanationEs": "Las mujeres que volaban aviones militares lo hacían como empleadas civiles. El Congreso se negó a militarizarlas durante la guerra, de modo que una piloto muerta en una misión del Ejército era legalmente la muerte de una contratista civil — sin bandera, sin escolta, sin prestación — y no fueron reconocidas como veteranas hasta una ley de 1977, más de treinta años después.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.53.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    },
+    {
+      "id": "US.53-GEN-03",
+      "stem": "The poster of a woman in a red bandana captioned \"We Can Do It!\" is today the best-known image of Rosie the Riveter. What does the evidence about that poster's origin actually show?",
+      "stemEs": "El cartel de una mujer con pañuelo rojo y el lema «We Can Do It!» es hoy la imagen más conocida de Rosie la Remachadora. ¿Qué muestra en realidad la evidencia sobre el origen de ese cartel?",
+      "itemType": "mcq",
+      "correctAnswer": "B",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It was the federal government's principal poster for recruiting women into war plants, distributed nationally for the duration of the war",
+          "textEs": "Era el principal cartel del gobierno federal para reclutar mujeres en las fábricas de guerra, distribuido en todo el país durante toda la guerra",
+          "explanation": "The government did run a large campaign to recruit women, which is why this sounds right. This particular poster was made by a company for its own employees and was displayed in its own plants, so it recruited nobody.",
+          "misconception": "credits a company's internal poster to the federal campaign it is now used to illustrate",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-02"
+        },
+        {
+          "id": "B",
+          "text": "It was an internal poster made for the Westinghouse company in 1943 and was not associated with Rosie the Riveter until decades later",
+          "textEs": "Era un cartel interno realizado para la empresa Westinghouse en 1943 y no se asoció con Rosie la Remachadora hasta décadas después",
+          "explanation": null,
+          "misconception": null
+        },
+        {
+          "id": "C",
+          "text": "It was painted by Norman Rockwell and ran on the cover of the Saturday Evening Post in May 1943 under the title Rosie the Riveter",
+          "textEs": "Fue pintado por Norman Rockwell y apareció en la portada del Saturday Evening Post en mayo de 1943 con el título de Rosie la Remachadora",
+          "explanation": "Rockwell did paint a Rosie the Riveter, and it did run on that cover in May 1943. It is a different picture entirely — a muscular riveter at lunch with a rivet gun across her lap — and the two images are routinely mistaken for each other.",
+          "misconception": "merges the two most reproduced women-war-worker images of 1943 into one",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-06"
+        },
+        {
+          "id": "D",
+          "text": "It is a portrait of Rose Will Monroe, the riveter who appeared in wartime films promoting war bonds",
+          "textEs": "Es un retrato de Rose Will Monroe, la remachadora que apareció en películas de guerra que promovían bonos de guerra",
+          "explanation": "Rose Will Monroe was a real riveter at the Willow Run bomber plant and she did appear in a wartime film, which is why her name attaches to Rosie. She is not the woman in this poster, whose model has been traced to a separate 1942 press photograph.",
+          "misconception": "identifies one real wartime riveter as the model for an unrelated image",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-12"
+        }
+      ],
+      "dokLevel": 2,
+      "dokRationale": "The student must weigh a familiar image against evidence of who made it, for whom and when, and reject three statements that are each true of some other artefact of the same campaign. Naming Rosie as a symbol of women war workers is the DOK 1 version.",
+      "standardCodes": [
+        "US.53"
+      ],
+      "standardsYear": "2027-28",
+      "reportingCategory": null,
+      "reportingCategorySource": "UNMAPPED",
+      "explanation": "The image was made by J. Howard Miller in 1943 for Westinghouse's internal war production committee and was posted in company plants for a matter of weeks. It was not a recruiting poster, it was not the government's, and it carried no connection to Rosie the Riveter until it was rediscovered and reproduced in the 1980s — so the picture students treat as the wartime symbol is largely a later one.",
+      "explanationEs": "La imagen fue realizada por J. Howard Miller en 1943 para el comité interno de producción de guerra de Westinghouse y se expuso en las plantas de la empresa durante unas pocas semanas. No era un cartel de reclutamiento, no era del gobierno y no tenía ninguna relación con Rosie la Remachadora hasta que se redescubrió y se reprodujo en los años ochenta: la imagen que los estudiantes toman por el símbolo de la guerra es en gran medida posterior.",
+      "translationStatus": "needs-review",
+      "irtParameters": null,
+      "calibrationStatus": "pre-field-test",
+      "bankTier": "teacher",
+      "status": "authored",
+      "alignmentStatus": "evidenced",
+      "requiresHistorianReview": true,
+      "tcapFormat": false,
+      "tcapFormatReason": "not affirmed — no human has judged this item field-testable",
+      "provenance": {
+        "generated": {
+          "mode": "standard-first",
+          "brief": "generation/US.53.brief.md",
+          "note": "authored FROM the standard; alignment true by construction"
+        }
+      }
+    }
+  ],
+  "course": "us-history-geography",
+  "standardsYear": "2027-28",
+  "standard": "US.53",
+  "status": "authored",
+  "disclosure": "classroom-formative · pre-field-test"
+}

@@ -1,0 +1,17 @@
+{
+  "$comment": "Precision corrections raised by `tools/historian_qc.py`'s negative-existence heading, on text authored in the same session and never reviewed. The heading exists because a negative claim is the cheapest sentence to write and the costliest to check; of the four it raised on this batch, three were true as written (Cornelia Fort was a civilian flight instructor who never enlisted, and the women who flew were never brought under the Women's Army Corps) and ONE was not. 'Deposit insurance did not exist in the 1920s' is false as an unqualified claim: eight states ran deposit guaranty funds between 1908 and the late 1920s — Oklahoma's from 1908, and Nebraska, Kansas, Texas, Mississippi, South Dakota, North Dakota and Washington followed — and every one of them had failed or been wound up before 1930. FEDERAL deposit insurance did not exist, which is the claim the distractor needs and the only one it is entitled to make. The misconception, the function and the family are unchanged; the item still carries requiresHistorianReview.",
+  "raisedBy": "tools/historian_qc.py — negative-existence heading",
+  "authoredBy": "Claude (authoring agent). NOT an approval: this corrects unreviewed text and does not retire the item's requiresHistorianReview flag.",
+  "items": {
+    "US.40-GEN-02": {
+      "distractors": {
+        "A": {
+          "explanation": "Federal deposit insurance did not exist in the 1920s. The Federal Deposit Insurance Corporation was created by the Banking Act of 1933, after thousands of banks had already failed, and an uninsured deposit is one of the decade's real weaknesses.",
+          "misconception": "places deposit insurance in the decade whose bank failures produced it",
+          "distractorFunction": "common-misconception",
+          "misconceptionFamily": "MC-F-01"
+        }
+      }
+    }
+  }
+}

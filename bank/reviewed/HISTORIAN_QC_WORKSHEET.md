@@ -8,6 +8,18 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 *This section is kept SHORT on purpose. An `outside-declared-era` check sat here until its first run flagged five items and all five were correct history — a standard's era is where TDOE places it in the course, not a boundary on its content. A heading that is wrong five times out of five teaches you to skip it, so year spans moved to orientation and only claims that genuinely need a verdict appear here.*
 
+### `US.40-GEN-02` (US.40)
+- **unreviewed-negative-claim** — choice A.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
+  - > Federal deposit insurance did not exist in the 1920s. The Federal Deposit Insurance C…
+
+### `US.53-GEN-01` (US.53)
+- **unreviewed-negative-claim** — choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
+  - > …ion; Fort was a pilot, and the women who flew were never brought under it.
+
+### `US.53-GEN-02` (US.53)
+- **unreviewed-negative-claim** — choice A.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
+  - > …s nothing to do with her: she was a pilot and was never in the auxiliary or the corps that replaced i…
+
 ### `q-us45-dok1-1` (US.46)
 - **unreviewed-negative-claim** — choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > …nty-first Amendment in December 1933 — and it was never one of the programme's three aims.
@@ -425,6 +437,339 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - [ ] `stem` · *student-facing* — Chinese Exclusion Act
 - [ ] `choice A.explanation` · *teacher-facing* — First World War
 - [ ] `choice B.text` · *student-facing* — American Protective Association's
+
+### `US.22-GEN-01` (US.22) — 12 claim(s)
+*content hash* `c1bc8ce20678c3f0` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1887-1900; the standard is placed in the era 1890-1920 (cluster 'Imperialism and World War I (1890-1920)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (4)
+- [ ] `stem` · *student-facing* — 1898
+- [ ] `choice A.explanation` · *teacher-facing* — 1894
+- [ ] `choice B.explanation` · *teacher-facing* — 1887
+- [ ] `choice D.explanation` · *teacher-facing* — 1900
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …p list that crossed party, class and region — which is why the arguments it published can be set beside …
+
+**named-entity** (7)
+- [ ] `explanation` · *student-facing* — Imperialist League
+- [ ] `choice A.text` · *student-facing* — Immigration Restriction League
+- [ ] `choice A.explanation` · *teacher-facing* — United States
+- [ ] `choice A.explanation` · *teacher-facing* — United States
+- [ ] `choice B.text` · *student-facing* — American Protective Association
+- [ ] `choice C.text` · *student-facing* — Imperialist League
+- [ ] `choice D.text` · *student-facing* — National Civic Federation
+
+### `US.22-GEN-02` (US.22) — 18 claim(s)
+*content hash* `c07ff1f5972484cf` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1898-1934; the standard is placed in the era 1890-1920 (cluster 'Imperialism and World War I (1890-1920)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (6)
+- [ ] `choice B.explanation` · *teacher-facing* — 1901
+- [ ] `choice C.explanation` · *teacher-facing* — 1898
+- [ ] `choice D.explanation` · *teacher-facing* — 1898
+- [ ] `choice D.explanation` · *teacher-facing* — $20 million
+- [ ] `choice D.explanation` · *teacher-facing* — 1934
+- [ ] `choice D.misconception` · *teacher-facing* — 1934
+
+**superlative** (1)
+- [ ] `choice B.text` · *student-facing* — … territory the United States had acquired but never incorporated into the Union.
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …hem claim the Declaration for their own side, which is why the two camps could quote the same document a…
+
+**named-entity** (10)
+- [ ] `stem` · *student-facing* — Declaration of Independence. Which
+- [ ] `choice B.text` · *student-facing* — United States
+- [ ] `choice B.explanation` · *teacher-facing* — Supreme Court
+- [ ] `choice B.explanation` · *teacher-facing* — Insular Cases
+- [ ] `choice C.text` · *student-facing* — Teller Amendment
+- [ ] `choice C.explanation` · *teacher-facing* — Teller Amendment
+- [ ] `choice C.explanation` · *teacher-facing* — Treaty of Paris
+- [ ] `choice D.text` · *student-facing* — Treaty of Paris
+- [ ] `choice D.explanation` · *teacher-facing* — Treaty of Paris
+- [ ] `choice D.explanation` · *teacher-facing* — United States
+
+### `US.22-GEN-03` (US.22) — 17 claim(s)
+*content hash* `5cd78b493744763e` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1899-1900; the standard is placed in the era 1890-1920 (cluster 'Imperialism and World War I (1890-1920)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (3)
+- [ ] `choice A.text` · *student-facing* — 1899
+- [ ] `choice B.text` · *student-facing* — 1900
+- [ ] `choice B.explanation` · *teacher-facing* — 1900
+
+**superlative** (6)
+- [ ] `stem` · *student-facing* — …, Samuel Gompers and Senator Benjamin Tillman all opposed annexing the Philippines. Which state…
+- [ ] `choice A.text` · *student-facing* — All three rested their objection on the consent-o…
+- [ ] `choice A.explanation` · *teacher-facing* — … its members believed it. These three did not all share it: Gompers argued from wage competitio…
+- [ ] `choice A.explanation` · *teacher-facing* — …and Tillman from race. Taking the platform as every member's reasoning is what hides the coalitio…
+- [ ] `choice B.explanation` · *teacher-facing* — …enate Democrats to ratify the Treaty of Paris first.
+- [ ] `choice C.text` · *student-facing* — All three wanted the islands annexed but governed…
+
+**named-entity** (8)
+- [ ] `stem` · *student-facing* — Samuel Gompers
+- [ ] `stem` · *student-facing* — Senator Benjamin Tillman
+- [ ] `choice A.text` · *student-facing* — Declaration of Independence
+- [ ] `choice A.text` · *student-facing* — Imperialist League's
+- [ ] `choice B.text` · *student-facing* — Democratic Party
+- [ ] `choice B.text` · *student-facing* — William Jennings Bryan
+- [ ] `choice B.explanation` · *teacher-facing* — Senate Democrats
+- [ ] `choice B.explanation` · *teacher-facing* — Treaty of Paris
+
+### `US.24-GEN-01` (US.24) — 12 claim(s)
+*content hash* `c4fe348f721183f1` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1907-1913; the standard is placed in the era 1890-1920 (cluster 'Imperialism and World War I (1890-1920)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (4)
+- [ ] `choice A.explanation` · *teacher-facing* — 1907
+- [ ] `choice A.explanation` · *teacher-facing* — 1909
+- [ ] `choice C.explanation` · *teacher-facing* — 1913
+- [ ] `choice D.explanation` · *teacher-facing* — 1911
+
+**causal** (2)
+- [ ] `choice A.misconception` · *teacher-facing* — hands Roosevelt's naval display to Taft because both presidents were Republicans
+- [ ] `choice B.text` · *student-facing* — …erican bankers to lend to foreign governments so that American money replaced European money
+
+**named-entity** (6)
+- [ ] `stem` · *student-facing* — William Howard Taft’s Dollar Diplomacy
+- [ ] `choice A.explanation` · *teacher-facing* — Great White Fleet's
+- [ ] `choice A.explanation` · *teacher-facing* — Navy Roosevelt
+- [ ] `choice C.explanation` · *teacher-facing* — Victoriano Huerta
+- [ ] `choice D.explanation` · *teacher-facing* — Secretary Knox
+- [ ] `choice D.explanation` · *teacher-facing* — Dollar Diplomacy
+
+### `US.24-GEN-02` (US.24) — 30 claim(s)
+*content hash* `797b7587a44fff47` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1904-1930; the standard is placed in the era 1890-1920 (cluster 'Imperialism and World War I (1890-1920)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (13)
+- [ ] `explanation` · *student-facing* — 1905
+- [ ] `explanation` · *student-facing* — 1912
+- [ ] `explanation` · *student-facing* — 1914
+- [ ] `explanation` · *student-facing* — 1915
+- [ ] `explanation` · *student-facing* — 1916
+- [ ] `choice A.explanation` · *teacher-facing* — 1912
+- [ ] `choice B.text` · *student-facing* — 1913
+- [ ] `choice B.explanation` · *teacher-facing* — 1904
+- [ ] `choice B.explanation` · *teacher-facing* — 1928
+- [ ] `choice B.explanation` · *teacher-facing* — 1930
+- [ ] `choice B.misconception` · *teacher-facing* — 1913
+- [ ] `choice D.text` · *student-facing* — 1907
+- [ ] `choice D.text` · *student-facing* — 1909
+
+**superlative** (5)
+- [ ] `choice A.text` · *student-facing* — Only the first produced armed intervention, becaus…
+- [ ] `choice A.text` · *student-facing* — Only the first produced armed intervention, because loans an…
+- [ ] `choice B.text` · *student-facing* — All three rested on the Roosevelt Corollary to th…
+- [ ] `choice B.explanation` · *teacher-facing* — The Corollary of 1904 is real and the first half is close to the mark. Wilson did not rev…
+- [ ] `choice D.misconception` · *teacher-facing* — …rable image of the period as the mechanism of every policy in it
+
+**causal** (1)
+- [ ] `choice A.text` · *student-facing* — Only the first produced armed intervention, because loans and moral tests worked by persuasion ra…
+
+**named-entity** (11)
+- [ ] `stem` · *student-facing* — Theodore Roosevelt’s Big Stick
+- [ ] `stem` · *student-facing* — President William Howard Taft’s Dollar Diplomacy
+- [ ] `stem` · *student-facing* — President Woodrow Wilson’s Moral Diplomacy
+- [ ] `stem` · *student-facing* — Central America
+- [ ] `explanation` · *student-facing* — Dominican Republic
+- [ ] `choice A.explanation` · *teacher-facing* — Big Stick
+- [ ] `choice B.text` · *student-facing* — Roosevelt Corollary
+- [ ] `choice B.text` · *student-facing* — Monroe Doctrine
+- [ ] `choice B.explanation` · *teacher-facing* — Clark Memorandum
+- [ ] `choice B.explanation` · *teacher-facing* — Good Neighbor Policy
+- [ ] `choice D.text` · *student-facing* — Great White Fleet
+
+### `US.24-GEN-03` (US.24) — 14 claim(s)
+*content hash* `650ad3979c2eab64` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1904-1925; the standard is placed in the era 1890-1920 (cluster 'Imperialism and World War I (1890-1920)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (7)
+- [ ] `choice B.explanation` · *teacher-facing* — 1914
+- [ ] `choice B.explanation` · *teacher-facing* — 1915
+- [ ] `choice B.explanation` · *teacher-facing* — 1916
+- [ ] `choice B.explanation` · *teacher-facing* — 1916
+- [ ] `choice C.explanation` · *teacher-facing* — 1904
+- [ ] `choice D.text` · *student-facing* — 1914
+- [ ] `choice D.explanation` · *teacher-facing* — 1925
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …n to act rather than a reason to stand back — which is why a moral standard produced more landings than …
+
+**named-entity** (6)
+- [ ] `stem` · *student-facing* — President Woodrow Wilson’s Moral Diplomacy
+- [ ] `stem` · *student-facing* — Latin America
+- [ ] `choice B.text` · *student-facing* — Dollar Diplomacy
+- [ ] `choice B.explanation` · *teacher-facing* — Dominican Republic
+- [ ] `choice B.explanation` · *teacher-facing* — Punitive Expedition
+- [ ] `choice C.text` · *student-facing* — Roosevelt Corollary
+
+### `US.40-GEN-01` (US.40) — 21 claim(s)
+*content hash* `4b2807b437fe6564` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1921-1932; the standard is placed in the era 1920-1929 (cluster 'The 1920s (1920-1929)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (13)
+- [ ] `stem` · *student-facing* — 73 percent
+- [ ] `stem` · *student-facing* — 25 percent
+- [ ] `explanation` · *student-facing* — 1921
+- [ ] `explanation` · *student-facing* — 1924
+- [ ] `explanation` · *student-facing* — 1926
+- [ ] `explanation` · *student-facing* — 1928
+- [ ] `choice A.explanation` · *teacher-facing* — 1921
+- [ ] `choice A.explanation` · *teacher-facing* — 1925
+- [ ] `choice B.text` · *student-facing* — 1928
+- [ ] `choice B.explanation` · *teacher-facing* — 1928
+- [ ] `choice C.text` · *student-facing* — 1924
+- [ ] `choice D.text` · *student-facing* — 1921
+- [ ] `choice D.text` · *student-facing* — 1932
+
+**superlative** (2)
+- [ ] `choice A.explanation` · *teacher-facing* — Both halves are true. Dawes was the first Director of the Bureau of the Budget in 1921 …
+- [ ] `choice A.explanation` · *teacher-facing* — …d Coolidge's vice president from 1925, and he never ran the Treasury: the budget bureau controlle…
+
+**causal** (1)
+- [ ] `explanation` · *student-facing* — …sury for eleven years under three presidents, which is why the tax cuts of 1921, 1924, 1926 and 1928 rea…
+
+**named-entity** (5)
+- [ ] `stem` · *student-facing* — Warren G. Harding's
+- [ ] `stem` · *student-facing* — President Calvin Coolidge's
+- [ ] `choice B.explanation` · *teacher-facing* — Secretary of Commerce
+- [ ] `choice C.explanation` · *teacher-facing* — Attorney General. He
+- [ ] `choice C.explanation` · *teacher-facing* — Justice Department
+
+### `US.40-GEN-02` (US.40) — 10 claim(s)
+*content hash* `31f006b4e6ebfc34` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1933-1933; the standard is placed in the era 1920-1929 (cluster 'The 1920s (1920-1929)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `choice A.explanation` · *teacher-facing* — Federal deposit insurance did not exist in the 1920s. The Federal Deposit Insurance C…
+
+**quantity** (1)
+- [ ] `choice A.explanation` · *teacher-facing* — 1933
+
+**superlative** (1)
+- [ ] `stem` · *student-facing* — … household appliances on installment plans in unprecedented numbers. Why do historians count that credit …
+
+**causal** (2)
+- [ ] `choice C.text` · *student-facing* — It raised the real cost of goods, because the carrying charge added to the price of eve…
+- [ ] `choice D.misconception` · *teacher-facing* — …nks a broad consumer practice to a narrow one so that its risk disappears
+
+**named-entity** (5)
+- [ ] `stem` · *student-facing* — President Warren G. Harding's
+- [ ] `stem` · *student-facing* — President Calvin Coolidge's
+- [ ] `choice A.text` · *student-facing* — Federal Deposit Insurance Corporation
+- [ ] `choice A.explanation` · *teacher-facing* — Federal Deposit Insurance Corporation
+- [ ] `choice A.explanation` · *teacher-facing* — Banking Act
+
+### `US.40-GEN-03` (US.40) — 5 claim(s)
+*content hash* `812b01781727f868` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1922-1922; the standard is placed in the era 1920-1929 (cluster 'The 1920s (1920-1929)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (1)
+- [ ] `choice A.text` · *student-facing* — 1922
+
+**causal** (1)
+- [ ] `choice D.misconception` · *teacher-facing* — …stallment credit with a brokerage margin loan because both are borrowing
+
+**named-entity** (3)
+- [ ] `stem` · *student-facing* — Warren G. Harding's
+- [ ] `stem` · *student-facing* — President Calvin Coolidge's
+- [ ] `choice B.text` · *student-facing* — New York Stock Exchange
+
+### `US.53-GEN-01` (US.53) — 19 claim(s)
+*content hash* `3570857c9356744a` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1941-1943; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (2)
+- [ ] `explanation` · *student-facing* — …ts for combat flying. That is why a woman who had never been in the armed forces was flying Army airc…
+- [ ] `choice B.explanation` · *teacher-facing* — …ion; Fort was a pilot, and the women who flew were never brought under it.
+
+**precise-date** (1)
+- [ ] `stem` · *student-facing* — December 7, 1941
+
+**quantity** (3)
+- [ ] `stem` · *student-facing* — 1941
+- [ ] `choice B.text` · *student-facing* — 1943
+- [ ] `choice C.text` · *student-facing* — 1942
+
+**superlative** (4)
+- [ ] `explanation` · *student-facing* — …or combat flying. That is why a woman who had never been in the armed forces was flying Army airc…
+- [ ] `choice B.explanation` · *teacher-facing* — …Fort was a pilot, and the women who flew were never brought under it.
+- [ ] `choice D.text` · *student-facing* — …rmy Nurse Corps, the branch through which the largest number of American women served overseas
+- [ ] `choice D.misconception` · *teacher-facing* — answers with the period's largest women's service when asked about a pilot's as…
+
+**causal** (1)
+- [ ] `choice B.misconception` · *teacher-facing* — …n who flew to the women's ground organization because both served the Army
+
+**named-entity** (8)
+- [ ] `stem` · *student-facing* — Pearl Harbor
+- [ ] `explanation` · *student-facing* — Pearl Harbor
+- [ ] `choice A.text` · *student-facing* — Auxiliary Ferrying Squadron
+- [ ] `choice A.text` · *student-facing* — United States
+- [ ] `choice B.text` · *student-facing* — Army Corps
+- [ ] `choice C.text` · *student-facing* — United States Navy
+- [ ] `choice D.text` · *student-facing* — Army Nurse Corps
+- [ ] `choice D.explanation` · *teacher-facing* — Nurse Corps
+
+### `US.53-GEN-02` (US.53) — 16 claim(s)
+*content hash* `9af4453f2b099c37` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1943-1977; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**negative-existence** (1)
+- [ ] `choice A.explanation` · *teacher-facing* — …s nothing to do with her: she was a pilot and was never in the auxiliary or the corps that replaced i…
+
+**precise-date** (1)
+- [ ] `stem` · *student-facing* — March 21, 1943
+
+**quantity** (9)
+- [ ] `stem` · *student-facing* — 1943
+- [ ] `explanation` · *student-facing* — 1977
+- [ ] `choice A.explanation` · *teacher-facing* — 1943
+- [ ] `choice B.text` · *student-facing* — 1943
+- [ ] `choice C.explanation` · *teacher-facing* — 1944
+- [ ] `choice C.explanation` · *teacher-facing* — 1943
+- [ ] `choice C.misconception` · *teacher-facing* — 1944
+- [ ] `choice C.misconception` · *teacher-facing* — 1943
+- [ ] `choice D.text` · *student-facing* — 1977
+
+**superlative** (3)
+- [ ] `dokRationale` · *teacher-facing* — …g among four true statements about the period only one of which produces the outcome described. …
+- [ ] `choice A.explanation` · *teacher-facing* — …thing to do with her: she was a pilot and was never in the auxiliary or the corps that replaced i…
+- [ ] `choice B.explanation` · *teacher-facing* — …e did die before that merger, which makes the first half true. It explains nothing: the squadron …
+
+**named-entity** (2)
+- [ ] `choice A.text` · *student-facing* — Army Corps
+- [ ] `choice B.text` · *student-facing* — Women Airforce Service Pilots
+
+### `US.53-GEN-03` (US.53) — 19 claim(s)
+*content hash* `4c35e5ad21b614f5` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1942-1943; the standard is placed in the era 1936-1945 (cluster 'World War II (1936-1945)'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (6)
+- [ ] `explanation` · *student-facing* — 1943
+- [ ] `choice B.text` · *student-facing* — 1943
+- [ ] `choice C.text` · *student-facing* — 1943
+- [ ] `choice C.explanation` · *teacher-facing* — 1943
+- [ ] `choice C.misconception` · *teacher-facing* — 1943
+- [ ] `choice D.explanation` · *teacher-facing* — 1942
+
+**causal** (2)
+- [ ] `choice A.explanation` · *teacher-facing* — …nt did run a large campaign to recruit women, which is why this sounds right. This particular poster was…
+- [ ] `choice D.explanation` · *teacher-facing* — …r plant and she did appear in a wartime film, which is why her name attaches to Rosie. She is not the wo…
+
+**named-entity** (11)
+- [ ] `stem` · *student-facing* — We Can Do It
+- [ ] `stem` · *student-facing* — Rosie the Riveter. What
+- [ ] `explanation` · *student-facing* — Rosie the Riveter
+- [ ] `choice B.text` · *student-facing* — Rosie the Riveter
+- [ ] `choice C.text` · *student-facing* — Norman Rockwell
+- [ ] `choice C.text` · *student-facing* — Saturday Evening Post
+- [ ] `choice C.text` · *student-facing* — Rosie the Riveter
+- [ ] `choice C.explanation` · *teacher-facing* — Rosie the Riveter
+- [ ] `choice D.text` · *student-facing* — Rose Will Monroe
+- [ ] `choice D.explanation` · *teacher-facing* — Will Monroe
+- [ ] `choice D.explanation` · *teacher-facing* — Willow Run
 
 ### `q-us2-dok4-cr2` (US.23) — 9 claim(s)
 *content hash* `de5dc1dc6d1b8caa` — if the item is edited after you sign, this changes and the review is stale.
