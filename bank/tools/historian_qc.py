@@ -145,22 +145,34 @@ def review(it, std):
         for f, aud in CHOICE_FIELDS:
             claims += claims_in(c.get(f), f"choice {c.get('id')}.{f}", aud)
 
-    flags = []
-    # CROSS-CHECK 1 — years against the standard's own declared era.
+    flags, context = [], []
+    # CONTEXT, NOT A FLAG — and it was a flag until its first run, which was
+    # wrong 5 times out of 5.
+    #
+    # `era` is where TDOE PLACES a standard in the course, not a boundary on
+    # its content. US.01's era reads 1877-1900 and its cluster is literally
+    # "Reconstruction"; the Ku Klux Klan, founded 1866, is named in the
+    # standard's own text. US.05 is the Dawes Act of 1887 and its land-loss
+    # figure runs to 1934, which is the standard terminus for measuring that
+    # Act. Every year the check flagged was correct history.
+    #
+    # A flag that is 100% false on its first run is worse than no flag: it
+    # teaches the reader to skip the section headed "look at these first",
+    # which is where the one real finding lives. So the span is reported as
+    # orientation — here is the period this item actually covers — and claims
+    # nothing about whether that is wrong.
     rng = era_years((std or {}).get("era", ""))
-    if rng:
-        lo, hi = rng
-        years = sorted({int(y) for f, _ in FIELDS for y in YEAR.findall(str(it.get(f) or ""))}
-                       | {int(y) for c in itemio.choices(it) if isinstance(c, dict)
-                          for f, _ in CHOICE_FIELDS for y in YEAR.findall(str(c.get(f) or ""))})
-        outside = [y for y in years if not (lo <= y <= hi)]
-        if outside:
-            flags.append({"kind": "outside-declared-era",
-                          "detail": f"year(s) {outside} fall outside this standard's era "
-                                    f"{lo}-{hi}. Often legitimate — background a standard needs "
-                                    f"— and worth one look, because it is also what a "
-                                    f"misplaced event looks like.",
-                          "years": outside, "era": [lo, hi]})
+    years = sorted({int(y) for f, _ in FIELDS for y in YEAR.findall(str(it.get(f) or ""))}
+                   | {int(y) for c in itemio.choices(it) if isinstance(c, dict)
+                      for f, _ in CHOICE_FIELDS for y in YEAR.findall(str(c.get(f) or ""))})
+    if years:
+        context.append({"kind": "year-span",
+                        "detail": f"this item spans {min(years)}-{max(years)}"
+                                  + (f"; the standard is placed in the era {rng[0]}-{rng[1]}"
+                                     f" (cluster {(std or {}).get('cluster')!r})" if rng else "")
+                                  + ". Placement is not a content boundary — stated for "
+                                    "orientation, not as a problem.",
+                        "years": years, "era": list(rng) if rng else None})
     # CROSS-CHECK 2 — a teacher-facing field carrying a negative-existence claim.
     for c in claims:
         if c["kind"] == "negative-existence" and c["audience"] == "teacher":
@@ -173,7 +185,7 @@ def review(it, std):
             "contentHash": _content_hash(it),
             "claimCount": len(claims),
             "byKind": dict(collections.Counter(c["kind"] for c in claims)),
-            "flags": flags, "claims": claims}
+            "flags": flags, "context": context, "claims": claims}
 
 
 def queue(items, b, only=None):
@@ -210,7 +222,9 @@ def main():
           f"{sum(r['claimCount'] for r in recs)} confirmable claim(s)")
     print("  by kind: " + ", ".join(f"{k}={sum(r['byKind'].get(k,0) for r in recs)}"
                                     for k in sorted(kinds)))
-    print("  flags:   " + (", ".join(f"{k}={v}" for k, v in flags.most_common()) or "none"))
+    print("  flags:   " + (", ".join(f"{k}={v}" for k, v in flags.most_common())
+                            or "none — and none is the honest answer more often than not; "
+                               "the claim list is the product, not the flags"))
 
     write_worksheet(recs)
     print(f"\nwrote {os.path.relpath(OUT, itemio.BANK_ROOT)}")
@@ -244,7 +258,13 @@ def write_worksheet(recs):
          "which is false, and no gate read that field.", ""]
     flagged = [r for r in recs if r["flags"]]
     if flagged:
-        L += ["## Look at these first", ""]
+        L += ["## Look at these first", "",
+              "*This section is kept SHORT on purpose. An `outside-declared-era` check sat here "
+              "until its first run flagged five items and all five were correct history — a "
+              "standard's era is where TDOE places it in the course, not a boundary on its "
+              "content. A heading that is wrong five times out of five teaches you to skip it, "
+              "so year spans moved to orientation and only claims that genuinely need a "
+              "verdict appear here.*", ""]
         for r in flagged:
             L.append(f"### `{r['itemId']}` ({r['standard']})")
             for f in r["flags"]:
@@ -257,6 +277,8 @@ def write_worksheet(recs):
         L.append(f"### `{r['itemId']}` ({r['standard']}) — {r['claimCount']} claim(s)")
         L.append(f"*content hash* `{r['contentHash']}` — if the item is edited after you sign, "
                  f"this changes and the review is stale.")
+        for c in r.get("context", []):
+            L.append(f"*{c['kind']}* — {c['detail']}")
         L.append("")
         order = ["negative-existence", "precise-date", "quantity", "superlative",
                  "causal", "named-entity"]

@@ -116,7 +116,7 @@ below it can be trusted.
    exists.
 4. **Prove every gate, then neuter it.** Defect fails, clean passes, empty fails — then
    replace the gate with an always-green stub and confirm the proofs go red.
-5. **Every mistake gets a guard.** `lessons.json` — **83 lessons, 308 guards**.
+5. **Every mistake gets a guard.** `lessons.json` — **84 lessons, 313 guards**.
    `tools/check_lessons.py` fails the build if a lesson has no guard, if a named guard no
    longer exists, or if a suite exists that nothing runs. **It has caught six guard
    strings that my own rewrites deleted.**
@@ -237,8 +237,13 @@ because it was word-substitution pseudo-translation. A Spanish reader is require
   current. **It verifies no history and affirms nothing.** The `historian-qc` gate checks
   the QUEUE, never the history: every queued item has a record, no record is stale. A
   non-empty queue is not a finding; an EMPTY one is, because the flag has stopped being
-  set. Current: **16 items, 188 claims, 5 outside-declared-era, 1 negative claim** (in my
-  own writing, confirmed true on inspection).
+  set. Current: **16 items, 188 claims, 1 flag** — a negative claim in my own writing,
+  confirmed true on inspection. An `outside-declared-era` check sat beside it until its
+  first run flagged five items and **all five were correct history**: a standard's `era`
+  is where TDOE PLACES it in the course, not a boundary on its content (US.01 reads
+  1877-1900 and its cluster is 'Reconstruction'; the Klan it names was founded 1866).
+  Year spans are now orientation, not accusation — a flag wrong five times out of five
+  teaches you to skip the heading where the one real finding lives. L84.
   *Why it was missing: the plumbing for a review was so visible that the absence of the
   review's SUBJECT was invisible. `ai_review.py` triages rubric shape, key contradiction,
   translation and citation form — not one reads a date, an actor or an attribution. L83.*

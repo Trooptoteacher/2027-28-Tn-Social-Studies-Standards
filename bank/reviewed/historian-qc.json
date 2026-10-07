@@ -14,6 +14,20 @@
         "precise-date": 1
       },
       "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1948-1949; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1948,
+            1949
+          ],
+          "era": [
+            1947,
+            1991
+          ]
+        }
+      ],
       "claims": [
         {
           "kind": "quantity",
@@ -141,6 +155,19 @@
         "superlative": 2
       },
       "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1949-1949; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1949
+          ],
+          "era": [
+            1947,
+            1991
+          ]
+        }
+      ],
       "claims": [
         {
           "kind": "precise-date",
@@ -240,6 +267,19 @@
         "superlative": 2
       },
       "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1949-1949; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1949
+          ],
+          "era": [
+            1947,
+            1991
+          ]
+        }
+      ],
       "claims": [
         {
           "kind": "precise-date",
@@ -361,6 +401,19 @@
         "superlative": 2
       },
       "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1947-1947; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1947
+          ],
+          "era": [
+            1947,
+            1991
+          ]
+        }
+      ],
       "claims": [
         {
           "kind": "named-entity",
@@ -549,6 +602,20 @@
         "quantity": 4
       },
       "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1949-1955; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1949,
+            1955
+          ],
+          "era": [
+            1947,
+            1991
+          ]
+        }
+      ],
       "claims": [
         {
           "kind": "named-entity",
@@ -647,13 +714,15 @@
         "named-entity": 5,
         "superlative": 3
       },
-      "flags": [
+      "flags": [],
+      "context": [
         {
-          "kind": "outside-declared-era",
-          "detail": "year(s) [1868, 1870] fall outside this standard's era 1877-1900. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.",
+          "kind": "year-span",
+          "detail": "this item spans 1868-1877; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.",
           "years": [
             1868,
-            1870
+            1870,
+            1877
           ],
           "era": [
             1877,
@@ -787,10 +856,11 @@
         "causal": 1,
         "superlative": 1
       },
-      "flags": [
+      "flags": [],
+      "context": [
         {
-          "kind": "outside-declared-era",
-          "detail": "year(s) [1866, 1870, 1871] fall outside this standard's era 1877-1900. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.",
+          "kind": "year-span",
+          "detail": "this item spans 1866-1871; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.",
           "years": [
             1866,
             1870,
@@ -872,6 +942,19 @@
         "superlative": 2
       },
       "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1892-1892; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1892
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
       "claims": [
         {
           "kind": "named-entity",
@@ -933,11 +1016,13 @@
         "quantity": 5,
         "named-entity": 3
       },
-      "flags": [
+      "flags": [],
+      "context": [
         {
-          "kind": "outside-declared-era",
-          "detail": "year(s) [1934] fall outside this standard's era 1877-1900. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.",
+          "kind": "year-span",
+          "detail": "this item spans 1887-1934; the standard is placed in the era 1877-1900 (cluster 'Westward Expansion'). Placement is not a content boundary — stated for orientation, not as a problem.",
           "years": [
+            1887,
             1934
           ],
           "era": [
@@ -1014,10 +1099,11 @@
         "named-entity": 3,
         "quantity": 1
       },
-      "flags": [
+      "flags": [],
+      "context": [
         {
-          "kind": "outside-declared-era",
-          "detail": "year(s) [1871] fall outside this standard's era 1877-1900. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.",
+          "kind": "year-span",
+          "detail": "this item spans 1871-1871; the standard is placed in the era 1877-1900 (cluster 'Westward Expansion'). Placement is not a content boundary — stated for orientation, not as a problem.",
           "years": [
             1871
           ],
@@ -1068,6 +1154,7 @@
         "causal": 1
       },
       "flags": [],
+      "context": [],
       "claims": [
         {
           "kind": "named-entity",
@@ -1145,6 +1232,7 @@
         "causal": 1
       },
       "flags": [],
+      "context": [],
       "claims": [
         {
           "kind": "named-entity",
@@ -1214,6 +1302,19 @@
           "kind": "unreviewed-negative-claim",
           "detail": "choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.",
           "quote": "…nty-first Amendment in December 1933 — and it was never one of the programme's three aims."
+        }
+      ],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1933-1933; the standard is placed in the era 1929-1941 (cluster 'The Great Depression and New Deal (1929-1941)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1933
+          ],
+          "era": [
+            1929,
+            1941
+          ]
         }
       ],
       "claims": [
@@ -1348,12 +1449,14 @@
         "causal": 1,
         "quantity": 2
       },
-      "flags": [
+      "flags": [],
+      "context": [
         {
-          "kind": "outside-declared-era",
-          "detail": "year(s) [1945] fall outside this standard's era 1947-1991. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.",
+          "kind": "year-span",
+          "detail": "this item spans 1945-1948; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.",
           "years": [
-            1945
+            1945,
+            1948
           ],
           "era": [
             1947,
@@ -1487,6 +1590,7 @@
         "causal": 1
       },
       "flags": [],
+      "context": [],
       "claims": [
         {
           "kind": "named-entity",
@@ -1564,6 +1668,19 @@
         "causal": 1
       },
       "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1948-1948; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1948
+          ],
+          "era": [
+            1947,
+            1991
+          ]
+        }
+      ],
       "claims": [
         {
           "kind": "quantity",

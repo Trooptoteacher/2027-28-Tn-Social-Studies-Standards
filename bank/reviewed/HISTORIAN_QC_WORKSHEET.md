@@ -6,29 +6,17 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ## Look at these first
 
-### `US.01-GEN-01` (US.01)
-- **outside-declared-era** — year(s) [1868, 1870] fall outside this standard's era 1877-1900. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.
-
-### `US.01-GEN-02` (US.01)
-- **outside-declared-era** — year(s) [1866, 1870, 1871] fall outside this standard's era 1877-1900. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.
-
-### `US.05-GEN-01` (US.05)
-- **outside-declared-era** — year(s) [1934] fall outside this standard's era 1877-1900. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.
-
-### `US.05-GEN-02` (US.05)
-- **outside-declared-era** — year(s) [1871] fall outside this standard's era 1877-1900. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.
+*This section is kept SHORT on purpose. An `outside-declared-era` check sat here until its first run flagged five items and all five were correct history — a standard's era is where TDOE places it in the course, not a boundary on its content. A heading that is wrong five times out of five teaches you to skip it, so year spans moved to orientation and only claims that genuinely need a verdict appear here.*
 
 ### `q-us45-dok1-1` (US.46)
 - **unreviewed-negative-claim** — choice B.explanation asserts a negative. No gate reads this field for historical truth, and a false negative here is exactly the defect PSTIM-0041 shipped.
   - > …nty-first Amendment in December 1933 — and it was never one of the programme's three aims.
 
-### `q-us59-dok1-4` (US.59)
-- **outside-declared-era** — year(s) [1945] fall outside this standard's era 1947-1991. Often legitimate — background a standard needs — and worth one look, because it is also what a misplaced event looks like.
-
 ## Every item in the queue
 
 ### `PSTIM-0041` (US.60) — 16 claim(s)
 *content hash* `140b5d1bb9a581b1` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1948-1949; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **precise-date** (1)
 - [ ] `choice B.explanation` · *teacher-facing* — May 12, 1949
@@ -54,6 +42,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `PSTIM-0166` (US.59) — 12 claim(s)
 *content hash* `e42f1f6d77f5b569` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1949-1949; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **precise-date** (2)
 - [ ] `stem` · *student-facing* — April 4, 1949
@@ -77,6 +66,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `PSTIM-0167` (US.59) — 15 claim(s)
 *content hash* `311f3cbd937c8a60` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1949-1949; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **precise-date** (1)
 - [ ] `stem` · *student-facing* — April 4, 1949
@@ -103,6 +93,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `U7-DOK2-0001` (US.60) — 25 claim(s)
 *content hash* `a6494e1137e03af4` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1947-1947; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **precise-date** (2)
 - [ ] `explanation` · *student-facing* — March 12, 1947
@@ -141,6 +132,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `U7-DOK2-0005` (US.59) — 12 claim(s)
 *content hash* `4b15b99f51b9c509` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1949-1955; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **quantity** (4)
 - [ ] `explanation` · *student-facing* — 1949
@@ -160,6 +152,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `US.01-GEN-01` (US.01) — 16 claim(s)
 *content hash* `9636e82aabf5ce0f` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1868-1877; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **quantity** (7)
 - [ ] `stem` · *student-facing* — 1877
@@ -187,6 +180,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `US.01-GEN-02` (US.01) — 8 claim(s)
 *content hash* `f427df6610707574` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1866-1871; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **quantity** (4)
 - [ ] `stem` · *student-facing* — 1866
@@ -206,6 +200,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `US.01-GEN-03` (US.01) — 7 claim(s)
 *content hash* `d7c9070198057844` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1892-1892; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **quantity** (1)
 - [ ] `choice B.text` · *student-facing* — 1892
@@ -222,6 +217,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `US.05-GEN-01` (US.05) — 8 claim(s)
 *content hash* `86ab653e3f371244` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1887-1934; the standard is placed in the era 1877-1900 (cluster 'Westward Expansion'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **quantity** (5)
 - [ ] `stem` · *student-facing* — 1887
@@ -237,6 +233,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `US.05-GEN-02` (US.05) — 4 claim(s)
 *content hash* `57611206bf2fae5e` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1871-1871; the standard is placed in the era 1877-1900 (cluster 'Westward Expansion'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **quantity** (1)
 - [ ] `choice D.explanation` · *teacher-facing* — 1871
@@ -280,6 +277,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `q-us45-dok1-1` (US.46) — 17 claim(s)
 *content hash* `97042913a70a384c` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1933-1933; the standard is placed in the era 1929-1941 (cluster 'The Great Depression and New Deal (1929-1941)'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **negative-existence** (1)
 - [ ] `choice B.explanation` · *teacher-facing* — …nty-first Amendment in December 1933 — and it was never one of the programme's three aims.
@@ -310,6 +308,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `q-us59-dok1-4` (US.59) — 16 claim(s)
 *content hash* `8ca065c75bf9484f` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1945-1948; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **quantity** (2)
 - [ ] `choice B.explanation` · *teacher-facing* — 1945
@@ -353,6 +352,7 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 
 ### `q-us6-dok4-cr3` (US.60) — 7 claim(s)
 *content hash* `a032ba010c86fee8` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1948-1948; the standard is placed in the era 1947-1991 (cluster 'Cold War (1947-1991)'). Placement is not a content boundary — stated for orientation, not as a problem.
 
 **quantity** (1)
 - [ ] `stem` · *student-facing* — 1948

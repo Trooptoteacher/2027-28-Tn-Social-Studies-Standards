@@ -1826,6 +1826,33 @@
           "contains": "never the history"
         }
       ]
+    },
+    {
+      "id": "L84",
+      "mistake": "I BUILT A CRY-WOLF CHECK AND ITS FIRST RUN CAUGHT IT: FIVE FLAGS, FIVE FALSE. The historian QC's `outside-declared-era` check compared every year in an item against the year range in its standard's `era` field and put the mismatches under a heading reading 'Look at these first'. It fired on 5 of 16 items and every single one was correct history. The diagnosis is clean and it is about the DATA, not the arithmetic: `era` is where TDOE PLACES a standard in the course, not a boundary on its content. US.01's era reads 1877-1900 and its cluster is literally 'Reconstruction'; the Ku Klux Klan, founded 1866, is named in the standard's own verbatim text, so the standard's own content falls outside its own declared era. US.05 is the Dawes Act of 1887 and its land-loss figure runs 138 million acres to about 48 million by 1934, which is the standard terminus for measuring that Act. US.59's satellite-states item reaches back to 1945 for the troops that stayed. Every year flagged was right, relevant, and in several cases required by the standard. A FLAG THAT IS 100% FALSE ON ITS FIRST RUN IS WORSE THAN NO FLAG, and worse in a specific way: it teaches the reader to skip the section headed 'look at these first', which is precisely where the one real finding lives. Five benign entries would have buried the single `unreviewed-negative-claim` that the tool was built to surface. This repo's own ledger says it twice already — an alarm that fires on the harmless, and a gate that cries wolf teaches the next person to disbelieve the one check that catches genuinely lost content — and I reproduced it inside the instrument written to answer that very problem. The fix is not a tolerance. A year span cannot distinguish legitimate background from a misplaced event, so it does not get to accuse: it is reported as ORIENTATION ('this item spans 1868-1900; the standard is placed in 1877-1900, cluster Reconstruction'), visible and claiming nothing. The worksheet now says why the section is short, so the next person does not re-add it. WHAT SURVIVED IS THE CHECK THAT WAS AIMED RIGHT. `unreviewed-negative-claim` fired once, on my own rewrite of two days earlier, and the negative it questioned turned out TRUE. That is not a false positive — the whole contract of that flag is 'confirm this', and a confirmed prompt is the flag working. The difference between the two checks is that one asks a question a person can answer and the other asserted a problem that was not there.",
+      "caughtBy": "Reading all five of the new check's own flags instead of trusting the count.",
+      "guards": [
+        {
+          "file": "tools/historian_qc.py",
+          "contains": "CONTEXT, NOT A FLAG"
+        },
+        {
+          "file": "tools/historian_qc.py",
+          "contains": "wrong 5 times out of 5"
+        },
+        {
+          "file": "tools/historian_qc.py",
+          "contains": "Placement is not a content boundary"
+        },
+        {
+          "file": "tools/historian_qc.py",
+          "contains": "teaches the reader to skip the section"
+        },
+        {
+          "file": "tools/historian_qc.py",
+          "contains": "kept SHORT on purpose"
+        }
+      ]
     }
   ]
 }
