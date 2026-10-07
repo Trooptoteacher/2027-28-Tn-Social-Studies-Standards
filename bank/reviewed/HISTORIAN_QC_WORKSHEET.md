@@ -215,6 +215,49 @@ Claims are ordered worst-first. A **negative-existence** claim leads because it 
 - [ ] `choice B.text` · *student-facing* — Southern Horrors
 - [ ] `choice D.explanation` · *teacher-facing* — Black Southerners. The
 
+### `US.03-GEN-01` (US.03) — 9 claim(s)
+*content hash* `4009e087ec43a473` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1878-1896; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (3)
+- [ ] `choice A.explanation` · *teacher-facing* — 1896
+- [ ] `choice C.explanation` · *teacher-facing* — 1878
+- [ ] `choice D.explanation` · *teacher-facing* — 1880
+
+**named-entity** (6)
+- [ ] `explanation` · *student-facing* — Black Tennesseans
+- [ ] `explanation` · *student-facing* — Deep South
+- [ ] `explanation` · *student-facing* — Colored Exodus
+- [ ] `choice A.explanation` · *teacher-facing* — New Orleans
+- [ ] `choice A.explanation` · *teacher-facing* — Supreme Court
+- [ ] `choice C.text` · *student-facing* — American Colonization Society
+
+### `US.03-GEN-02` (US.03) — 9 claim(s)
+*content hash* `0c2e0e299badc4ea` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1862-1916; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (5)
+- [ ] `stem` · *student-facing* — 1879
+- [ ] `choice A.explanation` · *teacher-facing* — 1862
+- [ ] `choice B.explanation` · *teacher-facing* — 1916
+- [ ] `choice B.explanation` · *teacher-facing* — 1879
+- [ ] `choice B.misconception` · *teacher-facing* — 1879
+
+**named-entity** (4)
+- [ ] `explanation` · *student-facing* — Black Southerners
+- [ ] `choice A.text` · *student-facing* — Homestead Act
+- [ ] `choice B.explanation` · *teacher-facing* — Great Migration
+- [ ] `choice B.misconception` · *teacher-facing* — Great Migration's
+
+### `US.03-GEN-03` (US.03) — 3 claim(s)
+*content hash* `6878c8d28d3b0804` — if the item is edited after you sign, this changes and the review is stale.
+*year-span* — this item spans 1872-1880; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.
+
+**quantity** (3)
+- [ ] `choice A.explanation` · *teacher-facing* — 1880
+- [ ] `choice B.explanation` · *teacher-facing* — 1872
+- [ ] `choice C.explanation` · *teacher-facing* — 1877
+
 ### `US.05-GEN-01` (US.05) — 8 claim(s)
 *content hash* `86ab653e3f371244` — if the item is edited after you sign, this changes and the review is stale.
 *year-span* — this item spans 1887-1934; the standard is placed in the era 1877-1900 (cluster 'Westward Expansion'). Placement is not a content boundary — stated for orientation, not as a problem.

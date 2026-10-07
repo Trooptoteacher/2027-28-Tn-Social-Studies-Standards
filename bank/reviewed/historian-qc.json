@@ -1008,6 +1008,236 @@
       ]
     },
     {
+      "itemId": "US.03-GEN-01",
+      "standard": "US.03",
+      "contentHash": "4009e087ec43a473",
+      "claimCount": 9,
+      "byKind": {
+        "named-entity": 6,
+        "quantity": 3
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1878-1896; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1878,
+            1880,
+            1896
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Black Tennesseans",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Deep South",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Colored Exodus",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1896",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "New Orleans",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "Supreme Court",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice C.text",
+          "audience": "student",
+          "quote": "American Colonization Society",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1878",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice D.explanation",
+          "audience": "teacher",
+          "quote": "1880",
+          "why": "a figure is either right or wrong."
+        }
+      ]
+    },
+    {
+      "itemId": "US.03-GEN-02",
+      "standard": "US.03",
+      "contentHash": "0c2e0e299badc4ea",
+      "claimCount": 9,
+      "byKind": {
+        "quantity": 5,
+        "named-entity": 4
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1862-1916; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1862,
+            1879,
+            1916
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "stem",
+          "audience": "student",
+          "quote": "1879",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "explanation",
+          "audience": "student",
+          "quote": "Black Southerners",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice A.text",
+          "audience": "student",
+          "quote": "Homestead Act",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1862",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1916",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1879",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "Great Migration",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "1879",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "named-entity",
+          "where": "choice B.misconception",
+          "audience": "teacher",
+          "quote": "Great Migration's",
+          "why": "confirm the name, and that the action beside it belongs to it."
+        }
+      ]
+    },
+    {
+      "itemId": "US.03-GEN-03",
+      "standard": "US.03",
+      "contentHash": "6878c8d28d3b0804",
+      "claimCount": 3,
+      "byKind": {
+        "quantity": 3
+      },
+      "flags": [],
+      "context": [
+        {
+          "kind": "year-span",
+          "detail": "this item spans 1872-1880; the standard is placed in the era 1877-1900 (cluster 'Reconstruction'). Placement is not a content boundary — stated for orientation, not as a problem.",
+          "years": [
+            1872,
+            1877,
+            1880
+          ],
+          "era": [
+            1877,
+            1900
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "kind": "quantity",
+          "where": "choice A.explanation",
+          "audience": "teacher",
+          "quote": "1880",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice B.explanation",
+          "audience": "teacher",
+          "quote": "1872",
+          "why": "a figure is either right or wrong."
+        },
+        {
+          "kind": "quantity",
+          "where": "choice C.explanation",
+          "audience": "teacher",
+          "quote": "1877",
+          "why": "a figure is either right or wrong."
+        }
+      ]
+    },
+    {
       "itemId": "US.05-GEN-01",
       "standard": "US.05",
       "contentHash": "86ab653e3f371244",

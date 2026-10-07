@@ -10,35 +10,35 @@ BINDING — course: United States History and Geography (us-history-geography) �
 
 | Gate | Result | Scanned | Judged | Findings |
 |---|---|---|---|---|
-| `record-complete` | **FAIL** | 3991 | — | 3844 |
-| `binding` | **PASS** | 3991 | — | 0 |
-| `key-integrity` | **PASS** | 3991 | — | 0 |
-| `distractor-coverage` | **FAIL** | 3991 | 3849 | 22944 |
-| `truncation` | **FAIL** | 3991 | — | 91 |
-| `blueprint-conformance` | **FAIL** | 1992 | — | 28 |
-| `blueprint-achievability` | **FAIL** | 1992 | 94 | 20 |
-| `key-position-debias` | **PASS** | 3796 | — | 0 |
-| `serveability` | **FAIL** | 3931 | — | 994 |
-| `reporting-category-provenance` | **PASS** | 3991 | — | 0 |
+| `record-complete` | **FAIL** | 3994 | — | 3844 |
+| `binding` | **PASS** | 3994 | — | 0 |
+| `key-integrity` | **PASS** | 3994 | — | 0 |
+| `distractor-coverage` | **FAIL** | 3994 | 3852 | 22944 |
+| `truncation` | **FAIL** | 3994 | — | 91 |
+| `blueprint-conformance` | **FAIL** | 1995 | — | 28 |
+| `blueprint-achievability` | **FAIL** | 1995 | 94 | 19 |
+| `key-position-debias` | **PASS** | 3799 | — | 0 |
+| `serveability` | **FAIL** | 3934 | — | 994 |
+| `reporting-category-provenance` | **PASS** | 3994 | — | 0 |
 | `signal-coverage` | **PASS** | 94 | 94 | 0 |
-| `alignment-claim` | **PASS** | 3991 | 3931 | 0 |
-| `choice-length-cue` | **FAIL** | 3991 | 3796 | 1 |
-| `duplicate-stems` | **PASS** | 3991 | 3931 | 0 |
-| `citation-integrity` | **PASS** | 3991 | 35 | 0 |
-| `translation-claim` | **PASS** | 3991 | 3448 | 0 |
-| `explanation-quality` | **FAIL** | 3991 | 3931 | 918 |
-| `embedded-answer-key` | **PASS** | 3991 | 3931 | 0 |
-| `review-provenance` | **FAIL** | 3991 | 26 | 3 |
-| `tcap-format` | **PASS** | 3991 | 3931 | 0 |
-| `rubric` | **FAIL** | 3991 | 100 | 17 |
-| `bias-review` | **FAIL** | 3991 | 3931 | 3 |
-| `key-contradiction` | **PASS** | 3991 | 3931 | 0 |
-| `ai-review-boundary` | **PASS** | 3991 | 132 | 0 |
-| `review-debt` | **PASS** | 3991 | 106 | 0 |
-| `misconception-taxonomy` | **FAIL** | 3991 | 75 | 14 |
-| `historian-qc` | **PASS** | 3991 | 16 | 0 |
-| `stimulus-integrity` | **FAIL** | 3991 | 111 | 111 |
-| `release-readiness` | **FAIL** | 3931 | — | 6 |
+| `alignment-claim` | **PASS** | 3994 | 3934 | 0 |
+| `choice-length-cue` | **FAIL** | 3994 | 3799 | 1 |
+| `duplicate-stems` | **PASS** | 3994 | 3934 | 0 |
+| `citation-integrity` | **PASS** | 3994 | 35 | 0 |
+| `translation-claim` | **PASS** | 3994 | 3451 | 0 |
+| `explanation-quality` | **FAIL** | 3994 | 3934 | 918 |
+| `embedded-answer-key` | **PASS** | 3994 | 3934 | 0 |
+| `review-provenance` | **FAIL** | 3994 | 26 | 3 |
+| `tcap-format` | **PASS** | 3994 | 3934 | 0 |
+| `rubric` | **FAIL** | 3994 | 100 | 17 |
+| `bias-review` | **FAIL** | 3994 | 3934 | 6 |
+| `key-contradiction` | **PASS** | 3994 | 3934 | 0 |
+| `ai-review-boundary` | **PASS** | 3994 | 132 | 0 |
+| `review-debt` | **PASS** | 3994 | 106 | 0 |
+| `misconception-taxonomy` | **FAIL** | 3994 | 84 | 14 |
+| `historian-qc` | **PASS** | 3994 | 19 | 0 |
+| `stimulus-integrity` | **FAIL** | 3994 | 111 | 111 |
+| `release-readiness` | **FAIL** | 3934 | — | 6 |
 | `FORM-A/form-pagination` | **PASS** | 2 | 27 | 0 |
 | `FORM-A/form-type-size` | **PASS** | 2 | 53240 | 0 |
 | `FORM-A/form-key-leakage` | **PASS** | 1 | 5 | 0 |
@@ -115,12 +115,12 @@ BINDING — course: United States History and Geography (us-history-geography) �
 ## Bank
 
 - Source: **5,045** items from the 2026-27 `history-hack-web-app` bank
-- Servable: **3931** (3391 migrated, 511 provisional)
+- Servable: **3934** (3391 migrated, 511 provisional)
 - Quarantined (not servable, not coverage): **1059**
   - 929 — standard retired / no 2027-28 home
   - 130 — tests an element the 2027-28 standard dropped
-- Standards with a servable item: **87/94**
-- Standards receiving nothing: **7** — US.03, US.40, US.57, US.71, US.75, US.89, US.93
+- Standards with a servable item: **88/94**
+- Standards receiving nothing: **6** — US.40, US.57, US.71, US.75, US.89, US.93
 
 ## Forms
 
