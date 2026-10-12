@@ -212,6 +212,45 @@ def match_strand(text, size):
     return None
 
 
+HYPHEN_WRAP = re.compile(r"-$")
+
+
+def join_lines(lines: list[str]) -> str:
+    """Join a standard's physical lines back into its sentence.
+
+    ⛔ A LINE THAT ENDS IN A HYPHEN IS A TOKEN BROKEN BY THE PAGE, NOT TWO
+    WORDS. Joining every line with a space put a space inside the token and
+    the space then printed, verbatim, on a student's page:
+
+        US.37   "(T.C.A. § 49-6- 1006):"      US.89   "Bosnia- Herzegovina"
+        AAH.31  "the Spanish- American War"   E.06    "trade- offs"
+        AAH.17  "the pre- Civil War era"      +4 more statute citations
+
+    US.89's was DECLARED IN THE WEB APP AS A STATE ERRATUM -- "a stray space
+    follows the hyphen in the state's text" -- which was a false claim about
+    TDOE for our own parse artifact. Read off page 242 at 300dpi, the state
+    sets "Bosnia-" at the end of one line and "Herzegovina" on the next.
+
+    MEASURED ACROSS THE WHOLE DOCUMENT: nine line-end hyphens in 1,012
+    standards, and all nine are a split token. Not one is a place the state
+    printed a real space after a hyphen, so this cannot be over-matching on
+    today's document -- and the rule is narrow enough that it could not be in
+    general: it fires only at a physical line boundary. Sociology S.41's
+    "inter- and intra- group" is the case that looks like a counter-example
+    and is NOT one: both of its spaces are WITHIN a line (and "inter- and" is
+    correct English -- a suspended hyphen), so no join is involved.
+    """
+    out = ""
+    for ln in lines:
+        if not out:
+            out = ln
+        elif HYPHEN_WRAP.search(out.rstrip()) and ln.lstrip()[:1].isalnum():
+            out = out.rstrip() + ln.lstrip()
+        else:
+            out = out + " " + ln
+    return out
+
+
 def parse_course(doc, pfx, start, end):
     code_re = re.compile(r"^" + re.escape(pfx) + r"\.(\d{2,3})$")
     practices, standards = [], []
@@ -226,7 +265,7 @@ def parse_course(doc, pfx, start, end):
         nonlocal cur, cur_kind
         if cur is None:
             return
-        text = re.sub(r"\s+", " ", " ".join(cur["lines"])).strip()
+        text = re.sub(r"\s+", " ", join_lines(cur["lines"])).strip()
         if cur_kind == "ssp":
             if not any(p["code"] == cur["code"] for p in practices):
                 practices.append({"code": cur["code"], "text": text})

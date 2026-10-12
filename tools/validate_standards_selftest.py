@@ -29,6 +29,8 @@ ROOT = Path(__file__).resolve().parent.parent
 BASE_FILE = ROOT / "standards" / "us-history-geography.json"
 INDEX_FILE = ROOT / "index.json"
 
+import parse_standards as P  # noqa: E402
+
 cases, failures = [], []
 
 
@@ -445,6 +447,57 @@ case("CONTROL: one Overview under two headings passes (Sociology p194/p195)",
 case("CONTROL: a banner era holding many Overviews passes (World Geography)",
      n_era_may_hold_many_overviews, None)
 case("CONTROL: the real hash passes the format check", n_sha_case_is_lowercase_hex, None)
+
+
+# ---------------------------------------------------------------------------
+# join_lines -- a line that ends in a hyphen is a token broken by the page.
+#
+# ⛔ THE CONTROLS ARE THE POINT. This rule puts characters together that the
+# PDF kept apart, so an over-match silently DELETES a space the state printed.
+# Sociology S.41's "inter- and intra- group" is the shape that looks like a
+# counter-example: both spaces are within a line, so no join is involved, and
+# a rule that reached them would be wrong twice over ("inter- and" is correct
+# English -- a suspended hyphen). An em dash and a hyphen followed by
+# punctuation must also keep their space.
+#
+# US.89 is here by name because its space was DECLARED IN THE WEB APP AS A
+# STATE ERRATUM -- "a stray space follows the hyphen in the state's text" --
+# for three weeks. Page 242 at 300dpi shows TDOE setting "Bosnia-" at a line
+# end and "Herzegovina" on the next. We blamed the state for our own parser.
+# ---------------------------------------------------------------------------
+def _join(lines, want):
+    def fn():
+        got = P.join_lines(lines)  # the real parser, not a copy
+        return "" if got == want else f"join_lines gave {got!r}, wanted {want!r}"
+    return fn
+
+
+for _name, _in, _want, _expect in [
+    ("a statute citation split at a hyphen (US.37)",
+     ["s, including (T.C.A. \u00a7 49-6-", "1006):"],
+     "s, including (T.C.A. \u00a7 49-6-1006):", None),
+    ("a place name split at a hyphen (US.89)",
+     ["efforts in Bosnia-", "Herzegovina"],
+     "efforts in Bosnia-Herzegovina", None),
+    ("a proper adjective split at a hyphen (AAH.31)",
+     ["campaigns, the Spanish-", "American War"],
+     "campaigns, the Spanish-American War", None),
+    ("a common compound split at a hyphen (E.06)",
+     ["productivity, trade-", "offs, growth"],
+     "productivity, trade-offs, growth", None),
+    ("CONTROL an ordinary wrap keeps its space",
+     ["Summarize the major", "events of Reconstruction"],
+     "Summarize the major events of Reconstruction", None),
+    ("CONTROL an em dash is not a split token",
+     ["the question \u2014", "and the answer"],
+     "the question \u2014 and the answer", None),
+    ("CONTROL a suspended hyphen within one line is untouched (S.41)",
+     ["inter- and intra- group conflict"],
+     "inter- and intra- group conflict", None),
+    ("CONTROL a hyphen before punctuation keeps its space",
+     ["a dash -", ") then"], "a dash - ) then", None),
+]:
+    case(_name, _join(_in, _want), _expect)
 
 
 def main():
